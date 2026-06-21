@@ -145,10 +145,12 @@ export default function Home() {
   };
 
   const handleNotesChange = (val: string) => {
+    if (!activeSlug) return;
     setNotesByTopic((prev) => ({ ...prev, [activeSlug]: val }));
   };
 
   const handleBookmark = () => {
+    if (!activeSlug) return;
     setBookmarks((prev) => ({ ...prev, [activeSlug]: !prev[activeSlug] }));
   };
 
@@ -452,7 +454,7 @@ function TopicBrowser({
 }: {
   filteredGroups: { system: string; topics: TopicListItem[] }[];
   query: string;
-  activeSlug: string;
+  activeSlug: string | null;
   bookmarks: Record<string, boolean>;
   onSelectTopic: (slug: string) => void;
   totalTopics: number;
