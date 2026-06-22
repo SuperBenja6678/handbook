@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import {
@@ -19,12 +19,9 @@ import {
   Tags,
   Search,
   Heart,
-  FileText,
   Bookmark,
   ChevronRight,
-  Tag,
   StickyNote,
-  Clock,
   Zap,
   GraduationCap,
   Hospital,
@@ -32,7 +29,7 @@ import {
   AlertOctagon,
   ShieldAlert,
   Menu,
-  X,
+  Loader2,
 } from 'lucide-react';
 
 import {
@@ -42,7 +39,6 @@ import {
   SheetTitle,
 } from '@/components/ui/sheet';
 
-import { TOPIC_BUNDLES, TOPICS_BY_SYSTEM, SYSTEMS_ORDERED } from '@/data/manifest';
 import {
   ACUITY_META,
   WARD_SECTION_META,
@@ -82,6 +78,10 @@ interface TopicListItem {
   highYield: boolean;
 }
 
+/* ------------------------------------------------------------------ */
+/* HOME — root component                                              */
+/* ------------------------------------------------------------------ */
+
 export default function Home() {
   const [query, setQuery] = useState('');
   const [notesByTopic, setNotesByTopic] = useState<Record<string, string>>({});
@@ -94,35 +94,128 @@ export default function Home() {
   const [topicsSheetOpen, setTopicsSheetOpen] = useState(false);
   const [notesSheetOpen, setNotesSheetOpen] = useState(false);
 
-  const bundle = activeSlug ? TOPIC_BUNDLES[activeSlug] : null;
-  const entry: ClinicalEntry | null = bundle
-    ? (mode === 'WARD' ? bundle.ward : bundle.study)
-    : null;
+  // ---- Runtime data loading ----
+  const [topicList, setTopicList] = useState<TopicListItem[] | null>(null);
+  const [manifestLoading, setManifestLoading] = useState(true);
+  const [manifestError, setManifestError] = useState<string | null>(null);
+
+  const [loadedBundle, setLoadedBundle] = useState<{ ward: ClinicalEntry; study: ClinicalEntry } | null>(null);
+  const [entryLoading, setEntryLoading] = useState(false);
+  const entryCacheRef = useRef<Map<string, { ward: ClinicalEntry; study: ClinicalEntry }>>(new Map());
+
+  // 1. Load manifest on mount
+  useEffect(() => {
+    fetch('/data/manifest.json')
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: TopicListItem[]) => {
+        setTopicList(data);
+        setManifestLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load manifest:', err);
+        setManifestError(err.message);
+        setManifestLoading(false);
+      });
+  }, []);
+
+  // 2. Fetch topic content when activeSlug changes
+  useEffect(() => {
+    if (!activeSlug) {
+      setLoadedBundle(null);
+      setEntryLoading(false);
+      return;
+    }
+
+    // Check cache first (instant for previously viewed topics)
+    const cached = entryCacheRef.current.get(activeSlug);
+    if (cached) {
+      setLoadedBundle(cached);
+      setEntryLoading(false);
+      return;
+    }
+
+    setEntryLoading(true);
+    let cancelled = false;
+
+    Promise.all([
+      fetch(`/data/entries/${activeSlug}.ward.json`).then(r => r.json()),
+      fetch(`/data/entries/${activeSlug}.study.json`).then(r => r.json()),
+    ])
+      .then(([ward, study]) => {
+        if (cancelled) return;
+        const bundle = { ward, study };
+        entryCacheRef.current.set(activeSlug, bundle);
+        setLoadedBundle(bundle);
+        setEntryLoading(false);
+      })
+      .catch(err => {
+        if (cancelled) return;
+        console.error('Failed to load topic:', activeSlug, err);
+        setLoadedBundle(null);
+        setEntryLoading(false);
+      });
+
+    return () => { cancelled = true; };
+  }, [activeSlug]);
+
+  // 3. Derive data from topicList
+  const topicsBySystem = useMemo(() => {
+    if (!topicList) return {} as Record<string, TopicListItem[]>;
+    return topicList.reduce((acc, t) => {
+      if (!acc[t.system]) acc[t.system] = [];
+      acc[t.system].push(t);
+      return acc;
+    }, {} as Record<string, TopicListItem[]>);
+  }, [topicList]);
+
+  const systemsOrdered = useMemo(() => {
+    return Object.keys(topicsBySystem).sort();
+  }, [topicsBySystem]);
+
+  const allGroups = useMemo(() => {
+    return systemsOrdered.map(sys => ({
+      system: sys,
+      topics: topicsBySystem[sys],
+    }));
+  }, [systemsOrdered, topicsBySystem]);
+
+  const highYieldCount = useMemo(() => {
+    if (!topicList) return 0;
+    return topicList.filter(t => t.highYield).length;
+  }, [topicList]);
+
+  // 4. Derive current entry from loadedBundle and mode (instant mode switching)
+  const entry = useMemo(() => {
+    if (!loadedBundle) return null;
+    return mode === 'WARD' ? loadedBundle.ward : loadedBundle.study;
+  }, [loadedBundle, mode]);
+
   const sectionMeta: SectionMeta[] = mode === 'WARD' ? WARD_SECTION_META : STUDY_SECTION_META;
 
+  // 5. Filtered groups (for sidebar + system search)
   const filteredGroups = useMemo(() => {
     if (!query.trim()) {
-      return SYSTEMS_ORDERED.map((sys) => ({
-        system: sys,
-        topics: TOPICS_BY_SYSTEM[sys] as TopicListItem[],
-      }));
+      return allGroups;
     }
     const q = query.toLowerCase();
-    return SYSTEMS_ORDERED
-      .map((sys) => ({
+    return systemsOrdered
+      .map(sys => ({
         system: sys,
-        topics: (TOPICS_BY_SYSTEM[sys] as TopicListItem[]).filter(
-          (t) =>
+        topics: topicsBySystem[sys].filter(
+          t =>
             t.title.toLowerCase().includes(q) ||
             t.system.toLowerCase().includes(q) ||
-            t.subSystem.toLowerCase().includes(q)
+            t.subSystem.toLowerCase().includes(q),
         ),
       }))
-      .filter((g) => g.topics.length > 0);
-  }, [query]);
+      .filter(g => g.topics.length > 0);
+  }, [query, allGroups, systemsOrdered, topicsBySystem]);
 
-  const totalTopics = Object.keys(TOPIC_BUNDLES).length;
-  const totalSystems = SYSTEMS_ORDERED.length;
+  const totalTopics = topicList ? topicList.length : 0;
+  const totalSystems = systemsOrdered.length;
   const notes = activeSlug ? (notesByTopic[activeSlug] || '') : '';
   const bookmarked = activeSlug ? !!bookmarks[activeSlug] : false;
 
@@ -146,13 +239,37 @@ export default function Home() {
 
   const handleNotesChange = (val: string) => {
     if (!activeSlug) return;
-    setNotesByTopic((prev) => ({ ...prev, [activeSlug]: val }));
+    setNotesByTopic(prev => ({ ...prev, [activeSlug]: val }));
   };
 
   const handleBookmark = () => {
     if (!activeSlug) return;
-    setBookmarks((prev) => ({ ...prev, [activeSlug]: !prev[activeSlug] }));
+    setBookmarks(prev => ({ ...prev, [activeSlug]: !prev[activeSlug] }));
   };
+
+  // ---- Manifest loading / error states ----
+  if (manifestLoading) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-8 h-8 animate-spin text-slate-400 mx-auto mb-3" />
+          <p className="text-slate-500 text-sm">Loading clinical handbook&hellip;</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (manifestError) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4">
+        <div className="text-center max-w-sm">
+          <AlertTriangle className="w-12 h-12 text-red-400 mx-auto mb-4" />
+          <p className="text-slate-700 font-semibold mb-1">Failed to load topic list</p>
+          <p className="text-xs text-slate-500">{manifestError}</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
@@ -174,11 +291,13 @@ export default function Home() {
           query={query}
           onSelectSystem={handleSelectSystem}
           bookmarks={bookmarks}
+          highYieldCount={highYieldCount}
+          allGroups={allGroups}
         />
       ) : !activeSlug && selectedSystem ? (
         <SystemDashboard
           system={selectedSystem}
-          topics={(TOPICS_BY_SYSTEM[selectedSystem] || []) as TopicListItem[]}
+          topics={topicsBySystem[selectedSystem] || []}
           bookmarks={bookmarks}
           onSelectTopic={handleSelectTopic}
           onBack={() => setSelectedSystem(null)}
@@ -199,26 +318,41 @@ export default function Home() {
 
           {/* CENTER — Entry viewer */}
           <main className="bg-white rounded-lg border border-slate-200 overflow-hidden flex flex-col min-h-[60vh] lg:min-h-0">
-            <EntryHeader
-              entry={entry!}
-              mode={mode}
-              setMode={setMode}
-              bookmarked={bookmarked}
-              setBookmarked={handleBookmark}
-            />
-            <div className="flex-1 overflow-y-auto custom-scroll px-4 sm:px-8 py-5 sm:py-6">
-              <EntryBody entry={entry!} sectionMeta={sectionMeta} />
-            </div>
+            {entryLoading ? (
+              <div className="flex-1 flex items-center justify-center">
+                <Loader2 className="w-6 h-6 animate-spin text-slate-400" />
+                <span className="ml-2 text-sm text-slate-500">Loading topic&hellip;</span>
+              </div>
+            ) : entry ? (
+              <>
+                <EntryHeader
+                  entry={entry}
+                  mode={mode}
+                  setMode={setMode}
+                  bookmarked={bookmarked}
+                  setBookmarked={handleBookmark}
+                />
+                <div className="flex-1 overflow-y-auto custom-scroll px-4 sm:px-8 py-5 sm:py-6">
+                  <EntryBody entry={entry} sectionMeta={sectionMeta} />
+                </div>
+              </>
+            ) : (
+              <div className="flex-1 flex items-center justify-center text-sm text-slate-400">
+                Topic not found
+              </div>
+            )}
           </main>
 
           {/* RIGHT SIDEBAR (desktop only) */}
           <aside className="hidden lg:block bg-white rounded-lg border border-slate-200 p-3 h-[calc(100vh-140px)] overflow-hidden flex flex-col">
-            <NotesPanel
-              entry={entry!}
-              notes={notes}
-              onNotesChange={handleNotesChange}
-              mode={mode}
-            />
+            {entry && (
+              <NotesPanel
+                entry={entry}
+                notes={notes}
+                onNotesChange={handleNotesChange}
+                mode={mode}
+              />
+            )}
           </aside>
         </div>
       )}
@@ -288,6 +422,8 @@ function Dashboard({
   query,
   onSelectSystem,
   bookmarks,
+  highYieldCount,
+  allGroups,
 }: {
   totalTopics: number;
   totalSystems: number;
@@ -295,11 +431,9 @@ function Dashboard({
   query: string;
   onSelectSystem: (system: string) => void;
   bookmarks: Record<string, boolean>;
+  highYieldCount: number;
+  allGroups: { system: string; topics: TopicListItem[] }[];
 }) {
-  const HIGH_YIELD_COUNT = Object.values(TOPICS_BY_SYSTEM)
-    .flat()
-    .filter((t) => t.highYield).length;
-
   return (
     <div className="flex-1 max-w-[1100px] mx-auto w-full px-4 sm:px-6 py-6 sm:py-10">
       {/* Hero */}
@@ -326,7 +460,7 @@ function Dashboard({
           <div className="text-[11px] sm:text-xs text-slate-500 mt-0.5">Systems</div>
         </div>
         <div className="bg-white rounded-lg border border-slate-200 p-4 text-center">
-          <div className="text-2xl sm:text-3xl font-bold text-amber-600">{HIGH_YIELD_COUNT}</div>
+          <div className="text-2xl sm:text-3xl font-bold text-amber-600">{highYieldCount}</div>
           <div className="text-[11px] sm:text-xs text-slate-500 mt-0.5">High-Yield</div>
         </div>
       </div>
@@ -336,10 +470,7 @@ function Dashboard({
         Browse by System
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3">
-        {(query ? filteredGroups : SYSTEMS_ORDERED.map((sys) => ({
-          system: sys,
-          topics: TOPICS_BY_SYSTEM[sys] as TopicListItem[],
-        }))).map((group) => (
+        {(query ? filteredGroups : allGroups).map(group => (
           <button
             key={group.system}
             onClick={() => onSelectSystem(group.system)}
@@ -402,7 +533,7 @@ function SystemDashboard({
 
       {/* Topic list */}
       <div className="space-y-2">
-        {topics.map((t) => {
+        {topics.map(t => {
           const isBookmarked = !!bookmarks[t.slug];
           return (
             <button
@@ -472,13 +603,13 @@ function TopicBrowser({
       </div>
 
       <div className="flex-1 overflow-y-auto mt-2 -mx-1 px-1 custom-scroll">
-        {filteredGroups.map((group) => (
+        {filteredGroups.map(group => (
           <div key={group.system} className="mb-3">
             <div className="text-[11px] font-semibold uppercase tracking-wider text-slate-400 px-2 py-1.5">
               {group.system}
             </div>
             <ul className="space-y-0.5">
-              {group.topics.map((t) => {
+              {group.topics.map(t => {
                 const isActive = t.slug === activeSlug;
                 const isBookmarked = !!bookmarks[t.slug];
                 return (
@@ -552,7 +683,6 @@ function TopicBrowser({
           </div>
         )}
       </div>
-
     </>
   );
 }
@@ -588,11 +718,10 @@ function NotesPanel({
 
       <textarea
         value={notes}
-        onChange={(e) => onNotesChange(e.target.value)}
+        onChange={e => onNotesChange(e.target.value)}
         placeholder={`Add your own annotations for ${entry.title}…\n\n(e.g. saw a case on ward 7, treated with X, responded well)`}
         className="flex-1 mt-2 w-full resize-none rounded-md border border-slate-200 p-2 text-xs font-mono text-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-300 placeholder:text-slate-400 min-h-[200px]"
       />
-
     </div>
   );
 }
@@ -649,7 +778,7 @@ function Header({
           <input
             type="text"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={e => setQuery(e.target.value)}
             placeholder="Search topics…"
             className="w-full pl-9 pr-3 py-2 text-sm bg-slate-50 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-300 focus:bg-white placeholder:text-slate-400"
           />
@@ -663,7 +792,6 @@ function Header({
         >
           <StickyNote className="w-5 h-5" />
         </button>
-
       </div>
     </header>
   );
@@ -776,7 +904,7 @@ function EntryBody({
 }) {
   return (
     <div className="space-y-6 max-w-3xl mx-auto">
-      {sectionMeta.map((meta) => {
+      {sectionMeta.map(meta => {
         const content = findSectionContent(entry.sections, meta.name);
         if (!content) return null;
         const Icon = ICONS[meta.iconName] || Stethoscope;
@@ -813,8 +941,3 @@ function EntryBody({
     </div>
   );
 }
-
-/* ------------------------------------------------------------------ */
-/* MISC                                                                */
-/* ------------------------------------------------------------------ */
-
