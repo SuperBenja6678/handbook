@@ -82,10 +82,27 @@ interface TopicListItem {
 /* HOME — root component                                              */
 /* ------------------------------------------------------------------ */
 
+const NOTES_STORAGE_KEY = 'handbook.notesByTopic';
+const BOOKMARKS_STORAGE_KEY = 'handbook.bookmarks';
+
+function readStoredJson<T>(key: string, fallback: T): T {
+  if (typeof window === 'undefined') return fallback;
+  try {
+    const raw = window.localStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [notesByTopic, setNotesByTopic] = useState<Record<string, string>>({});
-  const [bookmarks, setBookmarks] = useState<Record<string, boolean>>({});
+  const [notesByTopic, setNotesByTopic] = useState<Record<string, string>>(() =>
+    readStoredJson(NOTES_STORAGE_KEY, {}),
+  );
+  const [bookmarks, setBookmarks] = useState<Record<string, boolean>>(() =>
+    readStoredJson(BOOKMARKS_STORAGE_KEY, {}),
+  );
   const [mode, setMode] = useState<EntryMode>('WARD');
   const [activeSlug, setActiveSlug] = useState<string | null>(null);
   const [selectedSystem, setSelectedSystem] = useState<string | null>(null);
@@ -160,6 +177,15 @@ export default function Home() {
 
     return () => { cancelled = true; };
   }, [activeSlug]);
+
+  // Persist notes and bookmarks locally so they survive reloads / app restarts
+  useEffect(() => {
+    window.localStorage.setItem(NOTES_STORAGE_KEY, JSON.stringify(notesByTopic));
+  }, [notesByTopic]);
+
+  useEffect(() => {
+    window.localStorage.setItem(BOOKMARKS_STORAGE_KEY, JSON.stringify(bookmarks));
+  }, [bookmarks]);
 
   // 3. Derive data from topicList
   const topicsBySystem = useMemo(() => {
