@@ -1,0 +1,513 @@
+{
+  "topic": "Amyloidosis",
+  "slug": "amyloidosis",
+  "system": "Haematology",
+  "subSystem": "Plasma cell",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9a713cbf7676",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with progressive dyspnoea, ankle swelling, and a palpable liver edge. On examination, he has periorbital purpura and a large, firm tongue with lateral scalloping. Urinalysis shows 3+ proteinuria. Serum free light chain ratio is abnormal. What is the single most likely diagnosis?",
+      "options": [
+        "Haemochromatosis",
+        "Sarcoidosis",
+        "Multiple myeloma",
+        "AL amyloidosis",
+        "Light chain deposition disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Periorbital purpura and macroglossia are virtually pathognomonic for AL amyloidosis. Multiple myeloma may have similar light chain abnormalities but does not cause these physical signs. Light chain deposition disease does not produce amyloid fibrils or these features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e23f640ace4a",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with no history of diabetes presents with a two-year history of bilateral carpal tunnel syndrome requiring surgery on both sides. He also reports postural dizziness and diarrhoea. Nerve conduction studies show an axonal polyneuropathy. Echocardiogram shows mild left ventricular thickening. What is the single most likely diagnosis?",
+      "options": [
+        "Hereditary transthyretin amyloidosis (ATTRv)",
+        "Diabetic neuropathy",
+        "Charcot-Marie-Tooth disease",
+        "AL amyloidosis",
+        "Chronic inflammatory demyelinating polyneuropathy (CIDP)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral carpal tunnel syndrome with autonomic dysfunction and echocardiographic thickening in a non-diabetic patient strongly suggests hereditary transthyretin amyloidosis (ATTRv). AL amyloidosis is less likely without serum free light chain abnormality or other organ involvement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9894bca0855",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with long-standing bronchiectasis and recurrent chest infections presents with new-onset ankle oedema. Urinalysis shows nephrotic-range proteinuria. Serum creatinine is 130 μmol/L. Serum electrophoresis is normal and urine Bence Jones protein is negative. Renal biopsy shows Congo red-positive deposits. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic nephropathy",
+        "Renal vein thrombosis",
+        "Membranous nephropathy",
+        "Minimal change disease",
+        "AA amyloidosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Nephrotic syndrome in a patient with chronic inflammatory disease (bronchiectasis) and negative serum/urine electrophoresis is typical of AA amyloidosis. Congo red positivity confirms amyloid; the type is suggested by the clinical context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2abb94f54257",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with easy bruising and a prolonged prothrombin time (PT) that does not correct with vitamin K. He has hepatomegaly and mild splenomegaly. Serum electrophoresis shows a monoclonal IgG lambda band. Factor X activity is severely reduced. What is the single most likely diagnosis?",
+      "options": [
+        "Disseminated intravascular coagulation",
+        "AL amyloidosis",
+        "Liver disease",
+        "Haemophilia A",
+        "Vitamin K deficiency"
+      ],
+      "answerIndex": 1,
+      "explanation": "Factor X deficiency is a well-recognised complication of AL amyloidosis due to absorption of factor X onto amyloid fibrils. The presence of a monoclonal protein and hepatosplenomegaly further supports AL amyloidosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "726de62c98e2",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old man presents with breathlessness and fatigue. ECG shows low voltage and a pseudoinfarct pattern in the anterior leads. Echocardiogram reveals left ventricular hypertrophy with a restrictive filling pattern. Troponin I is mildly elevated and NT-proBNP is markedly raised. Serum free light chain ratio is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Constrictive pericarditis",
+        "Dilated cardiomyopathy",
+        "Hypertrophic cardiomyopathy",
+        "Cardiac amyloidosis (ATTR type)",
+        "Hypertensive heart disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Low voltage ECG with echocardiographic hypertrophy (often low voltage despite hypertrophy) and restrictive physiology is classic for cardiac amyloidosis. Normal free light chains and older age make ATTR more likely than AL. Constrictive pericarditis typically does not cause low voltage or marked hypertrophy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9921fca59902",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with nephrotic syndrome. Serum creatinine is 120 μmol/L. Serum protein electrophoresis shows no paraprotein, but the serum free light chain ratio is elevated (kappa/lambda 3.5). Urine electrophoresis shows albuminuria without Bence Jones protein. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Abdominal fat pad aspiration",
+        "Echocardiogram",
+        "Serum immunofixation",
+        "Renal biopsy with Congo red staining",
+        "Bone marrow biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The scenario suggests AL amyloidosis with renal involvement. The gold standard for diagnosing amyloidosis is tissue biopsy demonstrating Congo red positivity with apple-green birefringence. Renal biopsy is the most direct and sensitive method when the kidney is affected, as fat pad biopsy may be negative in up to 30% of cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4a71b6c21fc8",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman presents with carpal tunnel syndrome, fatigue, and periorbital purpura. Examination reveals macroglossia. Serum immunofixation shows a monoclonal IgG lambda band. Urine immunofixation shows Bence Jones protein lambda. What is the most appropriate next investigation to definitively establish the diagnosis of systemic amyloidosis?",
+      "options": [
+        "Abdominal fat pad biopsy with Congo red staining",
+        "Bone marrow biopsy",
+        "Echocardiogram",
+        "24-hour urinary protein estimation",
+        "Serum free light chain ratio"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of a monoclonal gammopathy with clinical features highly suggestive of AL amyloidosis necessitates tissue confirmation. Abdominal fat pad biopsy is the least invasive and most accessible site for detecting amyloid deposits, with a sensitivity of 70–80%. A positive result confirms systemic amyloidosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bece78ad7fdb",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents with acute-onset heart failure. ECG shows low voltage. Echocardiography reveals left ventricular hypertrophy with 'granular speckling' and a restrictive filling pattern. Serum free light chain ratio is normal, and there is no monoclonal band on immunofixation. Which investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Abdominal fat pad biopsy",
+        "Endomyocardial biopsy",
+        "Genetic testing for TTR mutation",
+        "Cardiac MRI with late gadolinium enhancement",
+        "99mTc-DPD scintigraphy"
+      ],
+      "answerIndex": 4,
+      "explanation": "In the absence of monoclonal gammopathy, the likely diagnosis is transthyretin (ATTR) amyloidosis. 99mTc-DPD scintigraphy is highly specific for cardiac ATTR amyloidosis when there is no monoclonal protein, and a positive scan is considered diagnostic. Endomyocardial biopsy is invasive and typically reserved for equivocal cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6b42b187cb45",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man with known AL amyloidosis (confirmed by previous biopsy) develops worsening proteinuria and renal impairment. A repeat renal biopsy shows amyloid deposits with positive Congo red staining. Which additional test on the biopsy is most appropriate to determine the amyloid type?",
+      "options": [
+        "Electron microscopy",
+        "Immunohistochemistry for kappa and lambda light chains",
+        "Thioflavin T staining",
+        "Mass spectrometry",
+        "Congo red staining"
+      ],
+      "answerIndex": 1,
+      "explanation": "In AL amyloidosis, typing is essential to confirm the precursor protein. Immunohistochemistry for kappa and lambda light chains is the standard method to detect light chain restriction, indicating AL type. Mass spectrometry is more definitive but often reserved for equivocal cases due to cost and availability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51c2136eea1a",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man who has been on haemodialysis for 15 years presents with bilateral carpal tunnel syndrome and shoulder pain. He has no monoclonal gammopathy. Which investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Serum beta2-microglobulin level",
+        "Ultrasound of the shoulder",
+        "Biopsy of flexor retinaculum with Congo red staining",
+        "X-ray of the shoulder",
+        "MRI of the shoulder"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dialysis-related amyloidosis is caused by deposition of beta2-microglobulin, typically presenting after long-term dialysis. Tissue biopsy of an affected joint or tendon (e.g., carpal tunnel release specimen) with Congo red staining showing amyloid deposits is diagnostic. Serum beta2-microglobulin levels are elevated but not specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f696c3f756c6",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with heart failure, nephrotic syndrome, and hepatomegaly. Immunofixation shows monoclonal IgG lambda. Cardiac MRI is consistent with cardiac amyloidosis. What is the most appropriate first-line treatment?",
+      "options": [
+        "Lenalidomide + dexamethasone",
+        "High-dose melphalan with autologous stem cell transplantation",
+        "Bortezomib alone",
+        "Melphalan + prednisolone",
+        "Daratumumab + bortezomib + cyclophosphamide + dexamethasone (D-VCd)"
+      ],
+      "answerIndex": 4,
+      "explanation": "D-VCd is the standard first-line regimen for AL amyloidosis with cardiac involvement (NICE TA699). Melphalan/prednisolone is older and less effective. Bortezomib alone is inadequate. Lenalidomide is not first-line. Stem cell transplant is contraindicated due to cardiac risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4df32fda2755",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with rheumatoid arthritis on methotrexate develops proteinuria and renal impairment. Renal biopsy shows AA amyloidosis. What is the most appropriate treatment?",
+      "options": [
+        "Tocilizumab",
+        "Prednisolone alone",
+        "Rituximab",
+        "Cyclophosphamide",
+        "Colchicine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tocilizumab (anti-IL-6) effectively reduces serum amyloid A levels and is first-line for AA amyloidosis secondary to inflammatory arthritis. Rituximab is ineffective for amyloid. Prednisolone alone insufficient. Cyclophosphamide for vasculitis. Colchicine for FMF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4365c42f3773",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with progressive peripheral neuropathy and autonomic dysfunction has a positive family history of amyloidosis. Genetic testing confirms a Val30Met transthyretin mutation. What is the first-line treatment?",
+      "options": [
+        "Liver transplant",
+        "Supportive care only",
+        "Tafamidis",
+        "Diflunisal",
+        "Patisiran"
+      ],
+      "answerIndex": 4,
+      "explanation": "Patisiran (RNAi therapy) is approved for stage 1-2 ATTRv polyneuropathy (NICE TA417). Tafamidis is for cardiomyopathy. Diflunisal not recommended. Liver transplant is reserved for selected cases but pharmacological therapy is first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "84bc61496ca5",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with newly diagnosed AL amyloidosis has cardiac involvement with NYHA class III symptoms. Which treatment is contraindicated?",
+      "options": [
+        "Lenalidomide and dexamethasone",
+        "Cyclophosphamide and dexamethasone",
+        "Daratumumab-based therapy",
+        "Bortezomib-based therapy",
+        "High-dose melphalan with autologous stem cell transplantation"
+      ],
+      "answerIndex": 4,
+      "explanation": "High-dose melphalan and autologous SCT is contraindicated in cardiac AL amyloidosis due to high risk of cardiotoxicity. Daratumumab, bortezomib, and cyclophosphamide/dexamethasone are standard. Lenalidomide is not first-line but not contraindicated per se.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94398b0f84b6",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old man presents with heart failure with preserved ejection fraction. A pyrophosphate scan shows cardiac uptake, and there is no monoclonal protein on serum and urine immunofixation. What is the first-line treatment?",
+      "options": [
+        "Colchicine",
+        "Tafamidis",
+        "Diflunisal",
+        "Patisiran",
+        "Bortezomib"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tafamidis is approved for ATTR cardiac amyloidosis (NICE TA856). Patisiran is for polyneuropathy. Diflunisal not recommended. Colchicine for FMF. Bortezomib for AL amyloidosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31e071e3927b",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with bilateral ankle swelling and frothy urine. His blood pressure is 128/76 mmHg, urinalysis shows 3+ protein, and serum creatinine is 80 µmol/L. 24-hour urine protein is 5.2 g. Serum albumin is 24 g/L. He has no diabetes. Suspected renal amyloidosis. What is the most appropriate next step?",
+      "options": [
+        "Order serum immunofixation and free light chains",
+        "Refer to haematology for chemotherapy",
+        "Perform a renal biopsy",
+        "Order a 24-hour urine protein excretion",
+        "Start an ACE inhibitor"
+      ],
+      "answerIndex": 2,
+      "explanation": "Renal biopsy is the gold standard to confirm amyloid deposition and type (AA vs AL vs ATTR). While serum immunofixation and free light chains help identify AL amyloidosis, histological confirmation is necessary before initiating potentially toxic chemotherapy. Starting an ACE inhibitor is premature without a diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1858ad8f1b2",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman is newly diagnosed with AL amyloidosis (lambda light chain, involved free light chain 250 mg/L). NT-proBNP is 150 ng/L (normal <300), eGFR 60 mL/min/1.73 m², and no proteinuria. Echocardiogram shows normal left ventricular thickness and ejection fraction. She has no comorbidities. What is the most appropriate next step?",
+      "options": [
+        "Perform a cardiac MRI",
+        "Start bortezomib, cyclophosphamide, and dexamethasone (CyBorD)",
+        "Refer for autologous stem cell transplant",
+        "Start daratumumab monotherapy",
+        "Monitor serum free light chains every 3 months"
+      ],
+      "answerIndex": 1,
+      "explanation": "CyBorD is standard first-line chemotherapy for AL amyloidosis in patients without advanced cardiac involvement (NT-proBNP <8500 ng/L). Daratumumab is reserved for relapsed/refractory disease. Stem cell transplant may be considered later but not as first step. Monitoring alone is inappropriate given active disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f52f7a86f323",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known cardiac AL amyloidosis (NYHA III, LVEF 40%) presents to the emergency department with acute dyspnoea at rest. JVP is raised to the earlobe, there are bibasal crackles, and BP is 90/60 mmHg. He is on warfarin for atrial fibrillation. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an urgent echocardiogram",
+        "Start dobutamine infusion",
+        "Give intravenous furosemide 40 mg",
+        "Order a high-sensitivity troponin",
+        "Refer for urgent heart transplant assessment"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has acute pulmonary oedema due to heart failure. Immediate management is IV diuresis (furosemide) despite hypotension, as the primary problem is volume overload. Echocardiogram and troponin can be done after stabilisation. Inotropes may worsen hypotension and are not first line. Heart transplant is not an emergency intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31392de830a8",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old man with AL amyloidosis on CyBorD chemotherapy notices spontaneous periorbital purpura and easy bruising. Full blood count shows Hb 110 g/L, platelets 200 x 10^9/L. PT is 14 s (control 12), APTT 32 s (control 35). What is the most appropriate next step?",
+      "options": [
+        "Stop chemotherapy immediately",
+        "Give fresh frozen plasma",
+        "Order a bleeding time",
+        "Give intravenous vitamin K",
+        "Check factor X activity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acquired factor X deficiency is a classic complication of AL amyloidosis due to binding of factor X to amyloid fibrils. Vitamin K and FFP are ineffective because the deficiency is not consumptive or synthetic. Chemotherapy should not be stopped urgently; bleeding time is obsolete and not indicated. Factor X assay confirms the diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e0e71ee46027",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with wild-type transthyretin amyloidosis (ATTRwt) confirmed by endomyocardial biopsy has NYHA class II heart failure. He is currently on furosemide 40 mg daily. His blood pressure is 110/70 mmHg and creatinine is 110 µmol/L. What is the most appropriate next step?",
+      "options": [
+        "Check high-sensitivity troponin",
+        "Start doxycycline 100 mg twice daily",
+        "Refer for heart transplantation assessment",
+        "Perform a cardiac MRI with gadolinium",
+        "Start tafamidis 61 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tafamidis is recommended by NICE (TA595) for ATTR cardiomyopathy in NYHA class I-II to reduce mortality and hospitalisations. Doxycycline is not licensed for ATTR. Heart transplant is for advanced refractory disease. Cardiac MRI and troponin are diagnostic but not the immediate treatment step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32f69b98c2ea",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with progressive dyspnoea, fatigue, and weight loss over 3 months. Examination reveals raised JVP, peripheral oedema, and hepatomegaly. ECG shows low voltage QRS complexes. Which laboratory finding is most concerning for AL amyloidosis?",
+      "options": [
+        "Monoclonal IgG kappa band",
+        "Elevated troponin I",
+        "Elevated serum creatinine",
+        "Elevated NT-proBNP",
+        "Low serum albumin"
+      ],
+      "answerIndex": 3,
+      "explanation": "NT-proBNP is a key biomarker for cardiac involvement in AL amyloidosis; levels >332 ng/L indicate significant cardiac disease and poor prognosis. Troponin elevation can occur but is less specific. The other options are not specific for cardiac amyloid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb8fbb7a5e84",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with known AL amyloidosis on chemotherapy presents with spontaneous bruising and prolonged oozing from venipuncture sites over the past week. Coagulation screen shows prolonged PT and APTT that do not correct with normal plasma mixing. Which factor deficiency is most likely?",
+      "options": [
+        "Factor XIII deficiency",
+        "Factor VIII deficiency",
+        "Lupus anticoagulant",
+        "Factor X deficiency",
+        "Vitamin K deficiency"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acquired factor X deficiency is a well-known complication of AL amyloidosis due to binding of factor X to amyloid fibrils. The mixing study shows incomplete correction, typical of a circulating inhibitor or deficiency. Vitamin K deficiency would correct with mixing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca79d0e8d4b7",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man presents to the emergency department with acute central chest pain and dyspnoea. ECG shows low voltage QRS complexes and no ST elevation. High-sensitivity troponin is mildly elevated (50 ng/L, normal <14). Which additional finding would most strongly suggest that the presentation is due to cardiac amyloidosis rather than acute coronary syndrome?",
+      "options": [
+        "Left ventricular hypertrophy on echocardiography",
+        "ST depression in leads V1-V3",
+        "Prolonged QT interval",
+        "Elevated NT-proBNP (>2000 ng/L)",
+        "Inverted T waves"
+      ],
+      "answerIndex": 3,
+      "explanation": "In cardiac amyloidosis, NT-proBNP is often extremely elevated relative to troponin, reflecting diastolic dysfunction and heart failure. Low voltage on ECG plus high NT-proBNP is classic. LVH is not typical; rather, thickened walls with low voltage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c173be8f538e",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old with AL amyloidosis complains of dizziness and lightheadedness when standing. Which clinical finding is most indicative of significant autonomic involvement requiring urgent intervention?",
+      "options": [
+        "Fixed heart rate of 90 bpm",
+        "Absent pupillary light reflex",
+        "Postural drop in systolic BP of 30 mmHg with syncope",
+        "Loss of sinus arrhythmia on deep breathing",
+        "Resting tachycardia >100 bpm"
+      ],
+      "answerIndex": 2,
+      "explanation": "A postural drop in systolic BP >20 mmHg is diagnostic of orthostatic hypotension; with syncope it indicates severe impairment and risk of falls. Resting tachycardia may occur but is less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b4cd19c7e98",
+      "topic": "Amyloidosis",
+      "slug": "amyloidosis",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old with known AL amyloidosis presents with a 2-day history of progressive hoarseness and difficulty breathing. On examination, the tongue is enlarged and firm, and the patient has audible inspiratory stridor. Which feature most urgently indicates impending airway compromise?",
+      "options": [
+        "Hoarse voice",
+        "Stridor",
+        "Oxygen saturation 92% on air",
+        "Tachycardia",
+        "Inability to swallow saliva"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stridor is an ominous sign of critical airway narrowing due to macroglossia or laryngeal amyloid, and is a medical emergency. Hoarseness and drooling are concerning but stridor is the most direct indicator of severe obstruction.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "topic": "ITP",
+  "slug": "itp",
+  "system": "Haematology",
+  "subSystem": "Platelet",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:21Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 23,
+  "questions": [
+    {
+      "id": "ea848d99ded0",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman presents with a 3-day history of petechiae on her lower legs and easy bruising. She is otherwise well, no fever, no weight loss, and is not on any medications. Examination shows scattered petechiae, no lymphadenopathy or organomegaly. Full blood count: Hb 130 g/L, WBC 7.2 × 10^9/L, platelets 12 × 10^9/L. Blood film shows occasional large platelets. What is the single most likely diagnosis?",
+      "options": [
+        "Disseminated intravascular coagulation (DIC)",
+        "Thrombotic thrombocytopenic purpura (TTP)",
+        "Immune thrombocytopenia (ITP)",
+        "Acute leukaemia",
+        "Heparin-induced thrombocytopenia (HIT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has isolated severe thrombocytopenia with large platelets on film, no systemic symptoms, and no drug exposure. TTP would show microangiopathic haemolytic anaemia and neurological/renal involvement; HIT requires prior heparin; DIC presents with prolonged clotting times in a sick patient; leukaemia would have blasts on film and likely other cytopenias.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f0dfb80b7b99",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man is found to have a platelet count of 68 × 10^9/L on routine bloods. He reports mild gingival bleeding when brushing teeth but is otherwise well. He takes no regular medications. Examination reveals no petechiae, no splenomegaly. Blood film shows slightly increased large platelets. HIV and HCV serology are negative. B12 and folate are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Hypersplenism",
+        "Liver cirrhosis-related thrombocytopenia",
+        "Drug-induced thrombocytopenia",
+        "Myelodysplastic syndrome (MDS)",
+        "Immune thrombocytopenia (ITP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Mild isolated thrombocytopenia with large platelets in a patient without splenomegaly, drug history, or other cytopenias is classic for ITP. Drug-induced thrombocytopenia is unlikely without a culprit drug; liver cirrhosis would typically show splenomegaly and abnormal LFTs; MDS often presents with macrocytic anaemia or other lineage involvement; hypersplenism requires splenomegaly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f7d676c192df",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents to the emergency department with a 1-day history of severe headache and vomiting. She has multiple petechiae on her arms and legs. Her platelet count is 3 × 10^9/L. Vital signs: BP 110/70 mmHg, heart rate 100 bpm, afebrile. GCS 15. CT head shows a small intraparenchymal haemorrhage in the right frontal lobe. Full blood count: Hb 135 g/L, WBC 8.0 × 10^9/L. Blood film: no schistocytes, occasional large platelets. Coagulation screen normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute immune thrombocytopenia (ITP)",
+        "Disseminated intravascular coagulation (DIC)",
+        "Acute leukaemia",
+        "Aplastic anaemia",
+        "Thrombotic thrombocytopenic purpura (TTP)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The absence of microangiopathic haemolytic anaemia (no schistocytes, normal Hb), normal coagulation, and no fever or renal impairment makes TTP and DIC unlikely. Aplastic anaemia and acute leukaemia would typically show other cytopenias or blasts. The isolated severe thrombocytopenia with large platelets is most consistent with acute ITP, which can present with intracranial haemorrhage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "475a27126ae3",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 34 weeks gestation presents with petechiae on her lower legs and a platelet count of 45 × 10^9/L. She is asymptomatic, with blood pressure 110/70 mmHg and no proteinuria. She has no past history of thrombocytopenia. Full blood count: Hb 120 g/L, WBC 8.5 × 10^9/L. Liver function tests are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Preeclampsia",
+        "Gestational thrombocytopenia",
+        "HELLP syndrome",
+        "Systemic lupus erythematosus (SLE)",
+        "Immune thrombocytopenia (ITP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Platelet count below 70 × 10^9/L is uncommon in gestational thrombocytopenia, and the absence of hypertension and proteinuria rules out preeclampsia and HELLP. SLE would often have other systemic features or raised anti-nuclear antibodies. Isolated thrombocytopenia in the second/third trimester is most likely ITP, especially given the severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "37b65d3668bb",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with known ITP, currently on prednisolone 20 mg daily, presents with a 1-week history of fatigue and jaundice. She also notices new bruising. Investigations: Hb 75 g/L (previously 130), platelets 15 × 10^9/L. Bilirubin 50 µmol/L (elevated unconjugated), LDH 800 U/L, haptoglobin low. Direct Coombs test is positive. Blood film shows spherocytes and large platelets. What is the single most likely diagnosis?",
+      "options": [
+        "Systemic lupus erythematosus (SLE)",
+        "Autoimmune haemolytic anaemia (AIHA) alone",
+        "Thrombotic thrombocytopenic purpura (TTP)",
+        "Evans syndrome",
+        "Relapsed immune thrombocytopenia (ITP)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of autoimmune haemolytic anaemia (positive Coombs test, raised LDH, low haptoglobin, spherocytes) and immune thrombocytopenia in a patient with known ITP is classic for Evans syndrome. TTP would show schistocytes and neurological/renal involvement; AIHA alone does not explain the thrombocytopenia; SLE is less likely given no other features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ea72385c1d52",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with a 2-week history of easy bruising and petechiae. Full blood count shows isolated thrombocytopenia (platelet count 45 × 10^9/L) with normal haemoglobin and white cell count. Blood film shows large platelets and no abnormal cells. Coagulation screen is normal. What is the single most appropriate next investigation to help confirm the diagnosis of immune thrombocytopenia (ITP)?",
+      "options": [
+        "Direct antiglobulin test (Coombs test)",
+        "Platelet autoantibody testing",
+        "Serum immunoglobulin levels",
+        "Bone marrow aspiration",
+        "HIV serology"
+      ],
+      "answerIndex": 0,
+      "explanation": "The direct antiglobulin test (DAT) is recommended to exclude Evans syndrome (autoimmune haemolytic anaemia), which can present with thrombocytopenia. Platelet autoantibodies have low sensitivity and specificity and are not recommended for diagnosis. Bone marrow aspiration is not routinely indicated if typical features are present. HIV serology is part of initial screen but not the single best next test to confirm ITP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b23261c31476",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man presents with sudden onset of widespread petechiae and epistaxis. Platelet count is 6 × 10^9/L. Haemoglobin and white cell count are normal. A blood film is reported as showing large platelets, no schistocytes, no blasts, and normal red cell morphology. Which of the following is the most appropriate interpretation of the blood film findings?",
+      "options": [
+        "Consistent with immune thrombocytopenia (ITP)",
+        "Indicates pseudothrombocytopenia",
+        "Consistent with disseminated intravascular coagulation (DIC)",
+        "Suggests myelodysplastic syndrome (MDS)",
+        "Suggests thrombotic thrombocytopenic purpura (TTP)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Large platelets (megathrombocytes) indicate increased platelet turnover, and the absence of schistocytes, blasts, or other abnormalities is typical of ITP. TTP would show schistocytes. Pseudothrombocytopenia is ruled out by the presence of large platelets. MDS and DIC would have additional abnormalities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dc52aa576cfb",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "According to current UK guidelines (NICE and International Consensus), what is the platelet count threshold required for a diagnosis of immune thrombocytopenia (ITP) once other causes have been excluded?",
+      "options": [
+        "< 30 × 10^9/L",
+        "< 200 × 10^9/L",
+        "< 150 × 10^9/L",
+        "< 50 × 10^9/L",
+        "< 100 × 10^9/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "The diagnosis of ITP is defined as a platelet count below 100 × 10^9/L in the absence of other causes. Counts above 100 but below 150 may be considered 'mild' but not diagnostic of ITP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9ab5c0adb588",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old primigravida at 32 weeks’ gestation presents with bruising. Platelet count is 85 × 10^9/L. Full blood count and blood film are otherwise normal. Direct antiglobulin test is negative. There is no history of hypertension or renal impairment. Which single investigation would be most helpful in distinguishing between gestational thrombocytopenia and ITP?",
+      "options": [
+        "Antinuclear antibody (ANA) test",
+        "Bone marrow aspiration",
+        "Platelet antibody assay",
+        "Repeat platelet count 6 weeks postpartum",
+        "Serum thrombopoietin level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gestational thrombocytopenia typically resolves within 2–6 weeks after delivery, whereas ITP persists. Thus, a postpartum platelet count is the most definitive way to differentiate between the two. Platelet antibodies are not recommended due to poor sensitivity/specificity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d18c565fce90",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 73-year-old man is noted to have a platelet count of 82 × 10^9/L during a routine health check. He reports mild fatigue but no bleeding. Blood film reveals occasional macrocytes and hypersegmented neutrophils. Other cell lines are normal. Which single finding on the blood film most strongly argues against a diagnosis of immune thrombocytopenia (ITP)?",
+      "options": [
+        "Absence of blasts",
+        "Normal red cell morphology",
+        "Large platelets",
+        "Occasional macrocytes",
+        "Hypersegmented neutrophils"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypersegmented neutrophils are characteristic of megaloblastic anaemia due to vitamin B12 or folate deficiency, which can cause thrombocytopenia and mimic ITP. Large platelets are typical of ITP. The combination of macrocytes and hypersegmented neutrophils points to a nutritional deficiency rather than ITP as the primary diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "83fb2924ebe6",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with petechiae on her lower legs. Platelet count is 12 × 10^9/L. She has no signs of bleeding and is otherwise well. What is the most appropriate first-line treatment?",
+      "options": [
+        "Eltrombopag 50 mg oral once daily",
+        "Splenectomy",
+        "Prednisolone 1 mg/kg/day oral",
+        "Intravenous immunoglobulin (IVIG) 1 g/kg daily for 2 days",
+        "Observation with no active treatment"
+      ],
+      "answerIndex": 2,
+      "explanation": "For newly diagnosed ITP with platelets <30 × 10^9/L, prednisolone is first-line. IVIG is reserved for severe bleeding or when rapid correction is needed. Eltrombopag is for chronic ITP. Splenectomy is later line. Observation is not appropriate at this platelet level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fb56043d005a",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known ITP presents with haematemesis and melaena. Platelet count is 3 × 10^9/L. He is haemodynamically stable. What is the single most appropriate immediate therapy?",
+      "options": [
+        "Intravenous immunoglobulin (IVIG) 1 g/kg daily for 2 days",
+        "Eltrombopag 50 mg oral once daily",
+        "Prednisolone 1 mg/kg/day oral",
+        "Emergency splenectomy",
+        "Platelet transfusion 1 pool"
+      ],
+      "answerIndex": 0,
+      "explanation": "For severe, life-threatening bleeding in ITP, IVIG is the fastest-acting therapy, raising platelets within 24-48 hours. Prednisolone takes longer. Platelet transfusion provides only transient benefit. Eltrombopag is too slow. Splenectomy is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f2b61818c784",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 52-year-old woman with chronic ITP has failed to maintain a platelet count above 20 × 10^9/L despite prednisolone, IVIG, and rituximab. She has no contraindications to surgery. What is the most appropriate next-step therapy?",
+      "options": [
+        "Mycophenolate mofetil 500 mg oral twice daily",
+        "Splenectomy",
+        "Cyclophosphamide 500 mg intravenous monthly",
+        "Eltrombopag 25 mg oral once daily",
+        "Azathioprine 50 mg oral once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In chronic refractory ITP after steroids and rituximab, thrombopoietin receptor agonists (eltrombopag or romiplostim) are recommended by NICE. Splenectomy is an option but often deferred; azathioprine and mycophenolate are less effective. Cyclophosphamide is reserved for more severe cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df31019855c6",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with ITP and known selective IgA deficiency requires treatment for a platelet count of 10 × 10^9/L with mild bruising. Which therapy is contraindicated in this patient?",
+      "options": [
+        "Splenectomy",
+        "Intravenous immunoglobulin (IVIG)",
+        "Prednisolone",
+        "Eltrombopag",
+        "Rituximab"
+      ],
+      "answerIndex": 1,
+      "explanation": "IVIG contains IgA and can cause anaphylactoid reactions in patients with selective IgA deficiency. Prednisolone, eltrombopag, rituximab, and splenectomy are not contraindicated in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2960d176edb",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with a 2-week history of petechiae on her lower legs and easy bruising. She has no other symptoms. Her platelet count is 25x10^9/L; Hb and WCC are normal. She is not pregnant. What is the single most appropriate next step?",
+      "options": [
+        "Repeat full blood count in 1 week",
+        "Start oral prednisolone 1 mg/kg/day",
+        "Admit for intravenous methylprednisolone",
+        "Refer to haematology outpatient clinic",
+        "Start intravenous immunoglobulin (IVIG)"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend oral prednisolone as first-line treatment for immune thrombocytopenia (ITP) when platelets are below 30x10^9/L, even without bleeding. IVIG is reserved for those with severe bleeding or prior to surgery. Admission is not required for a stable patient without significant bleeding. Referral can be planned but the immediate action is to start treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7265e43336df",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman is referred after a routine blood test shows a platelet count of 80x10^9/L. She has no symptoms, no bruising, and no bleeding. Liver function and coagulation screen are normal. What is the single most appropriate next step?",
+      "options": [
+        "Watchful waiting with reassurance",
+        "Start oral prednisolone",
+        "Prescribe tranexamic acid",
+        "Refer for bone marrow aspiration",
+        "Start intravenous immunoglobulin (IVIG)"
+      ],
+      "answerIndex": 0,
+      "explanation": "According to NICE, treatment for ITP is not indicated if the platelet count is >30x10^9/L and there are no bleeding symptoms or risk factors. Watchful waiting with a follow-up full blood count in 2-4 weeks is appropriate. Steroids or IVIG are reserved for lower counts or bleeding. Bone marrow aspiration is not needed unless there is diagnostic uncertainty (e.g., atypical features).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "50875a4a432c",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with chronic ITP on long-term prednisolone presents with a severe headache and blurred vision. CT head shows a left parietal intracerebral haemorrhage. Platelet count is 8x10^9/L. What is the single most appropriate immediate action?",
+      "options": [
+        "Platelet transfusion",
+        "Emergency splenectomy",
+        "Tranexamic acid infusion",
+        "Intravenous immunoglobulin (IVIG)",
+        "Intravenous methylprednisolone"
+      ],
+      "answerIndex": 0,
+      "explanation": "In life-threatening haemorrhage with severe thrombocytopenia, platelet transfusion is the most immediate action to provide haemostatic support, even though ITP platelets are rapidly destroyed. It can help control bleeding while IVIG or steroids take effect. IVIG and steroids are given concurrently but the immediate step is platelets. Splenectomy is not acute management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d95414de1267",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with chronic ITP, refractory to steroids and IVIG, has been maintained on romiplostim (a thrombopoietin receptor agonist) for 6 months with stable platelets around 50x10^9/L. He now presents with a swollen, painful left leg; ultrasound confirms deep vein thrombosis (DVT). What is the single most appropriate next step?",
+      "options": [
+        "Increase the dose of romiplostim",
+        "Give intravenous immunoglobulin (IVIG)",
+        "Start a direct oral anticoagulant (DOAC)",
+        "Start warfarin",
+        "Stop romiplostim"
+      ],
+      "answerIndex": 4,
+      "explanation": "Thrombopoietin receptor agonists (like romiplostim) increase the risk of thrombosis. In a patient who develops a DVT, the first step is to discontinue the drug. Anticoagulation will be needed, but the immediate action is to remove the causative agent. IVIG is not indicated here. Increasing the dose would exacerbate the risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2ccf8c17cab1",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with a 2-week history of petechiae and easy bruising. She has no other symptoms. Full blood count shows platelets 22×10⁹/L, haemoglobin 130 g/L, white cell count 6.5×10⁹/L. Which examination finding would most strongly suggest a diagnosis other than primary immune thrombocytopenia?",
+      "options": [
+        "Palatal petechiae",
+        "Cervical lymphadenopathy",
+        "Hepatomegaly",
+        "Conjunctival haemorrhages",
+        "Splenomegaly"
+      ],
+      "answerIndex": 4,
+      "explanation": "Primary ITP typically does not cause splenomegaly. Its presence suggests secondary causes such as lymphoma, chronic liver disease, or other haematological disorders. Lymphadenopathy could also indicate secondary malignancy, but splenomegaly is the classic red flag for alternative diagnoses in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7cc1c927f01b",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known immune thrombocytopenia is seen in haematology clinic. He has no bleeding symptoms. His platelet count is 28×10⁹/L. According to NICE guidance, which platelet count threshold in an asymptomatic patient would prompt consideration of treatment?",
+      "options": [
+        "10×10⁹/L",
+        "50×10⁹/L",
+        "100×10⁹/L",
+        "30×10⁹/L",
+        "20×10⁹/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends that for adults with ITP and no bleeding, treatment should be considered when the platelet count falls below 30×10⁹/L to reduce the risk of serious haemorrhage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "53070d7f1057",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with known ITP (platelets 52×10⁹/L) presents to the emergency department with a severe headache of acute onset and vomiting. She is afebrile. Which clinical sign would be most concerning for an intracranial haemorrhage?",
+      "options": [
+        "Focal neurological deficit",
+        "Dizziness",
+        "Blurred vision",
+        "Photophobia",
+        "Nuchal rigidity"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with ITP and headache, a focal neurological deficit is highly suggestive of an intracranial bleed. Meningitic signs like photophobia and nuchal rigidity are more typical of meningitis, but in this immunocompromised patient they could still be considered, but focal deficit is the most specific for haemorrhage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "beba06e3e510",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with steroid-dependent ITP (on prednisolone 40 mg daily) presents with a 2-day history of fever and confusion. His platelet count is 48×10⁹/L. Which clinical finding would most urgently suggest meningitis?",
+      "options": [
+        "Petechial rash",
+        "Neck stiffness",
+        "Papilloedema",
+        "Focal seizure",
+        "Kernig's sign"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an immunocompromised patient with fever and confusion, the presence of neck stiffness raises suspicion for meningitis. Petechial rash is already common in ITP and not specific. Kernig's sign is a specific sign of meningeal irritation but neck stiffness is more sensitive and easier to elicit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cf8afb41bcee",
+      "topic": "ITP",
+      "slug": "itp",
+      "system": "Haematology",
+      "subSystem": "Platelet",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman presents with bruising and confusion. Investigations show platelets 15×10⁹/L, haemoglobin 80 g/L, reticulocytosis, and elevated lactate dehydrogenase. Which finding on a peripheral blood film would be most suggestive of a diagnosis other than ITP?",
+      "options": [
+        "Schistocytes",
+        "Nucleated red blood cells",
+        "Spherocytes",
+        "Target cells",
+        "Basophilic stippling"
+      ],
+      "answerIndex": 0,
+      "explanation": "Schistocytes (fragmented red cells) indicate microangiopathic haemolytic anaemia (MAHA), a hallmark of thrombotic thrombocytopenic purpura (TTP) or haemolytic uraemic syndrome (HUS). ITP does not cause haemolytic anaemia; the combination of thrombocytopenia and MAHA should prompt urgent suspicion of TTP.",
+      "difficulty": "hard"
+    }
+  ]
+}

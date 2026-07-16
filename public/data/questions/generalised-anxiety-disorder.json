@@ -1,0 +1,513 @@
+{
+  "topic": "Generalised Anxiety Disorder",
+  "slug": "generalised-anxiety-disorder",
+  "system": "Psychiatry",
+  "subSystem": "Anxiety",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:04Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "1eb494f5c4ca",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 9-month history of feeling 'on edge' most days. She worries excessively about work, finances, and health, even though there are no major problems. She reports poor concentration, fatigue, and muscle tension. She has never had a panic attack and does not avoid social situations. What is the single most likely diagnosis?",
+      "options": [
+        "Major depressive disorder",
+        "Social anxiety disorder",
+        "Panic disorder",
+        "Generalised anxiety disorder",
+        "Health anxiety (hypochondriasis)"
+      ],
+      "answerIndex": 3,
+      "explanation": "GAD requires excessive worry on most days for at least 6 months, with somatic symptoms like fatigue and muscle tension. Panic disorder involves recurrent unexpected panic attacks, social anxiety is situation-specific, health anxiety centres on illness fears, and depression features low mood as a core symptom.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88d04c237463",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man has been worried about his health, finances, and his children's future for the past 8 months. He has no specific medical illness. He reports muscle tension, difficulty sleeping, and irritability. He still works but feels constantly on edge. What is the single most likely diagnosis?",
+      "options": [
+        "Health anxiety disorder",
+        "Major depressive disorder",
+        "Generalised anxiety disorder",
+        "Adjustment disorder",
+        "Obsessive-compulsive disorder"
+      ],
+      "answerIndex": 2,
+      "explanation": "Duration over 6 months with multiple worry topics and no clear stressor rules out adjustment disorder (<6 months and linked to stressor). Depression requires pervasive low mood/anhedonia, health anxiety is focused on health alone, and OCD involves obsessions/compulsions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6a82f0ac7d57",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with a 2-year history of chronic worry about various everyday things presents to the emergency department after a sudden worsening of anxiety. She reports feeling 'out of control', trembling, and palpitations after an argument at work. She has no prior panic attacks. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperthyroidism",
+        "Major depressive episode",
+        "Acute stress reaction",
+        "Panic disorder",
+        "Generalised anxiety disorder"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has an established GAD diagnosis, and the acute exacerbation does not change the underlying condition. Panic disorder requires recurrent unexpected panic attacks; acute stress reaction occurs within 4 weeks of a traumatic event; hyperthyroidism would show weight loss, heat intolerance; depression lacks worry as the primary feature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e27df661d60",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with multiple physical complaints including headache, palpitations, and dizziness for 10 months. She denies feeling anxious, but her daughter reports she has been irritable and 'fretting' about her health and the housework. She has no panic attacks. What is the single most likely diagnosis?",
+      "options": [
+        "Persistent somatic symptom disorder",
+        "Dementia",
+        "Panic disorder",
+        "Generalised anxiety disorder",
+        "Major depressive disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "In older adults, GAD often manifests with somatic symptoms. The key is the presence of excessive worry (from collateral history) and tension for >6 months. Somatic symptom disorder focuses on excessive thoughts about physical symptoms; depression would have low mood; panic disorder has panic attacks; dementia has cognitive decline.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9ce769f99006",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old student has experienced constant 'nerves' and difficulty concentrating for the past 9 months. She worries excessively about exams, friendships, and her future. She feels restless and fatigued. She has no panic attacks or avoidance. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperthyroidism",
+        "Generalised social phobia",
+        "Social anxiety disorder",
+        "Adjustment disorder",
+        "Generalised anxiety disorder"
+      ],
+      "answerIndex": 4,
+      "explanation": "GAD is characterised by chronic (≥6 months) worry across multiple domains, with associated restlessness, fatigue, and concentration difficulties. Social anxiety and social phobia are specific to social situations; adjustment disorder is time-limited and linked to a stressor; hyperthyroidism would have weight loss, tremor, heat intolerance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "490b8b758996",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with a 4-month history of excessive worry about her health, family, and work performance. She reports feeling restless, easily fatigued, and having difficulty concentrating. She has no physical symptoms. She has not seen a doctor before. What is the single most important diagnostic criterion that must be present to establish a diagnosis of generalised anxiety disorder?",
+      "options": [
+        "At least three physical symptoms",
+        "Fear of social situations",
+        "Recurrent unexpected panic attacks",
+        "Excessive worry for at least 6 months",
+        "Symptoms present for at least 3 months"
+      ],
+      "answerIndex": 3,
+      "explanation": "The DSM-5 and ICD-11 criteria for GAD require excessive anxiety and worry occurring more days than not for at least 6 months. 3 months is the threshold for adjustment disorder; panic attacks and social fear are features of other anxiety disorders. Physical symptoms are supportive but not mandatory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13f045f2c1f6",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with anxiety, palpitations, tremor, and weight loss over 3 months. He reports constant worry about his job and health. Which single investigation is most appropriate to exclude an organic cause before diagnosing generalised anxiety disorder?",
+      "options": [
+        "Urine drug screen",
+        "Thyroid function tests",
+        "CT head",
+        "ECG",
+        "24-hour Holter monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hyperthyroidism commonly mimics GAD with anxiety, palpitations, tremor, and weight loss. NICE guidelines recommend TFTs as a baseline investigation to rule out thyroid disease. ECG may evaluate palpitations but is less specific; urine drug screen is indicated only if substance misuse is suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a9ba91119719",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman completes a GAD-7 questionnaire as part of a routine check-up. Her total score is 12. What is the correct interpretation of this score in the context of diagnosing generalised anxiety disorder?",
+      "options": [
+        "Moderate anxiety",
+        "Requires immediate psychiatric referral",
+        "Severe anxiety",
+        "No anxiety symptoms",
+        "Mild anxiety"
+      ],
+      "answerIndex": 0,
+      "explanation": "GAD-7 scores: 0-4 minimal, 5-9 mild, 10-14 moderate, 15-21 severe. A score of 12 indicates moderate anxiety. While this suggests possible GAD, definitive diagnosis requires clinical assessment. Severe anxiety (score ≥15) would not warrant immediate referral alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e466c3ee5429",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with known hypertension and type 2 diabetes presents with persistent anxiety, fatigue, and difficulty sleeping. He also reports feeling down and anhedonic for the past 3 months. His PHQ-9 score is 8 and GAD-7 is 14. What is the single most appropriate next step to clarify the diagnosis?",
+      "options": [
+        "Start an SSRI immediately",
+        "Conduct a structured clinical interview to assess for both anxiety and depression",
+        "Refer for cognitive behavioural therapy",
+        "Repeat GAD-7 in 2 weeks",
+        "Check HbA1c and thyroid function"
+      ],
+      "answerIndex": 1,
+      "explanation": "When both anxiety and depressive symptoms are present, screening tools alone cannot differentiate primary GAD from comorbid depression or depression with anxiety. A structured clinical interview (e.g., MINI) is the gold standard to establish the correct diagnosis. Initiating treatment or repeating questionnaires without clarification risks misdiagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a1284239f579",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents to his GP with worry and tension. The GP suspects generalised anxiety disorder. According to NICE guidelines, what is the first-line screening tool recommended to identify possible GAD?",
+      "options": [
+        "Mini International Neuropsychiatric Interview (MINI)",
+        "GAD-2",
+        "HADS",
+        "PHQ-9",
+        "GAD-7"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE CG113 recommends using the GAD-2 (a 2-item questionnaire) as an initial screening tool. If the GAD-2 score is ≥3, then the GAD-7 is used to assess severity. GAD-7 is for severity grading, not first-line screening. PHQ-9 screens for depression, HADS is for hospital patients, and MINI is a diagnostic interview.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd9022cd08e9",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old university student presents with a 6-month history of excessive worry, restlessness, muscle tension, and difficulty concentrating. She has not had any previous treatment. Her GAD-7 score is 10 (mild-to-moderate). She is reluctant to take medication. What is the most appropriate first-line treatment?",
+      "options": [
+        "Sertraline 50 mg daily",
+        "Buspirone 10 mg twice daily",
+        "Diazepam 5 mg as required",
+        "Cognitive behavioural therapy (CBT)",
+        "Pregabalin 150 mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends offering CBT as first-line for mild-to-moderate GAD, especially when the patient is reluctant to take medication. Drug therapy (SSRI) is reserved for those who prefer medication or if CBT is ineffective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25cd1a003a5f",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with moderate GAD (GAD-7 score 15) has declined CBT. He has no contraindications to medication. Which drug should be offered as first-line?",
+      "options": [
+        "Venlafaxine",
+        "Clonazepam",
+        "Buspirone",
+        "Pregabalin",
+        "Sertraline"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends an SSRI (sertraline or escitalopram) as first-line pharmacological treatment for GAD. Venlafaxine and pregabalin are second-line options; benzodiazepines are not recommended for long-term use.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ddf1d2947ca",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with GAD and a history of opioid misuse (now stable on methadone) requests medication for her anxiety. Her GAD-7 score is 14. Which treatment is relatively contraindicated?",
+      "options": [
+        "Pregabalin",
+        "Hydroxyzine",
+        "Cognitive behavioural therapy",
+        "Sertraline",
+        "Buspirone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pregabalin has a potential for abuse and dependence, and is relatively contraindicated in patients with a history of substance misuse. CBT and SSRIs (sertraline) are safer options. Hydroxyzine and buspirone are not first-line but have lower abuse potential.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5406d48f6957",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman who is 16 weeks pregnant presents with GAD (GAD-7 score 12). She prefers non-pharmacological options. What is the most appropriate first-line treatment?",
+      "options": [
+        "Paroxetine 20 mg daily",
+        "Sertraline 50 mg daily",
+        "Cognitive behavioural therapy",
+        "Diazepam 2 mg as required",
+        "Pregabalin 150 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends CBT as first-line for GAD irrespective of pregnancy. If medication is needed, sertraline is preferred but paroxetine and pregabalin are relatively contraindicated. Diazepam should be avoided.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4408d137da2d",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with GAD has been well controlled on sertraline 100 mg daily for 8 months. She asks if she can stop the medication. According to NICE guidelines, what is the most appropriate advice?",
+      "options": [
+        "Continue the current dose for another 4 months, then slowly reduce the dose over several weeks.",
+        "Reduce the dose to 50 mg daily for 6 months, then stop.",
+        "Stop the medication immediately as symptoms have resolved.",
+        "Taper the dose over 4 weeks to zero.",
+        "Switch to cognitive behavioural therapy for 6 months, then consider stopping."
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends continuing antidepressant treatment for at least 12 months after remission to reduce relapse risk. She has completed 8 months; therefore, she should continue for a further 4 months before considering tapering.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "36678c38dc6f",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents to her GP with a 6-month history of excessive worry, restlessness, poor sleep, and difficulty concentrating. She has no physical health problems and is not taking any medication. Her GAD-7 score is 14. What is the most appropriate next step?",
+      "options": [
+        "Start sertraline 50 mg daily",
+        "Offer guided self-help based on CBT principles",
+        "Refer for cognitive behavioural therapy (CBT)",
+        "Start lorazepam as required",
+        "Refer to a consultant psychiatrist"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends low-intensity psychological interventions (like guided self-help) as first-line for mild-to-moderate GAD (GAD-7 <15). CBT is step-up if self-help fails, SSRIs are indicated for moderate-to-severe or after failed psychological therapy, benzodiazepines are not first-line, and psychiatrist referral is reserved for complex cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "60e354104fea",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with GAD (GAD-7 score 16) has completed an 8-week guided self-help programme without significant benefit. He is keen to avoid medication. What is the most appropriate next step?",
+      "options": [
+        "Refer for high-intensity cognitive behavioural therapy (CBT)",
+        "Repeat guided self-help for another 8 weeks",
+        "Start sertraline 50 mg daily",
+        "Refer to a consultant psychiatrist",
+        "Add a benzodiazepine for 2-4 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "After failed low-intensity intervention for moderate GAD, NICE recommends offering either high-intensity psychological therapy (CBT) or an SSRI. Given the patient's preference to avoid medication, referral for CBT is the most appropriate immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c06402bd632",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known GAD presents to the emergency department with acute severe anxiety, palpitations, and a feeling of impending doom. She has a heart rate of 110 bpm, blood pressure 130/80 mmHg, and no chest pain. She stopped her sertraline 100 mg daily two days ago. What is the most appropriate immediate next step?",
+      "options": [
+        "Check serum lithium level",
+        "Restart sertraline 100 mg daily",
+        "Refer to the psychiatric liaison team",
+        "Perform a 12-lead ECG",
+        "Give lorazepam 1-2 mg orally"
+      ],
+      "answerIndex": 4,
+      "explanation": "The immediate priority is to manage acute anxiety. A short-acting benzodiazepine (e.g., lorazepam) provides rapid relief. Restarting sertraline has no acute effect, ECG is not indicated without chest pain or arrhythmia suspicion, lithium is irrelevant, and liaison referral is not an acute intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e9f1a9a9230",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man on sertraline 100 mg daily for GAD for three months presents with agitation, insomnia, and tremor. He admits to also taking St John's wort bought online. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Check serum lithium level",
+        "Discuss the risk of serotonin syndrome",
+        "Refer to a consultant psychiatrist",
+        "Advise him to stop taking St John's wort",
+        "Stop sertraline immediately"
+      ],
+      "answerIndex": 3,
+      "explanation": "The symptoms suggest mild serotonin syndrome from the combination of sertraline and St John's wort. The immediate action is to stop the St John's wort (the likely culprit). Stopping sertraline might also be considered if severe, but here mild symptoms warrant removing the added serotonergic agent. Lithium is not indicated, discussing risk is non-urgent, and referral is not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32e968aaf422",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with GAD has been stable on sertraline 100 mg daily for one year. She attends a routine follow-up and feels well with no side effects. She asks how long she needs to continue the medication. What is the most appropriate next step?",
+      "options": [
+        "Refer to a consultant psychiatrist",
+        "Refer for cognitive behavioural therapy (CBT)",
+        "Advise to taper sertraline over 4 weeks",
+        "Advise to continue sertraline for a further 2 years",
+        "Advise to continue sertraline for at least 6 more months"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends continuing an SSRI for at least 6 months after remission to reduce the risk of relapse. Tapering earlier would increase relapse risk. Continuing for 2 years is not standard first-line. CBT or psychiatrist referral is not needed as she is stable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4465ca67f8a9",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with excessive worry, restlessness, poor concentration, and muscle tension for 6 months. She has been using alcohol to cope, drinking 6 units daily. What single finding is most concerning for immediate risk?",
+      "options": [
+        "Expressed suicidal thoughts with plan",
+        "Blood alcohol level of 150 mg/dL",
+        "Generalised Anxiety Disorder-7 score of 15",
+        "History of panic attacks",
+        "BMI of 32"
+      ],
+      "answerIndex": 0,
+      "explanation": "Expressed suicidal thoughts with plan indicates immediate risk of self-harm, requiring urgent psychiatric assessment. Other options reflect severity or comorbidity but not imminent danger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3883188f687",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with GAD on sertraline 100 mg daily presents with worsening anxiety, feeling hot, and palpitations. His partner says he has been confused and agitated for two days. What single finding strongly suggests a life-threatening condition requiring immediate identification?",
+      "options": [
+        "Heart rate 110 bpm",
+        "PHQ-9 score of 12",
+        "Request for early medication review",
+        "Blood pressure 160/90 mmHg",
+        "Temperature 38.5°C with clonus"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fever with clonus in the context of SSRIs raises suspicion for serotonin syndrome, a medical emergency. Tachycardia and hypertension are non-specific; other options are not emergencies.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4e2d691beb7d",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with no psychiatric history presents with 3 months of fatigue, weight loss, palpitations, and constant worry. What single diagnosis must be excluded before diagnosing GAD?",
+      "options": [
+        "Dementia",
+        "Depression",
+        "Parkinson's disease",
+        "Panic disorder",
+        "Hyperthyroidism"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hyperthyroidism can mimic GAD with weight loss, palpitations, and anxiety; it is a medical cause that must be ruled out, especially in older adults with new-onset symptoms. Other options are relevant but not the most critical to exclude first.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fab5025117e8",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old student with GAD on escitalopram 10 mg for 4 weeks reports feeling more anxious and 'jittery.' He says he cannot sleep and feels like 'jumping out of his skin.' What single feature indicates a need for urgent psychiatric review?",
+      "options": [
+        "Duration of 4 weeks on medication",
+        "Worsening anxiety",
+        "Restlessness and agitation",
+        "Feeling 'jittery'",
+        "Insomnia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Restlessness and agitation may signal akathisia or activation syndrome, which can escalate to severe agitation or suicidal behavior. While worsening anxiety and insomnia are common side effects, agitation requires urgent reassessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f048a3645d1",
+      "topic": "Generalised Anxiety Disorder",
+      "slug": "generalised-anxiety-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with GAD and panic disorder attends A&E with chest pain, breathlessness, and fear of dying. ECG normal, troponin negative. She has had similar episodes before. What single finding suggests her symptoms are due to a life-threatening alternative rather than anxiety?",
+      "options": [
+        "Feeling of impending doom",
+        "Oxygen saturation of 92% on room air",
+        "Sweating",
+        "Numbness in fingertips",
+        "Hyperventilation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypoxia (SpO2 92%) is not typical for panic attacks; in anxious patients, it should prompt investigation for pulmonary embolism or other organic causes. Hyperventilation, paresthesiae, fear of dying, and sweating are common in panic attacks.",
+      "difficulty": "hard"
+    }
+  ]
+}

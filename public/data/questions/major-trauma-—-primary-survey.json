@@ -1,0 +1,513 @@
+{
+  "topic": "Major Trauma — Primary Survey",
+  "slug": "major-trauma-—-primary-survey",
+  "system": "Emergency Medicine",
+  "subSystem": "Trauma",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:31:22Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7a29b4205fa8",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man is brought to the emergency department after a high-speed motorcycle collision. On primary survey, he is alert but tachypnoeic (respiratory rate 28/min) and oxygen saturation is 88% on 15 L/min oxygen. Heart rate 110 bpm, blood pressure 100/70 mmHg. Trachea is deviated to the right, left chest hyperresonant with reduced breath sounds. There is no chest wall bruising or open wound. What is the single most likely diagnosis?",
+      "options": [
+        "Massive haemothorax",
+        "Tension pneumothorax",
+        "Flail chest",
+        "Pulmonary contusion",
+        "Simple pneumothorax"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal deviation away from the affected side with hyperresonance and hypotension (though borderline) is classic for tension pneumothorax. Simple pneumothorax does not cause tracheal deviation or hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d45e35ad70c",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents after a stab wound to the left anterior chest. In the emergency department he is agitated, heart rate 130 bpm, blood pressure 80/50 mmHg, respiratory rate 26/min. Neck veins are distended, heart sounds are muffled. There is no tracheal deviation, and breath sounds are equal bilaterally. What is the single most likely diagnosis?",
+      "options": [
+        "Myocardial contusion",
+        "Massive haemothorax",
+        "Cardiac tamponade",
+        "Tension pneumothorax",
+        "Aortic rupture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Beck's triad (hypotension, distended neck veins, muffled heart sounds) in penetrating chest trauma is highly specific for cardiac tamponade. Tension pneumothorax would cause tracheal deviation and absent breath sounds.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3ae99733387c",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman falls from a height and lands on her left side. Primary survey reveals respiratory distress, trachea deviated to the right, dullness to percussion on the left, and absent breath sounds. Heart rate 125 bpm, blood pressure 85/60 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Diaphragmatic rupture",
+        "Massive haemothorax",
+        "Aortic dissection",
+        "Tension pneumothorax",
+        "Pulmonary contusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal deviation away from side of dullness and absent breath sounds indicates massive haemothorax (blood in pleural space). In tension pneumothorax, the affected side is hyperresonant, not dull.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6208e8da742f",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man is involved in a road traffic accident. He is intubated for low GCS. On examination, ventilator dyssynchrony is noted. There is a segment of the left chest wall that moves paradoxically inward on inspiration and outward on expiration. SpO2 is 92% on 100% oxygen. Blood pressure is 110/70 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary contusion",
+        "Open pneumothorax",
+        "Tension pneumothorax",
+        "Flail chest",
+        "Simple rib fracture"
+      ],
+      "answerIndex": 3,
+      "explanation": "Paradoxical chest wall movement is the hallmark of flail chest, indicating multiple rib fractures with a free-floating segment. Simple rib fracture does not cause paradoxical motion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "baff1d58edc5",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old man is brought in after a high-speed car crash. He is haemodynamically stable with heart rate 100 bpm, blood pressure 120/80 mmHg, saturations 98% on room air. Chest X-ray shows a widened mediastinum (greater than 8 cm) and loss of the aortic knob contour. There is no rib fracture or pneumothorax. What is the single most likely diagnosis?",
+      "options": [
+        "Diaphragmatic rupture",
+        "Traumatic aortic injury",
+        "Cardiac tamponade",
+        "Haemothorax",
+        "Oesophageal rupture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Widened mediastinum and abnormal aortic contour after high-speed deceleration are suspicious for traumatic aortic injury. Absence of haemodynamic instability is an atypical presentation. Cardiac tamponade would show a globular heart, not mediastinal widening.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "50f1a44e358e",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man is brought to the emergency department after a stab wound to the left chest. He is distressed, with a blood pressure of 80/40 mmHg, heart rate of 130 bpm, and distended neck veins. Breath sounds are equal bilateral. Which bedside investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Chest X-ray",
+        "Arterial blood gas",
+        "Electrocardiogram",
+        "Focused assessment with sonography in trauma (eFAST) of the heart",
+        "Pericardiocentesis"
+      ],
+      "answerIndex": 3,
+      "explanation": "eFAST (cardiac view) can rapidly identify pericardial effusion causing tamponade. Pericardiocentesis is therapeutic, not diagnostic. Chest X-ray may show enlarged cardiac silhouette but is not sensitive or rapid enough in this unstable patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8adf1d9b5a8f",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman falls from a ladder and lands on her side. She has left upper quadrant tenderness, blood pressure 90/60, heart rate 125. Fluid resuscitation is ongoing. In the primary survey, which investigation is most appropriate to identify the source of intra-abdominal haemorrhage?",
+      "options": [
+        "Plain abdominal radiograph",
+        "Computed tomography (CT) of the abdomen with contrast",
+        "Focused assessment with sonography in trauma (eFAST)",
+        "Diagnostic peritoneal lavage (DPL)",
+        "Magnetic resonance imaging (MRI) of the abdomen"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a haemodynamically unstable patient with suspected intra-abdominal injury, eFAST is the bedside test of choice to detect free fluid (blood). CT is not appropriate until the patient is stable, as it requires transport and time away from resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f32bb5702509",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman on aspirin and clopidogrel trips and hits her head. Her GCS is 14 (E3, V4, M5) and she is confused. Primary survey reveals no other injuries. Which investigation is most appropriate to identify a potential intracranial injury?",
+      "options": [
+        "Carotid duplex ultrasound",
+        "MRI brain",
+        "Skull X-ray",
+        "CT head",
+        "Electroencephalogram (EEG)"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT head is the gold standard for acute traumatic intracranial haemorrhage, especially in patients on antithrombotics. Skull X-ray has low sensitivity for intracranial pathology. MRI is not first line in acute trauma due to time and accessibility.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc8a0225b39d",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old female is brought in after falling from a height onto her feet. She is alert and complains of midline back pain at the thoracolumbar junction. No neurological deficit. Which imaging investigation is most appropriate to assess for spinal injury?",
+      "options": [
+        "CT of the spine",
+        "Plain X-ray of the spine",
+        "Bone scan",
+        "MRI of the spine",
+        "Ultrasound of the spine"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT of the spine is the initial imaging of choice in acute trauma to evaluate for fractures. Plain X-ray has limited sensitivity. MRI is indicated if neurological deficit is present or to assess soft tissues, but not first line in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "91fd8bcfb223",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 6-year-old boy falls from a tree, landing on his left side. He has left upper quadrant tenderness, heart rate 110, blood pressure 100/65. He is haemodynamically stable. According to NICE guidelines, which investigation is most appropriate to evaluate for intra-abdominal injury?",
+      "options": [
+        "Focused assessment with sonography in trauma (eFAST)",
+        "CT abdomen with contrast",
+        "Plain abdominal X-ray",
+        "MRI abdomen",
+        "Diagnostic peritoneal lavage (DPL)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a haemodynamically stable child with high-risk mechanism and abdominal tenderness, CT abdomen with contrast is the recommended imaging to rule out solid organ injury. eFAST is less sensitive for solid organ injury without free fluid and is often used in unstable patients. DPL is invasive and rarely used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09620aa1e2cb",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old male is brought to the emergency department after a road traffic collision. On primary survey, he is hypotensive, tachycardic, and has distended neck veins. Trachea is deviated to the right, and there is decreased breath sounds on the left. What is the most appropriate first-line treatment?",
+      "options": [
+        "Chest drain insertion in the left 5th intercostal space",
+        "Focused assessment with sonography in trauma (FAST) scan",
+        "Oxygen via non-rebreather mask",
+        "Needle decompression of the left chest",
+        "Intravenous access and fluid bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tension pneumothorax requires immediate needle decompression to relieve pressure; chest drain is subsequent definitive management, not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "da68b40f5198",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 25-year-old female is brought in with a stab wound to the left chest. She is in cardiac arrest with no signs of life. On examination, there is a small wound in the precordial area. What is the most appropriate definitive therapy?",
+      "options": [
+        "Emergency thoracotomy",
+        "Needle decompression",
+        "Pericardiocentesis",
+        "Cardiopulmonary resuscitation (CPR)",
+        "Intravenous adrenaline"
+      ],
+      "answerIndex": 0,
+      "explanation": "In traumatic cardiac arrest due to penetrating chest injury, emergency thoracotomy is indicated to relieve pericardial tamponade and control bleeding; pericardiocentesis is less effective in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "74228d6751a2",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old male is involved in a high-velocity motorcycle accident. He is hypotensive and has a clinically unstable pelvis. What is the most appropriate first-line management?",
+      "options": [
+        "Apply a pelvic binder",
+        "Perform diagnostic peritoneal lavage",
+        "Transfuse packed red cells",
+        "Insert an intraosseous line",
+        "FAST scan"
+      ],
+      "answerIndex": 0,
+      "explanation": "A pelvic binder reduces pelvic volume and helps tamponade bleeding from a pelvic fracture; other measures are adjunctive or secondary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "45b28153fce0",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old male is brought in after a fall from height. He has a suspected open pneumothorax with a wound on the right chest that makes a sucking sound. What is the most appropriate first-line treatment?",
+      "options": [
+        "Perform needle thoracocentesis",
+        "Apply an occlusive dressing taped on three sides",
+        "Insert a chest drain through the wound",
+        "Cover the wound with a sterile gauze",
+        "Apply an occlusive dressing taped on four sides"
+      ],
+      "answerIndex": 1,
+      "explanation": "A three-sided dressing acts as a one-way valve, allowing air to escape but preventing entry; taping all four sides can cause tension pneumothorax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "708ff5803ece",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old pedestrian struck by a car is brought in with suspected haemorrhagic shock. He is tachycardic and hypotensive. What is the most appropriate first-line fluid resuscitation?",
+      "options": [
+        "Transfusion of O negative packed red cells",
+        "2 litres of Hartmann's solution",
+        "500 ml of 4.5% human albumin solution",
+        "Transfusion of cross-matched whole blood",
+        "Tranexamic acid 1 g intravenously"
+      ],
+      "answerIndex": 0,
+      "explanation": "In major haemorrhage, blood products are preferred over crystalloids; O negative PRBCs are given empirically if cross-match is unavailable. Tranexamic acid is an adjunct, not fluid resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bbc09ae45884",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man is brought in by ambulance after a motorbike crash. He has a traumatic above-knee amputation of the right leg with active pulsatile bleeding. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply a pelvic binder",
+        "Call the vascular surgeon",
+        "Apply a tourniquet",
+        "Obtain IV access",
+        "Apply direct pressure"
+      ],
+      "answerIndex": 2,
+      "explanation": "Control of catastrophic haemorrhage is the first priority in the primary survey (C-ABC). A tourniquet is the most effective immediate measure for life-threatening limb bleeding; direct pressure alone is insufficient for a major amputation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fb78496e9a54",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 40-year-old male pedestrian struck by a car arrives in the ED. He is shouting, agitated, and has respiratory distress. On examination, trachea is deviated to the right, left chest hyperresonant, breath sounds absent. What is the most appropriate immediate next step?",
+      "options": [
+        "Intubation",
+        "Chest drain insertion",
+        "Needle decompression of the left chest",
+        "Chest X-ray",
+        "CT chest"
+      ],
+      "answerIndex": 2,
+      "explanation": "The signs indicate a tension pneumothorax, which is immediately life-threatening. Needle decompression is the urgent first step to relieve pressure; imaging would waste critical time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5377de9e690a",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old female is brought in after a stabbing to the left upper quadrant. She is pale, diaphoretic, HR 130, BP 80/50. FAST scan shows free fluid in Morrison's pouch. What is the most appropriate immediate next step?",
+      "options": [
+        "CT abdomen",
+        "Apply a pelvic binder",
+        "Emergency laparotomy",
+        "Cross-match and transfuse",
+        "Perform diagnostic peritoneal lavage"
+      ],
+      "answerIndex": 2,
+      "explanation": "A positive FAST in a hypotensive patient after penetrating trauma indicates intra-abdominal bleeding requiring immediate surgical control. CT would cause unacceptable delay; transfusion alone does not stop the source.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a415fe4fda29",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman on warfarin for AF presents after a fall from a chair. She has a small scalp haematoma, GCS 15, no focal signs. Her INR is unknown. What is the most appropriate immediate next step?",
+      "options": [
+        "Check INR",
+        "Give vitamin K",
+        "Apply wound dressing",
+        "Refer to neurosurgery",
+        "Perform CT head"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE head injury guidelines recommend CT head within 1 hour for patients on anticoagulants, regardless of INR. Checking INR may delay the scan; reversal is not warranted until an intracranial bleed is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09c1818f00dd",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old male is involved in a low-speed car crash. He is alert, talking, with normal breathing and circulation. He has a deformed left ankle and a bruise on his abdomen. What is the most appropriate immediate next step in the primary survey?",
+      "options": [
+        "Perform FAST scan",
+        "Apply a pelvic binder",
+        "Obtain ankle X-ray",
+        "Assess GCS and pupils",
+        "Log-roll and examine back"
+      ],
+      "answerIndex": 3,
+      "explanation": "Following the ABCDE approach, after completion of circulation (C), the next step is Disability (D): assessing GCS and pupils. Limb or abdominal assessment is part of the secondary survey or exposure, which comes later.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c01e18dc4218",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old male is brought in after a house fire. He is awake, talking, and has facial burns with soot around his nares. Which single finding would most strongly suggest the need for immediate definitive airway management?",
+      "options": [
+        "Stridor",
+        "Carbonaceous sputum",
+        "Perioral burns",
+        "Hoarseness",
+        "Singed nasal hairs"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor indicates upper airway obstruction and impending complete airway compromise, warranting immediate intubation. The other signs suggest inhalation injury but do not by themselves mandate immediate airway control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72e51e852bf7",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman is brought in after a road traffic collision. She is hypotensive, tachycardic, and has distended neck veins. Breath sounds are absent on the left. Which life-threatening condition is most likely?",
+      "options": [
+        "Tension pneumothorax",
+        "Pulmonary contusion",
+        "Aortic rupture",
+        "Haemothorax",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 0,
+      "explanation": "The triad of hypotension, distended neck veins, and absent breath sounds is classic for tension pneumothorax. The absent breath sounds lateralises the pathology, differentiating it from cardiac tamponade or massive haemothorax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16df831d90f3",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents after a stab wound to the precordium. He is hypotensive with distended neck veins. Which single clinical finding, when added to this picture, most strongly suggests cardiac tamponade rather than tension pneumothorax?",
+      "options": [
+        "Muffled heart sounds",
+        "Absent breath sounds",
+        "Subcutaneous emphysema",
+        "Pulsus paradoxus",
+        "Tracheal deviation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Muffled heart sounds, part of Beck's triad, is specific for cardiac tamponade. Absent breath sounds and tracheal deviation point to tension pneumothorax, while pulsus paradoxus can be difficult to elicit in the trauma bay.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df23c745c22f",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man on warfarin for atrial fibrillation is brought in after a fall from standing height. He reports a brief loss of consciousness. His GCS is 14 (E4, V4, M6) with no focal deficit. Which finding in this history marks this as an emergency requiring immediate CT head?",
+      "options": [
+        "Vomiting episode",
+        "Scalp haematoma",
+        "Headache",
+        "Anticoagulant use",
+        "Amnesia for the event"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend an immediate CT head (within 1 hour) for patients on anticoagulants who have any history of loss of consciousness or amnesia, regardless of GCS. The other findings are concerning but do not, on their own, trigger the same urgency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a39e50e217ab",
+      "topic": "Major Trauma — Primary Survey",
+      "slug": "major-trauma-—-primary-survey",
+      "system": "Emergency Medicine",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) is brought in after a side-impact car collision. She is hypotensive and tachycardic. There is no external haemorrhage. Which clinical finding most strongly suggests concealed haemorrhage due to placental abruption?",
+      "options": [
+        "Fetal bradycardia",
+        "Abdominal distension",
+        "Vaginal bleeding",
+        "Uterine tenderness",
+        "Loss of fetal movements"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a hypotensive pregnant trauma patient, uterine tenderness is a key sign of placental abruption, which can cause concealed haemorrhage and fetal distress. Fetal bradycardia is a secondary sign of distress but is not as direct a finding of abruption.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Allergic Rhinitis",
+  "slug": "allergic-rhinitis",
+  "system": "ENT",
+  "subSystem": "Nasal",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:34:39Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7dace91b7c74",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 20-year-old medical student presents in May with sneezing, itchy nose and eyes, and clear rhinorrhea. Symptoms improve when indoors. Exam shows pale, swollen nasal mucosa. No fever. What is the single most likely diagnosis?",
+      "options": [
+        "Perennial allergic rhinitis",
+        "Acute bacterial sinusitis",
+        "Non-allergic rhinitis",
+        "Common cold",
+        "Seasonal allergic rhinitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The seasonal pattern (spring), eye involvement, clear discharge, and pale mucosa are classic for seasonal allergic rhinitis. Common cold typically has fever and more constitutional symptoms; non-allergic rhinitis lacks eye itching.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3864bf4b6787",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman has year-round nasal congestion, post-nasal drip, and occasional sneezing. Oral antihistamines provide partial relief. Nasal exam shows boggy, pale mucosa without polyps. Skin prick test is positive to Dermatophagoides pteronyssinus. What is the single most likely diagnosis?",
+      "options": [
+        "Nasal polyps",
+        "Allergic fungal rhinosinusitis",
+        "Perennial allergic rhinitis",
+        "Chronic rhinosinusitis",
+        "Vasomotor rhinitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent symptoms with positive skin test and response to antihistamines confirm allergic rhinitis. Chronic rhinosinusitis often presents with facial pain/pressure; vasomotor rhinitis typically lacks sneezing and itching.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c405328e98c2",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old man with known cat allergy suddenly develops violent sneezing, profuse clear rhinorrhea, and nasal congestion after cleaning a dusty attic. He is distressed but has no wheeze, stridor, or hypotension. Nasal mucosa is pale and boggy. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis (mild)",
+        "Acute allergic rhinitis",
+        "Acute bacterial sinusitis",
+        "Nasal foreign body",
+        "Vasomotor rhinitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute onset triggered by a known allergen with no systemic symptoms (no wheeze, stridor, or hypotension) points to acute allergic rhinitis. Anaphylaxis would involve multiple systems; bacterial sinusitis would have purulent discharge and fever.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "74e816f2e3b9",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with known allergic rhinitis presents with worsening nasal congestion, facial pain, and purulent nasal discharge for one week. He also reports reduced sense of smell. CT sinuses shows opacification of the maxillary sinuses. What is the single most likely diagnosis?",
+      "options": [
+        "Allergic fungal rhinosinusitis",
+        "Acute bacterial sinusitis",
+        "Allergic rhinitis exacerbation",
+        "Chronic rhinosinusitis with nasal polyps",
+        "Dental sinusitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The short duration, purulent discharge, and facial pain suggest acute bacterial sinusitis complicating allergic rhinitis. Allergic rhinitis alone does not cause purulent discharge; chronic rhinosinusitis typically lasts >12 weeks.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7f41f4220621",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) reports nasal congestion and clear rhinorrhea for two months. She has no itching, sneezing, or eye symptoms. Symptoms began in the first trimester. What is the single most likely diagnosis?",
+      "options": [
+        "Perennial allergic rhinitis",
+        "Chronic sinusitis",
+        "Nasal polyps",
+        "Non-allergic rhinitis",
+        "Rhinitis of pregnancy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rhinitis of pregnancy is common due to hormonal changes, typically presenting without sneezing or itching and resolving postpartum. Allergic rhinitis would have pruritus and positive allergy history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "52d0cd85ef0a",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man presents in May with sneezing, itchy eyes, and clear rhinorrhea. He has no prior history of similar symptoms. What is the most appropriate first-line diagnostic test?",
+      "options": [
+        "Skin prick test to common aeroallergens",
+        "Anterior rhinoscopy",
+        "Nasal smear for eosinophils",
+        "Total serum IgE level",
+        "Specific IgE blood test to grass pollen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Skin prick testing is the first-line diagnostic test for suspected allergic rhinitis, providing rapid and reliable results. Specific IgE is an alternative but is second-line or used when skin testing cannot be performed. Total IgE is non-specific and not diagnostic. Nasal smear and rhinoscopy are not first-line for confirming allergy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ed1cbf902664",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with perennial sneezing and rhinorrhea has a negative skin prick test to house dust mite, grass, cat, and dog dander. He was taking oral antihistamines until the day before testing. What is the most appropriate next investigation?",
+      "options": [
+        "Total serum IgE level",
+        "Nasal provocation test",
+        "Nasal smear for eosinophils",
+        "Repeat skin prick test with histamine positive control",
+        "Specific IgE (ImmunoCAP) to the same allergens"
+      ],
+      "answerIndex": 4,
+      "explanation": "Specific IgE blood test (ImmunoCAP) is not affected by antihistamines and can confirm sensitization when skin prick test is negative due to drug interference. Repeating skin prick after stopping antihistamines is an alternative but less practical. Total IgE is non-specific. Nasal provocation is reserved for research; nasal smear does not identify specific allergens.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0fbe77a8ad2d",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman has a positive skin prick test to cat dander but experiences no symptoms when around cats. How should this result be interpreted?",
+      "options": [
+        "The test is a false positive",
+        "She has subclinical allergic sensitization",
+        "She will develop symptoms upon prolonged exposure",
+        "She should avoid cats to prevent future disease",
+        "She has allergic rhinitis that is well controlled"
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive skin prick test indicates IgE sensitization, but clinical allergy requires concordant symptoms. Without symptoms, this is subclinical sensitization. It is not false positive (though possible) but rather a lack of clinical expression. Avoidance is not indicated without symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e8f182755e31",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 10-year-old boy presents with intermittent sneezing and itchy eyes during the summer. His mother has a history of hay fever. What is the most appropriate first-line diagnostic test?",
+      "options": [
+        "Skin prick test to grass pollen",
+        "Total serum IgE level",
+        "Nasal endoscopy",
+        "Eosinophil count on nasal smear",
+        "Specific IgE blood test to grass pollen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Skin prick test is safe and reliable in children, providing immediate results. Specific IgE is an alternative but is not first-line due to cost and delay. Total IgE is non-diagnostic; nasal endoscopy and smear are not appropriate for initial allergy diagnosis in a child with typical symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c20c8f0079fd",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 27-year-old pregnant woman at 12 weeks gestation presents with sneezing and rhinorrhea in the spring. She has no prior allergy testing. What is the most appropriate diagnostic test?",
+      "options": [
+        "Skin prick test to seasonal allergens",
+        "Specific IgE blood test to grass pollen",
+        "Total serum IgE level",
+        "Empirical treatment without testing",
+        "Nasal smear for eosinophils"
+      ],
+      "answerIndex": 1,
+      "explanation": "During pregnancy, skin prick testing is generally avoided due to a small risk of systemic reaction; specific IgE blood test is safe and equally diagnostic. Total IgE is non-specific. Nasal smear does not identify the allergen. Empirical treatment may be considered, but the question asks for diagnostic test; specific IgE is preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4a8550097a3a",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 25-year-old medical student presents with a 2-week history of sneezing, itchy nose, and watery eyes during the spring months. Symptoms are mild and intermittent, not affecting sleep or daily activities. He has no other medical conditions. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Oral chlorpheniramine 4mg four times daily",
+        "Oral loratadine 10mg once daily",
+        "Intranasal fluticasone propionate 100mcg each nostril once daily",
+        "Intranasal sodium cromoglicate two puffs each nostril four times daily",
+        "Oral prednisolone 30mg once daily for 5 days"
+      ],
+      "answerIndex": 1,
+      "explanation": "For mild intermittent allergic rhinitis, a non-sedating oral antihistamine (e.g., loratadine) is first-line. Intranasal corticosteroids are reserved for moderate-to-severe or persistent symptoms. Sedating antihistamines are not first-line due to side effects.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4605877e2898",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman has had a blocked nose, sneezing, and postnasal drip most days for over a year. Her symptoms are worse in spring and autumn but never fully resolve. She has tried intermittent use of over-the-counter antihistamines with limited relief. She is otherwise well. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intranasal beclomethasone dipropionate 100mcg each nostril twice daily",
+        "Oral montelukast 10mg once daily",
+        "Intranasal xylometazoline 0.1% spray for 5 days",
+        "Sublingual grass pollen immunotherapy",
+        "Oral cetirizine 10mg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Moderate-to-severe persistent allergic rhinitis is treated with an intranasal corticosteroid as first-line. Oral antihistamines are less effective for nasal blockage. Xylometazoline is a decongestant, not for maintenance. Immunotherapy is second-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5fe2fb4c051b",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man with a known history of hay fever presents with severe nasal congestion, facial pressure, and difficulty breathing through his nose for 2 days. He has been using intranasal fluticasone and oral loratadine regularly but still has marked symptoms. On examination, his nasal mucosa is erythematous and oedematous. What is the most appropriate next step in management?",
+      "options": [
+        "Add oral montelukast 10mg once daily",
+        "Commence intranasal xylometazoline 0.1% spray",
+        "Refer for consideration of allergen immunotherapy",
+        "Switch to a different intranasal corticosteroid",
+        "Add oral prednisolone 40mg once daily for 5 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "For a severe acute exacerbation of allergic rhinitis failing standard therapy, a short course of oral corticosteroids is effective and appropriate. Intranasal decongestants should be used for no more than 7 days and are not first-line for exacerbations. Immunotherapy is for long-term control, not acute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f91d469f4d81",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 7-year-old boy has a persistent blocked nose, sneezing, and itchy eyes for most of the year. His symptoms affect his sleep and school concentration. He has no asthma. What is the most appropriate first-line treatment?",
+      "options": [
+        "Sublingual immunotherapy",
+        "Oral montelukast 5mg chewable tablet",
+        "Intranasal xylometazoline 0.05% spray for children",
+        "Intranasal fluticasone propionate 50mcg each nostril once daily",
+        "Oral chlorpheniramine syrup"
+      ],
+      "answerIndex": 3,
+      "explanation": "In children with persistent moderate-to-severe allergic rhinitis, an intranasal corticosteroid is first-line. Montelukast is alternative for those with asthma. Sedating antihistamines (chlorpheniramine) are not preferred. Decongestants are not for maintenance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c20c44a222b",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known allergic rhinitis and benign prostatic hyperplasia (BPH) with recurrent urinary retention presents with troublesome seasonal symptoms. He is considering pharmacological options. Which of the following treatments is most likely to be contraindicated in this patient?",
+      "options": [
+        "Oral diphenhydramine 25mg at night",
+        "Oral montelukast 10mg once daily",
+        "Oral loratadine 10mg once daily",
+        "Intranasal saline nasal douches",
+        "Intranasal beclomethasone dipropionate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Diphenhydramine is a first-generation (sedating) antihistamine with anticholinergic effects, which can worsen urinary retention in BPH. Non-sedating antihistamines, intranasal corticosteroids, and montelukast are safe. Saline douches are non-pharmacological and harmless.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d01306975be9",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old medical student presents to his GP in June with a 2-week history of sneezing, itchy nose, and watery eyes. He has no past medical history and takes no medications. Examination reveals pale, boggy nasal mucosa. What is the most appropriate next step?",
+      "options": [
+        "Advise saline nasal irrigation",
+        "Prescribe an intranasal corticosteroid (e.g., beclometasone)",
+        "Prescribe a non-sedating oral antihistamine (e.g., loratadine)",
+        "Prescribe a topical antihistamine (e.g., azelastine)",
+        "Refer for allergy testing (skin prick test)"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE CG184 recommends a non-sedating oral antihistamine as first-line for mild intermittent allergic rhinitis. The patient has classic hay fever symptoms without red flags; starting a simple antihistamine is the most appropriate immediate step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cf053370f427",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with known hay fever has been using loratadine 10 mg daily as needed during summer. Over the past two weeks, despite daily use, she has persistent nasal congestion and sneezing affecting sleep. Examination shows swollen turbinates. What is the most appropriate next step?",
+      "options": [
+        "Add a leukotriene receptor antagonist (e.g., montelukast)",
+        "Add an intranasal corticosteroid (e.g., beclometasone)",
+        "Refer for immunotherapy",
+        "Switch to a different oral antihistamine",
+        "Increase loratadine to 20 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE advises adding an intranasal corticosteroid when symptoms are not controlled with oral antihistamines. This step-up approach is preferred over increasing the antihistamine dose or switching within the same class.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "75ea5d2e84ba",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who is 20 weeks pregnant complains of sneezing and runny nose for several weeks, worsening in the morning. She is worried about harming her baby. She has no other symptoms. What is the most appropriate next step?",
+      "options": [
+        "Prescribe oral phenylephrine (decongestant)",
+        "Advise avoidance measures only",
+        "Prescribe oral chlorphenamine (sedating antihistamine)",
+        "Refer to an allergist",
+        "Prescribe a non-sedating oral antihistamine (e.g., loratadine)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE states that non-sedating antihistamines (e.g., loratadine) can be used safely in pregnancy. Chlorphenamine is also safe but is sedating; decongestants should be avoided. Advice-only may be insufficient as symptoms are bothersome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d52dc67a94dc",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known allergic rhinitis (on regular beclometasone nasal spray) presents to the emergency department with a 10-day history of worsening right-sided facial pain, purulent nasal discharge, and fever of 38.5°C. He has no peri-orbital swelling or neurological signs. What is the most appropriate next step?",
+      "options": [
+        "Advise continued beclometasone and add a decongestant",
+        "Prescribe a course of oral prednisolone",
+        "Arrange urgent CT sinuses",
+        "Prescribe amoxicillin 500 mg three times daily for 5 days",
+        "Refer for intravenous antibiotics and ENT review"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient meets NICE criteria for acute bacterial sinusitis (symptoms >10 days with purulent discharge and fever) without red flags. Oral antibiotics are first-line; CT and IV therapy are reserved for complications or severe cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4c0a354922c1",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman with persistent allergic rhinitis has been using beclometasone nasal spray twice daily for 3 months. She reports ongoing sneezing and rhinorrhoea, though nasal congestion has improved. She has tried avoiding triggers. What is the most appropriate next step?",
+      "options": [
+        "Increase beclometasone to four times daily",
+        "Add a non-sedating oral antihistamine (e.g., loratadine)",
+        "Refer for immunotherapy",
+        "Add a intranasal antihistamine (e.g., azelastine)",
+        "Switch to a different intranasal corticosteroid (e.g., fluticasone)"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends adding an oral antihistamine if symptoms persist despite regular intranasal corticosteroid. Increasing the steroid frequency or switching brands is not evidence-based; immunotherapy is reserved for severe uncontrolled cases after second-line therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e52bd5ff1349",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with a five-year history of seasonal hay fever presents with persistent left-sided nasal obstruction and occasional blood-stained discharge. Which finding in the history or examination is a red flag for serious pathology?",
+      "options": [
+        "Postnasal drip",
+        "Bilateral nasal itching",
+        "Sneezing",
+        "Unilateral nasal obstruction",
+        "Clear rhinorrhoea"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unilateral symptoms are atypical for allergic rhinitis and raise suspicion for structural causes such as nasal polyps, inverted papilloma, or malignancy. Bilateral itching and sneezing are typical of allergic rhinitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "958af599a8f0",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with well-controlled mild allergic rhinitis presents with three days of frontal headache, fever, and periorbital swelling. Which clinical sign indicates a need for urgent ENT imaging?",
+      "options": [
+        "Itchy eyes",
+        "Clear nasal discharge",
+        "Sneezing",
+        "Periorbital oedema",
+        "Bilateral nasal congestion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Periorbital oedema with fever suggests orbital involvement from complicated sinusitis, a potential emergency requiring imaging. The other options are typical allergic rhinitis features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a691645ae95f",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with seasonal allergic rhinitis develops sudden onset of severe sharp eye pain, double vision, and high fever over 24 hours. Which of the following is the most likely serious complication?",
+      "options": [
+        "Orbital cellulitis",
+        "Allergic fungal sinusitis",
+        "Optic neuritis",
+        "Acute dacryocystitis",
+        "Cavernous sinus thrombosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Orbital cellulitis presents with proptosis, diplopia, and fever, and can arise from acute sinusitis in allergic rhinitis; it requires immediate ENT referral. Cavernous sinus thrombosis typically includes cranial nerve palsies and meningism.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "48cba07c6aa4",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with chronic allergic rhinitis and known bilateral nasal polyps presents with a new unilateral nasal mass and hyposmia. Which feature on endoscopic examination suggests a malignant or premalignant lesion?",
+      "options": [
+        "Edematous turbinates",
+        "Smooth bilateral polyps",
+        "Unilateral polyp with irregular surface",
+        "Clear nasal discharge",
+        "Mucosal pallor"
+      ],
+      "answerIndex": 2,
+      "explanation": "While bilateral polyps are common in allergic rhinitis, a unilateral irregular polyp raises suspicion for inverted papilloma or squamous cell carcinoma, which require biopsy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f719cb60af3d",
+      "topic": "Allergic Rhinitis",
+      "slug": "allergic-rhinitis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old pregnant woman (18 weeks gestation) with allergic rhinitis reports persistent symptoms despite regular use of intranasal fluticasone and oral loratadine. She now develops fever and facial pain. Which finding indicates a complication that requires urgent treatment?",
+      "options": [
+        "Worsening nasal congestion",
+        "Sinus tenderness and purulent discharge",
+        "Mild epistaxis",
+        "New onset bilateral itchy eyes",
+        "Increased clear rhinorrhoea"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, acute bacterial sinusitis can lead to serious complications; sinus tenderness with purulent discharge indicates infection requiring antibiotics. The other options are typical of uncomplicated allergic rhinitis.",
+      "difficulty": "medium"
+    }
+  ]
+}

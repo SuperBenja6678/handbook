@@ -1,0 +1,493 @@
+{
+  "topic": "Bladder Cancer",
+  "slug": "bladder-cancer",
+  "system": "Urology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:23Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "ab3fe6edb1e0",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old male presents with a single episode of visible, painless haematuria. He has no dysuria, frequency, or lower abdominal pain. He is a lifelong smoker. Urine dipstick shows blood +++, no nitrites or leucocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Renal calculi",
+        "Bladder cancer",
+        "Prostatitis",
+        "Benign prostatic hyperplasia",
+        "Acute cystitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Painless visible haematuria in an older male smoker is classic for bladder cancer. UTI typically causes dysuria and leukocytes; prostatitis has pain; calculi cause colicky pain; BPH may cause haematuria but usually with obstructive symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4ada33df08d8",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with a 40-pack-year smoking history presents with three episodes of microscopic haematuria over six months. She has no loin pain, no dysuria, and no sicca symptoms. Urine culture is negative. eGFR is 75 ml/min. What is the single most likely diagnosis?",
+      "options": [
+        "Thin basement membrane disease",
+        "Bladder cancer",
+        "IgA nephropathy",
+        "Urinary tract infection",
+        "Exercise-induced haematuria"
+      ],
+      "answerIndex": 1,
+      "explanation": "Persistent microscopic haematuria in a smoker, even without visible haematuria, warrants suspicion for bladder cancer. IgA nephropathy often presents with visible haematuria after infection; thin basement membrane is benign and usually discovered earlier; UTI would have positive culture; exercise-induced is transient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "363675ec103a",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old male presents to the Emergency Department with acute urinary retention and suprapubic pain. He reports passing clots in his urine for the past day. He is a pipe smoker. Catheterisation yields 800 ml of heavily blood-stained urine with clots. What is the single most likely diagnosis?",
+      "options": [
+        "Benign prostatic hyperplasia",
+        "Urethral stricture",
+        "Bladder cancer",
+        "Acute prostatitis",
+        "Renal cell carcinoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clot retention in an elderly smoker is a classic presentation of bladder cancer. Acute prostatitis would have fever and tender prostate; BPH usually causes gradual obstruction without clots; urethral stricture has a history of trauma; RCC typically presents with loin pain or mass.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67adf90faf9b",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old man presents with a six-week history of urinary frequency, urgency, and suprapubic discomfort. He has no haematuria on dipstick. Two courses of antibiotics for presumed UTI have not helped; urine cultures are negative. He smokes 20 cigarettes daily. What is the single most likely diagnosis?",
+      "options": [
+        "Interstitial cystitis",
+        "Tuberculous cystitis",
+        "Chronic prostatitis",
+        "Overactive bladder",
+        "Bladder cancer"
+      ],
+      "answerIndex": 4,
+      "explanation": "Irritative voiding symptoms without infection in a smoker can be an atypical presentation of carcinoma in situ or early bladder cancer. Interstitial cystitis is less common and typically has pain; chronic prostatitis would have perineal pain; overactive bladder is idiopathic and not smoking-related; TB cystitis is rare in UK.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8e83f5f4c8f0",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old male with atrial fibrillation on warfarin is found to have asymptomatic microscopic haematuria on routine dipstick. His INR is 2.5. He has no nocturia, hesitancy, or dysuria. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Warfarin-induced haematuria",
+        "Renal cysts",
+        "Bladder cancer",
+        "Benign prostatic hyperplasia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Even on anticoagulation, microscopic haematuria must be investigated for bladder cancer, especially in an elderly patient. Warfarin can cause haematuria but malignancy is more common as a cause; BPH usually causes visible haematuria if severe; UTI would have symptoms; renal cysts are incidental.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "074c4cac7e4b",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old smoker presents with a single episode of visible haematuria. He has no other urinary symptoms. Which investigation is most appropriate to confirm the diagnosis of bladder cancer?",
+      "options": [
+        "CT urogram",
+        "Ultrasound of the renal tract",
+        "Urine cytology",
+        "Flexible cystoscopy with biopsy",
+        "MRI of the pelvis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Flexible cystoscopy with biopsy allows direct visualisation of the bladder mucosa and histological confirmation of any suspicious lesions. CT urogram is initial imaging for staging but does not provide tissue diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "848130942017",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with recurrent urinary tract infections has positive urine cytology for transitional cell carcinoma. Flexible cystoscopy shows normal bladder mucosa. What is the next most appropriate investigation?",
+      "options": [
+        "MRI bladder",
+        "PET-CT",
+        "Ureteroscopy",
+        "CT urogram",
+        "Repeat flexible cystoscopy with random biopsies"
+      ],
+      "answerIndex": 3,
+      "explanation": "Positive urine cytology with normal cystoscopy raises suspicion for upper tract urothelial carcinoma. CT urogram is the recommended non-invasive imaging to evaluate the renal pelvis and ureters. Random biopsies are considered if upper tract imaging is negative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "df0524b6a84f",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with visible haematuria undergoes CT urogram, which shows a filling defect in the bladder. Which investigation is definitive for histological diagnosis?",
+      "options": [
+        "MRI for further characterisation",
+        "Rigid cystoscopy and transurethral resection of bladder tumour",
+        "Flexible cystoscopy with biopsy",
+        "CT-guided biopsy of the bladder",
+        "Urine cytology"
+      ],
+      "answerIndex": 2,
+      "explanation": "Definitive diagnosis requires histology; flexible cystoscopy with biopsy (or rigid cystoscopy with biopsy) obtains tissue. While TURBT also provides histology, it is a therapeutic procedure; the question asks for the definitive diagnostic test, which can be achieved with biopsy alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "58adedc7f26e",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 73-year-old smoker presents with non-visible haematuria detected on routine dipstick. He has no other symptoms. Which investigation is most appropriate to establish a diagnosis?",
+      "options": [
+        "Reassurance and discharge",
+        "Flexible cystoscopy",
+        "Urine cytology",
+        "CT urogram",
+        "Ultrasound of the renal tract"
+      ],
+      "answerIndex": 1,
+      "explanation": "For non-visible haematuria in patients aged ≥60 with risk factors (e.g., smoking), NICE recommends referral for cystoscopy. Cystoscopy is the gold standard for detecting bladder tumours.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ce014416d0f",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with visible haematuria. Cystoscopy shows a solitary 1.5 cm papillary tumour at the left ureteric orifice. Biopsy results confirm a low-grade Ta urothelial carcinoma. CT urogram shows no upper tract disease. What is the most appropriate first-line treatment?",
+      "options": [
+        "Transurethral resection with a single dose of intravesical mitomycin C",
+        "Transurethral resection of the tumour alone",
+        "Radical cystectomy",
+        "Surveillance with repeat cystoscopy in 3 months",
+        "Transurethral resection with a 6-week course of intravesical BCG"
+      ],
+      "answerIndex": 0,
+      "explanation": "For low-risk non-muscle invasive bladder cancer (solitary, <3 cm, low grade Ta), NICE guidelines recommend TURBT followed by a single dose of intravesical mitomycin C. A single dose reduces recurrence rates. BCG is used for high-risk disease, and surveillance alone is insufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9a5ff2bbf8cb",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old fit man presents with painless haematuria. MRI shows a 5 cm tumour invading the detrusor muscle (T2N0M0). Renal function and performance status are good. What is the most appropriate first-line treatment?",
+      "options": [
+        "Systemic chemotherapy with gemcitabine and cisplatin",
+        "Radical radiotherapy alone",
+        "Neoadjuvant chemotherapy followed by radical cystectomy",
+        "Transurethral resection of bladder tumour (TURBT) alone",
+        "Radical cystectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For fit patients with muscle-invasive bladder cancer (T2-T4a N0M0), the standard of care is neoadjuvant cisplatin-based chemotherapy followed by radical cystectomy. This approach improves survival compared to cystectomy alone. Radical radiotherapy is an alternative for patients unfit for surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acd89c3f6380",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman presents with haematuria and flank pain. CT reveals a bladder tumour with multiple lung metastases. Biopsy confirms high-grade urothelial carcinoma. Her WHO performance status is 1, and eGFR is 60 mL/min. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Pembrolizumab monotherapy",
+        "Methotrexate, vinblastine, doxorubicin, and cisplatin (MVAC)",
+        "Gemcitabine plus carboplatin",
+        "Gemcitabine plus cisplatin",
+        "Best supportive care"
+      ],
+      "answerIndex": 3,
+      "explanation": "For fit patients with metastatic urothelial carcinoma, first-line treatment is cisplatin-based combination chemotherapy. Gemcitabine plus cisplatin is the preferred regimen due to equivalent efficacy and better tolerability compared to MVAC. Pembrolizumab is reserved for platinum-ineligible or second-line settings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "877e7e7efcde",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old man is diagnosed with muscle-invasive bladder cancer (cT3N0M0) after TURBT. He has chronic kidney disease stage 4 (eGFR 25 mL/min). His performance status is acceptable. Which of the following treatments is contraindicated in this patient?",
+      "options": [
+        "Cisplatin",
+        "Gemcitabine",
+        "Pembrolizumab",
+        "Radical radiotherapy",
+        "Carboplatin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cisplatin is nephrotoxic and contraindicated when eGFR is <30 mL/min. Carboplatin can be used with dose adjustment. Gemcitabine, radiotherapy, and pembrolizumab are not contraindicated based on renal function alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "afd4c5179f27",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old man with a history of high-risk non-muscle invasive bladder cancer (high-grade T1) previously treated with TURBT and a course of intravesical BCG now has recurrence on surveillance cystoscopy. Biopsy confirms high-grade T1 disease again. He is otherwise fit with good performance status. What is the most appropriate definitive treatment?",
+      "options": [
+        "Surveillance with cystoscopy in 3 months",
+        "Radical cystectomy",
+        "Intravesical gemcitabine",
+        "Repeat TURBT with a second course of BCG",
+        "Repeat TURBT with a single dose of mitomycin C"
+      ],
+      "answerIndex": 1,
+      "explanation": "For BCG-unresponsive high-risk NMIBC (high-grade T1 after BCG), NICE recommends radical cystectomy due to high risk of progression. Repeat TURBT with intravesical therapy or surveillance alone is inadequate. Intravesical gemcitabine is not established as first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "861bdb37c093",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man presents to his GP with a single episode of painless visible haematuria. There is no dysuria, frequency, or loin pain. Urine dipstick shows blood +++, negative for nitrites and leucocytes. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent flexible cystoscopy",
+        "Start empirical antibiotics",
+        "Perform urine culture and sensitivity",
+        "Arrange CT urogram",
+        "Check serum creatinine and eGFR"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend urgent referral (within 2 weeks) for urological investigation including cystoscopy for all patients with visible haematuria. Even without infection, the key action is referral for cystoscopy. Urine culture and CT urogram are important but not the immediate first step when the presentation is clear.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aed028ef29e9",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman attends the urology outpatient clinic after a diagnostic flexible cystoscopy showed a 2 cm papillary lesion on the lateral bladder wall. The clinical impression is likely low-grade Ta stage. She has no haematuria and is otherwise well. What is the most appropriate immediate next step?",
+      "options": [
+        "Order a CT urogram",
+        "Refer for radical cystectomy",
+        "Start intravesical BCG therapy",
+        "Perform transurethral resection of bladder tumour (TURBT)",
+        "Arrange a check cystoscopy in 3 months"
+      ],
+      "answerIndex": 3,
+      "explanation": "TURBT is both diagnostic (to confirm stage) and therapeutic for non-muscle invasive bladder cancer. It is the standard next step after cystoscopy identifies a papillary tumour. BCG is reserved for high-risk or recurrent disease; check cystoscopy is performed after TURBT; radical cystectomy is for muscle-invasive disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "402a822dc842",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known muscle-invasive bladder cancer on gemcitabine-cisplatin chemotherapy presents to the emergency department with sudden heavy haematuria and the inability to pass urine. On examination, the bladder is distended and tender. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a three-way urinary catheter and commence continuous bladder irrigation",
+        "Give intravesical tranexamic acid",
+        "Perform a suprapubic catheter insertion",
+        "Administer intravenous fluids and call the on-call urologist",
+        "Arrange an urgent CT cystogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has acute clot retention from severe haematuria. Immediate decompression with a three-way catheter and continuous bladder irrigation is the standard emergency management to prevent further clot formation and maintain patency. Suprapubic insertion is not first-line; CT cystogram is for suspected perforation; waiting for urologist delays life-saving intervention; tranexamic acid is not routinely used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42b58cc8510e",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with a history of high-grade non-muscle invasive bladder cancer is receiving maintenance intravesical BCG therapy. After his third instillation, he develops persistent fever, night sweats, and right loin pain. Urine culture is negative. What is the most appropriate immediate next step?",
+      "options": [
+        "Stop BCG and start oral steroids",
+        "Start broad-spectrum antibiotics",
+        "Change to interferon therapy",
+        "Check renal function and liver function tests",
+        "Perform a CT urogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "Systemic symptoms after BCG raise concern for disseminated BCG infection or immunological reaction (e.g., granulomatous prostatitis, pneumonitis, or ureteric obstruction). CT urogram is the best initial imaging to assess for complications. Antibiotics are ineffective against BCG; stopping BCG and giving steroids is reserved for severe reactions after investigation; interferon is not standard; LFTs alone are insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a20ae4272052",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman had a TURBT for a low-grade Ta bladder cancer with a single dose of intravesical mitomycin 5 years ago. She has been in surveillance with annual cystoscopies. Today's cystoscopy reveals a 0.5 cm papillary lesion, consistent with recurrence. She is asymptomatic. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform biopsy and fulguration of the lesion",
+        "Refer for radical cystectomy",
+        "Start intravesical BCG",
+        "Advise watch-and-wait",
+        "Arrange a CT urogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "Small papillary recurrences in low-risk patients can be treated by biopsy and fulguration (or resection) during the same cystoscopy session. This is the standard immediate management. BCG is reserved for high-risk or recurrent disease; CT urogram is not needed unless there is suspicion of upper tract disease; watch-and-wait is not appropriate; radical cystectomy is far too aggressive for this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "580d39715f33",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents with painless visible haematuria. He has a history of hypertension and takes warfarin for atrial fibrillation. Which single finding on assessment is most concerning for a life-threatening complication?",
+      "options": [
+        "Bilateral hydronephrosis on ultrasound",
+        "Raised serum creatinine (150 µmol/L)",
+        "Microscopic haematuria only",
+        "A palpable bladder on examination",
+        "Bladder wall thickening on ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral hydronephrosis indicates obstruction of both ureters, which can rapidly lead to post-renal acute kidney injury, a life-threatening emergency. Bladder wall thickening is common in bladder cancer but does not itself require immediate intervention. Raised creatinine is a consequence, not the finding that crosses an escalation threshold. A palpable bladder suggests retention but is not specific to hydronephrosis. Microscopic haematuria is less concerning than visible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "278880bb9fdf",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with high-risk non-muscle invasive bladder cancer received intravesical BCG therapy 2 days ago. He now reports dysuria, frequency, and feeling feverish. Which single feature is a red flag for disseminated BCG infection (BCG-osis)?",
+      "options": [
+        "Urinary frequency",
+        "Haematuria",
+        "Fever >38.5°C",
+        "Dysuria",
+        "Cloudy urine"
+      ],
+      "answerIndex": 2,
+      "explanation": "A high fever (>38.5°C) after BCG instillation suggests systemic absorption and possible disseminated BCG infection, which is life-threatening and requires anti-tuberculous therapy. Dysuria, haematuria, frequency, and cloudy urine are common local side effects and do not indicate systemic spread.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "af0eae4991f3",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with known muscle-invasive bladder cancer presents with sudden onset of profuse visible haematuria and inability to pass urine. She is on aspirin. On examination, she is in distress with a distended lower abdomen. Which single physical sign is most indicative of a surgical emergency?",
+      "options": [
+        "Hypotension (90/60 mmHg)",
+        "Visible haematuria from the urethra",
+        "Tachycardia (110 bpm)",
+        "Rebound tenderness in the suprapubic area",
+        "A palpable, firm, non-tender bladder"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rebound tenderness suggests peritonitis, which in this context is likely due to bladder perforation from clot retention—a surgical emergency. Tachycardia and hypotension are non-specific signs of shock. Visible haematuria is expected and not an emergency per se. A palpable, firm bladder indicates retention but without peritonism, it is not immediately life-threatening if quickly relieved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1bd06351b8aa",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with bladder cancer on warfarin develops sudden severe suprapubic pain after a bout of haematuria. He cannot pass urine and has a palpable bladder. Which single finding would most strongly indicate the need for emergency urological intervention?",
+      "options": [
+        "Palpable bladder extending to the umbilicus",
+        "Urine dipstick showing large blood",
+        "International normalised ratio (INR) 4.5",
+        "Haemoglobin drop of 20 g/L from baseline",
+        "Suprapubic tenderness"
+      ],
+      "answerIndex": 0,
+      "explanation": "A palpable bladder extending to the umbilicus indicates massive clot retention causing acute distension, which can compromise renal function and lead to perforation—requiring emergency catheterisation and irrigation. Suprapubic tenderness is common. A Hb drop is important but not as immediately critical as retention. A high INR increases bleeding risk but does not by itself mark an emergency requiring immediate bladder decompression. Urine dipstick is expected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cccad0d56d18",
+      "topic": "Bladder Cancer",
+      "slug": "bladder-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with a history of radical cystectomy and ileal conduit for invasive bladder cancer 2 years ago presents with lethargy, nausea, and confusion. She reports normal urine output. Which laboratory abnormality is most concerning for a life-threatening complication?",
+      "options": [
+        "Haemoglobin 95 g/L",
+        "Sodium 130 mmol/L",
+        "White cell count 14.0 ×10⁹/L",
+        "Creatinine 120 µmol/L",
+        "Potassium 6.8 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hyperkalaemia (6.8) is the key red flag for hyperkalaemic metabolic acidosis, a potentially fatal complication of ileal conduit due to resorption of urinary electrolytes. Hyponatraemia, mildly raised creatinine, anaemia, and leukocytosis are less acute and not immediately life-threatening in this scenario.",
+      "difficulty": "medium"
+    }
+  ]
+}

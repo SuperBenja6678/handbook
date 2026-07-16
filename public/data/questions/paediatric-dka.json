@@ -1,0 +1,513 @@
+{
+  "topic": "Paediatric DKA",
+  "slug": "paediatric-dka",
+  "system": "Paediatrics",
+  "subSystem": "Endocrine",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:41Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8ac6b8a84eea",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 5-year-old girl presents with a 2-day history of polydipsia, polyuria, and weight loss. She has vomiting and abdominal pain. On examination, she is dehydrated with Kussmaul breathing and a fruity breath odour. Capillary blood glucose is 28 mmol/L, urine ketones 3+. Her pH is 7.1. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperosmolar hyperglycaemic state",
+        "Diabetic ketoacidosis",
+        "Appendicitis",
+        "Gastroenteritis",
+        "Pneumonia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The classic triad of hyperglycaemia, ketosis, and metabolic acidosis with osmotic symptoms points to DKA. Gastroenteritis lacks hyperglycaemia; pneumonia may cause tachypnoea but not ketosis; appendicitis does not account for hyperglycaemia; HHS typically has higher glucose and minimal ketosis in older patients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f4d4a1a8687a",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 10-year-old boy with known type 1 diabetes presents with vomiting after missing two insulin doses. His capillary blood glucose is 16 mmol/L, urine ketones 2+, and venous pH 7.25. He is alert and has mild dehydration. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hypoglycaemia",
+        "Urinary tract infection",
+        "Gastroenteritis",
+        "Simple hyperglycaemia without ketosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vomiting, hyperglycaemia, ketonuria, and acidosis (pH 7.25) confirm DKA even though symptoms are moderate. Simple hyperglycaemia lacks ketosis and acidosis; hypoglycaemia has low glucose; gastroenteritis does not cause hyperglycaemia or ketosis; UTI does not explain the metabolic picture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cdb3871e96d0",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 8-year-old girl is being treated for diabetic ketoacidosis. She becomes irritable and complains of headache. Her heart rate is 60 bpm (previously 100), blood pressure 130/85 mmHg, and respiratory pattern is irregular. Pupils are unequal. What is the single most likely diagnosis?",
+      "options": [
+        "Hypoglycaemic coma",
+        "Bacterial meningitis",
+        "Intracranial haemorrhage",
+        "Migraine",
+        "Cerebral oedema complicating DKA"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of headache, bradycardia, hypertension, and unequal pupils is classic for raised intracranial pressure from cerebral oedema, the most feared complication of DKA in children. Hypoglycaemia would cause tachycardia, not bradycardia/hypertension; meningitis would have fever and neck stiffness; migraine is unlikely; haemorrhage is less common.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14a43fc761b8",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 7-year-old child with known type 1 diabetes presents with diabetic ketoacidosis. After initial fluid resuscitation and insulin therapy, she develops severe epigastric pain radiating to the back. Examination reveals guarding and tenderness. Serum lipase is 4 times the upper limit of normal. What is the single most likely diagnosis?",
+      "options": [
+        "Gastroparesis diabeticorum",
+        "Perforated peptic ulcer",
+        "Acute appendicitis",
+        "Mesenteric ischaemia",
+        "Acute pancreatitis complicating DKA"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe epigastric pain with elevated lipase indicates acute pancreatitis, a known complication of DKA, especially in children. Gastroparesis causes nausea without marked lipase rise; mesenteric ischaemia is rare in children; perforated ulcer and appendicitis are possible but less consistent with the epigastric location and lipase elevation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e33b77828831",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 9-month-old infant presents with tachypnoea, lethargy, and poor feeding. There is no history of vomiting or diarrhoea. On examination, the infant is dehydrated with a weak cry. Blood glucose is 28 mmol/L, venous pH 7.1, and urine ketones are strongly positive. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumonia",
+        "Congenital adrenal hyperplasia",
+        "Inborn error of metabolism",
+        "Severe sepsis",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hyperglycaemia, profound acidosis, and ketonuria even in an infant point to DKA, which can present atypically with lethargy and poor feeding rather than classic osmotic symptoms. Sepsis would not typically cause such marked hyperglycaemia and ketosis; CAH may cause hyponatraemia and shock; pneumonia lacks ketosis; metabolic disorders often have hypoglycaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "89364c665561",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 8-year-old girl presents with a 2-week history of polydipsia, polyuria, and weight loss. She has deep sighing respirations and a fruity odour on her breath. Capillary blood glucose is 28 mmol/L. What is the single most appropriate investigation to confirm the diagnosis of diabetic ketoacidosis?",
+      "options": [
+        "Full blood count",
+        "Serum osmolality",
+        "Capillary blood ketone measurement",
+        "Venous blood gas",
+        "Urine dipstick for ketones"
+      ],
+      "answerIndex": 3,
+      "explanation": "DKA diagnosis requires hyperglycaemia (glucose >11 mmol/L), ketonaemia (blood ketones >3 mmol/L or urine ketones >2+), and acidosis (pH <7.3 or bicarbonate <15 mmol/L). While glucose and ketones are elevated here, a venous blood gas is needed to confirm acidosis, which is essential for diagnosis. Urine dipstick is semi-quantitative, and blood ketones alone do not confirm acidosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "89a1786ebd04",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 10-year-old boy with known type 1 diabetes presents with vomiting and abdominal pain. Capillary blood glucose is 14 mmol/L and urine dipstick shows ketones 3+. What is the most appropriate next investigation to confirm the diagnosis of diabetic ketoacidosis?",
+      "options": [
+        "Full blood count",
+        "Blood beta-hydroxybutyrate level",
+        "Electrolytes",
+        "Serum amylase",
+        "Venous blood gas"
+      ],
+      "answerIndex": 4,
+      "explanation": "The child has hyperglycaemia and ketonuria but acidosis has not yet been demonstrated. A venous blood gas provides pH and bicarbonate to confirm metabolic acidosis, which is required for DKA diagnosis. Beta-hydroxybutyrate is unnecessary as ketonuria is already present. FBC and amylase are not diagnostic for DKA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb0164e97ce4",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 7-year-old presents with polyuria and polydipsia. Laboratory results: blood glucose 12 mmol/L, blood ketones 4.1 mmol/L, venous pH 7.25, bicarbonate 14 mmol/L. What is the most accurate interpretation of these results?",
+      "options": [
+        "Normal",
+        "Euglycaemic ketoacidosis",
+        "Hyperosmolar hyperglycaemic state",
+        "Diabetic ketoacidosis",
+        "Starvation ketosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "All three criteria for DKA are met: hyperglycaemia >11 mmol/L, ketonaemia >3 mmol/L, and acidosis (pH <7.3, bicarbonate <15 mmol/L). Starvation ketosis typically has lower glucose and milder acidosis. HHS features severe hyperglycaemia without significant ketosis. Euglycaemic DKA would have glucose <11 mmol/L.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "93781177bdab",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 3-year-old presents with drowsiness and Kussmaul breathing. Venous blood gas shows: pH 7.0, bicarbonate 6 mmol/L, pCO2 2.7 kPa, base excess -18. Capillary blood glucose is 28 mmol/L. According to NICE guidelines, which of the following thresholds best categorises this as severe diabetic ketoacidosis?",
+      "options": [
+        "Corrected sodium >155 mmol/L",
+        "Bicarbonate <10 mmol/L",
+        "Blood ketones >6 mmol/L",
+        "Glucose >30 mmol/L",
+        "pH <7.1"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE defines severe DKA in children as pH <7.1 (or bicarbonate <5 mmol/L). The patient's pH is 7.0, fulfilling the severe criteria. Bicarbonate of 6 mmol/L is above the threshold of 5 for severe. Hypernatraemia and extreme hyperglycaemia are not severity criteria for DKA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "90232733f3e4",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 9-year-old with known type 1 diabetes presents unwell. Capillary blood glucose is 16 mmol/L. Which of the following is the most accurate method to confirm ketonaemia in suspected diabetic ketoacidosis?",
+      "options": [
+        "Urine acetoacetate",
+        "Serum acetoacetate",
+        "Breath acetone analysis",
+        "Capillary blood beta-hydroxybutyrate",
+        "Urine dipstick for ketones"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood beta-hydroxybutyrate measurement is the most accurate and quantitative method for assessing ketosis, correlating with DKA severity. Urine dipstick measures acetoacetate and can be falsely negative in early DKA or falsely positive in conditions like starvation. Breath acetone is less reliable and not widely used clinically.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "252c4fa61d37",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 7-year-old girl presents with her first episode of DKA. Capillary blood glucose is 25 mmol/L, venous pH 7.1, HCO3 10 mmol/L, ketones 3+. She is moderately dehydrated and drowsy but rousable. Which fluid is most appropriate for initial resuscitation?",
+      "options": [
+        "4.5% human albumin solution",
+        "Hartmann's solution",
+        "5% dextrose",
+        "0.45% sodium chloride",
+        "0.9% sodium chloride"
+      ],
+      "answerIndex": 4,
+      "explanation": "Isotonic saline (0.9% sodium chloride) is recommended by NICE for initial fluid resuscitation in DKA to expand intravascular volume and restore perfusion. Hypotonic fluids are avoided until shock is corrected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1b25945fa089",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 5-year-old boy with known type 1 diabetes presents with vomiting and polyuria. Blood glucose 18 mmol/L, capillary ketones 1.5 mmol/L, venous pH 7.3, HCO3 16 mmol/L. He is alert and tolerating sips of water. What is the most appropriate first-line management?",
+      "options": [
+        "Intravenous 0.9% saline and intravenous insulin infusion",
+        "Subcutaneous rapid-acting insulin dose adjustment and oral fluids",
+        "Intravenous 0.45% saline and intravenous insulin infusion",
+        "Intravenous 5% dextrose and intravenous insulin infusion",
+        "Intramuscular glucagon"
+      ],
+      "answerIndex": 1,
+      "explanation": "In mild DKA (pH 7.25–7.3, HCO3 15–18) without severe dehydration or vomiting, NICE guidelines allow avoidance of intravenous access and management with subcutaneous insulin and oral fluids, provided the child can tolerate oral intake.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "317c0625b90d",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 3-year-old child presents unconscious with Kussmaul breathing and severe dehydration. Capillary glucose 35 mmol/L, venous pH 6.9, HCO3 5 mmol/L, ketones 4+. What is the single most appropriate first-line therapy?",
+      "options": [
+        "Intravenous 0.9% sodium chloride 20 mL/kg bolus",
+        "Intravenous 8.4% sodium bicarbonate 1–2 mL/kg",
+        "Intravenous 4.5% human albumin solution 20 mL/kg",
+        "Intravenous 0.45% sodium chloride 20 mL/kg",
+        "Intravenous 10% dextrose 10 mL/kg"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severe DKA with shock, immediate fluid resuscitation with isotonic saline (0.9% NaCl) 20 mL/kg is critical. Bicarbonate is contraindicated due to risk of cerebral oedema, and hypotonic or colloid solutions are not first line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a096fc7802d0",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 10-year-old girl being treated for DKA with intravenous fluids and insulin develops a sudden headache, bradycardia, hypertension, and a falling GCS. What is the most important immediate treatment?",
+      "options": [
+        "Increase insulin infusion rate to 0.15 units/kg/hour",
+        "Intravenous dexamethasone 0.15 mg/kg",
+        "Intravenous hypertonic saline 2.7%",
+        "Intravenous furosemide 1 mg/kg",
+        "Intravenous mannitol 0.5–1 g/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cerebral oedema is a life-threatening complication of DKA. Mannitol (0.5–1 g/kg) is a first-line osmotic agent to reduce intracranial pressure; hypertonic saline is an alternative but mannitol is standardly recommended first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fab7addf91a3",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 12-year-old with known type 1 diabetes on multiple daily injections presents with DKA: glucose 22 mmol/L, venous pH 7.1, HCO3 12 mmol/L, ketones 3+. After initial fluid resuscitation, what is the appropriate insulin regimen?",
+      "options": [
+        "Intravenous insulin infusion at 0.01 units/kg/hour",
+        "Intravenous insulin bolus of 0.1 units/kg",
+        "Intravenous insulin infusion at 0.1 units/kg/hour",
+        "Intravenous insulin infusion at 0.05 units/kg/hour",
+        "Subcutaneous insulin lispro 0.15 units/kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuous intravenous insulin infusion at 0.1 units/kg/hour is standard for DKA in children (NICE range 0.05–0.1). A bolus is not recommended, and lower rates may be insufficient to correct acidosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "568991ad3618",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 8-year-old girl presents to the ED with a 2-week history of polyuria, polydipsia, and weight loss. She has vomited twice today. On examination, she looks unwell, mucous membranes dry, capillary refill 3 seconds. Blood glucose is 19 mmol/L, urine dip shows ketones 3+. She has no previous diagnosis of diabetes. What is the most appropriate immediate next step?",
+      "options": [
+        "Request a paediatric ITU bed",
+        "Give intravenous sodium bicarbonate",
+        "Administer intravenous insulin infusion",
+        "Check capillary blood gas for pH and bicarbonate",
+        "Start intravenous 0.9% saline infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a child with new-onset hyperglycaemia and ketosis, DKA must be confirmed by demonstrating acidosis on blood gas before initiating the DKA protocol. Starting fluids or insulin without confirmed acidosis could be inappropriate if the child has euglycaemic DKA or other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bfea150f4127",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 10-year-old boy with known type 1 diabetes presents with a 1-day history of vomiting and abdominal pain. He has mild dehydration (3-5%), blood glucose 14 mmol/L, venous pH 7.32, urine ketones 2+. He is alert and talking. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer subcutaneous fast-acting insulin",
+        "Give oral rehydration solution",
+        "Start intravenous insulin infusion at 0.1 units/kg/hour",
+        "Start intravenous 0.9% saline at 10 mL/kg over 1 hour",
+        "Check serum potassium and bicarbonate"
+      ],
+      "answerIndex": 3,
+      "explanation": "In mild-to-moderate DKA with mild dehydration, fluid resuscitation is the priority. Insulin should be started after initial fluid replacement (usually 1-2 hours). Starting insulin immediately risks hypokalaemia and hypoglycaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f19fbff1c9af",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 12-year-old girl with type 1 diabetes is being treated for DKA in the paediatric high dependency unit. She is on IV 0.9% saline and IV insulin infusion. Over the past 2 hours, her Glasgow Coma Scale has dropped from 15 to 13, and she is now bradycardic with unequal pupils. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous sodium bicarbonate",
+        "Increase the rate of intravenous fluids",
+        "Give intravenous mannitol 0.5-1 g/kg",
+        "Perform a CT head scan",
+        "Reduce the insulin infusion rate"
+      ],
+      "answerIndex": 2,
+      "explanation": "GCS drop, bradycardia, and unequal pupils suggest cerebral oedema, a life-threatening complication of DKA. Immediate treatment with hypertonic saline or mannitol is indicated. Imaging or other interventions should not delay this treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b85dc06614e5",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 6-year-old child with DKA has been on IV fluids and insulin infusion for 4 hours. Her urine output is good. Recent blood results: sodium 137 mmol/L, potassium 3.2 mmol/L, glucose 15 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Increase the fluid rate",
+        "Check serum magnesium",
+        "Give 10% dextrose bolus",
+        "Reduce the insulin infusion rate",
+        "Add potassium chloride 20 mmol/L to the IV fluids"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypokalaemia is common during DKA treatment due to insulin-induced intracellular shift. Potassium should be added to IV fluids once renal function is confirmed and potassium is <5.5 mmol/L. Here, K+ is 3.2, so potassium replacement is needed. Insulin should not be reduced unless glucose drops too fast.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3c9e2a7f3f52",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 15-year-old boy with type 1 diabetes was admitted with DKA. After 24 hours of IV insulin and fluids, his venous pH is 7.38 and he is tolerating a light meal. He wants to go home. What is the most appropriate immediate next step?",
+      "options": [
+        "Check blood glucose and ketones",
+        "Administer subcutaneous long-acting insulin (e.g., insulin glargine)",
+        "Stop the IV insulin infusion now",
+        "Give a subcutaneous bolus of rapid-acting insulin",
+        "Start a continuous subcutaneous insulin infusion (insulin pump)"
+      ],
+      "answerIndex": 1,
+      "explanation": "To prevent rebound hyperglycaemia when transitioning from IV to SC insulin, a long-acting insulin should be given before stopping the IV infusion. The IV insulin should be continued for 1-2 hours after the SC dose for overlap. Giving rapid-acting insulin alone would not provide adequate basal coverage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce3264d8b97b",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 4-year-old boy with a 2-day history of polydipsia and polyuria presents with vomiting and deep sighing respirations. Capillary blood gas: pH 7.08, HCO3 6 mmol/L, glucose 28 mmol/L, Na 136 mmol/L, K 5.0 mmol/L, ketones 4+ on urine dip. Which single finding indicates that this is severe DKA?",
+      "options": [
+        "pH 7.08",
+        "Ketones 4+",
+        "HCO3 6 mmol/L",
+        "Glucose 28 mmol/L",
+        "Vomiting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe DKA is defined by NICE as pH < 7.1 or HCO3 < 5 mmol/L. Here pH 7.08 (<7.1) meets the threshold, whereas HCO3 6 is not <5, making pH the correct red flag. The other options are typical of DKA but do not alone define severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "221d578b3d7e",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 9-year-old girl with known type 1 diabetes is brought to ED with drowsiness and vomiting. Blood glucose 18 mmol/L, pH 7.18, HCO3 11 mmol/L. She is started on fixed-rate insulin infusion and IV fluids. Four hours later, her GCS drops from 15 to 13. Which single finding is the most concerning red flag?",
+      "options": [
+        "GCS 13 after treatment",
+        "pH 7.18",
+        "Glucose 18 mmol/L",
+        "Vomiting",
+        "Drowsiness on arrival"
+      ],
+      "answerIndex": 0,
+      "explanation": "Deteriorating consciousness (GCS drop) after initiating treatment is a classic warning sign of cerebral oedema, the most feared complication in paediatric DKA. The other findings were present on admission and are less ominous than a new neurological change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "323065d5c465",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-year-old with DKA (pH 7.0, HCO3 5 mmol/L) has a cardiac monitor showing peaked T waves. Which single finding is a red flag for a life-threatening condition?",
+      "options": [
+        "pH 7.0",
+        "Respiratory rate 40/min",
+        "Heart rate 140/min (tachycardia)",
+        "Peaked T waves",
+        "HCO3 5 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Peaked T waves indicate hyperkalaemia, which in the setting of DKA can cause cardiac arrhythmias and arrest. Severe acidosis (pH 7.0) and low bicarbonate are concerning but the immediate life threat is hyperkalaemia-related dysrhythmia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "244a7b9131f5",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 12-year-old with DKA (pH 7.0, HCO3 5 mmol/L, K 5.5 mmol/L) is started on insulin. Four hours later, repeat potassium is 2.8 mmol/L. Which ECG finding would be a red flag for life-threatening arrhythmia?",
+      "options": [
+        "ST elevation",
+        "U waves",
+        "Peaked T waves",
+        "Sinus tachycardia",
+        "Prolonged QT interval"
+      ],
+      "answerIndex": 1,
+      "explanation": "U waves are characteristic of hypokalaemia, which can lead to ventricular arrhythmias. Although peaked T waves were present initially (hyperkalaemia), after insulin therapy hypokalaemia often develops and U waves indicate a dangerous level requiring correction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "840e84bd9d6c",
+      "topic": "Paediatric DKA",
+      "slug": "paediatric-dka",
+      "system": "Paediatrics",
+      "subSystem": "Endocrine",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 3-year-old with type 1 diabetes on an insulin pump is brought to ED with fussiness. Mother reports the pump has been alarming for two days. Capillary glucose is 8.5 mmol/L, capillary ketones 2.0 mmol/L. Which single finding is the key to recognising DKA in this presentation?",
+      "options": [
+        "Pump alarm",
+        "Ketones 2.0 mmol/L",
+        "Glucose 8.5 mmol/L",
+        "Fussiness",
+        "Normal hydration status"
+      ],
+      "answerIndex": 1,
+      "explanation": "Euglycaemic DKA can occur in patients on insulin pumps when insulin delivery is interrupted; ketones are elevated despite normal or mildly elevated glucose. A ketone level >1.0 mmol/L in this context confirms DKA and requires immediate treatment to prevent progression.",
+      "difficulty": "hard"
+    }
+  ]
+}

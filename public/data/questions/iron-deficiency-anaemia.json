@@ -1,0 +1,493 @@
+{
+  "topic": "Iron Deficiency Anaemia",
+  "slug": "iron-deficiency-anaemia",
+  "system": "Haematology",
+  "subSystem": "Anaemia",
+  "acuity": "ROUTINE",
+  "generatedAt": "2026-07-16T10:30:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "68d044322c9f",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents with fatigue and shortness of breath on exertion. She has heavy menstrual periods. Blood tests show Hb 100 g/L, MCV 72 fL, ferritin 8 µg/L, vitamin B12 400 ng/L, folate 8 µg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Iron deficiency anaemia",
+        "Anaemia of chronic disease",
+        "Combined iron and B12 deficiency",
+        "Thalassaemia trait"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low ferritin and low MCV point to iron deficiency. Menorrhagia is a common cause. Anaemia of chronic disease would have normal or high ferritin; thalassaemia trait would have normal ferritin and a different RBC index pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c34215294330",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with chronic kidney disease stage 3 presents with progressive tiredness. Hb 100 g/L, MCV 78 fL, ferritin 120 µg/L, transferrin saturation 10%, CRP 5 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Anaemia of chronic kidney disease",
+        "Mixed iron deficiency and anaemia of chronic disease",
+        "Myelodysplastic syndrome",
+        "Anaemia of chronic disease",
+        "Iron deficiency anaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low MCV and low transferrin saturation suggest iron deficiency, but ferritin is normal (not low), indicating concurrent anaemia of chronic disease. In pure iron deficiency, ferritin would be <30 µg/L; here it is 120, so mixed picture is most likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4f0449d3b09e",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with haematemesis and melaena. He has known iron deficiency anaemia on oral iron. On admission, Hb 70 g/L, MCV 74 fL, reticulocytes 2%. What is the single most likely diagnosis?",
+      "options": [
+        "Acute blood loss anaemia",
+        "Anaemia of chronic disease",
+        "Haemolytic anaemia",
+        "Megaloblastic anaemia",
+        "Iron deficiency anaemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Low MCV indicates chronic microcytic anaemia (iron deficiency) despite acute bleed; acute blood loss alone would be normocytic initially. The low reticulocyte count argues against haemolysis. The underlying chronic iron deficiency is the diagnosis, with an acute exacerbation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "767c6d7800c9",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman is referred for compulsive ice eating. She has no other symptoms. Full blood count shows Hb 110 g/L, MCV 76 fL. What is the single most likely diagnosis?",
+      "options": [
+        "Iron deficiency anaemia",
+        "Lead poisoning",
+        "Psychogenic pica",
+        "Anaemia of chronic disease",
+        "Thalassaemia trait"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pica (especially pagophagia, ice craving) is a classic but often overlooked symptom of iron deficiency. The microcytic anaemia supports it. Lead poisoning can also cause pica, but typically with basophilic stippling and a different exposure history; thalassaemia trait would have normal ferritin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33a5b7c58ddd",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with fatigue. He has no overt bleeding. Hb 105 g/L, MCV 76 fL, ferritin 12 µg/L, tissue transglutaminase antibodies strongly positive. What is the single most likely diagnosis?",
+      "options": [
+        "Anaemia of chronic disease",
+        "Hereditary haemochromatosis",
+        "Thalassaemia minor",
+        "Coeliac disease presenting as iron deficiency anaemia",
+        "Vitamin B12 deficiency"
+      ],
+      "answerIndex": 3,
+      "explanation": "Iron deficiency without an obvious bleeding source in a man should prompt screening for coeliac disease. The positive tTG and low ferritin confirm the diagnosis. Haemochromatosis causes iron overload, not deficiency; thalassaemia minor has normal ferritin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f65e1fd93a35",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with fatigue and heavy menstrual bleeding. Full blood count shows Hb 100 g/L, MCV 72 fL. What is the single most appropriate test to confirm iron deficiency as the cause?",
+      "options": [
+        "Serum ferritin",
+        "Total iron-binding capacity",
+        "Transferrin saturation",
+        "Serum iron",
+        "Peripheral blood film"
+      ],
+      "answerIndex": 0,
+      "explanation": "Serum ferritin is the most specific test for iron stores; a low ferritin (<30 ng/mL) confirms iron deficiency. Other tests are less specific: serum iron and transferrin saturation can be low in anaemia of chronic disease, TIBC high in iron deficiency but not diagnostic, and blood film shows microcytosis but is not confirmatory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "229c83af4eb1",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with dyspepsia is found to have a mild microcytic anaemia (Hb 110 g/L, MCV 75 fL). Ferritin is 22 ng/mL. What is the most appropriate next investigation to identify the underlying cause?",
+      "options": [
+        "Upper GI endoscopy",
+        "Colonoscopy",
+        "Coeliac serology",
+        "CT abdomen",
+        "H. pylori stool antigen"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a man with dyspepsia and iron deficiency anaemia, upper GI endoscopy is first-line to assess for peptic ulcer disease or gastric malignancy. Colonoscopy is indicated if no upper GI cause is found, but dyspepsia points to an upper source. Coeliac serology is less urgent here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1bda89669913",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman presents with Hb 60 g/L, MCV 75 fL, ferritin 10 ng/mL. She is haemodynamically stable. Which single investigation should be performed immediately to guide the urgency of treatment?",
+      "options": [
+        "Iron studies (serum iron, TIBC)",
+        "Bone marrow biopsy",
+        "Reticulocyte count",
+        "Transferrin saturation",
+        "Peripheral blood film"
+      ],
+      "answerIndex": 2,
+      "explanation": "The reticulocyte count differentiates between acute blood loss (high reticulocyte count) and iron deficiency (low reticulocyte count). A low reticulocyte production index confirms underproduction, indicating that urgent iron replacement is needed. Blood film and iron studies are confirmatory but not immediately actionable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8cbba66d07d6",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man who was treated for iron deficiency anaemia with oral iron now has a normal Hb but ferritin remains low at 15 ng/mL. What is the most appropriate next test to exclude an underlying malignancy?",
+      "options": [
+        "Repeat ferritin in 6 months",
+        "Faecal immunochemical test (FIT)",
+        "Upper GI endoscopy",
+        "Colonoscopy",
+        "Coeliac serology"
+      ],
+      "answerIndex": 3,
+      "explanation": "In men over 50 with iron deficiency anaemia, colorectal cancer must be excluded. Colonoscopy is the gold standard to visualise the entire colon and obtain biopsies. Upper GI endoscopy is also important but colonoscopy has higher yield for malignancy. FIT is not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "168441e533cf",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with rheumatoid arthritis has anaemia (Hb 100 g/L, MCV 80 fL). Ferritin is 110 ng/mL (normal 30-150), CRP 30 mg/L. Which additional test is most specific for confirming concurrent iron deficiency?",
+      "options": [
+        "Transferrin saturation",
+        "Soluble transferrin receptor",
+        "Total iron-binding capacity",
+        "Peripheral blood film",
+        "Serum iron"
+      ],
+      "answerIndex": 0,
+      "explanation": "In chronic inflammation, ferritin is elevated. A transferrin saturation <20% indicates functional iron deficiency despite a normal ferritin. This is the most specific marker when inflammation is present. Soluble transferrin receptor is also elevated in iron deficiency but less widely available.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "19f44d6aaa91",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with menorrhagia presents with fatigue. Hb 102 g/L, MCV 78 fL, ferritin 12 μg/L. She is otherwise well. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous ferric carboxymaltose",
+        "Blood transfusion (2 units)",
+        "Intramuscular iron dextran",
+        "Oral ferrous sulfate 200 mg once daily",
+        "Folic acid 5 mg once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Oral iron (ferrous sulfate) is first-line for mild-to-moderate iron deficiency anaemia without severe symptoms. The tempting distractor is IV iron, but it is reserved for intolerance or non-response to oral therapy. Transfusion is only for severe symptomatic anaemia. Intramuscular iron is outdated and riskier. Folic acid is for megaloblastic anaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fcb383995ee7",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with palpitations and shortness of breath on minimal exertion. Hb 60 g/L, MCV 72 fL, ferritin 5 μg/L. She is tachycardic (HR 110 bpm) and normotensive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous ferric carboxymaltose",
+        "Erythropoietin injection",
+        "Blood transfusion (2 units)",
+        "Oral ferrous sulfate 200 mg three times daily",
+        "Intravenous iron sucrose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Symptomatic severe anaemia (Hb <70 g/L) with tachycardia requires urgent blood transfusion to rapidly improve oxygen delivery. IV iron works too slowly. Oral iron is insufficient. Erythropoietin is not for iron deficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ab07d9268d8",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 60-year-old man with iron deficiency anaemia due to colonic angiodysplasia develops facial swelling, urticaria, and hypotension within minutes of starting an intravenous iron infusion (ferric carboxymaltose). He recovers after resuscitation. Which therapy is now contraindicated?",
+      "options": [
+        "A different IV iron preparation (e.g., iron sucrose)",
+        "Repeat dose of the same IV iron preparation",
+        "Oral ferrous sulfate",
+        "Erythropoietin",
+        "Transfusion of packed red cells"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient experienced anaphylaxis to ferric carboxymaltose; repeating the same preparation is contraindicated. Oral iron is safe. Transfusion remains an option if needed. A different IV iron preparation might be considered with caution but is not absolutely contraindicated, though guidelines often advise avoiding all IV iron after anaphylaxis. However, the most direct contraindication is the same agent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "64b947260c29",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 34-year-old pregnant woman (28 weeks gestation) with iron deficiency anaemia (Hb 90 g/L, ferritin 8 μg/L) is intolerant to oral ferrous sulfate due to nausea and constipation. She has no signs of severe anaemia. What is the most appropriate next step in treatment?",
+      "options": [
+        "Oral ferrous fumarate (a different oral iron preparation)",
+        "Intramuscular iron sorbitol",
+        "Folic acid supplementation",
+        "Intravenous ferric carboxymaltose",
+        "Blood transfusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "When oral iron is not tolerated, IV iron (e.g., ferric carboxymaltose) is first-line in pregnancy per NICE. A different oral iron may still cause similar side effects. Transfusion is not indicated without severe symptoms. IM iron is avoided due to pain and risk. Folic acid is not for iron deficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7bad21cfa335",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with fatigue and heavy menstrual periods. Her full blood count shows Hb 95 g/L, MCV 74 fL, MCH 24 pg. What is the most appropriate next step?",
+      "options": [
+        "Refer for urgent gynaecological review",
+        "Transfuse 1 unit of packed red cells",
+        "Start oral ferrous sulphate 200 mg once daily",
+        "Arrange colonoscopy",
+        "Check serum ferritin level"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend confirming iron deficiency with a ferritin level before starting iron therapy, especially in premenopausal women where the cause is likely menorrhagia. Starting iron empirically is tempting but ferritin is needed to avoid unnecessary treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "91f23e01157f",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known iron deficiency anaemia (initially Hb 90 g/L) has been on ferrous sulphate 200 mg twice daily for 2 months. His Hb is now 110 g/L, and he feels well. What is the most appropriate next step?",
+      "options": [
+        "Arrange upper and lower GI endoscopy",
+        "Check serum ferritin",
+        "Switch to IV ferric carboxymaltose",
+        "Increase dose to three times daily",
+        "Continue the same dose of ferrous sulphate"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Hb is rising (from 90 to 110), indicating a good response. NICE advises continuing oral iron for at least 3 months after Hb normalises to replenish stores. Increasing dose or switching to IV is unnecessary; ferritin and endoscopy are not urgent at this point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c338ab080d95",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known iron deficiency anaemia secondary to colonic angiodysplasia presents with dizziness and palpitations. His BP is 110/70, HR 105, Hb 60 g/L. He has no active bleeding. What is the most appropriate next step?",
+      "options": [
+        "Start IV ferric carboxymaltose 1 g",
+        "Arrange urgent upper and lower GI endoscopy",
+        "Transfuse 1 unit of packed red cells over 2–3 hours",
+        "Start oral ferrous sulphate 200 mg once daily",
+        "Call gastroenterology for urgent review"
+      ],
+      "answerIndex": 2,
+      "explanation": "With Hb <70 g/L and symptoms (dizziness, tachycardia), transfusion is indicated per NICE guidelines. IV iron is too slow for acute symptoms, endoscopy is for investigation but not immediate in stable patient, and oral iron is inadequate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "02002ac9720f",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman is receiving IV ferric carboxymaltose for iron deficiency anaemia. Ten minutes into the infusion, she develops sudden hypotension, dyspnoea, urticaria, and wheeze. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intramuscular chlorphenamine 10 mg",
+        "Administer intramuscular adrenaline 1:1000",
+        "Start an IV infusion of 0.9% sodium chloride",
+        "Call the resuscitation team",
+        "Stop the iron infusion immediately"
+      ],
+      "answerIndex": 4,
+      "explanation": "The first step in managing anaphylaxis is to stop the causative agent. Only then should you call for help, give adrenaline, etc. The most immediate action is to halt the infusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "96f0620491bf",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 25-year-old primigravida at 32 weeks gestation is found to have Hb 95 g/L and ferritin 12 μg/L on routine screening. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Start oral ferrous fumarate 200 mg twice daily",
+        "Transfuse 1 unit of packed red cells",
+        "Check vitamin B12 and folate levels",
+        "Advise dietary changes and re-check Hb in 4 weeks",
+        "Refer to obstetrics for IV iron infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy with iron deficiency anaemia, NICE recommends oral iron as first-line. IV iron is reserved for intolerance or severe anaemia; transfusion is not indicated without symptoms; dietary advice alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b167759ebc55",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman presents with fatigue and heavy menstrual bleeding. Blood tests show Hb 100 g/L, MCV 75 fL, ferritin 8 µg/L. Which single finding would raise concern for a serious underlying cause requiring urgent investigation?",
+      "options": [
+        "Presence of pica for ice",
+        "Age under 30",
+        "Koilonychia",
+        "Family history of iron deficiency",
+        "Unintentional weight loss"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a young woman with iron deficiency anaemia due to menorrhagia, unintentional weight loss is a red flag for possible gastrointestinal malignancy or coeliac disease, warranting urgent referral. Pica and koilonychia are typical chronic signs, not emergency. Family history and young age are not red flags.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c225a3923562",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known iron deficiency anaemia from a gastrointestinal bleed presents with chest pain and shortness of breath. His haemoglobin is 60 g/L. Which single finding indicates a life-threatening complication?",
+      "options": [
+        "Raised jugular venous pressure",
+        "ST segment depression on ECG",
+        "Systolic BP 100 mmHg",
+        "Heart rate 110 bpm",
+        "Bilateral ankle oedema"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe anaemia, ST segment depression on ECG signifies subendocardial myocardial ischaemia, requiring urgent blood transfusion to prevent infarction. Tachycardia and mild hypotension are compensatory; raised JVP and oedema suggest heart failure but are less specific for acute ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38a87c99e8d0",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with long-standing iron deficiency anaemia presents with progressive dysphagia. Which single finding indicates a complication that requires urgent endoscopic evaluation?",
+      "options": [
+        "Odynophagia",
+        "Positive anti-tissue transglutaminase antibodies",
+        "Globus sensation",
+        "Oesophageal web on barium swallow",
+        "Low ferritin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Oesophageal web (Plummer-Vinson syndrome) is associated with iron deficiency anaemia and carries a risk of squamous cell carcinoma, prompting urgent endoscopy. Globus sensation is non-specific; odynophagia suggests oesophagitis; anti-tTG antibodies indicate coeliac disease but are not an emergency; low ferritin is expected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b6464d816520",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 32-year-old primigravida at 28 weeks’ gestation presents with fatigue. Haemoglobin is 65 g/L, MCV 72 fL, ferritin 8 µg/L. Which single finding indicates the need for urgent obstetric review and possible transfusion?",
+      "options": [
+        "Ferritin <10 µg/L",
+        "Fetal heart rate decelerations on CTG",
+        "Maternal fatigue",
+        "Heart rate 105 bpm",
+        "Systolic BP 95 mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a pregnant woman with severe anaemia (Hb <70), fetal heart rate decelerations suggest fetal hypoxia due to reduced oxygen-carrying capacity, necessitating urgent transfusion. Tachycardia and mild hypotension are compensatory; fatigue is expected; ferritin <10 is consistent with IDA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15f1558ae99a",
+      "topic": "Iron Deficiency Anaemia",
+      "slug": "iron-deficiency-anaemia",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with heavy menstrual bleeding and iron deficiency anaemia has been taking oral ferrous sulphate 200 mg twice daily for 3 months. Her haemoglobin has not risen. Which single finding would prompt urgent referral for further investigation?",
+      "options": [
+        "MCHC low",
+        "Positive faecal immunochemical test (FIT)",
+        "MCV rising",
+        "Platelet count 500 x 10^9/L",
+        "Ferritin still low"
+      ],
+      "answerIndex": 1,
+      "explanation": "Failure of IDA to respond to oral iron despite ongoing menstrual loss raises concern for occult gastrointestinal bleeding. A positive FIT indicates blood in the stool, warranting urgent endoscopy to exclude colonic neoplasm. Rising MCV suggests iron repletion; low ferritin and MCHC are expected; thrombocytosis is common in IDA.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Atrial Flutter",
+  "slug": "atrial-flutter",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:28:29Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "804189db0e33",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with a 2-hour history of palpitations. He is haemodynamically stable. ECG shows a regular narrow-complex tachycardia with a ventricular rate of 150 bpm and 'sawtooth' flutter waves in leads II, III and aVF. What is the single most likely diagnosis?",
+      "options": [
+        "Atrial fibrillation",
+        "Sinus tachycardia",
+        "Atrioventricular nodal re-entrant tachycardia (AVNRT)",
+        "Atrial tachycardia",
+        "Typical atrial flutter with 2:1 AV block"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of 'sawtooth' flutter waves in the inferior leads with a regular ventricular rate of 150 bpm (atrial rate ~300 bpm) is diagnostic of typical atrial flutter with 2:1 AV block. Atrial fibrillation would show an irregularly irregular rhythm without flutter waves. AVNRT typically has a rate >150 bpm and no flutter waves. Sinus tachycardia has P waves with constant morphology. Atrial tachycardia usually has a rate <250 bpm with P waves different from sinus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e9093fabcc7",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with syncope while jogging. ECG on arrival shows a regular narrow-complex tachycardia at 240 bpm. Carotid sinus massage has no effect, but after intravenous adenosine the rhythm briefly shows flutter waves at 300 bpm with variable conduction before reverting to sinus. What is the single most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia",
+        "Atrial fibrillation with pre-excitation",
+        "Atrial flutter with 1:1 AV conduction",
+        "Atrioventricular nodal re-entrant tachycardia (AVNRT)",
+        "Atrioventricular re-entrant tachycardia (AVRT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "A regular narrow-complex tachycardia at 240 bpm that transiently reveals flutter waves after adenosine is classic for atrial flutter with 1:1 AV conduction. AVNRT and AVRT are typically slower (150-220 bpm) and do not show flutter waves after adenosine. Atrial fibrillation with pre-excitation is irregularly irregular with wide QRS. Sinus tachycardia is gradual in onset and rarely exceeds 220 bpm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "096286ef1205",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with a history of hypertension presents with dizziness and fatigue. Her pulse is 35 bpm and regular. ECG shows a 'sawtooth' pattern at 300 bpm with no relationship to the QRS complexes, which are wide and occur at 35 bpm. What is the single most likely diagnosis?",
+      "options": [
+        "Third-degree AV block with junctional escape",
+        "Ventricular escape rhythm",
+        "Atrial flutter with complete heart block",
+        "Sinus bradycardia",
+        "Atrial fibrillation with complete heart block"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ECG shows atrial flutter waves at 300 bpm with no AV conduction and a wide QRS escape rhythm at 35 bpm, indicating atrial flutter with complete heart block. Atrial fibrillation would not have sawtooth waves. Sinus bradycardia has P waves. Ventricular escape rhythm alone does not specify atrial rhythm. Third-degree AV block with junctional escape would have a narrow QRS if the escape is junctional, but here QRS is wide.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a191c62e20f9",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old primigravida at 28 weeks' gestation presents with palpitations. She is haemodynamically stable. ECG shows a regular narrow-complex tachycardia at 150 bpm with 'sawtooth' waves visible in leads II, III and aVF. What is the single most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia",
+        "Atrial fibrillation",
+        "Typical atrial flutter with 2:1 AV block",
+        "Atrial tachycardia",
+        "Atrioventricular nodal re-entrant tachycardia (AVNRT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sawtooth waves in inferior leads with 2:1 AV block are diagnostic of typical atrial flutter. AVNRT is common in pregnancy but does not produce sawtooth waves. Atrial tachycardia has a different P wave morphology and rate. Atrial fibrillation is irregular. Sinus tachycardia has normal P waves and gradual onset.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "323ec8df0411",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man who underwent coronary artery bypass grafting 3 days ago develops a regular narrow-complex tachycardia at 130 bpm. ECG shows an atrial rate of 260 bpm with variable AV block, but the atrial activity lacks the typical 'sawtooth' morphology in the inferior leads and instead appears as negative deflections in leads V1 and V2. What is the single most likely diagnosis?",
+      "options": [
+        "Atrial tachycardia",
+        "Typical atrial flutter",
+        "Multifocal atrial tachycardia",
+        "Atypical atrial flutter",
+        "Atrial fibrillation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Post-cardiac surgery, atypical (non-cavotricuspid isthmus-dependent) atrial flutter is common due to scar-related re-entry. The absence of sawtooth waves in inferior leads and presence of negative atrial activity in V1/V2 with a rate around 260 bpm is characteristic. Typical atrial flutter would show sawtooth in inferior leads. Atrial tachycardia usually has a rate <250 bpm and different P wave axis. Multifocal atrial tachycardia has three or more P wave morphologies. Atrial fibrillation is irregular.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "528f1d3038a8",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with palpitations. ECG shows a narrow complex tachycardia at 150 bpm. There are no visible P waves. Which of the following ECG features would confirm the diagnosis of atrial flutter?",
+      "options": [
+        "Irregularly irregular rhythm",
+        "QRS duration >120 ms",
+        "ST segment depression",
+        "PR interval >200 ms",
+        "Flutter waves at 300 bpm"
+      ],
+      "answerIndex": 4,
+      "explanation": "Atrial flutter is characterized by a regular atrial rate around 300 bpm with sawtooth flutter waves. An irregularly irregular rhythm suggests atrial fibrillation. PR prolongation and ST depression are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "94c5583cdd17",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with hypertension is found to have atrial flutter on a routine ECG. She is asymptomatic. What is the most appropriate next investigation to assess for underlying structural heart disease?",
+      "options": [
+        "Transesophageal echocardiogram",
+        "Transthoracic echocardiogram",
+        "24-hour Holter monitor",
+        "Cardiac MRI",
+        "Exercise tolerance test"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transthoracic echocardiography is the standard first-line imaging to evaluate for structural heart disease in patients with atrial flutter. TEE is used to exclude thrombus before cardioversion, not for initial assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c5c4ab83d89",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with persistent atrial flutter (duration >48 hours) is scheduled for elective electrical cardioversion. He has been anticoagulated with warfarin for 4 weeks but the INR is now subtherapeutic at 1.5. What is the most appropriate investigation before proceeding?",
+      "options": [
+        "Transthoracic echocardiogram",
+        "Repeat INR in 24 hours",
+        "Transesophageal echocardiogram",
+        "12-lead ECG",
+        "CT pulmonary angiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "When anticoagulation is subtherapeutic or duration is unclear, transesophageal echocardiography is required to exclude left atrial thrombus before cardioversion. TTE is inadequate for this purpose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "99b09b697f15",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with palpitations. ECG shows a narrow complex tachycardia at 180 bpm. The atrial activity is difficult to discern. Carotid sinus massage is performed. Which finding would be most suggestive of atrial flutter?",
+      "options": [
+        "Atrial rate slows",
+        "No change in rhythm",
+        "Tachycardia slows gradually",
+        "Ventricular rate decreases showing flutter waves",
+        "Tachycardia terminates abruptly"
+      ],
+      "answerIndex": 3,
+      "explanation": "Carotid sinus massage increases AV block, which can unmask underlying flutter waves by slowing the ventricular rate. Termination is typical of AVNRT, while gradual slowing suggests sinus tachycardia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c912c138568",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman with known paroxysmal atrial flutter presents with a syncopal episode. She is now asymptomatic with a regular pulse. What is the most appropriate investigation to establish the diagnosis?",
+      "options": [
+        "Echocardiogram",
+        "24-hour Holter monitor",
+        "Tilt table test",
+        "Electrophysiology study",
+        "12-lead ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Holter monitoring can capture the arrhythmia during symptoms in paroxysmal atrial flutter. A resting ECG may be normal if not recorded during an episode. Tilt testing is for vasovagal syncope.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a7703d02dc27",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 66-year-old man presents to the emergency department with palpitations and mild breathlessness. He has no chest pain, syncope, or heart failure. Blood pressure is 130/85 mmHg, heart rate 150 bpm, respiratory rate 18, oxygen saturations 98% on air. ECG shows typical atrial flutter with 2:1 atrioventricular block. He has no previous history of arrhythmia. What is the most appropriate first-line management?",
+      "options": [
+        "Perform DC cardioversion",
+        "Refer for catheter ablation",
+        "Intravenous amiodarone",
+        "Oral digoxin",
+        "Commence oral bisoprolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In haemodynamically stable first-presentation atrial flutter, NICE guidelines recommend rate control with a beta-blocker (e.g., bisoprolol) as first-line therapy. DC cardioversion is reserved for unstable patients; amiodarone is not first-line; digoxin is less effective for rate control in flutter; ablation is considered after failed medical therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a29e1ea15014",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with known coronary artery disease and hypertension presents with severe dyspnoea, chest pain, and hypotension (BP 85/50 mmHg). Her heart rate is 150 bpm, and ECG shows atrial flutter with variable ventricular response. She has signs of acute heart failure. What is the most appropriate immediate management?",
+      "options": [
+        "Intravenous amiodarone bolus",
+        "Oral bisoprolol",
+        "Intravenous digoxin",
+        "Synchronised DC cardioversion",
+        "Overdrive pacing via pacing wire"
+      ],
+      "answerIndex": 3,
+      "explanation": "Haemodynamically unstable atrial flutter requires immediate synchronised DC cardioversion per UK resuscitation guidelines. Intravenous amiodarone acts too slowly; digoxin is inadequate; bisoprolol is contraindicated in acute heart failure; overdrive pacing is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50a47a84885a",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old man with a history of paroxysmal atrial flutter presents with an acute ischaemic stroke. He has hypertension and diabetes (CHA2DS2-VASc score 4). He was not on any antithrombotic therapy. He is now in sinus rhythm. What is the most appropriate long-term antithrombotic strategy?",
+      "options": [
+        "No antithrombotic therapy",
+        "Start apixaban",
+        "Start low-dose aspirin",
+        "Start clopidogrel",
+        "Start warfarin"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends DOACs (e.g., apixaban) as first-line anticoagulation for non-valvular atrial flutter with CHA2DS2-VASc ≥2, regardless of rhythm. Warfarin is an alternative but has higher bleeding risk and requires monitoring. Aspirin and clopidogrel are ineffective for stroke prevention in atrial arrhythmias.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c205ff912cdd",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 34-year-old pregnant woman at 30 weeks gestation presents with palpitations and light-headedness. ECG shows atrial flutter with a ventricular rate of 140 bpm. She is haemodynamically stable. Which of the following therapies is contraindicated in pregnancy?",
+      "options": [
+        "DC cardioversion",
+        "Oral digoxin",
+        "Oral bisoprolol",
+        "Catheter ablation",
+        "Intravenous amiodarone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Amiodarone is contraindicated in pregnancy due to risk of fetal thyroid dysfunction and other adverse effects. DC cardioversion is safe; digoxin and bisoprolol are considered relatively safe; catheter ablation is typically avoided due to radiation but not absolutely contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fe10785b15be",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with recurrent symptomatic typical atrial flutter has been taking bisoprolol 5 mg daily for 3 months with poor symptom control. He has no contraindications to more invasive therapy. What is the most appropriate next step in management?",
+      "options": [
+        "Start amiodarone",
+        "Add digoxin",
+        "Refer for catheter ablation",
+        "Perform DC cardioversion",
+        "Increase bisoprolol dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "For recurrent symptomatic typical atrial flutter despite rate control, catheter ablation is the preferred rhythm control strategy per NICE/ESC guidelines due to high success rates and low complication risk. Increasing beta-blocker or adding digoxin may improve rate but not rhythm; DC cardioversion provides only temporary sinus rhythm; amiodarone has significant toxicity and is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "efcd99f32bea",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man presents to the emergency department with palpitations of two hours' duration. He is haemodynamically stable (BP 135/80 mmHg, HR 110 bpm, asymptomatic). ECG confirms atrial flutter with variable AV block. He has no history of hypertension, diabetes, heart failure, or stroke. He is not on any anticoagulation. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange elective DC cardioversion",
+        "Start bisoprolol 5 mg once daily",
+        "Start apixaban 5 mg twice daily",
+        "Perform transoesophageal echocardiography",
+        "Refer to cardiology outpatients"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend assessing stroke risk using CHA2DS2-VASc for all patients with atrial flutter. This man has a score of 1 (age ≥65). For men, anticoagulation should be considered when the score is ≥1. Immediate initiation of a DOAC (e.g. apixaban) is the priority to reduce stroke risk. Rate control (bisoprolol) is not urgent as he is asymptomatic with a controlled ventricular rate, and cardioversion would require adequate anticoagulation first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "278f1d4163e9",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with known paroxysmal atrial flutter presents to cardiology clinic. She takes verapamil 240 mg once daily but continues to have palpitations once or twice a week, lasting up to an hour. ECG today shows sinus rhythm. She has no other medical conditions. BP 120/80 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Increase verapamil to 360 mg daily",
+        "Refer for catheter ablation of the atrial flutter",
+        "Arrange a 24-hour ambulatory ECG monitor",
+        "Start rivaroxaban 20 mg once daily",
+        "Add a beta blocker (e.g. bisoprolol 2.5 mg daily)"
+      ],
+      "answerIndex": 1,
+      "explanation": "For symptomatic paroxysmal atrial flutter despite rate control, NICE recommends catheter ablation as first-line definitive therapy. Ablation of the cavotricuspid isthmus is highly effective and offers a potential cure. Although increasing rate control medication might reduce symptoms it does not address the rhythm disturbance. Anticoagulation is not indicated because her CHA2DS2-VASc score is 1 (female alone does not reach the threshold of 2 for anticoagulation in women).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2ed33c29164d",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with a history of ischaemic cardiomyopathy presents with acute-onset palpitations and breathlessness. He is confused, BP 70/40 mmHg, and HR 150 bpm. ECG shows atrial flutter with 2:1 AV block. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous amiodarone 300 mg over 1 hour",
+        "Give intravenous digoxin 500 micrograms",
+        "Perform synchronised DC cardioversion",
+        "Administer intravenous adenosine 6 mg",
+        "Request an urgent transthoracic echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient is haemodynamically unstable with hypotension and confusion due to a fast ventricular rate. Synchronised DC cardioversion is the definitive treatment for unstable atrial flutter. Adenosine may be used diagnostically but not for sustained rhythm control. Amiodarone and digoxin are too slow to achieve immediate rate control, and echocardiography would delay life-saving treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6f9e81132ee9",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 32-year-old pregnant woman at 24 weeks gestation presents with palpitations. She is asymptomatic, BP 105/65 mmHg, HR 140 bpm. ECG shows atrial flutter with 2:1 AV block. She has no other medical history. What is the most appropriate immediate next step?",
+      "options": [
+        "Start bisoprolol 2.5 mg once daily",
+        "Refer to cardiology for urgent assessment",
+        "Perform synchronised DC cardioversion",
+        "Start low-molecular-weight heparin",
+        "Start digoxin 125 micrograms once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, rate control is first-line for haemodynamically stable atrial flutter. Bisoprolol (a beta blocker) is safe and effective. Digoxin is second-line. Cardioversion is reserved for unstable patients or if drug therapy fails. Anticoagulation is not indicated because her CHA2DS2-VASc score is 1 (female) and pregnancy alone does not mandate anticoagulation for flutter. Urgent referral is not needed as she is stable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e0ff0c3647d4",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with persistent atrial flutter is admitted for elective DC cardioversion. He has been on warfarin (INR 2.5) for six weeks. Pre-cardioversion transoesophageal echocardiography (TOE) shows a 1.5 cm thrombus in the left atrial appendage. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous adenosine to assess thrombus size",
+        "Cancel the planned cardioversion",
+        "Refer for surgical closure of the left atrial appendage",
+        "Start a direct oral anticoagulant and reschedule cardioversion",
+        "Proceed with cardioversion under TOE guidance"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of a left atrial appendage thrombus is a contraindication to cardioversion due to high embolic risk. The immediate action is to cancel the cardioversion. Current guidelines recommend continuing anticoagulation (e.g. warfarin) for at least 3-4 weeks and then repeating TOE. Changing to a DOAC is not first-line for established thrombus; switching anticoagulants is not the immediate priority. Surgical closure is not indicated first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "44a02886293c",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man presents with palpitations. BP 85/50 mmHg, heart rate 150 bpm, JVP raised, fine crackles in both lung bases. ECG shows atrial flutter with 2:1 block. Which single finding identifies this as a medical emergency requiring immediate synchronised cardioversion?",
+      "options": [
+        "Systolic BP <90 mmHg",
+        "Ventricular rate of 150 bpm",
+        "Atrial rate of 300 bpm",
+        "Raised jugular venous pressure",
+        "Fine crackles on auscultation"
+      ],
+      "answerIndex": 0,
+      "explanation": "A systolic BP <90 mmHg indicates haemodynamic instability due to the fast ventricular rate, necessitating urgent cardioversion. Other findings are common in atrial flutter but do not alone define an emergency threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19206bb485c7",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with no known heart disease presents with sudden-onset palpitations and pre-syncope. ECG shows atrial flutter with 1:1 atrioventricular conduction. Which single finding is most dangerous?",
+      "options": [
+        "Normal cardiac axis",
+        "Absence of AV block on ECG",
+        "Atrial rate of 300 bpm",
+        "Narrow QRS complexes",
+        "Ventricular rate of 300 bpm"
+      ],
+      "answerIndex": 4,
+      "explanation": "A ventricular rate of 300 bpm from 1:1 conduction causes profound haemodynamic compromise and can degenerate into ventricular fibrillation. This is the key emergency feature; other options are not immediately life-threatening.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "10f866196d19",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with chronic atrial flutter on apixaban presents with acute onset right-sided weakness and dysarthria. CT head shows no haemorrhage. Which single finding is the most important to recognise?",
+      "options": [
+        "INR 2.1",
+        "CHA₂DS₂-VASc score of 4",
+        "Acute ischaemic stroke",
+        "Atrial flutter rate of 150 bpm",
+        "Left atrial enlargement on echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "The acute neurological deficit with negative CT indicates ischaemic stroke, most likely embolic from atrial flutter. This is a can't-miss diagnosis requiring immediate stroke team referral; other options are chronic risk factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a958ba7c323",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man with known Wolff-Parkinson-White pattern on ECG presents with palpitations. ECG shows atrial flutter with a ventricular rate of 260 bpm and broad QRS complexes. Which single finding is most concerning?",
+      "options": [
+        "Visible atrial flutter waves",
+        "Broad QRS tachycardia",
+        "Regular rhythm",
+        "Known history of WPW pattern",
+        "Ventricular rate of 260 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pre-excited atrial flutter, broad QRS complexes indicate conduction via the accessory pathway, which can degenerate into ventricular fibrillation. The broad QRS is the specific danger sign; the fast rate alone is less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8a3686d6e56",
+      "topic": "Atrial Flutter",
+      "slug": "atrial-flutter",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man two days after coronary artery bypass grafting develops atrial flutter with a ventricular rate of 140 bpm. BP 100/70 mmHg, on oral bisoprolol. Which single finding would warrant immediate escalation to urgent synchronised cardioversion?",
+      "options": [
+        "Signs of low cardiac output (cold peripheries, oliguria)",
+        "Chest pain",
+        "Atrial rate of 280 bpm",
+        "New ST depression on ECG",
+        "Raised serum troponin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Signs of low cardiac output indicate haemodynamic instability despite rate control, necessitating urgent cardioversion. Other findings are important but do not alone define an emergency requiring immediate intervention.",
+      "difficulty": "medium"
+    }
+  ]
+}

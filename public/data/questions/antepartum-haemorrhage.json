@@ -1,0 +1,513 @@
+{
+  "topic": "Antepartum Haemorrhage",
+  "slug": "antepartum-haemorrhage",
+  "system": "Obstetrics",
+  "subSystem": "Obstetric emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:51Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0f5c5f429c48",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 34 weeks presents with sudden onset severe abdominal pain and a 'board-like' uterus. There is no vaginal bleeding. Fetal heart rate is 160 bpm with late decelerations. What is the single most likely diagnosis?",
+      "options": [
+        "Uterine rupture",
+        "Placental abruption (concealed)",
+        "Vasa praevia",
+        "Cord prolapse",
+        "Placenta praevia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The board-like uterus and fetal distress with no visible bleeding is classic for concealed placental abruption. Uterine rupture typically involves previous caesarean section or trauma, and vasa praevia presents with bleeding and fetal distress after membrane rupture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c279dcb8d09b",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman at 36 weeks with an unstable lie has a painless episode of bright red blood per vaginum. Her abdomen is soft, and fetal heart rate is normal. USS at 20 weeks showed a low-lying placenta. What is the single most likely diagnosis?",
+      "options": [
+        "Cervical ectropion",
+        "Placental abruption",
+        "Placenta praevia",
+        "Preterm labour",
+        "Vasa praevia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Painless bleeding, unstable lie, and prior low-lying placenta are classic for placenta praevia. Abruption is painful; vasa praevia usually presents after membrane rupture with fetal distress.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c52830c7e020",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman at 32 weeks with a low-lying anterior placenta (3 cm from internal os) has a small painless bleed after sexual intercourse. Fetal movements normal. What is the single most likely diagnosis?",
+      "options": [
+        "Placenta praevia (minor)",
+        "Genital tract infection",
+        "Vasa praevia",
+        "Cervical ectropion",
+        "Placental abruption"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although a cervical ectropion can cause post-coital bleeding, the presence of a low-lying placenta makes placenta praevia a more likely source. Abruption is typically painful; vasa praevia is painless but often presents with fetal distress after membrane rupture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "267e2dd48b8e",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman at 38 weeks with a previous caesarean section presents with severe abdominal pain and vaginal bleeding after a fall. She is in shock. Fetal bradycardia. What is the single most likely diagnosis?",
+      "options": [
+        "Placental abruption",
+        "Vasa praevia",
+        "Cord prolapse",
+        "Placenta accreta",
+        "Uterine rupture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Previous caesarean section, trauma, severe pain, shock, and fetal bradycardia make uterine rupture the most likely. Abruption could also cause pain but the context strongly favours rupture. Placenta accreta presents with haemorrhage during delivery, not trauma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc8956867d7e",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 26-year-old woman at 30 weeks with pre-eclampsia (BP 160/100, proteinuria) has a small amount of dark red blood per vaginum and persistent low back pain. Fetal heart rate shows variable decelerations. What is the single most likely diagnosis?",
+      "options": [
+        "Placenta praevia",
+        "Preterm labour",
+        "Cervical ectropion",
+        "Placental abruption",
+        "Vasa praevia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pre-eclampsia is a strong risk factor for abruption. Dark blood, back pain, and fetal distress are classic features. Placenta praevia is painless; preterm labour would have contractions, not back pain and variable decelerations from cord compression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c640ffa8a6c",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 34-week primigravida presents with painless bright red vaginal bleeding. Transabdominal ultrasound suggests a placenta that overlaps the internal cervical os. What is the single most appropriate next investigation to confirm the diagnosis of placenta praevia?",
+      "options": [
+        "Transvaginal ultrasound",
+        "Speculum examination",
+        "Repeat transabdominal ultrasound in 2 weeks",
+        "Magnetic resonance imaging (MRI)",
+        "Cardiotocography (CTG)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transvaginal ultrasound is more accurate than transabdominal for delineating the relationship of the placenta to the internal os and is safe in suspected placenta praevia. MRI is not first-line; speculum examination may provoke bleeding and does not confirm diagnosis; CTG assesses fetal wellbeing but does not confirm placental location; repeat transabdominal ultrasound in 2 weeks is appropriate only if initial transvaginal is inconclusive or for follow-up, but transvaginal is the immediate confirmatory test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "627fc2a06582",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-week pregnant woman, blood group O Rh-negative, presents with a small amount of dark vaginal bleeding and no abdominal pain. Speculum examination reveals no active bleeding and the cervix is closed. What is the single most appropriate investigation to guide further management?",
+      "options": [
+        "Speculum examination",
+        "Ultrasound for placental location",
+        "Fetal fibronectin test",
+        "Cardiotocography (CTG)",
+        "Kleihauer test"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Kleihauer test quantifies fetomaternal haemorrhage (FMH) to determine the appropriate dose of anti-D immunoglobulin in Rh-negative women with antepartum haemorrhage. Fetal fibronectin assesses preterm labour risk, but anti-D dosing is the priority; speculum examination and ultrasound have already been performed (or are part of initial assessment); CTG assesses fetal wellbeing but does not guide anti-D dosing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "69a77bfac1ef",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 36-week woman with a known anterior low-lying placenta presents with sudden painless vaginal bleeding after spontaneous rupture of membranes. Cardiotocography shows a fetal bradycardia. What is the single most appropriate investigation to confirm the suspected diagnosis?",
+      "options": [
+        "Kleihauer test on maternal blood",
+        "Cordocentesis",
+        "Apt test on vaginal blood",
+        "Fetal blood gas analysis",
+        "Transvaginal ultrasound with colour Doppler"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Apt test (alkali denaturation) differentiates fetal from maternal haemoglobin; a positive result on vaginal blood confirms vasa praevia. Kleihauer test on maternal blood quantifies FMH but cannot localize the source; transvaginal Doppler may identify vasa praevia pre-rupture but in acute bleeding, the Apt test is rapid and diagnostic; cordocentesis is invasive and not indicated; fetal blood gas analysis is done after delivery.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4d9c6b01c9ef",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 33 weeks gestation, with two previous caesarean sections, presents with a small antepartum haemorrhage. Ultrasound reveals an anterior low-lying placenta with multiple lacunae. What is the single most appropriate investigation to assess for placenta accreta spectrum?",
+      "options": [
+        "Cardiotocography (CTG)",
+        "Kleihauer test",
+        "Magnetic resonance imaging (MRI)",
+        "Doppler ultrasound of the placenta",
+        "Serial transabdominal ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRI is the imaging modality of choice when ultrasound features (e.g., lacunae) are suspicious for placenta accreta, especially in the presence of prior caesarean sections. CTG assesses fetal wellbeing, not placental invasion; Kleihauer test is for FMH; serial ultrasound may be used but MRI provides better soft tissue resolution; Doppler ultrasound is complementary but MRI is more definitive for depth of invasion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24373d2b617e",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 29-week primigravida presents with a small amount of dark blood per vaginum, no abdominal pain. Speculum examination shows no active bleeding. A swab for fetal fibronectin (fFN) is taken and reports as positive (>50 ng/mL). What is the correct interpretation of this result?",
+      "options": [
+        "High risk of preterm labour within 7 days",
+        "Placental abruption is likely",
+        "Corticosteroids are not indicated",
+        "Infection is likely",
+        "Low risk of preterm labour"
+      ],
+      "answerIndex": 0,
+      "explanation": "A positive fFN (>50 ng/mL) in a symptomatic woman indicates a high risk of preterm birth within 7 days, per NICE guidance. It does not directly indicate infection or abruption; corticosteroids are indicated if preterm labour is anticipated, so the statement 'corticosteroids are not indicated' is false.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b7eeb709dc9e",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old primigravida at 36 weeks gestation presents with a small painless episode of bright red vaginal bleeding. She is haemodynamically stable with normal fetal heart rate. Ultrasound confirms a complete placenta praevia. What is the most appropriate management?",
+      "options": [
+        "External cephalic version to reduce bleeding",
+        "Emergency caesarean section",
+        "Admit for observation and plan elective caesarean at 37 weeks",
+        "Discharge home with advice to avoid heavy lifting",
+        "Digital vaginal examination to assess cervical dilatation"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a minor bleed from placenta praevia, admission for monitoring and steroid administration is standard, with elective caesarean planned around 37-38 weeks. Digital vaginal examination is contraindicated because it can provoke severe haemorrhage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e80c3343289",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 32 weeks gestation presents with abdominal pain and mild vaginal bleeding. On examination, the uterus is mildly tender and irritable. Cardiotocography is reassuring with no fetal distress. Ultrasound shows a retroplacental clot. What is the most appropriate management?",
+      "options": [
+        "Emergency caesarean section",
+        "Expectant management with admission and fetal monitoring",
+        "Digital vaginal examination to assess bleeding",
+        "Induction of labour with oxytocin",
+        "Tocolysis with nifedipine"
+      ],
+      "answerIndex": 1,
+      "explanation": "In mild abruption with no fetal distress, expectant management is appropriate to allow fetal maturation. Tocolysis is controversial and not first-line because it may mask abruption progression. Emergency delivery is not indicated without fetal distress.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a14edcb39627",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman at 38 weeks gestation presents with sudden severe abdominal pain, heavy vaginal bleeding, and signs of shock. Cardiotocography shows late decelerations. What is the most appropriate immediate management?",
+      "options": [
+        "Administer tocolytics to stop uterine contractions",
+        "Perform emergency caesarean section under general anaesthesia",
+        "Apply fetal scalp electrode for further monitoring",
+        "Start oxytocin infusion for induction of labour",
+        "Administer corticosteroids to promote fetal lung maturity"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe abruption with fetal distress, immediate delivery by caesarean section is indicated to save the fetus and manage maternal haemorrhage. Tocolytics are contraindicated as delivery is urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6b9b0719b045",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with a known major placenta praevia develops sudden massive vaginal bleeding at 35 weeks. She is hypotensive, tachycardic, and unconscious. What is the single most appropriate first step in the management of this haemorrhage?",
+      "options": [
+        "Administer recombinant factor VIIa",
+        "Administer intravenous crystalloid 2 litres",
+        "Cross-match 4 units of blood",
+        "Activate massive transfusion protocol and give O negative blood",
+        "Apply a Bakri balloon intrauterine"
+      ],
+      "answerIndex": 3,
+      "explanation": "In massive haemorrhage with haemodynamic instability, immediate transfusion of uncrossmatched O negative blood is life-saving. Awaiting cross-match delays treatment. Crystalloid is insufficient as definitive therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6eebbc3abcad",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old Jehovah's Witness at 34 weeks gestation presents with a major placental abruption and active haemorrhage. She refuses blood transfusion. Despite fluid resuscitation, her haemoglobin drops to 60 g/L. Which of the following treatments is contraindicated in this patient?",
+      "options": [
+        "Intravenous iron supplementation",
+        "Intravenous tranexamic acid",
+        "Corticosteroids for fetal lung maturity",
+        "Transfusion of packed red cells",
+        "Emergency caesarean section"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood transfusion is contraindicated due to the patient's religious refusal. Tranexamic acid, emergency delivery, steroids, and iron are acceptable interventions that respect her wishes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b76555f5f901",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old primigravida at 30 weeks' gestation presents with painless, small-volume bright red vaginal bleeding. Observations are normal: BP 110/70 mmHg, HR 80 bpm, temperature 36.8°C. There is no history of vaginal trauma or bleeding. On examination, the uterus is soft and non-tender. What is the most appropriate immediate next step?",
+      "options": [
+        "Request urgent cardiotocography (CTG)",
+        "Insert intravenous cannula and take blood for full blood count",
+        "Perform speculum examination to exclude cervical lesions",
+        "Arrange transabdominal ultrasound scan for placental site",
+        "Start intravenous fluid resuscitation with crystalloid"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a first presentation of antepartum haemorrhage, it is essential to determine placental location by transabdominal ultrasound to exclude placenta praevia before performing any vaginal examination, as digital or speculum examination can provoke catastrophic bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "36860a866c10",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with a known anterior placenta praevia (confirmed on ultrasound at 20 weeks) presents at 32 weeks' gestation with a small, self-limiting episode of fresh vaginal bleeding. Observations are normal. The bleeding has stopped, and she is not in labour. She has not previously received corticosteroids. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform transabdominal ultrasound for placental localization",
+        "Admit for observation on the antenatal ward",
+        "Arrange magnetic resonance imaging (MRI) for placental invasion",
+        "Plan elective caesarean section at 39 weeks",
+        "Administer corticosteroids for fetal lung maturation"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends a course of corticosteroids (e.g., two doses of dexamethasone or betamethasone) for women with placenta praevia and bleeding between 24+0 and 33+6 weeks' gestation who are at risk of preterm delivery. This reduces neonatal morbidity. Steroids should be given even if the bleeding settles, as delivery may become necessary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a40c37001e67",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman at 34 weeks' gestation is brought to the emergency department with sudden, profuse vaginal bleeding. She is pale, diaphoretic, and confused. Observations: BP 80/50 mmHg, HR 130 bpm, RR 24 breaths/min, SpO2 97% on air. The uterus is tender and hypertonic. CTG shows a fetal heart rate of 60 bpm with minimal variability. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a fetal scalp electrode for monitoring",
+        "Immediate category-1 caesarean section",
+        "Administer tocolysis to delay delivery",
+        "Perform urgent transabdominal ultrasound to assess abruption",
+        "Commence magnesium sulphate for fetal neuroprotection"
+      ],
+      "answerIndex": 1,
+      "explanation": "This scenario represents massive antepartum haemorrhage with maternal shock and fetal bradycardia. The only intervention that can save both mother and baby is immediate delivery by category-1 caesarean section. Concurrent resuscitation (IV access, fluids, blood products) is essential but should not delay delivery.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "364d2d4c9c88",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 27-year-old primigravida at 32 weeks' gestation presents with severe constant abdominal pain and a small amount of dark red vaginal bleeding. On examination, the uterus is tense and tender. Fetal heart rate is 140 bpm with good variability. Contractions are not palpable. Observations are stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for conservative management with CTG monitoring",
+        "Administer corticosteroids for fetal lung maturation",
+        "Give intravenous tranexamic acid",
+        "Perform emergency caesarean section",
+        "Start tocolysis with nifedipine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Suspected placental abruption with no evidence of fetal distress and maternal stability suggests conservative management is appropriate. Given the risk of preterm delivery, corticosteroids should be administered to improve fetal lung maturity. Immediate delivery is not indicated without fetal compromise, and tocolysis is contraindicated in abruption.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6805a3091650",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman (G3P2) with a known posterior placenta praevia presents at 28 weeks' gestation with a small, fresh vaginal bleed. Observations are normal. She is rhesus D-negative with no antibodies. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluid resuscitation",
+        "Arrange transabdominal ultrasound for placental localization",
+        "Give a course of corticosteroids",
+        "Administer anti-D immunoglobulin",
+        "Perform speculum examination"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a rhesus-negative mother with antepartum haemorrhage, there is a risk of fetomaternal haemorrhage and sensitisation. Anti-D immunoglobulin should be given as soon as possible after the bleeding episode to prevent rhesus isoimmunisation, regardless of the cause of bleeding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "807cbd667953",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old primigravida at 34 weeks gestation presents with sudden onset of severe constant abdominal pain and vaginal bleeding. On examination, the uterus is tense and tender, and the fetal heart rate is 110 bpm with late decelerations. Which single feature most strongly suggests a concealed abruption rather than placenta praevia?",
+      "options": [
+        "Bright red vaginal bleeding",
+        "Maternal tachycardia",
+        "Tense, tender uterus",
+        "Fetal heart rate decelerations",
+        "Constant abdominal pain"
+      ],
+      "answerIndex": 2,
+      "explanation": "A tense, tender uterus (Couvelaire uterus) is characteristic of placental abruption, especially concealed abruption where bleeding is retroplacental. Placenta praevia typically presents with painless, bright red bleeding and a soft uterus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3e114cd1e95",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman at 37 weeks gestation with a known posterior placenta praevia presents with a single episode of heavy bright red bleeding. She is haemodynamically stable with normal fetal heart rate. Which finding mandates immediate delivery?",
+      "options": [
+        "Recurrent heavy bleeding",
+        "Fetal bradycardia <110 bpm",
+        "Maternal pulse >100 bpm",
+        "Fundal height > dates",
+        "Haemoglobin drop >2 g/dL"
+      ],
+      "answerIndex": 2,
+      "explanation": "Maternal tachycardia >100 bpm is an early sign of hypovolaemic shock and indicates significant haemorrhage. In placenta praevia, this is a criterion for emergency caesarean section regardless of fetal status. Other options may also be worrying but tachycardia is the earliest objective sign of compromise.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "287c0d8883f7",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old multiparous woman at 39 weeks gestation experiences sudden, severe abdominal pain and dark vaginal bleeding. She has a history of two previous caesarean sections. On examination, fetal parts are easily palpable and the fetal heart is absent. What is the most likely diagnosis?",
+      "options": [
+        "Cord prolapse",
+        "Placental abruption",
+        "Placenta praevia",
+        "Vasa praevia",
+        "Uterine rupture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Palpable fetal parts and fetal death in a woman with previous caesarean sections and sudden pain with bleeding are classic for uterine rupture. The uterus has ruptured, allowing fetal parts to be easily felt. Other options do not produce palpable fetal parts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d5765ed7abf",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman at 35 weeks gestation presents with painless vaginal spotting after a minor fall. She has a low-lying placenta on a previous scan. The bleeding stops spontaneously. Which finding should raise concern for a major bleed?",
+      "options": [
+        "Spotting that soaks one pad per hour",
+        "Uterine contractions every 10 minutes",
+        "Maternal systolic BP 100 mmHg",
+        "Fetal heart rate baseline 150 bpm",
+        "Dizziness on standing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bleeding that soaks one pad per hour is considered heavy and indicates ongoing haemorrhage. In placenta praevia, even small bleeds can be sentinels, but the definition of heavy bleeding is a threshold for escalation. Other options are less specific or non-urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1254652bced5",
+      "topic": "Antepartum Haemorrhage",
+      "slug": "antepartum-haemorrhage",
+      "system": "Obstetrics",
+      "subSystem": "Obstetric emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 26-year-old primigravida at 38 weeks gestation has a sudden gush of bright red blood per vaginam shortly after spontaneous rupture of membranes. The fetal heart rate drops to 60 bpm and does not recover. What is the most likely cause?",
+      "options": [
+        "Placental abruption",
+        "Fetal haemorrhage from vasa praevia",
+        "Vasa praevia",
+        "Placenta praevia",
+        "Uterine rupture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vasa praevia is a condition where fetal blood vessels run across the membranes over the internal os. Rupture of membranes can tear these vessels, causing rapid fetal exsanguination and fetal bradycardia. The combination of APH, membrane rupture, and immediate fetal distress is classic.",
+      "difficulty": "hard"
+    }
+  ]
+}

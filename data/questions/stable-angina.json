@@ -1,0 +1,513 @@
+{
+  "topic": "Stable Angina",
+  "slug": "stable-angina",
+  "system": "Cardiovascular",
+  "subSystem": "Ischaemic",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "a8ba096991fa",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old man with a 30 pack-year smoking history and hypertension presents with retrosternal chest pain that occurs when he walks uphill. The pain is relieved within 2 minutes of rest. ECG shows no acute changes. What is the single most likely diagnosis?",
+      "options": [
+        "Acute myocardial infarction",
+        "Gastro-oesophageal reflux disease",
+        "Stable angina",
+        "Costochondritis",
+        "Unstable angina"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic exertional pattern with rapid relief by rest is typical of stable angina, differentiating it from unstable angina (rest or crescendo pattern) and other causes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "778d02b58aaa",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with type 2 diabetes and a history of hypertension complains of breathlessness on exertion that has been gradually worsening over months. She denies any chest pain or discomfort. Exercise tolerance has dropped from 30 minutes to 10 minutes. ECG shows ST depression during an exercise tolerance test. What is the single most likely diagnosis?",
+      "options": [
+        "Anaemia",
+        "Asthma",
+        "Heart failure",
+        "COPD",
+        "Stable angina (atypical presentation)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In women and patients with diabetes, angina can present as exertional dyspnoea (angina equivalent). The ischaemic changes on ETT confirm myocardial ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8d9fe275022b",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with known stable angina controlled with GTN and bisoprolol presents with a 2-week history of chest pain at rest that lasts for 15 minutes and is not relieved by GTN. ECG shows T-wave inversion in leads V2-V4. Troponin is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Stable angina",
+        "Unstable angina",
+        "Pericarditis",
+        "Pulmonary embolism",
+        "Non-ST elevation myocardial infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chest pain at rest with dynamic ECG changes and normal troponin is consistent with unstable angina, distinguishing it from NSTEMI (elevated troponin) and stable angina (only exertional).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00e4c1ec6700",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with no cardiovascular risk factors presents with episodes of retrosternal chest pain that are precipitated by exertion and stress. The pain is sharp and lasts for 5-10 minutes. Exercise ECG shows 2mm ST depression in leads V4-V6, but coronary angiography reveals no obstructive disease. What is the single most likely diagnosis?",
+      "options": [
+        "Pericarditis",
+        "Costochondritis",
+        "Panic disorder",
+        "Microvascular angina",
+        "Oesophageal spasm"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of typical angina symptoms, objective ischaemia on exercise ECG, and normal epicardial coronary arteries points to microvascular angina (Cardiac Syndrome X).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "42537eaac1a9",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with known stable angina experiences chest pain after eating a heavy meal. The pain is similar to his usual angina but occurs at a lower workload. He uses his GTN spray, which provides relief within 3 minutes. What is the single most likely diagnosis?",
+      "options": [
+        "NSTEMI",
+        "Stable angina",
+        "Gastritis",
+        "Unstable angina",
+        "Oesophageal spasm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Postprandial angina is a common manifestation of stable angina due to increased cardiac demand after eating. The rapid relief with GTN confirms ischaemic cause, and the lack of rest pain or escalation excludes unstable angina.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ffd374324cac",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with exertional chest pain typical of angina. He has no previous cardiac history, ECG is normal, and he is not on any cardiac medication. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Stress echocardiography",
+        "Invasive coronary angiography",
+        "Exercise tolerance test",
+        "Cardiac MRI",
+        "CT coronary angiography"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE CG95, CT coronary angiography is the first-line investigation for stable chest pain with typical or atypical angina when the diagnosis is uncertain. Exercise ECG is no longer recommended due to lower diagnostic accuracy and higher false-positive rates in this population.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a765f45f8c8",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with known coronary artery disease (previous drug-eluting stent to LAD 3 years ago) now reports worsening exertional chest pain over the past 2 months. He is not in acute distress. ECG shows no acute changes. What is the most appropriate next investigation to assess for inducible ischaemia?",
+      "options": [
+        "Repeat CT coronary angiography",
+        "Stress echocardiography",
+        "Invasive coronary angiography",
+        "Exercise ECG",
+        "24-hour Holter monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends stress imaging (echocardiography, myocardial perfusion scintigraphy, or stress MRI) over exercise ECG for symptomatic patients with known CAD. Stress echocardiography is a well-validated, radiation-free option that provides functional and prognostic data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6059433c5ff",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old woman with atypical chest pain undergoes CT coronary angiography, which shows a 30% stenosis in the left anterior descending artery. She has no other high-risk features. What is the most appropriate next test?",
+      "options": [
+        "Start anti-anginal medication",
+        "Repeat CT coronary angiography in 1 year",
+        "Reassure and discharge",
+        "Invasive coronary angiography",
+        "Dobutamine stress echocardiography"
+      ],
+      "answerIndex": 4,
+      "explanation": "A non-obstructive stenosis (<50%) on CTCA does not exclude microvascular or vasospastic angina. Functional imaging (e.g., dobutamine stress echocardiography) is recommended to assess for inducible ischaemia caused by these mechanisms. Invasive angiography is not indicated for mild narrowing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1978368b453e",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with left bundle branch block on his resting ECG presents with chest pain suggestive of stable angina. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Stress echocardiography",
+        "CT coronary angiography",
+        "Invasive coronary angiography",
+        "Ambulatory ECG monitoring",
+        "Exercise ECG"
+      ],
+      "answerIndex": 0,
+      "explanation": "In patients with left bundle branch block, exercise ECG is uninterpretable for ischaemia due to baseline repolarisation abnormalities. NICE recommends pharmacological perfusion imaging or stress echocardiography as first-line. Stress echocardiography avoids radiation and provides both functional and structural information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f9643491eff",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man undergoes exercise ECG for investigation of exertional chest pain. He achieves 85% of predicted heart rate without chest pain. The ECG shows 1.5 mm upsloping ST depression in leads V4-V6 during peak exercise, which resolves rapidly. What is the most appropriate interpretation?",
+      "options": [
+        "Positive for ischaemia – ST depression indicates significant CAD",
+        "Normal response – upsloping ST depression is non-ischaemic",
+        "Negative for ischaemia – no horizontal/downsloping ST depression",
+        "Borderline result – requires further investigation",
+        "Inconclusive – inadequate workload achieved"
+      ],
+      "answerIndex": 3,
+      "explanation": "Upsloping ST depression is less specific for ischaemia than horizontal or downsloping depression. While 1.5 mm is above the usual 1 mm threshold, the upsloping morphology and lack of chest pain make a clear positive interpretation uncertain. Further functional imaging is warranted to clarify.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9415b05511a9",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "55-year-old man with new-onset stable angina (exercise-induced chest pain). He has hypertension and sinus tachycardia at rest (100 bpm). He has no contraindications. What is the most appropriate first-line antianginal monotherapy?",
+      "options": [
+        "Amlodipine",
+        "Bisoprolol",
+        "Glyceryl trinitrate as required",
+        "Nicorandil",
+        "Isosorbide mononitrate"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends beta-blocker or calcium channel blocker as first-line monotherapy. In this patient with hypertension and tachycardia, a beta-blocker (e.g., bisoprolol) is particularly beneficial. GTN is for acute relief, not maintenance. Nitrates and nicorandil are second-line options.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d20200271735",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "62-year-old woman with stable angina controlled on amlodipine 5 mg once daily but still has occasional exertional chest pain. She has no contraindications. What is the most appropriate next step?",
+      "options": [
+        "Switch to nicorandil",
+        "Add glyceryl trinitrate as required",
+        "Add bisoprolol",
+        "Add isosorbide mononitrate",
+        "Increase amlodipine to 10 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE advises if symptoms persist on monotherapy with a CCB, adding a beta-blocker (e.g., bisoprolol) is the next step. Increasing the dose or adding a long-acting nitrate are alternative options but adding the other class is preferred. GTN is for acute attacks, not step-up.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d145b3cc18ca",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "70-year-old man with stable angina and asthma (intermittent, well-controlled). He is not on any regular antianginal therapy. Which drug is contraindicated as first-line treatment?",
+      "options": [
+        "Bisoprolol",
+        "Ivabradine",
+        "Amlodipine",
+        "Nicorandil",
+        "Isosorbide mononitrate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta-blockers are contraindicated in asthma due to risk of bronchospasm. NICE advises to avoid non-selective and cardioselective beta-blockers in asthma. All other options are safe in asthma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "796564898558",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "60-year-old man with stable angina and heart failure with reduced ejection fraction (LVEF 30%). He is on optimal therapy (ACEi, bisoprolol, spironolactone). He still has angina. Which antianginal drug is contraindicated?",
+      "options": [
+        "Isosorbide mononitrate",
+        "Ivabradine",
+        "Verapamil",
+        "Amlodipine",
+        "Nicorandil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Non-dihydropyridine calcium channel blockers (verapamil, diltiazem) have negative inotropic effects and are contraindicated in heart failure with reduced ejection fraction. The other options are safe or have neutral effects. NICE recommends adding a long-acting nitrate or nicorandil in this scenario.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e7e157ffd4e5",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "45-year-old man with stable angina on background of chronic kidney disease stage 3 (eGFR 45). He currently takes bisoprolol 5 mg once daily with persistent angina. Which of the following is best to add?",
+      "options": [
+        "Diltiazem",
+        "Amlodipine",
+        "Verapamil",
+        "Nicorandil",
+        "Isosorbide mononitrate"
+      ],
+      "answerIndex": 1,
+      "explanation": "When symptoms persist on a beta-blocker, NICE recommends adding a dihydropyridine calcium channel blocker (e.g., amlodipine). Non-dihydropyridine CCBs (diltiazem, verapamil) can cause bradycardia when combined with beta-blockers. Nicorandil and long-acting nitrates are alternative options but not first-line add-on.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9d9ff845b6d8",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with a 2-month history of retrosternal chest pain on exertion, relieved by rest. He has no known medical history and takes no medications. ECG in clinic is normal. What is the most appropriate next step?",
+      "options": [
+        "Refer for coronary angiography",
+        "Start bisoprolol 5mg once daily",
+        "Refer for an exercise tolerance test",
+        "Start sublingual glyceryl trinitrate (GTN) spray",
+        "Start aspirin 75mg and atorvastatin 80mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend functional testing (e.g., exercise tolerance test) for patients with typical angina and intermediate risk before starting treatment or invasive investigation. Starting medications without confirming the diagnosis or risk-stratifying is premature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b22113bd62d",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman with known stable angina is on aspirin 75mg, atorvastatin 80mg, bisoprolol 5mg, and uses GTN spray 2-3 times per week. She reports that symptoms are well tolerated and occur only with heavy exertion. What is the most appropriate next step?",
+      "options": [
+        "Add ranolazine 375mg twice daily",
+        "Increase bisoprolol to 10mg once daily",
+        "Refer for coronary angiography",
+        "Review lifestyle and ensure optimal medical therapy",
+        "Add nicorandil 10mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends reviewing lifestyle and optimising existing medical therapy (including adherence) before escalating treatment or considering revascularisation. Adding a second-line agent like ranolazine is premature without optimisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc3fe1b833b6",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known stable angina presents to the ED with central chest pain at rest for 2 hours. ECG shows anterior ST depression. Troponin I is elevated at 45 ng/L. He is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT coronary angiogram",
+        "Refer for urgent coronary angiography within 24 hours",
+        "Start fondaparinux 2.5mg subcutaneously",
+        "Give aspirin 300mg and clopidogrel 600mg orally",
+        "Give morphine 5mg IV and GTN infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a NSTEMI. The immediate priority is dual antiplatelet therapy (aspirin and clopidogrel) as per NICE guidance for acute coronary syndrome. Urgent angiography is indicated but not the first action; the patient must first receive antiplatelet therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c56ca2b51c9",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with suspected stable angina underwent coronary angiography which showed no obstructive coronary artery disease. She continues to have exertional chest pain. What is the most appropriate next step?",
+      "options": [
+        "Refer for a PET scan to assess myocardial perfusion",
+        "Start ranolazine 375mg twice daily",
+        "Start bisoprolol 2.5mg once daily",
+        "Reassure her that the pain is not cardiac and discharge",
+        "Start ivabradine 5mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In microvascular angina (no obstructive CAD but typical symptoms), NICE recommends first-line treatment with a beta-blocker (e.g., bisoprolol) for symptom relief. Second-line options include ranolazine or ivabradine. Reassurance alone is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09b64f7ebb0b",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with stable angina is currently taking aspirin 75mg, bisoprolol 5mg, and uses GTN spray occasionally. He is not on a statin. His fasting lipid profile shows total cholesterol 5.5 mmol/L and LDL 3.5 mmol/L. What is the most appropriate next step?",
+      "options": [
+        "Start fenofibrate 200mg once daily",
+        "Refer for coronary angiography",
+        "Advise dietary modifications alone",
+        "Add ezetimibe 10mg once daily",
+        "Start atorvastatin 80mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends high-intensity statin therapy (atorvastatin 80mg) for all patients with established cardiovascular disease, regardless of baseline cholesterol. Dietary advice alone is insufficient. Ezetimibe and fenofibrate are second-line add-ons.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ecd2bafc64a",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man with exertional chest pain that is relieved by rest presents to his GP. He has no other symptoms. Which one of the following features would prompt urgent cardiology referral?",
+      "options": [
+        "Pain radiating to the left arm",
+        "Pain occurring at rest",
+        "Pain lasting 30 seconds",
+        "Pain on walking quickly",
+        "Pain associated with nausea"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pain at rest (or minimal exertion) is a red flag for unstable angina, which requires urgent cardiology assessment. The other options are typical of stable angina and do not indicate instability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49d6e4943a8f",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with known stable angina (NYHA II) on aspirin and bisoprolol presents to the clinic complaining of a single episode of transient loss of consciousness while walking. Which of the following findings is most concerning?",
+      "options": [
+        "Chest pain with moderate activity",
+        "Syncope on exertion",
+        "Exertional dizziness",
+        "Palpitations at rest",
+        "Fatigue"
+      ],
+      "answerIndex": 1,
+      "explanation": "Syncope on exertion in a patient with known angina is a red flag for severe underlying cardiac disease – either malignant arrhythmia (e.g., ventricular tachycardia) or critical left main stem / aortic stenosis. The other options are less specific for an immediate life-threatening condition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73c9efcb46a7",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with stable angina presents to the emergency department with severe central chest pain that started at rest 30 minutes ago and is unrelieved by glyceryl trinitrate. He is clammy. Which of the following examination findings is most concerning?",
+      "options": [
+        "Fine crackles at both lung bases",
+        "Blood pressure 150/90 mmHg",
+        "Oxygen saturation 98% on room air",
+        "Jugular venous pressure not elevated",
+        "Heart rate 90 bpm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fine crackles indicate acute pulmonary oedema due to left ventricular failure, a life-threatening complication of acute coronary syndrome. The other findings are within normal limits or less immediately dangerous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd9c7bf9abd6",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with stable angina (Canadian Cardiovascular Society class II) develops progressive shortness of breath on minimal exertion over three months. Which of the following findings would indicate that her angina is complicated by systolic heart failure?",
+      "options": [
+        "NT-proBNP level of 5000 pg/mL",
+        "Cardiac MRI showing late gadolinium enhancement",
+        "Echocardiogram showing ejection fraction of 35%",
+        "Electrocardiogram showing left ventricular hypertrophy",
+        "Chest X-ray showing cardiomegaly"
+      ],
+      "answerIndex": 2,
+      "explanation": "An ejection fraction ≤40% is the diagnostic criterion for systolic heart failure. While all options may be associated with heart failure, the echocardiographic ejection fraction is the definitive measurement. An EF of 35% additionally meets the threshold for implantable cardioverter-defibrillator consideration for primary prevention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0d9ffcc230e7",
+      "topic": "Stable Angina",
+      "slug": "stable-angina",
+      "system": "Cardiovascular",
+      "subSystem": "Ischaemic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with type 2 diabetes and hypertension has typical angina on walking. He is on metformin and ramipril. Which of the following features should raise suspicion of a 'silent' acute coronary syndrome?",
+      "options": [
+        "Fatigue as the only symptom",
+        "Shortness of breath without chest pain",
+        "Asymptomatic ST depression on Holter monitoring",
+        "Profuse sweating at rest",
+        "No chest pain during an exercise tolerance test"
+      ],
+      "answerIndex": 1,
+      "explanation": "In diabetic patients, acute coronary syndrome often presents with atypical symptoms such as dyspnoea, nausea, or diaphoresis instead of typical chest pain. Dyspnoea alone is a red flag for 'silent' ischaemia. The other options are either not acute (asymptomatic ST depression) or less specific (fatigue, lack of pain during ETT).",
+      "difficulty": "hard"
+    }
+  ]
+}

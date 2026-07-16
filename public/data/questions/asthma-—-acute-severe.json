@@ -1,0 +1,513 @@
+{
+  "topic": "Asthma — Acute Severe",
+  "slug": "asthma-—-acute-severe",
+  "system": "Respiratory",
+  "subSystem": "Asthma",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:44Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "eea667c201c0",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents to the emergency department with a 6-hour history of sudden-onset wheeze and breathlessness. She has no prior diagnosis of asthma. She has no fever, no stridor, and no known allergies. Peak expiratory flow rate (PEFR) is 60% of predicted. After two cycles of salbutamol via nebuliser, her symptoms improve and PEFR rises to 85%. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Acute asthma (first presentation)",
+        "Foreign body aspiration",
+        "Vocal cord dysfunction",
+        "Chronic obstructive pulmonary disease (COPD)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The acute onset, wheeze, response to beta-2 agonists, and normalisation of PEFR make acute asthma the most likely diagnosis. Vocal cord dysfunction typically presents with stridor and normal PEFR between attacks. Anaphylaxis would have other features such as urticaria or hypotension. Foreign body aspiration usually causes unilateral signs. COPD is unlikely in a 22-year-old without smoking history.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bafd579ba122",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known asthma presents with a 2-day history of worsening cough, wheeze, and breathlessness following an upper respiratory tract infection. He has normal oxygen saturations on air, PEFR is 70% of predicted, and chest X-ray shows no focal consolidation. Sputum culture is negative. What is the single most likely diagnosis?",
+      "options": [
+        "Community-acquired pneumonia",
+        "Bronchiectasis exacerbation",
+        "Acute asthma exacerbation",
+        "Acute bronchitis",
+        "Chronic obstructive pulmonary disease exacerbation"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of known asthma, a viral trigger, and the absence of consolidation on chest X-ray support an acute asthma exacerbation. Pneumonia would show consolidation and fever. Acute bronchitis is less specific but still possible; however, the diagnosis of asthma exacerbation is more specific given the known asthma. Bronchiectasis typically has chronic productive cough and clubbing. COPD is unlikely in a 35-year-old non-smoker.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "718c918d199b",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old asthmatic is brought to the emergency department in severe respiratory distress. She is unable to speak in sentences, using accessory muscles, and has a silent chest on auscultation. PEFR is less than 33% of predicted, respiratory rate 35, heart rate 130, and oxygen saturations 88% on 15L oxygen. What is the single most likely diagnosis?",
+      "options": [
+        "Upper airway obstruction",
+        "Massive pulmonary embolism",
+        "Tension pneumothorax",
+        "Cardiac asthma (acute pulmonary oedema)",
+        "Acute severe asthma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The silent chest, severe hypoxia, and very low PEFR in a known asthmatic are classic for acute severe asthma. Massive pulmonary embolism would have sudden onset and hypoxia, but a silent chest is not typical. Tension pneumothorax would show tracheal deviation and hyperresonance. Cardiac asthma presents with crackles and peripheral oedema. Upper airway obstruction causes stridor, not wheeze.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b297741ca86",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with a history of anxiety presents with episodic breathlessness and a sensation of throat tightness. She has a wheeze on auscultation, but PEFR is normal and there is no response to inhaled salbutamol. Spirometry shows a normal flow-volume loop. What is the single most likely diagnosis?",
+      "options": [
+        "Panic attack / hyperventilation syndrome",
+        "Laryngospasm",
+        "Anaphylaxis",
+        "Acute asthma",
+        "Vocal cord dysfunction"
+      ],
+      "answerIndex": 4,
+      "explanation": "Vocal cord dysfunction mimics asthma with wheeze (often from adduction), but PEFR is normal and there is no response to bronchodilators. Panic attack typically involves hyperventilation without wheeze. Acute asthma would have reduced PEFR and response to bronchodilators. Laryngospasm is usually acute and resolves quickly. Anaphylaxis has systemic features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2d93ec19be4c",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 25-year-old man with known asthma presents with sudden severe pleuritic chest pain and progressive breathlessness after a coughing fit. On examination, he is tachycardic, trachea is deviated to the right, and there are reduced breath sounds and hyperresonance on the left. PEFR is not obtainable due to distress. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Pericarditis",
+        "Acute severe asthma exacerbation",
+        "Tension pneumothorax",
+        "Pneumomediastinum"
+      ],
+      "answerIndex": 3,
+      "explanation": "The tracheal deviation, hyperresonance, and sudden onset after coughing in an asthmatic are classic for tension pneumothorax. Acute severe asthma would not cause tracheal deviation or pleuritic pain. Pericarditis has positional pain and friction rub. Pulmonary embolism is less likely without risk factors and with unilateral signs. Pneumomediastinum may have subcutaneous emphysema and Hamman's sign.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9c2cfbb41cf3",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with her first episode of wheeze and breathlessness. She has no prior history of asthma. Spirometry shows FEV1 70% predicted and FEV1/FVC 0.65. After 400 mcg of inhaled salbutamol, FEV1 improves to 85% predicted. Which single finding best confirms the diagnosis of asthma?",
+      "options": [
+        "A positive skin prick test to common aeroallergens",
+        "An increase in FEV1 of >12% and >200 mL from baseline",
+        "An increase in PEFR of >15% after a bronchodilator",
+        "An elevated fractional exhaled nitric oxide (FeNO) >50 ppb",
+        "A positive methacholine challenge test"
+      ],
+      "answerIndex": 1,
+      "explanation": "The most specific diagnostic test for asthma is a bronchodilator reversibility test showing a >12% and >200 mL improvement in FEV1. A positive methacholine challenge is supportive but less specific. Elevated FeNO and positive skin prick tests suggest atopy but do not confirm asthma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e9322cf395b9",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man with known asthma presents with acute breathlessness. His PEFR is 40% predicted. After initial treatment with high-dose salbutamol, his PEFR remains below 50%. He appears tired and confused. Which single investigation is most appropriate to identify a life-threatening attack?",
+      "options": [
+        "PEFR <33% predicted",
+        "Chest X-ray showing hyperinflation",
+        "Arterial blood gas showing PaCO2 of 5.5 kPa",
+        "Arterial blood gas showing PaO2 of 7.5 kPa",
+        "ECG showing right axis deviation"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute asthma, a normal or raised PaCO2 (here 5.5 kPa is within normal range but in context indicates worsening) is a feature of life-threatening asthma. PEFR <33% is life-threatening but the patient already has PEFR 40% post-treatment, so ABG provides additional key information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c03b28cf54e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with well-controlled asthma on low-dose inhaled corticosteroid reports nocturnal symptoms twice per week and using her salbutamol inhaler three times per week. Which single test is most appropriate to confirm poor asthma control?",
+      "options": [
+        "Sputum eosinophil count >2%",
+        "Spirometry showing FEV1 <80% predicted",
+        "Domiciliary PEFR monitoring showing diurnal variability >20%",
+        "Fractional exhaled nitric oxide (FeNO) >25 ppb",
+        "Methacholine challenge test positive"
+      ],
+      "answerIndex": 2,
+      "explanation": "Per UK guidelines, PEFR variability >20% is the best objective marker of poor control. Spirometry may be normal in early asthma and FeNO is adjunctive; methacholine challenge is for diagnosis, not monitoring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a97ce35d6fc4",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with known asthma presents with acute shortness of breath. He is using accessory muscles and can only speak single words. Which single finding is most consistent with an acute severe asthma attack?",
+      "options": [
+        "PEFR 40% predicted",
+        "Arterial blood gas showing PaO2 10 kPa on air",
+        "Blood eosinophil count >0.5 x 10^9/L",
+        "SpO2 95% on air",
+        "Chest X-ray showing hyperinflation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute severe asthma is defined as PEFR 33-50% predicted (BTS/SIGN). The clinical features (accessory muscle use, speaking in single words) also support severe attack, but the PEFR value is the objective criterion. SpO2 >92% does not exclude severe asthma; hyperinflation on CXR is supportive but not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2ffc73af0cf5",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old smoker with a history of both COPD and asthma presents with acute dyspnoea. Spirometry shows FEV1/FVC 0.55 and FEV1 50% predicted. Which single test is most appropriate to distinguish an asthma component from pure COPD during this exacerbation?",
+      "options": [
+        "Blood eosinophil count",
+        "Fractional exhaled nitric oxide (FeNO) measurement",
+        "Arterial blood gas analysis",
+        "Peak expiratory flow (PEF) monitoring",
+        "Reversibility testing with a 400 mcg dose of inhaled salbutamol"
+      ],
+      "answerIndex": 4,
+      "explanation": "A significant bronchodilator response (>12% and >200 mL increase in FEV1) suggests an asthma component, which is important for management. FeNO and blood eosinophils may indicate eosinophilic inflammation but are not diagnostic of asthma during an exacerbation compared to reversibility testing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ef3eaaa7304e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old woman presents with acute severe asthma. She is tachypnoeic (respiratory rate 32), unable to complete sentences, pulse 115 bpm, SpO2 92% on air. She has no significant past medical history. What is the most appropriate initial pharmacological therapy?",
+      "options": [
+        "Nebulised budesonide 2 mg",
+        "Intravenous magnesium sulphate 2 g",
+        "Nebulised salbutamol 5 mg",
+        "Oral theophylline 200 mg",
+        "Intravenous aminophylline 5 mg/kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe asthma, first-line bronchodilator therapy is an inhaled short-acting beta2 agonist (e.g., salbutamol) via nebuliser or pMDI with spacer. IV aminophylline, oral theophylline, nebulised steroids, and IV magnesium are not first-line options.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d30df090eb17",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man with acute severe asthma has received three back-to-back nebulised salbutamol with ipratropium and oral prednisolone 40 mg one hour ago. He remains in severe respiratory distress, unable to speak, with SpO2 90% on 15 L oxygen. What is the most appropriate next pharmacological intervention?",
+      "options": [
+        "Intravenous aminophylline 5 mg/kg",
+        "Intravenous salbutamol 250 mcg",
+        "Intravenous hydrocortisone 200 mg",
+        "Inhaled beclometasone dipropionate 400 mcg",
+        "Intravenous magnesium sulphate 2 g"
+      ],
+      "answerIndex": 4,
+      "explanation": "After initial high-dose bronchodilators and systemic corticosteroids, the next step for acute severe asthma with poor response is IV magnesium sulphate. IV salbutamol and aminophylline are second-line and not preferred; further steroid is already given; inhaled steroids are not for acute management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "69fe9a765114",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with acute severe asthma is found to have a serum potassium of 2.9 mmol/L. Which of the following treatments for her asthma is relatively contraindicated?",
+      "options": [
+        "Intravenous magnesium sulphate 2 g",
+        "Intravenous salbutamol 250 mcg",
+        "High-flow oxygen",
+        "Nebulised ipratropium 0.5 mg",
+        "Oral prednisolone 40 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "IV salbutamol can worsen hypokalaemia via beta2-mediated intracellular shift of potassium. It should be used with caution and potassium corrected first. The other options do not significantly lower serum potassium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d746fbc75c8e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man with acute severe asthma has a history of narrow-angle glaucoma. Which of the following asthma treatments should be avoided?",
+      "options": [
+        "Nebulised ipratropium 0.5 mg",
+        "Nebulised salbutamol 5 mg",
+        "Oral prednisolone 40 mg",
+        "Intravenous aminophylline 5 mg/kg",
+        "Intravenous magnesium sulphate 2 g"
+      ],
+      "answerIndex": 0,
+      "explanation": "Anticholinergic drugs like ipratropium can precipitate acute angle-closure glaucoma by causing mydriasis and blocking aqueous humour drainage. It is relatively contraindicated in narrow-angle glaucoma. The other options are safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35d19684603a",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 48-year-old woman with severe persistent asthma is on maintenance prednisolone 10 mg daily. She presents with an acute exacerbation, unable to take oral medications due to severe dyspnoea. What is the most appropriate corticosteroid therapy?",
+      "options": [
+        "Intramuscular dexamethasone 8 mg",
+        "No change, continue her usual dose",
+        "Intravenous hydrocortisone 100 mg every 6 hours",
+        "Intravenous methylprednisolone 40 mg daily",
+        "Increase oral prednisolone to 40 mg if she can swallow"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe asthma with inability to take oral medications, IV hydrocortisone is the preferred systemic corticosteroid in the UK, providing rapid effect and covering stress-dose requirements due to chronic steroid use. Methylprednisolone is an alternative but not first-line; oral is not possible; IM dexamethasone is less used; no change is inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1fe034d9824",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the emergency department with acute-onset wheeze and breathlessness following a viral illness. She has no prior diagnosis of asthma. Peak expiratory flow (PEF) is 55% predicted, SpO2 95% on air. She appears distressed but can speak in full sentences. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give nebulised salbutamol (5 mg)",
+        "Check arterial blood gas",
+        "Perform chest X-ray",
+        "Start oral prednisolone 40 mg",
+        "Administer high-flow oxygen"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute asthma, immediate bronchodilation with a beta-2 agonist (e.g., nebulised salbutamol) is the priority. Oxygen is given only if SpO2 <94%. Oral steroids are important but should follow bronchodilation. Chest X-ray and ABG are not first-line in moderate exacerbation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "16ba66412fe8",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with known asthma (on low-dose inhaled corticosteroid and salbutamol as required) presents with mild wheeze and a PEF of 80% predicted. SpO2 is 97% on air. He is not distressed. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer salbutamol 2-4 puffs via a spacer and reassess",
+        "Start oral prednisolone 40 mg",
+        "Refer for same-day respiratory outpatient review",
+        "Add a long-acting beta-agonist (LABA) to his regimen",
+        "Change inhaled corticosteroid to a higher dose"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a mild exacerbation (PEF >75%), first-line treatment is an inhaled beta-2 agonist via spacer. Oral steroids are not routinely indicated if response is good. Increasing maintenance therapy or adding LABA are not acute management steps. Specialist review can be arranged later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18438e2afb39",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known asthma presents in respiratory distress. She is unable to complete sentences, PEF is 40% predicted, SpO2 is 88% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert a chest drain",
+        "Start intravenous aminophylline",
+        "Start intravenous magnesium sulphate",
+        "Administer high-flow oxygen via a non-rebreather mask",
+        "Perform chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "In life-threatening asthma, oxygenation is the first priority. High-flow oxygen should be given immediately to target SpO2 94-98%. Magnesium and aminophylline are second-line therapies after initial bronchodilators. Chest X-ray and chest drain are not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c7ce7738585c",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with asthma is on the ward for an exacerbation. He suddenly deteriorates with severe dyspnoea, hypotension, and tracheal deviation to the left. Subcutaneous emphysema is noted on the right side of his chest. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous magnesium sulphate",
+        "Commence non-invasive ventilation (NIV)",
+        "Call the anaesthetic team for emergency intubation",
+        "Needle decompression of the right chest",
+        "Perform an immediate chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of sudden deterioration, hypotension, tracheal deviation, and subcutaneous emphysema suggests tension pneumothorax, which requires immediate needle decompression before any imaging. NIV and intubation are contraindicated without decompression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "26d68b9433b7",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) with known asthma presents to the emergency department with acute wheeze. PEF is 50% predicted, SpO2 94% on air, respiratory rate 28/min. She is afebrile. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral prednisolone 40 mg",
+        "Give inhaled salbutamol via a nebuliser",
+        "Refer to the obstetric team for urgent review",
+        "Perform a CT pulmonary angiogram (CTPA)",
+        "Start intravenous magnesium sulphate"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, acute asthma management is the same as in non-pregnant patients. The first step is bronchodilation with a beta-2 agonist (salbutamol is safe). Oral steroids may be added later. IV magnesium is not first-line. CTPA is indicated only if pulmonary embolism is suspected, not in acute asthma. Obstetric referral can follow initial stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48b71097f000",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old non-smoker presents to the emergency department with acute breathlessness and wheeze for the first time. On examination, respiratory rate is 30/min, heart rate 115/min, and peak expiratory flow (PEF) is 250 L/min (predicted 500 L/min). Which finding suggests life-threatening asthma?",
+      "options": [
+        "Respiratory rate 28/min",
+        "Use of accessory muscles",
+        "Silent chest on auscultation",
+        "Bilateral expiratory wheeze",
+        "PEF 50% predicted"
+      ],
+      "answerIndex": 2,
+      "explanation": "A silent chest indicates severe airflow obstruction with no air movement, a life-threatening sign requiring immediate intervention. The most tempting distractor is PEF 50% predicted, which denotes acute severe asthma, but silent chest is more critical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4c36af09f19e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old known asthmatic on regular inhaled corticosteroids presents with increasing breathlessness. Peak expiratory flow (PEF) on arrival is 200 L/min (predicted 400 L/min). After 4 puffs of salbutamol via a spacer, PEF is 230 L/min (57.5% predicted). Which threshold indicates the need for hospital admission?",
+      "options": [
+        "PEF <100 L/min after initial bronchodilator",
+        "PEF <75% predicted after initial bronchodilator",
+        "PEF >60% predicted after initial bronchodilator",
+        "PEF <33% predicted after initial bronchodilator",
+        "PEF <50% predicted after initial bronchodilator"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend admission if PEF remains <50% predicted after initial bronchodilator. The patient's PEF is 57.5%, so not an immediate indication, but the question asks for the threshold. The distractor PEF <33% is life-threatening, but the admission threshold is <50%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e17e1790cbb",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old with acute severe asthma deteriorates suddenly, developing severe left-sided chest pain and increased breathlessness. On examination, the trachea is deviated to the right, breath sounds are reduced on the left, and the left hemithorax is hyperresonant to percussion. Which diagnosis must be excluded urgently?",
+      "options": [
+        "Myocardial infarction",
+        "Pulmonary embolism",
+        "Tension pneumothorax",
+        "Atelectasis",
+        "Pneumonia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The triad of tracheal deviation, reduced breath sounds, and hyperresonance is classic for tension pneumothorax, a life-threatening complication of severe asthma requiring immediate decompression. Pulmonary embolism is a differential but lacks these signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "390e8ed6935e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) with asthma presents with acute breathlessness. Peak expiratory flow (PEF) is 150 L/min (predicted 350 L/min; 43% predicted). She appears drowsy and confused. Which finding is most concerning?",
+      "options": [
+        "Oxygen saturations 93% on air",
+        "Drowsiness and confusion",
+        "PEF 43% predicted",
+        "Heart rate 115/min",
+        "Respiratory rate 30/min"
+      ],
+      "answerIndex": 1,
+      "explanation": "Drowsiness and confusion indicate hypercapnia (CO2 retention), a life-threatening sign requiring immediate critical care. In pregnancy, maternal hypoxia can harm the fetus. The most tempting distractor is PEF 43%, which is severe but less immediately dangerous than altered consciousness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "01f00168471e",
+      "topic": "Asthma — Acute Severe",
+      "slug": "asthma-—-acute-severe",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old asthmatic is brought to the emergency department by ambulance with severe breathlessness. On examination, she is using accessory muscles and has tachycardia. Which finding is most indicative of life-threatening asthma?",
+      "options": [
+        "Inability to complete sentences",
+        "PEF 35% predicted",
+        "Expiratory wheeze",
+        "Central cyanosis",
+        "Tachycardia 120/min"
+      ],
+      "answerIndex": 3,
+      "explanation": "Central cyanosis indicates severe hypoxaemia and is a life-threatening sign in asthma, often necessitating immediate intubation. PEF 35% predicted is also life-threatening, but cyanosis is a direct sign of impending respiratory arrest.",
+      "difficulty": "medium"
+    }
+  ]
+}

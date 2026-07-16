@@ -1,0 +1,513 @@
+{
+  "topic": "Epistaxis",
+  "slug": "epistaxis",
+  "system": "ENT",
+  "subSystem": "Nasal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:29:33Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5c3d05621197",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 20-minute episode of bright red blood from her left nostril that stopped with pressure. She is otherwise well, on no regular medications, and has no family history of bleeding disorders. Examination reveals a small oozing point on the anterior nasal septum. What is the single most likely diagnosis?",
+      "options": [
+        "Traumatic epistaxis from nose picking",
+        "Allergic rhinitis with epistaxis",
+        "Anterior epistaxis (Little's area)",
+        "Posterior epistaxis",
+        "Hereditary haemorrhagic telangiectasia (HHT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The most common cause of epistaxis in young adults is anterior epistaxis from Little's area, which is self-limiting and stops with pressure. HHT usually presents with recurrent bleeds and telangiectasias. Posterior epistaxis is more common in older adults and tends to be more severe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eb83aefdf912",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 74-year-old man on warfarin for atrial fibrillation presents with recurrent epistaxis that stops with pressure but reoccurs. His INR is 3.5. He has no other bleeding history. Examination shows no visible point of bleeding. What is the single most likely diagnosis?",
+      "options": [
+        "Nasal septal perforation",
+        "Juvenile nasopharyngeal angiofibroma",
+        "Warfarin-induced epistaxis",
+        "Posterior epistaxis",
+        "Hereditary haemorrhagic telangiectasia (HHT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Supratherapeutic INR (target 2-3) predisposes to mucosal bleeding. Warfarin-induced epistaxis is common and usually managed with holding warfarin and nasal packing. HHT typically presents with telangiectasias and family history. Posterior epistaxis is more severe and less responsive to pressure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f75ad5a7425e",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with hypertension presents with sudden, profuse, bright red epistaxis from both nostrils that does not stop with pressure. He is hypotensive (90/60 mmHg) and tachycardic. Nasal examination is difficult due to heavy bleeding. What is the single most likely diagnosis?",
+      "options": [
+        "Carotid blowout syndrome",
+        "Posterior epistaxis",
+        "Ruptured intracranial aneurysm",
+        "Maxillary sinus haemorrhage",
+        "Anterior epistaxis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Posterior epistaxis often originates from the sphenopalatine artery, is bilateral, and causes significant bleeding leading to hypovolaemic shock. It does not stop with anterior pressure. Carotid blowout is rare and usually follows head and neck surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f69acc43d220",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with known hereditary haemorrhagic telangiectasia (HHT) presents with recurrent epistaxis that has led to iron deficiency anaemia. He is not on anticoagulants. Examination reveals telangiectasias on his lips and fingers. What is the single most likely diagnosis?",
+      "options": [
+        "Nasal polyp",
+        "Septal perforation due to cocaine use",
+        "HHT-related epistaxis",
+        "Granulomatosis with polyangiitis",
+        "Allergic rhinitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "HHT is characterised by recurrent epistaxis and mucocutaneous telangiectasias. Epistaxis is the most common presentation. Cocaine use typically causes septal perforation but without telangiectasias. Granulomatosis with polyangiitis often causes nasal crusting and saddle nose deformity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5d17c131cc2",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with end-stage renal disease on haemodialysis presents with spontaneous epistaxis that is difficult to control. She is not on anticoagulants. Platelet count is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Posterior epistaxis",
+        "Uraemic platelet dysfunction",
+        "Anterior epistaxis",
+        "Nasal trauma during dialysis",
+        "Hereditary haemorrhagic telangiectasia (HHT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Uraemia impairs platelet function leading to mucosal bleeding, including epistaxis. Platelet count is normal, distinguishing it from thrombocytopenia. This is a common problem in patients with renal failure. HHT would have telangiectasias and family history.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "676ed4b80a70",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents to the emergency department with recurrent, self-limiting nosebleeds over the past month. He has no other medical history. On examination, there is no active bleeding. Which single investigation is most appropriate to identify the source of bleeding?",
+      "options": [
+        "Coagulation screen",
+        "Anterior rhinoscopy",
+        "CT sinuses",
+        "Full blood count",
+        "Nasal endoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Most epistaxis arises from Little's area on the anterior nasal septum. Anterior rhinoscopy with a speculum is the first-line investigation to directly visualise this region. Nasal endoscopy is reserved for recurrent or posterior bleeds if anterior rhinoscopy is unrevealing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5a1e00512287",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with frequent epistaxis and easy bruising. She has no significant past medical history. Examination reveals petechiae on her lower limbs. Which single investigation is most likely to identify the underlying cause?",
+      "options": [
+        "Blood film",
+        "Nasal endoscopy",
+        "Coagulation screen (PT, APTT, platelet count)",
+        "Bone marrow biopsy",
+        "Von Willebrand factor antigen and activity"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of epistaxis, easy bruising, and petechiae suggests a bleeding disorder. A coagulation screen is the initial test to detect common coagulopathies such as thrombocytopenia or prolonged PT/APTT. Von Willebrand factor tests are more specific but are second-line after an abnormal screen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ebd33264314",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man on warfarin for atrial fibrillation presents with profuse epistaxis and hypotension. His heart rate is 110 bpm. Which single investigation should guide the immediate management of this patient?",
+      "options": [
+        "INR",
+        "Cross-match",
+        "CT angiography of the head and neck",
+        "Nasal endoscopy",
+        "Full blood count"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an anticoagulated patient with severe bleeding, the INR is the key test to guide reversal with vitamin K and prothrombin complex concentrate. Cross-match and full blood count are important but the INR directly informs the urgency of reversal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68a9949d0192",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with a history of posterior epistaxis had a nasal pack inserted 24 hours ago. She now develops fever, malodorous nasal discharge, and facial pain. Which single investigation is most likely to confirm the suspected complication?",
+      "options": [
+        "MRI brain",
+        "CT sinuses",
+        "Nasal swab for culture",
+        "Flexible nasendoscopy",
+        "Blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture suggests sinusitis or abscess secondary to the pack. CT sinuses is the best test to demonstrate sinus opacification or air-fluid levels. Nasal swab and nasendoscopy may help identify infection but CT best confirms the extent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "530f1fd425a7",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 8-year-old boy is brought to clinic with frequent nosebleeds since childhood. His father also had recurrent epistaxis and was diagnosed with hereditary haemorrhagic telangiectasia (HHT). Which single investigation is most appropriate to confirm the diagnosis in this child?",
+      "options": [
+        "Genetic testing for ACVRL1, ENG, and SMAD4 mutations",
+        "Abdominal duplex ultrasound",
+        "Contrast echocardiography",
+        "Nasal endoscopy",
+        "CT chest"
+      ],
+      "answerIndex": 0,
+      "explanation": "Given the strong family history, genetic testing is the most specific confirmatory test for HHT. Nasal endoscopy can visualise telangiectasias but is not diagnostic alone, and the other options screen for visceral involvement rather than confirm the syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f4358d1d561f",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 9-year-old boy presents with recurrent, self-limiting epistaxis from the left nostril over the past 6 months. On examination, there is a visible bleeding point on the anterior nasal septum (Little's area). There is no family history of bleeding disorders. What is the most appropriate first-line treatment?",
+      "options": [
+        "Silver nitrate chemical cautery",
+        "Bipolar electrocautery under general anaesthesia",
+        "Tranexamic acid oral tablets",
+        "Anterior nasal packing",
+        "Nasal saline spray"
+      ],
+      "answerIndex": 0,
+      "explanation": "Silver nitrate chemical cautery is the recommended first-line treatment for recurrent epistaxis from a visible anterior source (Little's area) in children. Anterior nasal packing is reserved for acute bleeds that fail simple measures, not for recurrent prophylaxis. Electrocautery requires general anaesthesia and is second-line. Tranexamic acid and saline spray are not first-line for a visible bleeding point.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49bfe284db90",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with a sudden onset of profuse epistaxis from the right nostril. Direct pressure for 20 minutes has not stopped the bleeding. He is haemodynamically stable with no anticoagulant use. What is the most appropriate first-line treatment?",
+      "options": [
+        "Anterior nasal packing",
+        "Posterior nasal packing",
+        "Silver nitrate chemical cautery",
+        "Transnasal endoscopic sphenopalatine artery ligation",
+        "Arterial embolisation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Anterior nasal packing is the first-line treatment for acute epistaxis that continues despite direct pressure. It is less invasive than posterior packing and should be trialled first. Cautery may be difficult if bleeding is torrential. Surgical intervention (ligation or embolisation) is reserved for packing failures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d9fe77e204f5",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman on warfarin for atrial fibrillation presents with a small amount of epistaxis that stopped after a few minutes of pressure. She is haemodynamically stable, and her INR is 2.5. What treatment is contraindicated in this scenario?",
+      "options": [
+        "Topical vasoconstrictor spray",
+        "Oral tranexamic acid",
+        "Anterior nasal packing with a haemostatic agent",
+        "Silver nitrate chemical cautery",
+        "Reversal of warfarin with vitamin K and fresh frozen plasma"
+      ],
+      "answerIndex": 4,
+      "explanation": "Reversal of warfarin with vitamin K and FFP is contraindicated here because the bleed is minor and has stopped. Unnecessary reversal risks thromboembolic events, especially with a therapeutic INR. Local measures (packing, cautery) are appropriate. Tranexamic acid may be considered but is not contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87f146b9a96b",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with hereditary haemorrhagic telangiectasia (HHT) experiences frequent, mild-to-moderate epistaxis that affects her quality of life. She has no active bleeding at presentation. What is the most appropriate prophylactic medical therapy?",
+      "options": [
+        "Nasal bevacizumab injections",
+        "Oral tranexamic acid",
+        "Septal dermoplasty",
+        "Oral oestrogen",
+        "Argon plasma coagulation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Oral tranexamic acid is recommended as first-line prophylactic therapy for recurrent epistaxis in HHT (NICE guidance). It reduces fibrin breakdown and decreases bleeding frequency. Bevacizumab and surgical options are reserved for refractory cases. Oestrogen has limited evidence and side effects.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4146a600b7de",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 20 weeks gestation presents with epistaxis that has recurred several times this week. Each episode stops with pressure but has been nuisance. Silver nitrate chemical cautery has been suggested. However, which treatment is contraindicated in pregnancy?",
+      "options": [
+        "Silver nitrate chemical cautery",
+        "Oral tranexamic acid",
+        "Topical vasoconstrictor spray (e.g., xylometazoline)",
+        "Anterior nasal packing",
+        "Electrocautery under local anaesthetic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Silver nitrate chemical cautery is contraindicated in pregnancy due to potential systemic absorption and toxicity to the fetus. Topical vasoconstrictors (e.g., xylometazoline) are generally safe in short courses. Packing, cautery with bipolar (non-chemical), and tranexamic acid can be used if needed, though the latter is often avoided in first trimester.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "59cfacd1bb84",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old man presents to the emergency department with epistaxis that started after he picked his nose. He has no significant medical history and is not on any medications. On examination, there is active bleeding from the anterior nasal septum. Observations are normal. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer intranasal xylometazoline spray",
+        "Call the ENT registrar for urgent review",
+        "Advise the patient to sit upright and pinch the soft part of his nose for 10–15 minutes",
+        "Insert a Merocel anterior nasal pack",
+        "Apply a nasal speculum and perform silver nitrate cautery"
+      ],
+      "answerIndex": 2,
+      "explanation": "For simple anterior epistaxis, direct pressure for 10–15 minutes is first-line; it controls most bleeds. Cautery or packing is reserved if pressure fails.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "770ce3a161d0",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with atrial fibrillation on warfarin presents with epistaxis that began 1 hour ago. She has been pinching her nose but it is still oozing mildly. Observations are stable with HR 78, BP 130/80. INR is 3.5. What is the single most appropriate immediate next action?",
+      "options": [
+        "Apply topical xylometazoline and then repeat direct pressure for 10–15 minutes",
+        "Contact the haematology registrar for reversal advice",
+        "Insert a bilateral anterior nasal pack",
+        "Give vitamin K 5 mg intravenously",
+        "Give fresh frozen plasma 2 units"
+      ],
+      "answerIndex": 0,
+      "explanation": "In anticoagulated patients with mild-to-moderate epistaxis, local vasoconstriction and pressure are first-line; reversal is only indicated for severe or refractory bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d91bf8ef8c1",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with hypertension presents with profuse bilateral epistaxis. He is coughing up blood. Heart rate is 120 bpm, blood pressure 85/50 mmHg, and capillary refill time is 5 seconds. What is the single most appropriate immediate next action?",
+      "options": [
+        "Insert bilateral anterior nasal packs",
+        "Start intravenous fluid resuscitation with crystalloids",
+        "Call the ENT registrar for posterior packing",
+        "Administer IV tranexamic acid 1 g",
+        "Perform an urgent CT scan of the head and sinuses"
+      ],
+      "answerIndex": 1,
+      "explanation": "Haemodynamic instability from severe epistaxis requires immediate fluid resuscitation (ABC). Nasal packing and specialist help are essential, but circulation takes priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "200c1945db42",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man who had an anterior nasal pack inserted 2 days ago for epistaxis presents with fever, facial pain, and foul-smelling nasal discharge. Temperature 38.5°C. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start broad-spectrum intravenous antibiotics",
+        "Prescribe oral amoxicillin 500 mg three times daily",
+        "Remove the nasal pack immediately",
+        "Refer to the ENT team for endoscopic examination",
+        "Obtain an urgent CT scan of the sinuses"
+      ],
+      "answerIndex": 2,
+      "explanation": "A retained nasal pack >24 hours increases infection risk and can cause toxic shock syndrome. Immediate removal is the priority for source control; antibiotics are secondary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9ca492c4977e",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with known hereditary haemorrhagic telangiectasia (HHT) has epistaxis approximately twice daily. She is not actively bleeding at present. She has tried intranasal saline but with little benefit. What is the single most appropriate maintenance therapy to reduce the frequency of her epistaxis?",
+      "options": [
+        "Refer for laser photocoagulation",
+        "Advise to use intranasal petroleum jelly regularly",
+        "Start oral tranexamic acid",
+        "Arrange silver nitrate cautery to visible telangiectasias",
+        "Prescribe topical nasal steroid spray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oral tranexamic acid is recommended in HHT as maintenance therapy to reduce epistaxis severity and frequency by stabilising clots. Cautery and laser are for acute management or refractory cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1b846b29d798",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man presents with recurrent, self-limiting epistaxis from the left nostril over 3 months. He also notes left-sided nasal obstruction and occasional headache. He has no other medical problems. Which single feature most suggests a serious underlying cause?",
+      "options": [
+        "Family history of nosebleeds",
+        "Unilateral nasal obstruction",
+        "Bilateral epistaxis",
+        "Epistaxis triggered by nose-blowing",
+        "Epistaxis lasting more than 10 minutes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unilateral nasal obstruction with recurrent epistaxis suggests a space-occupying lesion such as a juvenile nasopharyngeal angiofibroma or carcinoma. Bilateral symptoms are more typical of anterior epistaxis from Little's area. The other options are less specific for malignancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c84a03cb44cb",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman on warfarin for atrial fibrillation presents with epistaxis that has continued despite 30 minutes of direct pressure. She is haemodynamically stable, and bleeding appears to be from the anterior septum. What clinical finding most clearly indicates the need for urgent ENT assessment?",
+      "options": [
+        "Age over 70",
+        "Anterior source of bleeding",
+        "History of hypertension",
+        "Current use of warfarin",
+        "Ongoing bleeding despite 20 minutes of direct pressure"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend ENT referral for epistaxis that persists despite appropriate first aid (15-20 minutes of direct pressure). Ongoing bleeding after this duration is an objective red flag, whereas age, hypertension, and warfarin use are risk factors but not immediate escalation criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e9f59cfd005b",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man presents with profuse epistaxis, vomiting blood, and feeling faint. Pulse is 110 bpm, BP 90/60 mmHg. Examination reveals blood trickling from the posterior pharynx. Which finding is most concerning for life-threatening haemorrhage?",
+      "options": [
+        "Vomiting blood (haematemesis)",
+        "History of hypertension",
+        "Tachycardia (HR 110 bpm)",
+        "Hypotension (BP 90/60 mmHg)",
+        "Posterior source of bleeding"
+      ],
+      "answerIndex": 4,
+      "explanation": "A posterior source of epistaxis is a major red flag because it indicates bleeding from Woodruff's plexus, which is more severe, difficult to control, and often requires packing or intervention. While hypotension is critical, the posterior source is the underlying finding that predicts this severity and guides management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8e619ea9d0c7",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man had a severe anterior epistaxis yesterday managed with a nasal pack. He now presents with fever, severe headache, periorbital swelling, and chemosis. What life-threatening complication should be suspected?",
+      "options": [
+        "Periorbital cellulitis",
+        "Cavernous sinus thrombosis",
+        "Sinusitis",
+        "Vasovagal syncope",
+        "Septal haematoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cavernous sinus thrombosis is a rare but life-threatening complication of nasal packing or sinus infection, presenting with fever, headache, periorbital oedema, and cranial nerve palsies. Septal haematoma would cause nasal obstruction and pain, not systemic signs. Periorbital cellulitis is localised, without the systemic toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "932e14aa2fc2",
+      "topic": "Epistaxis",
+      "slug": "epistaxis",
+      "system": "ENT",
+      "subSystem": "Nasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 6-year-old boy is brought with recurrent epistaxis. His mother reports easy bruising since infancy and a maternal family history of heavy menstrual bleeding. On examination, which finding would most strongly suggest an inherited bleeding disorder?",
+      "options": [
+        "Crusting of nasal mucosa",
+        "Allergic shiners",
+        "Petechiae on the buccal mucosa",
+        "Nasal polyps",
+        "Small septal perforation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Petechiae, especially on mucous membranes like the buccal mucosa, indicate thrombocytopenia or platelet dysfunction. Combined with a history of easy bruising and family bleeding tendency, this points to an inherited bleeding disorder (e.g., von Willebrand disease). Septal perforation and nasal polyps are not associated with systemic bleeding.",
+      "difficulty": "medium"
+    }
+  ]
+}

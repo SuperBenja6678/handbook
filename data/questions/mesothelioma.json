@@ -1,0 +1,513 @@
+{
+  "topic": "Mesothelioma",
+  "slug": "mesothelioma",
+  "system": "Respiratory",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:36:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "913e00b901a1",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old retired shipyard worker presents with progressive dyspnoea and dry cough over 2 months. He has a 20 pack-year smoking history (quit 10 years ago) and does not have fever or haemoptysis. Chest X-ray shows a large right pleural effusion. CT demonstrates nodular pleural thickening. What is the single most likely diagnosis?",
+      "options": [
+        "Malignant pleural mesothelioma",
+        "Pleural empyema",
+        "Benign asbestos pleural effusion",
+        "Non-small cell lung cancer with pleural metastases",
+        "Tuberculous pleurisy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nodular pleural thickening with a large effusion and significant asbestos exposure is pathognomonic for mesothelioma; benign asbestos effusion typically lacks nodularity and often resolves spontaneously.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8fa75beefe05",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old man with known asbestos exposure presents with gradual chest tightness and mild dyspnoea. He has no cough or weight loss. CT shows unilateral nodular pleural thickening without effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Malignant pleural mesothelioma",
+        "Pleural fibroma",
+        "Benign pleural plaques",
+        "Lung cancer with pleural invasion",
+        "Diffuse pleural thickening (asbestos-related)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unilateral nodular pleural thickening in a symptomatic patient with asbestos exposure is typical of mesothelioma; pleural plaques are bilateral and calcified, while diffuse thickening is smooth and often bilateral.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b7663532c56",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with a history of asbestos exposure presents to the ED with acute severe right-sided pleuritic chest pain and dyspnoea. He is afebrile and normotensive. Chest X-ray shows a large right pleural effusion with mediastinal shift. CT shows diffuse nodular pleural thickening without a discrete lung mass. What is the single most likely diagnosis?",
+      "options": [
+        "Malignant pleural mesothelioma",
+        "Pulmonary embolism",
+        "Acute pleurisy",
+        "Pleural empyema",
+        "Non-small cell lung cancer with pleural effusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "A massive exudative effusion with mediastinal shift and nodular pleural thickening in an afebrile patient with asbestos exposure points to mesothelioma; lung cancer would usually show a parenchymal mass, and empyema typically causes fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90b602198a7e",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 66-year-old man with asbestos exposure had a pleural effusion drained 6 months ago, which was cytologically negative. He now returns with worsening dyspnoea and weight loss. CT shows a loculated effusion and new nodular pleural thickening. What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Lung adenocarcinoma",
+        "Tuberculous pleurisy",
+        "Malignant pleural mesothelioma",
+        "Recurrent benign pleural effusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Development of nodular pleural thickening in a patient with asbestos exposure is highly suspicious for mesothelioma; negative initial cytology does not exclude it, as diagnostic sensitivity is low.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8b442b0ccae5",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old teacher with no known asbestos exposure presents with 3 months of progressive dyspnoea, night sweats, and weight loss. CT shows right-sided pleural thickening with a small effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculous pleurisy",
+        "Pleural lymphoma",
+        "Lung adenocarcinoma",
+        "Sarcoidosis",
+        "Malignant pleural mesothelioma"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a younger patient without asbestos exposure, night sweats and weight loss favour tuberculous pleurisy over mesothelioma; pleural thickening with effusion is classic for TB pleurisy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "db5bfbea8c43",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with progressive dyspnoea and right-sided chest pain for 3 months. He worked as a plumber and had asbestos exposure 30 years ago. Chest X-ray shows right pleural effusion and pleural thickening. CT thorax confirms a moderate right pleural effusion with nodular pleural thickening. Pleural fluid aspiration yields blood-stained fluid; cytology shows atypical mesothelial cells but is inconclusive. What is the most appropriate next investigation?",
+      "options": [
+        "CT-guided pleural biopsy",
+        "Repeat pleural fluid cytology",
+        "Thoracoscopy with biopsy",
+        "PET-CT",
+        "Serum mesothelin measurement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thoracoscopy with biopsy is the gold standard for diagnosing mesothelioma as it allows direct visualisation and multiple biopsies, yielding the highest diagnostic sensitivity. CT-guided biopsy may miss focal lesions, while cytology and serum markers are often insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59ecd3d35a69",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with known asbestos exposure presents with a left pleural effusion. Pleural fluid analysis shows: protein 45 g/L, LDH 750 IU/L (serum LDH 300), glucose 2.1 mmol/L, pH 7.25. Which of the following is most characteristic of mesothelioma?",
+      "options": [
+        "Low glucose",
+        "High protein (>50)",
+        "High hyaluronic acid",
+        "High LDH (>2000)",
+        "Low pH (<7.3)"
+      ],
+      "answerIndex": 2,
+      "explanation": "High hyaluronic acid (>100 mg/L) is highly suggestive of mesothelioma, whereas low pH and glucose are more typical of empyema or complicated parapneumonic effusions. High LDH and protein are non-specific exudative features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a46f56e02a6",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with a pleural biopsy shows epithelioid malignant cells forming tubulopapillary structures. The differential includes mesothelioma and lung adenocarcinoma. Which immunohistochemical stain positive in this case would most likely support a diagnosis of mesothelioma?",
+      "options": [
+        "Calretinin",
+        "p40",
+        "CK7",
+        "Napsin A",
+        "TTF-1"
+      ],
+      "answerIndex": 0,
+      "explanation": "Calretinin is a positive marker for epithelioid mesothelioma and is typically negative in lung adenocarcinoma. TTF-1 and Napsin A are positive in lung adenocarcinoma; p40 is for squamous differentiation; CK7 is non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "70050e19266e",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with asbestos exposure 20 years ago presents with persistent dry cough and mild dyspnoea. CT thorax shows diffuse unilateral pleural thickening without a distinct mass or effusion. A CT-guided core needle biopsy of the pleura is performed, but the histology is reported as 'fibrous tissue with no malignant cells'. What is the most appropriate next step?",
+      "options": [
+        "Start empirical radiotherapy",
+        "PET-CT scan",
+        "Thoracoscopy with multiple biopsies",
+        "Annual surveillance CT",
+        "Repeat CT-guided biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thoracoscopy allows larger, targeted biopsies, which is essential when there is high suspicion despite a negative CT-guided biopsy. Repeat blind biopsy may still miss tumour, and PET-CT cannot replace histology. Radiotherapy is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39564978d9ee",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with known pleural mesothelioma has had several pleural fluid analyses. Which of the following pleural fluid findings is most suggestive of malignant mesothelioma rather than other causes of exudative pleural effusion?",
+      "options": [
+        "Low glucose < 2.2 mmol/L",
+        "Presence of blood-tinged fluid",
+        "pH < 7.20",
+        "High hyaluronic acid concentration",
+        "LDH > 1000 IU/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "High hyaluronic acid is most specific for mesothelioma; blood-tinged fluid is common in many malignancies; low pH and glucose are more associated with empyema or rheumatoid effusion; high LDH is a non-specific exudative marker.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "74198e67df52",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with breathlessness and chest pain. CT shows right pleural thickening and nodularity. Biopsy confirms epithelioid malignant mesothelioma. Performance status 0. Creatinine clearance 70 mL/min. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Carboplatin + pemetrexed",
+        "Best supportive care",
+        "Single-agent gemcitabine",
+        "Cisplatin + vinorelbine",
+        "Cisplatin + pemetrexed"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cisplatin + pemetrexed is the standard first-line chemotherapy for fit patients with good renal function. Carboplatin is reserved for those with renal impairment. Vinorelbine is used second-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4fe53beddc25",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with malignant pleural mesothelioma has bilateral pleural effusions and significant dyspnoea. Performance status 2. She has COPD and heart failure and declines chemotherapy. What is the most appropriate management?",
+      "options": [
+        "Extrapleural pneumonectomy",
+        "Cisplatin + pemetrexed",
+        "Observation only",
+        "Palliative radiotherapy",
+        "Pleurodesis with talc"
+      ],
+      "answerIndex": 4,
+      "explanation": "For symptomatic effusion in a patient unfit for or declining chemotherapy, pleurodesis provides symptom relief. Surgery is too invasive, radiotherapy is not indicated, and observation does not address dyspnoea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a5db6db885d",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with histologically confirmed sarcomatoid malignant mesothelioma, stage T3N0M0, has performance status 0. Pulmonary function tests show FEV1 45% predicted. Which treatment is most likely contraindicated?",
+      "options": [
+        "Immunotherapy (nivolumab)",
+        "Palliative radiotherapy",
+        "Cisplatin + pemetrexed",
+        "Extrapleural pneumonectomy",
+        "Pleurodesis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Extrapleural pneumonectomy requires adequate pulmonary reserve; an FEV1 <50% predicted is a contraindication. Chemotherapy and pleurodesis are not contraindicated. Immunotherapy is investigational.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5e19d02f4fb9",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with malignant pleural mesothelioma, previously treated with cisplatin-pemetrexed, has progressive disease after 4 cycles. Performance status 1. What is the most appropriate second-line therapy?",
+      "options": [
+        "Extrapleural pneumonectomy",
+        "Vinorelbine",
+        "Best supportive care",
+        "Repeat cisplatin-pemetrexed",
+        "Palliative radiotherapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vinorelbine is a recommended second-line option after platinum-based chemotherapy failure. Surgery is not indicated for progressive disease, rechallenge is not standard, and best supportive care is premature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d1560048be52",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old man with malignant pleural mesothelioma has a symptomatic recurrent right pleural effusion. Performance status 1. He has no contraindications. What is the most appropriate definitive management to prevent recurrence?",
+      "options": [
+        "Indwelling pleural catheter",
+        "Talc pleurodesis",
+        "Extrapleural pneumonectomy",
+        "Systemic chemotherapy",
+        "Repeat thoracentesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Talc pleurodesis is the definitive treatment for recurrent pleural effusion in mesothelioma. Repeat thoracentesis is temporary, indwelling catheter is an alternative but less preferred if pleurodesis is possible, and surgery or chemotherapy are not indicated solely for effusion control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a27eb6f3af0",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old ex-shipyard worker presents with dyspnoea and left-sided chest pain. CXR shows a left pleural effusion. Thoracentesis yields blood-stained fluid. What is the most appropriate next step?",
+      "options": [
+        "Refer for surgical pleurodesis",
+        "Start empirical antibiotics",
+        "Perform CT-guided pleural biopsy",
+        "Request CT chest with contrast",
+        "Send fluid for cytology and culture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sending the fluid for cytology and culture is the immediate next step following diagnostic thoracentesis. It allows identification of malignant cells and exclusion of infection. CT imaging is typically arranged after initial fluid analysis if mesothelioma is suspected, not before.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64908b01311b",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old with known epithelioid mesothelioma (diagnosed 3 months ago) presents with gradually worsening dyspnoea and dull ache over the right chest. O2 sats 94% on air, BP 130/80, RR 20. CXR shows a moderate right pleural effusion. He is not on active treatment. What is the most appropriate next step?",
+      "options": [
+        "Commence oral morphine",
+        "Request CT chest",
+        "Drain the effusion",
+        "Start palliative radiotherapy",
+        "Refer for pleurodesis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Draining the effusion provides immediate symptomatic relief of dyspnoea. Pleurodesis may be considered after drainage if the lung re-expands, but drainage is the first step. CT is not needed urgently as the diagnosis is known.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "44b5e3742cb6",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old with known biphasic mesothelioma presents with sudden-onset severe dyspnoea and pleuritic chest pain. O2 sats 88% on 15L O2, BP 80/50, HR 120, JVP elevated, trachea deviated to the left. What is the most appropriate next step?",
+      "options": [
+        "Insert a chest drain on the right",
+        "Request urgent CT pulmonary angiogram",
+        "Perform emergency pericardiocentesis",
+        "Give intravenous fluids rapidly",
+        "Administer intravenous morphine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tracheal deviation and hypotension suggest a tension pneumothorax or large effusion causing mediastinal shift. Immediate decompression with a chest drain is life-saving. Pericardiocentesis is not indicated as JVP is elevated but no other signs of tamponade.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9f4551eeb45",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old with pleural mesothelioma on first-line pemetrexed/carboplatin chemotherapy presents to ED with fever 38.5°C, rigors, and feeling unwell. Neutropenic sepsis is suspected. What is the most appropriate next step?",
+      "options": [
+        "Stop chemotherapy and arrange outpatient review",
+        "Start oral co-amoxiclav",
+        "Request CT chest to look for infection source",
+        "Give G-CSF",
+        "Take blood cultures and start IV piperacillin-tazobactam"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected neutropenic sepsis, immediate blood cultures and empirical broad-spectrum IV antibiotics (e.g., piperacillin-tazobactam) are the priority per UK guidelines. Oral antibiotics are insufficient. G-CSF is not first-line. CT would delay treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc3944aa5fb1",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old with mesothelioma, ECOG performance status 3, presents with increasing breathlessness and dry cough. He has had previous pleurodesis. CXR shows no large effusion but hazy opacities. He is not on disease-modifying treatment. What is the most appropriate next step?",
+      "options": [
+        "Repeat pleurodesis",
+        "Start oral steroids",
+        "Request high-resolution CT chest",
+        "Discuss with palliative care team",
+        "Refer for pulmonary rehabilitation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Given poor performance status and progressive symptoms without a drainable effusion, the priority is symptom control and quality of life. Discussing with the palliative care team is the most appropriate immediate step. Steroids or rehabilitation may be considered later, but palliative input guides management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e8d6eecea5fa",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with a history of asbestos exposure presents with gradually worsening dyspnoea and dull chest pain. Chest X-ray shows a large unilateral pleural effusion. Pleural aspiration yields blood-stained fluid. Which single feature most strongly suggests a diagnosis of malignant mesothelioma rather than a benign parapneumonic effusion?",
+      "options": [
+        "High protein (>30 g/L)",
+        "Low pH (<7.2)",
+        "Low glucose (<3.3 mmol/L)",
+        "Blood-stained appearance",
+        "High LDH (>200 IU/L)"
+      ],
+      "answerIndex": 3,
+      "explanation": "A blood-stained pleural aspirate is a classic red flag for malignant mesothelioma, whereas low pH and glucose are more typical of empyema. High protein and LDH indicate an exudate but are not specific for malignancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6f320ac793e3",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with known pleural mesothelioma (diagnosed 6 months ago) presents with sudden-onset central chest pain, dyspnoea, and dizziness. On examination, heart rate 110/min, BP 85/60 mmHg, JVP elevated to the angle of the jaw, and muffled heart sounds. What is the most likely life-threatening complication?",
+      "options": [
+        "Acute myocardial infarction",
+        "Cardiac tamponade from pericardial involvement",
+        "Tension pneumothorax",
+        "Massive pulmonary embolism",
+        "Aortic dissection"
+      ],
+      "answerIndex": 1,
+      "explanation": "Beck's triad (hypotension, raised JVP, muffled heart sounds) is classic for cardiac tamponade, a known complication of mesothelioma due to pericardial invasion. Tension pneumothorax would cause tracheal deviation and absent breath sounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "887cac418212",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with advanced mesothelioma complains of progressive headache, facial swelling, and blurred vision. On examination, there is plethora, distended neck veins, and dilated collateral veins on the anterior chest. Which finding is the most specific indicator of superior vena cava obstruction (SVCO)?",
+      "options": [
+        "Blurred vision",
+        "Facial swelling",
+        "Headache",
+        "Dilated collateral veins on chest",
+        "Distended neck veins"
+      ],
+      "answerIndex": 3,
+      "explanation": "While all can occur in SVCO, dilated collateral veins on the chest wall are a pathognomonic sign of chronic SVCO, indicating collateral circulation bypassing the obstruction. Facial swelling and distended neck veins are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6a700306efff",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known mesothelioma under follow-up presents with increasing dyspnoea. Oxygen saturation is 90% on room air. Chest X-ray shows a large right pleural effusion. After therapeutic aspiration of 1.5 litres, the patient's dyspnoea improves but oxygen saturation remains 90%. Which clinical finding would be the strongest indicator that the patient requires urgent further imaging or intervention?",
+      "options": [
+        "New contralateral pleural effusion on chest X-ray",
+        "Persistent dyspnoea despite aspiration",
+        "Oxygen saturation <92% after aspiration",
+        "Pleural pain on aspiration",
+        "Development of hoarseness"
+      ],
+      "answerIndex": 0,
+      "explanation": "Development of a new contralateral pleural effusion is a red flag for disease progression or bilateral involvement, warranting urgent CT and consideration of drainage. Persistent dyspnoea with normal saturations may reflect trapped lung, but a new contralateral effusion is more ominous.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "60c2a026b0a6",
+      "topic": "Mesothelioma",
+      "slug": "mesothelioma",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old former shipyard worker presents with a 3-month history of intermittent right-sided chest pain and cough. He has lost 5 kg in weight. Chest X-ray shows pleural thickening but no effusion. Which single clinical finding should raise the greatest suspicion for mesothelioma?",
+      "options": [
+        "Dyspnoea on exertion",
+        "Finger clubbing",
+        "Haemoptysis",
+        "Chest wall tenderness over the pleural thickening",
+        "Low-grade pyrexia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Chest wall tenderness is a red flag for malignant invasion of the chest wall by mesothelioma. Finger clubbing and haemoptysis are less common; weight loss is non-specific. Localised tenderness over pleural thickening should prompt urgent investigation.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "ADHD in Adults",
+  "slug": "adhd-in-adults",
+  "system": "Psychiatry",
+  "subSystem": "Neurodevelopmental",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:34:46Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "1ef2847a3e1a",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old male university student presents to the GP with poor concentration, forgetfulness, and difficulty completing assignments. He reports feeling 'on edge' most days and has trouble sleeping. His girlfriend notes he is always fidgeting and interrupts conversations. Symptoms have been present since childhood. What is the single most likely diagnosis?",
+      "options": [
+        "Bipolar affective disorder",
+        "Attention deficit hyperactivity disorder",
+        "Generalised anxiety disorder",
+        "Substance misuse disorder",
+        "Major depressive disorder"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of childhood-onset inattention, hyperactivity, and impulsivity is characteristic of ADHD. Anxiety is common but secondary; the core lifelong symptoms point to ADHD.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ceecb968bf61",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with longstanding difficulty organising tasks, procrastination, and a tendency to lose items. She denies hyperactivity but admits to feeling mentally restless. She has been treated for depression in the past with little benefit. Her brother was recently diagnosed with ADHD. What is the single most likely diagnosis?",
+      "options": [
+        "Obsessive-compulsive disorder",
+        "Attention deficit hyperactivity disorder (predominantly inattentive)",
+        "Generalised anxiety disorder",
+        "Hypothyroidism",
+        "Dysthymia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The absence of hyperactivity does not exclude ADHD; the inattentive presentation is often missed in women. A positive family history and poor response to antidepressants support ADHD over mood disorders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "43c759f39369",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man is brought to the emergency department after a road traffic accident. He reports often driving impulsively and running red lights. He has a history of multiple school exclusions, frequent job changes, and relationship breakdowns. He appears restless and answers questions before they are finished. What is the single most likely diagnosis?",
+      "options": [
+        "Bipolar affective disorder",
+        "Intermittent explosive disorder",
+        "Substance intoxication",
+        "Attention deficit hyperactivity disorder",
+        "Antisocial personality disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "The hallmark features of ADHD – impulsivity, restlessness, and a lifelong pattern of inattention and hyperactivity – explain the risky behaviour and functional impairment. The lack of discrete mood episodes distinguishes ADHD from bipolar disorder.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "37b2a23dcf6e",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with a history of cannabis use presents to psychiatry. He describes using cannabis daily to 'slow down my racing thoughts' and improve focus. He was expelled from school for disruptive behaviour and has never held a job for more than 6 months. On examination, he is fidgety and frequently interrupts. What is the single most likely diagnosis?",
+      "options": [
+        "Schizophrenia",
+        "Antisocial personality disorder",
+        "Cannabis use disorder",
+        "Attention deficit hyperactivity disorder",
+        "Bipolar affective disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient's use of cannabis as a form of self-medication is common in undiagnosed ADHD. The childhood-onset hyperactivity and impulsivity, along with functional impairment, strongly support ADHD over primary substance misuse or other psychiatric disorders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a167c795a6ec",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with concerns about his memory. He reports always being forgetful and easily distracted since childhood, but his wife confirms this is lifelong. He taps his feet constantly during the consultation and has difficulty staying seated. Mini-Mental State Examination is 28/30. What is the single most likely diagnosis?",
+      "options": [
+        "Attention deficit hyperactivity disorder",
+        "Depression",
+        "Mild cognitive impairment",
+        "Alzheimer's disease",
+        "Normal ageing"
+      ],
+      "answerIndex": 0,
+      "explanation": "The lifelong history of inattention and hyperactivity without cognitive decline points to ADHD in older adults, which is often misdiagnosed as dementia or normal ageing. The normal MMSE and lack of progressive deterioration argue against neurodegenerative causes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "10ab81d40630",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old university student presents to his GP with difficulty concentrating, fidgeting, and chronic lateness. He asks, 'Do I have ADHD?' What is the most appropriate next step for diagnosis?",
+      "options": [
+        "Obtain childhood school reports",
+        "Perform a diagnostic interview using the DIVA-5",
+        "Refer to a psychiatrist for a specialist assessment",
+        "Administer the Adult ADHD Self-Report Scale (ASRS)",
+        "Start a trial of methylphenidate"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends using a validated screening tool like the ASRS in primary care before referral. A positive screen supports referral; a negative screen reduces likelihood. Direct specialist referral is premature without screening. The DIVA-5 is a specialist tool, not primary care. School reports are part of specialist assessment. Methylphenidate is treatment, not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a20b236f922e",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with a childhood diagnosis of ADHD (never treated) requests reassessment due to work difficulties. What is the single most important component of the diagnostic assessment?",
+      "options": [
+        "IQ testing",
+        "Collateral reports from parents confirming childhood symptoms",
+        "Continuous performance test",
+        "Mood disorder screening",
+        "Current ADHD rating scale (e.g., CAARS)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The DSM-5 requires symptom onset before age 12. Collateral history confirms this, differentiating ADHD from adult-onset mimics. Current rating scales help quantify severity but do not establish childhood onset. IQ testing and mood screening assess comorbidities but are not diagnostic gold standards. Continuous performance tests lack specificity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "29300cd91a65",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old man with heavy cannabis use since age 16 complains of hyperactivity, impulsivity, and poor concentration since childhood. What is the most useful evidence to support a diagnosis of ADHD rather than substance-induced symptoms?",
+      "options": [
+        "Family history of ADHD in a first-degree relative",
+        "Positive response to a stimulant trial",
+        "Observation of hyperactivity during the clinical interview",
+        "Clear evidence of symptoms before age 12 and independent of cannabis",
+        "Elevated score on the adult ADHD self-report scale"
+      ],
+      "answerIndex": 3,
+      "explanation": "ADHD requires symptom onset before age 12, and symptoms must not be solely attributable to substance use. Demonstrating childhood onset before heavy cannabis use confirms the diagnosis. Stimulant response, family history, or current observation are supportive but not definitive; rating scales may be confounded by substance use.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "440c4c82b21c",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with mild intellectual disability is referred for ADHD assessment. Which diagnostic approach is most appropriate?",
+      "options": [
+        "Conners' Adult ADHD Rating Scales (CAARS)",
+        "EEG to assess for seizure activity",
+        "DIVA-5 (Diagnostic Interview for ADHD in Adults)",
+        "Clinical interview with the patient and a carer",
+        "QbTest (continuous performance test)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE advises that for adults with a learning disability, assessment should include a clinical interview with the person and a family member or carer, as standard rating scales may not be validated. DIVA-5 and CAARS rely on self-report, which can be unreliable in intellectual disability. QbTest and EEG are not standard diagnostic tools.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54db1dc3de2b",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with chronic disorganisation, procrastination, and task incompletion. She is quiet and not hyperactive. What is the most important factor in distinguishing ADHD (inattentive presentation) from other conditions such as anxiety or depression?",
+      "options": [
+        "Poor performance on cognitive tests",
+        "Symptom onset before age 12",
+        "High levels of trait anxiety",
+        "Lack of response to antidepressant therapy",
+        "History of mild head injury"
+      ],
+      "answerIndex": 1,
+      "explanation": "The inattentive subtype of ADHD can be mistaken for anxiety or depression, but the key diagnostic feature is onset in childhood (before 12). Anxiety, depression, and acquired causes (e.g., head injury) typically have later onset. Cognitive tests and treatment response are not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f831cabf2187",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 24-year-old man presents with a history of poor concentration, restlessness, and impulsivity since childhood. He has no other medical or psychiatric history. Examination and ECG are normal. What is the most appropriate first-line pharmacological treatment for his ADHD?",
+      "options": [
+        "Guanfacine",
+        "Lisdexamfetamine",
+        "Methylphenidate",
+        "Atomoxetine",
+        "Clonidine"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend methylphenidate as first-line pharmacological treatment for adults with ADHD without contraindications. Lisdexamfetamine is second-line if methylphenidate is ineffective or not tolerated. Atomoxetine, guanfacine, and clonidine are non-stimulant options reserved for when stimulants are contraindicated or ineffective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cda59486718c",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man with known ADHD has a history of cocaine use disorder, currently abstinent for 6 months. He asks about starting medication for his ADHD. Which drug is contraindicated in this patient due to his history?",
+      "options": [
+        "Guanfacine",
+        "Lisdexamfetamine",
+        "Methylphenidate",
+        "Atomoxetine",
+        "Clonidine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lisdexamfetamine and other stimulants have abuse potential and are relatively contraindicated in patients with a history of substance misuse, especially cocaine. NICE recommends non-stimulants such as atomoxetine, guanfacine, or clonidine as first-line in such patients. Methylphenidate also carries abuse risk, but lisdexamfetamine is specifically highlighted due to its high potential for misuse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39605452fa19",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with ADHD is found to have narrow-angle glaucoma on routine eye examination. She is not on any glaucoma treatment. Which ADHD medication is absolutely contraindicated in this patient?",
+      "options": [
+        "Atomoxetine",
+        "Lisdexamfetamine",
+        "Guanfacine",
+        "Clonidine",
+        "Methylphenidate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Methylphenidate is contraindicated in patients with glaucoma due to its mydriatic effect, which can precipitate acute angle-closure glaucoma. Lisdexamfetamine is used with caution, not absolutely contraindicated. Non-stimulants such as atomoxetine, guanfacine, and clonidine are safe alternatives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e6206a71f7e0",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old man with ADHD also has bothersome motor tics (blinking and shoulder shrugging) that interfere with daily activities. What is the most appropriate first-line treatment for his ADHD given the tic disorder?",
+      "options": [
+        "Dexamfetamine",
+        "Methylphenidate",
+        "Atomoxetine",
+        "Clonidine",
+        "Lisdexamfetamine"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend clonidine or guanfacine as first-line for ADHD with comorbid tic disorders, as stimulants may worsen tics. Clonidine is effective for both ADHD and tics. While atomoxetine is an option, it is not first-line for tic disorders; clonidine has more evidence for tic reduction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc5ee7e3e68e",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with ADHD is currently being treated with phenelzine (a monoamine oxidase inhibitor) for treatment-resistant depression. Her ADHD symptoms are impairing her work. Which ADHD medication is CONTRAINDICATED due to a risk of hypertensive crisis or serotonin syndrome?",
+      "options": [
+        "Atomoxetine",
+        "Guanfacine",
+        "Methylphenidate",
+        "Lisdexamfetamine",
+        "Clonidine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atomoxetine is contraindicated in patients taking MAOIs (e.g., phenelzine) due to the risk of hypertensive crisis and serotonin syndrome. Stimulants such as methylphenidate and lisdexamfetamine also have warnings, but atomoxetine has a specific absolute contraindication. Guanfacine and clonidine are not associated with this interaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1b0712b459f0",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 24-year-old medical student presents to the GP with difficulty concentrating, restlessness, and poor organisation since childhood, but never formally assessed. He reports struggling to finish tasks and frequently losing things. His depression score (PHQ-9) is 5, and he drinks 10 units of alcohol per week. What is the most appropriate next step?",
+      "options": [
+        "Advise to reduce alcohol intake and review in 2 weeks",
+        "Start methylphenidate immediately",
+        "Refer for specialist adult ADHD assessment",
+        "Refer for cognitive behavioural therapy",
+        "Order an ECG and blood pressure check"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend specialist assessment for adults with suspected ADHD before any pharmacological treatment. Starting medication without formal diagnosis is inappropriate. Other options may be considered later or are not the first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca0763692c53",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with a known diagnosis of ADHD, stable on lisdexamfetamine 50 mg daily for 2 years, presents to the ED with palpitations, chest tightness, and anxiety after accidentally taking a double dose this morning. Her BP is 145/90 mmHg, pulse 110 bpm, ECG shows sinus tachycardia. What is the most appropriate immediate next step?",
+      "options": [
+        "Discontinue lisdexamfetamine and start guanfacine",
+        "Prescribe a beta-blocker to control tachycardia",
+        "Administer activated charcoal",
+        "Refer to the medical team for observation and monitoring",
+        "Send home with advice to skip tomorrow's dose"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute overdose or toxicity with stimulants requires medical observation due to risk of cardiovascular complications. Activated charcoal is only effective within 1 hour; given she took it 'this morning', it may not be indicated. Beta-blockers are not first-line without cardiology input. Discontinuing and changing treatment is not immediate. Observation is the safest next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a9645643ddef",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with ADHD and a history of substance misuse (cocaine, cannabis) is currently stable on bupropion 150 mg daily. He presents to the ED with acute confusion, tachycardia (120 bpm), hypertension (160/100 mmHg), and hyperthermia (38.8°C). He admits to using cocaine 4 hours ago. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer oral lorazepam",
+        "Obtain urgent CT head",
+        "Start intravenous fluids and monitor",
+        "Discharge with advice to avoid cocaine",
+        "Give intravenous dantrolene"
+      ],
+      "answerIndex": 0,
+      "explanation": "This presentation is consistent with acute cocaine toxicity with possible serotonin syndrome (bupropion + cocaine). Benzodiazepines (lorazepam) are first-line for agitation, hypertension, and tachycardia in stimulant toxicity. Dantrolene is for malignant hyperthermia, not typical here. Fluids and monitoring are supportive but not the immediate priority. CT head is not indicated without focal neurology. Discharge is unsafe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fe83792d2e02",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with ADHD, currently unmedicated, presents to the psychiatric liaison service with acute psychotic symptoms (delusions, auditory hallucinations) after using cannabis heavily for 2 weeks. She has no prior psychiatric history. Her urine drug screen is positive for cannabis. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent ADHD assessment",
+        "Prescribe methylphenidate to treat underlying ADHD",
+        "Advise to stop cannabis and review in 48 hours",
+        "Start an antipsychotic such as olanzapine",
+        "Arrange admission to a psychiatric ward"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute psychosis with safety concerns and need for assessment requires admission. Starting antipsychotic without a confirmed diagnosis may be needed, but the immediate action is to arrange admission for mental health assessment. Referral for ADHD is not urgent. Discharge is unsafe. Stimulants can worsen psychosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7cd4df7d3805",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with ADHD, on guanfacine 4 mg daily for 4 weeks, reports persistent drowsiness and low blood pressure (90/60 mmHg). He has been taking his medication as prescribed. He is otherwise well. What is the most appropriate immediate next step in the outpatient clinic?",
+      "options": [
+        "Switch to atomoxetine",
+        "Order a 24-hour ambulatory blood pressure monitor",
+        "Advise to take the dose at bedtime",
+        "Reassure and continue current dose",
+        "Increase guanfacine dose to 5 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guanfacine commonly causes drowsiness and hypotension. Taking the dose at bedtime can mitigate daytime somnolence. Increasing dose would worsen side effects. Switching is premature without dose adjustment. BP monitoring is not immediate. Reassurance is not appropriate as side effects are significant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e7d93209bb3d",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman presents with a six-month history of difficulty concentrating, restlessness, and impulsivity. She also reports two distinct episodes lasting 5 days where she felt 'on top of the world', had very little need for sleep yet felt full of energy, and engaged in impulsive spending. She has never been hospitalised. Which single clinical feature most strongly suggests the diagnosis is bipolar disorder rather than ADHD?",
+      "options": [
+        "Impulsive spending",
+        "Restlessness",
+        "Increased goal-directed activity",
+        "Decreased need for sleep",
+        "Poor concentration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Decreased need for sleep (i.e., sleeping 3-4 hours and feeling refreshed) is a core symptom of hypomania/mania and is not typical for ADHD, where sleep difficulties usually involve insomnia or restless sleep. The other options are shared features between ADHD and bipolar disorder.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8659d94c8cea",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man with ADHD has been taking methylphenidate (Concerta XL 36 mg daily) for 8 weeks with good effect. At routine follow-up, he reports that for the past week he has been feeling suspicious of his flatmates and hearing voices telling him they are plotting against him. Which clinical finding in this context is a red flag requiring immediate action?",
+      "options": [
+        "Reduced appetite",
+        "Slight increase in heart rate at rest (85 bpm)",
+        "Mild headache",
+        "New-onset auditory hallucinations",
+        "Difficulty sleeping"
+      ],
+      "answerIndex": 3,
+      "explanation": "New-onset psychotic symptoms (auditory hallucinations and paranoia) indicate stimulant-induced psychosis, a serious adverse effect necessitating immediate discontinuation of the medication and urgent psychiatric review. The other options are common non‑urgent side effects.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "21352e98a146",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with a history of ADHD treated with lisdexamfetamine 50 mg daily is brought to the emergency department by ambulance. He is agitated, tachycardic (HR 130 bpm), hypertensive (BP 185/105 mmHg), and pyrexial (38.8°C). His GCS is 14. Which single ECG finding, if present, would most strongly indicate an immediately life-threatening complication?",
+      "options": [
+        "Right bundle branch block",
+        "Atrial fibrillation with rapid ventricular response",
+        "ST-segment elevation in the anterior leads",
+        "Sinus tachycardia",
+        "Frequent ventricular ectopics"
+      ],
+      "answerIndex": 2,
+      "explanation": "ST‑segment elevation is concerning for acute myocardial infarction, a known life‑threatening complication of stimulant overdose or adverse effect. The other findings, while potentially significant, are less immediately life‑threatening in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9d2b36278b7",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with ADHD has been taking atomoxetine 40 mg daily for 3 weeks. She presents with a 2-day history of nausea, right upper quadrant pain, and yellow discolouration of her eyes. Which laboratory finding would indicate severe liver injury requiring urgent discontinuation of atomoxetine and hepatology referral?",
+      "options": [
+        "Serum alkaline phosphatase 180 U/L (normal <120)",
+        "Serum ALT 120 U/L (normal <40)",
+        "Serum creatinine 130 μmol/L (normal <90)",
+        "Serum bilirubin 55 μmol/L (normal <21)",
+        "International normalized ratio (INR) 1.4"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bilirubin greater than twice the upper limit of normal (>42 μmol/L) in the presence of jaundice signals severe hepatotoxicity. NICE advises stopping atomoxetine if ALT >5× ULN or bilirubin >2× ULN; this case meets the bilirubin threshold. The other values are not specific for life‑threatening liver injury.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb6a152dede4",
+      "topic": "ADHD in Adults",
+      "slug": "adhd-in-adults",
+      "system": "Psychiatry",
+      "subSystem": "Neurodevelopmental",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man with ADHD and no known cardiac history has been taking lisdexamfetamine 30 mg daily for 6 weeks. He presents complaining of central chest tightness that occurs when climbing stairs and eases with rest. His ECG shows sinus rhythm with normal intervals. Which single symptom is a red flag for underlying coronary artery disease requiring urgent cardiology referral?",
+      "options": [
+        "Light-headedness when standing",
+        "Exertional chest pain",
+        "Occasional headaches",
+        "Fatigue after dosing",
+        "Intermittent palpitations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exertional chest pain relieved by rest is classic angina and may unmask underlying coronary artery disease. Stimulants can precipitate ischaemia; this symptom mandates immediate cardiac evaluation. The other symptoms are common, non‑urgent adverse effects.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Delirium",
+  "slug": "delirium",
+  "system": "Neurology",
+  "subSystem": "Confusion",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:29:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8a3adefc5d0f",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman is brought to the emergency department by her son because she has become acutely confused over 24 hours. She has a history of hypertension and mild cognitive impairment. On examination, she is disoriented, restless, and has a fluctuating level of consciousness. Vital signs: temperature 38.2°C, pulse 100 bpm, BP 140/80, respiratory rate 18. Urinalysis shows leucocytes and nitrites. What is the single most likely diagnosis?",
+      "options": [
+        "Delirium due to urinary tract infection",
+        "Acute psychotic episode",
+        "Stroke",
+        "Hypoglycaemia",
+        "Dementia with Lewy bodies"
+      ],
+      "answerIndex": 0,
+      "explanation": "The acute onset, fluctuating consciousness, and evidence of infection make delirium due to UTI most likely, distinguishing it from dementia (chronic course) and acute psychosis (no physical cause).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "32613e0ceed5",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man undergoes elective hip replacement under general anaesthesia. On postoperative day 2, he is confused, inattentive, and has reversed sleep-wake cycle. He is afebrile, oxygen saturations 96% on air, and blood tests show normal electrolytes, normal renal function, and normal full blood count. Pain is controlled with regular paracetamol. What is the single most likely diagnosis?",
+      "options": [
+        "Acute psychosis",
+        "Electrolyte imbalance",
+        "Dementia",
+        "Opioid toxicity",
+        "Delirium"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute onset post-operatively with typical features of inattention, confusion, and sleep-wake reversal in an older patient is classic for delirium; dementia is chronic and electrolyte imbalance is excluded by normal labs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26f7b55cecd3",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man in the intensive care unit for pneumonia develops sudden agitation, pulling at lines, and is shouting incoherently. He has a central line and is on IV antibiotics. His blood pressure is 90/60 mmHg, heart rate 120 bpm, temperature 39.5°C. Sedation and analgesic scores are low. What is the single most likely diagnosis?",
+      "options": [
+        "Myocardial infarction",
+        "Hypoglycaemia",
+        "Stroke",
+        "Sepsis-associated encephalopathy",
+        "Hyperactive delirium"
+      ],
+      "answerIndex": 4,
+      "explanation": "The acute agitated state in an ICU patient with sepsis and hypotension is most consistent with hyperactive delirium; although sepsis-associated encephalopathy is a mechanism, the clinical presentation points specifically to delirium as the syndromic diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3fced100411",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 85-year-old woman in a care home has become increasingly withdrawn over 3 days. Staff report she is eating poorly and seems drowsy. She has a history of dementia but has declined more rapidly. On examination, she is lethargic, with reduced attention, and answers slowly. She has no focal neurological signs. Observations: temperature 36.0°C, pulse 88 bpm, BP 130/70, oxygen saturation 94% on air. Urine dipstick is negative. What is the single most likely diagnosis?",
+      "options": [
+        "Depression",
+        "Subdural haematoma",
+        "Hypothyroidism",
+        "Dementia progression",
+        "Hypoactive delirium"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute change over days with lethargy and inattention in a frail elderly patient is typical of hypoactive delirium, easily mistaken for depression or dementia progression; the lack of focal signs makes subdural haematoma less likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ad3e63edaf29",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old man with schizophrenia on clozapine, and also taking over-the-counter diphenhydramine for sleep, presents with confusion, myoclonus, and flushed skin. He is tachycardic (110 bpm) and has dilated pupils. Temperature is 38.5°C. What is the single most likely diagnosis?",
+      "options": [
+        "Anticholinergic delirium",
+        "Delirium due to infection",
+        "Neuroleptic malignant syndrome",
+        "Serotonin syndrome",
+        "Acute psychosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The anticholinergic signs (flushed skin, dilated pupils, tachycardia, myoclonus) combined with use of diphenhydramine (strong anticholinergic) and clozapine (mild anticholinergic) make anticholinergic toxicity most likely; NMS typically presents with rigidity and bradykinesia, not myoclonus and flushing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7a995fb37958",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man, previously independent, is brought to the Emergency Department with acute confusion and fever (38.5°C). His chest is clear, and there are no focal neurological signs. What is the single most appropriate investigation to identify the cause of his delirium?",
+      "options": [
+        "Urine dipstick",
+        "EEG",
+        "CT head",
+        "Lumbar puncture",
+        "Blood cultures"
+      ],
+      "answerIndex": 4,
+      "explanation": "Infection is the most common reversible cause of delirium in the elderly. Blood cultures have the highest yield when fever is present, as bacteraemia (e.g., from pneumonia or UTI) may be the underlying trigger. CT head is indicated if there are focal signs or trauma; lumbar puncture if meningism; urine dipstick is less specific; EEG is not diagnostic for delirium cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b96e0347eb8e",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 82-year-old woman develops fluctuating attention, disorganised thinking, and sleep-wake cycle disturbance on the second day after hip replacement. She has no pre-existing cognitive impairment. Which tool is most appropriate to confirm the diagnosis of delirium?",
+      "options": [
+        "Confusion Assessment Method (CAM)",
+        "Glasgow Coma Scale (GCS)",
+        "Montreal Cognitive Assessment (MoCA)",
+        "Clock Drawing Test",
+        "Mini-Mental State Examination (MMSE)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Confusion Assessment Method (CAM) is a validated, specific diagnostic tool for delirium recommended by NICE. MMSE and MoCA screen for dementia but are not diagnostic for delirium; GCS assesses consciousness level only; the Clock Drawing Test lacks sensitivity and specificity for delirium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3bee882d1d06",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with chronic obstructive pulmonary disease and chronic pain is brought to hospital with increasing drowsiness, confusion, and pinpoint pupils. He has been taking codeine regularly. What is the most appropriate investigation to confirm the cause of his delirium?",
+      "options": [
+        "Lactate",
+        "CT head",
+        "Serum creatinine",
+        "Oxygen saturation",
+        "Urine toxicology"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of delirium, pinpoint pupils, and opioid use strongly suggests opioid toxicity. Urine toxicology (opioid screen) confirms the presence of opioids. CT head is indicated if there is focal neurology or trauma; oxygen saturation and lactate assess hypoxaemia or sepsis but are not diagnostic for opioid overdose; serum creatinine assesses renal function but is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7b48dbacd54",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 84-year-old woman with known Alzheimer's dementia is admitted from her care home with a 2-day history of worsening confusion. She is not febrile, but urine dipstick is positive for nitrites and leukocytes. What is the next most appropriate investigation to confirm the cause of her delirium?",
+      "options": [
+        "Urine culture and sensitivity",
+        "CT head",
+        "Chest X-ray",
+        "Blood cultures",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 0,
+      "explanation": "A positive urine dipstick suggests a urinary tract infection, a common trigger for delirium in dementia patients. Urine culture and sensitivity confirms the infection and guides antibiotic therapy. CT head is not indicated without focal signs or trauma; blood cultures are for systemic infection; lumbar puncture if meningism; chest X-ray if respiratory symptoms are absent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0a34d65bf744",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with decompensated liver cirrhosis presents with acute confusion, asterixis, and elevated ammonia. Before attributing his delirium to hepatic encephalopathy, which single investigation is most important to exclude other causes?",
+      "options": [
+        "Serum ammonia level",
+        "Electroencephalogram",
+        "CT head",
+        "Psychometric testing",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Patients with cirrhosis are at increased risk of intracranial haemorrhage. A CT head is essential to exclude a structural cause such as subdural haematoma, which can mimic or coexist with hepatic encephalopathy. Serum ammonia is supportive but not diagnostic; EEG shows non-specific slowing; lumbar puncture is not first line without signs of infection; psychometric testing is not acute.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c7a24bc7677",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old woman is admitted after a hip fracture. Post-operatively she becomes acutely confused, inattentive, and has fluctuating consciousness. Urine dip shows nitrites and leukocytes. Her daughter asks about treatment. What is the most appropriate first-line management for her delirium?",
+      "options": [
+        "Haloperidol 0.5 mg orally",
+        "Amoxicillin 500 mg three times daily",
+        "Reorientation, environmental modifications, and non-pharmacological interventions",
+        "Olanzapine 2.5 mg sublingually",
+        "Lorazepam 1 mg sublingually"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend non-pharmacological interventions (e.g., reorientation, managing environment, involving family) as first-line for delirium. The underlying UTI should be treated, but that is directed at the cause, not the delirium itself. Antipsychotics are reserved for severe distress or risk of harm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bd9e167105e9",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with no significant past medical history develops postoperative delirium. He is extremely agitated, swinging at staff, and attempting to pull out his IV lines. Verbal de-escalation has failed. What is the most appropriate pharmacological treatment?",
+      "options": [
+        "Midazolam 2 mg IV",
+        "Haloperidol 0.5 mg IV",
+        "Lorazepam 1 mg IV",
+        "Quetiapine 25 mg orally",
+        "Promethazine 25 mg IM"
+      ],
+      "answerIndex": 1,
+      "explanation": "Haloperidol is first-line for acute agitation in delirium when non-pharmacological measures fail, per NICE. Low-dose IV haloperidol (0.5–1 mg) is preferred for rapid onset. Lorazepam is not first-line unless sedation is needed (e.g., alcohol withdrawal), and midazolam is too short-acting and risky.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "002e4bb5fa8d",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with Parkinson's disease on levodopa is admitted with a urinary tract infection and develops delirium with visual hallucinations and confusion. He is mildly agitated but not aggressive. Which drug is CONTRAINDICATED in this patient?",
+      "options": [
+        "Olanzapine 2.5 mg orally",
+        "Quetiapine 12.5 mg orally",
+        "Haloperidol 0.5 mg IM",
+        "Lorazepam 0.5 mg orally",
+        "Rivastigmine 1.5 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Haloperidol is a high-potency typical antipsychotic with strong D2 blockade, which can worsen parkinsonism and is contraindicated in Parkinson's disease. Quetiapine and olanzapine have lower D2 affinity and are preferred if antipsychotic needed. Rivastigmine is used for dementia with Lewy bodies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f41ca01e328d",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with no prior psychiatric history is started on haloperidol 1 mg IM for severe agitation in delirium. Ten minutes later she develops acute neck dystonia and oculogyric crisis. What is the most appropriate treatment?",
+      "options": [
+        "Increase haloperidol to 2 mg IM",
+        "Procyclidine 5 mg IM",
+        "Diphenhydramine 50 mg IV",
+        "Diazepam 5 mg IV",
+        "Olanzapine 5 mg IM"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute dystonia caused by antipsychotics is treated with anticholinergic agents; procyclidine (5–10 mg IM or IV) is the standard choice in the UK. Diphenhydramine is less commonly used here. Increasing haloperidol or switching to olanzapine would worsen the dystonia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc91408236dd",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with chronic alcohol dependency is admitted with confusion, tremor, visual hallucinations, and autonomic hyperactivity. His heart rate is 120 bpm and blood pressure 160/90 mmHg. Diagnosis is delirium tremens. What is the first-line pharmacological treatment?",
+      "options": [
+        "Diazepam 10 mg IV stat",
+        "Thiamine 100 mg IV once daily",
+        "Haloperidol 2 mg IV",
+        "Lorazepam 1 mg sublingually as required",
+        "Chlordiazepoxide 20 mg four times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "For delirium tremens, a long-acting benzodiazepine such as chlordiazepoxide is first-line in the UK (e.g., a reducing regimen). It provides sustained control of withdrawal symptoms. Haloperidol may lower seizure threshold. Thiamine is for prevention of Wernicke's encephalopathy but not treatment of delirium itself.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b30c81d11cd8",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman is 2 days post-operative following a hip fracture repair. She becomes acutely confused, agitated, and is pulling at her IV line. Observations are normal. She has a background of hypertension and osteoarthritis. Her regular medications include amlodipine, paracetamol, and a recently added codeine-phosphate PRN. What is the single most appropriate next step?",
+      "options": [
+        "Escalate to the liaison psychiatry team",
+        "Administer IV haloperidol 0.5 mg",
+        "Review the medication chart and consider stopping culprit drugs",
+        "Request an urgent CT head",
+        "Perform a urinalysis for suspected UTI"
+      ],
+      "answerIndex": 2,
+      "explanation": "Medications, especially anticholinergics or opiates, are a common reversible cause of delirium in post-operative patients. Reviewing and stopping culprit drugs is the first step before pharmacological sedation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "099e8092d1d6",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with known dementia is brought to the ED by his daughter because of new confusion over 2 days. He has mild pyrexia (37.8°C), pulse 95 bpm, BP 130/80. He is alert but disorientated, and not agitated. Urine dip shows leucocytes and nitrites. What is the single most appropriate next step?",
+      "options": [
+        "Advise the daughter to reorientate him and return if worse",
+        "Arrange an urgent CT head",
+        "Check blood glucose and U&Es",
+        "Administer oral lorazepam 0.5 mg",
+        "Start intravenous cefuroxime"
+      ],
+      "answerIndex": 4,
+      "explanation": "A urinary tract infection is the likely cause of delirium. Treating the underlying infection with antibiotics is the priority; sedation is not indicated as he is not agitated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d91ad0880432",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man presents with acute onset confusion, fever (39.2°C), heart rate 110 bpm, BP 85/50, respiratory rate 24, SpO2 94% on room air. He is drowsy but rousable. Capillary refill is 4 seconds. What is the single most appropriate immediate next step?",
+      "options": [
+        "Escalate to the intensive care team for review",
+        "Give intravenous haloperidol 2 mg",
+        "Administer intravenous co-amoxiclav",
+        "Perform a lumbar puncture",
+        "Request an urgent CT head of brain"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has severe sepsis with shock and delirium. Escalation to ICU for organ support (e.g., vasopressors) is the priority; antibiotics and imaging can follow but resuscitation takes precedence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96e62f4d684e",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with atrial fibrillation on warfarin is found on the floor at home. She is confused, not her baseline, and has a scalp haematoma on the left side. GCS is 14 (E4 V4 M6). There is no focal neurology. What is the single most appropriate next step?",
+      "options": [
+        "Admit under medical team for observation",
+        "Stop warfarin and discuss with haematology",
+        "Check INR and full blood count",
+        "Perform a CT head as an emergency",
+        "Give intravenous vitamin K 10 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Head injury on anticoagulation with signs of delirium mandates immediate CT head to rule out intracranial haemorrhage. Reversal of anticoagulation may follow, but imaging first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "44906a6336e6",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with Parkinson's disease presents with acute confusion and visual hallucinations over the past 12 hours. His wife reports that his levodopa dose was increased 2 days ago due to worsening rigidity. Observations are normal. He is afebrile and there are no signs of infection. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer haloperidol 1 mg",
+        "Screen for infection with urinalysis and chest X-ray",
+        "Arrange an urgent CT head",
+        "Revert to the previous dose of levodopa",
+        "Refer to the neurology team for further management"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dopamine agonist or levodopa dose changes can trigger delirium in Parkinson's. First step is reversal of the recent dose change. Antipsychotics like haloperidol are contraindicated as they worsen parkinsonism.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f6743d611f96",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man with a history of falls is brought to the Emergency Department with acute confusion. He has a large scalp haematoma on the left side. Which of the following clinical findings is most concerning for an extradural haematoma requiring immediate neurosurgical referral?",
+      "options": [
+        "Hyperreflexia",
+        "Ipsilateral fixed and dilated pupil",
+        "Bradycardia and hypertension",
+        "Nuchal rigidity",
+        "Contralateral hemiparesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "An ipsilateral fixed and dilated pupil is a classic sign of transtentorial herniation due to an expanding extradural haematoma, a neurosurgical emergency. Bradycardia and hypertension are late signs of raised ICP but less specific. Contralateral hemiparesis can occur but may be unreliable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3778c2674e5b",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman with Alzheimer's disease presents with a 2-day history of worsening confusion. Her medications include donepezil and bendroflumethiazide. On examination, she is withdrawn and has dry mucous membranes. Which of the following laboratory findings is a red flag for a life-threatening cause of her delirium?",
+      "options": [
+        "Serum potassium 2.8 mmol/L",
+        "Serum sodium 132 mmol/L",
+        "Serum calcium 2.8 mmol/L",
+        "Random blood glucose 6.5 mmol/L",
+        "Serum sodium 115 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hyponatraemia (<120 mmol/L) can cause cerebral oedema and seizures, representing a medical emergency. Mild hyponatraemia (132 mmol/L) is less urgent. Hypokalaemia of 2.8 mmol/L is concerning but not typically imminently life-threatening unless arrhythmogenic. Hypercalcaemia of 2.8 mmol/L is mild.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "edf5cd0ced24",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with delirium due to pneumonia was started on haloperidol 24 hours ago. He becomes increasingly agitated, then drowsy, and his temperature rises to 38.9°C. Which of the following clinical findings is most suggestive of neuroleptic malignant syndrome as a complication?",
+      "options": [
+        "Nuchal rigidity",
+        "Resting tremor",
+        "Myoclonus",
+        "Lead-pipe rigidity",
+        "Clonus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lead-pipe rigidity is a hallmark sign of neuroleptic malignant syndrome (NMS), often accompanied by hyperthermia, altered consciousness, and autonomic dysfunction. Clonus and myoclonus are more typical of serotonin syndrome. Resting tremor suggests Parkinsonism. Nuchal rigidity indicates meningeal irritation, not NMS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "936c4df8198d",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with a urinary tract infection develops delirium. A nurse reports that the patient has 'repetitive twitching of the right hand and lip-smacking' and is not responding. Which of the following clinical features is most indicative of non-convulsive status epilepticus as the cause of her altered mental state?",
+      "options": [
+        "Conjugate eye deviation to one side",
+        "Myoclonic jerks in all limbs",
+        "Generalised tonic-clonic seizure",
+        "Absence seizures with staring",
+        "Atonic drop attacks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conjugate eye deviation to one side is a subtle motor sign frequently seen in non-convulsive status epilepticus (NCSE). Generalised tonic-clonic seizure defines convulsive status. Myoclonic jerks can occur in metabolic encephalopathy. Atonic drops and absence seizures are less consistent with NCSE presentation in adults.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ea01faf59eac",
+      "topic": "Delirium",
+      "slug": "delirium",
+      "system": "Neurology",
+      "subSystem": "Confusion",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man develops acute confusion 6 hours after hip replacement surgery. He has a history of hypertension and smoking. His blood pressure is 110/70 mmHg in the right arm and 160/90 mmHg in the left arm. Which of the following clinical findings is most concerning for a life-threatening vascular cause of his delirium?",
+      "options": [
+        "Diastolic murmur at left sternal edge",
+        "Painless left hemiparesis",
+        "Absent radial pulse on one side",
+        "Blood pressure difference >20 mmHg between arms",
+        "Bilateral basal crackles on lung auscultation"
+      ],
+      "answerIndex": 3,
+      "explanation": "A blood pressure difference >20 mmHg between arms is a classic sign of aortic dissection, which can present with delirium due to cerebral hypoperfusion. Absent radial pulse also suggests dissection but is less sensitive. Diastolic murmur is not specific. Crackles indicate pulmonary oedema. Hemiparesis could be stroke, but dissection should be excluded first.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Neutropenic Sepsis",
+  "slug": "neutropenic-sepsis",
+  "system": "Haematology",
+  "subSystem": "Oncologic emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:03Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "04697af323ad",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with diffuse large B-cell lymphoma, day 10 after R-CHOP chemotherapy, presents with fever (38.8°C), rigors, and lethargy. He appears unwell, heart rate 110 bpm, BP 100/60 mmHg. Bloods: Hb 100 g/L, WCC 0.5 x10^9/L, neutrophils 0.1 x10^9/L, platelets 80 x10^9/L. Blood cultures pending. What is the single most likely diagnosis?",
+      "options": [
+        "Febrile neutropenia (neutropenic sepsis)",
+        "Toxic shock syndrome",
+        "Systemic inflammatory response syndrome (SIRS) due to chemotherapy",
+        "Septic shock",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has fever >38°C and severe neutropenia (<0.5 x10^9/L) post-chemotherapy, which is the classic definition of febrile neutropenia (neutropenic sepsis). Septic shock requires persistent hypotension despite fluid resuscitation; SIRS is not a specific diagnosis; toxic shock syndrome and pulmonary embolism are less consistent with the haematological context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5d9b6da45d6f",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with acute myeloid leukaemia on induction chemotherapy is on day 14, afebrile, but complains of severe malaise and confusion. Observations: HR 115, BP 85/55, RR 22, O2 sats 95% on air. Bloods: WCC 0.3 x10^9/L, neutrophils 0.0, CRP 5, lactate 4 mmol/L. Chest X-ray clear. What is the single most likely diagnosis?",
+      "options": [
+        "Acute coronary syndrome",
+        "Cerebrovascular accident",
+        "Neutropenic sepsis (afebrile presentation)",
+        "Pulmonary embolism",
+        "Hypoglycaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neutropenic sepsis can present without fever, especially in elderly or those on steroids; hypotension and elevated lactate with severe neutropenia are highly suggestive. The other options are less likely given the absence of chest pain, ECG changes, respiratory symptoms, or focal neurological signs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0ff28d860a71",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with breast cancer on adjuvant docetaxel develops fever 39°C, rigors, and sore throat 7 days after cycle 2. She has a petechial rash on her legs. Bloods: WCC 0.6, neutrophils 0.2, platelets 90. What is the single most likely diagnosis?",
+      "options": [
+        "Drug-induced rash",
+        "Neutropenic sepsis",
+        "Immune thrombocytopenic purpura",
+        "Viral exanthem",
+        "Meningococcal septicaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, severe neutropenia and petechiae (due to chemotherapy-induced thrombocytopenia) is typical of neutropenic sepsis. Meningococcal septicaemia is a differential but less likely given the neutropenic context and absence of rapidly progressive purpura.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aade92fee58a",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 38-year-old man with Hodgkin lymphoma undergoes autologous stem cell transplant. On day +10 he develops fever 38.5°C, diarrhoea, and abdominal pain. His neutrophil count is 0.1 x10^9/L. CT abdomen shows thickened caecum. What is the single most likely diagnosis?",
+      "options": [
+        "Clostridioides difficile colitis",
+        "Ischaemic colitis",
+        "Neutropenic enterocolitis (typhlitis)",
+        "Acute graft-versus-host disease",
+        "Appendicitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a neutropenic patient post-transplant, caecal thickening on CT is characteristic of neutropenic enterocolitis (typhlitis). C. difficile colitis is possible but typically shows colonic wall thickening more diffusely; GVHD does not occur after autologous transplant; appendicitis and ischaemic colitis are less likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b15c648a6756",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with systemic lupus erythematosus on cyclophosphamide and prednisolone presents with fever 38.2°C, cough, and breathlessness for 2 days. Observations: HR 100, BP 110/70, RR 24, O2 sats 91% on air. Chest X-ray shows bilateral interstitial infiltrates. Bloods: WCC 0.9, neutrophils 0.4 x10^9/L, CRP 20. What is the single most likely diagnosis?",
+      "options": [
+        "Lupus pneumonitis",
+        "Pneumocystis jirovecii pneumonia",
+        "Bacterial pneumonia with neutropenia",
+        "Neutropenic sepsis with pneumonia",
+        "Pulmonary oedema"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient meets criteria for neutropenic sepsis (fever with neutrophils <0.5 x10^9/L) and has a new pulmonary infiltrate, making pneumonia the likely source. While PCP is a differential, neutropenic sepsis is the immediate diagnosis; lupus pneumonitis is less likely with fever and neutropenia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c66fbf7a1fc3",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman with acute myeloid leukaemia on chemotherapy presents with fever 39.5°C and rigors. She has a central line. Which single investigation is most appropriate to confirm the diagnosis of neutropenic sepsis?",
+      "options": [
+        "Urine culture",
+        "Full blood count with differential",
+        "C-reactive protein",
+        "Chest X-ray",
+        "Blood cultures (aerobic and anaerobic)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neutropenic sepsis requires documented neutropenia (neutrophils <0.5×10⁹/L) and fever >38°C. Full blood count is the first test to confirm neutropenia; blood cultures are important for microbial diagnosis but not for confirming the syndrome.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fca26fdd5d1e",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with multiple myeloma on maintenance lenalidomide develops temperature 38.5°C and a mild cough. Neutrophils are 0.4×10⁹/L. Which investigation is most appropriate to identify the source of infection?",
+      "options": [
+        "Sputum culture",
+        "Procalcitonin",
+        "Chest X-ray",
+        "CT thorax",
+        "Blood cultures"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance recommends chest X-ray in all patients with suspected neutropenic sepsis to identify a pulmonary source, which is common. Sputum culture may be useful if productive, but chest X-ray is the initial imaging of choice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50851a601a6d",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with breast cancer on adjuvant chemotherapy is admitted with fever 40°C, hypotension, and confusion. Her FBC shows haemoglobin 100 g/L, WCC 0.6×10⁹/L, neutrophils 0.2×10⁹/L, platelets 120×10⁹/L. Which finding confirms the diagnosis of neutropenic sepsis?",
+      "options": [
+        "WCC <1.0×10⁹/L",
+        "Confusion",
+        "Fever >38°C",
+        "Neutrophils <0.5×10⁹/L",
+        "Hypotension"
+      ],
+      "answerIndex": 3,
+      "explanation": "The diagnostic criterion for neutropenic sepsis is a neutrophil count <0.5×10⁹/L with a temperature >38°C. While fever is required, the specific defining feature is the neutrophil threshold; hypotension and confusion are complications, not diagnostic criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "602e337d840b",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with acute lymphoblastic leukaemia and a tunnelled central line develops fever 38.8°C and rigors. Blood cultures are drawn from the line and a peripheral vein. Which result is most specific for a central line-associated bloodstream infection?",
+      "options": [
+        "Only peripheral culture positive",
+        "Same organism cultured from both sites",
+        "Peripheral culture positive before central line culture",
+        "Central line culture positive >2 hours before peripheral culture",
+        "Only central line culture positive"
+      ],
+      "answerIndex": 3,
+      "explanation": "A differential time to positivity of >2 hours (central line culture turning positive earlier than peripheral) is the most specific indicator of a central line-associated bloodstream infection. Growth only from the central line may suggest colonisation, not infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e1c2a127eee9",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with Hodgkin lymphoma who underwent allogeneic bone marrow transplantation develops persistent fever despite broad-spectrum antibiotics. Neutrophils are 0.1×10⁹/L. CT chest shows a new nodule. Which investigation is most appropriate to assess for invasive aspergillosis?",
+      "options": [
+        "MRI brain",
+        "CT chest with contrast",
+        "Bronchoalveolar lavage with fungal culture",
+        "Beta-D-glucan assay",
+        "Serum galactomannan antigen"
+      ],
+      "answerIndex": 4,
+      "explanation": "Serum galactomannan is a non-invasive test recommended for diagnosing invasive aspergillosis in neutropenic patients. Bronchoalveolar lavage is more invasive and may be confirmatory but is not the first-line test; beta-D-glucan is less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b5eab5b88a11",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with acute myeloid leukaemia on consolidation chemotherapy presents with fever of 38.5°C and a neutrophil count of 0.3×10⁹/L. She has no known drug allergies. What is the most appropriate first-line empirical antibiotic monotherapy?",
+      "options": [
+        "Piperacillin/tazobactam",
+        "Vancomycin",
+        "Meropenem",
+        "Gentamicin",
+        "Ceftazidime"
+      ],
+      "answerIndex": 0,
+      "explanation": "Piperacillin/tazobactam is the recommended first-line monotherapy for neutropenic sepsis in UK practice (NICE). Meropenem is reserved for penicillin allergy or resistant infection; ceftazidime lacks anaerobic cover; vancomycin is not empirical; gentamicin is used in combination, not alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ea1d2f28b9b",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with Hodgkin lymphoma on maintenance therapy presents with low-risk febrile neutropenia (temperature 38°C, neutrophils 0.8×10⁹/L, clinically stable, no comorbidity). Which of the following is the most appropriate management according to UK guidelines?",
+      "options": [
+        "Intravenous piperacillin/tazobactam",
+        "Intravenous meropenem",
+        "Oral ciprofloxacin plus co-amoxiclav",
+        "Oral amoxicillin alone",
+        "Intravenous gentamicin alone"
+      ],
+      "answerIndex": 2,
+      "explanation": "For low-risk neutropenic sepsis, NICE recommends considering oral antibiotics. Ciprofloxacin plus co-amoxiclav provides appropriate Gram-negative and anaerobic coverage. IV therapy is reserved for higher-risk patients; amoxicillin alone is insufficient; meropenem and gentamicin are too broad or inappropriate as monotherapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32c90155b1e8",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with acute leukaemia on chemotherapy presents with fever, hypotension (BP 85/50 mmHg), tachycardia, and a neutrophil count of 0.1×10⁹/L. He has no known allergies. What is the most appropriate initial empirical antibiotic regimen?",
+      "options": [
+        "Piperacillin/tazobactam plus gentamicin",
+        "Piperacillin/tazobactam alone",
+        "Vancomycin alone",
+        "Meropenem alone",
+        "Ceftazidime plus vancomycin"
+      ],
+      "answerIndex": 0,
+      "explanation": "In patients with severe neutropenic sepsis and hypotension, NICE advises adding an aminoglycoside (e.g., gentamicin) to piperacillin/tazobactam for synergy and broader coverage. Monotherapy with piperacillin/tazobactam is insufficient in septic shock; the other options are not first-line combinations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc9ce95e115f",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with neutropenic sepsis due to chemotherapy develops acute kidney injury (serum creatinine 300 µmol/L). He is currently on piperacillin/tazobactam. Which of the following additional agents is most likely to be contraindicated or require avoidance?",
+      "options": [
+        "Gentamicin",
+        "Meropenem",
+        "Metronidazole",
+        "Vancomycin",
+        "Ciprofloxacin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gentamicin (an aminoglycoside) is nephrotoxic and should be avoided or used with extreme caution in acute kidney injury. The other options can be dose-adjusted or are less nephrotoxic in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "baa372112f00",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with acute lymphoblastic leukaemia on chemotherapy develops neutropenic sepsis (temperature 39°C, neutrophils 0.2×10⁹/L). She has a history of immediate anaphylactic reaction to penicillin. What is the most appropriate first-line empirical antibiotic?",
+      "options": [
+        "Meropenem",
+        "Ceftazidime",
+        "Clindamycin",
+        "Ciprofloxacin",
+        "Vancomycin"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with severe immediate penicillin allergy, NICE recommends a carbapenem such as meropenem as first-line. Ceftazidime carries cross-reactivity risk; vancomycin and clindamycin lack Gram-negative cover; ciprofloxacin is an alternative but not first-line in severe allergy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b55ae42ed7c2",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with non-Hodgkin lymphoma, 10 days post-chemotherapy, presents with fever (39.2°C) and rigors. Her temperature is 39.5°C, HR 110, BP 100/60. She has no obvious source of infection. Bloods show Hb 100, WCC 1.2, neutrophils 0.3, platelets 80. She is alert and talking. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform chest X-ray",
+        "Call the on-call haematologist",
+        "Start IV piperacillin-tazobactam",
+        "Take blood cultures",
+        "Give IV paracetamol"
+      ],
+      "answerIndex": 2,
+      "explanation": "In neutropenic sepsis, early intravenous broad-spectrum antibiotics (e.g., piperacillin-tazobactam) are critical and should be started within 1 hour; blood cultures should be taken but not delay antibiotics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "15532dc0aef5",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with acute myeloid leukaemia on maintenance therapy presents to the GP with a temperature of 38.2°C and feels generally unwell. He has no other symptoms. His recent blood count shows neutrophils 0.8x10^9/L. He looks comfortable, observations stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral co-amoxiclav and advise to return if worsens",
+        "Arrange a CT scan of chest/abdomen/pelvis",
+        "Refer for hospital admission for IV antibiotics",
+        "Prescribe prophylactic fluconazole",
+        "Take blood cultures and observe in clinic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Even mild neutropenic fever (temp >38°C, neutrophils <1.0) requires urgent hospital admission and intravenous antibiotics due to risk of rapid progression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e071b7e2479",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with acute lymphoblastic leukaemia presents with high fever, confusion, and hypotension (BP 85/45). Capillary refill >4 sec. She is known to be neutropenic from recent chemotherapy. What is the single most important immediate action?",
+      "options": [
+        "Start IV piperacillin-tazobactam",
+        "Intubate and ventilate",
+        "Give IV crystalloid fluid bolus",
+        "Take blood cultures",
+        "Give IV noradrenaline infusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "In septic shock, the immediate priority is fluid resuscitation to restore perfusion; antibiotics are important but come after initial volume expansion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "aac1ebcc7bf1",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with relapsed lymphoma on high-dose chemotherapy develops febrile neutropenia. He was started on IV piperacillin-tazobactam. After 5 days, he remains febrile (38.5°C) with no new focus. Blood cultures are negative. Neutrophils remain <0.5. What is the most appropriate next step?",
+      "options": [
+        "Repeat blood cultures",
+        "Stop antibiotics and recheck cultures",
+        "Perform CT chest/abdomen/pelvis",
+        "Switch to IV ceftazidime",
+        "Add IV caspofungin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Persistent fever >4 days on broad-spectrum antibiotics without focus suggests fungal infection; add empirical antifungal therapy (e.g., caspofungin) as per NICE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2e1cdc3829e5",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman with known penicillin allergy (previous anaphylaxis) presents with febrile neutropenia (temperature 39°C, neutrophils 0.2). What is the most appropriate immediate next step?",
+      "options": [
+        "Give IV aztreonam",
+        "Give IV ceftazidime plus vancomycin",
+        "Give IV meropenem",
+        "Give IV ciprofloxacin",
+        "Give IV clindamycin"
+      ],
+      "answerIndex": 1,
+      "explanation": "With a history of penicillin anaphylaxis, avoid beta-lactams with high cross-reactivity; use ceftazidime (cephalosporin) plus vancomycin to cover Gram-negatives and Gram-positives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "75ed1387c812",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 56-year-old man with diffuse large B-cell lymphoma who recently completed cycle 4 of R-CHOP chemotherapy presents to the emergency department with a 2-day history of fever. On arrival, his temperature is 38.8°C, heart rate 105, BP 130/85, and oxygen saturation 98% on air. His full blood count shows: haemoglobin 108 g/L, white cell count 1.6 ×10^9/L, neutrophils 0.3 ×10^9/L, platelets 85 ×10^9/L. Which single finding confirms the diagnosis of neutropenic sepsis?",
+      "options": [
+        "Systolic BP >100 mmHg",
+        "Fever >38°C",
+        "Neutrophil count <0.5 ×10^9/L",
+        "Elevated C-reactive protein >100 mg/L",
+        "Positive blood cultures (awaiting)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neutropenic sepsis is defined per NICE guidelines as a temperature >38°C with a neutrophil count <0.5 ×10^9/L. The neutrophil count of 0.3 meets this criterion. While fever is necessary, it is not specific; the neutropenia threshold is the key diagnostic finding. The most tempting distractor is A (fever), but fever alone is insufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1bfc019cce1a",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with acute myeloid leukaemia on induction chemotherapy is reviewed by the medical team. She has been started on piperacillin-tazobactam for neutropenic sepsis (temperature 39.2°C, neutrophils 0.1 ×10^9/L). She now appears drowsy, her BP is 85/50 mmHg, heart rate 125, and respiratory rate 28. Which single clinical finding indicates that she has developed septic shock requiring escalation to critical care?",
+      "options": [
+        "Temperature 39.2°C",
+        "Heart rate of 125 bpm",
+        "Systolic BP 85 mmHg",
+        "Respiratory rate of 28 breaths/min",
+        "Drowsiness (altered mental status)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In neutropenic sepsis, systolic BP <90 mmHg is a clear indicator of septic shock (NICE CG151 criteria for critical illness escalation). While drowsiness is also concerning, hypotension is the specific marker of shock and is actionable for ITU referral. The most tempting distractor is A, but hypotension is the primary driver for escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51f25d218731",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with relapsed Hodgkin lymphoma on salvage chemotherapy presents with neutropenic sepsis. On examination, he has a temperature of 38.6°C and severe tenderness in the right iliac fossa with guarding. CT abdomen reveals marked thickening of the caecal wall with surrounding stranding. Which diagnosis should be suspected as a complication of neutropenic sepsis?",
+      "options": [
+        "Pseudomembranous colitis",
+        "Colonic perforation",
+        "Neutropenic enterocolitis (typhlitis)",
+        "Diverticulitis",
+        "Acute appendicitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neutropenic enterocolitis (typhlitis) is a life-threatening complication of neutropenic sepsis, typically presenting with right iliac fossa pain and CT findings of caecal wall thickening. The most tempting distractor is acute appendicitis, but in the context of neutropenia, typhlitis is more common and the imaging is characteristic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0cebdc30495e",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with chronic lymphocytic leukaemia on ibrutinib presents to the clinic with a temperature of 38.2°C and general malaise. She has no focal signs of infection. Full blood count shows haemoglobin 110 g/L, white cell count 12.0 ×10^9/L, neutrophils 3.2 ×10^9/L, lymphocytes 8.5 ×10^9/L, platelets 180 ×10^9/L. Which single finding most strongly suggests that this is NOT neutropenic sepsis?",
+      "options": [
+        "History of ibrutinib therapy",
+        "Absence of rigors",
+        "Age over 70 years",
+        "Lymphocyte count of 8.5 ×10^9/L",
+        "Neutrophil count of 3.2 ×10^9/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Neutropenic sepsis requires a neutrophil count <0.5 ×10^9/L. A normal count (3.2) effectively excludes it as the cause of fever. The most tempting distractor is B (lymphocytosis), but that is typical of CLL and does not rule out neutropenic sepsis. The fever may be due to transformation or infection, but not neutropenic sepsis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "46cc963fb4a3",
+      "topic": "Neutropenic Sepsis",
+      "slug": "neutropenic-sepsis",
+      "system": "Haematology",
+      "subSystem": "Oncologic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with acute myeloid leukaemia in remission on oral azacitidine maintenance therapy is admitted with neutropenic sepsis (neutrophils 0.2 ×10^9/L). On day 3, she develops a painful erythematous plaque on her left forearm, which rapidly becomes necrotic with a central black eschar. Blood cultures grow Gram-negative rods. Which specific pathogen is the most likely cause of this skin lesion?",
+      "options": [
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Candida albicans",
+        "Klebsiella pneumoniae",
+        "Escherichia coli"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ecthyma gangrenosum, characterised by necrotic skin lesions with a black eschar, is classically caused by Pseudomonas aeruginosa in neutropenic patients. The most tempting distractor is A (E. coli), which can cause sepsis but not typically this lesion. Pseudomonas is the key organism to cover with antipseudomonal antibiotics.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Hospital-Acquired Pneumonia",
+  "slug": "hospital-acquired-pneumonia",
+  "system": "Respiratory",
+  "subSystem": "Infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:38Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9e15aa132c70",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man, 5 days post-hip replacement, develops fever (38.5°C), purulent sputum, and right lower lobe crackles. Chest X-ray shows consolidation in the right lower zone. He had no respiratory symptoms on admission. What is the single most likely diagnosis?",
+      "options": [
+        "Hospital-acquired pneumonia",
+        "Pulmonary embolism",
+        "Post-operative atelectasis",
+        "Community-acquired pneumonia",
+        "Aspiration pneumonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pneumonia occurring ≥48 hours after admission is hospital-acquired pneumonia (HAP). There is no history of aspiration or risk factors for PE, and atelectasis typically lacks fever and purulent sputum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8f1d172ef337",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old intubated man in ICU, ventilated for respiratory failure due to community-acquired pneumonia 4 days ago, develops new fever, purulent tracheal secretions, and rising white cell count. Chest X-ray shows new bilateral infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Lung abscess",
+        "Pulmonary embolism",
+        "Acute respiratory distress syndrome",
+        "Pulmonary oedema",
+        "Ventilator-associated pneumonia"
+      ],
+      "answerIndex": 4,
+      "explanation": "New infiltrates after ≥48 hours of mechanical ventilation are diagnostic of ventilator-associated pneumonia (VAP), a subtype of HAP. ARDS typically presents earlier and without purulent secretions; pulmonary oedema is usually cardiogenic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f2fd216fa38",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman, 2 weeks after abdominal surgery, developed HAP and was treated with antibiotics. She now has persistent fever, pleuritic chest pain, and dullness on the right base. Chest X-ray shows a loculated pleural effusion; thoracentesis yields thick pus. What is the single most likely diagnosis?",
+      "options": [
+        "Simple parapneumonic effusion",
+        "Lung abscess",
+        "Empyema",
+        "Malignant pleural effusion",
+        "Tuberculous pleurisy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pus in the pleural space defines empyema, a known complication of HAP. A lung abscess is parenchymal, not pleural; simple parapneumonic effusion is non-purulent; malignancy and TB are less acute.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "454a90282a22",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman admitted for a urinary tract infection develops confusion, low-grade fever (37.8°C), and a mild cough on day 3. She has crackles at the left base. Chest X-ray shows a left lower lobe opacity. What is the single most likely diagnosis?",
+      "options": [
+        "Hospital-acquired pneumonia",
+        "Acute heart failure",
+        "Aspiration pneumonia",
+        "Urinary tract infection",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "New respiratory symptoms and consolidation >48 hours after admission indicate HAP. Aspiration requires a risk factor; PE usually presents with pleuritic pain; heart failure would show bilateral signs; UTI cannot explain lung findings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ab6eea24cfa7",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man, 7 days post-hip surgery, develops tachypnoea, hypoxia (PaO2 8.5 kPa on air), and confusion, but no cough or fever. Chest X-ray shows bilateral patchy opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Acute heart failure",
+        "Hospital-acquired pneumonia (atypical presentation)",
+        "Silent aspiration",
+        "Pulmonary embolism",
+        "Acute respiratory distress syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "HAP in the elderly can present without cough or fever; new bilateral opacities with hypoxia are classic. PE would be less likely without pleuritic pain or DVT; heart failure usually shows cardiomegaly and effusions; ARDS is typically after a known insult.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9c175328ab0a",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man, day 5 post-elective colectomy, develops fever (38.2°C), cough with purulent sputum, and a new left lower lobe consolidation on chest X-ray. Which single investigation is most appropriate to identify the causative organism?",
+      "options": [
+        "Sputum culture and sensitivity",
+        "CT chest",
+        "Serum procalcitonin",
+        "C-reactive protein",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sputum culture is the recommended first-line test to isolate the pathogen in hospital-acquired pneumonia (NICE). Blood cultures are less sensitive for the lung pathogen and often negative; CT is not needed for routine diagnosis; procalcitonin and CRP are non-specific markers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d7a1eb92e053",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old intubated patient in the ICU develops a new fever, purulent endotracheal secretions, and worsening oxygenation on day 7 of ventilation. Chest X-ray shows bilateral infiltrates. Which diagnostic test is considered the gold standard for ventilator-associated pneumonia?",
+      "options": [
+        "Clinical Pulmonary Infection Score (CPIS)",
+        "Chest computed tomography",
+        "Endotracheal aspirate culture",
+        "Bronchoalveolar lavage with quantitative culture",
+        "Blood cultures"
+      ],
+      "answerIndex": 3,
+      "explanation": "In VAP, bronchoalveolar lavage with quantitative culture (≥10⁴ cfu/mL) is the reference standard, as it is more specific than endotracheal aspirate (which may reflect colonisation). CPIS is a clinical score, not a definitive diagnostic test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ede4fa39ead7",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with hospital-acquired pneumonia develops a moderate left pleural effusion. Thoracentesis is performed. Which pleural fluid parameter most strongly indicates a complicated parapneumonic effusion requiring drainage?",
+      "options": [
+        "Positive culture",
+        "pH <7.2",
+        "Glucose <2.2 mmol/L",
+        "Positive Gram stain",
+        "LDH >1000 IU/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pleural fluid pH <7.2 is the most reliable early marker of a complicated effusion/empyema, indicating the need for chest tube drainage (NICE). While low glucose, high LDH, and positive microbiology are also suggestive, pH is the most discriminating single test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50349747986d",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old patient with acute myeloid leukaemia develops persistent fever and a new pulmonary infiltrate despite broad-spectrum antibiotics. Which investigation is most specific for invasive pulmonary aspergillosis?",
+      "options": [
+        "Beta-D-glucan assay",
+        "Bronchoalveolar lavage fungal culture",
+        "Sputum culture",
+        "Serum galactomannan assay",
+        "High-resolution CT chest"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serum galactomannan (Aspergillus antigen) has high specificity for invasive aspergillosis and is the preferred non-invasive test (NICE). BAL fungal culture is sensitive but less specific; CT findings are suggestive but not diagnostic; beta-D-glucan is not specific for Aspergillus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6115668f6872",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old patient on a general ward, recovering from a fractured neck of femur, develops a mild cough, low-grade fever (37.8°C), and a subtle new opacity on chest X-ray. Serum procalcitonin is <0.25 μg/L. How should this result be interpreted?",
+      "options": [
+        "Viral pneumonia is confirmed",
+        "The result is normal",
+        "Fungal pneumonia is likely",
+        "Tuberculosis is likely",
+        "Bacterial pneumonia is unlikely"
+      ],
+      "answerIndex": 4,
+      "explanation": "A procalcitonin level <0.25 μg/L makes bacterial pneumonia very unlikely (NICE algorithm) and supports a non-bacterial aetiology (viral or other). It does not confirm viral pneumonia specifically, nor does it rule out all infections.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7652708d840e",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with no drug allergies is admitted with a 3-day history of cough, purulent sputum, and fever (38°C). She has no signs of sepsis. Chest X-ray shows a new right lower lobe consolidation. She has been in hospital for 5 days following hip surgery. She has a creatinine clearance >30 mL/min. Which is the most appropriate first-line antibiotic?",
+      "options": [
+        "Levofloxacin",
+        "Co-amoxiclav",
+        "Piperacillin-tazobactam",
+        "Doxycycline",
+        "Vancomycin"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend oral co-amoxiclav as first-line for non-severe hospital-acquired pneumonia. Doxycycline is an alternative for penicillin allergy, but she has no allergies. Levofloxacin is reserved for severe cases. Piperacillin-tazobactam and vancomycin are for severe or MRSA-risk cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ebdc347e00e",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man on the ICU develops a fever, hypotension, and a new consolidative infiltrate on chest X-ray 72 hours after admission. He has no known allergies. Sputum Gram stain shows numerous neutrophils and Gram-negative rods. He has not received prior antibiotics. What is the most appropriate empirical antibiotic?",
+      "options": [
+        "Co-amoxiclav",
+        "Vancomycin",
+        "Metronidazole",
+        "Piperacillin-tazobactam",
+        "Gentamicin"
+      ],
+      "answerIndex": 3,
+      "explanation": "For severe hospital-acquired pneumonia with sepsis, NICE recommends piperacillin-tazobactam (or a carbapenem) for broad-spectrum cover including Pseudomonas. Co-amoxiclav is for non-severe cases. Vancomycin targets MRSA only. Gentamicin is not used as monotherapy. Metronidazole covers anaerobes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f036b13adfa",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with known MRSA colonization develops hospital-acquired pneumonia. He is hypotensive and requires ICU admission. He is started on piperacillin-tazobactam. Which antibiotic should be added for optimal MRSA coverage?",
+      "options": [
+        "Linezolid",
+        "Vancomycin",
+        "Ciprofloxacin",
+        "Metronidazole",
+        "Gentamicin"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends adding vancomycin or linezolid if MRSA risk; vancomycin is first-line. Linezolid is an alternative. Gentamicin is not active against MRSA. Ciprofloxacin has poor MRSA activity. Metronidazole targets anaerobes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db08b1974a27",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with chronic kidney disease (eGFR 25 mL/min/1.73m²) develops hospital-acquired pneumonia. She is not septic. Which antibiotic is relatively contraindicated due to risk of nephrotoxicity?",
+      "options": [
+        "Gentamicin",
+        "Levofloxacin",
+        "Doxycycline",
+        "Co-amoxiclav",
+        "Piperacillin-tazobactam"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gentamicin is nephrotoxic and requires monitoring; it is relatively contraindicated in advanced CKD due to increased toxicity risk. Co-amoxiclav, doxycycline, piperacillin-tazobactam, and levofloxacin are safer alternatives in renal impairment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "354ba4cff554",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with myasthenia gravis develops hospital-acquired pneumonia. He is not severely unwell. Which antibiotic should be avoided due to risk of exacerbating myasthenia?",
+      "options": [
+        "Doxycycline",
+        "Piperacillin-tazobactam",
+        "Co-amoxiclav",
+        "Levofloxacin",
+        "Vancomycin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fluoroquinolones such as levofloxacin can worsen neuromuscular weakness in myasthenia gravis and are contraindicated. Co-amoxiclav, doxycycline, piperacillin-tazobactam, and vancomycin are safer choices.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c92238b77fde",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman on the orthopaedic ward, 5 days post-hip replacement, develops a new cough with purulent sputum and a temperature of 38.2°C. Observations: RR 18, SpO2 96% on air, HR 90, BP 130/80. Chest X-ray shows a new left lower lobe consolidation. She has no known drug allergies. What is the most appropriate next step?",
+      "options": [
+        "Monitor and reassess in 6 hours",
+        "Request a full set of observations every 2 hours",
+        "Take two sets of blood cultures",
+        "Send sputum for culture and sensitivity",
+        "Start oral co-amoxiclav"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has clinical and radiological evidence of hospital-acquired pneumonia. NICE guidelines recommend starting empiric antibiotics promptly (within 4 hours). Investigations such as cultures should be taken but must not delay treatment. Oral co-amoxiclav is appropriate for mild HAP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "07fb7e30d136",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man on the medical ward, being treated for cellulitis, develops acute dyspnoea, cough, and fever. Observations: RR 28, SpO2 88% on air, HR 115, BP 85/50 mmHg. He is confused. Chest X-ray shows bilateral infiltrates. What is the most appropriate immediate next step?",
+      "options": [
+        "Start high-flow oxygen",
+        "Start intravenous piperacillin-tazobactam",
+        "Request an urgent CT chest",
+        "Give a 500 mL fluid bolus",
+        "Call the medical registrar for escalation"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has septic shock with suspected hospital-acquired pneumonia. The priority is to administer broad-spectrum antibiotics within one hour. While oxygen and fluids are also important, antibiotics must not be delayed. Piperacillin-tazobactam is a common choice for severe HAP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e139207d2f69",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman on the respiratory ward is being treated for hospital-acquired pneumonia with intravenous co-amoxiclav. On day 5, she remains febrile and complains of pleuritic chest pain. Chest X-ray shows a moderate right pleural effusion. What is the most appropriate next step?",
+      "options": [
+        "Perform a diagnostic pleural tap under ultrasound guidance",
+        "Switch to intravenous piperacillin-tazobactam",
+        "Insert a chest drain",
+        "Add oral metronidazole",
+        "Request a CT thorax with contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with HAP not responding to antibiotics, a pleural effusion should be sampled to differentiate between a simple parapneumonic effusion and an empyema. This guides further management, such as drainage if infected. Blind chest drain insertion is not indicated without diagnostic confirmation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc99fbef8851",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with acute myeloid leukaemia, currently neutropenic (neutrophil count 0.3 x 10^9/L) following chemotherapy, develops a fever of 38.9°C and a dry cough. Chest X-ray shows a new right upper lobe infiltrate. He has a history of penicillin allergy (urticaria). What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral doxycycline",
+        "Start intravenous ciprofloxacin",
+        "Start intravenous meropenem",
+        "Start intravenous piperacillin-tazobactam with caution",
+        "Start intravenous levofloxacin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neutropenic sepsis with pneumonia requires broad-spectrum antibiotics covering Pseudomonas. Piperacillin-tazobactam is contraindicated in true penicillin allergy. Meropenem is a carbapenem with a low cross-reactivity risk and provides adequate coverage. Levofloxacin is not first-line for neutropenic sepsis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9357304082b6",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 74-year-old man on the stroke unit is noted to have a new cough, temperature 38°C, and hypoxia (SpO2 90% on 2L oxygen). He is known to be a MRSA carrier (previous positive swabs). Chest X-ray shows a new left upper zone consolidation. He has no drug allergies. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous ceftriaxone",
+        "Start intravenous vancomycin",
+        "Start oral co-amoxiclav",
+        "Start intravenous piperacillin-tazobactam",
+        "Take a sputum culture and start no antibiotics until result"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients with known MRSA colonization who develop HAP, empiric antibiotics must include an anti-MRSA agent such as vancomycin or linezolid. Standard beta-lactam antibiotics would not cover MRSA. Delaying antibiotics while awaiting cultures is not appropriate in this hypoxic patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ee37a6448b6e",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman admitted for a fractured neck of femur develops a productive cough and fever on day 4. CXR shows right lower lobe consolidation. She is started on co-amoxiclav. Despite 2 litres of intravenous fluid, she remains hypotensive. Which single clinical finding indicates that she has severe sepsis requiring immediate escalation to critical care?",
+      "options": [
+        "Respiratory rate 28/min",
+        "Oxygen saturation 90% on 4L oxygen",
+        "Systolic blood pressure 88 mmHg",
+        "Heart rate 115/min",
+        "Confusion (new onset)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypotension refractory to fluid resuscitation (SBP < 90 mmHg) is a red flag for septic shock and indicates need for critical care escalation. While confusion and tachycardia are concerning, they are less specific for the immediate need for vasopressors and ICU admission.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a81ba19a6448",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with hospital-acquired pneumonia develops a right-sided pleural effusion. A diagnostic thoracentesis is performed. Which pleural fluid result indicates a complicated parapneumonic effusion requiring drainage?",
+      "options": [
+        "pH 7.35",
+        "pH 7.10",
+        "LDH 800 IU/L",
+        "Glucose 3.0 mmol/L",
+        "Protein 35 g/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pleural fluid pH < 7.2 is the key threshold for a complicated parapneumonic effusion/empyema, indicating need for chest drain insertion. An LDH > 1000 IU/L or glucose < 2.2 mmol/L are also suggestive, but pH < 7.2 is the most established trigger for drainage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ca09415b8f6",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman on the respiratory ward for hospital-acquired pneumonia develops worsening dyspnoea and bilateral infiltrates on CXR despite appropriate antibiotics. She is receiving 60% oxygen via a Venturi mask. An arterial blood gas shows PaO₂ 9.6 kPa, PaCO₂ 4.2 kPa, pH 7.45. Which additional finding would confirm a diagnosis of moderate-to-severe ARDS, indicating need for intensive care?",
+      "options": [
+        "Lactate 4 mmol/L",
+        "Pulmonary artery wedge pressure 20 mmHg",
+        "White cell count 18 x 10⁹/L",
+        "Pro-BNP 2000 pg/mL",
+        "PaO₂/FiO₂ ratio 160"
+      ],
+      "answerIndex": 4,
+      "explanation": "ARDS diagnosis requires PaO₂/FiO₂ ratio < 300, with moderate-to-severe ARDS defined as < 200. A ratio of 160 confirms moderate ARDS. Elevated wedge pressure would suggest cardiogenic oedema, not ARDS. Pro-BNP is non-specific, and elevated lactate or WCC are markers of sepsis but not diagnostic of ARDS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "79362d23bfde",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with acute myeloid leukaemia and neutropenia develops a new fever and a patchy left upper lobe infiltrate on CXR while on piperacillin-tazobactam. CT chest reveals a nodule with surrounding ground-glass opacity. Which radiological finding is most suggestive of invasive aspergillosis, a life-threatening complication?",
+      "options": [
+        "Halo sign",
+        "Cavitating lesion",
+        "Tree-in-bud opacities",
+        "Pleural effusion",
+        "Air crescent sign"
+      ],
+      "answerIndex": 0,
+      "explanation": "The halo sign (nodule with surrounding ground-glass opacity) is an early and characteristic feature of angioinvasive aspergillosis in neutropenic patients. The air crescent sign appears later due to necrosis. Cavitation can occur in many infections, and tree-in-bud suggests bronchiolitis or TB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7ba36c569fd",
+      "topic": "Hospital-Acquired Pneumonia",
+      "slug": "hospital-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known COPD presents with hospital-acquired pneumonia. He has a productive cough, fever, and CXR shows left lower lobe consolidation. Arterial blood gas on room air shows: pH 7.28, PaO₂ 7.5 kPa, PaCO₂ 8.8 kPa, HCO₃ 26 mmol/L. Which single finding indicates that he has developed acute-on-chronic hypercapnic respiratory failure, a red flag for potential need for non-invasive ventilation?",
+      "options": [
+        "HCO₃ 26 mmol/L",
+        "Respiratory rate 30/min",
+        "PaCO₂ 8.8 kPa",
+        "PaO₂ 7.5 kPa",
+        "pH 7.28"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute respiratory acidosis is defined by a low pH (< 7.35) with hypercapnia. In COPD, a compensated chronic hypercapnia would have a near-normal pH. A pH of 7.28 with high PaCO₂ and normal HCO₃ (26 mmol/L indicates no renal compensation) confirms acute decompensation and need for NIV. Hypoxaemia alone is common but does not define the urgency for NIV in this context.",
+      "difficulty": "hard"
+    }
+  ]
+}

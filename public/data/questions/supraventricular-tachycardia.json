@@ -1,0 +1,493 @@
+{
+  "topic": "Supraventricular Tachycardia",
+  "slug": "supraventricular-tachycardia",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "19de55a0726a",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with sudden onset palpitations lasting 20 minutes. She has no chest pain or breathlessness. Her heart rate is 180 bpm, regular, with narrow QRS complexes. No visible P waves. Blood pressure is 110/70 mmHg. The tachycardia terminates abruptly with intravenous adenosine. What is the most likely diagnosis?",
+      "options": [
+        "Atrioventricular reentrant tachycardia (WPW)",
+        "AV nodal reentrant tachycardia",
+        "Atrial tachycardia",
+        "Sinus tachycardia",
+        "Atrial flutter"
+      ],
+      "answerIndex": 1,
+      "explanation": "The absence of visible P waves, abrupt onset/offset, and response to adenosine are classic for AVNRT. Atrial tachycardia often shows P waves with different morphology, and atrial flutter has saw-tooth waves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "15043ff03db5",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with hypertension and COPD presents with palpitations for 2 hours. He is breathless and hypotensive (BP 85/60 mmHg). ECG shows a narrow-complex tachycardia with a ventricular rate of 140 bpm and irregularly irregular R-R intervals. No P waves are seen. What is the most likely diagnosis?",
+      "options": [
+        "Multifocal atrial tachycardia",
+        "Sinus tachycardia",
+        "AV nodal reentrant tachycardia",
+        "Atrial fibrillation",
+        "Atrial flutter with variable block"
+      ],
+      "answerIndex": 3,
+      "explanation": "The irregularly irregular rhythm and absent P waves are diagnostic of atrial fibrillation. Multifocal atrial tachycardia is also irregular but shows ≥3 P wave morphologies. Atrial flutter is usually regular unless variable block.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4e5fa3f6250d",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old man presents with palpitations and light-headedness. ECG during tachycardia shows a regular narrow-complex tachycardia at 170 bpm. In sinus rhythm, there is a delta wave and short PR interval. What is the most likely diagnosis?",
+      "options": [
+        "Orthodromic atrioventricular reentrant tachycardia (WPW)",
+        "Junctional tachycardia",
+        "Atrial tachycardia",
+        "Atrial flutter",
+        "AV nodal reentrant tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pre-excitation (delta wave) on resting ECG indicates WPW. The narrow-complex tachycardia is typical of orthodromic AVRT, where antegrade conduction is via the AV node. AVNRT does not have delta waves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b082e8c62f2a",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman presents with palpitations and mild dyspnoea of sudden onset. Heart rate is 150 bpm and regular. ECG shows narrow QRS complexes with saw-tooth-like flutter waves at 300/min, best seen in leads II, III, and aVF. Carotid sinus massage transiently reduces the ventricular rate to 75 bpm, revealing the underlying rhythm. What is the most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia",
+        "Atrial flutter with 2:1 block",
+        "Atrial fibrillation",
+        "AV nodal reentrant tachycardia",
+        "Atrial tachycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The saw-tooth flutter waves at 300/min with 2:1 AV block (ventricular rate 150) are pathognomonic of atrial flutter. Carotid sinus massage increases block, unmasking flutter waves. Atrial tachycardia typically has a lower atrial rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "62627e097927",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with recurrent palpitations has an ECG during a symptomatic episode showing a regular narrow-complex tachycardia at 140 bpm. P waves are visible but are inverted in leads II, III, and aVF, with a different morphology from his resting sinus P waves. The tachycardia begins and ends abruptly. What is the most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia",
+        "Atrial flutter",
+        "Junctional tachycardia",
+        "AV nodal reentrant tachycardia",
+        "Atrial tachycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Visible P waves with abnormal axis (inverted inferiorly) and abrupt onset/offset suggest atrial tachycardia. AVNRT usually has no visible P waves or retrograde P waves that are very close to QRS. Sinus tachycardia has normal P wave axis and gradual onset/offset.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "739ff5b03e84",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with recurrent episodes of rapid palpitations lasting 5-10 minutes. Her ECG in clinic is normal. Which investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Exercise ECG",
+        "7-day event monitor",
+        "Serum electrolytes and thyroid function",
+        "Echocardiogram",
+        "24-hour Holter monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Paroxysmal SVT often occurs sporadically; a 7-day event monitor has a higher yield than a 24-hour Holter to capture infrequent episodes. The other tests are not diagnostic for paroxysmal arrhythmias.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e8b5382f0881",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with known ischaemic heart disease presents with palpitations. ECG shows a narrow QRS tachycardia at 170 bpm with no visible P waves. What is the most likely diagnosis?",
+      "options": [
+        "Ventricular tachycardia",
+        "Atrial flutter with 2:1 block",
+        "Sinus tachycardia",
+        "Atrial fibrillation",
+        "AV nodal re-entrant tachycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "AVNRT presents with a regular narrow-complex tachycardia and absent or retrograde P waves. Atrial fibrillation is irregular; flutter has sawtooth waves; sinus tachycardia has P waves; VT has wide QRS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "721ef07b1f83",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with palpitations and mild chest tightness. ECG shows narrow QRS tachycardia at 140 bpm. P waves are visible but inverted in leads II, III and aVF. What is the most likely diagnosis?",
+      "options": [
+        "Atrial tachycardia",
+        "AV nodal re-entrant tachycardia",
+        "Junctional tachycardia",
+        "Atrial flutter with variable block",
+        "Sinus tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Inverted P waves in the inferior leads indicate an ectopic atrial focus, typical of atrial tachycardia. Sinus tachycardia has upright P waves in II, AVNRT usually has no visible P waves, and junctional tachycardia has retrograde P waves often after QRS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8033f6d4976",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with palpitations has a 12-lead ECG in sinus rhythm showing a PR interval of 0.08 s and a slurred upstroke of the QRS complex. What is the most likely diagnosis?",
+      "options": [
+        "Left bundle branch block",
+        "First-degree AV block",
+        "Wolff-Parkinson-White pattern",
+        "Right ventricular hypertrophy",
+        "Normal variant"
+      ],
+      "answerIndex": 2,
+      "explanation": "Short PR interval and delta wave are diagnostic of ventricular pre-excitation (WPW pattern). First-degree block has prolonged PR, bundle branch block has wide QRS without delta wave.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cf21ef517ec4",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents to cardiology clinic with recurrent episodes of palpitations. ECG during an episode showed narrow QRS tachycardia at 180 bpm, without pre-excitation. She has had 4 episodes in the past 6 months, each lasting 15-30 minutes. What is the most appropriate first-line definitive treatment to prevent recurrence?",
+      "options": [
+        "Adenosine 6 mg IV",
+        "Digoxin 0.5 mg IV",
+        "Catheter ablation",
+        "Beta-blocker (e.g., metoprolol) orally",
+        "Verapamil 5 mg IV"
+      ],
+      "answerIndex": 2,
+      "explanation": "For symptomatic recurrent AV nodal reentrant tachycardia (AVNRT), catheter ablation is first-line for definitive treatment. Adenosine and verapamil are used acutely but not for long-term prevention. Beta-blockers are less effective than ablation, and digoxin is not indicated for SVT without heart failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed5cec698081",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known ischaemic heart disease presents to ED with palpitations, chest pain, and hypotension (BP 80/50). ECG shows narrow QRS tachycardia at 200 bpm. What is the most appropriate first-line treatment?",
+      "options": [
+        "Synchronized DC cardioversion (100-200 J)",
+        "Adenosine 6 mg IV",
+        "Amiodarone 300 mg IV",
+        "Verapamil 5 mg IV",
+        "Vagal maneuvers"
+      ],
+      "answerIndex": 0,
+      "explanation": "In haemodynamically unstable SVT, immediate synchronized cardioversion is indicated per ALS guidelines. Adenosine and vagal maneuvers are for stable patients. Amiodarone is second-line in stable SVT, and verapamil is contraindicated in haemodynamic instability due to negative inotropy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a86a9c55657b",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man with known Wolff-Parkinson-White syndrome presents with palpitations and lightheadedness. ECG shows atrial fibrillation with a ventricular rate of 220 bpm and a wide QRS. Which drug is CONTRAINDICATED as first-line treatment?",
+      "options": [
+        "Flecainide 2 mg/kg IV",
+        "Adenosine 6 mg IV",
+        "Amiodarone 300 mg IV",
+        "Synchronized cardioversion",
+        "Procainamide 10 mg/kg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pre-excited atrial fibrillation, AV nodal blockers such as adenosine can increase conduction via the accessory pathway, precipitating ventricular fibrillation. Flecainide and procainamide slow conduction in the accessory pathway and are first-line. Cardioversion is safe if unstable, and amiodarone can be used but is less preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "afd69e140937",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (28 weeks) presents with acute onset palpitations. ECG shows narrow QRS tachycardia at 175 bpm. She is haemodynamically stable. What is the most appropriate first-line treatment for acute termination?",
+      "options": [
+        "Flecainide 2 mg/kg IV",
+        "Verapamil 5 mg IV",
+        "Vagal maneuvers",
+        "Adenosine 6 mg IV",
+        "Synchronized cardioversion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adenosine is safe in pregnancy (category C) and effective for terminating AVNRT/AVRT. Vagal maneuvers are first-line but often fail; adenosine is drug of choice. Cardioversion is reserved for unstable patients. Verapamil and flecainide are second-line due to fetal concerns.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "af1322563662",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with asthma presents with palpitations. ECG shows narrow QRS tachycardia at 160 bpm. She is haemodynamically stable. Which drug is CONTRAINDICATED as first-line therapy?",
+      "options": [
+        "Flecainide 2 mg/kg IV",
+        "Adenosine 6 mg IV",
+        "Digoxin 0.5 mg IV",
+        "Verapamil 5 mg IV",
+        "Amiodarone 150 mg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adenosine can cause bronchospasm in asthmatics due to mast cell degranulation and is relatively contraindicated. Verapamil, digoxin, flecainide, and amiodarone are not contraindicated in asthma, though digoxin is not first-line for SVT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "05caf21bf814",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents to the emergency department with sudden onset palpitations and light-headedness. She has no past medical history. Heart rate is 190 bpm, BP 110/70 mmHg, respiratory rate 16, oxygen saturations 98% on air. ECG shows a narrow complex tachycardia with no visible P waves. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous amiodarone 300 mg",
+        "Administer intravenous adenosine 6 mg",
+        "Request a CT pulmonary angiogram to exclude pulmonary embolism",
+        "Perform synchronized direct current cardioversion",
+        "Perform vagal maneuvers"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a stable patient with narrow complex tachycardia (likely AVNRT/AVRT), first-line treatment is vagal maneuvers (e.g., Valsalva). Adenosine is given after vagal maneuvers fail. Cardioversion is only for unstable patients. Amiodarone is second-line, and CTPA is not indicated in this presentation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f519345a4b2a",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with a history of ischaemic heart disease presents with chest pain and palpitations. His heart rate is 200 bpm, BP 70/40 mmHg, respiratory rate 28, oxygen saturations 92% on air, and he is clammy. ECG shows a narrow complex tachycardia. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform vagal maneuvers",
+        "Administer intravenous amiodarone 300 mg",
+        "Perform synchronized direct current cardioversion",
+        "Start intravenous fluid resuscitation",
+        "Administer intravenous adenosine 6 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient is hemodynamically unstable (hypotension, chest pain, clamminess) with a tachycardia. The immediate next step is synchronized DC cardioversion per ALS guidelines. Vagal maneuvers and adenosine are for stable patients. Amiodarone is too slow for unstable patients, and fluids are supportive but not definitive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c9c1095bb94b",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman attends cardiology clinic with a three-month history of intermittent palpitations. A 24-hour ECG has previously documented episodes of sustained narrow complex tachycardia consistent with AV nodal re-entrant tachycardia. She is otherwise well with no structural heart disease. She requests treatment to reduce the frequency of episodes. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral atenolol 25 mg once daily",
+        "Start oral verapamil 40 mg three times daily",
+        "Refer for electrophysiological study and catheter ablation",
+        "Arrange a further 24-hour ECG to confirm the diagnosis",
+        "Reassure her that no treatment is needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "For symptomatic AVNRT, first-line prophylactic drug therapy is a beta-blocker (e.g., atenolol) or verapamil as per NICE guidelines. Ablation is second line after drug failure or patient preference. Diagnosis is already confirmed, so further monitoring is unnecessary. She wants treatment, so reassurance is not appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3600079b4ba",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with known Wolff–Parkinson–White syndrome presents to the emergency department with palpitations and mild chest discomfort. His heart rate is 220 bpm, BP 110/70 mmHg, and he is alert. ECG shows an irregular broad complex tachycardia with varying QRS morphology, consistent with pre-excited atrial fibrillation. He is not known to have any other cardiac disease. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous flecainide 2 mg/kg over 10 minutes",
+        "Start oral beta-blocker therapy",
+        "Perform vagal maneuvers",
+        "Perform synchronized direct current cardioversion",
+        "Administer intravenous adenosine 6 mg"
+      ],
+      "answerIndex": 0,
+      "explanation": "In stable pre-excited atrial fibrillation, IV flecainide is first-line to slow conduction down the accessory pathway and restore sinus rhythm. Vagal maneuvers are ineffective for AF. Adenosine is contraindicated as it may precipitate ventricular fibrillation. Cardioversion is reserved for instability. Beta-blockers are not acute therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8be167fcd1b3",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 34-year-old woman who is 22 weeks pregnant presents to the emergency department with palpitations and dizziness. She has no cardiac history. Heart rate is 190 bpm, BP 105/65 mmHg, respiratory rate 18, oxygen saturations 99%. ECG shows a narrow complex tachycardia without visible P waves. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral metoprolol 50 mg",
+        "Administer intravenous digoxin 0.5 mg",
+        "Perform synchronized direct current cardioversion",
+        "Perform vagal maneuvers",
+        "Administer intravenous adenosine 6 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "In stable SVT during pregnancy, vagal maneuvers are the first-line intervention as they are safe and effective. Adenosine is safe but reserved if vagal maneuvers fail. Cardioversion is for unstable patients. Metoprolol is not acute therapy, and digoxin is not indicated for AVNRT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19ff73f3621b",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman presents with a sudden onset of palpitations. ECG shows a narrow complex tachycardia at 180 bpm. She is anxious but otherwise comfortable. Which single finding would make this an emergency requiring immediate synchronised cardioversion?",
+      "options": [
+        "Systolic blood pressure 85 mmHg",
+        "History of similar episodes",
+        "Heart rate >200 bpm",
+        "Duration of palpitations >30 minutes",
+        "Inverted P waves on ECG"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypotension (systolic BP <90 mmHg) is a key criterion for haemodynamic instability in SVT, mandating immediate cardioversion per NICE guidelines. A high heart rate alone, even >200 bpm, is not an absolute indication if the patient is stable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b49cd0de45b5",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with known paroxysmal SVT presents with a 20-minute episode of palpitations. He is haemodynamically stable (BP 110/70, no chest pain). One of his previous ECGs is available. Which finding on that ECG indicates a potentially dangerous form of SVT requiring specialist referral?",
+      "options": [
+        "Left axis deviation",
+        "PR interval of 0.16 seconds",
+        "Delta waves in the resting ECG",
+        "Heart rate of 160 bpm during the episode",
+        "Inverted P waves in leads II, III, aVF"
+      ],
+      "answerIndex": 2,
+      "explanation": "Delta waves indicate ventricular pre-excitation (Wolff-Parkinson-White pattern), which carries a risk of sudden cardiac death from rapid conduction of atrial fibrillation to the ventricles. Urgent cardiology referral is warranted for risk stratification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0fe991d59d74",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known ischaemic heart disease presents with palpitations, chest tightness, and a blood pressure of 85/60 mmHg. The ECG shows a regular tachycardia at 180 bpm. Which diagnosis must be seriously considered as a life-threatening mimic before treating as SVT?",
+      "options": [
+        "Atrial fibrillation",
+        "Atrial flutter with 2:1 block",
+        "Multifocal atrial tachycardia",
+        "Sinus tachycardia",
+        "Ventricular tachycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given the history of ischaemic heart disease and haemodynamic instability, ventricular tachycardia (VT) must be excluded because it is a common and immediately life-threatening cause of regular wide-complex tachycardia. However, the QRS width is not specified, so VT remains a critical mimic even if the rhythm appears narrow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "441b6b25d617",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with known Wolff-Parkinson-White syndrome and documented episodes of SVT presents to the emergency department after a syncopal episode during a palpitation attack. On examination, she is alert but dizzy. What complication of her condition should be considered as the most likely cause of syncope?",
+      "options": [
+        "Pulmonary embolism",
+        "Vasovagal syncope",
+        "Hypotension due to rapid heart rate",
+        "Atrial fibrillation with pre-excitation",
+        "Ventricular tachycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "In WPW syndrome, the most dangerous complication is atrial fibrillation with rapid conduction down the accessory pathway, which can degenerate into ventricular fibrillation. Syncope in this setting should raise suspicion for this malignant arrhythmia rather than mere hypotension or a benign cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e1b95c526d77",
+      "topic": "Supraventricular Tachycardia",
+      "slug": "supraventricular-tachycardia",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old pregnant woman at 28 weeks gestation presents with palpitations and dizziness. ECG shows a narrow complex tachycardia at 170 bpm. She is alert, with a blood pressure of 100/70 mmHg. Which maternal finding would indicate that immediate synchronised cardioversion is required?",
+      "options": [
+        "Heart rate >200 bpm",
+        "Maternal systolic blood pressure <90 mmHg",
+        "Duration of tachycardia >1 hour",
+        "Failure of adenosine to terminate the tachycardia",
+        "Fetal bradycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maternal haemodynamic instability, defined as systolic BP <90 mmHg, chest pain, or altered consciousness, is the key trigger for urgent cardioversion in pregnancy. Adenosine is safe in pregnancy and can be trialled first in stable patients; failure of adenosine alone does not mandate immediate cardioversion.",
+      "difficulty": "medium"
+    }
+  ]
+}

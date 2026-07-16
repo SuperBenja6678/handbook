@@ -1,0 +1,513 @@
+{
+  "topic": "Pulmonary Embolism",
+  "slug": "pulmonary-embolism",
+  "system": "Cardiovascular",
+  "subSystem": "Venous",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2979dc81c699",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents to the ED with acute-onset pleuritic chest pain and dyspnoea. She has no cough or fever. HR 110, BP 120/80, RR 24, SpO2 93% on air. CXR normal. ECG shows sinus tachycardia. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumonia",
+        "Acute coronary syndrome",
+        "Panic attack",
+        "Pulmonary embolism",
+        "Pneumothorax"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of pleuritic pain, dyspnoea, tachycardia, hypoxia with normal CXR and sinus tachycardia is classic for PE. Pneumothorax would show decreased breath sounds and hyperresonance; pneumonia would have fever and cough; ACS would have cardiac enzyme rise; panic attack would not cause hypoxia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0f944e210055",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old man presents with a syncopal episode while straining on the toilet. He reports no chest pain or dyspnoea. On examination, he is hypotensive (BP 85/50), HR 110, RR 20, SpO2 92% on air. ECG shows S1Q3T3 pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Hypovolaemic shock due to GI bleed",
+        "Aortic stenosis",
+        "Acute myocardial infarction",
+        "Pulmonary embolism",
+        "Sepsis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Syncope with hypotension and ECG showing right heart strain (S1Q3T3) is highly suggestive of massive PE. Aortic stenosis would have a systolic murmur; GI bleed would have melaena or haematemesis; MI would have chest pain and ischaemic ECG changes; sepsis would have fever and leukocytosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "669356cca3c7",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman, day 5 after elective total hip replacement, develops sudden onset pleuritic chest pain and dyspnoea. She is tachypnoeic (RR 28), SpO2 87% on air. No signs of DVT. CXR normal. What is the single most likely diagnosis?",
+      "options": [
+        "Aspiration pneumonitis",
+        "Atelectasis",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Fat embolism syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "Post-orthopaedic surgery with sudden onset dyspnoea and hypoxia, pleuritic pain, normal CXR is classic for PE. Fat embolism occurs typically 24-72h post fracture, often with petechiae and confusion; atelectasis is more gradual and improves with deep breathing; pneumonia would have fever and consolidation; aspiration would have risk factors like vomiting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d70fa9599176",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with known COPD (GOLD 2) presents with worsening dyspnoea over 2 days. He has no fever or sputum change. On examination, chest is clear, but he is tachycardic (HR 105) and hypoxic (SpO2 89% on air). CXR shows no consolidation. What is the single most likely diagnosis?",
+      "options": [
+        "COPD exacerbation",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Pneumothorax",
+        "Acute heart failure"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a COPD patient with worsening dyspnoea, hypoxia, and no signs of infection or consolidation, PE must be considered. COPD exacerbation typically has increased sputum or wheeze; pneumonia would have fever and consolidation; pneumothorax would have decreased breath sounds; heart failure would have crackles and peripheral oedema.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "91a232f1a3aa",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman at 32 weeks gestation presents with acute dyspnoea and right calf swelling. She has no chest pain or cough. HR 110, BP 110/70, SpO2 94% on air. ECG shows sinus tachycardia. What is the single most likely diagnosis?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Pulmonary embolism",
+        "Hyperventilation of pregnancy",
+        "Peripartum cardiomyopathy",
+        "Anaemia of pregnancy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy with dyspnoea and unilateral calf swelling, PE is the most likely diagnosis. Amniotic fluid embolism occurs during labour or delivery, not antepartum; peripartum cardiomyopathy presents later with heart failure; hyperventilation would not cause hypoxia; anaemia would have pallor and low Hb.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6d0ae7135539",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman on the combined oral contraceptive pill presents with sudden-onset pleuritic chest pain and mild dyspnoea. She has no haemoptysis. Observations: HR 95 bpm, BP 120/80, RR 18, SpO2 98% on air. Chest X-ray is normal. Her Wells' score is 3 (low probability). What is the most appropriate next investigation?",
+      "options": [
+        "CT pulmonary angiography (CTPA)",
+        "Leg Doppler ultrasound",
+        "Ventilation/perfusion (V/Q) scan",
+        "Echocardiogram",
+        "D-dimer"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE guidelines, for patients with a low pre-test probability (Wells score ≤4), a D-dimer test should be performed first. A negative D-dimer rules out PE, avoiding unnecessary radiation. Imaging is only indicated if D-dimer is positive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bd443799ca75",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with recent hip surgery presents with unilateral calf swelling and dyspnoea on exertion. Wells score is 4 (moderate probability). D-dimer is elevated. His chest X-ray is normal and there is no contraindication to contrast. What is the most appropriate next investigation?",
+      "options": [
+        "CT pulmonary angiography (CTPA)",
+        "Repeat D-dimer",
+        "Leg ultrasound",
+        "Echocardiogram",
+        "Ventilation/perfusion (V/Q) scan"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with moderate pre-test probability and a positive D-dimer, CT pulmonary angiography (CTPA) is the imaging modality of choice as it provides direct visualisation of pulmonary arteries and is widely available. V/Q scan is an alternative if contrast is contraindicated, but not needed here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a470082d1022",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents with syncope, severe dyspnoea, and hypotension (BP 80/50). He has a raised JVP. ECG shows S1Q3T3. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Ventilation/perfusion (V/Q) scan",
+        "D-dimer",
+        "CT pulmonary angiography (CTPA)",
+        "Lower limb Doppler ultrasound",
+        "Echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a haemodynamically unstable patient with high clinical suspicion for PE, an immediate echocardiogram is recommended by NICE. It can show right ventricular strain and support the diagnosis, enabling prompt decision-making for emergency reperfusion. CTPA may be performed later if patient stabilises.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "21d1638da27a",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 29-year-old woman at 30 weeks gestation presents with pleuritic chest pain and dyspnoea. Wells score is 2 (low probability). D-dimer is elevated. Her chest X-ray is normal. What is the most appropriate next investigation?",
+      "options": [
+        "Repeat D-dimer",
+        "CT pulmonary angiography (CTPA)",
+        "Ventilation/perfusion (V/Q) scan",
+        "Leg ultrasound",
+        "MRI pulmonary angiography"
+      ],
+      "answerIndex": 2,
+      "explanation": "For pregnant women with a positive D-dimer (or high clinical suspicion) and a normal chest X-ray, a V/Q scan is preferred due to lower radiation dose to the maternal breast tissue compared to CTPA. NICE guidelines recommend V/Q scan as first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8e30e010a76",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with suspected PE undergoes CT pulmonary angiography. The report states: 'Filling defect in the left main pulmonary artery extending into lobar branches.' What is the correct interpretation?",
+      "options": [
+        "Confirms acute pulmonary embolism",
+        "Requires further confirmation with V/Q scan",
+        "Rules out pulmonary embolism",
+        "Suggests an alternative diagnosis",
+        "Indicates chronic pulmonary embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "A filling defect in the pulmonary artery on CTPA is diagnostic of pulmonary embolism. The location and extension into lobar branches indicate an acute, likely large, embolus. Chronic PE would typically show signs like mural thickening or calcification.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e347b0cafd4b",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with acute dyspnoea and pleuritic chest pain. CT pulmonary angiogram confirms a segmental pulmonary embolism. She is haemodynamically stable, with no right ventricular strain on echocardiogram. What is the most appropriate first-line anticoagulation therapy?",
+      "options": [
+        "Warfarin with loading dose",
+        "Apixaban 10 mg twice daily for 7 days, then 5 mg twice daily",
+        "Thrombolysis with alteplase",
+        "Unfractionated heparin intravenous infusion",
+        "Low-molecular-weight heparin alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend a direct oral anticoagulant (DOAC) such as apixaban or rivaroxaban as first-line therapy for haemodynamically stable patients with acute pulmonary embolism. Warfarin is second-line or for those in whom DOACs are contraindicated. Thrombolysis is reserved for high-risk (massive) PE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6db2c19456d",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man presents with sudden collapse, severe dyspnoea, and hypotension (BP 80/50 mmHg). ECG shows S1Q3T3, and CT pulmonary angiogram reveals a large central saddle embolism. He has no contraindications to thrombolysis. What is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous unfractionated heparin",
+        "Surgical pulmonary embolectomy",
+        "Therapeutic low-molecular-weight heparin",
+        "Intravenous alteplase (thrombolysis)",
+        "Catheter-directed thrombolysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a high-risk (massive) PE with haemodynamic instability. NICE recommends immediate thrombolysis with alteplase as first-line therapy. Anticoagulation alone is insufficient, and embolectomy is reserved if thrombolysis is contraindicated or fails.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87d4064df9d6",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 75-year-old woman on warfarin for a previous pulmonary embolism presents with a large spontaneous thigh haematoma and a drop in haemoglobin. INR is 6.5. She is haemodynamically stable. What is the most appropriate agent to reverse the anticoagulation?",
+      "options": [
+        "Prothrombin complex concentrate (PCC)",
+        "Tranexamic acid",
+        "Protamine sulfate",
+        "Fresh frozen plasma (FFP)",
+        "Intravenous vitamin K"
+      ],
+      "answerIndex": 0,
+      "explanation": "For warfarin-associated major bleeding, NICE recommends urgent reversal with prothrombin complex concentrate (PCC) and intravenous vitamin K. PCC provides rapid reversal, while vitamin K alone takes hours. FFP is less effective and not first-line. Tranexamic acid is not a reversal agent, and protamine reverses heparin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c07be8037b7a",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman at 28 weeks gestation presents with acute onset pleuritic chest pain and dyspnoea. CT pulmonary angiogram confirms a segmental pulmonary embolism. She does not have COVID-19. What is the most appropriate anticoagulant for ongoing management during pregnancy?",
+      "options": [
+        "Intravenous alteplase",
+        "Oral warfarin",
+        "Intravenous unfractionated heparin",
+        "Subcutaneous enoxaparin (LMWH) at a weight-adjusted dose",
+        "Oral rivaroxaban"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend low-molecular-weight heparin (LMWH) as first-line anticoagulation for PE in pregnancy, as DOACs and warfarin are teratogenic or cross the placenta. Unfractionated heparin is an alternative if LMWH is contraindicated, but LMWH is preferred. Thrombolysis is reserved for life-threatening PE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dbcaf7707a65",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with hypotension and severe hypoxaemia due to a massive pulmonary embolism on CT. However, he suffered an intracerebral haemorrhage 3 weeks ago. Which therapy is absolutely contraindicated in this patient?",
+      "options": [
+        "Intravenous alteplase (thrombolysis)",
+        "Therapeutic low-molecular-weight heparin",
+        "Intravenous unfractionated heparin",
+        "Surgical embolectomy",
+        "Catheter-directed thrombectomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thrombolysis is contraindicated in patients with recent intracranial haemorrhage (within 2-3 months) due to high risk of fatal bleeding. Alternatives include surgical embolectomy or catheter-directed therapy, and anticoagulation may be considered if the ICH is remote and risk-benefit favours it, but thrombolysis is absolutely contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4de8abf0590",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents to the emergency department with sudden onset pleuritic chest pain and mild dyspnoea. Her heart rate is 88 bpm, blood pressure 120/78 mmHg, respiratory rate 16/min, oxygen saturations 98% on air. ECG shows sinus tachycardia. Wells' score for PE is 2 (PE unlikely). What is the most appropriate next step?",
+      "options": [
+        "Request a CT pulmonary angiogram.",
+        "Start rivaroxaban.",
+        "Start therapeutic enoxaparin.",
+        "Perform a D-dimer test.",
+        "Admit for observation."
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients with a low pre-test probability (Wells score ≤4), NICE recommends performing a D-dimer test as the next step. A negative D-dimer effectively rules out PE, avoiding unnecessary imaging. Starting anticoagulation would be premature without diagnostic confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "39f92e5af8d7",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old pregnant woman at 28 weeks gestation presents with pleuritic chest pain and breathlessness. CT pulmonary angiogram confirms a subsegmental pulmonary embolism. She is haemodynamically stable with normal right ventricle on echocardiogram. What is the most appropriate next step?",
+      "options": [
+        "Start low molecular weight heparin (e.g., enoxaparin).",
+        "Start subcutaneous unfractionated heparin.",
+        "Start apixaban.",
+        "Start intravenous unfractionated heparin.",
+        "Insert an IVC filter."
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, low molecular weight heparin (LMWH) is the anticoagulant of choice for PE as it does not cross the placenta and has a lower risk of heparin-induced thrombocytopenia compared to unfractionated heparin. DOACs are contraindicated, and an IVC filter is not indicated in a stable patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d5a11291c56",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman collapses on the ward. She has been immobile after hip surgery. She is hypotensive (BP 80/50 mmHg), tachycardic (HR 130 bpm), and has oxygen saturations 85% on high-flow oxygen. ECG shows sinus tachycardia with S1Q3T3 pattern. She has a history of peptic ulcer disease. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT pulmonary angiogram.",
+        "Administer intravenous alteplase.",
+        "Request an urgent echocardiogram.",
+        "Start intravenous unfractionated heparin.",
+        "Insert an IVC filter."
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has a high clinical probability of massive PE with shock. NICE recommends immediate thrombolysis (alteplase) in such cases, even in the presence of a relative contraindication like peptic ulcer disease, as the benefit outweighs the risk. Waiting for CTPA or echo delays life-saving treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9769a4c1340a",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with acute PE started on therapeutic enoxaparin two days ago. He now has melaena and his haemoglobin has dropped from 130 g/L to 100 g/L. His systolic BP is 110 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Switch to unfractionated heparin.",
+        "Request an urgent upper GI endoscopy.",
+        "Stop enoxaparin and administer protamine sulfate.",
+        "Continue enoxaparin and monitor.",
+        "Insert an IVC filter."
+      ],
+      "answerIndex": 2,
+      "explanation": "The immediate step in a patient on LMWH who develops significant bleeding is to stop the anticoagulant and consider reversal. Protamine sulfate partially reverses LMWH. Continuing or switching anticoagulants would exacerbate bleeding; endoscopy is important but secondary to stopping the bleeding source.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cf5d0f9cd263",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with chronic kidney disease stage 4 (CrCl 18 mL/min) presents with acute dyspnoea. CT pulmonary angiogram confirms a segmental PE. She is haemodynamically stable, saturations 94% on air. She has no active bleeding. What is the most appropriate next step?",
+      "options": [
+        "Start rivaroxaban 15 mg twice daily.",
+        "Start intravenous unfractionated heparin.",
+        "Start apixaban 10 mg twice daily.",
+        "Insert a retrievable IVC filter.",
+        "Start low molecular weight heparin with dose adjustment and anti-Xa monitoring."
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe renal impairment (CrCl 15-30 mL/min), LMWH with dose adjustment and anti-Xa monitoring is recommended by NICE. DOACs are generally avoided (apixaban not recommended if CrCl <15, rivaroxaban contraindicated if CrCl <15). Unfractionated heparin could be used but LMWH with monitoring is more practical and convenient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b912782ef189",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman presents with sudden-onset breathlessness and pleuritic chest pain for 2 hours. On examination, she is distressed, respiratory rate 28, SpO2 90% on air, heart rate 110 bpm, blood pressure 82/56 mmHg, JVP not elevated. Which single clinical finding most strongly indicates that this is a high-risk (massive) pulmonary embolism requiring immediate escalation?",
+      "options": [
+        "Tachycardia",
+        "Hypoxia",
+        "Hypotension",
+        "Tachypnoea",
+        "Pleuritic chest pain"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sustained hypotension (SBP <90 mmHg) defines high-risk/massive PE with obstructive shock, while tachypnoea, tachycardia, hypoxia, and chest pain are common but do not alone indicate high-risk status.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b29019833b73",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with recent knee surgery (5 days ago) presents with dyspnoea and pleuritic chest pain. CTPA shows a segmental PE. Wells score: moderate probability. He is haemodynamically stable, normotensive, SpO2 96% on air, no RV strain on echo. Which single feature should prompt consideration of thrombolysis rather than anticoagulation alone?",
+      "options": [
+        "Raised troponin",
+        "Age >40",
+        "Recent surgery",
+        "Dyspnoea",
+        "Pleuritic chest pain"
+      ],
+      "answerIndex": 0,
+      "explanation": "In normotensive PE, elevated troponin indicates myocardial injury and defines intermediate-high risk, where thrombolysis may be considered. Dyspnoea, chest pain, age, and surgery are not specific thresholds for thrombolysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f68cd450dbe",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man collapses on the medical ward. He has a history of DVT. The cardiac monitor shows pulseless electrical activity (PEA). Which single finding on clinical assessment would most strongly suggest that a massive PE is the cause?",
+      "options": [
+        "Hypoxia",
+        "Distended neck veins",
+        "Pleuritic pain history",
+        "Unilateral leg swelling",
+        "Tachypnoea"
+      ],
+      "answerIndex": 1,
+      "explanation": "In PEA arrest, distended neck veins (obstructive shock) point to massive PE; unilateral leg swelling is a risk factor but not acute, while hypoxia and tachypnoea are non-specific in cardiac arrest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7e30078a235",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman being treated for a lower limb DVT with rivaroxaban develops sudden dyspnoea and pleuritic chest pain. CTPA confirms a subsegmental PE. She is haemodynamically stable, SpO2 95% on air. Which single finding would indicate a need for escalation to thrombolysis or embolectomy?",
+      "options": [
+        "RV/LV ratio >1.0 on CT",
+        "Positive Wells score",
+        "Proximal DVT",
+        "Raised D-dimer",
+        "Syncope at presentation"
+      ],
+      "answerIndex": 0,
+      "explanation": "RV/LV ratio >1.0 on CT indicates right ventricular dilation, a marker of intermediate-high risk PE warranting escalation. Syncope is concerning but less specific, and D-dimer, Wells score, and DVT alone do not dictate escalation in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e17b533193b7",
+      "topic": "Pulmonary Embolism",
+      "slug": "pulmonary-embolism",
+      "system": "Cardiovascular",
+      "subSystem": "Venous",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old pregnant woman at 28 weeks gestation presents with acute dyspnoea and chest pain. She has tachycardia and tachypnoea. ECG shows sinus tachycardia. Which single clinical feature should raise the highest suspicion for pulmonary embolism over other causes of dyspnoea in pregnancy?",
+      "options": [
+        "Wheeze",
+        "Cough",
+        "Unilateral leg swelling",
+        "Haemoptysis",
+        "Fever"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unilateral leg swelling is specific for DVT, the main risk factor for PE in pregnancy. Haemoptysis can occur in PE but also in infection; fever suggests infection, wheeze asthma, and cough is non-specific.",
+      "difficulty": "medium"
+    }
+  ]
+}

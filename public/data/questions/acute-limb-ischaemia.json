@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Limb Ischaemia",
+  "slug": "acute-limb-ischaemia",
+  "system": "Vascular Surgery",
+  "subSystem": "Limb",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:39Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "04af2bc25d2c",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with known atrial fibrillation (not anticoagulated) presents with sudden onset of severe pain in her left leg 3 hours ago. On examination, the left leg is pale and cold below the knee, with absent femoral, popliteal, and pedal pulses. Neurological examination reveals reduced sensation in the foot. What is the single most likely diagnosis?",
+      "options": [
+        "Acute thrombosis of a popliteal artery aneurysm",
+        "Acute deep vein thrombosis (phlegmasia cerulea dolens)",
+        "Acute aortic occlusion (saddle embolus)",
+        "Acute arterial embolism",
+        "Acute compartment syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sudden onset in a patient with atrial fibrillation, along with pallor, pulselessness, and sensory loss, is classic for an embolic occlusion. A popliteal aneurysm would typically have a pulsatile mass, DVT causes swelling and cyanosis with preserved Doppler signals, compartment syndrome follows trauma or reperfusion, and saddle embolus usually affects both legs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c2ae51cc1edf",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with diabetes and claudication (walks 200 metres) presents with worsening rest pain in his right foot for 12 hours. On examination, the right foot is cool but not pale, with a faint femoral pulse and absent popliteal and pedal pulses. Capillary refill is delayed. There is no swelling. What is the single most likely diagnosis?",
+      "options": [
+        "Acute thrombosis of an atherosclerotic artery (acute-on-chronic limb ischaemia)",
+        "Critical limb ischaemia (chronic)",
+        "Acute neuropathic pain (diabetic neuropathy)",
+        "Acute deep vein thrombosis",
+        "Acute arterial embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of claudication suggests underlying peripheral arterial disease, and the acute deterioration with absent pulses but lesser pallor points to acute thrombosis at a stenotic site. Embolism is more dramatic and usually occurs in previously normal vessels; critical limb ischaemia is chronic (>2 weeks); DVT would present with swelling; neuropathy does not cause pulse loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d81db13372dc",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 52-year-old smoker presents with sudden severe cramping pain in his left calf and foot. On examination, the left foot is pale and cold, with absent popliteal and pedal pulses but a normal femoral pulse. A pulsatile mass is palpable in the popliteal fossa. What is the single most likely diagnosis?",
+      "options": [
+        "Acute compartment syndrome",
+        "Acute thrombosis of a popliteal artery aneurysm",
+        "Peripheral vascular trauma (Baker's cyst rupture)",
+        "Acute deep vein thrombosis",
+        "Acute arterial embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pulsatile mass in the popliteal fossa is pathognomonic for a popliteal aneurysm, and acute thrombosis of such an aneurysm is a classic cause of acute limb ischaemia. Embolism would not produce a local mass; DVT causes swelling; compartment syndrome requires a precipitant like trauma; Baker's cyst rupture is non-pulsatile and often painful with swelling.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c8ec1a42436",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man, two weeks after hip surgery, presents with a painful, massively swollen left leg that is cyanotic and cold. The femoral pulse is present but weak; pedal pulses are absent by palpation but audible on Doppler. There is marked oedema and tense skin. What is the single most likely diagnosis?",
+      "options": [
+        "Acute thrombosis on chronic PAD",
+        "Acute deep vein thrombosis (phlegmasia cerulea dolens)",
+        "Acute compartment syndrome",
+        "Cellulitis",
+        "Acute arterial embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of massive swelling, cyanosis, and a history of recent surgery suggests phlegmasia cerulea dolens from extensive iliofemoral DVT. Despite absent palpable pulses, audible Doppler signals confirm preserved arterial flow, distinguishing it from arterial occlusion. Compartment syndrome lacks such swelling, and cellulitis would show erythema and warmth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a5ec4ced4dd",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with sudden tearing chest pain radiating to his back, followed by severe pain and numbness in both legs. On examination, both legs are pale and cold with no femoral pulses. Blood pressure is 180/90 mmHg in the right arm and 120/70 mmHg in the left arm. What is the single most likely diagnosis?",
+      "options": [
+        "Acute spinal cord ischaemia",
+        "Acute deep vein thrombosis (bilateral)",
+        "Acute thrombosis of abdominal aortic aneurysm",
+        "Acute arterial embolism (saddle embolus)",
+        "Acute aortic dissection"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tearing chest pain with differential arm blood pressures and acute bilateral leg ischaemia is classic for aortic dissection extending into the iliac arteries. Saddle embolus causes similar leg ischaemia but no chest pain or arm BP discrepancy. AAA thrombosis may cause pain but not tearing, and spinal ischaemia would have neurological symptoms without pulselessness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "aa94c3adf7ac",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with atrial fibrillation presents with sudden-onset severe pain in her right leg. The leg is pale, cold, and pulseless below the femoral artery. Which single investigation is most appropriate to confirm the diagnosis and localise the occlusion?",
+      "options": [
+        "CT angiography",
+        "Digital subtraction angiography",
+        "MR angiography",
+        "Duplex ultrasound",
+        "Ankle-brachial pressure index"
+      ],
+      "answerIndex": 3,
+      "explanation": "Duplex ultrasound is the first-line imaging investigation for acute limb ischaemia because it is non-invasive, widely available, and accurately confirms the presence and location of arterial occlusion. Ankle-brachial pressure index is unreliable in acute ischaemia due to potential false-normal values from collateral circulation, and CT angiography is reserved for when duplex is inconclusive or for pre-intervention planning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3daa8e33910d",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with known peripheral arterial disease presents with acute worsening of rest pain in his left foot. A duplex ultrasound is attempted but is inconclusive due to heavy arterial calcification. What is the most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Digital subtraction angiography",
+        "CT angiography",
+        "MR angiography",
+        "Repeat duplex ultrasound with improved settings",
+        "Ankle-brachial pressure index"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT angiography is recommended as the second-line imaging when duplex is inconclusive, as it provides detailed anatomical information of the arterial tree despite calcification. MR angiography is less accessible and may overestimate stenosis, while digital subtraction angiography is reserved for cases where intervention is planned concurrently.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "75b6d069d514",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with acute left leg ischaemia undergoes duplex ultrasound. Which duplex finding is most consistent with complete arterial occlusion?",
+      "options": [
+        "Biphasic waveform",
+        "High-resistance waveform",
+        "Monophasic waveform",
+        "Triphasic waveform",
+        "Absent flow"
+      ],
+      "answerIndex": 4,
+      "explanation": "Absent flow on duplex ultrasound indicates no blood movement, which is the hallmark of complete arterial occlusion. Triphasic and biphasic waveforms suggest normal or mildly diseased vessels, while monophasic or high-resistance waveforms indicate proximal obstruction but not necessarily total occlusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd59cb7d3f94",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman presents with acute right leg ischaemia. On examination, the foot is pale with reduced sensation but she can still move her toes. There is no motor deficit. According to the Rutherford classification for acute limb ischaemia, which class best describes this presentation?",
+      "options": [
+        "Rutherford class I",
+        "Rutherford class III",
+        "Rutherford class IV",
+        "Rutherford class IIa",
+        "Rutherford class IIb"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rutherford class IIa (threatened, marginally viable) is defined by mild sensory loss without motor deficit. Class IIb includes both sensory and motor loss, and class III indicates irreversible ischaemia with major tissue loss. Class I is viable without sensory loss, and class IV is not part of the acute classification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2fa01744fc65",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with acute left leg ischaemia is admitted. Duplex ultrasound is not available at your hospital. Which investigation is most appropriate to confirm the diagnosis and guide revascularisation planning?",
+      "options": [
+        "Plain X-ray",
+        "Capillary refill time",
+        "Ankle-brachial pressure index",
+        "CT angiography",
+        "MR angiography"
+      ],
+      "answerIndex": 3,
+      "explanation": "When duplex is unavailable, CT angiography is the recommended alternative because it provides rapid and detailed imaging of the arterial tree, aiding both confirmation and surgical planning. ABPI and capillary refill are not diagnostic for acute occlusion, and MR angiography is slower and less practical in the acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c575898912ec",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with atrial fibrillation presents with sudden-onset right leg pain, sensory loss below the knee, and foot drop. The leg is pale, no pulses palpable below the femoral. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Percutaneous balloon angioplasty",
+        "Catheter-directed thrombolysis",
+        "Urgent surgical embolectomy",
+        "Systemic anticoagulation with heparin",
+        "Primary amputation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rutherford IIB acute limb ischaemia with motor loss requires emergency revascularisation. Surgical embolectomy is the fastest and most definitive method; thrombolysis takes too long and risks irreversible ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7bdb004ee8e0",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a known 3 cm popliteal aneurysm presents with acute left leg pain, pallor, and paraesthesia. Capillary return is sluggish, but there is no muscle weakness. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Intra-arterial vasodilators",
+        "Catheter-directed thrombolysis",
+        "Systemic anticoagulation with heparin",
+        "Below-knee amputation",
+        "Open popliteal aneurysm repair with bypass"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute thrombosis of a popliteal aneurysm causing Rutherford IIA ischaemia (no motor loss) is best managed by catheter-directed thrombolysis to restore flow and allow elective definitive repair. Open repair as first line carries higher risk of complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "70ee8913481f",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 58-year-old man with a known type B aortic dissection develops acute right lower limb ischaemia with loss of femoral pulse and severe hypertension. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Systemic heparin infusion",
+        "Administration of intravenous labetalol",
+        "Catheter-directed thrombolysis of the iliac artery",
+        "Urgent thoracic endovascular aortic repair (TEVAR) with fenestration",
+        "Emergency extra-anatomic bypass (e.g., femoro-femoral)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The limb ischaemia is due to dynamic obstruction from the dissection flap. TEVAR with fenestration is the definitive therapy to restore true lumen flow and relieve malperfusion. Thrombolysis is contraindicated due to dissection; heparin alone does not address the mechanical obstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2d8a18518aa6",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man develops acute right foot ischaemia 6 hours after coronary angiography via the right femoral artery. There is sensory loss but no motor deficit. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Surgical embolectomy of the popliteal/tibial vessels",
+        "Intravenous unfractionated heparin",
+        "Catheter-directed thrombolysis",
+        "Urgent angiography and stenting",
+        "Conservative management with limb elevation and analgesia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Iatrogenic distal embolisation (trash foot) with Rutherford IIA ischaemia is best treated with catheter-directed thrombolysis, which can lyse the emboli. Surgical embolectomy is technically difficult in small distal vessels and may cause further damage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80f65f5fade9",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman on intravenous unfractionated heparin for pulmonary embolism develops a new, acutely ischaemic right leg with no pulse. Platelet count has fallen from 200 to 60 ×10^9/L. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Catheter-directed thrombolysis",
+        "Urgent surgical embolectomy",
+        "Continue heparin and start warfarin",
+        "Insertion of an inferior vena cava filter",
+        "Stop heparin and start argatroban"
+      ],
+      "answerIndex": 4,
+      "explanation": "The scenario suggests heparin-induced thrombocytopenia (HIT) causing arterial thrombosis. The first step is to stop all heparin and start a non-heparin anticoagulant such as argatroban or danaparoid. Embolectomy or thrombolysis may be needed but are not first-line before managing the HIT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b47a99d5f9c1",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with a history of atrial fibrillation presents to the ED with sudden onset of a cold, painful right leg. On examination, the right leg is pale, with absent popliteal and foot pulses. She has sensory loss in the forefoot but motor function is intact. She is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent arterial duplex ultrasound",
+        "Request a CT angiogram of the lower limbs",
+        "Administer intravenous unfractionated heparin",
+        "Perform an ABPI",
+        "Commence rivaroxaban"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute limb ischaemia, immediate anticoagulation with unfractionated heparin is recommended to prevent thrombus propagation while awaiting definitive revascularisation. Urgent imaging (duplex or CTA) is needed but heparin comes first. ABPI is not urgent in acute setting. Rivaroxaban is not immediate and contraindicated without imaging.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3d02a993c23b",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with a 2-hour history of a cold, painful right leg after a long car journey. He has no pulses below the femoral. He has reduced sensation and motor weakness in the foot. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform fasciotomy",
+        "Request a CT angiogram",
+        "Give analgesia",
+        "Administer IV heparin",
+        "Call the vascular surgeon on call"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is a Rutherford class IIb acute limb ischaemia (sensory loss plus motor weakness), a surgical emergency. The priority is to activate the vascular team for urgent revascularisation while simultaneously giving heparin. However, calling the surgeon is the most immediate step to coordinate definitive care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33a3e66ac7ac",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman is being treated for acute limb ischaemia with IV unfractionated heparin. She has a history of chronic kidney disease stage 4. She develops haematuria and a drop in haemoglobin. What is the most appropriate immediate next step?",
+      "options": [
+        "Request a CT of the kidneys",
+        "Administer oral vitamin K",
+        "Check APTT",
+        "Stop the heparin and administer protamine sulfate",
+        "Request an urgent renal ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "Life-threatening bleeding due to heparin requires immediate reversal. Protamine sulfate neutralises unfractionated heparin. Stopping heparin alone is insufficient. Vitamin K is for warfarin reversal. Checking APTT is important but not the immediate action to control bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e01f3c67440c",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old man with a history of atrial fibrillation and recent pulmonary embolism treated with warfarin (target INR 2-3) presents with a cold, painful right foot of 4 hours duration. He has absent foot pulses but no sensory loss. His INR on arrival is 2.8. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform urgent embolectomy",
+        "Increase warfarin dose",
+        "Request arterial duplex",
+        "Stop warfarin and give vitamin K",
+        "Give IV unfractionated heparin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite a therapeutic INR, warfarin alone is insufficient for acute thrombosis. Unfractionated heparin should be given immediately to prevent thrombus propagation. Reversing warfarin (vitamin K) is harmful. Imaging is important but heparin first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ac35de870257",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known critical limb ischaemia (rest pain and tissue loss) develops severe pain in his left leg with swelling and redness. On examination, the leg is swollen, tender, with slight erythema. He has a reduced range of motion. There is a shallow ulcer on his heel. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply a plaster cast for immobilisation",
+        "Start IV broad-spectrum antibiotics",
+        "Perform urgent surgical debridement",
+        "Request an MRI of the leg",
+        "Administer IV heparin"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presentation suggests acute infection (cellulitis or septic arthritis) complicating critical limb ischaemia. Infection can rapidly worsen ischaemia and requires immediate antibiotics. MRI may be useful but not before antibiotics. Heparin is not indicated for infection. Debridement is not immediate without infection control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "affc0018eb2e",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man presents with sudden-onset cold, white, painful right leg of 4 hours duration. He has atrial fibrillation. On examination, the right leg is pale, mottled below the knee, with absent popliteal and foot pulses. He has loss of sensation in the foot and cannot wiggle his toes. Which single clinical finding is the strongest red flag mandating immediate surgical revascularisation?",
+      "options": [
+        "Absent Doppler signals at the ankle",
+        "Loss of light touch sensation in the toes",
+        "Capillary refill time > 5 seconds",
+        "Pain out of proportion to examination",
+        "Mottling extending above the knee"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loss of sensation and motor function (Rutherford class IIb/III) indicates severe ischaemia threatening limb viability, requiring urgent revascularisation. Absent Doppler signals (option 0) is important but alone does not dictate urgency as muscle viability may still be present.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eaaf1b80fc5a",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with known peripheral arterial disease and a previous right femoropopliteal bypass presents with worsening claudication over 1 week. She now has rest pain relieved by dependency. On examination, the right foot is pink but cool, with weak posterior tibial pulse. Which single finding should prompt immediate escalation to the vascular surgery team?",
+      "options": [
+        "Rest pain not responding to analgesia",
+        "Ankle-brachial pressure index (ABPI) of 0.5",
+        "Weak but present Doppler signals at the foot",
+        "Venous guttering on examination",
+        "Pallor on elevation of the leg"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rest pain that is progressive and poorly responsive to analgesia indicates critical limb ischaemia (Rutherford class IV) and requires urgent assessment. An ABPI of 0.5 (option 0) is consistent with PAD but not an acute red flag; rest pain is the symptom that defines critical ischaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0fb9b71fb784",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man undergoes emergency embolectomy for acute right leg ischaemia. 6 hours post-operatively, he complains of severe, worsening right calf pain despite adequate analgesia. The foot is warm and well-perfused with palpable pulses. On examination, the calf is swollen, tense, and exquisitely tender. Which single finding is the most important red flag for a life-threatening complication?",
+      "options": [
+        "Weakness of ankle dorsiflexion",
+        "Paraesthesia in the distribution of the common peroneal nerve",
+        "Swelling extending above the knee",
+        "Absent right foot pulses compared to left",
+        "Increased pain on passive stretch of the right foot"
+      ],
+      "answerIndex": 4,
+      "explanation": "Increased pain on passive stretch of the foot is the classic sign of acute compartment syndrome, a surgical emergency after revascularisation. Weakness (option 1) and paraesthesia (option 3) are later signs; the red flag is pain on stretch.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1293851ef14",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old smoker with hypertension and hypercholesterolaemia presents with sudden-onset left leg pain and coldness of 2 hours. He has atrial fibrillation. On examination, all pulses are absent in the left foot, but the right leg has palpable femoral, popliteal, and foot pulses. Which single clinical feature most strongly suggests an embolic rather than thrombotic aetiology?",
+      "options": [
+        "Presence of atrial fibrillation",
+        "Absent left popliteal pulse",
+        "Contralateral leg pulses are normal",
+        "Sudden onset of symptoms",
+        "History of intermittent claudication in both legs"
+      ],
+      "answerIndex": 2,
+      "explanation": "Normal pulses in the contralateral leg suggest that the underlying vessels are healthy, making thrombus-in-situ less likely and embolism from the heart more likely. Sudden onset (option 3) and AF (option 4) are supportive but not as specific; claudication (option 1) would favour thrombosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "37d606656f8e",
+      "topic": "Acute Limb Ischaemia",
+      "slug": "acute-limb-ischaemia",
+      "system": "Vascular Surgery",
+      "subSystem": "Limb",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with type 2 diabetes and chronic kidney disease presents with a 3-week history of a non-healing ulcer on her right big toe. She has constant rest pain, and the toe is now black and mummified. On examination, the foot is cold, with absent pulses. Which single finding indicates irreversible ischaemia and that amputation is likely inevitable?",
+      "options": [
+        "Absent Doppler signals at the ankle",
+        "Severe rest pain requiring opiates",
+        "Fixed, non-blanching purple staining of the forefoot",
+        "Calf muscle tenderness on deep palpation",
+        "Toe black with clear demarcation at the metatarsophalangeal joint"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fixed, non-blanching purple staining (fixed livedo) indicates irreversible tissue necrosis and dead muscle, often requiring amputation. Demarcated toe (option 3) may be dry gangrene amenable to minor amputation, but fixed staining of the forefoot suggests more extensive necrosis.",
+      "difficulty": "medium"
+    }
+  ]
+}

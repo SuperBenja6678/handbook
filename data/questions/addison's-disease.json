@@ -1,0 +1,513 @@
+{
+  "topic": "Addison's Disease",
+  "slug": "addison's-disease",
+  "system": "Endocrinology",
+  "subSystem": "Adrenal",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:27:32Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2df8961fbdcb",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with fatigue, weight loss, and increasing pigmentation over sun-exposed areas for 6 months. She has postural dizziness. BP 95/60, HR 90. Serum Na+ 125 mmol/L, K+ 5.8 mmol/L, urea 8.5 mmol/L. Short Synacthen test shows baseline cortisol 150 nmol/L, 30-min cortisol 250 nmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Addison's disease",
+        "Hypothyroidism",
+        "Secondary adrenal insufficiency",
+        "Renal tubular acidosis",
+        "SIADH"
+      ],
+      "answerIndex": 0,
+      "explanation": "Low baseline cortisol with suboptimal response to Synacthen (normal >550 nmol/L) plus hyperpigmentation and hyponatremia with hyperkalemia point to primary adrenal insufficiency. Secondary adrenal insufficiency would not have hyperpigmentation (low ACTH) and typically has normal potassium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4567f694e9ce",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with unexplained fatigue, myalgia, and cravings for salty foods. He has no hyperpigmentation but has vitiligo patches on his arms. BP 90/60 lying, 85/60 standing. Na+ 132 mmol/L, K+ 5.6 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Secondary adrenal insufficiency",
+        "Chronic fatigue syndrome",
+        "Fibromyalgia",
+        "Addison's disease",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of vitiligo (autoimmune) with salt craving, orthostatic hypotension, hyponatremia, and hyperkalemia is classic for primary adrenal insufficiency despite lack of hyperpigmentation. Chronic fatigue syndrome and fibromyalgia do not cause electrolyte abnormalities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31df03110a0a",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with known type 1 diabetes presents to the Emergency Department with a 2-day history of vomiting, abdominal pain, and fever. He is hypotensive (80/50), tachycardic (110), and has cool peripheries. Capillary glucose is 5.0 mmol/L. Serum Na+ 126 mmol/L, K+ 6.2 mmol/L, creatinine 200 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Septic shock",
+        "Pancreatitis",
+        "Gastroenteritis",
+        "Addisonian crisis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Normoglycaemia and hyponatremia with hyperkalemia in a patient with type 1 diabetes (autoimmune predisposition) are more suggestive of adrenal crisis than DKA (which would have hyperglycaemia) or sepsis alone. The vomiting and abdominal pain can be presenting features of an addisonian crisis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d56421fe2ab",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents to the GP with recurrent episodes of light-headedness and confusion, resolving with food. She has lost weight and noticed darkening of her gums. Blood tests show fasting glucose 2.8 mmol/L, Na+ 135 mmol/L, K+ 4.0 mmol/L, normal liver function. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatic cirrhosis",
+        "Factitious hypoglycemia",
+        "Insulinoma",
+        "Addison's disease",
+        "Reactive hypoglycemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of recurrent hypoglycemia, weight loss, and gingival hyperpigmentation points to primary adrenal insufficiency. Insulinoma typically presents with neuroglycopenic symptoms but no hyperpigmentation or weight loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b38e058610fc",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with known autoimmune thyroiditis (on levothyroxine) and vitiligo is found to be hyponatremic (Na+ 124 mmol/L) and hyperkalemic (K+ 6.0 mmol/L) on routine bloods. She reports fatigue and occasional joint pains. Her blood pressure is 85/50. What is the single most likely diagnosis?",
+      "options": [
+        "Acute kidney injury",
+        "Hyporeninemic hypoaldosteronism (type 4 RTA)",
+        "Uncontrolled hypothyroidism",
+        "Conn's syndrome (hyperaldosteronism)",
+        "Addison's disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with autoimmune thyroiditis and vitiligo, the presence of hyponatremia and hyperkalemia with hypotension is characteristic of autoimmune polyendocrine syndrome type 2, leading to primary adrenal insufficiency. Hypothyroidism alone would cause hyponatremia but not hyperkalemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "15d075c2a7e2",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman presents with fatigue, weight loss, and increased skin pigmentation over 6 months. She has postural hypotension and hyponatraemia. Which single investigation is most appropriate as the first-line diagnostic test in the stable outpatient setting?",
+      "options": [
+        "Plasma ACTH",
+        "Random serum cortisol",
+        "Morning serum cortisol",
+        "Short Synacthen test",
+        "Serum aldosterone and renin"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a stable patient with suspected Addison's, a morning serum cortisol (8-9 am) is the first-line test. A value <100 nmol/L is diagnostic; borderline values warrant a short Synacthen test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7652c6d67011",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man on long-term prednisolone for COPD presents to the emergency department with hypotension, hyponatraemia, and hyperkalemia. He is clinically shocked. What is the single most appropriate immediate diagnostic test?",
+      "options": [
+        "Plasma ACTH",
+        "CT of the adrenals",
+        "Short Synacthen test",
+        "Random serum cortisol",
+        "21-Hydroxylase antibodies"
+      ],
+      "answerIndex": 3,
+      "explanation": "In suspected adrenal crisis, obtain a random serum cortisol before giving hydrocortisone. A level <100 nmol/L confirms adrenal insufficiency. The Synacthen test takes time and may delay treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d73db80e491",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 26-year-old woman presents with hyperpigmentation, fatigue, and hyponatraemia. Laboratory results show serum cortisol 180 nmol/L (normal 140-690) and plasma ACTH 900 pg/mL (normal 10-50). What is the most likely diagnosis?",
+      "options": [
+        "Cushing's disease",
+        "Primary adrenal insufficiency",
+        "Tertiary adrenal insufficiency",
+        "Ectopic ACTH syndrome",
+        "Secondary adrenal insufficiency"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low-normal cortisol with very high ACTH indicates primary adrenal insufficiency (Addison's) due to loss of adrenal cortisol feedback. In secondary insufficiency, ACTH is low or inappropriately normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a2a56e0cde0",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with vitiligo and hyponatraemia has a morning cortisol of 280 nmol/L. Which test should be performed to confirm the diagnosis of adrenal insufficiency?",
+      "options": [
+        "Serum aldosterone/renin ratio",
+        "MRI of the pituitary",
+        "CRH stimulation test",
+        "Short Synacthen test (250 mcg)",
+        "24-hour urinary free cortisol"
+      ],
+      "answerIndex": 3,
+      "explanation": "The short Synacthen test is the gold standard confirmatory test for adrenal insufficiency. A peak cortisol <430 nmol/L at 30 or 60 minutes is diagnostic. Urinary cortisol is for Cushing's, CRH test for secondary, aldosterone/renin may support but not confirm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2fcc3ef37290",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman is diagnosed with primary adrenal insufficiency after a short Synacthen test. ACTH is 700 pg/mL. She has no other autoimmune conditions. Which further investigation is most appropriate to determine the aetiology?",
+      "options": [
+        "CT scan of the adrenals",
+        "Adrenal ultrasound",
+        "Synacthen test with 1 mg (long Synacthen)",
+        "Plasma renin and aldosterone",
+        "21-Hydroxylase antibody levels"
+      ],
+      "answerIndex": 4,
+      "explanation": "In primary adrenal insufficiency, positive 21-hydroxylase antibodies confirm autoimmune adrenalitis, the most common cause in the UK. CT adrenals is indicated only if antibodies are negative or suspect infiltration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9040e3a19fcf",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with hyperpigmentation, fatigue, and weight loss. Investigations show serum cortisol 80 nmol/L (low) and ACTH 1200 ng/L (high). She is diagnosed with primary adrenal insufficiency. What is the most appropriate first-line maintenance therapy?",
+      "options": [
+        "Dexamethasone 0.5 mg once daily",
+        "Fludrocortisone 100 mcg daily alone",
+        "Prednisolone 5 mg once daily",
+        "Hydrocortisone 15-20 mg daily in divided doses plus fludrocortisone 100-200 mcg daily",
+        "Synacthen (tetracosactide) injections 1 mg weekly"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hydrocortisone (short-acting glucocorticoid) with fludrocortisone (mineralocorticoid) is the standard replacement for primary adrenal insufficiency, mimicking physiological cortisol and aldosterone secretion. Prednisolone and dexamethasone are not first-line due to longer half-life and less precise mimicry; fludrocortisone alone lacks glucocorticoid cover; Synacthen is a diagnostic agent, not chronic therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2cb6e46521b0",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known Addison's disease presents to the emergency department with collapse, blood pressure 70/40 mmHg, vomiting, and hypoglycaemia. What is the most appropriate initial therapy?",
+      "options": [
+        "Intravenous dexamethasone 8 mg",
+        "Intravenous hydrocortisone 100 mg bolus followed by intravenous infusion",
+        "Oral hydrocortisone 20 mg",
+        "Oral fludrocortisone 100 mcg",
+        "Intravenous fludrocortisone 200 mcg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In adrenal crisis, immediate parenteral hydrocortisone is required; IV bolus and infusion provide rapid and sustained glucocorticoid effect. Oral hydrocortisone is unreliable in vomiting; dexamethasone lacks mineralocorticoid activity; fludrocortisone alone without glucocorticoid is insufficient; IV fludrocortisone is not available and not first-line in crisis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17d110c1cdd5",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with Addison's disease on hydrocortisone 20 mg daily and fludrocortisone 100 mcg daily is scheduled for elective total hip replacement. What is the most appropriate perioperative steroid management?",
+      "options": [
+        "Stop fludrocortisone 24 hours before surgery",
+        "Give intravenous hydrocortisone 100 mg at induction of anaesthesia and continue intravenous hydrocortisone 50-100 mg six-hourly until oral intake resumes",
+        "Give intravenous dexamethasone 8 mg at induction",
+        "No change to regular medications",
+        "Increase oral hydrocortisone to 40 mg on the morning of surgery"
+      ],
+      "answerIndex": 1,
+      "explanation": "Patients on glucocorticoid replacement need stress dosing during major surgery; the standard approach is IV hydrocortisone at induction and during the procedure until able to take oral medications. Oral increase alone is insufficient; dexamethasone is not recommended for stress coverage; fludrocortisone is mineralocorticoid – not the main stress hormone; no change risks hypotensive crisis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86999c218ef2",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 24 weeks gestation with known Addison's disease is well-controlled on hydrocortisone and fludrocortisone. What is the recommended management regarding her steroid replacement during pregnancy?",
+      "options": [
+        "Reduce the hydrocortisone dose",
+        "Continue the same doses throughout pregnancy",
+        "Increase the hydrocortisone dose in the third trimester",
+        "Stop fludrocortisone",
+        "Switch to dexamethasone"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, cortisol-binding globulin rises and placental metabolism increases cortisol clearance, often necessitating a hydrocortisone dose increase (typically 20-40%) in the third trimester. Dexamethasone crosses the placenta and is not preferred; reducing dose risks adrenal insufficiency; fludrocortisone is usually continued; no change may lead to underreplacement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "99c0e3ab31ce",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with known Addison's disease requires general anaesthesia for a cholecystectomy. The anaesthetist is planning induction. Which of the following induction agents is contraindicated in this patient?",
+      "options": [
+        "Ketamine",
+        "Propofol",
+        "Thiopental",
+        "Sevoflurane (inhalational)",
+        "Etomidate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Etomidate inhibits 11β-hydroxylase, suppressing cortisol synthesis and can precipitate adrenal crisis in patients with impaired adrenal reserve. Propofol, thiopental, ketamine, and sevoflurane do not have this effect and are safe for use in Addison's disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df7f113a68f6",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old male presents with a 3-month history of fatigue, weight loss, and hyperpigmentation. BP 110/70 mmHg, HR 80 bpm. Investigations: Na 130 mmol/L, K 5.5 mmol/L, glucose 5.0 mmol/L. Urine dipstick normal. What is the most appropriate next step?",
+      "options": [
+        "Start IV normal saline",
+        "CT scan of the adrenals",
+        "Check plasma ACTH",
+        "Perform a short Synacthen test",
+        "Start oral hydrocortisone 20 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a haemodynamically stable patient with suspected primary adrenal insufficiency, the short Synacthen test is the gold standard diagnostic test before commencing lifelong steroids. The most tempting distractor is empirical steroid therapy, but that would obscure the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3ad9e7bc33e9",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with known Addison's disease on hydrocortisone 20 mg/10 mg and fludrocortisone 0.1 mg daily presents with a 2-day history of mild diarrhoea. She feels tired but BP 110/70 mmHg, Na 135 mmol/L, K 4.5 mmol/L. What is the most appropriate immediate action?",
+      "options": [
+        "Attend ED for IV hydrocortisone",
+        "Check serum renin and aldosterone",
+        "Advise to double the hydrocortisone dose for 2 days",
+        "Increase fludrocortisone to 0.2 mg daily",
+        "Stop fludrocortisone temporarily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sick day rules dictate doubling the oral glucocorticoid dose during minor intercurrent illness. The distractor of increasing fludrocortisone is incorrect because mineralocorticoid replacement does not need adjustment for stress.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "73ed9af8d342",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old man with known Addison's disease is found collapsed at home. GCS 12, BP 70/40 mmHg, HR 120 bpm, capillary glucose 2.8 mmol/L. On arrival to the Emergency Department, what is the most appropriate immediate action?",
+      "options": [
+        "IV dextrose 50 mL of 50%",
+        "IV hydrocortisone 100 mg",
+        "IV normal saline 1 L",
+        "Send blood for random cortisol",
+        "CT head"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected adrenal crisis, the priority is immediate IV hydrocortisone (100 mg) to reverse the glucocorticoid deficiency, followed by fluid resuscitation and glucose. The most tempting distractor is IV normal saline, but hydrocortisone is the definitive treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f8036e33057",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with Addison's disease on fludrocortisone 0.2 mg daily and hydrocortisone 20 mg/10 mg presents with headache. BP 160/95 mmHg, Na 145 mmol/L, K 3.3 mmol/L. What is the most appropriate immediate action?",
+      "options": [
+        "Check 24-hour urine metanephrines",
+        "Stop fludrocortisone",
+        "Reduce fludrocortisone dose",
+        "Add amlodipine",
+        "Reduce hydrocortisone dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypertension and hypokalaemia in a patient on fludrocortisone suggest mineralocorticoid excess. Reducing the fludrocortisone dose is the first step. The distractor of adding an antihypertensive fails to address the underlying cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a459f490ac1d",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old pregnant woman (34 weeks gestation) with known Addison's disease on maintenance steroids presents in early labour. She is normotensive and well. What is the most appropriate immediate action?",
+      "options": [
+        "Continue regular oral steroids",
+        "Administer IV normal saline",
+        "Check serum cortisol",
+        "Increase oral hydrocortisone to 40 mg daily",
+        "Administer IV hydrocortisone 100 mg 6-hourly during labour"
+      ],
+      "answerIndex": 4,
+      "explanation": "Labour is a major physiological stress requiring stress-dose glucocorticoids to prevent adrenal crisis. IV administration ensures reliable absorption. The most tempting distractor is increasing oral dose, but IV is preferred in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e1bb8d4bc6d5",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with a 3-week history of fatigue, weight loss, and hyperpigmentation. She now reports vomiting and confusion. Which single finding most indicates that she is in adrenal crisis?",
+      "options": [
+        "Heart rate 110 bpm",
+        "Temperature 38.2°C",
+        "Serum potassium 6.0 mmol/L",
+        "Blood pressure 85/50 mmHg",
+        "Serum sodium 128 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension (BP 85/50) signifies haemodynamic instability and circulatory collapse, the hallmark of adrenal crisis. While hyponatremia, hyperkalemia, and tachycardia are common, hypotension is the immediate danger requiring urgent treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e5b13bab765",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with known Addison's disease on hydrocortisone and fludrocortisone has had diarrhoea and vomiting for 24 hours. He feels very weak. Which finding would mandate urgent hospital assessment?",
+      "options": [
+        "Serum potassium 5.5 mmol/L",
+        "Pre-syncope on standing",
+        "Serum sodium 130 mmol/L",
+        "Heart rate 95 bpm",
+        "Blood pressure 100/60 mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pre-syncope on standing indicates postural hypotension, an early sign of impending adrenal crisis. This triggers an urgent need for parenteral hydrocortisone and fluids. Other values are concerning but less immediately dangerous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9d39756b059",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with no prior diagnosis presents with fever, hypotension, and abdominal pain. Sepsis is suspected but he also has hyperpigmentation. Which life-threatening differential must be excluded urgently?",
+      "options": [
+        "Myocardial infarction",
+        "Sepsis",
+        "Perforated peptic ulcer",
+        "Acute pancreatitis",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sepsis is the most common mimic and precipitant of adrenal crisis. Both can present with shock and fever; sepsis must be excluded and treated immediately, as it coexists in many cases of adrenal crisis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80a4c4a8c5bc",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with known Addison's disease on replacement therapy is found collapsed at home. She is unresponsive. Which finding indicates a life-threatening complication specific to adrenal insufficiency?",
+      "options": [
+        "White cell count 15 × 10⁹/L",
+        "ECG showing T-wave inversion",
+        "Serum sodium 125 mmol/L",
+        "Capillary blood glucose 2.0 mmol/L",
+        "Serum potassium 6.5 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hypoglycaemia (2.0 mmol/L) is a critical and often overlooked complication of adrenal crisis, causing unconsciousness. Hyperkalemia and hyponatremia are classic but less immediately lethal; hypoglycaemia requires emergency treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7dae072e666c",
+      "topic": "Addison's Disease",
+      "slug": "addison's-disease",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old pregnant woman at 12 weeks gestation presents with persistent nausea, vomiting, and weakness. She has hyperpigmentation of the knuckles and buccal mucosa. Which finding would differentiate primary adrenal insufficiency from hyperemesis gravidarum?",
+      "options": [
+        "Hypotension",
+        "Hyponatremia",
+        "Hyperkalemia",
+        "Elevated ACTH",
+        "Hypoglycaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hyperkalemia is a key red flag for primary adrenal insufficiency; it does not occur in hyperemesis gravidarum, which typically causes hypokalaemia from vomiting. Other features like hyponatremia and hypotension may overlap.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Opioid Use Disorder",
+  "slug": "opioid-use-disorder",
+  "system": "Psychiatry",
+  "subSystem": "Substance",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:36Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7728e7364383",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old medical student is brought by his parents who are concerned about his declining academic performance and social withdrawal. He has been found with track marks on his arms. He admits to using heroin occasionally for the past 6 months. He feels he can stop but hasn't tried. What is the single most likely diagnosis?",
+      "options": [
+        "Generalised anxiety disorder",
+        "Major depressive disorder",
+        "Opioid use disorder",
+        "Sedative use disorder",
+        "Stimulant use disorder"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of track marks, heroin use, and functional decline suggests opioid use disorder. While sedative use disorder can also cause sedation, the specific track marks and heroin point to opioids. Depression could explain withdrawal but not the track marks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1c3cd9166f55",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with rheumatoid arthritis has been prescribed codeine phosphate for 3 years. She now takes double the prescribed dose and buys codeine from the internet. She experiences anxiety when her next dose is due but no physical withdrawal. What is the single most likely diagnosis?",
+      "options": [
+        "Opioid use disorder",
+        "Medication overuse headache",
+        "Generalised anxiety disorder",
+        "Fibromyalgia",
+        "Chronic pain syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "The escalating use and psychological dependence (anxiety) indicate opioid use disorder. Chronic pain syndrome does not explain the excessive use. Anxiety disorder is possible but secondary to opioid use. Medication overuse headache is for analgesics but not specific to opioids.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "16f7683fb1a2",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 38-year-old man is brought to the emergency department with severe agitation, sweating, diarrhoea, and vomiting. He is a known intravenous heroin user and missed his methadone dose for 3 days. He has piloerection and mydriasis. Urine toxicology is positive for opiates. What is the single most likely diagnosis?",
+      "options": [
+        "Benzodiazepine withdrawal",
+        "Acute gastroenteritis",
+        "Opioid use disorder",
+        "Alcohol withdrawal syndrome",
+        "Panic disorder"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of heroin use and missed methadone, combined with piloerection and mydriasis, classically indicate opioid withdrawal. The underlying chronic condition is opioid use disorder. Alcohol withdrawal typically has tachycardia, hypertension, and possibly seizures. Gastroenteritis lacks piloerection and specific drug history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c78eb2210d8d",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with recurrent boils and skin abscesses on her arms and legs. She has multiple linear scars and puncture marks. She denies other medical problems. She uses heroin intravenously daily. What is the single most likely diagnosis?",
+      "options": [
+        "Opioid use disorder",
+        "Autoimmune disease",
+        "Diabetes mellitus",
+        "HIV infection",
+        "Hidradenitis suppurativa"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recurrent skin infections from IV drug use point to opioid use disorder. Diabetes can cause infections but lacks other symptoms. Hidradenitis suppurativa typically affects axillae and groin. HIV would present with more widespread signs. The needle marks are key.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b503398aac9c",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 29-year-old pregnant woman at 28 weeks gestation is on a methadone maintenance programme. She has not used heroin since starting methadone 8 months ago. She remains on a stable dose and has good engagement with the addiction service. What is the single most likely diagnosis?",
+      "options": [
+        "Opioid use disorder (in early remission)",
+        "Opioid use disorder (in active use)",
+        "Generalised anxiety disorder",
+        "Major depressive disorder",
+        "Factitious disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "She has a history of heroin dependence and is on maintenance therapy, so the diagnosis of opioid use disorder persists even with abstinence. Early remission is specified as no criteria met for 3-12 months (she has 8 months). Active use is incorrect as she is abstinent. The other options lack evidence in the vignette.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7a46c627d0fa",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man presents to his GP requesting help for heroin addiction. He reports daily intravenous heroin use for 6 months. Which single investigation is most appropriate to objectively confirm current opioid use?",
+      "options": [
+        "Urine drug screen for opiates",
+        "Serum opioid levels",
+        "Blood alcohol concentration",
+        "Hair analysis for opioids",
+        "Liver function tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "Urine drug screen is the standard initial investigation to detect recent opioid use; serum levels are not routinely used, hair analysis is for chronic use but not immediate, alcohol test unrelated, LFTs do not confirm use.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f4693122aea3",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman on methadone maintenance therapy (80 mg daily) for opioid use disorder attends her regular clinic appointment. She reports no illicit use. Which investigation is most appropriate to monitor treatment adherence and detect relapse?",
+      "options": [
+        "Urine drug screen for methadone and illicit opioids",
+        "Random blood methadone level",
+        "Liver ultrasound",
+        "Electrocardiogram",
+        "Hepatitis C serology"
+      ],
+      "answerIndex": 0,
+      "explanation": "Urine drug screening for methadone and other opioids is the standard monitoring tool in methadone clinics; blood levels are not routinely used for adherence, liver ultrasound screens for complications, ECG is for QTc interval risk but not adherence, Hepatitis C serology screens for infection but not relapse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "462f4dda035f",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man is brought to the emergency department unconscious with respiratory rate 6/min, pinpoint pupils, and track marks on arms. He responds dramatically to intravenous naloxone. Which investigation would best confirm the diagnosis of opioid overdose?",
+      "options": [
+        "Arterial blood gas",
+        "Serum paracetamol level",
+        "CT head",
+        "Blood alcohol level",
+        "Urine toxicology screen"
+      ],
+      "answerIndex": 4,
+      "explanation": "While the clinical picture and naloxone response are diagnostic, urine toxicology screen for opioids confirms the presence of opioids; arterial blood gas may show respiratory acidosis but not cause, CT head rules out other causes but is not necessary, paracetamol and alcohol levels screen for co-ingestants but not the primary opioid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7556ace425b6",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old woman with chronic non-cancer pain prescribed oral morphine 30 mg twice daily for 3 years is referred to the pain clinic. She describes escalating use without prescription, and preoccupation with obtaining the drug. Which investigation is most helpful in distinguishing opioid use disorder from simple physical dependence?",
+      "options": [
+        "Assessment of DSM-5 criteria by clinical interview",
+        "Opioid rotation trial",
+        "Naloxone challenge test",
+        "Urine drug screen for morphine",
+        "Serum morphine level"
+      ],
+      "answerIndex": 0,
+      "explanation": "Opioid use disorder is diagnosed clinically using DSM-5 criteria (e.g., loss of control, craving, continued use despite harm); urine drug screen confirms use but does not differentiate disorder from dependence, serum levels are not diagnostic, opioid rotation is a treatment strategy, naloxone challenge may precipitate withdrawal but does not diagnose the disorder.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "80d63ffa8153",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) with known history of heroin use disorder, currently on methadone maintenance, attends antenatal clinic. Which investigation is most appropriate to detect recent illicit opioid use in this pregnancy?",
+      "options": [
+        "Maternal urine drug screen",
+        "Fetal blood sampling",
+        "Amniocentesis",
+        "Meconium testing at delivery",
+        "Umbilical cord tissue analysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the antenatal period, maternal urine drug screen is the standard method to detect recent illicit opioid use; meconium and umbilical cord testing are used after delivery to assess in utero exposure, amniocentesis and fetal blood sampling are invasive and not indicated for this purpose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f479b59659b4",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man with no significant past medical history presents requesting help for heroin dependence. He has been using heroin daily for 2 years. Urine drug screen confirms opioids. ECG shows QTc 420ms. What is the most appropriate first-line pharmacological maintenance treatment?",
+      "options": [
+        "Clonidine 0.1mg three times daily",
+        "Naltrexone 50mg daily",
+        "Methadone 10-30mg daily",
+        "Lofexidine 0.2mg three times daily",
+        "Buprenorphine 2-8mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend methadone as first-line maintenance therapy for opioid dependence due to superior retention in treatment and reduction in illicit opioid use. Buprenorphine is an alternative if methadone is unsuitable, but methadone is first-line in this uncomplicated case.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3b4b656d585",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with chronic low back pain has been taking codeine 30mg four times daily for 3 years. She now wishes to stop all opioids. She has no other medical problems. What is the most appropriate first-line pharmacological detoxification regimen?",
+      "options": [
+        "Lofexidine 0.2mg three times daily",
+        "Naltrexone 50mg daily",
+        "Clonidine 0.1mg three times daily",
+        "Methadone taper over 7-14 days",
+        "Buprenorphine taper over 7-14 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "For detoxification, buprenorphine is recommended as first-line by NICE due to its better safety profile, shorter duration of action, and lower risk of respiratory depression compared to methadone. Methadone is also used but is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6f421710aed",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man on methadone maintenance (80mg daily) for opioid dependence is found to have a QTc interval of 520ms on routine ECG. He has no other electrolyte abnormalities. What is the most appropriate next step in management?",
+      "options": [
+        "Add a beta-blocker",
+        "Reduce methadone dose to 40mg daily",
+        "Continue methadone at same dose",
+        "Switch to buprenorphine 8mg daily",
+        "Start naltrexone 50mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Methadone is associated with QT prolongation. In this case, switching to buprenorphine (which has minimal effect on QTc) is recommended to reduce the risk of torsades de pointes. Dose reduction may be insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "43e0a6cd0157",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with opioid dependence and a history of acute hepatitis C (alanine aminotransferase 400 U/L) is being considered for pharmacotherapy. He is currently using heroin daily. Which of the following treatments is contraindicated?",
+      "options": [
+        "Buprenorphine",
+        "Naltrexone",
+        "Methadone",
+        "Lofexidine",
+        "Clonidine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Naltrexone is hepatotoxic and is contraindicated in patients with acute hepatitis or liver failure. Methadone and buprenorphine can be used with caution; lofexidine and clonidine are safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00bf24e3e1c0",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman on naltrexone 50mg daily for opioid dependence relapse prevention is scheduled for elective knee arthroplasty. She has been abstinent for 8 months. What is the most appropriate perioperative management of her naltrexone?",
+      "options": [
+        "Switch to buprenorphine 8mg daily",
+        "Stop naltrexone 72 hours before surgery",
+        "Administer naloxone if needed",
+        "Switch to methadone 20mg daily",
+        "Continue naltrexone throughout surgery"
+      ],
+      "answerIndex": 1,
+      "explanation": "Naltrexone blocks opioid receptors and would render standard opioid analgesia ineffective. It should be discontinued 72 hours before surgery to allow for adequate pain control. Restarting postoperatively is determined by the need for ongoing analgesia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d40e0c40bab9",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old man is brought to the ED by ambulance. He is found in a park with reduced consciousness (GCS 10), respiratory rate 6/min, oxygen saturations 88% on room air, pinpoint pupils. No other injuries. What is the most appropriate immediate next action?",
+      "options": [
+        "Secure the airway with an oropharyngeal airway",
+        "Perform a CT head",
+        "Administer naloxone 0.4mg IV",
+        "Administer flumazenil 0.2mg IV",
+        "Check capillary blood glucose"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture strongly suggests opioid overdose (respiratory depression, pinpoint pupils). Naloxone is the specific antidote and should be given immediately. While airway support may be needed, naloxone can rapidly reverse respiratory depression. Flumazenil is for benzodiazepine overdose and may cause seizures in mixed overdoses. CT head and blood glucose are important in reduced consciousness but are not the most urgent priority here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ad0d31f556d0",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman on methadone 60mg daily for opioid dependence missed her dose two days ago due to a bank holiday. She now has mild anxiety, yawning, sweating, and dilated pupils. She is alert, heart rate 90 bpm, BP 135/85. She requests her methadone. What is the most appropriate immediate next action?",
+      "options": [
+        "Perform a Clinical Opiate Withdrawal Scale (COWS) assessment",
+        "Calculate a half dose (30mg) of methadone and give it",
+        "Refer her to the local community drug team for assessment",
+        "Administer her usual methadone dose of 60mg immediately",
+        "Prescribe lofexidine 0.2mg four times daily for withdrawal symptoms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Before administering methadone, the severity of withdrawal must be objectively assessed using a validated tool like COWS. This guides dosing and reduces risk of overdose. Giving a full dose without assessment risks respiratory depression if her tolerance has dropped. Lofexidine is for more severe withdrawal and is not first step. Referral is not immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aeb23a661372",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known opioid use disorder (heroin) is admitted for an elective hernia repair. Post-operatively, 18 hours after his last heroin use, he becomes agitated, tachycardic (HR 115), hypertensive (BP 160/95), and has profuse diarrhoea and vomiting. He is threatening to self-discharge. What is the most appropriate immediate next action?",
+      "options": [
+        "Administer diazepam 10mg IV for agitation",
+        "Perform a point-of-care toxicology screen",
+        "Assess withdrawal severity using a validated scale (COWS)",
+        "Start a methadone detoxification regimen",
+        "Prescribe lofexidine 0.2mg orally stat"
+      ],
+      "answerIndex": 2,
+      "explanation": "Before initiating treatment, objective assessment of withdrawal severity is essential. This guides selection of medication (e.g., lofexidine for moderate/severe, or opioid substitution). Jumping to lofexidine or methadone without assessment risks under- or over-treatment. Diazepam may be used for agitation but not as first step. Toxicology screen is not needed as history is clear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3ce6e3867ab1",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 29-year-old woman at 38 weeks gestation, who is on methadone 80mg daily for opioid dependence, is admitted in labour. She reports severe labour pain and is requesting pain relief. She is on regular supervised methadone. What is the most appropriate immediate next action?",
+      "options": [
+        "Request anaesthetic review for epidural analgesia",
+        "Administer naloxone to prevent neonatal respiratory depression",
+        "Administer intramuscular pethidine for pain",
+        "Increase her methadone dose to 90mg for labour",
+        "Refer her to social services for baby safeguarding"
+      ],
+      "answerIndex": 0,
+      "explanation": "Women on methadone can experience severe pain and need adequate analgesia. Neuraxial analgesia (epidural) is safe and effective. Pethidine is an opioid and may interact; it is not first-line. Increasing methadone is not appropriate for acute pain. Naloxone is contraindicated in the mother and would not prevent neonatal depression. Social services involvement is not an immediate priority for pain.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f6a109c5b599",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 52-year-old man who has been stable on buprenorphine/naloxone (Suboxone) 8mg daily for 6 months with no illicit drug use asks his GP about reducing his dose. He feels ready to stop. What is the most appropriate next step?",
+      "options": [
+        "Reduce the dose by 2mg every month and monitor",
+        "Suggest an immediate discontinuation of buprenorphine",
+        "Prescribe naltrexone 50mg daily to prevent relapse",
+        "Refer him to a specialist addiction service for a planned taper",
+        "Switch him to methadone to facilitate easier detoxification"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tapering of opioid substitution therapy should be done under specialist supervision to minimize relapse risk. Reductions should be slow (often over months) and individualized. Providing naltrexone is for after detoxification, not during taper. Immediate discontinuation risks severe withdrawal and relapse. GP-initiated reduction without specialist input is not recommended by NICE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e30d4aa30658",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old student is brought to the emergency department by his friends because they found him difficult to rouse. He has a history of occasional oxycodone use. On examination, his pupils are constricted. Which single clinical finding most strongly indicates a life-threatening opioid overdose?",
+      "options": [
+        "Heart rate of 55 bpm",
+        "Glasgow Coma Scale score of 12",
+        "Respiratory rate of 6 breaths/min",
+        "Oxygen saturation 92% on room air",
+        "Blood pressure 90/60 mmHg"
+      ],
+      "answerIndex": 2,
+      "explanation": "A respiratory rate of 6 breaths/min indicates severe respiratory depression, the hallmark of life-threatening opioid overdose. While other findings can occur in opioid overdose, the critically depressed respiratory rate is the immediate danger and triggers escalation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eb56a16cbdc2",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man on methadone maintenance therapy (80 mg daily) presents with drowsiness. His partner reports he took his usual dose this morning. Observations: HR 88, BP 110/70, RR 16, SpO2 97%, pupils 2 mm. Which single finding would most strongly suggest opioid toxicity requiring urgent escalation?",
+      "options": [
+        "Respiratory rate of 9 breaths/min",
+        "Blood pressure 100/60 mmHg",
+        "Heart rate of 100 bpm",
+        "Temperature of 38.0°C",
+        "Pupil size of 4 mm"
+      ],
+      "answerIndex": 0,
+      "explanation": "A respiratory rate of 9 breaths/min is below the threshold for concern (<10/min) and indicates impending respiratory failure. The other observations are within normal limits or less specific for opioid toxicity. Pinpoint pupils (not 4 mm) are typical of opioid use, but respiratory rate is the critical red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0eb6065a90ab",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 40-year-old known heroin user is found collapsed in the street. He is unresponsive, with a GCS of 3. Pupils are 1 mm bilaterally. Which single feature is most important in distinguishing opioid overdose from other causes of coma?",
+      "options": [
+        "Hypotension (90/60 mmHg)",
+        "Pinpoint pupils",
+        "Hypothermia (35.0°C)",
+        "Respiratory depression with rate of 5 breaths/min",
+        "Bradycardia (50 bpm)"
+      ],
+      "answerIndex": 3,
+      "explanation": "While pinpoint pupils are classic for opioid overdose, respiratory depression (rate 5/min) is the most specific life-threatening feature that distinguishes opioid overdose from other causes of coma (e.g., stroke, hypoglycaemia) and mandates immediate naloxone. Without respiratory depression, pinpoint pupils could be due to pontine lesions or other drugs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d3ff70af4669",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old intravenous drug user presents with fever, rigors, and a new systolic murmur. He has a history of injecting heroin daily for two years. Which life-threatening complication of opioid use disorder should be suspected?",
+      "options": [
+        "Pulmonary oedema",
+        "Hepatitis C",
+        "Infective endocarditis",
+        "Cellulitis",
+        "Osteomyelitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Infective endocarditis, particularly right-sided (tricuspid valve) with Staphylococcus aureus, is a common and life-threatening complication of IV opioid use. Fever and a new murmur are highly suspicious. Pulmonary oedema can occur but is less specific; cellulitis and hepatitis C are common but not immediately life-threatening in this presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3dbc19452475",
+      "topic": "Opioid Use Disorder",
+      "slug": "opioid-use-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Substance",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A newborn, born at 38 weeks to a mother with opioid use disorder on methadone 60 mg daily, develops tremors, a high-pitched cry, and poor feeding 24 hours after birth. Which condition most likely explains these findings and requires urgent recognition?",
+      "options": [
+        "Hypoxic-ischaemic encephalopathy",
+        "Neonatal hypoglycaemia",
+        "Intracranial haemorrhage",
+        "Neonatal sepsis",
+        "Neonatal abstinence syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of tremors, high-pitched cry, and poor feeding in a newborn with intrauterine opioid exposure is classic for neonatal abstinence syndrome (NAS). This requires prompt assessment and treatment to prevent complications. While sepsis and hypoglycaemia can present similarly, the history of maternal opioid use makes NAS the most likely and is a can't-miss diagnosis.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "The Tachycardic Patient",
+  "slug": "the-tachycardic-patient",
+  "system": "Emergency Medicine",
+  "subSystem": "Ward call",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:58Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "13a10fe257b8",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents with sudden onset of palpitations and shortness of breath. He has a history of hypertension and COPD. On examination, pulse is 140 bpm and irregularly irregular, blood pressure 110/70, respiratory rate 24. ECG shows absent P waves and an irregularly irregular ventricular rate. What is the single most likely diagnosis?",
+      "options": [
+        "Supraventricular tachycardia with variable block",
+        "Sinus tachycardia with frequent ectopics",
+        "Multifocal atrial tachycardia",
+        "Atrial flutter with variable block",
+        "Atrial fibrillation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The irregularly irregular pulse and ECG findings (absent P waves with irregular rhythm) are classic for atrial fibrillation. Atrial flutter with variable block often shows a regularly irregular pattern or sawtooth waves, not absent P waves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9db8d5b962f2",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old female presents with episodes of rapid palpitations that start and stop suddenly. She feels light-headed but no chest pain. On examination, pulse is 180 bpm and regular, blood pressure 100/70. ECG shows a narrow complex tachycardia at 180/min with no visible P waves. What is the single most likely diagnosis?",
+      "options": [
+        "Atrioventricular reentrant tachycardia (AVRT) in Wolff-Parkinson-White syndrome",
+        "Atrial fibrillation",
+        "Sinus tachycardia",
+        "Atrial flutter",
+        "Atrioventricular nodal reentrant tachycardia (AVNRT)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Abrupt onset/offset, narrow complex tachycardia without visible P waves, and age are classic for AVNRT. Atrial flutter typically shows sawtooth waves, and AVRT often has delta waves or visible P waves in sinus rhythm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "14582d9cedeb",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with a history of myocardial infarction 2 years ago presents with palpitations and near-syncope. Pulse is 190 bpm and regular, blood pressure 85/50. ECG shows a broad complex tachycardia at 190/min with a left bundle branch block morphology. What is the single most likely diagnosis?",
+      "options": [
+        "Accelerated idioventricular rhythm",
+        "Atrial fibrillation with pre-excitation",
+        "Supraventricular tachycardia with aberrancy",
+        "Torsades de Pointes",
+        "Ventricular tachycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with prior MI, broad complex tachycardia with haemodynamic instability is most likely ventricular tachycardia. SVT with aberrancy is less likely in the absence of a pre-existing bundle branch block and with this history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ee7b04de7f1",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man with known Wolff-Parkinson-White syndrome presents with a 30-minute episode of palpitations and light-headedness. Pulse is irregularly irregular at 160-200 bpm, blood pressure 95/60. ECG shows a broad complex tachycardia with varying QRS morphology and an irregular rhythm. What is the single most likely diagnosis?",
+      "options": [
+        "Supraventricular tachycardia with aberrancy",
+        "Atrial flutter with variable block and aberrancy",
+        "Ventricular tachycardia",
+        "Multifocal atrial tachycardia",
+        "Atrial fibrillation with pre-excitation (pre-excited AF)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Irregularly irregular broad complex tachycardia in a young patient with WPW is classic for pre-excited atrial fibrillation, where multiple accessory pathways cause varying conduction. Ventricular tachycardia is usually regular and less common in this age group without structural heart disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bc4bd4ee2241",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman with hypertension presents to the emergency department after collapsing at home. She is now alert and complains of palpitations. Pulse is 150 bpm and regular, blood pressure 100/70. ECG shows a narrow complex tachycardia at 150/min with a 'sawtooth' pattern of P waves at 300/min. What is the single most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia",
+        "Atrioventricular nodal reentrant tachycardia",
+        "Atrial tachycardia",
+        "Atrial flutter with 2:1 block",
+        "Atrial fibrillation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sawtooth flutter waves at 300/min with a ventricular rate of 150 (2:1 block) is pathognomonic for atrial flutter. Atrial fibrillation would show irregular rhythm and no organized P waves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83f12cd6b318",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman presents with palpitations. Her pulse is irregularly irregular at 140 bpm. ECG confirms atrial fibrillation. She is haemodynamically stable. Which single investigation would be most appropriate to identify a potentially reversible cause?",
+      "options": [
+        "24-hour Holter monitor",
+        "Chest X-ray",
+        "D-dimer",
+        "Transthoracic echocardiogram",
+        "TSH and free T4"
+      ],
+      "answerIndex": 4,
+      "explanation": "Thyrotoxicosis is a common reversible cause of new-onset atrial fibrillation. NICE recommends thyroid function tests. Echo assesses structure but is not first-line for reversible causes; Holter is for paroxysmal AF; CXR and D-dimer are not indicated in stable new AF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad71ac304a24",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man presents with sudden-onset palpitations and light-headedness. ECG shows a narrow-complex tachycardia at 200 bpm, regular, with no visible P waves. He receives 12 mg IV adenosine. The rhythm strip shows transient AV block with an atrial rate of 200 bpm and ventricular rate of 100 bpm, followed by a return to sinus rhythm. What does this response confirm?",
+      "options": [
+        "Atrial fibrillation",
+        "Atrial flutter",
+        "Atrial tachycardia",
+        "AV nodal re-entrant tachycardia",
+        "Sinus tachycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adenosine-induced AV block uncovers flutter waves (atrial rate 200-300 bpm) confirming atrial flutter. In AVNRT, adenosine typically terminates the tachycardia abruptly without uncovering flutter waves.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f21d0511f773",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with pleuritic chest pain and dyspnoea. Heart rate 110 bpm, blood pressure 100/65 mmHg, oxygen saturation 92% on air. ECG shows sinus tachycardia. Wells' score is 4.5 (moderate probability). What is the most appropriate diagnostic test?",
+      "options": [
+        "V/Q scan",
+        "CT pulmonary angiogram",
+        "Echocardiogram",
+        "D-dimer",
+        "Lower limb venous Doppler"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to NICE, in a patient with a moderate probability of PE (Wells 4.5), a D-dimer should be performed first. If positive, then proceed to CTPA. The presentation suggests possible PE, but confirmatory imaging is not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "621262ba33f0",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with fever, vomiting, and tachycardia presents hypotensive (BP 85/55 mmHg). Her peripheries are cool and she has oliguria. Which single investigation is most useful to confirm tissue hypoperfusion?",
+      "options": [
+        "Central venous pressure",
+        "Bedside echocardiogram",
+        "Arterial blood gas",
+        "Serum lactate",
+        "Mixed venous oxygen saturation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lactate is a key marker of tissue hypoperfusion and is part of the Sepsis-3 definition of septic shock. ABG also provides lactate, but serum lactate is the direct test. The other options are not first-line to confirm hypoperfusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3b09b408dcba",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with weight loss, heat intolerance, and palpitations at rest (HR 110 bpm). She has a diffuse goitre. Which blood test is most specific to confirm the diagnosis of hyperthyroidism?",
+      "options": [
+        "TSH alone",
+        "TSH and free T4",
+        "Free T3 alone",
+        "Free T4 alone",
+        "Anti-thyroid peroxidase antibodies"
+      ],
+      "answerIndex": 1,
+      "explanation": "A suppressed TSH with an elevated free T4 is the gold standard for diagnosing primary hyperthyroidism. TSH alone may miss T4-normal hyperthyroidism; free T4 alone does not confirm central; anti-TPO antibodies are for autoimmune aetiology, not diagnosis of hyperthyroidism itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "05a878167bd2",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old hypertensive woman presents with palpitations and breathlessness. ECG shows atrial fibrillation with a ventricular rate of 130 bpm. She is haemodynamically stable, BP 128/76 mmHg, and not in heart failure. What is the most appropriate first-line therapy for rate control?",
+      "options": [
+        "Flecainide",
+        "Digoxin",
+        "Verapamil",
+        "Bisoprolol",
+        "Amiodarone"
+      ],
+      "answerIndex": 3,
+      "explanation": "In stable AF, first-line rate control in UK guidelines is a beta-blocker (e.g., bisoprolol) or a rate-limiting calcium-channel blocker if beta-blocker contraindicated. Amiodarone and flecainide are rhythm control agents; digoxin is second-line, particularly in sedentary patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "07edb411cafb",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old otherwise healthy woman presents with sudden-onset fast regular palpitations, feeling lightheaded but conscious. ECG shows narrow-complex tachycardia at 190 bpm. She is haemodynamically stable (BP 110/72). What is the first-line treatment for this acute episode of supraventricular tachycardia?",
+      "options": [
+        "Valsalva manoeuvre",
+        "Carotid sinus massage",
+        "Adenosine 6 mg IV",
+        "Synchronised DC cardioversion (100 J)",
+        "Verapamil 5 mg IV"
+      ],
+      "answerIndex": 0,
+      "explanation": "For haemodynamically stable SVT, the first-line intervention is a vagal manoeuvre—the Valsalva (or modified Valsalva) is preferred over carotid sinus massage due to higher efficacy and lower risk. Adenosine is the first pharmacological option if vagal manoeuvres fail.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0501453fd978",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man is admitted with hypotension (BP 85/50), fever, and a heart rate of 115 bpm. He has sinus tachycardia on ECG. Blood cultures are pending, but lactate is 4 mmol/L. The diagnosis is septic shock. What is the single most important first-line treatment for his condition?",
+      "options": [
+        "IV broad-spectrum antibiotics",
+        "IV noradrenaline (norepinephrine)",
+        "Synchronised DC cardioversion",
+        "IV beta-blocker (metoprolol)",
+        "IV crystalloid bolus (500 mL)"
+      ],
+      "answerIndex": 0,
+      "explanation": "In septic shock, source control and early broad-spectrum antibiotics are the definitive therapy. While fluid resuscitation is crucial, antibiotics are the primary treatment for the underlying infection. Beta-blockers are contraindicated in decompensated shock, and cardioversion is not indicated for sinus tachycardia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ae46ec856fa4",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old man with known Wolff-Parkinson-White (WPW) syndrome presents with palpitations. ECG shows atrial fibrillation with rapid ventricular response (up to 200 bpm) and pre-excited QRS. He is stable (BP 115/70). Which of the following drugs is CONTRAINDICATED as first-line therapy in this setting?",
+      "options": [
+        "Digoxin",
+        "Adenosine",
+        "Amiodarone",
+        "Synchronised DC cardioversion",
+        "Flecainide"
+      ],
+      "answerIndex": 0,
+      "explanation": "In AF with pre-excitation, AV nodal blocking agents like digoxin, verapamil (not listed), and beta-blockers are contraindicated because they can enhance conduction down the accessory pathway, risking ventricular fibrillation. Amiodarone and flecainide are acceptable; DC cardioversion is reserved for instability.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30b5641155b5",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with Graves' disease presents with fever, agitation, and heart rate 140 bpm (sinus tachycardia). BP is 140/85. She is diagnosed with thyroid storm. Which drug is the most appropriate first-line therapy for controlling her tachycardia?",
+      "options": [
+        "Amiodarone",
+        "Verapamil",
+        "Carbimazole",
+        "Digoxin",
+        "Propranolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In thyroid storm, propranolol is the drug of choice because it provides rapid rate control and also reduces peripheral conversion of T4 to T3. Carbimazole treats the cause but takes days to work. Amiodarone contains iodine and may worsen the storm. Digoxin and verapamil are less effective for the hyperadrenergic state.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd5874610e7e",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman presents to ED with palpitations and mild dizziness. ECG shows atrial fibrillation with a ventricular rate of 140 bpm. BP 110/70 mmHg, no chest pain, oxygen saturations 97% on air. What is the most appropriate immediate next step?",
+      "options": [
+        "Urgent echocardiogram",
+        "IV amiodarone",
+        "Synchronised direct current cardioversion",
+        "IV digoxin",
+        "Oral bisoprolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In haemodynamically stable atrial fibrillation, rate control with a beta-blocker (e.g., bisoprolol) is first-line per NICE CG180. Digoxin is second-line; amiodarone is used for rhythm control; cardioversion is reserved for instability or failed rate control; echo is not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f66e8d90b64",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with sudden palpitations, heart rate 190 bpm, narrow QRS complexes on monitor, BP 105/70 mmHg. She is anxious but alert. No chest pain or breathlessness. What is the most appropriate immediate next step?",
+      "options": [
+        "Valsalva manoeuvre",
+        "Carotid sinus massage",
+        "Synchronised cardioversion",
+        "IV adenosine 6 mg",
+        "IV metoprolol"
+      ],
+      "answerIndex": 0,
+      "explanation": "For haemodynamically stable narrow-complex tachycardia, vagal manoeuvres (specifically Valsalva) are recommended first. Adenosine is given if vagal manoeuvres fail. Cardioversion is only for unstable patients. Beta-blockers are not first-line for termination.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5bf485704382",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with previous myocardial infarction presents with palpitations, heart rate 180 bpm, broad QRS tachycardia, BP 85/50 mmHg, confused and clammy. What is the most appropriate immediate next step?",
+      "options": [
+        "IV amiodarone 300 mg",
+        "IV lidocaine 100 mg",
+        "IV adenosine 6 mg",
+        "Synchronised cardioversion (100-200 J)",
+        "Valsalva manoeuvre"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is haemodynamically unstable broad-complex tachycardia (likely VT). Immediate synchronised cardioversion is the priority per UK Resuscitation Council guidelines. Antiarrhythmics are reserved for stable VT or post-cardioversion. Adenosine is contraindicated in broad-complex tachycardia of uncertain origin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "706f0fc7e025",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 42-year-old woman with known Graves' disease presents with palpitations, tremor, heart rate 135 bpm, BP 135/80 mmHg, afebrile, no chest pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Start propranolol 40 mg PO",
+        "Refer to endocrinology clinic",
+        "Check thyroid function tests",
+        "Start carbimazole 20 mg PO",
+        "Start propylthiouracil 200 mg PO"
+      ],
+      "answerIndex": 0,
+      "explanation": "In thyrotoxicosis with symptomatic tachycardia, beta-blockade with propranolol provides rapid symptom control by reducing heart rate and adrenergic effects. Antithyroid drugs are started after diagnosis is confirmed, not as an immediate step. TFTs can be checked concurrently but treatment should not be delayed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9414c4ec8221",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman presents 3 days post-laparotomy for bowel perforation. She is tachycardic (HR 125 bpm), BP 100/60 mmHg, temperature 38.6°C, oxygen saturations 95% on air, confused. What is the most appropriate immediate next step?",
+      "options": [
+        "Give IV fluid bolus (500 mL crystalloid)",
+        "Take blood cultures then start IV broad-spectrum antibiotics",
+        "Start noradrenaline infusion",
+        "Perform CT abdomen with contrast",
+        "Insert central venous line"
+      ],
+      "answerIndex": 1,
+      "explanation": "This scenario meets sepsis criteria (qSOFA: confusion, HR>100, RR? but tachycardic). The Sepsis Six recommends taking blood cultures then administering IV antibiotics within 1 hour as the priority; fluids are also important but antibiotics address the source. CT is not immediate; central line and inotropes are later steps.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "43f33752f325",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with sudden onset palpitations. ECG shows narrow-complex tachycardia at 180 bpm, regular. Which finding is most concerning for a life-threatening condition?",
+      "options": [
+        "Presence of delta waves",
+        "BP 110/70 mmHg",
+        "History of asthma",
+        "Absence of P waves",
+        "Rate >200 bpm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Delta waves indicate ventricular pre-excitation (Wolff-Parkinson-White syndrome), which can lead to sudden cardiac death if atrial fibrillation converts to ventricular fibrillation. Absence of P waves and rates >200 are common in AVNRT, which is usually benign. BP 110/70 is stable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0dc30f018093",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with COPD and hypertension presents with palpitations and mild dyspnoea. ECG shows atrial fibrillation with rapid ventricular response (HR 130 bpm). Which finding would indicate the need for immediate synchronised cardioversion?",
+      "options": [
+        "Irregularly irregular pulse",
+        "HR >150 bpm",
+        "Signs of heart failure",
+        "BP 100/70 mmHg",
+        "BP 85/50 mmHg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Systolic BP <90 mmHg is a threshold for haemodynamic instability, requiring immediate cardioversion. HR >150, irregular pulse, and signs of heart failure are common but do not alone mandate immediate cardioversion if BP is stable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "56de882d670d",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with known ischaemic cardiomyopathy presents with chest pain and rapid palpitations. ECG shows broad-complex tachycardia at 220 bpm. Which finding most strongly suggests this is ventricular tachycardia?",
+      "options": [
+        "History of myocardial infarction",
+        "Rate >200 bpm",
+        "Narrow QRS complex",
+        "Absence of RS complexes in any precordial lead",
+        "Left axis deviation"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to the Brugada algorithm, absence of RS complexes in all precordial leads is a strong criterion for ventricular tachycardia. History of MI increases likelihood but is not as specific. Rate >200 can occur in SVT. Left axis deviation is suggestive but not definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7af556029b24",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with atrial fibrillation on warfarin presents with acute onset severe abdominal pain and vomiting. She is tachycardic at 110 bpm. Which abdominal examination finding suggests a life-threatening complication?",
+      "options": [
+        "Hepatomegaly",
+        "Abdominal distension",
+        "Absent bowel sounds",
+        "Rigid abdomen",
+        "Haematochezia"
+      ],
+      "answerIndex": 3,
+      "explanation": "A rigid abdomen indicates peritonism, which is a sign of intestinal ischaemia/infarction from embolic occlusion of mesenteric vessels, a catastrophic complication of atrial fibrillation. Hepatomegaly and distension are non-specific. Haematochezia may occur but peritonism is more acute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73a46d494eac",
+      "topic": "The Tachycardic Patient",
+      "slug": "the-tachycardic-patient",
+      "system": "Emergency Medicine",
+      "subSystem": "Ward call",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man on digoxin for atrial fibrillation presents with nausea, vomiting, and palpitations. ECG shows atrial tachycardia with block. Which arrhythmia finding indicates life-threatening digoxin toxicity?",
+      "options": [
+        "Ventricular tachycardia",
+        "Serum digoxin level 2.0 ng/mL",
+        "Potassium 3.0 mmol/L",
+        "Complaint of blurred vision",
+        "Ventricular bigeminy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ventricular tachycardia is a life-threatening arrhythmia in digoxin toxicity requiring immediate intervention. Ventricular bigeminy is a sign but less urgent. Hypokalaemia and digoxin level >2.0 are risk factors but not immediately lethal. Blurred vision is a common non-urgent side effect.",
+      "difficulty": "medium"
+    }
+  ]
+}

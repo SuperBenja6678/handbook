@@ -1,0 +1,513 @@
+{
+  "topic": "Disseminated Intravascular Coagulation",
+  "slug": "disseminated-intravascular-coagulation",
+  "system": "Haematology",
+  "subSystem": "Coagulopathy",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:26Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "de65c346dd62",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with confusion and fever. He has petechiae on his trunk and oozing from venepuncture sites. Bloods: Hb 100 g/L, WCC 15×10^9/L, platelets 40×10^9/L, PT 20 s, APTT 50 s, fibrinogen 1.0 g/L, D-dimer 10 mg/L, blood film shows schistocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Immune thrombocytopenia",
+        "Haemolytic uraemic syndrome",
+        "Thrombotic thrombocytopenic purpura",
+        "Liver failure",
+        "Disseminated intravascular coagulation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of coagulopathy (prolonged PT/APTT, low fibrinogen), thrombocytopenia, and elevated D-dimer with schistocytes in a septic patient strongly supports DIC. TTP and HUS typically have normal PT/APTT and fibrinogen. Liver failure may cause coagulopathy but not such high D-dimer or schistocytes. ITP causes isolated thrombocytopenia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24b4439cf2a1",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old primigravida at 36 weeks' gestation presents with sudden onset of abdominal pain and vaginal bleeding. The uterus is tender and firm. Fetal heart rate shows bradycardia. Bloods: Hb 90 g/L, platelets 80×10^9/L, PT 22 s, APTT 60 s, fibrinogen 0.8 g/L, D-dimer 12 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "HELLP syndrome",
+        "Placenta praevia",
+        "Disseminated intravascular coagulation due to placental abruption",
+        "Amniotic fluid embolism",
+        "Thrombotic thrombocytopenic purpura"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture of painful vaginal bleeding, tender uterus, and fetal distress suggests abruption. The coagulopathy (low fibrinogen, prolonged PT/APTT, high D-dimer) with thrombocytopenia indicates DIC. HELLP typically has less severe coagulopathy and is associated with pre-eclampsia. TTP has no coagulopathy. Amniotic fluid embolism presents with sudden collapse. Placenta praevia is painless.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9de6579b7b45",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with metastatic prostate cancer on hormone therapy presents with easy bruising and a swollen, painful left calf. Duplex ultrasound confirms deep vein thrombosis. Bloods: Hb 110 g/L, platelets 120×10^9/L, PT 17 s, APTT 45 s, fibrinogen 1.8 g/L, D-dimer 5 mg/L, blood film shows occasional schistocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Acute disseminated intravascular coagulation",
+        "Primary fibrinolysis",
+        "Antiphospholipid syndrome",
+        "Liver metastases causing coagulopathy",
+        "Chronic disseminated intravascular coagulation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chronic DIC often presents with mild coagulopathy and thrombosis, especially in malignancy. The combination of mild thrombocytopenia, prolonged clotting times, low normal fibrinogen, elevated D-dimer, and schistocytes is characteristic. Acute DIC would have more severe derangements. Antiphospholipid syndrome typically shows prolonged APTT that does not correct, but fibrinogen is normal. Liver metastases may cause coagulopathy but not typically elevated D-dimer and schistocytes. Primary fibrinolysis has low fibrinogen but normal platelet count.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "081229df35e4",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with newly diagnosed acute promyelocytic leukaemia (APML) presents with severe epistaxis and extensive ecchymoses after starting induction chemotherapy. Bloods: Hb 80 g/L, WCC 2×10^9/L, platelets 20×10^9/L, PT 25 s, APTT 70 s, fibrinogen 0.6 g/L, D-dimer 20 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Heparin-induced thrombocytopenia",
+        "Disseminated intravascular coagulation",
+        "Thrombotic thrombocytopenic purpura",
+        "Chemotherapy-induced myelosuppression",
+        "Vitamin K deficiency"
+      ],
+      "answerIndex": 1,
+      "explanation": "APML is strongly associated with DIC due to release of procoagulants from promyelocytes. The marked coagulopathy (prolonged PT/APTT, low fibrinogen, high D-dimer) with severe thrombocytopenia is diagnostic. HIT does not cause coagulopathy. TTP has normal PT/APTT and fibrinogen. Chemotherapy myelosuppression causes only thrombocytopenia. Vitamin K deficiency prolongs PT but not APTT significantly and does not elevate D-dimer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9aa9b3cadc6c",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man with no medical history presents with fever, widespread non-blanching purpura, and hypotension. He is drowsy. Bloods: Hb 120 g/L, WCC 22×10^9/L, platelets 30×10^9/L, PT 24 s, APTT 65 s, fibrinogen 0.5 g/L, D-dimer 15 mg/L, blood film shows schistocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Thrombotic thrombocytopenic purpura",
+        "Immune thrombocytopenia",
+        "Disseminated intravascular coagulation due to meningococcal sepsis",
+        "Haemolytic uraemic syndrome",
+        "Systemic vasculitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation of fever, purpura, and hypotension suggests meningococcaemia. Coagulopathy (prolonged PT/APTT, low fibrinogen, high D-dimer) with thrombocytopenia and schistocytes confirms DIC (purpura fulminans). TTP and HUS do not cause such severe coagulopathy. Vasculitis would have elevated ESR/CRP and no coagulopathy. ITP does not cause coagulopathy or schistocytes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5eddc40995fe",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with pneumonia and septic shock develops widespread petechiae and oozing from venepuncture sites. Full blood count shows Hb 110 g/L, WCC 15×10^9/L, platelets 50×10^9/L. Coagulation screen: PT 20 seconds, APTT 50 seconds, fibrinogen 1.2 g/L. Which of the following is the most accurate interpretation of these results?",
+      "options": [
+        "Vitamin K deficiency",
+        "Disseminated intravascular coagulation (DIC)",
+        "Liver disease",
+        "Heparin effect",
+        "Normal coagulation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of low platelets, prolonged PT/APTT, and low fibrinogen in a septic patient is characteristic of DIC. The low fibrinogen distinguishes it from liver disease, where fibrinogen is often normal or high. Vitamin K deficiency would not lower platelets or fibrinogen, and heparin prolongs APTT more than PT without causing thrombocytopenia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ae9d52e26fdb",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with suspected DIC has a peripheral blood smear examined. Which finding would support the diagnosis?",
+      "options": [
+        "Target cells",
+        "Sickle cells",
+        "Schistocytes",
+        "Rouleaux",
+        "Spherocytes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Schistocytes (fragmented RBCs) are characteristic of microangiopathic haemolytic anaemia (MAHA), which is a feature of DIC due to fibrin strands in small vessels. Spherocytes suggest autoimmune haemolysis, target cells indicate liver disease or thalassaemia, and rouleaux are seen in myeloma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6b5cb6d3f906",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old pregnant woman with placental abruption develops heavy vaginal bleeding. Which laboratory test is most helpful to differentiate DIC from other coagulopathies in this obstetric emergency?",
+      "options": [
+        "Fibrinogen level",
+        "Platelet count",
+        "D-dimer",
+        "Prothrombin time",
+        "Activated partial thromboplastin time"
+      ],
+      "answerIndex": 0,
+      "explanation": "In placental abruption, rapid consumption of fibrinogen leads to hypofibrinogenaemia, which is a key diagnostic feature of DIC. D-dimer is elevated in normal pregnancy and is less specific. Platelet count and PT/APTT may be abnormal but are not as discriminative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da9d4e8a59db",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with acute myeloid leukaemia and fever is investigated for bruising. Coagulation screen: PT 17 seconds, APTT 45 seconds, platelets 20×10^9/L, fibrinogen 4.0 g/L, D-dimer 3000 ng/mL. Which interpretation is most accurate?",
+      "options": [
+        "Findings suggest haemophilia",
+        "Findings suggest liver disease",
+        "Findings suggest vitamin K deficiency",
+        "DIC is excluded because fibrinogen is normal",
+        "Disseminated intravascular coagulation (DIC) is present"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute DIC, fibrinogen may be normal or elevated due to acute phase response. The combination of low platelets, prolonged PT/APTT, and markedly elevated D-dimer in a patient with AML and sepsis is diagnostic of DIC. Normal fibrinogen does not exclude DIC.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dde2607c20f2",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with decompensated cirrhosis and ascites presents with haematemesis. Coagulation screen: PT 22 seconds, APTT 50 seconds, platelets 60×10^9/L, fibrinogen 0.9 g/L, D-dimer 1500 ng/mL. Which single test is most useful to differentiate DIC from chronic liver disease?",
+      "options": [
+        "Reptilase time",
+        "von Willebrand factor antigen",
+        "Protein C activity",
+        "Factor VIII activity",
+        "Thrombin time"
+      ],
+      "answerIndex": 3,
+      "explanation": "Factor VIII is produced by both hepatocytes and extrahepatic endothelium. In chronic liver disease, factor VIII is normal or elevated; in DIC, it is consumed and therefore low. Factor VIII activity can help distinguish between the two conditions when other tests are equivocal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0b08607a56fb",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with septic shock from community-acquired pneumonia develops DIC with profuse bleeding from venepuncture sites and mucosal surfaces. Investigations: Hb 90 g/L, platelets 30×10⁹/L, fibrinogen 0.8 g/L, PT 22 s, APTT 55 s, D-dimer markedly elevated. Which of the following therapies is CONTRAINDICATED in this patient?",
+      "options": [
+        "Fresh frozen plasma",
+        "Vitamin K",
+        "Cryoprecipitate",
+        "Tranexamic acid",
+        "Platelet transfusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tranexamic acid is an antifibrinolytic that can precipitate thrombosis in DIC, where microvascular thrombi are already present. It is contraindicated in DIC with active bleeding, whereas blood product support (FFP, cryoprecipitate, platelets) and vitamin K (if deficient) are appropriate adjunctive therapies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b75fc0418c12",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man is brought to the emergency department 2 hours after being bitten by a European viper. He has painful swelling of the limb, bleeding from the puncture wound, and widespread petechiae. Coagulation screen shows: platelets 50×10⁹/L, fibrinogen 0.6 g/L, PT > 60 s, APTT > 100 s. He is diagnosed with venom-induced consumptive coagulopathy (DIC). What is the single most appropriate first-line therapy?",
+      "options": [
+        "Unfractionated heparin",
+        "Platelet transfusion",
+        "Cryoprecipitate",
+        "Fresh frozen plasma",
+        "Antivenom"
+      ],
+      "answerIndex": 4,
+      "explanation": "The definitive treatment for snake venom-induced DIC is antivenom, which neutralises the toxins causing consumptive coagulopathy. Blood products provide only temporary support and do not address the underlying cause. Heparin is contraindicated as it exacerbates bleeding risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8242a1ee829",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 29-year-old primigravida at 34 weeks gestation presents with sudden onset severe abdominal pain and vaginal bleeding. On examination, the uterus is rigid and tender, and fetal heart rate is absent. Blood tests reveal: Hb 80 g/L, platelets 40×10⁹/L, fibrinogen 0.5 g/L, PT 28 s, APTT 70 s, D-dimer > 10 mg/L. She is diagnosed with placental abruption causing DIC. What is the single most appropriate definitive management?",
+      "options": [
+        "Fresh frozen plasma 15 mL/kg",
+        "Cryoprecipitate 2 pools",
+        "Emergency caesarean section",
+        "Tranexamic acid 1 g IV",
+        "Platelet transfusion 1 pool"
+      ],
+      "answerIndex": 2,
+      "explanation": "The definitive management of DIC secondary to placental abruption is delivery of the fetus, which removes the source of thromboplastin release. Blood product support is given concurrently but does not treat the underlying cause. Tranexamic acid is relatively contraindicated due to the risk of thrombosis in DIC.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "193acc3afaa8",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man is brought to the trauma bay after a road traffic accident with pelvic fractures and ongoing bleeding. His temperature is 35.5°C, pulse 120 bpm, BP 80/50 mmHg. His coagulation screen is consistent with acute traumatic coagulopathy and DIC (platelets 70×10⁹/L, fibrinogen 1.2 g/L, PT 25 s, APTT 50 s). He received 4 units of packed red cells en route. Time of injury was 45 minutes ago. Which of the following has been shown to reduce mortality in this setting?",
+      "options": [
+        "Cryoprecipitate 2 pools",
+        "Recombinant activated factor VII",
+        "Vitamin K 10 mg IV",
+        "Platelet transfusion 1 pool",
+        "Tranexamic acid 1 g IV over 10 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "The CRASH-2 trial demonstrated a reduction in mortality with early administration of tranexamic acid (within 3 hours) in trauma patients with bleeding. It is now standard care. Recombinant factor VIIa is not routinely recommended, and blood products are given as guided by viscoelastic testing or massive transfusion protocols.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca391ead66b7",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with newly diagnosed metastatic prostate cancer (Gleason 9, PSA 450 ng/mL) presents with easy bruising and epistaxis. Full blood count shows Hb 100 g/L, platelets 75×10⁹/L. Coagulation screen: PT 14 s, APTT 35 s, fibrinogen 2.5 g/L, D-dimer 2.5 mg/L. He is diagnosed with low-grade chronic DIC. What is the most appropriate first-line therapy?",
+      "options": [
+        "Tranexamic acid 1 g TDS",
+        "Observation alone",
+        "Low molecular weight heparin prophylactic dose",
+        "Platelet transfusion to maintain count > 50",
+        "Start androgen deprivation therapy (e.g., leuprolide)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The definitive management of chronic DIC due to malignancy is treatment of the underlying cancer. Androgen deprivation therapy targets the prostate cancer, which often leads to resolution of the coagulopathy. Anticoagulation is not indicated in the absence of thrombosis, and antifibrinolytics are relatively contraindicated due to thrombotic risk. Platelet transfusion is reserved for severe bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33f803c19480",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man admitted 2 hours ago with septic shock secondary to pneumonia. He is hypotensive (BP 85/50) and febrile (39°C). He has no active bleeding. Blood results: platelets 85×10^9/L, fibrinogen 1.8 g/L, PT 16 s, APTT 45 s, D-dimer 5 mg/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give 1 pool of platelets",
+        "Request haematology review",
+        "Give 4 units of fresh frozen plasma",
+        "Give 2 pools of cryoprecipitate",
+        "Give intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 4,
+      "explanation": "The underlying cause (sepsis) drives DIC. Immediate antibiotics treat the infection, which is the most critical intervention. Platelet transfusion is not indicated without bleeding, even in severe thrombocytopenia, per UK guidelines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "309dfbdb5544",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman 6 hours post-emergency laparotomy for a ruptured abdominal aortic aneurysm. She has ongoing bleeding from surgical drains and venipuncture sites. Observations: HR 110, BP 90/60. Lab results: platelets 30×10^9/L, fibrinogen 1.0 g/L, PT 22 s, APTT 60 s. What is the most appropriate immediate next step?",
+      "options": [
+        "Give 4 units of fresh frozen plasma",
+        "Give 1 pool of platelets",
+        "Activate major haemorrhage protocol",
+        "Give 1 g intravenous tranexamic acid",
+        "Give 2 pools of cryoprecipitate"
+      ],
+      "answerIndex": 1,
+      "explanation": "With active bleeding and platelet count <50×10^9/L, platelet transfusion is first priority per UK haemorrhage guidelines. Cryoprecipitate for low fibrinogen is also needed but platelets should be given first as they are usually ordered urgently. Activating MHP is appropriate but not a single action—the question asks for a specific transfusion step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d07dd376ca6c",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old primigravida at 36 weeks gestation presents with sudden severe abdominal pain and vaginal bleeding. She is tachycardic (HR 120) and hypotensive (BP 85/50). Bedside ultrasound suggests placental abruption. Blood results: platelets 60×10^9/L, fibrinogen 1.2 g/L, PT 18 s, APTT 50 s. What is the most appropriate immediate next step?",
+      "options": [
+        "Give 2 pools of cryoprecipitate",
+        "Give 1 pool of platelets",
+        "Start intravenous broad-spectrum antibiotics",
+        "Perform emergency caesarean section",
+        "Call senior obstetrician"
+      ],
+      "answerIndex": 3,
+      "explanation": "In placental abruption with DIC, definitive treatment is delivery of the fetus and placenta to remove the source of thromboplastin. This takes priority over blood product support to stop the consumptive process. Platelets and cryoprecipitate can be given concurrently but delivery is the critical action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19b5999a67e5",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old man presents with bruising, fatigue, and a fever. Full blood count shows pancytopenia. Blood film shows promyelocytes with Auer rods. Coagulation screen: platelets 45×10^9/L, fibrinogen 1.1 g/L, PT 18 s, APTT 55 s, D-dimer elevated. What is the most appropriate immediate next step?",
+      "options": [
+        "Request haematology consultation before any action",
+        "Perform bone marrow biopsy",
+        "Give 1 pool of platelets",
+        "Start oral all-trans retinoic acid (ATRA)",
+        "Start empiric chemotherapy with daunorubicin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute promyelocytic leukaemia (APL) with DIC requires urgent ATRA to correct the coagulopathy and prevent haemorrhagic death. ATRA is disease-specific and should be started on clinical suspicion before waiting for confirmatory tests. Platelet transfusion alone is insufficient without addressing the underlying disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b2cbcb879fbd",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old marathon runner collapsed during a race. Core temperature is 41.5°C. He is confused and has bleeding from the nose and venipuncture sites. Blood results: platelets 55×10^9/L, fibrinogen 1.0 g/L, PT 20 s, APTT 60 s, D-dimer 8 mg/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give 2 pools of cryoprecipitate",
+        "Start active cooling measures",
+        "Start intravenous broad-spectrum antibiotics",
+        "Give 1 g intravenous tranexamic acid",
+        "Give 1 pool of platelets"
+      ],
+      "answerIndex": 1,
+      "explanation": "DIC in heatstroke is driven by hyperthermia. Immediate active cooling (e.g., cold IV fluids, ice packs) is the priority to lower core temperature and stop the consumptive process. Blood products are supportive but secondary to treating the underlying cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "896b7edaf8ca",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man underwent emergency laparotomy for perforated diverticulitis. Twenty-four hours postoperatively, he has oozing from the surgical wound and drain. His platelet count is 80 × 10^9/L, PT 20 s, APTT 45 s, fibrinogen 0.8 g/L, and D-dimer >10 mg/L. Which single laboratory finding indicates severe DIC requiring immediate escalation?",
+      "options": [
+        "Platelet count <100 × 10^9/L",
+        "D-dimer >10× upper limit of normal",
+        "PT >18 s",
+        "APTT >40 s",
+        "Fibrinogen <1.0 g/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "In DIC, a fibrinogen level below 1.0 g/L indicates severe consumption and is associated with high risk of bleeding, prompting urgent cryoprecipitate or fibrinogen concentrate. While other values are abnormal, fibrinogen <1.0 is a critical red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7db44c9c332d",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman with pneumonia has a platelet count of 120 × 10^9/L, INR 1.3, and D-dimer 4× the upper reference limit. A blood film shows occasional schistocytes. There is no bleeding. Which single finding most strongly supports a diagnosis of DIC rather than sepsis-associated thrombocytopenia alone?",
+      "options": [
+        "Normal fibrinogen",
+        "Prolonged INR",
+        "Elevated D-dimer",
+        "Thrombocytopenia",
+        "Schistocytes on film"
+      ],
+      "answerIndex": 4,
+      "explanation": "Schistocytes indicate microangiopathic haemolytic anaemia (MAHA), a hallmark of DIC that distinguishes it from simple sepsis-related consumption. Isolated thrombocytopenia and raised D-dimer are less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13123d6ee4f5",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 25-year-old man with newly diagnosed acute promyelocytic leukaemia (APL) presents with bruising and epistaxis. Platelets 30 × 10^9/L, fibrinogen 0.7 g/L, PT 25 s, APTT 50 s. Which life-threatening condition must be excluded before initiating standard DIC treatment?",
+      "options": [
+        "Haemolytic uraemic syndrome",
+        "Liver cirrhosis",
+        "Vitamin K deficiency",
+        "Thrombotic thrombocytopenic purpura",
+        "Primary hyperfibrinolysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "In APL, coagulopathy is often due to primary hyperfibrinolysis (mediated by annexin II) rather than classic DIC. Treating with cryoprecipitate alone may worsen thrombosis; specific therapy (e.g., tranexamic acid) may be needed. Excluding primary fibrinolysis is critical.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "de0c7395775d",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old primigravida at 35 weeks' gestation has a placental abruption with moderate vaginal bleeding. She is haemodynamically stable. Which single clinical finding suggests that she has developed disseminated intravascular coagulation?",
+      "options": [
+        "Petechiae on the trunk and limbs",
+        "Frank haematuria",
+        "Tachycardia with hypotension",
+        "Uterine rigidity",
+        "Profuse vaginal bleeding"
+      ],
+      "answerIndex": 0,
+      "explanation": "Petechiae indicate systemic thrombocytopenia-related microvascular bleeding beyond the primary site (placenta), confirming consumptive coagulopathy. Heavy vaginal bleeding alone could still be from the abruption.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb5c4119ff8a",
+      "topic": "Disseminated Intravascular Coagulation",
+      "slug": "disseminated-intravascular-coagulation",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 4-year-old child with meningococcal septicaemia develops purpura fulminans. Which of the following clinical signs is most characteristic of DIC in this setting?",
+      "options": [
+        "Conjunctival haemorrhages",
+        "Purpuric rash on the lower limbs",
+        "Splinter haemorrhages",
+        "Symmetric peripheral gangrene of digits",
+        "Palatal petechiae"
+      ],
+      "answerIndex": 3,
+      "explanation": "Symmetric peripheral gangrene is a hallmark of DIC-associated purpura fulminans in meningococcaemia, indicating microvascular thrombosis and ischaemia. Other purpuric signs are less specific.",
+      "difficulty": "medium"
+    }
+  ]
+}

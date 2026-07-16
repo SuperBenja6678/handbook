@@ -1,0 +1,513 @@
+{
+  "topic": "Serotonin Syndrome",
+  "slug": "serotonin-syndrome",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug reaction",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:38:01Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "225d45bd5860",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman on fluoxetine 20 mg daily presents with a two-day history of tremor, diarrhoea, and agitation. Four hours ago she took a single dose of tramadol 50 mg for knee pain. On examination, she is diaphoretic, heart rate 110 bpm, temperature 37.8°C, blood pressure 140/80 mmHg. There is spontaneous clonus of the ankles and hyperreflexia with sustained ankle clonus. What is the single most likely diagnosis?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Serotonin syndrome",
+        "Malignant hyperthermia",
+        "Anticholinergic delirium",
+        "Thyroid storm"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of a serotonergic drug (fluoxetine) and a serotonergic opioid (tramadol), plus clonus, hyperreflexia, and mild hyperthermia, is classic for serotonin syndrome. Neuroleptic malignant syndrome typically presents with rigidity and bradykinesia, not clonus. Malignant hyperthermia follows anaesthetic agents. Thyroid storm lacks clonus. Anticholinergic delirium causes urinary retention, dry skin, and mydriasis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f33d3e1831dd",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man on sertraline 100 mg daily presents with a one-week history of mild tremor, loose stools, and feeling 'on edge'. He has no fever, and vital signs are normal. Examination reveals mild hyperreflexia but no clonus. He denies any new medications. What is the single most likely diagnosis?",
+      "options": [
+        "Gastroenteritis",
+        "Hyperthyroidism",
+        "Generalised anxiety disorder",
+        "SSRI side effect (non-syndromic)",
+        "Serotonin syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "Even in the absence of clonus or hyperthermia, the triad of tremor, diarrhoea, and hyperreflexia in a patient on an SSRI points to mild serotonin syndrome. Non-syndromic SSRI side effects often include nausea or sexual dysfunction, but not hyperreflexia. Anxiety disorder and hyperthyroidism do not explain the hyperreflexia or loose stools without other features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "983a4c7bb04c",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 24-year-old man is brought to the emergency department after taking MDMA (ecstasy). He is known to be on phenelzine 15 mg three times daily for depression. On arrival, he is agitated, with a temperature of 40.2°C, heart rate 150 bpm, blood pressure 100/60 mmHg. He has generalised rigidity, myoclonus, and bilateral ankle clonus. He has a generalised tonic-clonic seizure. What is the single most likely diagnosis?",
+      "options": [
+        "MDMA overdose alone",
+        "Neuroleptic malignant syndrome",
+        "Malignant hyperthermia",
+        "Serotonin toxicity (same as syndrome)",
+        "Serotonin syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "MAOI (phenelzine) combined with MDMA (a potent serotonin releaser) produces life-threatening serotonin syndrome with hyperthermia, rigidity, clonus, and seizures. Distinguishing from NMS: NMS has rigidity but no clonus and is usually associated with antipsychotics. MDMA overdose alone does not explain the severity in context of MAOI. Option 4 is redundant; serotonin toxicity is synonymous with serotonin syndrome. The correct answer is serotonin syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00df7f2cdb87",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman on citalopram 20 mg daily is admitted after a fall. She is started on intravenous linezolid for a suspected wound infection. Two days later, she becomes acutely confused, with myoclonic jerks in the limbs, but no fever (temperature 36.8°C). Neurological examination shows inducible ankle clonus and hyperreflexia. What is the single most likely diagnosis?",
+      "options": [
+        "New-onset epilepsy (myoclonic seizures)",
+        "Urosepsis",
+        "Serotonin syndrome",
+        "Delirium due to sepsis",
+        "Acute stroke"
+      ],
+      "answerIndex": 2,
+      "explanation": "The addition of linezolid (a weak MAOI) to citalopram (SSRI) can precipitate serotonin syndrome, even without hyperthermia. Myoclonus and clonus are key features that differentiate it from delirium (usually no clonus) or seizures (no sustained clonus/hyperreflexia). Sepsis and stroke do not explain the myoclonus and hyperreflexia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eb0640c9883c",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman on fluvoxamine 100 mg daily is given pethidine 75 mg intramuscularly for renal colic in the emergency department. Two hours later, she develops anxiety, shivering, and a feeling of 'twitching' in her legs. On examination, heart rate 120 bpm, temperature 38.0°C, blood pressure 145/85 mmHg. There is mild hypertonia and bilateral ankle clonus. What is the single most likely diagnosis?",
+      "options": [
+        "Renal colic exacerbation",
+        "Serotonin syndrome",
+        "Panic attack",
+        "Allergic reaction to pethidine",
+        "Opioid toxicity (pethidine overdose)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pethidine is a serotonergic opioid that can trigger serotonin syndrome when added to an SSRI (fluvoxamine). Opioid toxicity would cause respiratory depression and pinpoint pupils, not clonus. Allergic reaction typically presents with urticaria or bronchospasm. Panic attack lacks clonus and hyperthermia. Renal colic pain does not explain the autonomic symptoms and clonus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0d65d6de9029",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman on fluoxetine for depression presents with mild tremor, hyperreflexia, and bilateral ankle clonus. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "CT head",
+        "Urine 5-hydroxyindoleacetic acid (5-HIAA)",
+        "Serum serotonin level",
+        "Hunter criteria (clinical assessment)",
+        "Platelet serotonin level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serotonin syndrome is a clinical diagnosis; the Hunter criteria are the most specific and widely used diagnostic tool. Urine 5-HIAA is used for carcinoid syndrome, and serum/platelet serotonin levels are not validated for diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "782e2a5ac1b8",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man on sertraline and tramadol develops confusion, hyperthermia (39.5°C), generalized rigidity, and myoclonus. Which of the following is the most specific clinical sign for serotonin syndrome in this context?",
+      "options": [
+        "Miosis",
+        "Cogwheel rigidity",
+        "Bradycardia",
+        "Spontaneous or inducible clonus",
+        "Lead-pipe rigidity"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clonus (spontaneous or inducible) is a defining feature of the Hunter criteria for serotonin syndrome. Cogwheel rigidity is more typical of Parkinson's disease, and lead-pipe rigidity is seen in neuroleptic malignant syndrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73c8fb2ca4d8",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman on phenelzine (MAOI) presents with agitation, diaphoresis, tachycardia, and inducible clonus. She is afebrile. According to the Hunter criteria, which combination of findings would confirm serotonin syndrome?",
+      "options": [
+        "Agitation plus diaphoresis",
+        "Inducible clonus plus agitation or diaphoresis",
+        "Hypertonia plus bradycardia",
+        "Tremor plus hyperreflexia",
+        "Oculogyric crisis plus mydriasis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Hunter criteria require clonus (spontaneous or inducible) plus one of: agitation, diaphoresis, or hyperreflexia; or hyperreflexia plus clonus. Oculogyric crisis is typical of dystonic reactions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d071082dd4f9",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman on venlafaxine overdose presents with seizures, then hyperthermia, rigidity, and tachycardia. Which additional clinical finding would most strongly support a diagnosis of serotonin syndrome rather than neuroleptic malignant syndrome (NMS)?",
+      "options": [
+        "Miosis",
+        "Hyporeflexia",
+        "Akinesia",
+        "Lead-pipe rigidity",
+        "Clonus"
+      ],
+      "answerIndex": 4,
+      "explanation": "Clonus is characteristic of serotonin syndrome and is absent in NMS, which typically presents with lead-pipe rigidity, bradykinesia, and hyporeflexia. The history of venlafaxine overdose further supports serotonin syndrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8de844f4951b",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man on fluoxetine and selegiline (MAO-B inhibitor) presents with mild agitation, tremor, and hyperreflexia, but no clonus. What is the best next step to confirm the diagnosis of serotonin syndrome?",
+      "options": [
+        "Measure serum CK level",
+        "Check for inducible clonus",
+        "Perform CT head to rule out intracranial pathology",
+        "Order urine toxicology for amphetamines",
+        "Start cooling measures"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Hunter criteria require clonus (spontaneous or inducible) for diagnosis when hyperreflexia and tremor are present. Inducible clonus should be tested for (e.g., ankle clonus). Serum CK and CT head are not diagnostic; cooling is treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7506ac569b97",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with depression on sertraline 100 mg daily presents with mild tremor, hyperreflexia, and bilateral ankle clonus. Observations are normal. Diagnosis: mild serotonin syndrome. What is the most appropriate first-line management?",
+      "options": [
+        "Stop sertraline and observe",
+        "Start oral propranolol 40 mg",
+        "Start IV diazepam 10 mg",
+        "Start oral cyproheptadine 4 mg",
+        "Start IV dantrolene 1 mg/kg"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mild serotonin syndrome, the first step is to discontinue the offending serotonergic drug and provide supportive care; pharmacological treatment is not required. Cyproheptadine, diazepam, and dantrolene are reserved for moderate to severe cases, and propranolol is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca3d9f21a411",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man on venlafaxine 300 mg daily and tramadol PRN develops moderate serotonin syndrome with agitation, myoclonus, and clonus. Temperature 38.2°C, heart rate 110 bpm, blood pressure 150/85 mmHg. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Oral propranolol 40 mg",
+        "IV dantrolene 1 mg/kg",
+        "Oral cyproheptadine 4 mg",
+        "IV chlorpromazine 25 mg",
+        "IV diazepam 5–10 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "For moderate serotonin syndrome, IV benzodiazepines (e.g., diazepam) are first-line to provide sedation and control agitation and autonomic instability. Cyproheptadine is an alternative if benzodiazepines are insufficient, but diazepam is the initial drug of choice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb0069fd57aa",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with a history of major depression on phenelzine 60 mg daily presents after ingesting a large dose of fluoxetine. She has severe serotonin syndrome: temperature 40.1°C, severe rigidity, generalised clonic movements, and seizures. What is the most appropriate first-line treatment?",
+      "options": [
+        "IV diazepam 10 mg",
+        "IV dantrolene 1 mg/kg",
+        "IV chlorpromazine 50 mg",
+        "External cooling with ice packs",
+        "Oral cyproheptadine 8 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "For severe serotonin syndrome with hyperthermia, IV dantrolene is recommended as first-line to reduce muscle rigidity and heat production (BNF). While diazepam is useful for seizures, dantrolene directly targets the hyperthermia and rigidity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18e0233c6d50",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known long QT syndrome (QTc 510 ms) develops severe serotonin syndrome after a medication error. Which of the following treatments is CONTRAINDICATED in this patient?",
+      "options": [
+        "IV dantrolene 1 mg/kg",
+        "External cooling",
+        "IV diazepam 10 mg",
+        "Oral cyproheptadine 4 mg",
+        "IV chlorpromazine 25 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chlorpromazine is a phenothiazine that can prolong the QT interval and increase the risk of torsades de pointes, making it contraindicated in patients with long QT syndrome. The other options do not significantly affect cardiac repolarisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "060bcfb8b0e3",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 62-year-old woman with asthma (using salbutamol PRN) and depression on citalopram 20 mg daily develops moderate serotonin syndrome. She is agitated with myoclonus. Which of the following drugs is CONTRAINDICATED in the management of her serotonin syndrome?",
+      "options": [
+        "IV diazepam 5 mg",
+        "IV propranolol 1 mg",
+        "IV chlorpromazine 25 mg",
+        "IV dantrolene 1 mg/kg",
+        "Oral cyproheptadine 4 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "Propranolol is a non-selective beta-blocker that can cause bronchospasm in patients with asthma due to blockade of beta-2 receptors. It is contraindicated in asthma. The other options are safe or have no such contraindication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b0a7ce3d692",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman on sertraline 100 mg daily for depression presents to the emergency department with a two-day history of mild agitation, tremor, and shivering. On examination, temperature 37.8°C, heart rate 95 bpm, blood pressure 125/75 mmHg. She has hyperreflexia and inducible clonus in both ankles. She is alert and oriented. What is the most appropriate immediate next action?",
+      "options": [
+        "Check thyroid function tests",
+        "Discontinue sertraline",
+        "Prescribe cyproheptadine 12 mg stat",
+        "Start intravenous lorazepam",
+        "Obtain a CT scan of head"
+      ],
+      "answerIndex": 1,
+      "explanation": "In mild serotonin syndrome, the first step is to discontinue the offending serotonergic agent. Cyproheptadine is reserved for moderate-to-severe cases; CT head and thyroid tests are not immediately indicated without focal neurology or other features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "146482173919",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old man is brought to the emergency department after a deliberate overdose of phenelzine (MAOI) and escitalopram. He is agitated, with generalized myoclonus, rigidity, and a temperature of 40.2°C. Heart rate 140 bpm, blood pressure 90/50 mmHg. He is not responding to verbal commands. What is the most appropriate immediate next action?",
+      "options": [
+        "Insert an intravenous line and give 1 litre of normal saline",
+        "Administer intravenous lorazepam",
+        "Administer cyproheptadine 12 mg orally",
+        "Begin active cooling measures",
+        "Start an intravenous dantrolene infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe serotonin syndrome with hyperthermia >39°C is a medical emergency. Aggressive active cooling is the immediate priority to prevent multi-organ damage. Cyproheptadine and benzodiazepines are important adjuncts but cooling takes precedence. Dantrolene is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b21be8f4122",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on fluoxetine and tramadol for chronic pain is admitted with serotonin syndrome. He has a temperature of 38.5°C, moderate rigidity, and myoclonus. His creatine kinase is 15,000 U/L. Urine dipstick shows blood but no red cells. What is the most appropriate immediate next action?",
+      "options": [
+        "Request a renal ultrasound",
+        "Prescribe cyproheptadine 12 mg",
+        "Administer dantrolene",
+        "Start intravenous sodium bicarbonate",
+        "Begin intravenous normal saline at 200 mL/hour"
+      ],
+      "answerIndex": 4,
+      "explanation": "The raised creatine kinase indicates rhabdomyolysis, which requires aggressive IV fluid resuscitation to prevent acute kidney injury. Bicarbonate is not first-line; dantrolene is not indicated; cyproheptadine can be considered but fluids are immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5976218c5aa4",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman with a history of depression on citalopram is started on tramadol for hip pain by her GP. Three days later, she becomes confused, with tremor and myoclonus. Temperature 37.5°C, heart rate 100 bpm. She has hyperreflexia and ankle clonus. She has a small urinary tract infection on dipstick. What is the most appropriate immediate next action?",
+      "options": [
+        "Prescribe a short course of lorazepam",
+        "Start antibiotics for urinary tract infection",
+        "Obtain a CT head to rule out intracranial pathology",
+        "Administer cyproheptadine 12 mg",
+        "Discontinue both citalopram and tramadol"
+      ],
+      "answerIndex": 4,
+      "explanation": "The clinical picture is consistent with serotonin syndrome from a serotonergic combination. The immediate action is to stop the offending drugs. The UTI is likely incidental; treating it is not the priority. CT head and cyproheptadine are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17ea25857bbd",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man on linezolid (an antibiotic with MAOI activity) for a complicated wound infection develops widespread myoclonus, hyperreflexia, and a temperature of 39.0°C. He is anxious and diaphoretic. What is the most appropriate immediate next action?",
+      "options": [
+        "Prescribe oral cyproheptadine",
+        "Switch linezolid to vancomycin",
+        "Administer intramuscular promethazine",
+        "Start intravenous fluids and cool the patient",
+        "Perform a lumbar puncture to rule out meningitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linezolid is a reversible MAOI and can cause serotonin syndrome. The immediate priority is to stop the causative agent and substitute with an alternative antibiotic. Cooling and fluids are supportive but secondary; cyproheptadine is for moderate cases; LP is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06a0a2cec6cb",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman on sertraline for anxiety presents with mild tremor and anxiety. Her vital signs are normal. She has brisk reflexes in both lower limbs. Which single clinical finding, if present, would be most suggestive of serotonin syndrome?",
+      "options": [
+        "Sweating",
+        "Clonus",
+        "Tachycardia",
+        "Hyperreflexia",
+        "Mydriasis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clonus (spontaneous, inducible, or ocular) is a key feature of serotonin syndrome per the Hunter criteria and is more specific than hyperreflexia alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25c84aa2d503",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with schizophrenia (on haloperidol) and depression (recently started on fluoxetine) is brought in with confusion, rigidity, and pyrexia (38.5°C). His muscle tone is increased uniformly. Which single clinical sign would most strongly support serotonin syndrome over neuroleptic malignant syndrome?",
+      "options": [
+        "Bradycardia",
+        "Tremor at rest",
+        "Hyporeflexia",
+        "Ocular clonus",
+        "Lead-pipe rigidity"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of clonus, especially ocular clonus, is characteristic of serotonin syndrome and is not seen in neuroleptic malignant syndrome, which typically presents with lead-pipe rigidity and hyporeflexia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72d90d8dce6d",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman on duloxetine and tramadol for chronic pain presents with confusion, myoclonus, and mild hyperreflexia. She is haemodynamically stable but has a temperature of 37.6°C. Which single clinical parameter, if present, would indicate that her serotonin syndrome is severe and requires admission to a high-dependency unit?",
+      "options": [
+        "Core temperature >38°C",
+        "Heart rate >100 bpm",
+        "SpO2 <95% on room air",
+        "Blood pressure >160/90 mmHg",
+        "GCS of 14"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyperpyrexia (temperature >38°C) is a marker of severe serotonin syndrome according to NICE guidelines and indicates the need for urgent escalation to critical care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed477c7507d2",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man on an MAOI (phenelzine) accidentally takes a serotonin-releasing agent. He rapidly develops seizures, severe hyperthermia (40°C), and disseminated intravascular coagulation (DIC) is suspected. Which of the following is the most likely immediate cause of death in this scenario if not recognized?",
+      "options": [
+        "Acute kidney injury",
+        "Disseminated intravascular coagulation",
+        "Metabolic acidosis",
+        "Cardiac arrhythmia",
+        "Rhabdomyolysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe serotonin syndrome, DIC is a well-recognized fatal complication due to hyperthermia and platelet activation. It should be suspected with unexplained bleeding or thrombocytopenia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "396822ba39d9",
+      "topic": "Serotonin Syndrome",
+      "slug": "serotonin-syndrome",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman on citalopram and dextromethorphan presents with profuse sweating, rigidity, and oliguria. Urine dipstick is positive for blood but no red cells on microscopy. Which of the following complications is most likely occurring?",
+      "options": [
+        "Glomerulonephritis",
+        "Acute kidney injury",
+        "Myoglobinuria",
+        "Urosepsis",
+        "Rhabdomyolysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of rigidity, sweating, and blood-positive urine without red cells suggests rhabdomyolysis with myoglobinuria, a common complication of severe serotonin syndrome.",
+      "difficulty": "medium"
+    }
+  ]
+}

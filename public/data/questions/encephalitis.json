@@ -1,0 +1,513 @@
+{
+  "topic": "Encephalitis",
+  "slug": "encephalitis",
+  "system": "Neurology",
+  "subSystem": "CNS infection",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:51Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "41a18b36cf8a",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with a 3-day history of fever, headache, and confusion. She has a history of genital herpes. On examination, she is disoriented and has a temperature of 39°C. She has no neck stiffness, but there is weakness of the right arm. CT head shows low attenuation in the left temporal lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculous meningitis",
+        "Herpes simplex virus encephalitis",
+        "Bacterial meningitis",
+        "Stroke",
+        "Cerebral abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, altered mental status, and temporal lobe involvement is classic for HSV encephalitis. The history of genital herpes increases suspicion, though HSV-1 is more common. Bacterial meningitis typically presents with neck stiffness and photophobia, not focal temporal lobe signs. Cerebral abscess usually has a more insidious onset and a ring-enhancing lesion on CT. Tuberculous meningitis is subacute with basal enhancement. Stroke is unlikely given fever and acute confusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b44de3d07933",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 2-week history of paranoid delusions, auditory hallucinations, and bizarre behaviour. She has no past psychiatric history. Over the past 3 days, she has developed brief jerking movements of her arms and face, and two generalised tonic-clonic seizures. CSF shows lymphocytic pleocytosis and oligoclonal bands not present in serum. What is the single most likely diagnosis?",
+      "options": [
+        "Herpes simplex virus encephalitis",
+        "Schizophrenia",
+        "Anti-NMDA receptor encephalitis",
+        "Systemic lupus erythematosus cerebritis",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of subacute psychiatric symptoms, seizures, orofacial dyskinesias, and CSF inflammation is highly characteristic of anti-NMDA receptor encephalitis. HSV encephalitis typically has a more rapid onset and often involves temporal lobes on imaging. Schizophrenia usually has an earlier onset and negative symptoms, with no seizures or CSF changes. Neuroleptic malignant syndrome requires antipsychotic exposure and presents with rigidity, hyperthermia, and autonomic instability. SLE cerebritis would have other systemic features and autoantibodies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53041ab9d9b7",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with a 3-month history of rapidly progressive dementia, including memory loss and personality change. He has developed myoclonic jerks and has difficulty walking. EEG shows periodic sharp-wave complexes. MRI brain shows cortical ribboning on diffusion-weighted imaging. What is the single most likely diagnosis?",
+      "options": [
+        "Creutzfeldt-Jakob disease",
+        "Vascular dementia",
+        "Alzheimer's disease",
+        "Herpes simplex virus encephalitis",
+        "Metabolic encephalopathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rapidly progressive dementia with myoclonus, periodic sharp-wave complexes on EEG, and cortical ribboning on DWI MRI are classic for CJD. Alzheimer's disease has a slower course and no myoclonus or typical EEG. HSV encephalitis is acute, not subacute over months, and lacks periodic EEG pattern. Metabolic encephalopathy is diffuse and reversible with treatment of underlying cause. Vascular dementia has stepwise progression with focal signs on imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7fcd51917180",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with a 5-day history of headache, confusion, and bilateral leg weakness. Two weeks ago he had an upper respiratory tract infection. On examination, he has spastic paraparesis and urinary retention. MRI brain shows multifocal T2-hyperintense white matter lesions with some enhancement. CSF shows mild lymphocytic pleocytosis and normal glucose. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple sclerosis",
+        "Acute bacterial meningitis",
+        "Herpes simplex virus encephalitis",
+        "Acute disseminated encephalomyelitis",
+        "Primary CNS vasculitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Post-infectious onset, multifocal white matter lesions, and spinal cord involvement (transverse myelitis) point to ADEM. Multiple sclerosis typically has relapsing-remitting course and CSF oligoclonal bands. HSV encephalitis is temporal lobe-predominant, not multifocal white matter. Bacterial meningitis has CSF neutrophilia and low glucose. CNS vasculitis often shows multiple strokes and angiographic abnormalities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93bb967e5f84",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with a history of rheumatoid arthritis treated with rituximab presents with a 4-week history of progressive confusion, right-sided weakness, and visual disturbances. He is not on any other immunosuppressants. MRI brain shows multifocal, non-enhancing, T2-hyperintense white matter lesions without mass effect. CSF PCR for JC virus is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Progressive multifocal leukoencephalopathy",
+        "Stroke",
+        "Cerebral toxoplasmosis",
+        "Primary CNS lymphoma",
+        "HIV encephalopathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rituximab therapy is a risk factor for PML due to JC virus reactivation. The subacute presentation with hemiparesis, visual symptoms, and non-enhancing white matter lesions is characteristic. Primary CNS lymphoma typically enhances and has mass effect. Cerebral toxoplasmosis shows ring-enhancing lesions in immunocompromised patients. HIV encephalopathy is seen in advanced HIV, not on rituximab alone. Stroke is acute and not associated with JC virus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d886bad75135",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents with a 2-day history of headache, fever, confusion, and a single generalized tonic-clonic seizure. CT head is normal. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Electroencephalogram (EEG)",
+        "Blood cultures",
+        "CSF culture for bacteria",
+        "CSF PCR for herpes simplex virus",
+        "MRI brain with contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "CSF PCR for HSV is the gold standard to confirm herpes simplex encephalitis, the most common cause of sporadic viral encephalitis. MRI may show temporal lobe hyperintensity but is not confirmatory; EEG is non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8a7d648065d",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman presents with confusion, fever, and new-onset seizures. CSF shows lymphocytic pleocytosis (100 cells/μL), elevated protein (0.8 g/L), normal glucose. MRI brain shows medial temporal lobe hyperintensity. CSF PCR for herpes simplex virus is negative. What is the most appropriate next investigation?",
+      "options": [
+        "Brain biopsy",
+        "PET-CT scan",
+        "CSF antibody testing for autoimmune encephalitis",
+        "CSF PCR for varicella-zoster virus",
+        "Repeat CSF PCR for HSV"
+      ],
+      "answerIndex": 3,
+      "explanation": "VZV is a common cause of viral encephalitis, especially in older adults, and can present with temporal lobe involvement similar to HSV. Negative HSV PCR makes VZV a likely alternative; repeat HSV PCR has low yield. Autoimmune encephalitis usually has a subacute course without fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a6e066656ba2",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with subacute onset of short-term memory loss, personality change, and complex partial seizures over 3 weeks. She is afebrile. MRI brain is normal. CSF shows lymphocytic pleocytosis (20 cells/μL) and mildly elevated protein. What is the single most appropriate investigation to confirm the likely diagnosis?",
+      "options": [
+        "Serum anti-neuronal antibodies",
+        "Electroencephalogram (EEG)",
+        "CSF anti-neuronal antibodies",
+        "Brain biopsy",
+        "CSF PCR for herpes simplex virus"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation is classic for autoimmune limbic encephalitis, often associated with anti-NMDA receptor antibodies. CSF anti-neuronal antibodies have higher sensitivity and specificity than serum for certain antibodies (e.g., NMDAR). HSV PCR would be negative due to subacute course and afebrile state. EEG may show epileptiform activity but is not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0bb8caff06b2",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old immunocompromised man (on rituximab for lymphoma) presents with 1-week history of confusion, ataxia, and fever. MRI brain shows multifocal white matter lesions with no enhancement. CSF PCR for HSV and VZV are negative. What is the single most appropriate diagnostic test?",
+      "options": [
+        "CSF PCR for EBV",
+        "Brain biopsy",
+        "CSF PCR for CMV",
+        "CSF antibody testing for autoimmune encephalitis",
+        "CSF PCR for JC virus"
+      ],
+      "answerIndex": 4,
+      "explanation": "In immunocompromised patients, especially on rituximab, JC virus can cause progressive multifocal leukoencephalopathy (PML), which presents with subacute neurological symptoms and multifocal white matter lesions. CSF PCR for JC virus is diagnostic. CMV and EBV encephalitis are less common and usually present with different patterns.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc67bd377d56",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with suspected encephalitis has a contraindication to lumbar puncture (platelet count 30 x 10^9/L). CT head is normal. What is the single most appropriate investigation to support the diagnosis?",
+      "options": [
+        "MRI brain with contrast",
+        "Serum PCR for herpes simplex virus",
+        "Electroencephalogram (EEG)",
+        "Brain biopsy",
+        "CT venogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "When LP is contraindicated, MRI brain with contrast is the best test to look for characteristic changes of encephalitis (e.g., temporal lobe hyperintensity in HSV, limbic involvement in autoimmune). Serum PCR is not sensitive. EEG may show non-specific changes. CT venogram rules out sinus thrombosis but not encephalitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b539138bac2c",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old woman presents with fever, headache, confusion, and seizures. CSF shows lymphocytic pleocytosis and HSV-1 PCR positive. She has no drug allergies. What is the most appropriate first-line treatment for her condition?",
+      "options": [
+        "Ganciclovir 5 mg/kg IV 12-hourly",
+        "Aciclovir 10 mg/kg IV 8-hourly",
+        "Valaciclovir 1 g PO 8-hourly",
+        "Supportive care only",
+        "Aciclovir 5 mg/kg IV 8-hourly"
+      ],
+      "answerIndex": 1,
+      "explanation": "For herpes simplex encephalitis (HSE), high-dose intravenous aciclovir (10 mg/kg 8-hourly) is first-line. The lower dose (5 mg/kg) is used for herpes zoster, not encephalitis. Oral valaciclovir has insufficient CNS penetration, ganciclovir targets CMV, and supportive care would be inappropriate for a treatable viral encephalitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eb96d0649005",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man with HIV (CD4 50 cells/µL, not on ART) presents with subacute confusion, fever, and focal seizures. MRI shows periventricular T2 hyperintensities, and CSF PCR is positive for cytomegalovirus. What is the most appropriate first-line antiviral therapy?",
+      "options": [
+        "Ganciclovir 5 mg/kg IV 12-hourly",
+        "Valganciclovir 900 mg PO 12-hourly",
+        "Foscarnet 90 mg/kg IV 12-hourly",
+        "Cidofovir 5 mg/kg IV weekly",
+        "Aciclovir 10 mg/kg IV 8-hourly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cytomegalovirus (CMV) encephalitis in immunocompromised patients is treated with intravenous ganciclovir as first-line. Foscarnet is second-line or used if ganciclovir fails. Valganciclovir is oral and used for CMV retinitis maintenance, not encephalitis. Aciclovir is ineffective against CMV. Cidofovir is reserved for resistant cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f8e132e4be9b",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with herpes simplex encephalitis being treated with aciclovir develops a decreasing level of consciousness and unilateral pupillary dilation. CT shows severe cerebral oedema with midline shift. What is the most appropriate immediate treatment for the raised intracranial pressure?",
+      "options": [
+        "Plasmapheresis",
+        "Increase aciclovir dose",
+        "Intravenous immunoglobulin (IVIG)",
+        "Mannitol 0.5-1 g/kg IV",
+        "Dexamethasone 10 mg IV then 4 mg 6-hourly"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute raised intracranial pressure due to cerebral oedema, mannitol is the first-line osmotic agent. Dexamethasone is used for vasogenic oedema (e.g., brain tumours) but not typically for cytotoxic oedema in encephalitis. IVIG and plasmapheresis are for autoimmune encephalitis, not HSE. Increasing aciclovir dose does not address oedema.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1f1edf054902",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old immunocompetent man with confirmed enterovirus encephalitis (CSF PCR positive) is clinically stable with no seizures. What is the most appropriate management?",
+      "options": [
+        "Supportive care",
+        "Ribavirin 400 mg PO 8-hourly",
+        "Interferon-alpha subcutaneous",
+        "Ganciclovir 5 mg/kg IV 12-hourly",
+        "Aciclovir 10 mg/kg IV 8-hourly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Enterovirus encephalitis is typically self-limiting in immunocompetent patients and there is no specific antiviral therapy; supportive care is the mainstay. Aciclovir, ganciclovir, ribavirin, and interferon are not effective against enteroviruses and are not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80e90a9caaf9",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with herpes simplex encephalitis has completed 21 days of intravenous aciclovir and is now asymptomatic with no neurological deficits. What is the most appropriate next step in management?",
+      "options": [
+        "Oral acyclovir 800 mg five times daily for 3 months",
+        "MRI brain with contrast",
+        "Discontinue aciclovir; no further treatment",
+        "Oral valaciclovir 1 g BD for 6 months",
+        "Repeat CSF analysis for HSV PCR"
+      ],
+      "answerIndex": 2,
+      "explanation": "For herpes simplex encephalitis, a 14-21 day course of IV aciclovir is curative in most cases. No oral continuation therapy is required. Oral valaciclovir or acyclovir are not indicated for prophylaxis. Repeat imaging or CSF is only needed if there is clinical concern for relapse, which is rare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "916847454ba4",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman presents to ED with 2-day history of fever, headache, and confusion. On exam, GCS 14, no focal neurology. Temperature 38.5°C. What is the most appropriate next step?",
+      "options": [
+        "Perform lumbar puncture",
+        "Request CT head",
+        "Start intravenous aciclovir",
+        "Start intravenous ceftriaxone",
+        "Admit to medical ward"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend starting aciclovir immediately if suspected viral encephalitis, without waiting for LP or CT results if not contraindicated. While CT is often done before LP, the priority is antiviral therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "314573a42661",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known HSV encephalitis on aciclovir develops generalised tonic-clonic seizures. His GCS drops to 7. What is the most appropriate immediate action?",
+      "options": [
+        "Give intravenous lorazepam",
+        "Start phenytoin infusion",
+        "Perform CT head",
+        "Check serum sodium",
+        "Call ITU"
+      ],
+      "answerIndex": 0,
+      "explanation": "The immediate priority in status epilepticus is to terminate seizures with a benzodiazepine (lorazepam as per UK guidelines). Other measures follow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "493fbb6543b6",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman being treated for HSV encephalitis develops hyponatraemia (Na 125 mmol/L). She is envolemic, urine osmolality >100 mOsm/kg, urine Na >40 mmol/L. What is the most appropriate next step?",
+      "options": [
+        "Repeat lumbar puncture",
+        "Start demeclocycline",
+        "Stop aciclovir",
+        "Give hypertonic saline",
+        "Fluid restrict to 1 L/day"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is consistent with SIADH. Mild hyponatraemia with envolemia is managed with fluid restriction. Hypertonic saline is for severe symptomatic hyponatraemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5311a2848202",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on tacrolimus after renal transplant presents with fever, confusion, and headache. CT head shows no mass lesion. What is the most appropriate next step?",
+      "options": [
+        "Perform lumbar puncture",
+        "Start intravenous aciclovir and ganciclovir",
+        "Start intravenous aciclovir alone",
+        "Start intravenous ceftriaxone",
+        "Request MRI brain"
+      ],
+      "answerIndex": 1,
+      "explanation": "In immunocompromised patients, empiric therapy should cover both HSV and CMV (aciclovir + ganciclovir) until results. Starting only aciclovir may miss CMV.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bea5ee2ef998",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with viral encephalitis develops progressive headache, vomiting, and papilloedema. GCS 12, BP 170/100, HR 60. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert an ICP monitor",
+        "Perform CT head",
+        "Give intravenous mannitol",
+        "Give intravenous dexamethasone",
+        "Start intravenous aciclovir"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clinical signs of raised ICP require immediate reduction to prevent herniation. Mannitol is the first-line osmotic agent. CT head is diagnostic but not immediately therapeutic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4a421716bab8",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents to the emergency department with a 2-day history of headache and fever. Her temperature is 38.5°C, heart rate 100 bpm, blood pressure 120/80 mmHg. She is alert and oriented. Which single finding, if present, would most strongly suggest encephalitis rather than a simple viral illness and prompt immediate escalation?",
+      "options": [
+        "Focal motor seizure",
+        "Photophobia",
+        "Neck stiffness",
+        "Vomiting",
+        "Myalgia"
+      ],
+      "answerIndex": 0,
+      "explanation": "A focal seizure indicates cortical irritation and is a hallmark of encephalitis. While neck stiffness and photophobia suggest meningeal irritation, they are more typical of meningitis. Seizure differentiates parenchymal involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdc9a2db2feb",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with confirmed herpes simplex encephalitis, on intravenous acyclovir for 4 days, becomes increasingly drowsy. His Glasgow Coma Scale has dropped from 15 to 12. On examination, his left pupil is fixed and dilated. Which life-threatening complication does this represent?",
+      "options": [
+        "Acyclovir-induced encephalopathy",
+        "Status epilepticus",
+        "Recurrent meningitis",
+        "SIADH",
+        "Uncal herniation"
+      ],
+      "answerIndex": 4,
+      "explanation": "A fixed, dilated pupil indicates ipsilateral third nerve palsy due to uncal herniation, a life-threatening complication of temporal lobe oedema in HSV encephalitis. Immediate neurosurgical referral is required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1bd776e1dccd",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with suspected viral encephalitis is being monitored on a medical ward. His heart rate is 50 bpm and blood pressure is 170/100 mmHg. What is the most likely explanation for these vital signs?",
+      "options": [
+        "Cushing's reflex",
+        "Drug side effect",
+        "Dehydration",
+        "Autonomic instability",
+        "Anxiety"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cushing's reflex (hypertension with bradycardia) is a classic sign of raised intracranial pressure. This is an emergency requiring immediate escalation to ICU and neuroimaging to assess for impending herniation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88b5082f4bf5",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with HIV (CD4 count 50 cells/µL) presents with headache, confusion, and low-grade fever. Which radiological finding would most suggest a diagnosis other than viral encephalitis?",
+      "options": [
+        "Ring-enhancing lesion",
+        "Periventricular white matter changes",
+        "Diffuse cortical atrophy",
+        "Temporal lobe T2 hyperintensity",
+        "Normal MRI"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an immunosuppressed patient with low CD4, a ring-enhancing lesion raises suspicion for cerebral toxoplasmosis or primary CNS lymphoma, both of which are life-threatening mimics that require different management (e.g., antitoxoplasma therapy or biopsy) rather than empirical acyclovir.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6fb6d4a56c3e",
+      "topic": "Encephalitis",
+      "slug": "encephalitis",
+      "system": "Neurology",
+      "subSystem": "CNS infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 18-year-old woman presents to the emergency department with a 1-week history of progressive confusion, paranoia, and involuntary facial movements. She has no fever but is tachycardic. Which diagnosis should be urgently considered and excluded?",
+      "options": [
+        "Herpes simplex encephalitis",
+        "Drug-induced psychosis",
+        "Anti-NMDA receptor encephalitis",
+        "Bacterial meningitis",
+        "Cerebral abscess"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of subacute behavioural change, autonomic instability, and orofacial dyskinesias is highly characteristic of anti-NMDA receptor encephalitis. This autoimmune encephalitis can be rapidly progressive and requires early immunotherapy; it is a critical mimic of primary psychiatric illness.",
+      "difficulty": "medium"
+    }
+  ]
+}

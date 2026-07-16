@@ -1,0 +1,513 @@
+{
+  "topic": "Cellulitis",
+  "slug": "cellulitis",
+  "system": "Dermatology",
+  "subSystem": "Skin infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:28:27Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "6d671677c4ba",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 2-day history of a red, swollen, and painful right lower leg. She noted a small scratch on her shin a few days ago. On examination, there is diffuse erythema, warmth, and pitting oedema extending from the ankle to mid-calf. She has a temperature of 38.2°C. What is the single most likely diagnosis?",
+      "options": [
+        "Erysipelas",
+        "Cellulitis",
+        "Contact dermatitis",
+        "Deep vein thrombosis",
+        "Insect bite reaction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cellulitis is characterised by diffuse erythema, oedema, warmth, and systemic symptoms like fever, often following a skin breach. Erysipelas has a well-defined, raised border; DVT lacks warmth and systemic symptoms; contact dermatitis is pruritic; insect bite reactions are more localised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d141bade702",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 52-year-old man with type 2 diabetes mellitus presents with a rapidly spreading red, hot, and swollen left leg over 24 hours. He has a temperature of 39.1°C and appears unwell. There are several bullae on the anterior shin. No crepitus is palpable. What is the single most likely diagnosis?",
+      "options": [
+        "Erysipelas",
+        "Deep vein thrombosis",
+        "Cellulitis",
+        "Necrotising fasciitis",
+        "Venous stasis ulcer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe cellulitis can present with bullae and high fever, but the absence of crepitus, skin necrosis, and extreme systemic toxicity is less suggestive of necrotising fasciitis. Erysipelas is more superficial with sharp margins; venous stasis ulcer is chronic; DVT lacks warmth and fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c48f589e35b",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with known lymphoedema of the left leg (post-radiotherapy for cervical cancer) presents with increased swelling, redness, and warmth over the past 36 hours. She feels feverish and has chills. On examination, the limb is erythematous and tender, with pitting oedema. What is the single most likely diagnosis?",
+      "options": [
+        "Deep vein thrombosis",
+        "Erysipelas",
+        "Cellulitis",
+        "Lymphangitis",
+        "Acute venous eczema"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lymphoedema is a major risk factor for recurrent cellulitis. The acute onset with systemic symptoms favours cellulitis over the more superficial erysipelas. Lymphangitis shows red streaks; DVT is afebrile; venous eczema is usually bilateral and chronic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f2b2168bcc7",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man on long-term prednisolone for rheumatoid arthritis presents with a 1-day history of a red, swollen, and painful right hand after being scratched by his cat. His temperature is 37.1°C. On examination, there is diffuse erythema and oedema on the dorsum of the hand, with no joint involvement. What is the single most likely diagnosis?",
+      "options": [
+        "Cellulitis",
+        "Acute gout",
+        "Pseudogout",
+        "Septic arthritis",
+        "Allergic reaction"
+      ],
+      "answerIndex": 0,
+      "explanation": "Immunosuppressed patients may present with cellulitis without significant fever. The portal of entry and lack of urticaria or pruritus make allergic reaction less likely. Gout and pseudogout typically involve joints, and septic arthritis is monoarticular with joint effusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3463068a2590",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with varicose veins presents with a 3-day history of a red, swollen, and warm left calf. She has mild fever (37.8°C). On examination, there is diffuse non-pitting erythema and tenderness of the calf, but no Homan's sign or palpable cord. What is the single most likely diagnosis?",
+      "options": [
+        "Ruptured Baker's cyst",
+        "Deep vein thrombosis",
+        "Cellulitis",
+        "Venous stasis dermatitis",
+        "Erysipelas"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of fever and warmth strongly suggests cellulitis rather than DVT, which is typically afebrile. Venous stasis dermatitis is usually bilateral and chronic; ruptured Baker's cyst presents with posterior calf swelling; erysipelas has a well-defined raised border.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0bacfd7ec23",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman presents with a 2-day history of a red, swollen, painful left leg. She has mild pyrexia (37.8°C). There is no history of trauma. She is on warfarin for atrial fibrillation. Which investigation is most appropriate to confirm the diagnosis of cellulitis rather than deep vein thrombosis?",
+      "options": [
+        "C-reactive protein",
+        "D-dimer",
+        "Blood cultures",
+        "Compression ultrasound of the leg veins",
+        "Skin swab for culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "Compression ultrasound can reliably exclude DVT, which can mimic cellulitis. Clinical features such as fever and well-demarcated erythema favour cellulitis, but further investigation is needed to differentiate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "620f4ad32bf3",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with type 2 diabetes presents with spreading erythema on his left lower leg despite 48 hours of oral flucloxacillin. He is systemically well. What is the most appropriate next investigation?",
+      "options": [
+        "Blood cultures",
+        "MRI of the leg",
+        "Full blood count",
+        "Skin biopsy",
+        "Wound swab for culture and sensitivity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Wound culture from the leading edge or blister fluid can guide targeted antibiotic therapy when response to empirical treatment is poor. Blood cultures have low yield in mild disease. MRI is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59f249b45cf0",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with a 12-hour history of rapidly spreading erythema of his right arm, swelling, and bullae. He is febrile (39.2°C), tachycardic (110 bpm), and hypotensive (90/60 mmHg). Which investigation should be performed immediately before starting antibiotics?",
+      "options": [
+        "Skin swab for culture",
+        "Plain X-ray of the arm",
+        "Blood cultures",
+        "C-reactive protein",
+        "Ultrasound of the arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "In severe cellulitis with sepsis, blood cultures should be taken before antibiotics to identify the causative organism. This is a key 'never-miss' test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1b96ebb97802",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with poorly controlled diabetes presents with severe pain out of proportion to physical findings on his left thigh. The skin appears erythematous and oedematous. He is tachycardic. Which clinical scoring system is most appropriate to assess the likelihood of necrotizing fasciitis?",
+      "options": [
+        "CHA2DS2-VASc score",
+        "CURB-65",
+        "Wells' criteria",
+        "Glasgow-Blatchford score",
+        "LRINEC score"
+      ],
+      "answerIndex": 4,
+      "explanation": "LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) uses lab values (CRP, WBC, haemoglobin, sodium, creatinine, glucose) to stratify risk of necrotizing fasciitis, aiding early diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1851723ac8d9",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with type 2 diabetes presents with a non-healing ulcer on her right foot with surrounding erythema and swelling. There is no exposed bone. Which bedside investigation is most useful to diagnose underlying osteomyelitis?",
+      "options": [
+        "Plain X-ray",
+        "Erythrocyte sedimentation rate",
+        "MRI scan",
+        "Probe-to-bone test",
+        "Bone scan"
+      ],
+      "answerIndex": 3,
+      "explanation": "The probe-to-bone test is a simple bedside technique (using a sterile probe to feel for hard bone at the base of the ulcer) and is highly suggestive of osteomyelitis if positive. Plain X-ray can be false negative early.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92e356147742",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with a 2-day history of erythema, swelling, and warmth on her left lower leg. She is afebrile, heart rate 72 bpm, blood pressure 118/74 mmHg. No lymphangitis or abscess. She has no drug allergies. What is the most appropriate first-line antibiotic treatment?",
+      "options": [
+        "Clindamycin 300 mg orally four times daily",
+        "Cefalexin 500 mg orally four times daily",
+        "Flucloxacillin 500 mg orally four times daily",
+        "Doxycycline 200 mg orally once daily",
+        "Co-amoxiclav 625 mg orally three times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For mild-to-moderate cellulitis without penicillin allergy, NICE recommends flucloxacillin as first-line oral therapy due to its activity against streptococci and staphylococci. Co-amoxiclav is broader spectrum than needed and increases C. difficile risk; clindamycin and doxycycline are reserved for penicillin allergy; cefalexin is a cephalosporin and can be used but is not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5ac95d6490bb",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with diabetes presents with widespread erythema, swelling, and tenderness affecting his entire right lower leg. He has a fever of 38.9°C, heart rate 105 bpm, and blood pressure 95/60 mmHg. No known drug allergies. What is the most appropriate initial intravenous antibiotic?",
+      "options": [
+        "IV flucloxacillin 2 g four times daily",
+        "IV clindamycin 600 mg four times daily",
+        "IV piperacillin-tazobactam 4.5 g three times daily",
+        "IV co-amoxiclav 1.2 g three times daily",
+        "IV vancomycin 1 g twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For severe cellulitis with systemic signs sepsis, NICE recommends IV flucloxacillin as first-line. It covers the common pathogens (Streptococcus pyogenes and Staphylococcus aureus). Co-amoxiclav is an alternative but not first-line; clindamycin and vancomycin are for penicillin allergy or MRSA; piperacillin-tazobactam is too broad and reserved for complicated cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "95ce7122d3d6",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with a 3-day history of erythema and swelling on his left forearm, spreading from a small cut. He is systemically well (temperature 37.2°C, heart rate 80 bpm). He reports a history of immediate-type penicillin allergy (urticaria and throat tightness after amoxicillin). What is the most appropriate first-line oral antibiotic?",
+      "options": [
+        "Clarithromycin 500 mg orally twice daily",
+        "Flucloxacillin 500 mg orally four times daily",
+        "Clindamycin 300 mg orally four times daily",
+        "Doxycycline 200 mg orally once daily",
+        "Ciprofloxacin 500 mg orally twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In penicillin allergy with immediate hypersensitivity, NICE recommends clarithromycin or doxycycline as first-line for cellulitis. Clarithromycin is often preferred due to better tolerability. Flucloxacillin is contraindicated; clindamycin is an alternative but not first-line in NICE; ciprofloxacin has poor streptococcal coverage and is not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca85f44f5cd7",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with type 2 diabetes and known MRSA colonization (previous swab positive) presents with a 4-day history of erythema, swelling, and tenderness on his right lower leg. He is afebrile, heart rate 78 bpm, blood pressure 125/80 mmHg. What is the most appropriate first-line oral antibiotic?",
+      "options": [
+        "Flucloxacillin 500 mg orally four times daily",
+        "Clindamycin 300 mg orally four times daily",
+        "Co-amoxiclav 625 mg orally three times daily",
+        "Linezolid 600 mg orally twice daily",
+        "Doxycycline 200 mg orally once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with known MRSA colonization and mild cellulitis, NICE recommends clindamycin as first-line oral therapy due to its activity against MRSA and streptococci. Flucloxacillin would not cover MRSA; doxycycline is an alternative but clindamycin is preferred; co-amoxiclav does not cover MRSA; linezolid is reserved for severe or resistant cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d72a277e4093",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 24 weeks' gestation presents with a 2-day history of erythema and swelling on her left lower leg. She is afebrile and systemically well. She has no drug allergies. Which antibiotic is contraindicated in this patient?",
+      "options": [
+        "Doxycycline 200 mg orally once daily",
+        "Co-amoxiclav 625 mg orally three times daily",
+        "Flucloxacillin 500 mg orally four times daily",
+        "Amoxicillin 500 mg orally three times daily",
+        "Clindamycin 300 mg orally four times daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Doxycycline (a tetracycline) is contraindicated in pregnancy as it can cause fetal bone and teeth abnormalities, and hepatotoxicity in the mother. Flucloxacillin, amoxicillin, clindamycin, and co-amoxiclav are all considered safe in pregnancy for cellulitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "022ae890df6e",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents to the ED with a 2-day history of a red, hot, and swollen left lower leg. She has no fever, pulse 72 bpm, BP 125/82 mmHg. There is no lymphangitis or abscess. She is otherwise well. What is the single most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral flucloxacillin 500mg QDS for 7 days",
+        "Take blood cultures and start intravenous flucloxacillin",
+        "Admit for intravenous antibiotics",
+        "Apply topical fusidic acid",
+        "Request ultrasound Doppler to exclude deep vein thrombosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE CG91: mild cellulitis without systemic features can be treated with oral antibiotics; flucloxacillin is first-line. Blood cultures and IV antibiotics are not indicated. DVT is a differential but based on clinical features, cellulitis is more likely; ultrasound is not immediate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eda17cf281f7",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with poorly controlled diabetes presents with rapidly spreading redness from a small blister on his foot. Temperature 38.9°C, heart rate 110 bpm, BP 100/60 mmHg. No crepitus. What is the single most appropriate immediate next step?",
+      "options": [
+        "Apply a compression bandage",
+        "Request urgent MRI of the foot",
+        "Give an intravenous fluid bolus of 500 mL crystalloid",
+        "Start intravenous co-amoxiclav 1.2g TDS",
+        "Incise and drain the affected area"
+      ],
+      "answerIndex": 3,
+      "explanation": "For severe cellulitis with systemic features, IV antibiotics should be started immediately. Blood cultures can be taken simultaneously but should not delay antibiotics. Fluid resuscitation may also be needed, but antibiotics are the priority in sepsis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53f02f45a423",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man, treated for leg cellulitis with oral antibiotics for 48 hours, returns due to increased pain. Examination reveals a fluctuant area 4 cm in diameter on the calf. Mild erythema, no systemic symptoms. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request ultrasound scan of the calf",
+        "Incision and drainage of the abscess",
+        "Switch to intravenous antibiotics",
+        "Continue the same oral antibiotics",
+        "Apply a topical antiseptic"
+      ],
+      "answerIndex": 1,
+      "explanation": "An abscess complicating cellulitis requires surgical drainage; antibiotics alone cannot penetrate the pus adequately. Incision and drainage is the definitive treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6962a00a32c",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man, known to be colonised with MRSA, presents with cellulitis of the leg. He has a temperature of 37.8°C, but is haemodynamically stable with no lymphangitis. What is the single most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral flucloxacillin 500mg QDS",
+        "Admit for intravenous antibiotics",
+        "Start intravenous vancomycin",
+        "Prescribe oral doxycycline 200mg stat then 100mg OD",
+        "Take a wound swab for culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients known to be MRSA colonised, empiric therapy for mild cellulitis should cover MRSA. Oral doxycycline is an appropriate option. Flucloxacillin would not cover MRSA; IV vancomycin is reserved for severe infections.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "01832cb8eea3",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman has had three episodes of lower leg cellulitis in the past year. She currently has no infection after a 7-day course of oral flucloxacillin. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer for lymphoscintigraphy",
+        "Reassure and offer analgesia",
+        "Prescribe a 14-day course of clindamycin",
+        "Advise long-term compression stockings",
+        "Start prophylactic oral penicillin V 250mg BD"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE CG91 recommends antibiotic prophylaxis for patients with ≥2 episodes of cellulitis. Penicillin V is first-line. Compression stockings may help but are not the immediate next step; prophylaxis should be offered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8dddc1cdc88b",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with a 2-day history of painful red swelling on his right lower leg. He has a fever of 38.5°C. On examination, there is well-demarcated erythema and oedema extending from the ankle to mid-calf. Which finding on examination is most concerning for necrotising fasciitis?",
+      "options": [
+        "Pain out of proportion to visible changes",
+        "Tender inguinal lymphadenopathy",
+        "Lymphangitic streaking",
+        "Peau d'orange appearance",
+        "Localised warmth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pain out of proportion to clinical signs is a classic red flag for necrotising fasciitis, a surgical emergency. While fever, lymphangitis, and lymphadenopathy can occur in simple cellulitis, they do not carry the same urgency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c965d931f37",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with varicose veins presents with bilateral lower leg redness and scaling. She has no fever but complains of itching. Which feature best distinguishes stasis dermatitis from cellulitis?",
+      "options": [
+        "Bilateral symmetrical distribution",
+        "Swelling of the legs",
+        "Unilateral involvement",
+        "Warmth to touch",
+        "Presence of varicosities"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral symmetrical distribution strongly favours stasis dermatitis over cellulitis, which is typically unilateral. Varicosities and swelling are risk factors for both, but symmetrical presentation is a key distinguishing feature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c043a610bdde",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman presents with a 1-day history of progressive redness and swelling around her left eye following a sinus infection. She has fever and pain on eye movement. On examination, there is periorbital oedema and erythema. Which finding on examination would indicate orbital cellulitis requiring urgent imaging?",
+      "options": [
+        "Proptosis",
+        "Blurred vision",
+        "Epiphora",
+        "Conjunctival injection",
+        "Photophobia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Proptosis suggests orbital involvement (post-septal) and is a red flag for orbital cellulitis, which requires urgent imaging and intravenous antibiotics. Conjunctival injection and epiphora can occur in preseptal cellulitis; blurred vision and photophobia are less specific and often indicate other pathology.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "698b6ba9d139",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with type 2 diabetes presents with a non-healing ulcer on his right foot for 2 weeks, surrounded by erythema and swelling. He has peripheral neuropathy. Which bedside test is most suggestive of osteomyelitis?",
+      "options": [
+        "Monofilament testing",
+        "Probe-to-bone test",
+        "Pinprick sensation",
+        "Capillary refill time",
+        "Ankle-brachial pressure index"
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive probe-to-bone test (feeling hard bone with a sterile probe) has high specificity for osteomyelitis in a diabetic foot ulcer. The other tests assess neuropathy or vascular status but do not directly diagnose bone infection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e79ef5e9f522",
+      "topic": "Cellulitis",
+      "slug": "cellulitis",
+      "system": "Dermatology",
+      "subSystem": "Skin infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with rheumatoid arthritis on long-term prednisolone and methotrexate presents with a 3-day history of rapidly expanding erythema on her left lower leg. She is afebrile. On examination, there is a central area of black necrotic eschar surrounded by bullae. Which diagnosis should be suspected?",
+      "options": [
+        "Venous stasis ulcer",
+        "Pyoderma gangrenosum",
+        "Bullous impetigo",
+        "Ecthyma gangrenosum",
+        "Necrotising fasciitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ecthyma gangrenosum, caused by Pseudomonas aeruginosa, typically occurs in immunocompromised patients and presents with a necrotic black eschar and bullae often without fever. Necrotising fasciitis usually presents with severe pain and systemic toxicity; the other options do not typically feature a black eschar.",
+      "difficulty": "hard"
+    }
+  ]
+}

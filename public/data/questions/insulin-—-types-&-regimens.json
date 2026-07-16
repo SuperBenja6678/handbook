@@ -1,0 +1,513 @@
+{
+  "topic": "Insulin — Types & Regimens",
+  "slug": "insulin-—-types-&-regimens",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:02Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "27c5f2a8cbb3",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 3-week history of polyuria, polydipsia, blurred vision and 5 kg weight loss. She has no significant past medical history. Urine dipstick shows glucose 4+ and ketones 1+. What is the single most likely diagnosis?",
+      "options": [
+        "LADA (Latent Autoimmune Diabetes of Adults)",
+        "Type 2 diabetes",
+        "Gestational diabetes",
+        "MODY (Maturity-Onset Diabetes of the Young)",
+        "Type 1 diabetes"
+      ],
+      "answerIndex": 4,
+      "explanation": "Young, lean, with ketones and classic osmotic symptoms is typical of new-onset type 1 diabetes. Type 2 is less likely without obesity or acanthosis nigricans. LADA usually has slower progression. MODY often has a family history and no ketones. Gestational diabetes is excluded as she is not pregnant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6c58f1004536",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with type 2 diabetes on metformin and once-daily insulin glargine (20 units at 10 pm) complains of morning headaches and poor sleep. His wife reports he sometimes wakes up drenched in sweat. His HbA1c is 58 mmol/mol. Capillary glucose at 3 am in clinic is 3.0 mmol/L. Morning fasting glucose is often 12-14 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Sleep apnoea",
+        "Night terrors",
+        "Somogyi effect",
+        "Nocturnal hypoglycemia",
+        "Dawn phenomenon"
+      ],
+      "answerIndex": 3,
+      "explanation": "The low glucose at 3 am confirms nocturnal hypoglycemia. Dawn phenomenon is a normal rise in glucose due to growth hormone, not hypoglycemia. Somogyi effect involves rebound hyperglycemia after hypoglycemia, but the primary event is hypoglycemia. Sleep apnoea and night terrors do not explain hypoglycemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9281dd1797d3",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with type 1 diabetes on basal-bolus insulin (detemir and aspart) presents with recurrent episodes of confusion and sweating, with documented blood glucose of 2.3 mmol/L at a recent emergency visit. She has no other medical conditions. Examination reveals firm, rubbery nodules at her injection sites on the abdomen. Her insulin doses have been increasing. What is the single most likely diagnosis?",
+      "options": [
+        "Lipoatrophy",
+        "Lipohypertrophy",
+        "Insulin allergy",
+        "Insulin-derived amyloidosis",
+        "Subcutaneous abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lipohypertrophy is a rubbery, painless nodule at injection sites due to repeated trauma, leading to erratic insulin absorption and unexplained hypoglycemia. Insulin allergy presents with itching, redness, or swelling. Lipoatrophy is atrophy, not hypertrophy. Abscess is tender and warm. Amyloidosis is very rare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0320f4a1894b",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 52-year-old woman with well-controlled type 2 diabetes on metformin and no insulin presents to the emergency department with confusion, diaphoresis, and a capillary glucose of 2.2 mmol/L. She is a retired nurse. Investigations show serum insulin 800 pmol/L (high) and C-peptide 0.1 nmol/L (low). What is the single most likely diagnosis?",
+      "options": [
+        "Hepatic failure",
+        "Factitious hypoglycemia (exogenous insulin use)",
+        "Insulinoma",
+        "Sulfonylurea overdose",
+        "Reactive hypoglycemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "High insulin with low C-peptide indicates exogenous insulin administration, as endogenous production releases C-peptide. She has no insulin prescription and works in healthcare, suggesting factitious use. Insulinoma would have high C-peptide. Sulfonylurea overdose raises both insulin and C-peptide. Reactive hypoglycemia is postprandial and mild.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c210f34ae03",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 19-year-old man with type 1 diabetes uses an insulin pump (insulin aspart). He presents with nausea, vomiting, abdominal pain, and deep rapid breathing. He states the pump has been working but he noticed the catheter site was red and he may have pulled it out last night. Capillary glucose is 28 mmol/L, urine ketones 4+. What is the single most likely diagnosis?",
+      "options": [
+        "Gastroparesis",
+        "Hyperosmolar hyperglycemic state (HHS)",
+        "Acute pancreatitis",
+        "Gastroenteritis",
+        "Diabetic ketoacidosis (DKA)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Classic DKA in a type 1 diabetic with pump failure: hyperglycemia, ketosis, acidosis. HHS is more common in type 2 and lacks ketones. Gastroparesis does not cause ketosis. Pancreatitis can mimic but lacks hyperglycemia and ketones. Gastroenteritis does not explain hyperglycemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9791399fb2d4",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman presents with polyuria, polydipsia, and weight loss over 2 weeks. She has no significant medical history, BMI 22 kg/m², and random blood glucose 15.5 mmol/L. She is not acutely ill. Which single investigation should be performed to confirm the diagnosis and classify the type of diabetes?",
+      "options": [
+        "HbA1c",
+        "Urine ketones",
+        "GAD antibodies",
+        "Random C-peptide",
+        "Fasting plasma glucose"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a young, non-obese patient with classic osmotic symptoms, positive GAD antibodies confirm autoimmune type 1 diabetes. Fasting glucose would confirm diabetes but not aetiology; HbA1c is not diagnostic in acute hyperglycaemia; random C-peptide may be low but fasting C-peptide with paired glucose is more informative; urine ketones indicate ketosis but are not specific for type 1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06e58d616bf0",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with a 10-year history of type 2 diabetes is on metformin and insulin glargine (20 units once daily). His HbA1c is 78 mmol/mol (9.3%). You consider intensifying therapy. Which investigation is most appropriate to assess his endogenous insulin secretory capacity?",
+      "options": [
+        "Fasting C-peptide",
+        "Serum insulin",
+        "Fasting plasma glucose",
+        "Random C-peptide",
+        "HbA1c"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fasting C-peptide with a paired glucose level (ideally <8.0 mmol/L) measures endogenous beta-cell function. Random C-peptide is less reliable without a corresponding glucose; serum insulin cross-reacts with exogenous insulin; HbA1c reflects glycaemic control, not beta-cell function; fasting glucose alone does not assess secretion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3aeb1df11640",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman with known type 1 diabetes on basal-bolus insulin presents with a 1-day history of vomiting, abdominal pain, and deep breathing. Capillary glucose is 22.0 mmol/L. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Blood beta-hydroxybutyrate",
+        "Arterial blood gas",
+        "Urine ketones",
+        "Plasma glucose (laboratory)",
+        "Serum osmolality"
+      ],
+      "answerIndex": 0,
+      "explanation": "In suspected diabetic ketoacidosis, blood beta-hydroxybutyrate is the preferred ketone measurement due to high specificity and ability to monitor resolution. Urine ketones detect acetoacetate only and may lag; ABG shows acidosis but is not diagnostic; glucose and osmolality support but are not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "898a57eca748",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with type 1 diabetes on a multiple daily injection regimen (lispro and glargine) reports frequent nocturnal hypoglycaemic episodes. He is unaware of symptoms during sleep. His HbA1c is 47 mmol/mol (6.4%). Which investigation would best evaluate his insulin regimen and identify the cause of hypoglycaemia?",
+      "options": [
+        "24-hour urinary cortisol",
+        "HbA1c",
+        "Fasting C-peptide",
+        "Insulin antibody titres",
+        "Continuous glucose monitoring for 7 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "Continuous glucose monitoring (CGM) is recommended for type 1 diabetes with recurrent hypoglycaemia or hypoglycaemia unawareness to detect asymptomatic episodes and patterns. HbA1c is low but does not explain timing; fasting C-peptide is usually undetectable in long-standing type 1; insulin antibodies are not a common cause; urinary cortisol is not relevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c50ce7975ba",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 52-year-old man with a 15-year history of type 2 diabetes is on metformin and high-dose insulin glargine (1.2 units/kg/day) and insulin aspart with meals. Despite this, his HbA1c remains >86 mmol/mol (10%). He is overweight (BMI 31 kg/m²) and has acanthosis nigricans. Which investigation should be performed to rule out immune-mediated insulin resistance?",
+      "options": [
+        "GAD antibodies",
+        "HbA1c",
+        "Anti-insulin antibodies",
+        "Fasting plasma glucose",
+        "Fasting C-peptide"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-dose insulin resistance may be due to anti-insulin antibodies, which reduce circulating free insulin. Measurement of insulin antibody titres confirms immune-mediated resistance. GAD antibodies confirm type 1 but not resistance; C-peptide may be elevated in type 2; HbA1c and glucose confirm poor control but not cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b486a132c7a2",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man presents with polyuria, polydipsia, and weight loss over 2 weeks. Blood glucose is 22 mmol/L, urine ketones 3+, pH 7.28, bicarbonate 16 mmol/L. He is diagnosed with new-onset type 1 diabetes. After initial stabilisation, what is the most appropriate long-term insulin regimen?",
+      "options": [
+        "Insulin glargine once daily plus insulin lispro with meals",
+        "Metformin 500 mg twice daily",
+        "Biphasic insulin aspart 30 twice daily",
+        "Insulin pump with continuous subcutaneous insulin infusion",
+        "Insulin detemir twice daily alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend a basal-bolus regimen (e.g., long-acting analogue once daily plus rapid-acting analogue with meals) as first-line for type 1 diabetes. Biphasic insulin is not first-line; insulin pump is reserved for selected cases; detemir alone provides no prandial coverage; metformin is contraindicated in type 1 diabetes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "07970ac8cebd",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 58-year-old woman with type 2 diabetes for 6 years is on metformin 1 g twice daily and gliclazide 80 mg twice daily. HbA1c is 82 mmol/mol. Renal function is normal. She is not keen on multiple injections. What is the most appropriate insulin regimen to add?",
+      "options": [
+        "Neutral protamine Hagedorn (NPH) insulin twice daily",
+        "Insulin pump therapy",
+        "Biphasic insulin aspart 30 twice daily",
+        "Insulin lispro with each meal",
+        "Insulin glargine once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE suggests starting basal insulin (e.g., insulin glargine or NPH once daily) as the first insulin when oral agents fail. Premixed or prandial regimens are not first-line, especially in a patient reluctant to multiple injections. Insulin pump is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5f720aa9be1a",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 19-year-old woman with type 1 diabetes presents with vomiting, abdominal pain, and deep sighing respiration. Capillary glucose is 28 mmol/L, blood ketones 6 mmol/L, pH 7.0, bicarbonate 8 mmol/L. She is diagnosed with diabetic ketoacidosis. What is the most appropriate insulin therapy?",
+      "options": [
+        "Subcutaneous biphasic insulin aspart 30 10 units twice daily",
+        "Intravenous soluble insulin infusion (e.g., Actrapid) 0.1 units/kg/hour",
+        "Intravenous dexmedetomidine infusion",
+        "Subcutaneous insulin aspart 0.15 units/kg immediately",
+        "Intramuscular insulin glargine 0.3 units/kg stat"
+      ],
+      "answerIndex": 1,
+      "explanation": "In DKA, intravenous soluble insulin is the standard of care (by infusion). Subcutaneous rapid-acting is not first-line; long-acting glargine is not used in acute DKA; biphasic is inappropriate; dexmedetomidine is not an insulin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4156db32fa3",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old primigravida at 28 weeks gestation has gestational diabetes. Despite metformin 1 g twice daily and dietary advice, fasting glucose levels remain 6.5 mmol/L. She is not able to tolerate metformin due to nausea. She has no other medical problems. What is the most appropriate insulin regimen?",
+      "options": [
+        "Insulin degludec once daily",
+        "Neutral protamine Hagedorn (NPH) insulin twice daily",
+        "Rapid-acting insulin analogue (e.g., insulin lispro) at each meal",
+        "Insulin glargine once daily at bedtime",
+        "Biphasic insulin aspart 30 twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends NPH insulin as first-line basal insulin in gestational diabetes because of long safety experience. Rapid-acting analogues are used for postprandial control but not alone; glargine and degludec are not first-line in pregnancy; biphasic is less flexible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06713be8d221",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 27-year-old man with type 1 diabetes on a basal-bolus regimen (insulin glargine once daily and insulin aspart with meals) has recurrent severe hypoglycaemic episodes (requiring third-party assistance) occurring 2-3 times per week. His HbA1c is 48 mmol/mol. His hypoglycaemia awareness is impaired. He is motivated to optimise control. What is the most appropriate next step?",
+      "options": [
+        "Add acarbose 50 mg with meals",
+        "Add metformin 500 mg twice daily",
+        "Refer for insulin pump therapy (continuous subcutaneous insulin infusion)",
+        "Reduce insulin glargine dose by 20% and continue aspart",
+        "Switch to biphasic insulin aspart 30 twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends insulin pump therapy for people with type 1 diabetes who have disabling hypoglycaemia despite optimised MDI. Switching to biphasic may worsen hypoglycaemia; acarbose is not indicated; dose reduction alone is unlikely to resolve the problem; metformin is not licensed in type 1 diabetes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9159623ef97e",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the ED with polyuria, polydipsia, and weight loss. She is alert, BP 110/70, HR 90, capillary glucose 22.1 mmol/L, urine ketones trace, pH 7.38, bicarbonate 22 mmol/L. She is diagnosed with new-onset type 1 diabetes without ketosis. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous insulin infusion",
+        "Start subcutaneous basal-bolus insulin regimen",
+        "Start metformin",
+        "Refer to diabetic nurse for education",
+        "Start intravenous normal saline"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has new-onset type 1 diabetes without DKA (no acidosis, only trace ketones). The immediate priority is to start a subcutaneous basal-bolus insulin regimen, which is standard initial therapy for type 1 diabetes. IV fluids or insulin are not indicated as there is no dehydration or significant ketosis. Metformin is for type 2 diabetes; education is important but not the next step before insulin initiation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f48823cf7d7e",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with type 2 diabetes for 10 years, on metformin 1 g BD and gliclazide 160 mg BD, has HbA1c 9.5% (80 mmol/mol). His eGFR is 65 mL/min/1.73m². He is willing to start insulin. What is the most appropriate immediate next step?",
+      "options": [
+        "Start once-daily basal insulin analogue (e.g., insulin glargine)",
+        "Add a DPP-4 inhibitor",
+        "Add pioglitazone",
+        "Start premixed insulin twice daily",
+        "Refer to endocrinologist"
+      ],
+      "answerIndex": 0,
+      "explanation": "According to NICE guidelines, when oral therapy (metformin and a sulfonylurea) fails to control HbA1c, the next step is to add basal insulin. Premixed insulin is not first-line, and adding another oral agent is less appropriate given the high HbA1c and declining renal function (pioglitazone caution). Referral is not necessary for initiating basal insulin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6836c6e96b41",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old man with type 1 diabetes is brought to the ED with vomiting and abdominal pain. He is drowsy, tachypnoeic, capillary glucose 28 mmol/L, blood ketones 5.0 mmol/L, pH 7.1, bicarbonate 10 mmol/L. He has received 1 litre of normal saline IV in the ambulance. What is the most appropriate immediate next step?",
+      "options": [
+        "Start IV fluids at 500 mL/hour",
+        "Start IV fixed-rate insulin infusion (FRIII) at 0.1 units/kg/hour",
+        "Give IV bicarbonate",
+        "Perform CT head",
+        "Give IV 10% glucose"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has diabetic ketoacidosis (pH 7.1, ketones 5.0, drowsy). After initial fluid resuscitation, the next immediate step is to start a fixed-rate intravenous insulin infusion (FRIII) to suppress ketogenesis. IV bicarbonate is not routinely recommended; CT head is not indicated without focal neurology; glucose would worsen hyperglycaemia; further fluids can be given concurrently but insulin is the priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4bab8c8d24c1",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman with type 2 diabetes on insulin glargine 30 units once daily and insulin aspart with meals is found unresponsive on the ward. Her capillary glucose is 1.8 mmol/L. There is no IV access and attempts to obtain it are difficult. What is the most appropriate immediate action?",
+      "options": [
+        "Give oral glucose gel",
+        "Give IV 50% glucose 50 mL",
+        "Give IM glucagon 1 mg",
+        "Start IV 10% glucose",
+        "Call the crash team"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient is unresponsive with severe hypoglycaemia and no IV access. The immediate action is to administer IM glucagon, which raises blood glucose rapidly. IV glucose is not possible without access; oral gel is unsafe in an unresponsive patient; crash team call is not indicated for hypoglycaemia alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31befa6381ae",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with type 1 diabetes on an insulin pump (continuous subcutaneous insulin infusion, CSII) is admitted with hyperemesis gravidarum at 28 weeks gestation. She has been vomiting and unable to keep down food for 24 hours. Her capillary glucose is 6.0 mmol/L. She is concerned about hypoglycaemia. What is the most appropriate immediate management of her insulin?",
+      "options": [
+        "Reduce the pump basal rate by 50%",
+        "Continue current pump settings",
+        "Switch to multiple daily injections",
+        "Give a one-time bolus of rapid-acting insulin",
+        "Increase the pump basal rate by 50%"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a pregnant woman with type 1 diabetes who is vomiting and not eating, there is a high risk of hypoglycaemia. Reducing the basal rate by 50% is appropriate to prevent hypoglycaemia while maintaining some insulin to avoid DKA. Increasing the rate or giving a bolus would worsen hypoglycaemia; continuing current settings may also be unsafe; switching to injections is more disruptive and not immediately required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "93159a89780c",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man with type 1 diabetes presents with polyuria, polydipsia, and vomiting. Capillary glucose is 26 mmol/L, urine ketones 4+. Which single finding indicates severe diabetic ketoacidosis requiring immediate ITU review?",
+      "options": [
+        "Serum potassium 5.2 mmol/L",
+        "Serum sodium 130 mmol/L",
+        "Bicarbonate 12 mmol/L",
+        "Capillary glucose 28 mmol/L",
+        "pH 6.9"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe DKA is defined by pH <7.0 or bicarbonate <5 mmol/L; pH 6.9 meets this threshold, indicating high-dependency care is needed. The other options are not diagnostic of severe DKA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "beaa7d0ae05b",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with type 2 diabetes on human insulin is found unresponsive at home. Capillary glucose is 1.2 mmol/L. Which finding indicates this is a severe hypoglycaemic episode requiring immediate medical assistance?",
+      "options": [
+        "Loss of consciousness",
+        "No detectable autonomic symptoms",
+        "History of previous severe hypos",
+        "Capillary glucose 1.2 mmol/L",
+        "Age >65 years"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hypoglycaemia is defined by an episode requiring third-party assistance; loss of consciousness clearly indicates need for help. A low glucose alone does not define severity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4715c8ded711",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with type 1 diabetes on an insulin pump develops hyperglycaemia (18 mmol/L) and ketonuria. She administers a correction bolus via the pump. Which finding suggests pump malfunction as the cause?",
+      "options": [
+        "The pump shows no alarms",
+        "She has no history of DKA",
+        "She develops abdominal pain",
+        "Blood glucose rises to 20 mmol/L after 2 hours",
+        "She has not changed the infusion set in 3 days"
+      ],
+      "answerIndex": 3,
+      "explanation": "Failure of glucose to drop (or a rise) after a correction bolus indicates possible infusion site or pump failure, requiring alternative insulin delivery. Other options are less specific for pump malfunction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e890b6d37210",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with type 2 diabetes on biphasic insulin is admitted with confusion and a urinary tract infection. Blood glucose 38 mmol/L, sodium 142 mmol/L, potassium 3.8 mmol/L, urea 18 mmol/L, creatinine 200 µmol/L. Ketones negative. Which finding confirms hyperosmolar hyperglycaemic state (HHS)?",
+      "options": [
+        "Negative ketones",
+        "Glucose >30 mmol/L",
+        "Raised urea",
+        "Serum osmolality 340 mOsm/kg",
+        "Elderly age"
+      ],
+      "answerIndex": 3,
+      "explanation": "HHS is defined by hyperglycaemia >30 mmol/L, hyperosmolality >320 mOsm/kg, and absence of significant ketosis. Serum osmolality 340 mOsm/kg meets the diagnostic threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "efb727e81719",
+      "topic": "Insulin — Types & Regimens",
+      "slug": "insulin-—-types-&-regimens",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with type 1 diabetes on basal-bolus insulin (glargine and aspart) has frequent nocturnal hypoglycaemia. She now no longer feels symptoms before hypos. Which finding suggests hypoglycaemia unawareness?",
+      "options": [
+        "No autonomic symptoms (sweating, palpitations) prior to hypoglycaemia",
+        "Blood glucose <4.0 mmol/L at bedtime",
+        "She uses rapid-acting insulin only before meals",
+        "She has a history of coeliac disease",
+        "HbA1c 48 mmol/mol"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypoglycaemia unawareness is characterised by loss of autonomic warning symptoms (e.g., sweating, tremor). This increases the risk of severe hypoglycaemia and warrants adjustment of insulin regimen.",
+      "difficulty": "medium"
+    }
+  ]
+}

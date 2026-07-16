@@ -1,0 +1,513 @@
+{
+  "topic": "Ulcerative Colitis",
+  "slug": "ulcerative-colitis",
+  "system": "Gastroenterology",
+  "subSystem": "IBD",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-15T22:59:04Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "437304109033",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man presents with a 3-week history of bloody diarrhoea, tenesmus, and urgency. He has lower abdominal cramping but no weight loss or fever. On examination, there is mild tenderness in the left iliac fossa. Stool cultures are negative. What is the single most likely diagnosis?",
+      "options": [
+        "Irritable bowel syndrome",
+        "Ulcerative colitis",
+        "Infectious colitis",
+        "Crohn's disease",
+        "Colorectal cancer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic bloody diarrhoea with tenesmus and urgency is classic for ulcerative colitis. Crohn's disease more often presents with non-bloody diarrhoea and perianal disease. Infectious colitis is self-limited and would have positive cultures. IBS does not cause bloody stools. Colorectal cancer typically occurs in older patients with weight loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5e95a4e0648c",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old woman reports a 2-month history of constipation with occasional bright red blood on the toilet paper. She experiences tenesmus and a feeling of incomplete evacuation. Her stool frequency is normal. Flexible sigmoidoscopy reveals inflammation confined to the rectum with a normal proximal colon. What is the single most likely diagnosis?",
+      "options": [
+        "Colorectal cancer",
+        "Ulcerative colitis (proctitis)",
+        "Crohn's disease",
+        "Diverticular disease",
+        "Solitary rectal ulcer syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ulcerative colitis limited to the rectum (proctitis) often presents with constipation, tenesmus, and rectal bleeding. Solitary rectal ulcer syndrome typically involves an anterior rectal wall ulcer due to straining and is less common. Crohn's disease usually shows skip lesions and perianal involvement. Diverticular disease and colorectal cancer are less likely in this young patient with inflammation confined to the rectum.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "12c75186c07f",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known ulcerative colitis presents with a 3-day history of severe abdominal pain, 10 bloody stools daily, and fever. He is tachycardic (110 bpm) and has a temperature of 38.5°C. Abdomen is tender but not distended, and bowel sounds are present. His haemoglobin is 10.0 g/dL, and CRP is 45 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Clostridium difficile colitis",
+        "Crohn's disease with perforation",
+        "Ischaemic colitis",
+        "Acute severe ulcerative colitis",
+        "Toxic megacolon"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient meets Truelove and Witts criteria for acute severe colitis (>6 bloody stools, fever, tachycardia, anaemia, raised CRP). Toxic megacolon requires colonic dilatation on imaging. Clostridium difficile colitis is a consideration but less likely in a known UC patient without recent antibiotic use. Ischaemic colitis usually presents with sudden abdominal pain and rectal bleeding in older patients. Crohn's disease with perforation would show signs of peritonitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e09817203bf7",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with painful red nodules on her shins and bilateral knee arthritis. She also reports intermittent loose stools mixed with blood over the past 2 months. She has no oral ulcers, no perianal symptoms, and no history of antibiotic use or travel. What is the single most likely diagnosis?",
+      "options": [
+        "Ulcerative colitis",
+        "Behçet's disease",
+        "Irritable bowel syndrome",
+        "Crohn's disease",
+        "Infectious colitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of erythema nodosum, peripheral arthritis, and bloody diarrhoea is classic for inflammatory bowel disease. Ulcerative colitis is more commonly associated with these extraintestinal manifestations than Crohn's disease, which typically has additional features like oral ulcers or perianal disease. Infectious colitis is self-limited and lacks extraintestinal symptoms. IBS does not cause bloody stools or skin lesions. Behçet's disease includes oral and genital ulcers, which are absent here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f4ca31974255",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old man with a 10-year history of ulcerative colitis presents with pruritus and jaundice. He has no abdominal pain or fever. His medications include mesalazine. Liver function tests show an obstructive pattern with elevated alkaline phosphatase and bilirubin. What is the single most likely diagnosis?",
+      "options": [
+        "Cholangiocarcinoma",
+        "Drug-induced liver injury",
+        "Primary sclerosing cholangitis",
+        "Autoimmune hepatitis",
+        "Gallstones"
+      ],
+      "answerIndex": 2,
+      "explanation": "Primary sclerosing cholangitis is strongly associated with ulcerative colitis and typically presents with a cholestatic pattern of jaundice and pruritus in a middle-aged man. Autoimmune hepatitis is less common and shows a hepatocellular pattern. Drug-induced liver injury from mesalazine is rare and usually hepatocellular. Cholangiocarcinoma and gallstones are possibilities but are less likely given the strong association with UC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a3ab9d80791",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with a 3-week history of bloody diarrhoea, tenesmus, and urgency. She is systemically well and reports no weight loss. She has a first-degree relative with ulcerative colitis. Stool cultures are negative. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "CT colonography",
+        "Faecal calprotectin",
+        "Flexible sigmoidoscopy with biopsies",
+        "Barium enema",
+        "Colonoscopy with ileoscopy and biopsies"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a young patient with typical left-sided symptoms and a family history of UC, flexible sigmoidoscopy with biopsies is sufficient for diagnosis and is less invasive than colonoscopy. Colonoscopy may be reserved if there is concern for proximal disease or for surveillance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2bf1b362caf",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with known ulcerative colitis (left-sided, in remission on mesalazine) presents with a 1-week history of loose stools with some blood, 3-4 times per day. He is afebrile and has mild left lower quadrant tenderness. What is the most appropriate investigation to confirm active inflammation?",
+      "options": [
+        "Flexible sigmoidoscopy with biopsies",
+        "Abdominal X-ray",
+        "Faecal calprotectin",
+        "C-reactive protein",
+        "Stool culture"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a known UC patient with mild relapse, faecal calprotectin is a non-invasive marker of inflammation and can guide the need for endoscopy. Stool culture is to exclude infection, but here symptoms are typical of relapse. CRP is non-specific. Flexible sigmoidoscopy is invasive and not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8d529e31d7bf",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with acute severe bloody diarrhoea for 5 days, frequency of 8-10 stools per day, temperature 38.6°C, heart rate 115 bpm. Abdominal examination reveals diffuse tenderness. What is the most appropriate next investigation to guide initial management?",
+      "options": [
+        "Abdominal X-ray",
+        "Stool culture and Clostridium difficile toxin",
+        "CT abdomen with contrast",
+        "Faecal calprotectin",
+        "Flexible sigmoidoscopy with biopsies"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute severe colitis, abdominal X-ray is essential to assess for colonic dilatation (toxic megacolon) and to rule out perforation. Stool culture is important but not the most urgent. Endoscopy is contraindicated in acute severe disease without prior X-ray. CT is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdf7e1c9c4a7",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 42-year-old man with a 12-year history of ulcerative colitis presents with pruritus and fatigue. Liver function tests show elevated alkaline phosphatase and gamma-glutamyl transferase with normal bilirubin. Which investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Ultrasound abdomen",
+        "Liver biopsy",
+        "MRCP",
+        "CT abdomen",
+        "ERCP"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRCP is the non-invasive gold standard for diagnosing primary sclerosing cholangitis. ERCP is reserved for therapeutic intervention or if MRCP is contraindicated. Liver biopsy is not routinely needed for diagnosis. Ultrasound may show bile duct dilatation but is less sensitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90745a230e98",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with ulcerative colitis diagnosed 12 years ago, now in clinical remission on mesalazine. She is due for routine surveillance. What is the most appropriate investigation?",
+      "options": [
+        "CT colonography",
+        "Faecal calprotectin",
+        "Capsule endoscopy",
+        "Flexible sigmoidoscopy with biopsies",
+        "Colonoscopy with biopsies (with chromoendoscopy if available)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Current UK guidelines recommend colonoscopy with biopsies (or chromoendoscopy) for colorectal cancer surveillance in UC patients after 8-10 years of disease. Flexible sigmoidoscopy may miss right-sided dysplasia. Faecal calprotectin is not for surveillance. CT colonography does not allow biopsies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "75ade61408b3",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with a 3-week history of rectal bleeding, tenesmus, and mucous discharge. She has 4 bowel movements per day. Abdominal examination is normal. Flexible sigmoidoscopy shows erythema and friability of the rectum and sigmoid colon, with a normal colon proximal to the splenic flexure. Biopsies confirm ulcerative colitis. She has no previous history. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral prednisolone 40 mg once daily",
+        "Azathioprine 2 mg/kg once daily",
+        "Oral mesalazine 800 mg three times daily",
+        "Topical mesalazine 1 g enema once daily",
+        "Infliximab 5 mg/kg intravenously"
+      ],
+      "answerIndex": 3,
+      "explanation": "For mild-to-moderate distal ulcerative colitis, NICE and BSG guidelines recommend topical 5-ASA (mesalazine) as first-line therapy. Oral mesalazine is an option for more extensive disease but topical therapy delivers the drug directly to the inflamed mucosa with fewer systemic side effects.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "31514929f0b8",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man with known ulcerative colitis on no maintenance therapy presents with acute severe colitis. He has 10 bloody stools daily, tachycardia (110 bpm), temperature 38.5°C, and abdominal tenderness. Haemoglobin 100 g/L, CRP 90 mg/L. He is admitted for intravenous corticosteroids. Which of the following is CONTRAINDICATED in this acute severe flare?",
+      "options": [
+        "Intravenous ciclosporin 2 mg/kg daily",
+        "Intravenous hydrocortisone 100 mg four times daily",
+        "Oral mesalazine 800 mg three times daily",
+        "Infliximab 5 mg/kg intravenously",
+        "Empiric intravenous antibiotics (e.g., metronidazole and ciprofloxacin)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe colitis, oral 5-ASA preparations should be withheld because they are ineffective in severe disease and may exacerbate colonic inflammation. Intravenous steroids are first-line, and calcineurin inhibitors or anti-TNF are reserved for steroid-refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2d79cf135293",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with mild left-sided ulcerative colitis (Montreal E2) is in remission after a course of topical mesalazine. He wants to stay on maintenance therapy. Which of the following is the most appropriate first-line maintenance treatment?",
+      "options": [
+        "Infliximab 5 mg/kg intravenously every 8 weeks",
+        "Oral mesalazine 1.2 g twice daily",
+        "Azathioprine 2 mg/kg once daily",
+        "No maintenance therapy",
+        "Methotrexate 25 mg intramuscularly weekly"
+      ],
+      "answerIndex": 1,
+      "explanation": "For mild-to-moderate ulcerative colitis in remission, NICE recommends oral 5-ASA (mesalazine) as first-line maintenance therapy to reduce relapse risk. Azathioprine, methotrexate, and biologics are reserved for patients who fail or cannot tolerate 5-ASA or have more severe disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "019c5be7fd4f",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with pan-ulcerative colitis is 10 weeks pregnant. She presents with a mild flare (4 bloody stools/day, CRP 20 mg/L). She is not on any current treatment. Which of the following drugs is CONTRAINDICATED during pregnancy for ulcerative colitis?",
+      "options": [
+        "Topical mesalazine 1 g enema once daily",
+        "Oral mesalazine 800 mg three times daily",
+        "Infliximab 5 mg/kg intravenously",
+        "Prednisolone 20 mg once daily",
+        "Methotrexate 25 mg intramuscularly weekly"
+      ],
+      "answerIndex": 4,
+      "explanation": "Methotrexate is teratogenic and is absolutely contraindicated in pregnancy. It is rarely used in UC anyway, but is a key distractor. Oral/topical 5-ASA, prednisolone, and infliximab are relatively safe in pregnancy when the benefits outweigh risks, and are acceptable options according to BSG guidelines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a283d7bd47c8",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with severe ulcerative colitis (10 bloody stools/day, fever 38.9°C, abdominal distension) is admitted. Abdominal X-ray shows colonic dilatation (transverse colon diameter 7 cm). He is immediately started on intravenous hydrocortisone and antibiotics. Which of the following drugs is CONTRAINDICATED in this setting?",
+      "options": [
+        "Infliximab 5 mg/kg intravenously",
+        "Intravenous ciclosporin 2 mg/kg daily",
+        "Loperamide 4 mg orally stat",
+        "Empiric intravenous antibiotics (e.g., piperacillin-tazobactam)",
+        "Subcutaneous low molecular weight heparin for VTE prophylaxis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Loperamide and other antidiarrheals are contraindicated in acute severe colitis because they can precipitate toxic megacolon by reducing colonic motility. Ciclosporin, infliximab, and antibiotics may be indicated, and VTE prophylaxis is essential.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b05aa93785a9",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with a 4-week history of bloody diarrhoea, tenesmus, and left iliac fossa pain. She is systemically well, afebrile, HR 88, BP 110/70. Abdominal exam is soft with mild tenderness. She has no prior diagnosis. What is the most appropriate next step?",
+      "options": [
+        "Stool cultures",
+        "Start oral mesalazine",
+        "CT abdomen",
+        "Colonoscopy",
+        "Faecal calprotectin"
+      ],
+      "answerIndex": 0,
+      "explanation": "In suspected new-onset IBD, stool cultures are essential first to exclude infective colitis before proceeding to invasive or definitive tests like colonoscopy. NICE recommends stool cultures as first-line investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "05c954ee0454",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known UC (pancolitis) presents with a 2-week flare: 4–5 bloody stools/day, urgency, mild abdominal pain. Temperature 37.5°C, HR 90, BP 110/70. CRP 20, Hb 12, albumin 35. He is not on any current medications. What is the most appropriate next step?",
+      "options": [
+        "Oral azathioprine 50 mg daily",
+        "IV hydrocortisone 100 mg qds",
+        "Oral mesalazine 2.4 g daily",
+        "Oral prednisolone 40 mg daily",
+        "Rectal mesalazine enema"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a mild-moderate exacerbation (no severe features per Truelove & Witts), first-line therapy is oral or rectal 5-ASA (mesalazine). Systemic steroids are reserved for moderate-severe flares; azathioprine is a maintenance drug, not for acute flare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "645ff262a486",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old with known UC presents with severe bloody diarrhoea (10+ stools/day), tachycardia 110, BP 95/60, temperature 38.5°C, and a tender, distended abdomen. CRP 150, Hb 9, albumin 20. Abdominal X-ray shows colonic dilatation of 5.5 cm. What is the most appropriate next step?",
+      "options": [
+        "IV ciclosporin",
+        "Emergency colectomy",
+        "IV hydrocortisone 100 mg qds",
+        "IV infliximab",
+        "Aggressive IV fluid resuscitation"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is acute severe UC with toxic megacolon (dilatation >5.5 cm). Per NICE, immediate management includes IV corticosteroids (e.g., hydrocortisone) along with resuscitation. Surgery or rescue therapy (infliximab/ciclosporin) is considered after 72 hours if no response.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e43e21463674",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with UC (pancolitis) diagnosed 12 years ago is in clinical remission on mesalazine maintenance. She has no family history of colorectal cancer and her last colonoscopy was 3 years ago. What is the most appropriate next step?",
+      "options": [
+        "CT colonography",
+        "Repeat colonoscopy for surveillance",
+        "Annual faecal calprotectin",
+        "Flexible sigmoidoscopy",
+        "Faecal immunochemical test (FIT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends surveillance colonoscopy for UC pancolitis 8–10 years after diagnosis, then every 1–3 years. At 12 years duration and 3 years since last scope, she is due. CT colonography is not suitable for IBD surveillance; sigmoidoscopy is insufficient for pancolitis; FIT and faecal calprotectin are not validated for cancer surveillance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3db474b7f566",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with UC (left-sided colitis) is planning pregnancy. She is in remission on oral mesalazine 2.4 g daily. What is the most appropriate next step regarding her medication?",
+      "options": [
+        "Switch to oral prednisolone",
+        "Switch to sulfasalazine",
+        "Continue mesalazine",
+        "Stop mesalazine before conception",
+        "Start azathioprine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mesalazine is safe in pregnancy (BSG/NICE guidance) and maintaining remission is crucial to reduce risks of active disease. Stopping risks flare; sulfasalazine is safe but not needed; prednisolone and azathioprine are not first-line for stable remission.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4ffd6fb1230c",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man presents with a 2-week history of bloody diarrhoea, urgency, and tenesmus. He has no past medical history. Observations: HR 92, BP 110/70, temperature 37.6°C. Which single finding would indicate severe disease at this first presentation?",
+      "options": [
+        "Abdominal tenderness on palpation",
+        "Stool frequency of 6 per day with visible blood",
+        "Weight loss of 3 kg over 2 weeks",
+        "Haemoglobin 130 g/L",
+        "CRP 25 mg/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to Truelove and Witts criteria for severe UC, passing more than 6 bloody stools per day is a key criterion. Abdominal tenderness is non-specific, and a CRP of 25 is only moderate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dbe9d197cb7e",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with known UC, well-controlled on mesalazine 2.4 g daily, now has 4-5 stools per day with blood, no nocturnal symptoms. She is afebrile, pulse 78, CRP 12 mg/L. Which finding would necessitate escalation to oral corticosteroids?",
+      "options": [
+        "Passage of >6 stools per day with blood",
+        "Development of nocturnal stools",
+        "Development of arthralgia in both knees",
+        "Abdominal distension with reduced bowel sounds",
+        "Presence of extra-intestinal manifestations (e.g., uveitis)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Nocturnal stooling indicates loss of diurnal variation and suggests moderate-to-severe inflammation, prompting escalation to oral corticosteroids per NICE guidelines. Option B would represent severe disease requiring hospital admission.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8a3af91dd37b",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man with a 3-year history of UC is admitted with acute severe colitis. He is passing 8 bloody stools daily, HR 105, BP 95/60, temperature 38.3°C. Despite intravenous hydrocortisone, his symptoms persist. Which clinical or radiological finding would mandate urgent colectomy?",
+      "options": [
+        "Colonic diameter of 5.5 cm on abdominal X-ray",
+        "Development of Clostridium difficile infection",
+        "Tachycardia >100 bpm despite fluid resuscitation",
+        "Persistent bloody diarrhoea after 72 hours of steroids",
+        "Transverse colon diameter >6 cm with loss of haustration"
+      ],
+      "answerIndex": 4,
+      "explanation": "Toxic megacolon, defined as transverse colon diameter >6 cm with loss of haustration, is a life-threatening complication requiring urgent colectomy. Option A is borderline; B indicates need for second-line therapy but not immediate surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e460e3037b1",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with a 10-year history of UC presents with sudden severe abdominal pain, rigidity, and hypotension. She has been unwell with a flare for 3 days. What finding on imaging or examination confirms the life-threatening complication?",
+      "options": [
+        "CT scan showing colonic wall thickening and thumbprinting",
+        "Abdominal X-ray showing dilated loops of small bowel",
+        "Sigmoidoscopy showing deep ulcerations",
+        "Abdominal ultrasound showing ascites",
+        "Erect chest X-ray showing free gas under diaphragm"
+      ],
+      "answerIndex": 4,
+      "explanation": "Free gas under diaphragm indicates bowel perforation, which is a surgical emergency in UC. Option A suggests obstruction; C and E are common in UC but do not confirm perforation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b08874983abd",
+      "topic": "Ulcerative Colitis",
+      "slug": "ulcerative-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old pregnant woman at 28 weeks gestation with known UC (formerly mild) presents with a 1-week history of bloody diarrhoea. She has 4-5 stools per day, no systemic symptoms. Which single finding would necessitate urgent hospital admission and multidisciplinary input?",
+      "options": [
+        "Haemoglobin 110 g/L (previously 120)",
+        "Presence of erythema nodosum on shins",
+        "Development of mild abdominal cramps",
+        "Stool frequency increasing to 7 per day with blood",
+        "Pulse rate 85 bpm, temperature 37.1°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy, severe UC is defined similarly by Truelove-Witts criteria; >6 bloody stools/day indicates severe disease requiring hospital admission and joint gastro-obstetric care. Other options are not red flags.",
+      "difficulty": "hard"
+    }
+  ]
+}

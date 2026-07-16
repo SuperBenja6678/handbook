@@ -1,0 +1,493 @@
+{
+  "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+  "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:53Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "b21b480e30c3",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old man presents with syncope. On examination, heart rate is 35 bpm, BP 80/40 mmHg. There are cannon a waves and variable intensity of S1. ECG shows P waves at 90 bpm and QRS complexes at 35 bpm, with no relationship between them. What is the single most likely diagnosis?",
+      "options": [
+        "Atrial fibrillation with slow ventricular response",
+        "Sinus bradycardia",
+        "Complete (third-degree) AV block",
+        "Mobitz type I (Wenckebach) AV block",
+        "Mobitz type II AV block"
+      ],
+      "answerIndex": 2,
+      "explanation": "Complete AV block is characterized by complete dissociation of atrial and ventricular activity, resulting in an escape rhythm. The presence of cannon a waves and variable S1 intensity are classic signs. Sinus bradycardia would have a 1:1 relationship, and atrial fibrillation would show no P waves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25032c0ce53f",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with an acute inferior STEMI develops bradycardia (50 bpm). ECG shows progressive lengthening of the PR interval over several beats, followed by a dropped QRS complex. The PR interval then resets. What is the single most likely diagnosis?",
+      "options": [
+        "Sinus arrhythmia",
+        "Mobitz type II AV block",
+        "2:1 AV block",
+        "Complete AV block",
+        "Mobitz type I (Wenckebach) AV block"
+      ],
+      "answerIndex": 4,
+      "explanation": "The pattern of progressive PR prolongation with then a dropped beat is pathognomonic for Mobitz type I AV block, often seen in inferior MI due to heightened vagal tone or nodal ischaemia. Mobitz type II has fixed PR interval, and 2:1 AV block does not show the Wenckebach pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb277a958724",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with syncope. She has no chest pain. ECG shows 2:1 AV block, with a constant PR interval (0.20 s) and a wide QRS (0.14 s). A longer rhythm strip does not show any other patterns. What is the single most likely diagnosis?",
+      "options": [
+        "Complete AV block",
+        "Atrial flutter with fixed AV block",
+        "Mobitz type II AV block",
+        "Mobitz type I (Wenckebach) AV block with 2:1 conduction",
+        "Junctional escape rhythm"
+      ],
+      "answerIndex": 2,
+      "explanation": "2:1 AV block cannot be classified by pattern alone, but a normal PR interval and wide QRS suggest infranodal block typical of Mobitz type II. Mobitz type I usually has PR prolongation and narrow QRS. Complete AV block would show complete dissociation, not just every second P wave blocked.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9544790c6ee2",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with palpitations and lightheadedness. He recently returned from a camping trip and has a large erythematous rash with central clearing on his thigh. ECG shows PR interval of 320 ms, and every P wave is conducted to the ventricle. What is the single most likely diagnosis?",
+      "options": [
+        "Complete AV block",
+        "First-degree AV block",
+        "Mobitz type II AV block",
+        "Mobitz type I AV block",
+        "Sick sinus syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lyme disease (erythema migrans) frequently causes first-degree AV block. The prolonged PR interval with 1:1 conduction is diagnostic, and Mobitz I would have dropped beats, while complete AV block would have dissociation. Sick sinus syndrome involves sinus node dysfunction, not PR prolongation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8f399fd2d304",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with a history of anterior MI presents with collapse. ECG shows atrial rate of 90 bpm and ventricular rate of 35 bpm. P waves are seen to march through the QRS complexes with no relationship. The QRS complexes are wide (0.16 s) and regular. What is the single most likely diagnosis?",
+      "options": [
+        "Complete (third-degree) AV block",
+        "Ventricular tachycardia with exit block",
+        "Sinus bradycardia",
+        "Mobitz type II AV block",
+        "High-grade AV block"
+      ],
+      "answerIndex": 0,
+      "explanation": "Complete AV block is diagnosed when no P waves conduct to the ventricles; here there is complete dissociation with a broad escape rhythm from the Purkinje system. High-grade AV block would have some conducted beats. Mobitz type II would show some conducted P waves with fixed PR. Ventricular tachycardia is unlikely with rate 35.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2705cfe8b588",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with hypertension and diabetes attends for a routine health check. He is asymptomatic. His ECG shows a PR interval of 240 ms, with narrow QRS complexes and no dropped beats. What is the most likely diagnosis?",
+      "options": [
+        "Second-degree AV block Mobitz type I",
+        "Sinus bradycardia",
+        "Third-degree AV block",
+        "First-degree AV block",
+        "Second-degree AV block Mobitz type II"
+      ],
+      "answerIndex": 3,
+      "explanation": "A PR interval >200 ms with consistent conduction defines first-degree AV block. The absence of dropped beats or progressive PR lengthening excludes Mobitz I/II and third-degree block.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bbae342146fc",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman presents with palpitations and occasional dizziness. Her ECG shows a regular rhythm with progressive PR prolongation culminating in a non-conducted P wave. The QRS complexes are narrow. What is the diagnosis?",
+      "options": [
+        "Sinus arrhythmia",
+        "Third-degree AV block",
+        "Second-degree AV block Mobitz type II",
+        "Second-degree AV block Mobitz type I (Wenckebach)",
+        "High-grade AV block"
+      ],
+      "answerIndex": 3,
+      "explanation": "Progressive PR prolongation followed by a dropped QRS is classic for Mobitz I. The narrow QRS suggests the block is at the AV node level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a0379a21ef8",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man presents with syncope. His ECG shows sinus rhythm at 80 bpm with a constant PR interval of 180 ms. Suddenly, a P wave is not followed by a QRS complex. This pattern repeats every few beats. The QRS complexes are broad. What is the diagnosis?",
+      "options": [
+        "High-grade AV block",
+        "Second-degree AV block Mobitz type II",
+        "Second-degree AV block Mobitz type I",
+        "Third-degree AV block",
+        "Atrial fibrillation with slow ventricular response"
+      ],
+      "answerIndex": 1,
+      "explanation": "Constant PR with intermittent non-conducted P waves is characteristic of Mobitz II. Broad QRS suggests infranodal block, often requiring pacing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2679f2d2d25a",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman presents with breathlessness and syncope. Her pulse is 35 bpm. ECG shows P waves at a rate of 80/min that are completely dissociated from the QRS complexes. The ventricular rate is 35 bpm. What is the diagnosis?",
+      "options": [
+        "Second-degree AV block type I",
+        "High-grade AV block",
+        "Third-degree AV block (complete heart block)",
+        "Sinus bradycardia with junctional escape",
+        "Second-degree AV block type II"
+      ],
+      "answerIndex": 2,
+      "explanation": "Complete atrioventricular dissociation with an atrial rate faster than the ventricular rate is diagnostic of third-degree AV block. The slow ventricular escape rhythm confirms block.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "10d453c695f8",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man reports episodic lightheadedness lasting seconds to minutes. His resting 12-lead ECG is normal. Which investigation is most appropriate to confirm intermittent AV block?",
+      "options": [
+        "Cardiac MRI",
+        "24-hour ambulatory ECG (Holter monitor)",
+        "Echocardiogram",
+        "Tilt table test",
+        "Exercise ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 24-hour Holter monitor is the standard test to capture intermittent arrhythmias like AV block. Exercise ECG can provoke ischaemia but not reliably induce block; echo and MRI assess structure, not rhythm; tilt test for vasovagal syncope.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f2293732048",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with central chest pain and ST elevation in leads II, III, aVF. ECG shows complete heart block with a ventricular rate of 40 bpm. BP 100/70 mmHg. He is alert and pain relieved. What is the most appropriate first-line treatment?",
+      "options": [
+        "Transcutaneous pacing",
+        "Isoprenaline infusion",
+        "Permanent pacemaker insertion",
+        "Transvenous temporary pacing",
+        "Atropine 500 mcg IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "In inferior MI with AV block, atropine is first-line for haemodynamically stable patients. Transcutaneous pacing is reserved for those unstable or unresponsive to atropine. Isoprenaline is an alternative but not first-line. Permanent pacing is not indicated acutely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51ee9d1fb5e7",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old asymptomatic marathon runner has a routine ECG showing first-degree AV block (PR interval 240 ms). He has no symptoms, normal BP, and normal exercise tolerance. What is the most appropriate management?",
+      "options": [
+        "Elective pacemaker insertion",
+        "Digoxin",
+        "Beta-blocker therapy",
+        "Oral atropine",
+        "No treatment needed"
+      ],
+      "answerIndex": 4,
+      "explanation": "First-degree AV block is often benign and requires no intervention in asymptomatic individuals, especially in athletes. Atropine or beta-blockers are not indicated, and pacemaker is reserved for symptomatic bradycardia or advanced block.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "736f3dd46dca",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman on digoxin for heart failure presents with nausea and dizziness. ECG shows second-degree AV block Mobitz type I (Wenckebach) with a heart rate of 55 bpm. Serum digoxin level is 3.2 ng/mL. She is haemodynamically stable. What is the most appropriate first-line treatment?",
+      "options": [
+        "Temporary transvenous pacing",
+        "Digoxin-specific antibody fragments",
+        "Permanent pacemaker insertion",
+        "Atropine 500 mcg IV",
+        "Stop digoxin"
+      ],
+      "answerIndex": 4,
+      "explanation": "In stable digoxin toxicity causing type I second-degree AV block, the first step is to stop the drug. Digoxin-specific Fab is reserved for life-threatening toxicity (e.g., severe bradyarrhythmia, ventricular arrhythmia). Atropine and pacing are second-line if symptoms worsen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6f3883b87cf3",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man presents with syncope. ECG shows complete heart block with ventricular rate of 35 bpm. BP 80/50 mmHg. He is dizzy and clammy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Permanent pacemaker insertion",
+        "Isoprenaline infusion",
+        "Atropine 500 mcg IV",
+        "Immediate transcutaneous pacing",
+        "Transvenous temporary pacing"
+      ],
+      "answerIndex": 3,
+      "explanation": "In haemodynamically unstable complete heart block, immediate transcutaneous pacing is the first-line emergency treatment. Atropine is unlikely to be effective in complete heart block (especially if infranodal). Transvenous pacing is definitive but takes longer; transcutaneous provides immediate support.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "89a69708776e",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known 2:1 AV block (Mobitz type II) and left bundle branch block presents with atrial fibrillation and a ventricular rate of 140 bpm. He is haemodynamically stable. Which of the following drugs is contraindicated in his management?",
+      "options": [
+        "Metoprolol",
+        "Verapamil",
+        "Digoxin",
+        "Flecainide",
+        "Amiodarone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Verapamil is absolutely contraindicated in patients with second- or third-degree AV block as it further depresses AV conduction. Beta-blockers (metoprolol) and digoxin are relatively contraindicated but can be used with caution. Amiodarone and flecainide are safer in terms of AV conduction but flecainide is not first-line for rate control.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41afbc1a3d24",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman has a routine ECG for life insurance. It shows sinus rhythm with a PR interval of 240 ms. She is asymptomatic and has no medical history. What is the most appropriate next step?",
+      "options": [
+        "Reassure and no further action",
+        "Repeat ECG in one year",
+        "Start oral atenolol 50 mg once daily",
+        "Refer for cardiology outpatient review",
+        "Admit for cardiac monitoring"
+      ],
+      "answerIndex": 0,
+      "explanation": "First-degree AV block in an asymptomatic patient with no underlying heart disease is a benign finding. NICE guidelines do not recommend referral or treatment; reassurance is appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "800967f29671",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with hypertension presents to the Emergency Department after a syncopal episode. An ECG shows 2:1 AV block with a narrow QRS and PR interval is constant on the conducted beats. His blood pressure is 128/76 mmHg and heart rate is 45 bpm. What is the most appropriate next step?",
+      "options": [
+        "Urgent referral for permanent pacemaker insertion",
+        "Administer intravenous atropine 500 mcg",
+        "Give intravenous adenosine 6 mg",
+        "Observe for 24 hours on telemetry",
+        "Perform an exercise tolerance test"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is Mobitz type II second-degree AV block, which carries a high risk of progression to complete heart block. Urgent permanent pacemaker insertion is indicated. Atropine is unlikely to be effective and may worsen block.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a09af7ce065",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man is admitted with acute inferior ST-segment elevation myocardial infarction. He develops complete heart block with a wide QRS escape rhythm at 35 bpm. His blood pressure is 70/40 mmHg and he is diaphoretic. What is the most appropriate next step?",
+      "options": [
+        "Insert a temporary transvenous pacemaker",
+        "Urgent percutaneous coronary intervention",
+        "Begin cardiopulmonary resuscitation",
+        "Start an isoprenaline infusion",
+        "Administer intravenous atropine 500 mcg"
+      ],
+      "answerIndex": 0,
+      "explanation": "In unstable bradycardia due to complete heart block, immediate temporary pacing is the definitive treatment. Atropine is less effective in high-degree AV block, and while revascularisation is important, pacing is the most urgent next step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e96cfbae6aad",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with a history of hypertension presents with recurrent syncope. Her ECG shows complete heart block with a narrow QRS escape rhythm at 40 bpm. Her blood pressure is 118/72 mmHg and she is alert and comfortable. What is the most appropriate next step?",
+      "options": [
+        "Insert a temporary transvenous pacemaker",
+        "Administer intravenous atropine 500 mcg",
+        "Start an isoprenaline infusion",
+        "Admit for elective permanent pacemaker insertion",
+        "Discharge with outpatient cardiology follow-up"
+      ],
+      "answerIndex": 3,
+      "explanation": "Stable complete heart block with narrow QRS escape is likely due to AV nodal block and requires permanent pacing. Admission is needed for pacemaker insertion; temporary pacing is reserved for unstable patients. Atropine is ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c5f36e9b05c9",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old asymptomatic swimmer presents for pre-participation screening. ECG shows sinus rhythm with PR interval 240 ms. Which additional ECG finding would most strongly indicate a pathological rather than benign first-degree AV block?",
+      "options": [
+        "QRS duration 140 ms with left bundle branch block pattern",
+        "Left anterior fascicular block alone",
+        "ST elevation in leads V2-V4",
+        "Right bundle branch block alone",
+        "T wave inversion in leads V1-V3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Isolated first-degree AV block in a young athlete is usually benign. However, associated bifascicular block (e.g., left bundle branch block) suggests underlying conduction system disease and risk of progression to high-grade block.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3b2aefc86c1",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with diabetes presents with exertional dizziness. ECG shows Mobitz II second-degree AV block (intermittent dropped beats with constant PR interval). Which clinical finding from history or examination is most concerning for impending complete heart block?",
+      "options": [
+        "Shortness of breath when walking",
+        "Dizziness on standing",
+        "A history of syncope",
+        "Palpitations",
+        "Chest pain on exertion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Syncope in the setting of Mobitz II implies transient complete heart block with cerebral hypoperfusion, a critical red flag that necessitates urgent pacing. Other symptoms are less specific for imminent progression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9040eb29534a",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with hypertension is brought to the ED after a fall. She is confused, HR 32 bpm, BP 90/60. ECG shows complete heart block with a wide QRS escape rhythm. Which ECG feature best identifies that the escape rhythm is of ventricular origin and carries a higher risk of asystole?",
+      "options": [
+        "QRS duration >120 ms",
+        "T wave inversion in the precordial leads",
+        "Presence of retrograde P waves",
+        "Escape rate of 30 bpm",
+        "Irregular R-R intervals"
+      ],
+      "answerIndex": 0,
+      "explanation": "A wide QRS (>120 ms) escape rhythm indicates an idioventricular pacemaker distal to the bifurcation, which is less reliable and slower than a junctional escape. This finding heightens the need for urgent pacing, as the risk of asystole is increased.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11368c1813fa",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with atrial fibrillation on digoxin presents with nausea and bradycardia (HR 45 bpm). ECG shows atrial fibrillation with a regular, narrow-complex rhythm. Which finding is most suggestive of digoxin toxicity causing complete heart block with junctional escape?",
+      "options": [
+        "T wave inversion in the lateral leads",
+        "Regularization of the previously irregular ventricular response",
+        "QT interval prolongation",
+        "Frequent premature ventricular complexes",
+        "ST segment depression in leads V5-V6"
+      ],
+      "answerIndex": 1,
+      "explanation": "Regularization of the ventricular rhythm in a patient with atrial fibrillation indicates complete AV block with a junctional escape rhythm, a classic sign of digoxin toxicity. This is a dangerous finding that warrants immediate digoxin level check and holding the drug.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41529a204a90",
+      "topic": "AV Block / Heart Block (1st, 2nd, 3rd Degree)",
+      "slug": "av-block-heart-block-1st-2nd-3rd-degree",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with recurrent syncope has an ECG showing sinus rhythm with left bundle branch block. Which finding on 24-hour Holter monitoring would most strongly implicate intermittent complete heart block as the cause of syncope?",
+      "options": [
+        "Episodes of Mobitz I second-degree AV block",
+        "Non-sustained ventricular tachycardia",
+        "Episodes of Mobitz II second-degree AV block",
+        "Paroxysms of atrial fibrillation",
+        "Sinus pauses >3 seconds"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mobitz II in a patient with bifascicular block (left bundle branch block counts as one fascicle, but actually LBBB is a single fascicle; however, in context, left bundle branch block plus syncope suggests possible trifascicular disease. The finding of Mobitz II indicates infranodal block and a high risk of progression to complete heart block, which is a treatable cause of syncope.",
+      "difficulty": "hard"
+    }
+  ]
+}

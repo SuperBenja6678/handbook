@@ -1,0 +1,513 @@
+{
+  "topic": "Pancreatic Cancer",
+  "slug": "pancreatic-cancer",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "fecc56426bd0",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with a 3-week history of painless jaundice, pruritus, and weight loss. On examination, scleral icterus and a palpable, non-tender gallbladder (Courvoisier's sign) are noted. LFTs show obstructive picture: elevated bilirubin, ALP, and GGT. What is the single most likely diagnosis?",
+      "options": [
+        "Ampullary carcinoma",
+        "Pancreatic head adenocarcinoma",
+        "Gallstones with CBD obstruction",
+        "Chronic pancreatitis with pseudocyst",
+        "Cholangiocarcinoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Painless jaundice with palpable gallbladder is classic for periampullary tumours, particularly pancreatic head cancer. Cholangiocarcinoma typically does not cause gallbladder distension unless the obstruction is distal, but Courvoisier's sign is most associated with pancreatic cancer. Gallstones usually cause painful jaundice. Chronic pancreatitis often has pain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47e02f3e2715",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman presents with a 2-month history of unintentional weight loss (5 kg) and vague epigastric discomfort. She has no jaundice. She was recently diagnosed with type 2 diabetes mellitus despite no family history and a normal BMI. HbA1c is 72 mmol/mol. What is the single most likely diagnosis?",
+      "options": [
+        "Coeliac disease",
+        "Pancreatic body/tail adenocarcinoma",
+        "Gastric adenocarcinoma",
+        "Chronic pancreatitis",
+        "Type 2 diabetes mellitus"
+      ],
+      "answerIndex": 1,
+      "explanation": "New-onset diabetes in an older non-obese patient with weight loss and epigastric pain is a red flag for pancreatic cancer, especially body/tail tumours which often lack jaundice. Chronic pancreatitis usually has prior history of pain or alcohol. Gastric cancer more typically causes dyspepsia, early satiety. Coeliac disease often has diarrhoea.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bc5ffb8c39bb",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 74-year-old man presents with acute epigastric pain radiating to the back, nausea, and vomiting. Serum amylase is 1200 U/L. He has no history of gallstones, no alcohol intake, and his triglycerides are normal. A CT abdomen shows a swollen pancreas with peripancreatic fat stranding; no gallstones are seen. What is the single most likely underlying cause?",
+      "options": [
+        "Alcohol-induced pancreatitis",
+        "Gallstone disease (missed microlithiasis)",
+        "Autoimmune pancreatitis",
+        "Idiopathic pancreatitis",
+        "Pancreatic cancer"
+      ],
+      "answerIndex": 4,
+      "explanation": "In elderly patients with first episode of acute pancreatitis and no identifiable cause (gallstones, alcohol, hypertriglyceridemia), underlying pancreatic malignancy must be suspected. Approximately 5-10% of cases are due to pancreatic cancer. Idiopathic is a diagnosis of exclusion after appropriate workup.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c2cb6e4c48b6",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with a painful, red, swollen left calf. Doppler ultrasound confirms a proximal deep vein thrombosis. He has no recent surgery, immobility, or travel. His only other symptom is a 4-kg weight loss over 3 months. He has a 40-pack-year smoking history. What is the single most likely underlying diagnosis?",
+      "options": [
+        "Factor V Leiden mutation",
+        "Vasculitis",
+        "Pancreatic cancer",
+        "Lung cancer",
+        "Antiphospholipid syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "Migratory thrombophlebitis (Trousseau's sign) is a well-recognised paraneoplastic phenomenon, most strongly associated with pancreatic cancer. Weight loss and smoking history increase suspicion. Lung cancer also causes hypercoagulability, but pancreatic cancer is the classic cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6eae0489baea",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman has had two episodes of acute pancreatitis in the past 6 months. Each episode resolved with conservative management. She drinks minimal alcohol and has a normal gallbladder ultrasound and normal serum calcium and triglycerides. She has no family history of pancreatitis. What is the single most likely diagnosis?",
+      "options": [
+        "Sphincter of Oddi dysfunction",
+        "Pancreatic ductal adenocarcinoma",
+        "Idiopathic recurrent pancreatitis",
+        "Pancreas divisum",
+        "Autoimmune pancreatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients over 40 with recurrent idiopathic pancreatitis, the possibility of a small pancreatic tumour causing duct obstruction must be considered. Pancreas divisum and sphincter of Oddi dysfunction are possibilities but less likely without further features. Autoimmune pancreatitis often presents with a mass and jaundice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b6acc464f35",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with painless jaundice, weight loss and epigastric discomfort. There is a palpable mass in the epigastrium. Which single investigation is most appropriate to confirm the diagnosis of pancreatic cancer?",
+      "options": [
+        "Transabdominal ultrasound",
+        "ERCP",
+        "CA19-9",
+        "MRCP",
+        "CT abdomen (pancreatic protocol)"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT with pancreatic protocol is the first-line imaging for suspected pancreatic cancer as per NICE guidelines, providing high accuracy for detection and staging.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bf121ce3b1b2",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with painless jaundice has a CT scan showing a 3cm pancreatic head mass without metastasis. What is the next best test to obtain histological confirmation?",
+      "options": [
+        "CT-guided biopsy",
+        "PET-CT",
+        "MRCP",
+        "ERCP with brushings",
+        "Endoscopic ultrasound-guided fine needle aspiration (EUS-FNA)"
+      ],
+      "answerIndex": 4,
+      "explanation": "EUS-FNA has the highest sensitivity and lowest complication rate for tissue diagnosis of pancreatic masses, and is preferred over CT-guided biopsy and ERCP brushings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa509b907526",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with acute pancreatitis. A CT scan performed 2 weeks after resolution shows no mass. He continues to have epigastric pain and weight loss. Which investigation is most likely to confirm an underlying pancreatic cancer?",
+      "options": [
+        "Repeat CT with contrast",
+        "PET-CT",
+        "CA19-9",
+        "MRCP",
+        "Endoscopic ultrasound (EUS)"
+      ],
+      "answerIndex": 4,
+      "explanation": "EUS has high sensitivity for detecting small pancreatic tumours that may be missed on CT, especially in the setting of acute pancreatitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9770f6b1226",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with haematemesis. Endoscopy shows isolated gastric varices with no evidence of liver disease. Which investigation is most appropriate to diagnose the underlying cause, suspected to be pancreatic cancer?",
+      "options": [
+        "MRCP",
+        "EUS",
+        "Ultrasound abdomen",
+        "CA19-9",
+        "CT abdomen with contrast (pancreatic protocol)"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT abdomen with contrast can identify a pancreatic tail mass and splenic vein thrombosis, which is the classic cause of isolated gastric varices in the absence of liver disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcc99b70a303",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman presents with painless jaundice. Serum bilirubin is 200 μmol/L and CA19-9 is 150 U/mL. What is the most appropriate interpretation of the CA19-9 level?",
+      "options": [
+        "May be falsely elevated due to cholestasis",
+        "Non-specific and not useful",
+        "Indicates advanced disease",
+        "Highly suggestive of malignancy",
+        "Diagnostic of pancreatic cancer"
+      ],
+      "answerIndex": 0,
+      "explanation": "CA19-9 can be elevated in benign obstructive jaundice because of cholestasis, so it is not reliable for diagnosis in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15af94a364c0",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a 3-week history of painless jaundice and weight loss is diagnosed with locally advanced unresectable pancreatic adenocarcinoma (stage III). His performance status is ECOG 0. What is the most appropriate first-line treatment?",
+      "options": [
+        "Best supportive care",
+        "Gemcitabine plus nab-paclitaxel chemotherapy",
+        "Palliative radiotherapy",
+        "FOLFIRINOX chemotherapy",
+        "Gemcitabine monotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "For fit patients (PS 0-1) with locally advanced or metastatic pancreatic cancer, NICE recommends FOLFIRINOX as first-line. Gemcitabine plus nab-paclitaxel is an alternative but FOLFIRINOX is preferred in this setting due to superior survival.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ccf20b5133f8",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with metastatic pancreatic cancer (liver metastases) has ECOG performance status 2 due to significant comorbidities and frailty. She has painless jaundice managed with a biliary stent. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Gemcitabine monotherapy",
+        "Gemcitabine plus nab-paclitaxel",
+        "Palliative radiotherapy",
+        "Best supportive care",
+        "FOLFIRINOX chemotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with PS 2, combination chemotherapy is not tolerated. NICE recommends gemcitabine monotherapy as first-line in this group, as it offers modest survival benefit with acceptable toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b53ef7f7435b",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with obstructive jaundice and found to have a resectable pancreatic head adenocarcinoma (no metastases, clear vascular planes). He has no cholangitis. What is the definitive first-line treatment?",
+      "options": [
+        "Palliative chemotherapy with gemcitabine",
+        "Percutaneous transhepatic cholangiography with drainage",
+        "Neoadjuvant chemotherapy with FOLFIRINOX",
+        "Endoscopic retrograde cholangiopancreatography with stent insertion",
+        "Pancreaticoduodenectomy (Whipple procedure)"
+      ],
+      "answerIndex": 4,
+      "explanation": "For resectable pancreatic cancer, surgical resection (Whipple procedure) is the only curative option. Pre-operative biliary drainage is not routinely indicated without cholangitis, and neoadjuvant therapy is not standard for clearly resectable disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0a58d1ce00d",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old man with metastatic pancreatic cancer (liver and peritoneal metastases) develops acute onset of unilateral leg swelling and pain. Doppler ultrasound confirms a proximal deep vein thrombosis. He has no contraindications to anticoagulation. What is the most appropriate first-line treatment for this venous thromboembolism?",
+      "options": [
+        "Aspirin",
+        "Warfarin",
+        "Low molecular weight heparin (e.g., dalteparin)",
+        "No anticoagulation",
+        "Direct oral anticoagulant (e.g., rivaroxaban)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In cancer-associated thrombosis, NICE recommends LMWH over warfarin due to lower risk of recurrence and bleeding. Direct oral anticoagulants are not first-line in pancreatic cancer due to high gastrointestinal bleeding risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0e05803f5b8b",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman is diagnosed with borderline resectable pancreatic adenocarcinoma (involvement of superior mesenteric vein but not artery). Her performance status is ECOG 0. What is the most appropriate first-line management?",
+      "options": [
+        "Gemcitabine plus nab-paclitaxel alone",
+        "Best supportive care",
+        "Neoadjuvant FOLFIRINOX chemotherapy",
+        "Chemoradiotherapy",
+        "Upfront pancreaticoduodenectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For borderline resectable disease, neoadjuvant therapy is recommended to improve R0 resection rates. FOLFIRINOX is the regimen of choice due to superior response rates. Upfront surgery is associated with high positive margin rates.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e05d5d3f7672",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman presents with a 2-week history of painless jaundice, weight loss, and a palpable gallbladder. LFTs show obstructive pattern. What is the most appropriate next step in management?",
+      "options": [
+        "Arrange ERCP",
+        "Arrange urgent CT abdomen with contrast",
+        "Refer to specialist hepatobiliary MDT",
+        "Arrange MRCP",
+        "Arrange urgent ultrasound abdomen"
+      ],
+      "answerIndex": 4,
+      "explanation": "In painless jaundice with a palpable gallbladder (Courvoisier's sign), ultrasound is the first-line imaging to confirm biliary obstruction, identify the level, and assess for masses. CT is used for staging once obstruction is confirmed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "55e908651236",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known locally advanced pancreatic cancer (unresectable) on chemotherapy presents with mild epigastric pain and nausea. He has a biliary stent inserted 3 months ago. Observations are normal. What is the most appropriate next step?",
+      "options": [
+        "Arrange urgent CT abdomen",
+        "Start intravenous antibiotics",
+        "Increase oral analgesia",
+        "Refer for palliative care review",
+        "Check LFTs and serum bilirubin"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient may have stent dysfunction or cholangitis. Checking LFTs and bilirubin is the first step to assess for cholestasis. Antibiotics or ERCP may be indicated if there is evidence of infection or obstruction, but initial assessment is key.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "166ceadb63e4",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with metastatic pancreatic cancer presents with sudden severe upper abdominal pain, generalised peritonism, and hypotension (BP 80/50 mmHg). Abdomen is distended with absent bowel sounds. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous fluid resuscitation",
+        "Arrange urgent CT abdomen with contrast",
+        "Take blood cultures and start broad-spectrum antibiotics",
+        "Insert nasogastric tube",
+        "Request urgent surgical review"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient is in shock with peritonism, likely due to perforation or peritonitis. Immediate fluid resuscitation is the priority to correct hypotension. CT and surgical review follow after stabilisation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d55e04d59d93",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with pancreatic cancer presents with confusion, drowsiness, and asterixis. She had a biliary stent inserted 2 weeks ago. Observations: HR 110, BP 95/60, temperature 38.8°C, oxygen saturations 96% on air. What is the most appropriate next step?",
+      "options": [
+        "Take blood cultures and start intravenous antibiotics",
+        "Administer lactulose",
+        "Insert urinary catheter and monitor urine output",
+        "Arrange CT head",
+        "Check capillary blood glucose"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of fever, hypotension, and new confusion in a patient with a recent biliary stent suggests acute cholangitis with sepsis. Blood cultures and prompt antibiotics are the priority. Lactulose may be considered later if hepatic encephalopathy is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "625b1e879741",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man attends routine follow-up after pancreaticoduodenectomy for pancreatic cancer 2 years ago. He feels well and examination is normal. His last CT abdomen with contrast was 3 months ago and showed no recurrence. What is the most appropriate next step?",
+      "options": [
+        "Refer to oncology for further assessment",
+        "Discharge from follow-up",
+        "Arrange CT abdomen with contrast in 3 months",
+        "Arrange CT abdomen with contrast in 6 months",
+        "Check serum CA19-9"
+      ],
+      "answerIndex": 3,
+      "explanation": "National guidelines (e.g., NICE) recommend CT surveillance every 6 months for 2 years after resection, then annually. As he is at 2 years post-resection and the last scan was 3 months ago, the next scan should be in 6 months (total 2.5 years) before switching to annual scans.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1a775940b114",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known pancreatic head cancer awaiting surgery presents with fever, rigors, jaundice, and right upper quadrant pain. His temperature is 39°C, heart rate 110 bpm, and blood pressure 100/60 mmHg. Which diagnosis is the most likely life-threatening complication?",
+      "options": [
+        "Ruptured splenic artery pseudoaneurysm",
+        "Acute cholangitis",
+        "Acute pancreatitis",
+        "Perforated duodenal ulcer",
+        "Superior mesenteric vein thrombosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, rigors, jaundice, and right upper quadrant pain in a patient with obstructive jaundice from pancreatic head cancer is classic for acute cholangitis, a life-threatening emergency requiring urgent biliary drainage. Other options are possible but less consistent with the presentation; acute pancreatitis typically presents with epigastric pain radiating to the back, and pseudoaneurysm rupture would cause haemodynamic instability with a drop in haemoglobin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7578d39afe3b",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with pancreatic body cancer presents with sudden severe epigastric pain radiating to the back and haemodynamic instability. Her haemoglobin drops from 120 g/L to 80 g/L. Which complication should be suspected?",
+      "options": [
+        "Acute pancreatitis",
+        "Splenic rupture",
+        "Ruptured splenic artery pseudoaneurysm",
+        "Bleeding duodenal ulcer",
+        "Mesenteric ischaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pancreatic cancer can erode into adjacent arteries, causing pseudoaneurysm formation (most commonly splenic artery). Rupture presents with severe pain, haemodynamic shock, and a falling haemoglobin. Acute pancreatitis from tumour obstruction would not typically cause such a rapid drop in haemoglobin. Bleeding duodenal ulcer is a differential but less common in this context without NSAID use or preceding symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d027b64367be",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with no previous history presents with acute epigastric pain, vomiting, and serum amylase 1200 U/L. He drinks 20 units per week. Abdominal ultrasound shows no gallstones. Which finding most strongly suggests the need for further investigation for underlying pancreatic malignancy?",
+      "options": [
+        "Age over 60",
+        "Alcohol consumption",
+        "Raised amylase",
+        "Absence of gallstones on ultrasound",
+        "Vomiting"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend CT to exclude pancreatic malignancy in patients over 60 presenting with unexplained (idiopathic) acute pancreatitis. Age >60 is a key red flag. While absence of gallstones and alcohol history are relevant, the strongest single predictor in this scenario is advanced age, as the incidence of pancreatic cancer rises significantly after 60.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b60df1e60ea",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man presents with jaundice, pruritus, and unintentional weight loss of 8 kg over 3 months. He has no abdominal pain. On examination, you feel a distended, non-tender gallbladder. Which single finding most strongly suggests the diagnosis of pancreatic head cancer rather than gallstone disease?",
+      "options": [
+        "Pruritus",
+        "Jaundice",
+        "Palpable, non-tender gallbladder",
+        "Weight loss",
+        "Age over 70"
+      ],
+      "answerIndex": 2,
+      "explanation": "Courvoisier's law states that a palpable, non-tender gallbladder in the presence of jaundice is unlikely to be due to gallstones and suggests malignant obstruction of the common bile duct, most commonly from pancreatic head cancer. While weight loss and age are supportive, the palpable gallbladder is the critical discriminating sign.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fcac2294d0ec",
+      "topic": "Pancreatic Cancer",
+      "slug": "pancreatic-cancer",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with inoperable pancreatic cancer presents with acute-onset dyspnoea and pleuritic left-sided chest pain. He is hypoxic (SpO2 89% on room air) and tachypnoeic. Which complication should be suspected?",
+      "options": [
+        "Malignant pleural effusion",
+        "Spontaneous pneumothorax",
+        "Pericarditis",
+        "Pneumonia",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pancreatic cancer is associated with a hypercoagulable state, leading to venous thromboembolism (VTE) including pulmonary embolism (PE). Acute dyspnoea, pleuritic chest pain, and hypoxia in a patient with advanced malignancy are highly suggestive of PE. Pneumonia and pleural effusion are possible but less acute in onset, and pericarditis or pneumothorax are less common in this setting.",
+      "difficulty": "medium"
+    }
+  ]
+}

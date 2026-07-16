@@ -1,0 +1,513 @@
+{
+  "topic": "Arrhythmia — Ventricular Fibrillation",
+  "slug": "arrhythmia-—-ventricular-fibrillation",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:37Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d6d364829868",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man on amiodarone for atrial fibrillation collapses on the ward. Cardiac monitor shows a chaotic, irregular rhythm with no discernible P waves or QRS complexes. He is pulseless. What is the single most likely diagnosis?",
+      "options": [
+        "Ventricular fibrillation",
+        "Torsades de pointes",
+        "Pulseless ventricular tachycardia",
+        "Pulseless electrical activity (PEA)",
+        "Asystole"
+      ],
+      "answerIndex": 0,
+      "explanation": "The chaotic, irregular rhythm with no identifiable QRS complexes is characteristic of ventricular fibrillation (VF). Asystole is a flat line, PEA has electrical activity but no pulse, pulseless VT is usually regular and broad, and torsades is a type of polymorphic VT with twisting QRS axis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "71162c8fe1f8",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with no prior cardiac history collapses suddenly at home. Paramedics find her pulseless; the ECG shows a rapid, broad-complex tachycardia that degenerates into a coarse, undulating pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Monomorphic ventricular tachycardia",
+        "Torsades de pointes",
+        "Asystole",
+        "Ventricular fibrillation",
+        "Atrial fibrillation with aberrancy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The progression from broad-complex tachycardia to a chaotic undulating rhythm is classic for VF. Monomorphic VT is regular and does not typically have undulating waves; atrial fibrillation with aberrancy is irregularly irregular but not disorganised; torsades has a twisting axis; asystole is flat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "645d10b8b0a6",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with acute anterior STEMI undergoes primary PCI. During balloon inflation, he becomes unresponsive. The arterial line trace is lost, and the ECG monitor shows a rapid, disorganised rhythm with no discernible complexes. What is the single most likely diagnosis?",
+      "options": [
+        "Pulseless electrical activity",
+        "Reperfusion idioventricular rhythm",
+        "Asystole",
+        "Ventricular fibrillation",
+        "Monomorphic ventricular tachycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "VF is a common complication of acute MI, especially during reperfusion. Reperfusion idioventricular rhythm is usually slower and regular; monomorphic VT is regular; asystole is a flat line; PEA has organised electrical activity. The disorganised, pulseless rhythm is VF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "97b495c44b3d",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man with known Brugada syndrome experiences a syncopal episode. While being assessed, he becomes unresponsive. The defibrillator monitor shows a very rapid (≈300/min), coarse, chaotic rhythm that is irregular. He has no pulse. What is the single most likely diagnosis?",
+      "options": [
+        "Polymorphic ventricular tachycardia",
+        "Monomorphic ventricular tachycardia",
+        "Ventricular flutter",
+        "Ventricular fibrillation",
+        "Asystole"
+      ],
+      "answerIndex": 3,
+      "explanation": "The very rapid, chaotic, irregular rhythm in a patient with Brugada syndrome is most likely VF. Polymorphic VT (including torsades) is usually slower and has a twisting axis; monomorphic VT is regular; ventricular flutter is sinusoidal and regular; asystole is flat. The coarse, irregular chaos is VF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e6140c226825",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with severe hypothermia (core temperature 28°C) is found collapsed. The cardiac monitor shows a slow, irregular rhythm with very low-amplitude, coarse oscillations (approximately 30–40/min). He is pulseless. What is the single most likely diagnosis?",
+      "options": [
+        "Severe bradycardia",
+        "Asystole",
+        "Ventricular fibrillation",
+        "Atrial fibrillation",
+        "Pulseless electrical activity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypothermia can produce a slow, low-amplitude VF that is easily mistaken for asystole or bradycardia. The presence of coarse oscillations and pulselessness in this context points to VF rather than asystole (flat line), PEA (organised complexes), atrial fibrillation (P waves absent, but QRS organised), or bradycardia (which would have a pulse).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ddb532ba8030",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man collapses at home. The cardiac arrest team arrives and attaches a defibrillator. The rhythm is shown. Which of the following best describes this ECG appearance?",
+      "options": [
+        "Rapid, irregular, polymorphic QRS complexes without P waves",
+        "Slow, broad QRS complexes with no P waves",
+        "Chaotic, undulating baseline with no discernible QRS complexes",
+        "Rapid, narrow QRS complexes with irregular R-R intervals",
+        "Regular, broad QRS complexes at 200 bpm with capture beats"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ventricular fibrillation appears as chaotic, undulating baseline without discernible QRS complexes, distinguishing it from pulseless VT (regular broad complexes) and atrial fibrillation (narrow complexes).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2cbc9e05af26",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with known long QT syndrome (LQTS) collapses while watching television. A rhythm strip from the ambulance shows a polymorphic ventricular tachycardia that degenerates into a coarse, irregular rhythm. Which of the following is the most appropriate interpretation?",
+      "options": [
+        "Atrial fibrillation with aberrancy",
+        "Ventricular tachycardia with pulsus alternans",
+        "Supraventricular tachycardia with aberrancy",
+        "Ventricular fibrillation from the outset",
+        "Torsade de pointes degenerating into ventricular fibrillation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The sequence of polymorphic VT (torsade de pointes) degenerating into VF is characteristic in LQTS; the initial polymorphic rhythm and degeneration differentiate it from monomorphic VT or AF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a88d182b4b5b",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with ischaemic cardiomyopathy presents after an implantable cardioverter-defibrillator (ICD) shock. Device interrogation reveals a shock delivered for ventricular fibrillation. Which of the following findings on the stored electrogram is most consistent with ventricular fibrillation?",
+      "options": [
+        "Irregular, chaotic ventricular activity with varying amplitude",
+        "Regular, narrow QRS complexes at 180 bpm",
+        "Ventricular tachycardia with 1:1 retrograde conduction",
+        "Regular, monomorphic ventricular complexes at 250 bpm",
+        "Atrial fibrillation with rapid ventricular response"
+      ],
+      "answerIndex": 0,
+      "explanation": "VF is characterized by irregular, chaotic ventricular activity with varying amplitude, unlike monomorphic VT (regular) or narrow-complex tachycardias.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a46b1b60de2a",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man is brought to the emergency department in cardiac arrest. The initial rhythm is ventricular fibrillation. Return of spontaneous circulation (ROSC) is achieved after three shocks. Which of the following is the single most appropriate investigation to determine the cause of the arrhythmia?",
+      "options": [
+        "Coronary angiography",
+        "Serum electrolyte panel",
+        "Cardiac troponin",
+        "12-lead ECG",
+        "Echocardiography"
+      ],
+      "answerIndex": 0,
+      "explanation": "Coronary angiography is the key investigation after ROSC to identify acute coronary occlusion as a reversible cause of VF; while ECG and troponin support ischaemia, angiography is definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a68353968219",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old patient with no known heart disease is found pulseless. The rhythm strip shows a coarse, irregular rhythm with a rate of 300 bpm and no discernible QRS complexes. Which of the following is the correct interpretation?",
+      "options": [
+        "Atrial fibrillation",
+        "Ventricular fibrillation",
+        "Torsade de pointes",
+        "Supraventricular tachycardia",
+        "Ventricular tachycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Coarse, irregular rhythm with no QRS complexes is classic VF; tidal fibrillation has narrow complexes, VT has regular broad complexes, and torsade is polymorphic but usually faster and organized.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "311e77ec4f74",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man collapses in the hospital corridor. Cardiac monitor shows ventricular fibrillation. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous amiodarone 300 mg",
+        "Defibrillation at 150-200 J biphasic",
+        "Chest compressions only",
+        "Synchronised cardioversion",
+        "Intravenous adrenaline 1 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "Immediate defibrillation is the priority for a shockable rhythm like VF; adrenaline and amiodarone are given after the third shock if VF persists.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b99084df1661",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with VF continues in VF after three defibrillation attempts and intravenous adrenaline. What is the most appropriate next therapy?",
+      "options": [
+        "Repeat adrenaline 1 mg",
+        "Intravenous lidocaine 100 mg",
+        "Intravenous procainamide",
+        "Intravenous amiodarone 300 mg",
+        "Intravenous magnesium sulfate 2 g"
+      ],
+      "answerIndex": 3,
+      "explanation": "Amiodarone is the first-line antiarrhythmic for refractory VF per UK Resuscitation Council guidelines; lidocaine is second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1bcc98543f1b",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with anterior ST-elevation myocardial infarction develops ventricular fibrillation. He is successfully defibrillated after one shock. What is the most appropriate definitive therapy to prevent recurrence?",
+      "options": [
+        "Implantable cardioverter-defibrillator",
+        "Intravenous amiodarone infusion",
+        "Intravenous magnesium",
+        "Oral beta-blocker",
+        "Urgent percutaneous coronary intervention"
+      ],
+      "answerIndex": 4,
+      "explanation": "Reperfusion with PCI is the definitive treatment for ischaemia-triggered VF; antiarrhythmics are adjunctive but do not address the underlying cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "be346a071ce2",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with diarrhoea develops ventricular fibrillation. Serum potassium is 2.8 mmol/L, magnesium 0.5 mmol/L. After defibrillation and return of spontaneous circulation, what is the most appropriate therapy to prevent recurrence?",
+      "options": [
+        "Intravenous amiodarone",
+        "Temporary pacing",
+        "Intravenous lidocaine",
+        "Intravenous potassium and magnesium replacement",
+        "Intravenous calcium gluconate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Electrolyte abnormalities are a reversible cause of VF; correction of hypokalaemia and hypomagnesaemia is essential to prevent recurrence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "38d1d075b8d3",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 32 weeks gestation has a cardiac arrest. The rhythm is ventricular fibrillation. She has received three shocks and intravenous adrenaline. VF persists. What is the most appropriate antiarrhythmic drug?",
+      "options": [
+        "Adenosine",
+        "Lidocaine 100 mg IV",
+        "Amiodarone 300 mg IV",
+        "Procainamide",
+        "Magnesium sulfate 2 g IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "Amiodarone is relatively contraindicated in pregnancy due to fetal thyroid effects; lidocaine is the preferred alternative for refractory VF in pregnancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4c06be6b4662",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old man with chest pain and ST-elevation on ECG collapses in the emergency department. The monitor shows ventricular fibrillation. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start chest compressions and ventilation at 30:2",
+        "Administer amiodarone 300 mg IV",
+        "Check for a pulse for 10 seconds",
+        "Deliver a single unsynchronised shock at 200 J biphasic",
+        "Perform synchronised cardioversion at 120 J"
+      ],
+      "answerIndex": 3,
+      "explanation": "For witnessed ventricular fibrillation with a defibrillator immediately available, the priority is defibrillation without delay ('shock first'). Chest compressions should be started only if the defibrillator is not ready. Amiodarone is given after the third shock. Synchronised cardioversion is for perfusing tachyarrhythmias.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c6855f213fa4",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with known dilated cardiomyopathy and a primary prevention ICD is brought to the emergency department after receiving a shock. She is now conscious with a palpable pulse. The monitor shows sinus rhythm. What is the single most appropriate immediate next action?",
+      "options": [
+        "Check the device for appropriate therapy and battery status",
+        "Schedule elective device removal",
+        "Start an amiodarone infusion",
+        "Repeat the shock manually",
+        "Perform an urgent echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "After an ICD shock, the priority is device interrogation to confirm appropriate therapy (VF vs SVT) and rule out lead/generator malfunction. The patient is haemodynamically stable; further antiarrhythmic therapy or imaging can follow device check.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4f21368596c",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on the surgical ward has vomiting and is found collapsed. The cardiac monitor shows ventricular fibrillation. He has a potassium of 2.1 mmol/L. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start CPR with bag-valve-mask ventilation",
+        "Give an IV infusion of potassium chloride 40 mmol over 1 hour",
+        "Deliver a defibrillation shock at 200 J biphasic",
+        "Administer 1 mg adrenaline IV",
+        "Insert a central line for potassium replacement"
+      ],
+      "answerIndex": 2,
+      "explanation": "For witnessed VF, the immediate action is defibrillation regardless of electrolyte abnormalities. Potassium replacement is important but should not delay shock delivery. Adrenaline is given after the third shock. CPR with BVM is acceptable if defibrillator is charging, but defibrillation is the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2eba78dbe507",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man in the coronary care unit develops ventricular fibrillation. He is defibrillated three times (200 J, 200 J, 360 J) with persistent VF. CPR is in progress. What is the single most appropriate immediate next action?",
+      "options": [
+        "Attempt synchronised cardioversion at 200 J",
+        "Give amiodarone 300 mg IV",
+        "Check a pulse after a period of CPR",
+        "Perform a precordial thump",
+        "Give adrenaline 1 mg IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to ALS guidelines, after three failed shocks for VF, the next step is to give adrenaline 1 mg IV immediately following the third shock and resume CPR. Amiodarone is also given after adrenaline (usually after the next shock), but the immediate action after the third shock is adrenaline.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "aa23ede08347",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with known long QT syndrome collapses while playing tennis. Bystanders start CPR and an AED is applied; it advises a shock. Paramedics arrive and the rhythm is ventricular fibrillation. What is the single most appropriate immediate next action?",
+      "options": [
+        "Deliver a shock using the AED",
+        "Give intravenous potassium chloride",
+        "Administer magnesium sulphate 2 g IV",
+        "Check the QT interval on a 12-lead ECG",
+        "Start an amiodarone infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "The immediate action for VF is defibrillation. Using the AED shock as advised is the priority. Magnesium is indicated for torsade de pointes (polymorphic VT with normal QT) but VF is not torsade; even if underlying long QT, defibrillation comes first. Amiodarone is not first-line in congenital long QT and will not be given before defibrillation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ecd52423079f",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old patient on the medical ward becomes suddenly unresponsive. The cardiac monitor shows a chaotic rhythm with no discernible P waves or QRS complexes; the baseline undulates irregularly. Which single finding confirms this is ventricular fibrillation rather than a mimic?",
+      "options": [
+        "Wide QRS complexes",
+        "Rate less than 100 bpm",
+        "Regular rhythm",
+        "Absence of identifiable QRS complexes",
+        "Presence of P waves"
+      ],
+      "answerIndex": 3,
+      "explanation": "In ventricular fibrillation, there are no identifiable QRS complexes; the rhythm is completely disorganized with fibrillatory waves. Atrial fibrillation has QRS complexes, as does ventricular tachycardia. The absence of QRS complexes is the key distinguishing feature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d441c21f0208",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with an anterior STEMI is successfully defibrillated from ventricular fibrillation. He regains consciousness and his ECG shows sinus rhythm with anterior ST elevation. Which post-return-of-spontaneous-circulation (ROSC) finding is the greatest red flag for imminent recurrence of VF?",
+      "options": [
+        "ST segment elevation",
+        "Prolonged QT interval",
+        "Right bundle branch block",
+        "Frequent ventricular ectopics",
+        "First-degree AV block"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent or recurrent ST elevation indicates ongoing ischaemia, which is the most common trigger for VF in this setting. While ventricular ectopics can be precursors, the strongest red flag is ongoing ischaemia requiring urgent revascularisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f7ebac08d642",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old patient with dilated cardiomyopathy and an implantable cardioverter-defibrillator (ICD) presents after receiving multiple shocks. Device interrogation reveals a high-rate episode with an irregular rhythm and a mean ventricular rate of 280 bpm. Which feature most strongly suggests the episode was ventricular fibrillation rather than atrial fibrillation with rapid conduction?",
+      "options": [
+        "Sudden onset of the episode",
+        "Rate >200 bpm",
+        "Irregular rhythm",
+        "Duration >30 seconds",
+        "Polymorphic morphology"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ventricular fibrillation is characterised by polymorphic, disorganized electrical activity, whereas atrial fibrillation with rapid conduction typically has monomorphic QRS complexes (albeit wide if aberrancy). Polymorphic morphology is the hallmark of VF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "91f090701727",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with a history of recurrent syncope collapses at home. The paramedics find her in ventricular fibrillation. After successful defibrillation, her 12-lead ECG shows a prolonged QT interval (QTc 520 ms) with normal ST segments. Which finding on the ECG is the most critical red flag for an underlying electrical syndrome that predisposes to VF?",
+      "options": [
+        "Prolonged QT interval",
+        "ST segment depression",
+        "Left ventricular hypertrophy",
+        "U waves",
+        "T wave inversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "A prolonged QT interval is the hallmark of long QT syndrome, which predisposes to torsades de pointes that can degenerate into VF. This is a 'can't-miss' diagnosis as it requires specific management (e.g., beta-blockers, avoidance of QT-prolonging drugs).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0e12ce66186a",
+      "topic": "Arrhythmia — Ventricular Fibrillation",
+      "slug": "arrhythmia-—-ventricular-fibrillation",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old patient with chronic kidney disease presents with syncope. The cardiac monitor shows ventricular fibrillation. His serum potassium is 6.8 mmol/L. Which other ECG finding would you expect to see that further supports hyperkalaemia as the cause?",
+      "options": [
+        "P wave inversion",
+        "Prolonged PR interval",
+        "ST depression",
+        "Peaked T waves",
+        "Prominent U waves"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyperkalaemia causes peaked T waves, which are a classic ECG sign. In this scenario, the red flag is the combination of VF and hyperkalaemia, and peaked T waves would confirm the electrolyte abnormality as the trigger.",
+      "difficulty": "easy"
+    }
+  ]
+}

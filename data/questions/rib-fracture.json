@@ -1,0 +1,513 @@
+{
+  "topic": "Rib Fracture",
+  "slug": "rib-fracture",
+  "system": "Orthopaedics & Trauma",
+  "subSystem": "Trauma",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "6fdda37f4ae6",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with known osteoporosis trips and falls onto her right side. She complains of sharp pain over the right lower chest, worse on deep inspiration. On examination, there is point tenderness over the right 8th rib in the mid-axillary line, no crepitus, and no respiratory distress. Chest X-ray shows a non-displaced fracture of the right 8th rib. What is the single most likely diagnosis?",
+      "options": [
+        "Chest wall contusion",
+        "Simple pneumothorax",
+        "Pulmonary contusion",
+        "Flail chest",
+        "Simple traumatic rib fracture"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of a fall, focal rib tenderness, and X-ray confirmation makes a simple traumatic rib fracture the most likely diagnosis. Osteoporosis increases fracture risk. Pulmonary contusion would cause hypoxia and infiltrates on imaging; flail chest requires multiple contiguous fractures with paradoxical movement; pneumothorax would show no lung markings and hyperresonance; chest wall contusion would not show a fracture on X-ray.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f97a829c2da9",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old male rower presents with acute onset left-sided chest pain after a vigorous coughing episode during a training session. He denies any trauma. There is localized tenderness over the left 6th rib anteriorly. Breath sounds are equal bilaterally. Chest X-ray shows a subtle hairline fracture of the left 6th rib without displacement. What is the single most likely diagnosis?",
+      "options": [
+        "Rib stress fracture",
+        "Intercostal muscle strain",
+        "Pleurisy",
+        "Costochondritis",
+        "Pneumothorax"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a young athlete with no trauma, cough-induced rib fracture is a classic stress fracture. The X-ray confirms a fracture. Intercostal strain would not show fracture; pleurisy is associated with infective symptoms; costochondritis lacks focal bony tenderness; pneumothorax would have reduced breath sounds and hyperresonance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca19aad22a10",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man is brought to the emergency department after a high-speed road traffic accident. He has severe chest pain and respiratory distress. On examination, there is a flail segment over the right lateral chest wall with paradoxical movement during respiration. Chest X-ray shows fractures of ribs 5-9 on the right in at least two places each. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax",
+        "Haemothorax",
+        "Pulmonary contusion",
+        "Simple multiple rib fractures",
+        "Flail chest"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of a flail segment with paradoxical chest wall movement in the setting of multiple rib fractures is diagnostic of flail chest. Simple multiple rib fractures do not cause paradoxical movement; tension pneumothorax causes tracheal deviation and hyperresonance; haemothorax gives dull percussion; pulmonary contusion causes hypoxia and opacities on CT but not paradoxical movement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ccb623db93fa",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man is brought to the emergency department after a fall from height. He has tenderness over the left chest and is hypotensive (BP 90/60 mmHg) with tachycardia. JVP is flat, trachea is midline, and breath sounds are reduced on the left with dullness to percussion. Chest X-ray shows fractures of ribs 4-6 on the left and an opacified left hemithorax. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary contusion",
+        "Tension pneumothorax",
+        "Cardiac tamponade",
+        "Haemothorax",
+        "Flail chest"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of hypotension, flat JVP, dullness, and opacified hemithorax in the setting of rib fractures is classic for haemothorax. Tension pneumothorax would cause distended JVP and hyperresonance; cardiac tamponade gives distended JVP and muffled heart sounds; flail chest requires paradoxical movement; pulmonary contusion does not cause dullness or hypotension with flat JVP.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b687b95716c4",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with a history of breast cancer presents with gradually worsening right-sided chest pain for 2 weeks. She recalls no significant trauma, only a minor bump against a door frame. On examination, there is focal tenderness over the right 7th rib posteriorly. Chest X-ray reveals a lytic lesion in the right 7th rib with a pathological fracture. What is the single most likely diagnosis?",
+      "options": [
+        "Cough fracture (stress fracture)",
+        "Pathological rib fracture due to metastasis",
+        "Primary bone tumour",
+        "Traumatic rib fracture",
+        "Osteoporotic rib fracture"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with known breast cancer and a lytic rib lesion with fracture, a pathological fracture due to metastasis is most likely. Osteoporotic fractures occur with trauma but lack lytic lesions; traumatic fracture requires more force; cough fracture is usually in healthy individuals; primary bone tumours are rare and would not typically present with a lytic lesion in a rib in this age group.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "379708c9a8fc",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman presents to the emergency department after tripping and falling onto her left side. She has focal tenderness over the left lateral chest wall. Observations are normal. What is the most appropriate initial investigation?",
+      "options": [
+        "Rib series",
+        "CT chest",
+        "Chest X-ray",
+        "MRI chest",
+        "Ultrasound of the chest"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chest X-ray is first-line imaging for suspected rib fracture in low-energy trauma; it can diagnose fractures and identify complications like pneumothorax or haemothorax. Rib series are not routinely recommended, and CT is reserved for high-energy or complicated cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c3505ca4709",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old construction worker falls from a height of 4 metres. On arrival, he has respiratory distress and a flail segment of the right chest wall. Initial chest X-ray shows multiple rib fractures. What is the single most appropriate investigation to fully characterise the injury?",
+      "options": [
+        "E-FAST scan",
+        "Angiography",
+        "CT chest with intravenous contrast",
+        "MRI chest",
+        "Repeat chest X-ray in expiration"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT chest is the gold standard for evaluating flail chest, as it precisely delineates the number and location of fractures, and assesses for associated pulmonary contusion, haemothorax, and other injuries. E-FAST is useful for haemothorax but does not provide detailed bony anatomy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "540430666377",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man is admitted after a road traffic accident with right-sided rib fractures 7–9. On day 2, he becomes acutely short of breath with decreased chest expansion and dullness to percussion on the right. Which investigation is most appropriate to confirm the suspected complication?",
+      "options": [
+        "Ultrasound thorax",
+        "Chest X-ray",
+        "Pleural aspiration",
+        "CT chest",
+        "Bronchoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture suggests haemothorax, and chest X-ray is the first-line imaging to confirm a pleural effusion/haemothorax in a stable patient. It is rapid and readily available. CT or ultrasound may be used but are not the initial test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "af5cb0548d68",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 85-year-old woman with known osteoporosis presents after a fall from standing. She has left-sided chest wall pain and bruising. Initial chest X-ray is reported as normal. However, clinical suspicion of rib fracture remains high. What is the most appropriate next investigation?",
+      "options": [
+        "Ultrasound of the ribs",
+        "CT chest without contrast",
+        "Repeat chest X-ray in 2 weeks",
+        "Rib series X-ray",
+        "Bone scan"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT chest is more sensitive than X-ray for detecting occult rib fractures, especially in osteoporotic bone. It also assesses for other injuries. NICE recommends CT chest if clinical suspicion persists after normal X-ray in certain contexts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "152e524dfeea",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old man sustains multiple left-sided rib fractures from a high-speed motor vehicle collision. On chest X-ray, which of the following findings is most consistent with a flail chest and indicates a high-risk injury?",
+      "options": [
+        "Two adjacent ribs each fractured in two places",
+        "Three consecutive ribs fractured in one place each",
+        "One rib fractured in two places",
+        "Fracture of the first rib alone",
+        "Fracture of the sternum and two ribs"
+      ],
+      "answerIndex": 0,
+      "explanation": "The classical radiological definition of flail chest is two or more adjacent ribs fractured in two or more places, creating a free-floating segment that causes paradoxical movement. Single fractures or non-segmental fractures do not constitute flail chest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d1d6866d65a9",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents to the emergency department after a fall from a ladder. He has a right-sided rib fracture on X-ray with no pneumothorax or haemothorax. He is haemodynamically stable with oxygen saturations 98% on air. He has mild pain. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral morphine and bed rest",
+        "Surgical fixation of the rib fracture",
+        "Admission for intravenous analgesia and monitoring",
+        "Rib belt immobilisation",
+        "Simple analgesia (paracetamol and ibuprofen) and physiotherapy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Simple rib fractures without complications are managed conservatively with analgesia and physiotherapy to prevent atelectasis. The tempting distractor is admission for IV analgesia, but admission is not indicated for stable patients with mild pain. Rib belts are avoided as they restrict chest expansion and increase infection risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dca318c413a5",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man is brought to the emergency department after a road traffic collision. He has a flail chest with paradoxical movement and is in respiratory distress, oxygen saturation 88% on high-flow oxygen. His blood pressure is 110/70 mmHg. What is the most appropriate immediate treatment?",
+      "options": [
+        "Non-invasive positive pressure ventilation (CPAP)",
+        "Rib fixation in theatre",
+        "Analgesia alone with regular paracetamol and codeine",
+        "Intercostal chest drain",
+        "Emergency thoracotomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Flail chest with respiratory failure requires positive pressure ventilation to splint the chest wall. CPAP is first-line if the patient can protect airway. The tempting distractor is chest drain, but there is no haemothorax or pneumothorax described. Immediate rib fixation is not indicated in acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4856520c85fb",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents after a high-energy chest injury. She has multiple rib fractures on the left side and a large haemothorax on chest X-ray. She is hypotensive (BP 90/60 mmHg) and tachycardic (HR 115 bpm). What is the most appropriate treatment?",
+      "options": [
+        "Needle decompression of the pleural space",
+        "Urgent thoracotomy",
+        "Insertion of a large-bore intercostal chest drain",
+        "Observation and repeat chest X-ray in 4 hours",
+        "Volume resuscitation with blood products only"
+      ],
+      "answerIndex": 2,
+      "explanation": "A large haemothorax causing haemodynamic instability requires chest drain to decompress the pleural space and assess bleeding. Thoracotomy may be needed if ongoing blood loss >1500 ml or persistent instability, but first-line is chest drain. Needle decompression is for tension pneumothorax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a67d63bc1a3a",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old woman with osteoporosis presents after a fall. She has fractures of ribs 4–7 on the left. She has reduced breath sounds and oxygen saturation 91% on room air. She has poor cough effort and is unable to clear secretions. What is the most appropriate management?",
+      "options": [
+        "Supplementary oxygen alone and early discharge",
+        "Epidural analgesia to improve cough",
+        "Chest drain insertion for presumed pneumothorax",
+        "Surgical fixation of the ribs",
+        "Non-invasive ventilation (CPAP) to support respiratory effort"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elderly patients with multiple rib fractures and respiratory compromise often benefit from CPAP to prevent atelectasis and respiratory failure. Epidural analgesia can help but first-line is respiratory support. Surgical fixation is reserved for flail chest failing to wean from ventilation. Chest drain not indicated without pneumothorax.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "896cdc92c21d",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old man sustained a single rib fracture during a rugby match. He has mild pain but is reluctant to breathe deeply or cough due to pain. On day 2, he develops a low-grade fever and oxygen saturation 95% on air. Chest X-ray shows left lower lobe atelectasis. What is the most appropriate first-line management?",
+      "options": [
+        "Prescription of regular oral codeine to suppress cough",
+        "Intercostal nerve block for pain relief",
+        "Application of a rib belt to immobilise the fracture",
+        "Physiotherapy including incentive spirometry and deep breathing exercises",
+        "Antibiotics for suspected pneumonia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Atelectasis due to poor respiratory effort after rib fracture is managed with physiotherapy (deep breathing, incentive spirometry). Codeine suppresses cough, worsening atelectasis. Rib belts restrict chest expansion. Nerve block may be considered for pain, but first-line is physiotherapy. Antibiotics are for confirmed infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "545b6b2e8e47",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents after a fall from height, landing on his side. He has focal tenderness over the right 8th rib. CXR shows a single undisplaced rib fracture, no pneumothorax, no haemothorax, no other injuries. He is haemodynamically stable, oxygen saturations 98% on air, pain score 4/10. What is the most appropriate next step?",
+      "options": [
+        "Refer to orthopaedic clinic for follow-up",
+        "Discharge with oral analgesia and safety netting",
+        "Insert chest drain prophylactically",
+        "Perform CT thorax to exclude occult injury",
+        "Admit for observation"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidance for isolated rib fracture without respiratory compromise recommends discharge with oral analgesia and safety netting. Admission, CT, chest drain, or clinic follow-up are not indicated in this stable scenario.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9bb92be9ea91",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with COPD presents after a mechanical fall. He has bruising over the left lateral chest wall and focal tenderness. CXR shows fractures of left ribs 5-8, no flail. O2 sats 92% on room air, RR 24, HR 90, BP 130/80. What is the most appropriate next step?",
+      "options": [
+        "Admit for pain control, physiotherapy, and respiratory monitoring",
+        "Perform CT thorax",
+        "Discharge with oral analgesia and inhaler optimisation",
+        "Give high-flow oxygen and repeat ABG in 1 hour",
+        "Insert chest drain"
+      ],
+      "answerIndex": 0,
+      "explanation": "Multiple rib fractures with borderline hypoxia in a patient with COPD warrant admission for monitoring and pain control to prevent respiratory failure. CT is not immediately needed; oxygen alone is insufficient without admission; chest drain is not indicated without pneumothorax; discharge is unsafe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef0af707ebca",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old cyclist is brought in after a high-speed collision. He has a flail segment of the left lateral chest wall, paradoxical movement, and is in respiratory distress. O2 sats 88% on 15L non-rebreather, BP 90/60, HR 120. What is the most appropriate next step?",
+      "options": [
+        "Apply a bulky dressing to the flail segment",
+        "Intubate and ventilate",
+        "Obtain urgent CT thorax",
+        "Perform emergency needle thoracostomy",
+        "Insert a large-bore IV and give fluid bolus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Flail chest with respiratory failure requires positive pressure ventilation; intubation is the priority. Needle thoracostomy is for tension pneumothorax, not flail; CT would delay critical care; fluid bolus may help but airway/breathing comes first; dressing is outdated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5e1e8263cf32",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with a known right rib fracture from a fall yesterday develops sudden sharp chest pain and dyspnoea. On examination, he has decreased breath sounds on the right, hyper-resonance, and tracheal deviation to the left. Oxygen sats 85% on air, BP 80/40. What is the most appropriate next step?",
+      "options": [
+        "Obtain a stat CXR",
+        "Perform immediate chest drain insertion",
+        "Request an urgent CT pulmonary angiogram",
+        "Give 1g tranexamic acid",
+        "Perform needle decompression at the 2nd intercostal space, midclavicular line"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tension pneumothorax is a clinical diagnosis; immediate needle decompression is life-saving. Chest drain is definitive but takes longer; CXR delays critical care; tranexamic acid is for haemorrhage; CTPA is for pulmonary embolism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c1a46d974c3",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 85-year-old woman with osteoporosis presents after a fall, complaining of left-sided rib pain. She has mild tenderness over the left 6th rib, no bruising. CXR shows a minimally displaced fracture of left 6th rib, no other injuries. She lives with her daughter who can help. O2 sats 96% on air, RR 16, pain score 3/10. What is the most appropriate next step?",
+      "options": [
+        "Admit for pain control and physiotherapy",
+        "Refer to falls clinic",
+        "Prescribe a bisphosphonate",
+        "Discharge with oral analgesia and safety netting with family",
+        "Perform a DEXA scan to assess bone density"
+      ],
+      "answerIndex": 3,
+      "explanation": "For an isolated rib fracture in an elderly patient with good respiratory function and social support, discharge with analgesia and safety netting is appropriate. Admission is not needed; DEXA, bisphosphonate, and falls referral are long-term considerations, not immediate next steps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c5af0a8ce5c",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man is brought to the ED after a car crash. He has multiple rib fractures. On examination, you note that a portion of the chest wall moves inward on inspiration and outward on expiration. What life-threatening complication is this?",
+      "options": [
+        "Tension pneumothorax",
+        "Flail chest",
+        "Pulmonary contusion",
+        "Simple pneumothorax",
+        "Massive haemothorax"
+      ],
+      "answerIndex": 1,
+      "explanation": "Paradoxical chest wall movement is pathognomonic of flail chest, indicating multiple contiguous rib fractures with respiratory compromise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d9ffdb8aa91",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with COPD presents with a single rib fracture after a trivial fall. She is comfortable at rest but becomes breathless on minimal exertion. Which single finding on examination would indicate the development of a tension pneumothorax?",
+      "options": [
+        "Distended neck veins",
+        "Subcutaneous emphysema",
+        "Absent breath sounds on the affected side",
+        "Tracheal deviation to the contralateral side",
+        "Hyperresonance on the affected side"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tracheal deviation away from the affected side is a specific sign of tension pneumothorax, indicating mediastinal shift requiring immediate decompression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6f3f088debef",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with multiple rib fractures is on the ward. His pain is controlled with morphine. On admission, he required 2 L/min oxygen to maintain saturations >92%. After 12 hours, he requires 6 L/min to achieve the same saturations. Which single threshold indicates that he should be referred to critical care?",
+      "options": [
+        "Development of pleuritic pain",
+        "SpO2 93% on 6 L/min",
+        "Respiratory rate >30/min",
+        "Oxygen requirement of 6 L/min",
+        "New haemoptysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "A rising oxygen requirement (especially >4 L/min) signals deteriorating respiratory function and need for escalation to critical care to avoid respiratory failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d6b35e7d9d1",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old alcoholic falls down stairs and sustains a right-sided rib fracture. On admission, he is hypoxic (SpO2 90% on air) and has a raised JVP. Chest X-ray shows a 2 cm pneumothorax. What is the most likely additional life-threatening complication?",
+      "options": [
+        "Massive haemothorax",
+        "Flail chest",
+        "Pulmonary contusion",
+        "Cardiac tamponade",
+        "Tension pneumothorax"
+      ],
+      "answerIndex": 4,
+      "explanation": "Raised JVP and hypoxia in the context of pneumothorax suggest tension physiology, which is a clinical emergency even with a small radiological pneumothorax.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8946e45ff031",
+      "topic": "Rib Fracture",
+      "slug": "rib-fracture",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 85-year-old woman on warfarin for atrial fibrillation falls and sustains a left-sided rib fracture. She is brought to the ED with chest pain. Which single finding would raise suspicion of a haemothorax?",
+      "options": [
+        "Ecchymosis over the chest",
+        "Hypotension",
+        "Muffled heart sounds",
+        "Increased resonance on percussion",
+        "Distended neck veins"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension in a patient on anticoagulation with rib fracture is a key red flag for haemothorax, resulting from blood loss into the pleural cavity.",
+      "difficulty": "medium"
+    }
+  ]
+}

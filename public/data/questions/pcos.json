@@ -1,0 +1,513 @@
+{
+  "topic": "PCOS",
+  "slug": "pcos",
+  "system": "Gynaecology",
+  "subSystem": "Endocrine",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:06Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9083447e1137",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 2-year history of irregular periods occurring every 35–45 days. She has excessive facial and abdominal hair and has developed acne. Her BMI is 28 kg/m². There is no family history of hirsutism. Investigations show normal prolactin, TSH, and 17-hydroxyprogesterone. What is the single most likely diagnosis?",
+      "options": [
+        "Polycystic ovary syndrome",
+        "Hypothyroidism",
+        "Hyperprolactinaemia",
+        "Non-classic congenital adrenal hyperplasia",
+        "Cushing's syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of oligomenorrhoea, clinical hyperandrogenism (hirsutism, acne), and raised BMI is classic for PCOS. Normal 17-hydroxyprogesterone excludes non-classic CAH, and normal prolactin/TSH exclude hyperprolactinaemia and hypothyroidism. Cushing's would typically show other features like striae, central obesity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "702da89daedb",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with a BMI of 22 kg/m² complains of irregular cycles (every 28–56 days) and mild chin hair. She has no acne. Her periods began at age 13 and have always been somewhat irregular. She is otherwise well. Examination reveals a Ferriman-Gallwey score of 8 (mild hirsutism). Testosterone is normal, but free androgen index is slightly elevated. LH:FSH ratio is 2:1. Prolactin, TSH, and 17-hydroxyprogesterone are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Premature ovarian insufficiency",
+        "Polycystic ovary syndrome",
+        "Hypothalamic amenorrhoea",
+        "Hyperprolactinaemia",
+        "Idiopathic hirsutism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even with normal BMI and mild symptoms, the presence of oligomenorrhoea (irregular cycles) and clinical or biochemical hyperandrogenism (elevated free androgen index, hirsutism) meets the Rotterdam criteria for PCOS. Hypothalamic amenorrhoea would typically present with amenorrhoea, not oligomenorrhoea, and no hyperandrogenism. Hyperprolactinaemia and POI are excluded by normal prolactin and FSH (not given but implied normal cycles? Actually she has irregular cycles but not elevated FSH). Idiopathic hirsutism would have regular ovulatory cycles.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4e1f8c3c68a",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 4-month history of rapidly progressive hirsutism, deepening of her voice, and clitoromegaly. She has also noticed hair thinning. Her menstrual cycles are regular. Androgen profile shows a markedly elevated testosterone and normal DHEAS. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal carcinoma",
+        "Androgen-secreting ovarian tumour",
+        "Non-classic congenital adrenal hyperplasia",
+        "Polycystic ovary syndrome",
+        "Cushing's syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rapid onset of virilisation (deep voice, clitoromegaly, severe hirsutism) with very high testosterone and normal DHEAS points to an androgen-secreting ovarian tumour, such as a Sertoli-Leydig cell tumour. PCOS has a gradual onset and rarely causes virilisation. Non-classic CAH usually presents earlier with milder symptoms. Cushing's would have additional features (striae, centripetal obesity, hypertension). Adrenal carcinoma typically elevates DHEAS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5fb5878aaddc",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with known polycystic ovary syndrome (diagnosed 5 years ago) presents with heavy menstrual bleeding lasting 10 days each cycle. Her cycles are irregular, occurring every 6–10 weeks. She is not taking any contraceptive. Her BMI is 32 kg/m². Endometrial biopsy is performed. What is the single most likely diagnosis based on her presentation and risk factors?",
+      "options": [
+        "Adenomyosis",
+        "Endometrial cancer",
+        "Polycystic ovary syndrome",
+        "Uterine fibroid",
+        "Endometrial hyperplasia"
+      ],
+      "answerIndex": 4,
+      "explanation": "In PCOS, unopposed oestrogen leads to endometrial proliferation. The risk of endometrial hyperplasia and cancer is increased. Given her age and long-standing anovulation with heavy bleeding, endometrial hyperplasia is the most likely diagnosis. Endometrial cancer is possible but less common in this age group without other risk factors. The other options are not directly related to PCOS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9aadbbd82975",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman comes for a routine check. She has no complaints but her mother had PCOS. She has regular menses every 28–30 days. On examination, she has mild hirsutism (Ferriman-Gallwey score 10) and a few acne papules. Her BMI is 24 kg/m². An ultrasound reveals polycystic ovaries (≥20 follicles per ovary). Biochemical evaluation shows normal testosterone, free androgen index, and normal LH:FSH ratio. What is the single most likely diagnosis?",
+      "options": [
+        "Polycystic ovary syndrome",
+        "Familial hirsutism",
+        "Hyperprolactinaemia",
+        "Non-classic congenital adrenal hyperplasia",
+        "Idiopathic hirsutism"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Rotterdam criteria for PCOS require two of three: oligomenorrhoea/anovulation, clinical/biochemical hyperandrogenism, and polycystic ovaries on ultrasound. This patient has clinical hyperandrogenism (hirsutism, acne) and polycystic ovaries, fulfilling the criteria even with regular menses. Idiopathic hirsutism would have normal ovaries and no hyperandrogenism. CAH and hyperprolactinaemia are excluded by normal 17-hydroxyprogesterone and prolactin (not given but implied). Familial hirsutism is not a formal diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2513cd7e1705",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old woman presents with a 1-year history of irregular periods (6-7 cycles per year) and facial hirsutism. BMI 28. She has no other medical history. What is the single most appropriate initial investigation to help confirm the diagnosis of polycystic ovary syndrome?",
+      "options": [
+        "LH:FSH ratio",
+        "17-hydroxyprogesterone",
+        "Thyroid function tests",
+        "Pelvic ultrasound",
+        "Serum total testosterone"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends measuring total testosterone or free androgen index as first-line biochemical evidence of hyperandrogenism, which is required for diagnosis alongside menstrual irregularity. Pelvic ultrasound is used if the diagnosis is uncertain or to document polycystic ovaries, but not as the first test. LH:FSH ratio is not diagnostic. 17-OHP excludes late-onset congenital adrenal hyperplasia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "364096220a80",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with known PCOS (diagnosed 2 years ago, currently on metformin) is trying to conceive. She reports regular 30-day menstrual cycles. She wants to confirm that she is ovulating. What is the single most appropriate next test to confirm ovulation?",
+      "options": [
+        "Mid-cycle urinary LH surge kit",
+        "Serial transvaginal ultrasound for follicular tracking",
+        "Serum anti-Müllerian hormone",
+        "Day 21 serum progesterone",
+        "Basal body temperature charting"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a woman with regular cycles, a mid-luteal phase (day 21) serum progesterone level >25 nmol/L confirms ovulation. Mid-cycle LH kits are less reliable in PCOS due to chronically elevated LH. Serial ultrasound is more resource-intensive and not first-line. BBT is retrospective and less precise. AMH reflects ovarian reserve, not ovulation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "082c5d218665",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with known PCOS underwent ovulation induction with clomiphene citrate. She presents 1 week later with abdominal distension, nausea, vomiting, and difficulty breathing. On examination, she has a distended, tender abdomen. Urgent pelvic ultrasound shows bilaterally enlarged ovaries (10 cm) and free fluid in the pouch of Douglas. What is the single most likely diagnosis?",
+      "options": [
+        "Pelvic inflammatory disease",
+        "Ruptured ovarian cyst",
+        "Ovarian torsion",
+        "Ectopic pregnancy",
+        "Ovarian hyperstimulation syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of recent clomiphene use, cystic ovarian enlargement, and ascites is classic for ovarian hyperstimulation syndrome (OHSS). Ovarian torsion would present with severe acute pain and absence of blood flow on Doppler. Ruptured cyst may cause pain but not typically bilateral enlargement and ascites. Ectopic pregnancy is possible but less likely without specific signs and with this USS finding. PID does not cause bilateral ovarian enlargement and ascites.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ecd26dc3aa89",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with long-standing PCOS, BMI 32, has not menstruated for 6 months. She is worried about endometrial hyperplasia. What is the single most appropriate first-line investigation to evaluate the endometrium?",
+      "options": [
+        "Pelvic MRI",
+        "Serum CA-125",
+        "Endometrial biopsy",
+        "Hysteroscopy",
+        "Transvaginal ultrasound"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends transvaginal ultrasound as the first-line imaging to measure endometrial thickness. An endometrial thickness >7 mm in a woman with no bleeding warrants further evaluation (e.g., biopsy). Hysteroscopy and biopsy are diagnostic but more invasive and reserved for abnormal ultrasound. CA-125 is for ovarian cancer. MRI is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "60ee9fd74be0",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 17-year-old female presents with oligomenorrhea (5-6 periods per year) for 18 months since menarche. She has mild acne but no hirsutism. BMI 22. According to UK guidelines, which of the following is the most appropriate diagnostic approach for this adolescent?",
+      "options": [
+        "Diagnose PCOS only if free androgen index is elevated",
+        "Diagnose PCOS only if pelvic ultrasound shows polycystic ovaries",
+        "Diagnose PCOS only if both oligomenorrhea and hyperandrogenism are present for at least 2 years post-menarche",
+        "Diagnose PCOS if any two of the Rotterdam criteria are present",
+        "Diagnose PCOS only if LH:FSH ratio is >2.5"
+      ],
+      "answerIndex": 2,
+      "explanation": "In adolescents, physiological anovulation and acne can mimic PCOS. NICE and international guidelines recommend that the diagnosis of PCOS should be deferred until at least 2 years after menarche, unless there is clear hyperandrogenism. Therefore, requiring both oligomenorrhea and hyperandrogenism to persist for >2 years is the most appropriate diagnostic threshold. Ultrasound is less reliable due to normal multi-follicular ovaries. LH:FSH ratio and free androgen index are not sole criteria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7be6c2451570",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with PCOS (BMI 31 kg/m²) presents with oligomenorrhoea and is keen to conceive. She has hirsutism but no other comorbidities. What is the most appropriate first-line management?",
+      "options": [
+        "Lifestyle advice and weight loss",
+        "Metformin 500 mg three times daily",
+        "Clomifene 50 mg daily",
+        "Letrozole 2.5 mg daily",
+        "Laparoscopic ovarian drilling"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends lifestyle advice and weight loss as first-line management for women with PCOS who are overweight and wish to conceive, as weight loss improves ovulation and metabolic health. Pharmacological ovulation induction (letrozole or clomifene) is offered only after weight loss has been attempted, or if the woman is not overweight.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3512de54cfe8",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 24-year-old woman with PCOS is not trying to conceive but complains of troublesome hirsutism and acne. She has no contraindications to hormonal contraception. What is the most appropriate first-line treatment?",
+      "options": [
+        "Spironolactone 25 mg daily",
+        "Metformin 500 mg three times daily",
+        "Combined oral contraceptive pill",
+        "Eflornithine cream 11.5%",
+        "Finasteride 5 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combined oral contraceptive pill is first-line for managing hirsutism and acne in PCOS due to its anti-androgenic effects and menstrual regulation. Spironolactone is second-line, typically reserved for when COC is contraindicated or ineffective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "26cb79bf8348",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with PCOS (BMI 28 kg/m²) who has not had a period for 6 months presents with intermenstrual bleeding. Endometrial biopsy shows simple hyperplasia without atypia. She does not wish to conceive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Continuous combined transdermal HRT",
+        "Hysterectomy",
+        "Observation with repeat biopsy in 6 months",
+        "Levonorgestrel-releasing intrauterine system (LNG-IUS)",
+        "Oral medroxyprogesterone acetate 10 mg daily for 14 days per cycle"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends a levonorgestrel-releasing intrauterine system (LNG-IUS) as first-line treatment for endometrial hyperplasia without atypia, as it provides effective progestogenic opposition with lower systemic side effects. Oral progestogens are an alternative but are less effective and have poorer compliance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f4872e87e8bf",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with PCOS and a BMI of 32 kg/m² has impaired glucose tolerance (IGT) on oral glucose tolerance testing. She has a strong family history of type 2 diabetes. Despite lifestyle changes for 6 months, her glucose levels remain abnormal. What is the most appropriate pharmacological therapy?",
+      "options": [
+        "Orlistat 120 mg three times daily",
+        "Pioglitazone 30 mg daily",
+        "Liraglutide 0.6 mg daily",
+        "Metformin 500 mg three times daily",
+        "Acarbose 50 mg three times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Metformin is first-line pharmacological therapy for preventing or delaying type 2 diabetes in women with PCOS and IGT, as it improves insulin sensitivity and reduces progression to diabetes. Pioglitazone is second-line due to safety concerns, and other agents are not first-line in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b957425ecbcc",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with PCOS (BMI 24 kg/m²) complains of hirsutism. She is a smoker (20 cigarettes/day) and has a history of migraine with aura. She does not wish to conceive. What is the most appropriate first-line treatment for her hirsutism?",
+      "options": [
+        "Metformin 500 mg three times daily",
+        "Spironolactone 50 mg twice daily",
+        "Eflornithine cream 11.5%",
+        "Combined oral contraceptive pill",
+        "Finasteride 5 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combined oral contraceptive pill is contraindicated in this patient due to smoking (>35 years) and migraine with aura. Spironolactone is the recommended first-line alternative for hirsutism when COC is contraindicated, as it has anti-androgenic properties.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "16de3c25e8d3",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents with oligomenorrhoea (3-4 periods per year), significant hirsutism and acne. Her BMI is 31. She is not trying to conceive. What is the single most appropriate next step?",
+      "options": [
+        "Arrange pelvic ultrasound",
+        "Start metformin therapy",
+        "Measure LH and FSH levels",
+        "Measure serum testosterone",
+        "Perform oral glucose tolerance test"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends serum total testosterone as the first-line biochemical test to confirm hyperandrogenism in suspected PCOS. LH/FSH ratio is no longer diagnostic; pelvic ultrasound is for morphology after biochemical confirmation; glucose tolerance test is not immediate; metformin is not first-line without diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17acd81cd1ca",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with known PCOS (oligomenorrhoea, hirsutism, BMI 28) now wants to conceive. She has been trying for 6 months. What is the single most appropriate next step?",
+      "options": [
+        "Start metformin",
+        "Advise lifestyle modification (weight loss)",
+        "Start letrozole",
+        "Start clomifene citrate",
+        "Refer for in vitro fertilisation (IVF)"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines for PCOS-related infertility recommend lifestyle modification (weight loss of 5-10%) as first-line to improve ovulation. Clomifene or letrozole are second-line; metformin is not recommended for infertility alone; IVF is tertiary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc1f2d2a34de",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 20-year-old woman with PCOS presents to the emergency department with sudden onset of severe right lower abdominal pain and vomiting. She is tachycardic and has a tender mass per abdomen. Her last menstrual period was 6 weeks ago. What is the single most appropriate immediate next step?",
+      "options": [
+        "Urgent transvaginal ultrasound",
+        "Check serum beta-hCG",
+        "Full blood count and CRP",
+        "CT abdomen with contrast",
+        "Diagnostic laparoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a woman of reproductive age with abdominal pain and amenorrhoea, ectopic pregnancy must be excluded first. Beta-hCG is the most immediate step. Ultrasound and laparoscopy are performed after pregnancy status is known. FBC/CRP are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38fee6aa981d",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 16-year-old girl with PCOS complains of hirsutism and acne. She is not sexually active and has no desire for pregnancy. Her periods are irregular. What is the single most appropriate next step for symptom management?",
+      "options": [
+        "Topical eflornithine cream",
+        "Refer for laser hair removal",
+        "Start spironolactone",
+        "Start combined oral contraceptive (COC) pill",
+        "Start metformin"
+      ],
+      "answerIndex": 3,
+      "explanation": "In adolescents with PCOS and hirsutism/acne not seeking pregnancy, the COC pill is first-line to regulate cycles and reduce androgen effects. Metformin is for metabolic issues; spironolactone is third-line; topical eflornithine or laser are cosmetic options not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e9815ba2e72b",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with PCOS has been on metformin 500 mg TDS for 6 months. Her menstrual cycles have become regular, but she still has significant hirsutism. What is the single most appropriate next step?",
+      "options": [
+        "Refer for electrolysis",
+        "Add spironolactone",
+        "Increase metformin dose",
+        "Switch to combined oral contraceptive (COC) pill",
+        "Start topical eflornithine cream"
+      ],
+      "answerIndex": 1,
+      "explanation": "For hirsutism persisting despite metformin and regular cycles, adding an anti-androgen (spironolactone) is appropriate per NICE. Increasing metformin does not treat hirsutism; switching to COC is an alternative but not necessarily better; topical and cosmetic treatments are later options.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b0cb8536c8e4",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 19-year-old woman presents with secondary amenorrhoea and hirsutism. She first noticed symptoms 3 months ago, which have progressed rapidly with deepening of her voice and increased muscle mass. Which single feature most strongly suggests an androgen-secreting tumour rather than PCOS?",
+      "options": [
+        "LH:FSH ratio 2.5",
+        "Serum testosterone 3 nmol/L",
+        "Acanthosis nigricans",
+        "Bilateral polycystic ovaries on ultrasound",
+        "Rapid onset of symptoms over 3 months"
+      ],
+      "answerIndex": 4,
+      "explanation": "PCOS typically has a gradual onset. Rapid progression of hyperandrogenic features over months raises suspicion of an androgen-secreting ovarian or adrenal tumour, which requires urgent imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e59a4974b666",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman with PCOS on a combined oral contraceptive presents to the emergency department with sudden severe right iliac fossa pain and vomiting. On examination, there is tenderness in the right iliac fossa without rebound. Temperature 37.8°C. Which single finding most raises suspicion of ovarian torsion?",
+      "options": [
+        "History of PCOS",
+        "Leucocytosis (WCC 14 x 10^9/L)",
+        "Cervical excitation",
+        "Rebound tenderness",
+        "Unilateral pain with vomiting"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ovarian torsion typically presents with acute unilateral pelvic pain with vomiting due to reflex peritoneal irritation. While other features may be present, the combination of unilateral pain and vomiting is the hallmark that should prompt urgent gynaecological assessment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "97d4c0090cf6",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with PCOS, BMI 38 kg/m², on metformin 2 g daily, presents to the emergency department with confusion, tachypnoea, and hypotension. Her heart rate is 110 bpm, BP 80/50 mmHg, respiratory rate 28/min. Which lab finding is the red flag that confirms a life-threatening emergency?",
+      "options": [
+        "Serum potassium 5.6 mmol/L",
+        "HbA1c 86 mmol/mol",
+        "ALT 120 U/L",
+        "Lactate 7.2 mmol/L, pH 7.1",
+        "eGFR 45 mL/min/1.73 m²"
+      ],
+      "answerIndex": 3,
+      "explanation": "Metformin-associated lactic acidosis is a rare but fatal complication, especially with renal impairment or sepsis. A lactate >5 mmol/L with severe acidosis (pH <7.35) is diagnostic and requires immediate supportive care and haemodialysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83dc6d608c2d",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman with PCOS, BMI 34 kg/m², reports irregular heavy periods for 2 years. An endometrial biopsy is performed. Which single histological finding mandates urgent referral to a gynaecological oncology unit?",
+      "options": [
+        "Atypical hyperplasia",
+        "Complex hyperplasia without atypia",
+        "Endometrial thickness 12 mm on ultrasound",
+        "Simple hyperplasia",
+        "Concurrent diabetes mellitus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atypical endometrial hyperplasia has a high risk of progression to endometrial carcinoma (up to 29% over 10 years). This requires referral to a gynaecological oncology service for definitive management, unlike non-atypical hyperplasia which can be medically managed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "02ad671db022",
+      "topic": "PCOS",
+      "slug": "pcos",
+      "system": "Gynaecology",
+      "subSystem": "Endocrine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 16-year-old girl with PCOS is on cyproterone acetate/ethinylestradiol (Dianette) for acne. She presents with unilateral lower leg swelling and discomfort after a long-haul flight. Which single clinical sign is a red flag for deep vein thrombosis?",
+      "options": [
+        "Homans sign (pain on dorsiflexion)",
+        "Pitting oedema",
+        "Warmth over the calf",
+        "Difference in calf circumference >3 cm compared to the other leg",
+        "Palpable cord"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the Wells clinical prediction rule, a calf circumference difference >3 cm is a major criterion for DVT. While other signs are used, objective measurement of swelling is the most reliable clinical feature to raise suspicion.",
+      "difficulty": "medium"
+    }
+  ]
+}

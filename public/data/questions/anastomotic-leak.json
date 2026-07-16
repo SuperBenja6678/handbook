@@ -1,0 +1,453 @@
+{
+  "topic": "Anastomotic Leak",
+  "slug": "anastomotic-leak",
+  "system": "General Surgery",
+  "subSystem": "Post-op",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 22,
+  "questions": [
+    {
+      "id": "cf02c18770ac",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old man undergoes an anterior resection for rectal cancer. On day 6 post-operatively, he develops sudden onset of severe lower abdominal pain, tachycardia (HR 115 bpm), temperature 38.5°C, and board-like rigidity on examination. His white cell count is 18 x10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Small bowel obstruction",
+        "Pelvic abscess",
+        "Pseudomembranous colitis",
+        "Acute pancreatitis",
+        "Anastomotic leak"
+      ],
+      "answerIndex": 4,
+      "explanation": "The acute onset of peritonitis with tachycardia and fever 5-7 days after colorectal surgery is classic for an anastomotic leak. A pelvic abscess typically has a more insidious onset and may not cause board-like rigidity so early.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e4dbdba213f",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman 9 days post right hemicolectomy for caecal cancer is noted to have new-onset atrial fibrillation with a ventricular rate of 140 bpm. She is slightly confused, temperature 37.2°C, and her abdomen is soft with mild distension but no peritonism. Her CRP is 120 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Intra-abdominal abscess",
+        "Sepsis from peripheral line",
+        "Anastomotic leak"
+      ],
+      "answerIndex": 4,
+      "explanation": "New-onset atrial fibrillation after abdominal surgery is a well-known sign of an occult anastomotic leak, especially when fever and peritonism are absent ('silent leak'). Pulmonary embolism can also cause AF but would typically present with hypoxia or pleuritic pain.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "502a95be5944",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man who underwent a two-stage oesophagectomy with cervical anastomosis 6 days ago now has erythema and tenderness around his neck wound. When he coughs, a small amount of saliva-like fluid drains from the incision. His temperature is 38.0°C. What is the single most likely diagnosis?",
+      "options": [
+        "Haematoma",
+        "Pharyngocutaneous fistula",
+        "Chyle leak",
+        "Anastomotic leak (cervical)",
+        "Wound infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "The drainage of saliva-like fluid from a neck incision after oesophagectomy indicates an enterocutaneous communication, i.e., an anastomotic leak. A superficial wound infection would not produce salivary fluid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06c1b149005f",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman 5 days post laparoscopic sigmoid colectomy for diverticular disease complains of mild lower abdominal pain and fever of 38.2°C. CT abdomen with oral contrast shows a small collection adjacent to the anastomotic line that contains extraluminal contrast. No free gas is seen. What is the single most likely diagnosis?",
+      "options": [
+        "Anastomotic leak",
+        "Intra-abdominal abscess",
+        "Seroma",
+        "Suture line dehiscence",
+        "Adynamic ileus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Extraluminal oral contrast on CT confirms a communication between the bowel lumen and the perianastomotic space, which is diagnostic of a contained anastomotic leak. A simple abscess would not show contrast extravasation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "05d2c920d8dd",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman on long-term high-dose prednisolone for Crohn's disease undergoes an ileocolic resection. On post-operative day 7, she develops a heart rate of 110 bpm and blood pressure 90/60 mmHg. Her temperature is 36.6°C, and she has mild abdominal distension but no guarding or rebound. Her CRP is 180 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Anastomotic leak",
+        "Systemic sepsis from line",
+        "Pulmonary embolus",
+        "Pancreatitis",
+        "Adrenal crisis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Steroids can mask the signs of peritonitis; tachycardia, hypotension, and rising CRP without fever should raise suspicion for anastomotic leak. Adrenal crisis is possible but less common, and the absence of abdominal signs makes leak the most likely serious complication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8c4b5aa0b327",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man underwent anterior resection for rectal cancer 5 days ago. He develops fever (38.5°C), tachycardia (110 bpm), and lower abdominal tenderness with guarding. What is the single most appropriate investigation to confirm an anastomotic leak?",
+      "options": [
+        "Abdominal X-ray (erect and supine)",
+        "Water-soluble contrast enema",
+        "Serum lactate and white cell count",
+        "Diagnostic laparoscopy",
+        "CT abdomen with intravenous and rectal contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT with intravenous and rectal contrast is the first-line imaging for suspected anastomotic leak, as it can detect extraluminal contrast and assess for collections. Water-soluble enema is less sensitive for free leaks, and AXR is insufficient. Lactate and WCC are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "588294631864",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman is day 7 post left hemicolectomy. She has an intra-abdominal drain in situ, which is now draining turbid, faecal-smelling fluid. Which test is most specific for confirming an anastomotic leak?",
+      "options": [
+        "CT abdomen with oral contrast",
+        "Flexible sigmoidoscopy",
+        "Drain contrast study (injection of contrast into drain with X-ray)",
+        "Drain fluid cultures",
+        "Drain fluid amylase"
+      ],
+      "answerIndex": 2,
+      "explanation": "A drain contrast study directly demonstrates communication between the drain and bowel lumen by showing contrast entering the bowel. Drain fluid cultures may show bacteria but are non-specific; amylase is for pancreatic leak. CT with oral contrast might miss a small leak, and sigmoidoscopy is risky.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8d6725822162",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman presents 3 weeks after laparoscopic sigmoid colectomy with pelvic pain and swinging fevers. CT abdomen shows a 5 cm perianastomotic collection but no definite extravasation of contrast. What is the most appropriate next investigation to look for a small anastomotic leak?",
+      "options": [
+        "MRI pelvis with contrast",
+        "Diagnostic laparoscopy",
+        "Repeat CT in 48 hours",
+        "FDG-PET scan",
+        "Water-soluble contrast enema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Water-soluble contrast enema is the next step to assess for a contained leak. It can demonstrate extravasation into the collection. Repeat CT may not show leak if it is intermittent. Laparoscopy is invasive; MRI and PET are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c5b99bc8d68",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man had an anterior resection for rectal cancer. A water-soluble contrast enema is performed to evaluate a suspected leak. The radiology report states: 'Contrast is seen tracking into the presacral space; no free intraperitoneal contrast.' What is the most likely diagnosis?",
+      "options": [
+        "Complete anastomotic dehiscence",
+        "Rectovaginal fistula",
+        "Pelvic abscess with fistulation",
+        "Normal postoperative finding",
+        "Contained anastomotic leak"
+      ],
+      "answerIndex": 4,
+      "explanation": "Presacral space tracking without free intraperitoneal contrast indicates a contained (subclinical) leak. Complete dehiscence would show free intraperitoneal contrast. A normal study shows no extravasation. Fistula would show communication with vagina or other structure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e92657553294",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man undergoes a pancreaticoduodenectomy (Whipple procedure) for a distal cholangiocarcinoma. On postoperative day 4, the surgical drain outputs 200 mL of bile-stained fluid. Which diagnostic criterion best confirms a biliary anastomotic leak?",
+      "options": [
+        "HIDA scan showing tracer in the drain",
+        "ERCP demonstrating contrast leak",
+        "CT showing fluid around the hepaticojejunostomy",
+        "Drain fluid amylase > 1000 U/L",
+        "Drain fluid bilirubin > 3 times serum bilirubin"
+      ],
+      "answerIndex": 4,
+      "explanation": "For biliary anastomotic leaks, a drain fluid bilirubin concentration greater than three times the serum bilirubin is the accepted diagnostic cutoff. Amylase >1000 suggests pancreatic leak. ERCP or HIDA can confirm but are not the first diagnostic criterion; the drain bilirubin is quick and standard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c987d7285bb",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents 5 days after an elective sigmoid colectomy for diverticulitis with localised peritonitis and a temperature of 38.2°C. CT scan shows a small anastomotic leak with a perianastomotic abscess (3 cm). What is the most appropriate first-line management?",
+      "options": [
+        "Laparotomy and diverting colostomy",
+        "Endoscopic stent",
+        "Percutaneous drainage alone",
+        "IV antibiotics alone",
+        "CT-guided drainage and IV antibiotics"
+      ],
+      "answerIndex": 4,
+      "explanation": "A contained leak with an abscess and localised peritonitis is best managed with percutaneous drainage and IV antibiotics, which avoids reoperation. Surgery is reserved for failure or generalised peritonitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "723674b8168a",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man develops a temperature of 38.5°C and chest pain 5 days after an oesophagectomy with gastric pull-up for cancer. A contrast swallow reveals a small, contained anastomotic leak in the thorax. He is haemodynamically stable but has a raised white cell count. What is the most appropriate first-line management?",
+      "options": [
+        "Conservative management with nasogastric tube and antibiotics",
+        "Reoperation and takedown of the anastomosis",
+        "Endoscopic placement of a covered stent",
+        "Total parenteral nutrition alone",
+        "CT-guided percutaneous drainage of the mediastinal collection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Covered stents are first-line for contained oesophageal anastomotic leaks in stable patients. Surgery is reserved for large or uncontained leaks, septic shock, or failed endoscopic management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da05bb34e7a5",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 58-year-old woman presents 7 days after a subtotal gastrectomy for gastric cancer with severe epigastric pain, guarding, and hypotension. CT shows an anastomotic leak with free intraperitoneal gas. What is the most appropriate first-line management?",
+      "options": [
+        "IV antibiotics and fluid resuscitation",
+        "Percutaneous drainage of the peritoneal collection",
+        "Laparotomy, peritoneal washout, and anastomotic revision",
+        "Endoscopic clipping of the leak",
+        "Nasogastric tube drainage and observation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Generalised peritonitis and free intraperitoneal gas indicate an uncontained leak requiring emergency laparotomy, washout, and either repair or revision of the anastomosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e109b5b0f28",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a defunctioning loop ileostomy after a low anterior resection for rectal cancer has a routine contrast enema 2 weeks postoperatively that shows a small, radiologically contained anastomotic leak. He is asymptomatic, afebrile, and eating normally. What is the most appropriate first-line management?",
+      "options": [
+        "Conservative management with close observation",
+        "Intravenous antibiotics",
+        "Take down of the anastomosis and permanent colostomy",
+        "Endoscopic vacuum therapy",
+        "CT-guided drainage of the leak"
+      ],
+      "answerIndex": 0,
+      "explanation": "An asymptomatic, contained leak in a defunctioned anastomosis can be safely observed. The stoma diverts faecal stream, allowing healing without invasive intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "650fcd657819",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 34-year-old woman with Crohn’s disease on high-dose prednisolone undergoes an ileocolic resection. Five days later, she develops right iliac fossa pain and fever. CT reveals a 4 cm perianastomotic abscess with a small leak. She is haemodynamically stable. What is the most appropriate first-line management?",
+      "options": [
+        "Endoscopic balloon dilation of the anastomosis",
+        "Urgent reoperation with resection and end stoma",
+        "CT-guided percutaneous drainage and IV antibiotics",
+        "Start infliximab therapy",
+        "Stop the prednisolone"
+      ],
+      "answerIndex": 2,
+      "explanation": "A contained abscess from an anastomotic leak is initially managed with percutaneous drainage and antibiotics, even on steroids. Stopping steroids abruptly risks adrenal insufficiency; surgery is reserved for failed drainage or deterioration.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e62cc274e614",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man, 5 days after elective right hemicolectomy for colon cancer, has a heart rate of 105 bpm, temperature 37.2°C, and mild lower abdominal tenderness. His CRP is 120. What is the most appropriate next step?",
+      "options": [
+        "Obtain a surgical review before acting",
+        "Prescribe oral paracetamol and observe",
+        "Request an urgent CT scan with IV contrast",
+        "Arrange an urgent return to theatre",
+        "Start intravenous piperacillin-tazobactam"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has signs of a possible anastomotic leak (tachycardia, raised CRP, mild tenderness). Immediate CT with IV contrast is the best investigation to confirm or exclude a leak. Starting antibiotics without imaging may delay diagnosis, and observation or paracetamol risks missing deterioration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "847fd06b7c9d",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman, 7 days after anterior resection for rectal cancer, has a low-grade fever (37.8°C), white cell count 14×10⁹/L, and CRP 150. Her abdomen is soft with mild suprapubic tenderness but no guarding. What is the most appropriate next step?",
+      "options": [
+        "Request an urgent CT scan with IV and rectal contrast",
+        "Take blood cultures and start meropenem",
+        "Arrange for an examination under anaesthesia",
+        "Start intravenous co-amoxiclav and metronidazole",
+        "Perform a digital rectal examination"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has a moderate clinical suspicion of an anastomotic leak. CT with IV and rectal contrast is the preferred first-line investigation to assess the integrity of the anastomosis. Starting antibiotics empirically without imaging may be appropriate after scanning, but the immediate next step is to image.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4bddd5fd9281",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man undergoes an elective left hemicolectomy for adenocarcinoma. On postoperative day 4, he develops tachycardia (heart rate 110 bpm) and mild abdominal tenderness. His temperature is 37.8°C. Which single finding should raise the strongest suspicion of an anastomotic leak?",
+      "options": [
+        "Abdominal distension",
+        "New-onset atrial fibrillation",
+        "Reduced bowel sounds",
+        "C-reactive protein 200 mg/L",
+        "White cell count 12 × 10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "New-onset atrial fibrillation in the postoperative setting, especially after colorectal surgery, can be a harbinger of intra-abdominal sepsis such as anastomotic leak. While tachycardia and raised inflammatory markers are common, AF is a more specific and alarming red flag that warrants urgent investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c14cdce7cb33",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with a contained anastomotic leak following an anterior resection is being managed conservatively with antibiotics and a pelvic drain. She has mild tenderness and low-grade fever. Which clinical finding would mandate immediate surgical re-exploration?",
+      "options": [
+        "CRP rising from 150 to 300 mg/L",
+        "Increase in drain output from 50 to 100 mL/day",
+        "Worsening pain requiring oral analgesia",
+        "Generalised peritonitis with guarding and rigidity",
+        "Temperature rising to 38.5°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "The development of generalised peritonitis is an absolute indication for surgical intervention in anastomotic leak, as it signifies uncontrolled intra-abdominal sepsis. While other parameters may worsen, generalised peritonitis is the most definitive clinical red flag.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "de1fdc55995e",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man is in the intensive care unit two days following an Ivor Lewis oesophagectomy. He becomes hypotensive, tachycardic, and develops a temperature of 39.2°C. His chest drain output becomes turbid and increases in volume. Which single finding from the drain is most specific for an anastomotic leak?",
+      "options": [
+        "Serosanguinous fluid",
+        "Bilious fluid with an amylase level >1000 U/L",
+        "Clear fluid with a high glucose level",
+        "Frank blood",
+        "Milky white fluid"
+      ],
+      "answerIndex": 1,
+      "explanation": "After oesophagectomy with gastric conduit, the presence of bilious fluid in the chest drain, especially with high amylase (salivary/gastric origin), is pathognomonic for an anastomotic leak. Other options are less specific or indicate different complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "589554ce4880",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with an end ileostomy following total colectomy for ulcerative colitis presents on day 7 with abdominal pain, distension, and a high-output stoma. On examination, there is a small amount of faeculent discharge from a surgical drain site. Which of the following is the most likely diagnosis?",
+      "options": [
+        "High-output stoma due to dehydration",
+        "Parastomal hernia",
+        "Anastomotic leak at the ileocolic anastomosis",
+        "Intra-abdominal collection",
+        "Obstruction at the stoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of faeculent discharge from a drain site in the context of a patient with an ileostomy and abdominal pain is highly suggestive of an anastomotic leak that has tracked to the drain, forming an enterocutaneous fistula. Other options are less likely given the specific finding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3908f75e149",
+      "topic": "Anastomotic Leak",
+      "slug": "anastomotic-leak",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with rheumatoid arthritis on long-term prednisolone (10 mg daily) undergoes a right hemicolectomy for a caecal tumour. On postoperative day 5, he becomes increasingly confused and lethargic. His temperature is 37.1°C, heart rate 90 bpm, and abdomen is mildly distended but non-tender. Which finding is most concerning for an anastomotic leak in this scenario?",
+      "options": [
+        "Leucocytosis of 15 × 10^9/L",
+        "Worsening confusion",
+        "Low-grade pyrexia",
+        "Tachycardia of 90 bpm",
+        "Mild abdominal distension"
+      ],
+      "answerIndex": 1,
+      "explanation": "Corticosteroids blunt the inflammatory response, so typical signs like fever, tachycardia, and peritonitis may be absent. Confusion and lethargy can be the sole manifestations of sepsis, making it a critical red flag for anastomotic leak in this population.",
+      "difficulty": "hard"
+    }
+  ]
+}

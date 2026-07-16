@@ -1,0 +1,513 @@
+{
+  "topic": "Chronic Hepatitis B",
+  "slug": "chronic-hepatitis-b",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Viral hepatitis",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2f8246a8b7c0",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old man of Chinese origin, recently moved to the UK, attends the GP with fatigue and right upper quadrant discomfort for 3 months. He has no jaundice, no pruritus. He drinks 2 units of alcohol weekly. Examination shows mild hepatomegaly. Bloods: ALT 78 U/L (normal <40), AST 55 U/L, ALP 85 U/L, bilirubin 12 μmol/L, albumin 38 g/L. HBsAg positive, HBeAg positive, HBV DNA 200,000 IU/mL. Anti-HBs negative. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatitis D coinfection",
+        "Chronic hepatitis B (HBeAg-negative)",
+        "Inactive HBsAg carrier state",
+        "Chronic hepatitis B (HBeAg-positive)",
+        "Acute hepatitis B infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient is HBsAg positive for >6 months (by history likely chronic), HBeAg positive with high HBV DNA, indicating active replication and immune-active chronic hepatitis B. HBeAg-negative chronic hepatitis B would have anti-HBe and lower DNA. Acute hepatitis B usually has elevated IgM anti-HBc. Inactive carrier has normal ALT and low DNA. HDV coinfection requires anti-HDV testing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b8f0ff4cfa9f",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman from Nigeria presents with jaundice, pruritus, and clay-coloured stools over 2 weeks. She has known chronic hepatitis B but was lost to follow-up. Examination reveals scleral icterus and excoriations. LFTs: bilirubin 85 μmol/L, ALT 120 U/L, ALP 450 U/L, GGT 320 U/L. HBsAg positive, HBeAg negative, HBV DNA 500 IU/mL. Anti-mitochondrial antibody negative. What is the single most likely diagnosis?",
+      "options": [
+        "Primary sclerosing cholangitis",
+        "Chronic hepatitis B with cholestatic flare",
+        "Chronic hepatitis B with superimposed hepatitis A",
+        "Acute on chronic liver failure due to HBV reactivation",
+        "Drug-induced liver injury"
+      ],
+      "answerIndex": 1,
+      "explanation": "The cholestatic picture (high ALP, GGT, bilirubin, pruritus, pale stools) with known chronic HBV and low viral load suggests a cholestatic flare of HBV (often in HBeAg-negative disease). AMA negative makes PBC unlikely. No acute hepatitis A serology given. No drug history. Acute on chronic liver failure typically has coagulopathy and encephalopathy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed46a4675dd2",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old healthcare worker presents to the emergency department with severe nausea, vomiting, and right upper quadrant pain for 3 days. She has no known medical history. She is jaundiced. Examination: tender hepatomegaly. Bloods: ALT 1200 U/L, AST 980 U/L, bilirubin 150 μmol/L, ALP 200 U/L, INR 1.8. HBsAg positive, HBeAg positive, IgM anti-HBc positive. Anti-HAV IgM negative. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune hepatitis",
+        "Acute hepatitis B infection",
+        "Acute hepatitis A infection",
+        "Acute exacerbation of chronic hepatitis B",
+        "Acute liver failure secondary to paracetamol overdose"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of high IgM anti-HBc indicates acute infection (usually <6 months). The patient has no history of HBV, so this is acute hepatitis B. Acute exacerbation of chronic would have IgG anti-HBc positive. Anti-HAV IgM negative rules out hepatitis A. Autoimmune hepatitis typically presents with polyclonal IgG and autoantibodies. Paracetamol overdose history absent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f49f27f60e5f",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known chronic hepatitis B (HBeAg-negative, on tenofovir disoproxil for 5 years now on tenofovir alafenamide) presents for routine follow-up. He is asymptomatic. LFTs normal. HBV DNA undetectable. HBsAg positive, HBsAb negative. Ultrasound shows a 3 cm solitary hypoechoic lesion in segment 7 with arterial enhancement and portal venous washout. AFP 450 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatic adenoma",
+        "Hepatocellular carcinoma (HCC)",
+        "Haemangioma",
+        "Regenerative nodule",
+        "Focal nodular hyperplasia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The classic radiological features of arterial enhancement with washout on portal venous phase in a high-risk patient (chronic HBV cirrhosis) with raised AFP is diagnostic of HCC. Regenerative nodules and FNH do not show washout. Haemangiomas have peripheral nodular enhancement and fill in. Adenomas are rare in men and not associated with HBV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "60338ad98273",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 34-year-old man from Vietnam presents with fatigue and arthralgia. He has no jaundice. He is known to be HBsAg positive for 2 years but never had antiviral therapy. Examination: non-tender hepatomegaly. Bloods: ALT 45 U/L (normal <40), AST 38 U/L, bilirubin 15 μmol/L, albumin 40 g/L. HBsAg positive, HBeAg negative, anti-HBe positive, HBV DNA 200 IU/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Occult hepatitis B infection",
+        "Inactive HBsAg carrier state",
+        "Chronic hepatitis B (HBeAg-negative)",
+        "Resolved hepatitis B infection",
+        "Chronic hepatitis B with reactivation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has HBsAg positive >6 months, HBeAg negative, anti-HBe positive, low HBV DNA and normal ALT, consistent with inactive carrier state (immune control). HBeAg-negative chronic hepatitis would have higher DNA (>2000 IU/mL) and elevated ALT. Reactivation would show rising ALT and DNA. Resolved infection would have HBsAg negative and anti-HBc positive. Occult HBV has HBsAg negative but HBV DNA positive in serum/liver.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "75562c3af884",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old man of Vietnamese origin attends the GP for a routine health check. He has no symptoms. Liver function tests show ALT 68 U/L (normal 10-40) and AST 45 U/L. He has no known liver disease. What is the single most appropriate initial test to confirm a diagnosis of chronic hepatitis B?",
+      "options": [
+        "HBeAg",
+        "HBsAg",
+        "HBV DNA",
+        "Anti-HBc total",
+        "Anti-HBs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic hepatitis B is defined by persistent HBsAg positivity for >6 months. HBsAg is the first-line screening test; its detection confirms chronic infection. Anti-HBc total indicates past exposure but not chronicity, while anti-HBs indicates immunity. HBV DNA and HBeAg are confirmatory tests for viral replication after HBsAg is positive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f91cdc33e5a9",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman with known chronic hepatitis B (HBsAg positive for 8 years) is reviewed. She is not on treatment. Current results: HBeAg negative, anti-HBe positive, ALT 22 U/L. Which investigation is most appropriate to determine whether she is an inactive carrier or has HBeAg-negative chronic hepatitis?",
+      "options": [
+        "HBV DNA level",
+        "Anti-HBc IgM",
+        "HBsAg quantification",
+        "Repeat ALT in 3 months",
+        "Liver biopsy"
+      ],
+      "answerIndex": 0,
+      "explanation": "In HBeAg-negative disease, HBV DNA level distinguishes inactive carriers (DNA <2000 IU/mL) from HBeAg-negative chronic hepatitis (DNA ≥2000 IU/mL, often with elevated ALT). Liver biopsy is rarely first-line. HBsAg quantification is not standard for this distinction. Anti-HBc IgM is negative in chronic inactive disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0dab61b4cfd7",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man presents with jaundice, nausea, and right upper quadrant pain for 1 week. Liver function tests: ALT 850 U/L, bilirubin 120 µmol/L, INR 1.1. Serology shows HBsAg positive, HBeAg positive, anti-HBc IgG positive. Which test would best differentiate between acute hepatitis B infection and an acute exacerbation of chronic hepatitis B?",
+      "options": [
+        "Liver biopsy",
+        "HBeAg seroconversion",
+        "IgM anti-HBc",
+        "Anti-HBs",
+        "HBV DNA level"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-titer IgM anti-HBc is characteristic of acute hepatitis B, while in chronic exacerbation IgM is usually low or absent. The patient already has IgG anti-HBc, which is seen in both. HBV DNA is high in both scenarios. HBeAg positivity is present in both. Liver biopsy is not diagnostic for timing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e03a1032077",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old man with chronic hepatitis B (HBeAg negative, HBV DNA 3000 IU/mL, ALT 35 U/L) has a FibroScan of 8.5 kPa (consistent with F2 fibrosis). According to NICE guidelines, which investigation should be performed every 6 months for surveillance?",
+      "options": [
+        "Serum alpha-fetoprotein (AFP)",
+        "Repeat FibroScan",
+        "MRI liver with contrast",
+        "CT scan of the liver",
+        "Abdominal ultrasound"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends 6-monthly abdominal ultrasound for hepatocellular carcinoma surveillance in patients with chronic hepatitis B and significant fibrosis (≥F2). AFP alone is insufficient due to low sensitivity. Cross-sectional imaging (CT/MRI) is reserved for abnormal ultrasound findings or high suspicion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4cb2f22ec0b",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman from sub-Saharan Africa is found to be HBsAg positive during antenatal screening. Further tests: HBeAg negative, anti-HBe positive, ALT 20 U/L, HBV DNA 400 IU/mL. What is the most accurate classification of her hepatitis B status?",
+      "options": [
+        "Resolved hepatitis B",
+        "Acute hepatitis B",
+        "Inactive carrier",
+        "HBeAg-negative chronic hepatitis",
+        "Occult hepatitis B infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "An inactive carrier is defined by HBsAg positivity >6 months, HBeAg negative, anti-HBe positive, normal ALT, and HBV DNA <2000 IU/mL. HBeAg-negative chronic hepatitis requires DNA ≥2000 and elevated ALT. Resolved HBV: HBsAg negative, anti-HBc positive. Acute HBV: recent HBsAg positivity with high IgM anti-HBc. Occult: HBsAg negative but HBV DNA detectable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dea89cea2236",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with chronic hepatitis B (HBeAg-negative, HBV DNA 10^6 IU/mL, ALT 90 U/L) has an eGFR of 40 mL/min. He has no cirrhosis. What is the most appropriate first-line antiviral therapy?",
+      "options": [
+        "Tenofovir alafenamide 25 mg daily",
+        "Peginterferon alfa-2a 180 mcg weekly",
+        "Entecavir 0.5 mg daily",
+        "Tenofovir disoproxil 245 mg daily",
+        "Lamivudine 100 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tenofovir alafenamide (TAF) is preferred over tenofovir disoproxil (TDF) in patients with impaired renal function (eGFR <60) due to lower renal toxicity. Entecavir is also renally safe, but TAF is specifically recommended by NICE and EASL for this scenario.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8c0893b2684b",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) with chronic hepatitis B (HBeAg-positive, HBV DNA 10^8 IU/mL, normal ALT) is being managed to reduce the risk of vertical transmission. Which therapy is most appropriate?",
+      "options": [
+        "Peginterferon alfa-2a 180 mcg weekly",
+        "No treatment",
+        "Tenofovir disoproxil 245 mg daily",
+        "Entecavir 0.5 mg daily",
+        "Lamivudine 100 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tenofovir disoproxil is the preferred antiviral for pregnant women with high HBV DNA to prevent perinatal transmission (NICE guideline). Entecavir is category C and avoided; peginterferon is contraindicated in pregnancy; lamivudine has high resistance rates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b8f4e2595272",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with decompensated cirrhosis due to chronic hepatitis B (Child-Pugh B, ascites, jaundice). HBV DNA is 10^5 IU/mL and ALT 60 U/L. Which of the following therapies is contraindicated?",
+      "options": [
+        "Tenofovir alafenamide 25 mg daily",
+        "Peginterferon alfa-2a 180 mcg weekly",
+        "Lamivudine 100 mg daily",
+        "Tenofovir disoproxil 245 mg daily",
+        "Entecavir 0.5 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Peginterferon alfa-2a is contraindicated in decompensated cirrhosis because it can cause hepatic flares and worsen liver function. Oral nucleos(t)ide analogues (entecavir, tenofovir) are preferred and safe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d471d63f4807",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old man with chronic hepatitis B on lamivudine monotherapy for 4 years now has detectable HBV DNA (10^4 IU/mL) and elevated ALT (70 U/L). Genotype testing confirms lamivudine resistance. What is the most appropriate next therapy?",
+      "options": [
+        "Add adefovir 10 mg daily",
+        "Add tenofovir disoproxil 245 mg daily",
+        "Stop lamivudine",
+        "Switch to tenofovir disoproxil 245 mg daily",
+        "Switch to entecavir 0.5 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lamivudine resistance confers cross-resistance to entecavir, so switching to tenofovir (disoproxil or alafenamide) is recommended. Adding a second drug is not standard; adefovir is less potent and not preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "88e83830464b",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old treatment-naïve man with chronic hepatitis B (HBeAg-positive, HBV DNA 10^6 IU/mL, ALT 120 U/L). Liver biopsy shows moderate inflammation and fibrosis (F2). He has no contraindications. Which is the most appropriate first-line therapy?",
+      "options": [
+        "Entecavir 0.5 mg daily",
+        "Adefovir 10 mg daily",
+        "Lamivudine 100 mg daily",
+        "Tenofovir disoproxil 245 mg daily",
+        "Peginterferon alfa-2a 180 mcg weekly"
+      ],
+      "answerIndex": 0,
+      "explanation": "For HBeAg-positive chronic hepatitis B with high viral load and elevated ALT, NICE recommends entecavir or tenofovir as first-line oral antivirals. Peginterferon is less effective with high DNA; lamivudine and adefovir have higher resistance and are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "174dac0c3b80",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old asymptomatic woman is found to be HBsAg positive on routine screening. She has no liver disease symptoms, normal ALT, and negative for HBeAg. Her GP refers her to your hepatology clinic. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start tenofovir",
+        "Repeat HBsAg in 6 months",
+        "Check hepatitis D serology",
+        "Refer for liver biopsy",
+        "Check HBV DNA level"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend checking HBV DNA and ALT to assess disease activity. A normal ALT does not rule out high viral load or liver fibrosis; HBV DNA determines need for antiviral therapy. Liver biopsy is reserved for cases where non-invasive markers are inconclusive. Starting antiviral is premature without viral load. Hepatitis D serology is not indicated unless risk factors present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8c59c5a09aa",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with chronic hepatitis B (HBeAg positive) presents with jaundice. ALT is 350 U/L, HBV DNA 10^7 IU/mL. There are no signs of cirrhosis. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start tenofovir",
+        "Start peginterferon",
+        "Monitor ALT in 3 months",
+        "Perform liver biopsy",
+        "Start lamivudine"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends antiviral therapy for HBeAg-positive patients with ALT >2×ULN and HBV DNA >20,000 IU/mL. Tenofovir is a first-line antiviral with low resistance. Peginterferon is an option but not immediate due to side effects and need for careful selection. Lamivudine is not preferred due to high resistance. Monitoring would delay treatment in this active flare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "529c3e1b1c82",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old with known chronic hepatitis B presents with new-onset ascites and confusion. Child-Pugh score is 10 (decompensated cirrhosis). HBV DNA is 10^5 IU/mL. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start tenofovir",
+        "Refer for liver transplant assessment",
+        "Check for hepatitis D",
+        "Start lamivudine",
+        "Start entecavir"
+      ],
+      "answerIndex": 0,
+      "explanation": "In decompensated cirrhosis, immediate antiviral therapy with tenofovir or entecavir is critical to reduce viral replication and improve liver function. Tenofovir is preferred here due to its safety profile in cirrhosis and low resistance. Transplant assessment is needed but not the first step. Hepatitis D serology can be sent concurrently but is not immediate. Lamivudine is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0dacf11687ee",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation has chronic hepatitis B. Her HBV DNA is 350,000 IU/mL. She is HBeAg positive. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer for caesarean section at 39 weeks",
+        "Check anti-HBs titre in the mother",
+        "Administer hepatitis B immunoglobulin to the newborn",
+        "Start tenofovir now",
+        "Start lamivudine now"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends starting tenofovir at 28–32 weeks gestation if HBV DNA >200,000 IU/mL to reduce vertical transmission. Caesarean section is not routinely recommended. HBIG is given to the newborn after birth, not now. Lamivudine is less effective and not first-line. Checking anti-HBs is not relevant in an HBsAg-positive mother.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea99bfd6ec91",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A healthcare worker sustains a needlestick injury with blood from a known HBsAg-positive patient. The worker has documented full vaccination and anti-HBs >10 mIU/mL from a recent check. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give a booster dose of HBV vaccine",
+        "Check anti-HBs titre",
+        "No action required",
+        "Start tenofovir",
+        "Administer hepatitis B immunoglobulin"
+      ],
+      "answerIndex": 2,
+      "explanation": "If the healthcare worker has anti-HBs >10 mIU/mL, they are considered immune and no prophylaxis is needed. Administering HBIG or a vaccine booster is unnecessary. Checking anti-HBs is already known. Starting antiviral is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6a1d919a8c4e",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man with known chronic hepatitis B (HBeAg-positive) presents with a 3-day history of jaundice and abdominal distension. He has no prior history of cirrhosis. On examination, he has tender hepatomegaly and shifting dullness. Which single laboratory finding is the strongest indicator that he is developing acute liver failure?",
+      "options": [
+        "Platelet count 120 × 10^9/L",
+        "Albumin 28 g/L",
+        "INR 1.8",
+        "Bilirubin 160 μmol/L",
+        "ALT 850 U/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute flare of chronic hepatitis B, an INR ≥1.5 (or rising INR) reflects significant hepatic synthetic dysfunction and is a key criterion for acute liver failure, even before encephalopathy appears. A high ALT (>10× ULN) is typical but does not alone define liver failure; coagulopathy is the critical red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "695c558a4099",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 48-year-old man with compensated cirrhosis due to chronic hepatitis B is brought to the Emergency Department by his family because of confusion and inappropriate behaviour over 2 days. He has no fever or focal neurological signs. Which single physical sign confirms a life-threatening complication?",
+      "options": [
+        "Spider naevi",
+        "Asterixis",
+        "Ascites",
+        "Palmar erythema",
+        "Splenomegaly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asterixis (flapping tremor) is a classic sign of hepatic encephalopathy, which indicates acute decompensation and is a medical emergency in patients with cirrhosis. Spider naevi, splenomegaly, ascites, and palmar erythema are stigmata of chronic liver disease but do not specifically signal acute encephalopathy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b59ea239c6cb",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with known hepatitis B cirrhosis presents with fever (38.5°C), abdominal pain, and distension. Paracentesis is performed. Which single finding from the ascitic fluid analysis confirms the presence of a life-threatening infection?",
+      "options": [
+        "Glucose 3.2 mmol/L",
+        "Gram stain showing Gram-negative rods",
+        "LDH 200 U/L",
+        "Total protein 15 g/L",
+        "Neutrophil count 320 cells/μL"
+      ],
+      "answerIndex": 4,
+      "explanation": "A spontaneous bacterial peritonitis (SBP) diagnosis requires an ascitic fluid absolute neutrophil count ≥250 cells/μL. This threshold mandates immediate empirical antibiotics. A positive Gram stain is rare (sensitivity ~20%) and not the gold standard; gram-negative rods are common but not confirmatory without cell count.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13c13e5c3082",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 29-year-old pregnant woman (G1P0) at 28 weeks gestation has known chronic hepatitis B (HBeAg-positive, normal ALT). Which single laboratory result meets the NICE threshold for starting maternal antiviral therapy to reduce the risk of vertical transmission?",
+      "options": [
+        "Serum albumin 32 g/L",
+        "Platelet count 180 × 10^9/L",
+        "HBV DNA level of 250,000 IU/mL",
+        "Serum bilirubin 12 μmol/L",
+        "ALT 55 U/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend offering antiviral therapy (tenofovir) in the third trimester when maternal HBV DNA is >200,000 IU/mL to decrease perinatal transmission. HBeAg positivity alone does not mandate treatment; the DNA level is the key threshold. ALT, albumin, platelet count, and bilirubin are not used for this decision.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5876df4f78cf",
+      "topic": "Chronic Hepatitis B",
+      "slug": "chronic-hepatitis-b",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with a history of treated breast cancer (on adjuvant chemotherapy) develops a transaminitis (ALT 250 U/L) on routine bloods 4 weeks into treatment. She had resolved hepatitis B (HBsAg negative, anti-HBc positive, anti-HBs positive) diagnosed 10 years ago. Which single finding most strongly indicates that she has HBV reactivation requiring urgent intervention?",
+      "options": [
+        "Increase in ALT to 400 U/L",
+        "Loss of anti-HBs",
+        "Positive IgM anti-HBc",
+        "Detectable HBV DNA in serum",
+        "Development of HBsAg positivity"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with resolved HBV, reappearance of HBsAg (reverse seroconversion) definitively diagnoses reactivation. Detectable HBV DNA is also characteristic, but HBsAg seroreversion is the classic hallmark and often precedes viral detection. A rising ALT alone is non-specific. IgM anti-HBc is usually negative in reactivation; it suggests acute infection.",
+      "difficulty": "hard"
+    }
+  ]
+}

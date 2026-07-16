@@ -1,0 +1,513 @@
+{
+  "topic": "Pseudogout (CPPD)",
+  "slug": "pseudogout-cppd",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Crystal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:37:26Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7e6e45072271",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman presents with acute-onset, severe pain and swelling in her right knee over 2 hours. She has no fever, but the knee is erythematous and feels warm. She has a history of hypertension and osteoarthritis. Plain radiograph of the knee shows linear calcification in the menisci. What is the single most likely diagnosis?",
+      "options": [
+        "Rheumatoid arthritis",
+        "Septic arthritis",
+        "Gout",
+        "Osteoarthritis flare",
+        "Pseudogout (calcium pyrophosphate deposition disease)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The acute onset, elderly age, knee involvement, and chondrocalcinosis on X-ray are classic for pseudogout. Septic arthritis would typically present with fever and is less likely with chondrocalcinosis; gout typically involves the first metatarsophalangeal joint; osteoarthritis flare is usually less acute and without such severe erythema; rheumatoid arthritis is typically chronic and polyarticular.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d61d03fe786a",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with acute pain and swelling of his left wrist after a recent hip replacement surgery 5 days ago. He is afebrile. The joint is swollen and tender. Blood tests show normal white cell count and C-reactive protein is mildly elevated at 25 mg/L. Plain radiograph of the wrist shows fine linear calcification in the triangular fibrocartilage complex. What is the single most likely diagnosis?",
+      "options": [
+        "Gout",
+        "Cellulitis",
+        "Pseudogout (calcium pyrophosphate deposition disease)",
+        "Fracture of the scaphoid",
+        "Post-operative infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient has typical pseudogout triggered by surgery, in a classic site (wrist) with chondrocalcinosis on X-ray. The normal WCC and only mildly raised CRP make infection less likely. The trauma history could suggest fracture, but the X-ray shows calcium deposition not fracture. Gout rarely presents in the wrist without typical history of podagra. Cellulitis would involve the skin, not a single joint.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "499a93b7994a",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman with known pseudogout presents with chronic, bilateral knee pain and stiffness over the last 6 months. There is no warmth or redness. Examination reveals crepitus and bony enlargement. Radiographs show joint space narrowing, osteophytes, and chondrocalcinosis. What is the single most likely diagnosis?",
+      "options": [
+        "Rheumatoid arthritis",
+        "Chronic pseudogout arthropathy",
+        "Hemochromatosis arthropathy",
+        "Osteoarthritis with associated chondrocalcinosis",
+        "Psoriatic arthritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic pseudogout can mimic osteoarthritis but is distinguished by the presence of chondrocalcinosis and history of acute attacks. Osteoarthritis with chondrocalcinosis is not a diagnostic entity; the label 'pseudogout arthropathy' is more accurate when CPPD is the cause. Rheumatoid arthritis would show erosions and positive serology; psoriatic arthritis has skin/nail changes; hemochromatosis has characteristic MCP involvement and iron overload features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "55a2e1a4de21",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with known hereditary hemochromatosis presents with acute pain and swelling in his right knee. He has no fever. He had a similar episode 2 months ago. Examination shows a warm, swollen knee with markedly reduced range of motion. A plain radiograph reveals chondrocalcinosis. What is the single most likely diagnosis?",
+      "options": [
+        "Pseudogout (calcium pyrophosphate deposition disease) secondary to hemochromatosis",
+        "Hemochromatosis arthropathy (iron deposition)",
+        "Gout secondary to hemochromatosis",
+        "Septic arthritis",
+        "Osteoarthritis flare"
+      ],
+      "answerIndex": 0,
+      "explanation": "Patients with hemochromatosis are at high risk for pseudogout due to CPPD crystal deposition. The acute monarthritis with chondrocalcinosis is typical of pseudogout, not gout (which is rare in hemochromatosis and usually due to urate). Septic arthritis is less likely without fever and with previous similar episode. Osteoarthritis flare is less acute. Hemochromatosis arthropathy typically presents as chronic MCP changes, not acute monoarthritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f057a2211a9",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman presents with acute-onset pain and swelling in her left ankle. She is unable to bear weight. She is systemically well, with a temperature of 37.1°C. Bloods show white cell count 9.2×10⁹/L, CRP 30 mg/L. She has a history of diuretic use for hypertension. Radiograph of the ankle shows soft tissue swelling and linear calcification along the talonavicular joint. What is the single most likely diagnosis?",
+      "options": [
+        "Gout",
+        "Ankle fracture (undisplaced)",
+        "Pseudogout (calcium pyrophosphate deposition disease)",
+        "Cellulitis",
+        "Septic arthritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The acute monoarthritis in an elderly patient with chondrocalcinosis is highly suggestive of pseudogout. Gout often involves the first MTP joint, but ankle is possible; however, the linear calcification is more typical of CPPD. Septic arthritis would usually cause higher CRP and fever. Fracture is unlikely given normal X-ray beyond soft tissue swelling and calcification. Cellulitis would have spreading erythema without joint-specific swelling.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "86f39c0cf4c4",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman presents with an acutely swollen, hot, painful knee. She is afebrile. What is the single most appropriate first investigation to confirm the diagnosis?",
+      "options": [
+        "Serum urate",
+        "Ultrasound of the knee",
+        "X-ray of the knee",
+        "C-reactive protein",
+        "Synovial fluid analysis for crystals"
+      ],
+      "answerIndex": 4,
+      "explanation": "The gold standard for diagnosing pseudogout is identification of calcium pyrophosphate crystals in synovial fluid using polarised light microscopy. Serum urate is for gout, CRP is non-specific, X-ray may show chondrocalcinosis but is not diagnostic, and ultrasound is not first-line for crystal detection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5189159fabb2",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A synovial fluid sample from a patient with suspected pseudogout is examined under polarised light microscopy. Which microscopic finding is diagnostic of pseudogout?",
+      "options": [
+        "Negatively birefringent needle-shaped crystals",
+        "Positively birefringent rhomboid crystals",
+        "Positively birefringent needle-shaped crystals",
+        "Amorphous birefringent material",
+        "Negatively birefringent rhomboid crystals"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calcium pyrophosphate crystals are typically weakly positively birefringent and rhomboid-shaped. Gout crystals (monosodium urate) are negatively birefringent and needle-shaped. The other options are not typical for CPPD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7f16b06421ed",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with knee osteoarthritis has an X-ray that shows chondrocalcinosis in both knees. He now presents with an acute flare of pain in one knee. What is the single best next investigation to confirm the diagnosis of an acute pseudogout attack?",
+      "options": [
+        "Synovial fluid aspiration and crystal analysis",
+        "Serum calcium",
+        "Repeat X-ray in weight-bearing view",
+        "Blood cultures",
+        "Magnetic resonance imaging (MRI) of the knee"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although chondrocalcinosis on X-ray is suggestive, definitive diagnosis requires demonstration of CPP crystals in synovial fluid, especially to distinguish from septic arthritis or gout. Serum calcium is for underlying causes, not for acute diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9410400c7582",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with recurrent pseudogout attacks is being investigated for an underlying metabolic condition. Which set of laboratory tests is most appropriate to screen for the most common secondary cause?",
+      "options": [
+        "Serum magnesium and phosphate",
+        "Serum urate",
+        "Thyroid stimulating hormone",
+        "Serum calcium and parathyroid hormone",
+        "Serum ferritin and transferrin saturation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Primary hyperparathyroidism is the most common secondary cause of CPPD. Other causes include haemochromatosis (ferritin), hypomagnesemia, and hypothyroidism. Checking calcium and PTH is the first-line screen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eee954b23c5e",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man on warfarin for atrial fibrillation presents with an acutely swollen, hot knee. Joint aspiration is contraindicated due to anticoagulation. Which radiological finding would most strongly support a diagnosis of pseudogout?",
+      "options": [
+        "Double contour sign on ultrasound",
+        "Erosions on X-ray",
+        "Bone marrow oedema on MRI",
+        "Linear calcification of the meniscus on X-ray",
+        "Joint effusion with no calcification on CT"
+      ],
+      "answerIndex": 3,
+      "explanation": "Chondrocalcinosis, particularly linear calcification of the meniscus, is characteristic of CPPD and can support the diagnosis when aspiration is not possible. Double contour sign is seen in gout, erosions are not typical of CPPD, MRI is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3bad63fad3b3",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man presents with acute onset of a painful, swollen right knee. He has no significant past medical history and takes no regular medications. Joint aspiration reveals calcium pyrophosphate crystals. What is the most appropriate first-line treatment for this acute attack?",
+      "options": [
+        "Paracetamol",
+        "Oral prednisolone",
+        "Intra-articular methylprednisolone",
+        "Oral colchicine",
+        "Oral naproxen"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute pseudogout, NSAIDs (e.g., naproxen) are first-line for patients without contraindications, as they rapidly reduce inflammation. Colchicine is an alternative but not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d470c569cee4",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with CKD stage 5 (eGFR 15 mL/min) and a recent GI bleed presents with a three-day history of painful swelling in both knees, wrists, and ankles. Joint aspiration confirms CPPD crystals. She is unable to have joint injections in all affected joints. What is the most appropriate treatment?",
+      "options": [
+        "Paracetamol",
+        "Oral prednisolone",
+        "Intra-articular methylprednisolone",
+        "Oral colchicine",
+        "Oral naproxen"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute polyarticular pseudogout with contraindications to NSAIDs (GI bleed, renal impairment) and colchicine (severe CKD), systemic corticosteroids (oral prednisolone) are the safest and most effective option. Intra-articular steroids are impractical for multiple joints.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87c2ad3bbb69",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with a history of heart failure (LVEF 35%) presents with an acute flare of pseudogout in his left knee. Which of the following drugs is contraindicated in this patient?",
+      "options": [
+        "Oral prednisolone",
+        "Naproxen",
+        "Paracetamol",
+        "Oral colchicine",
+        "Intra-articular methylprednisolone"
+      ],
+      "answerIndex": 1,
+      "explanation": "NSAIDs (naproxen) are contraindicated in heart failure due to fluid retention and increased risk of decompensation. Colchicine, steroids, and paracetamol are safer alternatives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8aa53d262d99",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man has had four episodes of acute pseudogout over the past year. He has no contraindications to first-line agents. What is the most appropriate prophylactic therapy to reduce the frequency of attacks?",
+      "options": [
+        "Low-dose colchicine",
+        "Regular naproxen",
+        "No treatment required",
+        "Allopurinol",
+        "Oral prednisolone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Low-dose colchicine is first-line prophylaxis for recurrent pseudogout, reducing attack frequency. Regular NSAIDs are an alternative but have GI/renal risks. Allopurinol is for gout, not CPPD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39687d64e442",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman on warfarin for atrial fibrillation presents with an acutely swollen, hot right knee. Aspiration shows CPPD crystals. She has no other comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Colchicine",
+        "Naproxen",
+        "Paracetamol",
+        "Oral prednisolone",
+        "Intra-articular methylprednisolone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Intra-articular corticosteroids are safe and effective for monoarticular pseudogout, avoiding systemic drug interactions with warfarin. NSAIDs are contraindicated due to bleeding risk; colchicine requires dose adjustment with INR monitoring; oral steroids have systemic effects.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14ac30eeb12b",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman presents to the ED with acute onset of severe pain, swelling, and redness in her right knee. She has no previous joint problems. She is febrile (38.0°C). On examination, the knee is warm, erythematous, and extremely tender with limited range of motion. Bloods show CRP 120 mg/L, WCC 14. What is the most appropriate next step?",
+      "options": [
+        "Apply ice and rest with analgesia.",
+        "Request an urgent X-ray of the knee.",
+        "Aspirate the knee joint for synovial fluid analysis.",
+        "Prescribe oral colchicine.",
+        "Start intravenous antibiotics for suspected septic arthritis."
+      ],
+      "answerIndex": 2,
+      "explanation": "Aspiration is essential to differentiate between septic arthritis and pseudogout, as treatment differs. Starting antibiotics blindly may delay diagnosis or lead to unnecessary treatment. Colchicine, X-ray, or ice/analgesia are not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a374c8e30695",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known calcium pyrophosphate crystal deposition disease presents with a 2-day history of mild pain and swelling in his left wrist. He is afebrile and examination shows mild synovitis. He has no contraindications to NSAIDs. What is the most appropriate next action?",
+      "options": [
+        "Start oral corticosteroids.",
+        "Prescribe a non-steroidal anti-inflammatory drug (NSAID).",
+        "Advise rest and paracetamol.",
+        "Aspirate the wrist joint.",
+        "Refer for physiotherapy."
+      ],
+      "answerIndex": 1,
+      "explanation": "For a mild flare in a patient without contraindications, NSAIDs are first-line. Aspiration is reserved for severe cases or diagnostic uncertainty. Corticosteroids are second-line. Rest and paracetamol are insufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fda89af6216b",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man presents with acute onset of painful swollen knees, wrists, and ankles. He is systemically unwell with fever (38.5°C) and tachycardia. He has a history of hypertension and GORD. Bloods show CRP 250, WCC 18. What is the most appropriate next step?",
+      "options": [
+        "Give oral prednisolone 30 mg once daily.",
+        "Administer intravenous colchicine.",
+        "Start intravenous antibiotics and perform blood cultures.",
+        "Aspirate the most inflamed joint for synovial fluid analysis.",
+        "Request an urgent rheumatology consultation."
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe polyarticular pseudogout with fever, aspiration is crucial to confirm diagnosis and exclude septic arthritis before initiating treatment. Starting antibiotics without evidence of infection may be harmful. Corticosteroids or colchicine should follow diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5a36a66fa84f",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known hereditary haemochromatosis presents with acute pain and swelling in his left ankle. He has had similar attacks before. He is otherwise well. What is the most appropriate immediate next action?",
+      "options": [
+        "Arrange for venesection therapy.",
+        "Check serum ferritin and transferrin saturation.",
+        "Aspirate the ankle joint for crystal analysis.",
+        "Start oral allopurinol.",
+        "Prescribe oral colchicine."
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute flare management should precede investigation or treatment of underlying cause. Aspiration confirms pseudogout and rules out septic arthritis. Checking iron studies is important but not immediate. Allopurinol is for gout, not pseudogout. Venesection is for long-term haemochromatosis control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "757fbbcb93ba",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman with dementia, atrial fibrillation on warfarin, and chronic kidney disease stage 3, presents with acute hot swollen right knee. She is in severe pain. Examination confirms effusion and warmth. She has no fever. What is the most appropriate next step?",
+      "options": [
+        "Prescribe paracetamol and apply ice.",
+        "Administer intra-articular corticosteroids after checking INR.",
+        "Start oral colchicine 500 micrograms twice daily.",
+        "Prescribe oral ibuprofen 400 mg three times a day.",
+        "Aspirate the knee joint for synovial fluid analysis."
+      ],
+      "answerIndex": 4,
+      "explanation": "Aspiration is both diagnostic and therapeutic. NSAIDs are contraindicated due to CKD. Intra-articular steroids are appropriate after confirming diagnosis, but the first step is aspiration. Colchicine requires dose adjustment in CKD and is not first line without diagnosis. Paracetamol and ice are inadequate for severe pain.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d5cb7ecf7a7d",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman presents with a three-hour history of acute, severe right knee pain. The knee is swollen, warm, and she is unable to bear weight. Her temperature is 37.9°C, heart rate 92 bpm. She has osteoarthritis and hypertension. Which single finding would most strongly suggest septic arthritis rather than pseudogout?",
+      "options": [
+        "Presence of chondrocalcinosis on radiograph",
+        "Rigors and a temperature of 38.8°C",
+        "Joint fluid white cell count 40,000/mm³",
+        "Bilateral knee involvement",
+        "History of recent knee trauma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rigors and high fever (>38.5°C) are more typical of septic arthritis; pseudogout rarely causes such systemic features. Chondrocalcinosis does not exclude infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "92c40ad33438",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with a history of pseudogout presents with severe neck pain, stiffness, and headache for 2 days. He is afebrile, but has limited neck movement. Which clinical finding should prompt immediate concern for a life-threatening mimic rather than an uncomplicated CPPD flare?",
+      "options": [
+        "Worsening of pain with coughing",
+        "Presence of chondrocalcinosis on cervical spine X-ray",
+        "A positive Brudzinski sign and fever of 38.5°C",
+        "Pain radiating to the shoulders",
+        "Tenderness over the spinous processes"
+      ],
+      "answerIndex": 2,
+      "explanation": "CPPD can cause crowned dens syndrome mimicking meningitis. The presence of meningeal signs (Brudzinski) with fever indicates possible meningitis, which is a medical emergency requiring urgent LP and antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca4d8be5f6f2",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man presents with a one-day history of an acutely painful, swollen, and red right knee. He is pyrexial (38.8°C) and tachycardic (110 bpm). A joint aspiration is performed. Which single laboratory finding from the aspirate is most valuable in confirming septic arthritis over pseudogout?",
+      "options": [
+        "Positive Gram stain for gram-positive cocci",
+        "Negative birefringent crystals on polarized microscopy",
+        "Joint fluid white cell count of 35,000 cells/mm³",
+        "Elevated protein concentration",
+        "Low glucose concentration (<2.0 mmol/L)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Positive Gram stain provides immediate evidence of bacteria and is diagnostic. High WCC and low glucose can be seen in both, but positive Gram stain is definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ac88db24fc71",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with known calcium pyrophosphate deposition disease (CPPD) presents with a rapidly progressive and painless swelling of the left knee over the past six weeks. Radiographs show severe joint destruction with fragmentation. What is the most likely complication of CPPD?",
+      "options": [
+        "Osteonecrosis",
+        "Gouty tophi",
+        "Pseudoneurotrophic arthropathy (Charcot-like joint)",
+        "Septic arthritis",
+        "Secondary osteoarthritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "CPPD can cause a rapidly destructive arthropathy mimicking a Charcot joint, but without neurological deficit. This is a serious complication needing orthopedic assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1930c46ce757",
+      "topic": "Pseudogout (CPPD)",
+      "slug": "pseudogout-cppd",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Crystal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman with recurrent pseudogout flares has chronic kidney disease (eGFR 28 mL/min). She is intolerant to NSAIDs. Which of the following findings is a contraindication to starting colchicine for flare prophylaxis?",
+      "options": [
+        "Serum urate level of 520 μmol/L",
+        "eGFR less than 30 mL/min",
+        "Current use of aspirin",
+        "Positive antinuclear antibody (ANA)",
+        "Liver enzymes twice the upper limit of normal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Colchicine is contraindicated in severe renal impairment (eGFR <30) due to risk of accumulation and toxicity. Dose adjustment is needed. Other options are not absolute contraindications.",
+      "difficulty": "medium"
+    }
+  ]
+}

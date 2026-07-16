@@ -1,0 +1,513 @@
+{
+  "topic": "Septic Shock",
+  "slug": "septic-shock",
+  "system": "Infectious Diseases",
+  "subSystem": "Systemic",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:36Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "297e78514c06",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents to the emergency department with a 2-day history of dysuria and flank pain. She has a fever of 39.5°C, heart rate 115 bpm, blood pressure 85/50 mmHg, respiratory rate 22 breaths/min, and oxygen saturation 97% on room air. Her peripheries are warm, capillary refill time is <2 s, and her lactate is 4.0 mmol/L. She has no rash or urticaria. What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock",
+        "Obstructive shock",
+        "Hypovolaemic shock",
+        "Anaphylactic shock",
+        "Cardiogenic shock"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has fever, hypotension, tachycardia, warm peripheries, and raised lactate, classic for distributive shock due to infection. The presence of urinary symptoms and fever points to a urinary source. Anaphylactic shock typically has urticaria or wheeze; cardiogenic shock has signs of heart failure; hypovolaemic shock would have cool peripheries; obstructive shock would have raised JVP or pulsus paradoxus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5a837eab560d",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known peanut allergy collapses shortly after eating at a restaurant. On examination, he is hypotensive (75/40 mmHg), tachycardic (130 bpm), with widespread urticaria, wheeze, and angioedema of the lips. He is febrile (38.0°C). What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock",
+        "Cardiogenic shock",
+        "Vasovagal syncope",
+        "Obstructive shock",
+        "Anaphylactic shock"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute onset after allergen exposure with urticaria, angioedema, wheeze, and hypotension is classic for anaphylactic shock. Fever can be present due to histamine release or concurrent infection, but the history makes anaphylaxis most likely. Septic shock would not have such sudden onset with urticaria. Vasovagal syncope has bradycardia, not tachycardia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13b3675ec59a",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man on warfarin for atrial fibrillation presents with breathlessness and hypotension. He has a heart rate of 110 bpm, blood pressure 85/50 mmHg, raised JVP (10 cm above sternal angle), muffled heart sounds, and pulsus paradoxus (20 mmHg drop during inspiration). His lactate is 2.5 mmol/L and he is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Obstructive shock (cardiac tamponade)",
+        "Hypovolaemic shock",
+        "Cardiogenic shock",
+        "Anaphylactic shock",
+        "Septic shock"
+      ],
+      "answerIndex": 0,
+      "explanation": "Classic triad of hypotension, raised JVP, and muffled heart sounds with pulsus paradoxus indicates cardiac tamponade (obstructive shock). Septic shock would likely have fever and warm peripheries; cardiogenic shock would show signs of pulmonary oedema; hypovolaemic shock would have flat JVP; anaphylactic shock would have urticaria/wheeze.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d713ab6b8fac",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 85-year-old woman from a nursing home is found confused by staff. Her temperature is 35.2°C, heart rate 105 bpm, blood pressure 80/50 mmHg, respiratory rate 26 breaths/min, and oxygen saturation 94% on room air. She has a lactate of 3.8 mmol/L. Urine dipstick shows positive nitrites and leucocytes. She has no rash. What is the single most likely diagnosis?",
+      "options": [
+        "Myxoedema coma",
+        "Hypovolaemic shock",
+        "Septic shock",
+        "Wernicke's encephalopathy",
+        "Cardiogenic shock"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elderly patients with sepsis often present with hypothermia rather than fever. The urinary tract infection (positive dipstick), hypotension, tachycardia, raised lactate, and confusion all support septic shock. Myxoedema coma typically has bradycardia, not tachycardia; hypovolaemic shock would have cool peripheries and no infection focus; cardiogenic shock would have JVP elevation; Wernicke's encephalopathy presents with oculomotor signs and ataxia, not shock.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "941e67d47116",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old university student presents with a 1-day history of fever, severe headache, and vomiting. On examination, he is confused, tachycardic (120 bpm), hypotensive (80/50 mmHg), and has a non-blanching petechial rash over his trunk and limbs. He has neck stiffness and photophobia. What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock due to staphylococcal meningitis",
+        "Septic shock due to meningococcal septicaemia",
+        "Viral meningitis",
+        "Subarachnoid haemorrhage",
+        "Septic shock due to pneumococcal meningitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, meningism, petechial rash, and rapidly progressive shock is classic for meningococcal septicaemia. Pneumococcal meningitis typically lacks the petechial rash; staphylococcal meningitis is rarer and often associated with endocarditis; viral meningitis rarely causes shock; subarachnoid haemorrhage presents with thunderclap headache and no fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4ad8c1490d4",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with fever, hypotension (BP 85/50 mmHg), tachycardia, and confusion. Which single investigation is most appropriate to confirm the diagnosis of septic shock?",
+      "options": [
+        "C-reactive protein",
+        "White cell count",
+        "Blood cultures",
+        "Chest X-ray",
+        "Serum lactate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Septic shock is defined by sepsis with persisting hypotension requiring vasopressors and lactate >2 mmol/L. Serum lactate is the key test to demonstrate tissue hypoperfusion and confirm the shock component. Blood cultures identify the pathogen but do not confirm shock; CRP and WCC are non-specific; CXR may show pneumonia but is not diagnostic for shock.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c371f0d1c894",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with suspected septic shock from a urinary tract infection has a lactate of 3.5 mmol/L. What is the most appropriate next investigation to identify the causative pathogen?",
+      "options": [
+        "CT abdomen",
+        "Urine culture",
+        "Procalcitonin",
+        "Ultrasound kidneys",
+        "Blood cultures"
+      ],
+      "answerIndex": 4,
+      "explanation": "Blood cultures are the gold standard to confirm bacteraemia and identify the causative organism in septic shock. While urine culture is relevant for UTI, blood cultures are more definitive in septic patients and are the 'never-miss' test. CT/ultrasound are imaging for source localisation, not pathogen identification; procalcitonin helps differentiate bacterial infection but does not identify the specific pathogen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "afcf5d76b7fd",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man in septic shock has blood cultures growing Gram-negative rods after 12 hours. Which further test is most appropriate to guide targeted antibiotic therapy?",
+      "options": [
+        "Antimicrobial susceptibility testing",
+        "Repeat blood cultures",
+        "Lactate clearance",
+        "Procalcitonin",
+        "PCR for resistance genes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Once a pathogen is isolated, antimicrobial susceptibility testing (AST) provides minimum inhibitory concentrations (MICs) to guide antibiotic choice. PCR for resistance genes is not routinely performed for all Gram-negative rods; procalcitonin and lactate clearance are dynamic markers but do not identify antibiotic sensitivities; repeat cultures are not needed for sensitivity data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2d3eb982ea82",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with cirrhosis and ascites presents with septic shock. Which diagnostic test is most appropriate to confirm spontaneous bacterial peritonitis as the cause?",
+      "options": [
+        "Lactate",
+        "Procalcitonin",
+        "Blood cultures",
+        "C-reactive protein",
+        "Ascitic fluid neutrophil count"
+      ],
+      "answerIndex": 4,
+      "explanation": "Spontaneous bacterial peritonitis (SBP) is diagnosed by ascitic fluid neutrophil count ≥250 cells/mm³. Blood cultures may be positive but are not diagnostic of SBP; procalcitonin, lactate, and CRP are non-specific and cannot localise infection to the peritoneum.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d270c9cf8944",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with septic shock has no obvious source of infection on clinical examination. Which imaging test is most appropriate to identify an occult source?",
+      "options": [
+        "MRI spine",
+        "Chest X-ray",
+        "CT abdomen and pelvis with intravenous contrast",
+        "Ultrasound of the abdomen",
+        "Indium-labelled white cell scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT abdomen/pelvis with contrast is the first-line imaging for occult intra-abdominal infections, abscesses, or collections in septic shock. Chest X-ray is useful but limited to thorax; ultrasound is operator-dependent and may miss deep collections; MRI is slow and not practical in acute shock; white cell scan is a second-line, time-consuming investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc5f27aa73a0",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with COPD presents with cough, fever, confusion, BP 80/40, HR 110, RR 28, oxygen saturations 88% on air. Chest X-ray shows right lower lobe consolidation. No drug allergies. What is the most appropriate first-line intravenous antibiotic therapy?",
+      "options": [
+        "Piperacillin/tazobactam",
+        "Ceftriaxone + metronidazole",
+        "Co-amoxiclav + clarithromycin",
+        "Vancomycin + ciprofloxacin",
+        "Meropenem"
+      ],
+      "answerIndex": 2,
+      "explanation": "For severe community-acquired pneumonia with septic shock, NICE recommends intravenous co-amoxiclav plus clarithromycin as first-line. Piperacillin/tazobactam is more appropriate for hospital-acquired or unknown source sepsis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0fddc6e8687e",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 85-year-old woman with recurrent UTIs presents with fever, hypotension, and urine dip positive for nitrites and leukocytes. Recent urine culture grew E. coli susceptible to co-amoxiclav and ceftriaxone but resistant to trimethoprim. No allergies. What is the most appropriate first-line intravenous antibiotic?",
+      "options": [
+        "Co-amoxiclav",
+        "Ceftriaxone",
+        "Ciprofloxacin",
+        "Gentamicin",
+        "Piperacillin/tazobactam"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ceftriaxone is a common first-line for urosepsis due to good bioavailability and tissue penetration; although co-amoxiclav is sensitive, ceftriaxone is preferred in septic shock. Gentamicin should not be used as monotherapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ddc9fcc16a5",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman receiving chemotherapy for breast cancer presents with fever 39°C, BP 85/45, HR 115, WBC 0.4 x10^9/L. She has a history of penicillin allergy (urticaria). What is the most appropriate first-line intravenous antibiotic?",
+      "options": [
+        "Ceftazidime + gentamicin",
+        "Meropenem",
+        "Linezolid + ciprofloxacin",
+        "Vancomycin + aztreonam",
+        "Piperacillin/tazobactam"
+      ],
+      "answerIndex": 1,
+      "explanation": "For neutropenic sepsis with septic shock and penicillin allergy, meropenem is recommended as first-line monotherapy. Piperacillin/tazobactam is contraindicated due to allergy, and ceftazidime plus gentamicin is an alternative but not preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "277475a3fed7",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman, 30 weeks pregnant, presents with septic shock from likely intra-abdominal source (appendicitis). She is on routine antenatal care. Which of the following antibiotics is CONTRAINDICATED?",
+      "options": [
+        "Doxycycline",
+        "Piperacillin/tazobactam",
+        "Cefuroxime",
+        "Metronidazole",
+        "Gentamicin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Doxycycline is a tetracycline and is contraindicated in pregnancy due to risk of hepatotoxicity and fetal bone/teeth abnormalities. Other options are safe when used with appropriate monitoring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f7feb2c41693",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with perforated diverticulitis presents with septic shock. He has had recent abdominal surgery. What is the most appropriate first-line intravenous antibiotic regimen?",
+      "options": [
+        "Ceftriaxone alone",
+        "Ceftriaxone + metronidazole",
+        "Ciprofloxacin + clindamycin",
+        "Piperacillin/tazobactam",
+        "Gentamicin + metronidazole"
+      ],
+      "answerIndex": 3,
+      "explanation": "Piperacillin/tazobactam provides broad-spectrum cover including Pseudomonas and anaerobes, and is preferred for severe intra-abdominal sepsis. Ceftriaxone+metronidazole is an alternative but piperacillin/tazobactam is more comprehensive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30731bbcb98d",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman presents to the ED with fever, confusion, and hypotension (BP 80/40 mmHg). She has a history of recurrent UTIs. On examination, she is tachypnoeic and tachycardic. Her capillary refill time is 4 seconds. What is the single most appropriate immediate next action?",
+      "options": [
+        "Perform a CT scan of the abdomen",
+        "Obtain two sets of blood cultures",
+        "Administer a 500 ml IV fluid bolus of crystalloid",
+        "Start IV broad-spectrum antibiotics",
+        "Measure serum lactate"
+      ],
+      "answerIndex": 2,
+      "explanation": "In septic shock, immediate fluid resuscitation is the priority to restore tissue perfusion. While antibiotics, cultures, and lactate measurement are urgent, the most immediate action is to correct hypotension with a fluid bolus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18d721c3b861",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 58-year-old man with type 2 diabetes is on the ward for cellulitis of his leg. He has been on IV flucloxacillin for 24 hours. This morning, he becomes febrile (38.5°C), tachycardic (110 bpm), and hypotensive (95/50 mmHg). His lactate is 2.5 mmol/L. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start IV fluid resuscitation",
+        "Request an urgent ultrasound of the leg",
+        "Increase the dose of flucloxacillin",
+        "Change antibiotics to a broader spectrum agent",
+        "Take blood cultures"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given deterioration on current antibiotics, you must obtain blood cultures before any change in antimicrobial therapy to identify the causative pathogen. Fluid resuscitation is also important, but cultures should be taken first to guide choice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9de4aa2ecc10",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with metastatic breast cancer is admitted with febrile neutropenia (temperature 38.9°C, neutrophil count 0.2 x10^9/L). She appears unwell, BP 85/50, HR 125. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start IV meropenem",
+        "Start IV piperacillin-tazobactam",
+        "Obtain blood cultures",
+        "Give IV fluid bolus",
+        "Administer G-CSF"
+      ],
+      "answerIndex": 1,
+      "explanation": "In febrile neutropenia with shock, immediate broad-spectrum antibiotics (e.g., piperacillin-tazobactam per NICE guidelines) are the priority. Blood cultures should be taken but not delay antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "df5d243baea1",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known cirrhosis presents with spontaneous bacterial peritonitis. He is febrile, tachycardic, and hypotensive (BP 85/40). He has tense ascites. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start terlipressin",
+        "Start IV albumin infusion",
+        "Give IV fluid bolus",
+        "Perform a diagnostic paracentesis",
+        "Start IV antibiotics"
+      ],
+      "answerIndex": 4,
+      "explanation": "In septic shock from SBP, immediate empirical antibiotics (e.g., cefotaxime) are the mainstay. Paracentesis should be done soon but must not delay antibiotics. Fluids and albumin are secondary.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9ba983170f37",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman at 34 weeks gestation presents with dysuria, fever, and flank pain. BP 90/50, HR 115, temperature 39°C. She has a history of penicillin allergy (urticaria). What is the single most appropriate immediate next action?",
+      "options": [
+        "Start IV co-amoxiclav",
+        "Start IV cefuroxime",
+        "Give IV fluid bolus of 500ml Hartmann's",
+        "Start IV ceftriaxone",
+        "Start IV gentamicin"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a pregnant patient with septic shock, immediate fluid resuscitation is the priority to maintain placental perfusion. Antibiotics are crucial but can be given promptly after fluids, with a safe choice like cefuroxime given her allergy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "36dc3d77a944",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with pneumonia is confused, with respiratory rate 24, BP 105/70 mmHg, heart rate 110 bpm, temperature 38.5°C, SpO2 94% on air. Which single finding is most suggestive of septic shock?",
+      "options": [
+        "Tachypnoea (RR 24)",
+        "Borderline hypotension (BP 105/70)",
+        "Confusion",
+        "Lactate 3.2 mmol/L",
+        "Tachycardia (HR 110)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lactate >2 mmol/L indicates tissue hypoperfusion, a hallmark of septic shock. The other findings are non-specific or could be compensatory but do not define shock.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "afe22fe741c9",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with septic shock due to pyelonephritis is intubated and ventilated. Which finding best confirms the development of ARDS?",
+      "options": [
+        "Bilateral infiltrates on chest X-ray",
+        "Positive fluid balance",
+        "Reduced lung compliance",
+        "PaO2/FiO2 ratio <300 on PEEP ≥5 cmH2O",
+        "Pulmonary artery wedge pressure >18 mmHg"
+      ],
+      "answerIndex": 3,
+      "explanation": "ARDS is defined by acute hypoxaemia with PaO2/FiO2 ratio <300 on at least 5 cmH2O PEEP, bilateral opacities, and not fully explained by cardiac failure. The ratio is the key diagnostic criterion; bilateral infiltrates alone are not specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "59032f2cb13e",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with AML post-chemotherapy presents with fever and rigors. Observations: BP 85/50 mmHg, HR 120 bpm, RR 28, SpO2 93%. Which single finding most clearly indicates septic shock requiring immediate escalation?",
+      "options": [
+        "SpO2 93%",
+        "Systolic BP 85 mmHg",
+        "Rigors",
+        "Temperature 38.5°C",
+        "Neutrophil count 0.2 x10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension (SBP <90 mmHg) in a febrile neutropenic patient is a red flag for septic shock, triggering immediate critical care and vasopressors. Fever and rigors are important but hypotension indicates organ hypoperfusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cfb995814413",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman develops sudden hypotension, tachycardia, and stridor 20 minutes after receiving intravenous antibiotics. Which finding suggests anaphylaxis rather than septic shock?",
+      "options": [
+        "Leukocytosis (WCC 15 x10^9/L)",
+        "Lactate 2.5 mmol/L",
+        "Hypoxia (SpO2 89%)",
+        "Urticaria",
+        "Fever >38°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Urticaria (hives) is characteristic of anaphylaxis due to mast cell degranulation. Fever, leukocytosis, and raised lactate are more typical of septic shock.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "036e4fd1d875",
+      "topic": "Septic Shock",
+      "slug": "septic-shock",
+      "system": "Infectious Diseases",
+      "subSystem": "Systemic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with septic shock received 2 litres of crystalloid over 2 hours. Which finding indicates need for critical care transfer?",
+      "options": [
+        "Urine output 0.3 ml/kg/hr",
+        "Lactate 3.0 mmol/L",
+        "MAP 60 mmHg",
+        "Respiratory rate 22 /min",
+        "GCS 14"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent hypotension (MAP <65 mmHg) despite adequate fluid resuscitation is a key criterion for septic shock and indicates need for vasopressors in a critical care setting. Lactate >2 and oliguria are concerning but hypotension is the immediate escalation threshold.",
+      "difficulty": "medium"
+    }
+  ]
+}

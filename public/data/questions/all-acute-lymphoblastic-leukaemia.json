@@ -1,0 +1,513 @@
+{
+  "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+  "slug": "all-acute-lymphoblastic-leukaemia",
+  "system": "Haematology",
+  "subSystem": "Leukaemia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:52Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "59fb4f9d441b",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents with a 4-week history of fatigue, fever, and easy bruising. On examination, he has pallor, petechiae, and cervical lymphadenopathy. Full blood count: Hb 85 g/L, WCC 15 x10^9/L, platelets 30 x10^9/L. Blood film shows 40% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic myeloid leukaemia",
+        "Aplastic anaemia",
+        "Acute myeloid leukaemia",
+        "Acute lymphoblastic leukaemia",
+        "Infectious mononucleosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The young age, cytopenias, and presence of lymphoblasts (high N:C ratio) point to ALL. AML often has Auer rods; CML has basophilia; mononucleosis has atypical lymphocytes with serology; aplastic anaemia has pancytopenia without blasts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cc4511d46ff1",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with isolated thrombocytopenia (platelets 55 x10^9/L). Hb and WCC are normal. No lymphadenopathy. Blood film shows no blasts. Bone marrow biopsy shows 15% lymphoblasts. What is the single most likely diagnosis?",
+      "options": [
+        "Aplastic anaemia",
+        "Immune thrombocytopenic purpura",
+        "Chronic lymphocytic leukaemia",
+        "Acute lymphoblastic leukaemia",
+        "Myelodysplastic syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Although blast count is <20%, ALL can present with low blast percentage; the marrow blast count >20% (or here >15% with cytopenia) supports ALL. ITP has normal or increased megakaryocytes; MDS shows dysplasia; aplastic anaemia is hypocellular; CLL has mature lymphocytosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b78d2c60f2ee",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 5-year-old boy presents with acute cough, tachypnoea, and inspiratory stridor. He has marked cervical and supraclavicular lymphadenopathy. CXR shows a large mediastinal mass. FBC: WCC 350 x10^9/L with 90% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Acute myeloid leukaemia",
+        "Acute lymphoblastic leukaemia",
+        "Non-Hodgkin lymphoma (lymphoblastic lymphoma)",
+        "Hodgkin lymphoma",
+        "Neuroblastoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hyperleukocytosis and mediastinal mass with marrow blasts is classic for T-ALL. Lymphoblastic lymphoma has <25% marrow blasts. Hodgkin lymphoma does not cause such high WCC; neuroblastoma has urinary catecholamines; AML less likely with this pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c24797bcfa5a",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with Down syndrome presents with progressive back pain and lower limb weakness over 2 weeks. No fever or lymphadenopathy. FBC: mild anaemia (Hb 110 g/L), platelets 90 x10^9/L. MRI spine shows a paravertebral soft tissue mass causing cord compression. Biopsy of the mass shows lymphoblasts. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma",
+        "Osteosarcoma",
+        "Acute lymphoblastic leukaemia",
+        "Ewing sarcoma",
+        "Metastatic germ cell tumour"
+      ],
+      "answerIndex": 2,
+      "explanation": "Down syndrome has high risk of ALL. Extramedullary paravertebral mass with blasts indicates T-ALL. Germ cell tumour would have different histology/tumour markers; Ewing sarcoma is a small round cell tumour but not typically paravertebral; multiple myeloma is rare at this age; osteosarcoma presents in long bones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e2b2b17efeb",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 7-year-old girl who completed maintenance therapy for B-ALL 6 months ago presents with new back pain and pallor. FBC: Hb 70 g/L, WCC 12 x10^9/L with 5% blasts, platelets 60 x10^9/L. Bone marrow aspirate shows 40% lymphoblasts. What is the single most likely diagnosis?",
+      "options": [
+        "Aplastic anaemia",
+        "Secondary acute myeloid leukaemia",
+        "Immune-mediated aplasia",
+        "Relapsed acute lymphoblastic leukaemia",
+        "Myelodysplastic syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with prior ALL, new cytopenias and >25% marrow blasts confirm relapsed ALL. Secondary AML would show myeloid blasts; MDS has dysplasia; aplastic anaemia is hypocellular without blasts; immune aplasia is rare and not blast-associated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b159d38b56e5",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 20-year-old university student presents with a two-week history of fatigue, bruising, and fever. Examination reveals pallor and cervical lymphadenopathy. FBC shows Hb 80 g/L, WCC 3.2 x10^9/L, platelets 40 x10^9/L. Blood film shows occasional blasts. Which investigation is most appropriate to confirm the diagnosis of ALL?",
+      "options": [
+        "Bone marrow aspirate and trephine biopsy",
+        "Epstein-Barr virus serology",
+        "CT chest/abdomen/pelvis",
+        "Lumbar puncture",
+        "Peripheral blood flow cytometry"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bone marrow examination is the gold standard for diagnosing ALL, providing cytology, immunophenotyping, cytogenetics, and molecular genetics essential for confirmation and risk stratification. Peripheral blood flow cytometry may be suggestive but cannot replace bone marrow for definitive diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e14f2ceab061",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with fatigue and mild cervical lymphadenopathy. FBC shows normal counts except mild anaemia (Hb 100 g/L) and no blasts. Bone marrow aspirate reveals 30% blasts with L1 morphology. Flow cytometry on the marrow shows the blasts are positive for CD10, CD19, TdT, and negative for MPO and CD3. What is the most likely diagnosis?",
+      "options": [
+        "Mixed phenotype acute leukaemia (MPAL)",
+        "B-acute lymphoblastic leukaemia (B-ALL)",
+        "T-acute lymphoblastic leukaemia (T-ALL)",
+        "Lymphoblastic lymphoma",
+        "Acute myeloid leukaemia (AML)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The immunophenotype (CD10+, CD19+, TdT+, negative for myeloid and T-cell markers) is characteristic of B-ALL. T-ALL would express T-cell markers like CD3, AML would express MPO or other myeloid markers, MPAL would express both lymphoid and myeloid markers, and lymphoblastic lymphoma typically presents with tissue masses and marrow involvement <25% blasts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92790c7a65da",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with known B-ALL in first remission presents with headache, blurred vision, and vomiting. CT head shows no mass lesion or intracranial haemorrhage. Which investigation should be performed next to confirm the diagnosis of CNS relapse?",
+      "options": [
+        "Lumbar puncture with CSF cytology and flow cytometry",
+        "MRI brain with contrast",
+        "Electroencephalogram (EEG)",
+        "Bone marrow aspirate",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "CSF analysis including cytology and immunophenotyping is the gold standard for detecting leptomeningeal involvement in ALL. MRI may show signs of meningeal enhancement but is less specific and does not provide cytological confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc1476df87ce",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man is diagnosed with B-ALL based on bone marrow aspirate. Which additional genetic test is most important to perform at diagnosis to guide targeted therapy?",
+      "options": [
+        "NPM1 mutation analysis",
+        "JAK2 V617F mutation analysis",
+        "BCR-ABL1 fusion gene detection (Philadelphia chromosome)",
+        "FLT3-ITD mutation analysis",
+        "CALR mutation analysis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Philadelphia chromosome (t(9;22) leading to BCR-ABL1) is present in about 25% of adult ALL and indicates eligibility for tyrosine kinase inhibitors such as imatinib. The other options are associated with myeloproliferative neoplasms or AML.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f07db301ebe7",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man with ALL has achieved complete morphological remission after induction chemotherapy. Which test is most sensitive for detecting minimal residual disease (MRD) to guide further treatment?",
+      "options": [
+        "Full blood count",
+        "18F-FDG PET-CT scan",
+        "Multiparametric flow cytometry on bone marrow",
+        "Conventional cytogenetics (karyotyping)",
+        "MRI of the spine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Multiparametric flow cytometry on bone marrow can detect leukaemic cells at a level of 0.01% and is a standard method for MRD assessment. Conventional cytogenetics is less sensitive, and blood counts are normal in remission. PET-CT and MRI are used for extramedullary disease but not for MRD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7e18e5b03daf",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man presents with bruising and fatigue. Full blood count shows pancytopenia with blasts. Immunophenotyping confirms B-acute lymphoblastic leukaemia. He has no significant comorbidities. What is the most appropriate first-line induction chemotherapy regimen?",
+      "options": [
+        "FLAG-IDA regimen (fludarabine, cytarabine, G-CSF, idarubicin)",
+        "CHOP regimen (cyclophosphamide, doxorubicin, vincristine, prednisolone)",
+        "Oral etoposide alone",
+        "UKALL-like regimen (vincristine, dexamethasone, asparaginase, daunorubicin)",
+        "Imatinib monotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "UKALL protocols (e.g., UKALL 2003/2011) are standard for first-line induction in younger adults with ALL. CHOP is for lymphoma, FLAG-IDA for AML, and imatinib alone is insufficient without chemotherapy; etoposide alone is not used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bbf4e45fea8b",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with newly diagnosed acute lymphoblastic leukaemia develops acute renal failure, hyperuricaemia, hyperkalaemia, and hypocalcaemia shortly after starting chemotherapy. What is the most appropriate definitive treatment for the underlying cause?",
+      "options": [
+        "Haemodialysis",
+        "Intravenous rasburicase",
+        "Forced alkaline diuresis",
+        "Aggressive intravenous fluids alone",
+        "Oral allopurinol"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rasburicase is first-line for established or high-risk tumour lysis syndrome as it rapidly degrades uric acid. Allopurinol is for prevention, not treatment of established TLS. Alkaline diuresis is less favoured, and haemodialysis treats complications but not the cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42fc2bb418e7",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with B-acute lymphoblastic leukaemia (CD20+, Philadelphia chromosome negative) presents with ECOG performance status 2. He has ischaemic heart disease. What is the most appropriate first-line therapy?",
+      "options": [
+        "Rituximab monotherapy",
+        "Reduced-intensity chemotherapy (e.g., mini-hyper-CVD)",
+        "Allogeneic stem cell transplantation",
+        "Palliative care alone",
+        "Standard UKALL induction chemotherapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In older/frail patients with ALL, reduced-intensity regimens like mini-hyper-CVD are used to balance efficacy and toxicity. Standard UKALL is too toxic; rituximab alone is ineffective; allogeneic SCT is not first-line at this age/comorbidity; palliative care is premature if treatment is feasible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cecb74952ce8",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with acute lymphoblastic leukaemia has completed induction and consolidation chemotherapy and is now in complete remission. She is about to start maintenance therapy. What is the standard maintenance regimen?",
+      "options": [
+        "Cyclophosphamide and cytarabine",
+        "Oral methotrexate and 6-mercaptopurine",
+        "Imatinib",
+        "Thalidomide",
+        "Intrathecal methotrexate alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Standard maintenance in ALL consists of daily oral 6-mercaptopurine and weekly oral methotrexate. Cyclophosphamide/cytarabine are used in consolidation, not maintenance. Imatinib is added in Ph+ ALL. Thalidomide is for myeloma. Intrathecal methotrexate is for CNS prophylaxis, not systemic maintenance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "85f673b8dbd1",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man with acute lymphoblastic leukaemia is about to start induction chemotherapy. He has a history of pancreatitis due to alcohol abuse. Which drug in the induction regimen is contraindicated?",
+      "options": [
+        "Daunorubicin",
+        "Dexamethasone",
+        "Vincristine",
+        "Asparaginase",
+        "Methotrexate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Asparaginase is notorious for causing pancreatitis, so it is contraindicated in patients with a history of pancreatitis. Vincristine, dexamethasone, daunorubicin, and methotrexate do not have the same absolute contraindication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d9ecf6f1920",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old man presents to the ED with a 2-week history of fatigue, bruising, and intermittent nosebleeds. On examination, he has multiple petechiae, cervical lymphadenopathy, and splenomegaly. Observations are normal. What is the single most appropriate immediate next action?",
+      "options": [
+        "Obtain a full blood count and peripheral blood film",
+        "Arrange an urgent bone marrow biopsy",
+        "Request urgent haematology review after initial bloods",
+        "Perform a coagulation screen and platelet transfusion",
+        "Commence intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with suspected acute leukaemia, the first step is to obtain a FBC and blood film to identify blasts. This is quicker than bone marrow biopsy and guides urgency. The patient is stable, so antibiotics or platelet transfusion are not indicated without a confirmed infection or severe bleeding. Haematology review is important but after initial bloods provide a diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6feec19bed58",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with known ALL on maintenance chemotherapy attends the ED with a temperature of 38.2°C. She feels well, heart rate 90 bpm, BP 110/70, oxygen saturations 98% on air. There are no focal signs. What is the single most appropriate immediate next action?",
+      "options": [
+        "Give oral paracetamol and discharge with advice",
+        "Check neutrophil count before deciding on treatment",
+        "Perform a chest X-ray and urinalysis",
+        "Start intravenous broad-spectrum antibiotics (e.g., piperacillin-tazobactam)",
+        "Take blood cultures and await results before treating"
+      ],
+      "answerIndex": 3,
+      "explanation": "In any chemotherapy patient with fever, neutropenic sepsis must be assumed and antibiotics started within 1 hour per NICE guidelines. Waiting for cultures or neutrophil count delays treatment. Paracetamol and discharge is unsafe. Chest X-ray and urinalysis can be done after starting antibiotics. The immediate action is to give IV antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "767f3644325c",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents to the ED with progressive dyspnoea and confusion. He has recently been diagnosed with ALL and has not yet started treatment. His white cell count is 180×10⁹/L (mainly blasts), Hb 8 g/dL, platelets 30×10⁹/L. Respiratory rate 28, oxygen saturations 89% on room air. What is the single most appropriate immediate next action?",
+      "options": [
+        "Give a platelet transfusion",
+        "Perform a CT head to rule out intracranial bleed",
+        "Administer oxygen by mask and monitor",
+        "Arrange urgent leukapheresis",
+        "Start chemotherapy with high-dose steroids"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is suggestive of leukostasis due to hyperleukocytosis. The immediate priority is to reduce blast count rapidly with leukapheresis. Chemotherapy can follow but is not immediate. Oxygen is supportive but not definitive. Platelet transfusion and CT head may be needed but are not the most urgent step in this emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d5e3293b2a9",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with ALL on day 2 of induction chemotherapy is found to have a potassium level of 7.0 mmol/L. Her ECG shows widened QRS complexes and peaked T waves. She is alert, BP 100/60, heart rate 110 bpm. What is the single most appropriate immediate next action?",
+      "options": [
+        "Give intravenous insulin and 50% glucose",
+        "Infuse 1 litre of 0.9% sodium chloride over 1 hour",
+        "Start continuous veno-venous haemodiafiltration",
+        "Administer intravenous calcium gluconate",
+        "Commence oral calcium resonium"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyperkalemia with ECG changes is a medical emergency. IV calcium gluconate is first-line to stabilise the cardiac membrane. Insulin and glucose lower potassium but act more slowly. Haemodialysis is for refractory cases, but calcium is the immediate step. IV fluids and calcium resonium are not appropriate for acute life-threatening hyperkalemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "493bb5e089b3",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 19-year-old woman with a history of childhood ALL, now in remission for 5 years, presents with a 1-week history of headache, nausea, and blurred vision. Neurological examination is unremarkable except for mild papilloedema. She is afebrile and has no focal deficits. Her recent FBC and coagulation profile are normal. What is the single most appropriate immediate next action?",
+      "options": [
+        "Perform a diagnostic lumbar puncture",
+        "Arrange an urgent CT scan of the head",
+        "Commence intravenous dexamethasone",
+        "Refer to neurosurgery for possible shunt",
+        "Start empiric antibiotics for meningitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Given the history of ALL and headache with papilloedema, CNS relapse is a key concern. Lumbar puncture for CSF cytology and immunophenotyping is the diagnostic test of choice. CT head may be useful to exclude mass effect but does not diagnose leukaemic infiltration. Dexamethasone may reduce oedema but delays diagnosis. Neurosurgery and antibiotics are not indicated at this stage without evidence of infection or hydrocephalus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41bb8bd5161a",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man presents with a 3-day history of fever, fatigue, and easy bruising. Temperature 38.5°C, pulse 110, BP 100/60. FBC: Hb 80 g/L, WCC 1.2×10^9/L, neutrophils 0.3×10^9/L, platelets 30×10^9/L. Which single finding mandates immediate senior review?",
+      "options": [
+        "Platelet count 30×10^9/L",
+        "White cell count 1.2×10^9/L",
+        "Neutrophil count 0.3×10^9/L",
+        "Temperature 38.5°C",
+        "Haemoglobin 80 g/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fever ≥38°C in a neutropenic patient (neutrophils <0.5) defines neutropenic sepsis, a life-threatening emergency requiring immediate antibiotics and senior review. While severe neutropenia is important, it is the combination with fever that triggers the emergency response.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2a375743a2b",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with ALL in remission on maintenance therapy presents with progressive lower back pain and difficulty walking for 2 days. Examination: power 3/5 both legs, sensory level at T10, absent knee jerks, not passed urine for 8 hours. Which clinical finding is the most specific red flag for spinal cord compression requiring urgent MRI?",
+      "options": [
+        "Back pain",
+        "Loss of knee jerks",
+        "Sensory level at T10",
+        "Urinary retention",
+        "Bilateral leg weakness"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sensory level on examination is the most specific sign of spinal cord compression. In ALL, this may be due to a chloroma (granulocytic sarcoma) causing cord compression, which is a neurosurgical emergency requiring immediate imaging. Leg weakness and back pain are common but less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f8b47125f8e",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 24-year-old man with newly diagnosed ALL presents with confusion, dyspnoea, and blurred vision. FBC: Hb 90 g/L, WCC 350×10^9/L, platelets 40×10^9/L. Which laboratory parameter is the most critical red flag for hyperleukocytosis with risk of leukostasis?",
+      "options": [
+        "Platelet count 40×10^9/L",
+        "Blast percentage on blood film",
+        "Haemoglobin 90 g/L",
+        "Lactate dehydrogenase level",
+        "White cell count 350×10^9/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "A WCC >100×10^9/L (here 350×10^9/L) in ALL indicates hyperleukocytosis, which can cause leukostasis (sludging in small vessels) leading to stroke, respiratory failure, and other end‑organ damage. Immediate cytoreduction (e.g., leukapheresis, hydroxycarbamide) is needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8d58a48b69c5",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 26-year-old man with ALL starts induction chemotherapy (vincristine, prednisolone, doxorubicin). 24 hours later he develops oliguria, cramps, and nausea. Bloods: Na 135, K 6.8, urea 18, creatinine 200 μmol/L, phosphate 2.5, calcium 1.9, urate 600 μmol/L. Which life‑threatening complication does this picture represent?",
+      "options": [
+        "Acute kidney injury due to sepsis",
+        "Acute leukaemic transformation",
+        "Hypercalcaemia",
+        "Drug‑induced hyperkalemia",
+        "Tumour lysis syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of hyperkalemia, hyperphosphatemia, hypocalcemia, hyperuricemia, and acute kidney injury shortly after starting chemotherapy is classic for tumour lysis syndrome (TLS). TLS is a medical emergency requiring aggressive hydration, rasburicase, and close monitoring.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c3b19ee04220",
+      "topic": "ALL (Acute Lymphoblastic Leukaemia)",
+      "slug": "all-acute-lymphoblastic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with Philadelphia‑positive ALL on maintenance dasatinib and low‑dose methotrexate attends for routine blood monitoring. She feels well. FBC: Hb 120 g/L, WCC 3.2×10^9/L, neutrophils 0.4×10^9/L, platelets 150×10^9/L. Which single value indicates a need for treatment interruption and consideration of G‑CSF (granulocyte‑colony stimulating factor)?",
+      "options": [
+        "Neutrophil count 0.4×10^9/L",
+        "Lymphocyte count",
+        "Haemoglobin 120 g/L",
+        "White cell count 3.2×10^9/L",
+        "Platelet count 150×10^9/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A neutrophil count <0.5×10^9/L defines severe neutropenia and is a threshold for holding chemotherapy (e.g., dasatinib) and considering G‑CSF prophylaxis. Even though the patient is well, this degree of neutropenia increases infection risk and warrants active review.",
+      "difficulty": "medium"
+    }
+  ]
+}

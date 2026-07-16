@@ -1,0 +1,513 @@
+{
+  "topic": "Prolactinoma",
+  "slug": "prolactinoma",
+  "system": "Endocrinology",
+  "subSystem": "Pituitary",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2c3c2d0bc50f",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman presents with a 6-month history of amenorrhoea and galactorrhoea. She also complains of occasional headaches. Examination reveals no visual field defects. Serum prolactin is 4500 mU/L (normal <500). What is the single most likely diagnosis?",
+      "options": [
+        "Hypothalamic disease (e.g. sarcoidosis)",
+        "Prolactinoma",
+        "Craniopharyngioma",
+        "Non-functioning pituitary adenoma with stalk effect",
+        "Drug-induced hyperprolactinaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Markedly elevated prolactin (>2000 mU/L) with typical symptoms (amenorrhoea, galactorrhoea) is classic for prolactinoma. Stalk effect causes mild elevations (<2000) and often hypopituitarism. Drug-induced hyperprolactinaemia is usually moderate and associated with medication history.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4d39c76ac6df",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old man with schizophrenia, treated with risperidone, presents with low libido, erectile dysfunction, and bilateral gynaecomastia. Serum prolactin is 1200 mU/L. What is the single most likely diagnosis?",
+      "options": [
+        "Non-functioning pituitary adenoma",
+        "Primary hypogonadism",
+        "Drug-induced hyperprolactinaemia",
+        "Prolactinoma",
+        "Hypogonadotropic hypogonadism"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of a known prolactin-raising antipsychotic (risperidone) and moderately elevated prolactin makes drug-induced hyperprolactinaemia the most likely. Prolactinoma usually causes higher levels unless microprolactinoma, but drug history is key.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1aa67e191a93",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with a known macroprolactinoma on cabergoline presents with sudden severe headache, nausea, and loss of vision in the left eye. MRI shows a haemorrhagic pituitary mass. What is the single most likely diagnosis?",
+      "options": [
+        "Pituitary apoplexy",
+        "Cerebral venous sinus thrombosis",
+        "Meningitis",
+        "Subarachnoid haemorrhage",
+        "Migraine with aura"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with a known pituitary adenoma, sudden headache and visual loss with haemorrhage on MRI is diagnostic of pituitary apoplexy. Subarachnoid haemorrhage would show blood in the subarachnoid space, not confined to the sella.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "10b15421872d",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with bitemporal hemianopia and mild headache. Serum prolactin is 800 mU/L. MRI reveals a 2 cm pituitary mass. What is the single most likely diagnosis?",
+      "options": [
+        "Craniopharyngioma",
+        "Prolactinoma",
+        "Empty sella syndrome",
+        "Non-functioning pituitary adenoma with stalk effect",
+        "Meningioma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mildly elevated prolactin (<2000) due to stalk compression from a non-functioning adenoma is classic. Prolactinoma would cause much higher levels. Craniopharyngiomas often present with calcification and diabetes insipidus. Empty sella is an incidental finding without mass effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba90f65eca4e",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with a known macroprolactinoma, currently on cabergoline, is now 8 weeks pregnant. She presents with a 1-week history of worsening headache and blurred vision. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-eclampsia",
+        "Gestational hyperprolactinaemia",
+        "Empty sella syndrome",
+        "Prolactinoma enlargement during pregnancy",
+        "Pituitary apoplexy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Oestrogen stimulation during pregnancy can cause significant enlargement of macroprolactinomas, leading to headache and visual symptoms. Pituitary apoplexy is less likely without sudden onset or haemorrhage. Gestational hyperprolactinaemia is physiological and asymptomatic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cca67bc764c3",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with secondary amenorrhea and galactorrhea. Serum prolactin is 1100 mU/L (reference <500). Thyroid function, renal function, and pregnancy test are normal. What is the most appropriate next investigation to confirm the diagnosis of prolactinoma?",
+      "options": [
+        "MRI pituitary",
+        "TRH stimulation test",
+        "Visual field testing",
+        "Repeat prolactin with macroprolactin screen",
+        "24-hour urinary-free cortisol"
+      ],
+      "answerIndex": 3,
+      "explanation": "Macroprolactin is a common cause of spurious hyperprolactinaemia; screening it avoids unnecessary imaging. MRI is indicated only after confirming true hyperprolactinaemia. TRH test is obsolete.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18489ecc366f",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with headache and loss of peripheral vision. Serum prolactin is 18,000 mU/L. Which single investigation is most appropriate to confirm the underlying pathology?",
+      "options": [
+        "CT head without contrast",
+        "Lumbar puncture",
+        "MRI pituitary with contrast",
+        "Visual field perimetry",
+        "Serum alpha-subunit"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRI pituitary is the gold standard to identify a pituitary adenoma. While visual fields assess chiasm involvement, MRI confirms the tumour and differentiates from other sellar masses. CT is less sensitive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bfa5614c3a65",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with fatigue and irregular periods has a random serum prolactin of 650 mU/L (normal <500). She is not on any medication. What is the most appropriate next step?",
+      "options": [
+        "Repeat prolactin with a morning fasting sample",
+        "Refer for transsphenoidal surgery",
+        "Order MRI pituitary",
+        "Start cabergoline",
+        "Check macroprolactin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prolactin is pulsatile and stress-responsive; a fasting morning sample is recommended to confirm elevation before further workup. Many lab elevations are transient. Macroprolactin screen is only if persistently elevated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "01da3e5113b6",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with low libido and gynaecomastia is found to have a prolactin level of 5200 mU/L on two occasions. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Prolactinoma",
+        "Medications (e.g. antipsychotics)",
+        "Chronic kidney disease",
+        "Stalk compression from non-functioning adenoma",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prolactin >5000 mU/L is strongly suggestive of a prolactinoma, as other causes rarely reach such high levels. Medications and hypothyroidism cause mild elevations (<2000). Stalk compression usually causes moderate elevation (<3000).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5137d181ac60",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with schizophrenia on risperidone has a serum prolactin of 2000 mU/L. Which test best differentiates antipsychotic-induced hyperprolactinaemia from a prolactinoma?",
+      "options": [
+        "MRI pituitary with contrast",
+        "TRH stimulation test",
+        "Serum iron studies",
+        "Serum prolactin after switching to a prolactin-sparing antipsychotic",
+        "CT head"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI identifies a pituitary adenoma; if no adenoma is seen and prolactin <5000, drug-induced is most likely. Drug-induced hyperprolactinaemia does not cause a pituitary lesion. TRH test is obsolete and switching antipsychotics is a management step, not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f0670732205d",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with galactorrhoea and secondary amenorrhoea. Serum prolactin is 2500 mU/L (normal <500). MRI shows a 5mm pituitary microadenoma. She is not currently trying to conceive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Observation with regular monitoring of prolactin",
+        "Transsphenoidal adenomectomy",
+        "Cabergoline",
+        "External beam radiotherapy",
+        "Bromocriptine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cabergoline is the first-line dopamine agonist for microprolactinoma due to superior efficacy and tolerability compared to bromocriptine. Surgery is reserved for drug-resistant cases or contraindications to medical therapy. Observation may be considered if asymptomatic, but she is symptomatic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2c7e23cd480d",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with headache and bitemporal hemianopia. Serum prolactin is 10,000 mU/L. MRI shows a 2cm pituitary macroadenoma compressing the optic chiasm. What is the most appropriate definitive therapy?",
+      "options": [
+        "Cabergoline",
+        "Radiotherapy",
+        "High-dose dexamethasone",
+        "Bromocriptine",
+        "Urgent transsphenoidal surgery"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dopamine agonists, particularly cabergoline, are first-line even for large prolactinomas. They shrink the tumour and lower prolactin rapidly, often improving visual fields within days. Surgery is indicated if no response to medical therapy or if there is acute visual loss with apoplexy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "988c9987af79",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with known macroprolactinoma (previously well controlled on cabergoline) is now 12 weeks pregnant. She stops cabergoline but develops severe headaches and visual blurring at 16 weeks. MRI shows tumour enlargement. What is the most appropriate treatment?",
+      "options": [
+        "High-dose oral prednisolone",
+        "Start bromocriptine",
+        "Urgent transsphenoidal surgery",
+        "Radiotherapy",
+        "Restart cabergoline"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bromocriptine has the largest safety database in pregnancy and is preferred if dopamine agonist therapy is required during pregnancy. Cabergoline is an alternative but less evidence. Surgery is reserved for cases refractory to medical therapy or acute visual deterioration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3beac5546705",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with a microprolactinoma (prolactin 3000 mU/L, 6mm microadenoma) has schizophrenia and is stable on olanzapine. She wishes to conceive. What is the most appropriate definitive therapy?",
+      "options": [
+        "Radiotherapy",
+        "Cabergoline",
+        "Transsphenoidal surgery",
+        "Observation",
+        "Bromocriptine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dopamine agonists are relatively contraindicated in patients with psychotic disorders as they can precipitate psychosis. Surgery is preferred in this setting, especially since she desires fertility, making observation inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "342137f89156",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known macroprolactinoma (on cabergoline, non-compliant) presents with sudden severe headache, vomiting, bilateral ptosis, and hypotension. CT shows haemorrhagic pituitary mass. What is the most appropriate definitive therapy?",
+      "options": [
+        "Observation with monitoring",
+        "High-dose IV hydrocortisone",
+        "Urgent transsphenoidal surgery",
+        "External beam radiotherapy",
+        "Intravenous cabergoline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pituitary apoplexy with neuro-ophthalmic signs requires urgent surgical decompression. High-dose steroids are given as supportive therapy for adrenal insufficiency but are not definitive. Cabergoline alone is insufficient for acute compression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e7ca56d22ab3",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with a 6-month history of oligomenorrhea and galactorrhea. Serum prolactin is 700 mU/L (reference range <500). She is not taking any medications. What is the most appropriate immediate next step?",
+      "options": [
+        "Repeat prolactin measurement with macroprolactin screening",
+        "Reassure and discharge",
+        "Arrange MRI pituitary with contrast",
+        "Check TSH and free T4",
+        "Start cabergoline 0.5 mg twice weekly"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first step in newly diagnosed hyperprolactinaemia is to confirm the elevation and exclude macroprolactin, which can cause falsely high readings. Starting treatment or imaging before confirmation is premature. Checking TSH/FT4 is important but usually done after confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f365609ca141",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with a known microprolactinoma has been well controlled on cabergoline 0.5 mg twice weekly for 18 months. She now wishes to conceive. Her prolactin is normal and tumour is not visible on MRI. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to fertility specialist",
+        "Check prolactin level",
+        "Continue cabergoline and advise to stop when pregnant",
+        "Switch to bromocriptine",
+        "Arrange MRI pituitary to re-evaluate"
+      ],
+      "answerIndex": 3,
+      "explanation": "For women with prolactinoma planning pregnancy, NICE recommends switching to bromocriptine because of more safety data in pregnancy. Continuing cabergoline is not recommended; stopping before pregnancy risks recurrence. Other actions are not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7fc030c52421",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with a known macroprolactinoma presents to the emergency department with sudden severe frontal headache, nausea, and blurred vision. On examination, he has a bitemporal hemianopia. His blood pressure is 90/60 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Measure prolactin",
+        "Administer intravenous hydrocortisone",
+        "Perform lumbar puncture",
+        "Start high-dose cabergoline",
+        "Arrange urgent MRI head"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pituitary apoplexy with visual loss and hypotension, immediate steroid replacement is critical to treat or prevent adrenal crisis. Urgent imaging is important but comes after initial resuscitation. Starting a dopamine agonist is not urgent; lumbar puncture is contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ad6c8d27d434",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with a macroprolactinoma on cabergoline reports a 3-day history of clear fluid leaking from his nose, especially when leaning forward. He has no fever or headache. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral antibiotics",
+        "Continue cabergoline",
+        "Arrange CT scan of sinuses",
+        "Increase cabergoline dose",
+        "Stop cabergoline"
+      ],
+      "answerIndex": 4,
+      "explanation": "CSF rhinorrhoea is a complication of dopamine agonist-induced tumour shrinkage. Immediate management is to stop the dopamine agonist to allow the fistula to heal. Continuing or increasing the drug worsens the leak. Antibiotics are not indicated without signs of meningitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7fcab87f18b",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with a microprolactinoma has been on cabergoline for 2 years. She is asymptomatic, prolactin is normal, and MRI shows no residual tumour. She asks if she can stop treatment. What is the most appropriate immediate next step?",
+      "options": [
+        "Stop cabergoline immediately",
+        "Measure serum prolactin",
+        "Refer for radiotherapy",
+        "Reduce cabergoline dose by half",
+        "Continue cabergoline at same dose"
+      ],
+      "answerIndex": 1,
+      "explanation": "Before withdrawing dopamine agonist in a patient thought to be in remission, a current prolactin level should be measured to confirm it remains normal. Stopping without confirmation risks recurrence; dose reduction is unnecessary if remission is certain; continued treatment is excessive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6b799901beaa",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with amenorrhoea for 6 months and galactorrhoea. She has no other symptoms. On examination, which single finding would warrant urgent pituitary imaging?",
+      "options": [
+        "Facial hirsutism",
+        "Bilateral papilloedema",
+        "Bitemporal hemianopia",
+        "Generalised hyperreflexia",
+        "Acanthosis nigricans"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bitemporal hemianopia indicates chiasmal compression by a pituitary lesion, requiring urgent MRI to exclude a macroadenoma. Other options are not specific to pituitary pathology or do not indicate same-level urgency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "478736f1af57",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with a known microprolactinoma on cabergoline presents to the emergency department with sudden severe headache, nausea, vomiting, and left eye ptosis. What is the most likely diagnosis?",
+      "options": [
+        "Cavernous sinus thrombosis",
+        "Migraine with aura",
+        "Subarachnoid haemorrhage",
+        "Pituitary apoplexy",
+        "Carotid artery dissection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sudden severe headache with oculomotor palsy (ptosis) in a patient with a pituitary adenoma is classic for pituitary apoplexy, a medical emergency. Subarachnoid haemorrhage is possible but less likely given the known tumour.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b85ea50fb70",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) with a known prolactinoma is being managed conservatively. Which symptom would warrant urgent neuroimaging?",
+      "options": [
+        "Bilateral leg swelling",
+        "New onset severe headache with visual blurring",
+        "Palpitations",
+        "Persistent morning sickness",
+        "Lower back pain"
+      ],
+      "answerIndex": 1,
+      "explanation": "During pregnancy, prolactinomas can enlarge, causing chiasmal compression or apoplexy. Severe headache with visual changes is a red flag for tumour enlargement, requiring urgent MRI to prevent permanent visual loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4c0dde46357",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 42-year-old man with a macroprolactinoma (prolactin 10,000 mU/L) awaiting transsphenoidal surgery develops sudden confusion, hypotension (80/50 mmHg), and fever. What complication should be suspected?",
+      "options": [
+        "Pituitary apoplexy with adrenal crisis",
+        "Diabetic ketoacidosis",
+        "Bacterial meningitis",
+        "Pulmonary embolism",
+        "Septic shock due to urinary tract infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with a large pituitary tumour, sudden deterioration with hypotension and confusion suggests apoplexy causing acute ACTH deficiency (adrenal crisis). Immediate glucocorticoid replacement is life-saving.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c387649b2507",
+      "topic": "Prolactinoma",
+      "slug": "prolactinoma",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with a macroprolactinoma on high-dose cabergoline (2 mg twice weekly) for 2 years presents with exertional dyspnoea and a new systolic murmur. What complication must be considered?",
+      "options": [
+        "Heart failure due to ischaemic heart disease",
+        "Infective endocarditis",
+        "Cabergoline-induced valvular heart disease",
+        "Pulmonary hypertension",
+        "Severe anaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-dose cabergoline therapy is associated with fibrotic valvular changes, particularly when cumulative doses exceed 2 mg/day. This patient's symptoms and new murmur warrant echocardiography to exclude valvulopathy.",
+      "difficulty": "hard"
+    }
+  ]
+}

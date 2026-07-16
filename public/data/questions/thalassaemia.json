@@ -1,0 +1,513 @@
+{
+  "topic": "Thalassaemia",
+  "slug": "thalassaemia",
+  "system": "Haematology",
+  "subSystem": "Haemoglobinopathy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:54Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "43d29ea665f4",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman of South Asian origin presents with fatigue and pallor. She has no significant medical history. Blood tests show: Hb 95 g/L, MCV 72 fL, MCH 23 pg, ferritin 45 ng/mL, and a raised HbA2 on HPLC (4.5%). What is the single most likely diagnosis?",
+      "options": [
+        "Sickle cell trait",
+        "Beta thalassaemia trait",
+        "Iron deficiency anaemia",
+        "Alpha thalassaemia trait",
+        "Anaemia of chronic disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Raised HbA2 (4.5%) is diagnostic of beta thalassaemia trait. Iron deficiency lowers HbA2, making it the key discriminator from iron deficiency anaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8bbe3db513b8",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man of African Caribbean origin is noted to have a low MCV (72 fL) on a routine blood test. He is asymptomatic. Hb electrophoresis shows normal HbA2 (2.8%) and no HbH. What is the single most likely diagnosis?",
+      "options": [
+        "Beta thalassaemia trait",
+        "Sickle cell trait",
+        "Alpha thalassaemia trait (silent carrier or alpha+ trait)",
+        "Iron deficiency anaemia",
+        "HbC trait"
+      ],
+      "answerIndex": 2,
+      "explanation": "Normal HbA2 and low MCV in an asymptomatic individual of African ancestry is most consistent with alpha thalassaemia trait. Beta thalassaemia trait would show raised HbA2. Iron deficiency would typically have low ferritin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4e122e6a6d3",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman of Mediterranean origin presents with fatigue, jaundice, and splenomegaly. Hb 70 g/L, MCV 68 fL, blood film shows target cells and basophilic stippling. Hb electrophoresis: HbF 70%, HbA2 3%, HbA 27%. What is the single most likely diagnosis?",
+      "options": [
+        "HbH disease",
+        "Hereditary spherocytosis",
+        "Sickle cell disease (HbSS)",
+        "Beta thalassaemia intermedia",
+        "Beta thalassaemia major"
+      ],
+      "answerIndex": 4,
+      "explanation": "Very high HbF (70%) and low HbA is typical of beta thalassaemia major, which presents in early childhood with severe anaemia and splenomegaly. Beta thalassaemia intermedia would have milder anaemia and later presentation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "22f6b0eb74a6",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old man with known beta thalassaemia intermedia presents with acute-onset severe back pain, dark urine, and a Hb of 60 g/L (drop from 90 g/L). He is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Acute haemolytic crisis due to iron overload",
+        "Acute haemolytic crisis due to folic acid deficiency",
+        "Acute haemolytic crisis due to parvovirus B19",
+        "Acute haemolytic crisis due to hypersplenism",
+        "Acute haemolytic crisis due to aplastic crisis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Parvovirus B19 causes aplastic crisis in thalassaemia by infecting erythroid precursors, leading to a sudden drop in Hb and reticulocytopenia. Back pain and dark urine suggest haemolysis but the acute drop is typical of aplastic crisis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec87e92a4923",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man of South Asian origin is investigated for anaemia. He has mild fatigue. Hb 102 g/L, MCV 70 fL, MCH 24 pg, ferritin 200 ng/mL. Peripheral blood shows occasional HbH inclusions on brilliant cresyl blue stain. What is the single most likely diagnosis?",
+      "options": [
+        "Myelodysplastic syndrome with 5q-",
+        "Alpha thalassaemia trait (two-gene deletion)",
+        "Congenital sideroblastic anaemia",
+        "Haemoglobin H disease",
+        "Beta thalassaemia trait"
+      ],
+      "answerIndex": 3,
+      "explanation": "HbH inclusions on brilliant cresyl blue stain are pathognomonic for HbH disease (alpha thalassaemia due to three-gene deletion), which presents with mild to moderate anaemia and low MCV. Beta thalassaemia trait would have raised HbA2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4e3fa4b7bef",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 2-year-old child of Mediterranean ancestry presents with pallor. FBC shows Hb 7.0 g/dL, MCV 65 fL, MCH 22 pg. Ferritin is normal. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Bone marrow aspirate",
+        "Genetic testing for beta-globin mutations",
+        "Serum iron and total iron-binding capacity",
+        "Blood film",
+        "Hb electrophoresis with HbA2 and HbF quantification"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hb electrophoresis is the definitive test to differentiate beta-thalassaemia trait (elevated HbA2) from beta-thalassaemia major (low HbA, high HbF) and to rule out other haemoglobinopathies. Ferritin is already normal, so iron deficiency is unlikely; bone marrow and genetic testing are not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "defd8b44105b",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with known beta-thalassaemia intermedia (never transfused) has a stable Hb of 9.5 g/dL. He is otherwise well. Which investigation is most appropriate to assess for a common complication of his condition?",
+      "options": [
+        "Transferrin saturation",
+        "Liver biopsy",
+        "MRI T2* of liver and heart",
+        "Serum ferritin",
+        "Cardiac echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "Patients with thalassaemia intermedia develop iron overload due to increased gastrointestinal absorption even without transfusions. MRI T2* (FerriScan) is the gold standard for non-invasive assessment of hepatic and cardiac iron. Serum ferritin can be falsely elevated and does not correlate well with cardiac iron.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70d5322907d7",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 6-year-old child with known beta-thalassaemia major presents with acute pallor, fever, and a rapidly enlarging spleen. Hb is 4.0 g/dL, reticulocyte count is 0.1% (very low). Which investigation is most likely to confirm the underlying cause?",
+      "options": [
+        "Parvovirus B19 PCR",
+        "Hb electrophoresis",
+        "Direct Coombs test",
+        "Bone marrow aspirate",
+        "Blood film"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of acute anaemia with reticulocytopenia in a patient with chronic haemolytic anaemia is classic for aplastic crisis, most commonly caused by parvovirus B19. PCR is the most sensitive and specific test for active infection. Direct Coombs test is for autoimmune haemolysis; blood film may show no specific features; Hb electrophoresis is not helpful in an acute crisis; bone marrow is invasive and PCR is faster.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28b97ddb772d",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman with thalassaemia major on regular transfusions has a serum ferritin of 3000 ng/mL. She is asymptomatic. Which investigation is most important to determine her risk of cardiac complications?",
+      "options": [
+        "Echocardiogram",
+        "24-hour Holter monitor",
+        "Electrocardiogram",
+        "Repeat serum ferritin",
+        "Cardiac MRI T2*"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cardiac T2* MRI directly measures myocardial iron content and is the best predictor of arrhythmias and heart failure. A T2* <20 ms indicates high risk. Serum ferritin correlates poorly with cardiac iron. ECG, echo, and Holter may detect late changes but are not early sensitive measures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "944b8783c5c8",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman of Southeast Asian origin is found to have microcytic anaemia (Hb 11.0 g/dL, MCV 70 fL, MCH 24 pg). Iron studies are normal. Hb electrophoresis shows HbA2 2.5% (normal) and HbF <1%. Which investigation would confirm the diagnosis?",
+      "options": [
+        "Serum ferritin",
+        "Bone marrow aspirate with Perl's stain",
+        "HbH inclusion test",
+        "Repeat Hb electrophoresis with HbA1c",
+        "Genetic testing for alpha-globin deletions"
+      ],
+      "answerIndex": 4,
+      "explanation": "Normal HbA2 and HbF effectively rule out beta-thalassaemia trait. In a Southeast Asian patient with microcytic anaemia and normal iron studies, alpha-thalassaemia trait (two deletions) is most likely. Standard electrophoresis is normal in alpha-thalassaemia trait; genetic testing (PCR for deletions) is definitive. HbH inclusions are not typically seen in trait (only in HbH disease).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8e414babb5ff",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 2-year-old child presents with pallor and fatigue. Hb 6.0 g/dL, MCV 60 fL, HbF elevated. Diagnosed with β-thalassaemia major. What is the most appropriate first-line treatment?",
+      "options": [
+        "Iron chelation with deferasirox",
+        "Folic acid supplementation",
+        "Regular red blood cell transfusions",
+        "Hydroxycarbamide",
+        "Bone marrow transplant"
+      ],
+      "answerIndex": 2,
+      "explanation": "Regular transfusions are first-line to maintain Hb >9 g/dL and suppress ineffective erythropoiesis. BMT is curative but reserved for later due to risks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "817282821bdb",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with β-thalassaemia intermedia has a stable Hb of 8.0 g/dL but develops fatigue and worsening splenomegaly. She has received only occasional transfusions. Which drug is most likely to reduce her transfusion requirement?",
+      "options": [
+        "Hydroxycarbamide",
+        "Folic acid",
+        "Deferiprone",
+        "Prednisolone",
+        "Epoetin alfa"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hydroxycarbamide increases HbF and reduces transfusion needs in intermedia. Folic acid is supportive but insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9cc5daf6deb",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 10-year-old with β-thalassaemia major on regular transfusions has ferritin 1600 ng/mL. Which iron chelator is recommended as first-line by NICE?",
+      "options": [
+        "Deferasirox oral",
+        "Combination deferiprone + deferoxamine",
+        "Deferoxamine subcutaneous",
+        "Phlebotomy",
+        "Deferiprone oral"
+      ],
+      "answerIndex": 0,
+      "explanation": "Deferasirox (oral) is first-line for iron overload in thalassaemia due to convenience and adherence. Deferoxamine is an alternative.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc2817ae5c06",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with β-thalassaemia intermedia is planning pregnancy. She currently takes hydroxycarbamide to reduce transfusion frequency. Which drug must be stopped as it is contraindicated in pregnancy?",
+      "options": [
+        "Warfarin",
+        "Hydroxycarbamide",
+        "Deferasirox",
+        "Folic acid",
+        "Propranolol"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hydroxycarbamide is teratogenic and must be discontinued before conception. Deferasirox is also contraindicated, but hydroxycarbamide is the one she is taking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "02c5933791bf",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old man with β-thalassaemia major undergoes splenectomy due to hypersplenism. What is the most important lifelong prophylactic therapy?",
+      "options": [
+        "Hydroxycarbamide",
+        "Annual influenza vaccine",
+        "Prophylactic blood transfusions",
+        "Folic acid",
+        "Daily penicillin V"
+      ],
+      "answerIndex": 4,
+      "explanation": "Post-splenectomy, patients require lifelong penicillin prophylaxis to prevent overwhelming infection. Vaccinations are also given but the question asks for drug therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "be917d9ad479",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 2-year-old boy of South Asian origin presents to the ED with pallor, irritability, and poor feeding. Examination reveals tachycardia (HR 140/min) and a palpable spleen 4 cm below the costal margin. Blood results: Hb 62 g/L, MCV 64 fL, MCH 20 pg. What is the most appropriate immediate management?",
+      "options": [
+        "Start oral folic acid",
+        "Start iron chelation therapy",
+        "Perform haemoglobin electrophoresis",
+        "Commence packed red cell transfusion",
+        "Refer to paediatric haematology"
+      ],
+      "answerIndex": 3,
+      "explanation": "The child presents with severe anaemia and signs of haemodynamic compromise (tachycardia). Immediate transfusion is indicated to stabilise him. While referral and investigations are important, the first priority is correction of life-threatening anaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4b99ed8eb70b",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with known beta thalassaemia intermedia (baseline Hb 92 g/L) presents with increasing fatigue and bilateral leg ulcers. She has never required transfusion. Current medications: none. What is the most appropriate next step?",
+      "options": [
+        "Refer for splenectomy",
+        "Start folic acid 5 mg once daily",
+        "Start oral iron chelation",
+        "Start regular packed red cell transfusions",
+        "Start hydroxycarbamide"
+      ],
+      "answerIndex": 1,
+      "explanation": "Folic acid supplementation is standard for all patients with thalassaemia due to increased red cell turnover and folate deficiency risk. Leg ulcers and fatigue may improve with folate. Hydroxycarbamide is not first-line, and transfusions/chelation are reserved for more severe disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ce13bc11d5a7",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with beta thalassaemia major on regular transfusions and subcutaneous desferrioxamine presents with acute onset severe back pain, dark urine, and fever (39°C). On examination: BP 89/56 mmHg, HR 115/min, capillary refill 4 seconds. What is the most appropriate immediate action?",
+      "options": [
+        "Start intravenous broad-spectrum antibiotics",
+        "Start intravenous fluid resuscitation",
+        "Order urgent blood cultures and start antibiotics",
+        "Give oral paracetamol for pain",
+        "Administer intravenous desferrioxamine"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient is in septic shock (hypotension, tachycardia, fever). Immediate fluid resuscitation is the priority per UK sepsis guidelines. Desferrioxamine use is associated with Yersinia infection, but starting antibiotics, while crucial, should follow initial haemodynamic stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5c3c4c5627a5",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman with beta thalassaemia major on regular transfusions and oral deferasirox presents with progressive dyspnoea on exertion, palpitations, and bilateral ankle oedema. ECG shows low-voltage QRS and T-wave inversion. What is the most appropriate next step?",
+      "options": [
+        "Start intravenous diuretic therapy",
+        "Arrange urgent echocardiogram",
+        "Refer for cardiac MRI T2*",
+        "Start an ACE inhibitor",
+        "Increase the dose of deferasirox"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presentation suggests iron overload cardiomyopathy. An urgent echocardiogram is the first-line investigation to assess left ventricular function. While cardiac MRI T2* is the gold standard for iron quantification, echocardiography is more immediately accessible to assess for heart failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce8ab13f49f1",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 16-year-old girl with beta thalassaemia major on regular transfusions and oral deferasirox has serum ferritin levels between 1500–1800 µg/L over the past 6 months. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Start folic acid supplementation",
+        "Check transferrin saturation and C-reactive protein",
+        "Switch to subcutaneous desferrioxamine",
+        "Refer for MRI T2* of liver and heart",
+        "Increase deferasirox dose by 50%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ferritin can be falsely elevated due to inflammation. MRI T2* provides accurate assessment of cardiac and hepatic iron loading and is recommended by NICE before adjusting chelation therapy. Transferrin saturation is less specific, and changing therapy without tissue iron assessment is premature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "27ba7da55c24",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 2-year-old child presents with pallor, failure to thrive, and a protuberant abdomen. Blood film shows nucleated red blood cells, target cells, and marked anisopoikilocytosis. Which laboratory result indicates the need for immediate red cell transfusion?",
+      "options": [
+        "Mean corpuscular volume 62 fL",
+        "Serum ferritin 1500 μg/L",
+        "Haemoglobin 95 g/L",
+        "Reticulocyte count 1.0%",
+        "Haemoglobin 68 g/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "In newly diagnosed beta-thalassaemia major, a haemoglobin level <70 g/L with symptoms (pallor, failure to thrive) mandates transfusion. The correct answer is the haemoglobin of 68 g/L, which is below the threshold. A reticulocytopenia of 1.0% suggests marrow suppression (e.g., aplastic crisis) but is not alone an indication for transfusion; the low Hb is more directly critical. Ferritin is not relevant at diagnosis, and low MCV confirms thalassaemia but does not prompt emergency transfusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "30b6e52f74d7",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known thalassaemia intermedia (Hb 90 g/L, no blood transfusions) attends routine clinic. He feels well but has mild shortness of breath on exertion. Which finding on echocardiography should raise suspicion of pulmonary hypertension?",
+      "options": [
+        "Mitral valve thickening",
+        "Pericardial effusion <5 mm",
+        "Left ventricular ejection fraction 55%",
+        "Tricuspid regurgitant jet velocity 3.6 m/s",
+        "Left atrial diameter 3.8 cm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pulmonary hypertension is a common complication in thalassaemia intermedia due to chronic haemolysis and iron overload. A tricuspid regurgitant jet velocity >3.4 m/s on echocardiography is the key screening tool for pulmonary hypertension and warrants further investigation. Left ventricular ejection fraction is normal in early disease and does not suggest pulmonary hypertension. Pericardial effusion is not a typical feature. The other options are non-specific or unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b20815743cab",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 9-year-old girl with transfusion-dependent beta-thalassaemia major (splenectomized) presents with a 2-day history of fever, pallor, and lethargy. On examination she is tachycardic and has a palpable liver. Full blood count reveals Hb 58 g/L (previously stable at 90), WBC 4.2, platelets 200. Which laboratory finding most strongly suggests an aplastic crisis?",
+      "options": [
+        "Platelet count 200 × 10^9/L",
+        "Lactate dehydrogenase 800 U/L",
+        "Haemoglobin drop of 32 g/L",
+        "White cell count 4.2 × 10^9/L",
+        "Reticulocyte count 0.2%"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a child with thalassaemia major presenting with acute anaemia and fever, an aplastic crisis (most commonly caused by Parvovirus B19) is characterised by a profound reticulocytopenia (<1%), as the virus infects erythroid progenitor cells. While the haemoglobin drop is dramatic, the reticulocyte count is the specific discriminator that indicates marrow suppression rather than haemolysis (which would raise LDH). The other indices are not diagnostic of aplastic crisis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "991cd35baa93",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman with transfusion-dependent beta-thalassaemia major on regular chelation (desferrioxamine) presents with palpitations and mild exertional dyspnoea. Which single investigation result most warrants urgent intensification of chelation therapy?",
+      "options": [
+        "Left ventricular ejection fraction 50%",
+        "Electrocardiogram showing sinus tachycardia",
+        "Cardiac T2* MRI value of 14 ms",
+        "Liver T2* MRI value of 8 ms",
+        "Serum ferritin 1800 μg/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cardiac iron overload is a life-threatening complication. A cardiac T2* MRI value <20 ms indicates significant myocardial iron deposition; <10 ms is severe and carries high risk of heart failure. A value of 14 ms marks moderate overload and requires immediate chelation intensification to prevent arrhythmia or failure. Serum ferritin >1000 μg/L is a trigger to start chelation but is not as specific for cardiac risk as cardiac T2*. Liver T2* <10 ms indicates hepatic iron, not cardiac. LVEF may be normal early in iron toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9a22a584c9f",
+      "topic": "Thalassaemia",
+      "slug": "thalassaemia",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with thalassaemia intermedia (managed with occasional transfusions) attends the emergency department with a 2-week history of progressive lower limb weakness and low back pain. On examination, there is mild leg weakness and a sensory level at T10. Which single finding is the strongest indicator of spinal cord compression due to extramedullary haematopoiesis?",
+      "options": [
+        "Lactate dehydrogenase 600 U/L",
+        "Palpable splenomegaly 6 cm below costal margin",
+        "Hb 82 g/L (unchanged from baseline)",
+        "Serum ferritin 800 μg/L",
+        "Sensory level at T10 on examination"
+      ],
+      "answerIndex": 4,
+      "explanation": "Extramedullary haematopoiesis in thalassaemia can cause a paraspinal mass, compressing the spinal cord. A well-defined sensory level (e.g., at T10) is a classic neurological sign of cord compression and mandates urgent MRI. The other findings are common in thalassaemia intermedia (anaemia, splenomegaly, raised LDH, mild iron overload) but do not specifically suggest cord compression. The sensory level is the critical red flag for this life-threatening complication.",
+      "difficulty": "hard"
+    }
+  ]
+}

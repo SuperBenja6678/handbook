@@ -1,0 +1,493 @@
+{
+  "topic": "Panic Disorder",
+  "slug": "panic-disorder",
+  "system": "Psychiatry",
+  "subSystem": "Anxiety",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:37:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "e15201f48e46",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents to her GP with a 3-month history of recurrent, unexpected episodes of intense fear, palpitations, chest tightness, and a sense of impending doom. She has no medical history and notes no specific triggers. Physical examination and routine blood tests (including thyroid function) are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Generalised anxiety disorder",
+        "Hyperthyroidism",
+        "Paroxysmal supraventricular tachycardia",
+        "Panic disorder",
+        "Phaeochromocytoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "The key feature is recurrent, unexpected panic attacks without an organic cause. In panic disorder, attacks come 'out of the blue', whereas GAD involves chronic worry, not discrete episodes. Hyperthyroidism and phaeochromocytoma would cause persistent symptoms or lab abnormalities, and SVT would be confirmed by ECG during episodes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "852a4bd76c29",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man reports daily episodes of palpitations, sweating, and trembling lasting 10–15 minutes, sometimes triggered by crowded places but often unpredictable. He has noticed he avoids buses and lifts but still goes to work. He denies persistent worry. What is the single most likely diagnosis?",
+      "options": [
+        "Panic disorder",
+        "Generalised anxiety disorder",
+        "Agoraphobia without history of panic disorder",
+        "Specific phobia (claustrophobia)",
+        "Social anxiety disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of unpredictable attacks and avoidance of situations where escape may be difficult indicates panic disorder with agoraphobia. Agoraphobia without panic disorder would involve fear only of situations without prior panic. Social anxiety focuses on scrutiny, specific phobia on a single object, and GAD is not episodic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c37f5056097",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents to the emergency department with acute chest pain, palpitations, hyperventilation, and fear of dying. He has had similar episodes four times in the past year. ECG shows sinus tachycardia, troponin is normal, and chest X-ray is clear. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperventilation syndrome",
+        "Panic disorder",
+        "Acute coronary syndrome",
+        "Acute aortic dissection",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recurrent episodes with typical panic symptoms, normal cardiac work-up, and hyperventilation suggest panic disorder. The fear of dying and hyperventilation often accompany panic. ACS and PE would show ECG or biomarker changes; aortic dissection is rare and presents with severe tearing pain. Hyperventilation syndrome is not a discrete diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d665e2121d5",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with known panic disorder for 5 years now reports that she is unable to leave her house alone, avoids shopping and public transport, and has panic attacks when she attempts to. She does not fear specific objects or social situations. What is the single most likely diagnosis?",
+      "options": [
+        "Social anxiety disorder",
+        "Agoraphobia with panic disorder",
+        "Agoraphobia without history of panic disorder",
+        "Obsessive-compulsive disorder",
+        "Panic disorder with agoraphobia"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has pre-existing panic disorder and now avoids situations where escape may be difficult, consistent with agoraphobia complicating panic disorder. Agoraphobia without panic disorder would not have preceding panic attacks. Social anxiety is about fear of negative evaluation, not escape. OCD would involve obsessions and compulsions. Note 'panic disorder with agoraphobia' is the correct DSM-5 term.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7c5cb47343e7",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with hypertension and type 2 diabetes presents with episodes of sudden fear, sweating, palpitations, and dizziness lasting 15–20 minutes. He often feels faint but never loses consciousness. There is no relationship to postural change. ECG, 24-hour tape, and echocardiogram are normal. Mini-Mental State Examination is 28/30. What is the single most likely diagnosis?",
+      "options": [
+        "Recurrent vasovagal syncope",
+        "Panic disorder",
+        "Generalised anxiety disorder",
+        "Orthostatic hypotension",
+        "Anxiety disorder due to another medical condition (e.g., hypoglycaemia)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Panic disorder can present in older adults with atypical features such as dizziness and faintness without the classic fear of dying. Normal cardiac and neurological work-up, no posture relation, and normal cognition make vasovagal, orthostatic hypotension, and medical causes less likely. GAD would be more persistent worry, not discrete episodes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f29082733dac",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old woman presents with a three-month history of sudden episodes of palpitations, chest tightness, sweating, and a feeling of impending doom. She now worries constantly about having another episode and avoids going to crowded places. Her ECG and routine blood tests are normal. Which single feature is most suggestive of a diagnosis of panic disorder?",
+      "options": [
+        "Recurrent unexpected panic attacks followed by at least one month of persistent worry about additional attacks",
+        "Presence of agoraphobia with avoidance of situations",
+        "Panic attacks occurring only in specific phobic situations",
+        "A history of trauma prior to the onset of attacks",
+        "Hyperventilation and paresthesias during attacks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Panic disorder is defined by recurrent unexpected panic attacks with at least one month of worry about recurrence or maladaptive behavioural change. Agoraphobia is a common comorbidity but not diagnostic on its own. Panic attacks in specific phobias are cued, not unexpected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00696d4acced",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with recurrent episodes of palpitations, tremor, heat intolerance, and anxiety. She has lost weight despite a good appetite. During an episode, her heart rate is 120 bpm and she is diaphoretic. ECG shows sinus tachycardia. What is the single most appropriate investigation to identify a potential organic cause?",
+      "options": [
+        "Echocardiogram",
+        "Serum cortisol and ACTH",
+        "24-hour Holter monitor",
+        "Urine metanephrines",
+        "Thyroid function tests"
+      ],
+      "answerIndex": 4,
+      "explanation": "Thyroid function tests should be performed to exclude hyperthyroidism, which can closely mimic panic disorder. The clinical picture (tremor, heat intolerance, weight loss) suggests thyrotoxicosis. Holter is normal, and pheochromocytoma (urine metanephrines) is rarer; cortisol is for Cushing's or adrenal insufficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6921d6ff4743",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "According to DSM-5 criteria, which of the following is the minimum duration of persistent worry about additional panic attacks or their consequences required to diagnose panic disorder?",
+      "options": [
+        "Three months",
+        "Six months",
+        "One week",
+        "One year",
+        "One month"
+      ],
+      "answerIndex": 4,
+      "explanation": "DSM-5 requires that following at least one unexpected panic attack, there is at least one month of persistent concern or maladaptive behaviour change. One month is the correct threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba432f6425bd",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with recurrent episodes of dizziness, palpitations, and a sense of unreality. He has no chest pain or breathlessness. He is worried he might have a stroke. His medical history includes well-controlled hypertension. ECG and basic blood tests are normal. What is the single most appropriate diagnostic tool to confirm panic disorder?",
+      "options": [
+        "24-hour ambulatory ECG monitoring",
+        "Serum B-type natriuretic peptide",
+        "Structured clinical interview for DSM-5 (SCID)",
+        "Carotid ultrasound",
+        "Coronary angiography"
+      ],
+      "answerIndex": 2,
+      "explanation": "The structured clinical interview for DSM-5 is the gold standard for diagnosing panic disorder. His symptoms are atypical for cardiac or cerebrovascular disease given normal ECG and lack of focal signs. In an elderly patient, panic disorder often presents with somatic symptoms; a psychiatric interview is key.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4aa37a4ed6f3",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman with a known diagnosis of panic disorder presents for follow-up. She continues to have weekly unexpected panic attacks. Recent blood tests show free T4 22 pmol/L (normal 9–19) and TSH 0.2 mU/L (normal 0.4–4.0). She is asymptomatic for hyperthyroidism. What is the most appropriate interpretation of these results?",
+      "options": [
+        "The TSH suppression is likely due to stress from panic attacks",
+        "Repeat thyroid function tests in 6 weeks to confirm",
+        "Panic disorder is not associated with thyroid function abnormalities",
+        "This confirms comorbid hyperthyroidism as a cause of her panic symptoms",
+        "Her panic disorder is being exacerbated by subclinical hyperthyroidism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of raised free T4 and suppressed TSH is diagnostic of overt hyperthyroidism, which can mimic or worsen panic disorder. It should be treated as a separate medical cause. Stress does not suppress TSH this significantly; thyroid dysfunction is a known organic differential for panic symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "73b831ccec2d",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with no medical history presents with recurrent unexpected panic attacks and anticipatory anxiety for 3 months. She asks specifically for medication. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Diazepam 5 mg daily",
+        "Sertraline 50 mg daily",
+        "Amitriptyline 25 mg daily",
+        "Venlafaxine 75 mg daily",
+        "Propranolol 40 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "First-line pharmacological treatment for panic disorder is an SSRI such as sertraline, due to efficacy and tolerability. Beta-blockers are not recommended, benzodiazepines are avoided due to dependence risk, TCAs have poorer side-effect profiles, and SNRIs are second-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0d1b56c098f4",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman at 12 weeks gestation presents with panic disorder. She is concerned about taking medication. What is the most appropriate first-line treatment?",
+      "options": [
+        "Venlafaxine 75 mg daily",
+        "Diazepam 5 mg daily",
+        "Cognitive behavioural therapy (CBT)",
+        "Propranolol 40 mg daily",
+        "Sertraline 50 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, NICE recommends CBT as first-line for panic disorder to avoid potential harm from medication. SSRIs are relatively safe but not preferred when the patient is concerned about medication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9f9db4dc393f",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "Which of the following drugs is contraindicated in the long-term management of panic disorder?",
+      "options": [
+        "Alprazolam",
+        "Venlafaxine",
+        "Sertraline",
+        "Propranolol",
+        "Imipramine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Benzodiazepines such as alprazolam are contraindicated for long-term management due to high risk of dependence and withdrawal. SSRIs, SNRIs, TCAs, and beta-blockers (though not effective for core symptoms) are not contraindicated per se.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "50d7d3b6af20",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man with panic disorder has been on sertraline 200 mg daily for 12 weeks with no improvement. He has declined psychological therapy. What is the most appropriate next pharmacological step?",
+      "options": [
+        "Switch to clomipramine",
+        "Add propranolol",
+        "Add diazepam",
+        "Increase sertraline dose",
+        "Switch to venlafaxine"
+      ],
+      "answerIndex": 4,
+      "explanation": "After failure of an adequate trial of an SSRI at maximum dose, the next pharmacological step is to switch to an alternative antidepressant such as venlafaxine (SNRI). Increasing dose is not possible, and benzodiazepines are not recommended.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f3d785f8b31a",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with panic disorder has been symptom-free on sertraline 100 mg daily for 6 months. What is the most appropriate management regarding the duration of her medication?",
+      "options": [
+        "Switch to CBT for maintenance",
+        "Taper sertraline over 1 week",
+        "Continue sertraline for a further 6 months (total 1 year)",
+        "Continue sertraline indefinitely",
+        "Stop sertraline now"
+      ],
+      "answerIndex": 2,
+      "explanation": "To prevent relapse, NICE recommends continuing an SSRI for at least 6 months after remission, typically for 6–12 months. Abrupt cessation or too short duration increases relapse risk. Tapering should be gradual, not over 1 week.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a43686a85b81",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman presents to the emergency department with palpitations, chest tightness, and a fear of dying. ECG and troponin are normal. She is now calm. What is the single most appropriate next step?",
+      "options": [
+        "Start sertraline 50mg daily",
+        "Reassure and refer to GP for possible CBT or SSRI",
+        "Arrange CT coronary angiogram",
+        "Start lorazepam 1mg sublingual",
+        "Refer to cardiology"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a first presentation of panic disorder with normal investigations, reassurance and referral to primary care for evidence-based treatment (CBT or SSRI) is appropriate. Starting medication or further cardiac investigations are premature at this point.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "902f7f457c97",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with recurrent panic attacks (twice weekly) for 6 months, no agoraphobia, sees his GP and wants treatment. What is the single most appropriate next step?",
+      "options": [
+        "Arrange 24-hour ECG",
+        "Refer for cognitive behavioural therapy (CBT)",
+        "Start clonazepam 0.5mg twice daily",
+        "Start propranolol 40mg twice daily",
+        "Start sertraline 50mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend CBT as first-line treatment for mild-to-moderate panic disorder. SSRIs are second-line or used if CBT is declined. Benzodiazepines are not recommended for routine use due to dependence risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d1d3cc46bbf",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman in the emergency department is having a severe panic attack with hyperventilation, chest tightness, and carpopedal spasm. Oxygen saturation is 98% on air, ECG normal. She is distressed and requests medication. What is the single most appropriate next step?",
+      "options": [
+        "Refer to crisis team",
+        "Administer lorazepam 1mg sublingual",
+        "Encourage rebreathing into a paper bag",
+        "Start sertraline 50mg orally",
+        "Give oxygen 15L/min via non-rebreathe mask"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute severe panic with hyperventilation and tetany symptoms, a short-acting benzodiazepine (e.g., lorazepam) provides rapid anxiolysis. Rebreathing is no longer recommended. Oxygen is not indicated. Starting an SSRI or crisis referral are not immediate actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c768d691475",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with known panic disorder is on sertraline 100mg daily for 3 months but still has breakthrough panic attacks once a week. He feels the medication is not working. What is the single most appropriate next step?",
+      "options": [
+        "Switch to citalopram 20mg daily",
+        "Refer for cognitive behavioural therapy (CBT)",
+        "Add propranolol 40mg twice daily",
+        "Refer to psychiatrist",
+        "Increase sertraline to 150mg daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "For inadequate response to an SSRI at a moderate dose, increasing the dose within the therapeutic range (up to 200mg for sertraline) is the next step. Adding CBT is also recommended but dose optimisation is a more immediate pharmacological step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc5f702608c9",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman presents to the emergency department with sudden-onset palpitations, a sense of impending doom, and shortness of breath. She has never had these symptoms before. Which single finding in the history should prompt immediate investigation for an alternative diagnosis?",
+      "options": [
+        "A history of asthma in childhood",
+        "She is a smoker of 5 cigarettes per day",
+        "The symptoms began while she was resting",
+        "She has recently started a new job",
+        "Chest pain that is worsened by deep inspiration"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pleuritic chest pain (worsened by inspiration) is atypical for panic disorder and raises suspicion for pulmonary embolism. The other options are more consistent with panic or are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "12754c865d78",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man with a two-year history of panic disorder, well-controlled on sertraline 100 mg daily, presents with a three-day history of recurrent episodes of intense fear. He reports that during these episodes he sees 'shapes and colours' that are not there. Which single feature suggests that these episodes are not typical panic attacks?",
+      "options": [
+        "He experiences palpitations during episodes",
+        "The episodes are triggered by crowded places",
+        "He has a family history of panic disorder",
+        "He has visual hallucinations during episodes",
+        "The episodes last less than 15 minutes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Visual hallucinations are not a feature of panic disorder and point to organic causes such as temporal lobe epilepsy or delirium. Other options are consistent with panic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4087860c295",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with hypertension and type 2 diabetes presents with a two-month history of episodes where he 'feels faint', becomes anxious, and notices his heart racing. He has no prior psychiatric history. Which single clinical feature is most suggestive of a non-psychiatric cause for his symptoms?",
+      "options": [
+        "His daily medications include a beta-blocker",
+        "He has a systolic murmur at the left sternal edge",
+        "Blood pressure is 155/85 mmHg on sitting",
+        "Episodes are triggered by standing up from a seated position",
+        "He reports occasional chest discomfort during episodes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Postural provocation strongly suggests orthostatic hypotension or postural tachycardia syndrome, common in elderly and diabetics. Panic is less likely in new-onset at this age.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4e3773e0fa0",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old man with panic disorder is brought to the emergency department by ambulance. He is acutely distressed, tachypnoeic, and has carpopedal spasm. Which single finding on assessment is most concerning and warrants immediate intervention?",
+      "options": [
+        "Prolonged QT interval on ECG",
+        "Oxygen saturation of 99% on room air",
+        "Serum potassium of 3.5 mmol/L",
+        "Respiratory rate of 28 breaths per minute",
+        "Capillary refill time of 2 seconds"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prolonged QT interval in the setting of hyperventilation-induced alkalosis indicates risk of torsades de pointes. The tetany already signals severe alkalosis; ECG is key to identify arrhythmia risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14c925088567",
+      "topic": "Panic Disorder",
+      "slug": "panic-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman on citalopram 40 mg daily for panic disorder presents with severe anxiety, feeling hot, and muscle twitching. Which single examination finding is most indicative of a life-threatening complication?",
+      "options": [
+        "Diaphoresis",
+        "Blood pressure 150/90 mmHg",
+        "Dilated pupils",
+        "Clonus and hyperreflexia",
+        "Heart rate of 110 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clonus and hyperreflexia are key neuromuscular features of serotonin syndrome, distinguishing it from a simple panic attack. Immediate intervention is required to prevent progression.",
+      "difficulty": "medium"
+    }
+  ]
+}

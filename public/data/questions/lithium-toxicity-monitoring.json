@@ -1,0 +1,513 @@
+{
+  "topic": "Lithium Toxicity & Monitoring",
+  "slug": "lithium-toxicity-monitoring",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:36:37Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0e2d70c2ce5a",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with bipolar disorder maintained on lithium 800 mg daily presents to her GP with a 2-day history of nausea, mild diarrhoea, and a fine tremor in her hands. She denies fever, headache, or changes in mood. Her lithium level is 1.2 mmol/L (therapeutic range 0.6–1.0 mmol/L). Thyroid function tests and renal function are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Benign essential tremor",
+        "Gastroenteritis",
+        "Bipolar relapse (mixed episode)",
+        "Lithium toxicity (mild)",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The lithium level is above the therapeutic range, and the symptoms (nausea, diarrhoea, tremor) are classic for mild lithium toxicity. Hypothyroidism is common in lithium users but would present with weight gain, cold intolerance, and fatigue, not acute tremor and nausea. Bipolar relapse would involve mood symptoms, not these isolated physical signs. Benign essential tremor is typically postural and bilateral but not associated with gastrointestinal symptoms. Gastroenteritis would present with more prominent vomiting and abdominal cramps, and tremor is not characteristic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7b8faad569f7",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man on lithium for 5 years is brought to the emergency department with confusion, slurred speech, and gait instability. He has a history of a recent chest infection. On examination, he is drowsy, ataxic, and has myoclonic jerks. His temperature is 37.8°C. Lithium level is 3.5 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Lithium toxicity (severe)",
+        "Cerebrovascular accident (stroke)",
+        "Serotonin syndrome",
+        "Bacterial meningitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The very high lithium level, together with typical neurological features (drowsiness, ataxia, dysarthria, myoclonus), points unequivocally to severe lithium toxicity. NMS usually presents with rigidity, fever, autonomic instability while on antipsychotics, not such a high lithium level. Serotonin syndrome involves hyperreflexia, clonus, and tremors, often with concomitant serotonergic drugs. Meningitis would have photophobia, neck stiffness, and positive Kernig's sign. Stroke would have focal neurological deficits, not symmetrical ataxia and myoclonus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c1a5488e8d3",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with bipolar disorder has been taking lithium for 10 years. She presents with a 3-month history of profound thirst and frequent urination, especially at night. She drinks 5–6 litres of water daily. Her lithium level is 0.8 mmol/L (therapeutic). Blood glucose is normal, and serum sodium is 147 mmol/L. Urine osmolality is 180 mOsm/kg after a water deprivation test. What is the single most likely diagnosis?",
+      "options": [
+        "Central diabetes insipidus",
+        "Diabetes mellitus",
+        "Hypercalcaemia",
+        "Primary polydipsia (psychogenic)",
+        "Lithium-induced nephrogenic diabetes insipidus"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of long-term lithium use, polyuria, polydipsia, normal glucose, high sodium, and low urine osmolality after water deprivation is classic for nephrogenic diabetes insipidus secondary to lithium. Primary polydipsia would show low serum sodium and high-normal urine osmolality after water deprivation. Diabetes mellitus is excluded by normal glucose. Central DI would have a response to desmopressin, which is not tested here, but lithium history makes nephrogenic more likely. Hypercalcaemia causes nephrogenic DI but is less common without other signs; lithium is the known culprit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dced9b76799a",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known bipolar disorder on lithium 600 mg twice daily presents to the emergency department with vomiting, lethargy, and confusion. Two weeks ago, he started ibuprofen for knee osteoarthritis. On examination, he is drowsy but rousable. Pulse 85 bpm, BP 110/70 mmHg. His lithium level is 2.1 mmol/L. Creatinine is 120 μmol/L (baseline 80 μmol/L). What is the single most likely diagnosis?",
+      "options": [
+        "Acute kidney injury due to NSAID use",
+        "Lithium toxicity due to intentional overdose",
+        "Bipolar depression relapse",
+        "Lithium toxicity due to NSAID interaction",
+        "Gastroenteritis with dehydration"
+      ],
+      "answerIndex": 3,
+      "explanation": "The temporal relationship with starting an NSAID (ibuprofen) which reduces renal lithium excretion, leading to elevated lithium level and clinical toxicity, is the key clue. AKI from NSAID alone would not cause such a high lithium level. Bipolar relapse would involve mood symptoms, not confusion and vomiting. Gastroenteritis is possible but does not explain the elevated lithium level. There is no history of overdose; the toxicity is iatrogenic from the interaction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3dc8ffd086ed",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with bipolar disorder is on lithium 400 mg daily. She has chronic kidney disease stage 3 (eGFR 35 mL/min/1.73m²). She presents with a 2-day history of worsening confusion, unsteady gait, and a fall at home. Her daughter says she has been eating and drinking poorly recently. Lithium level is 1.5 mmol/L. Confusion screen: sodium 132 mmol/L, creatinine 150 μmol/L (baseline 110 μmol/L). What is the single most likely diagnosis?",
+      "options": [
+        "Lithium toxicity in the setting of renal impairment and dehydration",
+        "Hyponatraemia due to syndrome of inappropriate antidiuretic hormone (SIADH)",
+        "Dementia with acute confusion",
+        "Urinary tract infection leading to delirium",
+        "Lithium toxicity due to accidental overdose"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has reduced renal function and poor oral intake (dehydration), which impair lithium excretion leading to toxicity. The lithium level is above therapeutic range, and symptoms are those of neurotoxicity. A UTI is possible but would not directly elevate lithium or cause ataxia. Hyponatraemia is mild and more likely secondary to polydipsia or SIADH, but lithium toxicity itself can cause SIADH; however, the high lithium level is the primary cause. Dementia does not explain acute confusion and gait change with elevated lithium. There is no history of overdose, and the dose is low; toxicity is due to impaired clearance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "500ac1d61faf",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with bipolar disorder on lithium therapy presents with nausea, fine tremor, and blurred vision. Her last lithium level was 4 weeks ago. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "ECG",
+        "Serum lithium level (trough)",
+        "CT head",
+        "Urea and electrolytes",
+        "Thyroid function tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "The symptoms are classic for lithium toxicity. A serum lithium trough level is the definitive test to confirm toxicity. ECG may be needed later if severe, but lithium level is the first-line diagnostic test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40797b8627e5",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man on long-term lithium for bipolar disorder complains of mild thirst, polyuria, and slight tremor. He is clinically stable. Which investigation is most appropriate to assess for lithium toxicity?",
+      "options": [
+        "Serum lithium peak level",
+        "24-hour urine lithium excretion",
+        "Serum lithium trough level",
+        "Serum creatinine",
+        "Red blood cell lithium concentration"
+      ],
+      "answerIndex": 2,
+      "explanation": "In chronic therapy, a trough lithium level (just before next dose) is the standard to assess steady-state concentration and toxicity risk. Peak levels are not used. RBC lithium is research-only; 24-hour urine is not for toxicity diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d675d561df1f",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman is brought to the emergency department with a generalized seizure and confusion. She has a history of bipolar disorder and recently started lithium again. Initial serum lithium is 4.2 mmol/L. What is the best next investigation after the lithium level?",
+      "options": [
+        "Lumbar puncture",
+        "CT head",
+        "Blood glucose",
+        "ECG",
+        "Serum calcium"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe lithium toxicity can cause life-threatening ECG changes (e.g., QT prolongation, T wave inversion, sinus node dysfunction). An ECG is mandatory to assess cardiac toxicity, even though neurological features dominate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "377fe0f50c6f",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man on lithium for 10 years complains of polyuria and polydipsia. Serum sodium is 148 mmol/L, and urine dipstick is negative. Which investigation would differentiate nephrogenic diabetes insipidus from other causes of hypernatraemia?",
+      "options": [
+        "24-hour urine volume",
+        "Urine osmolality after water deprivation",
+        "Serum lithium level",
+        "Urine sodium",
+        "Serum osmolality"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lithium-induced nephrogenic DI is diagnosed by low urine osmolality despite water deprivation (or desmopressin challenge). Serum osmolality and sodium are elevated but non-specific. Urine sodium is for renal salt wasting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "949f63a8e08a",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 34-year-old pregnant woman (28 weeks gestation) with bipolar disorder is stable on lithium. To monitor for toxicity during pregnancy, which investigation is most appropriate?",
+      "options": [
+        "Random serum lithium level",
+        "ECG",
+        "Serum lithium trough level",
+        "Thyroid function tests",
+        "Serum creatinine"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends monitoring trough lithium levels every 4 weeks in pregnancy due to altered pharmacokinetics. A trough level (pre-dose) gives the most reliable measure of steady-state concentration to avoid toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "587fc55688ae",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 58-year-old man on long-term lithium for bipolar disorder presents to the emergency department with a one-day history of confusion, vomiting, and coarse tremor. He is agitated and has had two generalised tonic-clonic seizures. Serum lithium level is 3.2 mmol/L (therapeutic range 0.4–1.0), creatinine 150 μmol/L (baseline 80). What is the most appropriate first-line treatment?",
+      "options": [
+        "Whole bowel irrigation",
+        "Sodium bicarbonate infusion",
+        "Activated charcoal",
+        "Intravenous 0.9% sodium chloride",
+        "Haemodialysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe lithium toxicity (level >2.5 mmol/L with seizures/coma) requires haemodialysis to rapidly remove lithium. Activated charcoal is ineffective as lithium is not adsorbed. Whole bowel irrigation is reserved for sustained-release ingestions but is not first-line in established severe toxicity. IV fluids and bicarbonate do not enhance lithium elimination sufficiently in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "845cdd2078a3",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman on lithium for bipolar disorder presents with mild tremor, nausea, and lethargy. She is alert and vital signs are stable. Serum lithium level is 2.0 mmol/L, creatinine 85 μmol/L. What is the most appropriate management?",
+      "options": [
+        "Start sodium bicarbonate infusion",
+        "Commence haemodialysis",
+        "Perform whole bowel irrigation",
+        "Give oral activated charcoal",
+        "Stop lithium and start intravenous 0.9% sodium chloride"
+      ],
+      "answerIndex": 4,
+      "explanation": "Mild-to-moderate chronic toxicity (level 2.0–2.5 mmol/L without severe features) is managed by stopping lithium and providing IV fluids to correct dehydration and enhance renal excretion. Haemodialysis is reserved for severe or refractory cases. Activated charcoal does not bind lithium, and bicarbonate is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8d09143ba87e",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 52-year-old man with bipolar disorder on lithium for 5 years reports polyuria (4 L/day) and polydipsia. Serum lithium level is 0.8 mmol/L (therapeutic). Urine osmolarity is 150 mOsm/kg after water deprivation. What is the most appropriate first-line pharmacological treatment for this complication?",
+      "options": [
+        "Thiazide diuretic",
+        "Fluid restriction",
+        "Stop lithium",
+        "Amiloride",
+        "Desmopressin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lithium-induced nephrogenic diabetes insipidus responds to amiloride, which blocks lithium entry into collecting duct cells. Desmopressin is ineffective in nephrogenic DI. Thiazides can be used but are second-line due to electrolyte risks. Stopping lithium may not be necessary if bipolar is stable, and fluid restriction is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb4f7dc460b2",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman on lithium for bipolar disorder presents with nausea, vomiting, and tremor. She has been taking ibuprofen for headaches. Lithium level is 1.9 mmol/L, creatinine 110 μmol/L (baseline 75). What is the most appropriate management?",
+      "options": [
+        "Stop lithium only and prescribe oral fluids",
+        "Give activated charcoal",
+        "Commence haemodialysis",
+        "Switch ibuprofen to paracetamol and continue lithium",
+        "Stop lithium and ibuprofen, and start intravenous 0.9% sodium chloride"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lithium toxicity precipitated by NSAIDs (which reduce renal lithium clearance) requires stopping both the causative drug and lithium, plus IV fluids to correct dehydration and enhance elimination. Haemodialysis is not indicated at this level without severe features. Activated charcoal is ineffective. Continuing lithium is unsafe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cbae357c44eb",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old man on long-term lithium for bipolar disorder is reviewed in clinic. He is asymptomatic. Routine serum lithium level is 1.2 mmol/L (therapeutic range 0.4–1.0), creatinine 90 μmol/L. What is the most appropriate management?",
+      "options": [
+        "Commence haemodialysis",
+        "Add sodium polystyrene sulfonate",
+        "Stop lithium immediately",
+        "Start intravenous 0.9% sodium chloride",
+        "Reduce lithium dose and repeat level in 1 week"
+      ],
+      "answerIndex": 4,
+      "explanation": "Asymptomatic mild elevation of lithium above therapeutic range (1.2 mmol/L) is managed by dose reduction and rechecking levels. Haemodialysis and IV fluids are for acute toxicity. Immediate cessation is not required unless symptoms develop. Sodium polystyrene sulfonate is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a40557c5c79",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with bipolar disorder on lithium for 2 years presents to ED with vomiting and diarrhoea for 2 days. She feels weak and has a fine tremor. Observations: HR 100 bpm, BP 110/70 mmHg, afebrile. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe propranolol for tremor",
+        "Administer activated charcoal",
+        "Start IV sodium bicarbonate",
+        "Refer for haemodialysis",
+        "Check lithium level and U&Es immediately"
+      ],
+      "answerIndex": 4,
+      "explanation": "Vomiting and diarrhoea can cause dehydration and lithium accumulation. Immediate step is to assess lithium level and renal function to guide management. Activated charcoal is only useful within 1 hour of overdose; haemodialysis is for severe toxicity; propranolol is not first-line for tremor.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2eab02de7152",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old male with bipolar disorder is found unconscious at home, empty lithium bottle nearby. GCS 9, pulse 120 bpm, BP 90/60 mmHg, RR 20/min. What is the most appropriate immediate action?",
+      "options": [
+        "Insert a nasogastric tube for activated charcoal",
+        "Start IV normal saline bolus",
+        "Check serum lithium level",
+        "Arrange urgent haemodialysis",
+        "Administer flumazenil"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension and reduced consciousness indicate hypovolaemic shock; immediate resuscitation with IV fluids is the priority before any other intervention. Charcoal may be considered later; haemodialysis requires stabilisation; flumazenil is for benzodiazepine overdose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3b1d455f49c2",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman on lithium for 10 years has routine monitoring showing lithium level 1.4 mmol/L (therapeutic 0.6–1.0) and eGFR 45 mL/min. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Reduce lithium dose and check level in 1 week",
+        "Arrange urgent haemodialysis",
+        "Stop lithium and start valproate",
+        "Advise increased salt intake",
+        "Refer to nephrology"
+      ],
+      "answerIndex": 0,
+      "explanation": "Asymptomatic mild toxicity with renal impairment; dose reduction and repeat monitoring is appropriate. Urgent dialysis is not indicated as level <2.5 and no symptoms. Switching to valproate is not immediate; increased salt intake may lower level but is not primary management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24ef202bff92",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man on lithium for bipolar disorder presents with coarse tremor, ataxia, and slurred speech. His lithium level is 1.0 mmol/L (therapeutic range). What is the most appropriate immediate next step?",
+      "options": [
+        "Check TSH and T4",
+        "Start propranolol for tremor",
+        "CT head to rule out stroke",
+        "Stop lithium and check level again in 6 hours",
+        "Arrange MRI brain"
+      ],
+      "answerIndex": 3,
+      "explanation": "Despite a 'therapeutic' level, this patient likely has lithium neurotoxicity, especially if elderly or on other drugs. Immediate step is to stop lithium and recheck level as it may be rising. Thyroid dysfunction can cause tremor but not ataxia/dysarthria; imaging may be considered later.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9993b116866d",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old female with bipolar disorder on lithium presents with polyuria and polydipsia. Urine output is estimated at 4 L/day. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to endocrinology",
+        "Perform water deprivation test",
+        "Check 24-hour urine volume and osmolality",
+        "Stop lithium and start amiloride",
+        "Check fasting glucose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lithium can cause nephrogenic diabetes insipidus. The initial step is to confirm polyuria and assess urine concentrating ability with 24-hour urine volume and osmolality. Water deprivation test is diagnostic but not first step; amiloride is a treatment after diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68d1fe69c2f1",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman on lithium for 2 weeks presents with nausea, mild diarrhoea, and a fine tremor. She is alert and oriented. Which finding makes this an emergency requiring immediate assessment?",
+      "options": [
+        "eGFR 55 mL/min/1.73m²",
+        "Serum lithium 1.6 mmol/L",
+        "Serum creatinine 120 µmol/L",
+        "Serum lithium 1.2 mmol/L",
+        "Serum lithium 0.8 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A serum lithium level >1.5 mmol/L (here 1.6) indicates severe toxicity, even in the absence of severe symptoms, and requires urgent assessment and possible haemodialysis. Levels 0.8–1.2 are within or near therapeutic range.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1f0b2be7dcd",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 38-year-old man with bipolar disorder on lithium maintenance presents with worsening fine tremor, thirst, and polyuria. He has no confusion or ataxia. He recently started ibuprofen for joint pain. Which clinical sign most strongly indicates progression to severe toxicity?",
+      "options": [
+        "Fever",
+        "Orthostatic hypotension",
+        "Coarse tremor",
+        "Bradycardia",
+        "Hyperreflexia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coarse tremor is a classic sign of moderate-to-severe lithium toxicity, indicating a need for urgent dose reduction or withdrawal. Fine tremor is common in mild toxicity; bradycardia, fever, and orthostatic hypotension are not specific early signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c99d8105736",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man on lithium is brought to ED with confusion, myoclonus, and seizures after a febrile illness. Which finding best predicts the highest risk of irreversible neurotoxicity?",
+      "options": [
+        "Lithium level 3.5 mmol/L",
+        "GCS 12",
+        "Seizure lasting >30 minutes",
+        "Hypernatraemia (Na+ 150 mmol/L)",
+        "Lithium level 2.0 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A lithium level >3.0 mmol/L indicates severe acute toxicity with high risk of permanent neurological damage, requiring urgent haemodialysis. Levels >2.0 are serious but lower risk; GCS 12 and seizure duration are important but the level is the most specific red flag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a23e53435d84",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman on lithium develops nephrogenic diabetes insipidus. She drinks large volumes but reports feeling dehydrated. Which clinical sign indicates severe water loss placing her at imminent risk of lithium toxicity?",
+      "options": [
+        "Postural hypotension",
+        "Urine osmolality <300 mOsm/kg",
+        "Polyuria >5 L/day",
+        "Plasma sodium 155 mmol/L",
+        "Dry mucous membranes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Plasma sodium >150 mmol/L signifies hypernatraemia from inadequate water intake relative to losses, which can rapidly precipitate lithium toxicity by reducing renal lithium clearance. Polyuria and low urine osmolality are expected, but hypernatraemia is the acute danger sign.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e5a7d547b697",
+      "topic": "Lithium Toxicity & Monitoring",
+      "slug": "lithium-toxicity-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman on lithium for 10 years is asymptomatic. Routine bloods show lithium level 1.1 mmol/L, eGFR 45 mL/min/1.73m² (down from 55 last year), and normal electrolytes. Which additional finding would make this an emergency?",
+      "options": [
+        "Systolic BP 170 mmHg",
+        "Plasma sodium 135 mmol/L",
+        "Fine tremor",
+        "New-onset confusion",
+        "Urine ketones 2+"
+      ],
+      "answerIndex": 3,
+      "explanation": "In elderly patients with declining renal function, even a slightly elevated lithium level (1.1 mmol/L) can rapidly become toxic. New-onset confusion is a red flag for neurotoxicity, warranting urgent clinical review and lithium level check. The other findings are not emergency triggers.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Chemical Eye Injury",
+  "slug": "chemical-eye-injury",
+  "system": "Ophthalmology",
+  "subSystem": "Emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:28:26Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "07dfcad5791a",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents to the emergency department with acute onset of severe pain, photophobia, and blurred vision in her right eye. She reports that 30 minutes ago she accidentally splashed a household drain cleaner containing sodium hydroxide into her eye. On examination, conjunctival injection is noted, and the cornea appears hazy with an epithelial defect. The anterior chamber is quiet. What is the single most likely diagnosis?",
+      "options": [
+        "Corneal abrasion",
+        "Acid chemical burn",
+        "Alkali chemical burn",
+        "Acute conjunctivitis",
+        "Acute angle-closure glaucoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Household drain cleaners often contain strong alkalis like sodium hydroxide. Alkali burns cause rapid penetration, epithelial loss, and stromal haze. Acid burns typically produce coagulative necrosis with a clearer demarcation. Corneal abrasion would have no chemical history. Conjunctivitis lacks epithelial defect and haze. Acute glaucoma presents with elevated IOP and a shallow anterior chamber.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d8777a9f2a96",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 42-year-old male construction worker presents to the eye clinic with a two-hour history of mild discomfort and redness in his left eye. He was mixing cement and felt something splash into his eye, which he washed out with water immediately. On examination, there is conjunctival injection and a small area of corneal haze inferiorly, with no epithelial defect. The pH of the tear film is 8.0. What is the single most likely diagnosis?",
+      "options": [
+        "Allergic conjunctivitis",
+        "Herpes simplex keratitis",
+        "Corneal foreign body",
+        "Dry eye disease",
+        "Alkali chemical burn"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cement contains calcium hydroxide, a strong alkali. The elevated tear pH confirms ongoing alkali exposure despite irrigation. Dry eye, allergy, foreign body, and herpetic keratitis would not cause a tear pH of 8.0.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d85bacfb572a",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman is brought to the emergency department after a domestic accident involving an unidentified cleaning product sprayed into both eyes. She has severe pain and near-complete vision loss in the left eye. On examination, the left cornea is opaque, and there is a white, avascular appearance to the limbus (limbal ischaemia) for more than 270 degrees. The right eye shows conjunctival injection and mild corneal haze inferiorly. What is the single most likely diagnosis?",
+      "options": [
+        "Severe acid chemical burn",
+        "Corneal perforation",
+        "Severe alkali chemical burn",
+        "Thermal burn from hot liquid",
+        "Bilateral acute angle-closure glaucoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Limbal ischaemia involving greater than half the circumference is characteristic of severe alkali burns, which penetrate deeply and cause limbal stem cell damage. Acid burns typically cause less limbal ischaemia due to coagulative necrosis that limits penetration. Thermal burns would not cause the pH changes or bilateral presentation. Corneal perforation would have a flat chamber or visible leak. Acute glaucoma would have elevated IOP, not corneal opacity and limbal ischaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5200746758d6",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presented to the emergency department three days ago with a mild alkali burn to her right eye, which was treated conservatively with irrigation and lubricants. She returns with increasing pain, photophobia, and mucopurulent discharge. On examination, there is a corneal ulcer with a dense white infiltrate and an anterior chamber hypopyon of 1 mm. What is the single most likely diagnosis?",
+      "options": [
+        "Bacterial keratitis",
+        "Early corneal melting",
+        "Sterile hypopyon from inflammation",
+        "Herpes simplex keratitis",
+        "Fungal keratitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "A new infiltrate and hypopyon three days after a chemical injury, especially with worsening pain and purulent discharge, suggests secondary bacterial infection. Sterile hypopyon from inflammation would be associated with a quiet eye and no infiltrate. Fungal keratitis often has a more indolent course and feathery margins. Herpetic keratitis would have dendritic ulcers. Corneal melting would present with thinning without purulent discharge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4e695e4352b2",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 6-year-old boy is brought to the paediatric emergency department by his mother, who says he sprayed a 'laundry detergent pod' into his eyes about an hour ago. He is crying and rubbing his eyes but does not report severe pain. On examination, he has bilateral conjunctival injection, mild corneal epithelial irregularity, and the tear pH is 7.8. The mother states he flushed his eyes with water at home for a few seconds. What is the single most likely diagnosis?",
+      "options": [
+        "Foreign body in both eyes",
+        "Allergic conjunctivitis",
+        "Corneal abrasion",
+        "Viral conjunctivitis",
+        "Alkali chemical burn"
+      ],
+      "answerIndex": 4,
+      "explanation": "Laundry detergent pods contain alkaline surfactants and can cause significant ocular surface injury, even if the pain is not immediately severe. The elevated tear pH and epithelial irregularity indicate an ongoing chemical burn. Allergic conjunctivitis would have itching and not affect pH. Viral conjunctivitis would have a watery discharge and preauricular lymphadenopathy. Corneal abrasion would have a clear history of trauma. Foreign body in both eyes is unlikely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "666ebb84d735",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old builder presents to the emergency department 30 minutes after cement powder blew into his eyes. He complains of severe pain and photophobia. Visual acuity is 6/18 in the right eye and 6/12 in the left. On examination, there is conjunctival injection and mild corneal haze. Which single investigation should be performed first to confirm the diagnosis?",
+      "options": [
+        "Ocular pH testing",
+        "Slit lamp examination with fluorescein staining",
+        "Gonioscopy",
+        "Measurement of intraocular pressure",
+        "Ultrasound biomicroscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "A strong alkali injury (cement produces calcium hydroxide) is suspected. Immediate pH testing is essential to confirm ocular surface alkalinity and guide continued irrigation. Slit lamp with fluorescein is important but should follow pH measurement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3dedd6ddac0",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old mechanic presents after a splash of battery acid (sulphuric acid) to his left eye. He immediately washed his eye with tap water for 5 minutes. On arrival, he has mild discomfort and conjunctival injection. pH is 7.2. Which investigation is most appropriate to assess the extent of ocular injury?",
+      "options": [
+        "Corneal topography",
+        "Repeat pH testing after 20 minutes",
+        "Anterior segment optical coherence tomography",
+        "B-scan ultrasonography",
+        "Slit lamp examination with fluorescein staining"
+      ],
+      "answerIndex": 4,
+      "explanation": "Although pH has normalized, fluorescein staining will reveal any corneal epithelial defect or conjunctival chemosis, confirming the diagnosis of chemical keratopathy. Repeat pH is not needed as it is normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b490e0709bab",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman sustains an ammonia injury to both eyes at work. On examination, there is conjunctival blanching and chemosis. Slit lamp shows a hazy cornea but no epithelial defect. Which finding on examination is most useful for grading the severity of the injury?",
+      "options": [
+        "Size of conjunctival epithelial defect on fluorescein",
+        "Depth of corneal haze graded on a scale of 1-4",
+        "Anterior chamber depth on slit lamp",
+        "Intraocular pressure measured by tonometry",
+        "Percentage of limbal ischaemia on slit lamp"
+      ],
+      "answerIndex": 4,
+      "explanation": "In chemical burns, the degree of limbal ischaemia (measured in clock hours) is a key determinant of severity and prognosis in the Roper-Hall classification. IOP may be elevated but is not a primary grading criterion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ceef6ac36f16",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with a red painful eye 2 days after a chemical splash. He now has increased intraocular pressure (32 mmHg) and the anterior chamber appears shallow on slit lamp. Which investigation is most appropriate to assess the mechanism of raised IOP?",
+      "options": [
+        "Ultrasound biomicroscopy",
+        "B-scan ultrasonography",
+        "Fluorescein angiography",
+        "Anterior segment OCT",
+        "Gonioscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chemical injury can cause angle closure due to inflammation or swelling. Gonioscopy directly visualizes the angle to determine if it is open or closed, guiding management. Ultrasound biomicroscopy is an alternative but gonioscopy is the standard first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f81f7b2acff4",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old contact lens wearer presents with bilateral eye pain, photophobia, and redness after accidentally using a hydrogen peroxide cleaning solution without neutralizing it. She has washed her eyes at home. Visual acuity is 6/9. Slit lamp examination is being performed. Which fluorescein staining pattern is most characteristic of this chemical injury?",
+      "options": [
+        "Dendritic ulcer with terminal bulbs",
+        "Linear branching pattern",
+        "Central epithelial defect with stromal ring",
+        "Diffuse punctate epithelial erosions",
+        "Superficial punctate keratitis in a whorl pattern"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hydrogen peroxide toxicity typically causes diffuse punctate epithelial erosions, often with an inferior predominance due to pooling of the solution in the inferior fornix. Dendritic ulcers suggest herpes simplex, and a central defect with ring suggests fungal keratitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ee1c52b6718",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old mechanic presents 2 hours after a splash of sodium hydroxide to his left eye. He immediately irrigated for 15 minutes at work. On exam, visual acuity 6/9, conjunctival injection, clear cornea, no epithelial defect. What is the most appropriate first-line therapy?",
+      "options": [
+        "Topical chloramphenicol 0.5% four times daily",
+        "Cyclopentolate 1% three times daily",
+        "Topical prednisolone acetate 1% four times daily",
+        "Oral acetazolamide 250 mg",
+        "Continue irrigation with normal saline"
+      ],
+      "answerIndex": 2,
+      "explanation": "In mild chemical injury without epithelial defect, topical corticosteroids reduce inflammation and scarring; antibiotic prophylaxis is also given but the defining therapy is the steroid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9dfe7a8931bb",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old presents with white-eye appearance after ammonia splash, limbal ischemia >180°, and corneal opacity. After immediate irrigation, what is the most appropriate first-line medical therapy?",
+      "options": [
+        "Topical ascorbate 10% every 2 hours",
+        "Amniotic membrane transplantation",
+        "Oral tetracycline 250 mg",
+        "Topical medroxyprogesterone 1%",
+        "Cyanoacrylate glue"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severe alkali burns with limbal ischemia, topical ascorbate promotes collagen synthesis and reduces ulceration; amniotic membrane is considered for later reconstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8cec06372caa",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old lab technician splashes hydrofluoric acid in his right eye. After immediate irrigation, he still has intense pain and corneal oedema. What additional therapy is most appropriate?",
+      "options": [
+        "Calcium gluconate 1% eye drops",
+        "Topical tetracaine drops",
+        "Sodium bicarbonate 1% eye drops",
+        "Oral calcium carbonate",
+        "Magnesium sulphate eye drops"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hydrofluoric acid penetrates deeply and requires calcium or magnesium to bind fluoride ions; topical calcium gluconate drops are first-line after irrigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2a440ef672d5",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old developed secondary glaucoma 4 weeks after a severe alkali burn. Gonioscopy shows angle closure from peripheral anterior synechiae. Which first-line therapy is most appropriate to lower intraocular pressure?",
+      "options": [
+        "Timolol 0.5% twice daily",
+        "Pilocarpine 2% four times daily",
+        "Latanoprost 0.005% once daily",
+        "Acetazolamide 250 mg orally",
+        "Surgical trabeculectomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "In inflammatory glaucoma, prostaglandin analogues may worsen inflammation; topical beta-blockers like timolol are first-line agents to lower intraocular pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c05b95cf53d6",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 24-year-old with a moderate alkali burn now has conjunctivalisation of the cornea and early symblepharon formation at week 3. What is the most appropriate treatment to prevent further symblepharon?",
+      "options": [
+        "Topical mitomycin C 0.02%",
+        "Cyclopentolate 1% three times daily",
+        "Symblepharon ring placement",
+        "Amniotic membrane transplantation",
+        "Oral diltiazem 60 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mechanical separation with a symblepharon ring is first-line to prevent adhesion; amniotic membrane grafting is reserved for more extensive conjunctival scarring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c39831569ba",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 34-year-old construction worker presents to ED immediately after splashing an unknown liquid into his right eye at work. He is in significant pain, unable to open his eye. He has a bottle of the liquid labeled 'concrete cleaner' (strong alkali). On examination, conjunctival injection and corneal haze are noted. What is the most appropriate immediate next step?",
+      "options": [
+        "Instill fluorescein and examine under blue light",
+        "Check visual acuity",
+        "Evert eyelids and sweep fornices",
+        "Apply topical anaesthetic drops",
+        "Start irrigation with 1L normal saline"
+      ],
+      "answerIndex": 4,
+      "explanation": "The priority in chemical eye injury is immediate copious irrigation to remove the chemical. Even before full assessment, irrigation should be started. Sweeping fornices can be done during irrigation but is not the first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "78b72dde45dd",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman splashed a small amount of household bleach into her left eye 30 minutes ago. She rinsed her eye with water for 5 minutes at home. In ED, she has mild conjunctival injection, clear cornea, and visual acuity 6/6. What is the most appropriate immediate next step?",
+      "options": [
+        "Measure pH of the conjunctival fornix",
+        "Apply chloramphenicol ointment",
+        "Instill fluorescein",
+        "Check intraocular pressure",
+        "Prescribe topical steroid"
+      ],
+      "answerIndex": 0,
+      "explanation": "After initial irrigation, pH should be checked to confirm adequate removal of chemical. If pH is still abnormal, further irrigation is needed. Other steps like fluorescein or medication come after pH is confirmed neutral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b4151fabb28",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents 1 hour after a splash of concentrated ammonia into his right eye. He has severe pain, photophobia, and blurred vision. Slit-lamp exam shows complete corneal epithelial loss, stromal haze, and 50% limbal ischemia. After copious irrigation for 30 minutes, the pH is neutral. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply a cycloplegic agent",
+        "Measure intraocular pressure",
+        "Apply topical steroid",
+        "Perform an anterior chamber washout",
+        "Apply topical antibiotic"
+      ],
+      "answerIndex": 1,
+      "explanation": "After irrigation and pH neutralization, the next priority is to assess for secondary complications, particularly elevated IOP, which is common in severe alkali burns. Cycloplegic and steroid are important but not immediately before assessing IOP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0090d7de9864",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman with a severe alkali burn 4 days ago is on topical dexamethasone, chloramphenicol, and atropine. She reports progressive pain and headache. IOP is 38 mmHg in the affected eye. What is the most appropriate immediate next step?",
+      "options": [
+        "Add topical latanoprost",
+        "Add topical timolol",
+        "Urgent ophthalmology review for glaucoma surgery",
+        "Start oral acetazolamide",
+        "Perform anterior chamber tap"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute IOP elevation after chemical injury, oral acetazolamide is used when topical agents are insufficient. It reduces aqueous production and lowers IOP rapidly. Topical adjuncts may be tried, but oral acetazolamide is the next step for urgent control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03c2b8529337",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 19-year-old contact lens wearer inadvertently uses a hydrogen peroxide-based cleaning solution directly into his left eye. He removes the lens immediately and presents to ED within minutes. His eye is red and painful, but visual acuity is 6/9. What is the most appropriate immediate next step?",
+      "options": [
+        "Irrigate the eye with normal saline",
+        "Check pH of the eye",
+        "Examine with slit lamp and fluorescein",
+        "Remove any remaining contact lens fragments",
+        "Apply topical anaesthetic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although the contact lens was already removed, the chemical remains on the ocular surface. Immediate irrigation is essential to remove any residual hydrogen peroxide. pH check and slit-lamp exam can follow after irrigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83071101503d",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man splashes bleach into his right eye. He complains of pain and blurred vision. On examination, you note conjunctival injection and mild corneal haze. What single finding on slit-lamp examination is most indicative of a severe chemical injury?",
+      "options": [
+        "Corneal oedema",
+        "Conjunctival chemosis",
+        "Limbal ischaemia (> 180 degrees)",
+        "Diffuse punctate epithelial erosions",
+        "Dilated pupil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Limbal ischaemia indicates damage to the limbal stem cell niche, a key prognostic factor for severe injury. Other findings are less specific for severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8204231ff03",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman attends the emergency department after a splash of paint stripper to her face. She has no previous ocular history. Eye irrigation was started en route. On arrival, her conjunctiva is injected and there is a small epithelial defect. Her visual acuity is 6/9. What single finding indicates that immediate further irrigation and urgent ophthalmology consultation are required?",
+      "options": [
+        "A retained foreign body under the eyelid",
+        "pH of 7.4 on arrival",
+        "Recurrent pain despite topical anaesthesia",
+        "Intraocular pressure of 21 mmHg",
+        "pH of 8.0 after 1 litre of irrigation"
+      ],
+      "answerIndex": 4,
+      "explanation": "A pH >7.7 after irrigation indicates persistent alkalinity and ongoing chemical exposure, requiring further irrigation and specialist review.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d575b77d2cf2",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old construction worker is brought in with bilateral severe alkali injury from cement. He has complete corneal opacification in both eyes. You note that his intraocular pressure is 55 mmHg in the right eye. What is the most likely life-threatening complication that must be excluded?",
+      "options": [
+        "Corneal perforation",
+        "Cavernous sinus thrombosis",
+        "Acute angle closure glaucoma",
+        "Endophthalmitis",
+        "Orbital cellulitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe alkali burns cause corneal collagenolysis and thinning. Very high IOP can precipitate corneal perforation, a sight-threatening emergency. Other options are less directly associated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0761c6e10499",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents 2 days after a splash of ammonia to her left eye. She was discharged from the emergency department the day before after irrigation. She now has increasing pain and photophobia. On examination, you see a corneal epithelial defect with a white infiltrate at the edge. What single finding on examination would indicate that she has developed microbial keratitis, a sight-threatening complication?",
+      "options": [
+        "Raised intraocular pressure",
+        "Lid oedema",
+        "Conjunctival injection",
+        "Hypopyon",
+        "Corneal neovascularisation"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the setting of a corneal infiltrate after chemical injury, hypopyon indicates intraocular infection, confirming microbial keratitis—a surgical emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcadce2a225e",
+      "topic": "Chemical Eye Injury",
+      "slug": "chemical-eye-injury",
+      "system": "Ophthalmology",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 3-year-old child is brought to the emergency department after getting hand soap in their eyes. The mother has already rinsed the eyes with water. The child is crying but can open the eyes. On examination, the conjunctiva is slightly injected, and fluorescein shows no uptake. What single finding would mandate immediate referral to ophthalmology?",
+      "options": [
+        "pH of 8.2 after irrigation",
+        "pH of 7.5 after irrigation",
+        "Injection of the conjunctiva",
+        "Bilateral involvement",
+        "Visual acuity of 6/12 using Kay pictures"
+      ],
+      "answerIndex": 0,
+      "explanation": "A pH >7.7 after irrigation indicates retained alkaline chemical, requiring further irrigation and urgent ophthalmology assessment to prevent corneal damage.",
+      "difficulty": "medium"
+    }
+  ]
+}

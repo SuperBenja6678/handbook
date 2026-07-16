@@ -1,0 +1,493 @@
+{
+  "topic": "Lung Cancer — SCLC",
+  "slug": "lung-cancer-—-sclc",
+  "system": "Respiratory",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "1d9493075f83",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man, a 50-pack-year smoker, presents with a 3-month history of cough, haemoptysis, and weight loss. Chest X-ray shows a large central hilar mass. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary tuberculosis",
+        "Carcinoid tumour",
+        "Non-small cell lung cancer",
+        "Small cell lung cancer",
+        "Lymphoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Central hilar mass in a heavy smoker with haemoptysis and weight loss is classic for SCLC. NSCLC is more often peripheral. TB would have apical cavitation and systemic symptoms. Lymphoma usually presents with lymphadenopathy and B symptoms. Carcinoid tumours are typically slow-growing and less aggressive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d938c249f4dd",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with a history of chronic obstructive pulmonary disease presents with confusion and falls. His serum sodium is 118 mmol/L, plasma osmolality 250 mOsm/kg, urine osmolality 600 mOsm/kg, and urine sodium >40 mmol/L. He takes no medications associated with SIADH. What is the single most likely diagnosis?",
+      "options": [
+        "Bronchiectasis",
+        "Small cell lung cancer",
+        "Pituitary tumour",
+        "Hypothyroidism",
+        "Adrenal insufficiency"
+      ],
+      "answerIndex": 1,
+      "explanation": "SIADH is a common paraneoplastic syndrome of SCLC, often presenting before the lung mass is evident. Hypothyroidism and adrenal insufficiency can cause hyponatraemia but with different osmolality patterns. Pituitary tumour is a rare cause. Bronchiectasis does not cause SIADH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d6f69b1ea94",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman presents with progressive facial swelling, distended neck veins, and shortness of breath. Chest X-ray shows a widened mediastinum. What is the single most likely diagnosis?",
+      "options": [
+        "Small cell lung cancer",
+        "Mediastinal fibrosis",
+        "Non-small cell lung cancer",
+        "Thymoma",
+        "Lymphoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Superior vena cava obstruction is a common complication of SCLC due to its central location and rapid growth. NSCLC is less likely to cause SVCO acutely. Mediastinal fibrosis is rare. Lymphoma and thymoma are possibilities but SCLC is most common in a smoker and with rapid onset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00f24824045b",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old male smoker experiences proximal muscle weakness, difficulty climbing stairs, and dry mouth. Examination shows reduced deep tendon reflexes that briefly increase after sustained contraction. Anti-voltage-gated calcium channel antibodies are positive. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple sclerosis",
+        "Polymyositis",
+        "Small cell lung cancer",
+        "Myasthenia gravis",
+        "Lambert-Eaton myasthenic syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "LEMS is a paraneoplastic syndrome strongly associated with SCLC. The clinical features and positive VGCC antibodies point to LEMS, but the underlying cause is SCLC until proven otherwise. Myasthenia gravis does not show post-tetanic facilitation. MS and polymyositis do not match the antibody profile.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca97ddd1984f",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old asymptomatic woman, a former smoker, has a routine chest X-ray that shows a 3 cm peripheral nodule in the right upper lobe. CT-guided biopsy shows small cells with scant cytoplasm. What is the single most likely diagnosis?",
+      "options": [
+        "Non-small cell lung cancer",
+        "Small cell lung cancer",
+        "Granuloma",
+        "Pulmonary hamartoma",
+        "Carcinoid tumour"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite being peripheral and asymptomatic, histology shows small cells consistent with SCLC. SCLC can present as a peripheral nodule, though central is more common. NSCLC would show larger cells. Carcinoid tumour is neuroendocrine but with typical architecture. Hamartoma and granuloma are benign and do not have small cell histology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9e93157a60ec",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old smoker presents with a 6-week history of cough and haemoptysis. Chest X-ray shows a right hilar mass. What is the single most appropriate next investigation to help establish the diagnosis?",
+      "options": [
+        "Bronchoscopy with biopsy",
+        "Transthoracic needle biopsy",
+        "CT scan of chest with contrast",
+        "Sputum cytology",
+        "PET-CT scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT chest is the first-line investigation after an abnormal CXR to characterise the lesion, assess mediastinal involvement, and guide further tests. Bronchoscopy is typically performed after CT if the lesion is central.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49ba243c11c4",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old smoker has a CT chest showing a 3 cm central right upper lobe mass with mediastinal lymphadenopathy (station 7 and 4R). The patient is fit for further investigation. What is the single most appropriate next test to confirm the diagnosis and stage the disease?",
+      "options": [
+        "Bronchoscopy with endobronchial biopsy",
+        "CT-guided percutaneous needle biopsy",
+        "PET-CT scan",
+        "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA)",
+        "Mediastinoscopy"
+      ],
+      "answerIndex": 3,
+      "explanation": "EBUS-TBNA can sample both the central mass and mediastinal nodes simultaneously, providing tissue for histology and nodal staging with low morbidity. Mediastinoscopy is more invasive and typically reserved if EBUS is negative or inconclusive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "529a57f80394",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with acute dyspnoea, facial swelling, and distended neck veins. Chest X-ray shows superior mediastinal widening. A CT chest confirms a large mediastinal mass causing superior vena cava obstruction. What is the single most appropriate investigation to obtain a tissue diagnosis?",
+      "options": [
+        "Bronchoscopy with endobronchial biopsy",
+        "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA)",
+        "Mediastinoscopy",
+        "PET-CT scan",
+        "CT-guided biopsy of the mass"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bronchoscopy is often preferred in SVCO because it can directly visualize and biopsy an endobronchial component; it is low risk and quick. Mediastinoscopy is contraindicated due to venous congestion, and EBUS may be less accessible urgently in some centres.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "874fa0c915b1",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with known small cell lung cancer presents with confusion. Serum sodium is 118 mmol/L, plasma osmolality 245 mOsm/kg, urine osmolality 320 mOsm/kg, urine sodium 45 mmol/L. He is clinically euvolemic. Which single investigation best confirms the diagnosis of SIADH in this context?",
+      "options": [
+        "Thyroid function tests",
+        "Water deprivation test",
+        "Short synacthen test (cortisol level)",
+        "CT head",
+        "Serum ADH (antidiuretic hormone) level"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elevated ADH level confirms ectopic production by SCLC, establishing SIADH. Water deprivation test is dangerous in severe hyponatraemia. CT head and endocrine tests exclude other causes but do not confirm SIADH per se.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb9bb615a724",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old asymptomatic woman undergoes a targeted lung health check (low-dose CT). A 15 mm solid nodule is found in the right upper lobe. The CT features are equivocal (not clearly benign or malignant). What is the single most appropriate next investigation to diagnose possible lung cancer?",
+      "options": [
+        "Bronchoscopy with biopsy",
+        "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA)",
+        "CT-guided biopsy",
+        "Repeat CT scan in 3 months",
+        "PET-CT scan"
+      ],
+      "answerIndex": 4,
+      "explanation": "PET-CT is recommended for nodules ≥8 mm with intermediate risk (Brock score >10%) to assess metabolic activity. A positive PET would then guide biopsy. Repeat CT is for low-risk nodules, and biopsy is not first line without PET.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1ae75ef6198b",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man is diagnosed with limited-stage small cell lung cancer (T2N1M0). He has an ECOG performance status of 0 and no significant comorbidities. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Concurrent platinum–etoposide chemotherapy and thoracic radiotherapy",
+        "Surgical lobectomy",
+        "Single-agent etoposide chemotherapy",
+        "Best supportive care",
+        "Sequential chemotherapy followed by prophylactic cranial irradiation"
+      ],
+      "answerIndex": 0,
+      "explanation": "For limited-stage SCLC with good PS, NICE recommends concurrent chemoradiotherapy. Surgery is not first-line; sequential chemo then PCI is for after response, not first-line; single-agent etoposide is inappropriate; best supportive care is for poor PS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "123945bb7a33",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old woman presents with extensive-stage small cell lung cancer (pleural and liver metastases). She has an ECOG PS of 1 and no symptomatic brain metastases. What is the most appropriate first-line treatment?",
+      "options": [
+        "Cisplatin–etoposide chemotherapy with concurrent thoracic radiotherapy",
+        "Single-agent topotecan chemotherapy",
+        "Prophylactic cranial irradiation",
+        "Carboplatin–etoposide chemotherapy alone",
+        "Atezolizumab in combination with carboplatin and etoposide"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE TA713 recommends atezolizumab with carboplatin/etoposide for first-line treatment of extensive-stage SCLC in adults with ECOG PS 0-1. Chemo alone (A) is an option but immunotherapy combination is now standard. Concurrent RT is for limited stage. Topotecan is second-line. PCI is after response to chemo.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7dcf8886721b",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with known small cell lung cancer presents with facial swelling, distended neck veins, and dyspnoea. CT confirms superior vena cava obstruction. He has an ECOG PS of 2. What is the most appropriate first-line treatment?",
+      "options": [
+        "Best supportive care",
+        "Emergency thoracic radiotherapy",
+        "High-dose corticosteroids",
+        "Urgent endovascular stenting",
+        "Chemotherapy with platinum–etoposide"
+      ],
+      "answerIndex": 4,
+      "explanation": "SCLC is highly chemosensitive; chemotherapy is first-line for SVCO due to SCLC, even with PS 2, as it treats the underlying disease. Stenting is reserved for non-SCLC or if chemo contraindicated. Radiotherapy is an alternative but chemo is preferred. Corticosteroids are for symptom relief, not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2112d7ff7c9c",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman with extensive-stage small cell lung cancer develops asymptomatic hyponatraemia (Na 124 mmol/L). She is euvolaemic with normal renal function. Urine osmolality is 550 mOsm/kg. SIADH is confirmed. What is the most appropriate first-line treatment for this complication?",
+      "options": [
+        "Tolvaptan 15 mg daily",
+        "Fluid restriction to 1 L daily",
+        "3% hypertonic saline",
+        "Demeclocycline 150 mg four times daily",
+        "Chemotherapy with platinum–etoposide"
+      ],
+      "answerIndex": 4,
+      "explanation": "The definitive treatment of SIADH secondary to SCLC is treatment of the underlying tumour. Asymptomatic hyponatraemia does not require urgent correction; chemotherapy should be started. Fluid restriction (A) is supportive, not first-line definitive. Demeclocycline (B) and tolvaptan (D) are second-line. Hypertonic saline (E) is for severe symptomatic hyponatraemia only.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "71a3433638b6",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old man is diagnosed with limited-stage small cell lung cancer (T3N1M0). He has an ECOG performance status of 3 due to COPD and cardiac failure. Which of the following therapies is most likely to be CONTRAINDICATED in this patient?",
+      "options": [
+        "Palliative thoracic radiotherapy",
+        "Sequential chemotherapy followed by radiotherapy",
+        "Single-agent etoposide chemotherapy",
+        "Best supportive care",
+        "Concurrent chemoradiotherapy with platinum–etoposide"
+      ],
+      "answerIndex": 4,
+      "explanation": "For limited-stage SCLC in patients with poor PS (ECOG ≥3), concurrent chemoradiotherapy is too toxic and is contraindicated. Best supportive care or palliative radiotherapy may be appropriate. Single-agent etoposide or sequential chemo may be considered in selected cases, but not concurrent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5e27b89f0fc",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 64-year-old man presents with a 3-month history of cough, weight loss, and haemoptysis. Chest X-ray shows a left hilar mass with mediastinal widening. His performance status is 0. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start chemotherapy",
+        "Urgent CT chest with contrast",
+        "Referral to respiratory physician",
+        "PET-CT scan",
+        "Bronchoscopy with biopsy"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT chest with contrast is the first-line investigation for staging and assessing mediastinal involvement; bronchoscopy may be needed later for histology but not the immediate next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cea2d4fce358",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with newly diagnosed limited-stage small cell lung cancer (T2 N1 M0) and WHO PS 1 is awaiting chemoradiotherapy. She develops mild dyspnoea but oxygen saturations are 94% on air. She has no chest pain or fever. What is the single most appropriate immediate next step?",
+      "options": [
+        "Commence chemotherapy immediately",
+        "Perform a CT pulmonary angiogram",
+        "Refer for urgent radiotherapy",
+        "Start oral corticosteroids",
+        "Request an urgent chest X-ray"
+      ],
+      "answerIndex": 4,
+      "explanation": "An urgent chest X-ray can quickly identify new complications such as lobar collapse, pleural effusion, or superior vena cava obstruction before initiating treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a3b8108b86ce",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old man known to have small cell lung cancer presents with acute onset of stridor, facial swelling, and distended neck veins over 24 hours. He is saturating 91% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Urgent CT neck and chest",
+        "Start chemotherapy urgently",
+        "Call the anaesthetic team",
+        "Perform bronchoscopy urgently",
+        "Start high-dose dexamethasone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Superior vena cava obstruction is an oncological emergency; high-dose dexamethasone reduces peritumoural oedema while arranging definitive treatment like stenting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e41ae076be2b",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with extensive-stage small cell lung cancer completed 4 cycles of chemotherapy and is now on maintenance durvalumab. He presents with new dry cough and dyspnoea. CT chest shows bilateral ground-glass opacities. He is afebrile. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request bronchoscopy with lavage",
+        "Refer to respiratory physician",
+        "Start oral antibiotics for pneumonia",
+        "Hold durvalumab therapy",
+        "Start oral prednisolone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Suspect immune-related pneumonitis; the immediate action is to hold the immune checkpoint inhibitor and then arrange high-dose corticosteroids.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4f012ca32e0a",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known limited-stage SCLC presents with a 2-day history of confusion, morning headache, and nausea. BP 140/90, HR 88, temperature 36.8°C. Which finding is most concerning and indicates a life-threatening complication?",
+      "options": [
+        "Serum sodium 121 mmol/L",
+        "Lactate 2.0 mmol/L",
+        "Serum calcium 2.7 mmol/L",
+        "CRP 45 mg/L",
+        "WBC 11×10⁹/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hyponatremia (<125 mmol/L) from SIADH is a common paraneoplastic syndrome in SCLC and can cause seizures and coma. The other values are abnormal but not immediately life-threatening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0a03a3a6a262",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with extensive-stage SCLC presents with acute dyspnoea, stridor, and inability to lie flat. On examination she has facial plethora and distended neck veins. What is the most likely life-threatening complication?",
+      "options": [
+        "Superior vena cava obstruction",
+        "Anaphylaxis",
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 0,
+      "explanation": "The triad of facial plethora, neck vein distension, and stridor is classic for SVC obstruction, a common oncological emergency in SCLC due to mass effect. Other options are possible but less specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1a9010c2af18",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with SCLC undergoing chemotherapy presents with fever 38.9°C and feels unwell. Neutrophil count is 0.3×10⁹/L. Which finding confirms the need for immediate IV antibiotics?",
+      "options": [
+        "Hypotension (BP <90/60)",
+        "CRP >100 mg/L",
+        "Positive blood cultures",
+        "Temperature >38°C with neutrophils <0.5×10⁹/L",
+        "Chest X-ray showing consolidation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Febrile neutropenia is defined by temperature >38°C and neutrophil count <0.5×10⁹/L (NICE guideline). This combination mandates urgent IV antibiotics. The other findings may be present but are not the threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7419e1177ebc",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with SCLC presents with a first-ever generalised seizure. CT head shows a single enhancing lesion with surrounding oedema. Which finding indicates the need for urgent neurosurgical assessment?",
+      "options": [
+        "Lesion diameter >3 cm",
+        "Presence of perilesional oedema",
+        "Seizure as the presenting symptom",
+        "Midline shift >5 mm",
+        "Symptom duration <1 week"
+      ],
+      "answerIndex": 3,
+      "explanation": "Midline shift >5 mm is a critical threshold indicating significant raised intracranial pressure, often requiring surgical decompression. Seizure alone, lesion size, or oedema are not absolute surgical indications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "256bc00c3f1d",
+      "topic": "Lung Cancer — SCLC",
+      "slug": "lung-cancer-—-sclc",
+      "system": "Respiratory",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with newly diagnosed SCLC presents with polyuria, polydipsia, constipation, and confusion. Serum sodium is 148 mmol/L, potassium 2.9 mmol/L, and calcium 2.2 mmol/L. Which finding points to a dangerous paraneoplastic syndrome?",
+      "options": [
+        "Hypernatraemia 148 mmol/L",
+        "Hypokalaemia 2.9 mmol/L",
+        "Polyuria and polydipsia",
+        "Normal serum calcium",
+        "Confusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Severe hypokalaemia (<3.0 mmol/L) with hypertension and muscle weakness is characteristic of ectopic ACTH syndrome causing Cushing's, a paraneoplastic emergency in SCLC. Hypernatraemia here is likely due to concurrent SIADH or dehydration, but hypokalaemia is the immediate dangerous electrolyte abnormality.",
+      "difficulty": "hard"
+    }
+  ]
+}

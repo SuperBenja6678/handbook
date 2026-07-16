@@ -1,0 +1,513 @@
+{
+  "topic": "C. difficile Infection",
+  "slug": "c.-difficile-infection",
+  "system": "Infectious Diseases",
+  "subSystem": "GI infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:28:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c1c5fe8e6970",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man, 5 days after completing a course of co-amoxiclav for a urinary tract infection, develops watery diarrhoea (5 times/day) and mild lower abdominal cramps. He is afebrile, abdomen soft with mild tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Irritable bowel syndrome",
+        "Diverticulitis",
+        "Clostridioides difficile infection",
+        "Infectious gastroenteritis (e.g., norovirus)",
+        "Antibiotic-associated diarrhoea (non-C. diff)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Age >65, recent antibiotic use (especially co-amoxiclav) and symptom onset within a week are classic for C. difficile. Non-C. diff antibiotic diarrhoea is usually milder and less frequent; there is no fever to suggest diverticulitis or infection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a0f9ee928cc5",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman on long-term omeprazole develops foul-smelling watery diarrhoea (6-7 times/day) four days after starting clindamycin for a dental infection. She has no fever, no blood in stool. Abdominal examination reveals mild diffuse tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Small intestinal bacterial overgrowth (SIBO)",
+        "Crohn's disease",
+        "Bile acid malabsorption",
+        "Clostridioides difficile infection",
+        "Giardia lamblia infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recent clindamycin (high-risk antibiotic) plus PPI use are strong risk factors for C. diff. Foul-smelling diarrhoea is typical. Giardia usually more chronic with bloating; SIBO associated with PPI but not acute onset with antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b34ae0b6cb69",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man, recently discharged after a lengthy admission for pneumonia treated with piperacillin-tazobactam, presents with severe abdominal pain, distension, and profuse watery diarrhoea. He is febrile (39°C), tachycardic, and hypotensive. Abdomen is distended with guarding. WCC 25 × 10⁹/L, creatinine 150 μmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute diverticulitis",
+        "Colonic perforation",
+        "Toxic megacolon secondary to C. diff",
+        "Fulminant Clostridioides difficile colitis",
+        "Ischaemic colitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Post-antibiotic, severe systemic illness with renal impairment and high WCC suggests severe/fulminant C. diff colitis. Toxic megacolon is a complication, not the primary diagnosis; ischaemic colitis typically presents with bloody diarrhoea and pain without antibiotic history.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0f9c5d0a1637",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with known Clostridioides difficile infection being treated with oral vancomycin for 7 days develops sudden onset of severe abdominal distension, absent bowel sounds, and fever. Abdominal X-ray shows a markedly dilated transverse colon (8 cm). What is the single most likely diagnosis?",
+      "options": [
+        "Paralytic ileus",
+        "Toxic megacolon",
+        "Pseudomembranous colitis",
+        "Recurrent Clostridioides difficile infection",
+        "Colonic perforation"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with C. diff colitis, acute distension with colonic dilation >6 cm on X-ray is diagnostic of toxic megacolon, a life-threatening complication. Pseudomembranous colitis is the endoscopic finding, not the complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb35515d0dbe",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with ulcerative colitis in remission on mesalazine develops watery diarrhoea (8 times/day) with mucus but no blood, three days after starting doxycycline for a tick bite. She has low-grade fever (37.8°C) and mild lower abdominal pain. What is the single most likely diagnosis?",
+      "options": [
+        "Infectious colitis (e.g., Campylobacter)",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis flare",
+        "Clostridioides difficile infection",
+        "Antibiotic-associated diarrhoea (non-C. diff)"
+      ],
+      "answerIndex": 3,
+      "explanation": "IBD patients are at high risk for C. diff, and recent antibiotic use (doxycycline) with acute onset makes C. diff more likely than a flare. Absence of blood and presence of fever are more consistent with infection than a UC flare. Pseudomembranous colitis is an endoscopic diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "39c459593c49",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old woman presents with a 3-day history of watery diarrhoea after a course of co-amoxiclav for a chest infection. Her stool tested positive for glutamate dehydrogenase (GDH). What is the most appropriate next investigation?",
+      "options": [
+        "Stool toxin A/B immunoassay",
+        "Flexible sigmoidoscopy",
+        "PCR for C. difficile",
+        "Stool culture for C. difficile",
+        "CT abdomen"
+      ],
+      "answerIndex": 0,
+      "explanation": "GDH detects the organism but not toxin; a positive GDH requires confirmation by toxin detection to diagnose active infection. Stool toxin A/B immunoassay is the recommended confirmatory test per UK guidelines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a1d71d948e07",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man has mild diarrhoea (4 loose stools per day) after a short course of clindamycin. Stool tests: GDH positive, toxin A/B negative. What is the most likely explanation?",
+      "options": [
+        "Infection with a non-toxigenic strain",
+        "Laboratory error",
+        "Asymptomatic colonization with C. difficile",
+        "Early infection with low toxin levels",
+        "False-negative toxin test"
+      ],
+      "answerIndex": 0,
+      "explanation": "GDH detects both toxigenic and non-toxigenic strains. In a patient with mild symptoms, a toxin-negative result suggests colonization with a non-toxigenic C. difficile strain rather than active infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1cd3bccf403",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old with severe diarrhoea and abdominal pain undergoes flexible sigmoidoscopy. Which finding is most consistent with C. difficile colitis?",
+      "options": [
+        "Cobblestone mucosa",
+        "Pseudomembranes",
+        "Fissures",
+        "Normal mucosa",
+        "Serpiginous ulcers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pseudomembranes are a characteristic endoscopic finding of C. difficile colitis, formed by exudate and necrotic mucosa. Other findings are more typical of inflammatory bowel disease or other infections.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "484dec19c98c",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with previous C. difficile infection presents with recurrent diarrhoea. Stool test confirms C. difficile. Which investigation can help distinguish relapse from reinfection?",
+      "options": [
+        "Colonoscopy",
+        "ELISA for toxin",
+        "CT abdomen",
+        "PCR ribotyping",
+        "Stool culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "PCR ribotyping compares the genetic fingerprint of the current and previous isolates; same strain indicates relapse, while a different strain suggests reinfection. This distinction guides management decisions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "07e1d5f72edb",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "According to NICE guidelines, which single criterion defines severe C. difficile infection?",
+      "options": [
+        "White cell count >15 x10^9/L",
+        "Abdominal tenderness",
+        "Diarrhoea >10 episodes/day",
+        "CRP >100 mg/L",
+        "Temperature >38.5°C"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE defines severe C. difficile infection as white cell count >15 x10^9/L or acute kidney injury (creatinine >1.5 times baseline). Fever, stool frequency, and CRP are not specific criteria for severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cf51a5939445",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with 3 days of watery diarrhoea following a course of amoxicillin for a respiratory tract infection. Stool culture is positive for C. difficile toxin. She has no fever, WBC 12 × 10^9/L, CRP 25 mg/dL, and abdominal examination is unremarkable. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral teicoplanin 400 mg twice daily",
+        "Oral vancomycin 125 mg four times daily for 10 days",
+        "Oral metronidazole 400 mg three times daily for 10 days",
+        "Intravenous metronidazole 500 mg three times daily",
+        "Oral fidaxomicin 200 mg twice daily for 10 days"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a first episode of mild-to-moderate C. difficile infection (no fever, WBC <15, creatinine normal), NICE guidelines recommend oral metronidazole as first line. Vancomycin is reserved for severe or recurrent disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c63a12a057b1",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man who recently had abdominal surgery develops profuse diarrhoea, fever of 38.5°C, WBC 20 × 10^9/L, creatinine 150 µmol/L (baseline 90), and mild abdominal distension. Stool is positive for C. difficile toxin. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous vancomycin 1 g twice daily",
+        "Intravenous metronidazole 500 mg three times daily",
+        "Oral metronidazole 400 mg three times daily for 10 days",
+        "Oral fidaxomicin 200 mg twice daily for 10 days",
+        "Oral vancomycin 125 mg four times daily for 10 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has severe C. difficile infection (WBC >15, creatinine >1.5 times baseline). NICE recommends oral vancomycin as first line for severe disease. Intravenous metronidazole is added if complicated (e.g., ileus), but vancomycin alone is correct here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f8bdf38a0cbf",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with confirmed severe C. difficile infection develops toxic megacolon with abdominal distension, fever, and profuse diarrhoea. Which of the following therapies is CONTRAINDICATED in this setting?",
+      "options": [
+        "Faecal microbiota transplant",
+        "Oral vancomycin",
+        "Intravenous metronidazole",
+        "Loperamide",
+        "Oral fidaxomicin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Antimotility agents like loperamide are contraindicated in severe C. difficile infection as they can precipitate toxic megacolon by reducing clearance of toxin. vancomycin, metronidazole, and fidaxomicin are appropriate; faecal transplant is not first line in acute severe disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bad1e9dd3ea0",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman has had three episodes of C. difficile infection over the past 6 months, each treated with oral vancomycin. She now presents with a fourth episode. What is the most appropriate treatment?",
+      "options": [
+        "Faecal microbiota transplant",
+        "Oral vancomycin",
+        "Oral metronidazole",
+        "Oral fidaxomicin",
+        "Probiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "For multiple recurrences (≥2), NICE recommends faecal microbiota transplant after appropriate antibiotic therapy (e.g., vancomycin or fidaxomicin) to restore gut flora. Fidaxomicin may be used for first recurrence, but transplant is preferred for multiple recurrences.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "22596778e34d",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a history of chemotherapy-induced peripheral neuropathy presents with a first episode of mild-to-moderate C. difficile infection (watery diarrhoea, WBC 10, CRP 20, afebrile). Stool is toxin positive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous metronidazole 500 mg three times daily",
+        "Oral metronidazole 400 mg three times daily for 10 days",
+        "Oral vancomycin 125 mg four times daily for 10 days",
+        "Oral teicoplanin 400 mg twice daily",
+        "Oral fidaxomicin 200 mg twice daily for 10 days"
+      ],
+      "answerIndex": 2,
+      "explanation": "Metronidazole can worsen peripheral neuropathy and is relatively contraindicated in patients with existing neuropathy. Oral vancomycin is a safe alternative and is recommended as first line for mild-to-moderate disease when metronidazole is unsuitable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "888d4b63c53a",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman on amoxicillin for a chest infection develops 3 loose stools per day for 2 days. She is afebrile, haemodynamically stable, and has mild abdominal tenderness. Stool PCR is positive for C. difficile toxin. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral vancomycin 125 mg four times daily",
+        "Start intravenous metronidazole 500 mg three times daily",
+        "Send stool for culture and sensitivity",
+        "Stop the inciting antibiotic (amoxicillin)",
+        "Reassure and review in 48 hours if symptoms persist"
+      ],
+      "answerIndex": 3,
+      "explanation": "For mild first episode, the immediate priority is to stop the precipitating antibiotic if feasible, as this alone may resolve symptoms. Starting vancomycin or metronidazole is indicated but comes after stopping the culprit antibiotic. Culture is unnecessary as PCR confirms toxin. Reassurance is inappropriate given positive test and symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a30789b9ca2d",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with recurrent C. difficile (first recurrence) presents with 5 loose stools per day for 2 days. He was successfully treated with oral vancomycin 3 weeks ago. He is haemodynamically stable, afebrile, and has mild abdominal cramps. Stool toxin is positive. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral fidaxomicin 200 mg twice daily",
+        "Start a vancomycin taper regimen",
+        "Start oral metronidazole 400 mg three times daily",
+        "Admit for intravenous fluids and monitoring",
+        "Repeat stool testing for culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend fidaxomicin as first-line for a first recurrence of C. difficile infection. Metronidazole is not recommended for recurrence due to inferior efficacy. A vancomycin taper is an alternative but fidaxomicin is preferred. Repeat testing is unnecessary as toxin is already positive. Admission is not needed for this mild recurrence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e19b50bd0dac",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with C. difficile diarrhoea for 3 days has a heart rate of 110 bpm, BP 85/50 mmHg, temperature 38.9°C, WCC 22 ×10^9/L, and creatinine 180 µmol/L (baseline 80). What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to the intensive care unit",
+        "Request an urgent CT abdomen",
+        "Commence intravenous fluid resuscitation",
+        "Start intravenous metronidazole 500 mg three times daily",
+        "Start oral vancomycin 125 mg four times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient has severe C. difficile with hypotension and AKI. The immediate priority is fluid resuscitation to correct hypovolaemia before initiating specific antibiotic therapy (which is also indicated but not first). CT abdomen is not urgent; surgical referral or ICU may follow after stabilisation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "393a2725e7af",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with known C. difficile infection on oral vancomycin develops sudden abdominal distension, severe pain, and fever (39.5°C). She is tachycardic and has absent bowel sounds. Abdominal X-ray shows colonic dilation of 8 cm. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluids and nil by mouth",
+        "Add intravenous metronidazole",
+        "Request an urgent surgical review",
+        "Increase oral vancomycin to 500 mg four times daily",
+        "Arrange an urgent flexible sigmoidoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "This presentation is of toxic megacolon, a surgical emergency. The single most important immediate action is to involve surgeons for possible colectomy. Medical therapies (vancomycin, metronidazole, IV fluids) are adjunctive but not primary. Sigmoidoscopy is contraindicated due to perforation risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9ff967cb7c4e",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on a general medical ward develops 4 loose stools per day. Stool PCR is positive for C. difficile toxin. He is systemically well, with mild abdominal discomfort. What is the most appropriate immediate next step?",
+      "options": [
+        "Send stool for culture and sensitivity",
+        "Stop all current antibiotics",
+        "Place the patient in source isolation (side room with contact precautions)",
+        "Start oral vancomycin 125 mg four times daily",
+        "Inform the infection control team"
+      ],
+      "answerIndex": 2,
+      "explanation": "For inpatients, immediate infection control measures (isolation with contact precautions) are paramount to prevent spread. Starting vancomycin is also indicated but comes after isolation. Stopping antibiotics is not always required if the causative antibiotic is not identified. Culture is redundant; isolation is the priority. Informing infection control can follow but is not the single immediate action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40523aefe517",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman presents with diarrhoea 5 days after completing a course of amoxicillin for a chest infection. Her temperature is 38.0°C, heart rate 95 bpm, and blood pressure 110/70 mmHg. Which laboratory finding indicates severe C. difficile infection?",
+      "options": [
+        "White cell count 17 × 10⁹/L",
+        "Albumin 35 g/L",
+        "Sodium 135 mmol/L",
+        "Creatinine 80 µmol/L (baseline 60 µmol/L)",
+        "Haemoglobin 110 g/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A white cell count >15 × 10⁹/L is a NICE criterion for severe C. difficile infection. The creatinine rise is not >50% baseline, and albumin is normal (severe <30 g/L), so the WCC is the most concerning red flag.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "719fe507cf96",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man being treated for C. difficile infection with oral vancomycin develops sudden abdominal distension and severe pain. His temperature is 38.9°C and heart rate 120 bpm. Which radiological finding is most critical?",
+      "options": [
+        "Colonic wall thickening on CT",
+        "Ascites on ultrasound",
+        "Free air under the diaphragm on erect chest X-ray",
+        "Colonic diameter 7 cm on abdominal X-ray",
+        "Small bowel obstruction on abdominal X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "A colonic diameter >6 cm indicates toxic megacolon, a life‑threatening complication of C. difficile. Free air suggests perforation but is a later finding; toxic megacolon must be recognised earlier to prevent perforation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "99c622dd0232",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with severe C. difficile colitis is in the ICU on intravenous metronidazole and oral vancomycin. Despite 48 hours of treatment, her clinical condition worsens. Which clinical feature most strongly suggests the need for surgical input?",
+      "options": [
+        "White cell count 20 × 10⁹/L",
+        "Diffuse abdominal tenderness with guarding",
+        "Diarrhoea 8 times per day",
+        "Temperature 38.0°C",
+        "Rising C‑reactive protein to 200 mg/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diffuse peritonitis (guarding, rigidity) suggests impending perforation or necrosis and warrants urgent surgical evaluation. The other findings, though abnormal, do not alone indicate the need for colectomy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a0c8ad8af815",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with ulcerative colitis on infliximab and azathioprine presents with bloody diarrhoea and abdominal cramps. Which finding strongly suggests C. difficile infection rather than an IBD flare?",
+      "options": [
+        "Elevated faecal calprotectin",
+        "Sigmoidoscopy showing pseudomembranes",
+        "Fever of 38.5°C",
+        "Recent course of antibiotics for a dental infection",
+        "Raised C‑reactive protein"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pseudomembranes are pathognomonic for C. difficile colitis and are not seen in IBD flares. While recent antibiotic use is a risk factor, pseudomembranes provide definitive diagnostic evidence in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ece7c76e1eca",
+      "topic": "C. difficile Infection",
+      "slug": "c.-difficile-infection",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old nursing home resident with mild dementia develops diarrhoea 7 days after co‑amoxiclav. She is started on oral metronidazole. Which laboratory finding indicates severe C. difficile infection and need for escalation?",
+      "options": [
+        "White cell count 12 × 10⁹/L",
+        "Albumin 28 g/L",
+        "Potassium 3.5 mmol/L",
+        "Sodium 130 mmol/L",
+        "C‑reactive protein 50 mg/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Albumin <30 g/L is a NICE criterion for severe C. difficile infection and portends a worse prognosis, especially in the elderly. The other values are only mildly abnormal and do not meet severity thresholds.",
+      "difficulty": "easy"
+    }
+  ]
+}

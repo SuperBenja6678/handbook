@@ -1,0 +1,513 @@
+{
+  "topic": "Psoriasis",
+  "slug": "psoriasis",
+  "system": "Dermatology",
+  "subSystem": "Inflammatory",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:01Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c3587ab3ab9e",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 3-month history of well-demarcated, erythematous plaques with silvery scales on her elbows and knees. She also has pitting of several fingernails. There is no joint pain. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic plaque psoriasis",
+        "Atopic dermatitis",
+        "Seborrhoeic dermatitis",
+        "Lichen planus",
+        "Discoid eczema"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of silvery-scaled plaques on extensor surfaces with nail pitting is classic for chronic plaque psoriasis. Atopic dermatitis typically affects flexures, lacks nail pitting, and is associated with pruritus and a personal/family history of atopy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "97a3881dc183",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with known chronic plaque psoriasis presents with acute onset of widespread erythema and pustules on a background of erythematous skin. He feels unwell with fever and rigors. What is the single most likely diagnosis?",
+      "options": [
+        "Impetigo herpetiformis",
+        "Pustular psoriasis of pregnancy",
+        "Generalised pustular psoriasis",
+        "Pustular drug eruption",
+        "Acute generalised exanthematous pustulosis (AGEP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Generalised pustular psoriasis is a life-threatening exacerbation of psoriasis with widespread pustules on erythematous skin and systemic symptoms. AGEP is drug-induced but typically resolves on withdrawal, not a known psoriasis patient. Impetigo herpetiformis is a variant of pustular psoriasis in pregnancy, but this patient is male.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd27e0567f5e",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with an itchy, scaly scalp. On examination, there are well-defined erythematous plaques with thick, silvery-white scales on the scalp, extending a few centimetres beyond the hairline. No other skin lesions are present. What is the single most likely diagnosis?",
+      "options": [
+        "Scalp psoriasis",
+        "Seborrhoeic dermatitis",
+        "Lichen simplex chronicus",
+        "Contact dermatitis",
+        "Tinea capitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scalp psoriasis presents with well-demarcated plaques with silvery scales, often extending beyond the hairline ('corona of scale'). Seborrhoeic dermatitis has greasy, yellowish scales and is usually less well-defined. Tinea capitis would show broken hairs and possible alopecia, not silvery plaques.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4f1106c7ad0",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with known psoriasis presents with stiffness and pain in her lower back and both hands, worse in the morning and lasting over an hour. She also has swelling of the entire right index finger ('sausage digit'). What is the single most likely diagnosis?",
+      "options": [
+        "Gout",
+        "Ankylosing spondylitis",
+        "Psoriatic arthritis",
+        "Rheumatoid arthritis",
+        "Osteoarthritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of inflammatory back pain (morning stiffness >1 hour) and dactylitis ('sausage digit') in a patient with psoriasis is highly suggestive of psoriatic arthritis. Rheumatoid arthritis typically affects small joints symmetrically without dactylitis, and ankylosing spondylitis does not cause dactylitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce5d44726cc2",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 8-year-old boy presents with a 2-week history of widespread small, drop-like, erythematous papules with fine scales on his trunk and limbs. He had a sore throat 3 weeks ago. There is no personal history of psoriasis, but his father has chronic plaque psoriasis. What is the single most likely diagnosis?",
+      "options": [
+        "Viral exanthem",
+        "Lichen planus",
+        "Pityriasis rosea",
+        "Guttate psoriasis",
+        "Tinea corporis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guttate psoriasis typically presents acutely after a streptococcal infection in children/young adults with a family history of psoriasis. Lesions are small, drop-like, and scaly. Pityriasis rosea has a herald patch and a Christmas tree distribution, not related to sore throat. Viral exanthems are usually non-scaly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6add1ac4fb71",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man presents with a six-week history of well-defined, erythematous plaques with silvery-white scale on his elbows and knees. He is otherwise fit and well. He has no joint symptoms. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Dermoscopy",
+        "Full blood count and inflammatory markers",
+        "No investigation is required",
+        "Skin biopsy for histology",
+        "Anti-streptolysin O titre"
+      ],
+      "answerIndex": 2,
+      "explanation": "In classic plaque psoriasis, the diagnosis is made clinically based on history and examination; no further investigation is needed. Skin biopsy is reserved for atypical presentations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "781c45e13f1b",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with a widespread eruption of small, drop-like, scaly papules on her trunk and proximal limbs. She had a sore throat two weeks ago. What is the most appropriate investigation to support the diagnosis of guttate psoriasis?",
+      "options": [
+        "Throat swab for culture",
+        "Full blood count",
+        "Skin biopsy",
+        "Anti-nuclear antibody test",
+        "Anti-streptolysin O titre (ASOT)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Guttate psoriasis is often triggered by group A streptococcal infection. ASOT is a serological marker of recent streptococcal infection and can support the diagnosis. A throat swab may be negative if the infection has resolved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c87a886c8d1",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with nail pitting, onycholysis, and subungual hyperkeratosis affecting several fingernails. She has no skin lesions elsewhere. What is the single most appropriate investigation to confirm the diagnosis of nail psoriasis?",
+      "options": [
+        "MRI of the hand",
+        "Nail bed ultrasound",
+        "Dermoscopy of nail plate",
+        "Nail biopsy",
+        "Fungal microscopy and culture of nail clippings"
+      ],
+      "answerIndex": 4,
+      "explanation": "Nail psoriasis can mimic onychomycosis. Fungal microscopy and culture should be performed to exclude fungal infection before diagnosing isolated nail psoriasis. Dermoscopy may be suggestive but is not confirmatory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6147277752b0",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old obese man presents with well-demarcated, smooth, erythematous plaques in the axillae and groins. There is minimal scale. He is otherwise well. What is the most appropriate investigation to differentiate inverse psoriasis from a fungal skin infection?",
+      "options": [
+        "Dermoscopy",
+        "Wood's lamp examination",
+        "Patch testing",
+        "Skin biopsy for histology",
+        "Fungal microscopy and culture of skin scrapings"
+      ],
+      "answerIndex": 4,
+      "explanation": "Inverse psoriasis in flexures can mimic candidal or dermatophyte infection. Fungal microscopy and culture is the best test to rule out fungal infection before diagnosing psoriasis. Skin biopsy would be considered if the diagnosis remains uncertain after mycology.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0159871c590",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with a known history of chronic plaque psoriasis presents with a three-week history of rapidly progressive, widespread erythema covering approximately 90% of his body surface area, with oedema and scaling. He is febrile and tachycardic. What is the single most appropriate investigation to confirm the diagnosis of erythrodermic psoriasis?",
+      "options": [
+        "Skin swab for microbiology",
+        "Dermatology referral without further tests",
+        "Serum lactate and C-reactive protein",
+        "Blood cultures",
+        "Skin biopsy for histology"
+      ],
+      "answerIndex": 4,
+      "explanation": "In erythroderma, the clinical picture may be indistinguishable from other causes such as drug eruption or cutaneous T-cell lymphoma. Skin biopsy is essential to confirm the diagnosis of psoriasis and exclude mimics. Blood tests support assessment of severity but do not confirm the specific diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "32576ab02e75",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man presents with a 3-month history of well-demarcated, scaly plaques on his elbows and knees. Less than 5% of his body surface area is affected. He has no nail changes or joint symptoms. What is the most appropriate first-line topical treatment?",
+      "options": [
+        "Combination of potent topical corticosteroid and vitamin D analogue",
+        "Coal tar preparation",
+        "Potent topical corticosteroid alone",
+        "Emollients alone",
+        "Vitamin D analogue alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends a potent corticosteroid plus vitamin D analogue as first-line for mild-to-moderate plaque psoriasis on trunk/limbs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6420840a9b6f",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with chronic plaque psoriasis affecting 12% of her body surface area has failed to respond to potent topical corticosteroids and vitamin D analogues. She has no comorbidities and is not planning pregnancy. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Methotrexate",
+        "Ustekinumab",
+        "Acitretin",
+        "Adalimumab",
+        "Ciclosporin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Methotrexate is first-line systemic for stable plaque psoriasis; ciclosporin and acitretin are alternatives, and biologics are second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9eb6a4c1ffb3",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old man with known psoriasis presents with 3 months of lower back pain and morning stiffness. MRI shows bilateral sacroiliitis. He has no peripheral joint involvement. What is the most appropriate first-line treatment?",
+      "options": [
+        "Prednisolone",
+        "Methotrexate",
+        "Adalimumab",
+        "Non-steroidal anti-inflammatory drug (NSAID)",
+        "Sulfasalazine"
+      ],
+      "answerIndex": 3,
+      "explanation": "For axial psoriatic arthritis, first-line is NSAID; DMARDs like methotrexate are for peripheral disease, and TNF inhibitors are second-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d697a5aaa83b",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with severe plaque psoriasis is being considered for systemic therapy. He has a history of pulmonary tuberculosis treated 5 years ago, but he did not complete the full course. Which of the following systemic therapies is absolutely contraindicated?",
+      "options": [
+        "UVB phototherapy",
+        "Methotrexate",
+        "Adalimumab",
+        "Acitretin",
+        "Ciclosporin"
+      ],
+      "answerIndex": 2,
+      "explanation": "TNF-alpha inhibitors (adalimumab) are contraindicated in active TB or untreated latent TB due to risk of reactivation; other options are not specifically contraindicated (though methotrexate requires caution).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea3a1dcdd3a4",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman has thick, scaly plaques on her scalp extending onto the forehead. She has tried over-the-counter coal tar shampoo with minimal improvement. What is the most appropriate first-line prescription treatment for her scalp psoriasis?",
+      "options": [
+        "Potent topical corticosteroid lotion",
+        "Ketoconazole shampoo",
+        "Emollient cream",
+        "Topical antifungal cream",
+        "Vitamin D analogue ointment"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends a potent or very potent topical corticosteroid as first-line for scalp psoriasis; vitamin D analogues are alternatives but corticosteroids are preferred for initial treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "81852b5a0b8a",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents with well-demarcated, scaly, erythematous plaques on her elbows and knees. She has no joint symptoms and is otherwise well. What is the single most appropriate immediate next action?",
+      "options": [
+        "Refer to dermatology",
+        "Check FBC and LFTs",
+        "Start a potent topical corticosteroid",
+        "Start an emollient",
+        "Perform a skin biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "In mild plaque psoriasis without joint involvement, first-line treatment is a potent topical corticosteroid. Referral is not urgent, emollients are supportive, biopsy is unnecessary, and blood tests are not routinely indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88d0174542e6",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with plaque psoriasis affecting 8% of his body surface area has been using a potent topical corticosteroid for 6 weeks with minimal improvement. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start adalimumab",
+        "Add coal tar preparation",
+        "Switch to methotrexate",
+        "Add a topical vitamin D analogue",
+        "Refer for phototherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends adding a topical vitamin D analogue (e.g., calcipotriol) if psoriasis does not respond to potent topical steroids alone. Systemic therapies (methotrexate, phototherapy, biologics) are reserved for failure of topical combination therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4802bd6318a",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with a history of plaque psoriasis is admitted with widespread erythema, pustules, fever, and malaise. Observations: HR 110, BP 95/60, temp 39°C. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start oral methotrexate",
+        "Administer IV fluids and monitor",
+        "Reassess and escalate to dermatology",
+        "Start intravenous antibiotics",
+        "Apply topical corticosteroids"
+      ],
+      "answerIndex": 2,
+      "explanation": "This presentation suggests pustular psoriasis, a dermatological emergency. Immediate escalation to dermatology is critical for diagnosis and management. While IV fluids and antibiotics may be needed, escalating to the specialist team takes priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "11c553052328",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with known plaque psoriasis presents with a 3-month history of joint pain, morning stiffness lasting over an hour, and swelling in several fingers. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start NSAIDs",
+        "Perform X-rays of hands and feet",
+        "Start methotrexate",
+        "Refer to rheumatology",
+        "Check RF and anti-CCP antibodies"
+      ],
+      "answerIndex": 3,
+      "explanation": "Suspected psoriatic arthritis requires rheumatology referral for definitive diagnosis and management. While NSAIDs and baseline investigations are appropriate, referral is the key first step. Starting methotrexate without specialist input is not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a4acef13202",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman in her second trimester presents with widespread plaque psoriasis affecting 20% body surface area. She is distressed by the rash. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start ciclosporin",
+        "Start methotrexate",
+        "Refer to dermatology",
+        "Start a mild to moderate potency topical corticosteroid",
+        "Start emollients only"
+      ],
+      "answerIndex": 2,
+      "explanation": "Moderate-severe psoriasis in pregnancy requires specialist dermatology input due to the need to balance maternal and fetal risks. While topical corticosteroids are safe, referral to guide treatment is the most appropriate immediate step. Methotrexate is contraindicated; ciclosporin is not first-line without specialist advice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7832d2df0a5f",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known chronic plaque psoriasis presents with sudden onset of widespread erythema and multiple sterile pustules over his trunk and limbs. He feels systemically unwell with fever and malaise. What is the most likely diagnosis?",
+      "options": [
+        "Erythrodermic psoriasis",
+        "Impetigo",
+        "Generalised pustular psoriasis",
+        "Staphylococcal scalded skin syndrome",
+        "Drug eruption"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of widespread sterile pustules with systemic symptoms in a patient with known psoriasis is characteristic of generalised pustular psoriasis, a dermatological emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc97cdfb7391",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with stable plaque psoriasis presents with rapid onset of erythema and scaling covering >90% of her body surface area. She complains of feeling cold and has a high temperature. What is the most likely diagnosis?",
+      "options": [
+        "Acute generalised exanthematous pustulosis",
+        "Scarlet fever",
+        "Generalised pustular psoriasis",
+        "Erythrodermic psoriasis",
+        "Toxic shock syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Erythrodermic psoriasis is defined by widespread erythema and scaling involving ≥90% BSA, often with systemic disturbance, and is a medical emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e5e0fc97875",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with mild plaque psoriasis develops an acute pustular eruption with fever two days after starting amoxicillin for a respiratory infection. He has no history of pustular psoriasis. What is the most likely diagnosis?",
+      "options": [
+        "Acute generalised exanthematous pustulosis",
+        "Erythrodermic psoriasis",
+        "Generalised pustular psoriasis",
+        "Bullous pemphigoid",
+        "Drug reaction with eosinophilia and systemic symptoms"
+      ],
+      "answerIndex": 0,
+      "explanation": "AGEP typically presents within days of a drug and mimics pustular psoriasis; the temporal relationship with amoxicillin is key.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f2b81a199015",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old primigravida at 30 weeks' gestation presents with extensive erythema and pustules that began in the flexures. She feels unwell and laboratory tests reveal hypocalcaemia. What is the most likely diagnosis?",
+      "options": [
+        "Impetigo herpetiformis",
+        "Erythroderma of pregnancy",
+        "Pruritic urticarial papules and plaques of pregnancy",
+        "Generalised pustular psoriasis",
+        "Pemphigoid gestationis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Impetigo herpetiformis is a rare, life-threatening variant of pustular psoriasis in pregnancy, often associated with hypocalcaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "74e2a703f9c6",
+      "topic": "Psoriasis",
+      "slug": "psoriasis",
+      "system": "Dermatology",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with chronic plaque psoriasis has deep fissures in his lower leg plaques. He presents with spreading erythema, warmth, and tenderness around a plaque, along with fever and leukocytosis. What is the most likely diagnosis?",
+      "options": [
+        "Vasculitis",
+        "Cellulitis",
+        "Pustular psoriasis",
+        "Erythrodermic psoriasis",
+        "Contact dermatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fissured plaques can become secondarily infected; cellulitis requires urgent antibiotics to prevent sepsis.",
+      "difficulty": "medium"
+    }
+  ]
+}

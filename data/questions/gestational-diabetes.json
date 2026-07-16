@@ -1,0 +1,513 @@
+{
+  "topic": "Gestational Diabetes",
+  "slug": "gestational-diabetes",
+  "system": "Obstetrics",
+  "subSystem": "Pregnancy complication",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:22Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "41819477fdc4",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 26 weeks gestation undergoes routine 75g oral glucose tolerance test. Fasting plasma glucose is 5.7 mmol/L and 2-hour glucose is 9.1 mmol/L. She is asymptomatic. What is the single most likely diagnosis?",
+      "options": [
+        "Impaired glucose tolerance",
+        "Pre-existing type 2 diabetes mellitus",
+        "Gestational diabetes mellitus",
+        "Impaired fasting glycaemia",
+        "Normal glucose tolerance"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE guidelines, gestational diabetes is diagnosed if fasting glucose ≥5.6 mmol/L or 2-hour glucose ≥7.8 mmol/L after a 75g OGTT. Her results exceed both thresholds. Pre-existing diabetes would typically present earlier or with higher values; impaired fasting or tolerance does not apply as her values meet the diagnostic criteria for diabetes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8af3b9c64972",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman at 32 weeks gestation presents with polyuria and polydipsia lasting two weeks. Random capillary blood glucose is 12.3 mmol/L. Urine ketones are negative. She has no history of diabetes. What is the single most likely diagnosis?",
+      "options": [
+        "Renal glycosuria",
+        "Type 1 diabetes mellitus",
+        "Type 2 diabetes mellitus",
+        "Gestational diabetes mellitus",
+        "Diabetes insipidus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Random glucose ≥11.1 mmol/L is diagnostic of diabetes. In pregnancy, new-onset diabetes is classified as gestational diabetes mellitus (GDM) regardless of subclassification, unless pre-existing. Type 1 or 2 are less likely as she has no prior history. Diabetes insipidus presents with polyuria but normal glucose, and renal glycosuria would have glucosuria without hyperglycaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "88f8405435ae",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 34-year-old woman with a history of gestational diabetes in her previous pregnancy is now 24 weeks pregnant. Fasting plasma glucose at booking was 5.8 mmol/L. She has no symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Normal pregnancy",
+        "Pre-existing type 2 diabetes mellitus",
+        "Gestational diabetes mellitus",
+        "Impaired fasting glycaemia",
+        "Recurrent gestational diabetes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fasting glucose ≥5.6 mmol/L meets NICE criteria for gestational diabetes. Pre-existing type 2 diabetes is possible but she had GDM previously and no pre-pregnancy diagnosis. Impaired fasting glycaemia does not apply as the threshold for diabetes is exceeded. 'Recurrent gestational diabetes' is not a formal diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bdf82c69a46d",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 27-year-old primigravida at 28 weeks gestation has persistent glucosuria on routine urine dipsticks. Fasting plasma glucose is 5.2 mmol/L and 2-hour glucose after 75g OGTT is 7.1 mmol/L. She is asymptomatic. What is the single most likely diagnosis?",
+      "options": [
+        "Renal glycosuria of pregnancy",
+        "Impaired glucose tolerance",
+        "Gestational diabetes mellitus",
+        "Type 2 diabetes mellitus",
+        "Normal pregnancy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Glucosuria in pregnancy is common due to reduced renal threshold; with normal OGTT results, it is likely physiological renal glycosuria. GDM and impaired glucose tolerance are excluded by the normal OGTT values (fasting <5.6, 2h <7.8). Type 2 diabetes would show hyperglycaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "07f1fb029b8f",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman at 36 weeks gestation is noted to have polyhydramnios and fetal abdominal circumference above the 90th centile on ultrasound. She had a normal 75g OGTT at 26 weeks. Repeat OGTT now shows fasting glucose 5.9 mmol/L and 2-hour glucose 8.6 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-existing type 2 diabetes mellitus",
+        "Gestational diabetes mellitus (late-onset)",
+        "Polyhydramnios due to fetal anomaly",
+        "Impaired glucose tolerance",
+        "Macrosomia due to maternal obesity"
+      ],
+      "answerIndex": 1,
+      "explanation": "The repeat OGTT meets NICE criteria for GDM (fasting ≥5.6 or 2h ≥7.8). Late-onset GDM can develop after initial screen. Pre-existing diabetes would likely have been detected earlier. Impaired glucose tolerance does not apply as 2h glucose ≥7.8 is diagnostic. Polyhydramnios and macrosomia are sequelae of GDM, not primary diagnoses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26de500710bd",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old primigravida presents for her booking appointment at 12 weeks' gestation. She has a BMI of 35 kg/m² and a first-degree relative with type 2 diabetes. She has no previous history of gestational diabetes. According to NICE guidelines, what is the single most appropriate investigation to screen for gestational diabetes at this stage?",
+      "options": [
+        "Random plasma glucose",
+        "HbA1c",
+        "Urinalysis for glucose",
+        "Fasting plasma glucose",
+        "75 g oral glucose tolerance test"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends offering an early 75 g OGTT to women with risk factors (e.g., BMI >30, family history of diabetes) at the booking appointment. Random glucose or HbA1c are not recommended for diagnosis of GDM in pregnancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "809c7a990c90",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman undergoes a 75 g oral glucose tolerance test at 26 weeks of gestation. Her fasting plasma glucose is 5.7 mmol/L and the 2-hour value is 8.2 mmol/L. According to NICE diagnostic thresholds for gestational diabetes, what is the correct interpretation?",
+      "options": [
+        "Pre-existing type 2 diabetes",
+        "Gestational diabetes",
+        "Normal glucose tolerance",
+        "Impaired glucose tolerance",
+        "Impaired fasting glucose"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE criteria for GDM are fasting glucose ≥5.6 mmol/L or 2-hour glucose ≥7.8 mmol/L. Both values exceed the thresholds, confirming gestational diabetes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f78e0710741f",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman who was diagnosed with gestational diabetes during her recent pregnancy delivered a healthy baby 6 weeks ago. She is now attending a postpartum follow-up appointment. According to NICE guidelines, what is the single most appropriate investigation to screen for persistent hyperglycaemia at this stage?",
+      "options": [
+        "HbA1c",
+        "Urinalysis for glucose",
+        "75 g oral glucose tolerance test",
+        "Fasting plasma glucose",
+        "Random plasma glucose"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends a fasting plasma glucose at 6–13 weeks postpartum to exclude type 2 diabetes. An OGTT is only indicated if the fasting glucose is abnormal. HbA1c is not reliable in the postpartum period due to changes in red cell turnover.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59089e23f9e7",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with a BMI of 38 kg/m² and previous gestational diabetes is now 16 weeks pregnant. At 12 weeks, a random plasma glucose was 6.6 mmol/L. According to NICE guidance, what is the single most appropriate next investigation?",
+      "options": [
+        "Repeat random plasma glucose",
+        "HbA1c",
+        "Glucose challenge test (50 g)",
+        "75 g oral glucose tolerance test",
+        "Fasting plasma glucose"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends an early OGTT for women with a high risk of GDM (e.g., previous GDM, BMI >30) and should be offered as soon as possible after booking. A random glucose >5.6 mmol/L prompts an OGTT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2452b468589b",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 29-year-old woman who had gestational diabetes attends for a postpartum fasting plasma glucose test at 8 weeks. The result is 6.3 mmol/L. According to WHO/NICE criteria for non-pregnant adults, what is the correct diagnosis?",
+      "options": [
+        "Type 2 diabetes",
+        "Impaired fasting glucose",
+        "Impaired glucose tolerance",
+        "Gestational diabetes (persistent)",
+        "Normal glucose tolerance"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the non-pregnant state, a fasting glucose of 6.1–6.9 mmol/L defines impaired fasting glucose. Type 2 diabetes requires fasting glucose ≥7.0 mmol/L. Gestational diabetes is no longer applicable postpartum.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fa83bb3f2b69",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old primigravida at 28 weeks' gestation is diagnosed with gestational diabetes (GDM) after a 75g OGTT shows fasting glucose 6.2 mmol/L and 2-hour glucose 8.5 mmol/L. She is asymptomatic and has no risk factors for type 2 diabetes. What is the most appropriate first-line management?",
+      "options": [
+        "Insulin isophane (NPH) 10 units at bedtime",
+        "Metformin 500 mg twice daily",
+        "Acarbose 50 mg three times daily",
+        "Lifestyle advice (diet and exercise) with self-monitoring of blood glucose",
+        "Glibenclamide 2.5 mg once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines (NG3) recommend lifestyle modification (diet and exercise) as first-line for GDM. Metformin is added only if glucose targets are not met after 1-2 weeks. Glibenclamide is second-line, insulin is third-line, and acarbose is rarely used in pregnancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "613dcecfda0c",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with GDM diagnosed at 30 weeks has been following dietary advice for two weeks. Her fasting glucose remains 5.8 mmol/L and 1-hour postprandial glucose 7.8 mmol/L. She has no contraindications to metformin. What is the next step in management?",
+      "options": [
+        "Continue lifestyle advice alone for another two weeks",
+        "Start glibenclamide 2.5 mg once daily",
+        "Add acarbose 50 mg three times daily",
+        "Start insulin isophane (NPH) 10 units at bedtime",
+        "Start metformin 500 mg once daily, titrating up to 500 mg three times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE advises metformin as first-line pharmacotherapy when lifestyle measures fail to achieve glycaemic targets (fasting <5.3 mmol/L, 1-hour postprandial <7.8 mmol/L). Glibenclamide is second-line; insulin is reserved for if metformin is insufficient or contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad9ce2e8c365",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with GDM at 36+5 weeks presents to the emergency department with vomiting, abdominal pain, and polyuria. Capillary glucose is 20 mmol/L, urine ketones 4+, arterial pH 7.25, bicarbonate 12 mmol/L. She is diagnosed with diabetic ketoacidosis (DKA) in pregnancy. What is the most appropriate immediate treatment?",
+      "options": [
+        "Subcutaneous rapid-acting insulin analogue every 2 hours",
+        "Intravenous insulin bolus of 0.1 units/kg followed by subcutaneous insulin",
+        "Intravenous fluids and fixed-rate intravenous insulin infusion",
+        "Intravenous 10% dextrose infusion",
+        "Oral rehydration and glibenclamide 2.5 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "DKA in pregnancy is managed identically to DKA in non-pregnant adults: IV fluids and a fixed-rate IV insulin infusion (0.1 units/kg/hour) with close monitoring. Subcutaneous insulin is insufficient; IV bolus is not recommended due to risk of hypoglycaemia; dextrose alone would worsen hyperglycaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "49ad9d412c99",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with GDM controlled on metformin 500 mg three times daily is admitted for an elective caesarean section at 39 weeks. She has no other comorbidities. What is the most appropriate management of her metformin perioperatively?",
+      "options": [
+        "Continue metformin unchanged",
+        "Start intravenous insulin infusion during surgery",
+        "Switch to glibenclamide 24 hours before surgery",
+        "Stop metformin 24 hours before surgery",
+        "Hold metformin on the morning of surgery only"
+      ],
+      "answerIndex": 3,
+      "explanation": "Metformin should be stopped 24 hours before major surgery (including caesarean) to reduce the risk of lactic acidosis. Holding only on the morning is insufficient. Switching to glibenclamide or insulin is not necessary as the woman is well-controlled, but the drug must be held prior to the procedure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3260d8ec931c",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 24-year-old primigravida with GDM at 34 weeks has a fasting glucose of 5.5 mmol/L and postprandial glucose 7.0 mmol/L. She has severe nausea and vomiting due to hyperemesis gravidarum and cannot tolerate oral medications. What is the most appropriate first-line treatment for her GDM?",
+      "options": [
+        "Metformin tablets crushed and given via nasogastric tube",
+        "Acarbose 50 mg dispersible tablets",
+        "Subcutaneous insulin (e.g., isophane insulin 10 units at bedtime)",
+        "Intravenous insulin infusion",
+        "Glibenclamide 2.5 mg sublingually"
+      ],
+      "answerIndex": 2,
+      "explanation": "When oral medications are not tolerated, insulin is the first-line therapy. Subcutaneous insulin is appropriate for stable GDM without acute decompensation. IV insulin is reserved for DKA or severe hyperglycaemia. Crushed metformin would still be oral and likely vomited; glibenclamide and acarbose are not suitable alternatives in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2e042f97a9bb",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 34-year-old primigravida at 28 weeks gestation has her routine 28-week random blood glucose measured as 12.0 mmol/L. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Start metformin",
+        "Advise self-monitoring of capillary blood glucose and provide dietary advice",
+        "Refer for an urgent obstetric ultrasound",
+        "Measure HbA1c",
+        "Arrange a 75g oral glucose tolerance test"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to NICE, a random plasma glucose >11.0 mmol/L is diagnostic of gestational diabetes. No further OGTT is needed. The immediate next step is to start self-monitoring of blood glucose and provide advice on diet and exercise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "92496050ab76",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 29-year-old woman with gestational diabetes, diagnosed at 28 weeks, has been managed with lifestyle advice for 2 weeks. Her self-monitored capillary blood glucose readings are: fasting 5.6 mmol/L, 1-hour postprandial 8.0 mmol/L. She feels well. What is the most appropriate next step?",
+      "options": [
+        "Increase dietary carbohydrate intake",
+        "Arrange an OGTT to confirm diagnosis",
+        "Refer to the diabetes specialist midwife",
+        "Add metformin",
+        "Start insulin"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend that if blood glucose targets are not met with lifestyle changes, metformin should be started as first-line pharmacotherapy. Insulin is added if metformin fails. The other options are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23919cd78d1e",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 26-year-old woman with gestational diabetes on insulin therapy presents to the emergency department feeling sweaty and dizzy. Her capillary blood glucose is 2.8 mmol/L. She is awake and able to swallow. What is the most appropriate immediate action?",
+      "options": [
+        "Give 200 mL of oral Lucozade",
+        "Reduce her insulin dose immediately",
+        "Administer 1 mg glucagon intramuscularly",
+        "Check her serum insulin level",
+        "Start an infusion of 10% dextrose"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a conscious patient with hypoglycaemia, oral quick-acting carbohydrate (e.g., 15-20g glucose) is the first-line treatment. Glucagon or IV glucose is reserved for those unable to take orally. Reducing insulin is not immediate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e85521f42b32",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with gestational diabetes on metformin and insulin is admitted at 34 weeks with a blood pressure of 162/104 mmHg and proteinuria 2+ on dipstick. She has no headache or visual symptoms. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous labetalol",
+        "Give a loading dose of magnesium sulfate",
+        "Insert an indwelling urinary catheter",
+        "Perform a CTG",
+        "Send blood for FBC, LFTs, and U&E"
+      ],
+      "answerIndex": 0,
+      "explanation": "With severe hypertension (≥160/110) and proteinuria, this is severe pre-eclampsia. The immediate priority is to lower blood pressure to reduce risk of maternal stroke; NICE recommends IV labetalol. Magnesium sulfate is for eclampsia prevention but not immediate before BP control. Bloods and CTG are important but not the first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c24b28569004",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with gestational diabetes, managed with metformin and insulin, had an uncomplicated vaginal delivery two days ago. Her fasting capillary blood glucose this morning was 4.6 mmol/L. She is otherwise well. What is the most appropriate next step?",
+      "options": [
+        "Refer to endocrinology for ongoing management",
+        "Discontinue both metformin and insulin",
+        "Start a glucose tolerance diet",
+        "Perform a 75g OGTT now",
+        "Continue metformin and insulin at same doses"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE advises that after delivery, women with gestational diabetes should discontinue glucose-lowering therapy (metformin and insulin) as glucose levels typically return to normal postpartum. They should have a fasting glucose at 6 weeks, but immediate discontinuation is correct. An OGTT is not needed immediately.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "55b10701e222",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 34-year-old woman at 30 weeks gestation is diagnosed with gestational diabetes (OGTT fasting 6.1 mmol/L, 2-hour 9.8 mmol/L). She is started on dietary advice and metformin 500 mg twice daily. Two weeks later, her self-monitored fasting glucose readings are consistently between 5.6 and 5.9 mmol/L. Which single glucose threshold indicates that she now requires urgent escalation to insulin therapy according to NICE guidelines?",
+      "options": [
+        "Random capillary glucose >11.1 mmol/L",
+        "1-hour postprandial glucose >7.8 mmol/L",
+        "Fasting capillary glucose >6.0 mmol/L",
+        "Fasting capillary glucose >5.3 mmol/L",
+        "2-hour postprandial glucose >6.4 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends fasting glucose <5.3 mmol/L. Persistent readings above this threshold despite lifestyle and metformin indicate the need to add insulin. The most tempting distractor is the 1-hour postprandial target of <7.8 mmol/L, but the fasting threshold is more commonly the first to be breached.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "baa415434eb5",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 29-year-old primigravida at 33 weeks gestation with gestational diabetes on insulin presents to the emergency department with a 24-hour history of vomiting, abdominal pain, and drowsiness. Her capillary glucose is 18.5 mmol/L and urine dipstick shows ketones 3+. Which single finding is most important in confirming the life-threatening complication?",
+      "options": [
+        "Serum bicarbonate <15 mmol/L",
+        "Arterial pH <7.30",
+        "Serum lactate >2 mmol/L",
+        "Plasma glucose >15 mmol/L",
+        "Anion gap >14 mEq/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diabetic ketoacidosis (DKA) in pregnancy is defined by acidosis (pH <7.30) with hyperglycaemia and ketosis. While all options are associated with DKA, the arterial pH is the most direct measure of acidosis and is the key diagnostic criterion. Bicarbonate is supportive but less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fb8a50e7147d",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 31-year-old woman with diet-controlled gestational diabetes at 36 weeks reports reduced fetal movements over the past 12 hours. On examination, her symphysial fundal height is 38 cm and the fetus is in cephalic presentation. Cardiotocography (CTG) shows a baseline of 150 bpm with reduced variability and no accelerations. Which single finding is the most immediate red flag for fetal compromise?",
+      "options": [
+        "CTG baseline 150 bpm",
+        "Fetal presentation cephalic",
+        "Reduced fetal movements for 12 hours",
+        "CTG reduced variability and no accelerations",
+        "Symphysial fundal height 38 cm at 36 weeks"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the context of reduced fetal movements, a non-reassuring CTG with reduced variability and absent accelerations is a red flag for fetal hypoxia and requires urgent delivery. Reduced fetal movements alone are a warning but not an emergency per se. The CTG abnormality is the more acute danger sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41147c41b90e",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old woman with gestational diabetes on metformin 1 g twice daily attends her routine 34-week antenatal check. Her blood pressure is 148/92 mmHg. Urine dipstick shows 2+ protein. She complains of a headache for 2 days and mild epigastric discomfort. Which single finding indicates that this is now an obstetric emergency requiring immediate action?",
+      "options": [
+        "Urine protein 2+",
+        "Maternal age 38 years",
+        "Headache for 2 days",
+        "Epigastric discomfort",
+        "Blood pressure 148/92 mmHg"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of hypertension, proteinuria, headache, and epigastric pain is typical of pre-eclampsia. However, the presence of proteinuria ≥2+ on dipstick in a woman with hypertension is the diagnostic threshold for pre-eclampsia and signals the need for urgent assessment and possible delivery. Blood pressure alone (148/92) is not severe; severe pre-eclampsia would be >160/110.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "851b36dc1970",
+      "topic": "Gestational Diabetes",
+      "slug": "gestational-diabetes",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with gestational diabetes on insulin at 28 weeks is reviewed following a hypoglycaemic episode earlier today. She was found by her partner confused with a capillary glucose of 2.4 mmol/L. She recovered after oral glucose. She is now well and her glucose is 5.0 mmol/L. Which single feature of this episode indicates a high risk of recurrence and warrants urgent modification of her insulin regimen?",
+      "options": [
+        "Confusion requiring partner's assistance",
+        "Capillary glucose 2.4 mmol/L",
+        "Gestational age 28 weeks",
+        "Current glucose 5.0 mmol/L",
+        "Recovery after oral glucose"
+      ],
+      "answerIndex": 1,
+      "explanation": "Severe hypoglycaemia (glucose <3.0 mmol/L with confusion) is a red flag for insulin overtreatment and indicates that the dose needs immediate reduction. The glucose level of 2.4 mmol/L is the objective measure of severity. The need for assistance is concerning but the glucose value is the defining threshold for severe hypoglycaemia.",
+      "difficulty": "hard"
+    }
+  ]
+}

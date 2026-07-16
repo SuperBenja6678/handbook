@@ -1,0 +1,513 @@
+{
+  "topic": "Sepsis — ICU Management",
+  "slug": "sepsis-—-icu-management",
+  "system": "Critical Care / ICU",
+  "subSystem": "Infection",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:19Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "cd2c51014f7b",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with urinary retention, confusion, and hypotension. Temperature 35.8°C, HR 110, BP 85/50, RR 22, O2 sat 96% on air. Capillary refill time 4 seconds. Lactate 3.5 mmol/L. Urine dip: nitrites positive, leucocytes positive. What is the single most likely diagnosis?",
+      "options": [
+        "Dehydration",
+        "Delirium due to polypharmacy",
+        "Acute urinary retention",
+        "Adrenal insufficiency",
+        "Urosepsis with hypothermic response"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypothermia in sepsis is an atypical but important presentation, especially in elderly. The positive urine dip, hypotension, and raised lactate confirm urosepsis as the most likely cause of his shock. The other options do not explain the urinary findings and lactate elevation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d36632e80c54",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman, 2 days post-Caesarean section, develops fever (38.9°C), tachycardia (110 bpm), and hypotension (90/55 mmHg). She complains of lower abdominal tenderness and has foul-smelling lochia. Lactate 2.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Pulmonary embolism",
+        "Anaesthetic complication",
+        "Wound infection",
+        "Endometritis / septic shock"
+      ],
+      "answerIndex": 4,
+      "explanation": "The postpartum setting with fever, hypotension, foul-smelling lochia and lower abdominal tenderness is classic for endometritis causing septic shock. Pulmonary embolism would not cause fever and foul lochia; wound infection would have localised superficial signs; UTI is less likely given lochia findings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5b1dc7beccd8",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with known cirrhosis presents with haematemesis. On arrival he is hypotensive (85/40 mmHg), tachycardic (120 bpm), and febrile (38.5°C). Lactate 6.0 mmol/L. He has ascites and mild abdominal tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Hypovolaemic shock due to variceal bleed alone",
+        "Adrenal crisis",
+        "Septic shock due to spontaneous bacterial peritonitis (SBP) with variceal bleed",
+        "Cardiogenic shock"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of haematemesis, fever, and hypotension in a cirrhotic patient with ascites suggests SBP triggering or coexisting with variceal haemorrhage. Hypovolaemic shock alone would not explain the fever. Adrenal crisis and anaphylaxis are unlikely without other features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e419ffc43b16",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old student presents with fever, sore throat, and a diffuse erythematous rash that feels like sandpaper. He is hypotensive (85/50 mmHg) and tachycardic. He has conjunctival injection and a strawberry tongue. What is the single most likely diagnosis?",
+      "options": [
+        "Kawasaki disease",
+        "Scarlet fever",
+        "Meningococcal septicaemia",
+        "Drug reaction",
+        "Streptococcal toxic shock syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fever, hypotension, diffuse erythematous rash, and mucous membrane changes (conjunctival injection, strawberry tongue) are characteristic of toxic shock syndrome, typically caused by streptococcal or staphylococcal infection. Scarlet fever lacks hypotension; meningococcal rash is often petechial; Kawasaki disease is not typically hypotensive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "123c1e415ebf",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with diabetes underwent elective total knee replacement. On day 1 post-op he develops fever (38.6°C), hypotension (88/50 mmHg), and tachycardia (115 bpm). His knee is swollen, red, and painful. Lactate 4.1 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Gout flare",
+        "Aseptic loosening",
+        "Septic shock due to prosthetic joint infection",
+        "Cellulitis",
+        "Deep vein thrombosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Early post-operative fever, hypotension, and a hot, swollen knee with raised lactate are most consistent with septic shock from a prosthetic joint infection. DVT would not cause fever and lactate; gout is inflammatory but would not cause hypotension; cellulitis is less likely to cause acute joint findings and shock.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ec307723fb2e",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old male presents with fever (38.5°C), tachycardia (110/min), hypotension (90/60 mmHg) and a lactate of 2.8 mmol/L. He has a productive cough and chest X-ray shows a right lower lobe consolidation. Suspected sepsis secondary to pneumonia. According to NICE guidelines, what is the single most appropriate investigation to perform before starting antibiotics?",
+      "options": [
+        "Sputum culture",
+        "CT chest",
+        "Procalcitonin level",
+        "Urine pneumococcal antigen",
+        "Blood cultures (from two sites)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends blood cultures before antibiotics in all patients with suspected sepsis to increase yield. The most tempting distractor is sputum culture, but blood cultures have higher yield for bacteraemia and are essential for targeted therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "42df214d35fa",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old female presents with dysuria, fever (38.0°C), heart rate 95/min, blood pressure 120/80 mmHg, and a lactate of 1.8 mmol/L. She has a background of type 2 diabetes and is on metformin. Which of the following is the most appropriate investigation to assess tissue hypoperfusion in this patient?",
+      "options": [
+        "Central venous oxygen saturation",
+        "Mixed venous oxygen saturation",
+        "Serum lactate",
+        "Blood pH",
+        "Base deficit"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lactate is the recommended measure of tissue hypoperfusion in sepsis. Although base deficit and venous oxygen saturation can be used, lactate is the simplest and most widely available. The distractors are more invasive or less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a87048b219c6",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old male with suspected sepsis from a urinary source has a blood pressure of 82/50 mmHg despite 30 mL/kg crystalloids. Heart rate is 115/min, respiratory rate 22/min, and lactate is 3.5 mmol/L. Which of the following best fulfils the diagnostic criteria for septic shock according to the Sepsis-3 definition?",
+      "options": [
+        "Lactate >2 mmol/L and requirement for vasopressors to maintain MAP ≥65 mmHg",
+        "Organ dysfunction and hypotension",
+        "Persistent hypotension after fluids and a lactate >2 mmol/L",
+        "Vasopressor requirement and a lactate >4 mmol/L",
+        "MAP <65 mmHg and lactate >2 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sepsis-3 defines septic shock as sepsis with persisting hypotension requiring vasopressors to maintain MAP ≥65 and lactate >2 despite adequate volume resuscitation. Option b lacks vasopressor requirement; option c has a higher lactate threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "007f547a6aee",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old female with septic shock from pneumonia develops worsening dyspnoea on day 2. Her oxygen saturation is 88% on 50% FiO2. Chest X-ray shows bilateral airspace opacities not due to effusions. Echocardiography shows normal left ventricular function. Which single investigation is most appropriate to confirm a diagnosis of acute respiratory distress syndrome (ARDS)?",
+      "options": [
+        "Arterial blood gas to calculate PaO2/FiO2 ratio",
+        "CT pulmonary angiogram",
+        "Lung biopsy",
+        "Transoesophageal echocardiography",
+        "Bronchoalveolar lavage"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Berlin definition requires PaO2/FiO2 ≤300 mmHg (with PEEP ≥5 cmH2O) for ARDS diagnosis. Echocardiography has ruled out cardiogenic oedema, so the next step is to quantify hypoxaemia. CTPA is for PE, biopsy is invasive and not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "579968ca5b6b",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old male with known alcohol-related liver cirrhosis and ascites presents with fever (38.5°C) and abdominal pain. On examination, there is rebound tenderness. Heart rate 110/min, BP 95/60 mmHg. Which single investigation is most appropriate to confirm the diagnosis of spontaneous bacterial peritonitis (SBP) as the source of sepsis?",
+      "options": [
+        "Serum procalcitonin",
+        "Urine culture",
+        "CT abdomen with contrast",
+        "Blood cultures",
+        "Ascitic fluid polymorphonuclear neutrophil count"
+      ],
+      "answerIndex": 4,
+      "explanation": "The diagnostic criterion for SBP is an ascitic fluid neutrophil count ≥250 cells/μL. Blood cultures may be positive but are not diagnostic of SBP. The most tempting distractor is blood cultures, but the question asks for confirmation of SBP source; paracentesis is the gold standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e7f9a3105b1",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man with community-acquired pneumonia develops septic shock. After 30 mL/kg crystalloid resuscitation, his blood pressure remains 80/40 mmHg, heart rate 110 bpm, lactate 4.2 mmol/L. What is the most appropriate first-line vasopressor?",
+      "options": [
+        "Dopamine",
+        "Phenylephrine",
+        "Vasopressin",
+        "Epinephrine",
+        "Norepinephrine"
+      ],
+      "answerIndex": 4,
+      "explanation": "Norepinephrine is the recommended first-line vasopressor for septic shock due to its strong α-adrenergic effect with less chronotropy, reducing side effects like arrhythmia compared to dopamine or epinephrine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b964af495fd",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with intra-abdominal sepsis is intubated and ventilated. Her PaO2/FiO2 ratio is 160, consistent with moderate ARDS. What is the most appropriate initial ventilation strategy?",
+      "options": [
+        "High-frequency oscillatory ventilation",
+        "Inverse ratio ventilation",
+        "Low tidal volume (6 mL/kg predicted body weight)",
+        "High tidal volume (12 mL/kg)",
+        "Airway pressure release ventilation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Low tidal volume ventilation (6 mL/kg PBW) reduces mortality in ARDS by minimising ventilator-induced lung injury. High tidal volume is harmful; the other options are rescue therapies, not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3aa9264e91f",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with septic shock from a urinary source has arterial blood gas pH 7.05, bicarbonate 10 mmol/L, and lactate 5 mmol/L despite adequate fluid resuscitation and vasopressor support. Which intervention is contraindicated?",
+      "options": [
+        "Intravenous insulin",
+        "0.9% sodium chloride",
+        "Intravenous sodium bicarbonate",
+        "Norepinephrine",
+        "Intravenous albuterol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sodium bicarbonate is not recommended in lactic acidosis due to sepsis; it may worsen intracellular acidosis and has no mortality benefit. Norepinephrine, saline, insulin, and albuterol are not contraindicated, though the latter two are not specifically indicated here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c61eda7f44a6",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old primigravida at 30 weeks' gestation presents with septic shock from pyelonephritis. After fluid resuscitation, she remains hypotensive (BP 85/45 mmHg). Which vasopressor is preferred?",
+      "options": [
+        "Vasopressin",
+        "Norepinephrine",
+        "Phenylephrine",
+        "Epinephrine",
+        "Ephedrine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Norepinephrine is the vasopressor of choice in pregnancy for septic shock due to its favourable placental perfusion profile and safety record. Phenylephrine may cause bradycardia and reduced cardiac output; ephedrine is less potent; vasopressin can cause uterine contractions; epinephrine is second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f77a348b31b9",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with septic shock secondary to perforated diverticulitis develops new-onset atrial fibrillation with ventricular rate 150 bpm. His blood pressure is 90/60 mmHg on norepinephrine 0.2 mcg/kg/min. Which rate control agent is contraindicated?",
+      "options": [
+        "Magnesium",
+        "Diltiazem",
+        "Digoxin",
+        "Metoprolol",
+        "Amiodarone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diltiazem, a non-dihydropyridine calcium channel blocker, is relatively contraindicated in septic shock due to its negative inotropic and vasodilatory effects, which can worsen hypotension. Amiodarone and digoxin are safer; metoprolol may be used cautiously; magnesium is not first-line for rate control in AF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "44647ddb6009",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents to ED with dysuria, fever, and vomiting. Observations: HR 115, BP 85/50, RR 22, SpO2 97% on air, temp 38.9°C. Lactate 4.5 mmol/L. She has received 1 L of Hartmann's solution. What is the single most appropriate next step?",
+      "options": [
+        "Insert a central venous catheter",
+        "Start norepinephrine via peripheral cannula",
+        "Request urgent ICU admission",
+        "Give another 500 mL crystalloid rapidly",
+        "Repeat blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "After initial fluid resuscitation, persistent hypotension with lactate >2 indicates fluid-refractory septic shock. NICE recommends starting a vasopressor (norepinephrine) immediately, even via peripheral access, rather than delaying for central access or giving more fluid without reassessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0855ab2c495f",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old man with COPD is on the ward for community-acquired pneumonia. He has been on IV amoxicillin-clavulanate for 12 hours. Observations: HR 110, BP 110/70, RR 20, SpO2 95% on 2 L, temp 38.2°C, NEWS 5. Lactate 2.8 mmol/L. He remains febrile and tachypnoeic. What is the single most appropriate next step?",
+      "options": [
+        "Check procalcitonin",
+        "Escalate to ICU",
+        "Switch to piperacillin-tazobactam",
+        "Request chest X-ray",
+        "Repeat blood cultures"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lack of improvement after 12–24 hours of antibiotics warrants investigation for resistance or alternative pathogens. Repeating blood cultures is the immediate step to guide further therapy. Empiric switching without culture results is premature and may contribute to resistance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "049ea3c0ee07",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with perforated diverticulitis is in ED. He has received 30 mL/kg crystalloid and IV piperacillin-tazobactam. Observations: HR 125, BP 65/40, RR 28, SpO2 94% on 15 L, temp 38.5°C, lactate 7.2 mmol/L. He is conscious but distressed. What is the single most appropriate next step?",
+      "options": [
+        "Start dobutamine",
+        "Request emergency laparotomy",
+        "Give hydrocortisone",
+        "Perform focused abdominal ultrasound",
+        "Start norepinephrine"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is fluid-refractory septic shock. The immediate step is to start norepinephrine to restore perfusion. Surgery is needed but not before haemodynamic stabilisation. Steroids are not first-line, and dobutamine is for myocardial dysfunction, not initial vasopressor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0754eb9e14b3",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man in ICU on norepinephrine 0.3 mcg/kg/min for septic shock suddenly develops atrial fibrillation with HR 145, BP 90/60 (stable on vasopressor). What is the single most appropriate next step?",
+      "options": [
+        "Synchronised DC cardioversion",
+        "Give amiodarone bolus",
+        "Increase norepinephrine rate",
+        "Check serum potassium and magnesium",
+        "Start digoxin"
+      ],
+      "answerIndex": 3,
+      "explanation": "In septic shock, new-onset AF is often triggered by electrolyte imbalance, high catecholamines, or acidosis. First correct any electrolyte abnormalities (K+ >4.0, Mg2+ >1.0 mmol/L). If the patient is stable, cardioversion or antiarrhythmics are not first-line; increasing vasopressor risks arrhythmia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d375f7e2e150",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 40-year-old pregnant woman (28 weeks) presents with fever, right loin pain, and vomiting. Observations: HR 110, BP 100/60, RR 20, SpO2 97% on air, temp 39.0°C. Fetal heart rate 170 bpm. Urine dip shows nitrites and leukocytes. What is the single most appropriate next step?",
+      "options": [
+        "Start intravenous ceftriaxone",
+        "Transfer to ICU",
+        "Request urgent obstetric review",
+        "Give IV fluid bolus",
+        "Perform renal tract ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "In sepsis, especially in pregnancy, the priority is to administer broad-spectrum antibiotics within 1 hour. Ceftriaxone is appropriate for pyelonephritis. Fluid resuscitation and obstetric involvement are also important but should not delay antibiotics. Ultrasound is not urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3ef65bd36ad0",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents to the emergency department with fever, tachycardia (110 bpm) and hypotension (BP 90/60 mmHg). She has a history of type 1 diabetes. Which single finding in her initial blood tests would most strongly indicate the need for immediate critical care referral?",
+      "options": [
+        "pH 7.30",
+        "Base excess -4",
+        "Lactate 4.5 mmol/L",
+        "Lactate 3.2 mmol/L",
+        "Lactate 2.1 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines classify lactate >4 mmol/L as high-risk sepsis requiring critical care escalation. Lactate 2-4 is intermediate risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bed5068087ee",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man on a medical ward is being treated for a urinary source of sepsis. His nurse escalates care after a routine vital sign assessment. Which NEWS2 score threshold prompts an urgent critical care review?",
+      "options": [
+        "NEWS2 9",
+        "NEWS2 12",
+        "NEWS2 7",
+        "NEWS2 10",
+        "NEWS2 5"
+      ],
+      "answerIndex": 2,
+      "explanation": "NEWS2 score of 7 or more indicates high clinical risk and mandates urgent critical care input. Scores of 5-6 require urgent ward-based review.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "caaae2504cba",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with septic shock develops rapidly worsening dyspnoea and bilateral infiltrates on chest radiograph. An arterial blood gas shows PaO2 8.5 kPa on 60% oxygen (FiO2 0.6). Which PaO2/FiO2 ratio defines the most severe category of ARDS, prompting consideration of prone positioning?",
+      "options": [
+        "<50",
+        "200-300",
+        "<100",
+        "100-200",
+        ">300"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Berlin criteria classify ARDS severity: mild (200-300), moderate (100-200), severe (<100) with PaO2/FiO2 ratio. Severe ARDS often requires advanced strategies like prone ventilation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b4792fde304",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with sepsis secondary to pneumonia continues to deteriorate despite intravenous antibiotics and 2 litres of crystalloid. Her arterial blood gas (on room air) is: pH 7.18, PaO2 9.0 kPa, PaCO2 3.5 kPa, bicarbonate 12 mmol/L, base excess -10. Which single parameter most strongly supports the need for immediate intensive care admission?",
+      "options": [
+        "pH 7.18",
+        "Bicarbonate 12 mmol/L",
+        "PaO2 9.0 kPa",
+        "Base excess -10",
+        "PaCO2 3.5 kPa"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe acidaemia (pH <7.2) in sepsis indicates profound tissue hypoperfusion and is a high-risk criterion for ICU escalation. While other parameters are abnormal, pH <7.2 is a specific red flag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "820383425e41",
+      "topic": "Sepsis — ICU Management",
+      "slug": "sepsis-—-icu-management",
+      "system": "Critical Care / ICU",
+      "subSystem": "Infection",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old student presents with fever, headache, and a non-blanching purpuric rash that appeared suddenly. Which cutaneous finding is most indicative of life-threatening meningococcal sepsis with impending purpura fulminans?",
+      "options": [
+        "Erythematous macules",
+        "Ecchymosis at venipuncture sites",
+        "Purpuric areas with central necrosis",
+        "Petechiae on lower limbs",
+        "Urticaria"
+      ],
+      "answerIndex": 2,
+      "explanation": "Purpura fulminans, characterized by areas of haemorrhagic necrosis, indicates severe disseminated intravascular coagulation and is a hallmark of life-threatening meningococcal sepsis. Simple petechiae or ecchymosis are less specific for immediate life-threat.",
+      "difficulty": "hard"
+    }
+  ]
+}

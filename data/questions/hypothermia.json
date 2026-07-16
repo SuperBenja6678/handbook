@@ -1,0 +1,513 @@
+{
+  "topic": "Hypothermia",
+  "slug": "hypothermia",
+  "system": "Emergency Medicine",
+  "subSystem": "Environmental",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:36:14Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9eaee44acd6d",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman is brought to the emergency department by her neighbour. She was found in her cold flat with the heating off. Core temperature is 32°C, heart rate 40 bpm, respiratory rate 8/min, and blood pressure 90/60 mmHg. She is confused and has slow, shallow breathing. There are no signs of infection or focal neurological deficits. What is the single most likely diagnosis?",
+      "options": [
+        "Hypoglycaemia",
+        "Sepsis",
+        "Myxedema coma",
+        "Stroke",
+        "Hypothermia"
+      ],
+      "answerIndex": 4,
+      "explanation": "The core temperature of 32°C with bradycardia and hypoventilation in the context of cold exposure is diagnostic of hypothermia. Sepsis would typically cause fever or, rarely, hypothermia but with other signs like tachycardia or raised inflammatory markers. Myxedema coma is a differential but less likely without a history of thyroid disease or typical skin changes. Hypoglycaemia and stroke do not cause such profound hypothermia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "27cf34d5e7b7",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old homeless man is found in a park in winter. He is intoxicated with alcohol and has a core temperature of 35°C. He is shivering and confused, with slurred speech. He has no head injury or focal signs. What is the single most likely diagnosis?",
+      "options": [
+        "Wernicke encephalopathy",
+        "Hypothermia",
+        "Head injury",
+        "Hypoglycaemia",
+        "Alcohol withdrawal"
+      ],
+      "answerIndex": 1,
+      "explanation": "The low core temperature (35°C) with shivering and confusion in a patient with alcohol exposure indicates mild hypothermia. Alcohol withdrawal typically presents with hyperthermia, tachycardia, and agitation. Head injury would require a history of trauma. Hypoglycaemia and Wernicke encephalopathy can cause confusion but not a documented low core temperature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "53f56ce34a6d",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 6-year-old child is pulled from a cold lake after a drowning attempt. Core temperature is 30°C. He is unconscious with fixed pupils. Cardiac monitor shows ventricular fibrillation. What is the single most likely diagnosis?",
+      "options": [
+        "Drowning",
+        "Electrolyte disturbance",
+        "Drug overdose",
+        "Hypothermia",
+        "Acute coronary syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "A core temperature of 30°C with ventricular fibrillation after cold-water immersion is classic for severe hypothermia. Acute coronary syndrome is unlikely in a child. Electrolyte disturbances or drug overdose would not typically cause such profound hypothermia alone. Drowning is the mechanism but the primary diagnosis here is hypothermia explaining the arrhythmia and unconscious state.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "be5dd462b434",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with dementia is found in his garden in winter with his clothes removed. Core temperature is 34°C, heart rate 45 bpm, and he is confused with aimless wandering. There is no evidence of infection or trauma. What is the single most likely diagnosis?",
+      "options": [
+        "Myxedema coma",
+        "Hypothermia",
+        "Heat stroke",
+        "Hypoglycaemia",
+        "Sepsis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The paradoxical undressing (removing clothes despite cold) is a classic, albeit atypical, sign of hypothermia in elderly patients. The low core temperature with bradycardia confirms the diagnosis. Heat stroke would present with hyperthermia. Hypoglycaemia and sepsis do not explain the hypothermia and undressing behaviour. Myxedema coma is a possible mimic but less common without prior thyroid history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e243ef1dc0d2",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman undergoes elective hip replacement under general anaesthesia. In recovery, she is shivering and has a core temperature of 35°C. She is haemodynamically stable with no rash, no muscle rigidity, and oxygen saturation 98% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion reaction",
+        "Hypothermia",
+        "Thyroid storm",
+        "Infection",
+        "Malignant hyperthermia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-operative hypothermia is common due to anaesthetic-induced thermoregulatory impairment and cold environment. The shivering and low core temperature are characteristic. Malignant hyperthermia would present with hyperthermia, muscle rigidity, and tachycardia. Infection and transfusion reaction typically cause fever, not hypothermia. Thyroid storm is rare and would cause hyperthermia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f27184b90b25",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 78-year-old woman is found collapsed at home. The ambient temperature is 16°C. She is drowsy but rousable, confused, and shivering. Pulse 52 bpm, BP 98/60. Which of the following is the most accurate method to confirm the diagnosis of hypothermia?",
+      "options": [
+        "Axillary thermometer",
+        "Rectal thermometer",
+        "Bladder catheter thermometer",
+        "Oral thermometer",
+        "Tympanic infrared thermometer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rectal temperature is the most accessible core temperature measurement. Tympanic and axillary readings are less reliable in hypothermia due to peripheral vasoconstriction. Bladder catheter is accurate but invasive and not always immediately available.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7c4f27bf1f95",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old homeless man is found unconscious with a core temperature of 30.2°C. An ECG is performed. Which ECG finding is most characteristic of severe hypothermia?",
+      "options": [
+        "Osborn waves (J waves)",
+        "Atrial fibrillation",
+        "Prolonged PR interval",
+        "T wave inversion",
+        "ST-segment elevation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Osborn waves (J waves) are pathognomonic of hypothermia and are most commonly seen when core temperature falls below 32°C. Atrial fibrillation can occur but is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d0080acab10",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with type 2 diabetes presents with confusion and lethargy. His tympanic temperature is 34.5°C. He has a history of alcohol excess. Which blood test is most important to perform urgently to identify a reversible cause of his hypothermia?",
+      "options": [
+        "Arterial blood gas",
+        "Glucose",
+        "Thyroid stimulating hormone",
+        "Full blood count",
+        "C-reactive protein"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypoglycaemia is a common and rapidly reversible cause of hypothermia in diabetic and alcoholic patients. While thyroid function and sepsis should also be considered, glucose measurement is the most immediate and critical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "298f8b6e54b9",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman presents with confusion after a night out. Her rectal temperature is 32.0°C. According to the UK NICE classification, which core temperature range defines moderate hypothermia in adults?",
+      "options": [
+        "35.0–36.5°C",
+        "32.0–35.0°C",
+        "28.0–32.0°C",
+        "24.0–28.0°C",
+        "<24.0°C"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE, moderate hypothermia is defined by a core temperature of 28.0–32.0°C. Mild is 32–35°C, and severe is <28°C. The patient's temperature of 32.0°C falls at the upper limit of moderate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa10a612cace",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man is brought to the ED after being found in his cold flat. He is shivering and confused. Which temperature measurement method is likely to be the least reliable in this scenario?",
+      "options": [
+        "Oesophageal temperature probe",
+        "Tympanic thermometer",
+        "Bladder catheter thermometer",
+        "Rectal thermometer",
+        "Axillary thermometer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tympanic thermometers are unreliable in hypothermia because they measure infrared energy from the tympanic membrane, which can be affected by ambient temperature and cerumen. Core temperature measurement (rectal, bladder, oesophageal) is recommended. Axillary also underestimates but tympanic is specifically prone to environmental artifact.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e42567222e1a",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old homeless man presents with confusion. Core temperature 32.5°C, heart rate 50 bpm, BP 100/60 mmHg. He is shivering. What is the most appropriate first-line active external rewarming method?",
+      "options": [
+        "Warm humidified oxygen",
+        "Cardiopulmonary bypass",
+        "Forced air warming (e.g., Bair Hugger)",
+        "Warm IV fluids (40°C, 500 mL bolus)",
+        "Warm peritoneal lavage"
+      ],
+      "answerIndex": 2,
+      "explanation": "For mild hypothermia (32-35°C) with shivering, forced air warming is first-line active external rewarming. Warm IV fluids are adjunctive but not primary. Invasive methods are reserved for severe cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "62b24890c91b",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old is found unconscious, core temperature 27°C, in ventricular fibrillation arrest. CPR is ongoing. Which intervention is CONTRAINDICATED in the initial management?",
+      "options": [
+        "Active rewarming with forced air",
+        "Adrenaline 1 mg IV",
+        "Chest compressions",
+        "Defibrillation at 200 J (up to 3 shocks)",
+        "Endotracheal intubation"
+      ],
+      "answerIndex": 1,
+      "explanation": "In hypothermic cardiac arrest, adrenaline and other drugs are withheld until core temperature >30°C due to reduced efficacy and accumulation risk. Defibrillation (up to 3 shocks) and standard resuscitation are otherwise appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "782dfd03aa4c",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with known hypothyroidism (non-compliant) presents with myxedema coma and core temperature 30°C. GCS 10. Which treatment is CONTRAINDICATED?",
+      "options": [
+        "IV levothyroxine 500 mcg",
+        "Warm IV fluids",
+        "Active external rewarming with forced air",
+        "Passive external rewarming",
+        "IV hydrocortisone 100 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "In myxedema coma, active external rewarming can cause vasodilation and cardiovascular collapse. Passive rewarming combined with thyroid hormone (and steroid) replacement is preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6cad2247cb98",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old is rescued from cold water immersion. Core temperature 28°C, no palpable pulse, asystole on monitor. CPR in progress. Which is the most appropriate definitive rewarming method?",
+      "options": [
+        "Forced air rewarming",
+        "Cardiopulmonary bypass (ECMO)",
+        "Warm humidified oxygen",
+        "Warm peritoneal lavage",
+        "Warm IV fluids"
+      ],
+      "answerIndex": 1,
+      "explanation": "For severe hypothermia with cardiac arrest, extracorporeal rewarming (CPB/ECMO) is the gold standard, providing controlled rewarming and circulatory support. Other methods are slower and insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cacadf5c3fa9",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man on chlorpromazine for schizophrenia presents with confusion and core temperature 34°C. He is not shivering. Which drug should be immediately withdrawn?",
+      "options": [
+        "Paracetamol",
+        "Amoxicillin",
+        "Omeprazole",
+        "Aspirin",
+        "Chlorpromazine"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chlorpromazine, an antipsychotic, impairs thermoregulation by inhibiting shivering and causing vasodilation. Withdrawal is key in managing hypothermia. Other drugs listed do not contribute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1160dbb8b817",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 52-year-old homeless man is brought to the Emergency Department by ambulance. He was found sleeping outside. His temperature is 34.2°C (tympanic), heart rate 54 bpm, blood pressure 110/70 mmHg, GCS 15, and he is shivering. He has no other complaints. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Administer a 500 ml bolus of warmed 0.9% sodium chloride",
+        "Call the intensive care team for urgent assessment",
+        "Obtain a core temperature measurement using a low-reading rectal thermometer",
+        "Begin active external rewarming with a forced-air warming blanket",
+        "Check capillary blood glucose and treat if low"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypoglycaemia is a common and reversible cause of hypothermia, especially in homeless/alcoholic patients; it must be corrected urgently. Active rewarming is not indicated for mild hypothermia, and warmed IV fluids are not first line. Temperature measurement is important but treating hypoglycaemia takes priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "43a7d760918a",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman is found on the floor of her home after a fall. Her temperature is 30.8°C (rectal), heart rate 40 bpm, blood pressure 85/50 mmHg, GCS 12. She has a loud systolic murmur. ECG shows atrial fibrillation with a slow ventricular rate. What is the most appropriate immediate next step?",
+      "options": [
+        "Handle the patient gently and minimise movement",
+        "Insert a urinary catheter to monitor urine output",
+        "Begin active external rewarming with forced air",
+        "Obtain a venous blood gas and check electrolytes",
+        "Administer amiodarone 300 mg IV over 20 minutes"
+      ],
+      "answerIndex": 0,
+      "explanation": "In moderate hypothermia (28-32°C), the myocardium is irritable; rough handling can precipitate ventricular fibrillation. Gentle handling is the first priority. Active rewarming is important but must be done cautiously; other actions are not immediately needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "caa78a536135",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man is brought to the Emergency Department in cardiac arrest after being found in a snowdrift. He has a palpable carotid pulse but no respiratory effort. End-tidal CO2 is 1.3 kPa. Core temperature (oesophageal) is 26.1°C. The arrest rhythm is PEA. High-quality CPR is ongoing. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer adrenaline 1 mg IV",
+        "Defibrillate at 200 J (biphasic)",
+        "Place a forced-air warming blanket over the torso",
+        "Prepare for central venous access and warm fluid administration",
+        "Insert a large-bore IV and start warmed crystalloid infusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe hypothermia (<28°C) with cardiac arrest, rapid rewarming is critical; warmed IV fluids are a first step in active internal rewarming. Defibrillation is not indicated for PEA, adrenaline is less effective and may be withheld until core >30°C, external rewarming risks afterdrop.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6e67309a25b7",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 82-year-old nursing home resident is brought in with confusion. Her temperature is 35.0°C (axillary), heart rate 100 bpm, blood pressure 90/60 mmHg, respiratory rate 28/min, oxygen saturations 92% on room air. She has a cough and green sputum. Chest exam reveals reduced breath sounds at the right base. What is the most appropriate immediate next step?",
+      "options": [
+        "Begin active external rewarming with a forced-air blanket",
+        "Administer a 500 ml bolus of warmed crystalloid",
+        "Start broad-spectrum antibiotics after taking blood cultures",
+        "Check capillary blood glucose",
+        "Obtain a chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "In this patient, the hypothermia is likely secondary to sepsis. Treating the underlying infection with early antibiotics is the priority. Rewarming and fluids are important adjuncts but should not delay antibiotics. Blood cultures should be taken first, but the immediate next action is to administer antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "109e4b99cd1f",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 2-year-old boy is brought to the Emergency Department after falling into a cold pond. He was removed quickly and is now shivering. His temperature is 33.1°C (rectal), heart rate 120 bpm, blood pressure 80/50 mmHg, GCS 15. He is crying and moving all limbs. What is the most appropriate immediate next step?",
+      "options": [
+        "Start active external rewarming with a forced-air blanket",
+        "Give a 20 ml/kg bolus of warmed 0.9% sodium chloride",
+        "Check capillary blood glucose",
+        "Administer paracetamol 15 mg/kg for shivering",
+        "Remove wet clothing and wrap in warm blankets"
+      ],
+      "answerIndex": 4,
+      "explanation": "For a child with mild/moderate hypothermia and intact shivering, passive external rewarming by removing wet clothes and insulating is the first step. Active rewarming is not needed; hypoglycaemia can be checked but not the first action; paracetamol is contraindicated; fluids are not first line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7d6387d12c95",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman is found collapsed at home. Her tympanic temperature is 28.5°C. She is unconscious and not moving. Which one of the following clinical findings would you expect to be absent in this patient?",
+      "options": [
+        "Hypotension",
+        "Hyperglycaemia",
+        "Dilated pupils",
+        "Bradycardia",
+        "Shivering"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe hypothermia (core temperature <30°C), shivering is lost because metabolic heat production fails. Bradycardia, hypotension, and dilated pupils can still be present; hyperglycaemia is not typical. The absence of shivering is a key sign of severe hypothermia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "600c11acc375",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known hypothyroidism presents with confusion and a core temperature of 32°C. Which one of the following findings should raise concern for an underlying life-threatening complication?",
+      "options": [
+        "J waves on ECG",
+        "Sinus tachycardia",
+        "Shivering",
+        "Hypotension",
+        "Hyperglycaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension in hypothermia, especially with hypothyroidism, is a red flag for sepsis or adrenal crisis, both life-threatening. J waves and shivering are typical hypothermic findings; sinus tachycardia is unusual (bradycardia is typical) and hyperglycaemia is not a red flag here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "193136b81d4f",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old homeless man is brought in by ambulance after being found in a doorway. He is drowsy but rousable. His temperature is 30.5°C. Which one of the following findings would indicate progression to severe hypothermia?",
+      "options": [
+        "Respiratory rate 10/min",
+        "Blood pressure 90/60 mmHg",
+        "Presence of J waves on ECG",
+        "Absence of shivering",
+        "Heart rate 55 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Absence of shivering occurs below ~30°C and demarcates severe hypothermia. Other options are common in moderate hypothermia. J waves appear at lower temperatures but their presence alone does not define severity like the loss of shivering does.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc26f0f58c04",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with dementia presents with hypothermia (core 34°C) after a fall. She is alert and answering questions but has a mild tremor. Which one of the following features would best identify that this patient has a high risk of deterioration?",
+      "options": [
+        "Core temperature 34°C",
+        "Confusion",
+        "Mild tremor",
+        "Age >70",
+        "Bradycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Confusion out of proportion to baseline indicates moderate hypothermia and risk of progression. Age >70 is a risk factor but not a current deterioration marker. Tremor (shivering) suggests mild hypothermia, and bradycardia is typical and not alarming at 34°C.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a171cd043def",
+      "topic": "Hypothermia",
+      "slug": "hypothermia",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 3-year-old child is brought to ED with lethargy and a temperature of 35°C after being left in a cold room. Which one of the following findings should prompt immediate concern for a life-threatening condition?",
+      "options": [
+        "Bradycardia",
+        "Slow feeding",
+        "Hypoglycaemia",
+        "Mottled skin",
+        "Lethargy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Children with hypothermia are prone to hypoglycaemia due to depleted glycogen stores, which can cause neurological injury and is life-threatening. Lethargy and mottled skin are common in hypothermia; bradycardia is typical. Slow feeding is not an acute emergency.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Obstructive Sleep Apnoea",
+  "slug": "obstructive-sleep-apnoea",
+  "system": "Respiratory",
+  "subSystem": "Sleep",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:18Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9f0be65449c9",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old overweight man (BMI 30) presents with excessive daytime sleepiness, waking up unrefreshed, and loud snoring. His partner reports that he stops breathing during sleep. He has no other medical history. Blood pressure 140/90 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Simple snoring",
+        "Central sleep apnoea",
+        "Obstructive sleep apnoea",
+        "Hypothyroidism",
+        "Narcolepsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of obesity, loud snoring, witnessed apnoeas, and daytime sleepiness is classic for OSA. Central sleep apnoea typically lacks snoring and is seen in heart failure or neurological conditions. Simple snoring does not cause apnoeas or sleepiness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fb3c584577a1",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 38-year-old woman presents with persistent fatigue, morning headaches, and difficulty concentrating. She reports sleeping for 8 hours but not feeling refreshed. Her partner mentions occasional snoring but no witnessed apnoeas. She has a BMI of 28 and a history of anxiety. What is the single most likely diagnosis?",
+      "options": [
+        "Obstructive sleep apnoea",
+        "Depression",
+        "Anaemia",
+        "Chronic fatigue syndrome",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite the lack of witnessed apnoeas, morning headaches and unrefreshing sleep are typical of OSA. Fatigue and concentration difficulties are common. Depression and CFS are differentials, but snoring and weight suggest OSA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc763a8ca768",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known moderate OSA (never treated) presents to the emergency department with acute confusion, headache, and respiratory distress. He gained 12 kg in the past year. On examination, he is obese (BMI 38), has a low GCS, and exhibits paradoxical breathing. ABG on room air: pH 7.28, pCO2 8.4 kPa, pO2 7.2 kPa, HCO3 24 mmol/L. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Myxoedema coma",
+        "Acute exacerbation of COPD",
+        "Central sleep apnoea",
+        "Obesity hypoventilation syndrome",
+        "Severe obstructive sleep apnoea"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute hypercapnic respiratory failure with normal HCO3 indicates acute hypoventilation. In an obese patient with known OSA and recent weight gain, acute severe OSA is the most likely cause. Obesity hypoventilation syndrome would show chronic hypercapnia (raised HCO3).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "175e8e22c876",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 4-year-old boy is brought by his parents with concerns about loud snoring, restless sleep, and frequent awakenings. He is often tired during the day and has been labelled as 'hyperactive' at nursery. He has no history of asthma. Examination reveals enlarged tonsils and a body mass index above the 95th percentile. What is the single most likely diagnosis?",
+      "options": [
+        "Central sleep apnoea",
+        "Paediatric obstructive sleep apnoea",
+        "Attention deficit hyperactivity disorder",
+        "Asthma",
+        "Nocturnal epilepsy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loud snoring, restless sleep, daytime tiredness, and tonsillar hypertrophy are classic for paediatric OSA. ADHD symptoms can mimic the behavioural effects of OSA. Central sleep apnoea is uncommon in children without neurological conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "931d32e8b323",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with a 15-year history of untreated severe OSA presents with progressive dyspnoea on exertion, ankle swelling, and fatigue. He has a loud P2 on auscultation and elevated jugular venous pressure. Spirometry shows a normal FEV1/FVC ratio. What is the single most likely diagnosis?",
+      "options": [
+        "COPD",
+        "Pulmonary hypertension secondary to obstructive sleep apnoea",
+        "Idiopathic pulmonary arterial hypertension",
+        "Left heart failure",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic untreated OSA leads to pulmonary hypertension due to repeated hypoxia and hypercapnia, causing right heart strain. Left heart failure would have different signs (e.g., crackles). COPD would show obstruction on spirometry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2aa2a1c708da",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with excessive daytime sleepiness (Epworth Sleepiness Score 15), loud snoring, and witnessed apnoeas by his wife. He has a body mass index of 32 kg/m². He has no other comorbidities. Which single investigation is most appropriate to confirm the diagnosis of obstructive sleep apnoea?",
+      "options": [
+        "Full polysomnography",
+        "Overnight pulse oximetry",
+        "Epworth Sleepiness Score (already performed)",
+        "Home respiratory polygraphy (limited channel sleep study)",
+        "Arterial blood gas"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the UK, home respiratory polygraphy (limited channel sleep study) is the first-line diagnostic test for patients with a high pre-test probability of obstructive sleep apnoea. Full polysomnography is reserved for cases where home study is inconclusive or if central sleep apnoea is suspected. Overnight oximetry is a screening tool, not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7ced0e83daa",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old woman with a body mass index of 28 kg/m² complains of unrefreshing sleep and mild daytime sleepiness (Epworth Sleepiness Score 11). She snores. A home respiratory polygraphy shows an apnoea-hypopnoea index (AHI) of 4 events per hour and no significant oxygen desaturations. What is the most appropriate next investigation?",
+      "options": [
+        "In-laboratory polysomnography",
+        "No further investigation needed; reassure",
+        "Arterial blood gas analysis",
+        "Repeat home sleep study in 3 months",
+        "Overnight pulse oximetry"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite a negative home sleep study (AHI <5), the patient has a high pre-test probability for OSA. In such cases, UK guidance recommends referral for in-laboratory polysomnography to avoid missing the diagnosis, as home studies may have false negatives. Reassurance is inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0af409266ed3",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with known severe obstructive sleep apnoea (AHI 40) presents with worsening daytime sleepiness and bilateral pedal oedema. He is not on treatment. On examination, his jugular venous pressure is elevated. Which single investigation is most appropriate to confirm the presence of obesity hypoventilation syndrome?",
+      "options": [
+        "Urea and electrolytes",
+        "Arterial blood gas",
+        "Full polysomnography",
+        "Chest X-ray",
+        "Echocardiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "Obesity hypoventilation syndrome is diagnosed by daytime hypercapnia (PaCO2 >45 mmHg) in the presence of obesity and sleep-disordered breathing, after excluding other causes. An arterial blood gas is the definitive investigation. Polysomnography can confirm OSA but not the daytime hypercapnia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "531ed2e30549",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old woman with long-standing untreated obstructive sleep apnoea (AHI 35) develops progressive dyspnoea on exertion. An ECG shows right axis deviation and a right ventricular strain pattern. Which single investigation is most appropriate as the initial test to assess for pulmonary hypertension?",
+      "options": [
+        "CT pulmonary angiogram",
+        "Cardiopulmonary exercise test",
+        "Ventilation-perfusion scan",
+        "Right heart catheterisation",
+        "Transthoracic echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected pulmonary hypertension secondary to OSA, an echocardiogram is the recommended first-line investigation to estimate pulmonary artery systolic pressure. Right heart catheterisation is reserved for cases where echocardiography is inconclusive or if therapeutic intervention is planned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "556229f03c10",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with chronic heart failure (NYHA II) presents with excessive daytime sleepiness and nocturnal dyspnoea. His partner describes irregular, periodic breathing during sleep. Home respiratory polygraphy shows an AHI of 28 events/hour, but central apnoeas are suspected. Which investigation is most appropriate to differentiate central from obstructive sleep apnoea?",
+      "options": [
+        "Brain natriuretic peptide (BNP) level",
+        "Full polysomnography with electroencephalography (EEG)",
+        "Overnight pulse oximetry",
+        "Arterial blood gas",
+        "Repeat home respiratory polygraphy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Full polysomnography with EEG monitoring is required to accurately differentiate central from obstructive apnoeas by identifying the presence or absence of respiratory effort. Home respiratory polygraphy may not adequately distinguish the two. In patients with heart failure and suspected central sleep apnoea, in-lab polysomnography is the gold standard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ec3ffc4a95b",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with a BMI of 32 kg/m² presents with excessive daytime sleepiness (Epworth Sleepiness Scale score 14/24) and witnessed apnoeas. A diagnostic sleep study shows an apnoea-hypopnoea index (AHI) of 25 events/hour. He has no other comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oxygen therapy",
+        "Lifestyle modifications (weight loss, exercise, avoidance of alcohol before bedtime)",
+        "Continuous positive airway pressure (CPAP)",
+        "Mandibular advancement device (MAD)",
+        "Uvulopalatopharyngoplasty (UPPP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE guidelines, CPAP is the first-line treatment for moderate-to-severe symptomatic OSA (AHI ≥15 with symptoms). Lifestyle modifications and MAD are options for mild disease or if CPAP is declined or not tolerated. Surgery and oxygen are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4bceea61cda1",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with a BMI of 28 kg/m² has mild OSA (AHI 8 events/hour) discovered incidentally during a research study. She has no symptoms of daytime sleepiness (Epworth score 6/24) and no cardiovascular comorbidities. What is the most appropriate initial management?",
+      "options": [
+        "Lifestyle advice including weight loss and sleep position changes",
+        "Continuous positive airway pressure (CPAP)",
+        "Tonsillectomy and adenoidectomy",
+        "Mandibular advancement device (MAD)",
+        "Bilevel positive airway pressure (BiPAP)"
+      ],
+      "answerIndex": 0,
+      "explanation": "In mild asymptomatic OSA (AHI <15, no sleepiness), NICE recommends conservative measures such as lifestyle modifications (weight loss, positional therapy). CPAP and MAD are reserved for symptomatic or moderate-to-severe disease. Surgery is not indicated without specific anatomical obstruction, and BiPAP is used for obesity hypoventilation syndrome or respiratory failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "811e6e59b81e",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old man with known severe OSA (AHI 40, on CPAP) is admitted after a fall with a fractured neck of femur. He requires analgesia for preoperative pain. Which analgesic class is most likely to be contraindicated due to his OSA?",
+      "options": [
+        "Morphine sulfate",
+        "Ibuprofen",
+        "Codeine phosphate",
+        "Paracetamol",
+        "Fentanyl"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strong opioids such as morphine are relatively contraindicated in moderate-to-severe OSA due to their respiratory depressant effects, which can worsen apnoeas and lead to respiratory failure. Paracetamol, NSAIDs, and weaker opioids (codeine) are safer, though all opioids carry some risk. Fentanyl is also a strong opioid but is used in controlled settings; however, morphine is the classic agent to avoid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "59c03eae333b",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with obesity (BMI 35 kg/m²) and a known diagnosis of severe OSA is established on CPAP at a pressure of 12 cmH₂O. Despite good adherence (6 hours/night), he continues to report morning headaches, daytime somnolence, and his partner reports snoring. Repeat sleep study on CPAP shows an AHI of 18. What is the most appropriate next step?",
+      "options": [
+        "Change to bilevel positive airway pressure (BiPAP)",
+        "Switch to a mandibular advancement device (MAD)",
+        "Add supplemental oxygen overnight",
+        "Increase CPAP pressure to 15 cmH₂O",
+        "Refer for bariatric surgery"
+      ],
+      "answerIndex": 3,
+      "explanation": "Persistent OSA on CPAP with residual AHI >5 despite good adherence suggests insufficient pressure. The first step is to re-titrate CPAP to a higher pressure (or auto-CPAP) to abolish obstructive events. MAD, oxygen, bariatric surgery, or BiPAP may be considered if CPAP optimization fails or if central apnoeas or hypercapnia develop.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ea105dd8aeb",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 48-year-old woman with a BMI of 42 kg/m² has known OSA (AHI 35) and is currently adherent to CPAP. However, she has persistent daytime hypercapnia (PaCO₂ 6.8 kPa) and morning confusion. A blood gas in clinic confirms obesity hypoventilation syndrome (OHS). What is the most appropriate modification to her therapy?",
+      "options": [
+        "Switch to bilevel positive airway pressure (BiPAP) in spontaneous/timed mode",
+        "Add acetazolamide to stimulate ventilation",
+        "Refer for tracheostomy",
+        "Increase CPAP pressure to 20 cmH₂O",
+        "Start long-term oxygen therapy (LTOT)"
+      ],
+      "answerIndex": 0,
+      "explanation": "OHS with daytime hypercapnia requires ventilatory support to augment alveolar ventilation. BiPAP (non-invasive ventilation) is the first-line therapy as it provides inspiratory pressure support, unlike CPAP which provides only continuous pressure. Acetazolamide is not recommended routinely. LTOT alone does not address hypoventilation, and tracheostomy is reserved for failure of NIV.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "765433ce4b90",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents to his GP with excessive daytime sleepiness (Epworth Sleepiness Scale score 14/24). His partner reports loud snoring and witnessed apnoeas. He has a BMI of 32 kg/m² and no other medical history. What is the most appropriate next step?",
+      "options": [
+        "Advise weight loss and re-evaluate in 3 months",
+        "Start CPAP therapy immediately",
+        "Perform an arterial blood gas analysis",
+        "Refer for an ENT assessment for possible surgery",
+        "Arrange a home sleep study (e.g., limited channel respiratory polygraphy)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends a sleep study to confirm the diagnosis of OSA before initiating CPAP. Starting CPAP without confirmation is inappropriate, and weight loss advice should follow diagnosis. ENT referral is premature, and ABG is not indicated without suspicion of obesity hypoventilation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b63b89b69d05",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 52-year-old woman with recently diagnosed mild obstructive sleep apnoea (AHI 8, oxygen desaturation index 6) reports mild daytime sleepiness (Epworth 10). She is overweight (BMI 29). She has tried sleeping on her side and avoiding evening alcohol but symptoms persist. What is the most appropriate next step?",
+      "options": [
+        "Prescribe modafinil for daytime sleepiness",
+        "Refer for a mandibular advancement device (MAD)",
+        "Start continuous positive airway pressure (CPAP) therapy",
+        "Repeat sleep study to confirm diagnosis",
+        "Advise on an intensive weight loss programme with a target BMI < 25"
+      ],
+      "answerIndex": 4,
+      "explanation": "For mild symptomatic OSA, NICE recommends lifestyle modification (weight loss) as first-line therapy. CPAP is indicated for moderate-severe disease or if lifestyle fails. Modafinil is only for residual sleepiness on CPAP, and MAD is second-line. Repeat sleep study is unnecessary after recent diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2df843bba29b",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known severe obstructive sleep apnoea (on home CPAP at 15 cmH2O) is brought to the emergency department with acute confusion, severe dyspnoea, and hypoxia (SpO2 82% on room air). He is unable to tolerate his CPAP mask due to agitation. His respiratory rate is 35, heart rate 110, BP 140/90. What is the most appropriate immediate next step?",
+      "options": [
+        "Start non-invasive ventilation with bi-level positive airway pressure (BiPAP)",
+        "Attempt to reapply his home CPAP mask with sedation",
+        "Administer high-flow nasal oxygen at 60 L/min",
+        "Check an arterial blood gas and wait for results",
+        "Intubate and start mechanical ventilation"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient likely has acute hypercapnic respiratory failure; BiPAP is superior to CPAP for ventilatory support and is the recommended first-line NIV in this setting. CPAP with sedation is risky, intubation is for NIV failure, high-flow oxygen may not address hypoventilation, and waiting for ABG delays treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e18910befe14",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with long-standing untreated severe obstructive sleep apnoea presents with progressive breathlessness on exertion and ankle swelling. On examination, he has a raised JVP, bilateral pitting oedema, and a loud pulmonary component of the second heart sound. ECG shows right axis deviation. His SpO2 is 94% on air. What is the most appropriate next step?",
+      "options": [
+        "Refer for right heart catheterisation",
+        "Perform a sleep study",
+        "Arrange an echocardiogram to assess pulmonary artery pressure",
+        "Start diuretic therapy for heart failure",
+        "Begin CPAP therapy immediately"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation suggests pulmonary hypertension secondary to OSA. An echocardiogram is the first non-invasive test to estimate pulmonary pressures. Diuretics may be needed later but are not the immediate diagnostic step. CPAP is essential for OSA but does not assess PH. Right heart catheterisation is after echo, and a sleep study is already indicated given untreated OSA, but the immediate concern is the complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9eff182ae23c",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 48-year-old woman with moderate obstructive sleep apnoea has been using CPAP (set at 10 cmH2O) for 6 months. She reports good compliance (usage >6 hours/night) but her Epworth score remains elevated at 16. What is the most appropriate next step?",
+      "options": [
+        "Refer for a drug-induced sleep endoscopy (DISE)",
+        "Perform a polysomnography with CPAP to check for residual events",
+        "Switch to a bi-level positive airway pressure device",
+        "Prescribe modafinil for residual sleepiness",
+        "Increase the CPAP pressure by 2 cmH2O"
+      ],
+      "answerIndex": 1,
+      "explanation": "When symptoms persist despite good compliance, a sleep study with CPAP is recommended to assess for residual apnoea, hypopnoea, or mask issues. Empirically increasing pressure or switching devices is not first-line. DISE is for surgical planning. Modafinil is only after confirming CPAP is optimised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d335795601b8",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old obese man (BMI 36) presents to the GP with snoring, daytime fatigue, and morning headaches. He has a history of hypertension. On examination, you note bilateral ankle oedema and a raised jugular venous pressure. Which single finding most clearly indicates severe disease requiring urgent sleep study and consideration for CPAP?",
+      "options": [
+        "Snoring loudness (heard through door)",
+        "Body mass index >35",
+        "Blood pressure 145/90 mmHg",
+        "Bilateral ankle oedema",
+        "Epworth Sleepiness Scale score >10"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bilateral ankle oedema with raised JVP suggests cor pulmonale due to chronic nocturnal hypoxia, indicating severe OSA with pulmonary hypertension. This is a red flag requiring urgent referral. BMI, snoring loudness, ESS, and mild hypertension are common but do not alone signal imminent right heart failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "25b4d66afe9c",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 48-year-old woman with mild obstructive sleep apnoea (AHI 12) and no significant daytime sleepiness is noted to have hypertension. Despite taking three antihypertensives (ACE inhibitor, calcium channel blocker, thiazide), her clinic BP remains 152/96 mmHg. Which finding identifies her as a high-risk case requiring escalation of OSA management?",
+      "options": [
+        "Resistant hypertension on triple therapy",
+        "AHI >15 events/hour",
+        "Epworth Sleepiness Scale score 8",
+        "Morning blood pressure >130/80 mmHg",
+        "Non-dipping pattern on 24-hour ambulatory BP"
+      ],
+      "answerIndex": 0,
+      "explanation": "Resistant hypertension (BP≥140/90 despite ≥3 agents, including a diuretic) is a recognised complication of OSA and a marker of increased cardiovascular risk. Even with mild OSA, this finding warrants active treatment (CPAP) to improve BP control. The other options are either not present or less specific as red flags.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6976e1cf2938",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known severe OSA (AHI 45) has been non-adherent to CPAP. He is brought to the emergency department with acute confusion, headache, and somnolence. On examination, he has bounding pulses and bilateral papilloedema. An arterial blood gas on room air shows pH 7.28, PaCO2 7.8 kPa, PaO2 8.5 kPa, HCO3- 30 mmol/L. Which single finding confirms life-threatening respiratory failure in this context?",
+      "options": [
+        "HCO3- >30 mmol/L",
+        "PaCO2 >6.0 kPa",
+        "pH <7.35",
+        "Base excess >5 mmol/L",
+        "PaO2 <8.0 kPa"
+      ],
+      "answerIndex": 1,
+      "explanation": "A PaCO2 >6.0 kPa in the presence of acute confusion and a low pH indicates acute-on-chronic hypercapnic respiratory failure. This is a medical emergency requiring urgent ventilatory support. While hypoxaemia (PaO2 8.5) is present, hypercapnia is the key driver of the encephalopathy and the definitive marker of decompensation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f4c4194ed73",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known OSA (AHI 28) has been using CPAP for 2 years with good compliance. He presents with increasing daytime sleepiness, weight gain (5 kg over 6 months), and morning headache. Daytime arterial blood gas while awake shows PaCO2 6.5 kPa, PaO2 9.0 kPa, HCO3- 32 mmol/L. Which single finding on assessment suggests the development of a life-threatening complication?",
+      "options": [
+        "Awake arterial PaCO2 >6.0 kPa",
+        "Echocardiographic evidence of pulmonary hypertension",
+        "Weight gain >5 kg in 6 months",
+        "AHI >30 events/hour",
+        "CPAP compliance <4 hours/night"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent awake hypercapnia (PaCO2 >6.0 kPa) with elevated bicarbonate in a patient on CPAP indicates obesity hypoventilation syndrome (OHS), a serious complication that carries high morbidity and mortality. Weight gain, CPAP non-compliance, or higher AHI may contribute but the hallmark of OHS is daytime hypercapnia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5ecae7a5ba2",
+      "topic": "Obstructive Sleep Apnoea",
+      "slug": "obstructive-sleep-apnoea",
+      "system": "Respiratory",
+      "subSystem": "Sleep",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with severe OSA (AHI 45) and ischaemic cardiomyopathy (LVEF 40%) is scheduled for elective total hip replacement. Which single preoperative finding indicates the highest perioperative risk and mandates initiation of CPAP before surgery?",
+      "options": [
+        "Apnoea-hypopnoea index (AHI) >30 events/hour",
+        "Epworth Sleepiness Scale score >10",
+        "Mean overnight oxygen saturation <90%",
+        "History of morning headache",
+        "Body mass index >40 kg/m²"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe OSA (AHI >30) is an independent risk factor for perioperative complications including hypoxaemia, cardiac arrhythmias, and unplanned ICU admission. In patients with cardiac disease, preoperative CPAP is recommended. Other parameters like hypoxaemia, BMI, ESS, or headache are non-specific or less critical than the AHI threshold for escalation.",
+      "difficulty": "medium"
+    }
+  ]
+}

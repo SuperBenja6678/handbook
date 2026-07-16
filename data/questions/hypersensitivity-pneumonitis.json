@@ -1,0 +1,513 @@
+{
+  "topic": "Hypersensitivity Pneumonitis",
+  "slug": "hypersensitivity-pneumonitis",
+  "system": "Respiratory",
+  "subSystem": "ILD",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:36:07Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "cb2cbb1f600b",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old non-smoker presents with recurrent episodes of fever, cough, and breathlessness occurring 4-6 hours after visiting a friend's farm. Symptoms improve spontaneously over the next 24 hours. Chest X-ray shows fine reticulonodular opacities in the mid-zones. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis",
+        "Allergic rhinitis",
+        "Hypersensitivity pneumonitis (farmer's lung)",
+        "Asthma",
+        "Chronic obstructive pulmonary disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "The temporal relationship (4-6 hours after farm exposure) and recurrent flu-like episodes with radiographic reticulonodular opacities are classic for acute hypersensitivity pneumonitis. Asthma would typically have wheeze and occur more immediately; allergic rhinitis lacks lung involvement; COPD is unlikely in a non-smoker at this age; sarcoidosis is not temporally related to exposure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d662f69aada7",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman who keeps pigeons as a hobby presents with progressive dyspnoea over the past 6 months. She has a dry cough and bilateral fine inspiratory crackles. High-resolution CT shows mosaic attenuation and centrilobular ground-glass nodules. Pulmonary function tests show a restrictive pattern with reduced transfer factor. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis",
+        "Idiopathic pulmonary fibrosis",
+        "Bronchiectasis",
+        "Chronic obstructive pulmonary disease",
+        "Hypersensitivity pneumonitis (bird fancier's lung)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The bird exposure, insidious onset, HRCT findings of mosaic attenuation and centrilobular nodules, and restrictive defect with reduced gas transfer are characteristic of chronic hypersensitivity pneumonitis. IPF typically has honeycombing and bibasal reticular opacities; sarcoidosis often has hilar lymphadenopathy; COPD is obstructive; bronchiectasis shows dilated airways on CT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb0dfced4a84",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old man presents to the emergency department with acute onset of severe dyspnoea, fever, and hypoxaemia (SpO2 88% on room air). He was working in a mouldy building 6 hours earlier. Chest X-ray shows bilateral interstitial infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Acute respiratory distress syndrome",
+        "Community-acquired pneumonia",
+        "Acute asthma exacerbation",
+        "Acute hypersensitivity pneumonitis",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The clear temporal link to a mouldy environment, acute febrile illness with dyspnoea and bilateral infiltrates, and the timing (6 hours after exposure) are diagnostic of acute hypersensitivity pneumonitis. Asthma exacerbation typically has wheeze and reversible obstruction; pneumonia would have focal signs and lobar consolidation; PE causes pleuritic pain and may have normal CXR; ARDS is a syndrome from various causes but here the specific exposure points to HP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd796a96179c",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with a 10-year history of hypersensitivity pneumonitis from bird exposure presents with worsening dyspnoea over 3 months. He now has digital clubbing and signs of right heart failure. High-resolution CT shows extensive honeycombing in the mid and lower zones, with traction bronchiectasis. What is the single most likely diagnosis?",
+      "options": [
+        "Acute exacerbation of idiopathic pulmonary fibrosis",
+        "Chronic hypersensitivity pneumonitis with pulmonary fibrosis",
+        "Pulmonary embolism",
+        "Congestive heart failure",
+        "Chronic obstructive pulmonary disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a known HP patient now developing fibrotic features (clubbing, honeycombing) and right heart failure due to progressive fibrosis. While IPF shares similar HRCT appearances, the history of HP makes chronic HP with fibrosis far more likely. COPD is obstructive and does not cause honeycombing; heart failure mimics but would have pleural effusions and cardiomegaly; PE is acute, not chronic progressive breathlessness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2221f2a511ed",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old office worker presents with recurrent episodes of cough, dyspnoea, and low-grade fever that occur on workdays and improve over weekends and holidays. She has no pets and no known mould exposure at home. Chest X-ray is normal. She works in a building with an air humidification system. What is the single most likely diagnosis?",
+      "options": [
+        "Allergic bronchopulmonary aspergillosis",
+        "Cough-variant asthma",
+        "Hypersensitivity pneumonitis (humidifier lung)",
+        "Asthma",
+        "Vocal cord dysfunction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The work-related pattern (improvement away from work) and exposure to a contaminated humidifier system are classic for hypersensitivity pneumonitis (humidifier lung or 'air-conditioner lung'). Asthma would show wheeze and more immediate symptoms; cough-variant asthma lacks systemic symptoms; vocal cord dysfunction presents with stridor and no fever; ABPA occurs in asthmatics with bronchiectasis and central bronchiectasis on CT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "391d4b4b6ebb",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old non-smoker presents with a 4-week history of dry cough and progressive dyspnoea. He keeps pigeons. Chest X-ray shows bilateral reticulonodular shadowing. What is the most appropriate first investigation to confirm the diagnosis?",
+      "options": [
+        "High-resolution CT thorax (HRCT)",
+        "Methacholine challenge test",
+        "Serum precipitins (specific IgG antibodies)",
+        "Bronchoalveolar lavage (BAL) with lymphocyte subsets",
+        "Transbronchial lung biopsy"
+      ],
+      "answerIndex": 0,
+      "explanation": "HRCT typically shows centrilobular nodules, mosaic attenuation and air trapping, which are highly suggestive of hypersensitivity pneumonitis. Serum precipitins can be false negative or positive and are not diagnostic alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1ba963996665",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old farmer presents with acute onset of cough, dyspnoea, fever and malaise 6 hours after handling mouldy hay. Oxygen saturation is 92% on room air. Chest X-ray shows bilateral ground-glass opacities. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "High-resolution CT thorax (HRCT)",
+        "Serum precipitins (specific IgG antibodies)",
+        "Lung biopsy",
+        "Pulmonary function tests",
+        "Bronchoalveolar lavage (BAL) with lymphocyte subsets"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute hypersensitivity pneumonitis, HRCT typically shows diffuse ground-glass opacities and centrilobular nodules. BAL is invasive and not necessary if history and imaging are typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "732779baa937",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old office worker presents with progressive dyspnoea and cough over 6 months. He has no clear history of antigen exposure. HRCT shows upper lobe predominant fibrosis with honeycombing. Which investigation is most likely to identify the causative antigen?",
+      "options": [
+        "Exhaled nitric oxide measurement",
+        "Methacholine challenge test",
+        "Lung biopsy",
+        "Serum precipitins panel (specific IgG antibodies to common antigens)",
+        "Bronchoalveolar lavage (BAL) with lymphocyte subsets"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serum precipitins can identify antibodies to specific antigens (e.g., moulds, bird proteins), guiding the search for exposure. BAL may show lymphocytosis but does not identify the antigen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9eff3d482b36",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old patient with suspected hypersensitivity pneumonitis undergoes bronchoalveolar lavage (BAL). The results show a lymphocyte count of 40% and a CD4/CD8 ratio of 1.2. What is the most likely interpretation?",
+      "options": [
+        "Normal BAL findings",
+        "Strongly supports hypersensitivity pneumonitis",
+        "Suggests acute infection",
+        "Suggests asthma",
+        "Supports sarcoidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "BAL lymphocytosis >30% and a CD4/CD8 ratio <2 are typical of hypersensitivity pneumonitis; sarcoidosis typically has a higher CD4/CD8 ratio (>3.5).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7a2fd21dbd32",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "According to published diagnostic criteria for hypersensitivity pneumonitis (e.g., ATS/ERS guidelines), which of the following is considered a MAJOR criterion?",
+      "options": [
+        "HRCT mosaic attenuation pattern",
+        "Recurrent episodes of symptoms",
+        "Known exposure to an inciting antigen",
+        "Inspiratory crackles on auscultation",
+        "BAL lymphocytosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exposure to a known antigen is a major criterion; BAL lymphocytosis and HRCT features are minor or supportive criteria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3de3efdf50c8",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old bird keeper presents with 2 weeks of dry cough and mild dyspnoea. CT chest shows centrilobular nodular opacities and mosaic attenuation. Lung function shows mild restriction. He is not hypoxic. Diagnosis: hypersensitivity pneumonitis. What is the most appropriate first-line management?",
+      "options": [
+        "Inhaled beclometasone 400 mcg twice daily",
+        "Long-term oxygen therapy",
+        "Antigen avoidance and monitoring",
+        "Azithromycin 250 mg once daily for 3 months",
+        "Oral prednisolone 0.5 mg/kg for 2 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "In mild, non-progressive HP, antigen avoidance is the cornerstone. Steroids are reserved for severe or progressive disease; inhaled steroids are ineffective. Azithromycin has no proven role, and oxygen is for chronic hypoxemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6a946767dae8",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old farmer with known farmer's lung presents with acute onset of fever, cough and severe dyspnoea over 2 days. He is hypoxic (SaO2 88% on room air) and has bilateral crackles. CT chest shows diffuse ground-glass opacities. What is the most appropriate first-line drug therapy?",
+      "options": [
+        "Inhaled salbutamol 5 mg via nebuliser",
+        "Oral prednisolone 40 mg once daily",
+        "Oral azithromycin 500 mg once daily",
+        "Intravenous methylprednisolone 1 g once daily",
+        "Intravenous cyclophosphamide 500 mg monthly"
+      ],
+      "answerIndex": 1,
+      "explanation": "For acute severe HP, oral prednisolone (0.5-1 mg/kg) is first-line. IV methylprednisolone is reserved for life-threatening exacerbations. Antibiotics are not indicated unless infection proven. Bronchodilators have limited benefit; cyclophosphamide is a steroid-sparing agent for chronic disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cdacfa9ec888",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with chronic hypersensitivity pneumonitis due to mould exposure continues to have progressive dyspnoea and declining FVC over 6 months despite strict antigen avoidance. HRCT shows extensive fibrosis and traction bronchiectasis. What is the most appropriate first-line pharmacological therapy?",
+      "options": [
+        "Oral azathioprine 100 mg once daily",
+        "Oral mycophenolate mofetil 1 g twice daily",
+        "Oral prednisolone 30 mg once daily",
+        "Oral nintedanib 150 mg twice daily",
+        "Intravenous rituximab 1 g two weeks apart"
+      ],
+      "answerIndex": 2,
+      "explanation": "In chronic progressive HP, oral prednisolone is first-line pharmacological therapy after antigen avoidance. Mycophenolate or azathioprine are second-line steroid-sparing options. Nintedanib is for fibrotic ILD but not first-line in HP; rituximab is investigational.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce2e6c69c5ee",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known hypersensitivity pneumonitis (pigeon breeder's lung) develops acute worsening of dyspnoea over 24 hours with new bilateral ground-glass opacities on CT. He is severely hypoxic (SaO2 85% on 15 L O2). What is the most appropriate first-line therapy?",
+      "options": [
+        "Intravenous Amoxicillin 1 g three times daily",
+        "Oral cyclophosphamide 150 mg once daily",
+        "Oral prednisolone 60 mg once daily",
+        "High-dose inhaled beclometasone via nebuliser",
+        "Intravenous methylprednisolone 1 g daily for 3 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is an acute exacerbation of HP. Pulse IV methylprednisolone is recommended for severe exacerbations. Oral prednisolone is used for less severe flares. Antibiotics are not indicated without infection; cyclophosphamide is chronic therapy; inhaled steroids are ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d33f226933b",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (16 weeks gestation) with a 2-week history of cough and dyspnoea is diagnosed with hypersensitivity pneumonitis from feather duvets. She has mild symptoms and normal oxygen saturations. What is the most appropriate first-line management?",
+      "options": [
+        "Inhaled budesonide 200 mcg twice daily",
+        "Oral prednisolone 20 mg once daily",
+        "Oral montelukast 10 mg once daily",
+        "Antigen avoidance and close monitoring",
+        "Oral azithromycin 250 mg once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy, antigen avoidance is safest. Steroids are avoided unless severe disease due to potential fetal risks. Inhaled steroids, montelukast, and azithromycin have no established role in HP and may pose unnecessary risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "269b11f8c33c",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old bird keeper presents with cough, dyspnoea, fever, and crepitations 4–6 hours after cleaning his loft. CXR shows bilateral reticulonodular shadows. What is the single most appropriate immediate next action?",
+      "options": [
+        "Advise avoidance of antigen (remove himself from bird exposure)",
+        "Refer for urgent high-resolution CT chest",
+        "Perform bronchoalveolar lavage",
+        "Start oral prednisolone 40 mg daily",
+        "Arrange lung function tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute hypersensitivity pneumonitis, antigen avoidance is the cornerstone of management and should be advised immediately. Steroids may be considered if symptoms are severe, but avoidance is the first step. CT, BAL, and lung function are not urgent at initial presentation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5f38cf2349d4",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old farmer with known hypersensitivity pneumonitis (farmer's lung) presents with mild dyspnoea and dry cough but no fever or hypoxia. He has been using mouldy hay. What is the single most appropriate immediate next action?",
+      "options": [
+        "Educate on antigen avoidance and use of respiratory protection",
+        "Arrange urgent high-resolution CT chest",
+        "Prescribe a course of oral prednisolone 40 mg daily",
+        "Refer for lung transplantation assessment",
+        "Start inhaled corticosteroids"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mild disease, antigen avoidance is first-line; respiratory protection (e.g., masks) can help prevent recurrence. Systemic steroids are reserved for moderate-severe episodes, and CT is not urgent. Lung transplant is for end-stage disease. Inhaled corticosteroids have no role in HP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "48c1c7ab19dd",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known hypersensitivity pneumonitis presents with acute severe dyspnoea, tachypnoea, hypoxia (SpO2 88% on air), and bilateral crackles. He was exposed to bird droppings yesterday. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer high-flow oxygen",
+        "Arrange transfer to ICU",
+        "Perform urgent bronchoscopy",
+        "Start IV methylprednisolone",
+        "Give nebulised salbutamol"
+      ],
+      "answerIndex": 0,
+      "explanation": "Immediate management of acute severe hypoxia is oxygen therapy. Once oxygen is given, steroids (IV methylprednisolone) can be considered. Bronchoscopy is not urgent and may worsen hypoxia. ICU transfer may be needed but is not the first action. Salbutamol is ineffective for HP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc72933425cc",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman with chronic hypersensitivity pneumonitis develops worsening dyspnoea over weeks, with digital clubbing and fine crackles. HRCT shows honeycombing and traction bronchiectasis. Spirometry: FVC 60% predicted, FEV1/FVC 0.75. What is the single most appropriate immediate next action?",
+      "options": [
+        "Prescribe pirfenidone",
+        "Arrange bronchoscopy with lavage",
+        "Start oral prednisolone",
+        "Initiate long-term oxygen therapy",
+        "Refer for lung transplant assessment"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has advanced fibrotic HP with honeycombing; lung transplant referral is appropriate as disease is likely irreversible. Steroids may have limited benefit, and pirfenidone is not licensed for HP. Bronchoscopy is not diagnostic at this stage. Oxygen therapy may be needed but transplant referral takes priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "823e03db13e5",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with known hypersensitivity pneumonitis (pigeon breeder's) is in remission on long-term low-dose prednisolone. She is planning pregnancy. What is the single most appropriate immediate next action?",
+      "options": [
+        "Switch to azathioprine",
+        "Advise to stop prednisolone before conception",
+        "Refer to a specialist obstetric clinic",
+        "Perform a CT thorax to reassess",
+        "Increase prednisolone dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pregnancy in a patient with HP requires multidisciplinary input from a specialist obstetric clinic to manage medications and disease activity. Stopping prednisolone risks flare; azathioprine is not first-line; increasing dose is not indicated in remission; CT is unnecessary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ec056bc1fff",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old farmer presents with acute onset of fever, cough, and dyspnoea 4 hours after working in a mouldy hay barn. On examination, temperature 38.2°C, fine inspiratory crackles in both lung bases, heart rate 105 bpm, blood pressure 115/75 mmHg, respiratory rate 28/min, and oxygen saturations 87% on room air. Which single finding marks this as a severe episode requiring immediate escalation?",
+      "options": [
+        "Heart rate 105 bpm",
+        "Fine inspiratory crackles",
+        "Oxygen saturations 87% on room air",
+        "Temperature 38.2°C",
+        "Respiratory rate 28/min"
+      ],
+      "answerIndex": 2,
+      "explanation": "An oxygen saturation below 88% indicates severe hypoxaemia and risk of respiratory failure, meeting criteria for high-flow oxygen or ICU referral. Tachycardia, fever, and crackles are common in acute HP but not alone red flags for escalation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c63182e9cdb8",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old non-smoker with known bird fancier’s lung (subacute HP) has progressive dyspnoea over 6 months. Lung function shows FVC 65% predicted, DLCO 45% predicted. High-resolution CT shows reticulation and honeycombing in the lower lobes. Which clinical finding is a red flag for advanced fibrotic HP with pulmonary hypertension?",
+      "options": [
+        "Ground-glass opacities on HRCT",
+        "Positive serum precipitins to avian antigens",
+        "Fine crackles on auscultation",
+        "Reduced FVC on spirometry",
+        "Finger clubbing"
+      ],
+      "answerIndex": 4,
+      "explanation": "Finger clubbing is a late sign of chronic hypoxaemia and fibrosis, suggesting advanced disease and possible pulmonary hypertension. Fine crackles and positive precipitins are typical but not red flags; reduced FVC and GGO are common in HP but not specific for advanced fibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "89a02991fe17",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old woman with known hypersensitivity pneumonitis (due to humidifier exposure) presents with acute worsening of dyspnoea over 12 hours, fever, and cough. She is in respiratory distress, using accessory muscles, SpO2 85% on 15 L O2. Chest X-ray shows bilateral diffuse alveolar opacities. Which diagnosis must be urgently excluded as a life-threatening complication?",
+      "options": [
+        "Aspiration pneumonia",
+        "Myocardial infarction",
+        "Pneumothorax",
+        "Pulmonary embolism",
+        "Acute respiratory distress syndrome (ARDS)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute HP can trigger ARDS due to intense inflammation, manifesting as rapid-onset respiratory failure with bilateral opacities. ARDS is a critical mimic and complication requiring immediate ICU support. Other options are less likely given the acute setting and radiology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "49c554885cf5",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with chronic hypersensitivity pneumonitis (due to occupational metalworking fluid) has gradually worsening dyspnoea and fatigue. On examination, heart rate 88 bpm, BP 118/76 mmHg, JVP not raised, but you note a loud P2 heart sound. Which finding is a red flag for pulmonary hypertension complicating his HP?",
+      "options": [
+        "Hepatomegaly",
+        "Loud pulmonary component of second heart sound (P2)",
+        "Syncope on exertion",
+        "Peripheral oedema",
+        "Elevated jugular venous pressure"
+      ],
+      "answerIndex": 1,
+      "explanation": "A loud P2 is an early and specific sign of pulmonary hypertension, reflecting increased right ventricular afterload. Peripheral oedema, raised JVP, hepatomegaly, and syncope are later, less specific signs. Identifying pulmonary hypertension early in fibrotic HP can change management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "405c501591f5",
+      "topic": "Hypersensitivity Pneumonitis",
+      "slug": "hypersensitivity-pneumonitis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with hypersensitivity pneumonitis (due to home mould) is on maintenance prednisolone 10 mg daily. She presents with new fever (38.5°C), increased cough, and purulent sputum. Her chest X-ray shows a new left lower lobe consolidation. Which finding definitively indicates a superimposed infection rather than an HP flare?",
+      "options": [
+        "New consolidation on chest X-ray",
+        "Positive serum precipitins for mould",
+        "Eosinophilia",
+        "Purulent sputum",
+        "Raised C-reactive protein (CRP)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Consolidation on chest X-ray is highly indicative of bacterial pneumonia, which requires antibiotic therapy and differs from the diffuse ground-glass changes of HP flare. Purulent sputum and raised CRP are non-specific; eosinophilia is not typical in HP; positive precipitins indicate sensitisation, not acute infection.",
+      "difficulty": "hard"
+    }
+  ]
+}

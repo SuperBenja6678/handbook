@@ -1,0 +1,513 @@
+{
+  "topic": "Otitis Externa",
+  "slug": "otitis-externa",
+  "system": "ENT",
+  "subSystem": "Ear",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e066b2e2ec16",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents with 2 days of left ear pain, itching, and a feeling of fullness. He has been swimming in a local pool. On examination, there is tenderness on manipulation of the pinna, and the ear canal is swollen and red with purulent discharge. The tympanic membrane is not visible due to canal edema. What is the single most likely diagnosis?",
+      "options": [
+        "Mastoiditis",
+        "Acute otitis externa",
+        "Foreign body with secondary infection",
+        "Acute otitis media",
+        "Furunculosis of the ear canal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tenderness on manipulation of the pinna is pathognomonic for otitis externa, distinguishing it from otitis media (pain not worsened by pinna movement) and mastoiditis (post-auricular tenderness). Furunculosis is a localized infection with a painful nodule, and foreign body typically has a clear history of insertion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0ab618243e7d",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old diabetic man presents with a 2-week history of left ear pain that has become severe and deep-seated. He also has headache and low-grade fever. Examination shows granulation tissue in the floor of the ear canal, tenderness at the tragus, and the pinna is not markedly swollen. There is no facial nerve palsy. What is the single most likely diagnosis?",
+      "options": [
+        "Acute otitis externa",
+        "Malignant (necrotizing) otitis externa",
+        "Mastoiditis",
+        "Temporal bone osteomyelitis",
+        "Chronic otitis externa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Granulation tissue at the floor of the ear canal in an elderly diabetic patient with deep-seated pain is classic for malignant otitis externa, distinguishing it from acute OE (which lacks granulation) and chronic OE (milder symptoms). Mastoiditis would have post-auricular swelling and tenderness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0509e836cf1a",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 48-year-old woman with a history of using topical antibiotic ear drops for a previous ear infection now presents with itching and discomfort in the ear, but not severe pain. Examination reveals a dry canal with black and white debris resembling wet blotting paper. What is the single most likely diagnosis?",
+      "options": [
+        "Cholesteatoma",
+        "Otomycosis (fungal otitis externa)",
+        "Psoriasis of the ear canal",
+        "Acute bacterial otitis externa",
+        "Chronic otitis externa"
+      ],
+      "answerIndex": 1,
+      "explanation": "The black and white debris (fungal hyphae and spores) and presence of pruritus without severe pain are characteristic of fungal otitis externa. Bacterial OE typically presents with pain and purulent discharge. Cholesteatoma would have white keratin debris but is associated with hearing loss and a retracted tympanic membrane.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1dcba10208c0",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman who uses bilateral hearing aids presents with chronic ear itching and occasional discharge. On examination, the ear canals are erythematous, with moist debris, and the tympanic membranes are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Cholesteatoma",
+        "Allergic contact dermatitis",
+        "Acute otitis externa",
+        "Chronic suppurative otitis media",
+        "Chronic otitis externa"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chronic itching and discharge with a normal tympanic membrane in a hearing aid user points to chronic otitis externa due to occlusion and moisture. Allergic contact dermatitis may have a similar appearance but is less common; cholesteatoma would have a retracted TM with squamous debris; chronic suppurative OM involves TM perforation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2497b8872da1",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old man with atopic eczema presents with bilateral ear itching and flaking skin. Examination shows dry, scaly canals with minimal erythema, and the tympanic membranes are intact. What is the single most likely diagnosis?",
+      "options": [
+        "Seborrheic dermatitis",
+        "Psoriasis of the ear canal",
+        "Otomycosis",
+        "Allergic contact dermatitis",
+        "Eczematous otitis externa (atopic dermatitis)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The history of atopic eczema and symmetrical scaly, itchy canals without discharge is most consistent with eczematous otitis externa. Psoriasis typically has silvery plaques; seborrheic dermatitis affects the scalp and involves greasy scales; allergic contact dermatitis would require a specific allergen exposure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68c89fc45c25",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old swimmer presents with a 3-day history of right ear pain, itchiness, and discharge. On examination, the pinna is tender when manipulated, and the external auditory canal is erythematous and oedematous with purulent debris. The tympanic membrane is not visible due to swelling but appears normal when partially seen. Which single finding on otoscopy is most diagnostic of acute otitis externa?",
+      "options": [
+        "Perforation of the tympanic membrane",
+        "An erythematous, bulging tympanic membrane",
+        "A normal tympanic membrane after clearance of debris",
+        "A white plaque on the tympanic membrane",
+        "A retracted tympanic membrane with fluid level"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute otitis externa, the tympanic membrane is typically normal unless there is secondary otitis media. A normal TM after debris removal is key to differentiating from acute otitis media, which shows a bulging, erythematous TM.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8b51d3f20ed7",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with type 2 diabetes mellitus presents with mild ear pain and discharge for 2 weeks. She has been using over-the-counter ear drops. On examination, the external auditory canal is mildly erythematous with scanty discharge; the tympanic membrane is intact and normal. She has no fever or lymphadenopathy. According to NICE guidelines, which single investigation is most appropriate?",
+      "options": [
+        "Tympanometry",
+        "Ear swab for microbiological culture",
+        "CT scan of temporal bones",
+        "Pure-tone audiometry",
+        "Full blood count"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends ear swab for microbiological culture in patients with diabetes, recurrent infections, or severe disease due to risk of necrotising otitis externa. Audiometry and CT are not first-line in mild cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bda377f44602",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with poorly controlled diabetes presents with severe right ear pain, headache, and fever. Examination reveals granulation tissue in the floor of the external auditory canal and tenderness over the mastoid. Cranial nerve examination reveals a partial right facial nerve palsy. Which single imaging investigation is most appropriate to confirm suspicion of necrotising (malignant) otitis externa?",
+      "options": [
+        "MRI brain with contrast",
+        "Gallium-67 citrate scan",
+        "CT scan of temporal bones with contrast",
+        "Plain X-ray of the mastoids",
+        "Technetium-99m bone scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT with contrast is the first-line imaging to assess for bony erosion and extension in necrotising otitis externa. MRI is better for soft tissue but CT is more accessible and specific for bone involvement. Bone and gallium scans are less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7cd9b0dc76c4",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with HIV (CD4 count 150 cells/µL) presents with ear discharge and pruritus for 3 weeks, not improving on topical antibiotic drops. On examination, there is debris in the ear canal with white, cotton-like material. What is the most appropriate investigation to confirm the suspected diagnosis?",
+      "options": [
+        "CT scan of temporal bones",
+        "Ear swab for bacterial culture",
+        "Pure-tone audiometry",
+        "Biopsy of the canal wall",
+        "Ear swab for fungal culture"
+      ],
+      "answerIndex": 4,
+      "explanation": "The white, cotton-like material and lack of response to antibiotics in an immunocompromised patient suggest fungal otitis externa (e.g., Aspergillus). Fungal culture from a swab is the confirmatory test. Bacterial culture would not detect fungi.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06a31f8876c1",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with recurrent episodes of ear discomfort and discharge over several months. Between episodes, the ear canal appears normal. A swab taken during an acute episode grows Pseudomonas aeruginosa. Based on this result and the clinical history, what is the most likely diagnosis?",
+      "options": [
+        "Allergic contact dermatitis",
+        "Fungal otitis externa",
+        "Malignant (necrotising) otitis externa",
+        "Normal external auditory canal flora",
+        "Typical bacterial otitis externa"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pseudomonas aeruginosa is the most common pathogen in acute otitis externa, especially in swimmers. The recurrent but self-limiting episodes without risk factors (e.g., diabetes) or signs of invasion make typical bacterial OE most likely. Malignant OE would present with severe pain, granulation tissue, and cranial nerve palsies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28fbfc8deeb8",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old woman presents with a 3-day history of right ear pain, itching, and discharge. On otoscopy, there is erythema and oedema of the ear canal with debris. The tympanic membrane is intact. What is the most appropriate first-line treatment?",
+      "options": [
+        "Topical clioquinol + hydrocortisone drops",
+        "Microsuction of debris alone",
+        "Ear wick insertion with steroid drops",
+        "Oral flucloxacillin 500mg QDS",
+        "Topical clotrimazole 1% cream"
+      ],
+      "answerIndex": 0,
+      "explanation": "First-line treatment for uncomplicated acute otitis externa is a topical antibiotic and steroid combination. Oral antibiotics are reserved for spreading cellulitis or systemic features. Antifungals are not indicated unless fungal cause is suspected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5d4a9da1bf0b",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with severe right ear pain and hearing loss. On examination, the ear canal is completely swollen shut with no visible tympanic membrane. There is no fever or cellulitis. What is the most appropriate management?",
+      "options": [
+        "Topical neomycin + dexamethasone drops",
+        "Referral for microsuction under general anaesthesia",
+        "Systemic prednisolone 40mg OD",
+        "Oral ciprofloxacin 500mg BD",
+        "Ear wick insertion followed by topical corticosteroid-antibiotic drops"
+      ],
+      "answerIndex": 4,
+      "explanation": "When canal oedema prevents drop penetration, an ear wick should be inserted to facilitate delivery of topical treatment. Oral antibiotics are not indicated without signs of spread. Systemic steroids are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7fc9547dddf0",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man with poorly controlled diabetes presents with severe left ear pain radiating to the jaw, purulent discharge, and facial nerve palsy. CT scan shows osteomyelitis of the skull base. What is the most appropriate initial antibiotic therapy?",
+      "options": [
+        "Topical ciprofloxacin + dexamethasone drops",
+        "Intravenous ciprofloxacin 400mg BD",
+        "Intravenous co-amoxiclav 1.2g TDS",
+        "Oral ciprofloxacin 750mg BD",
+        "Intravenous flucloxacillin 2g QDS"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is malignant (necrotising) otitis externa, typically caused by Pseudomonas aeruginosa. Intravenous ciprofloxacin provides excellent antipseudomonal coverage and good bone penetration. Oral ciprofloxacin is insufficient for severe disease with osteomyelitis. Co-amoxiclav and flucloxacillin lack adequate antipseudomonal activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ad991b10559",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with a known left tympanic membrane perforation presents with ear pain and discharge. Otoscopy confirms otitis externa. Which of the following topical preparations is contraindicated in this patient?",
+      "options": [
+        "Microsuction and aural toilet",
+        "Ciprofloxacin + dexamethasone drops",
+        "Acetic acid 2% spray",
+        "Clioquinol + hydrocortisone drops",
+        "Neomycin + dexamethasone drops"
+      ],
+      "answerIndex": 4,
+      "explanation": "Aminoglycoside-containing drops (e.g., neomycin, gentamicin) are contraindicated in the presence of tympanic membrane perforation due to risk of ototoxicity. Ciprofloxacin, clioquinol, and acetic acid are safer alternatives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d2c69d5af4d",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man has had three episodes of acute otitis externa in the past year. He is currently symptom-free with an intact tympanic membrane. Which of the following is most appropriate to prevent recurrence?",
+      "options": [
+        "Insertion of ventilation tubes (grommets)",
+        "Daily oral flucloxacillin prophylaxis",
+        "Weekly microsuction by an ENT specialist",
+        "Topical acetic acid 2% spray after swimming",
+        "Regular use of topical neomycin + dexamethasone drops"
+      ],
+      "answerIndex": 3,
+      "explanation": "For recurrent otitis externa, maintaining an acidic canal pH with acetic acid spray after water exposure helps prevent infection. Regular antibiotic drops promote resistance; oral prophylaxis is not indicated; microsuction is not preventive; grommets are for glue ear, not otitis externa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "716ace37ec1d",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman presents to the emergency department with a 3-day history of right ear itching and clear discharge. She denies pain or hearing loss. On examination, the pinna and canal are not swollen, and the tympanic membrane is visible and normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to ENT for microsuction",
+        "Prescribe oral analgesia",
+        "Perform aural toilet (microsuction)",
+        "Prescribe oral antibiotics",
+        "Prescribe a topical antibiotic-corticosteroid preparation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has mild, uncomplicated otitis externa without canal swelling. First-line treatment is topical antibiotic with corticosteroid drops. Aural toilet is often performed but is not the most immediate pharmacological step; the priority is to start appropriate topical treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6b1c81cdea70",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man presents with a 5-day history of right ear pain and discharge. He has difficulty hearing. On examination, the ear canal is swollen and narrow, but the tympanic membrane cannot be visualised. There is no fever. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a wick into the ear canal",
+        "Prescribe topical antibiotic drops alone",
+        "Perform aural toilet",
+        "Refer to ENT for insertion of a wick",
+        "Prescribe oral antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "For moderate otitis externa with canal stenosis, a wick is needed to deliver topical medication. Inserting a wick is the key immediate action; aural toilet may be performed but the wick facilitates treatment. Oral antibiotics are not indicated without systemic features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30c70dfb9ace",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with poorly controlled type 2 diabetes presents with severe right ear pain for 2 weeks, now with purulent discharge and swelling around the ear. He is febrile (38.5°C). On examination, there is tenderness over the mastoid and granulation tissue at the bony-cartilaginous junction of the ear canal. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent CT scan of the temporal bones",
+        "Prescribe topical antibiotic drops and analgesia",
+        "Perform aural toilet and take a swab",
+        "Start intravenous antibiotics (e.g., piperacillin-tazobactam)",
+        "Refer urgently to the ENT team"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is suggestive of malignant (necrotising) otitis externa. Given systemic features and diabetes, immediate initiation of intravenous antibiotics is critical. While ENT referral is essential, antibiotics should not be delayed. Imaging is not the first step in an unstable patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "75e30dea6f15",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman presents with a red, swollen, and tender right pinna, sparing the lobule. She has had otitis externa for 1 week. She is afebrile and systemically well. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to ENT urgently",
+        "Prescribe topical antibiotic drops",
+        "Incise and drain the pinna",
+        "Obtain a CT scan of the temporal bones",
+        "Start intravenous antibiotics (e.g., ciprofloxacin)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Perichondritis is a complication of otitis externa; it requires systemic antibiotics to prevent cartilage necrosis. There is no abscess to drain, so incision is inappropriate. Topical drops are insufficient. IV antibiotics are the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4e0fe6b46a40",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with a history of chronic otitis externa returns with persistent ear itching and discharge after completing a course of topical antibiotic drops. On otoscopy, there are white fluffy deposits in the ear canal. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform aural toilet and send a swab for culture",
+        "Refer to ENT for microsuction",
+        "Prescribe an antifungal ear drop (e.g., clotrimazole)",
+        "Prescribe a different topical antibiotic",
+        "Prescribe oral antifungal medication"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fluffy white deposits after antibiotic use suggest fungal otitis externa. Topical antifungal treatment is the appropriate first step. Aural toilet and culture may be done but are not the most immediate therapeutic action; delaying treatment may worsen symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6b3de7a114ef",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with type 2 diabetes mellitus presents with a 2-week history of right ear pain and purulent discharge. He has been using Gentisone HC drops with no improvement. On examination, there is marked tenderness on movement of the pinna, and the ear canal is oedematous with a small area of granulation tissue at the bony-cartilaginous junction. The tympanic membrane is intact. What single clinical finding would most strongly indicate progression to necrotising (malignant) otitis externa?",
+      "options": [
+        "Conductive hearing loss",
+        "Facial nerve palsy",
+        "Severe pain on tragus manipulation",
+        "Presence of purulent discharge",
+        "Granulation tissue at the bony-cartilaginous junction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Facial nerve palsy indicates deep infection extending to the stylomastoid foramen and is the most specific sign of advanced necrotising otitis externa requiring urgent intervention. Granulation tissue is a common feature but not the most alarming; the other options are typical of uncomplicated acute OE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83596c8f227c",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with severe left ear pain for 5 days. She has been swimming regularly. On examination, the pinna is displaced forward and there is tenderness over the mastoid process. The external auditory canal is oedematous but the tympanic membrane appears normal. What is the most likely complication of her otitis externa?",
+      "options": [
+        "Furunculosis",
+        "Acute mastoiditis",
+        "Cholesteatoma",
+        "Perichondritis",
+        "Necrotising otitis externa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mastoiditis presents with postauricular tenderness and pinna displacement, indicating spread of infection to the mastoid air cells. Furunculosis is localised to a hair follicle; perichondritis spares the lobule; necrotising OE typically occurs in diabetics; cholesteatoma is associated with chronic otitis media.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "867b3ee64ed9",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with poorly controlled diabetes mellitus presents with a 3-week history of severe right ear pain, headache, and yellow discharge. Otoscopy reveals a swollen ear canal with friable granulation tissue. A CT scan of the temporal bone shows erosion of the skull base. What is the most likely diagnosis?",
+      "options": [
+        "Chronic suppurative otitis media",
+        "Cholesteatoma",
+        "Tuberculous otitis media",
+        "Squamous cell carcinoma of the external auditory canal",
+        "Necrotising otitis externa"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of diabetes, granulation tissue, and skull base erosion on CT is diagnostic of necrotising (malignant) otitis externa, an osteomyelitis of the temporal bone. Cholesteatoma and chronic suppurative otitis media usually involve the middle ear. SCC and tuberculous otitis are less common in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db55f7df6e5b",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old renal transplant recipient on tacrolimus and prednisolone presents with a 5-day history of right ear pain and bloody discharge. On examination, the external auditory canal contains a black eschar with surrounding necrosis. The tympanic membrane is not visualised. What life-threatening condition must be urgently excluded?",
+      "options": [
+        "Invasive fungal otitis externa (e.g., mucormycosis)",
+        "Squamous cell carcinoma",
+        "Necrotising otitis externa",
+        "Bullous myringitis",
+        "Herpes zoster oticus (Ramsay Hunt syndrome)"
+      ],
+      "answerIndex": 0,
+      "explanation": "In immunocompromised patients, a black eschar in the ear canal is a classic sign of invasive fungal infection (e.g., mucormycosis), which is rapidly progressive and life-threatening. Necrotising OE typically presents with granulation tissue, not black eschar. Bullous myringitis and Ramsay Hunt involve vesicular rashes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bec251cdb6c9",
+      "topic": "Otitis Externa",
+      "slug": "otitis-externa",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman presents with a painful, swollen left pinna 2 days after ear piercing. The ear canal is normal, but the pinna is erythematous and tender, sparing the lobule. She has no fever. What complication of otitis externa or ear trauma should be suspected?",
+      "options": [
+        "Furunculosis",
+        "Cellulitis",
+        "Auricular haematoma",
+        "Mastoiditis",
+        "Perichondritis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Perichondritis typically spares the lobule (which has no cartilage) and presents with a swollen, erythematous pinna. It can lead to cartilage necrosis if not treated. Auricular haematoma is usually non-tender and follows blunt trauma; furunculosis occurs in the canal; mastoiditis involves postauricular area; cellulitis is diffuse.",
+      "difficulty": "easy"
+    }
+  ]
+}

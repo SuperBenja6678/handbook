@@ -1,0 +1,513 @@
+{
+  "topic": "Anaphylaxis",
+  "slug": "anaphylaxis",
+  "system": "Allergy & Immunology",
+  "subSystem": "Acute reaction",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:48Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "3965af7e8cde",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man is stung by a bee. Within 10 minutes he develops widespread urticaria, stridor, and hypotension (BP 70/40). What is the single most likely diagnosis?",
+      "options": [
+        "Systemic mastocytosis",
+        "Anaphylaxis",
+        "Vasovagal syncope",
+        "Hereditary angioedema",
+        "Panic attack"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of urticaria, respiratory compromise (stridor), and hypotension immediately after an insect sting is classic for anaphylaxis. Vasovagal syncope lacks urticaria and stridor.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "135c1e619b24",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman eats a peanut-containing snack. After 15 minutes, she develops an itchy mouth, periorbital oedema, and mild wheeze. Her blood pressure is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Asthma exacerbation",
+        "Acute urticaria",
+        "Anaphylaxis",
+        "Oral allergy syndrome",
+        "Hereditary angioedema"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of both periorbital oedema (skin) and wheeze (respiratory) indicates systemic involvement beyond mere oral allergy. This fulfils the NICE criteria for anaphylaxis (involvement of at least two organ systems).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea64a3fbae9d",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man receives intravenous co-amoxiclav. Within 5 minutes, he becomes flushed, tachycardic, and profoundly hypotensive (BP 60/40), with severe bronchospasm. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiogenic shock",
+        "Pulmonary embolism",
+        "Anaphylactic shock",
+        "Vasovagal syncope",
+        "Septic shock"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rapid onset after drug administration, along with flushing, bronchospasm, and hypotension, is highly specific for anaphylaxis. Septic shock would develop over hours and usually with fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e7af1c268cfb",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman eats cashew nuts. Thirty minutes later, she develops severe abdominal cramping, vomiting, and diarrhoea. There is no rash, no wheeze, and her blood pressure is 100/70. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis (gastrointestinal presentation)",
+        "Carcinoid syndrome",
+        "Acute gastroenteritis",
+        "Acute pancreatitis",
+        "Food poisoning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Isolated gastrointestinal symptoms can be the sole presentation of anaphylaxis, especially with foods like nuts. Acute gastroenteritis typically has a longer incubation period and is not triggered by a known allergen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5be8146d3847",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman (G1P0, 32 weeks gestation) suddenly develops itching palms, generalised urticaria, wheeze, and hypotension (BP 80/50) shortly after eating shellfish. What is the single most likely diagnosis?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Severe preeclampsia",
+        "Panic attack",
+        "Placental abruption",
+        "Anaphylaxis in pregnancy"
+      ],
+      "answerIndex": 4,
+      "explanation": "The classic symptoms of anaphylaxis (urticaria, wheeze, hypotension) after a known allergen in pregnancy are most likely anaphylaxis. Amniotic fluid embolism occurs during labour, not post-ingestion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b35eb493e70",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman develops urticaria, wheeze, and hypotension 30 minutes after eating a nut-containing curry. After initial emergency treatment, which investigation is most appropriate to help confirm the diagnosis of anaphylaxis?",
+      "options": [
+        "Skin prick test to peanut",
+        "Acute serum tryptase",
+        "Total IgE",
+        "Baseline serum tryptase",
+        "Specific IgE to peanut"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends measuring serum tryptase as soon as possible after emergency treatment to support the clinical diagnosis. Baseline tryptase is needed for comparison but not diagnostic alone. Specific IgE and skin prick identify the trigger but do not confirm acute anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e9c746451dd1",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man had anaphylaxis during general anaesthesia for a hernia repair. He had no previous anaesthetics. After recovery, which investigation is most appropriate to identify the likely trigger?",
+      "options": [
+        "Basophil activation test",
+        "Patch test with latex",
+        "Specific IgE to suxamethonium",
+        "Serum tryptase",
+        "Skin prick test with anaesthetic agents"
+      ],
+      "answerIndex": 4,
+      "explanation": "Skin prick testing is the standard initial investigation for identifying IgE-mediated drug triggers in anaphylaxis, including anaesthetic agents. Serum tryptase is used for diagnosis of the acute episode, not trigger identification. Specific IgE is available for some drugs but not all; intradermal testing is second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67bd4f79c73e",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with suspected anaphylaxis. The emergency department doctor wants to measure serum tryptase. At which time after symptom onset is the specimen most likely to be diagnostic?",
+      "options": [
+        "24 hours",
+        "Within 30 minutes",
+        "1–2 hours",
+        "4–6 hours",
+        "12 hours"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serum tryptase peaks 1–2 hours after anaphylaxis onset and declines with a half-life of about 2 hours. Sampling too early may not capture the peak, and too late may yield a normal value. NICE recommends sampling as soon as possible after emergency treatment, ideally within 1–2 hours.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "434fb3804cf7",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man had anaphylaxis while eating shellfish. Acute serum tryptase was 18 ng/mL (normal <11.4). Baseline tryptase taken later was 8 ng/mL. Which of the following best interprets these results?",
+      "options": [
+        "Suggests idiopathic anaphylaxis",
+        "Confirms anaphylaxis",
+        "False positive due to sample handling",
+        "Suggests mastocytosis",
+        "Inconclusive due to high baseline"
+      ],
+      "answerIndex": 1,
+      "explanation": "An acute tryptase >11.4 ng/mL with a baseline <11.4 ng/mL is consistent with anaphylaxis. The rise from 8 to 18 (125% increase) supports the diagnosis. Mastocytosis typically shows persistently elevated baseline tryptase.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00d6d07d39b7",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "According to NICE guidelines, which of the following is a diagnostic criterion for anaphylaxis?",
+      "options": [
+        "Biphasic reaction pattern",
+        "Acute onset hypotension with known allergen exposure",
+        "Elevated total IgE",
+        "Onset of gastrointestinal symptoms after allergen",
+        "Presence of urticaria alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE defines anaphylaxis as a severe, life-threatening reaction involving airway, breathing, and/or circulation. Acute onset hypotension (or airway difficulty) with known allergen exposure is a typical diagnostic criterion. Urticaria alone, gastrointestinal symptoms, biphasic pattern, and elevated total IgE are not diagnostic criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c71c14f6ce55",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with acute urticaria, stridor, wheeze, and hypotension (BP 70/40 mmHg) within 10 minutes of eating peanuts. The diagnosis of anaphylaxis is established. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Salbutamol 5 mg nebulised",
+        "Adrenaline 0.5 mg intramuscular (1:1000)",
+        "Intravenous adrenaline 100 mcg bolus",
+        "Chlorphenamine 10 mg intramuscular",
+        "Hydrocortisone 200 mg intramuscular"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct first-line treatment for anaphylaxis of any severity is intramuscular adrenaline (0.5 mg in adults). Intravenous adrenaline is reserved for specialist use in refractory cases due to risk of arrhythmias; antihistamines and corticosteroids are second-line adjuncts, and salbutamol treats bronchospasm alone without addressing hypotension or airway oedema.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b23d189dffb4",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man develops generalised urticaria, itchy throat, and mild lip swelling 20 minutes after taking ibuprofen. He has no stridor, wheeze, or hypotension (BP 120/80 mmHg). Anaphylaxis is diagnosed. What is the most appropriate first-line treatment?",
+      "options": [
+        "Observation alone only",
+        "Hydrocortisone 200 mg intramuscular",
+        "Oral cetirizine 10 mg",
+        "Adrenaline 0.5 mg intramuscular (1:1000)",
+        "Chlorphenamine 10 mg intramuscular"
+      ],
+      "answerIndex": 3,
+      "explanation": "Even in mild anaphylaxis, intramuscular adrenaline is the first-line treatment because it rapidly reverses histamine‑mediated vasodilation, oedema, and bronchospasm, and prevents progression. Antihistamines and corticosteroids have a slower onset and are not recommended as monotherapy; observation alone is inadequate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a9dc6e039e0f",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with long-standing hypertension on propranolol (non-selective beta-blocker) develops anaphylaxis to a bee sting with hypotension and wheeze. After confirming anaphylaxis, what is the most appropriate first-line treatment?",
+      "options": [
+        "Salbutamol 5 mg nebulised",
+        "Glucagon 1 mg intramuscular",
+        "Adrenaline 0.5 mg intramuscular (1:1000)",
+        "Intravenous adrenaline 100 mcg bolus",
+        "Chlorphenamine 10 mg intramuscular"
+      ],
+      "answerIndex": 2,
+      "explanation": "Intramuscular adrenaline remains the first-line treatment for anaphylaxis even in patients on beta-blockers. Although beta-blockers may attenuate adrenaline's effect, the dose can be repeated or escalated if needed. Glucagon is a second-line option if adrenaline is ineffective; intravenous adrenaline is not first-line; salbutamol and antihistamines do not address all features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cea41d20ea74",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with anaphylaxis to shellfish remains hypotensive (BP 65/40 mmHg) despite two doses of intramuscular adrenaline (0.5 mg each) given 5 minutes apart. The diagnosis is known. What is the most appropriate next pharmacological treatment?",
+      "options": [
+        "Intravenous glucagon 1 mg",
+        "Intravenous chlorphenamine 10 mg",
+        "Repeat intramuscular adrenaline 0.5 mg a third time",
+        "Intravenous hydrocortisone 200 mg",
+        "Intravenous adrenaline infusion (titrated to response)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In refractory anaphylaxis, intravenous adrenaline (by an experienced clinician with monitoring) is the next step because it can achieve higher and more sustained plasma levels. Repeat IM dosing is less likely to be effective; antihistamines and steroids have a delayed onset; glucagon is considered if beta-blockers are involved, which is not specified here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9f181607ab0d",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman is successfully treated for anaphylaxis to wasp venom. She is now stable and ready for discharge. Which single intervention is the most appropriate definitive management to prevent future episodes?",
+      "options": [
+        "Prescribe oral antihistamines for 1 week",
+        "Refer to Immunology for allergen immunotherapy",
+        "Prescribe oral prednisolone 40 mg daily for 5 days",
+        "Advise her to purchase an adrenaline auto-injector from a pharmacy",
+        "Prescribe two adrenaline auto-injectors"
+      ],
+      "answerIndex": 4,
+      "explanation": "The most important discharge intervention after anaphylaxis is to prescribe two adrenaline auto-injectors and train the patient on their use, as they are the only life-saving treatment for future reactions. Oral antihistamines/steroids do not prevent acute anaphylaxis; allergen immunotherapy requires specialist referral but is not the single most immediate action; purchasing without a prescription is not standard UK practice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18fd157d0244",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 18-year-old with known peanut allergy collapses in the emergency department after accidentally eating a peanut butter sandwich. On examination, he has generalised urticaria, audible wheeze, and a blood pressure of 70/40 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 10 mg intravenous chlorphenamine",
+        "Arrange urgent transfer to the intensive care unit",
+        "Start an intravenous crystalloid bolus",
+        "Give 0.5 mg intramuscular adrenaline (1:1000)",
+        "Give 200 mg intravenous hydrocortisone"
+      ],
+      "answerIndex": 3,
+      "explanation": "IM adrenaline is the first-line treatment for anaphylaxis. It should be given immediately on diagnosis, before other measures such as IV fluids or antihistamines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9baed7f2a1b3",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old with a history of nut allergy presents with a raised, itchy rash on her trunk and mild lip swelling 20 minutes after eating a curry. She has no stridor, wheeze, or hypotension, and SpO2 is 98% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 0.5 mg intramuscular adrenaline (1:1000)",
+        "Call the anaesthetic registrar for airway assessment",
+        "Give 10 mg intravenous chlorphenamine",
+        "Give 200 mg intravenous hydrocortisone",
+        "Give 10 mg oral cetirizine"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is a mild allergic reaction without systemic features (no airway, breathing, or circulation compromise). Oral antihistamines are first-line; IM adrenaline is reserved for anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87a04ac87a38",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old on bisoprolol for hypertension develops anaphylaxis during CT contrast administration. Two doses of intramuscular adrenaline (0.5 mg each) have been given 5 minutes apart, but he remains hypotensive (BP 70/40 mmHg) and wheezy. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 1 mg intravenous glucagon",
+        "Give 200 mg intravenous hydrocortisone",
+        "Arrange emergency transfer to the intensive care unit",
+        "Start intravenous crystalloid (e.g., 500 mL bolus)",
+        "Give a third dose of intramuscular adrenaline"
+      ],
+      "answerIndex": 3,
+      "explanation": "After no response to two IM adrenaline doses, NICE recommends starting IV fluids and considering IV adrenaline infusion. IV crystalloid is the immediate next step to support blood pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2fa6d3b8188d",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman at 28 weeks gestation presents with urticaria, wheeze, and hypotension 30 minutes after taking ibuprofen. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 10 mg oral chlorphenamine",
+        "Give 200 mg intravenous hydrocortisone",
+        "Perform an emergency caesarean section",
+        "Avoid adrenaline because of risk to the fetus",
+        "Give 0.5 mg intramuscular adrenaline (1:1000)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Adrenaline is the first-line treatment for anaphylaxis in pregnancy. It is lifesaving for the mother and safe for the fetus; all other interventions are secondary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fa5176a0114d",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "You are called to a ward where a patient receiving an intravenous co-amoxiclav infusion has suddenly developed urticaria, stridor, and hypotension. The infusion is still running. On arrival, what is the single most appropriate immediate next step?",
+      "options": [
+        "Give 10 mg intravenous chlorphenamine",
+        "Give 0.5 mg intramuscular adrenaline (1:1000)",
+        "Call the cardiac arrest team",
+        "Stop the antibiotic infusion",
+        "Start an intravenous crystalloid bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "The first step in managing anaphylaxis is to remove the triggering agent, if possible. Stopping the infusion takes priority over administering adrenaline because it halts further allergen exposure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ab83c0eb66b7",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man presents to the emergency department 20 minutes after a bee sting. He has generalised urticaria, facial flushing, and is anxious. Which single clinical finding indicates that this is a life-threatening anaphylactic reaction?",
+      "options": [
+        "Stridor",
+        "Widespread urticaria",
+        "Feeling of impending doom",
+        "Conjunctival injection",
+        "Tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor indicates upper airway obstruction from laryngeal oedema, a hallmark of severe anaphylaxis. Widespread urticaria and tachycardia are common but not life-threatening; feeling of impending doom is non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ccfb5f299bb2",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with known peanut allergy develops vomiting, abdominal cramps, and scattered urticaria after eating a curry. She has no respiratory symptoms. Which single feature, if present, would indicate progression to anaphylaxis according to NICE criteria?",
+      "options": [
+        "Lip tingling",
+        "Nausea",
+        "Systolic blood pressure <90 mmHg",
+        "Diarrhoea",
+        "Sneezing"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE defines anaphylaxis as acute onset of hypotension (systolic BP <90 mmHg or drop >30% from baseline) after exposure to a likely allergen. Vomiting and urticaria can occur in mild reactions, while lip tingling and sneezing are early but not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "530afebf42c3",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with ischaemic heart disease on beta-blockers develops anaphylaxis after IV contrast. He receives IM adrenaline but remains hypotensive and bradycardic. Which finding should raise suspicion of a life-threatening complication of anaphylaxis?",
+      "options": [
+        "Diarrhoea",
+        "Wheeze",
+        "Angioedema",
+        "Elevated troponin",
+        "Persistent urticaria"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevated troponin suggests myocardial infarction due to coronary vasospasm (Kounis syndrome), a rare but life-threatening complication of anaphylaxis, especially in patients on beta-blockers. Wheeze and angioedema are common features, not complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e8616fd593c6",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with known mastocytosis develops flushing and abdominal pain after eating spicy food. Which single finding would indicate that this is anaphylaxis rather than a minor mast cell mediator release?",
+      "options": [
+        "Headache",
+        "Urticaria",
+        "Fatigue",
+        "Hypotension",
+        "Pruritus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension indicates systemic anaphylaxis requiring adrenaline. In mastocytosis, mediator release can cause flushing, pruritus, and GI symptoms, but hypotension suggests a severe systemic reaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5dda978988af",
+      "topic": "Anaphylaxis",
+      "slug": "anaphylaxis",
+      "system": "Allergy & Immunology",
+      "subSystem": "Acute reaction",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old asthmatic on beta-blockers develops anaphylaxis after IV contrast. He is given IM adrenaline but remains hypotensive and bradycardic. Which vital sign pattern is most concerning for refractory anaphylaxis?",
+      "options": [
+        "Bradycardia",
+        "Hypertension",
+        "Hypothermia",
+        "Tachypnoea",
+        "Tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent bradycardia despite adrenaline is concerning because beta-blockers blunt the chronotropic response, indicating refractory shock. This may require glucagon. Tachycardia is expected; bradycardia is paradoxical and ominous.",
+      "difficulty": "medium"
+    }
+  ]
+}

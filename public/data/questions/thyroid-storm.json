@@ -1,0 +1,433 @@
+{
+  "topic": "Thyroid Storm",
+  "slug": "thyroid-storm",
+  "system": "Endocrinology",
+  "subSystem": "Thyroid emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:53Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 21,
+  "questions": [
+    {
+      "id": "8967048673d4",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with known Graves' disease on carbimazole presents with confusion, fever (39°C), pulse 140 bpm, and profuse sweating. What is the single most likely diagnosis?",
+      "options": [
+        "Sepsis",
+        "Pheochromocytoma",
+        "Panic attack",
+        "Malignant hyperthermia",
+        "Thyroid storm"
+      ],
+      "answerIndex": 4,
+      "explanation": "The known history of Graves' disease, high fever, tachycardia, and confusion make thyroid storm most likely. Sepsis is a strong mimic but lacks a clear infectious source; pheochromocytoma typically has paroxysmal hypertension, panic attack less severe, and malignant hyperthermia relates to anaesthetics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4f22b1ba4414",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents with weight loss, lethargy, atrial fibrillation (rate 120 bpm), and mild hypothermia (35.5°C). There is no goitre or tremor. What is the single most likely diagnosis?",
+      "options": [
+        "Depression",
+        "Malignancy",
+        "Addison's disease",
+        "Apathetic thyroid storm",
+        "Sepsis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In elderly patients, thyroid storm can present as 'apathetic' with lethargy, atrial fibrillation, weight loss, and hypothermia instead of hyperthermia. Malignancy and depression lack the atrial fibrillation and hypothermia; Addison's disease has hyperpigmentation and hyponatraemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c0864b114a2",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 50-year-old man presents with acute dyspnoea, palpitations, and chest discomfort. He has atrial fibrillation (rate 160 bpm), signs of high-output heart failure, and sweating but no fever. What is the single most likely diagnosis?",
+      "options": [
+        "Sepsis",
+        "Panic attack",
+        "Acute coronary syndrome",
+        "Thyroid storm",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "High-output heart failure, atrial fibrillation, and sweating without fever suggest thyroid storm as a cardiovascular presentation. Acute coronary syndrome would likely show ischaemic ECG changes and less prominent tachycardia; pulmonary embolism often presents with pleuritic pain and hypoxia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7e48649b8e7d",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with palpitations, weight loss, tremor, and heat intolerance for 3 months. Today she has fever (38.5°C), heart rate 140 bpm, and confusion. What is the single most appropriate test to confirm the diagnosis of thyroid storm?",
+      "options": [
+        "Serum TSH",
+        "Radioactive iodine uptake scan",
+        "Free T4",
+        "Thyroid peroxidase antibodies",
+        "Burch-Wartofsky Point Scale"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Burch-Wartofsky Point Scale is the validated clinical diagnostic tool for thyroid storm; it integrates temperature, heart rate, CNS effects, and other features. Lab tests like TSH and free T4 confirm thyrotoxicosis but do not diagnose storm alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d5e81b82777b",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with known Graves' disease on carbimazole presents with worsening palpitations and weight loss. He has atrial fibrillation (heart rate 130 bpm), fever 38.2°C, and agitation. Laboratory results: TSH <0.01 mIU/L, free T4 45 pmol/L (normal 9-22), free T3 12 pmol/L (normal 3-6.8). What do these results confirm?",
+      "options": [
+        "Graves' disease",
+        "Subclinical hyperthyroidism",
+        "Overt hyperthyroidism",
+        "Toxic multinodular goiter",
+        "Thyroid storm"
+      ],
+      "answerIndex": 2,
+      "explanation": "The severely suppressed TSH and elevated free T4 and T3 confirm overt hyperthyroidism. Although the patient has features suggestive of storm, the diagnosis of thyroid storm requires a clinical scoring system (e.g., Burch-Wartofsky) and is not confirmed by labs alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9acb7a46eae",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 28 weeks gestation presents with acute confusion, fever 39°C, and tachycardia (heart rate 150 bpm). She has a known goiter and previously diagnosed hyperthyroidism. Which diagnostic step is most appropriate to confirm thyroid storm?",
+      "options": [
+        "Thyroid ultrasound with Doppler",
+        "ECG",
+        "Burch-Wartofsky Point Scale",
+        "Free T4 and TSH",
+        "Thyroid peroxidase antibodies"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, thyroid storm remains a clinical diagnosis; the Burch-Wartofsky Point Scale is the most appropriate tool to systematically assess and confirm storm. Lab tests show thyrotoxicosis but do not diagnose storm, and other tests are not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a28a8c257626",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with known Graves' disease on antithyroid medication presents with confusion, fever 38.0°C, and tachycardia. His free T4 is at the upper limit of normal (22 pmol/L). What is the single most appropriate next step to establish a diagnosis of thyroid storm?",
+      "options": [
+        "Burch-Wartofsky Point Scale",
+        "TSH receptor antibodies",
+        "Thyroid ultrasound",
+        "Repeat free T4 in 6 hours",
+        "CT head"
+      ],
+      "answerIndex": 0,
+      "explanation": "In suspected thyroid storm with equivocal labs, the Burch-Wartofsky Point Scale is essential to quantify clinical severity and confirm the diagnosis. Other tests do not diagnose storm, and repeat T4 is unlikely to change management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0e9370b8c3b1",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with Graves' disease presents to the emergency department with fever 38.5°C, heart rate 140 bpm, agitation, and diarrhoea. Using the Burch-Wartofsky Point Scale, which score threshold is most commonly used to diagnose thyroid storm?",
+      "options": [
+        "≥45",
+        "≥65",
+        "≥55",
+        "≥35",
+        "≥25"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Burch-Wartofsky score of 45 or higher is widely accepted as indicating thyroid storm. Lower scores suggest impending storm or severe thyrotoxicosis. This threshold is based on original validation studies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ec667b5b15c4",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with Graves' disease presents with confusion, fever 39.5°C, heart rate 150 bpm, and blood pressure 140/80 mmHg. She has no known drug allergies. What is the single most appropriate first-line pharmacological treatment for her thyroid storm?",
+      "options": [
+        "Lugol's iodine 0.5 mL orally stat",
+        "Prednisolone 50 mg orally stat",
+        "Carbimazole 60 mg orally stat",
+        "Paracetamol 1 g orally stat",
+        "Propranolol 40 mg orally (or intravenously) stat"
+      ],
+      "answerIndex": 4,
+      "explanation": "The immediate priority in thyroid storm is to block adrenergic symptoms with a beta-blocker; propranolol also reduces peripheral conversion of T4 to T3. Carbimazole is essential but takes hours to inhibit hormone synthesis. Iodine should only be given after thionamide. Steroids are adjunctive, and paracetamol is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ab2207d6d68f",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known Graves' disease and severe asthma (on regular inhaled corticosteroids) presents with thyroid storm. Heart rate is 160 bpm, temperature 38.8°C, blood pressure 130/80 mmHg. Which drug is most appropriate for controlling his heart rate?",
+      "options": [
+        "Diltiazem 20 mg intravenously",
+        "Amiodarone 300 mg intravenously",
+        "Propranolol 40 mg orally",
+        "Digoxin 0.5 mg intravenously",
+        "Bisoprolol 5 mg orally"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta-blockers are contraindicated in severe asthma due to risk of bronchospasm. Intravenous diltiazem, a non-dihydropyridine calcium channel blocker, effectively reduces heart rate without bronchoconstriction. Digoxin is less effective in hyperthyroid states, and amiodarone is not used for acute rate control and contains iodine.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "840c24873ee9",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with cirrhosis (Child-Pugh C) develops thyroid storm. He has no prior antithyroid drug exposure. Which antithyroid drug should be avoided?",
+      "options": [
+        "Carbimazole",
+        "Lithium",
+        "Propylthiouracil",
+        "Methimazole",
+        "Iodine (Lugol's)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Propylthiouracil is associated with a risk of severe hepatotoxicity, especially in patients with pre-existing liver disease. Carbimazole is the thionamide of choice in thyroid storm but may also cause liver injury, though less frequently. Iodine and lithium are second-line. Methimazole is not used in the UK.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adb90dfef783",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 20 weeks gestation with Graves' disease presents with thyroid storm (fever, tachycardia, vomiting). She is not on any antithyroid medication. What is the most appropriate antithyroid drug to start?",
+      "options": [
+        "Carbimazole 60 mg daily",
+        "Methimazole 30 mg daily",
+        "Propylthiouracil 600 mg daily",
+        "Lugol's iodine 0.5 mL three times daily",
+        "Lithium carbonate 400 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, although both carbimazole and propylthiouracil (PTU) are used, PTU is preferred in the first trimester and can be continued into the second trimester due to a lower risk of teratogenicity. Additionally, PTU blocks T4-to-T3 conversion. Iodine is contraindicated in pregnancy, and lithium is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6fb07c52181",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with thyroid storm develops agranulocytosis (neutrophil count 0.3 × 10⁹/L) after three doses of carbimazole. Which alternative drug can be used to block thyroid hormone synthesis?",
+      "options": [
+        "Propylthiouracil",
+        "Lithium carbonate",
+        "Prednisolone",
+        "Iodine (Lugol's)",
+        "Cholestyramine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agranulocytosis is a class effect of thionamides, so propylthiouracil should also be avoided due to cross-reactivity. Lithium inhibits thyroid hormone synthesis and release and can be used as a second-line agent. Iodine alone may worsen the storm if given without prior blockade. Steroids and cholestyramine are adjunctive, not primary therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "03b42ae52fc8",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents to ED with palpitations, tremors, and weight loss over 3 weeks. On examination, temperature 38.2°C, heart rate 140 bpm irregularly irregular, blood pressure 130/70, goitre present. She is confused. What is the most appropriate immediate next action?",
+      "options": [
+        "Administer intravenous hydrocortisone 200 mg",
+        "Start propylthiouracil 200 mg orally",
+        "Check serum thyroid function tests",
+        "Request urgent thyroid ultrasound",
+        "Give intravenous propranolol 1 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected thyroid storm, immediate beta-blockade with intravenous propranolol is crucial to control heart rate and reduce peripheral conversion of T4 to T3. TFTs should not delay treatment; the clinical presentation is sufficient to start therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "442f80f8e2df",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known Graves' disease on carbimazole 10 mg daily (non-adherent recently) presents with fever (38.0°C), tachycardia 110 bpm, tremor, and mild agitation. BP 145/85. He is not confused. What is the most appropriate immediate next action?",
+      "options": [
+        "Refer for radioactive iodine therapy",
+        "Give oral propranolol 40 mg",
+        "Increase carbimazole dose to 20 mg daily",
+        "Check thyroid function tests",
+        "Prescribe a non-steroidal anti-inflammatory drug"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even in mild/moderate thyroid storm, the immediate priority is to control adrenergic symptoms with a beta-blocker (oral propranolol). Increasing carbimazole is important but secondary; TFTs can be checked concurrently but should not delay beta-blocker therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bb4a02569fdc",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with no known history presents with acute confusion, fever 39.5°C, heart rate 160 bpm, BP 85/50, and prominent tremor. What is the most appropriate immediate next action?",
+      "options": [
+        "Start intravenous propylthiouracil",
+        "Administer intravenous hydrocortisone",
+        "Perform emergency thyroidectomy",
+        "Give intravenous fluids",
+        "Give intravenous propranolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe thyroid storm with hypotension, intravenous propranolol is the first-line agent to rapidly lower heart rate and reduce peripheral conversion; fluids can be given simultaneously but the single most urgent step is beta-blockade. Antithyroid drugs and steroids are important but not immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c3aab24ad51",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with weight loss, palpitations, and heat intolerance. On examination, she has a fine tremor, tachycardia 110 bpm, and warm moist skin. Which single finding would most strongly suggest progression to thyroid storm?",
+      "options": [
+        "Palpable goiter",
+        "Bruit over thyroid",
+        "Fever >38°C",
+        "Lid lag",
+        "Proximal myopathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fever >38°C is a major criterion in the Burch-Wartofsky scoring system for thyroid storm. The other options are common in uncomplicated thyrotoxicosis and do not indicate the same level of severity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4ab1265b96b2",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with known Graves' disease on carbimazole develops a sore throat and fever. What finding would most indicate a life-threatening emergency?",
+      "options": [
+        "Tachycardia 120 bpm",
+        "Positive Monospot test",
+        "Neutrophil count 0.5 × 10^9/L",
+        "Temperature 38.5°C",
+        "Lymphadenopathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Agranulocytosis (neutrophil count <0.5 × 10^9/L) is a rare but life-threatening side effect of antithyroid drugs. Sore throat and fever in this context should prompt an urgent FBC; severe neutropenia requires drug cessation and possibly G-CSF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94a9b402fa5b",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with acute onset confusion, fever 39°C, and irregularly irregular pulse at 150 bpm. ECG shows atrial fibrillation. She has no known thyroid disease but appears thin and has a mild tremor. Which single feature is most indicative of thyroid storm as the cause?",
+      "options": [
+        "Lid lag and exophthalmos",
+        "Confusion and agitation",
+        "Atrial fibrillation with rapid ventricular response",
+        "Tachycardia >140 bpm",
+        "Fever <40°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "CNS involvement (confusion, agitation, or coma) is a hallmark of thyroid storm and distinguishes it from uncomplicated thyrotoxicosis. The Burch-Wartofsky score heavily weights neurological dysfunction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "77a61bcfb533",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known thyrotoxicosis presents with breathlessness, orthopnoea, and bilateral ankle oedema. On examination, he has tachycardia 130 bpm, JVP elevated, and basal crackles. What complication of thyrotoxicosis does this represent?",
+      "options": [
+        "Thyroid storm",
+        "Thyrotoxic periodic paralysis",
+        "Atrial fibrillation with fast rate",
+        "High-output cardiac failure",
+        "Pneumonia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Thyrotoxicosis increases metabolic demand and cardiac output; when compensatory mechanisms fail, high-output cardiac failure ensues. This is a serious but distinct complication from thyroid storm, which additionally requires fever and CNS changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9c2b7d9cdc46",
+      "topic": "Thyroid Storm",
+      "slug": "thyroid-storm",
+      "system": "Endocrinology",
+      "subSystem": "Thyroid emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with no known thyroid disease presents with weight loss, fatigue, and atrial fibrillation. She appears withdrawn and confused. What single feature would most strongly suggest a diagnosis of apathetic thyrotoxicosis presenting as thyroid storm?",
+      "options": [
+        "Absence of tremor",
+        "Lack of goiter",
+        "Atrial fibrillation",
+        "Older age",
+        "Confusion and apathy"
+      ],
+      "answerIndex": 4,
+      "explanation": "In the elderly, thyrotoxicosis may present atypically with apathy and depression rather than classic adrenergic symptoms. Confusion is a red flag for thyroid storm in this population, as per the Burch-Wartofsky criteria.",
+      "difficulty": "medium"
+    }
+  ]
+}

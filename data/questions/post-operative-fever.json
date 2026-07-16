@@ -1,0 +1,513 @@
+{
+  "topic": "Post-Operative Fever",
+  "slug": "post-operative-fever",
+  "system": "General Surgery",
+  "subSystem": "Post-op",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:19Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "865c94290fa4",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman undergoes open cholecystectomy. On postoperative day 1, she develops a fever of 38.0°C, mild dyspnoea, and decreased breath sounds at both lung bases. Chest X-ray shows subsegmental atelectasis. What is the single most likely diagnosis?",
+      "options": [
+        "Atelectasis",
+        "Urinary tract infection",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Wound infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fever on day 1 post-laparotomy is most commonly due to atelectasis. Pneumonia typically presents later (day 3–5). Pulmonary embolism would likely cause acute hypoxia and pleuritic pain, not just mild dyspnoea. Wound infection and UTI usually have localising signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ff9bd3b0739",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man undergoes laparoscopic sigmoid colectomy for diverticular disease. On postoperative day 4, he develops persistent fever (38.3°C), mild left lower quadrant tenderness, and leukocytosis (WCC 15×10⁹/L). Contrast-enhanced CT abdomen shows a 5 cm fluid collection adjacent to the anastomosis with surrounding inflammatory changes. What is the single most likely diagnosis?",
+      "options": [
+        "Wound infection",
+        "Diverticulitis recurrence",
+        "Pancreatitis",
+        "Intra-abdominal abscess",
+        "Anastomotic leak"
+      ],
+      "answerIndex": 3,
+      "explanation": "A localised fluid collection with fever and tenderness on day 4 is typical of an intra-abdominal abscess. Anastomotic leak would likely present with free air or extravasation of contrast and more diffuse peritonitis. Recurrent diverticulitis is uncommon this early; pancreatitis is not suggested by the CT or location.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d40a036a2a52",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man underwent emergency laparotomy and repair of a perforated duodenal ulcer. On postoperative day 2, he develops sudden onset tachycardia (HR 120 bpm), hypotension (BP 85/50 mmHg), temperature 38.5°C, and generalised abdominal rigidity. What is the single most likely diagnosis?",
+      "options": [
+        "Anastomotic leak",
+        "Myocardial infarction",
+        "Adrenal insufficiency",
+        "Pulmonary embolism",
+        "Septic shock from line infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sudonset tachycardia, hypotension, fever, and abdominal rigidity on day 2 post-ulcer repair are classic for an anastomotic (or repair site) leak causing peritonitis. Myocardial infarction would not cause rigidity; pulmonary embolism would present with chest pain/dyspnoea; line infection is less acute; adrenal insufficiency would not cause rigidity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a28493e67a79",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman undergoes laparoscopic cholecystectomy for gallstones. On postoperative day 5, she develops fever (38.2°C), right upper quadrant pain, and a mildly elevated bilirubin (35 µmol/L). Abdominal ultrasound shows a 4 cm anechoic fluid collection in the gallbladder fossa. What is the single most likely diagnosis?",
+      "options": [
+        "Post-cholecystectomy syndrome",
+        "Pancreatitis",
+        "Liver abscess",
+        "Bile leak (biloma)",
+        "Retained common bile duct stone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fever, RUQ pain, and biloma on ultrasound after cholecystectomy are typical of a bile leak. Post-cholecystectomy syndrome refers to ongoing symptoms without fever; retained stone would cause obstructive jaundice (higher bilirubin, dilated ducts); pancreatitis would have different pain and amylase; liver abscess is less common and would show a complex collection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7110d04367ba",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man undergoes elective total hip replacement. On postoperative day 7, he develops fever (38.5°C), dyspnoea, and pleuritic chest pain. D-dimer is elevated at 2500 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Wound infection",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Atelectasis",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fever, dyspnoea, pleuritic pain, and elevated D-dimer on day 7 after hip surgery are classic for pulmonary embolism. Pneumonia would have productive cough and focal chest signs; wound infection would have local hip signs; UTI would have dysuria; atelectasis would present earlier and not with pleuritic pain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef7cbb94a663",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man undergoes emergency laparotomy for perforated diverticulitis. He has a history of COPD. On post-operative day 1, he develops a temperature of 38.2°C. Respiratory rate is 22/min, oxygen saturations 94% on room air. Chest auscultation reveals reduced breath sounds at the left base. What is the most appropriate initial investigation to confirm the likely diagnosis?",
+      "options": [
+        "Sputum culture",
+        "Chest X-ray",
+        "Blood cultures",
+        "Bronchoscopy with lavage",
+        "CT chest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Early post-operative fever (within 48 hours) is commonly due to atelectasis, especially in patients with COPD. Chest X-ray is the first-line investigation to confirm atelectasis or exclude pneumonia. CT chest is more sensitive but not initial. Sputum and blood cultures are indicated if infection is suspected, but atelectasis is non-infective. Bronchoscopy is invasive and not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "97742cf4d53c",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman undergoes laparoscopic cholecystectomy. On post-operative day 5, she develops a temperature of 38.5°C and complains of pain and redness around the umbilical port site. There is no other focus of infection. What is the most appropriate investigation to confirm the diagnosis of wound infection?",
+      "options": [
+        "Blood cultures",
+        "Wound swab for culture and sensitivity",
+        "CRP levels",
+        "CT abdomen",
+        "Ultrasound of the wound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wound infection is diagnosed clinically, but the causative organism is confirmed by wound swab culture. Blood cultures may be positive if bacteraemia, but wound swab is specific. Imaging is not required unless deep collection is suspected. CRP is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a75a8672801",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man undergoes right hemicolectomy for colon cancer. On post-operative day 7, he develops a fever of 38.8°C, abdominal distension, and tenderness. CT abdomen with contrast is performed and shows a fluid collection in the right paracolic gutter. What is the next most appropriate investigation to confirm the diagnosis of an intra-abdominal abscess?",
+      "options": [
+        "MRI abdomen",
+        "FDG-PET CT",
+        "Repeated CT with oral contrast",
+        "Laparoscopy",
+        "Diagnostic aspiration of the collection under radiological guidance"
+      ],
+      "answerIndex": 4,
+      "explanation": "While CT suggests an abscess, confirmation requires microbiological diagnosis. Aspiration of the collection for Gram stain and culture is the gold standard to confirm infection and guide antibiotics. Repeating CT is unnecessary. MRI is less accessible. Laparoscopy is invasive. PET-CT is for oncology, not acute infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "67325d18dd13",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman undergoes elective hysterectomy. On post-operative day 3, she develops a temperature of 39.1°C with rigors. She has a urinary catheter in situ. Urine dipstick shows leucocytes and nitrites. What is the most appropriate investigation to confirm the diagnosis of catheter-associated urinary tract infection?",
+      "options": [
+        "Midstream urine culture",
+        "Urine culture from the catheter",
+        "Blood cultures",
+        "CT abdomen",
+        "Renal ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a catheterised patient, the most specific test is urine culture obtained from the catheter after removal or a fresh sample through the port. Midstream urine is not possible with catheter. Blood cultures are not first-line for simple UTI. Imaging is not needed unless complications suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6beaa0d8b254",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with a central venous catheter in the right internal jugular vein develops a fever of 38.6°C on post-operative day 10. There is no other source of infection. The catheter exit site appears clean. What is the most appropriate investigation to confirm catheter-related bloodstream infection?",
+      "options": [
+        "Ultrasound of the catheter vein",
+        "Swab from the catheter exit site",
+        "Catheter tip culture after removal",
+        "Simultaneous blood cultures from the central line and a peripheral vein",
+        "CRP and procalcitonin levels"
+      ],
+      "answerIndex": 3,
+      "explanation": "Catheter-related bloodstream infection is confirmed by differential time to positivity between central and peripheral blood cultures (≥2 hours). This is the preferred diagnostic method without removing the line. Catheter tip culture is confirmatory if removed, but may be avoided initially. Exit site swab may not reflect bloodstream infection. CRP/ultrasound are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "53fa65a60473",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man undergoes elective right hemicolectomy for colonic cancer. On postoperative day 1 he develops a temperature of 37.9°C. He has no other symptoms; examination reveals mild basal crackles in the right lung. His chest X-ray shows linear atelectasis at the right base. What is the most appropriate first-line management?",
+      "options": [
+        "Administer high-flow oxygen via non-rebreather mask",
+        "Start intravenous co-amoxiclav",
+        "Perform bronchoscopy",
+        "Request a CT pulmonary angiogram",
+        "Encourage deep breathing exercises and early mobilisation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Post-operative atelectasis is a common cause of early fever. The first-line management is conservative: encourage deep breathing, incentive spirometry, and mobilisation. Antibiotics are not indicated unless there is evidence of infection. The other options are overly invasive or not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13280517ef93",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with a history of type 2 diabetes undergoes open cholecystectomy. On postoperative day 3 she develops a temperature of 38.5°C, dysuria, and suprapubic tenderness. She has an indwelling urinary catheter. Urine dipstick shows leucocytes and nitrites. What is the most appropriate management?",
+      "options": [
+        "Replace the catheter and start oral nitrofurantoin",
+        "Increase intravenous fluid rate and give paracetamol",
+        "Start intravenous gentamicin without changing the catheter",
+        "Remove the urinary catheter and start oral trimethoprim",
+        "Obtain a urine culture and wait for results before treating"
+      ],
+      "answerIndex": 3,
+      "explanation": "Catheter-associated urinary tract infection is common post-operatively. The definitive management is removal of the catheter (if no longer needed) and initiation of appropriate antibiotics, e.g., trimethoprim. Keeping the catheter in place or replacing it without removal is suboptimal. Waiting for culture results delays treatment in a symptomatic patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86e73c43cd29",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man undergoes an anterior resection for rectal cancer. On postoperative day 5 he develops a high fever (39.2°C), tachycardia, and severe lower abdominal pain. Examination reveals peritonitis with guarding and rebound tenderness. His blood pressure is 90/60 mmHg. What is the most appropriate immediate management?",
+      "options": [
+        "Start intravenous metronidazole and observe",
+        "CT scan of the abdomen with intravenous contrast",
+        "Perform an urgent colonoscopy to assess the anastomosis",
+        "Emergency laparotomy and intravenous piperacillin/tazobactam",
+        "Insert a nasogastric tube and give intravenous fluids only"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is highly suggestive of an anastomotic leak with generalised peritonitis and sepsis. The definitive treatment is emergency laparotomy to repair the leak and wash out the abdomen, combined with broad-spectrum antibiotics. CT scanning would delay definitive management in an unstable patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a295134c5b3b",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman undergoes elective laparoscopic inguinal hernia repair. On postoperative day 7 she notices increasing redness, swelling, and purulent discharge from one of the port sites. She is afebrile, with normal vital signs. What is the most appropriate management?",
+      "options": [
+        "Apply a topical antibiotic cream to the wound",
+        "Take a wound swab and await culture results",
+        "Open the wound and drain the pus, then pack it",
+        "Remove the sutures and leave the wound open to air",
+        "Start oral flucloxacillin without opening the wound"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is a superficial surgical site infection with pus. The first-line treatment is surgical drainage by opening the wound and packing it to allow further drainage. Antibiotics are not indicated without systemic signs. A swab may be taken but is not the primary therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "282c1287bdc4",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man develops fever (38.0°C) and watery diarrhoea on postoperative day 4 after elective cholecystectomy. He received intravenous co-amoxiclav for 24 hours as prophylaxis. Stool tests confirm Clostridioides difficile toxin. What is the most appropriate first-line treatment?",
+      "options": [
+        "Stop co-amoxiclav and observe",
+        "Intravenous metronidazole 500 mg three times daily",
+        "Oral vancomycin 125 mg four times daily for 10 days",
+        "Fidaxomicin 200 mg twice daily for 10 days",
+        "Oral metronidazole 400 mg three times daily for 10 days"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a first episode of non-severe C. difficile infection, NICE guidelines recommend oral vancomycin as first-line. Metronidazole is no longer first-line. Stopping the causative antibiotic is important but not sufficient treatment. Fidaxomicin is reserved for recurrent or severe cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2020276bb4c7",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman undergoes an emergency laparotomy for a perforated duodenal ulcer. On postoperative day 1, she is haemodynamically stable with a temperature of 37.8°C, heart rate 80 bpm, respiratory rate 14/min, and oxygen saturations 97% on room air. She has mild pain at the wound site but no erythema or discharge. Chest is clear on auscultation. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous co-amoxiclav",
+        "Request a chest X-ray",
+        "Encourage deep breathing and early mobilisation",
+        "Remove the wound dressing to inspect",
+        "Prescribe paracetamol 1g orally"
+      ],
+      "answerIndex": 2,
+      "explanation": "Low-grade fever on day 1 post-laparotomy is most commonly due to atelectasis. Encouraging deep breathing and mobilisation addresses the root cause without unnecessary investigations or antibiotics. Chest X-ray and antibiotics are indicated only if hypoxia or signs of infection develop.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a6f509a74e46",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man undergoes a right hemicolectomy for colon cancer. On postoperative day 4, he develops a temperature of 38.5°C, heart rate 90 bpm, and blood pressure 130/80 mmHg. The wound shows erythema along the suture line with small amounts of purulent discharge. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral co-amoxiclav 625mg three times daily",
+        "Take blood cultures and start intravenous antibiotics",
+        "Request an urgent CT scan of the abdomen",
+        "Take a wound swab for microbiological culture",
+        "Remove all skin staples and lay open the wound"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a suspected surgical site infection without systemic compromise, NICE guidelines recommend obtaining a wound swab for culture before starting antibiotics to guide targeted therapy. Starting antibiotics immediately without sampling is premature. Wound opening may be needed later but is not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6b7b1e6065bc",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman presents on postoperative day 6 following an open cholecystectomy with spiking fevers (38.9°C), rigors, and right upper quadrant tenderness. Heart rate is 105 bpm, blood pressure 110/70 mmHg, and white cell count 18 x 10^9/L. Urine dip is negative. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent CT abdomen with intravenous contrast",
+        "Insert a nasogastric tube and request surgical review",
+        "Start intravenous piperacillin/tazobactam 4.5g",
+        "Call the intensive care team for immediate transfer",
+        "Take blood cultures and then start antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In this haemodynamically stable patient, an intra-abdominal abscess is highly likely. The priority is to confirm the source with a CT abdomen before starting antibiotics, which may be guided by imaging. Blood cultures are reasonable but not the single most immediate step. Antibiotics can be delayed briefly for imaging if the patient is stable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0abedf1a045",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with a hip fracture underwent surgical fixation 7 days ago. He has an indwelling urinary catheter. He now has a fever of 38.2°C, dysuria, and suprapubic tenderness. Urine dipstick is positive for nitrites and leucocytes. What is the most appropriate immediate next step?",
+      "options": [
+        "Start trimethoprim 200mg twice daily orally",
+        "Remove the urinary catheter and send the tip for culture",
+        "Take two sets of blood cultures",
+        "Request a urine microscopy and culture",
+        "Request a renal ultrasound to exclude obstruction"
+      ],
+      "answerIndex": 0,
+      "explanation": "Symptomatic catheter-associated UTI requires prompt empiric antibiotics. Starting trimethoprim (or according to local policy) is appropriate given the positive dipstick and symptoms, and should not be delayed for culture results. Urine culture should be sent but antibiotic initiation is the immediate priority. Catheter removal may be considered but is not the first action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eee2b50ddfcf",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 34-year-old man undergoes an elective laparoscopic inguinal hernia repair under general anaesthesia with sevoflurane. Four hours postoperatively, he develops a rapidly rising temperature (39.5°C), generalised muscle rigidity, tachycardia of 130 bpm, and an arterial blood gas shows acidosis and hyperkalaemia. His FiO2 requirement is increasing. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer dantrolene 1 mg/kg intravenously",
+        "Stop sevoflurane immediately",
+        "Call the intensive care team for urgent transfer",
+        "Initiate active cooling with cold IV fluids and ice packs",
+        "Administer 50 mL of 50% dextrose and 10 units of insulin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Malignant hyperthermia is a medical emergency. While stopping the triggering agent (sevoflurane) is critical, the most immediate life-saving action is to give dantrolene, the specific antidote. Hyperkalaemia treatment and cooling are secondary. Calling ICU is important but not the single most immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9e26a84649f1",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman undergoes laparoscopic cholecystectomy. On day 1, she has a low-grade fever of 37.8°C. Which single clinical finding should prompt immediate escalation to the surgical team?",
+      "options": [
+        "Persistent nausea",
+        "Oxygen saturations 94% on air",
+        "Heart rate 95 bpm",
+        "Severe abdominal pain with guarding",
+        "White cell count 14 × 10^9/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe abdominal pain with guarding suggests peritonitis (e.g., from bile leak) and requires urgent surgical review. Mild tachycardia, leukocytosis, or low-grade fever are common post-operatively and do not alone mandate escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e9990bd7f88",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man after open inguinal hernia repair develops a fever of 38.4°C on day 2. Which feature is most suggestive of a superficial wound infection requiring antibiotic therapy?",
+      "options": [
+        "Erythema extending 2 cm from wound",
+        "Purulent discharge from wound",
+        "Temperature 38.4°C",
+        "CRP elevation to 80 mg/L",
+        "Serous discharge from wound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Purulent discharge is a definitive sign of wound infection requiring antibiotics. Erythema may be inflammatory, serous discharge may be normal, and isolated fever/CRP rise are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e3bbc63763fe",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man after elective sigmoid colectomy for diverticular disease develops high fever with rigors on day 4. Which finding most strongly suggests an anastomotic leak?",
+      "options": [
+        "Blood pressure 95/60 mmHg",
+        "Heart rate 110 bpm",
+        "Lactate 2.5 mmol/L",
+        "Generalised peritonitis",
+        "Abdominal distension without vomiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "Generalised peritonitis is the classic clinical sign of an anastomotic leak and mandates immediate surgical exploration. Tachycardia, hypotension, and raised lactate are non-specific signs of sepsis; distension alone is common post-operatively.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "724061777878",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman who underwent emergency appendicectomy 5 days ago presents with fever and right lower quadrant pain. Which feature is most indicative of a post-operative intra-abdominal abscess?",
+      "options": [
+        "Temperature spikes to 39°C with chills",
+        "CRP 180 mg/L",
+        "Persistent pain requiring regular paracetamol",
+        "Palpable mass in the right iliac fossa",
+        "Vomiting on one occasion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Swinging pyrexia (temperature spikes with chills) is classic for an intra-abdominal abscess. A mass may be present but is less specific; isolated CRP elevation or vomiting are not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "02faa7105656",
+      "topic": "Post-Operative Fever",
+      "slug": "post-operative-fever",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman on long-term prednisolone for rheumatoid arthritis develops a fever of 38.0°C on day 1 post-thyroidectomy. Which single finding should raise immediate concern for life-threatening sepsis?",
+      "options": [
+        "Mild tachycardia of 102 bpm",
+        "Mild confusion",
+        "Temperature 38.0°C",
+        "Systolic blood pressure 85 mmHg",
+        "White cell count 5 × 10^9/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension (systolic <90 mmHg) in an immunocompromised patient is a red flag for sepsis, as steroids may blunt fever and inflammatory markers. Mild tachycardia is common; confusion alone is less specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

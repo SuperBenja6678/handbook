@@ -1,0 +1,513 @@
+{
+  "topic": "NEC (Necrotising Enterocolitis)",
+  "slug": "nec-necrotising-enterocolitis",
+  "system": "Paediatrics",
+  "subSystem": "Neonatal",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:36:41Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e0da3f3dcaa7",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 26-week gestation infant, day 10 of life, develops abdominal distension, tenderness, and bloody stools. Abdominal X-ray shows pneumatosis intestinalis and portal venous gas. What is the single most likely diagnosis?",
+      "options": [
+        "Spontaneous intestinal perforation",
+        "Necrotising enterocolitis",
+        "Neonatal sepsis",
+        "Malrotation with volvulus",
+        "Meconium ileus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pneumatosis intestinalis is pathognomonic for necrotising enterocolitis (NEC). Spontaneous intestinal perforation typically occurs earlier (first week) without pneumatosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7a589456f5bd",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-week preterm infant on day 20 of life presents with mild abdominal distension and bilious gastric aspirates. Stool is positive for occult blood. Abdominal X-ray shows dilated bowel loops but no pneumatosis. Vital signs are stable. What is the single most likely diagnosis?",
+      "options": [
+        "Functional ileus of prematurity",
+        "Intestinal malrotation",
+        "Meconium plug syndrome",
+        "Necrotising enterocolitis (Bell stage I)",
+        "Neonatal sepsis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bilious aspirates and occult blood in a preterm infant are highly suspicious for early NEC. Functional ileus would not typically cause blood in stool.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31cd364a0474",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-week gestation infant on day 14 of life suddenly deteriorates with abdominal wall erythema, crepitus, and hypotension. Erect abdominal X-ray shows free air under the diaphragm. What is the single most likely diagnosis?",
+      "options": [
+        "Gastric perforation",
+        "Spontaneous intestinal perforation",
+        "Meconium peritonitis",
+        "Necrotising enterocolitis with perforation",
+        "Volvulus with perforation"
+      ],
+      "answerIndex": 3,
+      "explanation": "NEC is the most common cause of pneumoperitoneum in preterm infants. Spontaneous perforation often occurs earlier and without preceding NEC signs like erythema.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "73493d5350e0",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A term infant with hypoplastic left heart syndrome, day 10 of life, presents with abdominal distension, lethargy, and temperature instability. Abdominal X-ray reveals pneumatosis intestinalis. What is the single most likely diagnosis?",
+      "options": [
+        "Necrotising enterocolitis",
+        "Urinary tract infection",
+        "Hirschsprung-associated enterocolitis",
+        "Intestinal malrotation",
+        "Sepsis from cardiac cause"
+      ],
+      "answerIndex": 0,
+      "explanation": "Term infants with congenital heart disease are at increased risk for NEC. Pneumatosis intestinalis is diagnostic of NEC and distinguishes it from other causes of abdominal signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e366864a36c",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A preterm infant who was medically treated for NEC two weeks ago now presents with feeding intolerance, vomiting, and abdominal distension. Barium enema shows a stricture in the descending colon. What is the single most likely diagnosis?",
+      "options": [
+        "Post-necrotising enterocolitis intestinal stricture",
+        "Recurrent necrotising enterocolitis",
+        "Necrotising enterocolitis with pneumatosis",
+        "Volvulus",
+        "Adhesive bowel obstruction"
+      ],
+      "answerIndex": 0,
+      "explanation": "Colonic stricture is a well-recognised complication of NEC, typically occurring 2–8 weeks after the acute episode. This presentation and imaging findings are classic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca7dea36d05a",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 2-week-old preterm infant (born at 28 weeks) presents with feed intolerance, abdominal distension, and bilious aspirates. Which investigation is most appropriate to confirm the diagnosis of necrotising enterocolitis?",
+      "options": [
+        "Contrast enema",
+        "MRI abdomen",
+        "CT abdomen",
+        "Abdominal ultrasound",
+        "Abdominal X-ray (supine and left lateral decubitus)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Abdominal X-ray is the first-line imaging for suspected NEC, looking for pneumatosis intestinalis, portal venous gas, or free air. Ultrasound is emerging but not yet standard first-line; CT exposes to radiation and is not indicated initially.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "00f717ee92aa",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A preterm infant with suspected NEC has an abdominal X-ray showing pneumatosis intestinalis. Which additional radiological finding is most specific for advanced disease (stage III NEC)?",
+      "options": [
+        "Sentinel loop",
+        "Portal venous gas",
+        "Free air under the diaphragm",
+        "Thumbprinting",
+        "Air-fluid levels"
+      ],
+      "answerIndex": 1,
+      "explanation": "Portal venous gas indicates severe NEC with bowel wall necrosis and is associated with advanced (stage III) disease, along with clinical deterioration. Free air suggests perforation but is not more specific than portal venous gas for advanced NEC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e80b3d248f7b",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A term infant presents with bloody stools, abdominal distension, and vomiting. Abdominal X-ray shows no pneumatosis but there is a fixed, dilated loop on repeated films. Which diagnostic finding is most suggestive of NEC rather than other causes of intestinal obstruction?",
+      "options": [
+        "Pneumatosis intestinalis",
+        "Air-fluid levels",
+        "Sentinel loop",
+        "Gasless abdomen on X-ray",
+        "Free intraperitoneal air"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pneumatosis intestinalis is the pathognomonic radiological sign of NEC. A fixed dilated loop can occur in NEC but also in mechanical obstruction; the key to the diagnosis is pneumatosis, which indicates bowel wall ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "203c7b89d5b9",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A preterm infant with suspected NEC has an abdominal X-ray showing portal venous gas. Based on the modified Bell's staging criteria, which stage of NEC does this represent?",
+      "options": [
+        "Stage IIIB (advanced, perforated)",
+        "Stage I (suspected)",
+        "Stage IIIA (advanced, bowel intact)",
+        "Stage IIA (mildly ill)",
+        "Stage IIB (moderately ill)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Portal venous gas is a sign of severe NEC and is classified as stage IIIA (advanced) in the modified Bell staging. Stage II shows pneumatosis but no portal venous gas, and stage IIIB additionally has free air.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "287815db4b8b",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A term infant with suspected NEC has a normal abdominal X-ray but high clinical suspicion persists. Which is the most appropriate next diagnostic step?",
+      "options": [
+        "Diagnostic laparoscopy",
+        "Repeat abdominal X-ray in 6–12 hours",
+        "CT abdomen with IV contrast",
+        "Abdominal ultrasound",
+        "Upper GI contrast study"
+      ],
+      "answerIndex": 1,
+      "explanation": "If initial X-ray is normal but clinical suspicion remains high, a repeat X-ray after 6–12 hours is recommended as pneumatosis may appear later. CT or ultrasound are not first-line; laparoscopy is invasive and reserved for complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "01592b3c5133",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-week preterm infant (birth weight 1.2 kg) on day 10 of life develops abdominal distension, bilious aspirates, and blood-stained stools. Abdominal X-ray shows pneumatosis intestinalis. What is the single most appropriate first-line treatment?",
+      "options": [
+        "Administer oral vancomycin for sepsis",
+        "Commence total parenteral nutrition",
+        "Place a nasogastric tube, stop enteral feeds, and start intravenous piperacillin-tazobactam",
+        "Start oral erythromycin for prokinetic effect",
+        "Perform an urgent laparotomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mild-to-moderate NEC (Bell stage II) is managed medically with bowel rest, gastric decompression, and broad-spectrum IV antibiotics. Surgery is reserved for perforation or deterioration. Oral antibiotics are not first-line; TPN is supportive but not the initial therapeutic step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b577136a0d4",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-week preterm infant with NEC develops sudden deterioration with a rigid, tender abdomen. An erect chest X-ray shows free air under the diaphragm. What is the single most appropriate definitive therapy?",
+      "options": [
+        "Intestinal transplantation",
+        "Perform peritoneal drainage alone",
+        "Exchange transfusion",
+        "Continue medical management with triple antibiotics",
+        "Urgent laparotomy and resection of necrotic bowel"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pneumoperitoneum indicates intestinal perforation, requiring urgent surgical exploration and resection of necrotic bowel. Peritoneal drainage is a temporising measure for unstable extremely low birth weight infants, but definitive therapy is laparotomy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c528fbc536aa",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A term infant with congenital heart disease (hypoplastic left heart syndrome) develops abdominal distension, bloody stools, and pneumatosis on X-ray. Which of the following is CONTRAINDICATED in the initial management?",
+      "options": [
+        "Nasogastric decompression",
+        "Inotropic support",
+        "Intravenous piperacillin-tazobactam",
+        "Surgical consultation",
+        "Enteral feeds"
+      ],
+      "answerIndex": 4,
+      "explanation": "Enteral feeds are contraindicated in suspected NEC because they may worsen intestinal ischemia and increase the risk of perforation. Bowel rest is a cornerstone of initial management, even in term infants with NEC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "813a8a62ebdc",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An ex-preterm infant, now 3 months old, who was treated conservatively for NEC, presents with signs of distal small bowel obstruction. Contrast enema shows a stricture in the terminal ileum. What is the single most appropriate definitive treatment?",
+      "options": [
+        "Lysis of adhesions",
+        "Balloon dilation of the stricture",
+        "Stricturoplasty",
+        "Bowel resection with primary anastomosis",
+        "Insertion of a nasogastric tube and trial of bowel rest"
+      ],
+      "answerIndex": 3,
+      "explanation": "NEC strictures are ischaemic and fibrotic, often causing complete obstruction. Surgical resection with primary anastomosis is the standard treatment. Balloon dilation and stricturoplasty are not first-line due to risk of perforation or recurrence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a38d4d721cee",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An extremely low birth weight infant (600 g, 24 weeks gestation) on day 14 develops severe NEC with massive pneumoperitoneum on X-ray. The infant is hypotensive, on high-frequency ventilation, and too unstable to transport to theatre. What is the single most appropriate immediate definitive therapy?",
+      "options": [
+        "Inotropic support and continued observation",
+        "Immediate laparotomy on the neonatal unit",
+        "Intravenous antibiotics alone",
+        "Peritoneal drainage (bedside drain insertion)",
+        "Exchange transfusion with fresh frozen plasma"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the most unstable ELBW infants with perforation, peritoneal drainage is recommended as a temporising measure to release intra-abdominal pressure, improve ventilation and perfusion, and allow for later definitive surgery. Immediate laparotomy is often too high risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2d8d7c0602f7",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A term neonate born at 39 weeks, now 4 days old, presents with bile-stained vomiting and a tense, distended abdomen. He has not passed meconium today. Observations: heart rate 160, respiratory rate 40, temperature 37.5°C, SpO2 98% on air. Capillary refill time 3 seconds. What is the single most appropriate immediate next step?",
+      "options": [
+        "Contact the on-call paediatric surgeon",
+        "Perform an erect abdominal X-ray",
+        "Insert a nasogastric tube",
+        "Start intravenous benzylpenicillin and gentamicin",
+        "Request an abdominal ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected NEC with bilious vomiting and distension, an erect abdominal X-ray is first-line to detect pneumatosis intestinalis or free air. While surgical referral and antibiotics are important, imaging is needed to confirm the diagnosis and guide urgency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "28045bd8d2e8",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A preterm infant born at 28 weeks, currently day 10 of life, develops mild abdominal distension, occasional apnoeas, and has blood-streaked stools. He is stable with normal heart rate and blood pressure. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous antibiotics",
+        "Obtain blood cultures",
+        "Request a surgical consult",
+        "Abdominal X-ray",
+        "Perform a rectal exam"
+      ],
+      "answerIndex": 0,
+      "explanation": "When NEC is suspected, NICE guidelines recommend stopping feeds and starting broad-spectrum antibiotics immediately, even before imaging. The other actions are important but should not delay antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e77ba2c739b1",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 10-day-old preterm infant (born 26 weeks) acutely deteriorates. He is mottled, with abdominal wall erythema and a palpable mass. Heart rate 190, blood pressure 45/25, capillary refill time 5 seconds, base excess -10. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert a chest drain",
+        "Emergency laparotomy",
+        "Start intravenous antibiotics",
+        "IV fluid bolus of 0.9% saline 20 mL/kg",
+        "Obtain an abdominal X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "This infant is in septic shock with hypotension and metabolic acidosis. Fluid resuscitation takes priority to restore circulation. Antibiotics and surgical review follow, but immediate fluid bolus is the first action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "382785ae75ff",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A preterm infant on medical management for Bell stage II NEC has a sudden increase in abdominal distension and becomes acutely unwell. An erect abdominal X-ray now shows a large amount of free intraperitoneal air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert a peritoneal drain",
+        "Contact the on-call paediatric surgeon for urgent review",
+        "Increase antibiotic dose",
+        "Perform a contrast enema",
+        "Arrange a CT abdomen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Free air indicates intestinal perforation requiring urgent surgical consultation. The surgeon will decide on laparotomy or other interventions. CT and contrast enema are not indicated and would delay definitive care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dedbc478dbcd",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An extremely preterm infant (23 weeks gestation, corrected 31 weeks) develops bilious aspirates, abdominal distension, and bloody stools. He has been on minimal enteral feeds. He is stable with normal vital signs. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous broad-spectrum antibiotics",
+        "Increase feed volume to stimulate gut",
+        "Perform an abdominal X-ray",
+        "Obtain surgical review",
+        "Stop feeds and commence parenteral nutrition"
+      ],
+      "answerIndex": 0,
+      "explanation": "Per NICE guidelines, if NEC is suspected, stop feeds and start intravenous antibiotics immediately. Abdominal X-ray is important but should not delay antibiotics. Other options are inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a673089a7791",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A preterm neonate born at 30 weeks gestation, day 5 of life, presents with feeding intolerance and mild abdominal distension. An abdominal X-ray shows dilated bowel loops. Which additional radiological finding is most indicative of necrotising enterocolitis (NEC)?",
+      "options": [
+        "Soap-bubble appearance",
+        "Portal venous gas",
+        "Thickened bowel wall",
+        "Free intraperitoneal air",
+        "Pneumatosis intestinalis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pneumatosis intestinalis (gas within the bowel wall) is the pathognomonic radiological sign of NEC. Free air indicates perforation (a later complication), portal venous gas is severe but less specific, and soap-bubble appearance suggests intramural gas but is a variant of pneumatosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c63aa5da99f",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-week gestation infant, day 10 of life, is diagnosed with stage II NEC and started on medical management (bowel rest, antibiotics, parenteral nutrition). Which clinical finding suggests progression to stage III (advanced NEC) and the need for surgical review?",
+      "options": [
+        "Metabolic acidosis",
+        "Abdominal wall erythema",
+        "Increased gastric aspirates",
+        "Temperature >38°C",
+        "Thrombocytopenia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Abdominal wall erythema is a sign of peritonitis and bowel ischemia, indicating advanced NEC requiring surgical evaluation. While thrombocytopenia and metabolic acidosis can also be markers of severity, erythema is a local physical sign that often prompts immediate escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "282487b45da9",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A preterm infant with known NEC suddenly becomes hypotensive and develops marked abdominal distension with tenderness. An urgent abdominal X-ray shows a large radiolucent area under the diaphragm. What is the most likely complication?",
+      "options": [
+        "Ascites",
+        "Intestinal perforation",
+        "Necrotic bowel",
+        "Portal venous gas",
+        "Pneumatosis intestinalis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Free intraperitoneal air (pneumoperitoneum) seen under the diaphragm is diagnostic of bowel perforation, a life-threatening complication of NEC that requires immediate surgical intervention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3a044f9ae699",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A very low birth weight infant (birth weight 600 g) on day 2 of life develops acute abdominal distension and bilious aspirates. An abdominal X-ray reveals a large pneumoperitoneum, but no pneumatosis intestinalis or portal venous gas. Which condition is the most likely diagnosis?",
+      "options": [
+        "Spontaneous intestinal perforation (SIP)",
+        "Hirschsprung disease",
+        "Malrotation with volvulus",
+        "Necrotising enterocolitis (NEC) totalis",
+        "Meconium ileus"
+      ],
+      "answerIndex": 0,
+      "explanation": "SIP typically occurs in extremely low birth weight infants within the first few days of life and presents with pneumoperitoneum without the pneumatosis intestinalis seen in NEC. The absence of pneumatosis and early onset strongly favour SIP over NEC.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "80ced0cf860e",
+      "topic": "NEC (Necrotising Enterocolitis)",
+      "slug": "nec-necrotising-enterocolitis",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A preterm infant with suspected NEC is being monitored in the neonatal intensive care unit. Which laboratory finding is a critical red flag indicating severe disease and prompting escalation of care?",
+      "options": [
+        "Lactate >2 mmol/L",
+        "Serum sodium <130 mmol/L",
+        "White cell count <5 × 10^9/L",
+        "Platelet count <100 × 10^9/L",
+        "CRP >100 mg/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Thrombocytopenia (platelet count <100) is a well-established marker of severe NEC and correlates with need for surgical intervention and poorer outcomes. While CRP and lactate may be elevated, thrombocytopenia is a specific and early indicator of disease severity.",
+      "difficulty": "medium"
+    }
+  ]
+}

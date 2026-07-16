@@ -1,0 +1,513 @@
+{
+  "topic": "First Seizure",
+  "slug": "first-seizure",
+  "system": "Neurology",
+  "subSystem": "Seizure",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:29:58Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "61c993f510a4",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man collapses at a party after drinking 4 units of alcohol. Witnesses report a 2-minute episode of generalised stiffening followed by jerking of all limbs, then confusion for 10 minutes. He has no previous seizures, and examination is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Psychogenic non-epileptic seizure",
+        "Syncopal convulsion",
+        "First unprovoked generalised tonic-clonic seizure (new onset epilepsy)",
+        "Acute symptomatic seizure due to alcohol withdrawal",
+        "Hypoglycaemic seizure"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of post-ictal confusion and a witnessed tonic-clonic sequence make a generalised seizure most likely. Alcohol withdrawal seizures typically occur 6–48 hours after cessation, not after only 4 units; syncopal convulsions lack a prolonged post-ictal phase, and PNES often feature asynchronous movements with eyes closed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c98b59824118",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman with hypertension is found on the floor at home. She is confused and then develops rhythmic twitching of her right arm lasting 1 minute, followed by weakness of the right arm for 30 minutes. CT head shows an old left frontal lacunar infarct. What is the single most likely diagnosis?",
+      "options": [
+        "Transient ischaemic attack",
+        "Psychogenic non-epileptic seizure",
+        "Focal motor seizure (simple partial) with Todd's paresis",
+        "Migraine with aura",
+        "Generalised tonic-clonic seizure"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rhythmic, focal motor activity followed by a persistent post-ictal hemiparesis (Todd's paresis) localises to the contralateral motor cortex. TIA does not cause rhythmic jerking; migraine aura is typically without weakness and lasts <60 minutes. The old infarct provides a structural substrate for focal epilepsy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1953aeb7b40f",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 32 weeks gestation collapses with a generalised convulsion lasting 2 minutes. She is drowsy post-ictally. Blood pressure is 155/95 mmHg, urine dipstick shows 2+ protein. What is the single most likely diagnosis?",
+      "options": [
+        "Eclampsia",
+        "Posterior reversible encephalopathy syndrome (PRES)",
+        "Syncopal convulsion",
+        "Cerebral venous sinus thrombosis",
+        "New onset idiopathic generalised epilepsy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypertension and proteinuria in a third-trimester woman with a first seizure strongly suggest eclampsia. New onset epilepsy is less likely in pregnancy without pre-eclampsia; CVST and PRES can present with seizure but lack the classic triad of hypertension, proteinuria, and convulsion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f9be428dd27",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with metastatic lung cancer is found unresponsive with continuous generalised jerking of his limbs for 30 minutes. There is no history of seizures. Blood glucose is 6.5 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hypercalcaemic seizure",
+        "Brain metastasis causing focal seizure with secondary generalisation",
+        "Hypoglycaemic seizure",
+        "Psychogenic non-epileptic status",
+        "Status epilepticus (first presentation)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Continuous generalised convulsive activity for >5 minutes defines status epilepticus. Hypoglycaemia is ruled out by normal glucose; hypercalcaemia rarely causes such prolonged activity, and PNES typically shows waxing-waning movements with pelvic thrusting. The underlying cause (brain metastases) is likely but the immediate diagnosis is status epilepticus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d42eac12e1cb",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old nurse wakes up with a bitten tongue, headache, and generalised muscle aches. She has no history of seizures and is on no medications. Examination is normal. Her partner did not witness any event. What is the single most likely diagnosis?",
+      "options": [
+        "First unprovoked generalised tonic-clonic seizure",
+        "REM sleep behaviour disorder",
+        "Sleep myoclonus",
+        "Psychogenic non-epileptic seizure",
+        "Hypnic jerk"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tongue biting, post-ictal headache, and myalgias are classic for a nocturnal generalised tonic-clonic seizure. Hypnic jerks occur at sleep onset without tongue injury, sleep myoclonus is brief and bilateral, and RBD involves dream enactment without convulsive features. The lack of witness does not rule out epilepsy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4eb5db0778ba",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman presents to the ED after a first unprovoked tonic-clonic seizure. She is now fully recovered and neurological examination is normal. What is the single most appropriate investigation to confirm the diagnosis of epilepsy?",
+      "options": [
+        "EEG",
+        "Lumbar puncture",
+        "CT head",
+        "Serum prolactin",
+        "MRI brain"
+      ],
+      "answerIndex": 0,
+      "explanation": "EEG can detect interictal epileptiform discharges, which strongly support a diagnosis of epilepsy. CT head is for acute structural lesions; MRI brain is more sensitive for structural causes but not diagnostic for epilepsy itself. Serum prolactin is non-specific and not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5db75b05da3c",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with a first seizure presents with fever, headache, and neck stiffness. There is no focal neurology. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "MRI brain",
+        "Lumbar puncture",
+        "EEG",
+        "CT head",
+        "Blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture suggests meningitis/encephalitis. Lumbar puncture with CSF analysis is the definitive test to confirm CNS infection. CT head is often done first to exclude mass effect but is not diagnostic. Blood cultures are supportive but not confirmatory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ef76925f859c",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man presents with a first simple partial seizure involving his left hand. He has no prior history. What is the single most appropriate investigation to identify a structural cause?",
+      "options": [
+        "MRI brain",
+        "CT head",
+        "Carotid ultrasound",
+        "ECG",
+        "EEG"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI brain is the most sensitive imaging modality for detecting structural lesions such as tumours, cortical malformations, or hippocampal sclerosis. CT head is less sensitive, especially for subtle lesions. EEG is for confirming epilepsy, not the underlying cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "71393d68422d",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man on warfarin for atrial fibrillation presents with a first generalized seizure. He has no focal neurology and is now post-ictal. What is the single most appropriate initial investigation?",
+      "options": [
+        "CT head",
+        "MRI brain",
+        "INR",
+        "EEG",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an anticoagulated elderly patient, the priority is to exclude intracranial haemorrhage. CT head is rapid and sensitive for acute bleeds. MRI brain is more sensitive but not immediately available. INR helps assess anticoagulation but does not diagnose the bleed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4b09eb11d119",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with known metastatic lung cancer presents with a first seizure. He is haemodynamically stable. What is the single most appropriate investigation to identify the cause of the seizure?",
+      "options": [
+        "CT head",
+        "Lumbar puncture",
+        "MRI brain with contrast",
+        "PET scan",
+        "EEG"
+      ],
+      "answerIndex": 2,
+      "explanation": "Given known malignancy, brain metastases are the most likely cause. MRI brain with contrast is the most sensitive imaging for detecting intracranial metastases, surpassing CT head. EEG may show epileptic activity but does not identify the underlying lesion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9f3d39ce5249",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with his first ever tonic-clonic seizure. He has no past medical history, and neurological examination is normal. Brain MRI and routine EEG are both normal. What is the most appropriate management?",
+      "options": [
+        "Start levetiracetam",
+        "Reassure and do not start antiepileptic drug therapy",
+        "Start carbamazepine",
+        "Start lamotrigine",
+        "Start sodium valproate"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend not starting an antiepileptic drug after a single unprovoked seizure unless the risk of recurrence is high (e.g., abnormal EEG, structural lesion). This patient has normal investigations, so the recurrence risk is low and observation is appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1afbbccf0778",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old woman with known acute intermittent porphyria presents with ongoing generalised convulsive seizures 15 minutes after receiving IV lorazepam 4 mg (status epilepticus). Which antiepileptic drug is contraindicated in this situation?",
+      "options": [
+        "IV phenytoin",
+        "IV magnesium",
+        "IV lorazepam",
+        "IV propofol",
+        "IV levetiracetam"
+      ],
+      "answerIndex": 0,
+      "explanation": "Phenytoin is a potent enzyme inducer and can precipitate acute porphyric attacks, making it contraindicated in porphyria. Levetiracetam and lorazepam are considered safe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a19584c836de",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with her first tonic-clonic seizure. EEG shows bilateral spike-wave discharges consistent with idiopathic generalised epilepsy. She is planning to start a family soon. Which antiepileptic drug is most appropriate as first-line treatment?",
+      "options": [
+        "Sodium valproate",
+        "Lamotrigine",
+        "Levetiracetam",
+        "Phenytoin",
+        "Carbamazepine"
+      ],
+      "answerIndex": 1,
+      "explanation": "In women of childbearing potential, sodium valproate is contraindicated due to high teratogenic risk. NICE recommends lamotrigine or levetiracetam as first-line for generalised tonic-clonic seizures; lamotrigine is often preferred as first line due to longer safety data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7340f879114e",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a known glioblastoma multiforme presents with his first focal to bilateral tonic-clonic seizure. He is currently on dexamethasone and undergoing radiotherapy. What is the most appropriate antiepileptic drug to start?",
+      "options": [
+        "Carbamazepine",
+        "Levetiracetam",
+        "Phenytoin",
+        "Sodium valproate",
+        "Lamotrigine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Levetiracetam is preferred in patients with brain tumours because it does not induce hepatic enzymes and has minimal drug interactions with chemotherapy and corticosteroids. Phenytoin and carbamazepine are enzyme inducers that reduce efficacy of concurrent medications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a7631ea73de",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known Child-Pugh C cirrhosis (severe hepatic impairment) has his first unprovoked tonic-clonic seizure. MRI brain is normal. Which antiepileptic drug should be avoided as first-line therapy?",
+      "options": [
+        "Sodium valproate",
+        "Carbamazepine",
+        "Lamotrigine",
+        "Phenytoin",
+        "Levetiracetam"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sodium valproate is hepatotoxic and contraindicated in patients with severe hepatic impairment. Levetiracetam has minimal hepatic metabolism and is safe; lamotrigine and phenytoin require caution but are not absolutely contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b3856c8eb0a5",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the Emergency Department after a witnessed generalised tonic-clonic seizure lasting 1 minute. She has now fully recovered and is neurologically intact. She has no prior seizures, no head injury, and no significant medical history. Observations and routine bloods are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT head scan",
+        "Arrange an urgent outpatient neurology appointment",
+        "Start lamotrigine",
+        "Perform an EEG",
+        "Check venous blood gas"
+      ],
+      "answerIndex": 0,
+      "explanation": "Per NICE CG137, adults presenting with a first seizure should have a CT head scan as soon as possible to exclude an acute structural cause. Starting an antiepileptic drug is not indicated after a single unprovoked seizure unless risk factors are present. EEG is helpful but not immediate; outpatient neurology referral can follow after acute imaging. VBG is not necessary in a well patient without concern for metabolic disturbance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2e52d735fc39",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man known to have idiopathic generalised epilepsy on lamotrigine 200 mg twice daily is brought to the Emergency Department after a single generalised tonic-clonic seizure lasting 90 seconds. He has now recovered and is orientated. He reports missing a few doses recently. What is the most appropriate immediate next step?",
+      "options": [
+        "Give IV lorazepam",
+        "Perform an EEG",
+        "Check serum lamotrigine level",
+        "Add levetiracetam",
+        "Arrange an urgent MRI head"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of missed doses suggests subtherapeutic drug levels as the likely cause. Checking the lamotrigine level guides management (e.g., restarting or adjusting dose). Adding another antiepileptic without assessing levels is premature. An acute EEG is not indicated for a breakthrough seizure; MRI is not urgent. IV lorazepam is not needed as the seizure has terminated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15bf3942d073",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman on the acute medical unit develops sudden onset of a generalised tonic-clonic seizure lasting 2 minutes, now post-ictal and drowsy. She has no history of epilepsy. Observations: HR 110 bpm, BP 150/90, SpO2 96% on air. Capillary blood glucose is 2.1 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give IV diazepam",
+        "Start phenytoin loading",
+        "Perform a CT head scan",
+        "Give 50 mL of 50% glucose IV",
+        "Perform an ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypoglycaemia (glucose <4.0 mmol/L) is a common, reversible cause of seizures, especially in the elderly. Immediate administration of glucose (or IM glucagon if no IV access) is life-saving and should precede other investigations. CT head is indicated but delayed; antiepileptic drugs are not first-line. ECG is important but not the most urgent. Diazepam is unnecessary as the seizure has stopped.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da258eb9c680",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old primigravida at 28 weeks gestation is brought to the Emergency Department after a generalised tonic-clonic seizure lasting 2 minutes. On examination, blood pressure is 160/110 mmHg, and urine dipstick shows 3+ protein. She is post-ictal but protecting her airway. What is the most appropriate immediate next step?",
+      "options": [
+        "Call the obstetric team",
+        "Start lamotrigine",
+        "Perform a CT head scan",
+        "Perform an MRI brain",
+        "Give IV magnesium sulfate"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is eclampsia (seizures in the setting of pre-eclampsia). The definitive immediate treatment is IV magnesium sulfate to prevent further seizures. CT head and MRI are not acutely necessary; antiepileptic drugs like lamotrigine are not first-line for eclampsia. Although involving obstetrics is important, administering magnesium sulfate is the priority therapeutic action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "795ff136558e",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with a history of alcohol use disorder is found in the Emergency Department after a witnessed generalised tonic-clonic seizure lasting 1 minute. He is now confused, tachycardic (HR 110 bpm), and febrile (38.5°C). His GCS is 14/15. You suspect alcohol withdrawal. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT head scan",
+        "Give IV thiamine (Pabrinex)",
+        "Give IV phenytoin",
+        "Check blood alcohol level",
+        "Give IV lorazepam"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with alcohol use disorder presenting with seizure, confusion, and fever, thiamine must be given immediately to prevent or treat Wernicke's encephalopathy, especially before administering any glucose-containing fluids. Phenytoin is not indicated for alcohol withdrawal seizures. CT head is important but can be performed after thiamine. Checking alcohol level is not urgent. Lorazepam may be used for withdrawal but thiamine is the priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00354be46331",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with no past medical history has a witnessed generalised tonic-clonic seizure lasting 2 minutes. He is now fully alert and asymptomatic. Which single finding on examination or investigation would mandate urgent neuroimaging?",
+      "options": [
+        "Family history of epilepsy",
+        "Papilloedema",
+        "Nystagmus",
+        "Focal neurological deficit",
+        "Headache"
+      ],
+      "answerIndex": 3,
+      "explanation": "Focal neurological deficit is a red flag for an underlying structural cause such as tumour or stroke, necessitating urgent imaging. Headache is common postictally, papilloedema suggests chronic raised ICP, and nystagmus may be postictal or medication-related.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8725a49ac1be",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 20-year-old woman with known epilepsy on lamotrigine has a seizure lasting 4 minutes, then a second seizure 3 minutes later without regaining consciousness between episodes. Which clinical feature confirms that this is status epilepticus?",
+      "options": [
+        "Tongue bite",
+        "Two or more seizures without full recovery of consciousness",
+        "Incontinence",
+        "Seizure duration >5 minutes total",
+        "Seizure duration >30 minutes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Status epilepticus is defined as continuous seizure activity for >5 minutes or two or more seizures without full recovery of consciousness between them. The scenario describes two seizures without recovery, meeting the definition; the total duration may be less than 5 minutes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f58ec158ba17",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old primigravida at 36 weeks gestation has a generalised tonic-clonic seizure at home. On arrival, blood pressure is 165/105 mmHg and urine protein is 2+. She is now alert but complains of abdominal discomfort. Which finding is most concerning for a life-threatening complication of eclampsia?",
+      "options": [
+        "Headache",
+        "Clonus (≥3 beats)",
+        "Visual blurring",
+        "Proteinuria 2+",
+        "Epigastric pain"
+      ],
+      "answerIndex": 4,
+      "explanation": "Epigastric pain may indicate HELLP syndrome (haemolysis, elevated liver enzymes, low platelets), a life-threatening complication of pre-eclampsia/eclampsia requiring urgent delivery. Headache and visual blurring are common, and clonus indicates CNS irritability but not as immediately dangerous as HELLP.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8792c11fce95",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with no past medical history has a first generalised seizure. He is febrile (38.5°C) and complains of headache. CT head is normal. Which CSF finding is most suggestive of bacterial meningitis and would mandate immediate empiric antibiotics?",
+      "options": [
+        "Opening pressure >30 cmH2O",
+        "Low glucose (CSF:plasma ratio <0.6)",
+        "Protein >1 g/L",
+        "WBC >1000/µL",
+        "Lymphocyte predominance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low CSF glucose is highly specific for bacterial meningitis; viral meningitis typically has normal glucose. Neutrophilic pleocytosis and elevated protein are also suggestive but less specific. Antibiotics should be started immediately if bacterial meningitis is suspected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d6d0b4cf893b",
+      "topic": "First Seizure",
+      "slug": "first-seizure",
+      "system": "Neurology",
+      "subSystem": "Seizure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 6-year-old child presents with a brief generalised febrile seizure (temperature 39°C). He is now well and has no meningism. Which feature indicates an increased risk of serious underlying infection (meningitis/encephalitis) warranting urgent lumbar puncture?",
+      "options": [
+        "Focal seizure activity",
+        "Reduced consciousness post-ictally",
+        "Family history of febrile seizures",
+        "Age <12 months",
+        "Seizure duration >15 minutes"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend considering lumbar puncture in children <12 months with a febrile seizure, as meningeal signs may be absent. Focal features also raise suspicion but are less specific. Age <12 months is a well-recognised red flag for serious bacterial infection.",
+      "difficulty": "easy"
+    }
+  ]
+}

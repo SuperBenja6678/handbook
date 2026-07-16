@@ -1,0 +1,513 @@
+{
+  "topic": "Otitis Media",
+  "slug": "otitis-media",
+  "system": "ENT",
+  "subSystem": "Ear",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:08Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "f59f37bdb668",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 2-year-old child presents with a 2-day history of right ear pain and fever (38.5°C). On otoscopy, the right tympanic membrane is bulging, erythematous, and immobile on pneumatic insufflation. What is the single most likely diagnosis?",
+      "options": [
+        "Otitis media with effusion",
+        "Acute mastoiditis",
+        "Acute otitis media",
+        "Pharyngitis with referred otalgia",
+        "Acute otitis externa"
+      ],
+      "answerIndex": 2,
+      "explanation": "The bulging, erythematous, immobile tympanic membrane with acute onset of pain and fever is classic for acute otitis media. Otitis media with effusion is painless with retracted or dull TM. Acute otitis externa involves the ear canal with discharge and tragal pain. Mastoiditis would have post-auricular swelling and tenderness. Pharyngitis may cause referred pain but otoscopy would be normal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8980586c591",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 4-year-old child is brought in by his mother due to concerns about hearing and speech delay. He has had several ear infections in the past but no recent acute symptoms. Otoscopy reveals a dull, retracted tympanic membrane with visible fluid levels. Tympanometry shows a flat curve (type B). What is the single most likely diagnosis?",
+      "options": [
+        "Otitis media with effusion",
+        "Cholesteatoma",
+        "Acute otitis media",
+        "Sensorineural hearing loss",
+        "Eustachian tube dysfunction"
+      ],
+      "answerIndex": 0,
+      "explanation": "The dull, retracted TM with fluid levels and flat tympanogram in a child with hearing loss and history of infections is diagnostic of otitis media with effusion (glue ear). Acute otitis media would have bulging, erythematous membrane and pain. Sensorineural loss has normal otoscopy. Cholesteatoma typically has a retraction pocket and foul discharge. Eustachian tube dysfunction is often a cause but not a diagnosis of middle ear fluid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f404ed0992ba",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 6-week history of right ear discharge that is painless and non-foul-smelling. She reports mild hearing loss. On otoscopy, there is a central perforation of the tympanic membrane with clear discharge and no cholesteatoma (no attic retraction or keratin debris). What is the single most likely diagnosis?",
+      "options": [
+        "Acute otitis externa",
+        "Chronic suppurative otitis media (tubotympanic type)",
+        "Acute otitis media",
+        "Acute mastoiditis",
+        "Cholesteatoma (atticoantral type)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic suppurative otitis media (CSOM) presents with persistent painless otorrhoea through a tympanic membrane perforation for >6 weeks. The central perforation and absence of cholesteatoma features (no attic retraction, keratin, or foul odour) point to the tubotympanic (safe) type. Acute otitis media would be painful and short-lived. Acute otitis externa involves ear canal inflammation. Mastoiditis has post-auricular signs. Cholesteatoma typically has a retraction pocket and foul discharge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "96f8e5919bdf",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 6-year-old boy presents with right ear pain and fever for 5 days. He was treated with amoxicillin but symptoms worsened. On examination, there is tender, fluctuant swelling behind the right ear, displacing the pinna forward. Otoscopy reveals a bulging, perforated tympanic membrane with purulent discharge. What is the single most likely diagnosis?",
+      "options": [
+        "Acute otitis media",
+        "Acute mastoiditis",
+        "Acute otitis externa",
+        "Post-auricular abscess (secondary to otitis externa)",
+        "Meningitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of post-auricular fluctuant swelling, pinna displacement, and persistent fever despite antibiotics in a child with acute otitis media is classic for acute mastoiditis. AOM alone would not have post-auricular swelling. Otitis externa typically has canal swelling and tragal pain. A post-auricular abscess from otitis externa is rare and would have different otoscopy. Meningitis would have neurological signs (neck stiffness, photophobia).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f7c2c4c3d99f",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with a history of recurrent ear infections as a child presents with a 2-month history of painless, foul-smelling discharge from his left ear and progressive hearing loss. He also reports occasional dizziness. Otoscopy reveals a retraction pocket in the attic region with keratin debris and a small perforation. What is the single most likely diagnosis?",
+      "options": [
+        "Otosclerosis",
+        "Otitis media with effusion",
+        "Cholesteatoma (atticoantral type)",
+        "Chronic suppurative otitis media (tubotympanic type)",
+        "Eustachian tube dysfunction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The attic retraction pocket, keratin debris, foul discharge, hearing loss, and history of recurrent infections are hallmarks of acquired cholesteatoma (atticoantral type). CSOM (tubotympanic) has a central perforation without attic retraction or keratin. OME has no discharge. Otosclerosis presents with conductive hearing loss and normal otoscopy. Eustachian tube dysfunction may cause retraction but not chronic discharge or keratin accumulation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6cbf7ea8acc9",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 4-year-old child presents with mild hearing loss and a history of recurrent ear infections. Otoscopy shows a retracted tympanic membrane with fluid level behind it. What is the most appropriate diagnostic test to confirm the diagnosis?",
+      "options": [
+        "MRI brain",
+        "Tympanometry",
+        "CT temporal bone",
+        "Pure tone audiometry",
+        "Nasopharyngoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture suggests otitis media with effusion (glue ear). Tympanometry confirms middle ear effusion by showing a flat (type B) curve. Pure tone audiometry assesses hearing loss but does not confirm the effusion itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5c05a0ef311f",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with acute onset of severe right ear pain, fever, and purulent discharge for 2 days. On examination, there is tender swelling behind the ear and the pinna is pushed forward. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "CT head with contrast",
+        "X-ray mastoid",
+        "MRI brain",
+        "Otoscopy",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The findings are typical of acute mastoiditis. CT head with contrast is the best investigation to assess for bone destruction, abscess formation, and intracranial complications. Otoscopy is part of the examination but not confirmatory. X-ray mastoid is outdated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "162a2d194121",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old diabetic man presents with chronic right ear discharge for 6 weeks, which is painless. Otoscopy reveals a perforation in the pars flaccida with keratin debris. He reports mild vertigo. What is the single most appropriate investigation to establish the diagnosis?",
+      "options": [
+        "Biopsy of the debris",
+        "Pure tone audiometry",
+        "Microsuction under microscope",
+        "MRI internal acoustic meatus",
+        "CT temporal bone without contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "The features are characteristic of cholesteatoma. CT temporal bone (high-resolution) is the imaging of choice to delineate the extent, ossicular erosion, and complications. Audiometry is supportive but not diagnostic. Microsuction is therapeutic/diagnostic but not imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2a8c67d2e28c",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 2-year-old child with recurrent acute otitis media (3 episodes in 6 months) has failed to improve with antibiotics. He has no other symptoms. Which investigation is most appropriate to assess for an underlying anatomical abnormality?",
+      "options": [
+        "Hearing assessment",
+        "CT temporal bone",
+        "MRI head",
+        "Video-otoscopy",
+        "Tympanometry"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a child with recurrent AOM not responding to treatment, CT temporal bone can identify anatomical abnormalities (e.g., enlarged vestibular aqueduct, cochlear malformation) that predispose to infections. Tympanometry and hearing assessment assess function, not anatomy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "af07244801c0",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with chronic otitis media presents with acute vertigo, nausea, and horizontal nystagmus with fast phase to the left. He has a left-sided perforated tympanic membrane with purulent discharge. What is the most appropriate investigation to confirm the suspected complication?",
+      "options": [
+        "CT temporal bone",
+        "Electrocochleography",
+        "Caloric testing",
+        "MRI brain with gadolinium",
+        "Video head impulse test"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presentation suggests labyrinthitis (likely suppurative) from chronic otitis media. MRI brain with gadolinium can show enhancement of the labyrinth and exclude intracranial complications. CT temporal bone is better for bone erosion but not for soft-tissue inflammation. Caloric testing and vHIT assess vestibular function but do not confirm the cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "76ef19a1b0a6",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 2-year-old girl presents with mild earache for 24 hours, low-grade fever (37.8°C), and no vomiting. Examination shows a slightly erythematous tympanic membrane with visible light reflex. She is otherwise well. What is the most appropriate management?",
+      "options": [
+        "No antibiotics, analgesia, and safety-netting advice",
+        "Co-amoxiclav 20 mg/kg three times daily for 5 days",
+        "Topical ofloxacin ear drops",
+        "Myringotomy under local anaesthesia",
+        "High-dose oral amoxicillin 40 mg/kg three times daily for 5 days"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mild acute otitis media (AOM) with non-severe symptoms, NICE recommends an immediate 'no antibiotic' strategy (watchful waiting) with adequate analgesia and safety-netting, as most cases resolve spontaneously. High-dose amoxicillin is reserved for severe or bilateral disease, or if the child is under 6 months. Co-amoxiclav, myringotomy, and topical drops are not first-line for simple AOM.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "68660b9537dc",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 3-year-old boy presents with a 2-day history of severe right ear pain, fever of 39.5°C, and vomiting. Examination reveals a bulging, erythematous tympanic membrane with purulent discharge. What is the most appropriate immediate treatment?",
+      "options": [
+        "Oral co-amoxiclav 20 mg/kg three times daily for 5 days",
+        "No antibiotics, advise analgesia and review in 48 hours",
+        "Tympanostomy tube insertion",
+        "Intravenous ceftriaxone 50 mg/kg once daily",
+        "High-dose oral amoxicillin 40 mg/kg three times daily for 5 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "This child has severe AOM (high fever, vomiting, bulging TM) meeting criteria for immediate antibiotic therapy. First-line according to NICE is high-dose amoxicillin for 5 days. Co-amoxiclav is second-line or if amoxicillin fails. IV ceftriaxone is used only if unable to tolerate oral. Tympanostomy is not first-line for acute episode.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d8c8065eb5a5",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 5-year-old child has persistent bilateral otitis media with effusion (glue ear) for 6 months. Audiometry shows a hearing loss of 30 dB. The child struggles in school. What is the most appropriate management?",
+      "options": [
+        "Watchful waiting for another 3 months",
+        "Oral corticosteroids for 7 days",
+        "Grommet (ventilation tube) insertion",
+        "Adenoidectomy alone",
+        "Autoinflation device therapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends grommet insertion for bilateral OME lasting >3 months with hearing loss >25 dB, especially if there is educational or developmental impact. Autoinflation may be considered while awaiting surgery but is not definitive. Adenoidectomy is an adjunct if there are also adenoid-related symptoms. Steroids are not effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b84701100dfc",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 6-year-old girl with a 5-day history of acute otitis media now presents with a tender, erythematous swelling behind her right ear, pushing the pinna forward. She has a fever of 39°C. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous ceftriaxone alone",
+        "Intravenous co-amoxiclav and urgent ENT referral for possible mastoidectomy",
+        "Topical ciprofloxacin ear drops",
+        "Oral high-dose amoxicillin for 7 days",
+        "Myringotomy with insertion of grommet"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is acute mastoiditis, a serious complication of AOM. The mainstay is IV antibiotics (co-amoxiclav is first-line) covering the likely pathogens (Streptococcus pneumoniae, Haemophilus influenzae, Streptococcus pyogenes) and urgent ENT evaluation for possible surgical drainage (mastoidectomy or myringotomy). Oral therapy is insufficient for this emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2539b7bb19bf",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old woman presents with acute right ear pain, fever of 38.2°C, and a red, bulging tympanic membrane. She has a history of immediate-type penicillin allergy (urticaria). What is the most appropriate antibiotic therapy?",
+      "options": [
+        "Cefalexin 500 mg four times daily",
+        "Clarithromycin 500 mg twice daily for 5 days",
+        "Doxycycline 200 mg on day 1 then 100 mg daily",
+        "No antibiotics; analgesia only",
+        "Co-amoxiclav 625 mg three times daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "For penicillin-allergic patients, NICE recommends clarithromycin as first-line for AOM (if antibiotics are needed). Co-amoxiclav is contraindicated due to penicillin allergy. Doxycycline is not first-line for AOM. Cefalexin carries a risk of cross-reaction (about 10%) and is not recommended first-line. Antibiotics are indicated here due to moderate-to-severe symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "761b3a454db6",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 4-year-old boy is brought to the ED with a 2-day history of earache and fever (38.2°C). He is otherwise well. Otoscopy reveals a red, bulging tympanic membrane with reduced mobility bilaterally. He has no otorrhoea. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe paracetamol for pain relief",
+        "Perform bilateral myringotomy",
+        "Start oral prednisolone",
+        "Refer urgently to ENT",
+        "Prescribe a 5-day course of amoxicillin"
+      ],
+      "answerIndex": 0,
+      "explanation": "In line with NICE guidelines, first-line management for acute otitis media in a well child is simple analgesia (paracetamol or ibuprofen). Antibiotics are not routinely indicated unless the child is systemically unwell, under 2 years with bilateral infection, or at high risk of complications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2a51fb7cae08",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents with worsening right ear pain despite completing 48 hours of amoxicillin for acute otitis media. Her temperature is 38.5°C. Otoscopy reveals a bulging, erythematous tympanic membrane with no perforation. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange outpatient CT scan of temporal bones",
+        "Perform a myringotomy",
+        "Repeat the same course of amoxicillin for a further 5 days",
+        "Admit for intravenous antibiotics",
+        "Switch to co-amoxiclav"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends switching to a second-line antibiotic (co-amoxiclav or a macrolide if penicillin-allergic) if symptoms of acute otitis media persist after 48 hours of first-line therapy. There is no indication for myringotomy, CT, or intravenous antibiotics at this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4912f55a93f9",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 6-year-old girl with a 1-week history of acute otitis media now presents with right-sided ear pain, fever (39.2°C), and swelling behind the ear. The pinna is protruding. She appears unwell. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral prednisolone",
+        "Start intravenous co-amoxiclav",
+        "Perform a lumbar puncture",
+        "Refer urgently to ENT",
+        "Apply a topical antibiotic ear wick"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mastoiditis is a surgical emergency. Immediate ENT referral is critical for assessment and likely myringotomy with intravenous antibiotics. While intravenous antibiotics should be started promptly, the single most important immediate action is escalation to ENT to coordinate definitive management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "886e2ce7c335",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 5-year-old boy is brought by his mother because of concerns about hearing. She says he often turns up the TV volume and does not respond to his name. His developmental milestones are otherwise normal. Otoscopy shows normal tympanic membranes bilaterally with evidence of fluid behind the drums. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer directly for grommet insertion",
+        "Start a course of oral antibiotics",
+        "Arrange an audiology assessment",
+        "Reassure and arrange follow-up in 3 months",
+        "Prescribe nasal steroid spray"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines for otitis media with effusion recommend watchful waiting for 3 months in children with suspected hearing loss, as spontaneous resolution is common. Audiometry and referral for grommets are only considered if symptoms persist beyond that period.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca4566e9bbfd",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents with a 3-day history of right ear pain followed by sudden discharge of yellow fluid from the ear. He now feels less pain. Otoscopy shows a tympanic membrane perforation with purulent discharge. He has no fever. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe topical ciprofloxacin ear drops",
+        "Prescribe a course of oral amoxicillin",
+        "Refer urgently to ENT",
+        "Perform aural toilet",
+        "Advise to keep ear dry and no further treatment"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute otitis media with perforation and active otorrhoea, NICE recommends a course of oral antibiotics (amoxicillin first-line). Topical antibiotics are considered if discharge persists after oral therapy, and aural toilet is not first-line. ENT referral is not routinely needed unless complications arise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b048580f57b1",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 3-year-old child presents with a 2-day history of fever, ear tugging, and irritability. Today the mother reports that the ear pain suddenly stopped and a yellow discharge appeared from the ear. On examination, the external canal contains purulent material. Which single finding on further assessment would raise immediate concern for a life-threatening complication?",
+      "options": [
+        "Granulation tissue in the middle ear",
+        "A temperature of 38.5°C",
+        "Postauricular erythema and tenderness",
+        "A small central perforation of the tympanic membrane",
+        "Mild conductive hearing loss"
+      ],
+      "answerIndex": 2,
+      "explanation": "Postauricular erythema and tenderness are signs of acute mastoiditis, a serious complication of acute otitis media that requires urgent imaging and intravenous antibiotics. A central tympanic membrane perforation with discharge is typical of a simple acute otitis media and is not an emergency. Low-grade fever, mild hearing loss, and granulation tissue (more associated with chronic suppurative otitis media) do not indicate impending danger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b5bdb82d8792",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 6-year-old boy with acute otitis media has been on amoxicillin for 48 hours but remains febrile and now complains of severe headache and vomiting. On examination, his tympanic membrane is bulging and erythematous. Which of the following clinical findings would most strongly suggest an intracranial complication?",
+      "options": [
+        "A temperature of 39.5°C",
+        "Retraction of the tympanic membrane",
+        "Erythema of the external auditory canal",
+        "Neck stiffness on flexion",
+        "Pus in the external auditory canal"
+      ],
+      "answerIndex": 3,
+      "explanation": "Neck stiffness is a key meningeal sign that raises suspicion of meningitis, an intracranial complication of acute otitis media. Erythema of the external canal suggests otitis externa. High fever and purulent discharge are common in uncomplicated AOM. A retracted TM indicates eustachian tube dysfunction, not intracranial spread.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9813775db631",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with poorly controlled type 2 diabetes presents with severe otalgia, purulent otorrhoea, and facial nerve palsy of acute onset. Otoscopy reveals an attic perforation with keratin debris. Which finding is most indicative of the underlying life-threatening condition?",
+      "options": [
+        "Purulent discharge from the ear",
+        "Conductive hearing loss of 30 dB",
+        "Granulation tissue in the middle ear",
+        "Facial nerve palsy",
+        "Postauricular tenderness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Facial nerve palsy in the setting of chronic suppurative otitis media with an attic perforation is a red-flag sign of cholesteatoma eroding the facial nerve canal, which can lead to intracranial infection if untreated. While granulation tissue, hearing loss, and discharge are common, facial nerve palsy indicates a serious complication requiring urgent imaging and surgical intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a8f78d4475e3",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 5-year-old child with acute otitis media develops acute vertigo, vomiting, and ataxia. On examination, there is spontaneous nystagmus and sensorineural hearing loss. Which of the following does this clinical picture represent?",
+      "options": [
+        "Sigmoid sinus thrombosis",
+        "Acute otitis media with effusion",
+        "Labyrinthitis",
+        "Petrous apicitis",
+        "Mastoiditis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The triad of acute vertigo, spontaneous nystagmus, and sensorineural hearing loss in a child with recent acute otitis media is pathognomonic for labyrinthitis (intratemporal complication). Mastoiditis typically presents with postauricular swelling. Sigmoid sinus thrombosis may cause headache, fever, and signs of raised intracranial pressure. Petrous apicitis presents with retroorbital pain and abducens nerve palsy. Acute otitis media with effusion does not cause vertigo or sensorineural loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68354086d054",
+      "topic": "Otitis Media",
+      "slug": "otitis-media",
+      "system": "ENT",
+      "subSystem": "Ear",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 7-month-old infant presents with a 3-day history of fever, irritability, and poor feeding. The anterior fontanelle is full and tense. Otoscopy shows a bulging, erythematous tympanic membrane. Which single finding would most strongly suggest a diagnosis of meningitis rather than uncomplicated acute otitis media?",
+      "options": [
+        "Refusal to feed",
+        "Purulent nasal discharge",
+        "Bulging fontanelle",
+        "Bilateral otitis media on examination",
+        "Temperature of 39.2°C"
+      ],
+      "answerIndex": 2,
+      "explanation": "A bulging fontanelle in an infant with fever and otitis media is a red-flag sign of raised intracranial pressure and should prompt immediate lumbar puncture to exclude meningitis. Fever, nasal discharge, bilateral OM, and poor feeding are common in uncomplicated AOM and do not specifically indicate intracranial infection.",
+      "difficulty": "medium"
+    }
+  ]
+}

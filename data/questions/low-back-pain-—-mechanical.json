@@ -1,0 +1,513 @@
+{
+  "topic": "Low Back Pain — Mechanical",
+  "slug": "low-back-pain-—-mechanical",
+  "system": "Orthopaedics & Trauma",
+  "subSystem": "Spine",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8fedf59106c1",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old office worker presents with acute low back pain after lifting a heavy box at work. Pain is dull and localised to the lower back, no radiation. Neurological examination is normal. There is no history of trauma or previous back pain. What is the single most likely diagnosis?",
+      "options": [
+        "Spondylolisthesis",
+        "Lumbar spine fracture",
+        "Lumbar disc herniation",
+        "Ankylosing spondylitis",
+        "Non-specific low back pain"
+      ],
+      "answerIndex": 4,
+      "explanation": "Non-specific low back pain is the most common cause in this age group, especially with no red flags. Disc herniation typically presents with radicular pain, and spondylolisthesis often with chronic symptoms or neurological signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "05d6d44787a2",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old teacher has had low back pain for 6 months, worse when sitting for long periods and better when moving around. The pain is a dull ache across the lower back, no leg pain. Examination shows full range of motion but mild tenderness over the lumbar paraspinal muscles. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic mechanical low back pain",
+        "Vertebral compression fracture",
+        "Sacroiliitis",
+        "Lumbar spinal stenosis",
+        "Fibromyalgia"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pattern of worsening with sitting and improvement with movement is typical of mechanical low back pain. Fibromyalgia has widespread tender points; sacroiliitis causes pain over sacroiliac joints; spinal stenosis presents with neurogenic claudication; fracture would be acute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9a3c9ce0ca71",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents to the ED with severe low back pain after falling off a ladder from 2 metres. He is unable to stand or walk. On examination, there is localised midline tenderness at L2-3. Neurological examination of the lower limbs is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute lumbar disc extrusion",
+        "Lumbar muscle strain",
+        "Hip fracture",
+        "Cauda equina syndrome",
+        "Acute vertebral compression fracture"
+      ],
+      "answerIndex": 4,
+      "explanation": "The history of fall and inability to stand with midline tenderness strongly suggests a vertebral compression fracture. Disc extrusion usually causes radicular pain; cauda equina would have neurological deficits; muscle strain would allow some movement; hip fracture presents with groin pain and external rotation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "759bb8a45090",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known ankylosing spondylitis (HLA-B27 positive) presents with acute onset of severe low back pain after a minor fall. He has difficulty walking and the pain is not relieved by his usual NSAIDs. X-ray shows a transverse lucency through the fused L3-4 segment. What is the single most likely diagnosis?",
+      "options": [
+        "Acute flare of ankylosing spondylitis",
+        "Spinal pseudofracture (Andersson lesion)",
+        "Sacroiliitis",
+        "Discitis",
+        "Spinal stenosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In ankylosing spondylitis, a fused spine is prone to fractures even with minor trauma (pseudofracture). The radiographic finding is characteristic. An acute flare would not show lucency; discitis is rare; sacroiliitis is typical but not acute after fall; spinal stenosis would not cause this X-ray finding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1eda838028b6",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with osteoporosis presents with gradual onset of low back pain over 2 weeks, radiating to the buttocks. There is no history of trauma. She is unable to bear weight on the left leg. MRI shows a vertical fracture line through the left sacral ala. What is the single most likely diagnosis?",
+      "options": [
+        "Sacral insufficiency fracture",
+        "Lumbar spinal stenosis",
+        "Osteoarthritis of the hip",
+        "Metastatic bone disease",
+        "Vertebral compression fracture"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient's age, osteoporosis, and MRI finding of a vertical sacral fracture point to insufficiency fracture. Vertebral compression fracture would show a wedge deformity; metastases would have a different appearance; spinal stenosis causes neurogenic claudication; hip osteoarthritis causes groin pain and limited rotation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc1188536e89",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents with acute low back pain for 2 days after lifting a heavy object. He has no leg pain or neurological symptoms. Examination reveals tenderness in the lumbar region but no focal signs. What is the single most appropriate investigation?",
+      "options": [
+        "Blood tests (FBC, ESR, CRP)",
+        "CT lumbar spine",
+        "Plain X-ray lumbar spine",
+        "No investigation is required",
+        "MRI lumbar spine"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend no imaging for non-specific low back pain without red flags. Imaging is not indicated as it does not improve outcomes and may lead to unnecessary interventions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e9936de53e5a",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman presents with acute severe low back pain, bilateral leg numbness, and urinary retention for 12 hours. On examination, she has reduced anal sphincter tone. What is the most appropriate next investigation?",
+      "options": [
+        "MRI whole spine (urgent)",
+        "CT lumbar spine without contrast",
+        "CT myelogram",
+        "Bone scan",
+        "Plain X-ray lumbar spine"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI is the gold standard for diagnosing cauda equina syndrome and should be performed urgently to avoid irreversible neurological damage. Other tests are less sensitive or not indicated in this emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e275d5e210ec",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man on long-term prednisolone for COPD presents with acute back pain after a minor fall. Lumbar spine X-ray shows a wedge compression fracture of L1. What is the most appropriate investigation to diagnose the underlying bone condition?",
+      "options": [
+        "Serum calcium and vitamin D",
+        "DEXA scan",
+        "MRI lumbar spine",
+        "Bone scan",
+        "CT lumbar spine"
+      ],
+      "answerIndex": 1,
+      "explanation": "A DEXA scan is the standard test for diagnosing osteoporosis, which is the likely cause of fragility fractures. Serum calcium is not diagnostic for osteoporosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef7d2392c636",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman has chronic low back pain with left leg pain radiating to the foot. Straight leg raise is positive on the left. MRI lumbar spine shows a disc herniation at L4-5 compressing the nerve root. Which nerve root is most likely affected?",
+      "options": [
+        "L4",
+        "L5",
+        "S2",
+        "L3",
+        "S1"
+      ],
+      "answerIndex": 1,
+      "explanation": "At L4-5, the herniated disc typically compresses the traversing L5 nerve root. The exiting L4 root is usually spared. L5 radiculopathy presents with weakness of great toe extension and foot dorsiflexion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "504112afe743",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old football player presents with low back pain that is worse with lumbar extension and aggravated by jumping. Initial plain X-ray is normal. What is the most appropriate next imaging test to confirm a diagnosis of spondylolysis?",
+      "options": [
+        "MRI lumbar spine",
+        "CT lumbar spine",
+        "SPECT/CT",
+        "Flexion-extension X-rays",
+        "Bone scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "SPECT/CT combines functional and anatomical imaging and is highly sensitive for detecting early stress reactions in the pars interarticularis. MRI is less sensitive for early spondylolysis compared to SPECT/CT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "009778b9c29c",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old office worker presents with acute low back pain for 3 days after gardening. There is no leg pain, no red flags, and no neurological deficit. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral ibuprofen 400 mg three times daily as needed",
+        "Diazepam 5 mg three times daily",
+        "Referral to physiotherapy",
+        "Bed rest for 48 hours",
+        "Oral morphine 5 mg four hourly"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines advise simple analgesia (NSAIDs) as first-line; bed rest is not recommended, strong opioids are avoided, and muscle relaxants are not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5dee0b5e7916",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman has had chronic low back pain for 6 months despite using regular paracetamol and ibuprofen. There is no radicular pain. What is the most appropriate next pharmacological treatment?",
+      "options": [
+        "Continue paracetamol and ibuprofen",
+        "Tramadol 50 mg four times daily",
+        "Pregabalin 150 mg twice daily",
+        "Amitriptyline 10 mg at night",
+        "Gabapentin 300 mg three times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends amitriptyline for chronic low back pain; gabapentin and pregabalin are not recommended; tramadol is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea4d85a5394b",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with acute severe low back pain after lifting a heavy box. He has paravertebral muscle spasm but no leg symptoms. What is the most appropriate initial treatment?",
+      "options": [
+        "Bed rest for 24 hours",
+        "Diazepam 5 mg three times daily",
+        "Referral for physiotherapy",
+        "Heat packs and massage",
+        "Oral ibuprofen 400 mg three times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "NSAIDs are first-line for acute low back pain; muscle relaxants are not recommended routinely; bed rest is discouraged.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8f25c02ee33e",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with acute severe leg pain radiating to the dorsum of his foot, with mild weakness in great toe extension. MRI shows L5 nerve root compression. Bladder function is normal. What is the most appropriate management?",
+      "options": [
+        "Open surgical decompression",
+        "Emergency lumbar discectomy",
+        "Epidural steroid injection",
+        "Strong opioids and bed rest",
+        "Conservative management with simple analgesia and advice to remain active"
+      ],
+      "answerIndex": 4,
+      "explanation": "In the absence of cauda equina syndrome or severe progressive motor deficit, first-line is conservative; surgery is reserved for failure or severe weakness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14379459e23b",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with known osteoporosis develops acute low back pain after sneezing. X-ray shows a wedge fracture of L1 with no retropulsion. She has severe pain. What is the most appropriate initial treatment?",
+      "options": [
+        "Vertebroplasty",
+        "Oral alendronate 70 mg weekly",
+        "Oral paracetamol 1 g four times daily",
+        "Bed rest for 2 weeks",
+        "Thoracolumbar brace"
+      ],
+      "answerIndex": 2,
+      "explanation": "Initial management is analgesia; vertebroplasty is only if refractory; bisphosphonates are for long-term osteoporosis treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2fc3790fa425",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man presents to the ED with acute onset of low back pain after lifting a heavy box at work 2 days ago. He has no radiation of pain, no paraesthesia, and no weakness. He is otherwise fit and well. Observations are normal. Straight leg raise is negative bilaterally. There are no red-flag features. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for an urgent MRI scan of the lumbar spine",
+        "Arrange a physiotherapy referral for core strengthening exercises",
+        "Prescribe a course of oral corticosteroids",
+        "Advise to remain active and avoid bed rest, with simple analgesia as needed",
+        "Start a short course of strong opioids (e.g., morphine)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines for acute non-specific low back pain advise reassurance, advice to stay active, and simple analgesia (e.g., paracetamol or NSAIDs). The most tempting distractor is physiotherapy referral, but this is not first-line for acute pain; initial management is self-care. MRI is not indicated without red flags. Opioids and corticosteroids are not recommended first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd6934d1a881",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with a 6-week history of low back pain and right leg pain below the knee presents to the GP. She has paraesthesia in the right L5 dermatome. Straight leg raise is positive at 40° on the right. She has no motor weakness, and bowel and bladder function are normal. Observations are unremarkable. What is the most appropriate immediate next step?",
+      "options": [
+        "Reassure and advise to continue normal activities with simple analgesia",
+        "Offer a referral for a spinal surgical opinion",
+        "Start a course of gabapentin for neuropathic pain",
+        "Refer for an urgent MRI scan of the lumbar spine",
+        "Refer for a nerve conduction study (NCS) and electromyography (EMG)"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends that for acute sciatica (radicular pain) without red flags, initial management is conservative: advice, exercise, and analgesia. MRI is not indicated unless red flags develop or symptoms fail to improve after 6 weeks of conservative therapy. Surgery is not first-line. NCS/EMG are rarely needed if clinical picture is clear. Gabapentin may be considered later if neuropathic pain persists, but immediate step is reassurance and conservative care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c7612c57c97",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with metastatic prostate cancer presents to ED with sudden onset severe low back pain, bilateral leg weakness, and numbness in the 'saddle' area. He is unable to pass urine. On examination, there is reduced anal sphincter tone. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a bladder scan to assess post-void residual",
+        "Insert a urinary catheter and record residual volume",
+        "Request an emergency MRI scan of the whole spine",
+        "Start high-dose intravenous dexamethasone",
+        "Urgently refer for neurosurgical assessment"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is suspected cauda equina syndrome. NICE guidelines state that if cauda equina syndrome is suspected, an emergency MRI (within hours) is the priority to confirm the diagnosis before any other intervention. While catheterisation and dexamethasone may be relevant after imaging, the immediate next step is to obtain imaging to guide definitive management. The most tempting distractor is neurosurgical referral, but imaging is needed first to establish the cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d120e1e25824",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man who underwent an L4/L5 discectomy 2 weeks ago presents to ED with increasing low back pain, fever (38.5°C), and difficulty mobilising. On examination, there is tenderness over the surgical site and a raised white cell count. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent MRI of the lumbar spine with contrast",
+        "Refer directly to orthopaedic spinal surgeons for emergency review",
+        "Perform a CT scan of the lumbar spine with contrast",
+        "Arrange for a wound swab and commence oral flucloxacillin",
+        "Start empiric intravenous antibiotics after taking blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-operative discitis/osteomyelitis is suspected. MRI with contrast is the investigation of choice to diagnose discitis, as it can show endplate changes and collection. While blood cultures and antibiotics are important, the immediate next step is imaging to confirm the diagnosis and guide management. CT is less sensitive. Empiric antibiotics should not be started before imaging unless the patient is septic, which is not clear here. Surgical referral can follow imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "42866c5d9089",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with known osteoporosis presents to the GP with acute-onset low back pain. She felt a 'snap' after bending to pick up a pen. There is localised tenderness over the mid-lumbar spine. She has no leg pain or neurological symptoms. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe a bisphosphonate (e.g., alendronic acid) for osteoporosis",
+        "Arrange an MRI scan of the lumbar spine",
+        "Refer to the falls prevention clinic",
+        "Request a plain X-ray of the lumbar spine",
+        "Request a dual-energy X-ray absorptiometry (DXA) scan to assess bone density"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an elderly patient with osteoporosis and acute low back pain after minimal trauma, the most likely cause is a vertebral fragility fracture. Plain X-ray is the first-line imaging to confirm the diagnosis. DXA scan is for screening, not acute assessment. Bisphosphonates are a treatment for osteoporosis but not the immediate step for acute pain. MRI is reserved if X-ray is inconclusive or there are neurological signs. Falls prevention is secondary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "123b55956bbb",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old male presents with acute onset low back pain radiating to both legs. He has difficulty initiating micturition and has not passed urine for 12 hours. On examination, there is decreased anal sphincter tone. Which single clinical finding most strongly indicates cauda equina syndrome?",
+      "options": [
+        "Decreased knee jerk",
+        "Bilateral sciatica",
+        "Foot drop",
+        "Straight leg raise positive",
+        "Saddle anaesthesia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Saddle anaesthesia is a classic red flag for cauda equina syndrome, reflecting compression of sacral nerve roots. Bilateral sciatica is common but not specific; straight leg raise suggests disc herniation but not cauda equina; altered reflexes and foot drop can occur with radiculopathy but are not pathognomonic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1dee557725a7",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with rheumatoid arthritis on long-term prednisolone trips and falls from a chair, landing on her back. She reports immediate severe lower back pain and is unable to bear weight. On examination, she has tenderness over the L2 spinous process. Which finding is most indicative of a spinal fracture?",
+      "options": [
+        "Inability to walk",
+        "Radicular pain",
+        "Loss of lumbar lordosis",
+        "Focal midline tenderness",
+        "Bilateral leg weakness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Focal midline tenderness after a fall in an osteoporotic patient is a high-risk feature for vertebral fracture. Inability to walk is non-specific; leg weakness or radicular pain may occur but are not immediate fracture signs; loss of lordosis can be seen in degenerative disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00b5d42c46d0",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old intravenous drug user presents with severe low back pain and fever for three days. CRP is 200 mg/L. On examination, he has mild tenderness over the lumbar spine, but no focal neurological deficit. Which feature, if present, would most strongly suggest an epidural abscess requiring emergency imaging?",
+      "options": [
+        "Night sweats",
+        "New neurological deficit",
+        "Fever >38.5°C",
+        "Weight loss",
+        "CRP >100 mg/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "New neurological deficit (e.g., motor or sensory loss) indicates compression of the spinal cord or cauda equina from an abscess, necessitating urgent MRI. Fever and markedly raised CRP are expected with infection but do not themselves mandate emergency imaging; night sweats and weight loss are constitutional.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7f7ef70700c2",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known lung cancer complains of progressive low back pain over three weeks, now with heaviness in his legs. On examination, there is a sensory level at T10. Which clinical finding is most specific for spinal cord compression?",
+      "options": [
+        "Back pain exacerbated by coughing",
+        "Urinary retention",
+        "Bilateral leg weakness",
+        "Sensory level",
+        "Fever"
+      ],
+      "answerIndex": 3,
+      "explanation": "A sensory level (a sharply defined dermatomal border) is highly specific for spinal cord compression. Bilateral leg weakness can occur but is also seen in cauda equina or other myelopathies; urinary retention is a late sign; pain on coughing suggests a discogenic cause; fever points to infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5d868096aff7",
+      "topic": "Low Back Pain — Mechanical",
+      "slug": "low-back-pain-—-mechanical",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Spine",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old hypertensive man presents with sudden-onset severe lower back pain and collapses in the emergency department. He is pale and diaphoretic. On examination, there is a tender, pulsatile mass in the abdomen. Which single finding most strongly supports a diagnosis of abdominal aortic aneurysm as the cause of his back pain?",
+      "options": [
+        "Hypotension (BP 85/50 mmHg)",
+        "Abdominal bruit",
+        "Absent femoral pulses",
+        "Pulsatile abdominal mass",
+        "Severity of back pain (10/10)"
+      ],
+      "answerIndex": 3,
+      "explanation": "A pulsatile abdominal mass is the classic clinical sign of an abdominal aortic aneurysm. While hypotension and severe back pain are common in rupture, they are not specific; absent femoral pulses occur with occlusion but not all aneurysms; an abdominal bruit may indicate stenosis but is not diagnostic of aneurysm.",
+      "difficulty": "hard"
+    }
+  ]
+}

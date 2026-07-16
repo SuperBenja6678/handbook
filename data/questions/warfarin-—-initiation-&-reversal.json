@@ -1,0 +1,513 @@
+{
+  "topic": "Warfarin — Initiation & Reversal",
+  "slug": "warfarin-—-initiation-&-reversal",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:35:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d0626dc53411",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman with atrial fibrillation started warfarin 3 days ago. She now presents with painful, well-demarcated purpuric plaques on her thighs and buttocks. She is obese and has no other medical history. INR is 1.2. What is the single most likely diagnosis?",
+      "options": [
+        "Deep vein thrombosis",
+        "Necrotising fasciitis",
+        "Contact dermatitis",
+        "Warfarin-induced skin necrosis",
+        "Cellulitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Warfarin-induced skin necrosis typically occurs early after initiation, especially in obese patients or those with protein C deficiency. The well-demarcated purpuric plaques are characteristic, and the normal INR helps exclude other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "65c84b5ed315",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man on warfarin for mechanical mitral valve replacement presents with sudden onset severe headache, vomiting, and right-sided weakness. He has a history of hypertension. His INR on admission is 4.8. CT head shows a left basal ganglia haematoma. What is the single most likely diagnosis?",
+      "options": [
+        "Hypertensive bleed without warfarin",
+        "Subarachnoid haemorrhage",
+        "Warfarin-related intracranial haemorrhage",
+        "Ischaemic stroke",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of supratherapeutic INR, location consistent with hypertensive bleed, and warfarin use makes warfarin-related intracranial haemorrhage the most likely. Other causes are less likely given the INR and CT findings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d8c6274b84a5",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with peripheral arterial disease and atrial fibrillation develops bluish, painful discolouration of his toes 2 weeks after starting warfarin. Distal pulses are present. His INR is 2.5. What is the single most likely diagnosis?",
+      "options": [
+        "Raynaud's phenomenon",
+        "Acute ischaemic limb",
+        "Vasculitic rash",
+        "Warfarin-induced purple toe syndrome (cholesterol emboli)",
+        "Cellulitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Purple toe syndrome is a rare complication of warfarin due to cholesterol crystal embolisation, typically in patients with atherosclerotic disease. Preserved pulses and distribution differentiate it from ischaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4f2a1c0cae09",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 58-year-old woman on warfarin for pulmonary embolism develops easy bruising and haematuria after a 7-day course of metronidazole for dental infection. Her INR is 8.9. What is the single most likely diagnosis?",
+      "options": [
+        "Factor VII deficiency",
+        "Warfarin overdose due to drug interaction",
+        "Disseminated intravascular coagulation",
+        "Vitamin K deficiency",
+        "Liver disease exacerbation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metronidazole inhibits warfarin metabolism, potentiating its effect and causing supratherapeutic INR and bleeding. Other coagulopathies are less likely given no other clinical or lab evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "63b0024d3e7a",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man on warfarin for recurrent DVT requires increasing doses (up to 15 mg/day) to achieve a target INR of 2-3. He eats a large amount of leafy green vegetables daily and has no other medical conditions. His aPTT is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Non-adherence to warfarin therapy",
+        "Malabsorption of warfarin",
+        "Warfarin resistance due to high dietary vitamin K",
+        "Hereditary factor VII deficiency",
+        "Laboratory error in INR measurement"
+      ],
+      "answerIndex": 2,
+      "explanation": "High dietary vitamin K intake antagonises warfarin, leading to resistance and need for higher doses. Other causes are less likely given the consistent history and normal aPTT excluding factor deficiency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "403bd32bdd87",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman with newly diagnosed atrial fibrillation is scheduled to start warfarin. What is the most important baseline investigation before initiating therapy?",
+      "options": [
+        "APTT",
+        "Serum creatinine",
+        "Platelet count",
+        "Liver function tests",
+        "INR"
+      ],
+      "answerIndex": 4,
+      "explanation": "A baseline INR is essential to confirm it is within normal range (typically <1.2) before starting warfarin; a raised INR may indicate an underlying coagulopathy or need for further investigation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "72f7539e6707",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman presents with epistaxis and bruising. INR is 6.2. She denies taking warfarin but her brother is prescribed warfarin. Which investigation best confirms the cause of her coagulopathy as warfarin overdose?",
+      "options": [
+        "D-dimer",
+        "PT mixing study",
+        "Factor V assay",
+        "Factor VIII assay",
+        "Thrombin time"
+      ],
+      "answerIndex": 2,
+      "explanation": "Warfarin selectively reduces vitamin K-dependent factors (II, VII, IX, X) but spares factor V. A normal factor V level in the setting of a prolonged PT/INR strongly suggests vitamin K antagonist effect, as factor V is low in liver disease or DIC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f126f8e01062",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man started warfarin for DVT develops a painful purpuric rash on his thighs and buttocks on day 5, which becomes necrotic. Warfarin is stopped. Which diagnostic test is most likely to reveal an underlying risk factor for this complication?",
+      "options": [
+        "Lupus anticoagulant",
+        "Antithrombin III level",
+        "Factor V Leiden mutation",
+        "Protein S activity",
+        "Protein C activity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Warfarin-induced skin necrosis is classically associated with protein C deficiency (or rarely protein S). The short half-life of protein C leads to a transient hypercoagulable state early in warfarin therapy, triggering microvascular thrombosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "250c83b33aba",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man on warfarin for a mechanical mitral valve requires emergency laparotomy for a perforated duodenal ulcer. His INR is 4.0. He receives intravenous vitamin K and prothrombin complex concentrate (PCC). Thirty minutes later, which investigation best confirms that adequate reversal has been achieved?",
+      "options": [
+        "PT",
+        "Thrombin time",
+        "APTT",
+        "INR",
+        "Factor II activity"
+      ],
+      "answerIndex": 3,
+      "explanation": "The standard measure to confirm reversal is a repeat INR, typically aiming for <1.5 (or per local policy). The INR assesses the overall coagulation status and is the most practical test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "872d803606be",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with atrial fibrillation requires very low doses of warfarin (1 mg daily) to maintain a therapeutic INR. He has no liver disease or other medication interactions. Which investigation is most likely to explain his warfarin sensitivity?",
+      "options": [
+        "CYP2C9 genotyping",
+        "Factor V Leiden",
+        "Protein C activity",
+        "VKORC1 genotyping",
+        "Vitamin K assay"
+      ],
+      "answerIndex": 0,
+      "explanation": "Polymorphisms in CYP2C9 (e.g., *2, *3) reduce warfarin clearance, leading to increased sensitivity and lower dose requirements. VKORC1 variants also contribute but CYP2C9 is a common cause of dose sensitivity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1d5cf1373e41",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with non-valvular atrial fibrillation (CHA2DS2-VASc score 4) is commenced on warfarin. His baseline INR is 1.0 and he has no bleeding risk factors. What is the most appropriate loading dose regimen?",
+      "options": [
+        "Warfarin 10 mg orally daily for 2 days, then check INR and adjust",
+        "Warfarin 3 mg orally daily for 2 days, then check INR and adjust",
+        "Warfarin 5 mg orally daily for 2 days, then check INR and adjust",
+        "Warfarin 2.5 mg orally daily for 2 days, then check INR and adjust",
+        "Warfarin 1 mg orally daily, increasing by 1 mg every 2 days until target INR"
+      ],
+      "answerIndex": 2,
+      "explanation": "For initiation of warfarin in atrial fibrillation, a standard loading dose of 5 mg for the first 2 days is recommended by NICE. Higher doses (e.g., 10 mg) increase bleeding risk without faster stabilisation; lower doses (e.g., 3 mg) are used in frail or elderly patients, but this patient has no risk factors. The 5 mg regimen is the most appropriate first-line approach.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "87c8b84917e6",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman on warfarin for atrial fibrillation presents with haematemesis and melaena. Her BP is 85/50 mmHg, HR 110 bpm, and INR is 9.8. She has no history of bleeding. What is the most appropriate immediate reversal therapy?",
+      "options": [
+        "Intravenous vitamin K 10 mg + fresh frozen plasma (FFP)",
+        "Intravenous vitamin K 10 mg + prothrombin complex concentrate (PCC)",
+        "Subcutaneous vitamin K 5 mg alone",
+        "Intravenous vitamin K 10 mg alone",
+        "Activated charcoal 50 g orally"
+      ],
+      "answerIndex": 1,
+      "explanation": "In major life-threatening bleeding due to warfarin, the UK guidelines (NICE/BCSH) recommend urgent reversal with IV vitamin K and prothrombin complex concentrate (PCC). FFP is less effective and requires larger volumes, making it second-line. Vitamin K alone works too slowly for acute bleeding, and activated charcoal has no role in warfarin reversal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6fc22816ee16",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man on warfarin for recurrent DVT (target INR 2–3) has a routine INR of 9.5. He is entirely asymptomatic with no signs of bleeding. What is the most appropriate management?",
+      "options": [
+        "Continue warfarin and add prophylactic enoxaparin",
+        "Withhold warfarin and give intravenous vitamin K 10 mg",
+        "Give fresh frozen plasma 15 mL/kg",
+        "Halve the warfarin dose and recheck INR in 3 days",
+        "Withhold warfarin and give oral vitamin K 1–5 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "For a patient with INR >8 without bleeding, NICE/BCSH recommend withholding warfarin and administering low-dose oral vitamin K (1–5 mg) to accelerate return to therapeutic range. Intravenous vitamin K is reserved for major bleeding. Halving the dose or continuing warfarin risks further INR elevation. FFP is not indicated without bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b2b3d5ce162",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old male with a mechanical mitral valve (target INR 3–4) on warfarin requires emergency laparotomy for perforated diverticulitis. His INR on admission is 3.5. He is haemodynamically stable. What is the most appropriate perioperative management?",
+      "options": [
+        "Reverse warfarin with fresh frozen plasma 15 mL/kg alone",
+        "Withhold warfarin for 48 hours and check INR before surgery",
+        "Reverse warfarin with intravenous vitamin K 10 mg and prothrombin complex concentrate (PCC)",
+        "Stop warfarin and bridge with therapeutic low molecular weight heparin",
+        "Transfuse platelets and continue warfarin at a reduced dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "For emergency surgery in a patient on warfarin, rapid reversal is indicated. PCC with IV vitamin K is the first-line reversal regardless of valve type due to life-saving surgery. FFP is less effective. Bridging with heparin would delay surgery and does not reverse warfarin. Withholding warfarin alone is too slow for an emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8c6dfa54ee85",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (12 weeks gestation) presents with a proximal deep vein thrombosis. She has no other medical conditions. What is the most appropriate anticoagulant therapy?",
+      "options": [
+        "Warfarin 5 mg orally daily",
+        "Fondaparinux 7.5 mg subcutaneously once daily",
+        "Aspirin 75 mg orally once daily",
+        "Rivaroxaban 20 mg orally once daily",
+        "Enoxaparin 1.5 mg/kg subcutaneously once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, warfarin is teratogenic and contraindicated. Low-molecular-weight heparin (e.g., enoxaparin) is the standard of care for DVT in pregnancy. Fondaparinux is not recommended first-line in pregnancy. Rivaroxaban is not licensed in pregnancy and aspirin is insufficient for acute DVT treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "55d1369c9ca9",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman with hypertension, diabetes, and chronic kidney disease stage 3 is admitted with new-onset atrial fibrillation. Her CHA2DS2-VASc score is 5. She has no contraindication to anticoagulation. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange echocardiogram",
+        "Start warfarin 5 mg once daily",
+        "Start apixaban",
+        "Check baseline INR and Full Blood Count",
+        "Start low-molecular-weight heparin bridging"
+      ],
+      "answerIndex": 3,
+      "explanation": "Before initiating warfarin, baseline INR and FBC must be checked to ensure normal coagulation and platelet count. The most tempting distractor is starting warfarin immediately, but the correct first step is to confirm baseline values.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0d718d2f8e60",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man on warfarin for pulmonary embolism presents to the Emergency Department with sudden severe headache and vomiting. CT head shows a large intracerebral haemorrhage. His INR is 8.4. What is the most immediate next step in management?",
+      "options": [
+        "Give fresh frozen plasma (FFP) 15 mL/kg",
+        "Give vitamin K 10 mg IV",
+        "Stop warfarin and observe",
+        "Urgent neurosurgical referral",
+        "Administer prothrombin complex concentrate (PCC) 50 units/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Intracerebral haemorrhage on warfarin is life-threatening and requires rapid reversal. PCC is first-line due to faster and more complete reversal than FFP. Vitamin K should also be given but works more slowly; PCC is the immediate priority. The most tempting distractor is vitamin K alone, which takes hours to reverse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c97294af7bae",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with a mechanical mitral valve replacement is scheduled for elective total knee replacement in 10 days. Her INR is 2.8. She has no other comorbidities. What is the most appropriate immediate next step in perioperative management?",
+      "options": [
+        "Stop warfarin",
+        "Continue warfarin and check INR on day of surgery",
+        "Start LMWH bridging therapy",
+        "Refer to haematology",
+        "Give vitamin K 1 mg IV"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mechanical mitral valves, warfarin must be stopped 5 days before surgery to allow INR to drop. Bridging LMWH is started when INR <2, but the immediate first step is to stop warfarin. The most tempting distractor is starting LMWH immediately, which would be premature without stopping warfarin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d44637a1fc05",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 84-year-old man with atrial fibrillation on warfarin has a routine INR check showing 6.8. He is asymptomatic with no signs of bleeding. His past medical history includes hypertension and mild cognitive impairment. What is the most appropriate immediate next step?",
+      "options": [
+        "Give vitamin K 1 mg orally",
+        "Give vitamin K 5 mg IV",
+        "Withhold warfarin",
+        "Reduce warfarin dose by 50%",
+        "Administer fresh frozen plasma"
+      ],
+      "answerIndex": 2,
+      "explanation": "As per NICE, for INR 5-8 without bleeding, the first step is to withhold warfarin and recheck INR. Vitamin K is reserved if INR remains high or the patient is at high bleeding risk. The most tempting distractor is giving vitamin K, but simple withholding is sufficient initially.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "36ecf6d2198d",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with triple-positive antiphospholipid syndrome (APS) and previous recurrent DVT is being started on warfarin. Her baseline INR is 1.0. She is not pregnant. What is the most appropriate immediate next step?",
+      "options": [
+        "Start LMWH alone",
+        "Start aspirin 75 mg",
+        "Start warfarin 5 mg with LMWH bridging",
+        "Start warfarin 10 mg loading dose",
+        "Start warfarin 5 mg and check INR in 5 days"
+      ],
+      "answerIndex": 2,
+      "explanation": "In APS with prior thrombosis, warfarin is required with target INR 2-3. LMWH bridging is recommended until INR is therapeutic to prevent recurrence, especially in high-risk triple-positive APS. The most tempting distractor is a loading dose, but bridging is standard practice. Starting warfarin alone without bridging risks thrombosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d8757f73e296",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with a pulmonary embolism was started on warfarin four days ago. She now presents with a painful, well-demarcated purpuric rash on her right thigh. On examination, the rash is tender and dark red. Which single clinical finding would most strongly suggest a life-threatening complication requiring urgent action?",
+      "options": [
+        "Mild pruritus",
+        "Haemorrhagic bullae within the lesion",
+        "Erythema around the lesion",
+        "Symmetrical distribution",
+        "Mild fever"
+      ],
+      "answerIndex": 1,
+      "explanation": "Haemorrhagic bullae are a hallmark of warfarin-induced skin necrosis, a rare but life-threatening complication due to relative protein C deficiency, which can progress to full-thickness necrosis. The other options are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6a0cfd39e98",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with atrial fibrillation on long-term warfarin (usual maintenance dose of 5 mg daily) has a routine INR check which returns as 9.3. He feels well and has no bleeding or bruising. Which single finding from the options below represents a clear indication for prompt administration of vitamin K according to UK guidelines?",
+      "options": [
+        "INR 9.3",
+        "INR 7.9",
+        "INR 7.8",
+        "INR 5.0",
+        "INR 6.5"
+      ],
+      "answerIndex": 0,
+      "explanation": "UK guidelines (NICE, BNF) recommend that patients with an INR >8.0 without bleeding should receive oral vitamin K. An INR of 9.3 exceeds this threshold, indicating immediate reversal to prevent major bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fba4b4bf4b35",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with a mechanical aortic valve on warfarin presents with haematemesis and melaena after a week of dyspepsia. On admission, his heart rate is 112 bpm and his supine blood pressure is 98/60 mmHg. On sitting up, his blood pressure drops to 85/50 mmHg. Which single finding mandates the immediate use of prothrombin complex concentrate (PCC) and intravenous vitamin K?",
+      "options": [
+        "Melaena",
+        "Haematemesis",
+        "Systolic BP 85 mmHg",
+        "Heart rate 112 bpm",
+        "INR 3.2"
+      ],
+      "answerIndex": 2,
+      "explanation": "Systolic BP <90 mmHg (or a drop to this on sitting) indicates haemodynamic instability due to major haemorrhage, meeting criteria for emergency reversal with PCC and vitamin K. The other findings are concerning but do not alone define a major bleed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "802e6e73a68c",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man on warfarin for atrial fibrillation presents with sudden onset severe abdominal pain radiating to the back and left flank. He is tachycardic. Which single physical examination sign is most suggestive of a retroperitoneal haemorrhage?",
+      "options": [
+        "Flank ecchymosis",
+        "Rebound tenderness",
+        "Absent bowel sounds",
+        "Psoas sign",
+        "Guarding"
+      ],
+      "answerIndex": 0,
+      "explanation": "Flank ecchymosis (Grey Turner sign) is a classic physical sign of retroperitoneal haemorrhage, a life-threatening complication of anticoagulation. The other options are signs of peritonitis or bowel obstruction, but not specific for retroperitoneal bleeding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4d6b648a709c",
+      "topic": "Warfarin — Initiation & Reversal",
+      "slug": "warfarin-—-initiation-&-reversal",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man on warfarin for a previous pulmonary embolism sustains a fall striking his head. He has no visible injury and is fully alert. He recalls the event but states he had a brief loss of consciousness for less than a minute. On arrival in the emergency department, his GCS is 15. Which single finding from the history would normally prompt an urgent CT head scan according to NICE guidelines?",
+      "options": [
+        "GCS 15",
+        "Scalp haematoma",
+        "Loss of consciousness",
+        "Mild headache",
+        "Amnesia of event"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE head injury guidelines, patients on anticoagulants who have had loss of consciousness should have a CT head scan. Amnesia also triggers, but loss of consciousness is the classic red flag.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Cervical Cancer",
+  "slug": "cervical-cancer",
+  "system": "Gynaecology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:29Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0c176a3781b7",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 2-month history of postcoital bleeding. She is otherwise well and has a normal smear history. On speculum examination, there is a small, friable lesion on the anterior lip of the cervix that bleeds on touch. What is the single most likely diagnosis?",
+      "options": [
+        "Cervical polyp",
+        "Cervical ectropion",
+        "Invasive cervical carcinoma",
+        "Cervical endometriosis",
+        "Condyloma acuminatum"
+      ],
+      "answerIndex": 2,
+      "explanation": "A friable lesion that bleeds on touch in a woman with postcoital bleeding is most consistent with invasive cervical carcinoma. Cervical ectropion also causes contact bleeding but appears as a red, eroded area rather than a discrete friable lesion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b11bb955be98",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with heavy menstrual bleeding and lower back pain. On examination, the cervix is firm and there is palpable induration in the parametria bilaterally. She also has bilateral leg oedema. What is the single most likely diagnosis?",
+      "options": [
+        "Ovarian cancer",
+        "Endometrial cancer",
+        "Uterine fibroids",
+        "Cervical cancer stage IIB",
+        "Pelvic inflammatory disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Parametrial involvement and leg oedema due to lymphatic obstruction are classic features of advanced cervical cancer (stage IIB or higher). Endometrial cancer typically presents with postmenopausal bleeding and does not cause parametrial fixation or leg swelling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6649e00e4a55",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old primigravida at 20 weeks gestation presents with painless vaginal bleeding. Speculum examination reveals a hyperaemic cervix with a small, raised area that bleeds on contact. Her last cervical smear 2 years ago was normal. What is the single most likely diagnosis?",
+      "options": [
+        "Cervical polyp",
+        "Placenta praevia",
+        "Cervical cancer",
+        "Threatened miscarriage",
+        "Cervical ectropion of pregnancy"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, a persistent, friable cervical lesion with bleeding should raise suspicion for cervical cancer, despite physiological ectropion. Placenta praevia would cause bleeding but not a visible cervical lesion. Biopsy is essential to differentiate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e50eaf484586",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with postmenopausal bleeding has a transvaginal ultrasound showing a thin endometrium (3 mm). A cervical smear shows high-grade dyskaryosis, and colposcopy reveals an acetowhite lesion. Biopsy confirms invasion of less than 5 mm. What is the single most likely diagnosis?",
+      "options": [
+        "Cervical polyp",
+        "Cervical intraepithelial neoplasia III",
+        "Cervical ectropion",
+        "Endometrial cancer",
+        "Microinvasive cervical cancer"
+      ],
+      "answerIndex": 4,
+      "explanation": "Microinvasive cervical cancer (stage IA) is defined by stromal invasion ≤5 mm. Postmenopausal bleeding with abnormal cytology and colposcopic lesion points to invasive disease rather than preinvasive CIN III.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f92e2ea8c23",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old woman presents with a purulent vaginal discharge and lower abdominal pain. On examination, the cervix has a papillary lesion that bleeds easily. She is immunocompromised due to renal transplantation. What is the single most likely diagnosis?",
+      "options": [
+        "Chlamydial cervicitis",
+        "Cervical cancer",
+        "Cervical ectropion",
+        "Condyloma acuminatum",
+        "Nabothian cyst"
+      ],
+      "answerIndex": 1,
+      "explanation": "Although condyloma acuminatum also presents as papillary lesions, the easy bleeding and atypical appearance in an immunocompromised patient raise concern for cervical cancer. Chlamydial cervicitis typically causes mucopurulent discharge but not a papillary lesion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "facdb1baaf90",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with postcoital bleeding and intermenstrual bleeding. Her cervical smear 2 years ago was normal. What is the most appropriate next investigation?",
+      "options": [
+        "Colposcopy",
+        "Repeat cervical smear in 1 year",
+        "Endometrial biopsy",
+        "Transvaginal ultrasound",
+        "HPV triage test"
+      ],
+      "answerIndex": 0,
+      "explanation": "Symptomatic women with postcoital/intermenstrual bleeding and a recent normal smear require colposcopy to exclude cervical cancer. Repeat smear or HPV triage are not sufficient due to persistent symptoms. Transvaginal ultrasound and endometrial biopsy rule out uterine causes but are not first-line for cervical symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0801cfb5d916",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman attends cervical screening. The result shows borderline change in squamous cells with high-risk HPV positive. What is the most appropriate next step?",
+      "options": [
+        "Refer for treatment",
+        "Colposcopy",
+        "Repeat smear in 12 months",
+        "Cervical biopsy",
+        "HPV genotyping"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend colposcopy for any high-risk HPV positive result with borderline or low-grade dyskaryosis to assess for high-grade disease. Repeat smear would delay diagnosis; biopsy is usually performed at colposcopy. HPV genotyping is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a37db3a0d231",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents to the emergency department with heavy vaginal bleeding and pelvic pain. On speculum examination, a large friable cervical mass is seen. What is the most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Cervical smear",
+        "MRI pelvis",
+        "Colposcopy",
+        "CT scan of abdomen and pelvis",
+        "Punch biopsy of the mass"
+      ],
+      "answerIndex": 4,
+      "explanation": "A visible cervical mass requires a punch biopsy for histological confirmation. Cervical smear is inadequate for a visible lesion. Colposcopy may be difficult due to bleeding. Imaging (MRI/CT) is for staging, not initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5305384aa9e9",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman with known cervical squamous cell carcinoma develops unilateral leg swelling and flank pain. She has no haematuria. What is the most appropriate investigation to assess for ureteric obstruction?",
+      "options": [
+        "Intravenous urogram",
+        "PET-CT",
+        "Ultrasound of the kidneys and bladder",
+        "CT urogram",
+        "MRI pelvis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In suspected ureteric obstruction from cervical cancer, CT urogram is the preferred test to delineate anatomy and obstruction. Ultrasound may show hydronephrosis but not the exact level of obstruction. IVU is less sensitive. MRI and PET-CT are for staging, not specifically for obstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1894cdfb68fe",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman who is a renal transplant recipient on immunosuppression has a routine cervical smear showing high-grade dyskaryosis. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Cervical cauterisation",
+        "Repeat smear in 6 months",
+        "Colposcopy with biopsy",
+        "Refer for loop electrosurgical excision procedure (LEEP)",
+        "HPV genotyping"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-grade dyskaryosis (moderate or severe) requires colposcopy with biopsy for histological confirmation, regardless of symptoms or immunosuppression. Repeat smear is inappropriate. HPV genotyping is not needed. Treatment (cauterisation, LEEP) is reserved after histology.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88a73cd2999e",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman is diagnosed with FIGO stage IA2 squamous cell carcinoma of the cervix. She is asymptomatic and wishes to preserve fertility. MRI shows no lymph node involvement. What is the most appropriate first-line treatment?",
+      "options": [
+        "Chemoradiotherapy",
+        "Brachytherapy alone",
+        "Total abdominal hysterectomy",
+        "Radical trachelectomy with pelvic lymphadenectomy",
+        "Cone biopsy with clear margins"
+      ],
+      "answerIndex": 3,
+      "explanation": "For FIGO IA2 with desire for fertility, radical trachelectomy (with lymph node dissection) is standard, as it preserves the uterine corpus while removing the cervix and parametrial tissue. Cone biopsy is reserved for stage IA1 with no lymphovascular invasion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80698769aa44",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with FIGO stage IIB squamous cell carcinoma of the cervix. She has no significant comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Palliative care",
+        "Chemoradiotherapy (cisplatin with external beam radiotherapy and brachytherapy)",
+        "Radiotherapy alone",
+        "Radical hysterectomy",
+        "Neoadjuvant chemotherapy followed by radical hysterectomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stage IIB is locally advanced; NICE guidelines recommend concurrent chemoradiotherapy (cisplatin plus radiotherapy) as standard of care, which improves survival over radiotherapy alone. Surgery is not first-line for stage IIB.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4e433999e43d",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with recurrent cervical cancer presents with pelvic sidewall involvement and ureteric obstruction. She previously received chemoradiotherapy for stage IIB disease. She has ECOG performance status 1 and adequate renal function. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Topotecan",
+        "Cisplatin alone",
+        "Carboplatin plus paclitaxel plus bevacizumab",
+        "Pembrolizumab monotherapy",
+        "Cisplatin plus paclitaxel"
+      ],
+      "answerIndex": 2,
+      "explanation": "For recurrent or metastatic cervical cancer not amenable to curative surgery/radiation, NICE recommends first-line treatment with carboplatin/paclitaxel/bevacizumab (or cisplatin/paclitaxel/bevacizumab). The combination with bevacizumab improves overall survival. Cisplatin/paclitaxel alone is inferior without bevacizumab.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "da318678c283",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 42-year-old woman with FIGO stage IB1 cervical cancer (2 cm lesion) is scheduled for treatment. She has severe chronic kidney disease (eGFR 25 mL/min) and does not desire future fertility. Which of the following treatments is most clearly contraindicated in this patient?",
+      "options": [
+        "External beam radiotherapy alone",
+        "Brachytherapy alone",
+        "Radical hysterectomy",
+        "Total pelvic exenteration",
+        "Chemoradiotherapy with cisplatin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cisplatin is nephrotoxic and contraindicated when eGFR <30 mL/min. Although chemoradiotherapy is standard for some stages, stage IB1 can be treated with surgery. Radiotherapy alone (without cisplatin) is less effective but can be used if cisplatin cannot be given.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc90e1460815",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman underwent radical hysterectomy for FIGO stage IB2 cervical cancer one year ago. She is asymptomatic with normal pelvic examination. According to UK guidelines, which of the following is NOT recommended as part of routine follow-up?",
+      "options": [
+        "Routine PET-CT scan",
+        "Clinical examination every 3–4 months for 2 years",
+        "HPV DNA testing on vault sample",
+        "Annual vault cytology (smear)",
+        "Symptom review at each visit"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend regular clinical examination and symptom review; vault cytology (smear) and HPV testing can be considered. However, routine imaging (CT, PET-CT, MRI) is not recommended in asymptomatic patients; it should be reserved for suspicion of recurrence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6ef9a3307af",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman presents to the Emergency Department with a two-week history of postcoital bleeding. She is otherwise well and has no other symptoms. She has not had a cervical smear for three years. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer her for urgent colposcopy.",
+        "Perform a speculum examination of the cervix.",
+        "Reassure her and arrange a routine smear.",
+        "Start tranexamic acid 1 g three times daily.",
+        "Arrange an urgent smear test."
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with postcoital bleeding, the immediate step is to perform a speculum examination to visualise the cervix and identify any visible lesion; if abnormal, refer for colposcopy. A smear is not indicated in symptomatic women and colposcopy referral is not first step without examination.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4764b2456f64",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with stage IIB cervical cancer is receiving chemoradiotherapy. She presents to the ward with a three-day history of watery diarrhoea and lower abdominal pain. Her temperature is 37.8°C, heart rate 100 bpm, blood pressure 110/70 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Start broad-spectrum intravenous antibiotics.",
+        "Stop the chemoradiotherapy.",
+        "Check full blood count and differential.",
+        "Perform a digital rectal examination.",
+        "Request a CT abdomen with contrast."
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient is on chemoradiotherapy and presents with diarrhoea; the immediate concern is neutropenic sepsis. Checking full blood count is essential to guide further management, including antibiotics if neutropenic. Antibiotics are not started blindly without FBC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3bc68e32600d",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with known advanced cervical cancer is brought to the Emergency Department with profuse vaginal bleeding that started suddenly. She is pale, sweaty, and her systolic blood pressure is 80 mmHg. She has a tachycardia of 130 bpm. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply vaginal packing.",
+        "Activate the major haemorrhage protocol.",
+        "Insert a Foley catheter.",
+        "Give intravenous tranexamic acid.",
+        "Perform a speculum examination."
+      ],
+      "answerIndex": 1,
+      "explanation": "In massive vaginal bleeding with haemodynamic instability, the priority is resuscitation and calling for help. Activating the major haemorrhage protocol triggers rapid access to blood products and a coordinated team response.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e76cbe83981",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with locally advanced cervical cancer presents with a two-day history of right flank pain and has not passed urine for 24 hours. She is drowsy. Her heart rate is 110 bpm, blood pressure 100/60 mmHg. Examination reveals right renal angle tenderness. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for emergency percutaneous nephrostomy.",
+        "Insert a Foley catheter to rule out bladder outlet obstruction.",
+        "Check serum urea and electrolytes.",
+        "Start intravenous fluids and monitor urine output.",
+        "Arrange an urgent CT scan of abdomen and pelvis."
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has acute obstructive uropathy with anuria and signs of uraemia. Urgent decompression is required to prevent further renal damage; nephrostomy is the most immediate definitive drainage option. Waiting for bloods or imaging delays treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53170f64b9bf",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who had LLETZ treatment for CIN III two years ago presents to the Early Pregnancy Unit at 16 weeks gestation with mild vaginal bleeding. She is anxious but observations are normal. There is no abdominal pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Request a transvaginal ultrasound.",
+        "Arrange an urgent colposcopy.",
+        "Reassure her and arrange routine antenatal care.",
+        "Advise bed rest and review in one week.",
+        "Perform a speculum examination."
+      ],
+      "answerIndex": 4,
+      "explanation": "In a pregnant woman with previous cervical treatment and bleeding, a speculum examination allows visualisation of the cervix to check for a lesion or the source of bleeding. It is safe in pregnancy and should be done before other investigations. Colposcopy may be needed later but not immediately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "53cebc8e108c",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with postcoital bleeding for 3 weeks. Speculum examination reveals a 2 cm exophytic lesion on the cervix. Which single finding most strongly indicates the need for urgent referral?",
+      "options": [
+        "Postcoital bleeding for >3 weeks",
+        "Age under 30 years",
+        "Visible exophytic cervical lesion",
+        "HPV 16/18 positive status",
+        "Intermenstrual bleeding"
+      ],
+      "answerIndex": 2,
+      "explanation": "A visible cervical lesion on speculum is a red flag for cervical cancer and warrants urgent referral, whereas postcoital bleeding alone may be observed in younger women. The other options are risk factors but not immediate red flags.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6aff1a032ce",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with heavy vaginal bleeding and severe lower abdominal pain. She is hypotensive (BP 85/50 mmHg) and tachycardic. Bimanual examination reveals a 4 cm friable mass replacing the cervix. Which life-threatening condition must be excluded first?",
+      "options": [
+        "Cervical cancer with haemorrhagic shock",
+        "Cervical ectropion",
+        "Pelvic inflammatory disease",
+        "Endometrial cancer",
+        "Ectopic pregnancy"
+      ],
+      "answerIndex": 0,
+      "explanation": "A friable cervical mass in a shocked patient is most concerning for advanced cervical cancer causing heavy bleeding and potential parametrial invasion. Ectopic pregnancy is possible but less likely given the speculum findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e67dea9fd7d1",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 42-year-old woman with known stage IIB cervical cancer undergoing chemoradiotherapy presents with sudden-onset dyspnoea and pleuritic chest pain. What is the most likely acute complication?",
+      "options": [
+        "Thoracic metastasis",
+        "Superior vena cava obstruction",
+        "Pneumothorax",
+        "Pulmonary embolism",
+        "Pericardial effusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cervical cancer is a hypercoagulable state; sudden dyspnoea and pleuritic chest pain in a cancer patient are highly suggestive of pulmonary embolism, a common and life-threatening complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e13c0107828",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with a history of cervical cancer treated with radiotherapy 5 years ago presents with foul-smelling vaginal discharge and leakage of urine from the vagina. Which complication is most likely?",
+      "options": [
+        "Vesicovaginal fistula",
+        "Vaginal cancer",
+        "Radiation cystitis",
+        "Rectovaginal fistula",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of foul discharge and urinary leakage from the vagina is classic for a vesicovaginal fistula, a known complication of radiotherapy or tumour recurrence. Rectovaginal fistula would involve faecal material.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5a72834e8a7c",
+      "topic": "Cervical Cancer",
+      "slug": "cervical-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with no cervical screening history presents with offensive vaginal discharge and pelvic pain. On speculum, a friable bleeding mass is seen on the cervix. She has a temperature of 38.5°C and bilateral tender adnexal masses. What life-threatening condition must be excluded?",
+      "options": [
+        "Appendicitis",
+        "Tubo-ovarian abscess",
+        "Cervical cancer with pyometra",
+        "Septic shock due to cervical cancer",
+        "Pelvic inflammatory disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "The cervical mass and fever suggest cervical cancer obstructing the cervical os, leading to pyometra (pus in the uterine cavity) which can cause sepsis. PID is a differential but the mass points to cancer.",
+      "difficulty": "hard"
+    }
+  ]
+}

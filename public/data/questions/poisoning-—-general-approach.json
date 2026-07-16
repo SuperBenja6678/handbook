@@ -1,0 +1,513 @@
+{
+  "topic": "Poisoning — General Approach",
+  "slug": "poisoning-—-general-approach",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:14Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "6e09ef249535",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents to the emergency department 4 hours after taking an overdose of an unknown number of tablets. She has nausea and vomiting, but no other symptoms. Observations: pulse 80 bpm, BP 110/70 mmHg, respiratory rate 14/min, O2 sat 99% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Paracetamol overdose",
+        "Benzodiazepine overdose",
+        "Salicylate overdose",
+        "Gastroenteritis",
+        "Opioid overdose"
+      ],
+      "answerIndex": 0,
+      "explanation": "Paracetamol overdose often presents with non-specific nausea and vomiting in the first 24 hours. The absence of tinnitus, hyperventilation, miosis, or sedation makes salicylate, opioid, and benzodiazepine overdoses less likely. Gastroenteritis is possible but the history of overdose makes paracetamol the most likely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ae3bf48233f4",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old homeless man is brought to the emergency department confused and ataxic. He smells of alcohol. Observations: GCS 13, pulse 100 bpm, BP 140/80 mmHg, respiratory rate 18/min, temperature 37.2°C. Blood glucose 4.5 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Subdural haematoma",
+        "Hepatic encephalopathy",
+        "Wernicke's encephalopathy",
+        "Acute alcohol intoxication",
+        "Hypoglycaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Wernicke's encephalopathy typically presents with confusion, ataxia, and nystagmus in chronic alcoholics. Acute alcohol intoxication would cause more sedation and less focal ataxia. Hepatic encephalopathy would have asterixis and signs of liver disease. Hypoglycaemia is excluded by normal blood glucose. Subdural haematoma is possible but less common without head injury history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1f726397162",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man is found collapsed at a party. He has pinpoint pupils, respiratory rate 6/min, and is unresponsive. Observations: pulse 60 bpm, BP 100/60 mmHg, SpO2 85% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Carbamazepine overdose",
+        "Opioid overdose",
+        "Tricyclic antidepressant overdose",
+        "Benzodiazepine overdose",
+        "Alcohol poisoning"
+      ],
+      "answerIndex": 1,
+      "explanation": "The triad of pinpoint pupils, respiratory depression, and coma is pathognomonic for opioid overdose. TCA overdose causes dilated pupils, tachycardia, and seizures. Benzodiazepine overdose causes respiratory depression but without miosis. Carbamazepine overdose leads to ataxia, nystagmus, and anticholinergic effects. Alcohol poisoning causes sedation but not pinpoint pupils.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e6167c95c807",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with depression presents with agitation, hyperreflexia, clonus, and hyperthermia (39°C). She recently started a new medication. Observations: HR 140 bpm, BP 160/90 mmHg, respiratory rate 40/min. What is the single most likely diagnosis?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Anticholinergic delirium",
+        "Malignant hyperthermia",
+        "Thyroid storm",
+        "Serotonin syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "Serotonin syndrome classically presents with autonomic instability (tachycardia, hypertension, hyperthermia), neuromuscular excitation (hyperreflexia, clonus), and altered mental status. NMS involves lead-pipe rigidity, bradyreflexia, and occurs with antipsychotics. Malignant hyperthermia is anaesthetic-triggered. Thyroid storm lacks clonus. Anticholinergic delirium causes hot, dry skin and dilated pupils.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a862be17a390",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old boy is brought to the emergency department after ingesting an unknown number of his mother's iron tablets one hour ago. He is crying but otherwise well. Observations: pulse 120 bpm, BP 80/50 mmHg, respiratory rate 30/min, capillary refill 3 seconds. What is the single most likely diagnosis?",
+      "options": [
+        "Iron poisoning",
+        "Paracetamol overdose",
+        "Foreign body ingestion",
+        "Lead poisoning",
+        "Caustic ingestion"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of iron tablet ingestion is key. Early iron poisoning can cause vomiting, diarrhoea, and then systemic toxicity with hypotension and metabolic acidosis. Paracetamol overdose does not cause early shock. Lead poisoning is chronic. Caustic ingestion causes oropharyngeal pain and drooling. Foreign body ingestion may cause obstruction but not hypotension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8ec77fd52772",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 23-year-old woman presents 6 hours after ingesting approximately 15 g of paracetamol. She has mild right upper quadrant tenderness. Which investigation is most appropriate to determine the need for acetylcysteine therapy?",
+      "options": [
+        "Serum alanine aminotransferase (ALT)",
+        "Serum paracetamol level",
+        "Full blood count",
+        "Prothrombin time (INR)",
+        "Urine paracetamol level"
+      ],
+      "answerIndex": 1,
+      "explanation": "The serum paracetamol level plotted on a nomogram relative to time of ingestion is the standard method to assess risk and guide acetylcysteine therapy. ALT and INR are markers of hepatotoxicity that become abnormal later. A urine level is not quantitative for the nomogram.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "571df2c2ebce",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with slurred speech, confusion, and tachycardia after ingesting an unknown amount of amitriptyline. His ECG shows a wide QRS complex. Which ECG finding is most specific for tricyclic antidepressant (TCA) toxicity?",
+      "options": [
+        "Sinus tachycardia with early repolarisation",
+        "QTc prolongation >500 ms",
+        "Right axis deviation",
+        "ST-segment elevation in V1–V3",
+        "QRS duration >100 ms"
+      ],
+      "answerIndex": 4,
+      "explanation": "A QRS duration >100 ms (especially >120 ms) is a well‑established marker of severe TCA toxicity and indicates sodium channel blockade. While QTc prolongation can occur, it is less specific. The other options are not characteristic of TCA overdose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff0af403a583",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with a history of migraines is found to have tinnitus, hyperventilation, and a mixed acid‑base disturbance on arterial blood gas (pH 7.45, PaCO2 20 mmHg, HCO3 14 mmol/L). Which investigation best confirms the underlying diagnosis?",
+      "options": [
+        "Capillary blood glucose",
+        "Serum magnesium level",
+        "Serum lactate level",
+        "Urine pH",
+        "Serum salicylate level"
+      ],
+      "answerIndex": 4,
+      "explanation": "The clinical picture of tinnitus, hyperventilation, and a mixed respiratory alkalosis with high‑anion‑gap metabolic acidosis is classic for salicylate poisoning. A measured serum salicylate level >2.2 mmol/L (30 mg/dL) confirms the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e8a152b3c40",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man presents with blurred vision, confusion, and abdominal pain 4 hours after ingesting an unknown substance. Arterial blood gas shows a high‑anion‑gap metabolic acidosis (pH 7.20, HCO3 10 mmol/L) and the calculated osmolal gap is 25 mOsm/kg. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Alcoholic ketoacidosis",
+        "Lactic acidosis due to seizures",
+        "Uraemic acidosis",
+        "Methanol poisoning",
+        "Ethylene glycol poisoning"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of visual symptoms, high‑anion‑gap metabolic acidosis, and an elevated osmolal gap is highly suggestive of methanol poisoning. Ethylene glycol typically causes oxalate crystals and renal failure rather than visual changes. The other causes do not typically produce a significant osmolal gap.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "02c95957886f",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An unconscious 32-year-old man is brought to the emergency department with a respiratory rate of 6/min and blood pressure 90/60 mmHg. Pupils are 2 mm and reactive. The most appropriate investigation to establish the cause of his condition is:",
+      "options": [
+        "Trial of intravenous naloxone",
+        "CT head scan",
+        "Urine toxicology screen",
+        "Serum glucose",
+        "Arterial blood gas"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with coma, respiratory depression, and pinpoint pupils, opioid overdose is highly likely. Administering intravenous naloxone is both a diagnostic test (if the patient responds) and the initial treatment. Other investigations (e.g., CT head) are secondary if naloxone does not help.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3158f89985a1",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents 6 hours after ingesting 15 g of paracetamol in a suicide attempt. She has no symptoms. Serum paracetamol level is 250 mg/L, which lies above the treatment line on the Rumack-Matthew nomogram. What is the definitive therapy?",
+      "options": [
+        "Activated charcoal",
+        "Intravenous N-acetylcysteine",
+        "Oral methionine",
+        "Gastric lavage",
+        "Haemodialysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "IV N-acetylcysteine is the definitive antidote for paracetamol overdose when levels are above the treatment line. Activated charcoal is only effective within 1-2 hours. Oral methionine is an alternative in mild cases but not first-line for this severity. Haemodialysis is rarely needed (e.g., massive overdose with hepatic failure).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3c8073f3748e",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man with known heroin use is found unconscious with respiratory rate 6/min, pinpoint pupils, and oxygen saturation 85% on air. Naloxone 0.4 mg IV is given with improvement. What is the single most appropriate first-line treatment for the acute opioid toxicity?",
+      "options": [
+        "Flumazenil",
+        "Activated charcoal",
+        "Naloxone infusion",
+        "Naloxone",
+        "Bicarbonate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Naloxone is the specific opioid antagonist and first-line for respiratory depression. Flumazenil is contraindicated in opioid overdose. Naloxone infusion is only used for long-acting opioids after initial boluses. Charcoal is not indicated due to aspiration risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "53256d2bf619",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with depression presents 2 hours after ingesting 3 g of amitriptyline. She is agitated, heart rate 120 bpm, BP 90/60 mmHg. ECG shows sinus tachycardia with QRS duration 140 ms. What is the definitive therapy for the widened QRS?",
+      "options": [
+        "Oral activated charcoal",
+        "Intravenous magnesium sulphate",
+        "Intravenous lidocaine",
+        "Intravenous flumazenil",
+        "Intravenous sodium bicarbonate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sodium bicarbonate is the definitive treatment for TCA-induced QRS widening (>100 ms) by alkalising serum and increasing protein binding. Magnesium is for torsades de pointes. Lidocaine is contraindicated as it can worsen toxicity. Charcoal is adjunctive, not definitive for arrhythmia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59e7817e777c",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 52-year-old man presents 4 hours after ingesting an unknown quantity of methanol-based screen wash. He is drowsy, with visual disturbances and metabolic acidosis (pH 7.15, lactate 2.5, anion gap 25, osmolal gap 40). What is the single most appropriate first-line antidote?",
+      "options": [
+        "Oral thiamine",
+        "Intravenous sodium bicarbonate",
+        "Intravenous fomepizole",
+        "Intravenous ethanol",
+        "Herhodialysis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fomepizole is the first-line antidote for methanol poisoning as it inhibits alcohol dehydrogenase, preventing toxic metabolite formation. Ethanol is an alternative but has more side effects. Bicarbonate is adjunctive for acidosis. Haemodialysis is reserved for severe cases (e.g., pH <7.2, visual changes).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0b4f37007f67",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man on amlodipine for hypertension accidentally takes 50 tablets. On arrival, he has heart rate 45 bpm, BP 70/40 mmHg. ECG shows sinus bradycardia. What is the single most appropriate first-line therapy for hypotension in calcium channel blocker overdose?",
+      "options": [
+        "Intravenous glucagon",
+        "Intravenous insulin with dextrose",
+        "Intravenous atropine",
+        "Oral activated charcoal",
+        "Intravenous calcium gluconate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Intravenous calcium (gluconate or chloride) is the first-line therapy for CCB overdose-induced hypotension, as it reverses calcium channel blockade. Atropine is often ineffective. Glucagon is for beta-blocker overdose. Insulin/dextrose (hyperinsulinaemic euglycaemia) is second-line for severe cases. Charcoal is adjunctive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "266657642758",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old female presents to the emergency department 4 hours after ingesting 15 g of paracetamol. She is asymptomatic with normal vital signs. What is the most appropriate immediate next step?",
+      "options": [
+        "Check serum paracetamol level",
+        "Perform gastric lavage",
+        "Send urine toxicology",
+        "Start intravenous N-acetylcysteine",
+        "Give activated charcoal"
+      ],
+      "answerIndex": 3,
+      "explanation": "For paracetamol overdose presenting >4 hours after ingestion, start N-acetylcysteine immediately while awaiting the serum level, as irreversible hepatotoxicity can occur if treatment is delayed. Checking the level is essential but should not delay treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a6637cf2d0c9",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man is brought to the emergency department after being found unconscious with a respiratory rate of 6 breaths per minute and pinpoint pupils. He has a palpable pulse and SpO2 of 88% on room air. What is the most appropriate immediate next step?",
+      "options": [
+        "Start bag-valve-mask ventilation",
+        "Administer naloxone 0.4-2 mg intravenously",
+        "Give flumazenil intravenously",
+        "Check arterial blood gas",
+        "Intubate and ventilate"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture of respiratory depression and pinpoint pupils strongly suggests opioid overdose. Naloxone is the specific antidote and should be given immediately to reverse respiratory depression. Bag-valve-mask may be used if naloxone is not immediately available or if there is no response, but naloxone is first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17d4a6b234ac",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents 30 minutes after ingesting an unknown quantity of amitriptyline. She is drowsy but rousable. ECG shows sinus tachycardia with QRS duration 140 ms. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous sodium bicarbonate 50 mmol",
+        "Give activated charcoal",
+        "Start intravenous fluids",
+        "Call the poisons information service",
+        "Perform gastric lavage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Wide QRS (>100 ms) in tricyclic antidepressant overdose indicates sodium channel blockade. Sodium bicarbonate is the first-line treatment to narrow the QRS and prevent arrhythmias; it should be given immediately. Gastric lavage or charcoal may be considered if presentation is early, but the priority is the antidote for the wide QRS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09f454f56d50",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old homeless man is found unconscious in the street, with needle tracks on his arms, GCS 6, and blood pressure 80/50 mmHg. SpO2 is 94% on high-flow oxygen. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer thiamine intravenously",
+        "Administer flumazenil intravenously",
+        "Secure the airway with an endotracheal tube",
+        "Check capillary blood glucose",
+        "Administer naloxone intravenously"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an unconscious patient with GCS ≤8, airway protection is the priority regardless of the suspected cause. The first step is to secure the airway to prevent aspiration and provide adequate ventilation. Naloxone may be considered after airway is secure if opioid overdose is suspected, but does not take precedence over a definitive airway.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86eb656799d0",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old known alcoholic presents with blurred vision and dyspnoea. Arterial blood gas shows pH 7.10, PaCO2 4.0 kPa, HCO3- 10 mmol/L, anion gap 30, and normal lactate. Serum osmolar gap is 40 mOsm/kg. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous ethanol infusion",
+        "Prepare for haemodialysis",
+        "Send serum methanol level",
+        "Give intravenous folate",
+        "Start intravenous fomepizole"
+      ],
+      "answerIndex": 4,
+      "explanation": "The high anion gap metabolic acidosis with elevated osmolar gap and visual symptoms is classic for methanol poisoning. Fomepizole is the first-line antidote in the UK to block alcohol dehydrogenase and prevent toxic metabolite formation. While haemodialysis may be needed later, starting fomepizole immediately is critical. Ethanol is an alternative but fomepizole is preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c87e8c23ecd2",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents 6 hours after ingesting 15 g of paracetamol. She is asymptomatic. Investigations: ALT 30 U/L, INR 1.0, paracetamol level 110 mg/L at 4 hours. Which single finding is the most concerning for severe hepatotoxicity?",
+      "options": [
+        "Female gender",
+        "Normal ALT",
+        "Paracetamol level above the treatment line",
+        "Normal INR",
+        "Asymptomatic presentation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A 4-hour paracetamol level >100 mg/L is above the standard UK treatment line (Rumack-Matthew nomogram), indicating significant risk of hepatotoxicity regardless of normal early LFTs. Asymptomatic presentation and normal ALT/INR are expected early and do not exclude toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7abb08feaa48",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old is found unconscious with pinpoint pupils and respiratory rate of 6/min. Which clinical finding is the most critical red flag in this scenario?",
+      "options": [
+        "Pinpoint pupils",
+        "Hypotension",
+        "GCS 8",
+        "Respiratory rate 6/min",
+        "Bradycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "A respiratory rate of 6/min indicates severe respiratory depression, which is the immediate life-threatening complication of opioid overdose. While pinpoint pupils strongly suggest opioid toxicity, the respiratory rate determines the need for urgent naloxone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd9c3f03fd82",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old presents after an amitriptyline overdose with hypotension, tachycardia, and a Glasgow Coma Scale of 10. Which finding is the most dangerous marker of severe cardiotoxicity?",
+      "options": [
+        "Urinary retention",
+        "Hypotension 90/60 mmHg",
+        "Tachycardia 110 bpm",
+        "QRS duration 120 ms",
+        "Dry mouth"
+      ],
+      "answerIndex": 3,
+      "explanation": "A QRS duration >100 ms (here 120 ms) indicates sodium channel blockade from tricyclic antidepressant overdose, predicting risk of ventricular arrhythmias. Tachycardia and hypotension are common but less specific; anticholinergic signs (dry mouth, urinary retention) are not immediately life-threatening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "07958b873270",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old presents with confusion, ataxia, and a metabolic acidosis (pH 7.1, anion gap 28). Which laboratory finding is the strongest red flag for a toxic alcohol poisoning (e.g., ethylene glycol or methanol)?",
+      "options": [
+        "Hypoglycemia 3.0 mmol/L",
+        "Urine ketones 2+",
+        "Elevated osmolal gap of 30 mOsm/kg",
+        "Serum creatinine 80 μmol/L",
+        "Serum lactate 2.0 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A significantly elevated osmolal gap (here 30 mOsm/kg) in the presence of high anion gap metabolic acidosis strongly suggests poisoning with ethylene glycol or methanol, which are osmotically active. Lactate, ketones, and hypoglycemia are less specific, and normal creatinine does not rule out toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0d07328a761e",
+      "topic": "Poisoning — General Approach",
+      "slug": "poisoning-—-general-approach",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old is rescued from a burning building. He is confused, with a carboxyhaemoglobin level of 25%. Which single feature would prompt consideration of hyperbaric oxygen therapy?",
+      "options": [
+        "Headache",
+        "Carboxyhaemoglobin level >20%",
+        "Confusion",
+        "History of loss of consciousness",
+        "Tachycardia 110 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "A history of loss of consciousness is an indication for hyperbaric oxygen therapy according to UK guidelines. While a COHb >20% is concerning, it alone does not mandate hyperbaric oxygen; confusion, tachycardia, and headache are common but not specific indications for hyperbaric treatment.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Aortic Dissection",
+  "slug": "aortic-dissection",
+  "system": "Cardiovascular",
+  "subSystem": "Aortic disease",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:45Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "92cf98f60a3d",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with a history of hypertension presents to the emergency department with sudden-onset, severe, 'tearing' chest pain that radiates to his back. On examination, he has a blood pressure of 200/110 mmHg in the right arm and 140/80 mmHg in the left arm. He also has a weak left radial pulse. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Acute pericarditis",
+        "Myocardial infarction",
+        "Aortic dissection"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of abrupt tearing chest pain radiating to the back, significant blood pressure difference between arms, and pulse deficit is classic for aortic dissection, distinguishing it from mimics like myocardial infarction (which lacks pulse deficits) or pulmonary embolism (which typically presents with pleuritic pain and dyspnoea).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cc0b39ee0287",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman presents to the emergency department after collapsing at home. She has no chest pain or shortness of breath. Her blood pressure is 90/60 mmHg, heart rate 110 bpm, and she has a history of hypertension and smoking. ECG shows sinus tachycardia. Chest X-ray reveals a widened mediastinum. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Aortic dissection",
+        "Aortic stenosis",
+        "Subarachnoid haemorrhage",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Syncope without chest pain can be the presenting feature of aortic dissection, especially when accompanied by hypotension and a widened mediastinum. This atypical presentation distinguishes it from vasovagal syncope (which has a prodrome and normal mediastinum) or pulmonary embolism (which usually involves dyspnoea).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f17a2bb19fe7",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with poorly controlled hypertension presents with acute onset of severe right leg pain, pallor, and paraesthesia. The right leg is cold and pulseless. The left leg is normal. He has no chest pain. What is the single most likely diagnosis?",
+      "options": [
+        "Acute compartment syndrome",
+        "Deep vein thrombosis with phlegmasia cerulea dolens",
+        "Aortic occlusion due to thrombus",
+        "Acute peripheral arterial embolism",
+        "Aortic dissection"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute limb ischaemia in a hypertensive patient without atrial fibrillation or a cardiac source of embolism should raise suspicion for aortic dissection, which can cause malperfusion of the distal aorta or its branches. This distinguishes it from peripheral embolism (which typically has a cardiac source) and aortic occlusion (which often presents bilaterally).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ac7f475b49b",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old tall, thin man with pectus excavatum and a family history of sudden cardiac death presents with acute onset of sharp chest pain that radiates to his neck and back. His blood pressure is 160/80 mmHg, and he has a diastolic murmur heard best at the left sternal edge. What is the single most likely diagnosis?",
+      "options": [
+        "Panic attack",
+        "Acute pericarditis",
+        "Myocardial infarction",
+        "Acute aortic regurgitation due to infective endocarditis",
+        "Aortic dissection"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient's Marfanoid habitus (tall, thin, pectus excavatum) is a risk factor for aortic dissection. The sudden chest pain radiating to the neck/back with a new diastolic murmur suggests acute aortic regurgitation caused by dissection, which distinguishes it from endocarditis (which typically has fever and signs of infection).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a23d9c0256ac",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with sudden, severe chest pain that radiates to her neck and is associated with dysphagia. She has a blood pressure of 150/90 mmHg. There is no difference in pulse volume or blood pressure between arms. ECG shows sinus rhythm with no ischaemic changes. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Oesophageal rupture (Boerhaave syndrome)",
+        "Acute coronary syndrome",
+        "Aortic dissection",
+        "Spontaneous pneumothorax",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dysphagia is an atypical but recognised feature of aortic dissection due to compression of the oesophagus. Despite the normal chest X-ray (dissection can have a normal mediastinal silhouette), the sudden severe chest pain with dysphagia and hypertension favours dissection over oesophageal rupture (which usually follows vomiting and causes mediastinal air) or ACS (which typically has ECG changes).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c2fc27bb8c94",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a history of hypertension presents to the emergency department with sudden onset 'tearing' central chest pain radiating to his back. He is haemodynamically stable. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "D-dimer",
+        "ECG",
+        "Transthoracic echocardiogram",
+        "CT aortogram (CT angiography of the aorta)",
+        "Chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT aortogram is the gold standard for diagnosing aortic dissection in stable patients, with high sensitivity and specificity. Chest X-ray may show mediastinal widening but is not diagnostic; D-dimer is not sufficiently specific; ECG is rule-out MI; echo is operator-dependent and less sensitive for distal dissections.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40f64de069a9",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with known hypertension and diabetes presents with interscapular back pain that started suddenly 2 hours ago. Her BP is 165/95 mmHg, heart rate 90 bpm, and she is afebrile. What is the most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "Transoesophageal echocardiogram",
+        "Chest X-ray",
+        "Transthoracic echocardiogram",
+        "MRI of the aorta",
+        "CT aortogram (CT angiography of the aorta)"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT aortogram is the first-line investigation in haemodynamically stable patients suspected of aortic dissection due to its speed, accuracy, and ability to define the full extent of the dissection. TEE is an alternative if CT unavailable or contraindicated; MRI is slower; TTE has limited sensitivity for distal dissections; CXR is non-diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "82e072232d4d",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man collapses in the ED. He has severe chest pain, a BP of 70/40 mmHg, and jugular venous distension. A focused bedside echo shows a large pericardial effusion with cardiac tamponade physiology. What is the single most appropriate next investigation to confirm the suspected cause?",
+      "options": [
+        "CT aortogram (CT angiography of the aorta)",
+        "Transthoracic echocardiogram (repeat)",
+        "ECG",
+        "Transoesophageal echocardiogram",
+        "Chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "In this unstable patient with tamponade, aortic dissection into the pericardium is suspected. CT is not feasible in haemodynamic instability. Transoesophageal echocardiogram (TEE) can be performed at the bedside, is accurate for proximal dissection, and avoids moving the patient. Repeat TTE is limited; ECG and CXR are non-diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50840391365d",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A CT aortogram is performed on a 60-year-old man with acute chest pain. The report describes a 'linear filling defect' within the aortic lumen, separating contrast into two channels. Which of the following findings is pathognomonic for aortic dissection?",
+      "options": [
+        "True and false lumen with an intimal flap",
+        "Mediastinal haematoma",
+        "Aortic diameter > 5 cm",
+        "Pericardial effusion",
+        "Circumferential aortic wall thickening"
+      ],
+      "answerIndex": 0,
+      "explanation": "The intimal flap separating true and false lumens is the direct sign of aortic dissection on CT or MRI. Aortic wall thickening can be seen in intramural haematoma; aortic dilatation is a risk factor but not diagnostic; pericardial effusion and mediastinal haematoma are associated complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce341f4c00a6",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with sudden severe central chest pain radiating to his back. He has no pulse deficit, no focal neurological signs, and BP is equal in both arms. A D-dimer is elevated. According to the ESC guidelines, which of the following is a high-risk clinical feature for aortic dissection that would warrant urgent imaging?",
+      "options": [
+        "Widened mediastinum on chest X-ray",
+        "History of aortic aneurysm",
+        "Hypertension (BP > 180/100 mmHg)",
+        "Abrupt onset of severe, tearing or ripping pain",
+        "Elevated D-dimer"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ESC criteria for aortic dissection include 'high-risk' features: abrupt onset of severe, tearing or ripping pain; presence of pulse deficit or BP differential; focal neurological deficit; known aortic valve disease; etc. Hypertension and history of aneurysm are risk factors but not high-risk features alone; widened mediastinum is a radiological sign; D-dimer is a biomarker but not a clinical feature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a890dfb22097",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with acute tearing chest pain radiating to the back, and a blood pressure of 90/60 mmHg in the right arm and 70/50 mmHg in the left arm. CT aortogram reveals a DeBakey Type I aortic dissection extending from the ascending aorta to the iliac arteries. Transthoracic echocardiogram shows moderate aortic regurgitation and a small pericardial effusion. The patient is haemodynamically stable but has ongoing severe pain. What is the most appropriate first-line treatment?",
+      "options": [
+        "Medical management with oral nifedipine and morphine",
+        "Medical management with intravenous labetalol and morphine",
+        "Intravenous sodium nitroprusside and urgent TEVAR",
+        "Intravenous labetalol and urgent thoracic endovascular aortic repair (TEVAR)",
+        "Emergency surgical repair of the ascending aorta"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is an acute Type A aortic dissection (involving the ascending aorta). Emergency surgical repair is the definitive treatment to prevent tamponade, aortic rupture, or worsening regurgitation. Immediate surgery is indicated regardless of complications. The key discriminator is the involvement of the ascending aorta, which mandates surgical repair rather than medical management or TEVAR (which is for Type B dissections).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "565c296de97b",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 58-year-old woman with a history of hypertension presents with sudden-onset interscapular back pain and a blood pressure of 200/100 mmHg. CT aortogram shows an acute, uncomplicated Stanford Type B aortic dissection (no malperfusion, no rupture). Her heart rate is 110 bpm. Which of the following is the most appropriate initial pharmacological therapy?",
+      "options": [
+        "Intravenous metoprolol 5 mg bolus",
+        "Intravenous sodium nitroprusside infusion alone",
+        "Intravenous labetalol 20 mg bolus followed by infusion",
+        "Oral labetalol 200 mg twice daily",
+        "Oral nifedipine 10 mg three times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute uncomplicated Type B dissection, initial therapy aims to reduce heart rate to ≤60 bpm and systolic BP to 100–120 mmHg. Intravenous labetalol (a combined α- and β-blocker) is first-line because it reduces both HR and BP effectively. The key discriminator is the intravenous route for rapid titration, and labetalol's dual action (though a pure β-blocker like metoprolol is also used, labetalol is most common in UK practice for acute dissection). Sodium nitroprusside alone can cause reflex tachycardia and is typically added after β-blockade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ac916d90c31",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with known hypertension presents with acute severe abdominal pain and leg weakness following a fall. CT aortogram reveals a Stanford Type B aortic dissection extending into the abdominal aorta with occlusion of the left common iliac artery causing lower limb ischaemia. His blood pressure is 150/80 mmHg, heart rate 95 bpm. What is the most appropriate definitive treatment?",
+      "options": [
+        "Intravenous labetalol and urgent percutaneous stenting of the iliac artery",
+        "Medical management with intravenous labetalol alone",
+        "Emergent open surgical repair of the descending aorta and iliac artery",
+        "Thoracic endovascular aortic repair (TEVAR) of the descending aorta",
+        "Intravenous sodium nitroprusside and tissue plasminogen activator (tPA)"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a complicated Type B dissection (malperfusion syndrome). TEVAR of the primary entry tear in the descending aorta is the first-line interventional treatment to restore true lumen flow and relieve malperfusion. Open surgery is reserved if TEVAR fails or anatomy is unsuitable. The key discriminator is the presence of a complication (lower limb ischaemia) that warrants early intervention, and TEVAR is preferred over open repair due to lower morbidity. tPA is contraindicated in aortic dissection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4385e685d445",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 34-year-old pregnant woman (28 weeks gestation) presents with acute severe chest pain and dyspnoea. CT aortogram reveals an acute Type A aortic dissection. She is haemodynamically stable. Blood pressure is 190/100 mmHg, heart rate 115 bpm. Emergency surgical repair is planned, but blood pressure control is needed immediately. Which of the following drugs is contraindicated in this patient?",
+      "options": [
+        "Oral methyldopa",
+        "Intravenous labetalol",
+        "Intravenous hydralazine",
+        "Intravenous sodium nitroprusside",
+        "Oral nifedipine"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sodium nitroprusside is contraindicated in pregnancy due to the risk of cyanide toxicity to the foetus and association with maternal thiocyanate accumulation. Labetalol, nifedipine, hydralazine, and methyldopa are all used for hypertensive emergencies in pregnancy. The key discriminator is the specific contraindication of nitroprusside in pregnancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "94f76def32e6",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with a history of hypertension and a chronic, uncomplicated Type B aortic dissection diagnosed 6 months ago is seen in clinic. She is currently asymptomatic. Her blood pressure is 145/90 mmHg on no medications. She is a non-smoker. According to NICE guidelines, which of the following drug classes is the most appropriate first-line antihypertensive therapy for chronic management of aortic dissection?",
+      "options": [
+        "Angiotensin-converting enzyme inhibitor (ACEi)",
+        "Alpha-blocker (e.g. doxazosin)",
+        "Calcium channel blocker (CCB)",
+        "Thiazide diuretic",
+        "Beta-blocker (e.g. bisoprolol)"
+      ],
+      "answerIndex": 4,
+      "explanation": "For chronic management of aortic dissection, beta-blockers are first-line therapy because they reduce heart rate and dP/dt, thereby reducing shear stress on the aortic wall. This is based on evidence that beta-blockade reduces progression of aortic dilation. While ACEi and CCB are also used, beta-blockers remain the initial drug of choice. The key discriminator is the guideline recommendation for beta-blocker as first-line in chronic dissection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3c96bbfdfea",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the emergency department with sudden onset of severe tearing chest pain radiating to his back. He has a history of hypertension and his blood pressure is 190/110 mmHg. ECG shows sinus tachycardia with no ischaemic changes. What is the single most appropriate immediate next action?",
+      "options": [
+        "Refer for thrombolysis",
+        "Request a chest X-ray",
+        "Perform urgent CT angiogram of the aorta",
+        "Give intravenous labetalol",
+        "Administer aspirin 300 mg orally"
+      ],
+      "answerIndex": 2,
+      "explanation": "Given the high suspicion of aortic dissection, the gold standard for diagnosis is urgent CT angiography of the aorta. Aspirin and thrombolysis are contraindicated. Labetalol may be started after imaging if stable, but the priority is diagnosis. Chest X-ray is insufficiently sensitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32af978312ed",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known hypertension presents with acute chest pain, blood pressure 80/40 mmHg, distended neck veins, and muffled heart sounds. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer intravenous labetalol",
+        "Call the cardiothoracic surgeon immediately",
+        "Perform urgent pericardiocentesis",
+        "Give intravenous fluids rapidly",
+        "Request urgent CT angiogram of the aorta"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation is highly suggestive of type A aortic dissection with pericardial tamponade. The definitive management is emergency surgical repair. Pericardiocentesis is not recommended as it can worsen bleeding. Urgent CT would delay surgery. Fluids may be given but are not the priority. Labetalol is contraindicated in hypotension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30254447cf98",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with a chronic type B aortic dissection is on nifedipine 60 mg daily and irbesartan 300 mg daily, but her blood pressure remains 175/95 mmHg at clinic. She has no chest pain. What is the single most appropriate immediate next action?",
+      "options": [
+        "Add doxazosin 4 mg daily",
+        "Refer for thoracic endovascular aortic repair (TEVAR)",
+        "Increase nifedipine dose to 90 mg daily",
+        "Arrange urgent CT angiogram",
+        "Add bisoprolol 5 mg daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "In chronic type B dissection, the first-line antihypertensives are beta-blockers (e.g., bisoprolol). She is not on a beta-blocker yet, so adding one is appropriate. Increasing nifedipine or adding doxazosin are possible but beta-blocker is first-line. TEVAR is not indicated for refractory hypertension alone. CT is not urgent without symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "49282e60c1f8",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known type B aortic dissection on medical management presents with acute onset of left leg pain, coldness, and absent pulses. His blood pressure is 140/80 mmHg. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start intravenous labetalol infusion",
+        "Administer intravenous unfractionated heparin",
+        "Arrange urgent CT angiogram of the aorta and legs",
+        "Perform a Doppler ultrasound of the leg",
+        "Call the vascular surgeon for emergency embolectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute limb ischaemia in the context of aortic dissection suggests malperfusion. CT angiography is needed to define the extent of dissection and plan intervention. Starting labetalol is unnecessary as BP is normal. Heparin may worsen bleeding. Doppler ultrasound can confirm ischaemia but does not assess the dissection. Embolectomy without imaging is too risky.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73918f6c7f5d",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with Marfan syndrome, 28 weeks pregnant, presents with severe central chest pain and dyspnoea. Her blood pressure is 190/100 mmHg. ECG shows sinus tachycardia. What is the single most appropriate immediate next action?",
+      "options": [
+        "Request a chest X-ray",
+        "Perform an urgent transoesophageal echocardiogram (TOE)",
+        "Request an urgent MRI of the aorta",
+        "Perform an urgent CT angiogram of the aorta",
+        "Start intravenous labetalol"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected aortic dissection during pregnancy, TOE is preferred to avoid ionising radiation to the fetus, and it is highly sensitive for proximal dissection. CT would expose the fetus to radiation. Starting labetalol can be done after diagnosis, but the priority is to confirm the diagnosis. Chest X-ray is not diagnostic. MRI is not acutely available in most emergency settings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3eaad0fbe5ae",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man with a history of hypertension presents to the Emergency Department with acute onset of severe, tearing chest pain radiating to his back. His blood pressure is 210/110 mmHg in the right arm and 160/90 mmHg in the left arm. Which single finding is the most concerning red flag for aortic dissection?",
+      "options": [
+        "Pleuritic chest pain",
+        "Blood pressure difference >20 mmHg between arms",
+        "ST-segment elevation on ECG",
+        "Raised troponin level",
+        "Bilateral basal crackles on auscultation"
+      ],
+      "answerIndex": 1,
+      "explanation": "A blood pressure difference >20 mmHg between arms is a classic sign of aortic dissection due to involvement of the subclavian arteries, making it a specific red flag. Other options, while potentially present, are not as specific for dissection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1cf058510ec3",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known chronic type B aortic dissection presents with acute onset paraplegia. Which life-threatening complication has most likely occurred?",
+      "options": [
+        "Stroke",
+        "Acute limb ischaemia",
+        "Mesenteric ischaemia",
+        "Spinal cord ischaemia",
+        "Renal infarction"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute paraplegia in a patient with aortic dissection suggests extension of the dissection flap to involve the blood supply to the spinal cord, causing spinal cord ischaemia. This is a neurological emergency and requires immediate attention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b01e3bac4434",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with severe tearing chest pain radiating to his back. His blood pressure is 80/40 mmHg, heart sounds are muffled, and jugular venous pressure is elevated. What is the most likely life-threatening complication?",
+      "options": [
+        "Pulmonary embolism",
+        "Tension pneumothorax",
+        "Acute aortic regurgitation",
+        "Myocardial infarction",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of hypotension, muffled heart sounds, and elevated JVP (Beck's triad) is classic for cardiac tamponade, which can occur in proximal aortic dissection due to rupture into the pericardial sac. This is immediately life-threatening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "753a133af8c2",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman who underwent emergency repair of a type A aortic dissection 3 days ago suddenly becomes unresponsive. On examination, she has left-sided hemiparesis and the left radial pulse is absent. What complication of the dissection has most likely occurred?",
+      "options": [
+        "Hypotension due to bleeding",
+        "Seizure",
+        "Extension of dissection into the left common carotid artery",
+        "Ischaemic stroke from emboli",
+        "Intracranial haemorrhage"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with recent aortic dissection repair, new hemiparesis with ipsilateral pulse deficit suggests extension of the dissection into the left common carotid artery, causing cerebral ischaemia. This is a surgical emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3ae8f79b8c59",
+      "topic": "Aortic Dissection",
+      "slug": "aortic-dissection",
+      "system": "Cardiovascular",
+      "subSystem": "Aortic disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with known Marfan syndrome presents with acute dyspnoea and sharp chest pain. Examination reveals a wide pulse pressure, collapsing pulse, and a diastolic murmur at the left sternal edge. What complication of aortic dissection is most likely present?",
+      "options": [
+        "Myocardial infarction",
+        "Acute aortic regurgitation",
+        "Cardiac tamponade",
+        "Aortic rupture",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of a diastolic murmur, collapsing pulse, and wide pulse pressure is indicative of acute aortic regurgitation, which can occur when a proximal aortic dissection involves the aortic root. This is a key red flag for type A dissection.",
+      "difficulty": "medium"
+    }
+  ]
+}

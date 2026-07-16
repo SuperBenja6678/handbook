@@ -1,0 +1,493 @@
+{
+  "topic": "Acute Liver Failure",
+  "slug": "acute-liver-failure",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Hepatic emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "cef520491779",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old woman presents with jaundice, confusion, and a 2-day history of nausea and vomiting. She has no medical history and takes no regular medications. On examination, she is drowsy, has asterixis, and scleral icterus. LFTs show AST 4500 U/L, ALT 5200 U/L, bilirubin 120 µmol/L, INR 2.5. Her paracetamol level is undetectable. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune hepatitis",
+        "Acute fatty liver of pregnancy",
+        "Paracetamol overdose",
+        "Wilson's disease",
+        "Acute hepatitis B"
+      ],
+      "answerIndex": 3,
+      "explanation": "Wilson's disease often presents in adolescents/young adults with acute liver failure, low alkaline phosphatase, and Coombs-negative haemolytic anaemia (not mentioned but typical). The undetectable paracetamol level and absence of risk factors for viral hepatitis make it more likely than other causes. Autoimmune hepatitis can also present acutely but is less common in this age group and typically has higher IgG levels.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7d32d29c2b6f",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known chronic hepatitis C (non-cirrhotic) presents with a 3-day history of worsening jaundice, right upper quadrant pain, and fever. He recently started a course of amoxicillin-clavulanate for a chest infection. On examination, he is febrile, tender in the RUQ, and mildly confused. LFTs show AST 1200 U/L, ALT 1500 U/L, bilirubin 200 µmol/L, ALP 350 U/L, INR 1.8. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune hepatitis",
+        "Alcoholic hepatitis",
+        "Drug-induced liver injury from amoxicillin-clavulanate",
+        "Acute cholangitis",
+        "Acute flare of hepatitis C"
+      ],
+      "answerIndex": 2,
+      "explanation": "Amoxicillin-clavulanate is a common cause of drug-induced liver injury (DILI), often with a cholestatic or mixed pattern. The recent exposure and absence of heavy alcohol use make this more likely than alcoholic hepatitis. An acute flare of hepatitis C is possible but less common without precipitating factors, and the RUQ pain and fever suggest a cholestatic component typical of DILI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ae115abc854a",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravid woman at 34 weeks gestation presents with nausea, vomiting, and right upper quadrant pain. She is jaundiced and has mild pedal oedema. Blood pressure is 140/90 mmHg, urinalysis shows proteinuria 2+. LFTs show AST 350 U/L, ALT 400 U/L, bilirubin 90 µmol/L, INR 1.9. What is the single most likely diagnosis?",
+      "options": [
+        "HELLP syndrome",
+        "Pre-eclampsia with liver involvement",
+        "Intrahepatic cholestasis of pregnancy",
+        "Acute viral hepatitis",
+        "Acute fatty liver of pregnancy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute fatty liver of pregnancy (AFLP) typically presents in the third trimester with nausea, vomiting, RUQ pain, jaundice, and coagulopathy. The presence of hypertension and proteinuria could also suggest pre-eclampsia/HELLP, but the marked coagulopathy (INR 1.9) and absence of severe thrombocytopenia or microangiopathic haemolytic anaemia make AFLP more likely. Intrahepatic cholestasis of pregnancy usually presents with pruritus and mild jaundice without coagulopathy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c303fa2e9ae",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 18-year-old man presents with acute confusion, jaundice, and Kayser-Fleischer rings on slit-lamp examination. He has no significant history. LFTs show AST 800 U/L, ALT 900 U/L, bilirubin 150 µmol/L, ALP 30 U/L (low), INR 2.2. Urine copper is elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Drug-induced liver injury",
+        "Wilson's disease",
+        "Acute hepatitis A",
+        "Budd-Chiari syndrome",
+        "Autoimmune hepatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wilson's disease is confirmed by Kayser-Fleischer rings, low alkaline phosphatase, elevated urinary copper, and acute liver failure in a young person. Autoimmune hepatitis may have similar liver biochemistry but lacks the specific eye signs and low ALP. Acute hepatitis A typically has high ALT but not low ALP or Kayser-Fleischer rings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "270c39a6db3d",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with a history of alcohol use disorder presents with a 1-week history of jaundice, anorexia, and worsening confusion. He has been drinking heavily until 3 days ago. On examination, he is febrile, has hepatomegaly, ascites, and asterixis. LFTs show AST 250 U/L, ALT 150 U/L, bilirubin 300 µmol/L, GGT 400 U/L, INR 1.9, and a neutrophil count of 12×10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Alcoholic hepatitis with acute liver failure",
+        "Acute hepatitis B",
+        "Acute pancreatitis with liver involvement",
+        "Cirrhosis with spontaneous bacterial peritonitis",
+        "Drug-induced liver injury"
+      ],
+      "answerIndex": 0,
+      "explanation": "Alcoholic hepatitis presents with jaundice, fever, hepatomegaly, and often neutrophil leukocytosis. The recent heavy alcohol use and AST/ALT ratio >1.5 (AST>ALT) support this. While cirrhosis with SBP could cause confusion, the acute onset of jaundice and lack of infective signs in ascites make alcoholic hepatitis more likely. Acute pancreatitis might cause jaundice but not typically with such marked LFTs and encephalopathy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50daf125b438",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man presents with a 3-day history of jaundice, vomiting, and confusion. On examination, he has asterixis. He has no significant past medical history. Which investigation is most appropriate to confirm the diagnosis of acute liver failure?",
+      "options": [
+        "Prothrombin time/INR",
+        "Liver ultrasound",
+        "Paracetamol level",
+        "Hepatitis serology",
+        "Serum bilirubin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute liver failure is defined by coagulopathy (INR ≥1.5) and encephalopathy. Prothrombin time/INR is the key diagnostic test, while the other options are used to identify the cause or assess severity but not to confirm the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11a4a2e70c66",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 19-year-old woman presents after a paracetamol overdose 48 hours ago. She is drowsy but rousable. Blood tests show ALT 5000 U/L and bilirubin 50 µmol/L. Which of the following results would confirm that she has acute liver failure?",
+      "options": [
+        "INR 1.8",
+        "Glucose 3.5 mmol/L",
+        "Lactate 3 mmol/L",
+        "Ammonia 100 µmol/L",
+        "Serum creatinine 200 µmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute liver failure requires an INR ≥1.5 in the presence of encephalopathy. An elevated INR confirms coagulopathy, which is a diagnostic criterion. The other options indicate complications (renal impairment, hyperammonaemia, hypoglycaemia, lactic acidosis) but do not alone confirm acute liver failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "04eaa86ca421",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with acute liver failure due to hepatitis B has a Glasgow Coma Scale of 13 and is becoming increasingly agitated. Which investigation is most appropriate to detect cerebral oedema?",
+      "options": [
+        "Electroencephalogram",
+        "Ultrasound of optic nerve sheath diameter",
+        "MRI brain",
+        "Lumbar puncture",
+        "CT head"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute liver failure with suspected cerebral oedema, CT head is the first-line investigation in UK practice to exclude other causes of encephalopathy and assess for oedema. Although it has limited sensitivity, it is readily available and recommended. MRI and ultrasound of optic nerve sheath are second-line or research tools.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d77d931f9531",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman at 34 weeks gestation presents with nausea, vomiting, jaundice, and mild confusion. She is hypotensive. Blood tests show INR 2.0, ALT 300 U/L, bilirubin 150 µmol/L, and uric acid 0.6 mmol/L. Which investigation is most specific for the diagnosis of acute fatty liver of pregnancy?",
+      "options": [
+        "Liver biopsy",
+        "Serum caeruloplasmin",
+        "Urinary protein",
+        "Serum bile acids",
+        "Abdominal ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "Liver biopsy showing microvesicular steatosis is the gold standard for diagnosing acute fatty liver of pregnancy. Ultrasound may show fatty infiltration but is not specific. The other tests are useful for differentials (bile acids for intrahepatic cholestasis, protein for pre-eclampsia, caeruloplasmin for Wilson's disease).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "269e12271148",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with acute hepatitis B is being monitored. He now develops mild confusion. Which single laboratory result would most reliably indicate that he has progressed to acute liver failure?",
+      "options": [
+        "ALT 5000 U/L",
+        "Albumin 32 g/L",
+        "Bilirubin 100 µmol/L",
+        "Platelets 150 x10⁹/L",
+        "INR 1.6"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute liver failure is defined by coagulopathy (INR ≥1.5) with encephalopathy. An INR of 1.6 meets this threshold. Elevated ALT, bilirubin, low albumin, and thrombocytopenia are common in acute liver injury but are not diagnostic of liver failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "787816fecdb9",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 52-year-old man with relapsed follicular lymphoma treated with rituximab and bendamustine presents with acute confusion, jaundice, and INR 3.2. Hepatitis B serology shows HBsAg+, IgM anti-HBc+, and HBV DNA >10^8 IU/mL. He has no prior history of hepatitis. Which antiviral drug is contraindicated as first-line therapy?",
+      "options": [
+        "Entecavir",
+        "Tenofovir disoproxil",
+        "Telbivudine",
+        "Adefovir dipivoxil",
+        "Lamivudine"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lamivudine is contraindicated due to high risk of resistance in patients with high HBV DNA, especially when immunosuppressed. Tenofovir and entecavir are potent agents with low resistance and are recommended as first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dacffdaee631",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 19-year-old woman with no known liver disease presents with acute jaundice, Coombs-negative haemolytic anaemia, and rapidly progressive encephalopathy over 2 days. Kayser-Fleischer rings are noted, serum caeruloplasmin <0.1 g/L, and 24-hour urinary copper >100 μg. What is the definitive treatment for her acute liver failure?",
+      "options": [
+        "Trientine 1.5 g daily in divided doses",
+        "Plasmapheresis with albumin exchange",
+        "Zinc acetate 50 mg three times daily",
+        "D-Penicillamine 1 g daily in divided doses",
+        "Orthotopic liver transplantation"
+      ],
+      "answerIndex": 4,
+      "explanation": "In fulminant Wilson's disease with hepatic failure and encephalopathy, chelators are too slow and often ineffective; liver transplantation is the definitive life-saving therapy. Plasmapheresis can bridge but is not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b971313c292",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with acute onset of abdominal pain, hepatomegaly, and ascites. Doppler ultrasound shows absent hepatic vein flow consistent with Budd-Chiari syndrome. Acute liver failure develops with INR 2.8 and encephalopathy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Therapeutic anticoagulation with low-molecular-weight heparin",
+        "Transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Thrombolysis with alteplase",
+        "Large-volume paracentesis",
+        "Orthotopic liver transplantation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Anticoagulation is first-line for acute Budd-Chiari syndrome to prevent clot progression and promote recanalisation. TIPS is reserved if anticoagulation fails or for decompression. Thrombolysis may be considered in very acute settings but is not first-line, and transplantation is for those who fail medical therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "caf25295ed5d",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old primigravida at 32 weeks gestation presents with nausea, epigastric pain, and jaundice. Blood tests show AST 500 U/L, ALT 400 U/L, bilirubin 180 μmol/L, glucose 2.5 mmol/L, and urate 550 μmol/L. A clinical diagnosis of acute fatty liver of pregnancy (AFLP) is made. She is now drowsy and has a Glasgow Coma Scale of 13. What is the definitive management?",
+      "options": [
+        "Supportive care with fluid and electrolyte replacement",
+        "Plasmapheresis with fresh frozen plasma",
+        "Orthotopic liver transplantation",
+        "Urgent delivery by caesarean section",
+        "Intravenous N-acetylcysteine infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "The definitive treatment for acute fatty liver of pregnancy is expedient delivery. Although supportive care and NAC may be used, delivery is the only intervention that reverses the disease process. Liver transplantation is reserved for failure to recover post-delivery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "326e5c7d03d9",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man presents with severe vomiting, abdominal pain, and watery diarrhoea 12 hours after foraging and eating wild mushrooms. By 24 hours he is jaundiced with INR 5.0 and hepatic encephalopathy. The mushroom is identified as Amanita phalloides. Which specific antidote should be administered?",
+      "options": [
+        "N-acetylcysteine 150 mg/kg IV over 1 hour then 12.5 mg/kg/hour",
+        "Silibinin 5 mg/kg IV loading then 20 mg/kg/day continuous infusion",
+        "Activated charcoal 50 g orally stat",
+        "Benzylpenicillin 300,000 units/kg/day IV",
+        "Orthotopic liver transplantation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Silibinin (milk thistle extract) is the specific antidote for Amanita phalloides poisoning, inhibiting amatoxin uptake into hepatocytes. N-acetylcysteine may be used adjunctively but is not specific; penicillin is less effective. Activated charcoal is only useful early. Transplantation is reserved for advanced cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33d5d1ad4137",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman presents to ED with a 3-day history of jaundice and nausea. She has no significant past medical history and takes no regular medications. On examination, she is alert, oriented, and haemodynamically stable. Abdominal exam reveals mild right upper quadrant tenderness. Investigations show: ALT 1200 IU/L, AST 980 IU/L, ALP 150 IU/L, bilirubin 85 µmol/L, albumin 38 g/L. What is the most appropriate next step?",
+      "options": [
+        "Start N-acetylcysteine infusion",
+        "Arrange urgent abdominal ultrasound",
+        "Refer to tertiary liver centre",
+        "Measure INR",
+        "Check serum paracetamol level and viral hepatitis serology"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a young woman with acute hepatitis and jaundice, the key initial step is to identify the cause. Checking paracetamol level and viral serology (hepatitis A, B, C, E) is essential to guide management. INR is important to assess severity but identifying the aetiology is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "22bc6b03a914",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known autoimmune hepatitis maintained on azathioprine 100 mg daily presents to clinic with fatigue. He has no jaundice, no confusion, and vital signs are normal. LFTs show: ALT 200 IU/L, AST 180 IU/L, bilirubin 30 µmol/L, INR 1.1. What is the most appropriate next step?",
+      "options": [
+        "Check azathioprine metabolite levels (6-TGN, 6-MMP)",
+        "Increase azathioprine dose",
+        "Check thiopurine methyltransferase (TPMT) activity",
+        "Monitor LFTs in 2 weeks",
+        "Start prednisolone"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient on azathioprine with mildly elevated transaminases, measurement of metabolite levels (6-TGN and 6-MMP) helps distinguish between therapeutic failure, toxicity, or non-adherence. TPMT testing is done before starting therapy, not while on it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8345ff0d5c7b",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with acute liver failure secondary to paracetamol overdose (taken 12 hours ago) is admitted. She received N-acetylcysteine in ED. Now she is increasingly drowsy, disoriented, and has flapping tremor (grade II encephalopathy). What is the most appropriate next step?",
+      "options": [
+        "Administer lactulose enema",
+        "Contact transplant centre for assessment",
+        "Start intravenous mannitol",
+        "Check serum ammonia level",
+        "Intubate and ventilate"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to NICE guidelines, acute liver failure with any degree of encephalopathy should prompt early discussion with a transplant centre. While managing encephalopathy is important, the immediate life-saving action is referral for potential transplantation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ae4897b1dcb",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old man with acute liver failure due to seronegative hepatitis develops a dilated right pupil and decerebrate posturing. He is intubated and ventilated. CT head shows no haemorrhage. What is the most appropriate next step?",
+      "options": [
+        "Reduce arterial PCO2 to 4.0-4.5 kPa",
+        "Start empirical antibiotics",
+        "Administer intravenous thiamine",
+        "Perform lumbar puncture",
+        "Give intravenous mannitol 0.5-1 g/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "The clinical features suggest cerebral oedema. NICE recommends mannitol (or hypertonic saline) as first-line treatment for raised intracranial pressure in acute liver failure. Hyperventilation is not recommended due to risk of cerebral ischaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9bb31d45868b",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old primigravida at 36 weeks gestation presents with nausea, right upper quadrant pain, and jaundice. Observations: BP 140/90, HR 90, temp 37.2°C. Bloods: ALT 800 IU/L, AST 700 IU/L, bilirubin 80 µmol/L, INR 1.8, urate 450 µmol/L. She is alert but mildly confused. What is the most appropriate next step?",
+      "options": [
+        "Administer intravenous corticosteroids",
+        "Repeat LFTs in 6 hours",
+        "Start N-acetylcysteine infusion",
+        "Arrange urgent delivery of the fetus",
+        "Perform liver biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is typical of acute fatty liver of pregnancy (AFLP) with acute liver failure. Definitive treatment is prompt delivery of the fetus, which often leads to improvement in maternal liver function. Corticosteroids are not indicated for AFLP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2a5642ce7dee",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man presents with 3 days of jaundice, nausea, and mild confusion. On examination he has asterixis. Which laboratory finding confirms that he has acute liver failure?",
+      "options": [
+        "INR 2.1",
+        "Bilirubin 150 μmol/L",
+        "Albumin 35 g/L",
+        "ALP 300 U/L",
+        "ALT 2000 U/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute liver failure is defined by the presence of coagulopathy (INR >1.5) and hepatic encephalopathy. An INR of 2.1 meets this threshold, confirming the diagnosis. The other options, while abnormal, are not part of the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "600c8ff1ed81",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents 12 hours after a paracetamol overdose. She is asymptomatic with normal liver function tests. A repeat blood test at 24 hours shows the following: ALT 50 U/L, INR 1.8, bilirubin 10 μmol/L. Which finding is a red flag for severe hepatotoxicity?",
+      "options": [
+        "Normal albumin",
+        "INR 1.8",
+        "ALT 50 U/L",
+        "Bilirubin 10 μmol/L",
+        "Elevated alkaline phosphatase"
+      ],
+      "answerIndex": 1,
+      "explanation": "In paracetamol overdose, a rising INR (especially >1.5 at 24 hours) indicates significant hepatic necrosis and risk of acute liver failure, even with normal transaminases initially. An INR of 1.8 is the correct red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b567dca5b21",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with acute liver failure due to hepatitis B is on the ward. He becomes acutely agitated and then has a generalised tonic-clonic seizure. Which complication is most likely responsible?",
+      "options": [
+        "Sepsis",
+        "Hypoglycaemia",
+        "Intracranial haemorrhage",
+        "Hepatic encephalopathy",
+        "Cerebral oedema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Seizures in the setting of acute liver failure are a classic sign of cerebral oedema, which is a life-threatening complication. Hepatic encephalopathy typically presents with confusion and asterixis but not seizures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b26f18739ec2",
+      "topic": "Acute Liver Failure",
+      "slug": "acute-liver-failure",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Hepatic emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with acute liver failure develops oliguria and a rising serum creatinine. Her urine sodium concentration is 5 mmol/L. Which diagnosis is most likely?",
+      "options": [
+        "Pre-renal acute kidney injury",
+        "Drug-induced nephrotoxicity",
+        "Hepatorenal syndrome",
+        "Rhabdomyolysis",
+        "Acute tubular necrosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute liver failure, a urine sodium <10 mmol/L strongly suggests hepatorenal syndrome (functional renal failure due to splanchnic vasodilation). Acute tubular necrosis typically has a higher urine sodium (>40 mmol/L).",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "topic": "Oesophageal Cancer",
+  "slug": "oesophageal-cancer",
+  "system": "Gastroenterology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:17:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "6a59d46f360f",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with a 3-month history of progressive dysphagia, initially to solids and now to liquids. He has lost 8 kg unintentionally. He is a lifelong smoker and drinks 20 units of alcohol per week. There is no history of heartburn. What is the single most likely diagnosis?",
+      "options": [
+        "Achalasia",
+        "Oesophageal adenocarcinoma",
+        "Gastro-oesophageal reflux disease",
+        "Benign oesophageal stricture",
+        "Oesophageal squamous cell carcinoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient's age, progressive dysphagia, weight loss, and strong smoking/alcohol history favour oesophageal malignancy. In the UK, the distal oesophagus is most commonly affected by adenocarcinoma, often arising in Barrett's oesophagus, whereas squamous cell carcinoma typically occurs in the mid-oesophagus. The lack of heartburn makes GORD and benign stricture less likely, and the rapid progression over months argues against achalasia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c098216c4acc",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with a hoarse voice of 6 weeks' duration. He has no dysphagia but reports unintentional weight loss of 5 kg. He is a heavy smoker. Laryngoscopy shows left vocal cord palsy. What is the single most likely diagnosis?",
+      "options": [
+        "Oesophageal cancer",
+        "Thyroid cancer",
+        "Lung cancer",
+        "Functional dysphonia",
+        "Laryngeal cancer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Left vocal cord palsy due to recurrent laryngeal nerve involvement is a classic but easily-missed presentation of oesophageal cancer, often from mediastinal lymphadenopathy or direct extension. Lung cancer also causes vocal cord palsy but is slightly less likely given the absence of cough or haemoptysis; oesophageal cancer can present with hoarseness before dysphagia, making this an atypical presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3521d7652181",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman presents with intermittent dysphagia to both solids and liquids, along with regurgitation of undigested food and occasional chest pain. Barium swallow shows a dilated oesophagus with smooth tapering at the gastro-oesophageal junction (bird-beak appearance). What is the single most likely diagnosis?",
+      "options": [
+        "Oesophageal candidiasis",
+        "Pseudoachalasia due to oesophageal adenocarcinoma",
+        "Diffuse oesophageal spasm",
+        "Achalasia",
+        "Benign oesophageal stricture"
+      ],
+      "answerIndex": 3,
+      "explanation": "The classic bird-beak appearance on barium swallow is diagnostic of achalasia, even though dysphagia to liquids is typical. Pseudoachalasia from an infiltrating carcinoma can mimic achalasia but often presents with rapid progression and older age; the smooth tapering favours true achalasia. Benign stricture usually causes dysphagia to solids only, and spasm shows corkscrew oesophagus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acc12c424e03",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with known Barrett's oesophagus on surveillance has developed progressive dysphagia to solids over the past 2 months. He has lost 4 kg in weight. Upper endoscopy reveals a nodular stricture at 35 cm with irregular mucosa. What is the single most likely diagnosis?",
+      "options": [
+        "Eosinophilic oesophagitis",
+        "Oesophageal candidiasis",
+        "Oesophageal squamous cell carcinoma",
+        "Oesophageal adenocarcinoma",
+        "Benign oesophageal stricture from reflux"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with known Barrett's oesophagus, the onset of progressive dysphagia and weight loss is highly suspicious for malignant transformation to adenocarcinoma. The irregular nodular stricture at endoscopy is typical of invasive carcinoma. Benign strictures are usually smooth and occur in the absence of weight loss. Squamous cell carcinoma is less likely given the distal location.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d4ebc7972df0",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with known oesophageal adenocarcinoma presents with sudden onset of coughing and choking immediately after swallowing liquids. He has had dysphagia for months and lost significant weight. On examination, he has signs of aspiration pneumonia. What is the single most likely diagnosis?",
+      "options": [
+        "Malignant tracheo-oesophageal fistula",
+        "Oesophageal candidiasis",
+        "Bronchogenic carcinoma",
+        "Pharyngeal pouch (Zenker's diverticulum)",
+        "Aspiration pneumonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "The classic symptom of coughing on swallowing (Ortner's sign) in a patient with known oesophageal cancer indicates a malignant tracheo-oesophageal fistula. Aspiration pneumonia is a consequence, not the underlying cause. Candidiasis would cause odynophagia, not coughing. Zenker's diverticulum causes regurgitation, and bronchogenic carcinoma is not directly related to swallowing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7e4ff80f2725",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a 3-month history of progressive dysphagia to solids and unintentional weight loss of 8 kg. He has no significant past medical history. Clinical examination is unremarkable. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "CT scan of chest and abdomen",
+        "Barium swallow",
+        "Oesophagogastroduodenoscopy (OGD) with biopsy",
+        "PET-CT scan",
+        "Endoscopic ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "OGD with biopsy is the gold standard for diagnosis of oesophageal cancer as it allows direct visualization and histological confirmation. Barium swallow may suggest but cannot confirm. CT and PET-CT are used for staging after diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "68cbdb5989aa",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman is found to have a mid-oesophageal squamous cell carcinoma on OGD biopsy. She is otherwise fit with no comorbidities. What is the most appropriate next investigation for staging?",
+      "options": [
+        "Endoscopic ultrasound",
+        "CT chest and abdomen",
+        "MRI thorax",
+        "PET-CT",
+        "Bronchoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to NICE guidelines, CT chest and abdomen is the first-line staging investigation for oesophageal cancer to assess local invasion and distant metastases. EUS and PET-CT are used subsequently if needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d51f81573d9",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with known Barrett's oesophagus undergoes surveillance OGD. Histology from a visible nodule shows high-grade dysplasia. What is the most appropriate next investigation?",
+      "options": [
+        "Endoscopic ultrasound (EUS)",
+        "Endoscopic mucosal resection (EMR)",
+        "Radiofrequency ablation",
+        "CT chest and abdomen",
+        "Repeat OGD in 6 months"
+      ],
+      "answerIndex": 0,
+      "explanation": "For high-grade dysplasia or early cancer, EUS is the best next step to assess depth of invasion (T stage) and nodal involvement, guiding further management such as EMR or surgery. Repeat OGD is not sufficient for staging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0af78b9f052e",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with dysphagia. OGD and biopsy confirm lower oesophageal adenocarcinoma. CT chest and abdomen shows a T3 tumour with no distant metastases. What is the most appropriate investigation to determine local resectability?",
+      "options": [
+        "Bone scan",
+        "Diagnostic laparoscopy",
+        "Endoscopic ultrasound (EUS)",
+        "MRI abdomen",
+        "PET-CT"
+      ],
+      "answerIndex": 2,
+      "explanation": "EUS provides the most accurate assessment of tumour (T) and nodal (N) staging, which is crucial for determining resectability. PET-CT is used to exclude distant metastases but does not assess local invasion as well as EUS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3336634ba9dc",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman with progressive dysphagia undergoes OGD, which shows a tight stricture in the mid-oesophagus. Multiple biopsies from the stricture show only inflammatory changes with no malignant cells. What is the most appropriate next investigation?",
+      "options": [
+        "Endoscopic ultrasound with fine-needle aspiration",
+        "Barium swallow",
+        "Positron emission tomography (PET)",
+        "CT chest and abdomen",
+        "Repeat OGD with deeper biopsies"
+      ],
+      "answerIndex": 0,
+      "explanation": "When biopsies are inconclusive but suspicion remains high, EUS with fine-needle aspiration can sample deeper layers of the oesophageal wall and regional lymph nodes, increasing diagnostic yield. Repeat OGD may fail to get adequate tissue due to submucosal tumor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fda56df99b6",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old male presents with dysphagia and weight loss. Oesophagogastroduodenoscopy and biopsies confirm oesophageal adenocarcinoma. Staging CT shows a T2N0M0 tumour. He is fit for surgery with good performance status. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Oesophagectomy alone",
+        "Endoscopic mucosal resection",
+        "Palliative chemotherapy",
+        "Definitive chemoradiotherapy",
+        "Neoadjuvant chemotherapy followed by oesophagectomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "For resectable oesophageal adenocarcinoma (T2N0M0) in a fit patient, NICE recommends neoadjuvant chemotherapy (e.g., cisplatin and fluorouracil) followed by oesophagectomy. Oesophagectomy alone is insufficient as it does not address micrometastases, while definitive chemoradiotherapy is reserved for patients unfit for surgery or with squamous cell carcinoma. Endoscopic resection is only for very early (T1a) disease, and palliative chemo is for metastatic disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7189e13211b1",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old male presents with dysphagia and weight loss. Oesophagogastroduodenoscopy and biopsies confirm oesophageal adenocarcinoma. Staging CT reveals liver metastases (M1). He has an ECOG performance status of 1. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Best supportive care alone",
+        "Endoscopic stenting for dysphagia",
+        "Palliative chemotherapy with cisplatin and capecitabine",
+        "Oesophagectomy with metastasectomy",
+        "Definitive chemoradiotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For metastatic oesophageal adenocarcinoma, first-line palliative chemotherapy (e.g., cisplatin plus capecitabine) is recommended to improve survival and quality of life. Surgery is not indicated due to metastases. Definitive chemoradiotherapy is for localized disease. Stenting is a palliative intervention for dysphagia but is not first-line disease-modifying therapy. Best supportive care alone is reserved for those unfit for chemo.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15669cb732de",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old with known incurable oesophageal cancer and poor performance status (ECOG 3) presents with complete dysphagia to saliva. He is not fit for any chemotherapy or radiotherapy. What is the most appropriate definitive therapy for relief of dysphagia?",
+      "options": [
+        "Self-expanding metal oesophageal stent",
+        "Best supportive care including oral care",
+        "Percutaneous endoscopic gastrostomy (PEG)",
+        "External beam radiotherapy",
+        "Systemic chemotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For palliation of complete dysphagia in a patient unfit for chemo/radiotherapy, self-expanding metal stent placement provides rapid symptom relief. PEG is for feeding but does not address aspiration risk. Radiotherapy takes weeks and requires fitness. Chemotherapy is not appropriate. Best supportive care alone would not relieve dysphagia, so stenting is the definitive palliative intervention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "03b679162d27",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old with advanced oesophageal carcinoma develops a cough immediately after swallowing. A barium swallow demonstrates a tracheo-oesophageal fistula. He is not a candidate for surgery. What is the most appropriate definitive treatment?",
+      "options": [
+        "Nasogastric tube feeding",
+        "Systemic chemotherapy",
+        "Palliative radiotherapy to the mediastinum",
+        "Covered oesophageal stent",
+        "Broad-spectrum intravenous antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a malignant tracheo-oesophageal fistula, the priority is to seal the fistula to prevent aspiration and allow oral intake. A covered self-expanding metal stent placed across the fistula is the definitive palliative intervention. Radiotherapy may worsen the fistula initially. Antibiotics treat infection but do not close the fistula. NG feeding bypasses the fistula but does not address aspiration via the fistula. Chemotherapy has poor response in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "79c3495569f8",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old male with a history of COPD (FEV1 40% predicted) presents with dysphagia. Biopsies show squamous cell carcinoma of the mid-oesophagus. Staging CT shows T3N1M0 disease. He is not fit for surgery due to respiratory compromise. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Definitive chemoradiotherapy",
+        "Best supportive care",
+        "Endoscopic submucosal dissection",
+        "Palliative radiotherapy alone",
+        "Oesophagectomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For locally advanced oesophageal squamous cell carcinoma in a non-surgical candidate, definitive chemoradiotherapy (e.g., cisplatin plus 5-FU with concurrent radiotherapy) is the standard curative-intent treatment. Surgery is contraindicated due to poor lung function. Palliative radiotherapy alone is not curative. Endoscopic submucosal dissection is for early mucosal disease. Best supportive care is not first-line in a potentially curable patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7da6db396a2b",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man presents with a 4-week history of progressive dysphagia to solids and unintentional weight loss of 6 kg. He has no reflux symptoms. What is the most appropriate IMMEDIATE next step?",
+      "options": [
+        "Request CT thorax and abdomen",
+        "Start a trial of high-dose proton pump inhibitor",
+        "Refer to a dietitian for nutritional support",
+        "Refer for urgent upper GI endoscopy (2-week wait)",
+        "Perform a barium swallow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Urgent endoscopy is the investigation of choice for new-onset progressive dysphagia with weight loss (alarm features) to exclude oesophageal cancer. Barium swallow is less sensitive and cannot biopsy; CT is for staging once diagnosis is confirmed; PPI trial would delay diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fcec858cf53f",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known oesophageal cancer (squamous cell, mid-oesophagus) completed radical radiotherapy 2 weeks ago. He presents with sudden-onset severe central chest pain, dyspnoea, and subcutaneous emphysema in the neck. Observations: HR 110, BP 90/60, RR 24, SpO2 94% on air. What is the most appropriate IMMEDIATE next step?",
+      "options": [
+        "Perform urgent upper GI endoscopy",
+        "Request an urgent CT chest with oral contrast",
+        "Insert a nasogastric tube to decompress the stomach",
+        "Obtain a chest X-ray",
+        "Start broad-spectrum intravenous antibiotics"
+      ],
+      "answerIndex": 1,
+      "explanation": "The triad of chest pain, dyspnoea, and subcutaneous emphysema post-radiotherapy suggests oesophageal perforation. Urgent CT with oral contrast is the gold standard for diagnosis and will guide management (e.g., surgery or stenting). Endoscopy is contraindicated if perforation is suspected; chest X-ray may show pneumomediastinum but CT is definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ff896cb852ac",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman with metastatic oesophageal cancer (adenocarcinoma) on palliative chemotherapy presents with a single episode of fresh haematemesis (~100 ml). She currently feels faint but is alert. Observations: HR 105, BP 100/60, RR 20, SpO2 98% on air. She has no anticoagulant use. What is the most appropriate IMMEDIATE next step?",
+      "options": [
+        "Arrange urgent upper GI endoscopy within 2 hours",
+        "Establish IV access and send blood for full blood count and cross-match",
+        "Give a bolus of intravenous octreotide",
+        "Administer intravenous vitamin K",
+        "Insert a nasogastric tube"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute upper GI bleeding, the immediate priority is resuscitation: IV access, blood tests (FBC, coag, cross-match), and fluid resuscitation. Octreotide is not first-line for tumour bleeding; endoscopy is important but requires stability and preparation. Vitamin K is only if coagulopathy from warfarin, not stated here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "571d575f3fe5",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with biopsy-proven oesophageal adenocarcinoma (cT3 N1 M0) is scheduled to start neoadjuvant chemotherapy in 2 weeks. Routine pre-treatment bloods show: albumin 25 g/L (normal 35-50), BMI 17 kg/m². He has lost 8 kg over 3 months. What is the most appropriate IMMEDIATE next step?",
+      "options": [
+        "Request a CT-PET scan for staging",
+        "Start parenteral nutrition via a peripherally inserted central catheter",
+        "Refer to a specialist dietitian for nutritional assessment and intervention",
+        "Insert a percutaneous endoscopic gastrostomy (PEG) tube",
+        "Arrange an echocardiogram before chemotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe malnutrition (low albumin, low BMI, weight loss) is a critical modifiable factor before chemotherapy. Although staging is important, nutritional optimisation is the immediate priority to improve treatment tolerance and outcomes. Referral to a dietitian allows tailored intervention (oral supplements, NG feeding) before considering invasive routes like PEG or parenteral nutrition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b87eb63e3c93",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man presents with a 6-week history of difficulty swallowing. He describes that food sometimes 'gets stuck' and has started avoiding bread. He has no weight loss. What single feature in this history most strongly suggests an oesophageal malignancy rather than benign pathology?",
+      "options": [
+        "Regurgitation of undigested food",
+        "Intermittent dysphagia",
+        "Odynophagia (pain on swallowing)",
+        "Heartburn after meals",
+        "Progressive dysphagia to solids"
+      ],
+      "answerIndex": 4,
+      "explanation": "Progressive dysphagia to solids is the classic red flag for oesophageal cancer, as benign strictures or motility disorders often cause intermittent or variable symptoms. Intermittent dysphagia, heartburn, regurgitation, and odynophagia are more typical of reflux disease or achalasia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4963717fea27",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with known Barrett's oesophagus (C3M4) undergoes routine surveillance endoscopy. The mucosa appears salmon-pink with no visible lesions. Biopsies from four quadrants every 2 cm show low-grade dysplasia in two fragments. Which single finding would mandate urgent referral for endoscopic therapy?",
+      "options": [
+        "Increased length of Barrett's segment",
+        "Immunostaining positive for p53",
+        "Intestinal metaplasia on histology",
+        "Visible nodule in the Barrett's segment",
+        "High-grade dysplasia on repeat biopsy"
+      ],
+      "answerIndex": 4,
+      "explanation": "High-grade dysplasia in Barrett's oesophagus carries a high risk of progression to adenocarcinoma and requires endoscopic resection or ablation. Visible nodules or p53 positivity are concerning but not definitive; repeat biopsy with high-grade dysplasia is the accepted threshold for intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d72423d75945",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with locally advanced oesophageal squamous cell carcinoma suddenly develops coughing and choking every time he tries to swallow liquids. He also reports fever and a productive cough with foul-smelling sputum. What life-threatening complication does this presentation indicate?",
+      "options": [
+        "Bronchospasm due to aspiration",
+        "Oesophageal perforation from the tumour",
+        "Recurrent laryngeal nerve palsy",
+        "Aspiration pneumonia from dysphagia",
+        "Tracheo-oesophageal fistula"
+      ],
+      "answerIndex": 4,
+      "explanation": "Coughing immediately after swallowing liquids is pathognomonic for a tracheo-oesophageal fistula, a life-threatening complication of oesophageal cancer that requires urgent stenting. Aspiration pneumonia typically occurs without the immediate temporal link. The other options do not cause this specific symptom.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c72d3e3ef497",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with oesophageal adenocarcinoma presents with a 2-week history of a hoarse voice. She has no cough or dysphagia. On examination, her voice is breathy and weak. Which single finding on laryngoscopy would confirm the aetiology?",
+      "options": [
+        "Right vocal cord paralysis",
+        "Bilateral vocal cord oedema",
+        "Laryngeal papilloma",
+        "Left vocal cord paralysis",
+        "Pooling of saliva in the piriform fossa"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hoarseness in oesophageal cancer is typically due to left recurrent laryngeal nerve involvement, as the nerve runs in the aortopulmonary window near the oesophagus. Left vocal cord paralysis is the classic finding. Right nerve involvement is rare, and oedema, papilloma, or pooling are not associated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec0b08a29c26",
+      "topic": "Oesophageal Cancer",
+      "slug": "oesophageal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with a performance status of ECOG 3 (confined to bed/chair >50% of the day) is diagnosed with oesophageal adenocarcinoma. Staging CT shows a 4 cm tumour at the gastro-oesophageal junction, with no distant metastases. Which single finding would most strongly argue against curative treatment?",
+      "options": [
+        "No distant metastases on CT",
+        "Tumour at the gastro-oesophageal junction",
+        "Poor performance status (ECOG 3)",
+        "Tumour length greater than 3 cm",
+        "Age over 80 years"
+      ],
+      "answerIndex": 2,
+      "explanation": "Poor performance status (ECOG 3 or 4) is a contraindication to curative treatments like oesophagectomy or chemoradiotherapy, as the risk of complications outweighs potential benefit. Tumour length, age alone (if fit), and junction location do not preclude curative intent. Absence of metastases is favourable.",
+      "difficulty": "medium"
+    }
+  ]
+}

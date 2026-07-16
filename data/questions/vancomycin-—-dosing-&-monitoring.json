@@ -1,0 +1,493 @@
+{
+  "topic": "Vancomycin — Dosing & Monitoring",
+  "slug": "vancomycin-—-dosing-&-monitoring",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:33Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "8780ed33dd41",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man receiving intravenous vancomycin for MRSA osteomyelitis develops sudden-onset erythema, pruritus, and hypotension 30 minutes into his infusion. What is the single most likely diagnosis?",
+      "options": [
+        "Sepsis",
+        "Carcinoid syndrome",
+        "Red man syndrome",
+        "Urticaria",
+        "Anaphylaxis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Red man syndrome is a non-immunologic anaphylactoid reaction caused by rapid vancomycin infusion, presenting with erythema, pruritus, and hypotension. Sepsis would typically have fever and a different timeline, and anaphylaxis involves IgE-mediated response with bronchospasm. Carcinoid syndrome causes flushing but is rare with this temporal association.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "536f38409805",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman on vancomycin and gentamicin for infective endocarditis has a rise in serum creatinine from 80 to 150 µmol/L over 5 days. Her vancomycin trough is 20 mg/L (target 15–20). She is euvolaemic and normotensive. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis from sepsis",
+        "Acute interstitial nephritis from penicillin",
+        "Vancomycin-induced nephrotoxicity",
+        "Prerenal acute kidney injury",
+        "Contrast-induced nephropathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vancomycin-induced nephrotoxicity is well recognized, especially when combined with an aminoglycoside. A trough of 20 mg/L is at the upper end of target but still a risk factor. Prerenal is unlikely given euvolaemia, and acute interstitial nephritis typically shows eosinophiluria and drug rash. There is no history of sepsis or contrast.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48b2f5acfea2",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man on high-dose intravenous vancomycin for a prosthetic joint infection develops bilateral tinnitus and high-frequency hearing loss. He has no vertigo. Audiometry confirms bilateral sensorineural loss. What is the single most likely diagnosis?",
+      "options": [
+        "Vancomycin-induced ototoxicity",
+        "Aminoglycoside ototoxicity",
+        "Acoustic neuroma",
+        "Age-related hearing loss",
+        "Ménière's disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vancomycin can cause irreversible ototoxicity, particularly with high doses and prolonged therapy. The rapid onset during treatment and bilateral symmetric high-frequency loss differentiate it from age-related hearing loss (insidious) and acoustic neuroma (unilateral). Aminoglycoside ototoxicity is similar, but the patient is not on gentamicin. Ménière's disease involves vertigo and fluctuating hearing loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8c97dc35caf",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman on long-term vancomycin for an infected pacemaker develops fever and rigors. Her full blood count shows haemoglobin 120 g/L, white cell count 3.2 x 10^9/L with neutrophils 0.5 x 10^9/L, and platelets 180 x 10^9/L. She has no other drug changes. What is the single most likely diagnosis?",
+      "options": [
+        "Chemotherapy-induced neutropenia",
+        "Viral infection causing neutropenia",
+        "Autoimmune neutropenia",
+        "Clozapine-induced neutropenia",
+        "Vancomycin-induced neutropenia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Vancomycin can cause dose-dependent, reversible neutropenia after prolonged therapy (>2 weeks). The temporal relationship and absence of other causative drugs make it the most likely. Chemotherapy and clozapine are not relevant. Viral infection is possible but less specific, and autoimmune neutropenia is rare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d41808e129d",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old man with BMI 35 kg/m² and chronic kidney disease (eGFR 30 mL/min) is treated with vancomycin for cellulitis. After 72 hours, his vancomycin trough is 35 mg/L, and his creatinine has risen from 130 to 200 µmol/L. He remains normotensive and has no rash. What is the single most likely diagnosis?",
+      "options": [
+        "Pseudo-renal failure from cephalosporin interference",
+        "Acute interstitial nephritis",
+        "Acute tubular necrosis from myoglobinuria",
+        "Vancomycin-induced nephrotoxicity due to supratherapeutic levels",
+        "Prerenal acute kidney injury from dehydration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Supratherapeutic vancomycin troughs (>20 mg/L) are strongly associated with nephrotoxicity. In this patient with obesity (requiring higher doses per kg) and pre-existing renal impairment, accumulation occurred. Interstitial nephritis is less likely without other features. There is no evidence of dehydration, cephalosporin use, or myoglobinuria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77d77664f254",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with MRSA pneumonia is receiving vancomycin 1 g intravenously 12-hourly. A trough vancomycin level taken just before the fourth dose is 11 mg/L. Which of the following best describes the interpretation of this level?",
+      "options": [
+        "Normal for any infection",
+        "Therapeutic for most MRSA infections",
+        "Supratherapeutic",
+        "Subtherapeutic for MRSA pneumonia",
+        "Potentially toxic"
+      ],
+      "answerIndex": 3,
+      "explanation": "For complicated infections such as pneumonia, the target trough vancomycin level is 15-20 mg/L. A level of 11 mg/L is subtherapeutic, increasing the risk of treatment failure. The most tempting distractor is 'Therapeutic for most MRSA infections' because 11 mg/L is within the 10-15 mg/L range for uncomplicated infections, but pneumonia is considered complicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3690f1b03ae",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with MRSA bacteraemia is on vancomycin. On day 3, her serum creatinine rises from 80 μmol/L to 150 μmol/L. Which of the following is the most appropriate next investigation to help interpret this change?",
+      "options": [
+        "Repeat vancomycin trough level",
+        "Renal ultrasound",
+        "Urine output measurement",
+        "Vancomycin peak level",
+        "Serum creatinine kinase"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rise in creatinine suggests possible vancomycin-induced nephrotoxicity, but it is important to check a trough vancomycin level to see if supratherapeutic levels are contributing. A trough level will guide dosing adjustment. The most tempting distractor is 'Urine output measurement' but that assesses AKI rather than the drug's role.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "99045a7f9dd9",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 42-year-old man with MRSA endocarditis on vancomycin has a trough level of 18 mg/L. Which of the following best describes this level for his condition?",
+      "options": [
+        "Therapeutic",
+        "Indeterminate",
+        "Toxic",
+        "Supratherapeutic",
+        "Subtherapeutic"
+      ],
+      "answerIndex": 0,
+      "explanation": "For endocarditis, the target trough vancomycin level is 15-20 mg/L, so 18 mg/L is therapeutic. The most tempting distractor is 'Supratherapeutic' because 18 is close to the upper limit, but it is within the target range.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0870e031e6a8",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old intravenous drug user with MRSA tricuspid valve endocarditis is started on vancomycin. A vancomycin level is taken 4 hours after a dose and reported as 22 mg/L. Which of the following is the most appropriate interpretation of this result?",
+      "options": [
+        "Requires dosage reduction",
+        "Cannot be reliably interpreted",
+        "Supratherapeutic",
+        "Therapeutic",
+        "Subtherapeutic"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vancomycin monitoring should use trough levels taken just before the next dose, not random levels. A level taken 4 hours after dosing is a peak and cannot be compared to trough targets. The most tempting distractor is 'Supratherapeutic' because the number is high, but it may be a normal peak.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "54051de48e03",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with cellulitis of the lower leg due to an infected ulcer. Wound swab grows MRSA. His renal function is normal (eGFR >90 mL/min). What is the most appropriate vancomycin dosing regimen?",
+      "options": [
+        "Vancomycin 25–30 mg/kg loading dose then 15–20 mg/kg every 12h, target trough 15–20 mg/L",
+        "Vancomycin 15–20 mg/kg IV every 12h without a loading dose, target trough 10–15 mg/L",
+        "Vancomycin 1g IV twice daily (fixed dose)",
+        "Vancomycin 10–15 mg/kg every 12h, target trough 5–10 mg/L",
+        "Vancomycin 30–40 mg/kg/day continuous infusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "For non-severe MRSA infections like cellulitis, NICE/BNF recommends 15–20 mg/kg IV every 12h without a loading dose, targeting a trough of 10–15 mg/L. A loading dose is reserved for critically ill patients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2a3c2a42d9a6",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman is admitted to ICU with septic shock due to confirmed MRSA bacteremia. Her eGFR is 80 mL/min. What is the most appropriate initial vancomycin regimen?",
+      "options": [
+        "Vancomycin 25–30 mg/kg loading dose then 15–20 mg/kg every 12h",
+        "Vancomycin 15–20 mg/kg IV every 12h (no loading)",
+        "Vancomycin 30 mg/kg loading then continuous infusion 30 mg/kg/day",
+        "Vancomycin 1.5g IV loading then 1g every 12h",
+        "Vancomycin 10 mg/kg every 12h"
+      ],
+      "answerIndex": 0,
+      "explanation": "In critically ill patients with septic shock, a loading dose of 25–30 mg/kg is recommended to rapidly achieve therapeutic concentrations, followed by maintenance dosing based on actual body weight.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b56b6dbd0dc2",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 40-year-old man is on vancomycin 1g IV twice daily for MRSA endocarditis. He develops acute kidney injury with eGFR 30 mL/min. What is the most appropriate adjustment?",
+      "options": [
+        "Switch to daptomycin 6 mg/kg IV daily",
+        "Reduce dose to 500 mg IV twice daily and maintain the interval",
+        "Give a loading dose of 30 mg/kg then reduce dose to 1g every 24h",
+        "Switch to linezolid 600 mg PO/IV twice daily",
+        "Continue same dose (1g IV twice daily) but increase dosing interval to every 24–48h"
+      ],
+      "answerIndex": 4,
+      "explanation": "In AKI, extending the dosing interval (to every 24–48h) maintains therapeutic peaks and reduces accumulation, which is preferred over dose reduction based on trough monitoring for endocarditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5bd38ef04f53",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with class III obesity (BMI 45 kg/m²) is started on vancomycin for MRSA hospital-acquired pneumonia. Her eGFR is 60 mL/min. What is the most appropriate vancomycin dosing approach?",
+      "options": [
+        "Use ideal body weight for both loading and maintenance",
+        "Use actual body weight for loading and maintenance, capping maximum dose at 2g per administration",
+        "Use adjusted body weight for loading only",
+        "Use actual body weight for both loading and maintenance (no cap)",
+        "Use a fixed dose of 1g IV twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "For obese patients, UK guidelines recommend using actual body weight for dosing but capping each dose at 2g to avoid toxicity, especially in those with large weight.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09c779806d9e",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man is on vancomycin 15 mg/kg IV every 12h for MRSA osteomyelitis. The trough level measured before the fourth dose is 12 mg/L (target 15–20 mg/L). What is the most appropriate management?",
+      "options": [
+        "Keep the same dose and recheck trough after another 24h",
+        "Decrease dosing interval to every 8h",
+        "Add gentamicin 1 mg/kg IV three times daily",
+        "Increase vancomycin dose to 20 mg/kg IV every 12h",
+        "Switch to daptomycin 6 mg/kg IV daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "A trough of 12 mg/L is below the target for osteomyelitis. Increasing the dose (by 250–500 mg increments) is recommended over changing interval or switching therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3c9291e35ea",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man is being treated for MRSA pneumonia with intravenous vancomycin 1 g twice daily. A trough level taken just before the fourth dose is reported as 8 mg/L (target 15-20 mg/L). His renal function is normal. What is the most appropriate next step?",
+      "options": [
+        "Repeat the trough level in 24 hours",
+        "Add a second anti-MRSA agent such as rifampicin",
+        "Switch to daptomycin",
+        "Check a peak vancomycin level",
+        "Increase the dose of vancomycin"
+      ],
+      "answerIndex": 4,
+      "explanation": "The trough is subtherapeutic for MRSA pneumonia (target 15-20). With normal renal function, the dose should be increased; adding another agent or switching is not indicated solely based on this trough.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6de2569e0d18",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with a prosthetic knee joint infection is on vancomycin 1 g IV twice daily. On day 7, her serum creatinine has risen from a baseline of 80 μmol/L to 150 μmol/L. She is passing adequate urine. What is the most appropriate next step?",
+      "options": [
+        "Reduce the vancomycin dose to 1 g once daily",
+        "Give a 500 mL intravenous fluid bolus",
+        "Check a vancomycin trough level",
+        "Request a renal ultrasound",
+        "Stop vancomycin immediately"
+      ],
+      "answerIndex": 2,
+      "explanation": "AKI on vancomycin requires assessment of drug levels to guide dosing/cessation. Immediate stopping is not always indicated without level data; fluid bolus is not first-line for vancomycin-induced AKI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2eae05050f01",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with MRSA bacteraemia is prescribed intravenous vancomycin. His medical record states \"vancomycin allergy – hives and pruritus\". What is the most appropriate next step?",
+      "options": [
+        "Prescribe daptomycin instead",
+        "Request an urgent allergy test",
+        "Refer to immunology for desensitisation",
+        "Administer a test dose of vancomycin",
+        "Administer vancomycin with chlorphenamine premedication"
+      ],
+      "answerIndex": 0,
+      "explanation": "A clear history of allergic reaction (hives) warrants avoidance. The appropriate next step is to use an alternative anti-MRSA agent such as daptomycin; premedication or test dose is not recommended for a previous allergic reaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4ca34ef4f2a5",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman is receiving her first dose of intravenous vancomycin for a MRSA infection. Five minutes into the infusion, she develops flushing, pruritus, and hypotension. What is the most appropriate immediate next step?",
+      "options": [
+        "Call the resuscitation team",
+        "Slow the infusion rate",
+        "Give intravenous chlorphenamine",
+        "Stop the infusion",
+        "Administer intravenous fluids"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is red man syndrome, an infusion-related reaction. The immediate action is to stop the infusion; then manage symptoms. Slowing is not appropriate during an acute reaction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "673ead377a52",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with MRSA pneumonia is started on intravenous vancomycin and gentamicin for synergistic effect. He has normal renal function. Which single investigation is most important to arrange as the next step?",
+      "options": [
+        "Request a vancomycin peak level",
+        "Perform an audiogram",
+        "Check serum creatinine daily",
+        "Measure urine output",
+        "Check vancomycin trough level and gentamicin levels"
+      ],
+      "answerIndex": 4,
+      "explanation": "With both nephrotoxic antibiotics, therapeutic drug monitoring for both is essential to ensure efficacy and avoid toxicity. While renal function is important, the immediate next step is to arrange TDM for both drugs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "62b6e1b959c5",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with cellulitis is started on intravenous vancomycin due to penicillin allergy. On day 3, routine bloods show he has a new creatinine of 150 µmol/L (baseline 80). His vancomycin trough is 12 mg/L. He has no rash, fever, or eosinophilia. Which finding is the most concerning red flag?",
+      "options": [
+        "Serum creatinine rising to 150 µmol/L",
+        "Temperature 38.2°C",
+        "White cell count 12 x10^9/L",
+        "Trough level 12 mg/L",
+        "Mild pruritic rash on trunk"
+      ],
+      "answerIndex": 0,
+      "explanation": "A rising creatinine despite a therapeutic trough is a red flag for vancomycin-induced acute kidney injury (AKI), which can progress to nephrotoxic AKI. The trough of 12 mg/L is within the target range (15-20 mg/L for serious infections) and is not immediately alarming, whereas the rising creatinine indicates evolving renal impairment that requires dose adjustment or holding of vancomycin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6449e92e9c50",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man on vancomycin for MRSA pneumonia develops sudden hypotension, wheeze, and urticaria during the third infusion. Which life-threatening condition must be excluded immediately?",
+      "options": [
+        "Myocardial infarction",
+        "Pulmonary embolism",
+        "Sepsis",
+        "Anaphylaxis",
+        "Red man syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anaphylaxis is a life-threatening emergency that must be distinguished from red man syndrome. Red man syndrome typically presents with flushing, pruritus, and rash but not wheeze or hypotension with urticaria; the presence of bronchospasm and urticaria is more suggestive of anaphylaxis, which requires immediate adrenaline. Sepsis, PE, and MI are less likely given the temporal relation to the infusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4000b369089a",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with chronic kidney disease (eGFR 25 mL/min) on vancomycin for a prosthetic joint infection reports tinnitus and difficulty hearing after 2 weeks of therapy. Which finding is an emergency red flag?",
+      "options": [
+        "Vancomycin trough 18 mg/L",
+        "Bilateral high-frequency hearing loss",
+        "Fever with rigors",
+        "Purpuric rash on legs",
+        "Eosinophilia (1.0 x10^9/L)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bilateral high-frequency hearing loss is an early sign of vancomycin-induced ototoxicity, which can be irreversible. A trough of 18 mg/L is near the target range (15-20 mg/L) and is not the most concerning finding. Eosinophilia, fever, or purpura may indicate other adverse reactions but are not as immediately critical as ototoxicity in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f464be56cd6e",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman on vancomycin for osteomyelitis develops fever, a generalised maculopapular rash, facial oedema, and eosinophilia (1.5 x10^9/L) after 3 weeks of therapy. Her liver enzymes are elevated. Which serious adverse reaction should be considered?",
+      "options": [
+        "Serum sickness",
+        "DRESS syndrome",
+        "Acute generalised exanthematous pustulosis",
+        "Red man syndrome",
+        "Stevens-Johnson syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) syndrome is a severe, life-threatening hypersensitivity reaction characterised by fever, rash, eosinophilia, and organ involvement (e.g., hepatitis). Stevens-Johnson syndrome typically involves blistering and mucosal detachment, not described here. Red man syndrome is acute and lacks eosinophilia or organ dysfunction. Serum sickness presents with arthralgias, myalgias, and fever but not eosinophilia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a7ea5523a2db",
+      "topic": "Vancomycin — Dosing & Monitoring",
+      "slug": "vancomycin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man on vancomycin for MRSA bacteraemia has a trough level checked. The clinical pharmacist advises that a level above a certain threshold requires immediate dose adjustment due to nephrotoxicity risk. Which trough level represents this red flag?",
+      "options": [
+        "10 mg/L",
+        "22 mg/L",
+        "15 mg/L",
+        "18 mg/L",
+        "20 mg/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A trough level >20 mg/L is associated with an increased risk of nephrotoxicity and requires dose adjustment or holding of vancomycin. Levels of 15-20 mg/L are therapeutic for most serious infections, while lower levels risk suboptimal efficacy. The value 22 mg/L is above the safe threshold and is a clear escalation trigger.",
+      "difficulty": "medium"
+    }
+  ]
+}

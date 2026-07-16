@@ -30,6 +30,7 @@ import {
   ShieldAlert,
   Menu,
   Loader2,
+  HelpCircle,
 } from 'lucide-react';
 
 import {
@@ -38,6 +39,9 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
+
+import TopicQuiz from '@/components/TopicQuiz';
+import SystemQuizView from '@/components/SystemQuizView';
 
 import {
   ACUITY_META,
@@ -48,6 +52,7 @@ import {
   type EntryMode,
   type SectionMeta,
   type Acuity,
+  type QuizManifestEntry,
 } from '@/lib/types';
 
 const ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -89,6 +94,7 @@ export default function Home() {
   const [mode, setMode] = useState<EntryMode>('WARD');
   const [activeSlug, setActiveSlug] = useState<string | null>(null);
   const [selectedSystem, setSelectedSystem] = useState<string | null>(null);
+  const [quizSystem, setQuizSystem] = useState<string | null>(null); // system-wide "Practice All" overlay
 
   // Mobile sheet state
   const [topicsSheetOpen, setTopicsSheetOpen] = useState(false);
@@ -97,6 +103,7 @@ export default function Home() {
   // ---- Runtime data loading ----
   const [topicList, setTopicList] = useState<TopicListItem[] | null>(null);
   const [manifestLoading, setManifestLoading] = useState(true);
+  const [quizManifest, setQuizManifest] = useState<QuizManifestEntry[]>([]);
   const [manifestError, setManifestError] = useState<string | null>(null);
 
   const [loadedBundle, setLoadedBundle] = useState<{ ward: ClinicalEntry; study: ClinicalEntry } | null>(null);
@@ -119,6 +126,12 @@ export default function Home() {
         setManifestError(err.message);
         setManifestLoading(false);
       });
+
+    // Quiz coverage is optional — if it fails to load, Quiz mode just stays hidden.
+    fetch('/data/questions-manifest.json')
+      .then(r => (r.ok ? r.json() : []))
+      .then((data: QuizManifestEntry[]) => setQuizManifest(data))
+      .catch(() => {});
   }, []);
 
   // 2. Fetch topic content when activeSlug changes
@@ -160,6 +173,23 @@ export default function Home() {
 
     return () => { cancelled = true; };
   }, [activeSlug]);
+
+  // 2b. Which topics/systems have a generated quiz (from questions-manifest.json)
+  const quizSlugSet = useMemo(() => new Set(quizManifest.map(m => m.slug)), [quizManifest]);
+  const quizCountBySystem = useMemo(() => {
+    return quizManifest.reduce((acc, m) => {
+      acc[m.system] = (acc[m.system] ?? 0) + m.count;
+      return acc;
+    }, {} as Record<string, number>);
+  }, [quizManifest]);
+
+  // 2c. Quiz mode only makes sense for topics with generated questions —
+  // fall back to Ward if the newly-selected topic doesn't have any.
+  useEffect(() => {
+    if (mode === 'QUIZ' && (!activeSlug || !quizSlugSet.has(activeSlug))) {
+      setMode('WARD');
+    }
+  }, [activeSlug, quizSlugSet, mode]);
 
   // 3. Derive data from topicList
   const topicsBySystem = useMemo(() => {
@@ -232,9 +262,14 @@ export default function Home() {
     setQuery('');
   };
 
+  const handlePracticeAllSystem = (system: string) => {
+    setQuizSystem(system);
+  };
+
   const handleLogoClick = () => {
     setActiveSlug(null);
     setSelectedSystem(null);
+    setQuizSystem(null);
   };
 
   const handleNotesChange = (val: string) => {
@@ -283,7 +318,9 @@ export default function Home() {
         isHome={!activeSlug && !selectedSystem}
       />
 
-      {!activeSlug && !selectedSystem ? (
+      {quizSystem ? (
+        <SystemQuizView system={quizSystem} onBack={() => setQuizSystem(null)} />
+      ) : !activeSlug && !selectedSystem ? (
         <Dashboard
           totalTopics={totalTopics}
           totalSystems={totalSystems}
@@ -301,6 +338,8 @@ export default function Home() {
           bookmarks={bookmarks}
           onSelectTopic={handleSelectTopic}
           onBack={() => setSelectedSystem(null)}
+          quizCount={quizCountBySystem[selectedSystem] ?? 0}
+          onPracticeAll={() => handlePracticeAllSystem(selectedSystem)}
         />
       ) : (
         <div className="flex-1 max-w-[1600px] mx-auto w-full px-3 sm:px-6 py-4 grid grid-cols-1 lg:grid-cols-[260px_1fr_320px] gap-4">
@@ -331,10 +370,15 @@ export default function Home() {
                   setMode={setMode}
                   bookmarked={bookmarked}
                   setBookmarked={handleBookmark}
+                  hasQuiz={!!activeSlug && quizSlugSet.has(activeSlug)}
                 />
-                <div className="flex-1 overflow-y-auto custom-scroll px-4 sm:px-8 py-5 sm:py-6">
-                  <EntryBody entry={entry} sectionMeta={sectionMeta} />
-                </div>
+                {mode === 'QUIZ' && activeSlug ? (
+                  <TopicQuiz slug={activeSlug} />
+                ) : (
+                  <div className="flex-1 overflow-y-auto custom-scroll px-4 sm:px-8 py-5 sm:py-6">
+                    <EntryBody entry={entry} sectionMeta={sectionMeta} />
+                  </div>
+                )}
               </>
             ) : (
               <div className="flex-1 flex items-center justify-center text-sm text-slate-400">
@@ -509,12 +553,16 @@ function SystemDashboard({
   bookmarks,
   onSelectTopic,
   onBack,
+  quizCount,
+  onPracticeAll,
 }: {
   system: string;
   topics: TopicListItem[];
   bookmarks: Record<string, boolean>;
   onSelectTopic: (slug: string) => void;
   onBack: () => void;
+  quizCount: number;
+  onPracticeAll: () => void;
 }) {
   return (
     <div className="flex-1 max-w-[900px] mx-auto w-full px-4 sm:px-6 py-6 sm:py-8">
@@ -526,7 +574,18 @@ function SystemDashboard({
         <ChevronRight className="w-4 h-4 rotate-180" />
         All Systems
       </button>
-      <h1 className="text-xl sm:text-2xl font-bold text-slate-900 mb-1">{system}</h1>
+      <div className="flex items-start justify-between gap-3 flex-wrap mb-1">
+        <h1 className="text-xl sm:text-2xl font-bold text-slate-900">{system}</h1>
+        {quizCount > 0 && (
+          <button
+            onClick={onPracticeAll}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3.5 py-2 text-xs font-medium text-white transition-opacity hover:opacity-90"
+          >
+            <HelpCircle className="w-3.5 h-3.5" />
+            Practice All ({quizCount})
+          </button>
+        )}
+      </div>
       <p className="text-sm text-slate-500 mb-6">
         {topics.length} {topics.length === 1 ? 'topic' : 'topics'}
       </p>
@@ -807,12 +866,14 @@ function EntryHeader({
   setMode,
   bookmarked,
   setBookmarked,
+  hasQuiz,
 }: {
   entry: ClinicalEntry;
   mode: EntryMode;
   setMode: (m: EntryMode) => void;
   bookmarked: boolean;
   setBookmarked: () => void;
+  hasQuiz: boolean;
 }) {
   const acuity = ACUITY_META[entry.acuity];
   return (
@@ -854,13 +915,21 @@ function EntryHeader({
       </div>
 
       <div className="mt-4 flex items-center gap-2">
-        <ModeToggle mode={mode} setMode={setMode} />
+        <ModeToggle mode={mode} setMode={setMode} hasQuiz={hasQuiz} />
       </div>
     </div>
   );
 }
 
-function ModeToggle({ mode, setMode }: { mode: EntryMode; setMode: (m: EntryMode) => void }) {
+function ModeToggle({
+  mode,
+  setMode,
+  hasQuiz,
+}: {
+  mode: EntryMode;
+  setMode: (m: EntryMode) => void;
+  hasQuiz: boolean;
+}) {
   return (
     <div className="inline-flex p-0.5 rounded-md bg-slate-100 border border-slate-200 text-xs font-medium w-full sm:w-auto">
       <button
@@ -887,6 +956,20 @@ function ModeToggle({ mode, setMode }: { mode: EntryMode; setMode: (m: EntryMode
         <span>Study</span>
         <span className="hidden sm:inline text-[10px] text-slate-400 font-normal">· deep</span>
       </button>
+      {hasQuiz && (
+        <button
+          onClick={() => setMode('QUIZ')}
+          className={`flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-sm transition-colors flex-1 sm:flex-initial ${
+            mode === 'QUIZ'
+              ? 'bg-white text-slate-900 shadow-sm'
+              : 'text-slate-500 hover:text-slate-700'
+          }`}
+        >
+          <HelpCircle className="w-3.5 h-3.5" />
+          <span>Quiz</span>
+          <span className="hidden sm:inline text-[10px] text-slate-400 font-normal">· practice</span>
+        </button>
+      )}
     </div>
   );
 }

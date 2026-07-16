@@ -1,0 +1,513 @@
+{
+  "topic": "Gentamicin — Dosing & Monitoring",
+  "slug": "gentamicin-—-dosing-&-monitoring",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:25Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "baaad7c5ad41",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman is admitted with a urinary tract infection and started on once-daily gentamicin. She has no history of renal disease. On day 5, her urine output drops to 400 mL/day and serum creatinine rises from 70 to 200 µmol/L. She remains normotensive and her sepsis is improving. Urine dipstick shows no blood or protein; urinary sodium is 15 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis due to sepsis",
+        "Prerenal acute kidney injury",
+        "Acute glomerulonephritis",
+        "Acute interstitial nephritis",
+        "Gentamicin-induced acute kidney injury"
+      ],
+      "answerIndex": 4,
+      "explanation": "The scenario points to gentamicin nephrotoxicity: onset after 5 days of therapy, non-oliguric (but here oliguric), with a low urinary sodium (<20 mmol/L) characteristic of gentamicin's vasoconstrictive effect, differentiating it from ATN (fractional excretion of sodium >2%) or prerenal (which would respond to fluids).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "84421e47dad4",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with type 2 diabetes and a diabetic foot ulcer is treated with once-daily gentamicin and clindamycin. After 7 days, he complains of tinnitus and a sensation of 'blocked ears'. He has no vertigo. Audiometry shows bilateral high-frequency sensorineural hearing loss. What is the single most likely diagnosis?",
+      "options": [
+        "Gentamicin ototoxicity",
+        "Acoustic neuroma",
+        "Ménière's disease",
+        "Presbycusis",
+        "Otosclerosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gentamicin is known to cause permanent bilateral high-frequency hearing loss, especially with prolonged courses or high troughs. The acute onset during therapy, bilateral nature, and high-frequency loss distinguish it from the other options, which are typically unilateral or progressive unrelated to drug exposure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7c28aec365f0",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with infective endocarditis is receiving intravenous gentamicin and vancomycin. On day 4, she develops acute vertigo, nausea, vomiting, and horizontal nystagmus. She has no hearing loss. Head CT is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Cerebellar haemorrhage",
+        "Benign paroxysmal positional vertigo",
+        "Vestibular schwannoma",
+        "Gentamicin vestibulotoxicity",
+        "Labyrinthitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gentamicin preferentially affects the vestibular apparatus, causing acute vertigo with nystagmus without hearing loss (vestibular-sparing ototoxicity). The temporal association with gentamicin therapy and absence of other focal signs make it more likely than the other differentials.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7f7a86debe90",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with chronic kidney disease stage 3 (baseline eGFR 45 mL/min) is treated with gentamicin for a Pseudomonas aeruginosa urinary tract infection. On day 3, she develops severe muscle weakness and tetany. Blood tests show: corrected calcium 1.9 mmol/L, magnesium 0.4 mmol/L, potassium 2.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperparathyroidism",
+        "Fanconi syndrome due to gentamicin",
+        "Tumour lysis syndrome",
+        "Gentamicin-induced hypomagnesaemia",
+        "Acute interstitial nephritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gentamicin can cause renal magnesium wasting leading to hypomagnesaemia with secondary hypocalcaemia and hypokalaemia. This is a well-known complication, especially in patients with pre-existing renal impairment. The triad of low Mg, Ca, and K in a patient on gentamicin is classic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e2386acf23dd",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old man with cystic fibrosis and chronic Pseudomonas infection is on his fourth course of gentamicin this year (each course 14 days, once-daily dosing). He now has a serum creatinine of 150 µmol/L (baseline 80) and complains of 'ringing' in his ears. Audiometry shows mild high-frequency hearing loss. What is the single most likely diagnosis?",
+      "options": [
+        "Drug fever with tinnitus",
+        "Cystic fibrosis-related renal disease",
+        "Acute on chronic kidney disease due to sepsis",
+        "Aminoglycoside resistance",
+        "Accumulated gentamicin toxicity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Repeated courses of gentamicin can lead to cumulative nephrotoxicity and ototoxicity. The patient has both rising creatinine and hearing loss without other causes, making accumulated toxicity the most likely diagnosis. This is a common scenario in CF patients requiring frequent aminoglycosides.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f67f10be453d",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman is admitted with a urinary tract infection and started on once-daily intravenous gentamicin. Her baseline creatinine is 70 µmol/L. What is the most appropriate single investigation before the second dose?",
+      "options": [
+        "Urine output measurement",
+        "Serum peak gentamicin level",
+        "Serum creatinine",
+        "Serum trough gentamicin level",
+        "Audiometry"
+      ],
+      "answerIndex": 2,
+      "explanation": "For once-daily gentamicin, baseline renal function (serum creatinine) is essential before subsequent doses to guide dosing interval and detect early nephrotoxicity. Trough levels are not routinely needed before the second dose in a short course, and audiometry is reserved for prolonged therapy or symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1b4646fe4216",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with prosthetic valve endocarditis is on a multiple-daily dosing regimen of gentamicin and a beta-lactam. Which single investigation is most appropriate to ensure therapeutic levels are achieved?",
+      "options": [
+        "Serum trough gentamicin level",
+        "Echocardiography",
+        "Serum peak gentamicin level",
+        "Audiometry",
+        "Serum creatinine"
+      ],
+      "answerIndex": 2,
+      "explanation": "In multiple-daily dosing (traditional dosing), peak gentamicin levels correlate with efficacy and are monitored to ensure adequate concentrations for bacterial killing. Trough levels are more relevant for toxicity monitoring. Serum creatinine checks renal function but does not assure therapeutic levels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9dc41229db96",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with sepsis is on once-daily gentamicin. On day 3, his serum creatinine has risen from 80 to 150 µmol/L. What is the best next investigation to assess for gentamicin-induced nephrotoxicity?",
+      "options": [
+        "Serum trough gentamicin level",
+        "Urine output monitoring",
+        "Serum peak gentamicin level",
+        "Urine eosinophils",
+        "Renal ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "A high trough gentamicin level (>1 mg/L for once-daily dosing) confirms accumulation and increases the risk of nephrotoxicity. While creatinine rise suggests injury, trough level helps determine if supratherapeutic drug exposure is the cause. Renal ultrasound is useful for obstruction but not for drug toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8420e3dce16d",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman on a 5-day course of gentamicin for a pelvic infection develops new bilateral high-frequency hearing loss and vertigo. Which investigation best confirms gentamicin-induced ototoxicity?",
+      "options": [
+        "Caloric vestibular testing",
+        "MRI of the internal auditory meatus",
+        "Pure-tone audiometry",
+        "CT scan of the temporal bones",
+        "Serum trough gentamicin level"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pure-tone audiometry objectively quantifies sensorineural hearing loss, typically starting at high frequencies, which is characteristic of aminoglycoside ototoxicity. Vestibular testing may be abnormal but audiometry is the more accessible and specific test for cochlear toxicity. Imaging would rule out other causes but is not diagnostic of drug toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c869ba729771",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old man with chronic kidney disease (eGFR 25 mL/min) is on once-daily gentamicin for a severe infection. A pre-dose (trough) level taken 18 hours after the last dose is 2.5 mg/L. What is the correct interpretation of this result?",
+      "options": [
+        "Indeterminate due to sampling time error",
+        "Toxic; dose interval should be extended",
+        "Therapeutic; no dose adjustment needed",
+        "Subtherapeutic; dose should be increased",
+        "Therapeutic; but requires more frequent monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "For once-daily gentamicin, the target trough level is <1 mg/L (or <0.5 mg/L in some protocols). A level of 2.5 mg/L indicates drug accumulation and increased risk of nephrotoxicity, so the dose interval should be extended (e.g., from 24 to 48 hours) rather than dose reduction. Sampling at 18 hours is appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "547f335bd4f9",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with septic shock (source unknown) is started on empiric piperacillin/tazobactam and gentamicin. His weight is 70 kg, eGFR >90. What is the most appropriate initial dosing regimen for gentamicin?",
+      "options": [
+        "15 mg/kg once daily",
+        "3 mg/kg every 8 hours",
+        "7 mg/kg once daily",
+        "5 mg/kg once daily",
+        "1 mg/kg every 12 hours"
+      ],
+      "answerIndex": 2,
+      "explanation": "For severe sepsis, once-daily high-dose gentamicin (7 mg/kg) is recommended to achieve adequate peak levels, while once-daily dosing reduces toxicity. Traditional thrice-daily dosing is no longer first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6d35cb7d4156",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with a hospital-acquired urinary tract infection and eGFR 25 mL/min is prescribed gentamicin. Which of the following is the most appropriate management?",
+      "options": [
+        "Gentamicin 5 mg/kg once daily with peak monitoring",
+        "Ceftriaxone alone",
+        "Gentamicin 3 mg/kg once daily with trough monitoring",
+        "Co-amoxiclav alone",
+        "Gentamicin 1 mg/kg every 12 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gentamicin is nephrotoxic and should be avoided in significant renal impairment (eGFR <30) if alternatives exist. Ceftriaxone is a safe and effective alternative for a hospital-acquired UTI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ba1090e526fe",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with infective endocarditis due to Streptococcus mitis is being treated with benzylpenicillin and gentamicin for synergy. He has normal renal function. What is the appropriate gentamicin dosing regimen?",
+      "options": [
+        "1 mg/kg once daily",
+        "5 mg/kg once daily",
+        "1 mg/kg three times daily",
+        "3 mg/kg once daily",
+        "7 mg/kg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For synergy in streptococcal endocarditis, gentamicin is given at low doses (1 mg/kg) three times daily to minimise toxicity while achieving synergy. Once-daily high-dose regimens are for Gram-negative infections.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "256ab8fd9678",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with cystic fibrosis (actual weight 100 kg, ideal weight 55 kg) and a Pseudomonas respiratory exacerbation is started on gentamicin. What weight should be used for dosing?",
+      "options": [
+        "A fixed dose of 80 mg",
+        "Adjusted body weight (IBW + 0.4 × (actual - IBW))",
+        "Actual body weight",
+        "A fixed dose of 160 mg",
+        "Ideal body weight"
+      ],
+      "answerIndex": 1,
+      "explanation": "In obese patients, using actual body weight risks overdosing; adjusted body weight (IBW + 0.4 × (actual - IBW)) is recommended to maintain therapeutic levels without toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d17b9878314",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man on gentamicin for Gram-negative bacteraemia develops acute kidney injury (creatinine rise from 80 to 160 µmol/L) after 3 days. His current gentamicin trough level is 4 mg/L. What is the most appropriate next step?",
+      "options": [
+        "Increase interval to every 36 hours",
+        "Reduce dose",
+        "Continue same dose",
+        "Discontinue gentamicin and switch to an alternative",
+        "Check peak level"
+      ],
+      "answerIndex": 3,
+      "explanation": "A trough level >2 mg/L with AKI indicates nephrotoxicity. The drug should be stopped and a safer alternative (e.g., a third-generation cephalosporin or carbapenem) used.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "78eb99dd2267",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with hospital-acquired pneumonia is on IV gentamicin (once-daily) and piperacillin-tazobactam. On day 3, his serum creatinine has risen from 80 to 200 µmol/L and urine output is 200 ml in the last 12 hours. He is normotensive and afebrile. What is the most appropriate immediate action?",
+      "options": [
+        "Give a fluid challenge",
+        "Check gentamicin trough level",
+        "Stop gentamicin",
+        "Start renal replacement therapy",
+        "Request a renal ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rapid rise in creatinine and oliguria indicate acute kidney injury, likely gentamicin-induced. Immediate discontinuation is crucial to prevent further damage; checking levels or other investigations can follow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eff33f4f3af4",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with Enterococcus faecalis endocarditis is on gentamicin (1 mg/kg IV TDS) and amoxicillin. On day 7, she reports new tinnitus and a sensation of the room spinning. What is the most appropriate immediate next step?",
+      "options": [
+        "Add a vestibular sedative",
+        "Reduce gentamicin dose to 0.5 mg/kg",
+        "Check gentamicin trough level",
+        "Arrange audiometry",
+        "Stop gentamicin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tinnitus and vertigo suggest ototoxicity. The drug should be stopped immediately to prevent permanent damage; checking levels or arranging tests can follow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "519d1746bc77",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old obese woman (BMI 38) with severe pyelonephritis is prescribed gentamicin at a dose of 5 mg/kg based on her actual body weight (100 kg). Her eGFR is 85 mL/min. As the FY1 checking the prescription prior to administration, what is the most appropriate immediate action?",
+      "options": [
+        "Reduce the dose by 50%",
+        "Administer the prescribed dose",
+        "Request a gentamicin level after the first dose",
+        "Calculate dose using ideal body weight",
+        "Discuss with the microbiology registrar"
+      ],
+      "answerIndex": 3,
+      "explanation": "In obesity, actual body weight can lead to overdosing. BNF recommends using ideal body weight (or adjusted body weight) for gentamicin dosing. The immediate step is to recalculate the correct dose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "22a0f849b8a6",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with sepsis is started on once-daily gentamicin (5 mg/kg). His baseline eGFR is 45 mL/min. The first dose has been given. Just before the second dose is due, you are asked to review. Which of the following is the most appropriate immediate action?",
+      "options": [
+        "Switch to a different antibiotic",
+        "Administer the second dose as prescribed",
+        "Increase the dosing interval to 36 hours",
+        "Repeat the eGFR",
+        "Check a gentamicin trough level"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with eGFR <60, the first trough level should be measured before the second dose to guide subsequent dosing and avoid accumulation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18f6efa397a0",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with sepsis on once-daily gentamicin has a trough level of 2.2 mg/L taken just before her second dose. Her eGFR is 50. What is the most appropriate immediate next step?",
+      "options": [
+        "Reduce the dose by half",
+        "Increase the dosing interval to every 48 hours",
+        "Give the second dose as planned",
+        "Switch to an alternative antibiotic",
+        "Hold the dose and recheck trough after 12 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "A trough >1 mg/L with once-daily dosing indicates accumulation. The guideline is to withhold the dose until the trough is <1 mg/L, then extend the interval. Immediate action is to hold the dose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a61ba9e7dcfb",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with normal renal function is started on once-daily gentamicin for sepsis. A routine pre-dose (trough) level after the third dose is 2.8 mg/L. Which finding indicates an urgent need for dose adjustment?",
+      "options": [
+        "Trough level >1 mg/L",
+        "Peak level >20 mg/L",
+        "Presence of mild tinnitus",
+        "Rise in creatinine by 20%",
+        "Trough level >10 mg/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "In once-daily dosing, a trough level >1 mg/L indicates accumulation and increased risk of nephrotoxicity and ototoxicity. This finding necessitates immediate dose adjustment or drug cessation. The other options are either less specific (creatinine rise of 20%) or not directly indicative of toxicity (peak level >20 mg/L is typically considered safe if trough is low).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13523fe09a38",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman on gentamicin for a complicated urinary tract infection reports new dizziness and imbalance. On examination, she has nystagmus. Which finding is most indicative of a serious complication?",
+      "options": [
+        "Nystagmus",
+        "Ataxia",
+        "Tinnitus",
+        "Vertigo",
+        "Bilateral hearing loss"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nystagmus is a clinical sign of vestibular toxicity due to gentamicin. Vestibular damage is often irreversible and can lead to significant disability. While tinnitus and hearing loss indicate cochlear toxicity, nystagmus points to acute vestibular involvement, which is a red flag requiring immediate drug discontinuation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8407062040dd",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man on gentamicin for infective endocarditis has a baseline serum creatinine of 80 μmol/L. After 48 hours, his creatinine is 150 μmol/L. Which finding is most concerning for acute kidney injury?",
+      "options": [
+        "Hyperkalaemia of 5.5 mmol/L",
+        "Serum gentamicin peak level of 15 mg/L",
+        "Normal saline fluid challenge does not improve urine output",
+        "Rise in creatinine >50% from baseline",
+        "Oliguria (urine output <0.5 mL/kg/h for 6 hours)"
+      ],
+      "answerIndex": 3,
+      "explanation": "A >50% rise in serum creatinine from baseline is the defining criterion for AKI (Stage 1) and is a clear red flag for gentamicin nephrotoxicity. Oliguria is also concerning but may be masked by fluid resuscitation. The other options are either less specific or represent later sequelae.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c0f6615de4b",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with myasthenia gravis is started on gentamicin for a severe soft tissue infection. She develops new dysphagia and nasal regurgitation. Which finding suggests impending respiratory failure?",
+      "options": [
+        "Inability to cough effectively",
+        "Diplopia",
+        "Oxygen saturation of 90% on room air",
+        "Ptosis",
+        "Dysarthria"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oxygen saturation <92% on room air indicates respiratory muscle weakness and is a sign of impending myasthenic crisis. While bulbar symptoms (dysphagia, nasal regurgitation) are early warnings, falling oxygen saturation is the immediate red flag for ventilatory failure. Gentamicin can exacerbate myasthenia due to its neuromuscular blocking effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e6e7960bf1a1",
+      "topic": "Gentamicin — Dosing & Monitoring",
+      "slug": "gentamicin-—-dosing-&-monitoring",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man on a 14-day course of gentamicin for osteomyelitis develops tinnitus and bilateral high-frequency hearing loss. Which finding is most indicative of irreversible cochlear damage?",
+      "options": [
+        "A sensation of ear fullness",
+        "Vertigo and nystagmus",
+        "Tinnitus alone without hearing loss",
+        "High-frequency hearing loss on audiometry",
+        "Low-frequency hearing loss"
+      ],
+      "answerIndex": 3,
+      "explanation": "High-frequency hearing loss is the hallmark of gentamicin ototoxicity and is often irreversible. Tinnitus may precede hearing loss but is not diagnostic of permanent damage. Vestibular symptoms (vertigo, nystagmus) indicate a different toxicity pathway. Audiometry confirms cochlear impairment.",
+      "difficulty": "medium"
+    }
+  ]
+}

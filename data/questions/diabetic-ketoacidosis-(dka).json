@@ -1,0 +1,513 @@
+{
+  "topic": "Diabetic Ketoacidosis (DKA)",
+  "slug": "diabetic-ketoacidosis-(dka)",
+  "system": "Endocrinology",
+  "subSystem": "Diabetes emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:09Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5f204e462fcb",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old female with known type 1 diabetes mellitus presents to ED with polyuria, polydipsia, and weight loss over 3 days. She appears dehydrated, and her breath smells of acetone. Capillary blood glucose is 28 mmol/L, and urine dipstick shows 3+ ketones. What is the single most likely diagnosis?",
+      "options": [
+        "Alcoholic ketoacidosis",
+        "Starvation ketosis",
+        "Hyperosmolar hyperglycaemic state",
+        "Lactic acidosis",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The classic triad of hyperglycaemia, ketosis, and acidosis in a type 1 diabetic patient with dehydration and acetone breath makes DKA the clear diagnosis. HHS typically has >30 mmol/L glucose but minimal ketones; lactic acidosis lacks hyperglycaemia; starvation and alcoholic ketoacidosis usually have lower glucose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "02a284694dd3",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old male with type 1 diabetes mellitus on insulin pump presents with a 24-hour history of vomiting and abdominal pain. He has been unable to eat and has not taken any insulin for 12 hours due to pump failure. On examination, he has dry mucous membranes, tachycardia, and epigastric tenderness. Capillary blood glucose is 16 mmol/L, and serum ketones are 4.1 mmol/L (normal <0.6). What is the single most likely diagnosis?",
+      "options": [
+        "Gastroparesis",
+        "Gastroenteritis",
+        "Acute pancreatitis",
+        "Mesenteric ischaemia",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Although abdominal pain and vomiting can mimic pancreatitis, the history of insulin omission, positive ketones, and acidosis (implied by ketones) point to DKA. Pancreatitis would show lipase >3x upper limit, and gastroenteritis would not cause ketosis of this magnitude.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "45c3eec52046",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old male with type 2 diabetes mellitus on metformin and dapagliflozin presents to ED with confusion and tachypnoea. He has no significant vomiting. Capillary blood glucose is 9.5 mmol/L. Arterial blood gas shows pH 7.18, pCO2 1.8 kPa, HCO3 8 mmol/L, and lactate 2.0 mmol/L. Urine dipstick shows 2+ ketones. What is the single most likely diagnosis?",
+      "options": [
+        "Renal tubular acidosis",
+        "Euglycaemic diabetic ketoacidosis",
+        "Lactic acidosis due to metformin",
+        "Hyperosmolar hyperglycaemic state",
+        "Starvation ketosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "SGLT2 inhibitors (like dapagliflozin) can cause euglycaemic DKA with near-normal glucose but significant ketosis and acidosis. Metformin-associated lactic acidosis is much rarer and typically has higher lactate; HHS requires hyperglycaemia >30; starvation ketosis is mild; RTA would have normal anion gap typically.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a86abf36821f",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with type 2 diabetes mellitus presents to ED with progressive confusion and polyuria over one week. She is severely dehydrated, with a Glasgow Coma Scale of 13. Capillary blood glucose is 54 mmol/L. Urine dipstick shows trace ketones. Serum osmolality is 350 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperosmolar hyperglycaemic state",
+        "Diabetic ketoacidosis",
+        "Hypoglycaemia",
+        "Stroke",
+        "Urosepsis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Extremely high glucose (>30), high osmolality, minimal ketones, and gradual onset in an elderly patient with type 2 diabetes are classic for HHS. DKA would have significant ketones and acidosis; hypoglycaemia is opposite; stroke and urosepsis may coexist but diagnosis is HHS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d0223216f5c",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 24-year-old female with type 1 diabetes mellitus presents to ED with acute-onset shortness of breath and drowsiness. She has a history of asthma but has not used her inhaler recently. On examination, she is tachypnoeic and has a fruity odour to her breath. Peak expiratory flow rate is normal. Capillary blood glucose is 20 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Acute asthma exacerbation",
+        "Diabetic ketoacidosis",
+        "Panic attack",
+        "Pneumothorax"
+      ],
+      "answerIndex": 2,
+      "explanation": "The normal PEFR makes asthma unlikely; the fruity breath, hyperglycaemia, and acidosis (implied by tachypnoea) point to DKA. Other mimics like pneumothorax or PE would have other features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1374c8045ff",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman with known type 1 diabetes mellitus presents to the emergency department with a two-day history of vomiting, abdominal pain, and polyuria. On examination, she is drowsy, has Kussmaul breathing, and a fruity odour on her breath. Capillary blood glucose is 28 mmol/L. Which single investigation is most appropriate to confirm the diagnosis of diabetic ketoacidosis?",
+      "options": [
+        "Urine dipstick for ketones",
+        "Serum beta-hydroxybutyrate",
+        "Full blood count",
+        "Serum lactate",
+        "Arterial blood gas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Serum beta-hydroxybutyrate (or capillary blood ketones) is the definitive test to confirm ketonaemia, which along with hyperglycaemia and acidosis defines DKA. Urine ketones can be falsely negative for beta-hydroxybutyrate in severe DKA. Arterial blood gas confirms acidosis but not ketosis directly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "748fc11985b0",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with type 2 diabetes on metformin and insulin presents with confusion, polyuria, and polydipsia. Capillary blood glucose is 38 mmol/L. Urine dipstick shows moderate ketones. Arterial blood gas: pH 7.32, bicarbonate 18 mmol/L, pCO2 30 mmHg, Na 140 mmol/L, K 4.5 mmol/L, Cl 100 mmol/L. Which single investigation would best differentiate diabetic ketoacidosis from hyperosmolar hyperglycaemic state?",
+      "options": [
+        "Glycated haemoglobin",
+        "Serum ketone concentration",
+        "C-peptide",
+        "Serum lactate",
+        "Serum osmolality"
+      ],
+      "answerIndex": 4,
+      "explanation": "Serum osmolality is the key discriminator: in HHS it is typically >320 mOsm/kg, while in DKA it is often lower (<320). Both can have hyperglycaemia and some ketones, but the predominant feature in HHS is hyperosmolality without significant ketosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "599f946afc13",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with type 1 diabetes is found collapsed at home. Arterial blood gas reveals: pH 7.25, bicarbonate 12 mmol/L, pCO2 25 mmHg, Na 135 mmol/L, K 5.0 mmol/L, Cl 95 mmol/L. What is the most appropriate interpretation of this blood gas?",
+      "options": [
+        "Normal anion gap metabolic acidosis",
+        "High anion gap metabolic acidosis with partial compensation",
+        "Mixed metabolic acidosis and respiratory alkalosis",
+        "Mixed metabolic acidosis and metabolic alkalosis",
+        "High anion gap metabolic acidosis with appropriate respiratory compensation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The anion gap is (135 - (95+12)) = 28, indicating high anion gap metabolic acidosis. Winter's formula predicts appropriate pCO2 = (1.5 x 12) + 8 = 26 mmHg; the actual pCO2 is 25, which is within 2 mmHg, indicating appropriate compensation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4d5020decd83",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with type 1 diabetes presents with nausea and malaise. Capillary blood glucose is 22 mmol/L. Urine dipstick shows ketones 3+. Arterial blood gas: pH 7.38, bicarbonate 20 mmol/L, pCO2 36 mmHg. Which diagnostic criterion for diabetic ketoacidosis is missing?",
+      "options": [
+        "Metabolic acidosis (pH <7.3 or bicarbonate <15)",
+        "Ketonaemia",
+        "Increased anion gap >12",
+        "Hyperosmolality >320 mOsm/kg",
+        "Hyperglycaemia >11 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has hyperglycaemia and ketonuria but does not have metabolic acidosis (pH and bicarbonate are normal). DKA requires both hyperglycaemia, ketonaemia, and metabolic acidosis. Without acidosis, this is not DKA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "decb13a70953",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with type 2 diabetes on metformin and gliclazide presents with vomiting, confusion, and tachypnoea. Capillary blood glucose is 28 mmol/L, capillary blood ketones 3.0 mmol/L, blood gas: pH 7.30, bicarbonate 14 mmol/L, lactate 5.5 mmol/L. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Serum ketone concentration",
+        "Full blood count",
+        "Serum metformin level",
+        "Serum osmolality",
+        "C-reactive protein"
+      ],
+      "answerIndex": 2,
+      "explanation": "Given her age, metformin use, and elevated lactate, metformin-associated lactic acidosis (MALA) is a strong differential. A serum metformin level can confirm toxicity. While DKA is possible, the lactate elevation and pH hint at mixed picture; metformin level is the key.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5b0cc3d22014",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old man with new-onset type 1 diabetes presents with severe DKA (pH 6.9, ketones 6 mmol/L). Initial fluid resuscitation with 1 litre of 0.9% sodium chloride has been given. What is the most appropriate insulin regimen to start?",
+      "options": [
+        "Subcutaneous insulin aspart sliding scale",
+        "Fixed-rate intravenous insulin infusion (FRIII) at 0.1 units/kg/hour",
+        "Variable-rate intravenous insulin infusion (VRIII)",
+        "Intravenous bolus of 10 units soluble insulin",
+        "Subcutaneous insulin glargine 20 units once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "FRIII at 0.1 units/kg/hour is first-line for DKA per NICE guidelines. VRIII is for hyperglycaemia not DKA; bolus insulin is not recommended; subcutaneous routes are ineffective in acute DKA due to poor absorption.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1f8ad0ebb7e1",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with DKA (pH 7.1, ketones 5 mmol/L) has serum potassium of 3.0 mmol/L. Intravenous fluids are running. What is the most appropriate next step in management?",
+      "options": [
+        "Give intravenous potassium chloride until K+ > 3.3 mmol/L, then start FRIII",
+        "Give intravenous dextrose and start FRIII",
+        "Start FRIII and simultaneously give intravenous potassium",
+        "Give intravenous sodium bicarbonate",
+        "Start FRIII immediately"
+      ],
+      "answerIndex": 0,
+      "explanation": "In DKA with hypokalaemia (K+ < 3.3), insulin must be withheld until potassium is corrected because insulin drives K+ into cells and can worsen hypokalaemia. Potassium replacement IV is given first, then insulin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4a4c7cd7ec3",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 16-year-old boy with DKA deteriorates after starting treatment: GCS drops from 15 to 12, with unequal pupils. Which is the most appropriate treatment for the suspected complication?",
+      "options": [
+        "Intravenous sodium bicarbonate",
+        "Intravenous dexamethasone",
+        "Intravenous mannitol",
+        "Intravenous hypertonic saline (3% NaCl)",
+        "Intravenous frusemide"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cerebral oedema is a rare but life-threatening complication of DKA, particularly in children. Mannitol is first-line for reducing intracranial pressure; hypertonic saline is second-line; steroids and frusemide are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67dedd9d7018",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with type 2 diabetes on empagliflozin presents with nausea, vomiting, and abdominal pain. Capillary glucose is 10.5 mmol/L, venous pH 7.2, ketones 4 mmol/L. What is the most appropriate treatment?",
+      "options": [
+        "Stop empagliflozin and give oral carbohydrates",
+        "Give intravenous sodium bicarbonate",
+        "Give intramuscular glucagon",
+        "Stop empagliflozin and start intravenous insulin infusion",
+        "Continue empagliflozin and add subcutaneous rapid-acting insulin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Euglycaemic DKA caused by SGLT2 inhibitors requires stopping the drug and giving intravenous insulin to suppress ketosis. Oral carbohydrates alone will not stop ketogenesis. Insulin is essential; bicarbonate is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec1b8f4742f5",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man with type 1 diabetes is recovering from DKA. His pH is 7.38, ketones negative, and he is tolerating oral fluids. He usually takes insulin glargine and insulin aspart. Which insulin regimen should be started for transition?",
+      "options": [
+        "Subcutaneous NPH insulin (e.g., isophane insulin)",
+        "Subcutaneous long-acting insulin analogue (e.g., insulin glargine)",
+        "Continue the intravenous insulin infusion only",
+        "Start an oral sulphonylurea",
+        "Subcutaneous insulin aspart alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "When transitioning from IV to subcutaneous insulin, a long-acting analogue should be given 1–2 hours before stopping the IV infusion to prevent rebound hyperglycaemia. NPH is less preferred; prandial insulin alone is insufficient; oral agents are not for type 1 diabetes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9788501d3b3",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with no known medical history presents to the Emergency Department with a 2-day history of polyuria, polydipsia, nausea, and vomiting. On examination, she looks unwell, has dry mucous membranes, and a fruity breath odor. Observations: HR 112 bpm, BP 90/60 mmHg, RR 24 breaths/min, oxygen saturation 98% on air, temperature 37.1°C. Capillary blood glucose is 23 mmol/L, urine ketones 3+. Venous blood gas shows pH 7.18, bicarbonate 10 mmol/L, and glucose 25 mmol/L. What is the single most appropriate immediate next step in management?",
+      "options": [
+        "Commence fixed-rate intravenous insulin infusion at 0.1 units/kg/hour",
+        "Administer intravenous 10% dextrose if blood glucose drops below 14 mmol/L",
+        "Arrange a CT scan of the head to rule out cerebral oedema",
+        "Give an intravenous fluid bolus of 0.9% sodium chloride 1000 mL over 15-30 minutes",
+        "Start an intravenous infusion of 10% potassium chloride at 40 mmol over 2 hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "In DKA with hypotension and tachycardia, hypovolaemic shock is the immediate threat. NICE guidelines recommend giving a fluid bolus (e.g., 500-1000 mL) first to restore circulatory volume before starting insulin, as insulin can cause a shift of potassium and fluid without adequate volume resuscitation. The most tempting distractor is starting insulin immediately, but fluid resuscitation is prioritised in the shocked patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "725624484912",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with type 2 diabetes on metformin and gliclazide presents with a 3-day history of vomiting and confusion. He is febrile (38.5°C), tachycardic (HR 105 bpm), and normotensive (BP 120/70 mmHg). Capillary blood glucose is 28 mmol/L, urine ketones are large. Venous gas: pH 7.24, bicarbonate 14 mmol/L, glucose 26 mmol/L, sodium 136 mmol/L, potassium 4.5 mmol/L. He has a productive cough; chest X-ray shows right lower lobe consolidation. After starting IV fluids and fixed-rate insulin, which of the following is the single most appropriate next step in managing his DKA?",
+      "options": [
+        "Arrange for a CT scan of the abdomen to rule out pancreatitis",
+        "Commence intravenous antibiotics for community-acquired pneumonia",
+        "Switch to subcutaneous insulin when ketones are <0.3 mmol/L",
+        "Monitor serum potassium every 2 hours",
+        "Add 10% dextrose when blood glucose reaches 14 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has concurrent sepsis (pneumonia) and DKA. While all options are important in DKA management, the immediate next step after initiating DKA treatment is to treat the precipitating cause. Sepsis must be treated with antibiotics urgently to resolve the DKA. The most tempting distractor is adding dextrose when glucose falls, but that is part of standard DKA monitoring and not the most immediate priority given the infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1dfacb0a448e",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with type 1 diabetes presents to the emergency department with DKA. She is alert, with HR 98 bpm, BP 100/70 mmHg, and oxygen saturation 99%. Initial bloods: glucose 24 mmol/L, potassium 3.2 mmol/L, bicarbonate 15 mmol/L, pH 7.20. An intravenous infusion of 0.9% sodium chloride has been started at 500 mL/hour. Which of the following is the single most appropriate next action?",
+      "options": [
+        "Arrange transfer to the intensive care unit",
+        "Give 10 mmol of intravenous potassium chloride over 1 hour",
+        "Administer a 500 mL bolus of 0.9% sodium chloride over 15 minutes",
+        "Commence fixed-rate intravenous insulin infusion immediately",
+        "Check serum magnesium and replace if low"
+      ],
+      "answerIndex": 1,
+      "explanation": "In DKA, if the potassium is below 3.5 mmol/L, potassium must be started before insulin to avoid precipitating life-threatening hypokalaemia when insulin drives potassium into cells. Here, potassium is 3.2 mmol/L (below the threshold of 3.5). The most tempting distractor is starting insulin immediately, but that is contraindicated until potassium is at least 3.5 mmol/L.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b92903817b5",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 14-year-old boy with known type 1 diabetes is brought to the emergency department with a 6-hour history of vomiting and abdominal pain. He has a Glasgow Coma Scale score of 12 (E3 V4 M5), HR 120 bpm, BP 85/50 mmHg, and deep sighing respirations. Capillary blood glucose is 30 mmol/L, urine ketones 4+. A venous gas shows pH 7.05, bicarbonate 8 mmol/L, glucose 28 mmol/L. Initial fluid resuscitation (20 mL/kg) has been given. What is the single most immediate next step in management?",
+      "options": [
+        "Start fixed-rate intravenous insulin at 0.1 units/kg/hour",
+        "Repeat Glasgow Coma Scale assessment in 30 minutes",
+        "Give intravenous ceftriaxone for suspected meningitis",
+        "Administer mannitol 1 g/kg intravenously",
+        "Arrange an urgent CT scan of the head"
+      ],
+      "answerIndex": 3,
+      "explanation": "This child has features suggestive of cerebral oedema (decreased consciousness after initial fluids, headache, vomiting, respiratory pattern). In a child with DKA and neurological deterioration, cerebral oedema is a life-threatening emergency. The immediate next step is to administer mannitol (or hypertonic saline) while arranging imaging. The most tempting distractor is starting insulin, but treating cerebral oedema takes precedence over continuing DKA management at this point.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3d047c4a0294",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who is 32 weeks pregnant presents with polyuria, polydipsia, and abdominal pain. She has type 1 diabetes. On examination, HR 110 bpm, BP 95/60 mmHg, respiratory rate 22 breaths/min. Capillary blood glucose is 22 mmol/L, ketones 2+. Venous gas: pH 7.22, bicarbonate 12 mmol/L. Fetal monitoring shows a baseline heart rate of 155 bpm with reduced variability. After giving an IV fluid bolus, which of the following is the single most appropriate next step?",
+      "options": [
+        "Start fixed-rate intravenous insulin infusion at 0.05 units/kg/hour",
+        "Transfer to the intensive care unit for invasive monitoring",
+        "Administer intravenous 10% dextrose immediately",
+        "Start a lower dose fixed-rate insulin infusion (e.g., 0.025 units/kg/hour)",
+        "Arrange urgent obstetric ultrasound for fetal assessment"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, DKA management follows the same principles as non-pregnant adults, but insulin requirements may be lower due to placental insulin resistance. However, NICE guidelines recommend the same starting dose of IV insulin as in adults (0.1 units/kg/hour) for DKA in pregnancy, with close monitoring. The most tempting distractor is a lower dose (0.05 or 0.025), but evidence supports starting at the standard rate and adjusting based on glucose response. Urgent fetal assessment is important but not immediate after fluid; insulin therapy should be initiated promptly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34740ebd0dcf",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with new-onset type 1 diabetes presents with a 2-day history of polyuria, polydipsia, and vomiting. On examination, GCS 14/15, BP 90/50 mmHg, HR 110 bpm, capillary refill 4 seconds. Bedside glucose 28 mmol/L, urinary ketones 3+, venous blood gas: pH 6.9, HCO3 4 mmol/L, PCO2 2.5 kPa, K+ 4.2 mmol/L. Which single finding is the strongest red flag indicating severe DKA requiring HDU-level care?",
+      "options": [
+        "HCO3 4 mmol/L",
+        "K+ 4.2 mmol/L",
+        "pH 6.9",
+        "PCO2 2.5 kPa",
+        "Glucose 28 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE guidelines, a pH <7.0 defines severe DKA and is an escalation criterion for HDU. While a HCO3 <5 mmol/L also indicates severity, pH is the more direct marker of acidosis severity and is the threshold most commonly used for escalation. The other values (PCO2, K+, glucose) are important but not the primary red flag for severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1709726c4eac",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with type 2 diabetes on dapagliflozin presents with 1 day of vomiting and abdominal pain. He has no significant hyperglycaemia. Capillary glucose 8.2 mmol/L, urine ketones 3+, serum ketones 3.5 mmol/L, venous blood gas: pH 7.28, HCO3 12 mmol/L, anion gap 18. Which finding is the single most important to confirm the diagnosis of euglycaemic diabetic ketoacidosis?",
+      "options": [
+        "History of SGLT2 inhibitor use",
+        "Abdominal pain and vomiting",
+        "Metabolic acidosis with increased anion gap",
+        "Blood glucose 8.2 mmol/L",
+        "Serum ketones 3.5 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Euglycaemic DKA is defined by the triad of metabolic acidosis (pH <7.3, HCO3 <15), increased anion gap, and ketonaemia, despite normal or only mildly elevated glucose. The presence of metabolic acidosis with raised anion gap is the key diagnostic feature; ketones alone are supportive but not sufficient without acidosis. The other options are risk factors or symptoms but not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "398acab80c90",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with known type 1 diabetes is admitted with DKA (pH 7.1, HCO3 8). Four hours after starting treatment, she develops a severe headache, becomes drowsy, and vomits. Her heart rate is 55 bpm and blood pressure is 130/80 mmHg. Which life-threatening complication must be suspected immediately?",
+      "options": [
+        "Cerebral oedema",
+        "Subarachnoid haemorrhage",
+        "Bacterial meningitis",
+        "Hypoglycaemia",
+        "Fluid overload causing pulmonary oedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cerebral oedema is a rare but life-threatening complication of DKA treatment, typically occurring in children but also seen in young adults. The classic triad of headache, vomiting, and decreasing consciousness with bradycardia and hypertension (Cushing's reflex) is highly suggestive. Hypoglycaemia is more common but usually presents with sympathetic symptoms; subarachnoid haemorrhage and meningitis are less likely given the context. Fluid overload would cause respiratory symptoms and hypoxia, not the described neurological signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "219d57cca99e",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with type 2 diabetes presents with confusion, polyuria, and severe dehydration. She is drowsy but rousable. Capillary glucose 40 mmol/L, serum ketones 1.2 mmol/L, urine ketones 1+, serum sodium 155 mmol/L, serum osmolality 340 mOsm/kg. Venous blood gas: pH 7.36, HCO3 20 mmol/L. Which single finding is most consistent with a diagnosis of hyperosmolar hyperglycaemic state (HHS) rather than simple DKA?",
+      "options": [
+        "Serum osmolality 340 mOsm/kg",
+        "Serum sodium 155 mmol/L",
+        "Serum ketones 1.2 mmol/L",
+        "Confusion",
+        "Blood glucose 40 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "HHS is defined by serum osmolality ≥320 mOsm/kg, marked hyperglycaemia (often >30 mmol/L), and minimal ketosis. Here, osmolality 340 mOsm/kg is diagnostic. While confusion, hypernatraemia, and hyperglycaemia are common in HHS, they are not specific; the key diagnostic criterion is elevated effective osmolality. Ketones are low, confirming the absence of significant ketoacidosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23190604dd2e",
+      "topic": "Diabetic Ketoacidosis (DKA)",
+      "slug": "diabetic-ketoacidosis-(dka)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) with type 1 diabetes presents with nausea and vomiting for 2 days. She is not in labour. Capillary glucose 16 mmol/L, serum ketones 2.8 mmol/L, venous blood gas: pH 7.34, HCO3 18 mmol/L. The foetal heart rate is 170 bpm with minimal variability. Which finding is the single most concerning red flag for both maternal and foetal well-being?",
+      "options": [
+        "Foetal heart rate 170 bpm",
+        "HCO3 18 mmol/L",
+        "Serum ketones 2.8 mmol/L",
+        "Blood glucose 16 mmol/L",
+        "Venous pH 7.34"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, foetal tachycardia (baseline >160 bpm) is a sign of foetal distress and can be precipitated by maternal acidosis and dehydration. While the maternal metabolic parameters are abnormal, they do not yet meet criteria for DKA (pH >7.3, HCO3 >15). The most immediate red flag is the foetal heart rate, which requires urgent obstetric review. Ketones 2.8 mmol/L indicate significant ketonaemia but are not yet diagnostic of DKA; the mother's pH and HCO3 are only mildly deranged.",
+      "difficulty": "medium"
+    }
+  ]
+}

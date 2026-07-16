@@ -1,0 +1,513 @@
+{
+  "topic": "Rhabdomyolysis",
+  "slug": "rhabdomyolysis",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "AKI",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:37:45Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "fda0de966cbe",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with severe bilateral thigh pain and dark brown urine after running a marathon in hot weather. He has no significant past medical history. Observations: HR 110, BP 110/70, temperature 38.5°C. Urine dipstick shows large blood but no red cells on microscopy. What is the single most likely diagnosis?",
+      "options": [
+        "Compartment syndrome",
+        "Myocardial infarction",
+        "Rhabdomyolysis",
+        "Heat stroke",
+        "Acute tubular necrosis due to dehydration"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dark brown urine with dipstick-positive blood but absent red cells indicates myoglobinuria. Combined with exertional muscle pain and elevated CK, this is classic for rhabdomyolysis. Dehydration may contribute but does not explain the myoglobinuria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ebc1a2fef36b",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with generalised muscle aches and weakness. She recently started taking atorvastatin for hypercholesterolaemia. No trauma. Creatine kinase is 3500 U/L. Urine dipstick negative for blood. Renal function normal. What is the single most likely diagnosis?",
+      "options": [
+        "Drug-induced rhabdomyolysis",
+        "Viral myositis",
+        "Fibromyalgia",
+        "Hypothyroidism",
+        "Polymyositis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statin therapy is a common cause of asymptomatic CK elevation with myalgia. Urine negative for myoglobin as injury is mild, but the temporal relationship and lack of other features (e.g. rash, proximal weakness in polymyositis) make drug-induced rhabdomyolysis most likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0335d65dfb8f",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old bodybuilder presents with severe pain and swelling of his left thigh after an intense leg workout. He cannot move the knee. The muscle is tense and painful on passive stretch. Urine is dark brown. CK 50,000 U/L. Urine dipstick shows large blood but no RBCs. What is the single most likely diagnosis?",
+      "options": [
+        "Muscle tear",
+        "Deep vein thrombosis",
+        "Acute compartment syndrome",
+        "Rhabdomyolysis",
+        "Cellulitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of severe muscle pain, tense swelling, and dark urine with dipstick blood but no RBCs is diagnostic of rhabdomyolysis. Compartment syndrome can coexist but is a complication; the myoglobinuria points to rhabdomyolysis as the primary diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd29f47866c2",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with chronic alcoholism is found collapsed. He is confused and agitated. Temperature 38.0°C, HR 120, BP 90/60. Generalised muscle tenderness. Urine is cola-coloured. Serum sodium 145 mmol/L, potassium 6.0 mmol/L, creatinine 200 µmol/L, CK 25,000 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hyponatraemia",
+        "Rhabdomyolysis",
+        "Alcohol withdrawal delirium",
+        "Meningitis",
+        "Septic shock"
+      ],
+      "answerIndex": 1,
+      "explanation": "The classic triad of muscle tenderness, cola-coloured urine, and markedly elevated CK in an alcoholic with hyperkalaemia and AKI is pathognomonic for rhabdomyolysis, often due to prolonged immobility or seizures. Withdrawal and sepsis do not explain the myoglobinuria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "587194e4f37b",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with bipolar disorder on lithium and haloperidol presents with confusion, muscle stiffness, and dark urine. Temperature 38.5°C, HR 110, BP 140/90. CK 30,000 U/L. Urine dipstick large blood, no RBCs. What is the single most likely diagnosis?",
+      "options": [
+        "Rhabdomyolysis",
+        "Malignant hyperthermia",
+        "Neuroleptic malignant syndrome",
+        "Serotonin syndrome",
+        "Lithium toxicity"
+      ],
+      "answerIndex": 0,
+      "explanation": "While NMS can cause rhabdomyolysis, the presence of dark urine with dipstick blood but no RBCs directly indicates myoglobinuria, making rhabdomyolysis the primary diagnosis. The question targets recognition of rhabdomyolysis; NMS is a predisposing syndrome but not the immediate finding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4b227ee5f5fc",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man presents with severe muscle pain and dark urine after his first CrossFit session. Observations: HR 90, BP 110/70, urine dipstick positive for blood but no RBCs on microscopy. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Serum creatine kinase",
+        "Serum myoglobin",
+        "Urine myoglobin",
+        "Serum lactate dehydrogenase",
+        "Serum potassium"
+      ],
+      "answerIndex": 0,
+      "explanation": "Serum creatine kinase is the gold standard for confirming rhabdomyolysis. Urine dipstick positive for blood with no RBCs on microscopy suggests myoglobinuria but is not confirmatory; urine myoglobin is less specific and rapidly cleared.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e717841bbcdd",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with type 2 diabetes and hypertension on atorvastatin presents with mild bilateral thigh aching for 2 weeks. She is haemodynamically stable. Urine dipstick is negative for blood. Which laboratory finding would be most consistent with a diagnosis of rhabdomyolysis?",
+      "options": [
+        "Urine myoglobin positive",
+        "Serum potassium 5.0 mmol/L",
+        "AST 60 U/L (normal <40)",
+        "CK 1500 U/L",
+        "CK 300 U/L (normal <200)"
+      ],
+      "answerIndex": 3,
+      "explanation": "A CK level >5 times the upper limit of normal (typically >1000 U/L) is diagnostic of rhabdomyolysis. CK 1500 meets this criterion, whereas modest elevations can occur with myositis or statin myalgia. Urine myoglobin may be negative in mild cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c63ac3352341",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man is brought to ED after being trapped under a collapsed wall for 2 hours. He has pain and swelling of his lower limbs. Observations: HR 110, BP 90/60, urine is cola-coloured. Which investigation result would MOST reliably establish the diagnosis of rhabdomyolysis?",
+      "options": [
+        "Urine dipstick 3+ blood with >50 RBCs/hpf",
+        "Serum CK 12,000 U/L",
+        "ECG showing peaked T waves",
+        "Serum myoglobin elevated",
+        "Serum phosphate 2.0 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Serum CK is the gold standard; a markedly elevated level (12,000 U/L) confirms rhabdomyolysis. Urine dipstick with RBCs suggests haemoglobinuria, not myoglobinuria. Serum myoglobin is less reliable due to rapid renal clearance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ebaf06c9a4f",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with alcohol use disorder presents after a binge with generalised weakness and dark urine. Serum CK is 8000 U/L, creatinine 150 µmol/L (baseline 80). Which interpretation of his urine dipstick and microscopy findings would confirm the diagnosis?",
+      "options": [
+        "Dipstick positive for blood, microscopy shows no RBCs",
+        "Dipstick positive for glucose, microscopy shows no RBCs",
+        "Dipstick negative for blood, microscopy shows no RBCs",
+        "Dipstick positive for protein, microscopy shows granular casts",
+        "Dipstick positive for blood, microscopy shows 10 RBCs/hpf"
+      ],
+      "answerIndex": 0,
+      "explanation": "Myoglobinuria causes a positive urine dipstick for blood (due to haem moiety) but no RBCs on microscopy. This confirms myoglobinuria. The presence of RBCs suggests haemoglobinuria or haematuria, while a negative dipstick makes myoglobinuria unlikely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e67a7a464ec",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with CKD stage 3 on atorvastatin develops myalgia. His baseline CK is unknown. Which investigation is most appropriate to diagnose rhabdomyolysis?",
+      "options": [
+        "Serum potassium",
+        "Urine myoglobin",
+        "Serum creatinine",
+        "Serum CK",
+        "Troponin I"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serum CK remains the gold standard for diagnosing rhabdomyolysis regardless of renal function. Urine myoglobin is less reliable in CKD due to impaired excretion and variable clearance. Potassium and creatinine are not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "042ef0dbf012",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man presents with muscle pain after completing a marathon. His urine is dark. Creatine kinase is 4,500 U/L. Serum creatinine is 80 µmol/L, potassium 4.2 mmol/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "IV sodium bicarbonate",
+        "Oral rehydration with sports drinks",
+        "IV furosemide",
+        "IV mannitol",
+        "IV 0.9% sodium chloride"
+      ],
+      "answerIndex": 4,
+      "explanation": "Aggressive IV normal saline is the mainstay of treatment for rhabdomyolysis to maintain urine output and prevent acute kidney injury. Sodium bicarbonate and mannitol are not routinely recommended as first-line therapy in mild disease without acidosis or compartment syndrome.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "10abbb3f8f3d",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with rhabdomyolysis after a seizure has serum potassium 6.8 mmol/L, creatinine 350 µmol/L, and ECG shows peaked T waves. Which intravenous fluid is CONTRAINDICATED?",
+      "options": [
+        "0.45% sodium chloride",
+        "5% dextrose",
+        "0.9% sodium chloride",
+        "1.26% sodium bicarbonate",
+        "Hartmann's solution"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hartmann's solution contains 5 mmol/L of potassium and is therefore contraindicated in hyperkalaemia. 0.9% saline is the fluid of choice; sodium bicarbonate may be used for hyperkalaemia but is not contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f69cad48d4ac",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with severe thigh pain and swelling after prolonged immobilisation from a drug overdose. He has rhabdomyolysis and compartment syndrome confirmed by pressure measurement. What is the most appropriate definitive surgical treatment?",
+      "options": [
+        "Wound closure with secondary intention",
+        "Surgical debridement",
+        "Split-skin grafting",
+        "Above-knee amputation",
+        "Fasciotomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fasciotomy is the definitive treatment for acute compartment syndrome to relieve pressure and restore perfusion. Debridement may be needed later if muscle necrosis occurs. Amputation is reserved for non-viable limbs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "72dbf5aed2bf",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with known hypothyroidism presents with confusion, hypothermia, and oliguria. Creatine kinase is 25,000 U/L, creatinine 250 µmol/L. She has not been taking her levothyroxine. What is the most appropriate initial treatment for the underlying cause of rhabdomyolysis?",
+      "options": [
+        "IV 0.9% sodium chloride",
+        "IV mannitol",
+        "IV levothyroxine",
+        "IV sodium bicarbonate",
+        "IV furosemide"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rhabdomyolysis in hypothyroidism is due to myxoedema coma. The definitive treatment is thyroid hormone replacement with IV levothyroxine. IV fluids are supportive but do not address the underlying cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d72f3374b6f0",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 50-year-old man admitted with alcohol intoxication and prolonged immobilisation has rhabdomyolysis. Creatine kinase is 120,000 U/L, creatinine 400 µmol/L, potassium 5.0 mmol/L. Urine output is 30 mL/hr despite initial fluid bolus. What is the most appropriate therapy to prevent further renal injury?",
+      "options": [
+        "IV sodium bicarbonate",
+        "Urgent haemodialysis",
+        "IV mannitol",
+        "Aggressive IV 0.9% sodium chloride",
+        "IV furosemide"
+      ],
+      "answerIndex": 3,
+      "explanation": "Aggressive IV normal saline remains the first-line treatment to maintain high urine output and reduce the risk of acute kidney injury. Bicarbonate, mannitol, and furosemide have no proven benefit and may cause harm. Haemodialysis is indicated only for refractory hyperkalaemia, fluid overload, or severe acidosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d4724bda297a",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old man presents to the emergency department with bilateral leg pain and dark urine after completing his first marathon. He has no significant past medical history and takes no regular medications. Observations: pulse 88 bpm, blood pressure 126/78 mmHg, temperature 37.2°C. Urine dipstick is positive for blood but no red cells on microscopy. Serum creatine kinase (CK) is 5500 U/L, creatinine 80 μmol/L, potassium 4.2 mmol/L. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Give sodium bicarbonate 1.26% intravenous infusion",
+        "Start intravenous normal saline at 200 mL/hour",
+        "Check an arterial blood gas for pH and lactate",
+        "Perform a urine dipstick for myoglobin",
+        "administer intravenous mannitol 20%"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has mild rhabdomyolysis with normal renal function and no hyperkalemia. Aggressive intravenous crystalloid (normal saline) is the mainstay to prevent acute kidney injury. Sodium bicarbonate is not routinely recommended by NICE unless severe metabolic acidosis; mannitol has no proven benefit; urine dip for myoglobin is already positive for blood; ABG is not acutely needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8fce7b43306",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man is brought to the emergency department after being trapped under a collapsed wall for 2 hours. On arrival, he is awake, pulse 110 bpm, blood pressure 100/60 mmHg. He complains of severe pain in both legs, which are swollen and tender. ECG shows tall peaked T waves in the precordial leads. His serum potassium is 6.8 mmol/L. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Administer 10 units of insulin with 25 g of intravenous glucose",
+        "Contact the renal team for emergency haemodialysis",
+        "Give intravenous calcium gluconate 10 mL of 10% solution",
+        "Perform a fasciotomy to relieve compartment pressure",
+        "Start intravenous normal saline at 500 mL/hour"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has severe hyperkalemia with ECG changes (life-threatening arrhythmia risk). The immediate priority is myocardial membrane stabilisation with intravenous calcium gluconate. Insulin/glucose is a second-line measure; fluids are important but not first; dialysis is delayed; fasciotomy is not indicated for hyperkalemia alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "076239733ee3",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with type 2 diabetes and chronic kidney disease stage 3 (eGFR 45 mL/min/1.73m²) presents with new-onset bilateral thigh and calf muscle pain. She has been taking simvastatin 40 mg at night for 5 years. Observations: pulse 76 bpm, blood pressure 140/82 mmHg. Urine dipstick is negative for blood. Serum CK is 3200 U/L, creatinine 130 μmol/L (baseline 100), potassium 5.0 mmol/L. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Repeat the CK level in 24 hours",
+        "Stop simvastatin immediately",
+        "Check an urgent renal ultrasound scan",
+        "Start intravenous normal saline at 100 mL/hour",
+        "Give intravenous sodium bicarbonate 1.26%"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is likely statin-induced rhabdomyolysis. The immediate step is to stop the offending drug (simvastatin). Although fluids are often given, her CK is modest and renal function is only mildly impaired; stopping the statin is the key first action. Ultrasound is not urgent; repeating CK is not immediate; bicarbonate is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "384ba36f1b09",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man is found on the floor at home after an unwitnessed fall. He is thought to have been lying there for 12–18 hours. In the emergency department, he is confused but haemodynamically stable. Urine dipstick is positive for blood with no red cells. Serum CK is 12,000 U/L, creatinine 300 μmol/L, potassium 5.5 mmol/L. He has not passed urine since admission 2 hours ago. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Perform a bladder scan to estimate urinary volume",
+        "Call the renal team for urgent haemodialysis",
+        "Start intravenous normal saline at 500 mL/hour",
+        "Give intravenous furosemide 40 mg",
+        "Insert a urinary catheter to monitor hourly urine output"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has rhabdomyolysis with oliguric acute kidney injury. Accurate fluid balance monitoring is crucial to guide therapy and avoid fluid overload. Inserting a urinary catheter is the immediate step to measure urine output. Fluids should be given cautiously with output monitoring; furosemide may worsen AKI; dialysis is not urgently needed; bladder scan is less accurate for ongoing output.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dafefe1f727",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 29-year-old man with rhabdomyolysis from a crush injury to his right lower leg is being managed with intravenous fluids. Three hours after admission, he develops increasing pain in the right calf that is out of proportion to the injury. On examination, the calf is swollen and tense, and passive dorsiflexion of the ankle exacerbates the pain. The dorsalis pedis pulse is palpable. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Apply a cold compress to the calf",
+        "Administer a further bolus of 1 L of normal saline",
+        "Perform a fasciotomy of the affected compartment",
+        "Elevate the leg above the level of the heart",
+        "Measure the intracompartmental pressure of the calf"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has signs suggestive of acute compartment syndrome (pain on passive stretch, tense swelling). The definitive way to diagnose is by measuring intracompartmental pressure—a pressure >30 mmHg (or within 30 mmHg of diastolic) indicates need for fasciotomy. Immediate action is to measure pressure to avoid irreversible muscle/nerve damage. Elevation, cold, or fluids will not help; fasciotomy is the treatment but requires objective pressure measurement first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b7cdde569e4d",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man presents with generalised muscle pain and dark urine after a long-distance run. Urine dipstick shows blood 3+ but no red cells on microscopy. His serum potassium is 6.8 mmol/L. Which finding is most immediately life-threatening?",
+      "options": [
+        "Urine output 30 mL/hr",
+        "Blood pressure 90/60 mmHg",
+        "Serum potassium 6.8 mmol/L",
+        "Serum creatinine 150 μmol/L",
+        "CK 5000 U/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hyperkalaemia of 6.8 mmol/L can cause fatal cardiac arrhythmia; it is the most immediate threat. CK 5000 indicates significant muscle injury but not immediately life-threatening; creatinine 150 is mild AKI; urine output 30 is acceptable; BP 90/60 may be hypovolaemia but not as critical as hyperkalaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b144bd548468",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman is admitted with rhabdomyolysis after a crush injury. Despite 4 L of IV 0.9% sodium chloride over 6 hours, her urine output remains less than 20 mL/hr. Which finding is a clear indication for initiating renal replacement therapy?",
+      "options": [
+        "Serum creatinine 400 μmol/L rising",
+        "pH 7.30",
+        "Anuria for 6 hours despite adequate fluid resuscitation",
+        "Serum potassium 5.9 mmol/L",
+        "CK >100,000 U/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Anuria refractory to fluid resuscitation is a standard criterion for RRT in rhabdomyolysis. While hyperkalaemia and rising creatinine may also prompt RRT, anuria is a more definitive trigger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2bc01bed74c2",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man presents with bilateral thigh pain and dark urine 2 weeks after starting atorvastatin. His CK is 12,000 U/L. On examination, his right calf is tense and painful on passive dorsiflexion. Which clinical sign most strongly indicates that he has developed compartment syndrome?",
+      "options": [
+        "Pallor of the foot",
+        "Tense muscle compartment with pain on passive stretch",
+        "Paraesthesia in the sole of the foot",
+        "Prolonged capillary refill >4 seconds",
+        "Absent posterior tibial pulse"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compartment syndrome is a surgical emergency in rhabdomyolysis. The earliest and most reliable sign is pain on passive stretch within a tense compartment. Absent pulse is a late sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e29007d89f92",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with bipolar disorder presents with rigidity, hyperthermia (39.5°C), and dark urine. CK is 25,000 U/L. Which feature is most suggestive of neuroleptic malignant syndrome (NMS) rather than simple rhabdomyolysis from another cause?",
+      "options": [
+        "Acute kidney injury",
+        "CK >10,000 U/L",
+        "Dark urine",
+        "Hyperkalaemia",
+        "Generalised rigidity and hyperthermia"
+      ],
+      "answerIndex": 4,
+      "explanation": "NMS classically presents with rigidity, fever, autonomic instability, and altered mental status. While rhabdomyolysis can cause dark urine and AKI, rigidity and hyperthermia are hallmark features of NMS that should not be missed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7882fa6c8297",
+      "topic": "Rhabdomyolysis",
+      "slug": "rhabdomyolysis",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with rhabdomyolysis has a corrected serum calcium of 1.9 mmol/L. Which ECG abnormality is most likely to be seen?",
+      "options": [
+        "ST elevation",
+        "T wave inversion",
+        "U waves",
+        "Peaked T waves",
+        "Prolonged QT interval"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypocalcaemia prolongs the QT interval by delaying ventricular repolarization. Peaked T waves are typical of hyperkalaemia; ST elevation suggests myocardial injury; U waves are seen in hypokalaemia.",
+      "difficulty": "medium"
+    }
+  ]
+}

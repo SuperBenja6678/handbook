@@ -1,0 +1,493 @@
+{
+  "topic": "Salicylate Poisoning",
+  "slug": "salicylate-poisoning",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "ec2cdf80ae12",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old woman presents to ED 4 hours after ingesting an unknown quantity of her father's painkillers. She is confused, with a respiratory rate of 28/min, heart rate 110 bpm, temperature 37.2°C. Tinnitus is noted. ABG: pH 7.48, pCO2 3.2 kPa, pO2 12 kPa, HCO3 18 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Salicylate poisoning",
+        "Sepsis",
+        "Diabetic ketoacidosis",
+        "Methanol poisoning",
+        "Ethylene glycol poisoning"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of tinnitus, hyperventilation causing respiratory alkalosis, and a normal anion gap metabolic acidosis (compensation) is classic for salicylate poisoning. Methanol and ethylene glycol usually cause high anion gap metabolic acidosis with visual or renal features. DKA presents with hyperglycaemia and ketones.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "989b20998f4f",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with a history of osteoarthritis and atrial fibrillation presents with gradually worsening hearing loss and a constant ringing in his ears over the past 3 weeks. He also feels slightly short of breath on exertion. His medications include aspirin 75 mg daily, warfarin, and paracetamol. Examination: RR 20/min, HR 88, BP 130/75, tympanic membranes normal. What is the single most likely diagnosis?",
+      "options": [
+        "Salicylate toxicity",
+        "Anxiety",
+        "Ménière's disease",
+        "Presbyacusis",
+        "Labyrinthitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic salicylate toxicity often presents with tinnitus and hearing loss, even at therapeutic doses in the elderly. The mild hyperventilation may be subtle. Ménière's is episodic vertigo, not constant; presbyacusis is age-related without tinnitus; labyrinthitis has vertigo; anxiety lacks objective signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70c475c39698",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 16-year-old boy is brought to ED after collapsing at home. He is comatose (GCS 6), with a respiratory rate of 35/min, heart rate 130 bpm, temperature 38.9°C, and oxygen saturation 88% on room air. Chest crackles bilaterally. Pupils are mid-sized and reactive. ABG: pH 7.22, pCO2 2.8 kPa, pO2 9 kPa, HCO3 11 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Opioid overdose",
+        "Status epilepticus",
+        "Salicylate poisoning",
+        "Serotonin syndrome",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe salicylate poisoning can cause non-cardiogenic pulmonary oedema, hyperthermia, and a mixed acid-base disorder (respiratory alkalosis and metabolic acidosis). Opioid overdose presents with hypoventilation and miosis. NMS and serotonin syndrome usually involve rigidity and autonomic instability, not pulmonary oedema. Status epilepticus has convulsions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2772c799399",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with no medical history presents with fever, confusion, and rapid breathing. She has a history of chronic back pain for which she takes 'herbal pills' from the internet. Examination: RR 30/min, HR 120, temperature 39.1°C, BP 90/60. WBC 15x10^9/L, CRP 50 mg/L. ABG: pH 7.45, pCO2 3.0 kPa, pO2 11 kPa, HCO3 17 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pheochromocytoma",
+        "Thyrotoxic storm",
+        "Salicylate poisoning",
+        "Heatstroke",
+        "Meningitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The mixed acid-base picture (respiratory alkalosis with metabolic acidosis) is classic for salicylate poisoning. The inflammatory markers may be elevated due to stress. Herbal pills may contain salicylates. Meningitis would have neck stiffness; heatstroke history of heat exposure; thyrotoxic storm has goitre, eye signs; pheochromocytoma has paroxysmal hypertension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "440672b1cd21",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old boy is brought to ED after his mother found him with an open bottle of 'wintergreen oil'. He is irritable, with a respiratory rate of 40/min, heart rate 150 bpm, and temperature 37.5°C. He has no rash. Blood glucose 5.0 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Caustic ingestion",
+        "Iron overdose",
+        "Acetaminophen poisoning",
+        "Croup",
+        "Salicylate poisoning"
+      ],
+      "answerIndex": 4,
+      "explanation": "Wintergreen oil contains methyl salicylate, which is highly concentrated and can cause severe salicylate poisoning even in small amounts. The tachypnoea and irritability are typical. Acetaminophen poisoning often has no early symptoms; iron causes vomiting and GI bleeding; caustic causes oral burns; croup has stridor and cough.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8712cc1b6ff8",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old female presents with nausea, vomiting, tinnitus, and hyperventilation. She has a history of depression. What is the most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "Chest X-ray",
+        "ECG",
+        "Serum salicylate level",
+        "CT head",
+        "Urine drug screen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tinnitus and hyperventilation are classic early signs of salicylate poisoning. Serum salicylate level is the confirmatory test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b289056639d",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old with a history of migraine presents with severe headache, vertigo, and hyperventilation after taking an unknown amount of aspirin. Which of the following acid-base disorders is most characteristic of salicylate poisoning?",
+      "options": [
+        "Mixed metabolic acidosis and respiratory acidosis",
+        "Mixed respiratory alkalosis and metabolic acidosis",
+        "Pure metabolic acidosis",
+        "Respiratory alkalosis with compensatory metabolic acidosis",
+        "Metabolic acidosis with compensatory respiratory alkalosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Salicylates directly stimulate the respiratory centre causing respiratory alkalosis, and also uncouple oxidative phosphorylation leading to lactic acidosis. The classic pattern is a mixed picture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "706b7718605e",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with rheumatoid arthritis takes regular aspirin. She presents with tinnitus, hyperventilation, and an ABG shows pH 7.48, PaCO2 3.0 kPa, HCO3 20 mmol/L. What serum salicylate level would confirm significant poisoning?",
+      "options": [
+        ">1.1 mmol/L",
+        ">3.5 mmol/L",
+        ">2.2 mmol/L",
+        ">7.2 mmol/L",
+        ">4.4 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "The therapeutic range for salicylate is 1.1-2.2 mmol/L. A level >2.2 mmol/L indicates toxicity. Levels >4.4 mmol/L are considered severe, but >2.2 confirms significant poisoning in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28a2e5734068",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 18-year-old presents after an overdose of ibuprofen and aspirin. She is hyperventilating but otherwise well. What is the most appropriate investigation to differentiate salicylate from ibuprofen toxicity?",
+      "options": [
+        "Full blood count",
+        "Serum salicylate level",
+        "Serum ibuprofen level",
+        "Urine drug screen",
+        "ABG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Salicylate toxicity produces a specific clinical picture and requires specific management. A serum salicylate level confirms salicylate poisoning and helps differentiate from ibuprofen overdose, which rarely causes significant acidosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ceeb20c32589",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old woman presents with tinnitus, nausea, and hyperventilation 6 hours after an intentional overdose of aspirin. On examination, she is sweaty with a respiratory rate of 28/min. Arterial blood gas: pH 7.45, pCO2 3.8 kPa, pO2 12 kPa, bicarbonate 22 mmol/L. Serum salicylate level 450 mg/L. She is alert and oriented. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous sodium bicarbonate",
+        "Gastric lavage",
+        "Forced diuresis",
+        "Haemodialysis",
+        "Activated charcoal"
+      ],
+      "answerIndex": 0,
+      "explanation": "In mild-to-moderate salicylate poisoning (no severe features, level <500 mg/L), urinary alkalinisation with IV sodium bicarbonate enhances salicylate excretion and corrects acidosis. Activated charcoal is only effective if given within 1 hour. Haemodialysis is reserved for severe poisoning with coma, seizures, or pH <7.2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad4feaffa459",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man is brought to the Emergency Department after a large overdose of aspirin. He is unconscious with a Glasgow Coma Scale of 6, and has generalised tonic-clonic seizures. Arterial blood gas: pH 7.15, pCO2 4.5 kPa, pO2 10 kPa, bicarbonate 12 mmol/L. Serum salicylate level 700 mg/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "Haemodialysis",
+        "Intubation and mechanical ventilation",
+        "Activated charcoal",
+        "Forced diuresis",
+        "Intravenous sodium bicarbonate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe salicylate poisoning with coma, seizures, or metabolic acidosis (pH <7.2) requires immediate haemodialysis to rapidly remove salicylate and correct acid-base disturbances. Sodium bicarbonate is contraindicated in such severe acidosis as it may exacerbate hypokalaemia and worsen intracellular acidosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37ad707fa759",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with osteoarthritis presents with confusion and hyperventilation. She has been taking high-dose aspirin for pain. Serum salicylate level 350 mg/L. Arterial blood gas: pH 7.38, pCO2 4.0 kPa, pO2 11 kPa, bicarbonate 18 mmol/L. She has mild chronic kidney disease (eGFR 45 mL/min). What is the most appropriate first-line treatment?",
+      "options": [
+        "Haemodialysis",
+        "Urinary alkalinisation with intravenous sodium bicarbonate",
+        "N-acetylcysteine",
+        "Activated charcoal",
+        "Flumazenil"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic salicylate poisoning in the elderly often has higher morbidity and mortality. Even with moderate levels, patients with renal impairment or significant acidosis (low bicarbonate) benefit from haemodialysis. Urinary alkalinisation is less effective in chronic poisoning and contraindicated in oliguric renal impairment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "43c800089c04",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-week pregnant woman presents 4 hours after ingesting 30 g of aspirin. She is tachycardic and tachypnoeic, but alert. Serum salicylate level 500 mg/L. Arterial blood gas: pH 7.42, pCO2 3.7 kPa, pO2 13 kPa, bicarbonate 21 mmol/L. Which of the following treatments is CONTRAINDICATED?",
+      "options": [
+        "Forced diuresis",
+        "Activated charcoal",
+        "Intravenous sodium bicarbonate",
+        "Haemodialysis",
+        "Supportive care"
+      ],
+      "answerIndex": 0,
+      "explanation": "Forced diuresis is contraindicated in salicylate poisoning as it does not enhance elimination and risks precipitating pulmonary oedema, especially in pregnancy where fluid shifts can harm the fetus. Urinary alkalinisation (sodium bicarbonate) is first-line for moderate poisoning; haemodialysis is reserved for severe cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6345ffd9f83f",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known chronic salicylate poisoning (supratherapeutic doses) presents with confusion and oliguric acute kidney injury. Serum salicylate level 400 mg/L. Arterial blood gas: pH 7.30, pCO2 4.2 kPa, pO2 11 kPa, bicarbonate 16 mmol/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "Fluid resuscitation",
+        "Haemodialysis",
+        "Forced diuresis",
+        "Activated charcoal",
+        "Urinary alkalinisation with intravenous sodium bicarbonate"
+      ],
+      "answerIndex": 1,
+      "explanation": "In salicylate poisoning complicated by acute kidney injury, urinary alkalinisation is ineffective and may cause fluid overload. Haemodialysis is the definitive treatment to remove salicylate and correct acidosis. Forced diuresis is contraindicated in oliguria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0d7c8a7693a4",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents 2 hours after ingesting 50 tablets of 300 mg aspirin. She has tinnitus, hyperventilation (RR 24), HR 100, BP 110/70, GCS 15. ABG: pH 7.48, pCO2 3.8, HCO3 20. What is the most appropriate next step?",
+      "options": [
+        "IV sodium bicarbonate",
+        "Activated charcoal",
+        "Urinary alkalinization",
+        "Check serum salicylate level",
+        "Arrange haemodialysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The immediate priority is to confirm the diagnosis and quantify severity with a serum salicylate level. Activated charcoal is only effective within 1 hour of ingestion (here 2 hours). Bicarbonate and alkalinization depend on level; haemodialysis is for severe cases. The level guides all subsequent management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8723c6ad5103",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man is found unconscious with empty packets of aspirin. Respiratory rate 6 and shallow, oxygen saturation 88% on air. GCS 8. Blood glucose 4.5 mmol/L. What is the most appropriate immediate next action?",
+      "options": [
+        "Have family sign DNR",
+        "Endotracheal intubation and mechanical ventilation",
+        "Check salicylate level",
+        "Administer naloxone",
+        "IV sodium bicarbonate bolus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Airway and breathing compromise (respiratory failure, low GCS) mandate immediate intubation and ventilation to secure the airway and correct hypoxaemia. Salicylate level and bicarbonate can wait. Naloxone is not indicated; DNR is inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0318a23e5b91",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old with chronic salicylate toxicity due to overuse for pain presents with tinnitus, confusion, urine output 200 mL over 24 hours, creatinine 300 μmol/L, salicylate level 800 mg/L. What is the most appropriate next step?",
+      "options": [
+        "Activated charcoal",
+        "IV sodium bicarbonate",
+        "N-acetylcysteine",
+        "Urgent haemodialysis",
+        "IV fluids with potassium replacement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Level >700 mg/L with renal impairment and confusion is an indication for urgent haemodialysis. Bicarbonate is less effective in renal failure and risks fluid overload. Activated charcoal is not useful in chronic toxicity. Potassium replacement may be needed but is not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "44a83485b0dd",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with salicylate overdose (serum level 600 mg/L) develops acute respiratory distress, frothy sputum, chest X-ray shows bilateral infiltrates, oxygen saturation 85% on 15 L O2 via non-rebreather mask. What is the most appropriate immediate next action?",
+      "options": [
+        "Endotracheal intubation and mechanical ventilation",
+        "IV furosemide",
+        "IV sodium bicarbonate",
+        "Non-invasive ventilation (CPAP)",
+        "Glyceryl trinitrate infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hypoxia despite high-flow oxygen indicates non-cardiogenic pulmonary oedema requiring positive pressure ventilation. Given the severity, immediate intubation and mechanical ventilation is needed. CPAP may be considered but is less definitive; furosemide and GTN are not indicated as it is not cardiogenic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a1ed168fd5be",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 3-year-old child accidentally ingests oil of wintergreen (methyl salicylate). He presents within 30 minutes, alert, tachycardic, RR 30, no other findings. What is the most appropriate next step?",
+      "options": [
+        "Observe for 6 hours",
+        "IV sodium bicarbonate",
+        "Induce vomiting with ipecac",
+        "Give activated charcoal",
+        "Check salicylate level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Activated charcoal is effective within 1 hour of ingestion and is indicated for this highly concentrated salicylate. Ipecac is no longer recommended. Salicylate level can be checked but charcoal should be given first. Observation alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "048b1dd60bc4",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman presents 4 hours after taking an aspirin overdose. She is hyperventilating and complains of tinnitus. On examination, she is alert and sweaty. Which single clinical feature would be the most concerning can't-miss sign?",
+      "options": [
+        "Tachypnoea",
+        "Sweating",
+        "Nausea",
+        "Confusion",
+        "Tinnitus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Confusion indicates cerebral involvement, which is a red flag for severe salicylate poisoning and can precede coma or cerebral oedema. Tinnitus is a classic early sign but not a danger sign.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24c67ef3a2ac",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with salicylate poisoning develops sudden onset dyspnoea. On examination, he has tachypnoea, tachycardia, and bilateral coarse crackles. Chest X-ray shows bilateral alveolar shadowing with normal heart size. Which finding confirms the diagnosis of the life-threatening complication?",
+      "options": [
+        "Normal heart size on chest X-ray",
+        "Hypoxia",
+        "Tachypnoea",
+        "Bilateral coarse crackles",
+        "Bilateral alveolar shadowing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Normal heart size distinguishes non-cardiogenic pulmonary oedema (due to salicylate-induced increased permeability) from cardiogenic pulmonary oedema. The pulmonary shadowing alone is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "feb99d778ec4",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 3-year-old child is brought to ED after ingesting oil of wintergreen. He is irritable, hyperventilating, and has a temperature of 37.5°C. Initially alert, which single finding would be the most concerning can't-miss sign of impending cerebral oedema?",
+      "options": [
+        "GCS falls to 12",
+        "Temperature 38°C",
+        "Heart rate 140/min",
+        "Respiratory rate 40/min",
+        "Vomiting"
+      ],
+      "answerIndex": 0,
+      "explanation": "A falling GCS is the earliest and most reliable sign of cerebral oedema in paediatric salicylate poisoning. Irritability is common but not specific; vomiting and fever are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e265995670c4",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with chronic arthritis presents with confusion, fever, and hyperventilation. His medications include aspirin 2.4 g daily. Investigations show: WCC 14, CRP 120, lactate 1.8, ABG: pH 7.47, pCO2 2.6, HCO3 16, anion gap 17. Which single diagnosis must be excluded immediately?",
+      "options": [
+        "Hyperventilation syndrome",
+        "Diabetic ketoacidosis",
+        "Pulmonary embolism",
+        "Salicylate toxicity",
+        "Sepsis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The mixed respiratory alkalosis and high anion gap metabolic acidosis is classic for salicylate toxicity, which is easily missed in the context of inflammation. Excluding it is critical as it can be fatal without treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5ca5467f1c9a",
+      "topic": "Salicylate Poisoning",
+      "slug": "salicylate-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman presents 8 hours after an aspirin overdose. She has tinnitus, hyperventilation, and is agitated. Which single finding from her arterial blood gas denotes severe toxicity requiring immediate escalation?",
+      "options": [
+        "pH < 7.30",
+        "Tinnitus",
+        "Hyperventilation",
+        "Serum salicylate > 300 mg/L",
+        "Anion gap > 16 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A pH < 7.30 signifies significant metabolic acidosis and is a criterion for severe poisoning (e.g., requiring haemodialysis). Tinnitus and hyperventilation are early signs, and anion gap elevation is expected but not a threshold for severity.",
+      "difficulty": "medium"
+    }
+  ]
+}

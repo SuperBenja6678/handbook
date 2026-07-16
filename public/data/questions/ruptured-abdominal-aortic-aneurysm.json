@@ -1,0 +1,513 @@
+{
+  "topic": "Ruptured Abdominal Aortic Aneurysm",
+  "slug": "ruptured-abdominal-aortic-aneurysm",
+  "system": "Vascular Surgery",
+  "subSystem": "Aortic",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:36Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b90efca815d4",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man collapses on the street. At the emergency department, he is in severe pain localised to the abdomen and lower back. His BP is 85/50 mmHg and heart rate is 120 bpm. On examination, there is a tender, pulsatile mass in the epigastrium. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated duodenal ulcer",
+        "Renal colic",
+        "Ruptured abdominal aortic aneurysm",
+        "Acute mesenteric ischaemia",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic triad of abrupt onset abdominal/back pain, hypotension, and a pulsatile abdominal mass is highly specific for a ruptured AAA. The other options lack the combination of hypotension with a pulsatile mass.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "83f9ec34b556",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old man is found collapsed at home by his carer. He is hypotensive (BP 80/50 mmHg) and tachycardic (115 bpm). He denies any pain, but on examination there is a tender, non-pulsatile mass in the left groin. His abdomen is soft and non-tender. What is the single most likely diagnosis?",
+      "options": [
+        "Acute deep vein thrombosis",
+        "Groin abscess",
+        "Ruptured abdominal aortic aneurysm with retroperitoneal haematoma tracking to the groin",
+        "Iliac artery aneurysm rupture",
+        "Strangulated femoral hernia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ruptured AAA can present without abdominal pain when the haematoma dissects retroperitoneally and presents as an inguinal mass. A strangulated femoral hernia would cause pain and vomiting, and a groin abscess would have signs of infection. The absence of abdominal pain in a hypotensive elderly patient should raise suspicion for a contained rupture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b87690f9fc4b",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with a known 5.5 cm infrarenal AAA under surveillance presents with sudden-onset, severe low back pain radiating to the hips. He is not in shock: BP 140/80 mmHg, pulse 90 bpm. Abdominal examination reveals mild tenderness but no pulsatile mass. What is the single most likely diagnosis?",
+      "options": [
+        "Acute aortic dissection",
+        "Acute pancreatitis",
+        "Lumbar disc prolapse",
+        "Renal colic",
+        "Ruptured abdominal aortic aneurysm (contained)"
+      ],
+      "answerIndex": 4,
+      "explanation": "A contained rupture of an AAA can present with isolated back pain without haemodynamic instability or a palpable mass. The known AAA and acute onset make this the most likely, as the other causes (pancreatitis, renal colic, disc prolapse) are less likely in a patient with a known aneurysm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "995acfce53cc",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with a known 6.0 cm AAA who has not undergone repair presents to the emergency department after a sudden onset of severe epigastric pain followed by massive haematemesis and melaena. He is hypotensive (BP 85/50 mmHg) and tachycardic. What is the single most likely diagnosis?",
+      "options": [
+        "Ruptured abdominal aortic aneurysm with aortoenteric fistula",
+        "Acute pancreatitis",
+        "Bleeding peptic ulcer",
+        "Oesophageal varices",
+        "Mallory-Weiss tear"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of a known AAA and a 'sentinel' bleed (haematemesis after sudden abdominal pain) is classic for an aortoenteric fistula eroding into the duodenum. Peptic ulcer bleeding typically presents with painless haematemesis, and varices occur in liver disease. The presence of an AAA makes aortoenteric fistula the most likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9cb41441985",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with hypertension presents with a 2-hour history of sudden-onset, constant lower abdominal pain radiating to the groin. She has nausea but no vomiting. Her BP is 110/70 mmHg and pulse is 100 bpm. Abdominal examination reveals mild tenderness in the lower abdomen without a distinct mass. What is the single most likely diagnosis?",
+      "options": [
+        "Acute mesenteric ischaemia",
+        "Ruptured abdominal aortic aneurysm",
+        "Ovarian cyst torsion",
+        "Renal colic",
+        "Acute diverticulitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ruptured AAA in women may present with lower abdominal or groin pain and can be mistaken for gynaecological or gastrointestinal causes. Hypotension and tachycardia in an elderly hypertensive woman with acute-onset pain make AAA the most likely. Diverticulitis typically presents with left iliac fossa pain and fever, and ovarian torsion is less common at this age.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48494fa58e51",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with sudden onset severe epigastric pain radiating to the back. His blood pressure is 130/80, heart rate 90. On examination, he has a tender, pulsatile epigastric mass. Which single investigation will most reliably confirm the diagnosis of a ruptured abdominal aortic aneurysm?",
+      "options": [
+        "D-dimer",
+        "MRI abdomen",
+        "Plain abdominal X-ray",
+        "CT angiogram",
+        "Abdominal ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT angiogram is the gold standard investigation to confirm rupture and define anatomy for surgical planning. Ultrasound can detect an aneurysm but is less reliable for detecting rupture, especially retroperitoneal haematoma. D-dimer and plain X-ray are not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b94461698287",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman is brought to the emergency department after a collapse at home. She is hypotensive (BP 80/50), tachycardic, and complains of vague abdominal discomfort. Abdominal examination reveals no palpable mass. What is the most appropriate bedside investigation to urgently assess for a possible ruptured abdominal aortic aneurysm?",
+      "options": [
+        "D-dimer",
+        "ECG",
+        "Chest X-ray",
+        "Focused assessment with sonography in trauma (FAST) scan",
+        "CT abdomen with contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an unstable patient with suspected ruptured AAA, a bedside FAST scan can rapidly identify an aneurysm and free intra-abdominal fluid, prompting immediate transfer to theatre. CT is too time-consuming and unsafe in haemodynamic instability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d237fd4b174",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with a known 5.5 cm infrarenal abdominal aortic aneurysm presents with a 4-hour history of sudden-onset severe back pain. His blood pressure is 130/80 and he is comfortable at rest. A CT aortogram is performed. The radiologist reports a 'hyperattenuating crescent sign' within the mural thrombus. What is the most likely interpretation of this finding?",
+      "options": [
+        "Contained rupture",
+        "Impending rupture",
+        "Mycotic aneurysm",
+        "Complete thrombosis of the aneurysm",
+        "Acute aortic dissection"
+      ],
+      "answerIndex": 1,
+      "explanation": "The hyperattenuating crescent sign represents acute haemorrhage into the thrombus and is a well-recognised predictor of imminent aneurysm rupture. It does not indicate active extravasation (contained rupture) or dissection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b2ab081abb2",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman presents with sudden onset of severe left flank pain radiating to the groin, nausea, and diaphoresis. On examination, she has a tender abdomen and blood pressure 90/60. Urine dipstick is negative for haematuria. A CT abdomen shows a 6 cm abdominal aortic aneurysm with a hyperdense retroperitoneal collection adjacent to the aneurysm. What is the most likely diagnosis?",
+      "options": [
+        "Renal colic",
+        "Ruptured abdominal aortic aneurysm",
+        "Diverticulitis",
+        "Acute pancreatitis",
+        "Mesenteric ischaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The finding of a retroperitoneal haematoma adjacent to an AAA on CT is virtually diagnostic of aneurysm rupture. Renal colic would typically have haematuria and no haematoma; other options lack the specific imaging abnormality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9750e97953e1",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with a known 6 cm infrarenal abdominal aortic aneurysm presents with severe abdominal pain and hypotension. CT aortogram shows a 7 cm aneurysm with active extravasation of contrast into the retroperitoneum. What is the most accurate description of this finding?",
+      "options": [
+        "Aortic dissection",
+        "Mycotic aneurysm",
+        "Active haemorrhage (ruptured AAA)",
+        "Thrombosis",
+        "Contained rupture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Contrast extravasation is the definitive CT sign of active bleeding from a ruptured aneurysm, indicating free rupture. A contained rupture would show a haematoma without extravasation, while the other options are not supported by this imaging finding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c57cf606e0ae",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with a known 6.0 cm abdominal aortic aneurysm (AAA) presents with sudden severe back pain and hypotension (BP 85/50 mmHg, HR 115 bpm). A ruptured AAA is confirmed. He has suitable anatomy for endovascular repair. What is the most appropriate definitive treatment?",
+      "options": [
+        "Immediate transfer to the intensive care unit for stabilisation",
+        "CT angiography with contrast",
+        "Aggressive intravenous fluid resuscitation to normalise blood pressure",
+        "Emergency endovascular aneurysm repair (EVAR)",
+        "Emergency open surgical repair"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a ruptured AAA with suitable anatomy, emergency EVAR is the first-line definitive treatment per NICE guidelines, associated with lower peri-operative mortality than open repair. The other options are either supportive, diagnostic, or not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e4bc86af88f",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with a known AAA on surveillance presents with acute onset severe abdominal pain radiating to the back. She is hypotensive (BP 80/50 mmHg) and tender in the epigastrium. A ruptured AAA is suspected. Which of the following therapies is CONTRAINDICATED in the initial management?",
+      "options": [
+        "Morphine 5 mg intravenously for pain",
+        "Intravenous fluids to target a systolic blood pressure of 80-90 mmHg",
+        "Cross-match blood for potential transfusion",
+        "Beta-blocker (e.g., metoprolol) for heart rate control",
+        "Urgent CT abdomen to confirm diagnosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Beta-blockers are contraindicated in active haemorrhage because they can worsen hypotension and reduce cardiac output, potentially precipitating cardiac arrest. Permissive hypotension, analgesia, diagnostic imaging, and blood preparation are appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ae16137af49",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 85-year-old man with severe COPD and a history of previous open abdominal surgery presents with sudden collapse. He is found to have a ruptured infrarenal AAA. His anatomy is suitable for EVAR. What is the most appropriate definitive management?",
+      "options": [
+        "Transfer to a tertiary vascular centre",
+        "Emergency open surgical repair",
+        "Best medical management (palliative care)",
+        "Emergency endovascular aneurysm repair (EVAR)",
+        "Endovascular aortic balloon occlusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "In high-risk patients with suitable anatomy, emergency EVAR is preferred for ruptured AAA due to lower morbidity and mortality compared with open repair. Open repair carries higher risk given COPD and previous abdominal surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a47e47490b0e",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 75-year-old male with a known 5.5 cm AAA presents with acute severe abdominal pain and is found to have a ruptured AAA. He is haemodynamically unstable with a systolic blood pressure of 70 mmHg. His iliac arteries are tortuous and not suitable for EVAR. What is the most appropriate definitive therapy?",
+      "options": [
+        "Endovascular aortic balloon occlusion",
+        "Rapid intravenous fluid resuscitation to SBP >100 mmHg",
+        "Emergency endovascular aneurysm repair (EVAR)",
+        "CT angiography prior to any intervention",
+        "Emergency open surgical repair"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a haemodynamically unstable patient with unsuitable anatomy for EVAR, emergency open repair is the definitive treatment. Balloon occlusion is temporising, fluid over-resuscitation can worsen bleeding, and CT angiography causes unacceptable delay.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f20079a004b",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old fit woman with a known 4.5 cm AAA on surveillance presents with sudden severe back pain and vomiting. BP 100/60 mmHg, HR 110 bpm. CT confirms a ruptured infrarenal AAA with retroperitoneal haematoma. She has suitable anatomy for EVAR. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Transfer to a vascular centre without intervention",
+        "Scheduled elective repair in 2 weeks",
+        "Emergency endovascular aneurysm repair (EVAR)",
+        "Emergency open surgical repair",
+        "Conservative management with strict blood pressure control"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a ruptured AAA in a fit patient with suitable anatomy, emergency EVAR is first-line per NICE. Open repair is an alternative but more invasive. Conservative or elective management is inappropriate for a rupture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4e4a2f4c7b4c",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 75-year-old man presents to the emergency department with sudden onset of severe central abdominal pain radiating to his back. He is sweaty and clammy. His blood pressure is 90/60 mmHg, heart rate 110 bpm. On examination, there is a tender, pulsatile mass in the epigastrium. What is the single most appropriate immediate next action?",
+      "options": [
+        "Bedside abdominal ultrasound",
+        "CT abdomen with intravenous contrast",
+        "Call the vascular surgery registrar",
+        "Administer IV morphine 5 mg",
+        "Cross-match 4 units of blood and start a normal saline infusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture is highly suggestive of a ruptured abdominal aortic aneurysm with haemodynamic instability. The priority is to involve the vascular surgical team immediately for definitive surgical management. CT or ultrasound would cause a delay, and resuscitation alone is insufficient without the surgical team being activated. Analgesia is appropriate but not the immediate priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e300ba780957",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with a known 5.8 cm infrarenal abdominal aortic aneurysm under surveillance presents with a 2-day history of mild, constant lower back pain. He is haemodynamically stable (BP 130/80, HR 85). His abdomen is soft with mild tenderness in the midline. What is the single most appropriate immediate next action?",
+      "options": [
+        "Urgent CT aortogram",
+        "Refer to the vascular outpatient clinic",
+        "Perform a bedside abdominal ultrasound",
+        "Arrange elective endovascular aneurysm repair",
+        "Discharge with analgesia and advice to return if worsening"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with a known AAA and new back pain, even if stable, a contained rupture must be excluded. CT aortogram is the gold standard for diagnosis. Outpatient referral or elective repair would be inappropriate without imaging. Discharge is unsafe. Bedside ultrasound may suggest AAA but cannot reliably confirm rupture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aac57a1dd109",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman collapses in the emergency department waiting area. On arrival, she is unresponsive, has no palpable pulse, and her abdomen is distended. She is known to have a 7 cm AAA. Cardiopulmonary resuscitation is initiated. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer intravenous adrenaline 1 mg",
+        "Obtain a cross-match sample and request emergency blood",
+        "Call the vascular consultant",
+        "Perform focused abdominal ultrasound",
+        "Start chest compressions if not already done"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a cardiac arrest, immediate high-quality chest compressions are the priority as per resuscitation guidelines. While the underlying cause is a ruptured AAA, the immediate step is to follow the cardiac arrest algorithm. The other actions are important but should not delay compressions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f01b28e17f8d",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old man who underwent elective endovascular aneurysm repair (EVAR) 1 week ago presents with sudden severe back pain and hypotension (BP 85/50 mmHg, HR 115). He looks pale and clammy. What is the single most appropriate immediate next action?",
+      "options": [
+        "Perform bedside aortic ultrasound",
+        "Call the interventional radiology consultant",
+        "Urgent CT angiography",
+        "Administer IV crystalloid bolus and cross-match blood",
+        "Return to theatre immediately"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation is highly suspicious of a ruptured endoleak, a life-threatening complication post-EVAR. The immediate step is to activate the interventional radiology team for potential emergency endovascular repair. CT angiography would delay and is likely needed but the patient is unstable; the team must be alerted. Returning to theatre may be inappropriate if the leak can be managed endovascularly. Fluid resuscitation should be done simultaneously but is not the single most important action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2c063b64f206",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 82-year-old man with a known 6 cm AAA and severe COPD, deemed unfit for surgical or endovascular repair, is brought in with acute abdominal pain. His blood pressure is 100/60 mmHg, heart rate 105 bpm. He has a DNACPR order in place. He is alert and in distress. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer IV morphine and start a glyceryl trinitrate infusion",
+        "Arrange an urgent family meeting to discuss goals of care",
+        "Urgent CT aortogram",
+        "Resuscitate with IV fluids and call the intensive care team",
+        "Call the vascular consultant"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with a potentially ruptured AAA who is not a candidate for repair, the immediate priority is to involve the vascular consultant to confirm the management plan and avoid unnecessary interventions. CT may be considered but only after discussion. Analgesia and end-of-life care may be appropriate but should be guided by the consultant. Fluid resuscitation might be inappropriate if the decision is for comfort care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6cbb97ae78e6",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 74-year-old man presents to the emergency department with sudden onset of severe, tearing abdominal and back pain. He reports feeling faint. On examination, he is pale and diaphoretic, heart rate 115 bpm, blood pressure 80/50 mmHg. There is a large, tender, pulsatile mass in the epigastrium. Which single finding most strongly indicates that this is a life-threatening emergency requiring immediate intervention?",
+      "options": [
+        "Severe abdominal pain",
+        "Tachycardia",
+        "Hypotension (systolic BP < 90 mmHg)",
+        "Pulsatile abdominal mass",
+        "Faintness"
+      ],
+      "answerIndex": 2,
+      "explanation": "While the pulsatile mass is pathognomonic for AAA, the presence of hypotension (systolic BP < 90) signifies hypovolaemic shock from rupture, which is the immediate life-threatening feature. The combination of hypotension and a pulsatile mass is diagnostic of ruptured AAA and mandates urgent surgical intervention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bb28f4a51ca8",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with no known AAA presents with acute left flank pain radiating to the testicle. He is nauseated but has not vomited. Urine dipstick shows 1+ blood. His blood pressure is 150/90 mmHg and heart rate 90 bpm. He is in moderate discomfort but mobilising. On abdominal examination, there is no palpable mass. Which single feature, if present, would most strongly suggest a ruptured AAA rather than renal colic?",
+      "options": [
+        "Tenderness over the left costovertebral angle",
+        "A history of smoking (40 pack-years)",
+        "Age > 70 years",
+        "A pulsatile abdominal mass",
+        "Microscopic haematuria"
+      ],
+      "answerIndex": 3,
+      "explanation": "A pulsatile abdominal mass is the most specific sign of AAA. In an elderly patient with flank pain and no CVA tenderness, a palpable mass strongly points to ruptured AAA rather than ureteric colic. Absence of mass does not exclude rupture, but its presence is diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0a13ade8725",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman with a known 6 cm infrarenal AAA under sonographic surveillance presents after collapsing at home. She had a 30-second episode of loss of consciousness without any prodrome. On arrival, she is alert, heart rate 80 bpm, blood pressure 135/75 mmHg. The aneurysm is non-tender on palpation. Which single finding is the strongest red flag for a contained rupture?",
+      "options": [
+        "Age 78 years",
+        "Non-tender aneurysm",
+        "AAA size 6 cm",
+        "Female sex",
+        "Loss of consciousness"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with a known AAA, syncope can be the only presenting symptom of a contained rupture, as transient hypotension may occur from bleeding that then tamponades. The absence of tenderness does not exclude rupture. Syncope is a red flag requiring immediate imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "03d78c8c5c1b",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man underwent elective endovascular aneurysm repair (EVAR) for a 6.5 cm AAA 8 months ago. He now presents with acute onset of central abdominal and low back pain. His blood pressure is 105/70 mmHg, heart rate 100 bpm. On abdominal examination, there is some tenderness but no distinct mass. Which single clinical finding is most concerning for an endoleak with rupture?",
+      "options": [
+        "Tenderness over the aneurysm sac",
+        "Reduced femoral pulses",
+        "Diastolic hypertension",
+        "Pulsatility of the aneurysm sac on palpation",
+        "Bruit over the endograft"
+      ],
+      "answerIndex": 0,
+      "explanation": "After EVAR, a tender aneurysm sac suggests sac expansion due to an endoleak, which can lead to rupture. Pulsatility of the sac may be normal in the presence of an endoleak, but tenderness is a specific sign of inflammation or impending rupture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67ef7c989e62",
+      "topic": "Ruptured Abdominal Aortic Aneurysm",
+      "slug": "ruptured-abdominal-aortic-aneurysm",
+      "system": "Vascular Surgery",
+      "subSystem": "Aortic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with a history of hypertension and previous open repair of a ruptured AAA 5 years ago presents with a single episode of haematemesis and lower back pain. He is haemodynamically stable. Which single piece of information from the history or examination most strongly suggests that the haematemesis is caused by an aorto-enteric fistula?",
+      "options": [
+        "Haematemesis itself",
+        "Previous open AAA repair",
+        "Back pain",
+        "Age over 80",
+        "Hypertension"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aorto-enteric fistula is a late complication of open AAA repair, presenting with haematemesis and back pain. The history of previous repair is the key risk factor that should prompt urgent investigation (e.g., CT angiography) to exclude this life-threatening condition.",
+      "difficulty": "hard"
+    }
+  ]
+}

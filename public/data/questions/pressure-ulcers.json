@@ -1,0 +1,513 @@
+{
+  "topic": "Pressure Ulcers",
+  "slug": "pressure-ulcers",
+  "system": "Dermatology",
+  "subSystem": "Ulcer",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:37:24Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "a06533399187",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman is admitted for pneumonia. On examination, there is a well-defined area of erythema over the sacrum that does not blanch on finger pressure. The skin is intact, no blistering or breakdown. What is the single most likely diagnosis?",
+      "options": [
+        "Cellulitis",
+        "Contusion",
+        "Deep tissue injury",
+        "Stage 1 pressure ulcer",
+        "Incontinence-associated dermatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Non-blanchable erythema over a bony prominence with intact skin is characteristic of a stage 1 pressure ulcer, unlike blanching erythema of reactive hyperaemia or dermatitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8692b1c97706",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 62-year-old man with diabetes and peripheral neuropathy presents with a shallow ulcer over the left heel. The wound bed is pink and moist, with a clear blister edge. There is no surrounding redness or oedema. He wears tight shoes. What is the single most likely diagnosis?",
+      "options": [
+        "Stage 2 pressure ulcer",
+        "Diabetic foot ulcer",
+        "Arterial ulcer",
+        "Venous stasis ulcer",
+        "Friction blister"
+      ],
+      "answerIndex": 0,
+      "explanation": "The shallow ulcer with blister edge over a bony prominence (heel) from pressure/friction is typical of a stage 2 pressure ulcer; diabetic foot ulcers are usually on the plantar surface and lack blister edge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "77f86fbd91f1",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old immobile man has a discoloured area on his sacrum, initially thought to be a bruise, but over 48 hours it has become dusky, purple, and boggy. He develops severe pain and fever. On examination, there is crepitus and foul-smelling discharge. What is the single most likely diagnosis?",
+      "options": [
+        "Unstageable pressure ulcer",
+        "Haematoma",
+        "Cellulitis",
+        "Deep tissue injury",
+        "Necrotising fasciitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rapid progression, systemic signs, crepitus, and foul discharge suggest necrotising fasciitis complicating a pressure ulcer; deep tissue injury is a precursor but lacks systemic infection and gas.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bb836e9ed9e5",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old paraplegic man has a chronic sacral pressure ulcer for 18 months. Recently, the edge has become rolled and raised, and a friable exophytic mass has developed in the wound bed. What is the single most likely diagnosis?",
+      "options": [
+        "Pyoderma gangrenosum",
+        "Arterial ulcer",
+        "Basal cell carcinoma",
+        "Venous stasis ulcer",
+        "Marjolin's ulcer (squamous cell carcinoma)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chronic non-healing wounds with rolled everted edges and exophytic growth are classic for malignant transformation, most commonly squamous cell carcinoma (Marjolin's ulcer).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b44cc4c24d14",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with sepsis and on high-dose noradrenaline develops a painful, well-demarcated area of purple discolouration over the sacrum within 24 hours. The skin feels firm and oedematous. She has no history of pressure sores. What is the single most likely diagnosis?",
+      "options": [
+        "Cutaneous necrosis from vasopressors",
+        "Livedo reticularis",
+        "Purpura fulminans",
+        "Deep tissue injury",
+        "Stage 1 pressure ulcer"
+      ],
+      "answerIndex": 3,
+      "explanation": "The purple, firm, painful area over a bony prominence in a patient with hypoperfusion and vasopressor use is classic for deep tissue injury due to pressure and ischaemia; vasopressor necrosis typically affects acral sites.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b97ddd790a3c",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man is noted to have a small blister on his heel after being immobile following a hip fracture. The blister is intact with clear fluid, and the surrounding skin is erythematous but blanches on pressure. What is the most appropriate classification for this pressure ulcer?",
+      "options": [
+        "Grade 3",
+        "Grade 4",
+        "Grade 2",
+        "Unstageable",
+        "Grade 1"
+      ],
+      "answerIndex": 2,
+      "explanation": "This describes partial-thickness skin loss with a blister, which corresponds to Grade 2 in the EPUAP/NPUAP classification. Grade 1 is non-blanchable erythema without skin loss, while Grade 3 involves full-thickness skin loss, and Grade 4 involves bone or muscle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "17e30744d0c4",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with a Grade 3 sacral pressure ulcer has not improved after 6 weeks of standard care. The wound base contains slough, a foul odour is present, and a probe-to-bone test is positive. Which investigation is most appropriate to confirm the presence of osteomyelitis?",
+      "options": [
+        "CT scan",
+        "Plain radiograph",
+        "Bone scan",
+        "Wound swab culture",
+        "MRI with contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "MRI is the first-line imaging modality for diagnosing osteomyelitis in pressure ulcers due to its high sensitivity and specificity. Plain radiographs often appear normal in early disease, and bone scans are less specific. Swab culture reflects surface flora, not deep infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b49b205b11a",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 85-year-old nursing home resident with a deep pressure ulcer on the hip develops rapidly spreading erythema, severe pain disproportionate to exam findings, and palpable crepitus. She is febrile and hypotensive. Which investigation is most likely to confirm the suspected diagnosis?",
+      "options": [
+        "Surgical exploration with tissue biopsy",
+        "MRI of the pelvis",
+        "CT scan of the pelvis",
+        "Blood cultures",
+        "Ultrasound of the soft tissues"
+      ],
+      "answerIndex": 0,
+      "explanation": "Necrotising fasciitis is a surgical emergency. Prompt surgical exploration with tissue biopsy for frozen section and Gram stain is the gold standard for diagnosis and should not be delayed for imaging. Blood cultures may support the diagnosis but do not confirm it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a153feed9ba9",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a spinal cord injury has a Stage 4 pressure ulcer over the ischium. The wound is deep, and a sinus tract is identified. Which imaging modality is most appropriate to delineate the extent of the sinus tract?",
+      "options": [
+        "MRI with contrast",
+        "Ultrasound",
+        "Sinography",
+        "Plain radiograph",
+        "CT scan without contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI provides the best soft-tissue resolution and is the modality of choice for assessing the depth and extent of sinus tracts and underlying bone involvement. Sinography is less sensitive, and contrast material may not reach all extensions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd1298b66e6d",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman in a nursing home presents with erythema and skin breakdown in the perineal area. The skin changes have irregular borders and involve the gluteal folds, but there is no overlying bony prominence. Which finding is most suggestive of incontinence-associated dermatitis rather than a pressure ulcer?",
+      "options": [
+        "Presence of eschar",
+        "Depth to muscle",
+        "Blanching erythema",
+        "Location over a bony prominence",
+        "Irregular shape of the lesion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Incontinence-associated dermatitis typically presents with irregular, diffuse erythema and maceration in the perineal area, while pressure ulcers are more localized to bony prominences and have a defined, often oval or round shape. Blanching erythema can occur in both but is more consistent with early stage I pressure ulcer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dbe7ca6e2518",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 82-year-old woman is admitted after a fall. On examination, she has a superficial pressure ulcer on the sacrum measuring 3 cm × 2 cm with a thin layer of yellow slough and minimal exudate. The surrounding skin is intact. What is the most appropriate first-line dressing for this ulcer?",
+      "options": [
+        "Foam dressing",
+        "Hydrogel dressing",
+        "Semi-permeable film dressing",
+        "Alginate dressing",
+        "Hydrocolloid dressing"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends a hydrogel dressing for sloughy pressure ulcers to promote autolytic debridement. Alginate and foam dressings are better for exudate, but this wound has minimal exudate and slough is present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2318b8bf42be",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with a category 4 pressure ulcer on his sacrum has developed systemic signs of infection: temperature 38.5°C, heart rate 105/min, and WCC 18×10⁹/L. The wound is covered in thick black eschar with purulent discharge. Blood cultures are pending. What is the most appropriate immediate management?",
+      "options": [
+        "Negative pressure wound therapy",
+        "Start intravenous antibiotics alone",
+        "Topical silver sulphadiazine cream",
+        "Surgical debridement of necrotic tissue",
+        "Application of an enzymatic debriding agent"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sepsis from a necrotic pressure ulcer requires urgent surgical debridement for source control. Antibiotics alone are insufficient without removal of necrotic tissue. Enzymatic agents are too slow, and negative pressure is contraindicated on infected tissue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3e1c66c82211",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old woman has a category 3 pressure ulcer on the buttock. The wound is deep, with a 4 cm cavity, and produces copious amount of serous exudate. The wound bed is 50% granulation tissue and 50% slough. What is the most appropriate dressing to manage the exudate?",
+      "options": [
+        "Foam dressing",
+        "Hydrocolloid dressing",
+        "Alginate dressing",
+        "Low-adherent dressing",
+        "Hydrogel dressing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alginate dressings are highly absorbent and suitable for cavitated wounds with heavy exudate. Foam dressings are for moderate exudate but less effective in deep cavities. Hydrogel is for slough, not exudate management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70270acdf744",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with type 2 diabetes and known peripheral arterial disease presents with a non-healing pressure ulcer on his heel. The ankle-brachial pressure index is 0.5. The wound has a dry eschar with no signs of infection. Before revascularisation, which of the following treatments is contraindicated?",
+      "options": [
+        "Offloading the heel with a specialist boot",
+        "Pressure redistribution mattress",
+        "Sharp debridement of the eschar",
+        "Use of a hydrogel dressing",
+        "Application of a low-adherent dressing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sharp debridement is contraindicated in critically ischaemic limbs until revascularisation because it can worsen ischaemia and cause extension of gangrene. Offloading and moist dressings are safe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "af0d1a50ddba",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old tetraplegic man has a category 4 pressure ulcer over his ischial tuberosity that has been debrided and is now clean with granulating tissue but slow to heal after 6 weeks of standard care. What is the most appropriate adjunctive therapy to promote healing?",
+      "options": [
+        "Low-level laser therapy",
+        "Negative pressure wound therapy (NPWT)",
+        "Intermittent pneumatic compression",
+        "Hyperbaric oxygen therapy",
+        "Topical platelet-derived growth factor"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends NPWT for category 3 and 4 pressure ulcers to promote granulation and wound contraction. Hyperbaric oxygen and growth factors lack strong evidence or are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6e4017f2f90",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman admitted with pneumonia has been bedbound for 3 days. A nurse notices a new area of non-blanchable erythema over her sacrum. What is the most appropriate next step?",
+      "options": [
+        "Start prophylactic antibiotics",
+        "Request an urgent tissue viability referral",
+        "Apply a hydrocolloid dressing",
+        "Commence regular repositioning 2-hourly",
+        "Measure and photograph the area"
+      ],
+      "answerIndex": 3,
+      "explanation": "Non-blanchable erythema is a Stage 1 pressure ulcer. Immediate priority is pressure relief, which is achieved by regular repositioning. Dressings are not indicated for Stage 1 ulcers. Antibiotics are unnecessary. Photographing and referral are secondary actions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b8bf0a5f2b7e",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old ambulant man has a Category 3 pressure ulcer on his right heel, 2 cm deep, with no slough or exudate and no signs of infection. What is the most appropriate next step?",
+      "options": [
+        "Prescribe a pressure-relieving heel boot",
+        "Apply a foam dressing",
+        "Refer for surgical closure",
+        "Start oral antibiotics",
+        "Debride with a scalpel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Offloading pressure is essential for heel ulcers. A heel boot provides directed pressure relief. Debridement is not needed as there is no necrotic tissue. Surgical closure is not first-line. Antibiotics are not indicated without infection. Foam dressing is secondary to offloading.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2297961d3006",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old nursing home resident has a sacral pressure ulcer with spreading cellulitis, purulent discharge, temperature 38.5°C, and CRP 200 mg/L. What is the most appropriate next step?",
+      "options": [
+        "Perform blood cultures",
+        "Start IV piperacillin-tazobactam",
+        "Take a wound swab for culture",
+        "Apply a silver-impregnated dressing",
+        "Arrange urgent surgical debridement"
+      ],
+      "answerIndex": 4,
+      "explanation": "Systemic signs and spreading cellulitis suggest possible necrotising fasciitis or deep infection. Urgent surgical debridement is life-saving and must precede antibiotics. Cultures and blood cultures are important but not the immediate action. Dressing is inappropriate",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7b181f3f4597",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman has a Category 4 pressure ulcer on her trochanter with exposed bone. Wound swab grew mixed organisms and MRI shows osteomyelitis of the underlying femur. What is the most appropriate next step?",
+      "options": [
+        "Start IV antibiotics alone",
+        "Initiate bisphosphonate therapy",
+        "Refer to orthopaedics for surgical debridement",
+        "Apply negative pressure wound therapy",
+        "Discuss with microbiology for targeted antibiotics"
+      ],
+      "answerIndex": 2,
+      "explanation": "Osteomyelitis in pressure ulcers often requires surgical removal of infected bone. Antibiotics alone are insufficient. Negative pressure therapy and microbiology advice are adjuncts after surgical source control. Bisphosphonates are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c2454a5e496a",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old paraplegic man has a Stage 2 sacral pressure ulcer that is healing well. He is malnourished and has poor mobility. What is the most appropriate next step for secondary prevention?",
+      "options": [
+        "Commence weekly tissue viability clinic follow-up",
+        "Refer to dietitian for structured nutritional support",
+        "Arrange a pressure-relieving mattress",
+        "Prescribe a high-calorie oral nutritional supplement",
+        "Instruct on regular repositioning every 4 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "Malnutrition is a key modifiable risk factor. Referral to a dietitian provides comprehensive assessment and tailored nutritional support, addressing the underlying cause. Mattresses and repositioning are important but nutritional intervention is the immediate priority given the context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e10e8ad5ce8c",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 74-year-old woman is found on the ward with a dark purple, non-blanchable area over her sacrum after lying in bed for 3 days following a fall. The skin is intact. She is incontinent. Which single feature distinguishes a deep tissue injury from a simple bruise?",
+      "options": [
+        "Presence of blisters",
+        "Localized pain",
+        "Non-blanchable deep purple discoloration",
+        "Blanchable erythema",
+        "Swelling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Deep tissue injury presents as a non-blanchable deep purple area, whereas a bruise typically blushes with pressure. This requires urgent pressure offloading to prevent progression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "62bcb528e70e",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with diabetes has a chronic heel pressure ulcer that has not healed for 8 weeks. The wound has a small area of exposed bone. Which clinical sign is most specific for underlying osteomyelitis?",
+      "options": [
+        "Periwound cellulitis",
+        "Positive probe to bone test",
+        "Wound size > 4 cm",
+        "Purulent discharge",
+        "Foul odor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive probe to bone test has high specificity for osteomyelitis in pressure ulcers. Purulent discharge and cellulitis are common but not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f5c5764bffd7",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old nursing home resident with a sacral pressure ulcer develops rapidly widening erythema over 12 hours. On examination, you note crepitus on palpation of the surrounding skin. Which single finding indicates a life-threatening necrotizing infection?",
+      "options": [
+        "Crepitus",
+        "Tachycardia > 100/min",
+        "Leukocytosis",
+        "Fever > 38°C",
+        "Foul-smelling discharge"
+      ],
+      "answerIndex": 0,
+      "explanation": "Crepitus is a sign of gas in tissues, highly suggestive of necrotizing fasciitis, a surgical emergency. Systemic signs are less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aaeeefa647da",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman has a longstanding sacral pressure ulcer present for 3 years. Recently, the ulcer has developed raised, firm, rolled edges with a friable base that bleeds easily on contact. Which feature raises concern for malignant transformation?",
+      "options": [
+        "Periwound maceration",
+        "Deep undermining",
+        "Granulating wound bed",
+        "Rolled, everted wound edges",
+        "Yellow slough in wound base"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rolled, everted edges (pearly, raised) are characteristic of squamous cell carcinoma (Marjolin's ulcer). Slough, maceration, and granulation are common in non-malignant ulcers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0389194d8f46",
+      "topic": "Pressure Ulcers",
+      "slug": "pressure-ulcers",
+      "system": "Dermatology",
+      "subSystem": "Ulcer",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old paraplegic man presents with a sacral pressure ulcer that has acutely worsened. The skin around the ulcer is dusky with hemorrhagic bullae, and he has severe pain out of proportion to exam. Which finding is most concerning for a rapidly progressive infection?",
+      "options": [
+        "Erythema extending 2 cm from edge",
+        "Hemorrhagic bullae",
+        "Peripheral oedema",
+        "Granulation tissue in base",
+        "Moderate exudate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hemorrhagic bullae are a classic sign of necrotizing fasciitis, indicating ischaemic skin necrosis and requiring emergency surgical debridement.",
+      "difficulty": "medium"
+    }
+  ]
+}

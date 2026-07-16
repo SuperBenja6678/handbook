@@ -1,0 +1,513 @@
+{
+  "topic": "Cardiac Tamponade",
+  "slug": "cardiac-tamponade",
+  "system": "Cardiovascular",
+  "subSystem": "Pericardial disease",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:28:57Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0aeebd5e376e",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with metastatic lung cancer presents to the emergency department with acute dyspnoea and dizziness. On examination, she is hypotensive (BP 85/50 mmHg), tachycardic (HR 110 bpm), and has elevated jugular venous pressure. Heart sounds are muffled, and there is pulsus paradoxus of 14 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax",
+        "Constrictive pericarditis",
+        "Pulmonary embolism",
+        "Cardiogenic shock (acute MI)",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of hypotension, raised JVP, and muffled heart sounds (Beck's triad) plus pulsus paradoxus is classic for cardiac tamponade. Constrictive pericarditis lacks acute hypotension and often has a 'dip and plateau' pattern; pulmonary embolism would not cause muffled heart sounds; tension pneumothorax would have tracheal deviation and absent breath sounds; cardiogenic shock would have crackles and possibly a raised JVP but not muffled sounds.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ae63ff4bbfd",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man on haemodialysis for end-stage renal disease presents with gradually worsening dyspnoea and fatigue over two weeks. He reports occasional chest discomfort. Observations: BP 100/60 mmHg (sitting), HR 95 bpm, JVP elevated to 8 cm above sternal angle, no peripheral oedema. A chest X-ray shows enlarged cardiac silhouette. What is the single most likely diagnosis?",
+      "options": [
+        "Diastolic dysfunction from left ventricular hypertrophy",
+        "Constrictive pericarditis",
+        "Fluid overload (hypervolaemia)",
+        "Restrictive cardiomyopathy",
+        "Uraemic pericardial effusion with tamponade"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a dialysis patient with uraemia, gradual onset of dyspnoea, elevated JVP, and enlarged cardiac silhouette suggests uraemic pericardial effusion; tamponade can develop insidiously. Fluid overload would typically have peripheral oedema and pulmonary congestion; constrictive pericarditis and restrictive cardiomyopathy do not typically show an enlarged cardiac silhouette on CXR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c19b8b3543fe",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old man is brought to the emergency department after a stab wound to the left chest. He is agitated, hypotensive (BP 75/40 mmHg), with distended neck veins and tachycardia. Breath sounds are equal bilaterally. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax",
+        "Rupture of the thoracic aorta",
+        "Pericardial rupture",
+        "Cardiac tamponade",
+        "Massive haemothorax"
+      ],
+      "answerIndex": 3,
+      "explanation": "Penetrating chest injury with hypotension, distended neck veins, and equal breath sounds points to cardiac tamponade rather than tension pneumothorax (which would have absent breath sounds and tracheal shift). Massive haemothorax would cause dullness and decreased breath sounds; aortic rupture typically presents with wide mediastinum and pulse deficits; pericardial rupture is rare and would not cause raised JVP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f137be2d1d7b",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman on warfarin for atrial fibrillation presents with two weeks of progressive fatigue, mild dyspnoea, and vague chest discomfort. Observations: BP 110/70 mmHg (no orthostatic change), HR 95 bpm, JVP elevated 5 cm, no peripheral oedema. There is pulsus paradoxus of 12 mmHg. ECG shows low-voltage QRS and electrical alternans. What is the single most likely diagnosis?",
+      "options": [
+        "Heart failure with preserved ejection fraction",
+        "Cardiac tamponade (slow-onset)",
+        "Anaemia due to warfarin",
+        "Pulmonary embolism",
+        "Exacerbation of COPD"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pulsus paradoxus, elevated JVP, low-voltage QRS, and electrical alternans are classic for pericardial effusion/tamponade. In an elderly anticoagulated patient, this subacute presentation suggests a slow accumulation of blood in the pericardium. Anaemia would not cause JVP elevation or electrical alternans; COPD would have wheeze and hyperinflation; PE would likely have pleuritic pain and hypoxaemia; HFpEF would not cause electrical alternans.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "62aa275045f2",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with systemic lupus erythematosus presents with pleuritic chest pain, dyspnoea, and low-grade fever. On examination, she has a pericardial rub. Over the next 24 hours, her blood pressure drops to 90/50 mmHg, JVP rises, and heart sounds become muffled. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Myocarditis due to SLE",
+        "Uncomplicated pericarditis",
+        "Cardiac tamponade secondary to lupus pericarditis",
+        "Acute myocardial infarction (vasculitic)"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient with SLE initially has pericarditis (rub), then develops features of tamponade (hypotension, raised JVP, muffled sounds) indicating progression to a pericardial effusion causing tamponade. Myocarditis would present with heart failure and arrhythmias; MI would have ECG changes and cardiac enzymes; PE would have respiratory symptoms; uncomplicated pericarditis would not cause haemodynamic compromise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f2bd8b3194e8",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents to the emergency department with progressive breathlessness, lightheadedness, and sharp central chest pain worse on lying flat. On examination, heart rate 110/min, blood pressure 90/60 mmHg, raised jugular venous pressure, and muffled heart sounds. ECG shows sinus tachycardia with low voltage QRS complexes. What is the single most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "CT pulmonary angiogram",
+        "Right heart catheterisation",
+        "Transoesophageal echocardiogram",
+        "Transthoracic echocardiogram",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 3,
+      "explanation": "The classic Beck's triad (hypotension, raised JVP, muffled heart sounds) plus low-voltage ECG is highly suggestive of cardiac tamponade. Transthoracic echocardiography is the first-line, non-invasive investigation to confirm pericardial effusion and signs of haemodynamic compromise, such as right atrial or right ventricular collapse.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b6290b1ab0f2",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man is day 2 post-coronary artery bypass grafting. He becomes hypotensive (80/40 mmHg) and tachycardic (120/min) with a raised JVP. Chest tubes drain minimal fluid. Concern about cardiac tamponade. The patient is on the intensive care unit. What is the most appropriate next diagnostic step?",
+      "options": [
+        "Pericardiocentesis",
+        "Bedside focused echocardiography",
+        "Portable chest X-ray",
+        "Right heart catheterisation",
+        "CT thorax"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a critically ill postoperative patient, bedside focused echocardiography (e.g., intensive care point-of-care ultrasound) rapidly detects pericardial effusion and tamponade physiology. It is immediately available, non-invasive, and avoids the risks of transferring a haemodynamically unstable patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fbf44ff5c55b",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with breast cancer on chemotherapy presents with two weeks of dyspnoea and ankle oedema. Heart rate 95/min, BP 105/70 mmHg, pulsus paradoxus 12 mmHg. Echocardiogram shows a moderate circumferential pericardial effusion. Which echocardiographic finding is most specific for confirming cardiac tamponade?",
+      "options": [
+        "Right ventricular diastolic collapse",
+        "Mitral valve prolapse",
+        "Aortic root dilatation",
+        "Increased pericardial echogenicity",
+        "Left atrial enlargement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Right ventricular diastolic collapse on echocardiography is a highly specific sign of cardiac tamponade, indicating that intrapericardial pressure exceeds right ventricular filling pressure. Other findings like right atrial collapse are sensitive but less specific; the other options are not direct signs of tamponade.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2dba0d6d26b1",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman undergoes emergency pericardiocentesis for cardiac tamponade secondary to a pericardial effusion. 400 mL of blood-stained fluid is drained, but 10 minutes later her blood pressure remains 85/55 mmHg and JVP is still elevated. What is the most appropriate next investigation to guide further management?",
+      "options": [
+        "Chest X-ray",
+        "CT angiogram of the chest",
+        "Right heart catheterisation",
+        "Repeat echocardiogram",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 3,
+      "explanation": "Persistent hypotension after drainage suggests loculated or reaccumulated effusion, or a different cause. A repeat bedside echocardiogram is quick and can identify residual effusion with tamponade physiology. CT/MRI are not immediately available, and CXR is not diagnostic for tamponade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "89e189bacd2d",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation presents with sudden breathlessness, dizziness, and sharp chest pain. Heart rate 115/min, BP 95/60 mmHg, raised JVP, and pulsus paradoxus 15 mmHg. What is the single most appropriate investigation to confirm the suspected diagnosis?",
+      "options": [
+        "Ventilation-perfusion scan",
+        "Transthoracic echocardiogram",
+        "CT pulmonary angiogram",
+        "Chest X-ray",
+        "ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clinical features suggest cardiac tamponade. Transthoracic echocardiography is the safest and most appropriate first-line investigation in pregnancy because it avoids ionising radiation. It can rapidly confirm a pericardial effusion with haemodynamic compromise. Other options involve radiation or are non-diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "994d1f79155f",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with metastatic lung cancer presents with dyspnoea, hypotension (BP 85/50 mmHg), distended neck veins, and pulsus paradoxus of 20 mmHg. Bedside echocardiogram shows a large pericardial effusion with right atrial and right ventricular diastolic collapse. What is the most appropriate definitive treatment?",
+      "options": [
+        "Colchicine",
+        "Non-steroidal anti-inflammatory drugs",
+        "Pericardial window",
+        "Pericardiocentesis",
+        "Intravenous fluids"
+      ],
+      "answerIndex": 3,
+      "explanation": "Haemodynamic tamponade requires urgent drainage; pericardiocentesis is the fastest definitive therapy. Pericardial window is for recurrent effusions; NSAIDs and colchicine are for pericarditis, not tamponade with shock.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ae47d25910c8",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old primigravida at 30 weeks gestation presents with acute dyspnoea and chest pain. She is hypotensive (BP 90/60) with tachycardia and raised JVP. Echocardiogram shows a large pericardial effusion with tamponade. What is the most appropriate definitive treatment?",
+      "options": [
+        "Intravenous fluids and inotropes",
+        "Pericardiocentesis under echo guidance",
+        "Pericardial window under general anaesthesia",
+        "Emergency Caesarean section",
+        "Corticosteroids for pericarditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnant women with tamponade, echo-guided pericardiocentesis is safe and effective, avoiding risks of general anaesthesia and surgery. Caesarean section does not treat tamponade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6dd4ea71eaa3",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man undergoes aortic valve replacement. On day 2, he becomes hypotensive (BP 80/50), tachycardic, and has elevated JVP. Chest X-ray shows a widened mediastinum. Transthoracic echocardiogram is inconclusive, but transoesophageal echocardiogram shows a large pericardial collection with tamponade. What is the most appropriate definitive treatment?",
+      "options": [
+        "Pericardiocentesis",
+        "Emergency re-sternotomy",
+        "Thrombolysis",
+        "Intravenous fluids and vasopressors",
+        "Computed tomography-guided drainage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-cardiac surgery tamponade is often due to clotted blood, which cannot be drained via needle; emergency re-sternotomy allows direct evacuation. Other options are temporising or ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ba94debf14cc",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with metastatic breast cancer undergoes elective pericardiocentesis for a large pericardial effusion causing mild symptoms. After drainage of 600 ml, she improves. However, 3 days later she re-presents with dyspnoea and echocardiogram shows re-accumulation of a large effusion with tamponade. What is the most appropriate definitive treatment?",
+      "options": [
+        "Intrapericardial sclerotherapy",
+        "Pericardial window",
+        "High-dose corticosteroids",
+        "Systemic chemotherapy",
+        "Repeat pericardiocentesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recurrent malignant effusion after initial drainage requires a more permanent solution; pericardial window provides definitive long-term drainage. Repeat pericardiocentesis is temporary; sclerotherapy is an alternative but not the standard first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb7df58faee7",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with sudden onset tearing chest pain radiating to the back, hypotension, and a widened mediastinum on chest X-ray. Echocardiogram shows a large pericardial effusion with tamponade. CT aortogram reveals a type A aortic dissection. What is the most appropriate definitive treatment?",
+      "options": [
+        "Intravenous fluids and vasopressors",
+        "Pericardial window",
+        "Emergency surgical repair of the aorta",
+        "Intravenous beta-blockers",
+        "Pericardiocentesis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In tamponade secondary to type A aortic dissection, definitive treatment is emergency surgical repair. Pericardiocentesis is contraindicated as it can precipitate haemodynamic collapse and worsen the dissection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "277b0e9613a4",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man, day 1 post-CABG, develops sudden hypotension (BP 95/60), heart rate 110, raised JVP, and muffled heart sounds. He is awake and orientated. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent transthoracic echocardiogram",
+        "Administer a 500 mL intravenous fluid bolus",
+        "Start a noradrenaline infusion",
+        "Call the cardiothoracic surgeon for emergency re-sternotomy",
+        "Perform emergency pericardiocentesis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Echocardiography is the key diagnostic test to confirm tamponade before any invasive procedure. Pericardiocentesis would be premature without imaging evidence, and the patient is stable enough to wait for echo.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca46d2d1c025",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with metastatic lung cancer had a percutaneous pericardial drain inserted 6 hours ago for tamponade. Drain output has stopped, and she now has raised JVP and BP 95/60 (previously 120/70). What is the most appropriate immediate next step?",
+      "options": [
+        "Attempt to aspirate or gently flush the drain",
+        "Remove the drain",
+        "Increase opioid analgesia",
+        "Give a 250 mL intravenous fluid bolus",
+        "Request an urgent echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "A blocked drain is the likely cause; the immediate bedside action is to check patency by gentle aspiration or flush. An echo can be done later if unsuccessful or if deterioration continues.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4b78bb12e3a2",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known large pericardial effusion (awaiting drainage) becomes acutely drowsy, BP 65/40, pulse 130, raised JVP, and muffled heart sounds. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer a 500 mL intravenous fluid bolus",
+        "Perform emergency pericardiocentesis",
+        "Request a CT chest",
+        "Start a noradrenaline infusion",
+        "Request an urgent echocardiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "In extremis with high clinical suspicion of tamponade, pericardiocentesis is life-saving and should not be delayed for imaging. Fluids and inotropes are temporising but do not relieve tamponade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51ce09923717",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man on haemodialysis for end-stage renal disease presents with dyspnoea, BP 90/60, raised JVP, and pulsus paradoxus. He has no prior history of pericardial disease. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an urgent echocardiogram",
+        "Give intravenous calcium gluconate",
+        "Perform pericardiocentesis",
+        "Start haemodialysis",
+        "Administer a 500 mL intravenous fluid bolus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Echocardiography is essential to confirm tamponade before proceeding to pericardiocentesis. Dialysis alone will not relieve acute tamponade; fluids are relatively contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "525664389f06",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "During an attempted right internal jugular central line insertion, the patient becomes hypotensive (BP 70/40) with acute dyspnoea and raised JVP. The needle was inserted deeply. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a chest drain on the right side",
+        "Start CPR (as per ALS protocol)",
+        "Give a 500 mL intravenous fluid bolus",
+        "Remove the central line immediately",
+        "Request an urgent echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "If tamponade is due to vessel or pericardial puncture by the catheter, immediate removal of the line stops further filling and may improve haemodynamics. Echocardiography can follow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "264188917d21",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with metastatic lung cancer presents with dyspnoea. JVP is 8 cm, BP 90/60 mmHg, HR 110 bpm, heart sounds muffled. Which single finding on echocardiography would trigger emergency pericardiocentesis?",
+      "options": [
+        "Low voltage QRS complexes",
+        "Pericardial thickening",
+        "Right atrial collapse lasting >1/3 of systole",
+        "Pericardial effusion >1 cm",
+        "Electrical alternans on ECG"
+      ],
+      "answerIndex": 2,
+      "explanation": "Echocardiographic evidence of right atrial collapse (especially >1/3 of systole) indicates haemodynamic compromise from tamponade and is the definitive trigger for drainage. A large effusion alone does not imply tamponade; electrical alternans and low voltage are supportive but not direct thresholds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb04abc39f9c",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with systemic lupus erythematosus presents with pleuritic chest pain and dyspnoea. BP 100/70 mmHg, HR 105 bpm, JVP 6 cm. ECG shows low voltage. Which physical examination finding would most strongly suggest cardiac tamponade?",
+      "options": [
+        "Ewart's sign",
+        "Pericardial friction rub",
+        "Hepatomegaly",
+        "Kussmaul's sign",
+        "Pulsus paradoxus >10 mmHg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pulsus paradoxus >10 mmHg is a classic sign of cardiac tamponade, reflecting exaggerated inspiratory drop in systolic BP. Kussmaul's sign is more typical of constrictive pericarditis; Ewart's sign and rub are seen in pericarditis without tamponade.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fa23a4a400e0",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man on warfarin for atrial fibrillation presents with sudden dyspnoea, chest pain, and hypotension. JVP is raised. Which ECG finding is most suggestive of cardiac tamponade?",
+      "options": [
+        "T wave inversion in precordial leads",
+        "Atrial fibrillation with rapid ventricular response",
+        "ST elevation in all leads",
+        "Electrical alternans",
+        "Low voltage QRS complexes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Electrical alternans (alternating QRS amplitude) is highly specific for cardiac tamponade due to the swinging heart within the effusion. Low voltage is also common but less specific; ST elevation suggests pericarditis; AF alone is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9344cc6d60ee",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with no significant past medical history presents with sudden pleuritic chest pain, dyspnoea, and hypotension. On examination, JVP is raised, heart sounds are normal, and breath sounds are absent on the left side. Which life-threatening condition must be urgently excluded?",
+      "options": [
+        "Tension pneumothorax",
+        "Pulmonary embolism",
+        "Aortic dissection",
+        "Cardiac tamponade",
+        "Acute myocardial infarction"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of hypotension, raised JVP, and unilateral absent breath sounds is classic for tension pneumothorax, which can mimic cardiac tamponade. Immediate decompression is required. The normal heart sounds make tamponade less likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "45650cc5cd60",
+      "topic": "Cardiac Tamponade",
+      "slug": "cardiac-tamponade",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man, 3 days post-coronary artery bypass grafting, develops hypotension, tachycardia, and a JVP of 10 cm. Which echocardiographic finding confirms haemodynamic compromise requiring drainage?",
+      "options": [
+        "Mitral regurgitation jet area >4 cm²",
+        "Left atrial enlargement",
+        "Right atrial collapse lasting >1/3 of systole",
+        "Left ventricular ejection fraction of 40%",
+        "Pericardial effusion >1 cm in depth"
+      ],
+      "answerIndex": 2,
+      "explanation": "Right atrial collapse (especially >1/3 of systole) is a direct sign of tamponade physiology. A pericardial effusion >1 cm may be incidental; LV dysfunction and valve lesions are common post-op but do not indicate tamponade.",
+      "difficulty": "medium"
+    }
+  ]
+}

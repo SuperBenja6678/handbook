@@ -1,0 +1,513 @@
+{
+  "topic": "Flail Chest",
+  "slug": "flail-chest",
+  "system": "Orthopaedics & Trauma",
+  "subSystem": "Trauma",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:30:10Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "12c5864eb743",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 25-year-old man is brought to the Emergency Department after a high-speed road traffic collision. On examination, he is tachypnoeic, oxygen saturation 88% on room air, and has a tender, swollen area over the left lateral chest wall with visible paradoxical movement of a segment during inspiration. There is bruising and crepitus. Chest X-ray shows fractures of the 4th, 5th, and 6th ribs, each with two fracture lines. What is the single most likely diagnosis?",
+      "options": [
+        "Haemothorax",
+        "Tension pneumothorax",
+        "Pulmonary contusion",
+        "Simple rib fracture",
+        "Flail chest"
+      ],
+      "answerIndex": 4,
+      "explanation": "Paradoxical movement of a chest wall segment with multiple consecutive rib fractures each fractured in two places is diagnostic of flail chest. Tension pneumothorax would cause tracheal deviation and hyperresonance, not paradoxical movement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd28e8b8c1b2",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman presents to the Emergency Department after falling from a ladder. She complains of right-sided chest pain and mild dyspnoea. On examination, there is tenderness over the right lateral chest but no obvious paradoxical movement. Chest X-ray shows fractures of the 5th, 6th, and 7th ribs on the right, each with two fracture lines, creating a free segment. On asking her to take a deep breath, a subtle inward motion of the segment is noted. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple rib fractures without flail segment",
+        "Costochondritis",
+        "Muscle strain",
+        "Pulmonary contusion",
+        "Flail chest"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of three consecutive ribs each fractured in two places defines a flail segment. The paradoxical movement may be subtle initially due to splinting but becomes apparent with deep breathing, confirming flail chest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1b2ec3fc3cff",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man is brought to the Emergency Department after a farming accident with severe crush injury to the chest. He is in severe respiratory distress, cyanosed, and oxygen saturation is 75%. On examination, there is visible paradoxical movement of a large segment of the left chest wall. Breath sounds are reduced on the left but there is no tracheal deviation. Heart sounds are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Massive haemothorax",
+        "Tension pneumothorax",
+        "Flail chest",
+        "Pulmonary contusion",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 2,
+      "explanation": "Paradoxical movement of the chest wall with multiple rib fractures is pathognomonic of flail chest. The absence of tracheal deviation and hyperresonance rules out tension pneumothorax; the absence of dullness and shock rules out massive haemothorax; and normal heart sounds rule out cardiac tamponade.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7b3e4b9d9137",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 82-year-old nursing home resident with dementia is brought to the Emergency Department with confusion and tachypnoea after a fall. He is unable to provide history. There is bruising over the left chest wall but no obvious paradoxical movement. Chest X-ray shows fractures of the 4th to 8th ribs on the left with some displacement. A CT scan of the chest reveals a flail segment of the left lateral chest wall. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumothorax",
+        "Flail chest",
+        "Multiple rib fractures without flail",
+        "Pulmonary contusion",
+        "Chest wall contusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT confirms a flail segment by showing multiple consecutive ribs fractured in at least two places. In elderly or uncooperative patients, paradoxical movement may be absent on examination due to poor respiratory effort, but imaging clarifies the diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "712f29c84e78",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old pregnant woman at 28 weeks gestation is involved in a low-speed motor vehicle collision. She has right-sided chest pain and mild shortness of breath. Chest X-ray with shielding shows fractures of the 5th and 6th ribs on the right, each with two fracture lines, and a flail segment. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumothorax",
+        "Costochondritis",
+        "Flail chest",
+        "Pulmonary contusion",
+        "Uterine contraction referred pain"
+      ],
+      "answerIndex": 2,
+      "explanation": "Radiographic evidence of two consecutive ribs each fractured in two places indicates a flail chest. In pregnancy, rib fractures are often from lower-energy trauma, but the pattern remains diagnostic of flail.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b569d30bd689",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents to the emergency department after falling from a ladder. On examination, there is paradoxical movement of the left chest wall during respiration. Which single investigation is most appropriate to confirm the diagnosis of flail chest?",
+      "options": [
+        "Rib series",
+        "Arterial blood gas",
+        "Chest X-ray",
+        "CT chest",
+        "Ultrasound chest"
+      ],
+      "answerIndex": 3,
+      "explanation": "Flail chest is a clinical diagnosis of paradoxical chest wall motion, but CT chest is the gold standard imaging to confirm multiple rib fractures (three or more ribs fractured in two places) and assess for associated intrathoracic injuries. Chest X-ray may miss some fractures, especially in the anterior chest or in osteoporotic bone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b24308efecc5",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with known flail chest following a road traffic accident has the following arterial blood gas on room air: pH 7.30, pCO2 8.0 kPa, pO2 9.5 kPa, HCO3 24 mmol/L. What is the most likely interpretation?",
+      "options": [
+        "Mixed respiratory and metabolic acidosis",
+        "Respiratory acidosis",
+        "Metabolic acidosis",
+        "Normal",
+        "Respiratory alkalosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pH is <7.35 (acidaemia), pCO2 is elevated (>6.0 kPa), and HCO3 is normal, indicating acute respiratory acidosis. This is due to hypoventilation from the flail segment causing inadequate ventilation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50773d2cb6ae",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man is brought to the emergency department after a high-speed motor vehicle collision. He has a flail chest and oxygen saturations of 88% on a 15 L/min non-rebreather mask. Which single investigation is most appropriate next to assess for associated intrathoracic injuries?",
+      "options": [
+        "Arterial blood gas",
+        "Full blood count",
+        "ECG",
+        "Ultrasound chest for pneumothorax",
+        "CT chest"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT chest is the most appropriate investigation to comprehensively evaluate for life-threatening intrathoracic injuries such as pulmonary contusion, haemothorax, pneumothorax, and great vessel injury in a severe trauma patient with flail chest. Ultrasound is useful for pneumothorax but less comprehensive, and ABG is not diagnostic for specific injuries.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4040c29be59c",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with a flail chest following a road traffic accident develops worsening dyspnoea and hypotension 2 hours after admission. Bedside ultrasound shows no pericardial effusion. Which single investigation is most appropriate next to identify the cause of his deterioration?",
+      "options": [
+        "Transthoracic echocardiogram",
+        "Bronchoscopy",
+        "CT pulmonary angiogram",
+        "Repeat chest X-ray",
+        "CT chest with contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT chest with contrast is the best investigation to rapidly identify complications of flail chest such as large haemothorax, pulmonary contusion, or aortic injury. CTPA is reserved for suspected pulmonary embolism, which is less likely acutely post-trauma. Repeat CXR is less sensitive, and TTE is not the first-line for these complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5518d04147fa",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "During a trauma team assessment, the registrar states that a patient has a flail chest based on the chest X-ray. Which radiographic finding is most consistent with the diagnosis of flail chest?",
+      "options": [
+        "Bilateral rib fractures",
+        "Three or more adjacent ribs fractured in two places",
+        "Fracture of the sternum",
+        "Two or more ribs fractured in a single location",
+        "A single rib fracture with displacement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Flail chest is defined radiographically as three or more consecutive ribs fractured in two or more places, creating a free-floating segment that moves paradoxically. The other options do not meet this criterion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7f09545809a5",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man is admitted following a road traffic accident. He has a flail segment of the right chest wall. Respiratory rate 32/min, SpO2 88% on 15 L/min oxygen via a non-rebreather mask. He is alert and orientated. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Endotracheal intubation and mechanical ventilation",
+        "Bilevel non-invasive ventilation (NIV)",
+        "Chest drain insertion",
+        "High-flow nasal oxygen",
+        "Surgical stabilisation of ribs"
+      ],
+      "answerIndex": 1,
+      "explanation": "NIV (e.g., CPAP or BiPAP) is first-line for flail chest with respiratory failure in an alert patient, improving oxygenation and splinting the chest wall. Intubation is reserved if NIV fails; surgical fixation is for refractory cases or failure to wean.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "10508d3c962b",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old male is brought in with multiple injuries including a flail chest and a head injury (GCS 12). He is tachypnoeic with SpO2 91% on 10 L/min oxygen. Which of the following treatments is relatively contraindicated in his initial management?",
+      "options": [
+        "Chest physiotherapy",
+        "Non-invasive ventilation (CPAP/BiPAP)",
+        "Oxygen via mask",
+        "Oral paracetamol",
+        "Intercostal drain insertion"
+      ],
+      "answerIndex": 1,
+      "explanation": "NIV is contraindicated in patients with reduced consciousness (GCS <15) due to aspiration risk. Intubation is preferred if respiratory support is needed. The other options are safe or indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "937a4350c377",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old athlete sustains a flail chest from a fall. He has mild chest wall pain but is breathing comfortably, SpO2 97% on air. There is no pneumothorax on chest X-ray. What is the most appropriate management?",
+      "options": [
+        "Chest drain insertion",
+        "Bilevel non-invasive ventilation",
+        "Epidural analgesia",
+        "Observation and oral analgesia",
+        "Surgical rib fixation"
+      ],
+      "answerIndex": 3,
+      "explanation": "In flail chest without respiratory compromise, supportive care with analgesia and monitoring is sufficient. NIV, surgery, or drains are not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "87d4fd2a944b",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 50-year-old man with a flail chest and a left pneumothorax on chest X-ray. He has respiratory distress and SpO2 90% on 15 L/min oxygen. What is the most appropriate next step in definitive management?",
+      "options": [
+        "Non-invasive ventilation",
+        "Needle thoracocentesis",
+        "Immediate surgical fixation",
+        "Intercostal chest drain insertion",
+        "High-flow nasal oxygen"
+      ],
+      "answerIndex": 3,
+      "explanation": "A chest drain is required to treat the pneumothorax before or alongside respiratory support. Needle decompression is an emergency temporising measure; drain insertion is definitive. NIV may be used after drainage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c4231c1ca6b",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old patient with flail chest remains dependent on mechanical ventilation after 7 days. He has no significant head injury or other contraindications. What is the most appropriate definitive treatment to facilitate weaning?",
+      "options": [
+        "Tracheostomy",
+        "Sedation and paralysis",
+        "High-frequency oscillatory ventilation",
+        "Surgical stabilisation of the chest wall",
+        "Continue mechanical ventilation indefinitely"
+      ],
+      "answerIndex": 3,
+      "explanation": "Surgical rib fixation is indicated to stabilise the chest wall and facilitate weaning from mechanical ventilation when patients fail to wean after several days. Tracheostomy may help but does not address the flail segment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9c60ef188853",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old male is brought to the ED after a high-speed RTA. He has a flail segment over his right lateral chest wall. He is alert, speaking in short sentences, RR 24, SpO2 91% on room air, BP 110/70, HR 110. What is the most appropriate next step?",
+      "options": [
+        "Administer high-flow oxygen via non-rebreather mask",
+        "Perform a focused assessment with sonography in trauma (FAST) scan",
+        "Insert an intercostal chest drain on the right",
+        "Give intravenous morphine 2.5 mg",
+        "Request a CT thorax"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with flail chest and hypoxia, the immediate step is to administer high-flow oxygen to maintain SpO2 >94%, as per ATLS and UK trauma guidelines. Analgesia and further investigations follow after securing oxygenation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "80dc01de1db8",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with a known flail chest from a skiing accident 2 days ago is on the trauma ward. She is on regular paracetamol and ibuprofen, with a chest drain in situ for an associated haemopneumothorax. She is haemodynamically stable, SpO2 96% on 2 L oxygen. Over the past hour she has become increasingly tachypnoeic (RR 28) and complains of severe chest pain. Her SpO2 is now 92% on 2 L. What is the most appropriate next step?",
+      "options": [
+        "Arrange for positive pressure ventilation",
+        "Increase her oxygen flow rate to 4 L",
+        "Administer intravenous morphine 5 mg",
+        "Perform an arterial blood gas (ABG)",
+        "Request an urgent CT pulmonary angiogram (CTPA)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Deteriorating respiratory status in flail chest requires objective assessment with ABG to determine the need for ventilatory support. Increasing oxygen or analgesia without assessment could delay appropriate intervention. CTPA is not indicated unless PE is suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f4cb8c86767d",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man presents with a flail chest after a fall from height. In the ED he is in severe respiratory distress, RR 40, using accessory muscles, SpO2 82% on 15 L oxygen via non-rebreather mask. He is confused and agitated. What is the most appropriate next step?",
+      "options": [
+        "Give intravenous naloxone 0.4 mg",
+        "Perform an emergency needle thoracocentesis",
+        "Insert bilateral chest drains",
+        "Intubate and commence positive pressure ventilation",
+        "Apply continuous positive airway pressure (CPAP)"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has impending respiratory failure (confusion, severe hypoxia despite max O2) and requires definitive airway and ventilation. CPAP is less appropriate in this peri-arrest scenario. Needle decompression is for tension pneumothorax, not indicated here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c397b6afeacc",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old male with flail chest on the trauma ward becomes acutely hypotensive (BP 85/60), with raised JVP and muffled heart sounds. He had a chest drain inserted on admission for a left haemothorax. What is the most appropriate next step?",
+      "options": [
+        "Administer a 500 mL bolus of Hartmann's solution",
+        "Repeat chest X-ray",
+        "Perform a FAST scan",
+        "Perform an emergency pericardiocentesis",
+        "Clamp the chest drain"
+      ],
+      "answerIndex": 3,
+      "explanation": "Beck's triad (hypotension, raised JVP, muffled heart sounds) indicates cardiac tamponade, requiring immediate decompression. Pericardiocentesis should be performed without delay in this unstable patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2a1110841de5",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman on warfarin for atrial fibrillation presents after a fall. She has a flail segment over the left chest. CXR shows multiple rib fractures and a small left haemothorax. She is alert, SpO2 94% on air, RR 20, BP 140/80, HR 90. What is the most appropriate next step?",
+      "options": [
+        "Administer fresh frozen plasma (FFP) and vitamin K to reverse warfarin",
+        "Request a CT thorax with contrast",
+        "Prescribe paracetamol and codeine for analgesia",
+        "Start non-invasive ventilation (CPAP)",
+        "Insert a chest drain on the left"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an anticoagulated patient with traumatic chest injury and haemothorax, rapid reversal of warfarin with FFP and vitamin K is essential to prevent further bleeding. This overrides analgesia in the immediate management hierarchy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a65166919257",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man is brought to the Emergency Department after a high-speed road traffic collision. He has a seatbelt mark across his chest and complains of severe chest pain with inspiration. On examination, you note that a segment of his left chest wall moves inward during inspiration and outward during expiration. Which clinical finding is most specific for flail chest?",
+      "options": [
+        "Decreased breath sounds",
+        "Chest wall bruising",
+        "Paradoxical chest wall movement",
+        "Sternal tenderness",
+        "Subcutaneous emphysema"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flail chest is defined by two or more contiguous rib fractures in two or more places, leading to a free-floating segment. The paradoxical movement of the chest wall segment during respiration is the hallmark clinical sign. Sternal tenderness suggests sternal fracture, not flail. Subcutaneous emphysema suggests pneumothorax, and decreased breath sounds may indicate underlying contusion or effusion, but none are specific for flail.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "df61707d35d1",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman on warfarin for atrial fibrillation presents after a mechanical fall. She has tenderness over the right lower ribs and a small area of bruising. She is haemodynamically stable. Chest X-ray shows three rib fractures with no pneumothorax. Which clinical finding would be the most concerning red flag for a significant haemothorax?",
+      "options": [
+        "Dullness to percussion at the right base",
+        "Hyperresonance to percussion",
+        "Subcutaneous emphysema",
+        "Distended neck veins",
+        "Tracheal deviation to the right"
+      ],
+      "answerIndex": 0,
+      "explanation": "Haemothorax presents with dullness to percussion and decreased breath sounds on the affected side due to blood accumulation in the pleural space. Hyperresonance is seen in pneumothorax. Tracheal deviation to the right suggests tension pneumothorax on the left. Distended neck veins indicate tension pneumothorax or cardiac tamponade. Dullness to percussion is a key sign of pleural fluid, which in the setting of rib fractures and anticoagulation raises concern for haemothorax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb8f0a629e4a",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with a flail chest from a construction accident is being monitored on a ward. His oxygen saturation drops from 95% to 85% on high-flow oxygen, and he becomes hypotensive (BP 80/50 mmHg). On examination, his trachea is deviated to the right, and there is hyperresonance on the left. Which life-threatening condition must be immediately excluded?",
+      "options": [
+        "Pulmonary contusion",
+        "Massive haemothorax",
+        "Fat embolism syndrome",
+        "Cardiac tamponade",
+        "Tension pneumothorax"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of hypotension, tracheal deviation away from the side of hyperresonance, and hypoxia is classic for tension pneumothorax. Massive haemothorax would have dullness to percussion, not hyperresonance. Cardiac tamponade would have distended neck veins but equal breath sounds and midline trachea. Pulmonary contusion and fat embolism do not cause these acute signs. Tension pneumothorax is a can't-miss emergency requiring immediate decompression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c84582530360",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with flail chest from a trauma is intubated and ventilated. 48 hours later, she develops worsening hypoxia despite increasing FiO2. Her chest X-ray shows new bilateral diffuse opacities. Her PaO2 is 12 kPa on FiO2 0.6. Which PaO2/FiO2 ratio is consistent with a diagnosis of acute respiratory distress syndrome (ARDS) in this context?",
+      "options": [
+        "400-500 mmHg",
+        "Less than 200 mmHg",
+        "Greater than 500 mmHg",
+        "200-300 mmHg",
+        "300-400 mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to the Berlin definition, ARDS requires a PaO2/FiO2 ratio ≤200 mmHg on at least 5 cmH2O PEEP (moderate ARDS). In this patient, PaO2 12 kPa ≈ 90 mmHg, FiO2 0.6 gives a ratio of 150 mmHg, which falls below 200 mmHg. A ratio <200 mmHg confirms moderate ARDS in the presence of bilateral opacities and no other cause. A ratio 200-300 mmHg indicates acute lung injury, not ARDS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7f85437f972b",
+      "topic": "Flail Chest",
+      "slug": "flail-chest",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Trauma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with severe COPD (baseline PaCO2 6.5 kPa, pH 7.36) is admitted after a fall with three rib fractures and a small flail segment. He is tachypnoeic and using accessory muscles. Arterial blood gas is taken on 15L oxygen via non-rebreather mask: pH 7.18, PaCO2 9.0 kPa, PaO2 10 kPa, HCO3- 24 mmol/L. Which finding is the most concerning red flag indicating acute on chronic respiratory acidosis requiring urgent ventilatory support?",
+      "options": [
+        "PaCO2 rise of 2.5 kPa from baseline",
+        "PaCO2 9.0 kPa",
+        "PaO2 10 kPa",
+        "HCO3- 24 mmol/L",
+        "pH 7.18"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with chronic COPD, a pH <7.25 indicates severe acute respiratory acidosis. The PaCO2 of 9.0 kPa is high but is usually compensated in chronic disease; however, the low pH demonstrates acute decompensation. A pH <7.25 is a threshold for considering non-invasive or invasive ventilation. The HCO3- is normal, confirming acute acidosis without renal compensation. PaO2 of 10 kPa is acceptable on high-flow oxygen.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Chronic Kidney Disease",
+  "slug": "chronic-kidney-disease",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "CKD",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:47Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7878ed183693",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with a 15-year history of hypertension, well controlled on amlodipine, is found incidentally to have an eGFR of 43 mL/min/1.73m2 and serum creatinine 145 μmol/L. Urine dipstick shows 1+ protein, and albumin:creatinine ratio is 15 mg/mmol. He has no diabetes. Renal ultrasound shows normal-sized kidneys with mild cortical thinning. What is the single most likely diagnosis?",
+      "options": [
+        "Hypertensive nephropathy",
+        "Chronic tubulointerstitial nephritis",
+        "Renovascular disease",
+        "Diabetic nephropathy",
+        "Chronic glomerulonephritis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Long-standing hypertension with mild proteinuria and cortical thinning without diabetes or significant proteinuria/high-grade albuminuria favours hypertensive nephropathy over diabetic nephropathy or glomerulonephritis. Renovascular disease typically causes refractory hypertension or flash pulmonary oedema.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "df3cab925fb5",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman with known stage 3b chronic kidney disease (eGFR 35 mL/min/1.73m2) due to diabetic nephropathy reports increasing fatigue and pallor over three months. Her haemoglobin is 95 g/L, MCV 88 fL, ferritin 120 ng/mL, vitamin B12 and folate normal. What is the single most likely diagnosis?",
+      "options": [
+        "Anaemia of chronic kidney disease",
+        "Anaemia of chronic disease (non-renal)",
+        "Myelodysplastic syndrome",
+        "Vitamin B12 deficiency",
+        "Iron deficiency anaemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Normocytic anaemia with normal iron stores in moderate CKD is classic for anaemia of CKD due to erythropoietin deficiency. Iron deficiency would have low ferritin; anaemia of chronic disease usually has low iron with normal/high ferritin, but ferritin is normal here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "725a171043f8",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with known stage 5 chronic kidney disease (eGFR 8 mL/min/1.73m2) who has missed his last two dialysis sessions presents with severe retrosternal chest pain, pleuritic, worse on lying flat. On examination, he is hypotensive (90/60), tachycardic, and has a pericardial rub. ECG shows diffuse ST elevation. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Uraemic pericarditis",
+        "Acute myocardial infarction",
+        "Pneumothorax",
+        "Oesophageal rupture"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of pleuritic chest pain, pericardial rub, and diffuse ST elevation in an undialysed ESRD patient is diagnostic for uraemic pericarditis. Acute MI typically causes regional ST changes and does not produce a rub. Pulmonary embolism and pneumothorax lack the rub and ECG pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2015ae3fc990",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old woman with chronic kidney disease stage 4 (eGFR 25 mL/min/1.73m2) secondary to chronic glomerulonephritis complains of bilateral hip pain and difficulty climbing stairs. She has no history of trauma. Blood tests show corrected calcium 2.1 mmol/L, phosphate 1.6 mmol/L, alkaline phosphatase 300 U/L, and PTH 18 pmol/L (elevated). Vitamin D level is low. What is the single most likely diagnosis?",
+      "options": [
+        "Osteomalacia",
+        "Renal osteodystrophy (secondary hyperparathyroidism)",
+        "Paget's disease of bone",
+        "Osteoporosis",
+        "Primary hyperparathyroidism"
+      ],
+      "answerIndex": 1,
+      "explanation": "In CKD, hypocalcaemia, hyperphosphataemia, low vitamin D, and markedly elevated PTH with high ALP point to secondary hyperparathyroidism causing renal osteodystrophy. Osteomalacia usually has normal or mildly elevated PTH and often normal phosphate. Primary hyperparathyroidism would have high calcium.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ab520bc388dc",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with acute onset of severe left flank pain and macroscopic haematuria. He has a known family history of autosomal dominant polycystic kidney disease. On examination, there is left renal angle tenderness. Blood pressure is 140/90. Urine dipstick shows 3+ blood, no nitrites. What is the single most likely diagnosis?",
+      "options": [
+        "Renal colic (ureteric stone)",
+        "Haemorrhagic cyst rupture in autosomal dominant polycystic kidney disease",
+        "Renal cell carcinoma",
+        "Renal trauma",
+        "Acute pyelonephritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a young patient with known ADPKD, acute flank pain and haematuria is classic for cyst rupture/bleed. Renal colic is less common without other features; pyelonephritis would cause fever and pyuria; RCC is rare at this age; trauma is denied.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "02210e47a121",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with fatigue, ankle swelling, and hypertension. Serum creatinine is 130 µmol/L, eGFR 48 mL/min/1.73m², and dipstick shows protein +2. What is the single most appropriate next investigation to stage his chronic kidney disease?",
+      "options": [
+        "24-hour urine protein",
+        "Renal biopsy",
+        "Urine albumin:creatinine ratio (ACR)",
+        "Serum cystatin C",
+        "Renal ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend urine ACR as the first-line test to quantify proteinuria and stage CKD. Renal ultrasound is indicated for structural assessment but is not the first step for staging. A 24-hour collection is no longer first-line due to variability and inconvenience.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59900e234658",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old woman with known CKD stage 3a (eGFR 55 mL/min/1.73m²) has a repeat eGFR of 45 mL/min/1.73m² after 1 year, representing a decline of more than 5 mL/min. What is the most appropriate next step in investigation?",
+      "options": [
+        "Repeat eGFR in 3 months",
+        "Serum bicarbonate",
+        "HbA1c",
+        "Renal ultrasound",
+        "Urine ACR"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends confirming a rapid decline (≥5 mL/min/1.73m² per year) by repeating eGFR within 3 months before further investigation. Immediate imaging or other tests are not indicated until the decline is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3d3d8252df7",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with CKD stage 4 (eGFR 22 mL/min/1.73m²) presents with vomiting and oliguria. Serum creatinine is 400 µmol/L. What is the most appropriate investigation to differentiate acute kidney injury from his chronic disease?",
+      "options": [
+        "Serum cystatin C",
+        "Fractional excretion of sodium",
+        "Renal biopsy",
+        "Renal ultrasound",
+        "Urine microscopy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Renal ultrasound is the best initial test to assess kidney size and exclude obstruction; small kidneys suggest chronicity, while normal or enlarged kidneys indicate possible acute injury. FENa and urine microscopy are supportive but not definitive. Biopsy is rarely needed acutely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a9907aeced08",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with CKD stage 4 due to diabetic nephropathy (eGFR 20 mL/min/1.73m²) presents with bone pain and proximal muscle weakness. Corrected calcium is 2.1 mmol/L, phosphate 1.8 mmol/L, PTH 25 pmol/L. Which investigation best confirms the underlying complication?",
+      "options": [
+        "1,25-dihydroxyvitamin D",
+        "25-hydroxyvitamin D",
+        "Alkaline phosphatase",
+        "Renal ultrasound",
+        "Bone densitometry"
+      ],
+      "answerIndex": 0,
+      "explanation": "In CKD, reduced renal 1α-hydroxylase activity leads to low 1,25-dihydroxyvitamin D, contributing to secondary hyperparathyroidism and renal osteodystrophy. 25-hydroxyvitamin D reflects stores, not renal conversion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cd2db52078d2",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with lupus nephritis (class IV) on stable immunosuppression has eGFR 85 mL/min/1.73m² and urine ACR 15 mg/mmol. At routine follow-up, she is asymptomatic. What is the most appropriate test to monitor for disease flare?",
+      "options": [
+        "Anti-dsDNA titre",
+        "Serum creatinine and eGFR",
+        "Renal biopsy",
+        "Complement C3 and C4",
+        "Urine ACR"
+      ],
+      "answerIndex": 4,
+      "explanation": "In lupus nephritis, an increasing urine ACR is the most sensitive early marker of renal flare. Serum creatinine may rise late; anti-dsDNA and complement levels are less specific for renal activity. Biopsy is reserved for confirmed active disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c05d9c37cf43",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with a 10-year history of hypertension presents to the renal clinic. His blood pressure is 148/92 mmHg. eGFR is 48 ml/min/1.73m², and urine ACR is 12 mg/mmol. He is not diabetic. Which single drug class should be initiated as first-line antihypertensive therapy?",
+      "options": [
+        "Thiazide diuretic",
+        "Beta-blocker",
+        "ACE inhibitor",
+        "Calcium channel blocker",
+        "Alpha-blocker"
+      ],
+      "answerIndex": 2,
+      "explanation": "ACE inhibitors (or ARBs) are recommended as first-line in CKD with albuminuria (ACR >3 mg/mmol) to reduce progression and cardiovascular risk. Beta-blockers are not first-line for uncomplicated hypertension in CKD. Thiazides are less effective in reduced eGFR. CCBs and alpha-blockers are not preferred first-line with proteinuria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea8dc300f415",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with CKD stage 4 (eGFR 25 ml/min/1.73m²) due to diabetic nephropathy presents with bilateral ankle oedema and mild pulmonary congestion. Her blood pressure is 135/80 mmHg. She is already on an ACE inhibitor and a statin. Which diuretic is most appropriate to manage her fluid overload?",
+      "options": [
+        "Bendroflumethiazide",
+        "Metolazone",
+        "Furosemide",
+        "Amiloride",
+        "Spironolactone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Loop diuretics (e.g., furosemide) are first-line for fluid overload in advanced CKD because thiazide diuretics lose efficacy when eGFR is below 30 ml/min. Spironolactone and amiloride are potassium-sparing and risk hyperkalaemia, especially with ACEi. Metolazone is a thiazide-like and also less effective alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0610c42397c4",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with CKD stage 5 (eGFR 12 ml/min/1.73m²) on a low-potassium diet presents to the emergency department with weakness and ECG changes (tented T waves). Serum potassium is 6.8 mmol/L. Which is the most appropriate first-line treatment for cardiac protection?",
+      "options": [
+        "Oral calcium resonium",
+        "Intravenous insulin and glucose",
+        "Intravenous sodium bicarbonate",
+        "Intravenous calcium gluconate",
+        "Nebulised salbutamol"
+      ],
+      "answerIndex": 3,
+      "explanation": "In hyperkalaemia with ECG changes, the first step is intravenous calcium gluconate (or calcium chloride) to protect the heart. Insulin and glucose will lower serum potassium but is not immediately cardioprotective. Sodium bicarbonate is less effective and not first-line. Salbutamol is an adjunct. Calcium resonium is for chronic management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "83f2a0a18ff3",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with CKD stage 4 (eGFR 20 ml/min/1.73m²) has a serum phosphate of 1.8 mmol/L (normal 0.8-1.5). She is not on any phosphate binders. Dietary advice alone has failed. Which is the most appropriate first-line pharmacological therapy?",
+      "options": [
+        "Cinacalcet",
+        "Calcitriol",
+        "Lanthanum carbonate",
+        "Sevelamer carbonate",
+        "Calcium carbonate"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend calcium-based phosphate binders (e.g., calcium carbonate) as first-line in CKD-MBD to control hyperphosphataemia. Non-calcium-based binders (sevelamer, lanthanum) are reserved for those who cannot take calcium-based or develop hypercalcaemia. Calcitriol increases phosphate absorption; cinacalcet is for hyperparathyroidism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3c67f8e31ab",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with CKD stage 2 (eGFR 65 ml/min/1.73m²) due to immunoglobulin A nephropathy is planning pregnancy. She has hypertension well controlled on a single antihypertensive agent. Which medication is contraindicated in pregnancy and should be switched before conception?",
+      "options": [
+        "Hydralazine",
+        "Nifedipine",
+        "Ramipril",
+        "Labetalol",
+        "Methyldopa"
+      ],
+      "answerIndex": 2,
+      "explanation": "ACE inhibitors (e.g., ramipril) and ARBs are teratogenic and contraindicated in pregnancy due to risk of fetal renal damage and oligohydramnios. Labetalol, nifedipine, and methyldopa are first-line antihypertensives in pregnancy. Hydralazine is a second-line agent and safe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "704c93e4451c",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with type 2 diabetes is admitted for a minor procedure. Pre-operative bloods show creatinine 150 µmol/L, eGFR 42 mL/min/1.73m². He is asymptomatic and normotensive. Urine dipstick is negative for blood and protein. What is the single most appropriate next step?",
+      "options": [
+        "Repeat creatinine in 1 week",
+        "Start lisinopril",
+        "Refer to nephrology",
+        "Arrange renal ultrasound",
+        "Check urine albumin:creatinine ratio (ACR)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend urine ACR to stratify risk and guide management in newly detected CKD. ACR is essential to assess albuminuria, which is a key predictor of progression. Starting ACE inhibitors without confirming albuminuria is premature; referral can follow assessment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a31093163181",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with CKD stage 3b (eGFR 35 mL/min) on lisinopril and furosemide has routine bloods showing potassium 5.6 mmol/L. She is asymptomatic with a normal ECG. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer calcium resonium",
+        "Arrange urgent haemodialysis",
+        "Stop lisinopril and recheck potassium",
+        "Start insulin and dextrose infusion",
+        "Start intravenous calcium gluconate"
+      ],
+      "answerIndex": 2,
+      "explanation": "For mild hyperkalaemia (K+ 5.5–5.9) without ECG changes, the first step is to stop culprit drugs (e.g., ACE inhibitors) and monitor. Emergency treatments (calcium gluconate, insulin/dextrose) are indicated only if ECG changes or K+ >6.5. Dialysis is not required urgently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "642d2ee08f98",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known CKD stage 4 (baseline eGFR 25 mL/min) presents with confusion and oliguria for 2 days. BP 100/60 mmHg, pulse 100 bpm. Urine dipstick shows blood ++ and protein ++. Creatinine is 450 µmol/L from a previous value of 200. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start noradrenaline infusion",
+        "Give intravenous furosemide",
+        "Refer for urgent haemodialysis",
+        "Arrange urgent renal ultrasound",
+        "Start intravenous 0.9% saline bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute kidney injury (AKI) on CKD, especially with oliguria and possible obstruction (blood on dipstick suggests renal origin), the first priority is to exclude obstruction with ultrasound. Fluid challenge is reasonable if hypovolaemic, but hypotension may be due to urosepsis or other causes; immediate imaging is safest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc84300aff04",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with CKD stage 4 (eGFR 20 mL/min) has been on calcium acetate and vitamin D supplements. Recent bloods show corrected calcium 2.8 mmol/L, phosphate 1.8 mmol/L, and PTH 45 pmol/L (elevated). She is asymptomatic. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check 25-hydroxyvitamin D level",
+        "Increase vitamin D dose",
+        "Stop calcium acetate",
+        "Start cinacalcet",
+        "Refer for parathyroidectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypercalcaemia in a patient on calcium-based phosphate binders suggests calcium overload. The first step is to discontinue the calcium-based binder to prevent further calcium absorption. Cinacalcet or surgery would be considered only after managing hypercalcaemia and optimising binders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "504aa475bd47",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 82-year-old man with CKD stage 4 (eGFR 18 mL/min) and known anaemia has haemoglobin 95 g/L (baseline 110 g/L 3 months ago). Ferritin 200 µg/L, iron saturation 20%. He is asymptomatic. What is the single most appropriate next step?",
+      "options": [
+        "Arrange blood transfusion",
+        "Start oral iron supplements",
+        "Refer for renal biopsy",
+        "Check serum B12 and folate",
+        "Start erythropoietin (ESA)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In CKD anaemia, if ferritin <500 µg/L and TSAT <25%, iron deficiency is present even with ferritin >100. NICE recommends a trial of iron therapy first; ESAs are reserved for functional iron deficiency or inadequate response to iron. Transfusion is not indicated without symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "270cc3246022",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man is incidentally found to have an eGFR of 28 mL/min/1.73m² and a urine ACR of 45 mg/mmol on routine health check. He is asymptomatic with no peripheral oedema. Blood pressure is 145/85 mmHg. Which single finding marks a need for urgent nephrology referral?",
+      "options": [
+        "ACR >30 mg/mmol",
+        "Haemoglobin 110 g/L",
+        "eGFR <30 mL/min/1.73m²",
+        "BP >140/90 mmHg",
+        "Serum potassium 5.5 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends nephrology referral when eGFR falls below 30 mL/min/1.73m² due to high risk of progression. While ACR >30 indicates moderate albuminuria, it does not mandate urgent referral alone without low eGFR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "99a8e61ca4d8",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with stable CKD stage 3a (eGFR 50) presents with new onset of hiccups, nausea, and a flapping tremor. Her eGFR is now 22. Which clinical sign is the red flag for uraemia?",
+      "options": [
+        "Hiccups",
+        "Nausea",
+        "Peripheral oedema",
+        "Asterixis",
+        "Hypertension"
+      ],
+      "answerIndex": 3,
+      "explanation": "Asterixis (flapping tremor) is a classic sign of uraemic encephalopathy indicating severe uraemia requiring expedited dialysis. Nausea and hiccups can occur but are less specific neurological red flags.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d1cb7c107be",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old with CKD stage 4 (eGFR 25) is brought to ED with breathlessness and confusion. Examination: BP 180/110, JVP elevated, bibasal crackles, and a pericardial rub. Which single finding is the most life-threatening?",
+      "options": [
+        "JVP elevation",
+        "Confusion",
+        "BP 180/110",
+        "Bibasal crackles",
+        "Pericardial rub"
+      ],
+      "answerIndex": 4,
+      "explanation": "A pericardial rub indicates uraemic pericarditis, which can progress to haemorrhagic effusion and cardiac tamponade—a medical emergency. The other signs represent volume overload or hypertension, which are serious but less immediately life-threatening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f1be1a2110a",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 48-year-old man with diabetic nephropathy (eGFR 35) on ramipril and furosemide has routine bloods: creatinine 155 μmol/L (baseline 110), potassium 5.6 mmol/L, eGFR 28, urea 22, bicarbonate 18. Which finding is the red flag requiring immediate action?",
+      "options": [
+        "Bicarbonate <18 mmol/L",
+        "Creatinine rise >30% from baseline",
+        "Urea >20 mmol/L",
+        "eGFR <30 mL/min/1.73m²",
+        "Potassium >5.5 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A >30% rise in creatinine from baseline (110→155, ~40%) is a red flag for acute kidney injury or ACE inhibitor/ARB-related worsening, requiring review and possible referral. Potassium 5.6 is abnormal but not immediately life-threatening without ECG changes; eGFR <30 was already near threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f7e9222b9f04",
+      "topic": "Chronic Kidney Disease",
+      "slug": "chronic-kidney-disease",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "CKD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 78-year-old with CKD stage 3b (eGFR 35) and heart failure is started on spironolactone 25 mg daily. Two weeks later she feels weak. ECG shows tall tented T waves. Which potassium level (mmol/L) is most consistent with this emergency?",
+      "options": [
+        "7.2",
+        "6.4",
+        "5.9",
+        "6.8",
+        "7.6"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tall tented T waves indicate hyperkalaemia; a potassium level ≥6.5 mmol/L is an emergency requiring immediate calcium gluconate and urgent dialysis. 6.8 mmol/L clearly exceeds this threshold, whereas 6.4 is borderline and 5.9 is less severe.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Failure to Thrive",
+  "slug": "failure-to-thrive",
+  "system": "Paediatrics",
+  "subSystem": "Growth",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:29:46Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5a8246626bbd",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 6-month-old boy is brought to the GP because his weight has dropped from the 50th to the 9th centile over 4 months. He is exclusively breastfed, appears well, and has no vomiting or diarrhoea. Examination is normal. Parents seem stressed and report his feeds are 'fussy'.",
+      "options": [
+        "Gastro-oesophageal reflux disease",
+        "Non-organic failure to thrive",
+        "Cystic fibrosis",
+        "Cow's milk protein allergy",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Normal examination and absence of GI symptoms point away from organic causes; the history of fussy feeding and parental stress suggests non-organic FTT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bf33161bd7be",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 2-year-old girl presents to A&E with a 2-day history of increased work of breathing and cough. She has a history of recurrent chest infections and her weight is below the 0.4th centile. On exam, she is tachypnoeic with coarse crackles. Her stools are noted to be offensive.",
+      "options": [
+        "Asthma",
+        "Primary ciliary dyskinesia",
+        "Coeliac disease",
+        "Bronchiolitis obliterans",
+        "Cystic fibrosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of recurrent chest infections, failure to thrive, and offensive stools (steatorrhoea) is classic for CF; sweat test is diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b83d8aa5827",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 9-month-old girl with a known ventricular septal defect presents with poor weight gain over the last 2 months despite being on diuretics. She is tachycardic and has a palpable liver edge.",
+      "options": [
+        "Infective endocarditis",
+        "Worsening heart failure due to VSD",
+        "Pulmonary hypertension",
+        "Natural history of VSD",
+        "Coarctation of the aorta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tachycardia, hepatomegaly, and failure to thrive indicate decompensation; in a known VSD, this is most likely due to worsening left-to-right shunt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9229b930720",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 4-month-old ex-premature infant (born at 28 weeks) is noted to have weight gain velocity below the 5th centile since discharge from the neonatal unit. He has no vomiting or diarrhoea. He is bottle-fed with standard term formula. Examination shows mild tachypnoea and increased work of breathing.",
+      "options": [
+        "Bronchopulmonary dysplasia",
+        "Metabolic bone disease of prematurity",
+        "Cow's milk protein allergy",
+        "Gastro-oesophageal reflux disease",
+        "Post-discharge undernutrition"
+      ],
+      "answerIndex": 0,
+      "explanation": "In ex-premature infants, BPD is a common cause of increased metabolic demand and respiratory effort leading to poor weight gain; reflux and allergy are less likely without GI symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d3eb7578160c",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 1-year-old boy is referred for poor growth. His weight has dropped from the 25th to the 2nd centile over 6 months. He is noted to be constipated, with a large anterior fontanelle and umbilical hernia.",
+      "options": [
+        "Coeliac disease",
+        "Psychosocial deprivation",
+        "Congenital hypothyroidism",
+        "Rickets",
+        "Growth hormone deficiency"
+      ],
+      "answerIndex": 2,
+      "explanation": "Constipation, large fontanelle, umbilical hernia, and failure to thrive are classic signs of hypothyroidism; newborn screening can miss some cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c2e9fc9678f",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 14-month-old boy is referred for falling weight. He was born at term, normal birth weight. His weight has crossed from the 50th to the 9th centile over the past 4 months. He has mild abdominal distension and loose stools. What is the most appropriate first-line investigation to identify an organic cause?",
+      "options": [
+        "Thyroid function tests",
+        "Urea and electrolytes",
+        "Full blood count and ferritin",
+        "Tissue transglutaminase (TTG) IgA antibodies",
+        "Sweat chloride test"
+      ],
+      "answerIndex": 3,
+      "explanation": "Coeliac disease is a common treatable cause of failure to thrive in this age group; TTG IgA has high sensitivity and specificity. Full blood count may show anaemia but is less specific. Sweat test is for cystic fibrosis but is not first-line without respiratory symptoms or meconium ileus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70212c20cdcf",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 6-week-old infant presents with severe failure to thrive, weight <0.4th centile, with vomiting, diarrhoea, and metabolic alkalosis. What is the best next investigation to confirm the most likely diagnosis?",
+      "options": [
+        "Bone age (left wrist)",
+        "Karyotype",
+        "Plasma amino acids",
+        "Urinary organic acids",
+        "Sweat chloride test"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cystic fibrosis is a 'never-miss' cause of severe failure to thrive with dehydration and metabolic alkalosis (pseudo-Bartter syndrome). Sweat chloride test is the diagnostic gold standard. Urinary organic acids would be considered for metabolic disorders but are less likely given the presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa05b25c3550",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 9-month-old ex-34-week premature infant is seen in clinic. Current weight is 7.1 kg. On the UK-WHO growth chart for corrected age, this corresponds to the 2nd centile. Which of the following growth parameters most clearly defines 'failure to thrive' in this child?",
+      "options": [
+        "Weight crossing more than two major centile spaces downwards",
+        "Weight <0.4th centile for corrected age",
+        "Weight more than 2 standard deviations below the mean for chronological age",
+        "Weight gain less than expected over 3 months",
+        "Weight persistently below the 2nd centile"
+      ],
+      "answerIndex": 1,
+      "explanation": "In UK practice, using corrected age for prematurity, a weight below the 0.4th centile is a clear definition of failure to thrive. Crossing centiles is also concerning but requires longitudinal data; the 0.4th centile is a specific threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb09d48786ca",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 2-year-old girl with spastic quadriplegic cerebral palsy and gastrostomy feeding presents with poor weight gain over 6 months. She has no vomiting or diarrhoea. What is the most practical and validated measure to assess her nutritional status?",
+      "options": [
+        "Serum prealbumin",
+        "Dual-energy X-ray absorptiometry (DEXA) scan",
+        "3-day weighed food diary",
+        "Mid-upper arm circumference (MUAC)",
+        "Triceps skinfold thickness"
+      ],
+      "answerIndex": 3,
+      "explanation": "MUAC is a simple, reliable, and validated measure of nutritional status in children with disabilities, as it is less affected by muscle wasting or contractures. Skinfold thickness can be difficult in spasticity; DEXA is not routinely available. Prealbumin is an acute-phase reactant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1c6fd770323",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 5-month-old infant with acute severe failure to thrive presents to the emergency department with lethargy, sunken eyes, and poor skin turgor. Initial capillary blood gas shows pH 7.1, base excess -15, sodium 150 mmol/L, potassium 5.8 mmol/L. Which investigation is most appropriate to confirm the cause of the dehydration?",
+      "options": [
+        "Random urinary sodium and creatinine",
+        "Urine osmolality",
+        "Abdominal X-ray",
+        "Serum osmolality",
+        "Stool culture and sensitivity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Given hypernatraemic dehydration, urine osmolality helps differentiate renal causes (e.g., diabetes insipidus) from extrarenal losses. Serum osmolality also useful but urine osmolality directly assesses concentrating ability. Stool culture is relevant if diarrhoea is present but not stated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c659ce85449f",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 9-month-old infant presents with failure to thrive. Weight crosses from 25th to 2nd centile over six months. Examination is normal; investigations including full blood count, coeliac serology, urine culture, and thyroid function are unremarkable. Social history reveals maternal depression and poor feeding interaction. What is the most appropriate first-line management?",
+      "options": [
+        "Referral to paediatric dietitian for dietary advice",
+        "High-calorie formula supplementation",
+        "Admission for nasogastric tube feeding",
+        "Prescription of cyproheptadine as an appetite stimulant",
+        "Multidisciplinary team input including health visitor, social worker, and parenting support"
+      ],
+      "answerIndex": 4,
+      "explanation": "Non-organic failure to thrive is primarily managed by addressing the underlying psychosocial factors. Multidisciplinary team support is first-line, not dietary manipulation or hospital admission. The most tempting distractor is high-calorie formula, but without addressing the root cause, this is unlikely to be effective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6364ec672ffb",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 18-month-old child presents with failure to thrive, chronic diarrhoea, and abdominal distension. Coeliac serology (anti-tissue transglutaminase antibodies) is strongly positive. A subsequent duodenal biopsy confirms villous atrophy. What is the definitive first-line treatment?",
+      "options": [
+        "Vitamin D and iron supplementation",
+        "Lactose-free diet",
+        "Lifelong gluten-free diet",
+        "Gluten challenge test",
+        "Systemic corticosteroids"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coeliac disease requires a strict gluten-free diet to promote intestinal healing and normal growth. A gluten challenge is contraindicated before diagnosis is established. Vitamin supplementation is adjunctive, not primary. Corticosteroids are reserved for severe refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f1f319d507d",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 2-year-old child from a deprived area presents with severe wasting, pedal oedema, and apathy. Mid-upper arm circumference is 11 cm; weight-for-height less than -3 SD. A diagnosis of severe acute malnutrition (marasmic kwashiorkor) is made. What is the most important first-line management step?",
+      "options": [
+        "Initiate full-strength infant formula ad libitum to correct caloric deficit rapidly",
+        "Start small, frequent feeds with cautious advancement and close electrolyte monitoring to prevent refeeding syndrome",
+        "Albumin infusion to correct hypoalbuminaemia",
+        "Intravenous 50% dextrose bolus for hypoglycaemia prevention",
+        "Frusemide to treat peripheral oedema"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe acute malnutrition, refeeding syndrome is a major risk. Initial management involves cautious feeding with small volumes (e.g., F75 formula), monitoring phosphate, potassium, and magnesium. High-calorie feeds ad libitum, albumin, or diuretics are dangerous. The most tempting distractor is rapid refeeding, which can be fatal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c54629656d89",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 6-year-old child with cystic fibrosis (homozygous F508del) has been on increasing caloric intake but fails to gain weight. He passes greasy, foul-smelling stools. Faecal elastase is decreased (<15 μg/g). What is the first-line therapy to improve nutritional status?",
+      "options": [
+        "High-calorie diet alone",
+        "Inhaled dornase alfa",
+        "Pancreatic enzyme replacement therapy (PERT) with each meal and snack",
+        "Ursodeoxycholic acid",
+        "Fat-soluble vitamin supplementation (A, D, E, K)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exocrine pancreatic insufficiency causing malabsorption is a common CF complication. PERT is the cornerstone, enabling digestion and absorption of fat and protein. High-calorie diet alone will not correct malabsorption. Vitamin supplementation is adjunctive. Ursodeoxycholic acid is for liver disease; dornase alfa for lung disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "70fa6b5cdebd",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 10-day-old neonate born at term presents with poor feeding, prolonged jaundice, a large anterior fontanelle, and failure to gain weight since birth. The newborn screening heel-prick test shows a low T4 and high TSH. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral levothyroxine 10–15 microgram/kg/day",
+        "Oral levothyroxine plus subcutaneous growth hormone",
+        "Oral iodine drops",
+        "Radioactive iodine (I-131) ablation",
+        "Methimazole (carbimazole)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Congenital hypothyroidism is a medical emergency requiring immediate thyroid hormone replacement to prevent neurodevelopmental delay. Levothyroxine alone is indicated. Growth hormone is not needed. Radioactive iodine or antithyroid drugs would worsen hypothyroidism. Iodine is rarely deficient in the UK.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15f7f00ed785",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 6-month-old boy is brought to the GP by his mother because he has not gained weight for 2 months. He was born at term, birth weight 3.2 kg. Currently weight 6.2 kg (0.4th centile). He is alert, feeding well, no vomiting or diarrhoea. Examination normal. What is the most appropriate next step?",
+      "options": [
+        "Take a detailed feeding history and plot growth on a centile chart.",
+        "Perform urine dipstick and culture.",
+        "Refer urgently to paediatric gastroenterology.",
+        "Advise mother to increase calorie intake and review in 2 weeks.",
+        "Check full blood count, U&Es, coeliac screen."
+      ],
+      "answerIndex": 0,
+      "explanation": "In a well child with faltering growth, the first step is to take a detailed feeding history and plot serial measurements (NICE guidance). Urine dip and bloods are second-line if history unclear or red flags. Distractor B (advising increased calories) is premature without a proper history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5e8d74e055f",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 2-year-old girl with faltering growth (weight 10 kg, below 2nd centile, down from 25th at 1 year) is seen in clinic. She has a normal appetite but prefers liquids. Developmental milestones normal. Examination unremarkable. What is the most appropriate next step?",
+      "options": [
+        "Refer to speech and language therapy.",
+        "Start high-calorie supplements (e.g. Paediasure).",
+        "Perform urine toxicology screen.",
+        "Arrange hospital admission for nasogastric feeding.",
+        "Request a 3-day food diary and provide feeding advice."
+      ],
+      "answerIndex": 4,
+      "explanation": "For mild-moderate faltering growth without red flags, first step is dietary intervention (food diary and advice). Supplements (A) are not first-line; admission (C) is for severe cases; toxicology (D) not indicated; speech therapy (E) only if swallowing issues.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4275e4500bb",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 8-month-old girl is brought to ED with poor feeding, lethargy, and weight loss. She was previously healthy but now weight 5.5 kg (well below 0.4th centile), dry mucous membranes, sunken eyes, and reduced skin turgor. Capillary refill 3 seconds. Parents say she has been vomiting occasionally. What is the most appropriate next step?",
+      "options": [
+        "Refer immediately to paediatric intensive care.",
+        "Obtain a chest X-ray to exclude pneumonia.",
+        "Administer a normal saline bolus 20 ml/kg intravenously.",
+        "Check serum electrolytes, calcium, phosphate, and magnesium.",
+        "Start nasogastric feeds with a high-calorie formula."
+      ],
+      "answerIndex": 2,
+      "explanation": "The child shows signs of clinical dehydration and shock; immediate resuscitation with IV fluids is priority (APLS guidelines). Electrolytes (C) are important but after stabilization; NG feeds (A) contraindicated in shock; chest X-ray (D) not urgent; PICU referral (E) not first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "39db5f486003",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 10-month-old infant with severe malnutrition (weight 4.5 kg, less than 0.4th centile) is admitted for refeeding. She has been failing to thrive due to neglect. Initial bloods show low phosphate, low potassium, and normal magnesium. She is started on nasogastric feeds. What is the most appropriate next step?",
+      "options": [
+        "Continue feeds at reduced rate and monitor electrolytes closely.",
+        "Transfer to paediatric intensive care for cardiac monitoring.",
+        "Stop the feeds immediately and give IV phosphate.",
+        "Add potassium and phosphate supplements to the feeds.",
+        "Give a bolus of IV calcium gluconate."
+      ],
+      "answerIndex": 0,
+      "explanation": "In refeeding syndrome, management is to continue feeds at a reduced rate (e.g., 50% of target) and monitor/correct electrolytes. Stopping feeds (A) worsens malnutrition; supplements (C) are given but not first step; PICU (D) not needed unless arrhythmias; calcium (E) not indicated here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "879a89499745",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 9-month-old ex-preterm infant (born at 28 weeks) has failure to thrive. He is on home oxygen for bronchopulmonary dysplasia and has been struggling with oral feeds. Weight is 6 kg (3rd centile for corrected age). He has no acute respiratory distress. What is the most appropriate next step?",
+      "options": [
+        "Arrange a videofluoroscopy swallow study.",
+        "Commence growth hormone therapy.",
+        "Start a proton pump inhibitor for presumed gastro-oesophageal reflux.",
+        "Refer to a paediatric dietitian for high-calorie feeding.",
+        "Increase his home oxygen flow rate to improve feeding endurance."
+      ],
+      "answerIndex": 3,
+      "explanation": "In ex-preterm infants with BPD and poor weight gain, nutritional support is key; a dietitian can advise on calorie fortification. Oxygen (A) not indicated if saturations normal; swallow study (C) if aspiration suspected but not first step; PPI (D) only with reflux symptoms; growth hormone (E) not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "334a1e41581d",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-month-old infant is brought to the GP by his mother because of poor weight gain. The health visitor notes that his weight has dropped from the 50th centile to the 2nd centile over the past 4 months. He is otherwise well, with no vomiting or diarrhoea. Which single finding from the growth chart is the strongest red flag indicating severe failure to thrive?",
+      "options": [
+        "Weight below the 0.4th centile",
+        "Head circumference on the 50th centile",
+        "Maternal height on the 10th centile",
+        "Length on the 25th centile",
+        "Weight crossing one centile line"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE defines severe failure to thrive as weight below the 0.4th centile or crossing more than two major centile spaces. Crossing from 50th to 2nd is more than two spaces, but weight below 0.4th is an absolute threshold that demands urgent referral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d5973b4f9d7",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 18-month-old girl is seen in the paediatric outpatient clinic for poor weight gain. Her weight has dropped from the 50th centile to the 9th centile. On examination she appears well and is developmentally appropriate. Which additional growth parameter finding would raise immediate suspicion for an organic cause of failure to thrive?",
+      "options": [
+        "Body mass index between 5th and 10th centile",
+        "Length on the 25th centile",
+        "Weight now below 0.4th centile",
+        "Mid-upper arm circumference on the 25th centile",
+        "Head circumference on the 2nd centile (previously 50th)"
+      ],
+      "answerIndex": 4,
+      "explanation": "A deceleration in head circumference (crossing centiles downward) is a red flag for intracranial pathology such as brain tumour, metabolic disease, or chronic infection. This warrants urgent neuroimaging and investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1dea00682251",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-week-old infant presents with poor feeding, lethargy, and failure to thrive since birth. There is no fever, but the baby is noted to have a weak cry and poor tone. Which of the following life-threatening conditions is the most important to exclude?",
+      "options": [
+        "Congenital adrenal hyperplasia",
+        "Cow's milk protein allergy",
+        "Urinary tract infection",
+        "Gastro-oesophageal reflux disease",
+        "Pyloric stenosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Urinary tract infection in neonates can present with non-specific symptoms like poor feeding, lethargy, and poor weight gain. It is a common cause of sepsis in this age group and must be ruled out with a urine culture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f07dfb762ed",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 14-month-old child is admitted with severe failure to thrive (weight below 0.4th centile). He is started on nasogastric feeds. After 48 hours, which laboratory finding is most concerning for a life-threatening complication of feeding?",
+      "options": [
+        "Hyperkalaemia",
+        "Hypernatraemia",
+        "Hypercalcaemia",
+        "Hypophosphataemia",
+        "Metabolic alkalosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Refeeding syndrome in severely malnourished children can cause dangerous hypophosphataemia, leading to respiratory and cardiac failure. Serum phosphate should be monitored closely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "014738479e09",
+      "topic": "Failure to Thrive",
+      "slug": "failure-to-thrive",
+      "system": "Paediatrics",
+      "subSystem": "Growth",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 8-month-old infant presents with a 2-month history of faltering weight and intermittent vomiting. On examination, there is sunsetting eye sign and a bulging fontanelle. What is the most likely underlying diagnosis?",
+      "options": [
+        "Congenital adrenal hyperplasia",
+        "Intracranial neoplasm",
+        "Cyclical vomiting syndrome",
+        "Pyloric stenosis",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sunsetting eyes and bulging fontanelle indicate raised intracranial pressure, and vomiting with failure to thrive can be presenting features of a brain tumour. Urgent neuroimaging is needed.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Retinal Detachment",
+  "slug": "retinal-detachment",
+  "system": "Ophthalmology",
+  "subSystem": "Retina",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:55Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "ce7cb5104325",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old myopic man presents with sudden onset of flashing lights and a 'black curtain' coming up from below in his left eye for 2 days. There is no pain. On examination, visual acuity is 6/9 in the right eye and 6/60 in the left. Fundoscopy shows a greyish retinal elevation with a horseshoe tear. What is the single most likely diagnosis?",
+      "options": [
+        "Acute angle closure glaucoma",
+        "Optic neuritis",
+        "Vitreous haemorrhage",
+        "Posterior vitreous detachment",
+        "Retinal detachment"
+      ],
+      "answerIndex": 4,
+      "explanation": "The curtain-like visual field defect with a retinal tear and subretinal fluid is classic for retinal detachment. Posterior vitreous detachment would have flashes and floaters but no field defect. Vitreous haemorrhage would cause sudden floaters or haze but not a curtain. Acute angle closure glaucoma has pain, red eye, and fixed mid-dilated pupil. Optic neuritis presents with pain on eye movement and central scotoma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d361eb7ca5a2",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with type 1 diabetes and known proliferative diabetic retinopathy (treated with panretinal photocoagulation) reports gradual painless loss of vision in her right eye over several weeks. She notes a 'shadow' that seems fixed. Fundoscopy reveals a greyish retinal elevation with visible vitreous traction bands and no retinal break. What is the single most likely diagnosis?",
+      "options": [
+        "Posterior vitreous detachment",
+        "Vitreous haemorrhage",
+        "Tractional retinal detachment",
+        "Rhegmatogenous retinal detachment",
+        "Exudative retinal detachment"
+      ],
+      "answerIndex": 2,
+      "explanation": "In proliferative diabetic retinopathy, vitreous traction on fibrovascular membranes can cause a localised retinal elevation without a break, characteristic of tractional retinal detachment. Rhegmatogenous detachment requires a break and is more acute. Vitreous haemorrhage would cause sudden vision loss. Exudative detachment results from inflammation or tumour. Posterior vitreous detachment is acute and would not show traction bands.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0dc3bff1a7d",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old man attends routine diabetic retinopathy screening. He has no ocular symptoms. Best corrected visual acuity is 6/6 in both eyes. On fundoscopy, a shallow retinal detachment is noted in the superior temporal quadrant of the left eye, with a small round hole. What is the single most likely diagnosis?",
+      "options": [
+        "Age-related macular degeneration",
+        "Retinoschisis",
+        "Posterior vitreous detachment",
+        "Asymptomatic retinal detachment",
+        "Choroidal naevus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Asymptomatic or subclinical retinal detachment can occur, especially with shallow elevation and a small break, discovered on routine examination. Posterior vitreous detachment would have acute symptoms. Retinoschisis typically shows splitting of the retina and is bilateral with absolute scotomata. Choroidal naevus is pigmented and flat or slightly elevated. Age-related macular degeneration presents with drusen and central vision loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5c4cacc5edf6",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents to A&E after being punched in the left eye. He complains of blurred vision and 'specks'. On examination, visual acuity is 6/12. Fundoscopy shows a large retinal tear inferiorly with subretinal fluid. There is no hyphema or lens dislocation. What is the single most likely diagnosis?",
+      "options": [
+        "Traumatic optic neuropathy",
+        "Choroidal rupture",
+        "Retinal detachment",
+        "Commotio retinae",
+        "Vitreous haemorrhage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blunt trauma can cause a retinal tear leading to retinal detachment with subretinal fluid. Commotio retinae is retinal whitening without a tear. Choroidal rupture appears as a curvilinear yellow-white lesion deep to retina. Vitreous haemorrhage may occur but the key finding here is the tear with fluid. Traumatic optic neuropathy causes reduced vision with a relative afferent pupillary defect and normal fundus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1028ceed11b3",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with known choroidal melanoma under surveillance reports sudden painless loss of central vision in her right eye over one day. Fundoscopy reveals a large, dome-shaped retinal detachment without any retinal break. There is no history of trauma. What is the single most likely diagnosis?",
+      "options": [
+        "Tractional retinal detachment",
+        "Exudative retinal detachment",
+        "Posterior uveitis",
+        "Central serous chorioretinopathy",
+        "Rhegmatogenous retinal detachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "In exudative retinal detachment, fluid accumulates from an underlying choroidal tumour or inflammation, producing a bullous detachment without a break. Rhegmatogenous detachment requires a retinal break. Tractional detachment would show vitreous bands. Central serous chorioretinopathy typically occurs in younger men and has a discrete serous detachment. Posterior uveitis would have signs of intraocular inflammation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d721a39e8e88",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old female presents with sudden onset of flashes in her left eye followed by a 'curtain' over her peripheral vision. On examination, visual acuity is 6/9, and there is a relative afferent pupillary defect (RAPD) in the left eye. The anterior chamber is quiet, and lens is clear. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Orbital CT scan",
+        "Fundus fluorescein angiography",
+        "Dilated fundus examination with indirect ophthalmoscopy and scleral depression",
+        "Optical coherence tomography of the macula",
+        "B-scan ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation suggests retinal detachment. Dilated fundus examination with indirect ophthalmoscopy and scleral depression allows direct visualization of the retinal tear and detachment. B-scan is reserved if media opacity prevents view; other tests are not diagnostic for retinal detachment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e92eb960fdb",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old male with a history of high myopia presents with sudden loss of vision in his right eye. Slit-lamp examination reveals a dense vitreous hemorrhage obscuring the retina. Intraocular pressure is normal. What is the next best investigation to rule out an underlying retinal detachment?",
+      "options": [
+        "B-scan ultrasound",
+        "CT head with contrast",
+        "Optical coherence tomography of the macula",
+        "Goldmann visual field testing",
+        "Fundus fluorescein angiography"
+      ],
+      "answerIndex": 0,
+      "explanation": "When the retina cannot be visualized due to vitreous hemorrhage, B-scan ultrasound is the most appropriate test to detect a retinal detachment, as it can image the posterior segment through opaque media.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7f852d4da55",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "During a dilated fundus examination of a patient with new floaters, you observe brownish pigmented cells ('tobacco dust' or Shafer's sign) in the anterior vitreous. What does this finding indicate?",
+      "options": [
+        "Retinal detachment",
+        "Vitreous hemorrhage",
+        "Retinal break",
+        "Posterior vitreous detachment",
+        "Uveitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Shafer's sign (pigment in vitreous) is highly specific for a retinal break. It represents liberated retinal pigment epithelial cells through a full-thickness retinal tear. While retinal detachment may also cause this, the immediate implication is a break.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8043dd37d544",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old female with prior cataract surgery three months ago complains of gradual onset of visual distortion and a shadow in her central vision. On examination, visual acuity is 6/18, and there is no RAPD. Dilated fundoscopy shows a shallow elevation of the retina in the macula with no clear break identified. Which investigation is most useful to confirm the diagnosis and assess the extent of detachment?",
+      "options": [
+        "Macular optical coherence tomography (OCT)",
+        "CT orbit",
+        "Fluorescein angiography",
+        "B-scan ultrasound",
+        "Electroretinography"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a shallow macula-off retinal detachment without obvious break on exam, OCT can demonstrate subretinal fluid and confirm detachment. B-scan is less sensitive for shallow detachments; OCT provides high-resolution cross-sectional images.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5dbed7cf83f5",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old myopic patient presents with acute flashes and floaters. You perform a dilated exam and note a horseshoe tear at 11 o'clock without subretinal fluid. What is the most appropriate diagnostic step to assess for associated vitreous traction?",
+      "options": [
+        "OCT of the posterior pole",
+        "B-scan ultrasound",
+        "Fundus fluorescein angiography",
+        "Dilated indirect ophthalmoscopy with scleral depression over the tear area",
+        "Visual field testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with a retinal tear, scleral depression allows dynamic assessment of vitreoretinal traction and helps determine the risk of progression to detachment. This is a diagnostic extension of the clinical exam; other tests do not provide dynamic traction assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14ea195d87b4",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old male presents with a 2-day history of flashes and floaters in his left eye. Visual acuity is 6/6. Examination reveals a small retinal detachment with a single horse-shoe tear at 11 o'clock; no proliferative vitreoretinopathy (PVR) is present. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Pars plana vitrectomy",
+        "Observation",
+        "Scleral buckle",
+        "Pneumatic retinopexy",
+        "Laser retinopexy"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a fresh, uncomplicated rhegmatogenous retinal detachment with a single break in the superior fundus, pneumatic retinopexy is first-line due to its low invasiveness and good outcomes. Vitrectomy or buckle are reserved for complex cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e0aa90a3e29",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old female presents with sudden painless vision loss in her right eye for one day. Visual acuity is hand movements. Fundoscopy reveals a bullous retinal detachment involving the macula (macula-off) with a large tear at 1 o'clock; no PVR is noted. Which is the most appropriate treatment?",
+      "options": [
+        "Pneumatic retinopexy",
+        "Laser retinopexy",
+        "Scleral buckle",
+        "Cryotherapy",
+        "Pars plana vitrectomy with SF6 gas"
+      ],
+      "answerIndex": 4,
+      "explanation": "For macula-off rhegmatogenous retinal detachment, urgent pars plana vitrectomy with gas tamponade (e.g., SF6) is first-line to achieve rapid reattachment. Pneumatic retinopexy is less effective for large tears or macula-off detachments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18fb1a6b025c",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old male with type 2 diabetes mellitus presents with gradual vision loss. Fundoscopy shows a tractional retinal detachment at the posterior pole with a small foveal detachment and active proliferative diabetic retinopathy. Which is the most appropriate treatment?",
+      "options": [
+        "Pars plana vitrectomy with membrane peel",
+        "Intravitreal bevacizumab",
+        "Scleral buckle",
+        "Panretinal photocoagulation alone",
+        "Observation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tractional retinal detachment requires vitrectomy to release vitreoretinal traction; laser or anti-VEGF alone do not address the traction and are insufficient once detachment has occurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "128aab063d5a",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old myopic male presents with sudden vision loss. Fundoscopy reveals a giant retinal tear (>3 clock hours) with associated retinal detachment. Which is the most appropriate treatment?",
+      "options": [
+        "Pars plana vitrectomy with silicone oil tamponade",
+        "Pneumatic retinopexy",
+        "Laser retinopexy",
+        "Scleral buckle",
+        "Cryotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Giant retinal tears carry a high risk of proliferative vitreoretinopathy; silicone oil provides long-lasting tamponade and reduces recurrence risk. Gas tamponade is absorbed too quickly, and scleral buckle alone is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c028252baddb",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old airline pilot presents with a macula-on retinal detachment due to a single small tear. He needs to return to flying within one week. Which of the following treatments is most contraindicated?",
+      "options": [
+        "Scleral buckle",
+        "Pars plana vitrectomy with silicone oil",
+        "Laser barrier retinopexy",
+        "Pneumatic retinopexy",
+        "Observation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pneumatic retinopexy introduces an intraocular gas bubble that expands at altitude, risking acute glaucoma or ischemia. It is contraindicated in pilots who require immediate altitude exposure. Scleral buckle or silicone oil are safer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b918e373c7d",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to ED with a 2-day history of 'flashes and floaters' in his right eye, followed by a 'curtain' coming down over his vision. Visual acuity is 6/12 in the right eye, 6/6 left. On direct ophthalmoscopy, the red reflex is dull and the optic disc is poorly visualised. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to ophthalmology for same-day review",
+        "Arrange urgent CT head",
+        "Arrange urgent B-scan ultrasound",
+        "Arrange urgent slit-lamp examination",
+        "Give oral acetazolamide"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of flashes, floaters, and a visual field defect ('curtain') is classic for retinal detachment. Immediate referral to ophthalmology is priority for formal dilated fundus examination and management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e77e2d80c6e",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman undergoes vitrectomy and gas tamponade for a macular-on retinal detachment. 2 days post-operatively, she returns to ED with sudden onset of severe right eye pain, redness, and reduced vision to hand movements. On examination, there is conjunctival injection, corneal oedema, and a 2mm hypopyon. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer topical antibiotics and arrange outpatient review",
+        "Prescribe oral acetazolamide and topical beta-blockers",
+        "Order an urgent CT orbit",
+        "Contact ophthalmology registrar for same-day vitreous tap and intravitreal antibiotics",
+        "Commence oral steroids and review in clinic tomorrow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypopyon and pain after intraocular surgery is endophthalmitis until proven otherwise. Urgent vitreous sampling and intravitreal antibiotics are the standard of care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ffc5685847df",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old myopic man presents to GP with a 3-week history of occasional flashes in his left eye but no floaters or field loss. He is otherwise well. Fundoscopy shows a horseshoe tear in the peripheral retina. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer urgently to ophthalmology for same-day assessment",
+        "Schedule an MRI brain for the following week",
+        "Advise to stop contact lens use and monitor",
+        "Commence prophylactic oral antibiotics",
+        "Arrange outpatient laser photocoagulation"
+      ],
+      "answerIndex": 0,
+      "explanation": "A horseshoe tear is a pre-retinal detachment lesion requiring prompt treatment (usually laser or cryotherapy). Same-day referral to ophthalmology is appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "74fd051dfd1a",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman on warfarin for atrial fibrillation presents to ED with sudden, painless loss of vision in her right eye for 4 hours. She describes a 'shadow' across the top of her vision. On examination, a relative afferent pupillary defect is present. She has a history of hypertension. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check INR and give vitamin K if INR is elevated",
+        "Urgent CT head to rule out intracranial pathology",
+        "Prescribe aspirin 300mg stat",
+        "Perform a carotid ultrasound",
+        "Contact the on-call ophthalmologist for urgent review"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presentation is classic for retinal detachment (painless, shadow, afferent pupillary defect). Immediate ophthalmology referral is mandatory; anticoagulation management is not the immediate priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "daaad46a6c4f",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 6-year-old child is brought to ED by his mother after a direct blow to the left eye with a football. He complains of blurred vision and sees 'tiny bugs' in his left eye. On examination, there is periorbital ecchymosis but no visible globe rupture. Fundoscopy is difficult due to poor cooperation. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform a B-scan ultrasound of the left eye",
+        "Urgent CT head and orbits",
+        "Give oral paracetamol and discharge with eye safety advice",
+        "Refer to paediatric ophthalmology for examination under anaesthesia (EUA)",
+        "Arrange an MRI brain and orbits"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blunt trauma can cause retinal detachment in children. EUA allows thorough examination and possible repair; it is the safest next step when fundoscopy is difficult.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a16567e63b80",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old myopic patient presents with sudden onset of flashes and floaters in the right eye. On examination, visual acuity is 6/6 in both eyes, and there is no relative afferent pupillary defect. Which single finding on fundoscopy or slit-lamp examination would necessitate immediate referral to ophthalmology?",
+      "options": [
+        "Cystic macular oedema",
+        "Posterior vitreous detachment",
+        "Peripheral retinal drusen",
+        "Lattice degeneration",
+        "Vitreous haemorrhage"
+      ],
+      "answerIndex": 4,
+      "explanation": "Vitreous haemorrhage in the setting of acute flashes/floaters is highly suggestive of a retinal tear, which requires urgent laser or cryotherapy to prevent progression to retinal detachment. Posterior vitreous detachment is common and not an emergency; lattice degeneration is a risk factor but not an immediate indication for referral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e2bee32e5f4a",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with high myopia (-8 dioptres) and known lattice degeneration attends clinic with new-onset floaters but no visual field defect. On dilated fundoscopy, she is found to have a horseshoe tear at the 10 o'clock position. Which clinical feature of the tear indicates the highest risk for progression to retinal detachment?",
+      "options": [
+        "Chronicity of the tear >6 weeks",
+        "Tear located in the superior temporal quadrant",
+        "Tear size <1 disc diameter",
+        "Presence of vitreous haemorrhage associated with the tear",
+        "Associated with a ring of scleral buckle"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of vitreous haemorrhage with a horseshoe tear indicates that the tear is acute and likely has traction, increasing the risk of extension to retinal detachment. Superior temporal tears are common but not the highest risk factor; size and chronicity are less important.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "72ee935b0c21",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents to the emergency department with acute onset of severe right eye pain, redness, blurred vision, and vomiting. He has a history of hypermetropia. On examination, visual acuity is counting fingers, and the cornea is oedematous. The right pupil is mid-dilated and fixed. Which diagnosis must be excluded urgently as a mimic of retinal detachment?",
+      "options": [
+        "Optic neuritis",
+        "Central retinal artery occlusion",
+        "Vitreous detachment",
+        "Acute anterior uveitis",
+        "Acute angle closure glaucoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of acute painful red eye, corneal oedema, fixed mid-dilated pupil, and elevated IOP is classic for acute angle closure glaucoma, which is an emergency requiring immediate intraocular pressure reduction. This presentation can be confused with retinal detachment if pain is absent, but here pain and vomiting point to glaucoma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "37f7d4ac00ea",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with a known rhegmatogenous retinal detachment undergoes bed rest awaiting surgery. Over 48 hours, the detachment progresses inferiorly, and intraocular pressure (IOP) is measured at 5 mmHg. Which complication is suggested by the combination of progressive detachment and low IOP?",
+      "options": [
+        "Macular hole formation",
+        "Proliferative vitreoretinopathy",
+        "Ocular ischaemic syndrome",
+        "Choroidal detachment",
+        "Subretinal neovascularization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotony (low IOP) in the setting of a retinal detachment often indicates a concurrent choroidal detachment, which can be serous or haemorrhagic and often accompanies or complicates retinal detachments. Proliferative vitreoretinopathy is a later complication without low IOP typically.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9fafc8219a92",
+      "topic": "Retinal Detachment",
+      "slug": "retinal-detachment",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old primigravida at 36 weeks gestation presents with sudden-onset bilateral visual loss and flashing lights. She was admitted three days ago with severe pre-eclampsia (BP 170/110 mmHg, proteinuria 3+). Fundoscopy reveals bilateral serous retinal detachments. Which systemic condition is the most likely cause of this retinal detachment?",
+      "options": [
+        "Toxoplasma retinochoroiditis",
+        "Vogt-Koyanagi-Harada disease",
+        "Hypertensive retinopathy",
+        "Uveal effusion syndrome",
+        "Central serous chorioretinopathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe pre-eclampsia can cause hypertensive retinopathy leading to serous retinal detachment due to choroidal ischaemia and exudation. This is a marker of severe pre-eclampsia and often resolves with control of blood pressure. Central serous chorioretinopathy is typically unilateral and not associated with pre-eclampsia.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Transfusion Reactions",
+  "slug": "transfusion-reactions",
+  "system": "Haematology",
+  "subSystem": "Transfusion",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:37:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "3883a5afd174",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with myelodysplastic syndrome is receiving a third unit of red cells for symptomatic anaemia. Twenty minutes into the transfusion, he develops sudden severe lower back pain, rigors, and dark urine. His temperature is 38.9°C, pulse 110 bpm, BP 85/50 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-related acute lung injury",
+        "Acute haemolytic transfusion reaction",
+        "Febrile non-haemolytic transfusion reaction",
+        "Transfusion-associated circulatory overload",
+        "Anaphylactic transfusion reaction"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sudden onset of back pain, rigors, hypotension, and haemoglobinuria during a transfusion is classic for acute haemolytic reaction, most often due to ABO incompatibility. Febrile non-haemolytic reactions cause fever but not back pain or hypotension.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3e47259cba47",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old woman with beta-thalassaemia major receives a routine transfusion of red cells. One hour after completion, she develops fever (38.5°C) and chills, but no hypotension, respiratory symptoms, or pain. She has had similar episodes with previous transfusions. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-related acute lung injury",
+        "Acute haemolytic transfusion reaction",
+        "Bacterial contamination of blood product",
+        "Allergic transfusion reaction",
+        "Febrile non-haemolytic transfusion reaction"
+      ],
+      "answerIndex": 4,
+      "explanation": "Isolated fever and chills without hypotension, respiratory distress, or pain in a multiply transfused patient suggests febrile non-haemolytic reaction, typically due to antibodies against donor white cells. Bacterial contamination would likely cause more severe symptoms and hypotension.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41552f8c1188",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with gastrointestinal bleeding is transfused two units of red cells. Within one hour of starting the second unit, he develops acute dyspnoea, hypoxia (SpO2 85% on 15 L O2), and bilateral crackles on chest auscultation. His temperature is 37.2°C, BP 120/80 mmHg, and central venous pressure is normal. Chest X-ray shows bilateral pulmonary infiltrates with no cardiomegaly. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-associated circulatory overload",
+        "Acute haemolytic transfusion reaction",
+        "Transfusion-related acute lung injury",
+        "Febrile non-haemolytic transfusion reaction",
+        "Anaphylactic transfusion reaction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute hypoxia, bilateral infiltrates, and normal CVP in a patient receiving blood products is characteristic of TRALI, caused by donor anti-leukocyte antibodies. TACO would show elevated CVP and signs of volume overload.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4e1bc52dd6f",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with chronic kidney disease and known heart failure receives two units of red cells for anaemia (Hb 70 g/L). Six hours later, she develops progressive dyspnoea, orthopnoea, and frothy sputum. On examination, JVP is elevated, she has bibasal crackles, and her BP is 155/90 mmHg. Chest X-ray shows pulmonary oedema and cardiomegaly. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-related acute lung injury",
+        "Acute haemolytic transfusion reaction",
+        "Febrile non-haemolytic transfusion reaction",
+        "Anaphylactic transfusion reaction",
+        "Transfusion-associated circulatory overload"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dyspnoea, elevated JVP, pulmonary oedema, and hypertension after transfusion in a patient with heart failure points to TACO. TRALI would have normal CVP and no cardiomegaly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3568ac932ed",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with sickle cell disease receives a red cell exchange transfusion for acute chest syndrome. She is discharged home. Twelve days later, she presents with jaundice, dark urine, and a drop in haemoglobin from 100 g/L to 75 g/L. Direct Coombs test is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-transmitted hepatitis",
+        "Delayed haemolytic transfusion reaction",
+        "Post-transfusion purpura",
+        "Autoimmune haemolytic anaemia",
+        "Sickle cell vaso-occlusive crisis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Delayed haemolytic transfusion reaction occurs days to weeks post-transfusion with falling Hb and positive direct Coombs test due to anamnestic antibody response. Autoimmune haemolytic anaemia is not temporally related to transfusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d29596b6c320",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man receiving his third unit of red cells for anaemia develops severe back pain, rigors, and dark urine after 50 mL of blood. Pulse 110 bpm, BP 85/50 mmHg. The transfusion is stopped. Which single investigation is most appropriate to confirm the diagnosis of acute haemolytic transfusion reaction?",
+      "options": [
+        "Direct antiglobulin test (DAT)",
+        "Blood cultures",
+        "Urine microscopy for haemoglobinuria",
+        "Repeat ABO/Rh grouping",
+        "Serum haptoglobin"
+      ],
+      "answerIndex": 0,
+      "explanation": "A positive DAT indicates immune-mediated haemolysis due to antibody-coated red cells, which is the specific confirmatory test for acute haemolytic transfusion reaction. Reduced haptoglobin and haemoglobinuria support haemolysis but are not diagnostic. Blood cultures are for bacterial contamination.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "996642553197",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman develops a temperature of 38.5°C and chills during a red cell transfusion. No hypotension, no rash, no respiratory symptoms. What is the most appropriate next investigation to differentiate febrile non-haemolytic transfusion reaction from acute haemolytic reaction?",
+      "options": [
+        "Direct antiglobulin test",
+        "Chest X-ray",
+        "Serum tryptase",
+        "Visual inspection of plasma for haemolysis",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "A negative DAT helps rule out immune-mediated haemolysis, supporting a diagnosis of febrile non-haemolytic transfusion reaction. Visual inspection is immediate but less specific; blood cultures and other tests are not required initially.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "429786ba1e61",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with myeloma receives a platelet transfusion. Five minutes later he develops urticaria, wheeze, and hypotension. Which investigation is most useful to confirm anaphylactic transfusion reaction?",
+      "options": [
+        "Skin prick tests",
+        "Complement C3/C4",
+        "Serum tryptase",
+        "Eosinophil count",
+        "Total IgE"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevated serum tryptase within 1-2 hours indicates mast cell degranulation, which is consistent with anaphylaxis. Total IgE, skin prick tests, and complement levels are not useful in the acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bfa88ee40857",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with heart failure receives red cells. Two hours later she develops dyspnoea, hypoxia, and bilateral crackles on chest auscultation. Which investigation best distinguishes transfusion-associated circulatory overload (TACO) from transfusion-related acute lung injury (TRALI)?",
+      "options": [
+        "PaO2/FiO2 ratio",
+        "Donor anti-HLA antibodies",
+        "B-type natriuretic peptide (BNP)",
+        "Echocardiogram",
+        "Chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevated BNP suggests volume overload (TACO) rather than increased pulmonary vascular permeability (TRALI). Chest X-ray and PaO2/FiO2 ratio are similar in both conditions. Echocardiogram can assess left atrial pressure but BNP is more rapidly available. Donor anti-HLA antibodies support TRALI but are not immediately helpful at the bedside.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6fa40e8d8bb5",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with chronic lymphocytic leukaemia receives a blood transfusion. Two weeks later he develops fever, erythematous rash, diarrhoea, and pancytopenia. Which investigation is most appropriate to confirm suspected transfusion-associated graft-versus-host disease (TA-GvHD)?",
+      "options": [
+        "Bone marrow trephine biopsy",
+        "Peripheral blood chimerism analysis",
+        "Mixed lymphocyte culture",
+        "Serum ferritin",
+        "Skin biopsy from the rash"
+      ],
+      "answerIndex": 4,
+      "explanation": "Skin biopsy showing vacuolation of basal keratinocytes and satellite cell necrosis is characteristic of TA-GvHD and is often the first diagnostic step. Chimerism analysis confirms donor T-cell engraftment but is less rapid. Bone marrow shows aplasia but is non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "48e7024d3238",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman develops urticaria and mild itching during a red cell transfusion. Observations are normal. What is the most appropriate first-line treatment?",
+      "options": [
+        "Paracetamol 1 g IV",
+        "Stop transfusion and observe",
+        "Chlorphenamine 10 mg IV",
+        "Hydrocortisone 100 mg IV",
+        "Adrenaline 0.5 mg IM"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mild allergic transfusion reactions are treated with antihistamines such as chlorphenamine. Steroids are second-line, adrenaline is reserved for anaphylaxis, and paracetamol is for febrile reactions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2f23708a320f",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man develops hypotension, wheeze, and angioedema within minutes of starting a platelet transfusion. What is the most appropriate drug to administer?",
+      "options": [
+        "Metaraminol 0.5 mg IV",
+        "Adrenaline 0.5 mg IM",
+        "Hydrocortisone 200 mg IV",
+        "Chlorphenamine 10 mg IV",
+        "Salbutamol 5 mg nebulised"
+      ],
+      "answerIndex": 1,
+      "explanation": "Anaphylactic transfusion reaction requires immediate IM adrenaline. Nebulised salbutamol addresses wheeze but adrenaline is first-line for anaphylaxis. Metaraminol is a vasopressor but not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0dd7ed2fa479",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old with chronic kidney disease develops dyspnoea, hypertension, and elevated JVP after 2 units of red cells. Chest X-ray shows pulmonary oedema. What is the most appropriate drug therapy?",
+      "options": [
+        "Furosemide 40 mg IV",
+        "Digoxin 0.5 mg IV",
+        "Metoprolol 5 mg IV",
+        "Amiodarone 150 mg IV",
+        "Nitroglycerin 0.5 mg sublingual"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transfusion-associated circulatory overload (TACO) is managed with diuretics like furosemide. Nitrates are sometimes used but diuretics are first-line. Beta-blockers, digoxin, and amiodarone are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "288dde968866",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman develops fever and rigors during a platelet transfusion, without hypotension or respiratory symptoms. What is the most appropriate treatment?",
+      "options": [
+        "Chlorphenamine 10 mg IV",
+        "Hydrocortisone 100 mg IV",
+        "Pethidine 50 mg IM",
+        "Ibuprofen 400 mg oral",
+        "Paracetamol 1 g oral/IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "Febrile non-hemolytic transfusion reactions are treated with antipyretics; paracetamol is first-line. NSAIDs are an alternative but not preferred initially. Chlorphenamine is for allergic reactions, hydrocortisone is second-line, and pethidine for rigors is not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aba51233dbfd",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man develops sudden dyspnoea, hypoxia, and bilateral pulmonary infiltrates 2 hours after a red cell transfusion. He is hypotensive (BP 90/60) and has a fever. Which drug is CONTRAINDICATED in the management of this condition?",
+      "options": [
+        "Oxygen",
+        "Paracetamol",
+        "Furosemide",
+        "Hydrocortisone",
+        "Adrenaline"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is transfusion-related acute lung injury (TRALI), a non-cardiogenic pulmonary oedema. Diuretics are contraindicated as they can worsen hypotension due to reduced preload. Supportive care with oxygen is mainstay.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63da7cf810a7",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old male is receiving a unit of packed red cells for chronic anaemia. 10 minutes into the transfusion, he develops acute chest pain, rigors, and lower back pain. His blood pressure is 80/50 mmHg, heart rate 120 bpm, temperature 39.2°C. The nurse has just called you. What is the most appropriate immediate next step?",
+      "options": [
+        "Send a blood sample for direct Coombs test",
+        "Stop the transfusion immediately",
+        "Check the blood bag labels against the patient's details",
+        "Give paracetamol 1 g orally",
+        "Administer intravenous chlorphenamine"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute haemolytic transfusion reaction, the first priority is to stop the transfusion to prevent further infusion of incompatible blood. This takes precedence over other investigations or treatments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fb10644deb4",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman develops generalised urticaria and itching during a transfusion of packed red cells. The nurse has already stopped the transfusion. Observations: pulse 80 bpm, BP 110/70 mmHg, temp 36.8°C, respiratory rate 14 breaths/min. There is no wheeze or hoarseness. What is the most appropriate next step?",
+      "options": [
+        "Administer intravenous chlorphenamine",
+        "Restart the transfusion at a slower rate",
+        "Check the blood culture from the unit",
+        "Send a blood sample for direct Coombs test",
+        "Give intravenous hydrocortisone"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a mild allergic transfusion reaction with only urticaria, after stopping the transfusion, the recommended treatment is an antihistamine (e.g., chlorphenamine). Once symptoms resolve, the transfusion may be restarted at a slower rate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8a6551bde2fb",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 78-year-old male with chronic kidney disease receives 2 units of packed red cells for symptomatic anaemia. Two hours later, he develops acute dyspnoea, orthopnoea, and frothy pink sputum. Observations: pulse 110 bpm, BP 160/90 mmHg, respiratory rate 28 breaths/min, SpO2 88% on room air. Chest auscultation reveals bilateral crackles. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous broad-spectrum antibiotics",
+        "Administer intravenous furosemide",
+        "Perform urgent venesection",
+        "Initiate non-invasive ventilation",
+        "Give high-flow oxygen and call the intensive care team"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is transfusion-associated circulatory overload (TACO). The immediate priority is to relieve pulmonary oedema with a loop diuretic (e.g., furosemide). Oxygen and ventilatory support may be needed but the diuretic is the first specific treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd4af1b971e4",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with acute myeloid leukaemia develops fever, rigors, and hypotension (BP 85/45 mmHg) 30 minutes into a platelet transfusion. The nurse has stopped the transfusion. Observations: heart rate 115 bpm, temperature 40°C, respiratory rate 22 breaths/min. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous paracetamol",
+        "Give a fluid bolus of 500 mL Hartmann's solution",
+        "Send the blood bag for culture",
+        "Start intravenous broad-spectrum antibiotics",
+        "Request an urgent haematology review"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bacterial contamination of blood products can cause septic shock. After stopping the transfusion (already done), the immediate priority is to treat sepsis with broad-spectrum antibiotics. Fluid resuscitation is also important but antibiotics are the definitive treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4afada5ecc42",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old man with myelodysplastic syndrome becomes acutely short of breath and hypoxic (SpO2 85% on 2 L/min oxygen) 1 hour after a transfusion of packed red cells. Observations: pulse 100 bpm, BP 110/70 mmHg, temp 37.0°C, respiratory rate 24 breaths/min. Chest X-ray shows new bilateral diffuse infiltrates without cardiomegaly. He has no leg oedema or raised JVP. What is the most appropriate immediate next step?",
+      "options": [
+        "Provide high-flow oxygen and call the intensive care team",
+        "Start intravenous broad-spectrum antibiotics",
+        "Perform urgent echocardiography",
+        "Administer intravenous furosemide",
+        "Give intravenous chlorphenamine"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is likely transfusion-related acute lung injury (TRALI). The immediate management is supportive with oxygen and often intensive care. Diuretics are not indicated as there is no fluid overload; antibiotics are not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c2e14044f9de",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man is receiving a unit of packed red cells for chronic anaemia. 20 minutes into the transfusion, he complains of lower back pain. Observations: temp 37.5°C, HR 80, BP 125/75. Which clinical finding most strongly indicates a life-threatening transfusion reaction?",
+      "options": [
+        "Headache",
+        "Back pain",
+        "Fever",
+        "Tachycardia",
+        "Hypertension"
+      ],
+      "answerIndex": 1,
+      "explanation": "New onset back pain during transfusion is a classic symptom of acute haemolytic transfusion reaction due to ABO incompatibility, indicating imminent shock and DIC. Fever and headache are common and non-specific; tachycardia and hypertension are not typical early signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "61f205090be0",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with a history of seasonal allergies is receiving a platelet transfusion. Shortly after starting, she develops urticaria and lip swelling. Observations: temp 37.0°C, HR 95, BP 100/60, SpO2 97% on air. Which clinical finding would indicate the need for immediate escalation due to anaphylaxis?",
+      "options": [
+        "Stridor",
+        "Tachycardia",
+        "Lip swelling",
+        "Hypotension",
+        "Urticaria"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor indicates upper airway oedema, a potentially life-threatening feature of anaphylaxis requiring immediate intervention. Urticaria and lip swelling are common allergic reactions but not airway emergencies; tachycardia and mild hypotension can be present without emergency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4efa0b50385b",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man receives 2 units of packed red cells for gastrointestinal bleeding. One hour after the second unit, he becomes acutely dyspnoeic. Observations: temp 37.2°C, HR 110, BP 140/80, RR 28, SpO2 88% on room air. Which single finding is the immediate threat to life in this scenario?",
+      "options": [
+        "Tachycardia",
+        "Raised JVP",
+        "Hypotension",
+        "SpO2 88% on room air",
+        "Fever"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute hypoxemia (SpO2 <90%) is the immediate threat, indicating severe respiratory compromise likely due to TRALI or TACO. Tachycardia and hypertension are compensatory; raised JVP would suggest TACO but does not alone define the emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2540688a9ac6",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman receives a unit of packed red cells for menorrhagia. 30 minutes into the transfusion, she develops a temperature of 39.5°C with rigors and vomiting. Observations: HR 115, BP 85/50, SpO2 96%. Which clinical finding most strongly suggests a septic transfusion reaction due to bacterial contamination?",
+      "options": [
+        "Tachycardia",
+        "Rigors",
+        "High fever",
+        "Hypotension",
+        "Vomiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension (systolic BP <90 mmHg) in the setting of a transfusion reaction with fever and rigors indicates possible septic shock from bacterial contamination, requiring immediate cessation and broad-spectrum antibiotics. Fever and rigors are common in febrile non-haemolytic reactions; vomiting and tachycardia are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8aa6c8af7d9d",
+      "topic": "Transfusion Reactions",
+      "slug": "transfusion-reactions",
+      "system": "Haematology",
+      "subSystem": "Transfusion",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man with known heart failure receives a slow transfusion of packed red cells. 30 minutes after completion, he develops orthopnoea and a cough. On examination: JVP raised 8 cm, bilateral crackles, BP 155/85. Which single finding confirms the diagnosis of transfusion-associated circulatory overload (TACO) rather than TRALI?",
+      "options": [
+        "Fever",
+        "Raised JVP",
+        "Orthopnoea",
+        "Bilateral crackles",
+        "Hypertension"
+      ],
+      "answerIndex": 1,
+      "explanation": "Raised JVP is a key sign of fluid overload, distinguishing TACO from TRALI, where JVP is typically normal. Crackles and orthopnoea occur in both; hypertension is common in TACO but not specific; fever is absent in TACO.",
+      "difficulty": "hard"
+    }
+  ]
+}

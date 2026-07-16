@@ -1,0 +1,493 @@
+{
+  "topic": "Syncope — Approach",
+  "slug": "syncope-—-approach",
+  "system": "Cardiovascular",
+  "subSystem": "Syncope",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:46Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "abde33cc75a6",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old man with hypertension and diabetes presents with recurrent syncope. He has no warning symptoms. ECG shows first-degree AV block and left bundle branch block. What is the single most likely diagnosis?",
+      "options": [
+        "Aortic stenosis",
+        "Orthostatic hypotension",
+        "Vasovagal syncope",
+        "Complete heart block",
+        "Sick sinus syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of bifascicular block (left bundle branch block) and first-degree AV block suggests triphasic block, which can progress to complete heart block causing syncope. Syncope without prodrome is typical for cardiac arrhythmias, distinguishing it from vasovagal syncope which usually has a prodrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "98f6c04b962c",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old athlete collapses during a football match. He had brief palpitations before losing consciousness. He has a family history of sudden cardiac death. ECG shows deep T-wave inversions in leads V1-V3. What is the single most likely diagnosis?",
+      "options": [
+        "Vasovagal syncope",
+        "Arrhythmogenic right ventricular cardiomyopathy",
+        "Hypertrophic cardiomyopathy",
+        "Long QT syndrome",
+        "Wolff-Parkinson-White syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of exertional syncope with palpitations, family history of sudden cardiac death, and ECG findings of T-wave inversions in right precordial leads (V1-V3) is characteristic of arrhythmogenic right ventricular cardiomyopathy (ARVC). Hypertrophic cardiomyopathy typically shows LVH and septal Q waves, not isolated anterior T-wave inversions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2d455bfa9a4a",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with recent hip surgery presents with syncope while sitting in a chair. She has mild dyspnoea and chest discomfort. HR 110, BP 90/60, RR 24, SpO2 92% on air. ECG shows sinus tachycardia and S1Q3T3 pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Myocardial infarction",
+        "Vasovagal syncope",
+        "Pneumothorax",
+        "Aortic stenosis",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 4,
+      "explanation": "The clinical context (post-surgery, immobilisation), syncope as a presentation of pulmonary embolism, along with tachycardia, hypoxia, and ECG signs of right heart strain (S1Q3T3) make pulmonary embolism the most likely diagnosis. Vasovagal syncope typically has a prodrome and normal oxygenation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6153e9986cd5",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with a history of hypertension presents with syncope while walking uphill. He also complains of chest tightness during exertion. On examination, there is a harsh systolic murmur at the right upper sternal border radiating to the carotids, and a slow-rising carotid pulse. What is the single most likely diagnosis?",
+      "options": [
+        "Atrial myxoma",
+        "Pulmonary stenosis",
+        "Hypertrophic cardiomyopathy",
+        "Mitral valve prolapse",
+        "Aortic stenosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Exertional syncope, anginal chest pain, and the classic murmur and pulse findings (slow-rising carotid) are classic for severe aortic stenosis. Hypertrophic cardiomyopathy may have a systolic murmur but often with a brisk carotid upstroke and different ECG/LVH pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8066898266a6",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with syncope after a sudden loud noise. She has no significant past medical history but mentions her brother died suddenly at age 25. ECG shows a prolonged QT interval (QTc 520 ms). What is the single most likely diagnosis?",
+      "options": [
+        "Arrhythmogenic right ventricular cardiomyopathy",
+        "Brugada syndrome",
+        "Long QT syndrome",
+        "Hypertrophic cardiomyopathy",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 2,
+      "explanation": "Syncope triggered by auditory stimuli, family history of sudden death, and prolonged QT interval on ECG are diagnostic of congenital long QT syndrome. Vasovagal syncope does not have a specific ECG abnormality, and Brugada syndrome shows ST elevation in V1-V3 with a different pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ffac5999680",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a single episode of syncope while standing. He had no prodrome and recovered within seconds. Examination is unremarkable. ECG shows sinus bradycardia at 45 bpm. What is the most appropriate next investigation to establish the diagnosis?",
+      "options": [
+        "24-hour Holter monitoring",
+        "Tilt-table test",
+        "Carotid sinus massage",
+        "Transthoracic echocardiogram",
+        "CT head"
+      ],
+      "answerIndex": 0,
+      "explanation": "In unexplained syncope with bradycardia, 24-hour Holter can detect intermittent bradyarrhythmias like sick sinus syndrome. Tilt-table test is for reflex syncope, but the absence of prodrome makes it less likely. Carotid sinus massage tests for carotid sinus syndrome, but not first line. Echocardiogram is for structural disease, and CT head for neurological causes, which are less likely given the ECG finding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1289dec7fd8",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old male collapses during a sprint. He had no prodrome and briefly jerked his limbs. Resting ECG is normal. What is the most appropriate investigation to establish the diagnosis?",
+      "options": [
+        "Exercise stress test",
+        "CT coronary angiogram",
+        "Transthoracic echocardiogram",
+        "24-hour Holter monitoring",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exertional syncope in a young athlete raises suspicion for hypertrophic cardiomyopathy (HCM). Transthoracic echocardiogram is the first-line imaging to detect left ventricular hypertrophy, which may be present despite a normal ECG. Cardiac MRI is reserved if echo is inconclusive. Exercise stress test may unmask arrhythmias but is not diagnostic for HCM.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a79137975aa5",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man experiences syncope while walking. He reports chest tightness during the episode. On auscultation, there is a loud systolic murmur at the right upper sternal border radiating to the carotids. Which investigation confirms the diagnosis?",
+      "options": [
+        "Carotid duplex ultrasound",
+        "Exercise ECG",
+        "Coronary angiography",
+        "Cardiac MRI",
+        "Transthoracic echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "The murmur is characteristic of aortic stenosis. Transthoracic echocardiogram with Doppler confirms the diagnosis by measuring the aortic valve area and gradient. Exercise ECG is contraindicated in severe aortic stenosis. Coronary angiography evaluates ischaemia, not the valve. Cardiac MRI is not first-line, and carotid ultrasound is for carotid stenosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e34519e1a890",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman has recurrent syncope with palpitations. Resting ECG shows sinus rhythm and occasional ventricular ectopics. 24-hour Holter reveals runs of non-sustained ventricular tachycardia. What is the most appropriate investigation to assess for underlying structural heart disease?",
+      "options": [
+        "Cardiac MRI",
+        "Transthoracic echocardiogram",
+        "Signal-averaged ECG",
+        "Electrophysiology study",
+        "CT coronary angiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients with ventricular tachycardia, echocardiogram is the first-line test to identify structural abnormalities such as ischaemic heart disease, cardiomyopathy, or valvular disease. Cardiac MRI is useful if echocardiogram is suboptimal or specific conditions like ARVC are suspected, but is not the initial test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "764218382fbb",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman with hypertension presents with syncope while sitting. ECG shows first-degree AV block and left anterior fascicular block (bifascicular block). Non-invasive 24-hour Holter is normal. What is the most appropriate investigation to determine if pacing is needed?",
+      "options": [
+        "Electrophysiology study with HV interval measurement",
+        "Implantable loop recorder",
+        "Exercise stress test",
+        "Repeat 48-hour Holter",
+        "Tilt-table test"
+      ],
+      "answerIndex": 1,
+      "explanation": "For unexplained syncope with bifascicular block, NICE recommends an implantable loop recorder to capture intermittent high-grade AV block. EP study with HV interval measurement can be considered if loop recorder is inconclusive. Tilt-table test and exercise test are not indicated. Extended Holter is less likely to capture infrequent events.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df64684270e9",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with recurrent syncope triggered by standing in hot crowded places. She has prodromal symptoms of nausea and lightheadedness. ECG, echocardiogram and 24-hour tape are normal. What is the most appropriate first-line management?",
+      "options": [
+        "Insert a dual-chamber pacemaker",
+        "Advice on physical counterpressure manoeuvres and increased fluid intake",
+        "Start bisoprolol 2.5 mg once daily",
+        "Start fludrocortisone 50 micrograms twice daily",
+        "Refer for tilt-table testing with training"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend non-pharmacological measures (lifestyle advice, counterpressure manoeuvres) as first-line for vasovagal syncope, before considering drugs or pacing. Drugs have limited evidence and are reserved for refractory cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "057ce58b6d52",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with recurrent syncope has a positive carotid sinus massage showing >3 second asystole. He has no other cardiac disease. What is the most appropriate definitive treatment?",
+      "options": [
+        "Advice on avoidance of tight collars",
+        "Permanent carotid sinus denervation",
+        "Start midodrine 2.5 mg three times daily",
+        "Start fludrocortisone 50 micrograms twice daily",
+        "Dual-chamber pacemaker implantation"
+      ],
+      "answerIndex": 4,
+      "explanation": "For cardioinhibitory carotid sinus syndrome causing syncope, NICE recommends dual-chamber pacing as first-line definitive therapy, as it prevents bradycardia-related syncope.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8a7a6629d0ab",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man with heart failure on bisoprolol 10 mg daily collapses. ECG shows complete heart block with a wide QRS escape rhythm at 30 bpm. Which drug is CONTRAINDICATED in this situation?",
+      "options": [
+        "Intravenous isoprenaline 1 microgram/min",
+        "Transcutaneous pacing",
+        "Insertion of temporary transvenous pacing wire",
+        "Insertion of permanent pacemaker",
+        "Intravenous atropine 600 micrograms"
+      ],
+      "answerIndex": 4,
+      "explanation": "Atropine is ineffective for complete heart block because the block is infranodal; it may paradoxically slow the atrial rate and worsen syncope. Transcutaneous pacing or isoprenaline can be used as a bridge to permanent pacing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0245cfe3c95",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old man with hypertension on ramipril, amlodipine and bendroflumethiazide presents with recurrent syncope on standing. Supine BP 140/80 mmHg, standing BP 90/50 mmHg with symptoms. What is the most appropriate first-line management?",
+      "options": [
+        "Advise compression stockings",
+        "Increase oral salt intake to 10 g/day",
+        "Stop bendroflumethiazide",
+        "Start fludrocortisone 50 micrograms twice daily",
+        "Start midodrine 2.5 mg three times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first step in managing drug-induced orthostatic hypotension is to review and discontinue offending medications, particularly diuretics. Other measures are second-line if medication adjustment fails.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e56d32801355",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman collapses while standing in a queue. She reports feeling nauseous and lightheaded just before fainting. She regains consciousness within seconds and is now fully alert. Observations: HR 72 bpm, BP 110/70 mmHg, SpO2 98% on air. ECG shows sinus rhythm. She has no significant past medical history. What is the most appropriate immediate next action?",
+      "options": [
+        "Reassure and provide advice on avoiding triggers",
+        "Refer for tilt-table testing",
+        "Admit for 24-hour ECG monitoring",
+        "Check serum electrolytes and full blood count",
+        "Prescribe fludrocortisone"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is a classic vasovagal syncope (prodrome, trigger, quick recovery, normal exam/ECG). NICE guidelines recommend reassurance and lifestyle advice as first-line management. Tilt-table testing or further investigations are not needed initially.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6d460d149ce4",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old recreational footballer collapses while sprinting. He did not feel any warning symptoms. He recovers within 2 minutes. His brother died suddenly at age 30. ECG shows sinus bradycardia and voltage criteria for LVH, but no other abnormalities. What is the most appropriate immediate next action?",
+      "options": [
+        "Refer for exercise stress testing",
+        "Start beta-blocker therapy",
+        "Arrange transthoracic echocardiography",
+        "Reassure and discharge with GP follow-up",
+        "Perform carotid sinus massage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exertional syncope with a family history of sudden cardiac death raises concern for hypertrophic cardiomyopathy or an arrhythmia. Even with a normal ECG, echocardiography is indicated to exclude structural heart disease (NICE CG171). Reassurance or carotid sinus massage are inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "292611740809",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known ischaemic heart disease collapses in the ward. He is now awake but dizzy, HR 35 bpm, BP 75/40 mmHg, SpO2 94% on 2 L/min oxygen. ECG shows atrial fibrillation with a slow ventricular response and broad QRS complexes. He is cool and clammy. What is the most appropriate immediate next action?",
+      "options": [
+        "Insert a transvenous pacing wire",
+        "Begin transcutaneous pacing",
+        "Start an amiodarone infusion",
+        "Give a 500 mL fluid bolus",
+        "Administer atropine 0.5 mg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has haemodynamically unstable bradycardia. With AF and slow ventricular response, atropine is often ineffective. In the presence of adverse signs (hypotension, dizziness), ALS guidelines recommend immediate transcutaneous pacing. Transvenous pacing is appropriate but takes longer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5a1d9ef8adc6",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman presents after a fall. She had a brief loss of consciousness. On examination, lying BP is 130/80 mmHg. Upon standing, she becomes lightheaded and BP drops to 85/55 mmHg after 1 minute. Her medications include lisinopril, bendroflumethiazide, and amitriptyline. She is haemodynamically stable when supine. What is the most appropriate immediate next action?",
+      "options": [
+        "Start fludrocortisone 0.1 mg daily",
+        "Request a 24-hour ambulatory BP monitor",
+        "Review and adjust her medications",
+        "Prescribe compression stockings",
+        "Arrange a carotid sinus massage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Orthostatic hypotension is identified with a classic postural drop. In elderly patients, the commonest cause is medication (antihypertensives, diuretics, tricyclics). NICE recommends first reviewing and reducing culprit drugs. Fludrocortisone or stockings are second-line after medication adjustment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "645141b69528",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known dilated cardiomyopathy (LVEF 30%) experiences a syncopal episode while walking. He is now awake but complains of palpitations and chest tightness. HR 150 bpm, BP 90/60 mmHg, SpO2 96% on air. ECG shows monomorphic ventricular tachycardia. What is the most appropriate immediate next action?",
+      "options": [
+        "Insert a temporary pacing wire",
+        "Request a cardiology review in 30 minutes",
+        "Start an intravenous lidocaine infusion",
+        "Administer amiodarone 300 mg IV over 20 minutes",
+        "Perform synchronised cardioversion"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has ventricular tachycardia with adverse signs (chest tightness, borderline hypotension). UK ALS guidelines for unstable tachycardia advise immediate synchronised cardioversion. Amiodarone is reserved for stable VT. Waiting for review or lidocaine are not appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "978a2b6f029a",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old male university rower experiences syncope during a training session. He has no prior medical history and takes no medications. Which feature from his history is most concerning for a cardiac cause of syncope?",
+      "options": [
+        "He was dehydrated before the event",
+        "The syncope lasted less than 10 seconds",
+        "He had a preceding feeling of nausea",
+        "His grandfather died suddenly at age 75",
+        "His father died suddenly at age 38 while jogging"
+      ],
+      "answerIndex": 4,
+      "explanation": "Exertional syncope combined with a family history of sudden cardiac death in a young relative is a red flag for an inherited cardiac condition such as hypertrophic cardiomyopathy or channelopathy. A history of nausea points more to vasovagal syncope.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fe2526721019",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with hypertension and type 2 diabetes presents after a witnessed syncopal episode. She has no chest pain or palpitations. ECG shows: sinus rhythm at 90 bpm, PR interval 280 ms (first-degree AV block). Which additional ECG finding would be an immediate red flag for high-risk heart block?",
+      "options": [
+        "T wave inversion in III and aVF",
+        "Left ventricular hypertrophy",
+        "Bifascicular block (RBBB + LAFB)",
+        "Right bundle branch block",
+        "Left axis deviation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bifascicular block with syncope suggests intermittent complete heart block, requiring urgent pacing assessment. First-degree AV block alone is not an emergency, but when combined with bifascicular block it indicates high risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "62ba90598bb6",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known aortic stenosis presents with exertional syncope. On examination, which finding best correlates with severe stenosis?",
+      "options": [
+        "Soft, delayed carotid upstroke",
+        "Hyperdynamic apex beat",
+        "Loud murmur heard best at the left lower sternal edge",
+        "Widened pulse pressure",
+        "Bounding carotid pulse"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severe aortic stenosis, the carotid upstroke is typically weak and delayed (pulsus parvus et tardus). A bounding pulse suggests aortic regurgitation or hyperdynamic states, and a widened pulse pressure is seen in chronic aortic regurgitation. The murmur of AS is best heard at the right upper sternal border.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d4604e154137",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman collapses in the orthopaedic ward following hip replacement surgery. She is conscious, breathless, and has pleuritic left chest pain. Observations: HR 115, BP 85/60, RR 26, SpO2 89% on air. Which clinical finding is the strongest indicator of a life-threatening pulmonary embolism?",
+      "options": [
+        "Hypoxia",
+        "Tachypnoea",
+        "Pleuritic chest pain",
+        "Tachycardia",
+        "Hypotension (systolic BP <90 mmHg)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute PE, syncope with hypotension (systolic BP <90 mmHg) defines haemodynamic instability and a massive PE, which carries high mortality. Tachycardia, tachypnoea, hypoxia, and pleuritic chest pain are common but do not alone indicate a massive PE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a71691c318c2",
+      "topic": "Syncope — Approach",
+      "slug": "syncope-—-approach",
+      "system": "Cardiovascular",
+      "subSystem": "Syncope",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old man reports several episodes of lightheadedness and one syncope when turning his head quickly while driving. Which historical feature is most suggestive of carotid sinus syndrome?",
+      "options": [
+        "Syncope associated with palpitations",
+        "Syncope triggered by head rotation",
+        "Syncope during micturition",
+        "Syncope after a large meal",
+        "Syncope after prolonged standing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carotid sinus hypersensitivity is characterised by syncope triggered by mechanical stimulation of the carotid sinus, such as head turning, shaving, or tight collars. Other triggers like prolonged standing (vasovagal), micturition, or eating (postprandial hypotension) suggest different aetiologies.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Community-Acquired Pneumonia",
+  "slug": "community-acquired-pneumonia",
+  "system": "Respiratory",
+  "subSystem": "Infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:49Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "06109dbb4986",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 26-year-old woman presents with 3-day history of fever, cough productive of green sputum, and right-sided pleuritic chest pain. She is otherwise healthy. Temperature 38.5°C, RR 22, O2 sat 97% on air. Chest auscultation: bronchial breathing and crackles over right lower zone. What is the single most likely diagnosis?",
+      "options": [
+        "Influenza pneumonia",
+        "Lung abscess",
+        "Pulmonary embolism",
+        "Community-acquired pneumonia",
+        "Acute bronchitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of fever, purulent sputum, pleuritic pain, and focal bronchial breathing/crackles strongly suggests lobar consolidation typical of bacterial CAP. Acute bronchitis usually lacks focal signs and pleuritic pain; influenza pneumonia is usually bilateral; PE would have pleuritic pain but often no fever or purulent sputum; lung abscess is rare and typically presents with foul sputum and longer duration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cc99e7dcd4b0",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old man with COPD and hypertension presents with acute onset of confusion, fever, and tachypnoea. Temp 39.2°C, HR 115, BP 90/60, RR 32, O2 sat 88% on air. Chest X-ray shows dense consolidation in the right upper lobe. Blood gas: pH 7.28, pCO2 4.5, pO2 8.0, lactate 4.0. What is the single most likely diagnosis?",
+      "options": [
+        "Aspiration pneumonia",
+        "Lung abscess",
+        "Severe community-acquired pneumonia",
+        "Acute pulmonary oedema",
+        "Massive pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute onset of fever, hypotension, hypoxaemia, and focal consolidation with high lactate indicate severe sepsis due to CAP. Pulmonary oedema would show bilateral infiltrates and no fever; massive PE would not have fever or consolidation; aspiration pneumonia is possible but typically in patients with swallowing problems and affects dependent lobes (right lower), not upper; lung abscess develops over weeks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "12bd72702488",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with diabetes presents with 1-week history of cough, purulent sputum, and fever. He was diagnosed with CAP and started on amoxicillin but has not improved. Now he has worsening pleuritic chest pain and high fever. Examination: dullness to percussion and reduced breath sounds over left lower zone. Chest X-ray shows a left pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculous pleurisy",
+        "Simple parapneumonic effusion",
+        "Malignant pleural effusion",
+        "Lung abscess",
+        "Empyema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lack of improvement on antibiotics, persistent fever, and pleural effusion in the context of CAP raises suspicion of empyema. Simple parapneumonic effusion usually resolves with antibiotics; lung abscess is intrapulmonary; TB pleurisy is often chronic with night sweats; malignant effusion is afebrile and insidious.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b76775db18d",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with mild dementia presents with increasing confusion over 2 days. She has no cough or sputum. Temperature 38.1°C, RR 24, O2 sat 93% on air. Chest auscultation: fine crackles at right base. Chest X-ray shows subtle right lower zone opacity. What is the single most likely diagnosis?",
+      "options": [
+        "Acute coronary syndrome",
+        "Acute heart failure",
+        "Urinary tract infection with delirium",
+        "Pulmonary embolism",
+        "Community-acquired pneumonia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elderly patients often present with confusion as the sole symptom of CAP. The absence of cough does not rule it out; fever, tachypnoea, focal crackles, and X-ray opacity confirm pneumonia. UTI would not typically cause focal chest signs; PE would be more acute dyspnoea; ACS would have chest pain or ECG changes; heart failure would have bilateral crackles and no fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2440b0ed9e4",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 34-year-old woman with systemic lupus erythematosus on long-term prednisolone 20 mg/day presents with 1-week history of dry cough, progressive dyspnoea, and fever. She is hypoxic (O2 sat 88% on air). Chest X-ray shows bilateral interstitial infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary haemorrhage",
+        "Pneumocystis jirovecii pneumonia",
+        "Hypersensitivity pneumonitis",
+        "Tuberculosis",
+        "Typical bacterial pneumonia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Immunocompromised patients on steroids are at risk for PCP, which presents with subacute onset, dry cough, hypoxaemia out of proportion to exam, and bilateral interstitial infiltrates. Typical bacterial pneumonia would show lobar consolidation; pulmonary haemorrhage has haemoptysis and drop in Hb; TB is more chronic with apical involvement; hypersensitivity pneumonitis requires exposure to antigen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "87778c384db9",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old previously healthy woman presents with a 3-day history of cough, fever, and pleuritic chest pain. She has crackles at the right base. SpO2 97% on air. What is the single most appropriate investigation to confirm the diagnosis of community-acquired pneumonia?",
+      "options": [
+        "Blood cultures",
+        "CT thorax",
+        "Sputum culture",
+        "C-reactive protein",
+        "Chest X-ray"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chest X-ray is the first-line imaging to confirm consolidation. CT thorax is reserved for uncertain cases or complications. Cultures and CRP support but do not confirm the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7d8ae499717a",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with no comorbidities presents with productive cough, fever, and left lower lobe consolidation on chest X-ray. His CURB-65 score is 1. Which investigation is most appropriate to identify the causative organism?",
+      "options": [
+        "Serology for atypical pathogens",
+        "Sputum culture",
+        "Urine antigen for pneumococcus",
+        "Nasopharyngeal swab for viruses",
+        "Blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "For non-severe CAP with productive cough, NICE recommends sputum culture if a sample can be obtained. Blood cultures are only advised in severe CAP. Urine antigen and serology are not routinely indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fedfcbd4275",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with COPD presents with confusion, tachypnoea, and hypotension. Chest X-ray shows right upper lobe consolidation. CURB-65 score is 4. Which investigation should be performed urgently before antibiotics are started?",
+      "options": [
+        "Sputum culture",
+        "Chest X-ray",
+        "Procalcitonin",
+        "Blood cultures",
+        "CT pulmonary angiography"
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe CAP (CURB-65 ≥3), NICE recommends taking blood cultures before antibiotics to increase yield. Sputum culture and other tests are secondary. CT pulmonary angiography is for suspected PE, not first line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8bcbf661e86a",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with community-acquired pneumonia develops persistent fever and pleuritic pain after 48 hours of antibiotics. Repeat chest X-ray shows a moderate right pleural effusion. Which investigation is most appropriate to confirm whether the effusion is an empyema?",
+      "options": [
+        "Pleural fluid culture and pH",
+        "Thoracic ultrasound",
+        "Repeat chest X-ray",
+        "CT thorax",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "To confirm empyema, pleural fluid aspiration for culture and pH (pH <7.2 suggests empyema) is required. Ultrasound can guide aspiration but does not confirm infection. CT and repeat X-ray are anatomical only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5065e395b6d9",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman with heart failure presents with cough, fever, and right lower lobe consolidation on chest X-ray. She has a respiratory rate of 24/min and is confused. Which investigation is most appropriate to complete the CURB-65 severity assessment?",
+      "options": [
+        "Liver function tests",
+        "Full blood count",
+        "C-reactive protein",
+        "Arterial blood gas",
+        "Urea and electrolytes"
+      ],
+      "answerIndex": 4,
+      "explanation": "The CURB-65 score includes urea >7 mmol/L as one component. Urea and electrolytes are needed to calculate this score. CRP, FBC, LFTs, and ABG are not part of CURB-65.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "718bdda506ca",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with cough, fever, and focal crackles in the right lower zone. Chest X-ray confirms right lower lobe consolidation. Her CURB-65 score is 0, she has no comorbidities, and no drug allergies. What is the most appropriate first-line antibiotic?",
+      "options": [
+        "Levofloxacin 500 mg orally once daily",
+        "Amoxicillin 500 mg orally three times a day",
+        "Co-amoxiclav 625 mg orally three times a day",
+        "Doxycycline 200 mg orally on day 1 then 100 mg daily",
+        "Clarithromycin 500 mg orally twice a day"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend amoxicillin monotherapy for low-severity CAP (CURB-65 0-1) as it is narrow-spectrum and effective against most community pathogens. Doxycycline is reserved for penicillin allergy. Clarithromycin is an alternative but not first-line. Co-amoxiclav and levofloxacin are broader-spectrum and usually reserved for higher severity or specific indications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ea8ae9f2d809",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with COPD presents with cough, green sputum, and fever. Chest X-ray shows left lower lobe consolidation. CURB-65 score is 2. He has no drug allergies. What is the most appropriate first-line antibiotic regimen?",
+      "options": [
+        "Doxycycline 200 mg orally on day 1 then 100 mg daily",
+        "Piperacillin-tazobactam 4.5 g intravenously three times a day",
+        "Amoxicillin 500 mg orally three times a day plus clarithromycin 500 mg orally twice a day",
+        "Co-amoxiclav 625 mg orally three times a day alone",
+        "Levofloxacin 500 mg orally once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For moderate-severity CAP (CURB-65 2), NICE recommends dual therapy with amoxicillin plus a macrolide (clarithromycin) to cover atypical pathogens. Doxycycline is an alternative for penicillin allergy but not first-line. Levofloxacin is reserved for failure or intolerance. Co-amoxiclav alone is insufficient for atypicals. Piperacillin-tazobactam is for severe or hospital-acquired pneumonia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b87746d86a3f",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with diabetes and heart failure presents with confusion, tachypnoea, and hypotension. Chest X-ray shows bilateral consolidation. CURB-65 score is 4. She has no drug allergies. What is the most appropriate first-line intravenous antibiotic regimen?",
+      "options": [
+        "Levofloxacin 500 mg intravenously once daily",
+        "Piperacillin-tazobactam 4.5 g intravenously four times a day plus clarithromycin 500 mg intravenously twice a day",
+        "Meropenem 1 g intravenously three times a day",
+        "Ceftriaxone 2 g intravenously once daily plus clarithromycin 500 mg intravenously twice a day",
+        "Co-amoxiclav 1.2 g intravenously three times a day plus clarithromycin 500 mg intravenously twice a day"
+      ],
+      "answerIndex": 4,
+      "explanation": "For severe CAP (CURB-65 3+), NICE recommends co-amoxiclav plus clarithromycin as first-line. Ceftriaxone plus clarithromycin is an alternative if co-amoxiclav is unsuitable. Piperacillin-tazobactam and meropenem are reserved for very severe or resistant cases. Levofloxacin monotherapy is an alternative but not first-line in this severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7bcb752436ea",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with CAP is being treated with IV antibiotics. He remains febrile after 72 hours. Repeat chest X-ray shows a large, loculated left pleural effusion. Pleural fluid aspirate is purulent with Gram-positive cocci. What is the most appropriate definitive management?",
+      "options": [
+        "Perform video-assisted thoracoscopic surgery (VATS) for decortication",
+        "Add oral doxycycline to cover atypical organisms",
+        "Switch to intravenous piperacillin-tazobactam and metronidazole",
+        "Insert a chest drain and continue intravenous antibiotics",
+        "Continue intravenous antibiotics alone for a full 10-day course"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has developed an empyema, which requires drainage. NICE guidelines recommend chest drain insertion combined with appropriate antibiotics for empyema. Antibiotics alone are insufficient to clear the infected pleural fluid. VATS is reserved for failed drainage. Switching antibiotics without drainage is inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77b268d065b8",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 85-year-old woman with dementia and penicillin allergy (anaphylaxis) presents with cough, fever, and right middle lobe consolidation. CURB-65 score is 2. She is on warfarin for atrial fibrillation (INR stable). What is the most appropriate first-line antibiotic?",
+      "options": [
+        "Piperacillin-tazobactam 4.5 g intravenously three times a day",
+        "Doxycycline 200 mg orally on day 1 then 100 mg daily",
+        "Clarithromycin 500 mg orally twice a day",
+        "Co-trimoxazole 960 mg orally twice a day",
+        "Levofloxacin 500 mg orally once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "For moderate-severity CAP with penicillin allergy, NICE recommends doxycycline as first-line alternative monotherapy. Levofloxacin is an option but associated with more side effects and drug interactions. Clarithromycin can potentiate warfarin (increased INR) and is less effective as monotherapy. Co-trimoxazole is not first-line. Piperacillin-tazobactam contains penicillin and is contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "953499772769",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents to the ED with a 3-day history of cough, fever, and left-sided pleuritic pain. Chest X-ray shows left lower lobe consolidation. She has no comorbidities, O2 sats 97% on room air, CRP 150, and a CRB-65 score of 0. What is the most appropriate immediate next step?",
+      "options": [
+        "Discharge with no antibiotics and advise rest",
+        "Arrange a CT chest with contrast",
+        "Admit for intravenous co-amoxiclav",
+        "Start oral amoxicillin 500 mg three times daily",
+        "Give oxygen via non-rebreather mask"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has mild CAP (CRB-65=0) and can be managed at home with oral antibiotics according to NICE guidelines. The most immediate step is to start oral amoxicillin as first-line treatment. Oxygen is not needed with sats 97%, and CT or admission are not indicated. Discharge without antibiotics would be inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6813357acab4",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with a history of COPD presents with confusion, respiratory rate 35/min, BP 80/40 mmHg, temperature 39°C, and O2 sats 88% on room air. Chest X-ray shows bilateral consolidation. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluid resuscitation with a bolus of 500 mL crystalloid",
+        "Obtain blood cultures and a full septic screen",
+        "Start intravenous co-amoxiclav",
+        "Give high-flow oxygen via non-rebreather mask",
+        "Call the ICU team for urgent review"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a severely hypoxic patient (O2 sats 88%), the immediate priority is to oxygenate according to the ABCDE approach. High-flow oxygen should be given first to correct life-threatening hypoxia. Antibiotics, fluids, and blood cultures are also urgent but should follow initial oxygen therapy. Calling ICU is appropriate but not the very first action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "04af3fbe35ff",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with CAP being treated with IV co-amoxiclav for 3 days remains febrile and now reports worsening pleuritic pain and breathlessness. On examination, there is reduced movement, stony dullness, and decreased breath sounds at the right base. Chest X-ray shows a large pleural effusion. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange CT chest with contrast",
+        "Increase the dose of co-amoxiclav",
+        "Perform diagnostic pleural aspiration",
+        "Switch intravenous antibiotics to levofloxacin",
+        "Refer to cardiothoracic surgery for drainage"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with a parapneumonic effusion not responding to antibiotics, the next step is to perform diagnostic pleural aspiration to rule out empyema and guide management. This provides immediate information and can be therapeutic if the effusion is drained. Changing antibiotics without sampling is premature, and CT may be considered after aspiration. Referral to surgery is not the first step without confirming empyema.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "53d0b634c017",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman at 32 weeks gestation presents with cough, fever, and dyspnoea. Chest X-ray shows left lower lobe consolidation. O2 sats 96% on room air, respiratory rate 20/min, heart rate 100/min, BP 110/70 mmHg, and she is otherwise well. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for intravenous clarithromycin",
+        "Start oral amoxicillin 500 mg three times daily",
+        "Give oxygen via nasal cannulae",
+        "Start intravenous co-amoxiclav",
+        "Obtain a CT pulmonary angiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has mild CAP with normal oxygen saturations and no severity markers. In pregnancy, oral amoxicillin is safe and recommended as first-line for mild CAP. Admission is not indicated, oxygen is not needed, and CT is unnecessary. IV co-amoxiclav could be used but oral amoxicillin is simpler and appropriate for mild disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a002d67db10c",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with chronic kidney disease stage 3 (eGFR 45) presents with cough, fever, and confusion. Chest X-ray shows right upper lobe consolidation. He has a history of penicillin allergy (urticaria). CRB-65 score is 2 (confusion and age >65). What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous ceftriaxone",
+        "Obtain blood cultures and start intravenous co-amoxiclav",
+        "Start intravenous levofloxacin 500 mg once daily",
+        "Start intravenous clarithromycin 500 mg twice daily",
+        "Start intravenous vancomycin"
+      ],
+      "answerIndex": 2,
+      "explanation": "For severe CAP in a patient with penicillin allergy, NICE recommends a respiratory fluoroquinolone (e.g., levofloxacin) or a tetracycline. Levofloxacin is appropriate and covers typical and atypical pathogens. A macrolide alone (clarithromycin) is not recommended for severe CAP. Vancomycin, ceftriaxone (cross-reactivity risk), and co-amoxiclav (allergy) are not appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e3e704f1dcec",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with no co-morbidities presents with a 5-day history of cough, green sputum, fever, and dyspnoea on exertion. On examination, temperature 38.5°C, heart rate 105/min, blood pressure 125/80 mmHg, respiratory rate 24/min, oxygen saturations 93% on air. Chest auscultation reveals reduced breath sounds and dullness at the right base. He is alert and oriented. Which single finding, if present, would most strongly indicate that this patient has severe CAP requiring immediate hospital admission?",
+      "options": [
+        "Heart rate 110/min",
+        "Pleuritic pain",
+        "New confusion",
+        "Respiratory rate 28/min",
+        "Oxygen saturations 90%"
+      ],
+      "answerIndex": 2,
+      "explanation": "New confusion is a key component of the CURB-65 score (1 point) and indicates severe pneumonia with high mortality. While oxygen saturations <92% also denote severity, confusion is a more specific sign of systemic sepsis and cerebral hypoperfusion, mandating urgent admission.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9c75bd33ef4b",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with well-controlled type 2 diabetes is treated for mild CAP with oral amoxicillin 500 mg three times daily as an outpatient. She returns 72 hours later feeling worse. Which single clinical finding would most strongly indicate the need for hospital admission and intravenous antibiotics?",
+      "options": [
+        "Temperature 37.8°C",
+        "New onset diarrhoea",
+        "Persistent cough",
+        "Mild headache",
+        "Oxygen saturations 91% on air"
+      ],
+      "answerIndex": 4,
+      "explanation": "Oxygen saturations ≤92% on air is a criterion for severe pneumonia according to NICE, indicating hypoxia that requires supplemental oxygen and intravenous antibiotics. Persistent cough is expected, diarrhoea may be a side effect, and low-grade fever or headache are not red flags.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa7a04cf6c85",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man with known COPD presents with severe CAP. He is confused, tachypnoeic (respiratory rate 32/min), and hypotensive (blood pressure 85/50 mmHg). Which single laboratory finding would confirm the presence of septic shock?",
+      "options": [
+        "Temperature >39°C",
+        "PaO2 <8 kPa",
+        "Lactate >4 mmol/L",
+        "C-reactive protein >100 mg/L",
+        "White cell count 18 x10^9/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Septic shock is defined by persistent hypotension requiring vasopressors and a serum lactate >2 mmol/L in the context of infection. A lactate >4 mmol/L is associated with a higher risk of mortality and tissue hypoperfusion, confirming shock. CRP and leukocytosis indicate inflammation but not shock; hypoxemia indicates respiratory failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a0dd91e2928f",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old immunocompetent woman with CAP fails to improve after 72 hours of intravenous antibiotics. She remains febrile with pleuritic chest pain and develops a swinging pyrexia with rigors. Which complication of CAP is most likely?",
+      "options": [
+        "Parapneumonic effusion (uncomplicated)",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Lung abscess",
+        "Empyema",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "Persistent fever with swinging pyrexia and pleuritic pain despite antibiotics is classic for empyema, confirmed by pleural fluid analysis showing pus, low pH, and high LDH. Uncomplicated parapneumonic effusions typically resolve with antibiotics. Lung abscess presents with foul sputum and a cavity on imaging. ARDS would cause bilateral infiltrates and severe hypoxemia. Pulmonary embolism can mimic but is not a complication of CAP.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0d57277309a1",
+      "topic": "Community-Acquired Pneumonia",
+      "slug": "community-acquired-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with known HIV (not on antiretroviral therapy) presents with a 2-week history of progressive dyspnoea, dry cough, and fevers. Chest X-ray shows bilateral interstitial infiltrates. Which single laboratory finding most strongly suggests Pneumocystis jirovecii pneumonia (PCP) rather than typical bacterial CAP?",
+      "options": [
+        "Elevated lactate dehydrogenase (LDH)",
+        "High C-reactive protein (CRP)",
+        "Pleuritic chest pain",
+        "Peripheral eosinophilia",
+        "Neutropenia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elevated LDH (>500 U/L) is a characteristic laboratory finding in PCP due to lung injury and is often used to support the diagnosis in the appropriate clinical setting. Peripheral eosinophilia and neutropenia are not typical; pleuritic pain suggests bacterial infection or empyema; high CRP is non-specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

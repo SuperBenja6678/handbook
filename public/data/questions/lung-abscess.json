@@ -1,0 +1,513 @@
+{
+  "topic": "Lung Abscess",
+  "slug": "lung-abscess",
+  "system": "Respiratory",
+  "subSystem": "Infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:19Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "6231d76edfc0",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with heavy alcohol use is admitted with a 2-week history of cough, fever, and putrid-smelling sputum. He had a seizure episode 3 weeks ago. He has poor dentition. Chest X-ray shows a thick-walled cavity with an air-fluid level in the right lower lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Cavitating lung carcinoma",
+        "Lung abscess",
+        "Empyema",
+        "Pulmonary tuberculosis",
+        "Bronchiectasis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The putrid sputum and thick-walled cavity with air-fluid level after a seizure (aspiration) are classic for lung abscess. Empyema would show pleural involvement without a lung cavity. Cavitating cancer often has irregular walls and no putrid sputum. TB cavities are usually apical with minimal air-fluid levels. Bronchiectasis shows dilated airways, not a single cavity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d72a046d5e8e",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old diabetic with poor dentition presents with low-grade fever, weight loss, and cough for 6 weeks. Sputum is not foul-smelling. CT chest shows a cavity with surrounding consolidation in the right lower lobe. Sputum cultures are negative for acid-fast bacilli. What is the single most likely diagnosis?",
+      "options": [
+        "Lung abscess",
+        "Granulomatosis with polyangiitis",
+        "Cavitating lung cancer",
+        "Pulmonary tuberculosis",
+        "Actinomycosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The absence of foul sputum does not exclude lung abscess, especially with risk factors (diabetes, poor dentition) and negative TB cultures. TB is a mimic but less likely with lower lobe cavity and negative smears. Actinomycosis typically forms sinus tracts and sulfur granules. Granulomatosis with polyangiitis often has upper respiratory and renal involvement. Lung abscess remains the most likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c846460c6745",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old alcoholic with poor dentition and a history of recent seizure presents with sudden massive haemoptysis (400 ml). Chest X-ray shows a cavitating lesion in the right lower lobe with an air-fluid level. What is the single most likely underlying diagnosis?",
+      "options": [
+        "Lung abscess",
+        "Tuberculous cavity with Rasmussen aneurysm",
+        "Bronchiectasis",
+        "Lung cancer",
+        "Pulmonary arteriovenous malformation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of aspiration risk (alcoholism, seizure, poor dentition) and cavitating lesion with air-fluid level makes lung abscess the most likely cause of haemoptysis. Tuberculous cavities are usually apical and not associated with recent aspiration. Bronchiectasis shows dilated airways, not a thick-walled cavity. Lung cancer may cavitate but is less acute. PAVM presents with well-circumscribed nodule, not cavity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0f534fcd14dd",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with known lung abscess on appropriate antibiotics for 4 weeks develops sudden pleuritic chest pain and worsening dyspnoea. Chest X-ray shows a pneumothorax with an air-fluid level in the left pleural space. What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Pneumothorax",
+        "Lung abscess rupture",
+        "Bronchopleural fistula",
+        "Pleural effusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "A bronchopleural fistula is a known complication of lung abscess, presenting with pneumothorax and air-fluid level (hydropneumothorax). Empyema alone would not cause a pneumothorax unless gas-forming organisms or a fistula is present. Lung abscess rupture into the pleural space can cause empyema, but the air-fluid level indicates a bronchopleural fistula. Simple pneumothorax lacks the fluid level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1115cecfe278",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old intravenous heroin user presents with fever, cough, and pleuritic chest pain. CT chest reveals multiple bilateral cavitating nodules. Blood cultures grow Staphylococcus aureus. What is the single most likely diagnosis?",
+      "options": [
+        "Granulomatosis with polyangiitis",
+        "Pulmonary tuberculosis",
+        "Metastatic lung cancer",
+        "Lung abscess",
+        "Septic pulmonary emboli"
+      ],
+      "answerIndex": 4,
+      "explanation": "Multiple cavitating nodules with Staph aureus bacteraemia in an IVDU is classic for septic pulmonary emboli from tricuspid valve endocarditis. Lung abscess is usually solitary. TB would show apical predominance and positive cultures. GPA often has upper respiratory and renal involvement. Metastatic cancer rarely presents with cavitation and acute fever.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "485f00eda3db",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with a 1-week history of fever, productive cough with foul-smelling sputum, and pleuritic chest pain. He is a heavy smoker. Chest X-ray shows a cavitary lesion with an air-fluid level in the right upper lobe. What is the most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Blood cultures",
+        "Sputum culture and sensitivity",
+        "Bronchoscopy with bronchoalveolar lavage",
+        "Ultrasound-guided pleural aspiration",
+        "CT thorax with intravenous contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT thorax provides detailed anatomical definition of the cavity, confirms lung abscess, and differentiates it from empyema or malignancy. Sputum culture may be contaminated and is less definitive for diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "679c3a75c32c",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with a known lung abscess in the left lower lobe, diagnosed on CT, has completed 4 weeks of antibiotics but has persistent symptoms and no radiological improvement. What is the most appropriate next investigation to identify an underlying obstructing lesion?",
+      "options": [
+        "Sputum cytology",
+        "MRI chest",
+        "PET-CT",
+        "Repeat CT thorax",
+        "Bronchoscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Bronchoscopy allows direct visualization of the airways to exclude an endobronchial tumour or foreign body causing persistent abscess. Repeat CT may not show the obstruction itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2dab9bea68a",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with a lung abscess suddenly develops severe dyspnoea and pleuritic pain. Chest X-ray shows a new hydropneumothorax. Which imaging investigation best confirms the diagnosis of a bronchopleural fistula?",
+      "options": [
+        "Chest ultrasound",
+        "High-resolution CT chest",
+        "MRI chest",
+        "CT pulmonary angiogram",
+        "CT chest with oral contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT with oral contrast can demonstrate contrast leakage from the bronchial tree into the pleural space, directly confirming a bronchopleural fistula. Other options are less specific or not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6327a5803bea",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old man who underwent a bone marrow transplant 2 months ago presents with fever, cough, and a cavitary lesion on chest X-ray. He is neutropenic. What is the most appropriate investigation to identify the causative pathogen?",
+      "options": [
+        "CT-guided percutaneous needle aspiration",
+        "Sputum bacterial culture",
+        "Bronchoalveolar lavage with fungal and bacterial culture",
+        "Urine antigen testing for Legionella",
+        "Blood cultures"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bronchoalveolar lavage provides a lower respiratory tract sample for comprehensive microbiological analysis including fungi, which are common in immunocompromised patients. Sputum cultures are less sensitive and blood cultures may be negative.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eda9e1a91519",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with suspected lung abscess has a chest X-ray showing a cavity with an air-fluid level. Which of the following provides the most definitive confirmation of the causative organism?",
+      "options": [
+        "Pleural fluid culture",
+        "Percutaneous needle aspiration culture of the abscess",
+        "Sputum culture from an expectorated sample",
+        "Blood culture",
+        "Bronchoalveolar lavage culture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Percutaneous needle aspiration directly samples the abscess cavity, minimising contamination, and is the gold standard for microbiological diagnosis. Sputum and BAL may be contaminated by upper airway flora.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "127a0b32da61",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with a 2-week history of cough, purulent sputum, fever, and weight loss. Chest X-ray shows a cavitating lesion with an air-fluid level in the right upper lobe. Sputum culture is pending. He is otherwise healthy with no comorbidities. What is the most appropriate first-line antibiotic therapy?",
+      "options": [
+        "Doxycycline 100 mg once daily",
+        "Clarithromycin 500 mg twice daily",
+        "Metronidazole 400 mg three times daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Cefuroxime 750 mg three times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lung abscess is often polymicrobial, including anaerobes. Co-amoxiclav provides anaerobic and aerobic cover as first-line empirical therapy. Metronidazole alone lacks aerobic cover. Clarithromycin is for atypical pathogens. Doxycycline is alternative in penicillin allergy. Cefuroxime has poor anaerobic activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c382d4cfb52",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a background of alcohol dependency presents with a 3-week history of cough, foul-smelling sputum, and fever. CT chest reveals a large lung abscess (6 cm) in the right lower lobe. He has signs of sepsis (heart rate 105, BP 90/60). Blood cultures are negative. What is the most appropriate definitive management?",
+      "options": [
+        "Nebulised antibiotics",
+        "Bronchoscopic aspiration",
+        "Intravenous co-amoxiclav alone",
+        "Surgical lobectomy",
+        "Percutaneous catheter drainage"
+      ],
+      "answerIndex": 4,
+      "explanation": "For large (>4 cm) lung abscesses with sepsis, percutaneous catheter drainage provides rapid source control and is first-line alongside IV antibiotics. Medical therapy alone may be insufficient. Surgery is reserved for failed drainage. Bronchoscopic aspiration is less effective for large abscesses. Nebulised antibiotics are not standard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d167c18a06ec",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with known lung abscess in the left lower lobe being treated with intravenous co-amoxiclav develops worsening pleuritic pain and dyspnoea. A chest X-ray now shows a new pleural effusion. Thoracentesis yields frank pus. What is the most appropriate next step in management?",
+      "options": [
+        "Start oral clindamycin",
+        "Increase the dose of co-amoxiclav",
+        "Perform a decortication",
+        "Add metronidazole intravenously",
+        "Insert a chest drain"
+      ],
+      "answerIndex": 4,
+      "explanation": "Frank pus indicates empyema, which requires drainage via chest drain. Antibiotics alone are inadequate for empyema. Adding metronidazole is unnecessary as co-amoxiclav covers anaerobes. Decortication is for chronic thick rind. Oral therapy is inappropriate in acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2d56bf69c4c",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old edentulous man with dysphagia and recurrent aspiration is diagnosed with a lung abscess in the right middle lobe. He is penicillin-allergic (urticaria). What is the most appropriate first-line antibiotic therapy?",
+      "options": [
+        "Clindamycin 600 mg intravenously four times daily",
+        "Vancomycin 1 g intravenously twice daily",
+        "Ceftriaxone 2 g intravenously once daily",
+        "Doxycycline 100 mg intravenously once daily",
+        "Metronidazole 500 mg intravenously three times daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In penicillin allergy, clindamycin is the recommended alternative for aspiration lung abscess due to excellent anaerobic and streptococcal coverage. Vancomycin is for MRSA. Ceftriaxone may cross-react with penicillin. Metronidazole alone lacks aerobic cover. Doxycycline is an alternative but less effective for anaerobes than clindamycin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e46decfb6bf1",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with chronic obstructive pulmonary disease and recent pneumothorax treated with a chest drain develops a lung abscess in the right upper lobe. He has a history of haemoptysis, and CT shows a cavity with an irregular wall concerning for malignancy. A bronchoscopy is planned. Which of the following therapies is CONTRAINDICATED at this stage?",
+      "options": [
+        "Chest physiotherapy",
+        "Intravenous antibiotics",
+        "Percutaneous needle aspiration of the cavity",
+        "Bronchoscopic biopsy of the cavity wall",
+        "Nebulised saline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Percutaneous needle aspiration is contraindicated due to the risk of haemorrhage in a patient with haemoptysis and potential malignancy. Intravenous antibiotics, chest physiotherapy, and bronchoscopic biopsy (during planned procedure) are appropriate. Nebulised saline is safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41bcbb2a256a",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents with a 2-week history of cough productive of foul-smelling sputum, fever, and pleuritic chest pain. He is haemodynamically stable and not hypoxic. Chest radiograph shows a cavitating lesion with an air-fluid level in the right upper lobe. What is the most appropriate immediate next step?",
+      "options": [
+        "Request CT chest",
+        "Repeat chest radiograph in 2 weeks",
+        "Start oral co-amoxiclav",
+        "Admit for intravenous antibiotics",
+        "Arrange bronchoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a stable patient with a classic presentation of lung abscess, empirical antibiotics (e.g., co-amoxiclav) should be started after sending sputum and blood cultures. CT chest is not urgently needed if the CXR is diagnostic, and bronchoscopy is reserved for non-resolving cases or suspected underlying malignancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b8d20d9e6f07",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with a known lung abscess in the left lower lobe has been on oral co-amoxiclav for 2 weeks. She returns to clinic with persistent low-grade fever but improved appetite. Her oxygen saturations are 97% on air. What is the most appropriate next step?",
+      "options": [
+        "Arrange bronchoscopy",
+        "Arrange CT thorax",
+        "Switch to intravenous antibiotics",
+        "Add metronidazole",
+        "Repeat chest radiograph"
+      ],
+      "answerIndex": 1,
+      "explanation": "Persistent fever after 2 weeks of appropriate antibiotics warrants CT thorax to exclude an obstructing lesion (e.g., tumour or foreign body) as a cause of non-resolution. A repeat CXR may show slow improvement but is less sensitive. Changing antibiotics or adding metronidazole is not indicated without microbiological evidence, and bronchoscopy is usually performed after CT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3bd20b157dc",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with a known lung abscess suddenly develops massive haemoptysis (approx. 300 mL) over 10 minutes. He is distressed, tachycardic, and hypoxic (SpO2 85% on 15 L O2). What is the most appropriate immediate next action?",
+      "options": [
+        "Cross-match blood for transfusion",
+        "Call for senior and anaesthetic help immediately",
+        "Administer intravenous tranexamic acid",
+        "Prepare for emergency bronchoscopy",
+        "Request urgent CT pulmonary angiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "Massive haemoptysis is a life-threatening emergency. The single most important immediate step is to call for senior help (anaesthetics, respiratory) to secure the airway. CT, tranexamic acid, bronchoscopy, and cross-matching are secondary steps that follow after airway stabilization.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "112389d60d0e",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with a history of COPD and recent CT-guided drainage of a right-sided lung abscess presents with sudden onset sharp chest pain, subcutaneous emphysema, and increasing dyspnoea. He is hypotensive (BP 85/50 mmHg) and desaturating. Chest radiograph shows a large right-sided pneumothorax with mediastinal shift. What is the most appropriate immediate next action?",
+      "options": [
+        "Administer high-flow oxygen via a non-rebreathe mask",
+        "Perform urgent CT thorax",
+        "Insert an intercostal chest drain",
+        "Request an echocardiogram",
+        "Refer to cardiothoracic surgery"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient has a tension pneumothorax secondary to a broncho-pleural fistula, requiring immediate decompression. Chest drain insertion is the life-saving step. CT is not appropriate in this unstable patient. Oxygen is supportive but not the primary action, and surgical referral is arranged after drain insertion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc7516602e87",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old renal transplant recipient on long-term immunosuppression presents with a 1-week history of cough, fever, and night sweats. He is mildly hypoxic (SpO2 92% on air). Chest radiograph shows a cavitating lesion in the left mid-zone with no air-fluid level. What is the most appropriate immediate next step?",
+      "options": [
+        "Start empirical antitubercular therapy",
+        "Start broad-spectrum intravenous antibiotics",
+        "Start oral co-trimoxazole for Pneumocystis jirovecii",
+        "Arrange bronchoscopy with bronchoalveolar lavage",
+        "Request a CT chest"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an immunocompromised patient, a cavitating lung lesion warrants aggressive investigation for opportunistic pathogens (TB, fungi, Nocardia). Bronchoscopy with BAL is the best next step to obtain a definitive microbiological diagnosis. Starting empirical treatment blindly risks missing the true aetiology and may cause toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cdd18bbbafba",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with a known right lower lobe lung abscess confirmed on CT is receiving intravenous antibiotics. He has had a low-grade fever and purulent sputum for the past week. Which one of the following new findings should raise immediate concern for a life-threatening complication?",
+      "options": [
+        "New pleuritic chest pain",
+        "Increase in sputum production to 100 mL per day",
+        "New onset of profuse, bright-red haemoptysis (>200 mL)",
+        "Development of a swinging pyrexia",
+        "Foul-smelling sputum"
+      ],
+      "answerIndex": 2,
+      "explanation": "Profuse, bright-red haemoptysis in a patient with a lung abscess suggests rupture of a Rasmussen aneurysm (pulmonary artery pseudoaneurysm), which can be rapidly fatal without urgent intervention. Swinging pyrexia, increased sputum, or foul sputum are more typical of the underlying infection or empyema, but do not carry the same immediate life-threatening risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8beb932e89d5",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman with a lung abscess develops a moderate pleural effusion. A diagnostic thoracentesis is performed. Which pleural fluid pH value best supports a diagnosis of empyema and indicates the need for urgent drainage?",
+      "options": [
+        "<6.8",
+        "<7.4",
+        "<7.0",
+        "<7.6",
+        "<7.2"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines define empyema as pleural fluid pH <7.2 (or glucose <3.3 mmol/L). This threshold is used to prompt chest tube drainage to prevent progression to a complicated effusion. Values <7.0 are even more specific but <7.2 is the standard diagnostic cut-off.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d489810ea0c2",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with a 3-week history of a lung abscess being treated with co-amoxiclav develops sudden severe dyspnoea and pleuritic left-sided chest pain. On examination, he is hypotensive and has tracheal deviation to the right. A chest X-ray shows a large left hydropneumothorax with tension. Which of the following complications has most likely occurred?",
+      "options": [
+        "Pulmonary embolism",
+        "Lung abscess rupture into pleura without fistula",
+        "Rasmussen aneurysm rupture",
+        "Bronchopleural fistula",
+        "Empyema necessitans"
+      ],
+      "answerIndex": 3,
+      "explanation": "A hydropneumothorax in the setting of a lung abscess indicates a communication between the bronchial tree and the pleural space, i.e., a bronchopleural fistula. Tension physiology worsens respiratory and circulatory compromise. Empyema necessitans is a chronic process with subcutaneous swelling, not acute tension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "308d827b669a",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old immunocompromised female (on long-term steroids for rheumatoid arthritis) is treated for a lung abscess. After 4 weeks of antibiotics, a follow-up CT chest shows a persistent cavity in the right upper lobe. Which one of the following CT findings is most suggestive of an aspergilloma rather than a simple bacterial lung abscess?",
+      "options": [
+        "Centrilobular nodules with tree-in-bud pattern",
+        "Air-fluid level within the cavity",
+        "A rounded mass inside the cavity with surrounding air ('air crescent sign')",
+        "Thick, irregular cavity wall",
+        "Ground-glass opacities surrounding the cavity"
+      ],
+      "answerIndex": 2,
+      "explanation": "The air crescent sign (a fungus ball within a cavity) is pathognomonic for an aspergilloma, especially in patients with predisposing lung disease or immunosuppression. An air-fluid level is typical for a pyogenic abscess. Irregular walls may suggest malignancy but not specifically fungal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9025c7f5b8f6",
+      "topic": "Lung Abscess",
+      "slug": "lung-abscess",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 62-year-old heavy smoker presents with cough and weight loss. A chest X-ray shows a cavitating lesion in the left upper lobe. Sputum culture grows Streptococcus milleri. He is started on co-amoxiclav. After 6 weeks, a repeat CT shows the cavity has not reduced in size, and the wall thickness measures 18 mm. Which one of the following is the most important diagnosis to exclude at this point?",
+      "options": [
+        "Empyema",
+        "Fungal ball",
+        "Tuberculosis",
+        "Wegener's granulomatosis",
+        "Lung cancer"
+      ],
+      "answerIndex": 4,
+      "explanation": "A cavity wall thickness >15 mm and failure to resolve after adequate antibiotics raise suspicion for a cavitating lung cancer, especially in a smoker. Although Streptococcus milleri is a common cause of lung abscess, persistence suggests an underlying malignancy. Tuberculosis and fungal ball are less likely given the bacterial isolate and lack of risk factors.",
+      "difficulty": "hard"
+    }
+  ]
+}

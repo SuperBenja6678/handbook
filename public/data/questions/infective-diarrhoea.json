@@ -1,0 +1,513 @@
+{
+  "topic": "Infective Diarrhoea",
+  "slug": "infective-diarrhoea",
+  "system": "Infectious Diseases",
+  "subSystem": "GI infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:46Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "1be9dac29446",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 25-year-old man presents with a 2-day history of fever, abdominal cramps, and watery diarrhoea that has become bloody over the past 24 hours. He attended a barbecue 3 days ago where he ate undercooked chicken. On examination, temperature is 38.5°C and there is mild lower abdominal tenderness. Stool culture is pending. What is the single most likely diagnosis?",
+      "options": [
+        "Norovirus gastroenteritis",
+        "Salmonella gastroenteritis",
+        "Campylobacter enteritis",
+        "Shigellosis",
+        "Enterohemorrhagic Escherichia coli (EHEC) infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Campylobacter is the most common bacterial cause of gastroenteritis in the UK, often linked to undercooked poultry, and typically presents with fever, abdominal pain, and bloody diarrhoea. This presentation is less typical for Salmonella (which is often less severe) or Shigella (more dysentery with tenesmus). Norovirus is usually afebrile and non-bloody. EHEC is less common but can cause bloody diarrhoea; however, the poultry exposure makes Campylobacter more likely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d2a1afd1b146",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with a 1-day history of high fever (39°C), severe abdominal cramps, and frequent small-volume bloody stools with tenesmus. She recently returned from a trip to India. She has no significant past medical history. On examination, she looks unwell, with diffuse lower abdominal tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Campylobacter enteritis",
+        "Amoebic dysentery",
+        "Clostridioides difficile infection",
+        "Shigellosis",
+        "Salmonellosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Shigellosis typically presents with high fever, severe cramps, tenesmus, and small-volume bloody stools ('dysentery'). Travel to an endemic area increases risk. Campylobacter and Salmonella are less commonly associated with such high fever and tenesmus. Amoebic dysentery usually has a more insidious onset and less fever. C. difficile is associated with antibiotic use, not travel.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd19a23ed5a2",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man in hospital for pneumonia develops diarrhoea 5 days after starting co-amoxiclav. He has frequent watery stools, abdominal pain, and mild distension. He has no fever. Stool culture is negative for common pathogens. What is the single most likely diagnosis?",
+      "options": [
+        "Inflammatory bowel disease",
+        "Antibiotic-associated diarrhoea (non-C. difficile)",
+        "Ischaemic colitis",
+        "Norovirus infection",
+        "Clostridioides difficile infection"
+      ],
+      "answerIndex": 4,
+      "explanation": "C. difficile infection is the most likely cause of antibiotic-associated diarrhoea occurring after broad-spectrum antibiotics like co-amoxiclav, especially in older hospitalised patients. The absence of fever does not exclude it. Non-C. difficile antibiotic-associated diarrhoea is less common in this setting. Norovirus often causes outbreaks and vomiting. Ischaemic colitis usually presents with bloody diarrhoea and pain. Inflammatory bowel disease is unlikely given the temporal link to antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "324e9c79669a",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with HIV (CD4 count 120 cells/μL) presents with a 2-week history of profuse watery diarrhoea, weight loss, and dehydration. He has no blood in the stool, no fever, and no abdominal pain. Stool microscopy shows oocysts. What is the single most likely diagnosis?",
+      "options": [
+        "Cytomegalovirus colitis",
+        "Microsporidiosis",
+        "Cyclosporiasis",
+        "Giardiasis",
+        "Cryptosporidiosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cryptosporidiosis is a common cause of chronic watery diarrhoea in HIV patients with low CD4 counts, and oocysts are visible on stool microscopy. Giardiasis typically presents with foul-smelling, greasy stools and bloating. Microsporidiosis requires special staining. Cyclosporiasis is similar but less common. CMV colitis usually causes bloody diarrhoea and abdominal pain.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2fc0779025b0",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 2-week history of diarrhoea containing blood and mucus, with mild abdominal cramps. She has no fever. She recently returned from a 2-week holiday in Egypt. She has no other symptoms. Stool culture is negative for bacterial pathogens. What is the single most likely diagnosis?",
+      "options": [
+        "Shigellosis",
+        "Inflammatory bowel disease (ulcerative colitis)",
+        "Salmonellosis",
+        "Campylobacter enteritis",
+        "Amoebic dysentery"
+      ],
+      "answerIndex": 4,
+      "explanation": "Amoebic dysentery, caused by Entamoeba histolytica, often presents with an insidious onset of bloody and mucoid diarrhoea without significant fever, especially in travellers to endemic areas. Shigellosis and Campylobacter typically cause acute fever and tenesmus. Inflammatory bowel disease is possible but less likely given travel history and absence of chronic symptoms. Stool culture for bacteria is negative, making invasive bacterial infection less likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0f34543a029a",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with a 2-day history of watery diarrhoea and crampy abdominal pain after returning from a package holiday in Egypt. She has no blood in stools and no fever. What is the single most appropriate investigation to confirm the likely diagnosis?",
+      "options": [
+        "Stool antigen test for Giardia",
+        "Serology for Entamoeba histolytica",
+        "Stool microscopy for ova, cysts, and parasites",
+        "Stool polymerase chain reaction for enteric pathogens",
+        "Stool culture for bacteria"
+      ],
+      "answerIndex": 0,
+      "explanation": "The clinical picture of watery diarrhoea in a returning traveller is typical of Giardia infection. Stool antigen testing for Giardia is the recommended first-line test due to higher sensitivity than microscopy. Stool culture is not appropriate for parasites, and microscopy has lower sensitivity. PCR may be too broad and not always readily available.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "373214404503",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with ulcerative colitis on long-term azathioprine presents with bloody diarrhoea and tenesmus of 5 days' duration. His temperature is 38.2°C. His usual colitis symptoms are quiescent. Initial stool culture is negative. What is the most appropriate next investigation to exclude an infective cause?",
+      "options": [
+        "Stool cytomegalovirus PCR",
+        "Flexible sigmoidoscopy with biopsy",
+        "Abdominal CT scan",
+        "Repeat stool culture",
+        "Stool Clostridium difficile toxin EIA"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an immunocompromised patient with colitis not responding to standard therapy, cytomegalovirus (CMV) is a critical 'never-miss' pathogen. Stool CMV PCR is non-invasive and has high sensitivity and specificity. C. difficile is also possible but stool culture negative and the patient is on azathioprine, not recent antibiotics. Sigmoidoscopy with biopsy is invasive and may be reserved if PCR is positive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "08bfdce4043d",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with acute onset of profuse, watery diarrhoea and vomiting 12 hours after eating seafood at a restaurant. He has no abdominal pain, and the diarrhoea is non-bloody. Three other patrons are similarly affected. Which investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Serology for hepatitis A",
+        "Stool PCR for norovirus",
+        "Stool culture for Salmonella",
+        "Stool electron microscopy for norovirus",
+        "Stool culture for Vibrio parahaemolyticus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The short incubation period and vomiting-dominant illness with multiple cases points to norovirus. Stool PCR is now the standard diagnostic test due to its high sensitivity and specificity. Electron microscopy is rarely used. Vibrio and Salmonella have longer incubation periods and typically cause fever and abdominal pain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d6e4ac825c18",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old nursing home resident develops diarrhoea 5 days after a course of co-amoxiclav for a urinary tract infection. She has 4 loose stools per day without blood. She is afebrile and haemodynamically stable. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Stool culture for enteric pathogens",
+        "Stool glutamate dehydrogenase (GDH) antigen test",
+        "Abdominal X-ray",
+        "Flexible sigmoidoscopy",
+        "Stool Clostridium difficile toxin A and B EIA"
+      ],
+      "answerIndex": 4,
+      "explanation": "Antibiotic-associated diarrhoea, especially in an elderly patient, is most likely due to Clostridium difficile. Stool toxin A/B EIA is the confirmatory test as it detects the actual toxin. GDH is a screening test with lower specificity. Stool culture is not indicated and flexible sigmoidoscopy is invasive and unnecessary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6a66f114aaa1",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old university student presents with a 3-day history of bloody diarrhoea, abdominal cramps, and fever of 38.5°C. He has no travel history and no recent antibiotics. Stool culture is negative for Salmonella, Shigella, and Campylobacter after 48 hours. What is the next best investigation?",
+      "options": [
+        "Stool PCR for Shiga toxin-producing E. coli (STEC)",
+        "Repeat stool culture with specific media for Yersinia",
+        "CT abdomen with contrast",
+        "Colonoscopy with biopsy",
+        "Stool microscopy for cysts of Entamoeba histolytica"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute bloody diarrhoea with negative routine culture raises suspicion for STEC (e.g., O157). PCR for Shiga toxin is rapid and sensitive. Amoebic dysentery is rare without travel; Yersinia typically presents with pseudoappendicitis; colonoscopy and CT are not first line for diagnosing infectious diarrhoea.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "05c3be28c918",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man returns from Bangladesh with 2 days of profuse watery diarrhoea, vomiting, and severe dehydration. Stool culture confirms Vibrio cholerae O1. Which is the most appropriate antimicrobial therapy?",
+      "options": [
+        "Azithromycin 1 g single dose",
+        "Metronidazole 400 mg TDS for 5 days",
+        "Doxycycline 300 mg single dose",
+        "Co-trimoxazole 960 mg BD for 3 days",
+        "Ciprofloxacin 500 mg BD for 3 days"
+      ],
+      "answerIndex": 0,
+      "explanation": "Azithromycin is recommended due to widespread resistance to tetracyclines and fluoroquinolones in V. cholerae.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bdc1bbba7fae",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with 5 days of bloody diarrhoea, abdominal cramps, and fever. Stool culture grows Campylobacter jejuni. She is unable to tolerate oral fluids. What is the most appropriate antibiotic?",
+      "options": [
+        "Co-amoxiclav",
+        "Vancomycin",
+        "Metronidazole",
+        "Ciprofloxacin",
+        "Azithromycin"
+      ],
+      "answerIndex": 4,
+      "explanation": "First-line for Campylobacter is a macrolide (azithromycin); fluoroquinolone resistance is common.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa6807e72551",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man returns from Egypt with bloody diarrhoea, tenesmus, and fever. Stool culture grows Shigella sonnei. What is the most appropriate antibiotic?",
+      "options": [
+        "Metronidazole",
+        "Azithromycin",
+        "Ciprofloxacin",
+        "Co-trimoxazole",
+        "Amoxicillin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shigella is often resistant to ciprofloxacin and co-trimoxazole; azithromycin is first-line for suspected or confirmed shigellosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4eccebbd2abb",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old backpacker presents with foul-smelling, greasy diarrhoea, bloating, and weight loss over 2 weeks. Stool microscopy shows Giardia lamblia cysts. What is the most appropriate treatment?",
+      "options": [
+        "Tinidazole",
+        "Albendazole",
+        "Metronidazole",
+        "Nitazoxanide",
+        "Praziquantel"
+      ],
+      "answerIndex": 2,
+      "explanation": "Metronidazole is the standard first-line treatment for giardiasis; tinidazole is an alternative but metronidazole is more commonly used in the UK.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16617bc6d20f",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 6-year-old child develops bloody diarrhoea after a farm visit. Stool culture grows E. coli O157:H7. The child has mild dehydration. Which of the following treatments should be avoided?",
+      "options": [
+        "Vancomycin",
+        "Oral rehydration solution",
+        "Loperamide",
+        "Probiotics",
+        "Paracetamol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Antimotility agents such as loperamide are contraindicated in STEC infection as they may increase the risk of haemolytic uraemic syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4036a1c0d61e",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents with acute watery diarrhoea for 24 hours, 4-5 loose stools per day, no blood, no fever, no recent travel. She is mildly dehydrated (dry mucous membranes, heart rate 90, BP 110/70). She has no other medical problems. What is the most appropriate next action?",
+      "options": [
+        "Check full blood count and urea/electrolytes",
+        "Admit for intravenous fluids",
+        "Start oral rehydration solution",
+        "Send stool culture and sensitivity",
+        "Prescribe loperamide"
+      ],
+      "answerIndex": 2,
+      "explanation": "In mild dehydration from acute diarrhoea, oral rehydration is first-line. Stool culture is not indicated without red flags (blood, fever, travel, immunocompromise). Loperamide may be used after rehydration but not first. IV fluids are for moderate-severe dehydration. Blood tests are not needed in this low-risk presentation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a7e7213d2b94",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old university student returns from a trip to India 3 days ago and now has 6-8 episodes of bloody diarrhoea per day, with tenesmus and fever of 38.8°C. He is lethargic but has normal blood pressure and mild tachycardia (100 bpm). He has no significant medical history. What is the most appropriate next step?",
+      "options": [
+        "Start oral rehydration solution at home",
+        "Send stool for culture, sensitivity, and microscopy",
+        "Start oral ciprofloxacin",
+        "Give a 500 mL intravenous fluid bolus",
+        "Request a flexible sigmoidoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Given bloody diarrhoea with fever and recent travel, bacterial dysentery (e.g., Shigella, Campylobacter) is likely. First step is stool culture to confirm and guide antibiotics. Empiric antibiotics are not recommended until culture results unless severe (shock, toxic). IV fluid bolus is not indicated as he is not hypotensive. Sigmoidoscopy is not first line. Oral rehydration is important but not the immediate priority over diagnostic testing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3095cfd11c5",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old man with type 2 diabetes and chronic kidney disease stage 3 presents with profuse watery diarrhoea for 2 days. He is confused, with heart rate 120, BP 70/40, and capillary refill 5 seconds. He has not passed urine for 8 hours. What is the most appropriate immediate action?",
+      "options": [
+        "Start intravenous 0.9% sodium chloride bolus",
+        "Place a urinary catheter",
+        "Obtain blood cultures and start IV piperacillin-tazobactam",
+        "Send stool for Clostridioides difficile PCR",
+        "Arrange urgent CT abdomen"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient is in hypovolemic shock; the immediate priority is fluid resuscitation with IV crystalloid bolus. Blood cultures and antibiotics are important but secondary to resuscitation. Stool testing can wait. CT and urinary catheter are not first in shock.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17dbfdc41d07",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman with ulcerative colitis on mesalazine was treated with co-amoxiclav 5 days ago for a urinary tract infection. She now has 10 bloody stools per day and abdominal pain. Stool test is positive for Clostridioides difficile toxin. She is afebrile and her blood pressure is normal. What is the most appropriate next action?",
+      "options": [
+        "Start oral vancomycin",
+        "Increase mesalazine dose",
+        "Stop the co-amoxiclav",
+        "Repeat stool testing",
+        "Start oral metronidazole"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with C. diff diarrhoea triggered by antibiotics, the first step is to discontinue the offending antibiotic. Then treatment with vancomycin or metronidazole is indicated depending on severity. Stopping the trigger is immediate. Increasing mesalazine is not appropriate for C. diff. Repeating stool test is unnecessary after positive result.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6185818a71cb",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old pregnant woman at 30 weeks gestation presents with 2 days of watery diarrhoea, 6 stools per day, no blood, no fever. She is normotensive, heart rate 95, and has dry mucous membranes. She reports feeling thirsty. She has not travelled or taken antibiotics. What is the most appropriate next step?",
+      "options": [
+        "Admit for intravenous fluids",
+        "Refer to obstetric triage",
+        "Send stool for microbiology",
+        "Start oral rehydration solution",
+        "Prescribe loperamide"
+      ],
+      "answerIndex": 3,
+      "explanation": "In mild to moderate dehydration from acute diarrhoea in pregnancy, oral rehydration is first-line. Stool culture is not indicated without red flags. Loperamide is avoided in pregnancy. IV fluids are for moderate-severe dehydration. Obstetric referral is not needed as she has normal vital signs and fetal movements are presumably normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7492cc6e2f6f",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with a 2-day history of bloody diarrhoea and crampy abdominal pain. She has no significant past medical history. Observations show heart rate 102 bpm, blood pressure 115/74 mmHg, temperature 37.6°C. Which single finding most strongly indicates she requires urgent hospital referral?",
+      "options": [
+        "Abdominal distension",
+        "Vomiting",
+        "Decreased skin turgor",
+        "Fever >38°C",
+        "Heart rate 102 bpm"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tachycardia is a sensitive sign of severe dehydration or early sepsis, which in the context of bloody diarrhoea mandates urgent assessment. While fever may be present, tachycardia often precedes hypotension and indicates a higher acuity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d8a751d46e4",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man has had diarrhoea for 3 days with low-grade fever (37.8°C) and mild dehydration. He is alert, heart rate 88 bpm, blood pressure 128/76 mmHg. Which single clinical finding would prompt immediate escalation of care?",
+      "options": [
+        "Mild abdominal tenderness",
+        "Blood in stool",
+        "CRP 30 mg/L",
+        "White cell count 12 x10⁹/L",
+        "Temperature 38.0°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blood in stool (dysentery) is a red flag for invasive bacterial infection, especially in older adults, and warrants stool culture and consideration of antibiotics. Low-grade fever and mild laboratory derangements are common and not immediately concerning.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0c3c663b7550",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman presents with profuse watery diarrhoea and vomiting for 2 days, looking severely dehydrated. She is tachycardic (115 bpm) and hypotensive (92/60 mmHg). Which single finding raises suspicion that she is developing haemolytic uraemic syndrome (HUS)?",
+      "options": [
+        "Metabolic acidosis",
+        "Jaundice",
+        "Petechial rash",
+        "Raised creatinine",
+        "Oliguria"
+      ],
+      "answerIndex": 4,
+      "explanation": "Oliguria is the key clinical sign of acute kidney injury, a defining feature of HUS. While petechiae indicate thrombocytopenia and raised creatinine is laboratory evidence, oliguria is an immediate clinical finding that triggers suspicion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c2d0309a866",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known Crohn's disease presents with diarrhoea, crampy pain, and fever. Stool culture grows Clostridium difficile. On examination, which single finding suggests he has developed toxic megacolon?",
+      "options": [
+        "Leukocytosis 18 x10⁹/L",
+        "Decreased bowel sounds",
+        "Marked abdominal tenderness",
+        "Abdominal distension",
+        "Fever >39°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Abdominal distension is the cardinal clinical sign of toxic megacolon, often associated with loss of haustral markings on imaging. Decreased bowel sounds occur but are less specific; distension is the classic red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5620a8f2062f",
+      "topic": "Infective Diarrhoea",
+      "slug": "infective-diarrhoea",
+      "system": "Infectious Diseases",
+      "subSystem": "GI infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman on chemotherapy for lymphoma presents with diarrhoea and fever (38.5°C). She has severe neutropenia (neutrophils 0.2 x10⁹/L). Which single clinical finding most strongly indicates neutropenic enterocolitis (typhlitis)?",
+      "options": [
+        "Right iliac fossa pain",
+        "Abdominal distension",
+        "High fever",
+        "Watery diarrhoea",
+        "Generalised peritonism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neutropenic enterocolitis typically presents with right lower quadrant pain due to inflammation of the caecum. Other options are non-specific; the localised pain is the key to differentiating from other causes of diarrhoea in neutropenia.",
+      "difficulty": "hard"
+    }
+  ]
+}

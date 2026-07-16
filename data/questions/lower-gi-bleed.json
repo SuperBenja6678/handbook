@@ -1,0 +1,513 @@
+{
+  "topic": "Lower GI Bleed",
+  "slug": "lower-gi-bleed",
+  "system": "Gastroenterology",
+  "subSystem": "GI bleed",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T09:16:54Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "f8eaef34da94",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old man presents with a sudden, painless, large volume of bright red blood per rectum. He is haemodynamically stable. He has a history of hypertension and diverticulosis. What is the single most likely diagnosis?",
+      "options": [
+        "Ischaemic colitis",
+        "Colorectal carcinoma",
+        "Angiodysplasia",
+        "Haemorrhoidal bleed",
+        "Diverticular bleed"
+      ],
+      "answerIndex": 4,
+      "explanation": "Painless, large volume bleeding in an elderly patient with known diverticulosis is classic for diverticular haemorrhage, the most common cause of massive lower GI bleeding. Angiodysplasia typically causes recurrent, occult or intermittent bleeding, not necessarily massive. Ischaemic colitis typically presents with abdominal pain and diarrhoea. Colorectal carcinoma often presents with altered bowel habit and weight loss. Haemorrhoidal bleed is usually small volume and bright red.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "78e3e93b8f85",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 3-week history of bloody diarrhoea, tenesmus, and lower abdominal cramps. She has had unintentional weight loss of 4 kg. On examination, there is mild left lower quadrant tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Diverticulitis",
+        "Infective colitis",
+        "Ulcerative colitis",
+        "Irritable bowel syndrome",
+        "Crohn's disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of bloody diarrhoea, tenesmus (suggesting rectal involvement), and weight loss in a young woman is highly suggestive of ulcerative colitis. Crohn's disease more often presents with non-bloody diarrhoea, right iliac fossa pain, and perianal disease. Infective colitis is usually acute and self-limiting with a history of recent antibiotics or travel. IBS does not cause bloody diarrhoea or weight loss. Diverticulitis is uncommon in this age group and presents with left iliac fossa pain and fever, not typically bloody diarrhoea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86c2fe9e9df0",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known ulcerative colitis on mesalazine presents with severe abdominal pain, abdominal distension, fever (38.5°C), and tachycardia. He has had 8 bloody stools in the past 24 hours. Abdominal X-ray shows a dilated colon with a transverse diameter of 6.5 cm. What is the single most likely diagnosis?",
+      "options": [
+        "Ischaemic colitis",
+        "Acute severe ulcerative colitis",
+        "Toxic megacolon",
+        "Colonic perforation",
+        "Appendicitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with known UC, the triad of systemic toxicity (fever, tachycardia), abdominal distension, and colonic dilation >6 cm on X-ray is diagnostic of toxic megacolon. This is a life-threatening complication of IBD. Acute severe UC would not necessarily show colonic dilation. Perforation would present with peritonitis and free air. Appendicitis is not typically associated with bloody diarrhoea. Ischaemic colitis is unlikely in a young patient without risk factors.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41fcb64fb72d",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents with fatigue and pallor. She has no abdominal pain or rectal bleeding. Full blood count shows Hb 88 g/L with microcytic hypochromic indices. Faecal immunochemical test is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Iron deficiency anaemia due to dietary deficiency",
+        "Colorectal carcinoma",
+        "Angiodysplasia",
+        "Diverticulosis",
+        "Haemorrhoids"
+      ],
+      "answerIndex": 1,
+      "explanation": "Iron deficiency anaemia in an elderly patient without overt bleeding and a positive FIT is considered colorectal cancer until proven otherwise. Right-sided colon cancers often present with occult bleeding and anaemia. Angiodysplasia can cause occult bleeding but is less common. Diverticulosis rarely causes chronic occult bleeding. Haemorrhoids do not typically cause significant anaemia. Dietary deficiency is less likely in this age group without other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb236b12c6aa",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man on warfarin for atrial fibrillation presents with a single episode of maroon-coloured stool. He is haemodynamically stable. He has no abdominal pain. What is the single most likely diagnosis?",
+      "options": [
+        "Angiodysplasia",
+        "Colorectal carcinoma",
+        "Ischaemic colitis",
+        "Haemorrhoidal bleed",
+        "Diverticular bleed"
+      ],
+      "answerIndex": 0,
+      "explanation": "Maroon-coloured stool suggests a right-sided colonic source of bleeding. Angiodysplasia is a common cause of lower GI bleeding in the elderly and is associated with anticoagulant use. Diverticular bleed typically presents with bright red blood, not maroon. Ischaemic colitis usually presents with abdominal pain. Colorectal carcinoma often presents with altered bowel habit. Haemorrhoidal bleed is bright red and small volume.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4bbb9f8e26b7",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old otherwise healthy man presents with intermittent bright red blood on the toilet paper and occasional drops in the toilet bowl. He has no abdominal pain, weight loss, or change in bowel habit. Abdominal examination is normal. Rectal examination reveals no masses but a few small external skin tags. What is the most appropriate next investigation?",
+      "options": [
+        "Faecal immunochemical test (FIT)",
+        "Anoscopy",
+        "CT colonography",
+        "Flexible sigmoidoscopy",
+        "Colonoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a young patient with classic symptoms of internal haemorrhoids, anoscopy allows direct visualisation of the anal canal and is the first-line investigation. Colonoscopy is not indicated without red flags.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "583669df9325",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with a history of diverticulosis presents with a two-day history of passing fresh blood mixed with stool. She is haemodynamically stable with normal vital signs. Her abdomen is soft and non-tender. She has no history of bleeding disorders. What is the most appropriate investigation to establish the diagnosis?",
+      "options": [
+        "Colonoscopy",
+        "Flexible sigmoidoscopy",
+        "CT colonography",
+        "Oesophagogastroduodenoscopy (OGD)",
+        "CT angiography"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a haemodynamically stable patient with a lower GI bleed, colonoscopy is the investigation of choice as it can both identify and treat the source. CT angiography is reserved for unstable patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "491b9d935eab",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents to the emergency department with massive fresh blood per rectum and hypotension (BP 85/60 mmHg, HR 110 bpm). He has a history of hypertension and is on aspirin. After resuscitation, what is the most appropriate investigation to localise the bleeding source?",
+      "options": [
+        "OGD",
+        "Colonoscopy",
+        "Flexible sigmoidoscopy",
+        "Red blood cell scintigraphy",
+        "CT angiography"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a haemodynamically unstable patient with a massive lower GI bleed, CT angiography is the first-line imaging to identify the site of bleeding before potential endovascular or surgical intervention. Colonoscopy is difficult in an unstable patient without bowel preparation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2fe4baffa43b",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man undergoes colonoscopic polypectomy of a 2cm sigmoid polyp. Twelve hours later, he develops fresh rectal bleeding. He is haemodynamically stable with a soft abdomen. What is the most appropriate investigation to confirm the bleeding source?",
+      "options": [
+        "Repeat polypectomy",
+        "Urgent colonoscopy",
+        "CT angiography",
+        "Flexible sigmoidoscopy",
+        "OGD"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a stable patient with post-polypectomy bleeding, urgent colonoscopy is both diagnostic and therapeutic, allowing for haemostatic measures such as clip placement. CT angiography is not first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d43f4a87425b",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 48-year-old woman presents with recurrent iron deficiency anaemia (Hb 100 g/L, MCV 78, ferritin 10). She has undergone two OGDs and two colonoscopies, all normal. She has no overt GI bleeding. What is the most appropriate next investigation?",
+      "options": [
+        "Meckel's scan",
+        "Faecal calprotectin",
+        "Double-balloon enteroscopy",
+        "CT colonography",
+        "Capsule endoscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "For obscure GI bleeding (overt or occult) after negative upper and lower endoscopy, capsule endoscopy is the recommended next step to visualise the small bowel. Double-balloon enteroscopy may follow for therapeutic intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c15c3c50d2bd",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man presents with two episodes of painless fresh rectal bleeding. He is haemodynamically stable. Colonoscopy reveals a single angiodysplastic lesion in the caecum. What is the most appropriate definitive therapy?",
+      "options": [
+        "Observation",
+        "Oestrogen-progesterone therapy",
+        "Angiographic embolisation",
+        "Argon plasma coagulation",
+        "Right hemicolectomy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Endoscopic argon plasma coagulation is first-line for angiodysplasia because it is effective, safe, and less invasive than surgery or hormonal therapy. Surgery is reserved for failed endoscopic treatment or massive bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b544cc89d060",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with known diverticulosis presents with massive fresh rectal bleeding. She is resuscitated with 4 units of packed red cells but continues to bleed. CT angiography shows active extravasation from a sigmoid diverticulum. What is the most appropriate definitive therapy?",
+      "options": [
+        "Segmental sigmoid colectomy",
+        "Total abdominal colectomy",
+        "Angiographic embolisation",
+        "Urgent colonoscopy with adrenaline injection",
+        "Intravenous octreotide"
+      ],
+      "answerIndex": 2,
+      "explanation": "Angiographic embolisation is the first-line definitive therapy for ongoing diverticular bleeding when the bleeding site is identified on CT angiography. Colonoscopy is rarely successful in active massive bleeding, and surgery is reserved for embolisation failure or instability.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba9f0e9a5912",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known extensive ulcerative colitis on oral mesalazine is admitted with bloody diarrhoea (8 stools/day), pulse 110, BP 100/70, Hb 100 g/L, CRP 120. He starts IV hydrocortisone 100 mg QDS. After 3 days, he still has 10 bloody stools/day, CRP remains high, and he develops abdominal tenderness. What is the most appropriate next treatment?",
+      "options": [
+        "Urgent colectomy",
+        "Start infliximab",
+        "Add oral cyclosporine",
+        "Add intravenous antibiotics",
+        "Continue IV steroids for a further 5 days"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute severe UC not responding to IV steroids after 3 days, infliximab is first-line rescue therapy (NICE CG166). Ciclosporin is an alternative but infliximab is now more commonly used. Colectomy is reserved for failed medical therapy or toxic megacolon.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "950ab790cd50",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman presents with iron deficiency anaemia and intermittent fresh PR bleeding. Colonoscopy shows a 2 cm pedunculated polyp in the rectum with a villous component. Biopsies show tubulovillous adenoma with no dysplasia. What is the most appropriate definitive therapy?",
+      "options": [
+        "Anterior resection",
+        "Transanal endoscopic microsurgery",
+        "Surveillance colonoscopy in 1 year",
+        "Radiotherapy",
+        "Endoscopic polypectomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Endoscopic polypectomy is the first-line treatment for a pedunculated rectal adenoma. It is minimally invasive, curative, and avoids major surgery. Transanal endoscopic microsurgery is for sessile lesions not amenable to standard polypectomy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "36d17ec9a8e3",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with cirrhosis and portal hypertension presents with bright red rectal bleeding. He is haemodynamically stable. OGD shows no oesophageal varices. Proctoscopy reveals prominent rectal varices. He has had no previous variceal bleeding. What is the most appropriate therapy to prevent rebleeding?",
+      "options": [
+        "Haemorrhoidectomy",
+        "Transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Propranolol",
+        "Rubber band ligation of rectal varices",
+        "Sclerotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Primary prophylaxis for variceal bleeding (including rectal varices) in patients with cirrhosis and portal hypertension is with non-selective beta-blockers like propranolol (NICE CG50). Band ligation is used for oesophageal varices but not standard for rectal varices. TIPS is reserved for secondary prophylaxis or refractory bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "11c65b2101d0",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the Emergency Department with a single episode of bright red blood per rectum. He is haemodynamically stable, with no abdominal pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange an urgent CT angiogram",
+        "Refer for urgent colonoscopy",
+        "Commence intravenous fluids",
+        "Request a full blood count and coagulation screen",
+        "Perform a digital rectal examination"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a stable patient with fresh PR bleeding, digital rectal examination is the first step to confirm the nature of bleeding and exclude local anal causes before further investigations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ddfa21a19634",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with known diverticulosis presents with fresh blood per rectum. She is mildly tachycardic (HR 92 bpm) and normotensive (BP 115/75 mmHg). Initial bloods show Hb 112 g/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluid resuscitation",
+        "Transfuse 2 units of packed red cells",
+        "Perform a faecal calprotectin test",
+        "Arrange an urgent colonoscopy",
+        "Request a CT colonography"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although she is stable, mild tachycardia suggests volume depletion. Immediate next step is IV fluid resuscitation to restore circulating volume before further diagnostic tests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd2583641532",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old man is brought to the ED with massive haematochezia. He is pale, sweaty, BP 80/50 mmHg, HR 125 bpm. What is the most appropriate immediate next step?",
+      "options": [
+        "Cross-match and transfuse 4 units of blood",
+        "Arrange an urgent CT angiogram",
+        "Perform an urgent flexible sigmoidoscopy",
+        "Give a bolus of intravenous crystalloid",
+        "Activate the major haemorrhage protocol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In massive haemorrhage with shock, immediate activation of major haemorrhage protocol for rapid transfusion of blood products is life-saving; other steps follow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cde81e5be538",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman with known diverticular disease presents with left lower quadrant pain, fever (38.5°C), and fresh blood per rectum. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to general surgery",
+        "Perform a colonoscopy",
+        "Start intravenous antibiotics",
+        "Arrange an urgent CT abdomen with IV contrast",
+        "Request a barium enema"
+      ],
+      "answerIndex": 3,
+      "explanation": "Suspected acute diverticulitis with bleeding, CT is the first-line imaging to confirm diagnosis and assess for complications (abscess, perforation). Antibiotics or surgery may follow based on CT findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f25d46a8a1d6",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with ulcerative colitis in remission on mesalazine reports a single episode of small amount bright red blood per rectum. He is systemically well, afebrile, with no abdominal pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent colonoscopy",
+        "Start oral prednisolone",
+        "Check faecal calprotectin",
+        "Reassure and observe",
+        "Increase the dose of mesalazine"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a known UC patient with mild rectal bleeding, faecal calprotectin is a non-invasive test to assess disease activity objectively, guiding whether to escalate therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8a60a6e76506",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with diverticulosis presents with sudden passage of large volume bright red blood per rectum. He is diaphoretic and confused. Observations: HR 115, BP 85/60, RR 22, SpO2 96% on air. Which single finding best identifies this as a life-threatening emergency requiring immediate escalation?",
+      "options": [
+        "Respiratory rate 22",
+        "Systolic BP 85 mmHg",
+        "Haemoglobin 110 g/L",
+        "Bright red blood per rectum",
+        "Heart rate 105 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Systolic blood pressure <90 mmHg indicates haemodynamic shock from massive haemorrhage, requiring immediate resuscitation. Bright red blood is common but not a severity marker; tachycardia may be present but hypotension signifies decompensation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0cd49dd894f4",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with a single episode of haematochezia. He is haemodynamically stable. Nasogastric aspirate is clear. Which single investigation result would most strongly suggest an upper gastrointestinal source?",
+      "options": [
+        "BUN:creatinine ratio 35:1",
+        "CRP 120 mg/L",
+        "Platelet count 600 x10^9/L",
+        "Haemoglobin 100 g/L",
+        "INR 1.8"
+      ],
+      "answerIndex": 0,
+      "explanation": "An elevated BUN:creatinine ratio (>30:1) suggests an upper GI source due to absorption of digested blood in the small intestine, even with clear nasogastric aspirate. The other parameters are non-specific or unrelated to localization.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "91015224914c",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with known ulcerative colitis presents with increased bloody diarrhoea and cramping. He has a fever of 38.5°C. Observations: HR 110, BP 105/70. Abdominal exam shows distension with tympany and tenderness. Which single finding should trigger immediate surgical referral?",
+      "options": [
+        "Abdominal distension with tympany",
+        "Heart rate 110 bpm",
+        "Haemoglobin 95 g/L",
+        "Colonic diameter 6.5 cm on plain abdominal film (supine)",
+        "Temperature 38.5°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Colonic diameter >6 cm on abdominal radiograph confirms toxic megacolon, a life-threatening complication requiring urgent surgical decompression. Distension and fever are suggestive but not diagnostic; tachycardia and anaemia are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "64543de15389",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old diabetic woman with atrial fibrillation presents with acute onset of severe abdominal pain followed by bloody diarrhoea. She is not on anticoagulation. Observations: HR 105, BP 100/70, T 37.2°C. Abdominal exam reveals diffuse tenderness with guarding. Which single laboratory finding most strongly suggests a surgical emergency?",
+      "options": [
+        "C-reactive protein 180 mg/L",
+        "Serum lactate 4.0 mmol/L",
+        "White blood cell count 15 x10^9/L",
+        "D-dimer 2.0 mg/L",
+        "Troponin I 0.05 ng/mL"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevated lactate indicates tissue ischaemia and is a hallmark of acute mesenteric ischaemia, a surgical emergency that can present with bloody stools. The other markers are non-specific for ischaemia and may be seen in inflammation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a9dfa48608e2",
+      "topic": "Lower GI Bleed",
+      "slug": "lower-gi-bleed",
+      "system": "Gastroenterology",
+      "subSystem": "GI bleed",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with a 3-week history of bloody diarrhoea, urgency, and tenesmus. She has 8 bloody stools per day. She appears well. Observations: HR 95, BP 115/75, T 37.6°C. Which single additional finding would confirm severe colitis requiring urgent hospital admission?",
+      "options": [
+        "Platelet count 450 x10^9/L",
+        "Temperature 37.6°C",
+        "ESR 40 mm/hr",
+        "Heart rate 95 bpm",
+        "Haemoglobin 110 g/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with >6 bloody stools per day, a pulse >90 bpm meets Truelove and Witts criteria for severe colitis, indicating need for urgent admission and treatment. The other values are borderline or normal (e.g., temperature is low-grade, Hb is normal, ESR is only mildly elevated).",
+      "difficulty": "medium"
+    }
+  ]
+}

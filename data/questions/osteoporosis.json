@@ -1,0 +1,513 @@
+{
+  "topic": "Osteoporosis",
+  "slug": "osteoporosis",
+  "system": "Endocrinology",
+  "subSystem": "Bone",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:08Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8e441dde3019",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents after a fall from standing height, sustaining a Colles' fracture. She has no other significant medical history. DXA scan shows a T-score of -2.8 at the femoral neck. What is the single most likely diagnosis?",
+      "options": [
+        "Osteomalacia",
+        "Paget's disease of bone",
+        "Primary hyperparathyroidism",
+        "Osteoporosis",
+        "Multiple myeloma"
+      ],
+      "answerIndex": 3,
+      "explanation": "The T-score ≤ -2.5 in the presence of a fragility fracture confirms osteoporosis. Osteomalacia would show low vitamin D and raised ALP; Paget's has elevated ALP with normal calcium; hyperparathyroidism has high calcium; myeloma presents with lytic lesions and systemic symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "572d2401cb5e",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with a history of asthma on long-term oral prednisolone presents with recurrent rib fractures after minimal trauma. DXA reveals a T-score of -3.0 at the lumbar spine. What is the single most likely diagnosis?",
+      "options": [
+        "Glucocorticoid-induced osteoporosis",
+        "Idiopathic osteoporosis",
+        "Osteogenesis imperfecta",
+        "Cushing's syndrome",
+        "Hypogonadism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Long-term glucocorticoid use is the most common secondary cause of osteoporosis in younger adults. Osteogenesis imperfecta usually presents earlier with blue sclerae; hypogonadism is diagnosed by low testosterone; Cushing's syndrome has typical stigmata.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4287a8762bd",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with a history of coeliac disease presents with back pain and height loss. DXA shows T-score -2.5 at the hip, but blood tests reveal low 25-hydroxyvitamin D, raised alkaline phosphatase and parathyroid hormone. What is the single most likely diagnosis?",
+      "options": [
+        "Renal osteodystrophy",
+        "Osteoporosis",
+        "Paget's disease",
+        "Osteomalacia",
+        "Primary hyperparathyroidism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of low vitamin D, raised ALP and PTH with low BMD suggests osteomalacia. Osteoporosis would have normal biochemistry; Paget's has isolated raised ALP; primary hyperparathyroidism has high calcium; renal osteodystrophy occurs in CKD.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cdb635083979",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman on alendronic acid for 6 years presents with acute left thigh pain after minimal trauma. Radiograph shows a transverse subtrochanteric femoral shaft fracture with cortical thickening. What is the single most likely diagnosis?",
+      "options": [
+        "Pathological fracture due to metastasis",
+        "Paget's disease with fracture",
+        "Atypical femoral fracture",
+        "Typical osteoporotic femoral neck fracture",
+        "Osteomalacic fracture"
+      ],
+      "answerIndex": 2,
+      "explanation": "A transverse fracture with cortical thickening in a patient on long-term bisphosphonate is characteristic of an atypical femoral fracture. Typical osteoporotic fractures occur at the femoral neck; Paget's shows bone deformity; osteomalacia has Looser zones; metastatic fractures are often lytic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6f73ea7b1f85",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents with gradual-onset back pain. She has lost 4 cm in height. X-ray of the spine reveals wedge fractures of T11 and L1. No DXA has been performed. What is the single most likely diagnosis?",
+      "options": [
+        "Paget's disease of bone",
+        "Metastatic spinal disease",
+        "Multiple myeloma",
+        "Osteoporosis",
+        "Osteomalacia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Vertebral wedge fractures in an elderly woman without trauma are most likely due to osteoporosis. Metastases usually cause lytic or blastic lesions; myeloma has punched-out lytic lesions; osteomalacia causes pseudofractures; Paget's causes bone enlargement and deformity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eef2b23bfe6e",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old postmenopausal woman presents to the fracture clinic after a fall from standing height, sustaining a Colles' fracture. She has no other significant history. What is the single most appropriate investigation to confirm a diagnosis of osteoporosis?",
+      "options": [
+        "FRAX risk assessment tool",
+        "Dual-energy X-ray absorptiometry (DXA) of the hip and lumbar spine",
+        "Quantitative CT of the lumbar spine",
+        "Peripheral DXA of the heel",
+        "QFracture risk calculator"
+      ],
+      "answerIndex": 1,
+      "explanation": "DXA of the hip and lumbar spine is the gold standard for diagnosing osteoporosis according to NICE. A T-score ≤ -2.5 confirms diagnosis. FRAX and QFracture are risk assessment tools, not diagnostic. Peripheral DXA and QCT are less validated for diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "91eae5c4ecc2",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with type 2 diabetes undergoes a DXA scan for back pain. His lumbar spine T-score is -2.6 and femoral neck T-score is -2.1. What is the diagnosis?",
+      "options": [
+        "Osteoporosis",
+        "Severe osteoporosis",
+        "Osteopenia",
+        "Secondary osteoporosis",
+        "Normal bone density"
+      ],
+      "answerIndex": 0,
+      "explanation": "A T-score of -2.6 at the lumbar spine is ≤ -2.5, meeting the WHO diagnostic threshold for osteoporosis. The hip T-score is osteopenic, but the lowest T-score at hip or spine is used.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2325b1bcbea7",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman presents with acute severe back pain after lifting a shopping bag. Lateral spine X-ray shows a wedge compression fracture of L1. She is otherwise well. What is the best next investigation to assess bone density?",
+      "options": [
+        "Radionuclide bone scan",
+        "FRAX risk assessment",
+        "MRI of the whole spine",
+        "DXA of the hip and lumbar spine",
+        "Computed tomography of the lumbar spine"
+      ],
+      "answerIndex": 3,
+      "explanation": "Despite the presence of a fragility fracture, DXA is still required to quantify bone mineral density for diagnosis of osteoporosis and to guide management. MRI and bone scan assess other causes of pain or metastases, but not bone density.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19940b86788b",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with moderate asthma on long-term oral prednisolone (7.5 mg daily for 3 years) sustains a low-trauma wrist fracture. Which investigation is most appropriate to assess her fracture risk?",
+      "options": [
+        "Vertebral fracture assessment by DXA",
+        "FRAX without BMD",
+        "DXA of the hip and spine",
+        "Quantitative ultrasound of the calcaneus",
+        "Bone turnover markers (e.g., P1NP, CTX)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In glucocorticoid-induced osteoporosis, FRAX (which includes glucocorticoid dose as a risk factor) is recommended by NICE to estimate fracture probability. DXA may be done subsequently if FRAX indicates high risk, but the question asks for the most appropriate initial risk assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7c67aa955587",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with prostate cancer has been on androgen deprivation therapy (ADT) with a GnRH analogue for 2 years. He has no symptoms. Which screening test is recommended for osteoporosis in this population?",
+      "options": [
+        "Peripheral DXA of the forearm",
+        "Bone density measurement by dual-photon absorptiometry",
+        "Quantitative CT of the spine",
+        "DXA of the hip and lumbar spine",
+        "FRAX risk assessment"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends that men on ADT should have a DXA scan to assess bone mineral density, as they are at increased risk of osteoporosis. FRAX can be used for risk assessment, but the definitive screening test is DXA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd129b3ff88e",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old postmenopausal woman is diagnosed with osteoporosis (T-score -2.7 at femoral neck). She has no previous fractures, no contraindications to therapy, and her renal function is normal. What is the most appropriate first-line treatment?",
+      "options": [
+        "Alendronic acid 70 mg once weekly",
+        "Denosumab 60 mg every 6 months",
+        "Hormone replacement therapy (oestrogen only)",
+        "Raloxifene 60 mg daily",
+        "Teriparatide 20 μg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend a bisphosphonate (alendronic acid) as first-line therapy for postmenopausal osteoporosis. The other options are second-line or reserved for specific cases (e.g., teriparatide for severe disease, raloxifene for vertebral fractures only, denosumab if bisphosphonates not tolerated, HRT not standard).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1313845261c6",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with a history of two vertebral fragility fractures and osteoporosis presents for treatment. Her eGFR is 25 mL/min/1.73m². Which of the following treatments is most clearly contraindicated?",
+      "options": [
+        "Denosumab",
+        "Teriparatide",
+        "Raloxifene",
+        "Zoledronic acid",
+        "Alendronic acid"
+      ],
+      "answerIndex": 3,
+      "explanation": "Zoledronic acid is contraindicated if creatinine clearance is <35 mL/min (or eGFR <30-35). Alendronic acid can be used with caution but is not absolutely contraindicated; denosumab does not require dose adjustment in renal impairment; teriparatide and raloxifene are safe in mild-to-moderate CKD.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6f7749a41bd9",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with severe osteoporosis (T-score -3.5) has been on prednisolone 10 mg daily for rheumatoid arthritis for the past 6 months. He has no prior fractures. What is the most appropriate first-line treatment for glucocorticoid-induced osteoporosis?",
+      "options": [
+        "Raloxifene 60 mg daily",
+        "Teriparatide 20 μg daily",
+        "Denosumab 60 mg every 6 months",
+        "Alendronic acid 70 mg once weekly",
+        "Calcium and vitamin D supplementation alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends a bisphosphonate (alendronic acid or risedronate) as first-line for glucocorticoid-induced osteoporosis. Teriparatide is reserved for severe cases or when bisphosphonates fail/contraindicated. Denosumab is second-line. Calcium/vitamin D alone is insufficient. Raloxifene is not indicated in men.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27b08fa1678e",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with osteoporosis treated with alendronic acid for 5 years presents with a low-trauma subtrochanteric femur fracture. Radiographic features suggest an atypical femur fracture. She has completed a 5-year bisphosphonate course. What is the most appropriate next step in management?",
+      "options": [
+        "Switch to denosumab",
+        "Start raloxifene",
+        "Stop all osteoporosis therapy and monitor",
+        "Switch to teriparatide",
+        "Continue alendronic acid for another 5 years"
+      ],
+      "answerIndex": 3,
+      "explanation": "After an atypical femur fracture related to bisphosphonate use, NICE recommends switching to an anabolic agent (teriparatide) to promote bone healing and reduce further risk. Denosumab is not first-line after atypical fracture. Continuing bisphosphonate is contraindicated. Stopping therapy leaves the patient unprotected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "625fdacc7f0a",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old man is found to have osteoporosis (T-score -2.9) on DEXA scan. He has a history of bilateral orchidectomy for testicular cancer. He is asymptomatic and has no other risk factors. What is the most appropriate first-line treatment?",
+      "options": [
+        "Testosterone replacement therapy",
+        "Alendronic acid 70 mg once weekly",
+        "Denosumab 60 mg every 6 months",
+        "Calcium and vitamin D supplementation",
+        "Teriparatide 20 μg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For osteoporosis secondary to hypogonadism in men, first-line treatment is to address the underlying cause with testosterone replacement therapy. This can improve bone density. Bisphosphonates are second-line if testosterone is contraindicicated or ineffective. Teriparatide and denosumab are reserved for more severe cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a9b32bbda2e4",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman presents to the emergency department with acute-onset severe back pain after lifting a heavy suitcase. She has no history of trauma. On examination, there is midline tenderness at the thoracolumbar junction. Initial X-ray shows a wedge compression fracture of L1. She is mobilising with difficulty. What is the single most appropriate next step?",
+      "options": [
+        "Refer for urgent spine surgery opinion",
+        "Admit for observation and intravenous bisphosphonates",
+        "Discharge with simple analgesia and a back brace",
+        "Prescribe oral alendronic acid 70 mg weekly",
+        "Arrange a dual-energy X-ray absorptiometry (DEXA) scan"
+      ],
+      "answerIndex": 3,
+      "explanation": "The most likely diagnosis is osteoporotic vertebral fracture. NICE recommends starting bisphosphonate therapy (e.g. alendronic acid) without waiting for DEXA results in patients with a fragility fracture. Spinal surgery is rarely needed acutely; admission for IV bisphosphonates is not routine. Analgesia and brace are supportive but not the priority. Starting treatment to prevent further fractures is the key immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20ed767f9f69",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with a history of COPD on long-term oral prednisolone attends the fracture liaison service after a distal radius fracture. He has not yet received any osteoporosis treatment. What is the single most appropriate next step?",
+      "options": [
+        "Refer for DEXA scanning",
+        "Check serum calcium and vitamin D levels",
+        "Advise smoking cessation and weight-bearing exercise",
+        "Start oral calcium and vitamin D supplementation",
+        "Start oral bisphosphonate therapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients on long-term corticosteroids with a fragility fracture, NICE recommends checking bone profile (including calcium) and 25-hydroxyvitamin D before starting bisphosphonates to avoid hypocalcaemia. Starting bisphosphonates without check can cause harm. DEXA is often done but not before checking calcium. Supplementation and lifestyle advice are secondary.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b039d5c9a3f3",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman is brought to the emergency department after a fall. She has a tender, shortened, externally rotated right leg. X-ray confirms a displaced subcapital hip fracture. She is otherwise medically well, with no chest pain or shortness of breath. What is the single most appropriate immediate action?",
+      "options": [
+        "Start prophylactic low molecular weight heparin",
+        "Apply skin traction to the right leg",
+        "Administer intravenous morphine for pain",
+        "Request an urgent orthopaedic review",
+        "Order a CT pulmonary angiogram to rule out pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a hip fracture – an orthopaedic emergency. The immediate priority is to obtain an orthopaedic review for surgical planning. Skin traction is not routinely recommended. Analgesia and thromboprophylaxis are important but can be done concurrently; the acute referral is the priority. CT PA is not indicated without symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09606d5f7b8d",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 74-year-old man presents to his GP with a two-month history of progressive lower back pain and difficulty walking. He has a history of prostate cancer treated 5 years ago. X-ray of the lumbar spine shows multiple sclerotic lesions but no collapse. Blood tests show raised alkaline phosphatase and normal calcium. What is the single most appropriate next step?",
+      "options": [
+        "Request a technetium-99m bone scan to assess skeletal metastases",
+        "Refer for urgent oncology assessment",
+        "Start alendronic acid for suspected Paget's disease",
+        "Perform an urgent MRI spine to assess for cord compression",
+        "Reassure and prescribe simple analgesia"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history and X-ray suggest metastatic prostate cancer, not Paget's disease (though Paget's can raise ALP, the sclerotic lesions and cancer history make metastases more likely). A bone scan is appropriate to assess the extent of disease before oncology referral. MRI is not urgent unless there are signs of cord compression (e.g. neurological deficits). Starting alendronic acid is premature without diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "17801f26a0ae",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman with no prior fractures is found to have a T-score of -2.8 at the femoral neck on DEXA scanning. She has no comorbidities and takes no medications. What is the single most appropriate next step?",
+      "options": [
+        "Start denosumab injections every 6 months",
+        "Check FRAX score to refine absolute fracture risk",
+        "Start weekly alendronic acid with calcium and vitamin D",
+        "Refer for specialist endocrine opinion",
+        "Recommend lifestyle advice and repeat DEXA in 2 years"
+      ],
+      "answerIndex": 2,
+      "explanation": "A T-score ≤ -2.5 is diagnostic of osteoporosis. In postmenopausal women, NICE recommends starting bisphosphonate therapy (e.g. alendronic acid) along with calcium and vitamin D if dietary intake is insufficient. Lifestyle advice is adjunctive. FRAX is for the borderline zone (T-score -1 to -2.5); here it's already osteoporotic. Denosumab is second-line. Specialist referral not needed for straightforward cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a18a4565ad93",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with osteoporosis on alendronate for 6 years presents with acute left thigh pain. X-ray shows periosteal reaction and a transverse cortical lucency in the lateral femoral diaphysis. Which radiographic finding is most specific for an incomplete atypical femur fracture?",
+      "options": [
+        "Cortical thickening",
+        "Comminuted fracture",
+        "Oblique fracture line",
+        "Periosteal reaction",
+        "Transverse lucent line ('dreaded black line')"
+      ],
+      "answerIndex": 4,
+      "explanation": "In atypical femur fractures associated with bisphosphonates, a transverse lucent line in the lateral cortex (the 'dreaded black line') is pathognomonic and indicates an impending complete fracture. Cortical thickening and periosteal reaction are supportive but not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c854aa77d30",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman with known osteoporosis and previous vertebral fractures presents with sudden severe back pain and urinary retention. On examination, she has absent anal sphincter tone and saddle anesthesia. Which clinical finding confirms cauda equina syndrome?",
+      "options": [
+        "Urinary retention with overflow incontinence",
+        "Saddle anesthesia",
+        "Loss of ankle jerk reflexes",
+        "Bilateral leg paresthesia",
+        "Unilateral foot drop"
+      ],
+      "answerIndex": 1,
+      "explanation": "Saddle anesthesia is pathognomonic for cauda equina syndrome, indicating compression of the sacral nerve roots. While urinary retention and loss of ankle jerks are commonly associated, saddle anesthesia is the most specific sign of this surgical emergency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18330db984b3",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with multiple vertebral fractures and generalised bone pain has DEXA T-score -3.5. Blood tests show: corrected calcium 2.12 mmol/L, phosphate 0.65 mmol/L, ALP 450 U/L, PTH 8 pmol/L (elevated), 25-hydroxyvitamin D 15 nmol/L (low). Which diagnosis must be excluded before starting bisphosphonate therapy?",
+      "options": [
+        "Renal osteodystrophy",
+        "Paget's disease",
+        "Hypoparathyroidism",
+        "Primary hyperparathyroidism",
+        "Osteomalacia"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of low calcium, low phosphate, high ALP, and low vitamin D is classic for osteomalacia. Starting bisphosphonates in undiagnosed osteomalacia can worsen hypocalcemia. Osteoporosis typically has normal biochemistry.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "52b167387421",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman on alendronate for 4 years presents with persistent jaw pain and a non-healing socket after a tooth extraction. On examination, there is exposed bone in the mandible. Which finding confirms medication-related osteonecrosis of the jaw (MRONJ)?",
+      "options": [
+        "Sequestrum formation",
+        "Fistula formation",
+        "Periosteal reaction",
+        "Exposed necrotic bone for more than 8 weeks",
+        "Osteolysis on X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "MRONJ diagnosis requires exposed bone in the maxillofacial region for >8 weeks with no history of radiation therapy. While osteolysis and sequestra can be present, the diagnostic criterion is persistent exposed bone. This complication necessitates dental referral and possible drug holiday.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "99541cf5d290",
+      "topic": "Osteoporosis",
+      "slug": "osteoporosis",
+      "system": "Endocrinology",
+      "subSystem": "Bone",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known osteoporosis presents with acute back pain after lifting a heavy box. X-ray shows a vertebral compression fracture at L1. Which radiographic feature raises suspicion for a pathological fracture due to underlying malignancy?",
+      "options": [
+        "Pedicle erosion",
+        "Wedge-shaped deformity",
+        "Biconcave deformity",
+        "Preservation of disc space",
+        "Anterior wedging"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pedicle erosion indicates involvement of the posterior elements, which is atypical for osteoporotic fractures and suggests a malignant cause. Osteoporotic fractures typically spare the pedicles and involve the vertebral body.",
+      "difficulty": "medium"
+    }
+  ]
+}

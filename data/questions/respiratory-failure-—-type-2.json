@@ -1,0 +1,513 @@
+{
+  "topic": "Respiratory Failure — Type 2",
+  "slug": "respiratory-failure-—-type-2",
+  "system": "Respiratory",
+  "subSystem": "Respiratory failure",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:55Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b2bc3cb51926",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with known COPD (FEV1 40% predicted) presents with worsening dyspnoea and cough productive of green sputum for 3 days. He is alert, RR 28, SpO2 88% on air, ABG: pH 7.32, pCO2 8.5 kPa, pO2 6.8 kPa. What is the single most likely diagnosis?",
+      "options": [
+        "Acute exacerbation of COPD",
+        "Pulmonary embolism",
+        "Community-acquired pneumonia",
+        "Acute asthma exacerbation",
+        "Congestive heart failure"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of known COPD, productive cough, and acute-on-chronic hypercapnic respiratory failure (pH 7.32, pCO2 8.5) is classic for an infective exacerbation of COPD.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc68de14fe2f",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old obese woman (BMI 42) presents with daytime somnolence, morning headaches, and peripheral oedema. She has no prior lung disease. SpO2 91% on air, ABG: pH 7.34, pCO2 6.8 kPa, pO2 8.0 kPa. Polysomnography shows no significant apnoea-hypopnoea index. What is the single most likely diagnosis?",
+      "options": [
+        "Obesity hypoventilation syndrome",
+        "Left ventricular failure",
+        "Idiopathic pulmonary fibrosis",
+        "Obstructive sleep apnoea",
+        "COPD"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic hypercapnia in an obese patient without significant sleep apnoea or lung disease points to obesity hypoventilation syndrome (Pickwickian syndrome).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2526a654cf0",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man with a 5-day history of ascending weakness, now unable to walk. On examination, areflexia, distal weakness. Respiratory rate 14, SpO2 95% on air, but ABG: pH 7.35, pCO2 6.2 kPa, pO2 10.0 kPa. What is the single most likely diagnosis?",
+      "options": [
+        "Polymyositis",
+        "Guillain-Barré syndrome",
+        "Myasthenia gravis",
+        "Botulism",
+        "Transverse myelitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ascending paralysis with areflexia and hypercapnia (pCO2 6.2 kPa) despite normal oxygen saturation is typical of Guillain-Barré syndrome with early respiratory muscle weakness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c9abc5f14b9",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with moderate COPD presents with increased dyspnoea and wheeze after a viral URTI. He appears drowsy, RR 10, SpO2 85% on 4L O2 via nasal cannula. ABG: pH 7.28, pCO2 9.0 kPa, pO2 12.0 kPa (on oxygen). What is the single most likely diagnosis?",
+      "options": [
+        "Opioid overdose",
+        "Acute exacerbation of COPD with hypercapnic respiratory failure",
+        "Acute asthma exacerbation",
+        "Pneumothorax",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Drowsiness, low respiratory rate, and severe hypercapnia (pCO2 9.0 kPa) with high pO2 from oxygen therapy in a known COPD patient indicate decompensated hypercapnic failure, most likely from exacerbation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47dd7e390488",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with severe kyphoscoliosis presents with worsening breathlessness and ankle swelling. He is alert, RR 24, SpO2 89% on air. ABG: pH 7.33, pCO2 7.2 kPa, pO2 7.5 kPa. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary fibrosis",
+        "COPD exacerbation",
+        "Heart failure",
+        "Pulmonary embolism",
+        "Chronic respiratory failure due to chest wall deformity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chronic hypercapnia (pCO2 7.2 kPa) and hypoxaemia in a patient with kyphoscoliosis, a restrictive chest wall disorder, is characteristic of chronic respiratory failure from the deformity itself.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4a3b89f61226",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with known COPD (FEV1 50% predicted) presents with worsening breathlessness and cough for 3 days. He is drowsy but rousable. Respiratory rate 28, SpO2 88% on 2L oxygen. Which is the single best investigation to confirm the most likely diagnosis?",
+      "options": [
+        "Pulse oximetry",
+        "Chest X-ray",
+        "Venous blood gas",
+        "Arterial blood gas",
+        "Peak expiratory flow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Type 2 respiratory failure is defined by hypercapnia (PaCO2 >6.0 kPa). An arterial blood gas is the gold standard to measure PaCO2. Venous blood gas can estimate but is less accurate; other options do not measure arterial CO2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f1d97eefb4f6",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 52-year-old woman with BMI 42 kg/m² complains of daytime somnolence, morning headaches, and fatigue. SpO2 on room air is 94%. Which diagnostic finding is required to confirm the diagnosis of obesity hypoventilation syndrome?",
+      "options": [
+        "Awake arterial PaCO2 greater than 6.0 kPa",
+        "Forced expiratory ratio (FEV1/FVC) less than 0.7",
+        "Nocturnal oximetry showing desaturations below 90% for >30% of sleep",
+        "Serum bicarbonate >30 mmol/L",
+        "Apnea-hypopnea index >15 per hour on sleep study"
+      ],
+      "answerIndex": 0,
+      "explanation": "Obesity hypoventilation syndrome is defined by obesity (BMI ≥30) and awake hypercapnia (PaCO2 >6.0 kPa) in the absence of other causes of hypoventilation. Nocturnal desaturations and high AHI indicate OSA but not OHS without hypercapnia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f4cb819dc2e",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman with known asthma attends the emergency department with a severe exacerbation. She is unable to complete sentences and is becoming drowsy. Peak expiratory flow is 25% of predicted. Which is the most appropriate next investigation to guide management in this situation?",
+      "options": [
+        "Full blood count",
+        "Venous blood gas",
+        "Chest X-ray",
+        "Arterial blood gas",
+        "ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "Drowsiness in severe asthma suggests impending type 2 respiratory failure. An arterial blood gas is essential to measure PaCO2 and pH. Venous blood gas may be used but is less reliable for hypercapnia; other tests do not assess ventilation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "418516e21e85",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with amyotrophic lateral sclerosis (ALS) presents with increasing dyspnoea, orthopnoea, and daytime drowsiness. On examination, his respiratory rate is 30, accessory muscles are used. Which single investigation is most appropriate to confirm type 2 respiratory failure?",
+      "options": [
+        "Forced vital capacity (FVC)",
+        "Sniff nasal inspiratory pressure (SNIP)",
+        "Chest X-ray",
+        "Maximal inspiratory pressure (MIP)",
+        "Arterial blood gas"
+      ],
+      "answerIndex": 4,
+      "explanation": "Type 2 respiratory failure is confirmed by hypercapnia on arterial blood gas (PaCO2 >6.0 kPa). FVC, MIP, and SNIP assess respiratory muscle strength but do not directly measure arterial CO2. Chest X-ray may show complications but not hypercapnia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6429f26842e9",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 74-year-old man with severe kyphoscoliosis presents with lethargy and ankle swelling. His SpO2 is 91% on air. Which investigation is most appropriate to confirm the likely diagnosis of type 2 respiratory failure?",
+      "options": [
+        "Venous blood gas",
+        "Pulmonary function tests",
+        "High-resolution CT chest",
+        "Echocardiogram",
+        "Arterial blood gas"
+      ],
+      "answerIndex": 4,
+      "explanation": "Kyphoscoliosis can cause restrictive lung disease leading to type 2 respiratory failure. An arterial blood gas directly confirms hypercapnia. Venous blood gas is less accurate; echo assesses cor pulmonale but not T2RF; PFTs show restriction; HRCT is for structural lung disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38504366fc73",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with known severe COPD (FEV1 30% predicted) presents with acute dyspnoea. Arterial blood gas on 40% oxygen shows pH 7.28, pCO2 8.5 kPa, pO2 7.2 kPa. He is awake and able to protect his airway. What is the most appropriate first-line treatment?",
+      "options": [
+        "Non-invasive ventilation (BiPAP)",
+        "Heliox therapy",
+        "Continuous positive airway pressure (CPAP)",
+        "Invasive mechanical ventilation",
+        "High-flow nasal oxygen"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend non-invasive ventilation (BiPAP) as first-line therapy for acute hypercapnic respiratory failure due to COPD exacerbation when pH <7.35 and pCO2 >6.0. CPAP is indicated for hypoxemic failure, not hypercapnia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d8503a5f1fd7",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with BMI 42 kg/m² presents with daytime somnolence and morning headaches. Spirometry shows restrictive pattern. ABG on air: pH 7.33, pCO2 6.8 kPa, pO2 8.5 kPa. Sleep study shows no significant OSA (AHI 2). What is the most appropriate first-line therapy?",
+      "options": [
+        "Oxygen therapy alone",
+        "Theophylline",
+        "Continuous positive airway pressure (CPAP)",
+        "Bariatric surgery",
+        "Nocturnal non-invasive ventilation (BiPAP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Obesity hypoventilation syndrome with daytime hypercapnia is managed first with nocturnal non-invasive ventilation (BiPAP). CPAP is insufficient in the absence of OSA; oxygen alone may worsen hypercapnia; bariatric surgery is long-term; theophylline is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c62c6ed1031c",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old male is found unconscious with pinpoint pupils and respiratory rate of 6 breaths/min. ABG on room air: pH 7.18, pCO2 9.0 kPa, pO2 7.0 kPa. He has no other injuries. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intubation and mechanical ventilation",
+        "Non-invasive ventilation",
+        "Flumazenil IV",
+        "High-flow oxygen",
+        "Naloxone IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "Opioid-induced respiratory depression is reversed by naloxone. Flumazenil is for benzodiazepines. NIV is not suitable for an unconscious patient with low respiratory rate; intubation is reserved if naloxone fails.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "894d3e03f85b",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with acute severe asthma (PEF 30% predicted) is deteriorating. ABG on 60% oxygen: pH 7.25, pCO2 5.5 kPa (rising), pO2 8.0 kPa. She is alert but using accessory muscles. Which therapy is CONTRAINDICATED?",
+      "options": [
+        "IV salbutamol",
+        "IV magnesium sulphate",
+        "Invasive ventilation",
+        "Non-invasive ventilation (NIV)",
+        "IV hydrocortisone"
+      ],
+      "answerIndex": 3,
+      "explanation": "NIV is relatively contraindicated in acute severe asthma due to risk of worsening air trapping and pneumothorax. IV bronchodilators, magnesium, corticosteroids, and invasive ventilation are standard treatments.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e3be4b9b7cc9",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with motor neuron disease presents with progressive dyspnoea and morning headaches. Forced vital capacity is 55% predicted. ABG on air: pH 7.34, pCO2 7.2 kPa, pO2 8.8 kPa. He has no bulbar symptoms. What is the most appropriate long-term management?",
+      "options": [
+        "Nocturnal non-invasive ventilation (BiPAP)",
+        "Medroxyprogesterone",
+        "Tracheostomy and invasive ventilation",
+        "Continuous oxygen therapy",
+        "Diaphragmatic pacing"
+      ],
+      "answerIndex": 0,
+      "explanation": "In neuromuscular disease with chronic hypercapnia, nocturnal non-invasive ventilation improves survival and quality of life. Diaphragmatic pacing is for high cervical lesions; oxygen alone may worsen hypercapnia; tracheostomy is for advanced disease or NIV failure; progestogen is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d35aba8af58",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known COPD presents with acute breathlessness over 2 days. Arterial blood gas on air: pH 7.32, pCO2 9.0 kPa, pO2 7.5 kPa. He is alert and orientated. What is the most appropriate immediate next step?",
+      "options": [
+        "Commence non-invasive ventilation (NIV)",
+        "Administer oxygen via a non-rebreathe mask at 15 L/min",
+        "Arrange urgent transfer to the intensive care unit",
+        "Perform a chest X-ray",
+        "Start intravenous doxapram infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "NIV is indicated for acute hypercapnic respiratory failure with acidosis (pH 7.25–7.35) in COPD. The patient is alert, so NIV is safe and effective, avoiding intubation. High-flow oxygen risks worsening hypercapnia; doxapram is not first-line; chest X-ray is important but not the immediate priority; ICU transfer is not needed yet.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86fa04fd3ae4",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with obesity (BMI 42 kg/m²) presents with excessive daytime somnolence and morning headaches. Her arterial blood gas on air: pH 7.38, pCO2 6.8 kPa, pO2 8.0 kPa. She is clinically stable. What is the most appropriate next step?",
+      "options": [
+        "Start continuous positive airway pressure (CPAP) at night",
+        "Prescribe acetazolamide 250 mg twice daily",
+        "Arrange overnight oximetry",
+        "Start non-invasive ventilation (BiPAP) at night",
+        "Refer for urgent bariatric surgery"
+      ],
+      "answerIndex": 0,
+      "explanation": "In obesity hypoventilation syndrome with severe obesity and daytime hypercapnia, CPAP is first-line to treat sleep-disordered breathing and improve ventilation. BiPAP is reserved for CPAP failure or predominant hypoventilation; bariatric surgery is a long-term option; acetazolamide is not standard; overnight oximetry could be done but starting CPAP is the immediate therapeutic step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1b775ee5cbb",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with severe COPD is brought to the emergency department drowsy and confused. Arterial blood gas on 15 L/min oxygen: pH 7.20, pCO2 12.0 kPa, pO2 6.0 kPa. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer naloxone 0.4 mg intravenously",
+        "Reduce oxygen to 24% via Venturi mask",
+        "Commence non-invasive ventilation (NIV)",
+        "Perform an urgent chest X-ray",
+        "Intubate and start mechanical ventilation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe acidosis (pH <7.25) with drowsiness suggests NIV is likely to fail; immediate intubation and mechanical ventilation are required to rapidly correct life-threatening acidosis and protect the airway. Reducing oxygen is important but insufficient; chest X-ray can be done after airway secure; naloxone only if opioid overdose suspected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "672de69636b1",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with COPD on home nocturnal NIV for chronic hypercapnic respiratory failure presents with increased dyspnoea and purulent sputum for 3 days. Arterial blood gas on room air: pH 7.30, pCO2 8.5 kPa, pO2 7.2 kPa. She is alert. What is the most appropriate immediate next step?",
+      "options": [
+        "Take blood cultures",
+        "Start intravenous steroids",
+        "Increase NIV pressure settings",
+        "Perform a chest X-ray",
+        "Start empiric antibiotics"
+      ],
+      "answerIndex": 4,
+      "explanation": "Clinical picture suggests an infective exacerbation of COPD. In the presence of purulent sputum and increased breathlessness, antibiotics should be started promptly per NICE guidelines. Adjusting NIV may be necessary but addressing the infection is the priority; cultures and chest X-ray are important but not the immediate action; steroids are indicated but antibiotics take precedence given purulent sputum.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a54f4cf44158",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with COPD on long-term oxygen therapy (LTOT) at 2 L/min for 16 hours/day presents with morning headaches and daytime somnolence. His daytime arterial blood gas on LTOT: pH 7.36, pCO2 7.5 kPa, pO2 8.5 kPa. He is clinically stable. What is the most appropriate next step?",
+      "options": [
+        "Refer for lung volume reduction surgery",
+        "Start home non-invasive ventilation (NIV)",
+        "Add oral theophylline",
+        "Arrange a sleep study",
+        "Increase LTOT flow rate to 3 L/min"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has developed chronic hypercapnic respiratory failure despite LTOT. NICE recommends home NIV for COPD patients with persistent hypercapnia (>7.0 kPa) after optimising medical therapy. Increasing LTOT may worsen hypercapnia; theophylline is not first-line; surgery is not for this indication; a sleep study may be helpful but starting NIV is the definitive immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fe6d676c70d1",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known COPD (FEV1 0.8 L) presents with increasing breathlessness and confusion over 1 day. He is using accessory muscles, oxygen saturations on room air are 88%. Arterial blood gas on 28% oxygen shows pH 7.22, pCO2 11.2 kPa, pO2 8.0 kPa, bicarbonate 32 mmol/L. Which single finding indicates that this patient has crossed an escalation threshold?",
+      "options": [
+        "pCO2 11.2 kPa",
+        "pO2 8.0 kPa",
+        "pH 7.22",
+        "Oxygen saturations 88%",
+        "Bicarbonate 32 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A pH <7.25 indicates severe acidaemia requiring immediate critical care review for ventilatory support. While pCO2 is high, chronic compensation can blunt its urgency; the low pH reflects acute-on-chronic acidosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "117f029eccd9",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known COPD is admitted with an infective exacerbation. He is receiving 2 L/min oxygen via nasal cannulae. Arterial blood gas shows pH 7.34, pCO2 6.5 kPa, pO2 9.0 kPa on 28% oxygen. Two hours later, the nurse calls because the patient is more drowsy and has developed a flapping tremor. Which clinical sign is most concerning?",
+      "options": [
+        "Drowsiness",
+        "Increased use of accessory muscles",
+        "Flapping tremor (asterixis)",
+        "Respiratory rate 20/min",
+        "Oxygen saturation 92% on same oxygen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Asterixis is a specific sign of hypercapnic encephalopathy indicating rising pCO2 and need for urgent ABG and potential escalation to NIV; drowsiness is more subjective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6beb4f72b9d1",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known COPD and obesity hypoventilation syndrome is on home NIV. He presents with acute shortness of breath and pleuritic chest pain. Arterial blood gas on room air shows pH 7.29, pCO2 8.5 kPa, pO2 7.0 kPa. Which associated finding is most suggestive of a life-threatening differential diagnosis?",
+      "options": [
+        "Decreased breath sounds on the right with hyper-resonance",
+        "Raised JVP",
+        "Fever and purulent sputum",
+        "Unilateral leg swelling",
+        "Electrocardiogram showing right axis deviation and S1Q3T3 pattern"
+      ],
+      "answerIndex": 4,
+      "explanation": "S1Q3T3 pattern is classic for acute pulmonary embolism, a life-threatening mimic that can present with acute type 2 respiratory failure. Unilateral leg swelling suggests DVT but is less specific for PE; raised JVP is non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4433fff13391",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with known myasthenia gravis presents with progressive weakness and shortness of breath. Her oxygen saturations are 95% on room air, but she is unable to complete full sentences and her cough is weak. Arterial blood gas shows pH 7.30, pCO2 7.1 kPa, pO2 10.0 kPa, bicarbonate 24 mmol/L. Which finding is most indicative of impending respiratory arrest?",
+      "options": [
+        "Inability to complete full sentences",
+        "Oxygen saturation 95%",
+        "Weak cough",
+        "pH 7.30",
+        "pO2 10.0 kPa"
+      ],
+      "answerIndex": 0,
+      "explanation": "In neuromuscular disease, inability to complete full sentences signals severe diaphragmatic fatigue and impending arrest, even with near-normal ABG. Weak cough is also concerning but less specific for immediate arrest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c5b68fc616d3",
+      "topic": "Respiratory Failure — Type 2",
+      "slug": "respiratory-failure-—-type-2",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man with COPD is admitted with an infective exacerbation. He is started on controlled oxygen via Venturi mask at 28%. One hour later, his oxygen saturations have improved from 86% to 93%. A repeat ABG shows pH 7.34, pCO2 6.8 kPa, pO2 9.5 kPa. Which of the following signs should prompt immediate concern?",
+      "options": [
+        "PaO2 9.5 kPa",
+        "Oxygen saturations 93%",
+        "Use of accessory muscles",
+        "Heart rate 90 bpm",
+        "Respiratory rate 18/min"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent use of accessory muscles despite improved oxygenation indicates high work of breathing and risk of fatigue; the other parameters are reassuring in this compensated state.",
+      "difficulty": "easy"
+    }
+  ]
+}

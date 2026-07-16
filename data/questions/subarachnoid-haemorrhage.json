@@ -1,0 +1,513 @@
+{
+  "topic": "Subarachnoid Haemorrhage",
+  "slug": "subarachnoid-haemorrhage",
+  "system": "Neurology",
+  "subSystem": "Stroke",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:39Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "607282581c2e",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with sudden, severe occipital headache while lifting a heavy box. He collapsed briefly and is now GCS 8, with photophobia and neck rigidity. CT head shows hyperdense blood in the basal cisterns. What is the single most likely diagnosis?",
+      "options": [
+        "Intracerebral haemorrhage",
+        "Migraine with aura",
+        "Subarachnoid haemorrhage",
+        "Meningitis",
+        "Benign thunderclap headache"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of thunderclap headache, collapse, neck stiffness, and CT showing blood in the basal cisterns is diagnostic of subarachnoid haemorrhage. Meningitis typically has fever and prodrome; migraine usually lacks neck rigidity and focal signs on CT.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ec8484347e2",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman reports episodic moderate headaches over 2 weeks, but today developed a severe sudden headache with nausea and photophobia. CT head is normal, but lumbar puncture shows xanthochromia. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine with aura",
+        "Subarachnoid haemorrhage (sentinel leak)",
+        "Cerebral venous sinus thrombosis",
+        "Reversible cerebral vasoconstriction syndrome",
+        "Benign thunderclap headache"
+      ],
+      "answerIndex": 1,
+      "explanation": "The history of sentinel headache followed by severe sudden headache and xanthochromia on LP (indicating previous subarachnoid blood) makes subarachnoid haemorrhage the most likely. Sentinel leaks are often missed; migraine and benign thunderclap headache do not cause xanthochromia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "206e4ddad478",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with hypertension is found acutely confused by her family. She cannot describe headache. CT head reveals subtle sulcal hyperdensity consistent with subarachnoid haemorrhage. What is the single most likely diagnosis?",
+      "options": [
+        "Subarachnoid haemorrhage",
+        "Cerebral amyloid angiopathy",
+        "Meningitis",
+        "Hypertensive encephalopathy",
+        "Delirium due to infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "An elderly patient with confusion and CT evidence of sulcal SAH suggests spontaneous subarachnoid haemorrhage, even without headache. Meningitis usually has fever and CSF pleocytosis; hypertensive encephalopathy typically shows posterior reversible encephalopathy on MRI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9408039c455f",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with a sudden, severe 'thunderclap' headache after sexual activity. CT head and lumbar puncture are normal. Later, she develops seizures and left hemiparesis. Cerebral angiography shows multifocal segmental narrowing ('string of beads'). What is the single most likely diagnosis?",
+      "options": [
+        "Subarachnoid haemorrhage",
+        "Migraine with aura",
+        "Cerebral venous sinus thrombosis",
+        "Reversible cerebral vasoconstriction syndrome",
+        "Pituitary apoplexy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Thunderclap headache with normal CT and LP, plus angiographic 'string of beads' narrowing, is classic for reversible cerebral vasoconstriction syndrome (RCVS). Subarachnoid haemorrhage would show blood on imaging; migraine lacks angiographic changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41986f0202ec",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman at 30 weeks gestation presents with a sudden severe headache, vomiting, and brief loss of consciousness. CT head shows subarachnoid blood around the circle of Willis. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-eclampsia",
+        "Pituitary apoplexy",
+        "Cerebral venous sinus thrombosis",
+        "Subarachnoid haemorrhage (aneurysmal)",
+        "Migraine with aura"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pregnancy increases risk of aneurysm rupture; the CT pattern and collapse are consistent with aneurysmal subarachnoid haemorrhage. Pre-eclampsia typically has hypertension and proteinuria; cerebral venous sinus thrombosis often presents with headache and seizures but CT usually normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca48ab8aa678",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with a sudden-onset 'thunderclap' headache that peaked within seconds, now resolved after 3 hours. Her neurological examination is normal, and a non-contrast CT head performed 4 hours after onset shows no evidence of subarachnoid haemorrhage. What is the single most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Lumbar puncture for spectrophotometry for bilirubin, performed at 12-24 hours after onset",
+        "Magnetic resonance angiogram of the head",
+        "Repeat CT head with intravenous contrast",
+        "CT angiogram of the circle of Willis",
+        "CT venogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "In patients with thunderclap headache and negative CT head, the most sensitive test for subarachnoid haemorrhage is lumbar puncture with spectrophotometry for xanthochromia (bilirubin), which is reliably positive after 12 hours from onset. CT angiogram is used to identify an aneurysm once SAH is confirmed, not as the first-line diagnostic test in a negative CT scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24aef1f9e4e3",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man presents with collapse and severe headache. A non-contrast CT head shows hyperdense blood within the basal cisterns and sylvian fissures consistent with acute subarachnoid haemorrhage. He is alert and oriented. Which investigation is most appropriate to identify the underlying cause?",
+      "options": [
+        "Magnetic resonance angiogram of the head",
+        "CT venogram",
+        "CT angiogram of the circle of Willis",
+        "Lumbar puncture",
+        "Formal digital subtraction angiography"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT angiography is the first-line investigation to detect an intracranial aneurysm once SAH is confirmed on CT. It is rapid, widely available, and sensitive for aneurysms >3 mm. DSA is reserved if CTA is negative or for pre-interventional planning. MRA is less sensitive for acute setting, and venogram is only indicated if venous sinus thrombosis is suspected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4b093f21eca1",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with a mild headache and neck stiffness. CT head is normal. A lumbar puncture is performed 8 hours after symptom onset; the CSF appears blood-stained and the opening pressure is normal. Which finding is most consistent with a true subarachnoid haemorrhage rather than a traumatic tap?",
+      "options": [
+        "Crenated red cells on microscopy",
+        "Elevated protein level",
+        "A falling red cell count from tube 1 to tube 4",
+        "Red blood cell count > 1,000 x 10^6/L",
+        "Xanthochromia detected by spectrophotometry"
+      ],
+      "answerIndex": 4,
+      "explanation": "Xanthochromia (bilirubin) detected by spectrophotometry is the gold standard to differentiate SAH from traumatic tap. It takes at least 12 hours to develop, but after that its presence confirms SAH. A falling RBC count suggests traumatic tap, but is not definitive. Crenated cells can be seen in both. A raised RBC count is non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7f0c2f5e0a5d",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man describes a sudden severe headache one week ago that lasted several hours, but he did not seek medical attention. He now feels well. A non-contrast CT head is normal. Which investigation is most appropriate to determine if he had a subarachnoid haemorrhage?",
+      "options": [
+        "CT angiogram of the circle of Willis",
+        "Magnetic resonance imaging of the brain with FLAIR sequence",
+        "Repeat CT head in 6 hours",
+        "Formal digital subtraction angiography",
+        "Lumbar puncture for spectrophotometry for xanthochromia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Xanthochromia can persist in the CSF for up to 2 weeks after SAH, so lumbar puncture with spectrophotometry is the best test to confirm a sentinel bleed. CT may become negative after a few days, and FLAIR MRI is less specific. Angiography is not indicated without confirmation of SAH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "98511f5f3698",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman presents with sudden severe headache and vomiting. Non-contrast CT head shows subarachnoid blood limited to the prepontine cistern, ambient cisterns, and interpeduncular fossa, without extension into the sylvian fissures or anterior interhemispheric fissure. What is the most likely diagnosis based on this pattern?",
+      "options": [
+        "Traumatic subarachnoid haemorrhage",
+        "Ruptured posterior communicating artery aneurysm",
+        "Ruptured basilar tip aneurysm",
+        "Cerebral venous sinus thrombosis with subarachnoid blood",
+        "Non-aneurysmal perimesencephalic subarachnoid haemorrhage"
+      ],
+      "answerIndex": 4,
+      "explanation": "The pattern of blood confined to the perimesencephalic cisterns (prepontine, ambient, interpeduncular) without extension to the sylvian fissures or anterior interhemispheric fissure is classic for non-aneurysmal perimesencephalic SAH, which has a benign prognosis and typically no identifiable aneurysm on angiography. Anterior circulation aneurysms cause blood in the sylvian or interhemispheric fissures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "535e63bad0fe",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with sudden severe headache, neck stiffness, and photophobia. CT head shows subarachnoid haemorrhage. CT angiography reveals a 7mm anterior communicating artery aneurysm. Her GCS is 15 and she is neurologically intact. What is the most appropriate definitive treatment to prevent rebleeding?",
+      "options": [
+        "Surgical clipping of aneurysm",
+        "External ventricular drain",
+        "Lumbar puncture",
+        "Endovascular coiling of aneurysm",
+        "Nimodipine 60 mg orally four times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Endovascular coiling is the first-line definitive treatment for ruptured aneurysms that are amenable, as per NICE guidelines. Surgical clipping is an alternative if coiling is unsuitable. Nimodipine prevents vasospasm but does not prevent rebleeding. Lumbar puncture is diagnostic, not therapeutic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bedcebed3c34",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 62-year-old man with a history of atrial fibrillation on warfarin presents with acute thunderclap headache and loss of consciousness. CT head shows extensive subarachnoid haemorrhage. His INR is 3.5. Which drug is most appropriate for immediate reversal of anticoagulation?",
+      "options": [
+        "Vitamin K 5 mg intravenously",
+        "Desmopressin 0.3 mcg/kg",
+        "Protamine sulphate 50 mg",
+        "Fresh frozen plasma 15 mL/kg",
+        "Prothrombin complex concentrate (PCC) 50 units/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Prothrombin complex concentrate is recommended for life-threatening bleeding in patients on warfarin due to rapid reversal. Fresh frozen plasma takes longer and may be insufficient. Vitamin K is given but takes hours. Protamine reverses heparin, and desmopressin is used for von Willebrand disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "009909c15af9",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with aneurysmal SAH successfully coiled 5 days ago develops worsening headache, confusion, and a new left-sided weakness. CT head is unchanged, but transcranial Doppler shows elevated velocities in the right middle cerebral artery. She is already on oral nimodipine. What is the most appropriate first-line treatment for her suspected vasospasm?",
+      "options": [
+        "Balloon angioplasty",
+        "Intra-arterial milrinone",
+        "Induced hypertension with intravenous noradrenaline",
+        "Lumbar drain for CSF drainage",
+        "Intravenous magnesium sulphate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Induced hypertension is the first-line treatment for symptomatic cerebral vasospasm. Intra-arterial therapies (milrinone, angioplasty) are reserved for refractory cases. Magnesium is not standard first-line, and lumbar drain is for hydrocephalus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eb5bd50e15af",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man with a large middle cerebral artery aneurysm suffers a sudden SAH and becomes comatose (GCS 7). CT shows intraventricular extension and acute hydrocephalus. After resuscitation, what is the most appropriate definitive treatment for the hydrocephalus?",
+      "options": [
+        "External ventricular drain insertion",
+        "Intravenous mannitol 0.5 g/kg",
+        "Hyperventilation to PaCO2 4.0 kPa",
+        "Repeated lumbar punctures",
+        "Ventriculoperitoneal shunt"
+      ],
+      "answerIndex": 0,
+      "explanation": "External ventricular drain (EVD) is the definitive treatment for acute hydrocephalus after SAH. Lumbar puncture is contraindicated if there is intraventricular blood or mass effect. Shunt is for chronic hydrocephalus. Mannitol and hyperventilation are temporizing measures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35575c9a0ef5",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with known polycystic kidney disease presents with sudden severe headache and neck stiffness. CT shows SAH. Angiography reveals a 5mm posterior communicating artery aneurysm. She is not on any medications. In addition to coil embolization, which drug should be started to prevent delayed cerebral ischaemia?",
+      "options": [
+        "Nimodipine 60 mg orally every 4 hours",
+        "Mannitol 1 g/kg intravenously",
+        "Aspirin 75 mg once daily",
+        "Simvastatin 40 mg once daily",
+        "Magnesium sulphate 10 mmol intravenously"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nimodipine is the only drug proven to reduce the risk of delayed cerebral ischaemia after aneurysmal SAH. Aspirin is not recommended. Magnesium and statins are not established as standard prophylaxis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b2d99d24942",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents to the ED with a sudden-onset 'thunderclap' headache that peaked within seconds, associated with nausea and photophobia. She is alert and oriented, with no focal neurological deficits. CT head performed within 1 hour of symptom onset shows no evidence of subarachnoid haemorrhage. What is the single most appropriate next step?",
+      "options": [
+        "Perform a lumbar puncture to look for xanthochromia",
+        "Start oral nimodipine",
+        "Admit for observation and repeat CT head in 12 hours",
+        "Discharge home with advice to return if headache worsens",
+        "Arrange a CT angiogram of the head"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT head has up to 97% sensitivity within 12 hours, but a negative scan does not rule out SAH. Lumbar puncture with spectrophotometry for xanthochromia is the next step to detect a small bleed. CTA is not first-line in a non-bleeding patient without prior LP evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "36f7ca887bc7",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with a confirmed aneurysmal subarachnoid haemorrhage (World Federation of Neurosurgical Societies Grade II) is now stable on the neurosurgical ward awaiting endovascular coiling. He has no comorbidities and his admission CT showed no hydrocephalus. What is the single most appropriate immediate management step?",
+      "options": [
+        "Arrange a CT angiogram to confirm the aneurysm before intervention",
+        "Insert an external ventricular drain for intracranial pressure monitoring",
+        "Commence intravenous labetalol to maintain systolic blood pressure below 120 mmHg",
+        "Start oral nimodipine 60 mg every 4 hours",
+        "Obtain daily transcranial Doppler ultrasound to screen for vasospasm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nimodipine is proven to reduce poor outcomes from delayed cerebral ischaemia after SAH and should be started immediately. BP lowering is not routine in the absence of hypertension; nimodipine can cause hypotension. EVD is only indicated for hydrocephalus. CTA is usually already done. TCD is used for monitoring, not immediate first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "307ac857ef46",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with a known aneurysmal subarachnoid haemorrhage (WFNS Grade V) is intubated and ventilated in the intensive care unit. Her heart rate is 90 bpm, blood pressure 160/90 mmHg, and she has a low GCS of 5 (E1, V1T, M3). What is the single most appropriate immediate next step?",
+      "options": [
+        "Start a nimodipine infusion",
+        "Insert an external ventricular drain to measure intracranial pressure",
+        "Perform an emergency CT head to assess for hydrocephalus",
+        "Administer intravenous labetalol to reduce blood pressure",
+        "Sedate with propofol and apply hypothermia protocol"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with sudden neurological deterioration, the priority is to identify a treatable cause. CT head is the quickest way to assess for hydrocephalus (common) or rebleeding. EVD insertion after CT if hydrocephalus is present; not a blind first step. Nimodipine is not acute. BP reduction may be harmful if intracranial pressure is elevated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cdd3612ed28f",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with a history of aneurysmal subarachnoid haemorrhage (secured by coiling 7 days ago) develops acute confusion and a left-sided weakness over the past 2 hours. He is afebrile, blood pressure 140/80 mmHg, heart rate 80 bpm. CT head shows no new haemorrhage or hydrocephalus. What is the single most appropriate next step?",
+      "options": [
+        "Arrange an urgent CT angiogram to exclude vasospasm",
+        "Obtain a transcranial Doppler ultrasound",
+        "Administer intravenous nimodipine",
+        "Start intravenous fluids and inotropic support to achieve induced hypertension",
+        "Perform a lumbar puncture to measure opening pressure"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is classic for delayed cerebral ischaemia (vasospasm). The first-line treatment is triple-H therapy (haemodilution, hypervolaemia, induced hypertension) to improve cerebral perfusion. Starting volume expansion and vasopressors is the most immediate action. Nimodipine is already given prophylactically; increasing dose is not first step. CTA or TCD can confirm but treatment should not be delayed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2ea4a11ca97b",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman on warfarin for atrial fibrillation presents with a sudden severe headache and loss of consciousness. Her GCS is 8 (E2, V2, M4), blood pressure 180/100 mmHg, and she has a left-sided weakness. CT head shows diffuse subarachnoid haemorrhage with intraventricular extension and no hydrocephalus. What is the single most appropriate immediate next step?",
+      "options": [
+        "Intubate and ventilate for airway protection",
+        "Arrange an urgent CT angiogram to identify the aneurysm",
+        "Administer intravenous vitamin K and prothrombin complex concentrate to reverse anticoagulation",
+        "Start intravenous nimodipine",
+        "Insert an external ventricular drain for intracranial pressure monitoring"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reversing anticoagulation is the priority to prevent haematoma expansion and rebleeding. Prothrombin complex concentrate and vitamin K are indicated. Airway protection is important but reversal of coagulopathy is the most immediate life-saving step for haemorrhage control. Aneurysm identification can follow. Nimodipine is not an emergency. EVD only if hydrocephalus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9c0a73cb1cf3",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents to ED with a sudden, severe 'thunderclap' headache that peaked within seconds. She had a brief loss of consciousness at onset. CT brain performed 3 hours after headache onset is reported as normal. Which single finding on examination or history is the strongest red flag that mandates further investigation (lumbar puncture) for subarachnoid haemorrhage?",
+      "options": [
+        "Age >30",
+        "Nausea and vomiting",
+        "Photophobia",
+        "Positive family history of aneurysm",
+        "Loss of consciousness at onset"
+      ],
+      "answerIndex": 4,
+      "explanation": "Loss of consciousness at onset is a classic feature of SAH and significantly increases the pre-test probability, warranting lumbar puncture even if CT is normal within 6 hours. Nausea, vomiting, and photophobia are common but not as specific red flags.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "50b558bc1466",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with a known 5 mm unruptured posterior communicating artery aneurysm (previously deemed low risk) presents to clinic with a 2-day history of a new right-sided headache. On examination, you notice a slight right ptosis and the pupil is mildly dilated. Which single clinical finding indicates that this aneurysm has become a neurosurgical emergency?",
+      "options": [
+        "New photophobia",
+        "New ptosis",
+        "New headache",
+        "New diplopia",
+        "Ipsilateral fixed pupil"
+      ],
+      "answerIndex": 4,
+      "explanation": "A fixed, dilated pupil suggests parasympathetic third nerve palsy due to compression from an enlarging posterior communicating artery aneurysm, indicating imminent rupture. Ptosis alone can be isolated, but pupillary involvement is the key red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c183f1c130a5",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman is admitted with a confirmed subarachnoid haemorrhage (WFNS grade III). On day 2, she becomes suddenly comatose (GCS 3) with a dilated, unreactive left pupil. Which single finding is most indicative of the life-threatening complication that has occurred?",
+      "options": [
+        "Unilateral fixed dilated pupil",
+        "Hypotension",
+        "Rapid heart rate",
+        "Bilateral Babinski sign",
+        "New onset fever"
+      ],
+      "answerIndex": 0,
+      "explanation": "A unilateral fixed dilated pupil is the hallmark of transtentorial herniation, often due to rebleeding or acute hydrocephalus in SAH. This requires immediate neurosurgical assessment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "479640c7e2d8",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with SAH (WFNS grade II) from a middle cerebral artery aneurysm is on day 5 post-bleed. He develops a new left-sided weakness over 4 hours and becomes confused. His GCS drops from 14 to 12. CT head shows no new haemorrhage. Which single clinical feature is most suggestive of the underlying cause?",
+      "options": [
+        "Neck stiffness",
+        "Sudden onset of deficit",
+        "Gradual onset of deficit over hours",
+        "Severe headache",
+        "Fever"
+      ],
+      "answerIndex": 2,
+      "explanation": "Delayed cerebral ischaemia from vasospasm typically presents with gradual onset of focal deficits over hours, whereas rebleeding is sudden. The absence of new blood on CT confirms vasospasm as the cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd008e49b984",
+      "topic": "Subarachnoid Haemorrhage",
+      "slug": "subarachnoid-haemorrhage",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman on warfarin for atrial fibrillation presents with a sudden severe headache and then collapses. She is found to have a GCS of 10, and an ECG shows widespread deep T-wave inversions and a prolonged QT interval. She has no chest pain. Which single diagnosis must be excluded as a life-threatening mimic of a primary cardiac event?",
+      "options": [
+        "Pulmonary embolism",
+        "Subarachnoid haemorrhage",
+        "Stroke",
+        "Aortic dissection",
+        "Acute coronary syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "SAH can cause ECG changes (e.g., deep T-wave inversions, QT prolongation) indistinguishable from myocardial ischaemia. Given the headache and collapse, SAH is the critical mimic to exclude before attributing findings to a primary cardiac cause.",
+      "difficulty": "medium"
+    }
+  ]
+}

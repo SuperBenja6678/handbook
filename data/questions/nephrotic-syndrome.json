@@ -1,0 +1,513 @@
+{
+  "topic": "Nephrotic Syndrome",
+  "slug": "nephrotic-syndrome",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "Glomerular",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5905537f7806",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents with periorbital and leg edema over 2 weeks. He has frothy urine. Blood pressure is 110/70 mmHg. Urine dipstick shows 4+ protein. Serum albumin 22 g/L, creatinine 80 μmol/L, cholesterol 8.0 mmol/L. Renal ultrasound is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic nephropathy",
+        "Membranous nephropathy",
+        "IgA nephropathy",
+        "Focal segmental glomerulosclerosis",
+        "Minimal change disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "The acute onset of nephrotic syndrome in a young adult with normal blood pressure and renal function is classic for minimal change disease. Membranous and FSGS typically occur in older adults with hypertension or renal impairment. IgA nephropathy usually presents with hematuria, and diabetic nephropathy requires long-standing diabetes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "97addea15669",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old woman with type 2 diabetes for 15 years presents with gradually increasing leg edema over 3 months. She has background retinopathy. BP 145/90 mmHg. Urine protein/creatinine ratio 350 mg/mmol. Serum albumin 28 g/L, creatinine 120 μmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic nephropathy",
+        "Amyloidosis",
+        "IgA nephropathy",
+        "Membranous nephropathy",
+        "Minimal change disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "Long-standing diabetes with retinopathy and nephrotic-range proteinuria with renal impairment is typical of diabetic nephropathy. Membranous nephropathy can occur but is less likely given the background retinopathy. Minimal change disease is rare in this age group. Amyloidosis often has extrarenal features, and IgA nephropathy usually presents with hematuria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09f98de2eecf",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man with a recent diagnosis of minimal change disease treated with steroids develops sudden severe left flank pain and hematuria. He is anuric for 6 hours. BP 100/60 mmHg. Urine dipstick shows 3+ protein and 3+ blood. Serum creatinine has risen from 80 to 250 μmol/L over 1 day. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis",
+        "Minimal change disease relapse",
+        "Renal vein thrombosis",
+        "Rapidly progressive glomerulonephritis",
+        "Papillary necrosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nephrotic syndrome is a hypercoagulable state; sudden flank pain, hematuria, and acute kidney injury are classic for renal vein thrombosis. ATN is less likely without hypotension. RPGN typically has active urinary sediment with crescents. Papillary necrosis is more common in diabetes or sickle cell disease. Relapse of minimal change does not cause acute AKI and hematuria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b86c599f2136",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with 2 months of weight loss, night sweats, and leg edema. He has macroglossia and periorbital purpura. Urine protein/creatinine ratio 400 mg/mmol. Serum albumin 25 g/L, creatinine 150 μmol/L. Serum free light chains are elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma",
+        "Focal segmental glomerulosclerosis",
+        "AL amyloidosis",
+        "Light chain deposition disease",
+        "Membranous nephropathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of nephrotic syndrome with macroglossia and periorbital purpura is classic for AL amyloidosis. Multiple myeloma typically presents with bone pain, anemia, and hypercalcemia, and less commonly with nephrotic syndrome. Light chain deposition disease often has renal impairment but fewer extrarenal signs. Membranous and FSGS are not associated with macroglossia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "20ad06d10715",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 28 weeks gestation presents with hypertension (160/100 mmHg), leg edema, and proteinuria (4+ on dipstick). Serum albumin 26 g/L, urate 0.45 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Minimal change disease",
+        "Preeclampsia",
+        "Lupus nephritis",
+        "Acute fatty liver of pregnancy",
+        "Membranous nephropathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "New-onset hypertension and proteinuria after 20 weeks is diagnostic of preeclampsia. Nephrotic-range proteinuria and hypoalbuminemia can occur in severe preeclampsia. Minimal change or membranous nephropathy are less likely to present with hypertension. Lupus nephritis usually has extrarenal features. Acute fatty liver presents with elevated transaminases and coagulopathy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2029182cdc32",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents with bilateral pitting oedema and frothy urine. Blood pressure 135/85 mmHg. Urine dipstick shows 3+ protein. What is the single most appropriate investigation to confirm the diagnosis of nephrotic syndrome?",
+      "options": [
+        "Urine protein:creatinine ratio (UPCR)",
+        "24-hour urine protein excretion",
+        "Renal biopsy",
+        "Renal ultrasound",
+        "Serum albumin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nephrotic syndrome is defined by proteinuria >3.5 g/24h, hypoalbuminaemia, and oedema. UPCR >300 mg/mmol correlates with nephrotic-range proteinuria and is the recommended initial test (NICE). 24-hour urine is cumbersome but acceptable; however, UPCR is more practical.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f770cbb186dc",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with known minimal change disease on steroids develops sudden left flank pain, haematuria, and a rise in serum creatinine from 80 to 200 µmol/L over 24 hours. Her urine output has dropped. What is the most appropriate next investigation?",
+      "options": [
+        "Serum autoantibody screen",
+        "Renal biopsy",
+        "Urine microscopy for red cell casts",
+        "CT scan of kidneys without contrast",
+        "Renal ultrasound with Doppler"
+      ],
+      "answerIndex": 4,
+      "explanation": "In nephrotic syndrome, hypercoagulability predisposes to renal vein thrombosis, which presents acutely with flank pain, haematuria, and declining renal function. Doppler ultrasound is the first-line imaging modality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1496885947fe",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 4-year-old boy with steroid-sensitive nephrotic syndrome is being treated with prednisolone. His mother reports that his urine has been clear for three days. What defines remission in a child with nephrotic syndrome?",
+      "options": [
+        "Normal blood pressure",
+        "Three consecutive days of negative or trace proteinuria on dipstick",
+        "Urine protein:creatinine ratio <50 mg/mmol",
+        "Absence of oedema",
+        "Normal serum albumin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Remission in childhood nephrotic syndrome is defined as urine dipstick negative or trace for 3 consecutive days. Other options are associated but not the defining criterion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dd47d51aed33",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman presents with nephrotic syndrome. Investigations show low C3 complement, normal C4, and a positive test for hepatitis C antibody. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Membranoproliferative glomerulonephritis (MPGN)",
+        "Focal segmental glomerulosclerosis",
+        "Lupus nephritis",
+        "Membranous nephropathy",
+        "Minimal change disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "Low C3 with normal C4 is characteristic of MPGN, especially type I, and is often associated with hepatitis C infection. Lupus nephritis typically has low C3 and C4.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "16d81fc3a2d0",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman undergoes renal biopsy for nephrotic syndrome. Light microscopy reveals normal glomeruli, and electron microscopy shows diffuse foot process effacement. What is the most likely diagnosis?",
+      "options": [
+        "Minimal change disease",
+        "Focal segmental glomerulosclerosis",
+        "IgA nephropathy",
+        "Membranous nephropathy",
+        "Diabetic nephropathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Foot process effacement is the hallmark of minimal change disease on electron microscopy. In FSGS, there would be segmental sclerosis; in membranous, subepithelial deposits; in IgA, mesangial deposits; in diabetes, thickened basement membrane.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f2d8700bb8ca",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with new-onset nephrotic syndrome (proteinuria 5.6 g/day, serum albumin 22 g/L, oedema). Renal biopsy shows minimal change disease. What is the most appropriate first-line treatment?",
+      "options": [
+        "Mycophenolate mofetil 1 g bd",
+        "Prednisolone 1 mg/kg/day",
+        "Ramipril 5 mg daily",
+        "Ciclosporin 3 mg/kg/day",
+        "Rituximab 1 g IV two doses"
+      ],
+      "answerIndex": 1,
+      "explanation": "In minimal change disease, first-line treatment is high-dose oral prednisolone (e.g., 1 mg/kg/day) for adults, with response expected within 4-16 weeks. Ciclosporin and rituximab are second-line options. ACEi reduces proteinuria but is not first-line disease-modifying therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa5ae477cbb4",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 52-year-old man with nephrotic syndrome due to primary membranous nephropathy has serum creatinine 120 μmol/L, proteinuria 8 g/day, and positive anti-PLA2R antibodies. He has no contraindications to immunotherapy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Ciclosporin 3 mg/kg/day for 12 months",
+        "Rituximab 1 g IV two doses 2 weeks apart",
+        "Cyclophosphamide 2.5 mg/kg/day for 6 months",
+        "Mycophenolate mofetil 1 g bd for 12 months",
+        "Prednisolone 1 mg/kg/day for 8 weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "In high-risk primary membranous nephropathy (e.g., proteinuria >6 g/day, impaired renal function, positive anti-PLA2R), NICE recommends rituximab as first-line immunotherapy. Prednisolone alone is ineffective; cyclophosphamide is second-line; calcineurin inhibitors or mycophenolate are alternatives but not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "91b6e9219b5e",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man presents with nephrotic syndrome (proteinuria 7.2 g/day, serum albumin 18 g/L). Renal biopsy shows focal segmental glomerulosclerosis (FSGS). He has been on prednisolone 1 mg/kg/day for 4 months with no improvement in proteinuria. What is the most appropriate next-line treatment?",
+      "options": [
+        "Rituximab 1 g IV two doses",
+        "Mycophenolate mofetil 1 g bd",
+        "Cyclophosphamide 2.5 mg/kg/day",
+        "Continue prednisolone for another 4 months",
+        "Ciclosporin 3 mg/kg/day"
+      ],
+      "answerIndex": 4,
+      "explanation": "For steroid-resistant FSGS in adults, a calcineurin inhibitor (ciclosporin or tacrolimus) is recommended as second-line therapy. Continuing steroids is ineffective; rituximab and cyclophosphamide have limited evidence; mycophenolate is less effective than calcineurin inhibitors in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e84f438493c1",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with known membranous nephropathy and nephrotic syndrome (proteinuria 9 g/day) presents with acute left flank pain and haematuria. CT venography confirms an acute left renal vein thrombosis. There is no evidence of pulmonary embolism. What is the most appropriate initial management?",
+      "options": [
+        "Thrombolysis with alteplase",
+        "Low molecular weight heparin (LMWH) therapeutic dose",
+        "Inferior vena cava filter insertion",
+        "Aspirin 75 mg daily",
+        "Warfarin loading with 5 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute renal vein thrombosis complicating nephrotic syndrome, anticoagulation with therapeutic-dose LMWH is first-line, followed by warfarin. Aspirin is insufficient; thrombolysis reserved for bilateral thrombosis or organ failure; IVC filter is not indicated. Warfarin alone is acceptable for non-acute cases, but initial LMWH is preferred for acute thrombosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "01fc0e3cd723",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (16 weeks gestation) with known minimal change disease in remission on no therapy develops nephrotic-range proteinuria (4.8 g/day) and peripheral oedema. She has no other significant comorbidity. What is the most appropriate treatment?",
+      "options": [
+        "Rituximab 1 g IV two doses",
+        "Cyclophosphamide 2 mg/kg/day oral",
+        "Mycophenolate mofetil 1 g bd",
+        "Lisinopril 10 mg daily",
+        "Prednisolone 1 mg/kg/day oral"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, prednisolone is the preferred immunosuppressant for relapse of minimal change disease as it is relatively safe (category B). Cyclophosphamide, rituximab, and mycophenolate are teratogenic. ACE inhibitors (lisinopril) are contraindicated in pregnancy due to risk of fetal renal damage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2304d84d8d8d",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with bilateral ankle oedema and frothy urine for two weeks. Urine dipstick shows 4+ protein, serum albumin 22 g/L, creatinine 80 µmol/L, eGFR >60. Blood pressure 130/80. What is the single most appropriate next action?",
+      "options": [
+        "Start ACE inhibitor",
+        "Check anti-PLA2R antibodies",
+        "Start prednisolone",
+        "Start furosemide",
+        "Arrange renal biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Oedema is the main symptom. Diuretics (e.g., furosemide) are the first step to manage fluid overload while diagnostic workup proceeds. Biopsy is not urgent if stable. ACEi/ARB are for renoprotection but not immediate priority. Steroids wait for biopsy results. Anti-PLA2R is for membranous but not an immediate action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b86b64fff0f4",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old man with nephrotic syndrome due to membranous nephropathy (biopsy confirmed) has urinary protein 6 g/day, albumin 26 g/L, eGFR 60. He is not on any specific therapy. What is the single most appropriate next action?",
+      "options": [
+        "Start prednisolone",
+        "Start ACE inhibitor",
+        "Check anti-PLA2R antibodies",
+        "Start rituximab",
+        "Arrange repeat renal biopsy"
+      ],
+      "answerIndex": 1,
+      "explanation": "For stable membranous nephropathy with significant proteinuria, initiation of an ACE inhibitor (or ARB) is recommended to reduce proteinuria and slow CKD progression. Immunosuppression (e.g., rituximab) is reserved for high-risk cases. Repeat biopsy is not needed. Anti-PLA2R may guide prognosis but is not the next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "121a7bd6177c",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old with known nephrotic syndrome (membranous) presents to ED with acute dyspnoea and oliguria. BP 175/105, JVP 10 cm, bibasal crackles, oxygen saturation 90% on air. Creatinine 300 µmol/L (baseline 100), potassium 5.8 mmol/L, albumin 18 g/L. What is the single most appropriate next action?",
+      "options": [
+        "Start ACE inhibitor",
+        "IV furosemide 80 mg",
+        "Urgent renal biopsy",
+        "IV hydrocortisone",
+        "Urgent haemodialysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute pulmonary oedema due to fluid overload requires immediate diuresis with IV furosemide. Dialysis is considered if refractory or if severe hyperkalaemia (K>6.5) develops. Corticosteroids, ACEi, and biopsy are not emergency interventions for acute decompensation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce698ecb477c",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old with minimal change disease on prednisolone 60 mg daily for 4 weeks presents with sudden severe left flank pain and haematuria. CT shows left renal vein thrombosis. INR 1.1, eGFR 55. What is the single most appropriate next action?",
+      "options": [
+        "Start aspirin",
+        "Start warfarin",
+        "Start IV fluids",
+        "Start thrombolysis",
+        "Start LMWH"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute renal vein thrombosis requires immediate anticoagulation. LMWH (or unfractionated heparin) is first line for rapid effect. Warfarin is started later overlapping with heparin. Thrombolysis is reserved for massive PE or bilateral RVT with renal failure. Aspirin is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "675b26a78ef6",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with lupus nephritis (WHO class V) and nephrotic syndrome is stable on mycophenolate mofetil and low-dose prednisolone. She wishes to plan a pregnancy in the next year. What is the single most appropriate next action?",
+      "options": [
+        "Start hydroxychloroquine",
+        "Advise against pregnancy",
+        "Switch to cyclophosphamide",
+        "Refer to pre-conception counselling",
+        "Start ACE inhibitor"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hydroxychloroquine is recommended for all patients with SLE, especially during pregnancy, to reduce flares and improve outcomes. ACEi are teratogenic. Cyclophosphamide is not used for maintenance. Pre-conception counselling is important but the specific pharmacologic step is to start hydroxychloroquine if not already taking it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3f8e3e67a66e",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man presents with a 5-day history of bilateral lower limb swelling and frothy urine. Urine dipstick shows 4+ protein, serum albumin 22 g/L, and creatinine 80 µmol/L. Which single clinical finding should raise immediate concern for a life-threatening thrombotic complication?",
+      "options": [
+        "Generalised pruritus",
+        "Weight gain of 3 kg over one week",
+        "Periorbital oedema",
+        "Frothy urine persisting after treatment",
+        "Unilateral calf swelling and tenderness"
+      ],
+      "answerIndex": 4,
+      "explanation": "Unilateral calf swelling and tenderness suggests deep vein thrombosis, a common and potentially fatal complication of nephrotic syndrome due to loss of anticoagulant factors. The other options are features of nephrotic syndrome itself, not specific for thrombosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4addd3eb21d6",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with known minimal change disease, currently on prednisolone 40 mg daily, presents with a 2-day history of increasing abdominal distension and diffuse abdominal pain. She has a temperature of 38.2°C. Which diagnostic finding would confirm spontaneous bacterial peritonitis (SBP) and mandate urgent intervention?",
+      "options": [
+        "Abdominal ultrasound showing septations in ascites",
+        "Ascitic fluid glucose <2.2 mmol/L",
+        "Ascitic fluid neutrophil count >250 cells/µL",
+        "Serum CRP >100 mg/L",
+        "Ascitic fluid protein <10 g/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "An ascitic fluid neutrophil count >250 cells/µL is the diagnostic criterion for SBP. Low ascitic fluid protein is a risk factor but not diagnostic; the others are non-specific or indicate other pathology.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9536f52bac8b",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with nephrotic syndrome secondary to membranous nephropathy, not yet on treatment, presents with anasarca, pleural effusions, and oliguria. He has no chest pain. Blood results: sodium 135 mmol/L, potassium 6.8 mmol/L, creatinine 150 µmol/L, albumin 16 g/L. Which laboratory finding most urgently requires immediate escalation to senior clinicians?",
+      "options": [
+        "Urine protein-to-creatinine ratio 850 mg/mmol",
+        "Serum albumin 16 g/L",
+        "Serum creatinine 150 µmol/L",
+        "Serum sodium 135 mmol/L",
+        "Serum potassium 6.8 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hyperkalaemia (≥6.5 mmol/L) is life-threatening due to risk of cardiac arrhythmia and requires immediate treatment. While low albumin and heavy proteinuria are important, they do not represent an acute emergency in isolation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc4420107ce4",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with known nephrotic syndrome due to focal segmental glomerulosclerosis, on diuretic therapy, presents with acute onset of severe right flank pain radiating to the groin. Urine dipstick shows 3+ blood and 4+ protein. Which single symptom is most specific for a renal vein thrombosis?",
+      "options": [
+        "Dysuria and urinary frequency",
+        "Loin pain and haematuria",
+        "Fever and rigors",
+        "Ankle swelling",
+        "Increased lower limb oedema"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute onset flank pain with haematuria is the classic presentation of renal vein thrombosis, a recognised complication of nephrotic syndrome. The other options are non-specific or suggest infection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1c79184b0d55",
+      "topic": "Nephrotic Syndrome",
+      "slug": "nephrotic-syndrome",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Glomerular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with nephrotic syndrome secondary to AL amyloidosis, on high-dose furosemide, reports feeling light-headed on standing and has not passed urine for 12 hours. On examination, supine BP 120/70, HR 80; standing BP 85/50, HR 110. Which single clinical finding indicates that she has developed a life-threatening hypovolaemic emergency?",
+      "options": [
+        "Dry mucous membranes",
+        "Reduced skin turgor",
+        "Postural hypotension with tachycardia",
+        "Weight loss of 1 kg over 3 days",
+        "Low urine specific gravity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Postural hypotension (systolic drop >20 mmHg) with compensatory tachycardia is a sign of significant hypovolaemia, which can lead to acute kidney injury and shock. The other findings are less specific and less immediately dangerous.",
+      "difficulty": "hard"
+    }
+  ]
+}

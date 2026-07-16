@@ -1,0 +1,513 @@
+{
+  "topic": "Osteomyelitis",
+  "slug": "osteomyelitis",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Bone infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d55eaa65d86c",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 6-year-old boy presents with a 2-day history of fever and limping. He refuses to bear weight on his right leg. On examination, there is tenderness over the proximal tibia with mild swelling. His temperature is 38.5°C. CRP is 120 mg/L. What is the most likely diagnosis?",
+      "options": [
+        "Ewing's sarcoma",
+        "Osteomyelitis",
+        "Transient synovitis",
+        "Juvenile idiopathic arthritis",
+        "Septic arthritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Osteomyelitis typically presents with fever, localised bone tenderness, and refusal to bear weight, especially in the metaphysis of long bones. Septic arthritis usually involves joint swelling and pain with passive movement of the joint, whereas this child has tenderness over bone, not joint.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4deab3138051",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 52-year-old man with type 2 diabetes mellitus presents with a non-healing ulcer on the plantar surface of his left foot for 3 weeks. He has no fever. On examination, the ulcer probes to bone. X-ray shows focal cortical erosion and periosteal reaction. What is the most likely diagnosis?",
+      "options": [
+        "Osteomyelitis",
+        "Cellulitis",
+        "Peripheral vascular disease",
+        "Charcot foot",
+        "Gout"
+      ],
+      "answerIndex": 0,
+      "explanation": "Probing to bone and X-ray findings of cortical erosion with periosteal reaction are highly suggestive of osteomyelitis in a diabetic foot. Charcot foot presents with painless swelling and joint destruction without infection features. Cellulitis does not show bone changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e92ba565aca7",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old intravenous drug user presents with acute onset of severe lower back pain and fever. Over the past 24 hours, he has developed weakness in his legs and difficulty walking. On examination, he has tenderness over the lumbar spine and reduced power in both lower limbs. MRI shows high signal in the L3 and L4 vertebral bodies with adjacent disc involvement. What is the most likely diagnosis?",
+      "options": [
+        "Septic arthritis of the hip",
+        "Discitis",
+        "Psoas abscess",
+        "Vertebral osteomyelitis",
+        "Spinal epidural abscess"
+      ],
+      "answerIndex": 3,
+      "explanation": "The MRI findings of vertebral body involvement with discitis are classic for vertebral osteomyelitis. While spinal epidural abscess can occur concurrently, the primary process here is osteomyelitis. The neurological deficit may be due to secondary epidural involvement or compression, but the question asks for the diagnosis of the underlying bone infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c40ea9d9290",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with a previous history of chronic osteomyelitis of the right tibia presents with a 2-day history of increasing pain, swelling, and purulent discharge from a sinus tract. She is apyrexial. What is the most likely diagnosis?",
+      "options": [
+        "Cellulitis",
+        "Septic arthritis of the ankle",
+        "Brodie's abscess",
+        "Acute flare of chronic osteomyelitis",
+        "Pathological fracture"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with known chronic osteomyelitis, acute worsening with purulent discharge from a sinus tract is typical of an acute exacerbation. A pathological fracture would present with acute onset of deformity or inability to bear weight, not necessarily purulent discharge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f038cf5697f7",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 8-year-old boy with sickle cell disease presents with a 3-day history of fever and severe pain in his left femur. On examination, the thigh is warm and swollen. His temperature is 38.8°C. CRP is 150 mg/L. Blood cultures are pending. What is the most likely diagnosis?",
+      "options": [
+        "Vaso-occlusive crisis",
+        "Aplastic crisis",
+        "Acute chest syndrome",
+        "Septic arthritis",
+        "Osteomyelitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "In sickle cell disease, both vaso-occlusive crisis and osteomyelitis can present similarly with fever and bone pain. However, the presence of high fever, significant swelling, and a very high CRP favour osteomyelitis over a simple vaso-occlusive crisis. Acute chest syndrome presents with respiratory symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cee31819b8f7",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 5-year-old girl presents with a 2-day history of fever, limp, and refusal to bear weight on her left leg. There is tenderness over the proximal tibia. CRP 180 mg/L. What is the most appropriate initial investigation to confirm the diagnosis of acute osteomyelitis?",
+      "options": [
+        "Ultrasound of the hip",
+        "Blood culture",
+        "Bone scan",
+        "MRI of the left tibia",
+        "Plain radiograph of the left tibia"
+      ],
+      "answerIndex": 3,
+      "explanation": "MRI is the imaging gold standard for early osteomyelitis, showing marrow oedema before plain X-ray changes appear (X-ray can be normal for 10–14 days). Blood cultures are important but not confirmatory of bone infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eedd0e8da2fe",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with poorly controlled diabetes presents with severe back pain for 3 weeks, fever, and weight loss. ESR 90 mm/h. Which investigation is most appropriate to confirm vertebral osteomyelitis?",
+      "options": [
+        "Technetium-99m bone scan",
+        "Plain radiograph of spine",
+        "CT-guided biopsy",
+        "CT spine without contrast",
+        "MRI spine with gadolinium"
+      ],
+      "answerIndex": 4,
+      "explanation": "MRI with gadolinium is first-line imaging for vertebral osteomyelitis, demonstrating discitis and vertebral body oedema with high sensitivity and specificity. Biopsy is confirmatory but invasive and reserved if MRI is inconclusive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18954b3952b3",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with type 2 diabetes has a chronic ulcer on his right foot. On examination, a sterile metal probe is gently inserted and touches bone. What is the most accurate interpretation of this finding?",
+      "options": [
+        "Rules out osteomyelitis if negative",
+        "Indicates osteomyelitis with >90% positive predictive value",
+        "Suggests cellulitis with underlying abscess",
+        "Confirms Charcot neuroarthropathy",
+        "Requires MRI to confirm osteomyelitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive probe-to-bone test has a high positive predictive value (around 90%) for osteomyelitis in diabetic foot ulcers. However, it is not 100% specific and a negative result does not exclude osteomyelitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1165eab1c7bb",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man has a chronic draining sinus tract over his left femur, following an open fracture 10 years ago. A swab of the sinus discharge grew Staphylococcus aureus. What is the single most appropriate next investigation to identify the causative organism of chronic osteomyelitis?",
+      "options": [
+        "MRI of the femur",
+        "Plain radiograph of the femur",
+        "Blood culture",
+        "Deep bone biopsy for culture and sensitivity",
+        "Repeat sinus tract swab"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sinus tract swabs often grow contaminants or colonisers; deep bone biopsy taken at surgery or via percutaneous needle is the gold standard for microbiological diagnosis in chronic osteomyelitis and should guide targeted antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "71065c343bff",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 10-year-old boy with known sickle cell disease presents with acute-onset fever, right leg pain, and swelling. His mother is worried he has osteomyelitis. Which investigation is most useful to differentiate osteomyelitis from vaso-occlusive crisis?",
+      "options": [
+        "Plain radiograph",
+        "Ultrasound of the leg",
+        "MRI with gadolinium",
+        "Blood culture",
+        "Technetium-99m bone scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRI with gadolinium can distinguish osteomyelitis (focal abscess, cortical disruption) from vaso-occlusive crisis (diffuse marrow oedema without abscess). Bone scan is often positive in both conditions and less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5acf2b8354f3",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 4-year-old child presents with acute onset of fever and a painful, swollen left leg. Blood cultures are pending. X-ray shows periosteal reaction. What is the single most appropriate first-line intravenous antibiotic?",
+      "options": [
+        "Cefotaxime",
+        "Metronidazole",
+        "Flucloxacillin",
+        "Vancomycin",
+        "Co-amoxiclav"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute haematogenous osteomyelitis in children is most commonly caused by Staphylococcus aureus. Flucloxacillin is the first-line empiric antibiotic; co-amoxiclav is broader but not first-line, and vancomycin is reserved for MRSA.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "339575e39b77",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man presents with back pain and fever. MRI shows vertebral osteomyelitis at L3-L4 with no epidural abscess. Blood cultures are negative. What is the most appropriate empiric intravenous antibiotic?",
+      "options": [
+        "Vancomycin",
+        "Flucloxacillin",
+        "Ceftriaxone",
+        "Metronidazole",
+        "Co-amoxiclav"
+      ],
+      "answerIndex": 1,
+      "explanation": "Staphylococcus aureus is the most common cause of vertebral osteomyelitis. Flucloxacillin is first-line; ceftriaxone covers Gram-negatives but not the most likely pathogen, and vancomycin is reserved for MRSA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4c21373d8d32",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old patient with type 2 diabetes has a Wagner grade 3 ulcer on the plantar aspect of the foot with exposed bone. There is no systemic sepsis. What is the most appropriate first-line oral antibiotic regimen?",
+      "options": [
+        "Clindamycin + Ciprofloxacin",
+        "Doxycycline",
+        "Metronidazole alone",
+        "Co-amoxiclav",
+        "Flucloxacillin alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Diabetic foot osteomyelitis is often polymicrobial, requiring coverage of Staphylococcus, Streptococcus, and anaerobes. Co-amoxiclav is first-line per NICE; flucloxacillin alone misses anaerobes, and clindamycin+cipro is an alternative, not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d8957518b974",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old patient with chronic osteomyelitis of the tibia has a draining sinus tract and a sequestrum on X-ray. What is the definitive management?",
+      "options": [
+        "Surgical debridement and antibiotics",
+        "Oral antibiotics for 6 weeks",
+        "Antibiotic-impregnated beads alone",
+        "Long-term intravenous antibiotics alone",
+        "Hyperbaric oxygen therapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Presence of a sequestrum indicates necrotic bone that cannot be penetrated by antibiotics. Surgical debridement to remove the sequestrum is essential; antibiotics alone are insufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "36bbe4ab0350",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 12-year-old child with sickle cell disease presents with acute onset of fever and a painful, swollen left femur. What is the most appropriate empiric intravenous antibiotic?",
+      "options": [
+        "Ciprofloxacin",
+        "Ceftriaxone",
+        "Metronidazole",
+        "Flucloxacillin",
+        "Vancomycin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sickle cell disease predisposes to Salmonella osteomyelitis, which is more common than Staphylococcus in this population. Ceftriaxone covers Salmonella; flucloxacillin is first-line for typical osteomyelitis but not here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b78a3ee7355c",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 4-year-old girl presents with a 3-day history of refusing to walk and fever. Examination reveals warmth and swelling over the left distal femur. Temperature 38.8°C, HR 120, BP 95/60. Blood cultures have been taken. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform an MRI scan",
+        "Start oral antibiotics and discharge",
+        "Obtain plain radiograph of the femur",
+        "Refer for surgical drainage",
+        "Start IV flucloxacillin"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend empirical IV antibiotics (e.g., flucloxacillin) for acute osteomyelitis after blood cultures. MRI is the gold standard for diagnosis but should not delay antibiotics. X-ray may be normal early and is not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d77feb23a73c",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with type 2 diabetes presents with a chronic ulcer over the first metatarsal head. There is no fever, but the wound base is visible and appears to be bone. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent MRI",
+        "Probe the ulcer with a sterile metal probe",
+        "Order a plain radiograph of the foot",
+        "Start oral co-amoxiclav",
+        "Arrange for surgical debridement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Probing to bone is a bedside test highly suggestive of osteomyelitis in diabetic foot. It guides further imaging and antibiotic management. X-ray and MRI are later steps; antibiotics should be guided by culture results.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "822f287dc864",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with recent Staphylococcus aureus bacteraemia presents with severe back pain and bilateral leg weakness of 12 hours. She is febrile (38.2°C). What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to physiotherapy",
+        "Request urgent MRI spine",
+        "Start IV antibiotics",
+        "Perform plain spine radiographs",
+        "Insert a urinary catheter"
+      ],
+      "answerIndex": 1,
+      "explanation": "Suspected spinal epidural abscess complicating vertebral osteomyelitis requires urgent MRI to confirm and plan surgical decompression. Antibiotics are important but should not delay imaging in the presence of neurological deficit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6c814e6fdced",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with a history of a previous open tibial fracture now presents with a draining sinus tract over the anterior tibia for several months. He is afebrile. What is the most appropriate immediate next step?",
+      "options": [
+        "Obtain a plain radiograph of the tibia",
+        "Refer for amputation",
+        "Culture the sinus discharge",
+        "Perform a bone biopsy",
+        "Start oral antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In chronic osteomyelitis, plain radiograph is first-line imaging to assess for sequestrum, involucrum, and joint involvement. Sinus tract cultures are unreliable; bone biopsy is definitive but not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2814893eeae3",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 12-year-old boy with sickle cell disease presents with acute pain and swelling over the right humerus and fever. He is not in sickle cell crisis. The limb is warm and tender. What is the most appropriate immediate next step?",
+      "options": [
+        "Take blood cultures",
+        "Give IV fluids and morphine",
+        "Order a plain radiograph",
+        "Perform an MRI scan",
+        "Start oral antibiotics and analgesia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sickle cell disease with fever and bone pain raises suspicion for osteomyelitis (often Salmonella). Blood cultures should be taken before starting empirical IV antibiotics. Imaging may follow but is not the immediate priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9ae35d86ae12",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 8-year-old boy presents with a limp and fever of 38.5°C for 24 hours. He is unable to bear weight on his left leg. Which single clinical finding is most indicative of acute haematogenous osteomyelitis?",
+      "options": [
+        "Erythema and swelling of the knee joint",
+        "Focal tenderness over the distal femoral metaphysis",
+        "A white cell count of 15 × 10⁹/L",
+        "Inguinal lymphadenopathy",
+        "A history of recent upper respiratory tract infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute haematogenous osteomyelitis in children typically involves the metaphysis of long bones. Focal point tenderness over the metaphysis is a key clinical sign, whereas joint swelling and lymphadenopathy are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eeca72ae921f",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with type 2 diabetes mellitus presents with a non-healing ulcer on the plantar aspect of his right foot for 2 weeks. There is no fever, erythema, or purulence. Which single finding most strongly suggests underlying osteomyelitis?",
+      "options": [
+        "Positive probe-to-bone test",
+        "Elevated erythrocyte sedimentation rate (ESR) of 45 mm/hr",
+        "Ulcer area greater than 2 cm²",
+        "Absent dorsalis pedis pulse on the right",
+        "HbA1c of 8.5%"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the absence of systemic signs, a positive probe-to-bone test is the most specific clinical finding for diabetic foot osteomyelitis, with a high positive predictive value, prompting further imaging.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bec6b665a53c",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with a history of osteoarthritis presents with acute severe right hip pain and a temperature of 39.0°C. She appears confused. Her respiratory rate is 22 breaths/min, heart rate 110 bpm, blood pressure 100/60 mmHg. Which single laboratory finding is most concerning for sepsis requiring immediate escalation?",
+      "options": [
+        "Serum lactate 3.5 mmol/L",
+        "Positive blood cultures (day 1)",
+        "C-reactive protein 80 mg/L",
+        "Procalcitonin 0.5 ng/mL",
+        "White cell count 12 × 10⁹/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A lactate >2 mmol/L indicates tissue hypoperfusion in sepsis; a level of 3.5 mmol/L is a red flag per NEWS and should prompt escalation of care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "424813627881",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known vertebral osteomyelitis (L3-L4) on intravenous antibiotics develops worsening back pain and new-onset urinary retention. Which single finding is most indicative of a critical complication?",
+      "options": [
+        "Saddle anaesthesia",
+        "Positive straight leg raise test",
+        "Fever of 38.0°C",
+        "CRP rise from 40 to 60 mg/L",
+        "Leg weakness (4/5 power)"
+      ],
+      "answerIndex": 0,
+      "explanation": "New saddle anaesthesia or urinary retention in vertebral osteomyelitis suggests cauda equina syndrome from an epidural abscess, an emergency requiring urgent MRI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d16b994102b",
+      "topic": "Osteomyelitis",
+      "slug": "osteomyelitis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Bone infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old intravenous drug user presents with a 3-day history of fever, rigors, and pain in the left thigh with swelling. Which single clinical finding would raise suspicion for a life-threatening complication?",
+      "options": [
+        "Splinter haemorrhages under fingernails",
+        "Petechiae on the conjunctiva",
+        "New regurgitant heart murmur",
+        "Positive urine toxicology for opiates",
+        "Crackles on lung auscultation"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an IVDU with fever and bone pain, a new heart murmur is a red flag for infective endocarditis, which can present with septic emboli causing osteomyelitis or be a concurrent complication.",
+      "difficulty": "hard"
+    }
+  ]
+}

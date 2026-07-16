@@ -1,0 +1,513 @@
+{
+  "topic": "Cardiac Arrest — Adult ALS",
+  "slug": "cardiac-arrest-—-adult-als",
+  "system": "Emergency Medicine",
+  "subSystem": "Resuscitation",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:28:32Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "759f924d7488",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with chronic kidney disease stage 5, on ramipril and spironolactone, collapses at home. Paramedics find him in ventricular fibrillation. ECG during resuscitation shows a sine-wave pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Hyperkalaemia",
+        "Hypokalaemia",
+        "Acute myocardial infarction",
+        "Digoxin toxicity"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sine-wave pattern on ECG is pathognomonic for severe hyperkalaemia, which is common in renal failure and exacerbated by ACE inhibitors and spironolactone. Hypokalaemia causes U waves and flat T waves, not sine waves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f71be9232293",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man is brought to the emergency department after a stab wound to the left chest. He is in pulseless electrical activity (PEA) on the monitor. On examination, he has distended neck veins, tracheal deviation to the right, and absent breath sounds on the left. What is the single most likely diagnosis?",
+      "options": [
+        "Massive haemothorax",
+        "Pulmonary embolism",
+        "Tension pneumothorax",
+        "Cardiac tamponade",
+        "Aortic rupture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tracheal deviation away from the side of absent breath sounds and distended neck veins are classic for tension pneumothorax, which causes obstructive shock and PEA. Cardiac tamponade does not cause tracheal deviation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e12a1c318cf9",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman who underwent elective hip replacement 3 days ago suddenly becomes breathless and collapses. On arrival, she is in PEA arrest. ECG shows sinus tachycardia with S1Q3T3 pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiac tamponade",
+        "Massive pulmonary embolism",
+        "Tension pneumothorax",
+        "Hypovolaemic shock",
+        "Acute myocardial infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-surgical immobilisation and sudden collapse with PEA and ECG showing S1Q3T3 strongly suggest massive pulmonary embolism. Myocardial infarction would typically cause VF/VT, not PEA, and has different ECG changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c9f081a8df8",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "In winter, a 45-year-old homeless man is found unconscious in a doorway. Paramedics report his core temperature is 28°C. He is in ventricular fibrillation. After one shock, the rhythm becomes asystole. What is the single most likely underlying cause of cardiac arrest?",
+      "options": [
+        "Opioid overdose",
+        "Sepsis",
+        "Intracranial haemorrhage",
+        "Hypothermia",
+        "Hypoglycaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Core temperature of 28°C is severe hypothermia, a known reversible cause of cardiac arrest. Hypothermia causes VF that may be refractory until rewarmed. Sepsis, overdose, and hypoglycaemia do not typically cause such low core temperature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1e93feeaee8c",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with a history of depression is found confused, with dilated pupils and dry skin. Her heart rate is 120 bpm, and ECG shows a widened QRS (>120 ms). She then develops ventricular tachycardia and arrests. What is the single most likely diagnosis?",
+      "options": [
+        "Lithium toxicity",
+        "Tricyclic antidepressant overdose",
+        "Hyperkalaemia",
+        "Digoxin toxicity",
+        "Acute myocardial infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Anticholinergic features (dilated pupils, dry skin, tachycardia) plus QRS widening are classic for tricyclic antidepressant overdose, which can cause life-threatening ventricular arrhythmias. Digoxin toxicity more often causes bradycardia and visual disturbances.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c6241f39981",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man collapses in the emergency department. Cardiac arrest is confirmed. Monitor shows PEA. The team performs high-quality CPR. Which investigation is most appropriate to identify a potentially reversible cause during ongoing resuscitation?",
+      "options": [
+        "Chest X-ray",
+        "CT head",
+        "Arterial blood gas",
+        "12-lead ECG",
+        "Focused echocardiography (POCUS)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Focused echocardiography (POCUS) is the 'never-miss' test to rapidly identify reversible causes such as cardiac tamponade, massive pulmonary embolism, severe hypovolaemia, or tension pneumothorax during cardiac arrest (per ALS guidelines). It can be performed with minimal interruption to chest compressions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2d9485204360",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "During a cardiac arrest, the monitor displays a rhythm that appears to be asystole. However, the ECG leads may be disconnected. Which diagnostic feature best confirms asystole?",
+      "options": [
+        "A regular, wide-complex tachycardia with no pulse",
+        "Absence of any electrical activity in two different limb leads",
+        "Presence of fine, low-amplitude waves at 20-40 cycles/min",
+        "Absence of QRS complexes and P waves",
+        "A flat line in all limb leads for 10 seconds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asystole is confirmed by checking two different limb leads to rule out lead disconnection. Fine ventricular fibrillation can mimic asystole but shows low-amplitude oscillations. ALS guidelines recommend checking two leads to confirm lack of electrical activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0bdd5b690758",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman suffers a witnessed cardiac arrest in the ward. She is resuscitated after 10 minutes and achieves ROSC. She remains unconscious. Which investigation is most appropriate to identify a potentially reversible cause of the arrest?",
+      "options": [
+        "Serum troponin",
+        "Full blood count",
+        "Transoesophageal echocardiography",
+        "CT brain",
+        "12-lead ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "After ROSC, CT brain is the most appropriate investigation to exclude intracranial haemorrhage as a reversible cause of cardiac arrest, especially in a witnessed arrest without obvious cardiac cause. This is per ALS and NICE guidelines for post-arrest care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef89c63b8be7",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with known aortic stenosis collapses and is found in cardiac arrest. The initial rhythm is pulseless electrical activity. During CPR, a focused echo shows a small pericardial effusion and diastolic collapse of the right atrium. Which diagnostic criterion is most specific for cardiac tamponade on echo?",
+      "options": [
+        "Increased mitral inflow E-wave velocity",
+        "Diastolic collapse of the right atrium or right ventricle",
+        "Right ventricular systolic pressure >40 mmHg",
+        "Ejection fraction <35%",
+        "Pericardial effusion >10 mm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diastolic collapse of the right atrium and/or right ventricle is the most specific sign for haemodynamically significant cardiac tamponade. This finding, with the clinical context of PEA arrest, confirms tamponade as a reversible cause. A pericardial effusion alone may not be tamponading.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1181c233e426",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with a history of intravenous drug use is found unresponsive with no pulse. The arrest rhythm is ventricular fibrillation. Following defibrillation and ROSC, a chest X-ray shows a 2 cm opacity in the right upper zone. Which investigation is most appropriate to confirm a diagnosis of septic emboli as the cause?",
+      "options": [
+        "Blood cultures",
+        "CT pulmonary angiography",
+        "Transthoracic echocardiography",
+        "Sputum culture",
+        "Bronchoscopy with lavage"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an IVDU patient with cardiac arrest, blood cultures are the most appropriate investigation to confirm septic emboli as the cause. Positive blood cultures support a diagnosis of infective endocarditis/septic emboli. While echocardiography is useful, blood cultures are the diagnostic test to confirm the infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acc2523efa48",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old man collapses in the emergency department. The cardiac monitor shows ventricular fibrillation. Cardiopulmonary resuscitation is commenced, and a shock is delivered with 150 J biphasic. After three shocks, the rhythm remains VF. What is the most appropriate drug to administer next?",
+      "options": [
+        "Lidocaine 100 mg IV",
+        "Amiodarone 300 mg IV",
+        "Magnesium sulfate 2 g IV",
+        "Sodium bicarbonate 50 mmol IV",
+        "Adrenaline 1 mg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "The UK ALS algorithm recommends amiodarone 300 mg IV after the third unsuccessful shock in a shockable rhythm. Adrenaline is given after the second shock, and lidocaine is second-line when amiodarone is unavailable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "da7f9d445ac9",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 75-year-old woman is found unresponsive. The monitor shows asystole. CPR is started and an IV is obtained. Which of the following drugs is currently not recommended in the advanced life support algorithm for asystole?",
+      "options": [
+        "Atropine",
+        "Calcium chloride",
+        "Adrenaline",
+        "Vasopressin",
+        "Sodium bicarbonate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atropine has been removed from the UK ALS algorithm for asystole; the recommended drug is adrenaline 1 mg every 3–5 minutes. The other options are only indicated for specific reversible causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2094382a8d73",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old patient with end-stage renal disease on haemodialysis collapses in the dialysis unit. The monitor shows pulseless electrical activity. ECG shows broad QRS complexes and tall T waves. Serum potassium is 8.2 mmol/L. What is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous calcium gluconate 10 ml 10%",
+        "Nebulised salbutamol 5 mg",
+        "Intravenous insulin 10 units and 50% dextrose 50 ml",
+        "Intravenous amiodarone 300 mg",
+        "Intravenous sodium bicarbonate 50 mmol"
+      ],
+      "answerIndex": 0,
+      "explanation": "In hyperkalaemic cardiac arrest, intravenous calcium (gluconate or chloride) is first-line to stabilise the myocardial membrane. Insulin/dextrose and other agents lower potassium but have a slower onset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e7c61876d4c9",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 62-year-old woman with a history of hypothyroidism and long QT interval on ECG develops ventricular fibrillation. After successful defibrillation, the rhythm persists as polymorphic VT (torsades de pointes) despite two shocks. What is the most appropriate drug to administer?",
+      "options": [
+        "Adrenaline 1 mg IV",
+        "Magnesium sulfate 2 g IV",
+        "Potassium chloride 10 mmol IV",
+        "Lidocaine 100 mg IV",
+        "Amiodarone 300 mg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "Magnesium sulfate is the first-line drug for torsades de pointes, regardless of serum magnesium levels. Amiodarone may prolong the QT interval and worsen the arrhythmia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c8990faec3b",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old man on digoxin for atrial fibrillation and chronic kidney disease presents with ventricular fibrillation. The rhythm is refractory to defibrillation. Which drug is potentially harmful and should be avoided in this setting?",
+      "options": [
+        "Adrenaline",
+        "Calcium chloride",
+        "Magnesium sulfate",
+        "Amiodarone",
+        "Lidocaine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calcium (chloride or gluconate) is contraindicated in digoxin toxicity as it can cause 'stone heart' and worsen arrhythmias. Amiodarone and lidocaine are acceptable; adrenaline is used cautiously.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "866c32b0b050",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man collapses on the ward. The cardiac arrest team arrives. The monitor shows ventricular fibrillation. One shock is delivered. The rhythm remains VF. What is the most appropriate immediate next action?",
+      "options": [
+        "Give adrenaline 1 mg IV",
+        "Check for a pulse",
+        "Intubate the patient",
+        "Start chest compressions",
+        "Deliver a second shock"
+      ],
+      "answerIndex": 3,
+      "explanation": "Per ALS algorithm, after each shock, immediately resume CPR for 2 minutes before rhythm check. No pulse check immediately after shock as it delays compressions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "58264402e520",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with end-stage renal disease on haemodialysis is found unresponsive. The monitor shows PEA at 50 bpm. CPR is ongoing. His last known potassium was 7.1 mmol/L. There is no airway adjunct in place. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluids",
+        "Give calcium gluconate 10 ml of 10% solution IV",
+        "Give adrenaline 1 mg IV",
+        "Defibrillate at 200 J",
+        "Perform tracheal intubation"
+      ],
+      "answerIndex": 1,
+      "explanation": "In hyperkalaemic cardiac arrest, the immediate priority is to treat the reversible cause. Calcium gluconate stabilises the myocardium and is given first, before adrenaline.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4b43af69b1a",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "During CPR for a 45-year-old trauma patient involved in a road traffic accident, you notice that the left side of the chest is hyperinflated, trachea is deviated to the right, and there is decreased air entry on the left. The rhythm is PEA. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform needle decompression in the 2nd intercostal space midclavicular line",
+        "Perform a thoracostomy",
+        "Continue CPR and reassess after 2 minutes",
+        "Obtain a chest X-ray",
+        "Give a 500 ml crystalloid fluid bolus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clinical signs of tension pneumothorax during cardiac arrest require immediate needle decompression. Delaying for imaging or formal thoracostomy may worsen outcome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d9143a4bf51a",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old pregnant woman at 30 weeks gestation collapses in the emergency department. The rhythm is ventricular fibrillation. One shock has been delivered. The rhythm remains VF. What is the most appropriate immediate next action?",
+      "options": [
+        "Begin chest compressions with manual left uterine displacement",
+        "Give adrenaline 1 mg IV",
+        "Perform perimortem caesarean section",
+        "Check for a pulse",
+        "Intubate the patient"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, after a shock, resume CPR immediately with manual displacement of the uterus to the left to relieve aortocaval compression. Perimortem CS is considered after 4-5 minutes if no ROSC.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a769f8862c5d",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man is brought to the emergency department by ambulance after an out-of-hospital cardiac arrest. The paramedics reported return of spontaneous circulation en route. On arrival, the patient is intubated and ventilated. The ECG shows sinus tachycardia with ST elevation in leads V1-V4. The patient remains comatose with a GCS of 4. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform CT head",
+        "Administer ticagrelor 180 mg orally via nasogastric tube",
+        "Start targeted temperature management",
+        "Transfer to the catheterisation laboratory for primary PCI",
+        "Check arterial blood gas"
+      ],
+      "answerIndex": 3,
+      "explanation": "Post-cardiac arrest with ST elevation, urgent coronary angiography is indicated even in comatose patients. Targeted temperature management should be initiated but the priority is to restore coronary perfusion. Transfer to cath lab is the immediate next step after stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cdc65cf907fc",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man is brought to the emergency department following a stab wound to the left chest. He is in cardiac arrest with PEA on the monitor. During CPR, you note that his trachea is deviated to the right. Which single finding is most consistent with a life-threatening reversible cause?",
+      "options": [
+        "Hyper-resonance on the left",
+        "Absent breath sounds on the left",
+        "Chest wall crepitus",
+        "Tracheal deviation to the right",
+        "Distended neck veins"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tracheal deviation away from the side of injury is a classic sign of tension pneumothorax, a reversible cause of PEA arrest. While absent breath sounds and hyper-resonance are also present, tracheal deviation is the most specific and immediately alarming finding indicating tension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4e6e5ba94502",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman at 35 weeks' gestation collapses in the hospital cafeteria. She is in cardiac arrest. CPR is in progress. Which single physical finding indicates the need for immediate perimortem caesarean section?",
+      "options": [
+        "Maternal cyanosis",
+        "Fundus palpable at the umbilicus",
+        "Fetal heart rate detected on Doppler",
+        "Uterine contractions palpable",
+        "Vaginal bleeding visible"
+      ],
+      "answerIndex": 1,
+      "explanation": "Perimortem caesarean section is indicated when the fundus is at or above the umbilicus (approximately 20 weeks' gestation) to improve maternal and fetal outcomes. Fundal height at the umbilicus is the critical threshold; other options do not mandate immediate delivery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7c8f87f03ca",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man is found collapsed at home. Bystander CPR is started. Paramedics arrive and find him in coarse VF; they defibrillate once and the rhythm becomes asystole. After 10 minutes of advanced life support, the rhythm remains asystolic. Which single finding during this period would most strongly suggest a poor prognosis and a low likelihood of recovery?",
+      "options": [
+        "Absent corneal reflex",
+        "No spontaneous respirations",
+        "End-tidal CO2 of 2.0 kPa",
+        "Pupils fixed and dilated",
+        "Glasgow Coma Scale of 3"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fixed and dilated pupils after prolonged cardiac arrest indicate severe hypoxic brain injury and are associated with very poor prognosis. While a low end-tidal CO2 and absent reflexes are also concerning, fixed dilated pupils are a classic red flag for irreversible brain damage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "825dcbe0d26d",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with end-stage renal disease on haemodialysis collapses in the dialysis unit. The monitor shows asystole. CPR is started. Which single laboratory finding is most likely to represent a reversible cause of cardiac arrest in this patient?",
+      "options": [
+        "Serum potassium 7.1 mmol/L",
+        "Serum sodium 155 mmol/L",
+        "Serum phosphate 2.0 mmol/L",
+        "Serum calcium 2.8 mmol/L",
+        "Serum magnesium 0.5 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyperkalaemia is a common reversible cause of cardiac arrest in dialysis patients. A serum potassium > 6.5 mmol/L is a red flag for hyperkalaemic arrest. Immediate treatment with calcium gluconate and other measures can restore rhythm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa82b5c3b16d",
+      "topic": "Cardiac Arrest — Adult ALS",
+      "slug": "cardiac-arrest-—-adult-als",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with known breast cancer presents with dyspnoea and collapses in the emergency department. She is in PEA with a rate of 60/min. The cardiac monitor shows low-voltage QRS complexes. Which single finding on examination would most strongly support a reversible cause for her arrest?",
+      "options": [
+        "Kussmaul's sign",
+        "Distended neck veins",
+        "Hypotension (but no blood pressure obtainable)",
+        "Pulsus paradoxus (not measurable in arrest)",
+        "Muffled heart sounds"
+      ],
+      "answerIndex": 4,
+      "explanation": "Low-voltage QRS complexes in PEA suggest cardiac tamponade, especially in a patient with malignancy. Muffled heart sounds (part of Beck's triad) are a specific finding for tamponade, which is a reversible cause. Distended neck veins and hypotension are also present but muffled heart sounds directly point to the diagnosis.",
+      "difficulty": "hard"
+    }
+  ]
+}

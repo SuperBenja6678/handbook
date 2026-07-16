@@ -1,0 +1,513 @@
+{
+  "topic": "Diabetic Retinopathy",
+  "slug": "diabetic-retinopathy",
+  "system": "Ophthalmology",
+  "subSystem": "Retina",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:55Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b185cff02735",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with type 2 diabetes for 8 years attends a routine diabetic eye screening. He is asymptomatic. His HbA1c is 62 mmol/mol. Retinal photography shows microaneurysms and a few dot haemorrhages in the posterior pole, without exudates or cotton wool spots. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic maculopathy",
+        "Proliferative diabetic retinopathy",
+        "Background diabetic retinopathy",
+        "Non-proliferative diabetic retinopathy (moderate)",
+        "Hypertensive retinopathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of only microaneurysms and sparse dot haemorrhages, without exudates, cotton wool spots, or signs of neovascularisation, is characteristic of background (mild non-proliferative) diabetic retinopathy. This is typically asymptomatic and detected on screening. The main distractor is moderate non-proliferative DR, which would have more extensive haemorrhages and possibly cotton wool spots.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8d9ebb725d78",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 42-year-old woman with type 1 diabetes complains of gradually blurred central vision in her right eye over 4 weeks. She has no pain. Visual acuity is 6/18 right, 6/6 left. Fundoscopy reveals hard exudates and microaneurysms near the fovea, with thickening of the retina. What is the single most likely diagnosis?",
+      "options": [
+        "Branch retinal vein occlusion",
+        "Central serous retinopathy",
+        "Clinically significant macular oedema",
+        "Diabetic macular oedema",
+        "Age-related macular degeneration (dry)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of hard exudates, retinal thickening, and proximity to the fovea meets criteria for clinically significant macular oedema (CSMO), which requires prompt treatment. The distractor 'diabetic macular oedema' is broader and less specific. Central serous retinopathy would show a serous detachment without exudates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e85acb1ba42",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known proliferative diabetic retinopathy presents with sudden, painless loss of vision in his left eye, describing it as like a 'curtain' coming down. He has had previous laser photocoagulation. On examination, there is no red reflex and fundal view is obscured by blood. What is the single most likely diagnosis?",
+      "options": [
+        "Acute angle closure glaucoma",
+        "Vitreous haemorrhage",
+        "Ischaemic optic neuropathy",
+        "Central retinal vein occlusion",
+        "Retinal detachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sudden painless vision loss with a 'curtain' effect and blood obscuring the fundus in a patient with proliferative DR is classic for vitreous haemorrhage. Retinal detachment would typically show a retinal tear and a more localized field defect, and the red reflex may be preserved initially. Acute glaucoma is painful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2aee7b9d38bd",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old man with a 20-year history of type 1 diabetes presents with a painful, red left eye for 2 days. He has had proliferative diabetic retinopathy and undergone panretinal photocoagulation. Intraocular pressure is 48 mmHg, cornea is oedematous, and there are new vessels on the iris. What is the single most likely diagnosis?",
+      "options": [
+        "Pigmentary glaucoma",
+        "Acute angle closure glaucoma",
+        "Neovascular glaucoma",
+        "Uveitic glaucoma",
+        "Primary open angle glaucoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neovascular glaucoma is a known complication of ischaemic retinal diseases such as proliferative diabetic retinopathy, where new vessels grow on the iris and block the trabecular meshwork, causing high IOP. Acute angle closure glaucoma would have a shallow anterior chamber and no iris new vessels.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c79364c7d4e8",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old pregnant woman with type 1 diabetes and no previous retinopathy presents at 30 weeks gestation with blurred vision. Fundoscopy reveals multiple cotton wool spots, dot and blot haemorrhages, and venous beading in both eyes. Her blood pressure is 130/85 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-eclampsia retinopathy",
+        "Central retinal vein occlusion",
+        "Hypertensive retinopathy",
+        "Severe non-proliferative diabetic retinopathy",
+        "Proliferative diabetic retinopathy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pregnancy can accelerate diabetic retinopathy. The presence of multiple cotton wool spots, haemorrhages, and venous beading without neovascularisation is consistent with severe non-proliferative DR. Proliferative DR would include neovascularisation. Hypertensive retinopathy typically shows arteriovenous nicking and silver-wiring, and blood pressure is not severely elevated here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8d4b77daccb4",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old man with type 2 diabetes attends his annual retinal screening. The photograph shows dot-blot haemorrhages and hard exudates within one disc diameter of the fovea in the right eye. What is the most appropriate next investigation?",
+      "options": [
+        "Repeat retinal photography in 6 months",
+        "Fundus fluorescein angiography",
+        "B-scan ultrasonography",
+        "Optical coherence tomography",
+        "Visual field testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of hard exudates and haemorrhages near the fovea suggests possible diabetic macular oedema (DMO). Optical coherence tomography (OCT) is the gold standard to confirm and quantify DMO. Fundus fluorescein angiography is reserved for cases where OCT is inconclusive or to assess ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "016d0c78f906",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with type 1 diabetes presents with sudden, painless loss of vision in the left eye. Fundoscopy reveals a dense vitreous haemorrhage. Which investigation is most appropriate to identify the underlying cause?",
+      "options": [
+        "B-scan ultrasonography",
+        "Carotid duplex ultrasound",
+        "Optical coherence tomography",
+        "CT head",
+        "Fundus fluorescein angiography"
+      ],
+      "answerIndex": 0,
+      "explanation": "In dense vitreous haemorrhage, fundal view is obscured. B-scan ultrasonography can penetrate the haemorrhage and detect neovascularisation, tractional retinal detachment, or posterior vitreous detachment, confirming proliferative diabetic retinopathy as the cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "358bd7858d73",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old with type 2 diabetes has gradual blurring of central vision. Fundoscopy shows retinal thickening and hard exudates at the macula. Which test is the gold standard to quantify macular oedema?",
+      "options": [
+        "Visual acuity",
+        "Retinal photography",
+        "Amsler grid",
+        "Fundus fluorescein angiography",
+        "Optical coherence tomography"
+      ],
+      "answerIndex": 4,
+      "explanation": "Optical coherence tomography (OCT) provides high-resolution cross-sectional images of the macula and measures central macular thickness, making it the gold standard for diagnosing and quantifying diabetic macular oedema.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2154e09cbcaa",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old with type 2 diabetes is found to have asymmetric diabetic retinopathy (severe in the right eye, mild in the left). Which investigation is most helpful in ruling out a differential such as retinal vein occlusion?",
+      "options": [
+        "B-scan ultrasonography",
+        "Fundus fluorescein angiography",
+        "Visual field testing",
+        "Carotid Doppler ultrasound",
+        "Optical coherence tomography"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asymmetric retinopathy raises suspicion for unilateral conditions like retinal vein occlusion. Fundus fluorescein angiography (FFA) can show delayed venous filling, capillary non-perfusion, and collateral vessels characteristic of vein occlusion, helping differentiate it from diabetic retinopathy alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bbf4c2dec554",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old with type 2 diabetes has an optical coherence tomography showing a central subfield macular thickness of 420 μm. Which diagnosis is most likely?",
+      "options": [
+        "Clinically significant macular oedema",
+        "Macular ischaemia",
+        "Normal macula",
+        "Background diabetic retinopathy without oedema",
+        "Proliferative diabetic retinopathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "A central macular thickness of 420 μm is well above the normal range (200-250 μm) and the threshold for diabetic macular oedema (>300 μm). This indicates clinically significant macular oedema, requiring referral for potential treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1cce64b657b3",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with type 2 diabetes for 5 years is found on diabetic eye screening to have mild non-proliferative diabetic retinopathy in both eyes. Best-corrected visual acuity is 6/6. There is no diabetic maculopathy. What is the most appropriate first-line management?",
+      "options": [
+        "Optimise glycaemic and blood pressure control",
+        "Focal laser photocoagulation",
+        "Pan-retinal photocoagulation",
+        "Urgent referral to ophthalmology",
+        "Intravitreal anti-VEGF therapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mild NPDR without maculopathy does not require laser or anti-VEGF; risk factor optimisation and annual screening is appropriate. Pan-retinal photocoagulation is reserved for proliferative DR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e46c141ac1a",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 52-year-old woman with type 2 diabetes presents with reduced vision in the left eye over 2 months. Visual acuity is 6/12. Funduscopy shows centre-involving diabetic macular oedema confirmed on OCT. There is no proliferative retinopathy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravitreal ranibizumab",
+        "Focal/grid laser photocoagulation",
+        "Vitrectomy",
+        "Pan-retinal photocoagulation",
+        "Oral corticosteroids"
+      ],
+      "answerIndex": 0,
+      "explanation": "For centre-involving DMO with reduced vision, NICE recommends intravitreal anti-VEGF (ranibizumab or aflibercept) as first-line. Laser is now second-line due to superior visual outcomes with anti-VEGF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f09eca94541",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with type 2 diabetes is found on routine screening to have bilateral proliferative diabetic retinopathy with new vessels on the disc (NVD). Visual acuity is 6/9 in both eyes. There is no vitreous haemorrhage or macular oedema. What is the most appropriate first-line treatment?",
+      "options": [
+        "Pan-retinal photocoagulation",
+        "Vitrectomy",
+        "Observation",
+        "Intravitreal anti-VEGF therapy",
+        "Focal laser photocoagulation"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends pan-retinal photocoagulation (PRP) for proliferative DR with high-risk characteristics. Anti-VEGF may be used as an adjunct or where PRP is not possible, but PRP remains first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a38e8a9b1b06",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old man with type 1 diabetes and known proliferative diabetic retinopathy presents with sudden painless loss of vision in the right eye. Funduscopy reveals a dense vitreous haemorrhage. B-scan ultrasound shows no retinal detachment. The left eye has high-risk PDR. Both eyes have no macular oedema. What is the most appropriate management for the right eye?",
+      "options": [
+        "Intravitreal anti-VEGF injection",
+        "Observation with repeat imaging in 4 weeks",
+        "Urgent vitrectomy",
+        "Pan-retinal photocoagulation to the left eye",
+        "Pan-retinal photocoagulation to the right eye"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute vitreous haemorrhage preventing PRP, intravitreal anti-VEGF can regress new vessels and facilitate clearing of haemorrhage. Observation may be considered if mild, but here dense haemorrhage with high-risk fellow eye warrants treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "52dc7ea37bfd",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 29-year-old woman with type 1 diabetes is 20 weeks pregnant. She has bilateral high-risk proliferative diabetic retinopathy with new vessels on the disc (NVD). Visual acuity is 6/9. There is no macular oedema. What is the most appropriate management?",
+      "options": [
+        "Intravitreal anti-VEGF therapy",
+        "Vitrectomy",
+        "Focal laser photocoagulation",
+        "Defer treatment until after delivery",
+        "Pan-retinal photocoagulation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pregnancy can accelerate DR, but PRP is safe and indicated for high-risk PDR. Anti-VEGF is relatively contraindicated in pregnancy due to potential systemic effects. Deferring treatment risks irreversible vision loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fe9665c2e66c",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with recently diagnosed type 2 diabetes mellitus attends the GP for routine review. He has no visual symptoms. On dilated fundoscopy, a few microaneurysms and small dot haemorrhages are noted in the right macula. The left eye is normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent pan-retinal photocoagulation",
+        "Arrange annual diabetic eye screening",
+        "Refer for urgent fluorescein angiography",
+        "Optimise glycaemic and blood pressure control",
+        "Start aspirin 75 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "The finding of microaneurysms and dot haemorrhages signifies background diabetic retinopathy. The immediate next step is to refer for annual screening, not urgent laser or other interventions. Glycaemic control is important but is a long-term measure, not the immediate next action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "386aac44169e",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with type 2 diabetes on metformin presents to the diabetic clinic. She has no visual symptoms. Fundoscopy shows bilateral scattered microaneurysms, blot haemorrhages, and hard exudates but no cotton wool spots or new vessels. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to ophthalmology for further assessment",
+        "Arrange optical coherence tomography (OCT) of both maculae",
+        "Refer for urgent pan-retinal photocoagulation",
+        "Arrange annual diabetic eye screening",
+        "Start low-dose aspirin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scattered microaneurysms, blot haemorrhages, and hard exudates indicate moderate non-proliferative (pre-proliferative) diabetic retinopathy. NICE guidelines recommend referral to ophthalmology for assessment. Pan-retinal photocoagulation is not indicated at this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ea49239ed55",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with poorly controlled type 1 diabetes presents to the Emergency Department with sudden, painless loss of vision in the left eye over the past hour. On examination, visual acuity is perception of light. Fundoscopy reveals a large vitreous haemorrhage obscuring the fundus. The right eye has pre-proliferative retinopathy. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral acetazolamide",
+        "Refer to ophthalmology on-call for further management",
+        "Arrange urgent vitrectomy",
+        "Perform pan-retinal photocoagulation to the left eye",
+        "Administer intravitreal anti-VEGF injection"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute vitreous haemorrhage, the immediate priority is to refer to the on-call ophthalmologist for assessment and definitive management. ED doctors should not administer intraocular treatments or arrange surgery without specialist review.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f20b579649ed",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman with long-standing type 2 diabetes and known proliferative diabetic retinopathy presents with a 2-day history of right eye pain, redness, and blurred vision. On examination, visual acuity is 6/60, conjunctival injection, corneal oedema, and intraocular pressure of 50 mmHg. Fundoscopy shows new vessels on the iris (rubeosis iridis). What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravitreal anti-VEGF",
+        "Administer topical timolol 0.5% drops",
+        "Give oral acetazolamide 500 mg stat",
+        "Refer for urgent cyclodiode laser",
+        "Perform anterior chamber paracentesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neovascular glaucoma with high IOP requires immediate medical reduction of intraocular pressure. Topical beta-blockers (e.g., timolol) are first-line. Cyclodiode laser and anti-VEGF are subsequent treatments. Paracentesis is rarely first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9a85d2390b0e",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) with type 1 diabetes attends the obstetric clinic. She has no visual symptoms. Fundal examination shows a few dot and blot haemorrhages in both eyes. What is the most appropriate next step?",
+      "options": [
+        "Arrange fluorescein angiography",
+        "Repeat fundoscopy at 36 weeks",
+        "Refer to ophthalmology for retinal assessment",
+        "Arrange urgent laser photocoagulation",
+        "Ensure tight glycaemic control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pregnancy can accelerate retinopathy; therefore, all pregnant women with diabetes should be referred for ophthalmology review if any retinopathy is present. Fluorescein angiography is relatively contraindicated. Urgent laser is not indicated for background retinopathy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e25c3339f9f",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old female with type 2 diabetes attends her annual diabetic retinopathy screening. She is asymptomatic. Which single fundoscopic finding would make this a sight-threatening emergency requiring immediate ophthalmology referral?",
+      "options": [
+        "Hard exudates",
+        "Cotton wool spots",
+        "Blot haemorrhages",
+        "New vessels on optic disc",
+        "Microaneurysms"
+      ],
+      "answerIndex": 3,
+      "explanation": "New vessels indicate proliferative diabetic retinopathy (R3), which is sight-threatening and requires urgent laser treatment to prevent vitreous haemorrhage and tractional detachment. Background changes (R1) can be managed in the screening programme.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9d4d0ce6f2c3",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old man with known proliferative diabetic retinopathy presents with sudden painless loss of vision in his left eye. On fundoscopy, which finding is most likely to be seen?",
+      "options": [
+        "Cotton wool spots",
+        "Arteriovenous nipping",
+        "Vitreous haemorrhage",
+        "Rubeosis iridis",
+        "Papilloedema"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sudden painless loss of vision in a patient with proliferative disease is classic for vitreous haemorrhage due to bleeding from fragile new vessels. This requires urgent ophthalmology assessment to assess for active bleeding and consider prompt laser.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a16e306a0430",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old patient with long-standing diabetes mellitus presents with a painful, red left eye and blurred vision. Intraocular pressure is 45 mmHg. On slit-lamp examination, what is the most important finding?",
+      "options": [
+        "Lens opacity",
+        "Shallow anterior chamber",
+        "Iris neovascularization (rubeosis)",
+        "Corneal oedema",
+        "Conjunctival injection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neovascular glaucoma is a devastating complication of proliferative diabetic retinopathy caused by iris new vessels blocking the trabecular meshwork. Prompt diagnosis of rubeosis is crucial to initiate panretinal photocoagulation and prevent irreversible vision loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "85dd653cab13",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with type 2 diabetes is brought to the emergency department with a severe headache and blurred vision. Blood pressure is 230/120 mmHg. On fundoscopy, which single finding most suggests a hypertensive emergency rather than diabetic retinopathy?",
+      "options": [
+        "Flame haemorrhages",
+        "New vessels",
+        "Hard exudates",
+        "Cotton wool spots",
+        "Papilloedema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Papilloedema indicates malignant hypertension with impending end-organ damage (brain) requiring immediate blood pressure reduction. While diabetic retinopathy can cause cotton wool spots and haemorrhages, it does not cause disc swelling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d927c55f7d01",
+      "topic": "Diabetic Retinopathy",
+      "slug": "diabetic-retinopathy",
+      "system": "Ophthalmology",
+      "subSystem": "Retina",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old with type 2 diabetes presents with sudden, painless loss of vision in his right eye. On fundoscopy, you see widespread retinal haemorrhages in all four quadrants with marked venous tortuosity and disc oedema. Which finding is most characteristic of a central retinal vein occlusion (CRVO) rather than diabetic retinopathy?",
+      "options": [
+        "Microaneurysms only",
+        "Hard exudates",
+        "Diffuse retinal haemorrhages in all quadrants (blood and thunder)'",
+        "New vessels elsewhere",
+        "Cotton wool spots"
+      ],
+      "answerIndex": 2,
+      "explanation": "CRVO presents with unilateral, extensive retinal haemorrhages in all quadrants with venous dilation, whereas diabetic retinopathy is usually bilateral, asymmetric, and often milder in appearance. CRVO is an emergency that requires investigation for underlying causes and monitoring for neovascular complications.",
+      "difficulty": "medium"
+    }
+  ]
+}

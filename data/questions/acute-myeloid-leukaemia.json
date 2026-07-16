@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Myeloid Leukaemia",
+  "slug": "acute-myeloid-leukaemia",
+  "system": "Haematology",
+  "subSystem": "Leukaemia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:27:39Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d9d64649c9ea",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with a 3-week history of fatigue, dyspnoea on exertion, and easy bruising. Examination reveals pallor and petechiae, but no lymphadenopathy or splenomegaly. FBC: Hb 80 g/L, WCC 2.0 x10^9/L (neutropenia), platelets 30 x10^9/L. Peripheral blood film shows 20% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Acute lymphoblastic leukaemia",
+        "Aplastic anaemia",
+        "Myelodysplastic syndrome",
+        "Acute myeloid leukaemia",
+        "Myelofibrosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of ≥20% blasts in the peripheral blood is diagnostic of AML. Aplastic anaemia would show no blasts; MDS typically has <20% blasts; ALL blasts are lymphoblasts with different morphology; myelofibrosis often features tear-drop poikilocytes and splenomegaly, not blast excess.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ab8c115fcdfb",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with acute onset of bleeding from gums, easy bruising, and epistaxis. Coagulation screen: prolonged PT and aPTT, low fibrinogen, elevated D-dimer. FBC: Hb 120 g/L, WCC 2.5 x10^9/L (neutropenia), platelets 45 x10^9/L. Peripheral blood film shows hypergranular promyelocytes with Auer rods. What is the single most likely diagnosis?",
+      "options": [
+        "Acute lymphoblastic leukaemia",
+        "Aplastic anaemia",
+        "Acute promyelocytic leukaemia",
+        "Acute myeloid leukaemia (other subtype)",
+        "Myelodysplastic syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypergranular promyelocytes with Auer rods and DIC are classic for acute promyelocytic leukaemia (APML, AML M3). Other AML subtypes may have Auer rods but typically lack the severe coagulopathy; ALL blasts lack Auer rods; MDS and aplastic anaemia would not show these blasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26914777de8c",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with a painless, slowly enlarging lump on his chest wall. CT shows a soft tissue mass adjacent to the rib. Biopsy of the mass reveals immature myeloid cells. FBC and peripheral blood film are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Granulocytic sarcoma (chloroma) – extramedullary AML",
+        "Ewing sarcoma",
+        "Metastatic carcinoma",
+        "Non-Hodgkin lymphoma",
+        "Osteomyelitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "A chloroma is a solid tumour of myeloblasts that can occur in AML, often with a normal blood count. The biopsy showing immature myeloid cells confirms the diagnosis. Lymphoma would show lymphoid cells; Ewing sarcoma shows small round blue cells with CD99 positivity; osteomyelitis shows inflammation; metastatic carcinoma shows epithelial cells.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d170192dd408",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with a known history of low-risk myelodysplastic syndrome (MDS) for 2 years presents with increasing fatigue, fever, and bruising. FBC: Hb 70 g/L, WCC 1.5 x10^9/L, platelets 20 x10^9/L. Peripheral blood film shows 25% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Aplastic anaemia",
+        "Acute myeloid leukaemia (secondary to MDS)",
+        "Myelodysplastic syndrome with excess blasts (RAEB-2)",
+        "Acute lymphoblastic leukaemia",
+        "Drug-induced pancytopenia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Progression from MDS to AML is defined by ≥20% blasts in blood or marrow. RAEB-2 has 10-19% blasts; aplastic anaemia has no blasts; drug-induced pancytopenia would lack blasts; ALL is less common in this age group and blasts are lymphoblasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a53a3cb1421",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man who achieved complete remission from AML after chemotherapy 6 months ago presents with progressive fatigue and petechiae. FBC shows pancytopenia. Peripheral blood film shows occasional blasts (2% of nucleated cells). Bone marrow aspiration reveals 10% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Megaloblastic anaemia",
+        "Relapsed acute myeloid leukaemia",
+        "Aplastic anaemia",
+        "Myelodysplastic syndrome",
+        "Post-chemotherapy marrow suppression"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with prior AML, complete remission requires <5% blasts. The finding of 10% blasts in the marrow indicates relapsed AML. MDS could theoretically develop but is less likely given prior AML; aplastic anaemia would have no blasts; marrow suppression typically shows hypocellularity without blasts; megaloblastic anaemia shows megaloblasts, not myeloblasts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cdf6ea3393a5",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with fatigue, bruising, and recurrent infections. FBC: Hb 90 g/L, WBC 2.5×10⁹/L, platelets 40×10⁹/L. Blood film shows 15% blasts. What is the most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "PET-CT scan",
+        "Bone marrow aspirate and trephine",
+        "Flow cytometry on peripheral blood",
+        "Cytogenetic analysis on blood",
+        "Serum vitamin B12 and folate levels"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bone marrow aspirate and trephine is the gold standard for diagnosing AML, allowing morphological, immunophenotypic, and cytogenetic assessment. Peripheral blood blasts <20% still require marrow evaluation, and the other options are not confirmatory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "825880fd5a59",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman is found to have 25% blasts on blood film. Bone marrow aspirate shows 18% blasts with no dysplasia, but cytogenetics reveal inv(16)(p13q22). What is the most appropriate diagnosis?",
+      "options": [
+        "Aleukaemic leukaemia",
+        "Reactive blastocytosis",
+        "Acute myeloid leukaemia with recurrent genetic abnormality",
+        "Myelodysplastic/myeloproliferative neoplasm",
+        "Myelodysplastic syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to WHO criteria, the presence of inv(16) defines AML regardless of blast count, even if marrow blasts are <20%. Other options do not account for this defining cytogenetic abnormality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd2296cb7018",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with dyspnoea, confusion, and blurred vision. WCC 180×10⁹/L, Hb 80 g/L, platelets 30×10⁹/L. Blood film shows many blasts. Coagulation screen is normal. What is the most appropriate test to confirm the suspected subtype of AML?",
+      "options": [
+        "Flow cytometry on peripheral blood",
+        "Cytogenetics for t(15;17) or FISH for PML-RARA",
+        "Bone marrow aspirate and trephine",
+        "CT head with contrast",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 1,
+      "explanation": "The marked leucostasis raises suspicion of acute promyelocytic leukaemia (APL), which requires urgent confirmation via cytogenetics or FISH for t(15;17)/PML-RARA. Bone marrow aspirate may be delayed due to risk, and flow cytometry alone may not be specific for APL.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "548f2603587d",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with previous chemotherapy for Hodgkin's lymphoma 5 years ago presents with fatigue. FBC: Hb 90 g/L, platelets 80×10⁹/L. Blood film shows 10% blasts. What is the most appropriate investigation to confirm the diagnosis of therapy-related AML?",
+      "options": [
+        "Bone marrow aspirate with trephine",
+        "B12 and folate levels",
+        "PET-CT scan",
+        "Serum ferritin",
+        "Cytogenetics on peripheral blood"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bone marrow aspirate and trephine is essential for diagnosis regardless of prior therapy, providing morphology, immunophenotyping, and cytogenetics to distinguish therapy-related AML from MDS.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "63a0f9eb47fe",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man presents with a painless testicular mass. Excisional biopsy shows sheets of immature cells with cytoplasmic granules. Peripheral blood and marrow are normal. What is the most appropriate test to confirm the diagnosis?",
+      "options": [
+        "Cytogenetics on peripheral blood",
+        "Bone marrow aspirate and trephine",
+        "Immunophenotyping of the biopsy tissue for myeloid markers",
+        "CT scan of chest, abdomen, pelvis",
+        "Serum tumour markers (AFP, hCG)"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is likely a myeloid sarcoma (extramedullary AML). The biopsy itself is diagnostic when immunophenotyping demonstrates myeloid lineage (e.g., MPO, CD33). Bone marrow may be normal, and other tests are not definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f01b7614df69",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old previously fit man presents with a 2-week history of fatigue and bruising. FBC: Hb 85 g/L, WBC 23×10^9/L (blasts 70%), platelets 30×10^9/L. Bone marrow confirms AML with normal cytogenetics. What is the most appropriate first-line treatment?",
+      "options": [
+        "Daunorubicin 60 mg/m² days 1–3 and cytarabine 100 mg/m² days 1–7",
+        "Azacitidine 75 mg/m² subcutaneously for 7 days every 28 days",
+        "Low-dose cytarabine 20 mg twice daily for 10 days",
+        "All-trans retinoic acid (ATRA) and arsenic trioxide",
+        "Best supportive care with blood product support"
+      ],
+      "answerIndex": 0,
+      "explanation": "A fit patient with non-APL AML requires intensive induction chemotherapy. The 7+3 regimen (daunorubicin + cytarabine) is standard. Azacitidine is for unfit patients; ATRA/arsenic trioxide is for APL; low-dose cytarabine is used in older unfit patients; best supportive care is inappropriate in a fit patient with curative intent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37a2d0ede80a",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with epistaxis and widespread petechiae. Coagulation studies show prolonged PT and APTT, low fibrinogen, and D-dimer elevation. FBC: Hb 100 g/L, WBC 5×10^9/L (blasts 40%), platelets 20×10^9/L. Bone marrow shows t(15;17) PML-RARA. What is the most appropriate first-line treatment?",
+      "options": [
+        "All-trans retinoic acid (ATRA) plus arsenic trioxide",
+        "Hydroxycarbamide 2 g orally twice daily",
+        "Azacitidine 75 mg/m² for 7 days",
+        "Dexamethasone 10 mg twice daily for 3 days",
+        "Daunorubicin and cytarabine (7+3)"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is acute promyelocytic leukaemia (APL) with coagulopathy. ATRA plus arsenic trioxide is the standard first-line treatment. 7+3 is used for non-APL AML; azacitidine is for unfit patients; hydroxycarbamide may reduce blasts but is not definitive; dexamethasone is used for differentiation syndrome, not as first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d8c84e2d101",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man with a history of ischaemic heart disease and COPD presents with lethargy. FBC: Hb 90 g/L, WBC 8×10^9/L (blasts 25%), platelets 80×10^9/L. Bone marrow biopsy shows AML with normal cytogenetics. ECOG performance status 3. What is the most appropriate first-line treatment?",
+      "options": [
+        "Daunorubicin 60 mg/m² and cytarabine 100 mg/m² (7+3)",
+        "Best supportive care with blood product support",
+        "Azacitidine 75 mg/m² subcutaneously for 7 days every 28 days",
+        "All-trans retinoic acid (ATRA) plus arsenic trioxide",
+        "Hydroxycarbamide 1 g orally once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "An elderly unfit patient with AML is not suitable for intensive chemotherapy. Azacitidine, a hypomethylating agent, is the standard first-line treatment. 7+3 is too toxic; ATRA/arsenic trioxide is for APL; hydroxycarbamide is for cytoreduction but not curative; best supportive care is less preferred given azacitidine's survival benefit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ab53a5eccbd",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with acute promyelocytic leukaemia started ATRA and arsenic trioxide 3 days ago. She now develops fever (38.5°C), dyspnoea, and hypoxaemia. Chest X-ray shows bilateral interstitial infiltrates. What is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous furosemide 40 mg",
+        "Intravenous dexamethasone 10 mg twice daily",
+        "Discontinue ATRA and switch to arsenic trioxide alone",
+        "Intravenous amoxicillin and clavulanic acid",
+        "Oral fluconazole 400 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is differentiation syndrome, a known complication of ATRA therapy. The key treatment is high-dose dexamethasone to reduce inflammatory response. Antibiotics are for infection; furosemide for fluid overload; discontinuing ATRA is not recommended—adding steroids is first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72ff9aeddbe4",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with newly diagnosed AML (non-APL) presents with a white cell count of 180×10^9/L (blasts 85%). He is asymptomatic, with no neurological or respiratory symptoms. What is the most appropriate first step in management?",
+      "options": [
+        "Intravenous rehydration and rasburicase",
+        "Start all-trans retinoic acid (ATRA)",
+        "Hydroxycarbamide 1–2 g orally immediately",
+        "Urgent leukapheresis",
+        "Start dexamethasone 10 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Asymptomatic hyperleukocytosis (WBC >100) should be managed with hydroxycarbamide to rapidly lower blast count before starting induction chemotherapy. Leukapheresis is reserved for symptomatic leukostasis; ATRA is for APL; dexamethasone is for differentiation syndrome; rehydration and rasburicase are for tumour lysis prophylaxis, not cytoreduction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d4834503fa54",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man presents to his GP with fatigue, pallor, and easy bruising over the past month. He has no fever or bleeding. Full blood count shows pancytopenia (Hb 90 g/L, WBC 2.5×10⁹/L, platelets 50×10⁹/L). What is the most appropriate immediate next step?",
+      "options": [
+        "Start broad-spectrum antibiotics",
+        "Order a peripheral blood film",
+        "Give a red blood cell transfusion",
+        "Refer urgently to haematology",
+        "Perform a bone marrow biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The pancytopenia raises suspicion of acute leukaemia; immediate referral to haematology is the priority for further investigation and management. A peripheral blood film is appropriate but should be done by haematology; referral ensures timely workup.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "190ab15e15a7",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with recently diagnosed acute myeloid leukaemia (AML) is awaiting induction chemotherapy. She is afebrile, haemodynamically stable, and has no bleeding or symptoms of leukostasis. Her white blood cell count is 85×10⁹/L with 70% blasts. What is the most appropriate immediate next step?",
+      "options": [
+        "Start hydroxycarbamide",
+        "Start allopurinol",
+        "Perform leukapheresis",
+        "Give a platelet transfusion",
+        "Commence broad-spectrum antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In asymptomatic patients with hyperleukocytosis (WBC >50×10⁹/L), the immediate priority is to reduce blast count to prevent leukostasis. Hydroxycarbamide is the first-line agent. Allopurinol is important for tumour lysis prevention but is not the most immediate action in the absence of symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b282e23b216",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with AML on induction chemotherapy develops fever (39°C), heart rate 110 bpm, blood pressure 90/60 mmHg, and petechiae. His neutrophil count is 0.1×10⁹/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start G-CSF",
+        "Start IV broad-spectrum antibiotics",
+        "Give a platelet transfusion",
+        "Give IV fluid bolus",
+        "Send blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is febrile neutropenia with sepsis. The immediate priority is to administer empiric broad-spectrum antibiotics within 1 hour, as per NICE guidelines. Blood cultures should be taken but must not delay antibiotics. IV fluids and platelets are secondary supportive measures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c7963f1f14d5",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with AML presents with oliguria and serum uric acid 0.8 mmol/L, phosphate 2.0 mmol/L, calcium 1.9 mmol/L. He is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Give rasburicase",
+        "Give sodium bicarbonate",
+        "Start allopurinol",
+        "Start IV fluids",
+        "Start haemodialysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The findings are consistent with tumour lysis syndrome. Immediate aggressive IV fluids (e.g., 0.9% saline at 200–300 mL/hour) are the cornerstone of management to maintain urine output. Allopurinol and rasburicase may be added but fluids are the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "173c9dc7a846",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman with AML in complete remission for 6 months after induction chemotherapy is seen in clinic. She feels well with no symptoms. Routine full blood count shows Hb 90 g/L, WBC 3.5×10⁹/L, platelets 80×10⁹/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start G-CSF",
+        "Give a red blood cell transfusion",
+        "Start iron supplements",
+        "Perform a bone marrow biopsy",
+        "Repeat FBC in 2 weeks"
+      ],
+      "answerIndex": 3,
+      "explanation": "New pancytopenia in a patient with previous AML raises concern for relapse. The definitive investigation is bone marrow biopsy to confirm or exclude recurrence. Supportive measures such as transfusion or G-CSF are secondary and do not address the underlying cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eb7718d56f34",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with a 1-week history of worsening fatigue, bruising, and epistaxis. On examination she has petechiae and ecchymoses. Full blood count: Hb 80 g/L, WCC 12 x10^9/L, platelets 20 x10^9/L, blasts 40%. Coagulation screen: PT 18 s, APTT 42 s, fibrinogen 0.9 g/L. Which single finding indicates a medical emergency requiring immediate intervention before treating the underlying leukaemia?",
+      "options": [
+        "Blast percentage 40%",
+        "Platelet count 20 x10^9/L",
+        "PT 18 s",
+        "APTT 42 s",
+        "Fibrinogen 0.9 g/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute promyelocytic leukaemia (APL), low fibrinogen (<1.5 g/L) is a hallmark of DIC and requires urgent replacement to prevent fatal haemorrhage. While thrombocytopenia and coagulopathy need attention, hypofibrinogenaemia is the most immediate threat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "adc1b7ab8f6b",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with newly diagnosed AML presents with confusion and respiratory distress. Blood results: WCC 200 x10^9/L, blasts 95%, Hb 85 g/L, platelets 30 x10^9/L. Which diagnosis must be considered first?",
+      "options": [
+        "Septic shock",
+        "Meningitis",
+        "Pulmonary embolism",
+        "Intracerebral haemorrhage",
+        "Leukostasis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Extremely high blast count (>100 x10^9/L) with neurological and respiratory symptoms is characteristic of leukostasis, an oncological emergency requiring urgent cytoreduction. Other causes are possible but less likely given the blast count.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14a14118aaa2",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with acute promyelocytic leukaemia (APL) was started on all-trans retinoic acid (ATRA) 3 days ago. She now has fever (38°C), dyspnoea, and a weight gain of 4 kg. Which single clinical finding is most suggestive of differentiation syndrome rather than infection?",
+      "options": [
+        "Temperature >39°C",
+        "Bilateral crackles on auscultation",
+        "Heart rate 110 bpm",
+        "Pleural effusion on chest X-ray",
+        "Hypotension"
+      ],
+      "answerIndex": 3,
+      "explanation": "Differentiation syndrome (formerly retinoic acid syndrome) presents with fever, dyspnoea, and weight gain due to capillary leak; pleural effusions are a classic feature. While infection is possible, pleural effusion points toward differentiation syndrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb50a1b5419b",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with AML (WCC 150 x10^9/L) develops oliguria, muscle cramps, and nausea 24 hours after starting chemotherapy. ECG shows peaked T waves. Which laboratory abnormality is the most immediately life-threatening?",
+      "options": [
+        "Phosphate 2.5 mmol/L",
+        "Lactate dehydrogenase 3000 U/L",
+        "Potassium 6.5 mmol/L",
+        "Uric acid 700 μmol/L",
+        "Calcium 1.9 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Spontaneous or treatment-induced tumour lysis syndrome causes hyperkalaemia, which can lead to dangerous arrhythmias. Hyperkalaemia requires urgent treatment; other abnormalities are also present but hyperkalaemia is the most acute threat.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d9eb50a8b31c",
+      "topic": "Acute Myeloid Leukaemia",
+      "slug": "acute-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with AML is pancytopenic following induction chemotherapy. She develops a temperature of 38.5°C. Which single clinical sign indicates severe sepsis requiring immediate escalation?",
+      "options": [
+        "Tachycardia 110 bpm",
+        "Respiratory rate 24/min",
+        "Systolic blood pressure 80 mmHg",
+        "Confusion (GCS 14)",
+        "Oxygen saturation 93% on air"
+      ],
+      "answerIndex": 2,
+      "explanation": "In febrile neutropenia, hypotension (systolic <90 mmHg) is a red flag for septic shock and requires immediate escalation, fluid resuscitation, and broad-spectrum antibiotics. Other signs are concerning but do not independently define severe sepsis.",
+      "difficulty": "medium"
+    }
+  ]
+}

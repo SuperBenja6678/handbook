@@ -1,0 +1,493 @@
+{
+  "topic": "Endometrial Cancer",
+  "slug": "endometrial-cancer",
+  "system": "Gynaecology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "5397c53c9cb5",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman presents with a 2-week history of painless vaginal bleeding. She last menstruated at age 52. She has hypertension and is obese (BMI 34 kg/m²). There is no abdominal tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Endometrial polyp",
+        "Endometrial cancer",
+        "Oestrogen withdrawal bleeding",
+        "Cervical cancer",
+        "Atrophic vaginitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Postmenopausal bleeding is endometrial cancer until proven otherwise. Atrophic vaginitis typically causes bleeding after intercourse, not spontaneous. Cervical cancer often presents with contact bleeding or discharge. Polyp can bleed but malignancy is the priority to exclude.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ed50541e05b9",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with a history of Lynch syndrome (MLH1 mutation) reports intermenstrual spotting for 3 months. She is perimenopausal but still menstruating. Abdominal examination is unremarkable. She is nulliparous. What is the single most likely diagnosis?",
+      "options": [
+        "Endometrial cancer",
+        "Cervical ectropion",
+        "Ovulatory dysfunction",
+        "Submucosal fibroid",
+        "Endometrial hyperplasia without atypia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Given Lynch syndrome, the risk of endometrial cancer is high; persistent intermenstrual bleeding in this setting is cancer until proven. Hyperplasia is possible but less likely with high-risk genetic background. Ectropion and fibroids are less associated with Lynch.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f36a2b7110b0",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents to the emergency department with acute heavy vaginal bleeding and dizziness for 1 day. She is hypotensive (90/60 mmHg) and tachycardic (110 bpm). She has no abdominal pain. Her last menstrual period was at age 50. She has not seen a doctor for years. What is the single most likely diagnosis?",
+      "options": [
+        "Cervical cancer",
+        "Endometritis",
+        "Endometrial cancer",
+        "Cervical ectropion",
+        "Uterine fibroid with acute haemorrhage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute heavy postmenopausal bleeding with haemodynamic instability is most likely due to endometrial cancer, which can cause torrential bleeding. Uterine fibroids are rare in a 72-year-old postmenopausal woman. Cervical cancer tends to cause contact bleeding. Endometritis typically has fever and pain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f862a5695e4",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with known endometrial cancer awaiting hysterectomy presents with lower abdominal pain, fever (38.5°C), and foul-smelling purulent vaginal discharge. Abdominal examination reveals suprapubic tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Ovarian abscess",
+        "Pyometra",
+        "Pyelonephritis",
+        "Perforated uterus",
+        "Pelvic abscess from diverticulitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pyometra (collection of pus in the uterine cavity) is a known complication of endometrial cancer due to tumour obstruction of the cervical canal. Abscess from diverticulitis typically presents with left iliac fossa pain; ovarian abscess is rare in this age group; pyelonephritis would have flank pain and urinary symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "53757e2c9bad",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 52-year-old woman on tamoxifen 20 mg daily for breast cancer (diagnosed 3 years ago) reports new-onset vaginal spotting. She is premenopausal but cycle has been irregular. She has no pain. What is the single most likely diagnosis?",
+      "options": [
+        "Endometrial cancer",
+        "Endometrial polyp",
+        "Endometrial hyperplasia",
+        "Cervical polyp",
+        "Atrophic vaginitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tamoxifen increases risk of endometrial cancer via oestrogenic effects on the endometrium. While polyps and hyperplasia are also more common, the most serious and likely diagnosis is endometrial cancer; any bleeding on tamoxifen mandates exclusion of cancer. Atrophic vaginitis is less likely given tamoxifen's agonistic effect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "356dda4b4ca2",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old postmenopausal woman presents with a single episode of painless vaginal bleeding. What is the most appropriate initial investigation?",
+      "options": [
+        "Hysteroscopy with biopsy",
+        "Endometrial pipelle biopsy",
+        "CT pelvis",
+        "Transvaginal ultrasound",
+        "MRI pelvis"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE CG122 recommends transvaginal ultrasound as the initial investigation for postmenopausal bleeding to measure endometrial thickness and guide further management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c4e276c7ce1c",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old premenopausal woman with a BMI of 34 presents with intermenstrual bleeding for 3 months. Transvaginal ultrasound shows an endometrial thickness of 10mm. What is the most appropriate next investigation?",
+      "options": [
+        "Repeat transvaginal ultrasound in 3 months",
+        "CT chest/abdomen/pelvis",
+        "Hysteroscopy with biopsy",
+        "MRI pelvis",
+        "Endometrial pipelle biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a premenopausal woman with abnormal bleeding and thickened endometrium, hysteroscopy with directed biopsy is the gold standard for diagnosis. Pipelle biopsy may be considered but hysteroscopy allows direct visualization and higher accuracy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ec4bf38ce9b",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman on tamoxifen for breast cancer presents with postmenopausal bleeding. Transvaginal ultrasound shows an endometrial thickness of 8mm. What is the most appropriate investigation?",
+      "options": [
+        "Hysteroscopy with biopsy",
+        "Endometrial pipelle biopsy",
+        "CT scan",
+        "MRI pelvis",
+        "Repeat transvaginal ultrasound in 6 months"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tamoxifen increases the risk of endometrial pathology. Hysteroscopy with biopsy is preferred over pipelle or TVUS due to potential false negatives from tamoxifen-induced changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64de5ba13eb1",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with postmenopausal bleeding has a transvaginal ultrasound showing endometrial thickness of 3mm. What is the most appropriate interpretation?",
+      "options": [
+        "Hysteroscopy with biopsy",
+        "MRI pelvis",
+        "No further investigation needed",
+        "Repeat transvaginal ultrasound in 6 months",
+        "Endometrial biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE states that an endometrial thickness of ≤4mm on TVUS in postmenopausal bleeding has a 99% negative predictive value for endometrial cancer, so no further investigation is required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "70bf1743d72c",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman presents with postmenopausal bleeding. Endometrial biopsy shows grade 1 endometrioid adenocarcinoma. MRI confirms stage IA disease with no myometrial invasion. She is otherwise fit and has no significant comorbidities. What is the most appropriate definitive treatment?",
+      "options": [
+        "Total abdominal hysterectomy with bilateral salpingo-oophorectomy",
+        "Brachytherapy alone",
+        "Oral megestrol acetate",
+        "Levonorgestrel-releasing intrauterine system",
+        "External beam radiotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For early-stage endometrial cancer, total hysterectomy with bilateral salpingo-oophorectomy is the standard curative treatment. The other options are reserved for patients who are unfit for surgery or desire fertility preservation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d27191422329",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with known stage IIIC endometrial cancer previously treated with hysterectomy and adjuvant radiotherapy presents with new lung metastases on CT. She has good performance status (ECOG 0). What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Pembrolizumab",
+        "Carboplatin-paclitaxel chemotherapy",
+        "Tamoxifen",
+        "Palliative radiotherapy",
+        "Megestrol acetate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Platinum-based combination chemotherapy (carboplatin-paclitaxel) is the standard first-line treatment for metastatic endometrial cancer. Hormone therapy is reserved for low-grade, hormone receptor-positive disease, and pembrolizumab is used in mismatch repair-deficient tumours after chemotherapy failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ba94daedb5f4",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with severe COPD and heart failure is diagnosed with stage II endometrial cancer (invasion of cervical stroma) on MRI. She is deemed unfit for surgery by anaesthetists. What is the most appropriate definitive treatment?",
+      "options": [
+        "Total abdominal hysterectomy",
+        "Chemotherapy with carboplatin-paclitaxel",
+        "Oral medroxyprogesterone acetate",
+        "External beam radiotherapy with brachytherapy",
+        "Best supportive care"
+      ],
+      "answerIndex": 3,
+      "explanation": "Definitive radiotherapy (external beam plus brachytherapy) is the standard treatment for patients with locally advanced endometrial cancer who are not surgical candidates. Chemotherapy alone is not curative for stage II disease, and hormone therapy is not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41ee22653d18",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with stage III endometrioid endometrial cancer is planned for chemotherapy. She has chronic kidney disease stage 4 (eGFR 25 mL/min). Which of the following chemotherapy drugs is contraindicated in her?",
+      "options": [
+        "Paclitaxel",
+        "Doxorubicin",
+        "Carboplatin",
+        "Cisplatin",
+        "Megestrol acetate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cisplatin is contraindicated in severe renal impairment due to nephrotoxicity. Carboplatin requires dose reduction but is not contraindicated. Paclitaxel and doxorubicin are not primarily renally excreted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c7d61fb26d03",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 76-year-old woman with recurrent endometrial cancer after previous surgery and radiotherapy is found to have a pelvic recurrence. Biopsy shows oestrogen receptor-positive grade 1 endometrioid adenocarcinoma. She has no significant comorbidities. What is the most appropriate first-line treatment for recurrence?",
+      "options": [
+        "Pembrolizumab",
+        "Megestrol acetate",
+        "Palliative radiotherapy",
+        "Carboplatin-paclitaxel chemotherapy",
+        "Pelvic exenteration"
+      ],
+      "answerIndex": 1,
+      "explanation": "For hormone receptor-positive recurrent endometrial cancer, hormone therapy (progestogens like megestrol acetate) is an effective and well-tolerated first-line option. Chemotherapy is reserved for hormone-resistant or high-grade disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5251d3b0aee0",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman presents to the GP with a single episode of postmenopausal bleeding (last menstrual period 4 years ago). She is otherwise well with no significant past medical history. Clinical examination is unremarkable. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform transvaginal ultrasound",
+        "Start progesterone therapy",
+        "Arrange outpatient hysteroscopy",
+        "Refer for urgent gynaecology assessment (2-week wait)",
+        "Reassure and discharge"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guideline recommends that any woman over 55 with postmenopausal bleeding should be referred urgently (2-week wait) for gynaecology assessment. Outpatient hysteroscopy and ultrasound are subsequent investigations after referral, not the first step from primary care. Starting progesterone or discharge without referral is inappropriate as cancer must be excluded.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "510b76b9da10",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with known stage IA, grade 1 endometrial cancer is awaiting total hysterectomy in 2 weeks. She presents to the emergency department with sudden-onset pleuritic chest pain and mild dyspnoea. Observations: HR 105, RR 22, SpO₂ 96% on air, BP 120/80 mmHg. ECG shows sinus tachycardia. What is the most appropriate immediate next step?",
+      "options": [
+        "Start low molecular weight heparin",
+        "Request a D-dimer test",
+        "Administer high-flow oxygen",
+        "Assess clinical probability of pulmonary embolism using a validated score (e.g. Wells' criteria)",
+        "Perform a CT pulmonary angiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "In suspected PE, the first step per NICE is to assess pre-test probability using a validated score (e.g. Wells' criteria). This determines whether to proceed with D-dimer (if low/intermediate probability) or CTPA (if high probability). Starting heparin or going straight to CTPA without risk stratification is incorrect. Oxygen should be given to correct hypoxia, but SpO₂ is adequate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b6996229335",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with advanced (stage IV) endometrial cancer on palliative care presents to the emergency department with profuse vaginal bleeding. She is pale, diaphoretic, HR 120, BP 85/50 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Transfuse O-negative packed red cells",
+        "Urgent gynaecology review",
+        "Vaginal packing with gauze",
+        "Administer intravenous tranexamic acid",
+        "Start intravenous fluid resuscitation (crystalloid bolus)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In haemorrhagic shock, the immediate priority is to restore circulating volume with IV fluids (typically a crystalloid bolus) per ABC resuscitation. Transfusion may be needed later, but fluid resuscitation is first. Vaginal packing and tranexamic acid are secondary measures. Gynaecology review is important but not before resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "576085c0fc3e",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with known endometrial cancer metastatic to the spine presents with acute-onset bilateral lower limb weakness and urinary retention over 2 hours. On examination, there is a sensory level at T10. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent MRI of the whole spine",
+        "Administer high-dose dexamethasone",
+        "Refer to neurosurgery",
+        "Arrange urgent radiotherapy",
+        "Insert a urinary catheter"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected malignant spinal cord compression, immediate management is to give high-dose dexamethasone (or equivalent corticosteroid) to reduce oedema and prevent further neurological deterioration. MRI is essential but should follow steroid administration. Catheterisation and radiotherapy are later steps. Neurosurgery referral is for spinal instability not cord compression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d8021f715be4",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with confirmed endometrial cancer (grade 1, stage IA) has severe COPD (FEV1 30% predicted) and uses home oxygen. She is being considered for total hysterectomy. What is the most appropriate immediate next step in her preoperative care?",
+      "options": [
+        "Proceed with total hysterectomy",
+        "Arrange transthoracic echocardiogram",
+        "Refer to anaesthetist for preoperative assessment",
+        "Recommend radiotherapy as definitive treatment",
+        "Start long-acting bronchodilators"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a high-risk surgical patient, the immediate next step is referral to anaesthesia for a comprehensive preoperative assessment to evaluate fitness for surgery and plan perioperative care. Proceeding directly without assessment is unsafe. Radiotherapy may be an alternative but is not the immediate step. Echocardiogram and bronchodilators may be part of the anaesthetic assessment but are not the first action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70dd2ca77df7",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with stage I endometrial cancer presents with acute lower abdominal pain, fever, and offensive vaginal discharge. What is the most likely acute complication?",
+      "options": [
+        "Pelvic abscess",
+        "Endometritis",
+        "Diverticulitis",
+        "Hematometra",
+        "Pyometra"
+      ],
+      "answerIndex": 4,
+      "explanation": "Purulent discharge with fever and pain in a patient with endometrial cancer is classic for pyometra, an infected uterine collection. Hematometra would present with blood-stained discharge without infection. Endometritis is less likely in this setting, and diverticulitis or pelvic abscess lack the vaginal discharge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c785ee27a5d0",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with postmenopausal bleeding is found to have an endometrial thickness of 16 mm on ultrasound. On bimanual examination, which finding would most urgently suggest advanced disease requiring immediate imaging for staging?",
+      "options": [
+        "A palpable right adnexal mass",
+        "Ascites",
+        "Enlarged inguinal lymph nodes",
+        "A fixed, hard, irregular uterus",
+        "Tenderness in the pouch of Douglas"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fixed, hard, irregular uterus indicates parametrial invasion (stage IIIA or beyond), which is a surgical contraindication and requires urgent further imaging. Adnexal masses or lymphadenopathy may also be concerning, but fixity directly implies local extension beyond the uterus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c4bf2b21af1",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with known endometrial cancer (stage IIB) presents with sudden right flank pain, vomiting, and anuria. Urine dip is negative. What is the most likely complication?",
+      "options": [
+        "Nephrolithiasis",
+        "Renal vein thrombosis",
+        "Ureteric obstruction",
+        "Pyelonephritis",
+        "Ovarian torsion"
+      ],
+      "answerIndex": 2,
+      "explanation": "In advanced endometrial cancer, ureteric obstruction by tumour is a known complication, especially with cervical involvement. Negative urine dip makes pyelonephritis less likely. Nephrolithiasis would typically cause hematuria. Ovarian torsion and renal vein thrombosis are less common in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "25392df42169",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with newly diagnosed endometrial cancer (stage IA) is admitted from clinic with sudden onset of pleuritic chest pain and dyspnoea. She has no leg swelling. What life-threatening diagnosis must be excluded first?",
+      "options": [
+        "Acute coronary syndrome",
+        "Pericarditis",
+        "Pneumothorax",
+        "Metastatic lung disease",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cancer patients are at high risk for venous thromboembolism; pleuritic pain and dyspnoea without leg swelling still require urgent exclusion of PE. Metastatic lung disease is less acute. Pneumothorax, ACS, and pericarditis should be considered but PE is the most likely life-threatening complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7373c44e1c76",
+      "topic": "Endometrial Cancer",
+      "slug": "endometrial-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with Lynch syndrome and a history of endometrial cancer treated 2 years ago presents with vaginal bleeding. Transvaginal ultrasound shows a 6 mm endometrium with a focal area of increased vascularity. What is the most likely diagnosis?",
+      "options": [
+        "Endometrial polyp",
+        "Subendometrial cyst",
+        "Recurrent endometrial cancer",
+        "Endometritis",
+        "Endometrial hyperplasia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lynch syndrome confers a high risk of recurrent endometrial cancer. Focal increased vascularity in a bleeding patient with prior cancer is suspicious for recurrence. Polyps and hyperplasia often show diffuse thickening, while subendometrial cysts are benign. Endometritis would have pelvic pain and fever.",
+      "difficulty": "medium"
+    }
+  ]
+}

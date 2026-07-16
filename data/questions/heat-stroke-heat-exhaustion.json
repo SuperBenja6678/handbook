@@ -1,0 +1,513 @@
+{
+  "topic": "Heat Stroke & Heat Exhaustion",
+  "slug": "heat-stroke-heat-exhaustion",
+  "system": "Emergency Medicine",
+  "subSystem": "Environmental",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:36:26Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "ebc24754cbb2",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man collapses after completing a 10 km run on a hot summer day. On examination, core temperature is 39.2°C, heart rate 120 bpm, blood pressure 110/70 mmHg. He is confused but responsive. Skin is sweaty. What is the single most likely diagnosis?",
+      "options": [
+        "Hypoglycaemia",
+        "Vasovagal syncope",
+        "Heat stroke",
+        "Heat exhaustion",
+        "Hyponatraemic encephalopathy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Core temperature <40°C, presence of sweating, and only mild CNS symptoms (confusion) point to heat exhaustion rather than heat stroke, which requires core temp >40°C and severe CNS dysfunction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b60d8db2d00e",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old homeless man is found unconscious in a park during a heatwave. His core temperature is 41.5°C, skin is dry and hot, blood pressure 80/40 mmHg, GCS 6. There is no neck stiffness. What is the single most likely diagnosis?",
+      "options": [
+        "Heat stroke",
+        "Thyrotoxic crisis",
+        "Septic shock",
+        "Meningococcal meningitis",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of extreme hyperthermia (>40°C), dry skin (anhidrosis), and severe CNS depression in the context of environmental heat exposure is classic for heat stroke. No signs of infection or rigidity suggest the other options are less likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64494b53f499",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman on amitriptyline for depression is brought to the emergency department in August. She lives alone without air conditioning. Her core temperature is 40.8°C, skin is dry, and she is lethargic. There is no muscle rigidity or tremor. What is the single most likely diagnosis?",
+      "options": [
+        "Serotonin syndrome",
+        "Neuroleptic malignant syndrome",
+        "Classic heat stroke",
+        "Anticholinergic toxicity with hyperthermia",
+        "Malignant hyperthermia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elderly patient with environmental heat exposure, anhidrosis, and hyperthermia without rigidity or recent antipsychotic use makes classic heat stroke more likely than NMS. Amitriptyline has anticholinergic effects but does not typically cause severe hyperthermia alone; heat stroke is the commonest diagnosis in a heatwave.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9666e6e213dd",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old athlete with sickle cell trait collapses during a football training session in hot weather. Core temperature is 40.2°C, he is confused, and has generalised muscle tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Rhabdomyolysis",
+        "Acute sickle cell crisis",
+        "Exertional heat stroke",
+        "Malignant hyperthermia",
+        "Sepsis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Core temperature >40°C with CNS changes and exercise in heat is diagnostic of exertional heat stroke. While rhabdomyolysis can coexist, the primary diagnosis is heat stroke. Sickle cell trait predisposes to exertional heat stroke but does not typically cause isolated crisis without triggers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdfdcd4ec5bc",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 3-year-old child is found unresponsive in a locked car on a sunny day. Core temperature is 41.2°C. He is having a generalised tonic-clonic seizure. His skin is hot and dry. What is the single most likely diagnosis?",
+      "options": [
+        "Meningitis",
+        "Status epilepticus",
+        "Heat stroke",
+        "Febrile seizure",
+        "Hypoxic-ischaemic encephalopathy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of entrapment in a hot car with extreme hyperthermia and CNS dysfunction (seizure, unresponsiveness) points to heat stroke. Febrile seizures are usually shorter and occur with less extreme temperatures, and meningitis does not explain the environmental exposure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "20dcc76fc22e",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old runner collapses after a marathon on a hot day. He is confused, GCS 14, hot dry skin. Pulse 120, BP 100/60. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Serum electrolytes",
+        "Blood cultures",
+        "Rectal core temperature measurement",
+        "Lumbar puncture",
+        "CT head"
+      ],
+      "answerIndex": 2,
+      "explanation": "Heat stroke is defined by core temperature >40°C with neurological dysfunction. Rectal temperature is the gold standard for measurement. Other tests may be needed later but do not confirm the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "08c07d369343",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old construction worker presents with headache, dizziness, and nausea after working in hot weather. Core temp 38.5°C, pulse 105, skin moist. He is alert. Which investigation helps distinguish heat exhaustion from heat stroke?",
+      "options": [
+        "ECG",
+        "Core temperature measurement",
+        "Serum sodium",
+        "Chest X-ray",
+        "Urine specific gravity"
+      ],
+      "answerIndex": 1,
+      "explanation": "In heat exhaustion core temperature is usually <40°C and mental status is intact, whereas in heat stroke core temp >40°C with CNS dysfunction. Therefore core temp measurement is key to differentiation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f35e1a09f14f",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old homeless man is found unconscious in a park during a heatwave. Core temp 42°C, skin dry. Which investigation is most important to exclude an alternative cause for his coma?",
+      "options": [
+        "CT head",
+        "Lumbar puncture",
+        "MRI brain",
+        "Toxicology screen",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a comatose patient with hyperthermia, it is critical to exclude intracranial pathology (e.g., haemorrhage, stroke) before attributing unconsciousness to heat stroke. CT head is the first-line imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "82650205b488",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A patient with severe exertional heat stroke develops a rising D-dimer and falling platelet count. Which laboratory finding is most consistent with disseminated intravascular coagulation (DIC) in this setting?",
+      "options": [
+        "Elevated fibrinogen",
+        "Normal PT/APTT",
+        "Platelet count <100 x10^9/L",
+        "Prolonged bleeding time",
+        "Elevated haptoglobin"
+      ],
+      "answerIndex": 2,
+      "explanation": "DIC in heat stroke typically presents with thrombocytopenia, prolonged PT/APTT, low fibrinogen, and elevated D-dimer. A falling platelet count is an early indicator.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1e3d303e152",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman on diuretic therapy presents with confusion and hypotension during a heatwave. Core temp 39.2°C (rectal). Which laboratory finding is most characteristic of classic (non-exertional) heat stroke in the elderly?",
+      "options": [
+        "Markedly elevated CK",
+        "Hypokalaemia",
+        "Elevated serum AST",
+        "Hypernatraemia",
+        "Metabolic alkalosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Classic heat stroke frequently causes direct hepatic injury resulting in elevated transaminases (AST/ALT). In contrast, exertional heat stroke more commonly causes rhabdomyolysis (elevated CK). Hypernatraemia may occur but is less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1e08e28ef863",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 25-year-old marathon runner collapses after a race in hot weather. Core temperature 38.5°C, sweaty, GCS 15, blood pressure 110/70 mmHg. Diagnosis: heat exhaustion. What is the most appropriate first-line treatment?",
+      "options": [
+        "Cold water immersion",
+        "Oral rehydration with electrolyte solution",
+        "Intravenous paracetamol 1g",
+        "Removal of clothing and fanning alone",
+        "Intravenous 0.9% saline 1L bolus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Heat exhaustion is primarily a volume depletion state. Oral rehydration is first-line if the patient is conscious and not vomiting. IV fluids are reserved for those unable to drink or in shock. Cold water immersion is for heat stroke. Antipyretics have no role in heat-related illness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cf52c04ce742",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old nursing home resident is found with core temperature 41°C, unconscious, and dry skin. Diagnosis: heat stroke. Which treatment should be initiated first?",
+      "options": [
+        "Intravenous 0.9% saline 500mL",
+        "Intravenous dantrolene 2.5 mg/kg",
+        "Intravenous paracetamol 1g",
+        "Cold water immersion (10-15°C)",
+        "Tepid sponging"
+      ],
+      "answerIndex": 3,
+      "explanation": "In heat stroke, rapid cooling is the priority. Cold water immersion achieves the fastest temperature reduction and is recommended first-line. Dantrolene is for malignant hyperthermia. Antipyretics are ineffective. Tepid sponging is less efficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1da88ab4ea9",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old construction worker presents with heat exhaustion, nausea, and vomiting. He has not been able to keep fluids down for 2 hours. Core temperature 38.2°C, sweaty, blood pressure 100/60 mmHg. What is the most appropriate fluid therapy?",
+      "options": [
+        "Oral rehydration solution",
+        "Intravenous 5% dextrose 1L over 2 hours",
+        "Cold water immersion",
+        "Intravenous paracetamol 1g",
+        "Intravenous 0.9% saline 500mL over 1 hour"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has heat exhaustion with vomiting, so oral rehydration is not feasible. Intravenous isotonic fluids (e.g., 0.9% saline) are indicated to correct volume depletion. Cold water immersion is for heat stroke. Dextrose provides no volume and can cause hyperglycaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1744a8dd973b",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old soldier is admitted with exertional heat stroke. Core temperature 42°C, CK 10,000 IU/L, creatinine 250 µmol/L, urine dipstick positive for myoglobin. Aggressive cooling and IV fluids are started. Which of the following drugs is CONTRAINDICATED?",
+      "options": [
+        "Intravenous 0.9% saline",
+        "Continuous renal replacement therapy",
+        "Mannitol 0.5 g/kg IV",
+        "Ibuprofen 400 mg oral",
+        "Sodium bicarbonate 1.26% IV (50mL)"
+      ],
+      "answerIndex": 3,
+      "explanation": "In heat stroke with acute kidney injury and rhabdomyolysis, NSAIDs are contraindicated due to nephrotoxicity and risk of worsening renal function. Mannitol and bicarbonate are sometimes used for rhabdomyolysis, though evidence is limited. Fluids and dialysis are not contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "225041a7b083",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 80-year-old frail patient in a care home is found with core temperature 40.8°C, unconscious, and dry skin. Past medical history includes hypertension and heart failure. Diagnosis: heat stroke. Which cooling method is most appropriate?",
+      "options": [
+        "Evaporative cooling (mist and fan)",
+        "Antipyretic therapy with paracetamol",
+        "Tepid sponging with water at 37°C",
+        "Cold intravenous fluids (4°C) 2L bolus",
+        "Ice water immersion (0-5°C)"
+      ],
+      "answerIndex": 0,
+      "explanation": "In frail elderly patients, evaporative cooling is preferred because it is less traumatic, reduces risk of shivering and cardiac stress, and is equally effective. Ice water immersion can cause complications such as arrhythmias. Antipyretics are ineffective.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8135fdd16f2d",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man presents to the emergency department after completing a 10 km run on a hot day. He complains of thirst, dizziness, and headache. On examination, he is sweaty, temperature 38.2°C, pulse 105 bpm, blood pressure 100/70 mmHg, and GCS 15. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply ice packs to the groin and axillae",
+        "Check serum urea and electrolytes",
+        "Admit to the medical ward for observation",
+        "Start intravenous 0.9% sodium chloride bolus",
+        "Give oral rehydration solution"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has mild heat exhaustion with normal mental status and is able to take fluids orally. Oral rehydration is the first step, as it is less invasive and appropriate for mild cases. IV fluids are reserved for those unable to drink or with significant hypotension. Cooling and investigations are not immediate priorities in this stable patient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "61c4036a2a2d",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman on a beta-blocker for hypertension is brought to the emergency department after being found confused in her garden on a hot day. Her temperature is 39.5°C, BP 90/60 mmHg, pulse 100 bpm, respiratory rate 22/min, and oxygen saturations 95% on air. She is moving all four limbs and has no rash. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer a bolus of intravenous 0.9% sodium chloride",
+        "Take blood cultures and start broad-spectrum antibiotics",
+        "Apply ice packs to the neck, axillae, and groin",
+        "Give intravenous paracetamol",
+        "Prepare for endotracheal intubation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has heat exhaustion with hypotension and confusion, indicating moderate severity. Immediate fluid resuscitation with IV 0.9% saline is the priority to correct hypovolaemia and improve perfusion. Cooling can be initiated concurrently but the first discrete action is fluid bolus. Paracetamol is ineffective in heat-related illness, antibiotics are not indicated without infection evidence, and intubation is not yet required as she is moving all limbs and has a patent airway.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ec522be4b62c",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old construction worker is found collapsed outdoors. He has hot, dry skin, a temperature of 41°C, GCS 8 (eye 2, verbal 2, motor 4), pulse 120 bpm, BP 80/50 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Initiate aggressive cooling with cold water spray and fans",
+        "Recheck core temperature using a rectal thermometer",
+        "Start intravenous 0.9% sodium chloride bolus",
+        "Administer dantrolene 1 mg/kg intravenously",
+        "Endotracheal intubation for airway protection"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has heat stroke with a GCS of 8, which indicates an inability to protect the airway. Airway management with endotracheal intubation is the immediate priority. Cooling and fluid resuscitation are important but follow airway, breathing, and circulation (ABC) principles. Dantrolene is specific for malignant hyperthermia, not classical heat stroke.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b853f206b1e",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old marathon runner with heat stroke is being treated in the emergency department. She has been cooled and her temperature is now 38°C. However, her urine is dark, serum creatine kinase is 50,000 U/L, and serum potassium is 5.8 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous sodium bicarbonate 8.4% 50 mL",
+        "Perform a 12-lead ECG",
+        "Arrange urgent haemodialysis",
+        "Administer intravenous calcium gluconate 10% 10 mL",
+        "Initiate a fluid resuscitation with 0.9% sodium chloride"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has rhabdomyolysis-induced hyperkalaemia. Before administering any treatment for hyperkalaemia, an ECG must be performed to assess for life-threatening cardiac effects such as peaked T waves or widened QRS. Calcium gluconate is reserved for ECG changes, bicarbonate is not first-line, fluid resuscitation is already ongoing, and haemodialysis is not immediately required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "91900f96bbe5",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old nursing home resident on furosemide for heart failure is found lethargic with a temperature of 40.2°C. Examination reveals dry mucous membranes, JVP not visible, BP 100/70 mmHg lying, heart rate 110 bpm, and a weak radial pulse. What is the most appropriate immediate next step?",
+      "options": [
+        "Give a bolus of intravenous 0.9% sodium chloride",
+        "Apply a fan with water misting",
+        "Stop the furosemide",
+        "Administer cooled intravenous fluids at 4°C",
+        "Check urea and electrolytes"
+      ],
+      "answerIndex": 0,
+      "explanation": "This elderly patient has severe dehydration and heat exhaustion/hyperthermia. The immediate priority is fluid resuscitation to correct hypovolaemia. IV 0.9% sodium chloride bolus is appropriate. Cooling measures and stopping the diuretic are secondary. Checking U&Es and applying fan/mist are not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c817929c8540",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man collapses during a football match on a hot day. He is confused and agitated, with a core temperature of 40.2°C. Which single finding confirms this is heat stroke rather than severe heat exhaustion?",
+      "options": [
+        "Altered mental state",
+        "Elevated creatine kinase",
+        "Hot dry skin",
+        "Core temperature >40°C",
+        "Tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Altered mental state (confusion, agitation) is the key differentiating feature of heat stroke; core temperature >40°C can also occur in severe heat exhaustion, and dry skin is a late sign. Tachycardia and elevated CK are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b0cd3028742",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman on furosemide presents with dizziness, nausea, and thirst after gardening in the sun. Her temperature is 38.5°C, heart rate 110, and blood pressure 100/60. Which finding would indicate progression to heat stroke and require immediate escalation?",
+      "options": [
+        "Urine output <0.5 mL/kg/h",
+        "Core temperature 39.0°C",
+        "Confusion or reduced GCS",
+        "Serum sodium 130 mmol/L",
+        "Orthostatic hypotension"
+      ],
+      "answerIndex": 2,
+      "explanation": "Confusion or reduced GCS indicates CNS involvement, the hallmark of heat stroke; other options are concerning but not definitive for heat stroke (hyponatremia from diuretics, oliguria from dehydration).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ac7a034fd4c7",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old rough sleeper is brought to ED unconscious with a core temperature of 41.0°C and hot dry skin. Which finding is most concerning for a life-threatening complication requiring ICU admission?",
+      "options": [
+        "Glasgow Coma Scale 7",
+        "Respiration rate 30/min",
+        "Heart rate 140 bpm",
+        "Blood pressure 80/40 mmHg",
+        "SpO2 92% on air"
+      ],
+      "answerIndex": 0,
+      "explanation": "GCS 7 indicates need for airway protection and is the most immediate red flag; hypotension and tachycardia are severe but GCS decline is the trigger for ICU escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e289d2fa491",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old marathon runner presents with heat stroke. Over the next six hours, blood tests show a rise in creatinine and a fall in platelet count. Which complication has developed?",
+      "options": [
+        "Acute kidney injury",
+        "Acute respiratory distress syndrome",
+        "Hepatocellular necrosis",
+        "Disseminated intravascular coagulation",
+        "Rhabdomyolysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fall in platelet count combined with rising creatinine suggests DIC as the complication; isolated AKI or rhabdomyolysis would not cause thrombocytopenia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb7fbd5ac0e1",
+      "topic": "Heat Stroke & Heat Exhaustion",
+      "slug": "heat-stroke-heat-exhaustion",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with dementia on low-dose amitriptyline is brought in with hyperthermia (39.8°C), confusion, and dry skin. Which diagnosis is most likely to be the cause of her presentation?",
+      "options": [
+        "Malignant hyperthermia",
+        "Serotonin syndrome",
+        "Sepsis",
+        "Heat stroke",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Heat stroke is most likely given the hot environment and anticholinergic use (amitriptyline) impairing sweating; NMS requires antipsychotics, serotonin syndrome requires serotonergic drugs, and malignant hyperthermia is anaesthetic-related.",
+      "difficulty": "medium"
+    }
+  ]
+}

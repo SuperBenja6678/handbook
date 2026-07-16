@@ -1,0 +1,473 @@
+{
+  "topic": "Prostate Cancer",
+  "slug": "prostate-cancer",
+  "system": "Urology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:37:31Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 23,
+  "questions": [
+    {
+      "id": "81d9b96d9e6c",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man attends for a routine health check. He has no urinary symptoms. Digital rectal examination (DRE) reveals a firm, nodular prostate. PSA is 12 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Prostatic calcifications",
+        "Acute prostatitis",
+        "Chronic prostatitis",
+        "Prostate cancer",
+        "Benign prostatic hyperplasia"
+      ],
+      "answerIndex": 3,
+      "explanation": "A firm, nodular prostate on DRE with elevated PSA in an asymptomatic man is classic for prostate cancer. Benign prostatic hyperplasia typically presents with smooth enlargement and lower PSA.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b533f3a8d9d",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents with hesitancy, frequency, and a weak urinary stream for 6 months. DRE shows a mildly enlarged, smooth prostate. PSA is 6 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Benign prostatic hyperplasia",
+        "Overactive bladder",
+        "Chronic prostatitis",
+        "Prostate cancer",
+        "Prostatic abscess"
+      ],
+      "answerIndex": 0,
+      "explanation": "Smooth prostatic enlargement with mild lower urinary tract symptoms and moderately elevated PSA is most consistent with benign prostatic hyperplasia. Prostatic cancer often presents with nodularity or irregularity on DRE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d0d8e568af0",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with acute inability to pass urine for 12 hours. He has had mild urinary symptoms for months. DRE reveals a hard, irregular prostate. PSA is 45 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Bladder stone",
+        "Prostatic abscess",
+        "Urethral stricture",
+        "Prostate cancer causing retention",
+        "Acute urinary retention due to benign prostatic hyperplasia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hard, irregular prostate with very high PSA and acute retention is highly suggestive of prostate cancer causing outflow obstruction, rather than benign causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87ef9cb1be57",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man presents with severe lower back pain and bilateral leg weakness. He has no urinary symptoms. MRI shows multiple osteoblastic metastases in the lumbar spine. PSA is 120 ng/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Osteosarcoma",
+        "Benign prostatic hyperplasia",
+        "Metastatic breast cancer",
+        "Metastatic prostate cancer",
+        "Multiple myeloma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Osteoblastic (sclerotic) bone metastases with a very high PSA are diagnostic of metastatic prostate cancer. Multiple myeloma typically causes lytic lesions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9b022f2fb98e",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old asymptomatic man attends a routine health check. His PSA is 4.8 ng/mL. Digital rectal examination (DRE) is normal. What is the most appropriate next investigation?",
+      "options": [
+        "CT scan of the abdomen and pelvis",
+        "Free-to-total PSA ratio",
+        "Transrectal ultrasound-guided prostate biopsy",
+        "Repeat PSA in 6–8 weeks",
+        "Multiparametric MRI of the prostate"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend multiparametric MRI as the first-line investigation for men with a raised PSA and suspected prostate cancer. Repeat PSA may be appropriate if PSA is borderline but a single result >4.0 ng/mL with normal DRE warrants MRI. Biopsy is reserved for MRI-visible lesions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a29faafa935a",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with lower urinary tract symptoms. DRE reveals a hard, irregular prostate. PSA is 12 ng/mL. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Transrectal ultrasound-guided biopsy",
+        "Multiparametric MRI",
+        "Free/total PSA ratio",
+        "Prostate-specific antigen density",
+        "Cystoscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although MRI is recommended before biopsy for local staging and targeting, a tissue diagnosis is required to confirm prostate cancer. In this scenario with a high clinical suspicion (hard, irregular prostate and raised PSA), biopsy is the confirmatory test. MRI would be performed prior to biopsy but does not confirm the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ebb592c372c1",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with a PSA of 4.2 ng/mL has a free-to-total PSA ratio of 0.10. How should this result be interpreted?",
+      "options": [
+        "Strongly suggestive of benign prostatic hyperplasia",
+        "Diagnostic of prostate cancer",
+        "Suggests an increased risk of prostate cancer",
+        "Equivocal; requires further investigation",
+        "Indicates a low probability of prostate cancer"
+      ],
+      "answerIndex": 2,
+      "explanation": "A free-to-total PSA ratio <0.12 is associated with an increased risk of prostate cancer. It is not diagnostic but raises suspicion, prompting further investigation such as MRI. A ratio >0.25 is more typical of benign disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19fec5771b04",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents with a PSA of 25 ng/mL. He is asymptomatic and DRE reveals a firm nodule. He has had no prior prostate investigation. What is the next investigation recommended by NICE?",
+      "options": [
+        "Bone scan",
+        "CT scan of the abdomen and pelvis",
+        "Multiparametric MRI of the prostate",
+        "Transperineal saturation biopsy",
+        "PSA velocity over 6 months"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance (CG175) states that multiparametric MRI should be offered before prostate biopsy in all men with suspected prostate cancer, regardless of PSA level. This allows risk stratification and targeted biopsies. PSA velocity is not recommended for decision-making.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7d3d6a85d866",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with a previous negative transrectal ultrasound-guided biopsy 18 months ago now has a rising PSA from 4.0 to 6.5 ng/mL. DRE is normal. What is the most appropriate next investigation?",
+      "options": [
+        "Saturation biopsy under general anaesthetic",
+        "Prostate-specific antigen density",
+        "Multiparametric MRI",
+        "Free-to-total PSA ratio",
+        "Repeat transrectal biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends that men with a prior negative biopsy but persistently raised or rising PSA should have a multiparametric MRI before considering re-biopsy. MRI can identify lesions that may have been missed and guide targeted biopsies. Free/total PSA ratio is not recommended in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63b6e2236783",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man is diagnosed with prostate cancer following a transrectal ultrasound-guided biopsy. His PSA is 3.2 ng/mL, Gleason score 3+3=6, and clinical stage T1c. He is asymptomatic and has no comorbidities. What is the most appropriate first-line therapy?",
+      "options": [
+        "Active surveillance",
+        "External beam radiotherapy",
+        "Radical prostatectomy",
+        "Brachytherapy",
+        "Androgen deprivation therapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend active surveillance for low-risk localised prostate cancer (Gleason ≤6, PSA <10, T1–T2a) to avoid overtreatment. Radical treatment is reserved for progression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1c08638ebcfd",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man presents with a PSA of 20 ng/mL. Biopsy shows Gleason 4+5=9 adenocarcinoma, and MRI confirms T3a disease with no evidence of metastases on CT and bone scan. He is fit with ECOG 0. What is the most appropriate first-line therapy?",
+      "options": [
+        "Androgen deprivation therapy alone",
+        "Watchful waiting",
+        "Radical prostatectomy alone",
+        "External beam radiotherapy plus long-term androgen deprivation therapy",
+        "External beam radiotherapy alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "For high-risk localised prostate cancer (PSA >20, Gleason 8–10, T3–T4), NICE recommends radiotherapy in combination with long-term androgen deprivation therapy (2–3 years).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2dd7bb7010be",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man is diagnosed with metastatic prostate cancer. Staging shows multiple bone metastases and pelvic lymphadenopathy. He has no significant comorbidities and ECOG performance status 0. What is the most appropriate first-line treatment?",
+      "options": [
+        "Androgen deprivation therapy alone",
+        "Androgen deprivation therapy plus enzalutamide",
+        "Androgen deprivation therapy plus abiraterone",
+        "Androgen deprivation therapy plus radium-223",
+        "Androgen deprivation therapy plus docetaxel"
+      ],
+      "answerIndex": 4,
+      "explanation": "The STAMPEDE trial established ADT plus docetaxel as standard first-line therapy for fit men with newly diagnosed metastatic hormone-sensitive prostate cancer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e22b3201f0be",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old man with castration-resistant prostate cancer and a history of epilepsy is being considered for systemic therapy. His only metastatic sites are bone, and he is asymptomatic. Which of the following treatments is CONTRAINDICATED in this patient?",
+      "options": [
+        "Radium-223",
+        "Best supportive care",
+        "Abiraterone plus prednisolone",
+        "Enzalutamide",
+        "Docetaxel"
+      ],
+      "answerIndex": 3,
+      "explanation": "Enzalutamide is associated with an increased risk of seizures and is contraindicated in patients with a history of seizure disorder. Alternative options include abiraterone or radium-223.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "314f7fbfa3b4",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man with castration-resistant prostate cancer has been treated with abiraterone and prednisolone, but his PSA is now rising. Scans reveal liver metastases in addition to bone metastases. He remains symptomatic from bone pain. Which of the following treatments is CONTRAINDICATED in this patient?",
+      "options": [
+        "Enzalutamide",
+        "Docetaxel",
+        "Palliative radiotherapy to painful bone sites",
+        "Cabazitaxel",
+        "Radium-223"
+      ],
+      "answerIndex": 4,
+      "explanation": "Radium-223 is only indicated for castration-resistant prostate cancer with symptomatic bone metastases and no visceral metastases. The presence of liver metastases is a contraindication to radium-223 therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "512c77ef92f1",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with low-risk localised prostate cancer (Gleason 3+3, PSA 6, T1c) on active surveillance has had a stable PSA for 2 years. At his latest 6-month review, his PSA has risen to 9.2 ng/mL. He remains asymptomatic. What is the single most appropriate next step?",
+      "options": [
+        "Repeat systematic prostate biopsy",
+        "Start androgen deprivation therapy (ADT)",
+        "Start watchful waiting instead of active surveillance",
+        "Refer for radical radiotherapy",
+        "Offer a PSMA PET scan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rising PSA on active surveillance suggests possible disease progression. NICE guidelines recommend re-biopsy to confirm progression before changing management. Watchful waiting is for those with limited life expectancy; radiotherapy or ADT would be premature without histological confirmation; PSMA PET is not first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb7f17c17b0f",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old man with known metastatic prostate cancer on ADT presents to the emergency department with acute urinary retention, severe lower back pain, and bilateral leg weakness. He is unable to walk. What is the single most appropriate immediate next step?",
+      "options": [
+        "Catheterise the bladder",
+        "Obtain an urgent MRI spine",
+        "Refer for urgent radiotherapy",
+        "Start broad-spectrum antibiotics",
+        "Give a high-dose dexamethasone bolus"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is suspected malignant spinal cord compression – an oncological emergency. The immediate action is to give high-dose dexamethasone to reduce cord oedema. Urgent MRI spine is essential but giving steroids is the first pharmacological step. Catheterisation relieves retention but does not treat cord compression; radiotherapy is not immediate; antibiotics are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a058d503c325",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man on ADT (leuprolide) for locally advanced prostate cancer is admitted with confusion and lethargy. Serum sodium is 121 mmol/L. He is euvolaemic on examination. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check serum osmolality, urine osmolality, and urine sodium",
+        "Fluid restrict to 1 L per day",
+        "Stop the leuprolide and start an alternative ADT",
+        "Give an oral sodium chloride tablet",
+        "Start 3% hypertonic saline infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient likely has SIADH, a known side effect of ADT. The immediate step is to confirm the diagnosis with paired serum and urine osmolality and urine sodium. Hypertonic saline is reserved for severe symptomatic hyponatraemia (seizures); stopping ADT is not first step; fluid restriction is treatment after diagnosis; oral salt is ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "369607ac7302",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with non-metastatic prostate cancer has been on ADT (goserelin) for 3 years. A routine DEXA scan shows osteopenia (T-score -2.0). His renal function is normal. What is the single most appropriate next step to reduce fracture risk?",
+      "options": [
+        "Repeat DEXA scan in 1 year",
+        "Start calcium and vitamin D supplements",
+        "Refer for a bone biopsy",
+        "Switch ADT to an anti-androgen monotherapy",
+        "Start a bisphosphonate (e.g., alendronic acid)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Long-term ADT causes accelerated bone loss. For osteopenia with a T-score below -2.5 or if multiple risk factors, a bisphosphonate is recommended. Calcium and vitamin D are co-therapy but not sufficient alone; bone biopsy is unnecessary; switching ADT is not standard; repeat DEXA without intervention delays therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cddf68375ff3",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old asymptomatic man undergoes a routine health check. His serum PSA is 15 ng/mL and digital rectal examination is normal. According to NICE guidelines, which finding alone is sufficient to warrant an urgent (2-week) suspected cancer referral?",
+      "options": [
+        "PSA >10 ng/mL in a man aged 60-69",
+        "Family history of prostate cancer",
+        "Normal DRE with PSA <20 ng/mL",
+        "Age over 70 years",
+        "PSA velocity >0.75 ng/mL/year"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guideline NG12 recommends urgent referral for suspected prostate cancer if PSA >10 ng/mL, regardless of DRE findings. PSA velocity is not used for referral. Family history and age alone are not referral criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a3073cfcf2f",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 74-year-old man with metastatic prostate cancer on androgen deprivation therapy presents with confusion, lethargy, and constipation. His corrected serum calcium is 3.2 mmol/L. Which finding is the most life-threatening in this scenario?",
+      "options": [
+        "PSA of 450 ng/mL",
+        "Alkaline phosphatase 350 U/L",
+        "Serum creatinine 130 μmol/L",
+        "Haemoglobin 105 g/L",
+        "Corrected calcium 3.2 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hypercalcaemia (corrected calcium >3.0 mmol/L) is a medical emergency, causing neurological, gastrointestinal, and renal effects. PSA elevation and mild anaemia are not immediately life-threatening. The high calcium level requires urgent treatment with IV fluids and bisphosphonates.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ea5264374e27",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known prostate cancer and lumbar spine metastases presents with progressive bilateral leg weakness and difficulty walking. Which neurological sign on examination is most indicative of impending spinal cord compression requiring urgent MRI?",
+      "options": [
+        "Bilateral extensor plantar responses",
+        "Perianal sensory loss",
+        "Reduced straight leg raise at 45°",
+        "Muscle wasting of the quadriceps",
+        "Loss of ankle jerks bilaterally"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral extensor plantar responses (Babinski sign) indicate upper motor neuron lesion from spinal cord compression, a neurosurgical emergency. Perianal sensory loss suggests cauda equina syndrome (lower motor neuron). The other options are less specific for cord compression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4a138bfb077",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man undergoes a transrectal ultrasound-guided prostate biopsy. Six hours later, he develops fever, rigors, and confusion. His vital signs: heart rate 110 bpm, respiratory rate 22/min, blood pressure 85/50 mmHg. Which of the following findings is the most critical red flag for life-threatening sepsis?",
+      "options": [
+        "Heart rate 110 bpm",
+        "White cell count 16 x10^9/L",
+        "Temperature 38.9°C",
+        "Blood pressure 85/50 mmHg",
+        "Respiratory rate 22/min"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension (systolic BP <90 mmHg) in the context of fever and rigors suggests septic shock, requiring immediate antibiotics and fluid resuscitation. Tachycardia, tachypnoea, and fever are all concerning but hypotension is the most urgent red flag for escalation to critical care.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "500ed4cdafcf",
+      "topic": "Prostate Cancer",
+      "slug": "prostate-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 76-year-old man with metastatic prostate cancer on hormonal therapy slips on a wet floor and lands on his right hip. He is unable to bear weight. On examination, his right leg is shortened and externally rotated. Which finding most strongly suggests a pathological femoral neck fracture?",
+      "options": [
+        "Positive Trendelenburg sign",
+        "Pain on passive rotation of the hip",
+        "Bruising over the greater trochanter",
+        "Shortening and external rotation of the leg",
+        "Inability to bear weight"
+      ],
+      "answerIndex": 3,
+      "explanation": "Shortening and external rotation of the leg is a classic sign of a displaced femoral neck fracture. This is a common pathological fracture from bone metastases and requires urgent orthopaedic review. Inability to bear weight is common but less specific; pain and bruising are also not definitive.",
+      "difficulty": "medium"
+    }
+  ]
+}

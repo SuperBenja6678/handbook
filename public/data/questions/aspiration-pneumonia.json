@@ -1,0 +1,513 @@
+{
+  "topic": "Aspiration Pneumonia",
+  "slug": "aspiration-pneumonia",
+  "system": "Respiratory",
+  "subSystem": "Infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:27:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "80783dc83f43",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old man who had a stroke two weeks ago and has been noted to have dysphagia presents with a three-day history of fever, productive cough with foul-smelling sputum, and pleuritic chest pain. On examination, he has a temperature of 38.5°C, bronchial breathing and crackles at the right lung base. Chest X-ray shows dense consolidation in the right lower lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Bronchiectasis",
+        "Pulmonary tuberculosis",
+        "Lung abscess",
+        "Aspiration pneumonia",
+        "Community-acquired pneumonia (typical)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The foul-smelling sputum suggests anaerobic infection, which is characteristic of aspiration pneumonia. The right lower lobe location is typical for aspiration in a patient with dysphagia. Community-acquired pneumonia is less likely due to the foul sputum and the patient's risk factors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3044203243fe",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with known gastro-oesophageal reflux disease (GERD) and mild dysphagia presents with a two-month history of recurrent episodes of cough, particularly at night, and occasional low-grade fever. She produces small amounts of clear sputum. She has had three chest infections in the past year, each treated with antibiotics. Chest X-ray shows bilateral basal interstitial changes. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary fibrosis",
+        "Bronchiectasis",
+        "Asthma",
+        "Chronic aspiration pneumonia",
+        "Tuberculosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recurrent episodes of cough and fever, especially nocturnal, in the context of GERD and dysphagia, strongly suggest aspiration. The bilateral basal changes on X-ray are consistent with chronic aspiration. Asthma typically presents with wheeze and is not usually associated with fever or basal changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d39de317629",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old man is found unconscious after a heavy alcohol binge. On arrival in the emergency department, his GCS is 10, temperature 38.8°C, respiratory rate 30 breaths/minute, heart rate 110 bpm, blood pressure 105/70 mmHg, and oxygen saturation 88% on room air. Auscultation reveals coarse crackles throughout both lung fields. Chest X-ray shows bilateral patchy opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Pulmonary embolism",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Aspiration pneumonia",
+        "Pulmonary oedema"
+      ],
+      "answerIndex": 3,
+      "explanation": "The history of reduced consciousness due to alcohol intoxication, fever, and bilateral crackles with patchy opacities is classic for aspiration pneumonia. Pulmonary oedema would not typically cause fever. ARDS is a possible complication but not the most likely initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c1c74d05258",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 66-year-old man with known aspiration pneumonia is being treated with intravenous antibiotics. After five days, his fever persists and he develops a new cough with copious purulent sputum. A repeat chest X-ray shows a new cavity with an air-fluid level in the right lower lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Lung cancer",
+        "Pulmonary tuberculosis",
+        "Lung abscess",
+        "Bronchopleural fistula"
+      ],
+      "answerIndex": 3,
+      "explanation": "A cavitary lesion with an air-fluid level is the hallmark of a lung abscess, which is a known complication of aspiration pneumonia due to anaerobic infection. This distinguishes it from empyema (which would show a pleural collection and not typically an air-fluid level in the lung parenchyma).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "38301c127c05",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old man with advanced dementia and poor oral intake presents to the emergency department with confusion and a low-grade fever of 37.8°C. He has no cough or sputum. On examination, crackles are heard at the right lung base. Urine dipstick is negative for nitrites and leukocytes. Chest X-ray shows right lower lobe consolidation. What is the single most likely diagnosis?",
+      "options": [
+        "Dehydration",
+        "Cerebrovascular event",
+        "Aspiration pneumonia",
+        "Urinary tract infection",
+        "Delirium from other cause"
+      ],
+      "answerIndex": 2,
+      "explanation": "The absence of cough and sputum (silent aspiration) is a common atypical presentation of aspiration pneumonia in elderly patients with dementia. The consolidation on chest X-ray and lack of urinary symptoms make UTI unlikely. Dehydration and primary delirium would not explain the focal chest findings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "18af919d1685",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old man with a history of stroke presents with a 2-day history of fever and cough. On examination, he has crackles at the right base. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Bronchoscopy",
+        "CT chest",
+        "Chest X-ray",
+        "Blood culture",
+        "Sputum culture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chest X-ray is the first-line imaging test to detect consolidation and support the diagnosis of aspiration pneumonia in this setting. CT chest is reserved for equivocal cases or when complications are suspected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7c5b99c525b2",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with Parkinson's disease and dysphagia presents with a 5-day history of low-grade fever and cough. Her chest X-ray shows no definite consolidation. What is the most appropriate next investigation?",
+      "options": [
+        "Full blood count",
+        "Repeat chest X-ray in 48 hours",
+        "CT chest",
+        "Bronchoscopy",
+        "Sputum culture"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT chest has higher sensitivity for detecting early or subtle pneumonia compared to chest X-ray, especially when clinical suspicion is high and initial X-ray is negative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "efc25e4bb40d",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 85-year-old nursing home resident is found choking on food and is now in respiratory distress. Oxygen saturations are 88% on air. A chest X-ray is performed. Which of the following findings is most characteristic of acute aspiration pneumonia?",
+      "options": [
+        "Bilateral perihilar infiltrates",
+        "Right lower lobe consolidation",
+        "Diffuse bilateral nodular opacities",
+        "Left lower lobe consolidation",
+        "Right upper lobe consolidation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due to the anatomy of the tracheobronchial tree, aspirated material preferentially enters the right main bronchus and lower lobe, making right lower lobe consolidation the most common CXR finding in aspiration pneumonia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1aec5dfe4810",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with known aspiration pneumonia develops persistent fever and foul-smelling sputum despite 5 days of antibiotics. A chest X-ray shows a cavity with an air-fluid level. Which investigation is most appropriate to confirm the diagnosis of a lung abscess?",
+      "options": [
+        "Sputum culture",
+        "CT chest",
+        "Repeat chest X-ray",
+        "Bronchoscopy",
+        "Ultrasound chest"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT chest provides precise characterization of lung abscesses, including their size, location, and relationship to the pleura, and is more sensitive than chest X-ray in confirming the diagnosis and assessing for complications such as empyema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53786308aa0c",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man on immunosuppressants for a renal transplant presents with fever, cough, and dyspnoea. He has a history of gastro-oesophageal reflux. Chest X-ray shows bilateral lower lobe infiltrates. Which investigation is most appropriate to identify the causative organism?",
+      "options": [
+        "Bronchoscopy with bronchoalveolar lavage",
+        "Urinary antigen for Legionella",
+        "Sputum culture",
+        "CT chest",
+        "Blood culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "In immunocompromised patients, bronchoscopy with BAL provides the highest yield for identifying pathogens, including opportunistic ones, and is more sensitive than sputum culture or blood culture for diagnosing aspiration pneumonia in this population.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5eaf47ba81c8",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with dementia and swallowing difficulties presents with a 2-day history of cough, fever, and crackles in the right lower lobe. Chest X-ray confirms consolidation in the right lower lobe. She has no known drug allergies. What is the single most appropriate first-line antibiotic for her community-acquired aspiration pneumonia?",
+      "options": [
+        "Metronidazole 400 mg three times daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Amoxicillin 500 mg three times daily",
+        "Clarithromycin 500 mg twice daily",
+        "Doxycycline 200 mg on day 1 then 100 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aspiration pneumonia requires anaerobic coverage. Co-amoxiclav provides both aerobic and anaerobic cover and is first-line per UK guidelines. Amoxicillin alone lacks anaerobic activity, and metronidazole alone does not cover aerobes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca7f3d89778a",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man who is 3 days post-oesophagectomy develops fever, productive cough, and hypoxia. Chest X-ray shows a new left lower lobe infiltrate. He is admitted to ICU. Blood cultures are pending. He has no allergies. What is the most appropriate empirical antibiotic for his hospital-acquired aspiration pneumonia?",
+      "options": [
+        "Piperacillin-tazobactam 4.5 g four times daily",
+        "Metronidazole 500 mg three times daily",
+        "Vancomycin 1 g twice daily",
+        "Ceftriaxone 2 g once daily",
+        "Ciprofloxacin 400 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hospital-acquired aspiration pneumonia requires broad-spectrum cover including anaerobes. Piperacillin-tazobactam is first-line for hospital-acquired pneumonia with aspiration risk. Ceftriaxone lacks reliable anaerobic cover.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03d5ad554164",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with a history of alcohol misuse presents with a 3-week history of cough, foul-smelling sputum, and weight loss. Chest X-ray shows a cavity with an air-fluid level in the right upper lobe. He is diagnosed with a lung abscess secondary to aspiration pneumonia. He has no drug allergies. What is the most appropriate first-line antibiotic for this complication?",
+      "options": [
+        "Vancomycin 1 g twice daily",
+        "Clindamycin 450 mg four times daily",
+        "Penicillin V 500 mg four times daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Metronidazole 400 mg twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lung abscess from aspiration is best treated with clindamycin or penicillin plus metronidazole. Clindamycin is first-line as monotherapy due to excellent anaerobic penetration and efficacy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5b1da0570629",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with a known severe penicillin allergy (anaphylaxis) presents with aspiration pneumonia. She requires intravenous antibiotics. Which of the following antibiotics is contraindicated in this patient?",
+      "options": [
+        "Levofloxacin 500 mg once daily",
+        "Doxycycline 100 mg twice daily",
+        "Metronidazole 500 mg three times daily",
+        "Clindamycin 600 mg four times daily",
+        "Co-amoxiclav 1.2 g three times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Co-amoxiclav contains a penicillin component and is contraindicated in patients with a history of immediate hypersensitivity to penicillins. The other options are safe alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "80d238d5dc50",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with a history of recurrent Clostridium difficile infection is admitted with aspiration pneumonia. He has no drug allergies. Which antibiotic should be avoided as first-line therapy due to the highest risk of triggering a C. difficile relapse?",
+      "options": [
+        "Co-amoxiclav 625 mg three times daily",
+        "Clindamycin 450 mg four times daily",
+        "Amoxicillin 500 mg three times daily",
+        "Metronidazole 400 mg three times daily",
+        "Piperacillin-tazobactam 4.5 g four times daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clindamycin is strongly associated with Clostridium difficile infection and should be avoided in patients with a history of C. difficile, especially when alternatives exist. Co-amoxiclav and piperacillin-tazobactam have lower risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3552fb9fee70",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with Parkinson's disease and known dysphagia presents with a 2-day history of cough, fever, and right basal crackles. Chest X-ray shows right lower lobe consolidation. Observations: RR 22, SpO2 93% on room air, HR 95, BP 130/80, temp 38.2°C. AMTS 8/10 (previously 10/10). What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange bronchoscopy",
+        "Request a CT chest",
+        "Start intravenous co-amoxiclav",
+        "Take blood cultures then start intravenous fluids",
+        "Start oral amoxicillin"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has a CURB-65 score of 2 (age ≥65, confusion), indicating moderate severity requiring intravenous antibiotics. Co-amoxiclav provides anaerobic cover essential for aspiration pneumonia. Blood cultures should be taken but antibiotics should not be delayed; starting IV antibiotics is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6f2507256e8",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with gastro-oesophageal reflux disease and poor dentition presents with a 3-day history of productive cough and low-grade fever. Chest X-ray shows a left lower lobe patchy opacity. Observations: RR 18, SpO2 96% on air, HR 90, BP 140/80, temp 37.8°C. No confusion. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral co-amoxiclav",
+        "Request a CT chest",
+        "Start oral amoxicillin",
+        "Take a sputum culture then start oral antibiotics",
+        "Start oral doxycycline"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is mild community-acquired pneumonia (CURB-65 0), but the history of reflux and poor dentition suggests aspiration. NICE recommends co-amoxiclav as first-line for aspiration pneumonia to cover anaerobes. Amoxicillin lacks anaerobic cover; doxycycline is second-line. Starting antibiotics immediately is more important than awaiting sputum culture.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c16ff9c37671",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old nursing home resident with dementia was found choking on food. She now has severe respiratory distress: SpO2 85% on 15 L/min O2, RR 35, HR 120, BP 85/60, temp 39.2°C, GCS 12. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an urgent CT chest",
+        "Call the anaesthetic team for intubation",
+        "Take blood cultures and start intravenous fluids",
+        "Start intravenous co-amoxiclav",
+        "Give intravenous metronidazole alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has acute severe respiratory failure with airway compromise and hypotension. The immediate priority is securing the airway via intubation. Antibiotics are vital but secondary to addressing life-threatening hypoxia and protecting the airway.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0eab43d44edb",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with a recent stroke and dysphagia, on nasogastric feeding, develops cough and fever. Chest X-ray shows right upper lobe consolidation with possible cavitation. She has been on co-amoxiclav for 3 days but is not improving. Sputum culture previously grew mixed anaerobes. What is the single most appropriate immediate next step?",
+      "options": [
+        "Add intravenous metronidazole",
+        "Escalate to the intensive care unit",
+        "Arrange bronchoscopy for drainage",
+        "Request a CT chest",
+        "Switch to intravenous piperacillin-tazobactam"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lack of improvement and possible cavitation suggests a complication such as lung abscess or empyema. CT chest is the best next step to define the anatomy and guide further management (e.g., drainage or surgical referral). Changing antibiotics without an accurate diagnosis may be premature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "907c4242e3e1",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 34-year-old intravenous drug user presents with a 2-day history of cough and fever. He had a heroin overdose 3 days ago but was treated and is now alert. Chest X-ray shows right middle lobe consolidation. Observations: SpO2 94% on air, RR 20, HR 100, BP 110/70, temp 38.5°C. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral doxycycline",
+        "Start intravenous co-amoxiclav",
+        "Give naloxone",
+        "Start intravenous piperacillin-tazobactam",
+        "Take blood cultures and start intravenous antibiotics"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has aspiration pneumonia following a recent overdose, requiring antibiotic cover for anaerobes. NICE recommends co-amoxiclav first-line. Piperacillin-tazobactam is too broad for first-line; naloxone is unnecessary as the patient is alert; blood cultures should be taken but the immediate action is to start antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "deb8586a389c",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man with Parkinson's disease and dysphagia presents with cough, fever, and confusion. Observations: RR 28, HR 110, BP 110/70, SpO2 90% on 2 L O2, temperature 38.5°C. Which single finding indicates the need for immediate escalation to level 2/3 care?",
+      "options": [
+        "Confusion",
+        "Respiratory rate >25",
+        "Fever >38°C",
+        "SpO2 90% on 2 L oxygen",
+        "Tachycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "In aspiration pneumonia, SpO2 <92% on oxygen signifies severe hypoxaemia requiring escalation to high-flow oxygen or NIV. Confusion is common but less specific; tachycardia and tachypnoea are markers of sepsis but not the most urgent threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a46b420f4c3",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with chronic alcoholism presents with cough, foul-smelling sputum, and weight loss over 3 weeks. He has a low-grade fever. Which finding most strongly suggests a lung abscess?",
+      "options": [
+        "Foul-smelling sputum",
+        "Night sweats",
+        "Digital clubbing",
+        "Pleuritic chest pain",
+        "Haemoptysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Foul-smelling sputum is classic for anaerobic lung abscess, a common complication of aspiration pneumonia. Haemoptysis can occur but is less specific; night sweats and weight loss are constitutional.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2680bba3928f",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with a history of stroke and dysphagia is found in respiratory distress after a meal. She is cyanosed, using accessory muscles, and has a 'silent chest' on the right side. What is the most likely cause?",
+      "options": [
+        "Pleural effusion",
+        "Pulmonary embolism",
+        "Aspiration of a large food bolus",
+        "Acute asthma",
+        "Pneumothorax"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Silent chest' with acute onset after feeding indicates complete bronchial obstruction from a large aspirated bolus. Pneumothorax would produce hyper-resonance, not silence; asthma typically presents with wheeze.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fff8877513d4",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with aspiration pneumonia on co-amoxiclav develops worsening dyspnoea and pleuritic pain on day 5. Fever persists. CXR shows a loculated pleural effusion. What complication has occurred?",
+      "options": [
+        "ARDS",
+        "Empyema",
+        "Pneumothorax",
+        "Lung abscess",
+        "Bronchopleural fistula"
+      ],
+      "answerIndex": 1,
+      "explanation": "A loculated pleural effusion with persistent fever in aspiration pneumonia is classic for empyema (often anaerobic), requiring drainage. Lung abscess is parenchymal; pneumothorax would show an air-fluid level.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b8afa508d3c0",
+      "topic": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "system": "Respiratory",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 85-year-old woman with end-stage dementia, fully dependent, develops recurrent aspiration pneumonia. She becomes unconscious with a respiratory rate of 6. Arterial blood gas shows pH 7.15, pCO2 80 mmHg, pO2 50 mmHg on air. Which single finding indicates that escalation to intensive care is unlikely to be beneficial?",
+      "options": [
+        "pO2 <60 mmHg",
+        "pCO2 >60 mmHg",
+        "Age >80 years",
+        "Unconsciousness",
+        "pH <7.20"
+      ],
+      "answerIndex": 4,
+      "explanation": "pH <7.20 indicates severe acidaemia; in a frail patient with recurrent aspiration, this portends a very poor prognosis even with ICU support. Unconsciousness alone is not a threshold, and age >80 is not an absolute contraindication.",
+      "difficulty": "hard"
+    }
+  ]
+}

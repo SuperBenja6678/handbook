@@ -1,0 +1,513 @@
+{
+  "topic": "PTSD (Post-Traumatic Stress Disorder)",
+  "slug": "ptsd-post-traumatic-stress-disorder",
+  "system": "Psychiatry",
+  "subSystem": "Anxiety",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:37:30Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "af14f7daf601",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old man presents to his GP 4 weeks after a road traffic accident. He reports recurrent, intrusive images of the crash, avoids driving, has difficulty sleeping, and feels jumpy. He has no prior psychiatric history. What is the single most likely diagnosis?",
+      "options": [
+        "Acute stress disorder",
+        "Post-traumatic stress disorder",
+        "Panic disorder",
+        "Adjustment disorder",
+        "Generalised anxiety disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "The symptoms began within 4 weeks of the trauma, so the diagnosis is acute stress disorder (symptoms 3 days–1 month post-trauma). PTSD requires symptoms for >1 month. The key discriminator is timing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9023ef73c782",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman sustained a sexual assault 6 months ago. She has frequent nightmares, avoids reminders, feels emotionally numb, and has started drinking heavily to cope. She remains in her job but has withdrawn from friends. What is the single most likely diagnosis?",
+      "options": [
+        "Complex PTSD",
+        "Major depressive disorder",
+        "Borderline personality disorder",
+        "Post-traumatic stress disorder",
+        "Alcohol dependence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Classic PTSD symptoms (re-experiencing, avoidance, hyperarousal) lasting >1 month. No features of chronicity or disturbances in self-organisation to suggest complex PTSD. The alcohol use is secondary. Major depression lacks the trauma-specific symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "771e1b2edf95",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old soldier presents 2 months after an improvised explosive device blast. He describes vivid flashbacks, avoids crowded places, and has angry outbursts. On further questioning, he also reports feeling detached from his body during flashbacks and sometimes cannot remember parts of the day. What is the single most likely diagnosis?",
+      "options": [
+        "Psychogenic non-epileptic seizures",
+        "Dissociative identity disorder",
+        "Traumatic brain injury",
+        "Post-traumatic stress disorder with dissociative features",
+        "Schizophrenia"
+      ],
+      "answerIndex": 3,
+      "explanation": "PTSD with dissociative symptoms (depersonalisation, derealisation) is a recognised specifier. The flashbacks and avoidance point to PTSD; dissociation is an associated feature. Other options lack the core trauma-related symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "28b685d45385",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman who was raped 10 months ago now presents with nightmares, hypervigilance, and avoidance. She also describes feeling as though the event is happening again, and sometimes hears the attacker’s voice calling her name when no one is around. She is distressed by these experiences. What is the single most likely diagnosis?",
+      "options": [
+        "Psychotic depression",
+        "Post-traumatic stress disorder",
+        "Schizophrenia",
+        "Bipolar I disorder",
+        "Brief psychotic disorder"
+      ],
+      "answerIndex": 1,
+      "explanation": "The auditory phenomena are pseudohallucinations (intrusive re-experiencing), not psychotic hallucinations. The core PTSD features (nightmares, avoidance, hypervigilance) are present. No delusions or negative symptoms of schizophrenia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "21d3a8089d67",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old refugee presents 1 year after arriving in the UK. He endorses recurrent nightmares about war scenes, avoids thinking about his past, feels constantly on edge, and has difficulty concentrating. He says he ‘shuts down’ emotionally. He denies low mood or anhedonia. What is the single most likely diagnosis?",
+      "options": [
+        "Post-traumatic stress disorder",
+        "Complex PTSD",
+        "Generalised anxiety disorder",
+        "Adjustment disorder",
+        "Major depressive disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "Classic PTSD symptoms (re-experiencing, avoidance, hyperarousal) for >1 year. No evidence of pervasive affect dysregulation or negative self-concept to suggest complex PTSD. No prominent low mood to diagnose depression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b128ee39251",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man presents 3 weeks after a street robbery. He reports intrusive thoughts of the event, avoids the area, and feels jittery. He has no prior psychiatric history. According to DSM-5, at what point does this presentation transition from acute stress disorder to PTSD?",
+      "options": [
+        "3 months",
+        "1 month",
+        "6 months",
+        "1 week",
+        "2 weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "DSM-5 requires symptoms for more than 1 month for PTSD; acute stress disorder lasts 3 days to 1 month. The correct duration threshold is 1 month.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c43ec5afc4b4",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman reports nightmares and hypervigilance 6 weeks after a car accident. She meets two of the four symptom clusters but not full criteria. What is the most likely diagnosis?",
+      "options": [
+        "Acute stress disorder",
+        "No diagnosis",
+        "Generalized anxiety disorder",
+        "PTSD",
+        "Adjustment disorder"
+      ],
+      "answerIndex": 4,
+      "explanation": "Adjustment disorder is diagnosed when emotional/behavioural symptoms occur in response to a stressor and do not meet criteria for other disorders. Duration >1 month rules out acute stress disorder, and subthreshold PTSD suggests adjustment disorder.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7159df8b3476",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man is brought to the ED after a workplace assault. He is agitated, hypervigilant, and reports feeling as if the event is happening again. He smells the attacker's breath. He has no visible injuries. His breath smells of alcohol and his pupils are constricted. What is the single most appropriate initial step to ensure an accurate diagnosis?",
+      "options": [
+        "Urine toxicology",
+        "Full psychiatric history",
+        "Electroencephalogram",
+        "Use of PTSD checklist",
+        "CT head"
+      ],
+      "answerIndex": 0,
+      "explanation": "Substance intoxication (especially opiates or alcohol) can mimic PTSD re-experiencing symptoms; toxicology must be done to rule out substance-induced anxiety disorder before diagnosing PTSD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "771da4acfc7c",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old veteran with a 3-year history of PTSD develops auditory hallucinations that comment on his actions, stating he is 'bad' and 'should die.' The voices relate to his combat experiences. He has no formal thought disorder or catatonia. What is the most likely explanation?",
+      "options": [
+        "PTSD with psychotic features",
+        "Dissociative identity disorder",
+        "Schizophrenia",
+        "Substance-induced psychosis",
+        "Traumatic brain injury"
+      ],
+      "answerIndex": 0,
+      "explanation": "Psychotic symptoms in PTSD can occur as part of the disorder, especially when content is trauma-related; absence of other schizophrenic features makes PTSD with psychotic features more likely than primary psychotic disorder.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "90b52f2c0461",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old asylum seeker who experienced torture 8 years ago presents with avoidance, nightmares, and hypervigilance. He speaks only Arabic. Which screening instrument is most validated for diagnosing PTSD in this population?",
+      "options": [
+        "Trauma Screening Questionnaire (TSQ)",
+        "PTSD Checklist (PCL-5)",
+        "Clinician-Administered PTSD Scale (CAPS-5)",
+        "Impact of Event Scale-Revised (IES-R)",
+        "Harvard Trauma Questionnaire (HTQ)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Harvard Trauma Questionnaire (HTQ) was specifically designed for refugees and is validated in multiple languages, including Arabic, making it appropriate for this population.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f9cdc7a7b849",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with intrusive memories and nightmares of a sexual assault 2 months ago. She avoids crowded places and feels constantly on edge. She has no other medical problems and is not taking any medication. She has never had therapy before. What is the most appropriate first-line treatment according to NICE guidelines?",
+      "options": [
+        "Eye movement desensitisation and reprocessing (EMDR)",
+        "Venlafaxine 75 mg daily",
+        "Sertraline 50 mg daily",
+        "Alprazolam 0.5 mg as required",
+        "Propranolol 40 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend trauma-focused psychological therapy (TF-CBT or EMDR) as first-line for PTSD. EMDR is one such therapy. SSRIs (sertraline) are second-line if psychological therapy is declined or ineffective. Venlafaxine is also second-line. Propranolol may be used for performance anxiety but not PTSD. Alprazolam (benzodiazepine) is not recommended for PTSD due to risk of dependence and lack of efficacy for core symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ea27d1573400",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man with PTSD from military combat has completed 12 sessions of trauma-focused CBT with partial response. He continues to have hyperarousal and flashbacks affecting his work. He asks for medication. He has no contraindications to antidepressants. What is the most appropriate next step in pharmacological management?",
+      "options": [
+        "Start sertraline 50 mg daily",
+        "Start mirtazapine 30 mg at night",
+        "Start propranolol 40 mg twice daily",
+        "Start clonazepam 0.5 mg twice daily",
+        "Start quetiapine 25 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "After inadequate response to psychological therapy, NICE recommends offering an SSRI (sertraline or paroxetine) as first-line pharmacological treatment for PTSD. Mirtazapine is not a first-line option. Quetiapine is an augmentation strategy for treatment-resistant cases, not first-line. Propranolol and benzodiazepines (clonazepam) are not recommended for PTSD due to limited evidence and risk of dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb6e6452bed6",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old female with PTSD presents requesting medication. She is 12 weeks pregnant. She has no other medical history. She has had trauma-focused psychological therapy in the past but did not engage well. What is the most appropriate pharmacological treatment option?",
+      "options": [
+        "Paroxetine 20 mg daily",
+        "Sertraline 50 mg daily",
+        "Alprazolam 0.5 mg as required",
+        "Amitriptyline 25 mg daily",
+        "Venlafaxine 75 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sertraline is the preferred SSRI in pregnancy due to its favourable safety profile. Paroxetine is relatively contraindicated in pregnancy (risk of fetal cardiac defects). Venlafaxine and amitriptyline are not first-line. Alprazolam is a benzodiazepine and should be avoided in pregnancy and for PTSD. NICE advises SSRIs as first-line for PTSD when medication is needed, and sertraline is often chosen in pregnancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "680d7e841048",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 15-year-old boy with a history of bullying presents with recurrent distressing thoughts, nightmares, and avoidance of social situations for 6 months. He has no comorbidities. What is the most appropriate first-line treatment for his PTSD?",
+      "options": [
+        "Trauma-focused cognitive behavioural therapy (TF-CBT)",
+        "Paroxetine 20 mg daily",
+        "Fluoxetine 20 mg daily",
+        "Sertraline 50 mg daily",
+        "Cognitive behavioural therapy with parent involvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "For children and adolescents with PTSD, NICE recommends trauma-focused psychological therapy (TF-CBT or EMDR) as first-line. Medication (SSRIs) is not first-line and should only be considered if psychological therapy is ineffective or unavailable. Fluoxetine is not licensed for PTSD. Parent involvement is part of TF-CBT but the core therapy is TF-CBT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea68633b0952",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with chronic PTSD, treated with sertraline 200 mg daily for 6 months, continues to have severe intrusive symptoms and hypervigilance. He has also completed TF-CBT but with limited benefit. He is stable, with no psychosis or mania. What is the most appropriate augmentation strategy?",
+      "options": [
+        "Add clonazepam 0.5 mg as required",
+        "Add mirtazapine 30 mg at night",
+        "Switch from sertraline to venlafaxine 150 mg daily",
+        "Add quetiapine 50 mg daily",
+        "Add propranolol 40 mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In treatment-resistant PTSD, NICE recommends considering augmentation with an atypical antipsychotic such as quetiapine (or risperidone). Mirtazapine and propranolol have limited evidence for augmentation. Benzodiazepines (clonazepam) are not recommended. Switching to venlafaxine is an option but not specifically an augmentation; quetiapine is a recognised add-on therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2d379ec09551",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man presents to his GP 8 weeks after a traumatic assault. He describes intrusive memories, avoiding reminders, difficulty sleeping, and feeling irritable. PHQ-9 score 10. He has no suicidal ideation. What is the most appropriate next step?",
+      "options": [
+        "Prescribe diazepam for sleep",
+        "Offer watchful waiting",
+        "Refer for trauma-focused cognitive behavioural therapy",
+        "Refer to community mental health team",
+        "Start mirtazapine 15 mg nocte"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends trauma-focused CBT as first-line for PTSD when symptoms persist beyond 4 weeks. Watchful waiting is inappropriate as symptoms are established. Medication is second-line. Diazepam is not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f98affa9c69c",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with a history of PTSD from childhood abuse presents to the ED with acute distress after a recent triggering event. She is tearful, hyperventilating, and says she feels like she is 'losing her mind'. Observations: HR 110, RR 28, SpO2 99%, BP 130/80. She denies suicidal thoughts. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to liaison psychiatry",
+        "Start sertraline 50 mg",
+        "Reassure and provide breathing technique guidance",
+        "Administer lorazepam 2 mg orally",
+        "Perform a CT head"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute distress without suicidal ideation, the immediate step is to provide reassurance and grounding techniques. Benzodiazepines are not first-line and may worsen PTSD. Liaison psychiatry may be needed but not the first action. CT head is not indicated. Starting an antidepressant is inappropriate in an acute crisis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37e334b57f94",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known PTSD (diagnosed 2 years ago) presents to his GP requesting medication because his symptoms are worsening. He admits to drinking heavily (approx. 40 units/week) to cope. He has no suicidal ideation. What is the most appropriate next step?",
+      "options": [
+        "Start sertraline 50 mg daily",
+        "Prescribe propranolol for anxiety",
+        "Refer to addiction services",
+        "Refer for trauma-focused CBT",
+        "Refer for detoxification"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends addressing comorbid substance misuse first or concurrently before treating PTSD. Referral to addiction services is the most appropriate immediate step to assess and manage alcohol misuse. Detoxification may follow but requires specialist assessment. Starting an SSRI or propranolol is not first-line with active heavy drinking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "328c4f39097f",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman who is 20 weeks pregnant presented to the antenatal clinic with symptoms of PTSD following a previous traumatic birth. She has nightmares, avoids hospitals, and feels anxious. She requests help. What is the most appropriate next step?",
+      "options": [
+        "Prescribe diazepam for acute anxiety",
+        "Advise her to wait until after delivery",
+        "Refer for trauma-focused CBT",
+        "Refer to psychiatry",
+        "Start sertraline 50 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Trauma-focused CBT is first-line for PTSD in pregnancy as it is safe and effective. SSRIs may be used but are not first-line and require careful risk-benefit discussion. Advising delay is not appropriate. Diazepam is not recommended. Psychiatry referral may follow if needed, but the immediate step is to offer evidence-based psychological therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dd1f30aeea2",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman with PTSD has completed a course of trauma-focused CBT 6 months ago and her symptoms have significantly improved. She now presents with a recurrence of mild symptoms after a work-related stressor. She is not suicidal. What is the most appropriate next step?",
+      "options": [
+        "Offer a 'top-up' session of CBT",
+        "Re-refer to the CMHT for assessment",
+        "Prescribe a short course of zopiclone",
+        "Restart CBT with the same therapist",
+        "Start sertraline 50 mg"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE suggests offering a 'top-up' session of the same psychological therapy that was previously effective for relapse. Restarting full CBT may be excessive. Starting medication is not first-line if a brief intervention may suffice. Zopiclone is not recommended for PTSD. Re-referral to CMHT is premature as a brief intervention is appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b4113c8362c5",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman attends the GP 4 weeks after a road traffic accident. She reports recurrent intrusive images of the crash, avoidance of driving, and hypervigilance. Which single finding would most urgently indicate the need for same-day psychiatric assessment?",
+      "options": [
+        "Recurrent nightmares",
+        "Avoidance of public transport",
+        "Irritability and mood swings",
+        "Hypervigilance to traffic",
+        "Expressed suicidal ideation with a specific plan"
+      ],
+      "answerIndex": 4,
+      "explanation": "Suicidal ideation with a plan is the most dangerous finding and requires immediate crisis intervention. While the other symptoms are core PTSD features, they do not denote imminent risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0f775d0756f9",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with chronic PTSD from military service presents to the emergency department with chest tightness, palpitations, and a feeling of impending doom. He is diaphoretic and tachypnoeic. Which single finding most strongly suggests acute coronary syndrome rather than a panic attack?",
+      "options": [
+        "Fear of death",
+        "Previous similar episodes",
+        "History of PTSD",
+        "Hyperventilation",
+        "ST-segment elevation on ECG"
+      ],
+      "answerIndex": 4,
+      "explanation": "ST-segment elevation is diagnostic of myocardial infarction. Panic attacks may mimic acute coronary syndrome but do not produce ST-elevation. The other options are common in both conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c5d9dc4ab097",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old male veteran with PTSD is brought to the emergency department by police after threatening neighbours with a knife. He is agitated, paranoid, and refusing to speak. Which single finding indicates the highest risk of imminent violence?",
+      "options": [
+        "Hypervigilance to sounds",
+        "Flashback of combat",
+        "Command auditory hallucinations to kill",
+        "Avoidance of eye contact",
+        "Emotional numbing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Command hallucinations to harm others are a strong predictor of violence, especially in the context of agitation and paranoia. Other features are common in PTSD but do not indicate immediate dangerousness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dcd5ccd2ed7",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with PTSD collapses at a wedding. Witnesses describe tonic-clonic movements, but she does not respond to stimuli. On examination, she has closed eyes and resistant eye opening. Which single finding most strongly favours a dissociative (non-epileptic) seizure over a genuine epileptic seizure?",
+      "options": [
+        "Tongue biting",
+        "Cyanosis",
+        "Urinary incontinence",
+        "Resistant eye closure",
+        "Post-ictal confusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resistant eye closure (actively keeping eyes shut) is a classic sign of dissociative seizures. Tongue biting, incontinence, cyanosis, and post-ictal confusion are more typical of epileptic seizures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d6e35ae7380d",
+      "topic": "PTSD (Post-Traumatic Stress Disorder)",
+      "slug": "ptsd-post-traumatic-stress-disorder",
+      "system": "Psychiatry",
+      "subSystem": "Anxiety",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old resident of a nursing home with a history of PTSD from childhood abuse becomes acutely confused, agitated, and sees \"little men\" in the room over the past 6 hours. Which single finding best differentiates delirium from a flashback episode?",
+      "options": [
+        "Emotional numbing",
+        "Hypervigilance",
+        "Fluctuating consciousness and inattention",
+        "Visual hallucinations",
+        "Avoidance of the topic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fluctuating consciousness and inattention are hallmarks of delirium, which has an acute onset and is potentially life-threatening. Flashbacks in PTSD usually occur with preserved consciousness and are triggered by reminders.",
+      "difficulty": "medium"
+    }
+  ]
+}

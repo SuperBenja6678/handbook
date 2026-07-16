@@ -1,0 +1,513 @@
+{
+  "topic": "Gastric Cancer",
+  "slug": "gastric-cancer",
+  "system": "Gastroenterology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:16:48Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "a1113e72af23",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with a three-month history of progressive dysphagia, weight loss of 8 kg, and epigastric discomfort. He has no vomiting or haematemesis. On examination, there is mild epigastric tenderness but no mass. Blood tests show microcytic anaemia (Hb 98 g/L, MCV 78 fL). Upper gastrointestinal endoscopy reveals an irregular, ulcerated lesion in the gastric antrum. What is the single most likely diagnosis?",
+      "options": [
+        "Peptic ulcer disease",
+        "Gastro-oesophageal reflux disease",
+        "Gastric adenocarcinoma",
+        "Oesophageal cancer",
+        "Gastric lymphoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of progressive dysphagia, weight loss, microcytic anaemia, and an endoscopically irregular ulcerated lesion in the antrum is classic for gastric adenocarcinoma. Gastric lymphoma may present similarly but is less common and often has a more indolent course; peptic ulcer disease usually causes pain relieved by food and does not typically cause progressive dysphagia; GORD primarily causes heartburn; oesophageal cancer is more likely if the lesion is in the oesophagus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "45127894924c",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with known pernicious anaemia presents with a six-week history of vague epigastric discomfort and early satiety. She has no weight loss or vomiting. Her haemoglobin is 112 g/L with macrocytosis (MCV 104 fL). Upper gastrointestinal endoscopy shows a flat, subtle mucosal lesion in the gastric body. Biopsies confirm intestinal metaplasia and dysplasia. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune atrophic gastritis",
+        "Gastric adenocarcinoma",
+        "Gastric lymphoma",
+        "Gastric carcinoid tumour",
+        "Zollinger-Ellison syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pernicious anaemia is a risk factor for gastric adenocarcinoma, especially when associated with dysplasia and intestinal metaplasia. The presence of dysplasia in a patient with pernicious anaemia makes adenocarcinoma more likely than carcinoid (which is also associated with atrophic gastritis but typically presents with multiple small polyps) or lymphoma (which usually has a mass). Autoimmune atrophic gastritis is the underlying condition but not a diagnosis of malignancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "49b65140768d",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents to the emergency department with haematemesis and melaena. He has a one-month history of epigastric pain and anorexia. On examination, he is pale and tachycardic (HR 110 bpm, BP 105/70 mmHg). Rectal examination reveals melaena. Emergency upper gastrointestinal endoscopy shows a 3 cm ulcerated mass in the gastric antrum with a visible vessel. What is the single most likely diagnosis?",
+      "options": [
+        "Gastric lymphoma",
+        "Mallory-Weiss tear",
+        "Gastric adenocarcinoma",
+        "Gastric angiodysplasia",
+        "Peptic ulcer disease with bleeding"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of an ulcerated mass, recent symptoms of epigastric pain and anorexia, and acute upper GI bleeding suggest a malignant cause, most likely gastric adenocarcinoma. Peptic ulcer disease typically causes pain relieved by food and may bleed but does not usually present with a mass; angiodysplasia and Mallory-Weiss tear do not cause ulcerated masses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ee4043ef92ea",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman presents with a two-week history of vomiting after meals. She describes repeated, non-bilious vomiting of undigested food. She has lost 5 kg over two months and complains of epigastric fullness. On examination, a succussion splash is heard. Upper gastrointestinal endoscopy shows a large, exophytic tumour in the pyloric region causing near-complete obstruction. What is the single most likely diagnosis?",
+      "options": [
+        "Pancreatic cancer",
+        "Gastric lymphoma",
+        "Superior mesenteric artery syndrome",
+        "Gastric adenocarcinoma",
+        "Duodenal ulcer with pyloric stenosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The clinical picture of gastric outlet obstruction (vomiting of undigested food, succussion splash) with an exophytic pyloric tumour is most consistent with gastric adenocarcinoma. Pancreatic cancer may cause obstruction but typically originates in the pancreas; duodenal ulcer can cause stenosis but usually has a history of pain; lymphoma is less common; SMA syndrome presents with bilious vomiting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "73687dea07df",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with no significant medical history presents with fatigue and exertional dyspnoea. He denies any gastrointestinal symptoms. Blood tests show microcytic anaemia (Hb 92 g/L, MCV 74 fL) with low ferritin. He has a normal colonoscopy. What is the single most likely diagnosis?",
+      "options": [
+        "Colorectal cancer",
+        "Gastric adenocarcinoma",
+        "Iron deficiency anaemia due to menorrhagia",
+        "Coeliac disease",
+        "Angiodysplasia of the small bowel"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a man with iron deficiency anaemia and a negative colonoscopy, upper GI causes must be considered. Gastric adenocarcinoma is a common cause, especially if asymptomatic. Coeliac disease is also possible but typically associated with other features; the lack of GI symptoms does not exclude gastric cancer. Colorectal cancer is ruled out by normal colonoscopy. Angiodysplasia is less common. Menorrhagia is not applicable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00bb1c0093ee",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with a 3-month history of dysphagia to solids, unintentional weight loss of 8 kg, and epigastric discomfort. He has no vomiting. What is the most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "Upper GI endoscopy without biopsy",
+        "Barium swallow",
+        "Oesophagogastroduodenoscopy (OGD) with biopsy",
+        "CT chest/abdomen/pelvis",
+        "24-hour pH monitoring"
+      ],
+      "answerIndex": 2,
+      "explanation": "OGD with biopsy is the gold standard for diagnosing gastric cancer in patients with alarm features (dysphagia, weight loss). Barium swallow may show a filling defect but cannot provide histology. CT is used for staging, not initial diagnosis. Biopsy is essential for confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8bda393db23b",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with weight loss and epigastric pain undergoes CT which shows diffuse gastric wall thickening. OGD is performed but biopsies show only inflammation and no malignancy despite high suspicion. What is the most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Repeat OGD with multiple deep biopsies",
+        "18F-FDG PET-CT",
+        "Staging laparoscopy with peritoneal biopsy",
+        "Endoscopic ultrasound (EUS) with fine-needle aspiration",
+        "CT-guided biopsy of the gastric wall"
+      ],
+      "answerIndex": 3,
+      "explanation": "EUS with FNA can visualize deeper layers of the gastric wall and obtain tissue from areas not accessible by standard biopsies, such as in linitis plastica. Repeat OGD may be considered but EUS often has higher yield. CT-guided biopsy is less sensitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "873fc47a47ca",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with known pernicious anaemia develops new-onset dyspepsia. OGD is performed and biopsies from the gastric body show chronic atrophic gastritis with intestinal metaplasia. What is the most appropriate interpretation of these findings?",
+      "options": [
+        "This is a premalignant condition requiring urgent gastrectomy",
+        "This indicates a high risk of gastric cancer and requires surveillance",
+        "This indicates active Helicobacter pylori infection",
+        "This confirms gastric cancer",
+        "This is a normal finding"
+      ],
+      "answerIndex": 1,
+      "explanation": "Intestinal metaplasia is a risk factor for gastric cancer, particularly in the context of pernicious anaemia. NICE recommends surveillance endoscopy every 3 years for extensive metaplasia. It is not diagnostic of cancer, nor normal. Active H. pylori infection requires separate testing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d6260df7bba3",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man undergoes OGD for iron deficiency anaemia. A 2 cm ulcer is seen in the gastric body. Biopsies show 'poorly cohesive carcinomatous cells with signet ring cells'. Based on this histological pattern, what is the most likely diagnosis?",
+      "options": [
+        "Diffuse-type adenocarcinoma",
+        "Mucinous adenocarcinoma",
+        "Lymphoma",
+        "Intestinal-type adenocarcinoma",
+        "Neuroendocrine tumour"
+      ],
+      "answerIndex": 0,
+      "explanation": "Signet ring cells are characteristic of diffuse-type gastric adenocarcinoma (Lauren classification). Intestinal-type shows glandular structures. Mucinous adenocarcinoma features pools of mucin. Lymphoma and neuroendocrine tumours have distinct histology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d5939efce89d",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with a past history of partial gastrectomy for peptic ulcer disease 30 years ago presents with dyspepsia and vomiting. She has lost weight. An upper GI endoscopy is attempted but the scope cannot pass through a tight stricture at the gastrojejunal anastomosis. What is the most appropriate investigation to obtain a tissue diagnosis of the gastric remnant?",
+      "options": [
+        "Barium meal",
+        "Staging laparoscopy with biopsy",
+        "CT-guided biopsy of the gastric remnant",
+        "Endoscopic ultrasound (EUS) through the stricture",
+        "CT abdomen with oral contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "EUS can be performed with a smaller-diameter scope or alongside a guidewire, allowing visualization and biopsy of the gastric remnant beyond a stricture. CT and barium meal provide anatomy but no tissue. CT-guided biopsy is challenging near the hilum. Laparoscopy is more invasive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ace510bf4634",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man is diagnosed with a 1.5 cm T1aN0M0 intestinal-type adenocarcinoma of the lower third of the stomach. He has no lymph node metastases on EUS. He is fit for surgery. What is the most appropriate treatment?",
+      "options": [
+        "Best supportive care",
+        "Chemoradiotherapy alone",
+        "Distal gastrectomy with D2 lymphadenectomy",
+        "Neoadjuvant chemotherapy followed by surgery",
+        "Endoscopic mucosal resection (EMR)"
+      ],
+      "answerIndex": 4,
+      "explanation": "EMR is first-line for T1aN0 gastric cancer as it is curative and less invasive than surgery. Surgery is indicated for deeper invasion or nodal involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc7a584a9adc",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman presents with dysphagia and weight loss. CT shows a 4 cm tumour in the gastric cardia with several perigastric lymph nodes (T3N1M0). She has good performance status. What is the most appropriate first-line treatment?",
+      "options": [
+        "Perioperative chemotherapy (FLOT regimen)",
+        "Adjuvant chemoradiotherapy",
+        "Surgery alone",
+        "Endoscopic stenting",
+        "Palliative chemotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Perioperative chemotherapy with FLOT is standard for locally advanced gastric cancer, improving survival over surgery alone as shown in the FLOT4 trial.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9006a7d08d90",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with previously untreated metastatic gastric cancer (liver and peritoneal deposits) is HER2-positive (3+ by IHC). He has no major comorbidities. What is the most appropriate first-line systemic therapy?",
+      "options": [
+        "Best supportive care",
+        "FOLFOX chemotherapy alone",
+        "Pembrolizumab monotherapy",
+        "Trastuzumab plus cisplatin and capecitabine",
+        "Trastuzumab monotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Trastuzumab combined with cisplatin and a fluoropyrimidine (e.g., capecitabine) is standard for HER2+ advanced gastric cancer based on the ToGA trial. Trastuzumab alone or chemotherapy alone is inferior.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d5bbb3bc535b",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old woman with metastatic gastric cancer is considered for first-line chemotherapy. She has a history of recent haematemesis and melaena from the tumour, which has been controlled with endoscopic therapy. However, she remains at high risk of further bleeding. Which of the following would be CONTRAINDICATED in this patient?",
+      "options": [
+        "Bevacizumab",
+        "Capecitabine",
+        "Docetaxel monotherapy",
+        "Trastuzumab",
+        "FOLFOX chemotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bevacizumab (anti-VEGF) increases bleeding risk and is contraindicated in patients with gastric cancer and recent haemorrhage. Other options do not carry this specific contraindication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d624be3ad1b",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old man with early gastric cancer (T1bN0) is found to have severe heart failure (NYHA III) and is deemed unfit for general anaesthesia. His tumour is 2 cm in size and located in the antrum. What is the most appropriate treatment?",
+      "options": [
+        "Partial gastrectomy under general anaesthesia",
+        "Best supportive care",
+        "Neoadjuvant chemotherapy",
+        "Palliative radiotherapy",
+        "Endoscopic submucosal dissection (ESD)"
+      ],
+      "answerIndex": 4,
+      "explanation": "ESD can be performed under conscious sedation and offers potential cure for early gastric cancer, avoiding the risks of general anaesthesia. Surgery is contraindicated due to comorbidities, and palliative options are premature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "923bc51e5b8c",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to his GP with persistent dyspepsia and unintentional weight loss over 3 months. He has no dysphagia, haematemesis, or melaena. What is the most appropriate next step?",
+      "options": [
+        "Perform abdominal ultrasound",
+        "Request H. pylori stool antigen testing",
+        "Arrange urgent upper GI endoscopy within 2 weeks",
+        "Refer to dietitian for nutritional assessment",
+        "Prescribe a proton pump inhibitor trial for 4 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend urgent upper GI endoscopy for patients over 55 with dyspepsia and weight loss, as this is an alarm feature for gastric cancer. A PPI trial is inappropriate when alarm features are present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9c98dc26c911",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman is diagnosed with gastric adenocarcinoma following endoscopy and biopsy. She has only mild dyspepsia and is otherwise well. What is the next step in her management?",
+      "options": [
+        "Start neoadjuvant chemotherapy",
+        "Arrange CT of chest, abdomen and pelvis",
+        "Refer directly for surgical resection",
+        "Start a proton pump inhibitor",
+        "Repeat endoscopy with endoscopic ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Staging with CT CAP is essential before any treatment decision to assess local invasion and distant metastases. Without staging, surgery or chemotherapy is premature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "092551a268e1",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man presents to the emergency department with haematemesis and melaena. He looks pale, pulse 110/min, BP 90/60 mmHg. He has known gastric cancer on surveillance. What is the immediate next action?",
+      "options": [
+        "Perform urgent upper GI endoscopy",
+        "Insert two large-bore cannulae and start intravenous fluids",
+        "Cross-match red cells urgently",
+        "Administer intravenous omeprazole 80 mg bolus",
+        "Arrange CT angiogram to identify bleeding source"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute upper GI bleeding with haemodynamic instability, the priority is resuscitation with IV access and fluids. Endoscopy should follow after stabilization. Starting PPI is important but not the most immediate step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2d520a9236fc",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 78-year-old man with known gastric cancer presents with persistent vomiting and dehydration. He has a distended abdomen with a succussion splash. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform CT abdomen with contrast",
+        "Insert a nasogastric tube for decompression",
+        "Give intravenous antiemetics",
+        "Arrange urgent upper GI endoscopy",
+        "Start parenteral nutrition"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clinical gastric outlet obstruction requires NG tube insertion for decompression and to quantify output. Endoscopy is risky without prior decompression. CT can be arranged after stabilization.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c67b521231bf",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 64-year-old woman who had a total gastrectomy for gastric cancer 5 years ago presents with fatigue and pallor. Bloods: Hb 90 g/L, MCV 72 fL, ferritin low. What is the next step?",
+      "options": [
+        "Perform faecal occult blood test",
+        "Check vitamin B12 levels",
+        "Start oral iron supplements",
+        "Refer to haematology for blood transfusion",
+        "Arrange upper GI endoscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "New iron deficiency anaemia in a gastrectomy patient raises concern for recurrent or new gastric cancer. NICE recommends urgent upper GI endoscopy to examine the gastric remnant and oesophagus. Iron therapy alone may mask a serious cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "781f3bd18e0e",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man presents to his GP with a 3-month history of dyspepsia and unintentional weight loss of 5 kg. He has no dysphagia, jaundice, or abdominal mass. Which single clinical feature in this patient would be a red flag for urgent suspected cancer referral under NICE guidelines?",
+      "options": [
+        "History of Helicobacter pylori infection",
+        "Iron deficiency anaemia on FBC",
+        "Persistent epigastric pain",
+        "Early satiety",
+        "Family history of gastric cancer"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guideline NG12 lists iron deficiency anaemia (Hb <110 g/L in men or <100 g/L in women) as an alarm feature for gastric cancer requiring urgent 2-week-wait referral. While epigastric pain and early satiety are common, they do not alone meet the threshold; family history and H. pylori are risk factors but not red-flag findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a709acdaf6b",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 74-year-old woman with known metastatic gastric cancer presents to the emergency department with haematemesis (estimated 500 mL bright red blood) and melaena. Her heart rate is 115 bpm and blood pressure 85/50 mmHg. Which finding is the 'can't-miss' sign indicating she requires immediate haemodynamic resuscitation?",
+      "options": [
+        "INR >2.0",
+        "Melena without haematemesis",
+        "Haemoglobin drop of 20 g/L from baseline",
+        "Tachycardia with hypotension",
+        "Fresh haematemesis >200 mL"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of tachycardia and hypotension (shock) defines haemodynamic instability, the threshold for immediate transfusion and resuscitation. While fresh haematemesis and haemoglobin drop are important, the urgent trigger is instability. INR is not given.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db515b80600a",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known gastric cancer of the antrum presents with vomiting large volumes of non-bile-stained fluid, early satiety, and weight loss. On examination, his abdomen is mildly distended with a 'succussion splash' heard on shaking. Which clinical feature is most indicative of gastric outlet obstruction?",
+      "options": [
+        "Visible peristalsis on inspection",
+        "Succussion splash 4 hours after last meal",
+        "Hiccups",
+        "Feculent vomiting",
+        "Projectile vomiting after meals"
+      ],
+      "answerIndex": 1,
+      "explanation": "A succussion splash heard several hours after a meal is pathognomonic for gastric outlet obstruction due to retained gastric contents. Projectile vomiting suggests pyloric stenosis but is less specific; feculent vomiting implies distal bowel obstruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a920069c004d",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man on warfarin for atrial fibrillation is admitted with melaena and haemoglobin 85 g/L (baseline 130 g/L). Endoscopy reveals a bleeding gastric ulcer with stigmata of recent haemorrhage; biopsy shows adenocarcinoma. Which single finding would mandate urgent warfarin reversal?",
+      "options": [
+        "Active bleeding seen at endoscopy",
+        "Haematemesis of 200 mL dark blood",
+        "INR 3.5",
+        "Melaena alone",
+        "Haemoglobin drop of 45 g/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Active bleeding at endoscopy is a life-threatening situation requiring immediate reversal (with prothrombin complex concentrate and vitamin K) to stop bleeding and prevent rebleeding. While a large haemoglobin drop and haematemesis are concerning, ongoing active bleeding is the critical threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9ea6f53a4a6d",
+      "topic": "Gastric Cancer",
+      "slug": "gastric-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman presents with epigastric pain, early satiety, and weight loss. Oesophagogastroduodenoscopy reveals a large, ulcerated mass in the gastric body with enlarged, firm folds. Biopsy from the mass shows malignant cells of non-epithelial origin with lymphoid markers. Which diagnosis is the most important to consider as a mimic of gastric adenocarcinoma?",
+      "options": [
+        "Pancreatic adenocarcinoma with gastric invasion",
+        "Metastatic breast cancer",
+        "Gastric lymphoma",
+        "Gastrointestinal stromal tumour (GIST)",
+        "Leiomyosarcoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gastric lymphoma can present identically to adenocarcinoma with an ulcerated mass and weight loss, but it is treated with chemotherapy, not surgery. The lymphoid markers confirm the diagnosis. GIST typically presents as a submucosal mass with different histology.",
+      "difficulty": "hard"
+    }
+  ]
+}

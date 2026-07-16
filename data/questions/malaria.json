@@ -1,0 +1,513 @@
+{
+  "topic": "Malaria",
+  "slug": "malaria",
+  "system": "Infectious Diseases",
+  "subSystem": "Tropical",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:16Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "4e58a0de220e",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents to the emergency department with a 3-day history of fever, rigors, headache, and myalgia. She returned from a trip to Nigeria 10 days ago. She took doxycycline as malaria prophylaxis but stopped 2 days after returning. On examination, temperature 39.5°C, pulse 110 bpm, no rash, no hepatosplenomegaly. Blood tests show thrombocytopenia (platelets 80 x 10^9/L) and raised bilirubin (30 µmol/L). Blood film shows ring forms in red cells. What is the single most likely diagnosis?",
+      "options": [
+        "Dengue fever",
+        "Plasmodium falciparum malaria",
+        "Plasmodium vivax malaria",
+        "Influenza",
+        "Typhoid fever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The key discriminating features are recent travel to West Africa, thrombocytopenia, and ring forms on blood film, which are typical for falciparum malaria. Vivax malaria is more common in Asia and South America but can occur in Africa; however, falciparum is the predominant species in Nigeria. Dengue also causes thrombocytopenia but lacks ring forms. Influenza and typhoid do not cause ring forms on blood film.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5fbb04850bf8",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with fever, confusion, and jaundice. He returned from Ghana 2 weeks ago and did not take prophylaxis. On examination: GCS 13, jaundiced, temperature 40°C, pulse 120 bpm, BP 90/60 mmHg. Fundoscopy shows retinal haemorrhages. Blood tests: haemoglobin 80 g/L, platelets 40 x 10^9/L, creatinine 200 µmol/L, bilirubin 100 µmol/L. Blood film shows high parasitaemia with ring forms and banana-shaped gametocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Typhoid encephalopathy",
+        "Cerebral malaria due to Plasmodium falciparum",
+        "Meningococcal meningitis",
+        "Acute viral hepatitis",
+        "Dengue shock syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of recent travel to West Africa, high parasitaemia with characteristic gametocytes (banana-shaped), and severe manifestations (impaired consciousness, jaundice, retinal haemorrhages) is pathognomonic for severe falciparum malaria causing cerebral malaria. Meningococcal meningitis typically presents with neck stiffness and petechial rash. Typhoid encephalopathy is rare and does not cause high parasitaemia. Dengue shock syndrome presents with plasma leakage and does not have malarial parasites. Acute viral hepatitis lacks parasitaemia and retinal changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa1640711780",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old primigravida at 28 weeks gestation presents with fever, vomiting, and abdominal pain. She is originally from Nigeria and recently visited family there. She has not taken malaria prophylaxis. On examination: temperature 38.8°C, pale, splenomegaly. Blood tests: haemoglobin 90 g/L, platelets 100 x 10^9/L, glucose 3.0 mmol/L. Blood film shows ring forms. What is the single most likely diagnosis?",
+      "options": [
+        "Placental abruption",
+        "Sickle cell crisis",
+        "Plasmodium vivax malaria in pregnancy",
+        "Plasmodium falciparum malaria in pregnancy",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of ring forms on blood film confirms malaria. In pregnancy, falciparum malaria is more common and severe, often causing hypoglycaemia and splenomegaly. Vivax malaria is less likely in West Africa. Sickle cell crisis would not show parasitaemia. UTI would not cause splenomegaly or hypoglycaemia. Placental abruption typically presents with vaginal bleeding and abdominal pain without fever or splenomegaly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "84299d3b4a3b",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with fever and headache 12 days after returning from a 2-week trek in Malaysia. He took atovaquone-proguanil prophylaxis but missed two doses. A rapid diagnostic test (RDT) for malaria is negative. Blood film shows ring forms that are difficult to differentiate. Parasitaemia is low (0.1%). He reports recent onset of dark urine. What is the single most likely diagnosis?",
+      "options": [
+        "Plasmodium knowlesi malaria",
+        "Chikungunya",
+        "Dengue fever",
+        "Plasmodium ovale malaria",
+        "Plasmodium vivax malaria"
+      ],
+      "answerIndex": 0,
+      "explanation": "The key discriminating features are travel to Malaysia (a known area for P. knowlesi), low parasitaemia, negative RDT (P. knowlesi can be missed by some RDTs), and dark urine (haemoglobinuria). P. knowlesi is a simian malaria that can cause severe disease. P. ovale and P. vivax typically cause relapsing malaria and are less likely in Malaysia. Dengue and chikungunya do not have ring forms on blood film.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "241eae59b244",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with known Plasmodium falciparum malaria treated with artemether-lumefantrine 5 days ago presents with passage of dark red urine and worsening jaundice. He has no urinary symptoms. On examination: temperature 37.5°C, jaundiced, tender hepatomegaly. Urine dipstick shows haemoglobinuria without RBCs. Blood film shows no parasites. What is the single most likely diagnosis?",
+      "options": [
+        "Glucose-6-phosphate dehydrogenase deficiency haemolysis",
+        "Disseminated intravascular coagulation",
+        "Autoimmune haemolytic anaemia",
+        "Blackwater fever due to severe falciparum malaria",
+        "Leptospirosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blackwater fever is a classic complication of severe falciparum malaria, characterised by massive intravascular haemolysis leading to haemoglobinuria. Although parasites may be cleared after treatment, the haemolysis can persist. G6PD deficiency can also cause haemolysis, but it is usually triggered by oxidant drugs (e.g., primaquine, not artemether-lumefantrine). Autoimmune haemolytic anaemia is not typically associated with malaria. Leptospirosis presents with fever and jaundice but not haemoglobinuria. DIC causes bleeding, not isolated haemoglobinuria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "785fb7e69e3f",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with fever, headache, and myalgia two weeks after returning from Nigeria. Temperature 38.5°C, no focal signs. Which investigation confirms the diagnosis?",
+      "options": [
+        "Malaria rapid diagnostic test",
+        "Lumbar puncture",
+        "Thick and thin blood films",
+        "Blood cultures",
+        "Full blood count"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thick and thin blood films are the gold standard for diagnosing malaria, allowing detection of parasites and species identification. A rapid test may be falsely negative, and other options are non-specific or not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8d9e6569fae6",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with falciparum malaria has a GCS of 12, jaundice, and AKI. He has had one seizure. Which investigation is most important to perform urgently?",
+      "options": [
+        "Lumbar puncture",
+        "CT head",
+        "EEG",
+        "Blood glucose",
+        "Blood cultures"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypoglycaemia is a common and treatable complication of severe falciparum malaria that can cause reduced consciousness. Checking blood glucose is essential, as it may be rapidly corrected with dextrose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3141b2370d1d",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with fever and headache returns from Thailand. She has no signs of severity. Which is the most appropriate initial diagnostic test?",
+      "options": [
+        "Dengue serology",
+        "Thick and thin blood films",
+        "C-reactive protein",
+        "Malaria rapid diagnostic test",
+        "Full blood count"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidance recommends a rapid diagnostic test (RDT) as the first test in suspected malaria due to speed and ease. A positive RDT requires confirmation with blood films, but in this unwell traveller RDT is the initial step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3216d977e770",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A blood film from a febrile traveller shows Plasmodium falciparum trophozoites with a parasitaemia of 5%. What is the most important interpretation of this result?",
+      "options": [
+        "The patient requires a lumbar puncture",
+        "The patient needs a bone marrow biopsy",
+        "This indicates severe malaria",
+        "This confirms mild malaria",
+        "There is risk of relapse"
+      ],
+      "answerIndex": 2,
+      "explanation": "A parasitaemia >2% in a non-immune patient defines severe malaria according to WHO criteria. This result indicates need for urgent assessment and parenteral antimalarials.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50cd041f1fcc",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old student returns from India with fever. A malaria rapid diagnostic test shows a positive pan-malarial line but a negative falciparum-specific line. Which of the following is the most likely cause?",
+      "options": [
+        "Dengue virus",
+        "Mixed infection with falciparum and vivax",
+        "Plasmodium vivax",
+        "Plasmodium falciparum",
+        "False positive result"
+      ],
+      "answerIndex": 2,
+      "explanation": "A positive pan-malarial antigen with a negative falciparum-specific antigen suggests a non-falciparum species. P. vivax is the most common non-falciparum malaria in India, making it the most likely cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30e754901dec",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 34-year-old man presents with fever, headache, and myalgia two weeks after returning from Nigeria. He has no signs of severe malaria. Blood film confirms Plasmodium falciparum (parasitaemia 1.2%). He is not taking any regular medications and has no drug allergies. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral artemether-lumefantrine",
+        "Oral quinine plus doxycycline",
+        "Oral atovaquone-proguanil",
+        "Oral chloroquine",
+        "Intravenous artesunate"
+      ],
+      "answerIndex": 0,
+      "explanation": "For uncomplicated falciparum malaria in adults, NICE/BNF recommend artemether-lumefantrine as first-line. Atovaquone-proguanil is also an option but often reserved for travellers on prophylaxis or as alternative. Quinine plus doxycycline is second-line. IV artesunate is for severe malaria. Chloroquine is ineffective for falciparum due to resistance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4acad78d444f",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman (G1P0, 24 weeks pregnant) returns from Ghana with fever, confusion, and jaundice. Blood film shows Plasmodium falciparum with 8% parasitaemia. What is the most appropriate treatment?",
+      "options": [
+        "Intravenous artesunate",
+        "Oral artemether-lumefantrine",
+        "Oral atovaquone-proguanil",
+        "Oral chloroquine plus primaquine",
+        "Intravenous quinine"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is severe malaria in pregnancy. IV artesunate is first-line for severe malaria regardless of pregnancy (WHO/UK guidelines). IV quinine is an alternative but artesunate is superior. Oral therapies are inappropriate for severe disease. Chloroquine is not effective for falciparum, and primaquine is contraindicated in pregnancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0d07d77374f",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man presents with fever and headache three weeks after returning from India. Blood film shows Plasmodium vivax (parasitaemia 1.5%). He has no G6PD deficiency and is not pregnant. What is the most appropriate definitive treatment to prevent relapse?",
+      "options": [
+        "Oral artemether-lumefantrine alone",
+        "Oral atovaquone-proguanil alone",
+        "Oral primaquine monotherapy for 14 days",
+        "Oral quinine plus doxycycline for 7 days",
+        "Oral chloroquine followed by oral primaquine for 14 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "For P. vivax malaria (chloroquine-sensitive), chloroquine clears blood stages. Primaquine is required for radical cure of hypnozoites to prevent relapse, given after G6PD testing. Artemether-lumefantrine or atovaquone-proguanil alone would not eradicate hypnozoites. Quinine plus doxycycline is not first-line for vivax. Primaquine monotherapy is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "56c60c8fd4b3",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with known G6PD deficiency (class II variant) presents with recurrent fever and malaise 4 months after treatment for Plasmodium ovale. Blood film confirms P. ovale relapse. He is currently well, no signs of severe disease. What is the most appropriate treatment to prevent further relapses?",
+      "options": [
+        "Oral chloroquine alone",
+        "Oral atovaquone-proguanil",
+        "Oral quinine plus clindamycin",
+        "Oral artemether-lumefantrine",
+        "Oral chloroquine plus weekly primaquine under supervision"
+      ],
+      "answerIndex": 4,
+      "explanation": "For relapsing P. ovale, radical cure with primaquine is needed, but standard daily primaquine can cause haemolysis in G6PD deficiency. In such cases, UK guidelines recommend chloroquine plus a modified primaquine regimen (e.g., weekly dosing under supervision). Chloroquine alone treats current attack but not hypnozoites. Artemether-lumefantrine and atovaquone-proguanil do not target hypnozoites.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4d61c8851245",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman returns from Kenya with fever, vomiting, and reduced urine output. She is hypotensive, jaundiced, and confused. Blood film shows Plasmodium falciparum with 10% parasitaemia, and lactate is 5 mmol/L. What is the most appropriate initial therapy?",
+      "options": [
+        "Exchange transfusion",
+        "Oral artemether-lumefantrine",
+        "Intravenous quinine",
+        "Intravenous doxycycline",
+        "Intravenous artesunate"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is severe falciparum malaria (hyperparasitaemia, cerebral, renal impairment, acidosis). IV artesunate is first-line per UK guidelines. IV quinine is an alternative but less effective. Oral therapy is inappropriate. Doxycycline is not a sole treatment for severe malaria. Exchange transfusion is adjunctive, not first-line therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ebd479b093c1",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman presents to the emergency department with fever, headache, and myalgia. She returned from Nigeria 10 days ago. Blood smear shows Plasmodium falciparum with parasitaemia of 1.2%. She is fully conscious (GCS 15), no jaundice, urine output normal. What is the most appropriate next step?",
+      "options": [
+        "Start oral artemether-lumefantrine",
+        "Start IV artesunate",
+        "Request urgent CT head",
+        "Check G6PD status",
+        "Start IV quinine"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is uncomplicated falciparum malaria (parasitaemia <2%, no severe features). Oral artemether-lumefantrine is first-line. IV artesunate is reserved for severe malaria, which she does not have.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7161fb3de118",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known G6PD deficiency returns from Ghana with fever and fatigue. Blood film shows Plasmodium ovale with parasitaemia 0.5%. He is well and not vomiting. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral primaquine",
+        "Start oral chloroquine",
+        "Start oral artemether-lumefantrine",
+        "Check reticulocyte count",
+        "Repeat blood film in 12 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "P. ovale is generally chloroquine-sensitive. Oral chloroquine is appropriate for acute treatment. Primaquine is needed later for hypnozoite elimination, but it is not the immediate step (and caution in G6PD deficiency). Artemether-lumefantrine is not first-line for P. ovale.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c05c927685f9",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man on the intensive care unit with severe falciparum malaria (parasitaemia 15%, acute kidney injury, jaundice, GCS 12) is receiving IV artesunate. His urine output has been <0.5 mL/kg/h for 6 hours and creatinine is 350 µmol/L. What is the most appropriate next step?",
+      "options": [
+        "Increase IV artesunate dose",
+        "Give IV furosemide",
+        "Perform exchange transfusion",
+        "Start haemofiltration",
+        "Start IV quinine"
+      ],
+      "answerIndex": 3,
+      "explanation": "He has acute kidney injury with oliguria. NICE recommends renal replacement therapy (haemofiltration) for severe AKI in malaria. Furosemide is not indicated; exchange transfusion is not routinely recommended. Continuing artesunate is appropriate but not the next step for AKI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3c9734e1b830",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with severe falciparum malaria suddenly develops severe abdominal pain, vomiting, and hypotension (BP 80/40 mmHg). Her abdomen is distended and tender. What is the most appropriate immediate next step?",
+      "options": [
+        "Urgent abdominal CT",
+        "Start IV noradrenaline",
+        "Request surgical review",
+        "Give IV fluids bolus",
+        "Check lactate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension in severe malaria is often due to hypovolaemia. Immediate fluid resuscitation with IV fluids bolus is the priority. Urgent imaging or surgical review may be indicated later, but resuscitation comes first. Starting noradrenaline without volume resuscitation is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "046ab2109e4e",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman at 26 weeks gestation presents with fever and rigors after returning from Kenya. Blood smear shows Plasmodium falciparum with parasitaemia 0.5%. No severe features. What is the most appropriate next step?",
+      "options": [
+        "Request obstetric review",
+        "Start oral chloroquine",
+        "Start oral quinine",
+        "Start oral artemether-lumefantrine",
+        "Start IV artesunate"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy (second/third trimester) with uncomplicated falciparum malaria, oral artemether-lumefantrine is recommended. Quinine is an alternative but less well tolerated. IV artesunate is for severe malaria. Obstetric review is important but not the immediate treatment step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d7c13230a714",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman returns from Nigeria with a 4-day history of fever, headache, and myalgia. Blood film confirms Plasmodium falciparum. Which single finding indicates that this patient has severe malaria requiring immediate intravenous therapy?",
+      "options": [
+        "Headache",
+        "Parasitaemia >2%",
+        "Jaundice",
+        "Splenomegaly",
+        "Fever >40°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hyperparasitaemia (>2% in non-immune patients) is a WHO criterion for severe malaria, mandating IV therapy. Fever, splenomegaly, and headache are common in uncomplicated malaria; jaundice can occur but is not the earliest or most specific red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "473980ecdf78",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 5-year-old child with confirmed falciparum malaria is drowsy and difficult to rouse. Which clinical sign most strongly indicates cerebral malaria?",
+      "options": [
+        "Photophobia",
+        "Glasgow Coma Scale <11",
+        "Rash",
+        "Generalised seizure",
+        "Neck stiffness"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cerebral malaria is defined by impaired consciousness (GCS <11 or Blantyre coma scale <3) after excluding other causes. Neck stiffness and photophobia suggest meningitis; seizures can occur but are not diagnostic alone; rash is not typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "379c01e24b37",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with falciparum malaria suddenly passes dark brown urine. He is pale and has scleral icterus. What is the most likely cause of the urine discolouration?",
+      "options": [
+        "Haemoglobinuria",
+        "Bilirubinuria",
+        "Acute tubular necrosis",
+        "Myoglobinuria",
+        "Uraemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Blackwater fever describes massive intravascular haemolysis leading to haemoglobinuria. Bilirubinuria would be dark but not brown; myoglobinuria occurs with muscle injury. Acute tubular necrosis is a consequence, not the direct cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7919d52863d9",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with falciparum malaria presents with sudden severe left upper quadrant pain, a rigid abdomen, and hypotension. What life-threatening complication should be suspected?",
+      "options": [
+        "Retroperitoneal haemorrhage",
+        "Splenic rupture",
+        "Duodenal ulcer perforation",
+        "Intestinal ischaemia",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Splenic rupture is a rare but catastrophic complication of malaria, presenting with left upper quadrant pain, peritonism, and shock. The other options are less likely given the clinical context and lack of typical precipitating factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "62ee1e5358d8",
+      "topic": "Malaria",
+      "slug": "malaria",
+      "system": "Infectious Diseases",
+      "subSystem": "Tropical",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with falciparum malaria develops acute respiratory distress, bilateral crackles, and hypoxia. A chest X-ray shows bilateral interstitial infiltrates. Which complication of severe malaria does this represent?",
+      "options": [
+        "Pulmonary oedema",
+        "Metabolic acidosis",
+        "Severe anaemia",
+        "Cerebral malaria",
+        "Disseminated intravascular coagulation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Non-cardiogenic pulmonary oedema (acute respiratory distress syndrome) is a well-recognised complication of severe falciparum malaria. The other options do not explain the acute respiratory distress with crackles and infiltrates.",
+      "difficulty": "medium"
+    }
+  ]
+}

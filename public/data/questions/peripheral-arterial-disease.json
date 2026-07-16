@@ -1,0 +1,513 @@
+{
+  "topic": "Peripheral Arterial Disease",
+  "slug": "peripheral-arterial-disease",
+  "system": "Cardiovascular",
+  "subSystem": "Vascular",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:21Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5264b5e0773b",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man, a current smoker with hypertension, presents with bilateral calf pain that occurs after walking approximately 200 metres and is relieved by rest. He has no pain at rest. On examination, femoral pulses are palpable but popliteal and foot pulses are absent bilaterally. Ankle-brachial pressure index (ABPI) is 0.65. What is the single most likely diagnosis?",
+      "options": [
+        "Spinal stenosis",
+        "Osteoarthritis of the knee",
+        "Peripheral arterial disease (intermittent claudication)",
+        "Venous claudication",
+        "Popliteal artery entrapment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Classic claudication history with reduced pulses and low ABPI. Spinal stenosis is relieved by bending forward, not just rest. Popliteal entrapment typically in younger athletes. Venous claudication is less common and features venous stasis. Osteoarthritis pain is joint-related and not consistently exertion-triggered.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d2e92ce7dab6",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with type 2 diabetes and hypertension presents with a non-healing ulcer on her left great toe and severe rest pain that is worse at night. On examination, the foot is red on dependency but pale on elevation. Foot pulses are absent; ABPI is 0.35. What is the single most likely diagnosis?",
+      "options": [
+        "Venous ulcer",
+        "Charcot foot",
+        "Chronic critical limb ischaemia",
+        "Diabetic neuropathic ulcer",
+        "Cellulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rest pain, dependent rubor, absent pulses, and very low ABPI indicate critical limb ischaemia. Neuropathic ulcers occur in feet with preserved pulses and no pain. Venous ulcers are in the gaiter area with skin changes. Cellulitis shows erythema, warmth, and systemic signs. Charcot foot presents with erythema, oedema, and deformity but preserved pulses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41df12397073",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with a 50-pack-year smoking history and known atrial fibrillation (not anticoagulated) presents with sudden onset of severe pain, pallor, paraesthesia, paralysis, pulselessness, and poikilothermia in his left leg over the past 2 hours. He had no prior claudication. What is the single most likely diagnosis?",
+      "options": [
+        "Acute arterial occlusion due to embolism",
+        "Acute sciatic neuropathy",
+        "Ruptured popliteal aneurysm",
+        "Acute arterial thrombosis on a pre-existing plaque",
+        "Deep vein thrombosis (phlegmasia cerulea dolens)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 6 Ps and atrial fibrillation source strongly favour embolic occlusion. Thrombotic occlusion usually occurs in patients with prior claudication. DVT presents with swelling, warmth, and erythema, not pulseless coldness. Sciatic neuropathy would not cause vascular compromise. Ruptured popliteal aneurysm may cause acute ischaemia but often presents with a pulsatile mass and pain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39a8090d9e08",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old heavy smoker presents with painful, cyanotic toes on both feet and a mottled, reticulate rash on his lower legs. He has no history of diabetes or hyperlipidaemia. All pulses below the femoral are absent bilaterally. ESR and CRP are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Cholesterol emboli (after recent angiography)",
+        "Systemic sclerosis",
+        "Buerger disease (thromboangiitis obliterans)",
+        "Atherosclerotic peripheral arterial disease",
+        "Vasculitis (e.g., polyarteritis nodosa)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Young smoker with distal ischaemia, livedo reticularis, and normal inflammatory markers is classic for Buerger disease. Atherosclerotic PAD is rare in this age without risk factors. Cholesterol emboli occur post-procedure. Systemic sclerosis has skin thickening, Raynaud's, and antinuclear antibodies. Vasculitis typically elevates ESR/CRP and has systemic symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f793d298c003",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman presents with a 6-month history of intermittent claudication in her right calf and two episodes of sudden, painful blue discolouration of her toes. On examination, a 3-cm, non-tender, pulsatile mass is felt in the right popliteal fossa. What is the single most likely diagnosis?",
+      "options": [
+        "Popliteal artery entrapment",
+        "Superficial femoral artery pseudoaneurysm",
+        "Baker cyst",
+        "Popliteal vein thrombosis",
+        "Popliteal artery aneurysm"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pulsatile popliteal mass with claudication and distal emboli (blue toe) is classic for a popliteal artery aneurysm. Entrapment occurs in younger, athletic individuals without a pulsatile mass. Baker cyst is non-pulsatile. Vein thrombosis causes swelling and pain but not pulsation. Pseudoaneurysm is usually post-traumatic and at other sites.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a150d6ae1635",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old smoker presents with right calf pain on walking 200 metres that resolves with rest. The right dorsalis pedis pulse is weak but present. Which single investigation is most appropriate to confirm the diagnosis of peripheral arterial disease?",
+      "options": [
+        "Duplex ultrasound of the lower limb arteries",
+        "Ankle-brachial pressure index (ABPI) at rest and after exercise",
+        "CT angiography of the lower limbs",
+        "Digital subtraction angiography",
+        "Magnetic resonance angiography"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend ABPI as the first-line non-invasive test to confirm PAD. A resting ABPI <0.9 is diagnostic; post-exercise ABPI can unmask mild disease. Duplex is used for anatomical localisation after diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4463fc066880",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with known type 2 diabetes presents with a non-healing ulcer on his left great toe. His ABPI is 0.8 (within normal range). He has no symptoms of claudication. Which investigation is most appropriate to diagnose significant peripheral arterial disease in this patient?",
+      "options": [
+        "Exercise ABPI",
+        "Duplex ultrasound of lower limb arteries",
+        "Repeat ABPI with waveform analysis",
+        "Toe-brachial pressure index (TBI)",
+        "CT angiography of lower limbs"
+      ],
+      "answerIndex": 3,
+      "explanation": "In diabetes, medial calcification can cause non-compressible vessels leading to falsely elevated ABPI. Toe vessels are less affected, so a TBI <0.7 confirms PAD. Duplex may be used but TBI is the specific test for calcified vessels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a86e2368c68",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with atrial fibrillation presents with sudden onset of a cold, pale, and painful left leg for 3 hours. The left leg is pulseless below the femoral artery. Which single investigation is most appropriate to confirm the diagnosis and guide urgent management?",
+      "options": [
+        "Duplex ultrasound of the lower limb",
+        "CT angiography of the lower limb",
+        "Plain X-ray of the leg",
+        "Ankle-brachial pressure index",
+        "Magnetic resonance angiography"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute limb ischaemia, urgent CT angiography provides rapid anatomical visualisation of the occlusion (e.g. embolus) and informs emergency revascularisation. It is the preferred imaging in the acute setting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd34b68f4865",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man with peripheral arterial disease reports rest pain in his right foot and has a small non-healing ulcer on his heel. His resting ABPI is 0.4. Which ABPI threshold is most consistent with the diagnosis of critical limb ischaemia?",
+      "options": [
+        "<0.9",
+        ">1.3",
+        "<0.3",
+        "<0.1",
+        "<0.5"
+      ],
+      "answerIndex": 4,
+      "explanation": "Critical limb ischaemia is defined by ABPI <0.5 in the presence of rest pain or tissue loss (ulcer/gangrene). ABPI 0.5-0.9 indicates claudication; >1.3 suggests non-compressible vessels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9c51e263e7e1",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old non-diabetic ex-smoker has a 6-month history of left calf claudication at 100 metres. Resting ABPI is 0.55 on the left. Which investigation is most appropriate to determine the anatomical location of the stenotic lesion?",
+      "options": [
+        "CT angiography of the lower limbs",
+        "Digital subtraction angiography",
+        "Magnetic resonance angiography",
+        "Duplex ultrasound of the lower limb arteries",
+        "Exercise ABPI"
+      ],
+      "answerIndex": 3,
+      "explanation": "After confirming PAD with ABPI, duplex ultrasound is the first-line imaging to localise and characterise the stenosis (location, severity, flow). It is non-invasive, cheap, and avoids radiation/contrast.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b4e706b7b46d",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old smoker presents with intermittent calf claudication after walking 200 metres. His ABPI is 0.7. He has no rest pain or tissue loss. What is the most appropriate first-line treatment?",
+      "options": [
+        "Cilostazol",
+        "Supervised exercise programme",
+        "Amputation",
+        "Percutaneous transluminal angioplasty",
+        "Femoropopliteal bypass graft"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend a supervised exercise programme as first-line for intermittent claudication. Angioplasty or surgery is reserved for severe lifestyle-limiting symptoms despite exercise and medical therapy. Cilostazol is not first-line, and amputation is inappropriate for this presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d592bf44499b",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with known atrial fibrillation (not anticoagulated) develops acute onset right leg pain, pallor, and pulselessness over 4 hours. The leg is cold and insensate. Capillary refill is absent. What is the most appropriate definitive treatment?",
+      "options": [
+        "Catheter-directed thrombolysis",
+        "Percutaneous transluminal angioplasty",
+        "Urgent surgical embolectomy",
+        "Primary amputation",
+        "Heparin infusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history is consistent with acute embolic limb ischaemia. The definitive treatment is urgent surgical embolectomy. Heparin is used as a bridging therapy to prevent clot propagation, not definitive. Thrombolysis may be considered in some cases but is not first-line for acute embolic occlusion; angioplasty is for chronic disease; amputation is reserved for unsalvageable tissue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "76550551b22e",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old man with type 2 diabetes and known peripheral arterial disease (ABPI 0.4) presents with a non-healing ulcer on his right heel. He has rest pain. Which of the following treatments is CONTRAINDICATED?",
+      "options": [
+        "Antibiotics",
+        "Sharp debridement",
+        "Compression bandaging",
+        "Offloading the heel",
+        "Revascularisation (angioplasty or bypass)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Compression bandaging is contraindicated in patients with significant PAD (ABPI < 0.5) as it can worsen ischaemia. Revascularisation, antibiotics for infected ulcers, debridement, and offloading are appropriate management steps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2a713f67cc11",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man with a history of NYHA class II heart failure (ejection fraction 40%) presents with bilateral calf claudication after 100 metres. ABPI is 0.6. He is on aspirin and atorvastatin. Which treatment option is CONTRAINDICATED in this patient?",
+      "options": [
+        "Femoropopliteal bypass",
+        "Percutaneous transluminal angioplasty",
+        "Naftidrofuryl oxalate",
+        "Supervised exercise programme",
+        "Cilostazol"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cilostazol is contraindicated in patients with heart failure (any NYHA class) due to increased mortality risk. Naftidrofuryl, supervised exercise, angioplasty, and bypass are all safe options in heart failure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "93086fbb6fc8",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man with stable intermittent claudication (ABPI 0.65) is already on clopidogrel and atorvastatin. He is a non-smoker. His symptoms are lifestyle-limiting despite a supervised exercise programme. Duplex ultrasound shows a focal 80% stenosis in the superficial femoral artery. What is the most appropriate next treatment?",
+      "options": [
+        "Naftidrofuryl oxalate",
+        "Cilostazol",
+        "Percutaneous transluminal angioplasty",
+        "Femoropopliteal bypass graft",
+        "Continue current medical therapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Given the focal stenosis and lifestyle-limiting symptoms despite medical therapy and exercise, percutaneous transluminal angioplasty (PTA) is the recommended revascularisation option. Continued medical therapy alone would not improve symptoms. Bypass is for more diffuse disease; cilostazol and naftidrofuryl are second-line vasodilators.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19c19cc77854",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old smoker presents with a 3-month history of bilateral calf pain when walking about 200 metres, which resolves within a few minutes of rest. On examination, popliteal pulses are palpable but foot pulses are weak. What is the most appropriate next step?",
+      "options": [
+        "Refer for an exercise stress test with ABPI measurement",
+        "Start treatment with clopidogrel without further tests",
+        "Request a CT angiogram of the lower limbs",
+        "Measure the ankle-brachial pressure index at rest",
+        "Perform a duplex ultrasound of the leg arteries"
+      ],
+      "answerIndex": 3,
+      "explanation": "In suspected intermittent claudication, the first-line investigation is resting ABPI to confirm the diagnosis (NICE CG147). A CT angiogram or duplex is reserved for planning revascularisation, not initial diagnosis. Exercise ABPI can be useful if resting ABPI is normal but claudication is strongly suspected, but resting ABPI should be done first.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9c518cd96497",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old with known peripheral arterial disease (ABPI 0.6 right leg) continues to experience calf claudication at 150 metres despite smoking cessation and optimal medical therapy (aspirin and atorvastatin 80 mg). He is keen to improve his walking distance. What is the most appropriate next step?",
+      "options": [
+        "Add cilostazol 100 mg twice daily",
+        "Refer for a supervised exercise programme",
+        "Increase atorvastatin to 80 mg",
+        "Refer for percutaneous angioplasty",
+        "Switch aspirin to clopidogrel 75 mg once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends a supervised exercise programme as first-line treatment for intermittent claudication after lifestyle and pharmacological optimisation. Angioplasty is considered only if exercise is ineffective or not tolerated. Cilostazol is not currently recommended by NICE for claudication. Clopidogrel monotherapy is an alternative antiplatelet but not superior for symptom improvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1e8aa0b8e94",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old presents with sudden onset of severe pain in the left leg, which is pale, cold, and pulseless below the femoral artery. There is no sensation in the foot. Onset was 4 hours ago. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a duplex ultrasound of the leg",
+        "Request an urgent CT angiogram",
+        "Administer intravenous unfractionated heparin",
+        "Apply warm blankets to the leg",
+        "Refer for emergency angioplasty"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is acute limb ischaemia. Immediate anticoagulation with intravenous unfractionated heparin reduces thrombus propagation and is the first action while arranging urgent revascularisation. Imaging (CT or duplex) is secondary. Warming the leg is contraindicated. Angioplasty may be definitive but is not the immediate first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c0cccb1dc4ad",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 78-year-old with known peripheral arterial disease presents with rest pain in his right foot for the past 2 weeks. There is a small ulcer on the medial malleolus with no signs of infection. The ankle-brachial pressure index is 0.3. What is the most appropriate next step?",
+      "options": [
+        "Refer urgently to the vascular surgical team",
+        "Request an MRI angiography of the lower limb",
+        "Prescribe oral morphine for pain",
+        "Start intravenous antibiotics",
+        "Apply a hydrogel dressing to the ulcer"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is critical limb ischaemia (rest pain for >2 weeks, ABPI <0.4, tissue loss). Urgent referral to a vascular surgeon for consideration of revascularisation is mandatory. Wound care and analgesia are adjunctive but not the priority. Imaging will be performed by the vascular team.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dd0d033600a",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old with stable intermittent claudication (ABPI 0.6) is on clopidogrel 75 mg once daily and atorvastatin 80 mg once daily. He has type 2 diabetes mellitus and walks without rest pain. What is the most appropriate next step in his ongoing management?",
+      "options": [
+        "Add aspirin 75 mg once daily",
+        "Arrange an annual foot examination by the GP or podiatrist",
+        "Refer for a supervised exercise programme",
+        "Start cilostazol 100 mg twice daily",
+        "Refer for lower limb angioplasty"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends annual foot examination for all patients with PAD, especially those with diabetes, to detect neuropathic or ischaemic changes early. The patient is already on optimal medical therapy and is stable, so no addition or revascularisation is indicated. Clopidogrel alone is adequate; dual antiplatelet is not needed for stable disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13f5b5731e68",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 66-year-old current smoker presents to his GP with a 6-month history of calf pain on walking 200 metres that resolves with rest. He has no rest pain. On examination, which finding is most concerning and warrants urgent vascular referral?",
+      "options": [
+        "Non-healing ulcer on the great toe",
+        "Absent dorsalis pedis pulse",
+        "Atrophic skin and hair loss on the lower leg",
+        "Femoral bruit",
+        "Varicose veins"
+      ],
+      "answerIndex": 0,
+      "explanation": "A non-healing ulcer indicates critical limb ischaemia (Rutherford stage 5/6) and requires urgent vascular assessment. While absent pedal pulses are common in PAD, they do not alone signify critical ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f2f2903062a",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known peripheral arterial disease presents to the emergency department with a 3-hour history of sudden severe pain in his left leg. The leg is pale and cool. On examination, which finding is most indicative of a threatened limb requiring immediate revascularisation?",
+      "options": [
+        "Absent popliteal pulse",
+        "Weak femoral pulse",
+        "Sensory loss in the foot",
+        "Capillary refill >4 seconds",
+        "Mottled skin extending to the thigh"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sensory loss is a hallmark of threatened limb (Rutherford IIb) requiring immediate revascularisation to prevent irreversible ischaemia. Mottled skin can occur but is less specific for the need for urgent intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3dd069ca41a9",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old diabetic man presents with a 2-day history of a painful, red, swollen left great toe with a small area of black discolouration. He has no fever. Which finding on examination raises the suspicion of a life-threatening condition?",
+      "options": [
+        "Lymphangitis",
+        "Purulent discharge from the toe",
+        "Crepitus on palpation of the foot",
+        "Absent dorsalis pedis pulse",
+        "Swelling and erythema extending to the ankle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Crepitus suggests gas in tissues, indicative of necrotising fasciitis or gas gangrene, which are surgical emergencies requiring immediate debridement. Other findings suggest severe infection but not necessarily gas-forming.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b579c1a6a73",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 78-year-old woman with known peripheral arterial disease is being assessed for elective total hip replacement. She has a history of claudication at 100 metres. Which finding on examination is a red flag that should prompt postponement of surgery for further vascular assessment?",
+      "options": [
+        "Previous amputation of a toe",
+        "Ankle-brachial pressure index of 0.6",
+        "Absent posterior tibial pulse",
+        "Varicose veins",
+        "Non-healing ulcer on the heel"
+      ],
+      "answerIndex": 4,
+      "explanation": "A non-healing ulcer indicates active critical limb ischaemia, which significantly increases perioperative cardiovascular risk and may require revascularisation before elective surgery. An ABPI of 0.6 is moderate disease and not an acute red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd96c5be0b25",
+      "topic": "Peripheral Arterial Disease",
+      "slug": "peripheral-arterial-disease",
+      "system": "Cardiovascular",
+      "subSystem": "Vascular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 47-year-old man who smokes 20 cigarettes daily presents with a 1-year history of pain in the right buttock and thigh when walking uphill, resolving with rest. He has no rest pain. On examination, which finding is most concerning and should prompt urgent imaging for a life-threatening condition?",
+      "options": [
+        "Palpable abdominal aortic aneurysm",
+        "Weak femoral pulse",
+        "Ankle-brachial pressure index of 0.7",
+        "Palpable popliteal artery aneurysm",
+        "Reduced hair growth on the legs"
+      ],
+      "answerIndex": 0,
+      "explanation": "A palpable abdominal aortic aneurysm is a life-threatening condition that can rupture, and its presence in a patient with aortoiliac symptoms mandates urgent imaging. A popliteal aneurysm is also associated but is not an emergency in itself.",
+      "difficulty": "hard"
+    }
+  ]
+}

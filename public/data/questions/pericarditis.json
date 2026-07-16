@@ -1,0 +1,513 @@
+{
+  "topic": "Pericarditis",
+  "slug": "pericarditis",
+  "system": "Cardiovascular",
+  "subSystem": "Pericardial disease",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e0c101c17bda",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with sudden-onset central chest pain that is sharp, pleuritic, and relieved by leaning forward. He has a low-grade fever. On examination, a creaking scratchy sound is heard over the left sternal edge. ECG shows diffuse concave ST elevation in leads I, II, aVF, and V2-V6, with PR depression in lead II. High-sensitivity troponin is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute myocardial infarction",
+        "Pleural effusion",
+        "Acute pericarditis",
+        "Costochondritis",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of pleuritic chest pain relieved by leaning forward, pericardial rub, diffuse ST elevation with PR depression, and normal troponin is classic for acute pericarditis. The key discriminator from acute MI is the diffuse nature of ST changes and PR depression, plus absence of troponin rise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dc7eeabf6935",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 2-week history of intermittent sharp chest pain, worse on inspiration and when lying flat. She had a viral upper respiratory tract infection 3 weeks ago. Examination is unremarkable apart from mild tachycardia. ECG shows only subtle widespread ST elevation and PR depression. Echocardiogram reveals a small posterior echo-free space. What is the single most likely diagnosis?",
+      "options": [
+        "Myocarditis",
+        "Viral pericarditis",
+        "Panic attack",
+        "Pleural effusion",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-viral onset, pericarditic pain, ECG changes, and a small pericardial effusion on echo point to viral pericarditis. Myocarditis would typically cause elevated troponin and left ventricular dysfunction, which are absent here. The echo finding of echo-free space is not seen in pleural effusion or the other options.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4c5548d1410c",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 62-year-old man with end-stage renal disease on haemodialysis presents with pleuritic chest pain and a pericardial rub. He has a low-grade fever. Bloods show elevated urea and creatinine. ECG reveals diffuse ST elevation and PR depression. What is the single most likely diagnosis?",
+      "options": [
+        "Pleurisy",
+        "Acute myocardial infarction",
+        "Uraemic pericarditis",
+        "Costochondritis",
+        "Infective endocarditis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with end-stage renal disease, pleuritic chest pain, pericardial rub, and ECG changes of pericarditis make uraemic pericarditis most likely. Elevated urea is a key clue. Acute MI would show localised changes and troponin rise; infective endocarditis would have signs of systemic infection and murmurs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "abf5ec683ab1",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents with dyspnoea, fatigue, and lower limb oedema over 3 months. She had tuberculous pericarditis 2 years ago. On examination, jugular venous pressure is elevated with a prominent y descent and Kussmaul sign. Heart sounds are faint with a high-pitched early diastolic sound. Echocardiogram shows a thickened pericardium and septal bounce. What is the single most likely diagnosis?",
+      "options": [
+        "Right ventricular infarction",
+        "Restrictive cardiomyopathy",
+        "Tricuspid regurgitation",
+        "Constrictive pericarditis",
+        "Cirrhosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "History of tuberculous pericarditis, signs of right heart failure, Kussmaul sign, and a pericardial knock (early diastolic sound) with thickened pericardium on echo are diagnostic of constrictive pericarditis. Restrictive cardiomyopathy similarly presents but lacks the pericardial knock and septal bounce on echo; right ventricular infarction would have acute onset and ECG changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a4fbe950c2c8",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with acute onset of sharp central chest pain, dyspnoea, and dizziness. He is hypotensive (85/50 mmHg) and tachycardic. Jugular venous pressure is elevated. Muffled heart sounds are noted. ECG shows electrical alternans. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Cardiac tamponade",
+        "Tension pneumothorax",
+        "Aortic dissection",
+        "Acute myocardial infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "The triad of hypotension, JVP elevation, and muffled heart sounds (Beck's triad) plus electrical alternans is classic for cardiac tamponade. Pleuritic pain suggests pericarditis progressing to tamponade. Acute MI would have localised ECG changes and troponin rise; massive PE has signs of right heart strain; aortic dissection has severe tearing pain and pulse deficits; tension pneumothorax has absent breath sounds and tracheal deviation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "201f94bcd1b0",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents with sudden-onset sharp retrosternal chest pain that is worse when lying down and on deep inspiration. He has a low-grade fever and a pericardial rub on auscultation. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Echocardiogram",
+        "Electrocardiogram (ECG)",
+        "C-reactive protein",
+        "Chest X-ray",
+        "High-sensitivity troponin"
+      ],
+      "answerIndex": 1,
+      "explanation": "ECG is the key diagnostic test in acute pericarditis; typical findings of diffuse ST elevation and PR depression are diagnostic. While echo can rule out an effusion, it is not required to confirm pericarditis in this classic presentation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c27ec9d04f6a",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with pleuritic chest pain and a history of recent viral illness has normal cardiac troponin. Her ECG is shown: leads I, II, aVF, V2-V6 show concave ST elevation with PR depression. Which of the following best describes this ECG pattern?",
+      "options": [
+        "Pathological Q waves with ST elevation",
+        "Diffuse ST elevation with PR depression",
+        "Localised ST elevation with reciprocal depression",
+        "Low voltage complexes with electrical alternans",
+        "Widespread ST depression with T wave inversion"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of diffuse concave ST elevation and PR depression is characteristic of acute pericarditis. Localised ST elevation with reciprocal depression suggests myocardial infarction, not pericarditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27c3b9cd9f4b",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with lung cancer presents with dyspnoea, hypotension, and distended neck veins. ECG shows low voltage and electrical alternans. Which single investigation should be performed urgently to confirm the suspected diagnosis?",
+      "options": [
+        "Chest X-ray",
+        "Echocardiogram",
+        "CT chest with contrast",
+        "Cardiac MRI",
+        "Repeat ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected cardiac tamponade, urgent echocardiography is the test of choice as it can confirm a pericardial effusion with features of haemodynamic compromise (right atrial/ventricular collapse) and guide pericardiocentesis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "55d827dde80f",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with recurrent episodes of pleuritic chest pain and a history of idiopathic pericarditis is being evaluated. She is haemodynamically stable with no effusion on echo. Which investigation is most sensitive for detecting active pericardial inflammation?",
+      "options": [
+        "18F-FDG PET-CT",
+        "CT coronary angiography",
+        "Cardiac MRI with late gadolinium enhancement",
+        "High-sensitivity CRP",
+        "Transthoracic echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cardiac MRI with late gadolinium enhancement is the most sensitive non-invasive test to detect pericardial inflammation, particularly in recurrent or chronic pericarditis where echo may be normal. CRP is non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "48ac1a2a8bcf",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents 4 days after an inferior STEMI with sharp pleuritic chest pain and a pericardial rub. Troponin is mildly elevated. Which ECG finding would best differentiate pericarditis from extension of the infarction?",
+      "options": [
+        "New pathological Q waves",
+        "PR depression",
+        "ST elevation >5 mm in inferior leads",
+        "T wave inversion in leads V1-V3",
+        "Left axis deviation"
+      ],
+      "answerIndex": 1,
+      "explanation": "PR depression is a hallmark of pericarditis and is not seen in myocardial infarction. New Q waves or significant ST elevation would suggest further myocardial injury or extension, not pericarditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dda9cc936018",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with acute-onset sharp retrosternal chest pain that worsens on lying flat and improves on sitting forward. ECG shows diffuse saddle-shaped ST elevation. Troponin is normal. He has no fever, no pericardial rub, no effusion on echocardiogram, and no high-risk features. What is the most appropriate first-line treatment?",
+      "options": [
+        "Colchicine 500 µg twice daily alone",
+        "Paracetamol 1 g four times daily",
+        "Prednisolone 30 mg once daily",
+        "Ibuprofen 400 mg three times daily",
+        "Aspirin 75 mg once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "For acute idiopathic pericarditis without high-risk features, first-line therapy is a NSAID such as ibuprofen, often combined with colchicine to reduce recurrence risk. Aspirin is an alternative but less commonly used. Colchicine alone is not first-line. Corticosteroids are reserved for contraindications to NSAIDs or recurrence. Paracetamol lacks anti-inflammatory effect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eb93597f5050",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with recurrent pericarditis has been on ibuprofen 600 mg three times daily and colchicine 500 µg twice daily for 6 weeks with poor symptom control. Echocardiogram shows no effusion. She has no contraindications to corticosteroids. What is the most appropriate next therapy?",
+      "options": [
+        "Increase ibuprofen to 800 mg three times daily",
+        "Add azathioprine 50 mg twice daily",
+        "Add low-dose prednisolone (0.25-0.5 mg/kg/day)",
+        "Referral for pericardectomy",
+        "Pericardiocentesis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In recurrent pericarditis despite adequate NSAID and colchicine, the next step is low-dose prednisolone (0.25-0.5 mg/kg/day). Increasing NSAID dose risks toxicity. Azathioprine is not indicated. Pericardiocentesis is for tamponade. Pericardectomy is reserved for refractory cases after medical therapy failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a28ef486c703",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with acute pericarditis develops hypotension, elevated jugular venous pressure, and pulsus paradoxus. Echocardiogram shows a large pericardial effusion with right atrial collapse. What is the definitive treatment?",
+      "options": [
+        "Pericardiocentesis",
+        "Intravenous methylprednisolone",
+        "Intravenous fluids",
+        "High-dose ibuprofen",
+        "Colchicine 500 µg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of tamponade physiology (hypotension, JVP elevation, pulsus paradoxus, echocardiographic features) requires urgent pericardiocentesis to drain the effusion. NSAIDs, colchicine, and corticosteroids treat inflammation but not structural compression. IV fluids are a temporising measure only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "95cd206bea06",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with stage 4 chronic kidney disease (eGFR 25 mL/min/1.73m²) presents with typical pericarditic chest pain and ECG changes. Which of the following treatments is contraindicated?",
+      "options": [
+        "Ibuprofen 400 mg three times daily",
+        "Prednisolone 15 mg once daily",
+        "Paracetamol 1 g four times daily",
+        "Pericardiocentesis",
+        "Colchicine 500 µg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NSAIDs are contraindicated in severe renal impairment (eGFR <30 mL/min/1.73m²) due to risk of acute kidney injury, fluid retention, and hyperkalaemia. Colchicine requires dose adjustment but is not absolutely contraindicated. Prednisolone, paracetamol, and pericardiocentesis are safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b95ac55a104",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old woman with known asthma presents with acute pericarditis. ECG shows typical changes, no effusion, and she is haemodynamically stable. Which drug should be avoided due to her asthma?",
+      "options": [
+        "Paracetamol",
+        "Ibuprofen",
+        "Prednisolone",
+        "Pericardiocentesis",
+        "Colchicine"
+      ],
+      "answerIndex": 1,
+      "explanation": "NSAIDs, including ibuprofen, can trigger bronchospasm in aspirin-sensitive asthma due to inhibition of cyclooxygenase-1 and shunting to leukotriene pathways. Colchicine, prednisolone, paracetamol, and pericardiocentesis do not carry this risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9498b3546375",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents with acute pleuritic chest pain relieved by leaning forward. ECG shows diffuse saddle-shaped ST elevation and PR depression. Observations: BP 120/80 mmHg, HR 90 bpm, temperature 37.2°C, oxygen saturations 99% on air. What is the single most appropriate next action?",
+      "options": [
+        "Request high-sensitivity troponin",
+        "Arrange urgent echocardiogram",
+        "Start oral ibuprofen and colchicine",
+        "Administer IV morphine",
+        "Start IV antibiotics"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a haemodynamically stable patient with typical acute pericarditis and no high-risk features, first-line treatment is NSAIDs (e.g., ibuprofen) with colchicine. Echocardiography is indicated but not immediately urgent. Troponin may be elevated but does not alter acute management. Morphine and antibiotics are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "61742c7d5966",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with recurrent pericarditis on colchicine 500 mcg twice daily presents with mild retrosternal chest pain for 2 days. She is afebrile, BP 115/75 mmHg, HR 88 bpm, ECG shows PR depression without ST elevation. What is the single most appropriate next action?",
+      "options": [
+        "Add oral ibuprofen 400 mg three times daily",
+        "Refer to cardiology outpatient clinic",
+        "Request urgent echocardiogram",
+        "Check CRP and troponin",
+        "Increase colchicine to 500 mcg three times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "In recurrent pericarditis despite colchicine, the first step is to escalate colchicine dose (max 2 mg/day) if tolerated. Adding an NSAID is second-line. Echocardiography and blood tests are not the immediate next step unless red flags are present.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f88658557127",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known pericarditis becomes hypotensive (BP 80/50 mmHg), tachycardic (HR 110 bpm), and has elevated JVP with muffled heart sounds. What is the single most appropriate next action?",
+      "options": [
+        "Start IV fluid bolus",
+        "Start IV dobutamine",
+        "Arrange urgent echocardiogram",
+        "Administer IV antibiotics",
+        "Perform emergency pericardiocentesis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has cardiac tamponade, a life-threatening emergency. Immediate pericardiocentesis is the definitive treatment. IV fluids are a temporising measure but do not relieve tamponade. Echocardiography should not delay drainage in a crashing patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a8f124d8672e",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with acute pericarditis develops palpitations. ECG shows atrial fibrillation with a ventricular rate of 150 bpm. BP 110/70 mmHg, no signs of tamponade. What is the single most appropriate next action?",
+      "options": [
+        "Start oral colchicine",
+        "Perform electrical cardioversion",
+        "Start IV digoxin",
+        "Start IV amiodarone",
+        "Start IV metoprolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute pericarditis with fast atrial fibrillation and stable haemodynamics, rate control with a beta-blocker (e.g., metoprolol) is first-line. Amiodarone is reserved for rhythm control when rate control fails. Digoxin is second-line. Cardioversion is not indicated without instability. Colchicine treats pericarditis but not the arrhythmia acutely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "77e97462ec39",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old man with known CKD stage 4 (eGFR 25 mL/min) presents with acute pleuritic chest pain and ECG findings consistent with pericarditis. BP 130/80 mmHg, HR 95 bpm, afebrile. What is the single most appropriate next action?",
+      "options": [
+        "Start oral colchicine",
+        "Arrange urgent echocardiogram",
+        "Start oral ibuprofen",
+        "Start oral prednisolone",
+        "Administer IV morphine"
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients with severe renal impairment (eGFR <30 mL/min), NSAIDs are contraindicated and colchicine is relatively contraindicated due to increased toxicity. Corticosteroids (e.g., prednisolone) are the preferred first-line treatment for acute pericarditis in such patients. Echocardiography is not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3cdbcccea2f",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with sharp central chest pain worse on inspiration, relieved by leaning forward. ECG shows diffuse concave ST elevation and PR depression. She has a temperature of 38.5°C. Which feature most urgently suggests a life-threatening mimic or complication?",
+      "options": [
+        "PR depression",
+        "ST elevation concave shape",
+        "temperature 38.5°C",
+        "age 28",
+        "pleuritic nature"
+      ],
+      "answerIndex": 2,
+      "explanation": "A temperature of 38.5°C is a red flag for purulent pericarditis or associated sepsis, which can be life-threatening. The other findings are typical of uncomplicated viral pericarditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7e476f0fdb5",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known pericarditis on NSAIDs presents with increasing dyspnoea and dizziness. On examination, heart sounds are muffled and JVP is raised. Which clinical sign would most convincingly indicate impending cardiac tamponade?",
+      "options": [
+        "pericardial rub",
+        "pulsus paradoxus >10 mmHg",
+        "ST elevation on ECG",
+        "hepatomegaly",
+        "pericardial knock"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pulsus paradoxus >10 mmHg is a key sign of cardiac tamponade. Pericardial rub is typical of pericarditis, and pericardial knock suggests constrictive pericarditis, not tamponade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad1cc6621bfe",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man presents with acute-onset retrosternal chest pain and hypotension. ECG shows low voltage QRS complexes. Bedside echocardiogram shows a large pericardial effusion with diastolic collapse of the right atrium. Which finding from the echo is the most specific for cardiac tamponade?",
+      "options": [
+        "left ventricular hypertrophy",
+        "pericardial thickening",
+        "left atrial enlargement",
+        "mitral regurgitation",
+        "right atrial collapse"
+      ],
+      "answerIndex": 4,
+      "explanation": "Diastolic collapse of the right atrium is an echocardiographic sign specific for cardiac tamponade. Pericardial thickening is more indicative of constrictive pericarditis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "37dd5a6b3316",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with a history of viral pericarditis 6 months ago now presents with fatigue, peripheral oedema, and raised JVP. Which physical examination finding is characteristic of the complication she is most likely developing?",
+      "options": [
+        "Kussmaul's sign",
+        "pericardial rub",
+        "apical beat displaced",
+        "wide pulse pressure",
+        "pulsus paradoxus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kussmaul's sign (rise in JVP on inspiration) is classic for constrictive pericarditis, a late complication of pericarditis. Pulsus paradoxus suggests tamponade, not constriction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ba4549f3f33c",
+      "topic": "Pericarditis",
+      "slug": "pericarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Pericardial disease",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man on warfarin for atrial fibrillation develops acute pericarditis. He presents with pleuritic chest pain. Which finding on ECG or imaging would be a red flag for haemopericardium?",
+      "options": [
+        "pathological Q waves",
+        "diffuse ST elevation",
+        "PR depression",
+        "electrical alternans",
+        "T-wave inversion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Electrical alternans (beat-to-beat variation in QRS amplitude) suggests a large pericardial effusion, which in this anticoagulated patient may be haemopericardium, a life-threatening emergency. The other findings are typical of pericarditis or MI.",
+      "difficulty": "medium"
+    }
+  ]
+}

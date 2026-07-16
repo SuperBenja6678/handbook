@@ -1,0 +1,513 @@
+{
+  "topic": "Parkinson's Disease",
+  "slug": "parkinson's-disease",
+  "system": "Neurology",
+  "subSystem": "Movement",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c210aede3257",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with a 6-month history of a tremor in his right hand that is worse at rest. His wife reports he has become slower in his movements and has a stiff right arm. Neurological examination reveals a 'pill-rolling' tremor in the right hand, cogwheel rigidity in the right wrist, and bradykinesia. He has no postural instability. What is the single most likely diagnosis?",
+      "options": [
+        "Drug-induced parkinsonism",
+        "Multiple system atrophy",
+        "Essential tremor",
+        "Parkinson's disease",
+        "Vascular parkinsonism"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unilateral resting tremor, cogwheel rigidity, and bradykinesia are classic for Parkinson's disease. Essential tremor is bilateral postural/action tremor. No medication history suggests drug-induced parkinsonism. Absence of autonomic or cerebellar features makes MSA less likely. No stepwise progression or vascular risk factors favour vascular parkinsonism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d4bc55459c23",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 2-year history of progressive stiffness and slowness in her legs. She also experiences cramping in her left foot, especially in the morning. On examination, she has mild rigidity in both arms, bradykinesia, and a dystonic posturing of the left foot. There is no tremor. Her symptoms improve significantly after a trial of low-dose levodopa. What is the single most likely diagnosis?",
+      "options": [
+        "Parkinson's disease (young-onset)",
+        "Wilson's disease",
+        "Early-onset Huntington's disease",
+        "Dopa-responsive dystonia (Segawa syndrome)",
+        "Psychogenic movement disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "Young-onset Parkinson's disease often presents with dystonia and a sustained response to levodopa. The lack of diurnal fluctuation and age >30 make dopa-responsive dystonia less likely. Wilson's disease typically has Kayser-Fleischer rings and hepatic involvement. Huntington's usually presents with chorea and cognitive decline. Psychogenic disorder would have inconsistent features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47895c674151",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with a 5-year history of Parkinson's disease treated with co-beneldopa (Madopar) 125 mg five times daily presents with a 2-month history of his symptoms wearing off 30 minutes before his next dose is due. He feels stiff and slow, and then improves about 20 minutes after taking his medication. There are no involuntary movements. What is the single most likely diagnosis?",
+      "options": [
+        "Freezing of gait",
+        "Peak-dose dyskinesia",
+        "Diphasic dyskinesia",
+        "Wearing-off phenomenon (end-of-dose deterioration)",
+        "Dopamine dysregulation syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "The predictable re-emergence of parkinsonism before the next dose that resolves after levodopa intake is classic for wearing-off phenomenon. Peak-dose dyskinesia occurs at peak effect, not before. Diphasic dyskinesia occurs at onset and end of dose. Freezing is unpredictable and not strictly related to timing. Dopamine dysregulation involves compulsive medication use and behavioural changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "75ecabb0513b",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old man is brought to clinic by his daughter. Over the past 6 months he has experienced vivid visual hallucinations of people and animals, fluctuating confusion that varies hour-to-hour, and several falls. He has mild rigidity in his arms and a slow, shuffling gait. His daughter notes that the hallucinations started before the movement problems. Mini-Mental State Examination score is 22/30. What is the single most likely diagnosis?",
+      "options": [
+        "Normal pressure hydrocephalus",
+        "Vascular dementia",
+        "Parkinson's disease dementia",
+        "Dementia with Lewy bodies",
+        "Alzheimer's disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "The one-year rule: dementia preceding or within one year of parkinsonism suggests dementia with Lewy bodies. Core features include visual hallucinations and fluctuating cognition. Parkinson's disease dementia typically develops more than one year after motor symptoms. Alzheimer's usually lacks parkinsonism early on. Vascular dementia has stepwise progression. Normal pressure hydrocephalus presents with gait apraxia, urinary incontinence, and cognitive decline, but hallucinations are not typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b52781ef103",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with advanced Parkinson's disease on levodopa/carbidopa is admitted after a fall. She has not taken her medications for 48 hours due to vomiting. On examination, she is febrile (38.5°C), rigid, and confused. Her pulse is 110 bpm, BP 140/80. Creatine kinase is 3000 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Septic encephalopathy",
+        "Meningitis",
+        "Status epilepticus",
+        "Stroke",
+        "Neuroleptic malignant-like syndrome due to levodopa withdrawal"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of rigidity, fever, and elevated CK after abrupt withdrawal of dopaminergic medications is classic for neuroleptic malignant-like syndrome (akinetic crisis). No signs of infection (e.g., no meningism, clear chest) argue against septic encephalopathy or meningitis. No focal neurological deficit for stroke. No rhythmic movements or post-ictal state for status epilepticus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0e1e78a6d22b",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a 6-month history of gradually progressive right-hand tremor and slowness of movement. On examination, he has mild bradykinesia in the right arm, cogwheel rigidity in the right elbow, and a resting tremor in the right hand. Gait is normal. There is no family history of tremor. He is otherwise well. What is the single most appropriate next step to confirm the diagnosis?",
+      "options": [
+        "Serum copper and caeruloplasmin",
+        "MRI brain with gadolinium",
+        "Lumbar puncture for alpha-synuclein",
+        "Trial of levodopa",
+        "DaTSCAN (123I-FP-CIT SPECT)"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with typical unilateral rest tremor, rigidity and bradykinesia, the NICE guidelines recommend a trial of levodopa (or a dopamine agonist) as the first step to confirm the diagnosis of Parkinson's disease. A positive response (significant improvement) supports the diagnosis. DaTSCAN is reserved for cases where diagnostic uncertainty persists, such as atypical features or young-onset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b75cb972040e",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with a 1-year history of progressive stiffness and slowness, but also reports several falls over the past 4 months. On examination, he has axial rigidity, bradykinesia, and a supranuclear vertical gaze palsy. Which single investigation would best differentiate his condition from typical idiopathic Parkinson's disease?",
+      "options": [
+        "Lumbar puncture for tau protein",
+        "DaTSCAN (123I-FP-CIT SPECT)",
+        "Electroencephalogram (EEG)",
+        "Electromyography (EMG)",
+        "MRI brain"
+      ],
+      "answerIndex": 4,
+      "explanation": "Early falls and vertical gaze palsy suggest progressive supranuclear palsy (PSP). MRI brain can show midbrain atrophy ('hummingbird sign' or 'morning glory sign') characteristic of PSP, differentiating it from idiopathic Parkinson's disease where MRI is usually normal. DaTSCAN shows reduced striatal uptake in both conditions and cannot reliably differentiate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d95c909e4979",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman presents with a 2-year history of a bilateral hand tremor that worsens with posture and action. She has no bradykinesia, rigidity, or gait disturbance. She drinks moderate alcohol and reports that the tremor lessens with alcohol. Clinical examination shows a fine, bilateral, symmetric postural and intention tremor. There is no family history of tremor. What is the single most appropriate diagnostic test to confirm the diagnosis?",
+      "options": [
+        "MRI brain",
+        "Trial of propranolol",
+        "Genetic testing for LRRK2 mutation",
+        "DaTSCAN (123I-FP-CIT SPECT)",
+        "Trial of levodopa"
+      ],
+      "answerIndex": 3,
+      "explanation": "In this case, the clinical picture is most consistent with essential tremor rather than Parkinson's disease. However, since essential tremor often has a benign course and DaTSCAN is not routinely needed, NICE recommends a DaTSCAN only when there is diagnostic uncertainty after clinical assessment. Here, the absence of bradykinesia and rigidity makes essential tremor likely, but DaTSCAN is the definitive test to distinguish between the two if required, as it is normal in essential tremor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "759bb1b27b31",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with a 5-year history of Parkinson's disease (well-controlled on levodopa) has developed progressive memory loss and visual hallucinations over the past 6 months. His family report fluctuations in attention. He has a Mini-Mental State Examination score of 22/30. He is not known to have dementia. Which single investigation is most appropriate to help differentiate his condition from Alzheimer's disease?",
+      "options": [
+        "Electroencephalogram (EEG)",
+        "Lumbar puncture for amyloid-beta and tau",
+        "DaTSCAN (123I-FP-CIT SPECT)",
+        "MRI brain",
+        "Neuropsychological testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has features suggestive of dementia with Lewy bodies (DLB) – parkinsonism, visual hallucinations, fluctuating cognition. MRI brain can show relative preservation of hippocampal volume compared to Alzheimer's disease, and may also show less temporal lobe atrophy. This helps differentiate DLB from Alzheimer's disease. DaTSCAN is also supportive but is not always required; MRI is a more practical first-line investigation in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63f5857d24ab",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 42-year-old woman presents with a 2-year history of progressive leg stiffness and occasional falls. She has mild bradykinesia but no tremor. Her father developed similar symptoms in his early 50s and died at 60. On examination, she has some dystonic posturing of the feet and hyperreflexia. Which single investigation is most appropriate to confirm the underlying genetic diagnosis?",
+      "options": [
+        "DaTSCAN (123I-FP-CIT SPECT)",
+        "MRI brain with susceptibility-weighted imaging",
+        "Copper studies with 24-hour urinary copper",
+        "Genetic testing for Parkin (PRKN) and PINK1 mutations",
+        "Serum ferritin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Early-onset Parkinson's disease (before age 50) with autosomal recessive family history, no tremor, and dystonia suggests a genetic form, most commonly mutations in Parkin (PRKN) or PINK1. These are the most common causes of young-onset Parkinson's disease. DaTSCAN would show reduced striatal uptake but does not identify the genetic subtype. Other options are for conditions like neurodegeneration with brain iron accumulation (MRI) or Wilson's disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8f6ebf19bce3",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man is diagnosed with idiopathic Parkinson's disease. He has unilateral tremor and bradykinesia (Hoehn and Yahr stage 2). He has no cognitive impairment and lives independently. What is the most appropriate first-line symptomatic treatment?",
+      "options": [
+        "Levodopa/carbidopa (co-careldopa) 100/25 mg three times daily",
+        "Apomorphine 2 mg subcutaneous as required",
+        "Anticholinergic (e.g., procyclidine) 5 mg three times daily",
+        "Ropinirole immediate release 0.25 mg three times daily",
+        "Selegiline 5 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend levodopa as first-line symptomatic treatment for older patients (≥70 years) due to better motor response and lower risk of neuropsychiatric side effects compared to dopamine agonists.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "94b2f5732e28",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman with Parkinson's disease has been on levodopa/carbidopa 100/25 mg four times daily for 3 years. She experiences wearing-off of benefit before the next dose, with increased rigidity and bradykinesia. What is the most appropriate first-line add-on therapy?",
+      "options": [
+        "Add amantadine 100 mg twice daily",
+        "Switch to apomorphine continuous subcutaneous infusion",
+        "Refer for deep brain stimulation assessment",
+        "Add rasagiline 1 mg once daily",
+        "Add entacapone 200 mg with each levodopa dose"
+      ],
+      "answerIndex": 4,
+      "explanation": "For motor fluctuations with wearing-off, NICE recommends adding a COMT inhibitor (e.g., entacapone) as first-line to prolong levodopa's effect. This is more established than MAO-B inhibitors for this indication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d5283473e07c",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old man with Parkinson's disease on levodopa/carbidopa and pramipexole develops well-formed visual hallucinations with retained insight. He has no prior psychiatric history. Which of the following drugs is CONTRAINDICATED in this patient?",
+      "options": [
+        "Aripiprazole 5 mg at night",
+        "Quetiapine 12.5 mg at night",
+        "Olanzapine 2.5 mg at night",
+        "Haloperidol 0.5 mg at night",
+        "Clozapine 12.5 mg at night"
+      ],
+      "answerIndex": 2,
+      "explanation": "Olanzapine is contraindicated in Parkinson's disease psychosis due to significant extrapyramidal side effects (worsening motor symptoms). NICE recommends only quetiapine or clozapine as antipsychotics in PD.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8df0a7c70cd1",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old woman with Parkinson's disease and moderate dementia (MMSE 18) presents with worsening motor symptoms affecting her daily activities. She lives in a care home. What is the most appropriate first-line symptomatic treatment?",
+      "options": [
+        "Ropinirole 0.25 mg three times daily",
+        "Amantadine 100 mg once daily",
+        "Levodopa/carbidopa (co-careldopa) 50/12.5 mg three times daily",
+        "Procyclidine 2.5 mg three times daily",
+        "Selegiline 5 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In elderly patients with dementia, levodopa is the safest and most effective first-line therapy. Dopamine agonists are associated with confusion and hallucinations; anticholinergics are contraindicated due to cognitive worsening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e8286778200e",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a 5-year history of Parkinson's disease on levodopa/carbidopa develops moderate-to-severe peak-dose dyskinesias affecting his trunk and arms. He finds these disfiguring and functionally limiting. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Add clonazepam 0.5 mg at night",
+        "Reduce levodopa and add a dopamine agonist",
+        "Add amantadine 100 mg twice daily",
+        "Add propranolol 40 mg twice daily",
+        "Refer for botulinum toxin injections"
+      ],
+      "answerIndex": 2,
+      "explanation": "Amantadine is recommended by NICE as first-line treatment for levodopa-induced dyskinesias. It reduces dyskinesia severity without worsening parkinsonism. Beta-blockers are used for tremor, not dyskinesia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "29888e361ee1",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man presents to the GP with a 6-month history of a resting tremor in his right hand and difficulty with fine movements. On examination, he has bradykinesia and cogwheel rigidity. He has no previous medical history. What is the single most appropriate next step?",
+      "options": [
+        "Start propranolol",
+        "Start an anticholinergic (e.g., procyclidine)",
+        "Arrange a CT head",
+        "Start co-careldopa",
+        "Refer to a neurologist"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected Parkinson's disease, the first step is referral to a specialist for confirmation and management initiation. Treatment is not started empirically by a GP without specialist input, and imaging is not routinely required if the presentation is typical.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "82b9a7558a37",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 74-year-old man with Parkinson's disease on co-beneldopa and pramipexole presents with a 2-day history of confusion and vivid visual hallucinations. He is not febrile. Observations are stable. His carers report he has been taking his medications regularly. What is the single most appropriate next step?",
+      "options": [
+        "Reduce the dose of pramipexole",
+        "Reduce the dose of co-beneldopa",
+        "Start quetiapine",
+        "Start olanzapine",
+        "Refer to liaison psychiatry"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Parkinson's disease psychosis, the first step is to reduce or stop the dopamine agonist, which is the most likely culprit. Levodopa can also contribute but is usually reduced second. Antipsychotics like quetiapine are reserved if symptoms persist after adjustment, and olanzapine is avoided due to motor worsening. Referral may be needed later.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb502f6a4701",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman with Parkinson's disease on co-careldopa is admitted with a fractured hip. She is in theatre for surgery and has been nil-by-mouth for 6 hours. Postoperatively, she becomes rigid, pyrexial (39°C), tachycardic, and hypotensive. Her creatine kinase is 2500 U/L. What is the single most appropriate next step?",
+      "options": [
+        "Restart co-careldopa via nasogastric tube",
+        "Administer dantrolene intravenously",
+        "Give intravenous fluids and paracetamol",
+        "Start a rotigotine patch",
+        "Transfer to the intensive care unit"
+      ],
+      "answerIndex": 0,
+      "explanation": "This presentation suggests Parkinsonism-hyperpyrexia syndrome from missed antiparkinsonian medication. The immediate priority is to restart levodopa via NG tube. Dantrolene is used for neuroleptic malignant syndrome but not first line here. Rotigotine patch is an alternative but NG levodopa is more direct. IV fluids and ICU may be needed but restarting medication is the definitive action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13faa65101e9",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with Parkinson's disease on co-careldopa and rasagiline is scheduled for elective knee replacement. He is admitted the night before and is nil-by-mouth from midnight. What is the single most appropriate next step?",
+      "options": [
+        "Give apomorphine subcutaneously",
+        "Withhold all Parkinson's medications until after surgery",
+        "Prescribe intravenous levodopa",
+        "Continue co-careldopa via nasogastric tube",
+        "Apply a rotigotine transdermal patch"
+      ],
+      "answerIndex": 4,
+      "explanation": "For Parkinson's patients who are nil-by-mouth, a rotigotine patch should be applied to maintain dopaminergic levels. Levodopa via NG is possible but less practical and the patch is the first-line alternative per NICE. Apomorphine is for rescue. Withholding medication risks akinesia and complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73f20330e040",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents with a 6-month history of slowly progressive stiffness, slowed movements, and a shuffling gait. She does not have a tremor. She reports two episodes of fainting and has urinary urgency. On examination, she has bradykinesia and rigidity, but also postural hypotension (drop of 30 mmHg systolic on standing). What is the single most appropriate next step?",
+      "options": [
+        "Arrange an MRI brain",
+        "Refer to a neurologist",
+        "Start amantadine",
+        "Start a trial of co-careldopa",
+        "Refer for a DaTSCAN"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of parkinsonism with early autonomic failure and absence of tremor suggests an atypical parkinsonian syndrome such as multiple system atrophy. Specialist assessment is essential before starting treatment or ordering further tests like MRI or DaTSCAN, which are guided by the neurologist. Starting levodopa may cause a poor response and is not first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f989338241af",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man presents with a 6-month history of asymmetrical rest tremor and bradykinesia. He reports occasional dizziness on standing and has had two syncopal episodes. Which single finding most strongly suggests a diagnosis other than idiopathic Parkinson's disease?",
+      "options": [
+        "Early postural hypotension with syncope",
+        "REM sleep behaviour disorder",
+        "Constipation",
+        "Impaired sense of smell",
+        "Depression"
+      ],
+      "answerIndex": 0,
+      "explanation": "Early, severe autonomic failure with syncope within the first year is a red flag for multiple system atrophy (MSA) rather than idiopathic Parkinson's disease, where autonomic issues occur late. This changes management and warrants early referral.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dbb589d38d51",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with Parkinson's disease on co-careldopa and selegiline presents to the emergency department with confusion, fever (39 °C), severe rigidity, and fluctuating blood pressure. Which finding is most indicative of a life-threatening complication?",
+      "options": [
+        "Dysphagia",
+        "Postural hypotension",
+        "Visual hallucinations",
+        "Elevated creatine kinase",
+        "Constipation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of rigidity, fever, autonomic instability, and elevated CK is classic for neuroleptic malignant syndrome (NMS), a medical emergency. Elevated CK distinguishes NMS from other causes of confusion and fever in Parkinson's disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70c2291f9b4f",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with Parkinson's disease for 4 years has recently developed coughing episodes when drinking liquids and has lost weight. Her family reports she often clears her throat after meals. Which single feature is the strongest red flag for aspiration risk?",
+      "options": [
+        "Drooling",
+        "Choking or coughing when swallowing liquids",
+        "Hypophonia",
+        "Oral candidiasis",
+        "Taste disturbance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Coughing or choking when swallowing indicates oropharyngeal dysphagia with high risk of aspiration pneumonia. This is a critical 'can't-miss' finding requiring urgent speech and language therapy assessment and swallowing safety modification.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ccbe0ea9e06d",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old presents with a 3-month history of difficulty walking, forgetfulness, and urinary incontinence. On examination, she has a wide-based, shuffling gait but no rest tremor or cogwheel rigidity. Which finding points to a potentially reversible condition rather than Parkinson's disease?",
+      "options": [
+        "Postural instability",
+        "Gait apraxia with feet 'glued to floor'",
+        "Micrographia",
+        "Bradykinesia",
+        "Masked facies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Classic triad of normal pressure hydrocephalus (NPH) is gait apraxia, cognitive decline, and urinary incontinence. The gait is magnetic (feet stuck), unlike Parkinsonian gait. NPH is potentially reversible with CSF shunting, making early recognition vital.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd3e0b873d99",
+      "topic": "Parkinson's Disease",
+      "slug": "parkinson's-disease",
+      "system": "Neurology",
+      "subSystem": "Movement",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with Parkinson's disease on rasagiline and co-careldopa develops a sudden severe headache, palpitations, and nausea after eating aged cheese. Her blood pressure is 190/115 mmHg. Which finding indicates a life-threatening drug interaction?",
+      "options": [
+        "Flushing",
+        "Severe hypertension (systolic >180 mmHg)",
+        "Nausea",
+        "Headache",
+        "Tachycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "MAO-B inhibitors (e.g., rasagiline) can rarely cause hypertensive crisis with tyramine-rich foods. Marked hypertension is the critical red flag; immediate management with antihypertensives and withdrawal of the MAO-B inhibitor is required.",
+      "difficulty": "hard"
+    }
+  ]
+}

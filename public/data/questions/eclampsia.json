@@ -1,0 +1,513 @@
+{
+  "topic": "Eclampsia",
+  "slug": "eclampsia",
+  "system": "Obstetrics",
+  "subSystem": "Hypertension in pregnancy",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:35Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b4be9c87d56c",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 32 weeks gestation presents with a sudden onset of severe headache, visual disturbance, and a single generalised tonic-clonic seizure. Her blood pressure is 160/100 mmHg, and urinalysis shows 3+ protein. What is the single most likely diagnosis?",
+      "options": [
+        "Gestational hypertension",
+        "HELLP syndrome",
+        "Epileptic seizure",
+        "Pre-eclampsia",
+        "Eclampsia"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of hypertension, proteinuria, and new-onset seizures in pregnancy is diagnostic of eclampsia. Pre-eclampsia lacks seizures; HELLP typically presents with epigastric pain and thrombocytopenia; gestational hypertension has no proteinuria; an epileptic seizure would lack hypertension and proteinuria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ce375c7d3467",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 24-year-old nulliparous woman at 28 weeks gestation is noted to have a blood pressure of 145/95 mmHg on two occasions and 1+ proteinuria on dipstick. She feels well and has no headache, visual changes, or epigastric pain. What is the single most likely diagnosis?",
+      "options": [
+        "HELLP syndrome",
+        "Chronic hypertension",
+        "Pre-eclampsia",
+        "Eclampsia",
+        "Gestational hypertension"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mild hypertension plus new proteinuria at <34 weeks in a nulliparous woman fits pre-eclampsia. Gestational hypertension has no proteinuria; chronic hypertension predates pregnancy; HELLP is severe with thrombocytopenia; eclampsia requires seizures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d759bf72624d",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman at 36 weeks gestation presents with severe epigastric pain, nausea, vomiting, and hypertension (170/110 mmHg). Urinalysis shows 3+ protein. Blood results: platelets 70 x10^9/L, AST 200 U/L, creatinine 120 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-eclampsia",
+        "Acute fatty liver of pregnancy",
+        "HELLP syndrome",
+        "Pancreatitis",
+        "Eclampsia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of epigastric pain, hypertension, proteinuria, thrombocytopenia, and elevated liver enzymes is classic for HELLP syndrome. Acute fatty liver often presents with hypoglycemia and coagulopathy; pre-eclampsia lacks the severe thrombocytopenia and liver dysfunction; eclampsia requires seizures; pancreatitis would not have proteinuria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "849243870437",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 26-year-old woman, 2 days post vaginal delivery, develops severe headache, visual scotomas, and a single generalised tonic-clonic seizure. Her blood pressure is 150/90 mmHg, and urine dipstick shows 1+ protein. She had no hypertension during pregnancy. What is the single most likely diagnosis?",
+      "options": [
+        "Eclampsia",
+        "Postpartum pre-eclampsia",
+        "Migraine with aura",
+        "Epilepsy",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Postpartum eclampsia can occur up to 6 weeks after delivery, even without preceding severe hypertension. The seizure with headache and visual symptoms, plus mild hypertension and proteinuria, makes eclampsia most likely. CVST typically presents with focal signs or persistent headache; epilepsy lacks hypertension/proteinuria; migraine does not cause seizures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "902fc52a0034",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 34-year-old woman with known chronic hypertension on labetalol 200 mg twice daily is at 32 weeks gestation. Her blood pressure is 150/95 mmHg, and a urine dipstick shows 2+ protein for the first time. She has no headache, visual changes, or epigastric pain. What is the single most likely diagnosis?",
+      "options": [
+        "Gestational hypertension",
+        "Superimposed pre-eclampsia",
+        "Eclampsia",
+        "HELLP syndrome",
+        "Chronic hypertension"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a woman with chronic hypertension, the new onset of proteinuria at 32 weeks indicates superimposed pre-eclampsia. Chronic hypertension alone lacks proteinuria; gestational hypertension is a diagnosis of exclusion in women without prior hypertension; HELLP and eclampsia are more severe and have additional features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "58dd0e68c959",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old primigravida at 35 weeks presents after a generalised tonic-clonic seizure. BP 170/110, urine dipstick shows 3+ protein. Which investigation is most appropriate to confirm the presence of significant proteinuria, a necessary component of the diagnosis of eclampsia?",
+      "options": [
+        "Repeat urine dipstick",
+        "Urea and electrolytes",
+        "24-hour urine collection",
+        "Serum creatinine",
+        "Urine protein:creatinine ratio"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends a urine protein:creatinine ratio (PCR) >30 mg/mmol to confirm significant proteinuria in preeclampsia. 24-hour urine collection is an alternative but is time-consuming and not first-line; dipstick is semi-quantitative and insufficient for confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "44ecf3e27dbe",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman, 3 days post-caesarean section, develops a tonic-clonic seizure. She had preeclampsia during pregnancy (BP 150/95, proteinuria 2+). BP is now 160/105, and urine dipstick shows 2+ protein. Which of the following findings would most confirm the diagnosis of eclampsia?",
+      "options": [
+        "Proteinuria ≥3+ on dipstick",
+        "Seizure in a woman with preeclampsia",
+        "Blood pressure ≥160/110 mmHg",
+        "Thrombocytopenia <100 x10^9/L",
+        "Post-ictal confusion lasting >30 minutes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Eclampsia is defined as new-onset grand-mal seizures in a woman with preeclampsia. Hypertension and proteinuria alone are insufficient without seizure; thrombocytopenia is a feature of severe preeclampsia/HELLP but not diagnostic of eclampsia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3e76134b741",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old primigravida at 32 weeks with known preeclampsia (BP 160/105, proteinuria 2+) has a convulsion. Blood results: Hb 115 g/L, Platelets 95 x10^9/L, ALT 110 U/L, Creatinine 85 μmol/L, Urate 480 μmol/L. Which diagnosis best explains this presentation?",
+      "options": [
+        "HELLP syndrome",
+        "Intracerebral haemorrhage",
+        "Eclampsia",
+        "Severe preeclampsia",
+        "Epilepsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The seizure in the setting of preeclampsia is diagnostic of eclampsia. The thrombocytopenia and elevated liver enzymes are commonly seen in severe preeclampsia/eclampsia but do not meet full HELLP criteria (requires evidence of haemolysis, e.g., elevated LDH, low haptoglobin).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bbc459f06789",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "According to NICE guidelines, what is the minimum blood pressure threshold for diagnosing preeclampsia, which is a prerequisite for the diagnosis of eclampsia?",
+      "options": [
+        "Systolic ≥160 mmHg or diastolic ≥110 mmHg",
+        "Systolic ≥140 mmHg and diastolic ≥90 mmHg",
+        "Systolic ≥160 mmHg and diastolic ≥100 mmHg",
+        "Systolic ≥140 mmHg or diastolic ≥90 mmHg",
+        "Systolic ≥150 mmHg or diastolic ≥100 mmHg"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE defines preeclampsia as new-onset hypertension (≥140/90) with proteinuria. Eclampsia is seizure in this context. The 'or' in the blood pressure threshold is misleading; typically both systolic and diastolic are considered, but the threshold is ≥140/90. Option 0 captures the correct single threshold value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e78a353be02",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old multiparous woman at 38 weeks presents with a single tonic-clonic seizure. She has chronic hypertension on labetalol, with baseline BP 140/85. Urine dipstick shows 1+ protein. What is the most important investigation to determine whether this is eclampsia versus another cause of seizure?",
+      "options": [
+        "Urine protein:creatinine ratio",
+        "CT head",
+        "Serum urate",
+        "Serum magnesium",
+        "EEG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Given the background of chronic hypertension and only borderline proteinuria, eclampsia is not certain. CT head is essential to exclude structural brain pathology, especially if the seizure is atypical. Urine protein:creatinine ratio confirms proteinuria but does not diagnose cause of seizure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "beeed1e37e36",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old primigravida at 36 weeks gestation is admitted with severe pre-eclampsia. While being assessed, she has a generalised tonic-clonic seizure lasting 90 seconds. Her blood pressure is 160/105 mmHg. What is the single most appropriate first-line treatment for her seizure?",
+      "options": [
+        "Intravenous labetalol",
+        "Intravenous magnesium sulfate",
+        "Intravenous phenytoin",
+        "Intravenous hydralazine",
+        "Intravenous lorazepam"
+      ],
+      "answerIndex": 1,
+      "explanation": "IV magnesium sulfate is the first-line anticonvulsant for eclampsia per NICE guidelines. Options like diazepam (lorazepam) and phenytoin are second-line if magnesium fails. Labetalol and hydralazine are antihypertensives, not anticonvulsants.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7aad9fbbb95c",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with eclampsia had a seizure, received a loading dose of IV magnesium sulfate 4g and maintenance infusion at 1g/h. One hour later, she has a second seizure. What is the most appropriate next step?",
+      "options": [
+        "Proceed to immediate caesarean section",
+        "Administer IV lorazepam",
+        "Switch to IV phenytoin",
+        "Administer a further bolus of IV magnesium sulfate 2g",
+        "Increase the magnesium sulfate infusion to 2g/h"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends a further bolus of 2g IV magnesium sulfate if seizures recur despite initial loading and maintenance. Increasing the infusion rate is not recommended; phenytoin or lorazepam are only considered if magnesium fails. Delivery should occur after stabilisation, not immediately during active seizures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d09279b53d5d",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 29-year-old woman with eclampsia has a serum creatinine of 220 µmol/L (normal 60-110). She has just had a seizure. Which of the following treatments is contraindicated or requires significant dose adjustment?",
+      "options": [
+        "Oral methyldopa",
+        "Intravenous hydralazine",
+        "Intravenous labetalol",
+        "Intravenous magnesium sulfate",
+        "Oral nifedipine"
+      ],
+      "answerIndex": 3,
+      "explanation": "Magnesium sulfate is renally cleared and accumulates in renal impairment, risking toxicity (respiratory depression, areflexia). It should be avoided or used with extreme caution and monitoring. Labetalol, nifedipine, hydralazine, and methyldopa are not primarily renally cleared to the same degree.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2eda28aac0b",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 26-year-old woman with a known history of myasthenia gravis presents at 33 weeks with severe pre-eclampsia and a generalised seizure. Her blood pressure is 175/110 mmHg. Which anticonvulsant is contraindicated in this patient?",
+      "options": [
+        "Intravenous levetiracetam",
+        "Intravenous magnesium sulfate",
+        "Intravenous lorazepam",
+        "Intravenous phenytoin",
+        "Intravenous valproate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Magnesium sulfate inhibits neuromuscular transmission and can exacerbate myasthenia gravis, leading to respiratory failure. It is contraindicated in myasthenia. Phenytoin, levetiracetam, lorazepam, and valproate do not have this specific contraindication, though care is needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5824cb0c7da4",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman at 35 weeks gestation has stabilised after an eclamptic seizure. She is now awake and oriented. Blood pressure is 150/95 mmHg. Magnesium sulfate infusion is running. What is the definitive management of her condition?",
+      "options": [
+        "Perform immediate caesarean section",
+        "Administer intravenous hydralazine",
+        "Transfer to intensive care unit",
+        "Start oral nifedipine",
+        "Continue magnesium sulfate for 24 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "The definitive treatment for eclampsia is delivery of the fetus, as eclampsia is a pregnancy-specific condition. After maternal stabilisation, delivery should be expedited irrespective of gestational age. Continuing magnesium or antihypertensives alone does not treat the underlying cause. Intravenous hydralazine and oral nifedipine are for blood pressure control but not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b88fed28f26e",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old primigravida at 38 weeks gestation presents to the emergency department with a severe headache and visual scotomata. Her blood pressure is 155/100 mmHg, and urinalysis shows 2+ protein. She has no previous history of hypertension. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer oral nifedipine",
+        "Start intravenous labetalol",
+        "Perform a digital vaginal examination",
+        "Give intravenous magnesium sulphate",
+        "Arrange an urgent CT head"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has severe pre-eclampsia (BP ≥150/100 with symptoms). NICE guidelines recommend immediate magnesium sulphate for seizure prophylaxis to prevent eclampsia. Lowering BP with antihypertensives is also important but secondary to seizure prophylaxis. CT head is not indicated unless neurological signs are focal. Vaginal examination is not appropriate until a plan for delivery is made.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "01c99a403eb0",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman at 34 weeks gestation is found to have a blood pressure of 140/90 mmHg and 1+ protein on urinalysis during a routine antenatal visit. She feels well with no symptoms. What is the single most appropriate immediate next action?",
+      "options": [
+        "Arrange for admission to the antenatal ward",
+        "Advise outpatient follow-up in one week",
+        "Give a stat dose of magnesium sulphate",
+        "Start oral labetalol",
+        "Refer for urgent delivery"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has mild pre-eclampsia without severe features (BP <150/100, no symptoms). NICE recommends admission to a day assessment unit or antenatal ward for monitoring of BP, urine protein, and fetal wellbeing. Antihypertensives are started only if BP consistently >150/100. Magnesium sulphate is reserved for severe pre-eclampsia. Outpatient follow-up is insufficient due to risk of progression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f9504c9a6e2",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman at 30 weeks gestation has just had a witnessed tonic-clonic seizure. She is now post-ictal, with a blood pressure of 170/110 mmHg and 3+ protein on urinalysis. What is the single most appropriate immediate next action?",
+      "options": [
+        "Give a loading dose of magnesium sulphate",
+        "Perform CT head without contrast",
+        "Prepare for emergency caesarean section",
+        "Check airway patency and breathing",
+        "Start an intravenous infusion of labetalol"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with eclampsia who is post-ictal, the first priority is to assess and secure the airway, breathing, and circulation (A to E assessment). Magnesium sulphate should be given to prevent further seizures, but only after ensuring the patient is stable. Antihypertensives and CT head follow secondary assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "58af1def1dfb",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 29-year-old woman at 28 weeks gestation with severe pre-eclampsia develops acute shortness of breath and frothy sputum. Her oxygen saturation is 88% on room air, and blood pressure is 160/105 mmHg. Crackles are heard throughout both lung fields. What is the single most appropriate immediate next action?",
+      "options": [
+        "Request an urgent echocardiogram",
+        "Obtain a CT pulmonary angiogram",
+        "Give intravenous furosemide 40 mg",
+        "Infuse intravenous labetalol",
+        "Start intravenous magnesium sulphate"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has pulmonary oedema complicating severe pre-eclampsia. The immediate priority is to treat the pulmonary oedema with a loop diuretic such as furosemide. Magnesium sulphate is indicated for seizure prophylaxis but not before addressing the acute respiratory distress. Antihypertensives will be needed later. CT pulmonary angiogram is not indicated as the presentation is typical of pulmonary oedema, not pulmonary embolism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a10996773cd0",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman at 38 weeks gestation with chronic essential hypertension presents with a blood pressure of 160/100 mmHg. She is currently taking labetalol 300 mg twice daily. She has no headache, visual disturbance, or epigastric pain. Urinalysis is not yet available. What is the single most appropriate immediate next action?",
+      "options": [
+        "Increase the dose of labetalol to 400 mg twice daily",
+        "Check a urine protein-to-creatinine ratio",
+        "Add oral nifedipine 10 mg twice daily",
+        "Start intravenous magnesium sulphate",
+        "Admit to the labour ward for induction of labour"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a woman with chronic hypertension who develops severe hypertension (≥160/100) in the third trimester, superimposed pre-eclampsia must be excluded. The immediate next step is to check urine protein (via dipstick or protein-to-creatinine ratio) to differentiate between gestational hypertension and pre-eclampsia. Antihypertensive adjustment is needed but only after assessing for proteinuria. Magnesium sulphate is indicated only if severe pre-eclampsia is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3aefd785886",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old primigravida at 34 weeks' gestation presents with blood pressure 150/95 mmHg and urine protein 1+ on dipstick. She complains of a bifrontal headache. Which examination finding most strongly indicates impending eclampsia?",
+      "options": [
+        "Mild ankle oedema",
+        "Clear lung fields",
+        "Fundal height 33 cm",
+        "Hyperreflexia with 3-beat clonus",
+        "Heart rate 85 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clonus (≥3 beats) is a sign of central nervous system irritability and precedes eclampsia; it is a red flag that mandates urgent escalation, whereas the other findings are common in pregnancy or not specifically pre-eclamptic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2d71de0794b",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman at 32 weeks with known pre-eclampsia (BP 160/110 mmHg, proteinuria 2+) develops sudden severe epigastric pain and vomiting. Her BP is now 140/90 mmHg, heart rate 110 bpm, and she has right upper quadrant tenderness. What is the most likely life-threatening complication?",
+      "options": [
+        "Placental abruption",
+        "HELLP syndrome",
+        "Gastro-oesophageal reflux",
+        "Acute fatty liver of pregnancy",
+        "Pancreatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Epigastric pain and vomiting in pre-eclampsia suggest HELLP syndrome (haemolysis, elevated liver enzymes, low platelets), which is a life-threatening complication; placental abruption typically presents with vaginal bleeding and abdominal pain, but the RUQ tenderness and vomiting make HELLP more likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f8b3a975412",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman, 2 days post-vaginal delivery, has blood pressure 130/80 mmHg (previously normal). She complains of severe frontal headache and blurred vision. Which clinical sign would raise suspicion of eclampsia?",
+      "options": [
+        "Bilateral pedal oedema",
+        "Brisk reflexes with 2-beat clonus",
+        "Urine output 40 ml/hr",
+        "Fundoscopic examination showing papilloedema",
+        "Temperature 37.5°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Papilloedema indicates hypertensive encephalopathy, a precursor to eclampsia, even if BP is not extremely elevated; severe headache and visual symptoms together with fundal changes warrant urgent assessment for eclampsia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a16450ace4c5",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 26-year-old woman with eclampsia had a generalised tonic-clonic seizure 20 minutes ago. She is now drowsy but opens her eyes to voice. Which finding would suggest an alternative diagnosis such as intracranial haemorrhage?",
+      "options": [
+        "Upgoing plantars bilaterally",
+        "Heart rate 100 bpm",
+        "Focal weakness of the right arm that persists",
+        "Blood pressure 150/100 mmHg",
+        "Bilateral equal and reactive pupils"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent focal neurological deficit (e.g., arm weakness) beyond the post-ictal period (>30 minutes) suggests a structural brain lesion like intracranial haemorrhage; Todd's paresis typically resolves quickly, and bilateral upgoing plantars can occur post-ictally.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "372890733cfb",
+      "topic": "Eclampsia",
+      "slug": "eclampsia",
+      "system": "Obstetrics",
+      "subSystem": "Hypertension in pregnancy",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 24-year-old nullipara at 36 weeks has blood pressure 145/95 mmHg on two occasions. She has no proteinuria by dipstick. Which single finding would confirm the diagnosis of pre-eclampsia and indicate risk of eclampsia?",
+      "options": [
+        "New onset of generalised pruritus",
+        "Urine protein:creatinine ratio of 35 mg/mmol",
+        "Oedema of the hands",
+        "ALT of 40 U/L",
+        "Platelet count <100 x 10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pre-eclampsia is defined as hypertension with proteinuria; a urine PCR >30 mg/mmol confirms significant proteinuria. Oedema is non-specific, thrombocytopenia is a complication but not diagnostic, pruritus suggests obstetric cholestasis, and mildly elevated ALT is common.",
+      "difficulty": "easy"
+    }
+  ]
+}

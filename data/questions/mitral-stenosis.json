@@ -1,0 +1,513 @@
+{
+  "topic": "Mitral Stenosis",
+  "slug": "mitral-stenosis",
+  "system": "Cardiovascular",
+  "subSystem": "Valvular",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:24Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b8670066ae13",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents with progressive exertional dyspnoea. She has no prior cardiac history. On examination, there is an irregularly irregular pulse of 110 bpm. JVP is elevated. On auscultation, there is a loud S1 and an opening snap followed by a low-pitched mid-diastolic murmur at the apex. What is the single most likely diagnosis?",
+      "options": [
+        "Mitral stenosis",
+        "Mitral regurgitation",
+        "Tricuspid stenosis",
+        "Patent ductus arteriosus",
+        "Atrial myxoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Loud S1, opening snap, and mid-diastolic murmur are characteristic of mitral stenosis. Atrial myxoma can cause a 'tumour plop' but not typically an opening snap. AF often coexists.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34521c5cd023",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with known mild mitral stenosis is asymptomatic. On routine examination, there is a soft mid-diastolic murmur at the apex with pre-systolic accentuation. There is no S3 or opening snap. What is the most likely diagnosis?",
+      "options": [
+        "Innocent flow murmur",
+        "Mitral valve prolapse",
+        "Mitral stenosis",
+        "Hypertrophic cardiomyopathy",
+        "Aortic sclerosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Even mild stenosis can have a murmur; pre-systolic accentuation occurs in sinus rhythm. Absence of opening snap may occur in mild or heavily calcified valves. Innocent murmurs are systolic, not diastolic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "53dad82c02bb",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with known mitral stenosis presents with sudden severe breathlessness and orthopnoea. She is in rapid atrial fibrillation (140 bpm). On auscultation, there is a loud S1 and an opening snap, but the diastolic murmur is difficult to hear. Bilateral crackles are present. What is the most likely diagnosis?",
+      "options": [
+        "Cardiac tamponade",
+        "Left ventricular failure",
+        "Pulmonary embolism",
+        "Mitral stenosis",
+        "Acute mitral regurgitation"
+      ],
+      "answerIndex": 3,
+      "explanation": "In rapid AF, the diastolic murmur may be short or inaudible due to tachycardia and low stroke volume. The opening snap and loud S1 point to mitral stenosis as the underlying cause of acute pulmonary oedema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "900ac8b1b36f",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with known mitral stenosis and chronic atrial fibrillation is admitted with right-sided weakness and slurred speech. CT head shows an ischaemic stroke. She is not on anticoagulation. What is the most likely underlying diagnosis?",
+      "options": [
+        "Atrial septal defect",
+        "Carotid artery stenosis",
+        "Infective endocarditis",
+        "Mitral stenosis",
+        "Left atrial myxoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mitral stenosis, especially with AF, predisposes to left atrial thrombus formation and embolic stroke. Infective endocarditis is less common in pure mitral stenosis. Atrial myxoma can embolise but is rarer; the patient has known mitral stenosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cd7416751326",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman presents with hoarseness of voice for 3 months. She has no cough or sore throat. Laryngoscopy shows left vocal cord paralysis. She has a history of shortness of breath on exertion. Chest X-ray shows double right heart border and splaying of the carina. What is the most likely diagnosis?",
+      "options": [
+        "Tuberculosis",
+        "Aortic aneurysm",
+        "Bronchogenic carcinoma",
+        "Mitral stenosis",
+        "Left atrial myxoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Left atrial enlargement from mitral stenosis can compress the recurrent laryngeal nerve (Ortner's syndrome). The chest X-ray findings support left atrial enlargement. Bronchogenic carcinoma is a differential but X-ray does not show mass; also history of dyspnoea suggests cardiac cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7d1c06b7e308",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman who recently immigrated from South Asia presents with exertional dyspnoea. She has no known heart disease. On examination, the apex beat is tapping, an opening snap is heard, and a diastolic murmur is maximal at the apex. What is the single most appropriate initial diagnostic test to confirm the suspected diagnosis?",
+      "options": [
+        "Transthoracic echocardiogram (TTE)",
+        "Transoesophageal echocardiogram (TOE)",
+        "Electrocardiogram (ECG)",
+        "Chest X-ray (CXR)",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 0,
+      "explanation": "TTE is the first-line confirmatory test for suspected mitral stenosis, as it directly visualises the valve and allows measurement of gradient and valve area. CXR and ECG may support the diagnosis but are not definitive; TOE is reserved if TTE is inconclusive or for pre-procedural planning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "07a6e9b498f4",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with known mild-to-moderate mitral stenosis (mitral valve area 1.5 cm²) is asymptomatic and seen in the cardiology clinic. She has no complications. According to UK guidelines, what is the most appropriate next investigation to monitor for disease progression?",
+      "options": [
+        "CT coronary angiogram",
+        "Ambulatory ECG monitoring",
+        "Exercise echocardiogram",
+        "Repeat TTE annually",
+        "Cardiac catheterisation"
+      ],
+      "answerIndex": 3,
+      "explanation": "For asymptomatic mild-to-moderate mitral stenosis, NICE recommends regular surveillance with TTE (every 1–2 years) to detect progression. Exercise echocardiogram is reserved for symptomatic discrepancy; other options are not routinely indicated for monitoring in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80dfdd7fb9ef",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) with known rheumatic mitral stenosis presents to the emergency department with acute pulmonary oedema. On examination, she has a loud S1, an opening snap, and a diastolic rumble. What single investigation is most appropriate to confirm the severity of the mitral stenosis in this acute setting?",
+      "options": [
+        "Urgent bedside transthoracic echocardiogram",
+        "Chest X-ray",
+        "CT pulmonary angiography",
+        "Electrocardiogram",
+        "Transoesophageal echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bedside TTE is the quickest and safest method to assess mitral valve severity (gradient, area) in an acute presentation, including in pregnancy. CXR and ECG are supportive but not diagnostic of severity. TOE is not first-line due to invasiveness and time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "431073d1f89d",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with known mitral stenosis and atrial fibrillation presents with sudden onset dyspnoea and pleuritic chest pain. He is haemodynamically stable. Which investigation is best to confirm the most likely complication?",
+      "options": [
+        "Transthoracic echocardiogram",
+        "CT pulmonary angiogram",
+        "D-dimer",
+        "Transoesophageal echocardiogram",
+        "V/Q scan"
+      ],
+      "answerIndex": 3,
+      "explanation": "In mitral stenosis with atrial fibrillation, acute deterioration may be due to thromboembolism from a left atrial appendage thrombus. TOE is the gold standard to detect LA thrombus and should be performed urgently. TTE is less sensitive. CTPA and V/Q are for pulmonary embolism but not specific for LA thrombus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9191448b970",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with severe aortic stenosis and moderate mitral stenosis is being considered for double valve surgery. What single investigation is best for accurately assessing mitral valve morphology and severity in the presence of mixed valve disease?",
+      "options": [
+        "Cardiac MRI",
+        "Transoesophageal echocardiogram",
+        "Transthoracic echocardiogram",
+        "Invasive haemodynamics",
+        "CT calcium scoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "TOE provides superior imaging of the mitral valve, allowing detailed assessment of morphology, valve area, and gradients even when aortic stenosis confounds TTE measurements. Cardiac MRI is not first-line; invasive haemodynamics are used if non-invasive is inconclusive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "781b2580ea0d",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with severe mitral stenosis (MVA 0.9 cm², NYHA III symptoms) and suitable valve morphology (no calcification, no subvalvular disease) presents in sinus rhythm. What is the single most appropriate first-line definitive therapy?",
+      "options": [
+        "Anticoagulation with warfarin",
+        "Mitral valve replacement",
+        "Surgical mitral commissurotomy",
+        "Percutaneous mitral balloon valvotomy",
+        "Medical therapy with diuretics and beta blockers"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend percutaneous mitral balloon valvotomy as first-line definitive therapy for symptomatic severe mitral stenosis with favourable valve morphology (Wilkins score ≤8). Surgery is reserved for unsuitable valves or failed valvotomy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cc04fd2c3af8",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with moderate mitral stenosis (MVA 1.4 cm²) and chronic atrial fibrillation is asymptomatic. What is the most appropriate therapy to prevent complications?",
+      "options": [
+        "Percutaneous mitral balloon valvotomy",
+        "Surgical commissurotomy",
+        "Rhythm control with amiodarone",
+        "Rate control with beta blocker",
+        "Direct oral anticoagulant"
+      ],
+      "answerIndex": 4,
+      "explanation": "In mitral stenosis with atrial fibrillation, anticoagulation (with a DOAC or warfarin) is essential to prevent thromboembolism, regardless of symptoms. Valve intervention is not indicated for asymptomatic moderate stenosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ef839aa8133",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) with known severe mitral stenosis (MVA 1.0 cm²) presents with worsening dyspnoea. Echocardiogram shows no thrombus and she is in sinus rhythm. What is the single most appropriate management during pregnancy?",
+      "options": [
+        "Termination of pregnancy",
+        "Anticoagulation with low molecular weight heparin",
+        "Percutaneous mitral balloon valvotomy",
+        "Surgical mitral commissurotomy",
+        "Medical therapy with beta blockers and diuretics"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, medical therapy (beta blockers for rate control and diuretics for congestion) is first line for symptomatic mitral stenosis. Percutaneous valvotomy is reserved for refractory symptoms due to radiation risks and is performed with shielding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bb4cb1c6d8dc",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman with rheumatic mitral stenosis develops acute pulmonary oedema and is haemodynamically unstable with hypotension. After initial stabilisation with oxygen, diuretics, and IV nitrates, what is the single most appropriate next definitive therapy?",
+      "options": [
+        "Intra-aortic balloon pump",
+        "Emergency percutaneous mitral balloon valvotomy",
+        "Emergency surgical mitral valve replacement",
+        "Start warfarin",
+        "Intravenous dobutamine"
+      ],
+      "answerIndex": 1,
+      "explanation": "In critically ill patients with severe mitral stenosis and suitable valve morphology, emergency percutaneous balloon valvotomy can be life-saving as it definitively relieves obstruction. Surgery carries higher risk in the acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d58cc67eac18",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old patient with severe mitral stenosis (MVA 0.8 cm²) and significant subvalvular thickening and calcification (Wilkins score >8) is NYHA III. What is the single most appropriate first-line definitive therapy?",
+      "options": [
+        "Surgical mitral commissurotomy",
+        "Anticoagulation",
+        "Surgical mitral valve replacement",
+        "Medical therapy with diuretics",
+        "Percutaneous mitral balloon valvotomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "An unfavourable valve morphology (Wilkins score >8) predicts poor outcome with balloon valvotomy. Therefore, surgical mitral valve replacement is the preferred definitive therapy for symptomatic severe mitral stenosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8800f850665",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with progressive breathlessness and fatigue over 6 months. On examination, she has a malar flush, an opening snap, and a mid-diastolic murmur heard best at the apex. Echocardiogram shows severe mitral stenosis (mitral valve area 1.0 cm²) with favourable valve morphology (no calcification, good leaflet mobility). She is in sinus rhythm. What is the most appropriate next step in management?",
+      "options": [
+        "Refer for surgical mitral valve replacement",
+        "Refer for percutaneous mitral valvuloplasty",
+        "Arrange a repeat echocardiogram in 3 months",
+        "Start warfarin",
+        "Start a beta-blocker"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has symptomatic severe mitral stenosis with favourable valve morphology, making her an ideal candidate for percutaneous mitral balloon valvuloplasty (BMV). Beta-blockers are used for rate control in atrial fibrillation or to improve diastolic filling but are not definitive treatment. Warfarin is indicated for atrial fibrillation or previous embolism. Surgery is reserved for unsuitable valve morphology or contraindications to BMV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93ad9e9d2ac1",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known mitral stenosis presents with acute breathlessness and orthopnoea. On examination, he is tachycardic with an irregularly irregular pulse, BP 90/60 mmHg, JVP elevated, loud P2, and bilateral crackles on auscultation. ECG shows atrial fibrillation with a ventricular rate of 160 bpm. He is not on any anticoagulation. What is the most immediate next step?",
+      "options": [
+        "Start IV amiodarone",
+        "Start IV unfractionated heparin",
+        "Give IV furosemide 40 mg",
+        "Perform synchronised DC cardioversion",
+        "Start IV digoxin"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has acute pulmonary oedema due to rapid atrial fibrillation in the setting of mitral stenosis. The immediate priority is to reduce preload with IV furosemide. While cardioversion may eventually be needed, it is not the first step, especially in a hypotensive patient (where diuresis may improve haemodynamics). Rate control with digoxin or amiodarone can follow. Heparin is for thromboembolism prophylaxis but not urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7e783e3ff709",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with moderate mitral stenosis (mitral valve area 1.5 cm²) and chronic atrial fibrillation on warfarin presents with sudden onset of left-sided weakness and slurred speech that started 2 hours ago. NIHSS score is 8. CT head shows no intracranial haemorrhage. What is the most immediate next step?",
+      "options": [
+        "Start dual antiplatelet therapy with aspirin and clopidogrel",
+        "Administer IV alteplase",
+        "Refer for emergency surgical embolectomy",
+        "Check the INR",
+        "Arrange an urgent echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with ischaemic stroke within 4.5 hours, IV thrombolysis may be considered. However, this patient is on warfarin, so an INR must be checked first. If INR ≤ 1.7, alteplase can be given; if > 1.7, it is contraindicated. Dual antiplatelet therapy is not indicated acutely. Echocardiography can be performed after the acute phase. Embolectomy is reserved for large vessel occlusion if thrombolysis fails or is contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8661026fff70",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who is 28 weeks pregnant with known mild mitral stenosis (mitral valve area 2.0 cm²) presents with worsening breathlessness and palpitations. On examination, heart rate is 150 bpm irregularly irregular, BP 100/60 mmHg, and there are no signs of heart failure. ECG confirms atrial fibrillation. What is the most appropriate next step?",
+      "options": [
+        "Start IV digoxin",
+        "Start IV unfractionated heparin",
+        "Start oral verapamil",
+        "Perform synchronised DC cardioversion",
+        "Start IV metoprolol"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnant patients with mitral stenosis and haemodynamically stable new-onset atrial fibrillation, first-line rate control is with a beta-blocker such as metoprolol (safe in pregnancy). Digoxin is a second-line option. Electrical cardioversion is reserved for instability. Heparin should be started after rate control if ongoing AF, but not the immediate step. Verapamil is not first-line and may have negative inotropic effects.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6c03f17589e0",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with moderate mitral stenosis (mitral valve area 1.8 cm², mean gradient 6 mmHg) in sinus rhythm is completely asymptomatic and has no other comorbidities. He leads an active lifestyle. What is the most appropriate management?",
+      "options": [
+        "Refer for percutaneous mitral valvuloplasty",
+        "Start a beta-blocker to improve diastolic filling",
+        "Advise avoidance of competitive sports",
+        "Start warfarin to prevent thromboembolism",
+        "Arrange a repeat echocardiogram in 1 year"
+      ],
+      "answerIndex": 4,
+      "explanation": "Asymptomatic patients with moderate mitral stenosis and no complications (e.g., atrial fibrillation, embolism) do not require medical therapy or intervention. NICE recommends regular echocardiographic surveillance (annually) to monitor for progression. Beta-blockers may be considered for symptoms, but not in asymptomatic patients. Warfarin is only indicated for AF or prior embolism. Intervention is reserved for symptomatic severe MS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fac0369005b4",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with gradually worsening exertional dyspnoea over 6 months. On examination, she has a loud S1, an opening snap, and a mid-diastolic murmur at the apex. Echocardiography is performed. Which finding indicates severe mitral stenosis?",
+      "options": [
+        "Mean mitral valve gradient 12 mmHg",
+        "Mitral valve area 2.0 cm²",
+        "Left atrial diameter 3.5 cm",
+        "Mean mitral valve gradient 5 mmHg",
+        "Pressure half-time 160 ms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe mitral stenosis is defined by a mean gradient >10 mmHg, pressure half-time >220 ms, or valve area <1.5 cm². Option D exceeds this threshold; the others are mild or moderate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4acf2d0ed00c",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known severe mitral stenosis presents to the emergency department with acute dyspnoea, orthopnoea, and frothy sputum. Which clinical sign is most indicative of the life-threatening complication?",
+      "options": [
+        "Bilateral basal crackles",
+        "Loud P2",
+        "Apical thrill",
+        "Raised jugular venous pressure",
+        "Opening snap"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with severe mitral stenosis, acute pulmonary oedema is a life-threatening complication. Bilateral basal crackles are the hallmark sign of pulmonary congestion, distinguishing it from other findings like loud P2 (pulmonary hypertension) or raised JVP (right heart failure).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a608fd27e097",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with mitral stenosis and atrial fibrillation suddenly develops aphasia and right-sided hemiparesis. What is the most likely cause?",
+      "options": [
+        "Left atrial thrombus embolisation",
+        "Hypertensive intracerebral haemorrhage",
+        "Ruptured berry aneurysm",
+        "Viral encephalitis",
+        "Migraine with aura"
+      ],
+      "answerIndex": 0,
+      "explanation": "In mitral stenosis with atrial fibrillation, the most feared complication is systemic embolism from a left atrial thrombus, often presenting as stroke. This is a classic red flag complication. The other options are less likely given her history.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "301fbc160d1d",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman (32 weeks gestation) with known moderate mitral stenosis (mitral valve area 1.5 cm²) presents with worsening dyspnoea. Which finding would be considered a red flag for imminent decompensation?",
+      "options": [
+        "Trace mitral regurgitation on echo",
+        "Left atrial diameter 4 cm",
+        "Mean mitral valve gradient 8 mmHg",
+        "New onset atrial fibrillation",
+        "Heart rate 95 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy, the physiological increase in heart rate and blood volume can unmask mitral stenosis. New onset atrial fibrillation with rapid ventricular response is a common precipitant of acute pulmonary oedema and represents a red flag for urgent intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9c3361d50eef",
+      "topic": "Mitral Stenosis",
+      "slug": "mitral-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with mitral stenosis and persistent atrial fibrillation is being assessed for elective cardioversion. She has been on warfarin for 3 weeks. Which finding on transoesophageal echocardiography would contraindicate cardioversion?",
+      "options": [
+        "Left atrial diameter 4.5 cm",
+        "Spontaneous echo contrast in left atrium",
+        "Mitral valve area 1.3 cm²",
+        "Mild mitral regurgitation",
+        "Left atrial appendage thrombus"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of a left atrial appendage thrombus is a contraindication to cardioversion due to high risk of thromboembolism. Spontaneous echo contrast (A) is a risk factor but not an absolute contraindication; the other findings are not contraindications.",
+      "difficulty": "medium"
+    }
+  ]
+}

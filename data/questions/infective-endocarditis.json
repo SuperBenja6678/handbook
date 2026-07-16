@@ -1,0 +1,513 @@
+{
+  "topic": "Infective Endocarditis",
+  "slug": "infective-endocarditis",
+  "system": "Cardiovascular",
+  "subSystem": "Valvular/infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:58Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0941396ed465",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with a two-week history of fever, malaise, and night sweats. He has a history of rheumatic heart disease with mitral valve prolapse. On examination, temperature is 38.5°C, there is a pansystolic murmur at the apex, and small non-tender erythematous lesions on his palms. What is the single most likely diagnosis?",
+      "options": [
+        "Systemic lupus erythematosus",
+        "Infective endocarditis",
+        "Marantic endocarditis",
+        "Acute rheumatic fever",
+        "Myxoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, a predisposing valve lesion, a murmur, and Janeway lesions (non-tender palmar macules) is classic for infective endocarditis. Acute rheumatic fever typically follows streptococcal pharyngitis with migratory polyarthritis, not these vascular phenomena.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ee42a28473b1",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with a prosthetic aortic valve presents with acute dyspnoea and hypotension. She is febrile (39.2°C) and has a new harsh holosystolic murmur radiating to the axilla. Chest X-ray shows pulmonary oedema. What is the single most likely diagnosis?",
+      "options": [
+        "Aortic dissection",
+        "Prosthetic valve endocarditis with acute regurgitation",
+        "Severe sepsis from pneumonia",
+        "Acute myocardial infarction",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute heart failure with a new murmur in a febrile patient with a prosthetic valve is highly suggestive of prosthetic valve endocarditis causing acute regurgitation. Sepsis from pneumonia would not typically present with a new murmur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c77e76993a46",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old man presents with sudden-onset right-sided weakness and aphasia. He has a fever of 38.0°C and a history of mitral valve prolapse. CT head shows an acute ischaemic stroke in the left middle cerebral artery territory. What is the single most likely underlying cause?",
+      "options": [
+        "Carotid artery dissection",
+        "Infective endocarditis with embolic stroke",
+        "Atrial fibrillation",
+        "Atrial myxoma",
+        "Cerebral vasculitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a young patient with fever, a predisposing valve lesion, and embolic stroke, infective endocarditis is the most likely cause. The vegetation emboli are characteristic. Atrial myxoma can also cause embolism but is less common and typically without fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f79b0cfb8511",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman with known aortic sclerosis is admitted from a care home with confusion, low-grade fever (37.8°C), and a three-week history of lethargy and loss of appetite. No cardiac murmur is heard initially. Urine dipstick shows haematuria. What is the single most likely diagnosis?",
+      "options": [
+        "Malignancy",
+        "Normal pressure hydrocephalus",
+        "Infective endocarditis",
+        "Pneumonia",
+        "Delirium secondary to urinary tract infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elderly patients with infective endocarditis often present insidiously with confusion and non-specific symptoms; a murmur may be absent. Haematuria (from renal emboli) is a clue. UTI is a common mimic but haematuria with sterile pyuria should raise suspicion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "064011d75259",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 25-year-old intravenous drug user presents with pleuritic chest pain, haemoptysis, and fever. He has a temperature of 39.1°C and a tender, erythematous nodule on his right thumb. Chest X-ray shows multiple cavitating lesions in both lungs. What is the single most likely diagnosis?",
+      "options": [
+        "Community-acquired pneumonia",
+        "Tuberculosis",
+        "Right-sided infective endocarditis with septic pulmonary emboli",
+        "Pulmonary embolism with infarction",
+        "Lung abscess"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an IVDU, fever, pleuritic pain, cavitating lung lesions, and a peripheral embolic lesion (Osler's node) are classic for right-sided infective endocarditis (often tricuspid valve). Pneumonia and TB are less likely given the multiple cavitations and peripheral stigmata.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a860cac8b680",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a 3-week history of fever, night sweats, and weight loss. On examination he has a new systolic murmur at the apex and splinter haemorrhages. Transthoracic echocardiography (TTE) is normal. Blood cultures remain negative after 48 hours. What is the single most appropriate next investigation to establish a diagnosis of infective endocarditis?",
+      "options": [
+        "Transoesophageal echocardiography (TOE)",
+        "CT coronary angiography",
+        "Cardiac MRI with gadolinium",
+        "Repeat blood cultures after stopping antibiotics for 24 hours",
+        "Serum serology for Coxiella burnetii"
+      ],
+      "answerIndex": 0,
+      "explanation": "TOE has higher sensitivity for vegetations, especially when TTE is negative and clinical suspicion remains high. It is the recommended next step according to NICE guidelines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "29b547d659a7",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman with known bicuspid aortic valve presents with low-grade fever, fatigue, and elevated CRP. No peripheral stigmata. Blood cultures are negative. What is the most appropriate investigation to diagnose infective endocarditis?",
+      "options": [
+        "Transoesophageal echocardiography (TOE)",
+        "CT scan of thorax and abdomen",
+        "Transthoracic echocardiography (TTE)",
+        "Whole-body fluorodeoxyglucose PET/CT",
+        "Repeat blood cultures in 48 hours"
+      ],
+      "answerIndex": 2,
+      "explanation": "TTE is the first-line imaging in suspected IE. Because the patient has a predisposing condition and low-grade symptoms, TTE is sensitive enough to detect vegetations if present. TOE is reserved for negative TTE with high suspicion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d031fb5060fe",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a prosthetic aortic valve presents with acute dyspnoea, hypotension, and fever. Examination reveals a new diastolic murmur. He is in septic shock. What is the single most appropriate investigation to confirm the diagnosis of infective endocarditis?",
+      "options": [
+        "CT pulmonary angiogram",
+        "Urgent transthoracic echocardiography (TTE)",
+        "Chest X-ray",
+        "Urgent transoesophageal echocardiography (TOE)",
+        "Three sets of blood cultures over 24 hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients with prosthetic valves, TOE is superior to TTE for detecting vegetations and abscesses. Given the acute presentation, urgent TOE is needed to confirm diagnosis and assess for complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2a2f0064846f",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with infective endocarditis due to Streptococcus gallolyticus is on day 7 of IV antibiotics. He develops chest pain and a new pericardial rub. What is the most appropriate investigation to assess for a complication of endocarditis?",
+      "options": [
+        "ECG",
+        "Transoesophageal echocardiography (TOE)",
+        "Repeat blood cultures",
+        "Transthoracic echocardiography (TTE)",
+        "Cardiac troponin"
+      ],
+      "answerIndex": 1,
+      "explanation": "The development of chest pain and a pericardial rub suggests extension of infection to the pericardium or a perivalvular abscess. TOE is more sensitive than TTE for detecting these complications, especially abscess formation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "efb301a5fffe",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old intravenous drug user presents with fever, pleuritic chest pain, and a murmur that varies with respiration. Blood cultures grow Staphylococcus aureus from two sets. Transthoracic echocardiography shows a mobile echogenic mass on the tricuspid valve. According to the modified Duke criteria, which of the following best describes the echocardiographic finding?",
+      "options": [
+        "Minor criterion for infective endocarditis",
+        "Major criterion for infective endocarditis",
+        "Requires confirmation with repeat echocardiography",
+        "Diagnostic of infective endocarditis",
+        "Suggestive of non-infective thrombotic endocarditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The modified Duke criteria include evidence of endocardial involvement as a major criterion, specifically 'oscillating intracardiac mass on valve or supporting structures'. This finding qualifies as a major criterion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "01203157e144",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with a history of mitral valve prolapse presents with fever, Roth spots, and a new regurgitant murmur. Blood cultures grow Streptococcus viridans. What is the most appropriate first-line antibiotic regimen?",
+      "options": [
+        "Penicillin G + gentamicin",
+        "Amoxicillin + gentamicin",
+        "Daptomycin",
+        "Ceftriaxone alone",
+        "Vancomycin + gentamicin"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend amoxicillin with gentamicin as first-line for streptococcal native valve IE. Vancomycin is reserved for penicillin allergy. Ceftriaxone is not first-line. Daptomycin is for MRSA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d6dca9d30d36",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with a mechanical mitral valve presents with fever 3 weeks post-operatively. Blood cultures grow Staphylococcus epidermidis. What is the most appropriate antibiotic regimen?",
+      "options": [
+        "Vancomycin + gentamicin",
+        "Vancomycin + rifampicin",
+        "Flucloxacillin + gentamicin",
+        "Vancomycin + gentamicin + rifampicin",
+        "Daptomycin + rifampicin"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines for prosthetic valve IE recommend vancomycin, gentamicin, and rifampicin for coagulase-negative staphylococci. Flucloxacillin is ineffective due to resistance. Daptomycin is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e8e8f499f5e0",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with no known drug allergies presents with septic shock and suspected infective endocarditis. Blood cultures grow methicillin-sensitive Staphylococcus aureus. What is the most appropriate first-line antibiotic regimen?",
+      "options": [
+        "Vancomycin + gentamicin",
+        "Flucloxacillin alone",
+        "Flucloxacillin + gentamicin",
+        "Linezolid",
+        "Daptomycin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flucloxacillin is first-line for MSSA; gentamicin is added for synergy. Vancomycin is reserved for MRSA or allergy. Daptomycin and linezolid are second-line or for specific resistance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7344219c985b",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old intravenous drug user presents with fever and a tricuspid regurgitation murmur. Blood cultures grow methicillin-sensitive Staphylococcus aureus. Echocardiography shows a 1.5 cm vegetation on the tricuspid valve with no evidence of complications. What is the most appropriate treatment?",
+      "options": [
+        "Vancomycin and gentamicin for 6 weeks",
+        "A 4-week course of flucloxacillin and gentamicin",
+        "A 2-week course of flucloxacillin and gentamicin",
+        "Surgical valve replacement",
+        "Linezolid for 4 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "For uncomplicated right-sided IE in IVDU, a short course (2 weeks) of flucloxacillin with gentamicin is effective. Longer courses are for left-sided or complicated IE. Vancomycin is not needed for MSSA. Surgery is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8b96b55704fc",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with infective endocarditis of the native mitral valve has a recent embolic stroke. She has atrial fibrillation but no prosthetic valve. Which therapy is contraindicated?",
+      "options": [
+        "Aspirin",
+        "Dipyridamole",
+        "Warfarin",
+        "Low-dose heparin",
+        "Clopidogrel"
+      ],
+      "answerIndex": 2,
+      "explanation": "Anticoagulation (warfarin) is contraindicated in IE with embolic stroke due to high risk of haemorrhagic transformation. Antiplatelet agents are not indicated but not absolutely contraindicated. Heparin should also be avoided.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d7c919d4aad7",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with mitral valve prolapse presents with a 2-week history of fever, malaise, and night sweats. He had dental work 4 weeks ago. On examination, temperature 38.5°C, heart rate 100 bpm, blood pressure 120/80 mmHg, and a new pan-systolic murmur at the apex. He is haemodynamically stable. What is the single most appropriate immediate next step?",
+      "options": [
+        "Take three sets of blood cultures from different sites",
+        "Start empirical intravenous amoxicillin and gentamicin",
+        "Arrange urgent transthoracic echocardiogram",
+        "Request an urgent dental review",
+        "Prescribe oral amoxicillin and arrange outpatient follow-up"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a stable patient with suspected infective endocarditis, the priority is to obtain blood cultures before starting antibiotics to increase the yield of microbiological diagnosis. Starting antibiotics immediately may sterilise cultures and hinder identification of the causative organism. Echocardiography is important but not the immediate next step before cultures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c9cfebf059c9",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with native aortic valve infective endocarditis caused by Streptococcus viridans has been on intravenous benzylpenicillin and gentamicin for 3 days. She develops sudden right flank pain and visible haematuria. Her temperature is 37.8°C, heart rate 90 bpm, blood pressure 130/80 mmHg, and urine output is normal. What is the single most appropriate immediate next step?",
+      "options": [
+        "Stop gentamicin and start a different aminoglycoside",
+        "Start anticoagulation with heparin for suspected renal embolus",
+        "Perform urgent CT scan of the abdomen with contrast",
+        "Request an urgent renal ultrasound scan",
+        "Increase intravenous fluids and monitor renal function"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with infective endocarditis, new flank pain and haematuria raise suspicion of a renal embolic event, which could be an infarction or abscess. CT imaging is the best immediate investigation to confirm the diagnosis and guide management. Stopping gentamicin is not indicated without evidence of nephrotoxicity (renal function is normal), and anticoagulation is harmful. Ultrasound is less sensitive for infarction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b07e62fecf8",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old intravenous drug user presents to the emergency department with fever, rigors, and acute dyspnoea. On examination, temperature 39.2°C, heart rate 125 bpm, blood pressure 85/60 mmHg, respiratory rate 30/min, SpO2 91% on air. There is a new loud pansystolic murmur at the apex, and crackles up to the mid-zones bilaterally. Chest X-ray shows pulmonary oedema. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give intravenous furosemide 40 mg",
+        "Intubate and ventilate for respiratory failure",
+        "Start intravenous flucloxacillin and gentamicin immediately",
+        "Arrange urgent CT pulmonary angiogram",
+        "Request urgent transoesophageal echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has acute severe mitral regurgitation causing pulmonary oedema and cardiogenic shock. The immediate priority is to reduce preload with a loop diuretic (furosemide) to improve oxygenation and haemodynamics. Antibiotics are essential but can be given shortly after; echocardiography and intubation are secondary to initial stabilisation. CT pulmonary angiogram is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c06d2576324",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known infective endocarditis of the mitral valve (on appropriate antibiotics for 1 week) suddenly develops right-sided weakness and slurred speech. His blood pressure is 140/85 mmHg, heart rate 85 bpm, and he is afebrile. What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent carotid Doppler ultrasound",
+        "Request an urgent CT head without contrast",
+        "Stop antibiotics and send blood cultures",
+        "Administer intravenous thrombolysis for acute ischaemic stroke",
+        "Start aspirin 300 mg orally"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with infective endocarditis presenting with acute neurological deficits, the first step is to obtain a CT head to exclude intracranial haemorrhage (e.g., from a ruptured mycotic aneurysm) before considering any antithrombotic therapy. Thrombolysis and aspirin are contraindicated if haemorrhage is present. Stopping antibiotics is not indicated. Carotid ultrasound is not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d762eb0427b",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman with a prosthetic mitral valve presents with a 5-day history of fever and lethargy. She is on treatment for Enterococcus faecalis infective endocarditis diagnosed 2 weeks ago (IV amoxicillin and gentamicin). Today she develops acute dyspnoea and a new periprosthetic regurgitant murmur. She is haemodynamically stable with heart rate 95 bpm, blood pressure 110/70 mmHg, and oxygen saturation 96% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent transoesophageal echocardiogram",
+        "Perform a CT scan of the chest with contrast",
+        "Start intravenous diuretics for pulmonary congestion",
+        "Increase the dose of intravenous antibiotics",
+        "Book for emergency valve replacement surgery"
+      ],
+      "answerIndex": 0,
+      "explanation": "A new periprosthetic murmur in a patient with prosthetic valve endocarditis raises suspicion of valve dehiscence or paravalvular abscess. Transoesophageal echocardiography is the imaging modality of choice to assess the prosthetic valve for complications. Increasing antibiotics alone is insufficient; surgery may be needed but decision depends on echo findings. Diuretics are not yet indicated as the patient is not in pulmonary oedema. CT is less sensitive for valve assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dec2c33dc121",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with a history of rheumatic heart disease presents with fever and a new diastolic murmur. He is started on intravenous antibiotics for suspected infective endocarditis. Three days later, he develops acute breathlessness, orthopnoea, and hypotension. On examination, he has a low-volume pulse, elevated JVP, and bilateral crackles. Which of the following complications has most likely occurred?",
+      "options": [
+        "Pulmonary embolism",
+        "Pericardial tamponade",
+        "Myocardial infarction from septic embolus",
+        "Acute aortic regurgitation",
+        "Acute mitral regurgitation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute severe aortic regurgitation causes sudden volume overload of the left ventricle, leading to flash pulmonary oedema. The diastolic murmur points to aortic valve involvement. Acute mitral regurgitation would present with a systolic murmur and is less likely to cause such rapid decompensation in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a6fc8297daf4",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with mitral valve prolapse presents with fever and lethargy. Blood cultures grow Streptococcus viridans. She is commenced on intravenous antibiotics. On day 5, she develops sudden-onset left-sided weakness and dysphasia. CT head shows an infarct in the right middle cerebral artery territory. Which of the following is the most likely cause?",
+      "options": [
+        "Meningitis",
+        "Vasculitis",
+        "Cerebral abscess",
+        "Ruptured mycotic aneurysm",
+        "Septic embolus from the mitral valve vegetation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Stroke in infective endocarditis is most commonly due to septic emboli from vegetations, especially in the early course of treatment. Mycotic aneurysm rupture typically causes subarachnoid haemorrhage, not ischaemic infarct. Cerebral abscess would present with a space-occupying lesion and signs of infection over days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2366207c1af2",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with a bicuspid aortic valve is being treated for infective endocarditis with intravenous antibiotics. On day 7, a routine ECG shows first-degree heart block (PR interval 240 ms). He remains haemodynamically stable. Which complication should be suspected?",
+      "options": [
+        "Pericardial effusion",
+        "Coronary artery embolism",
+        "Acute aortic regurgitation",
+        "Myocarditis",
+        "Aortic root abscess"
+      ],
+      "answerIndex": 4,
+      "explanation": "New conduction abnormality, particularly PR prolongation, is a classic sign of aortic root abscess extending into the interventricular septum. This is a surgical emergency. Myocarditis typically causes diffuse ST-T changes and arrhythmias, not isolated PR prolongation. Pericardial effusion may cause electrical alternans, not PR prolongation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "97963387417c",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known mitral regurgitation presents with fever and night sweats. Blood cultures grow Staphylococcus aureus. He is started on flucloxacillin and gentamicin. After 72 hours of treatment, fever persists. Which clinical finding should raise immediate concern for a life-threatening structural complication?",
+      "options": [
+        "Microscopic haematuria",
+        "Splinter haemorrhages",
+        "Increasing C-reactive protein",
+        "Roth spots",
+        "New or worsening mitral regurgitation murmur"
+      ],
+      "answerIndex": 4,
+      "explanation": "A new or worsening murmur in a patient with IE indicates acute valve destruction (e.g., leaflet perforation, chordal rupture) and is a surgical indication. Persistent fever is common and not specific for structural complications. The other options are non-specific or part of the stigmata of IE but not immediately life-threatening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cda47381056e",
+      "topic": "Infective Endocarditis",
+      "slug": "infective-endocarditis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular/infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with a prosthetic aortic valve presents with fever and malaise. Blood cultures grow Staphylococcus epidermidis. She is started on vancomycin and rifampicin. On day 3, she develops sudden severe back pain and hypotension. Which complication should be considered?",
+      "options": [
+        "Spinal abscess",
+        "Pulmonary embolism",
+        "Acute aortic regurgitation",
+        "Ruptured mycotic aneurysm",
+        "Aortic dissection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mycotic aneurysms are a complication of infective endocarditis, especially with prosthetic valves. Rupture causes sudden pain and hypotension. Aortic dissection is possible but less likely without predisposing factors. Spinal abscess would present with back pain and neurological signs over days, not sudden hypotension.",
+      "difficulty": "hard"
+    }
+  ]
+}

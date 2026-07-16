@@ -1,0 +1,513 @@
+{
+  "topic": "Ovarian Cancer",
+  "slug": "ovarian-cancer",
+  "system": "Gynaecology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "33bb85b08425",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old postmenopausal woman presents with progressive abdominal distension over 3 months, mild pelvic discomfort, and loss of appetite. On examination she has a pelvic mass and ascites. Serum CA125 is 420 U/mL. What is the most likely diagnosis?",
+      "options": [
+        "Pancreatic cancer",
+        "Ovarian cyst",
+        "Endometrioma",
+        "Diverticular abscess",
+        "Ovarian cancer"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of postmenopausal age, pelvic mass, ascites, and markedly elevated CA125 is classic for ovarian cancer. Endometrioma is less common after menopause, and diverticular abscess or pancreatic cancer do not typically present with ascites and a pelvic mass.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9d33127c8dc3",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents to her GP with 6 months of intermittent bloating, early satiety, and urinary frequency. She has no weight loss or abdominal pain. Examination is normal. She has been treated for IBS without improvement. Serum CA125 is 56 U/mL (normal <35). What is the most likely diagnosis?",
+      "options": [
+        "Irritable bowel syndrome",
+        "Chronic pancreatitis",
+        "Ovarian cancer",
+        "Diverticulitis",
+        "Endometriosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent symptoms suggestive of ovarian cancer (bloating, early satiety, urinary frequency) despite IBS treatment, alongside a raised CA125, make ovarian cancer the most likely. IBS typically does not cause raised CA125, and endometriosis is less common at this age.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3310ae1e321",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with no prior medical history presents to the emergency department with acute onset of colicky abdominal pain, vomiting, and abdominal distension. She has not opened her bowels for 2 days. Abdominal X-ray shows dilated small bowel loops. CT abdomen reveals bilateral complex adnexal masses and omental caking. What is the most likely diagnosis?",
+      "options": [
+        "Small bowel obstruction due to ovarian cancer",
+        "Small bowel obstruction due to adhesions",
+        "Small bowel obstruction due to colonic malignancy",
+        "Small bowel obstruction due to Crohn's disease",
+        "Small bowel obstruction due to hernia"
+      ],
+      "answerIndex": 0,
+      "explanation": "The CT finding of bilateral complex adnexal masses with omental caking is highly suggestive of ovarian carcinomatosis causing small bowel obstruction. Adhesions, hernia, or Crohn's do not explain the pelvic masses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "22ba97f5eb34",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with known stage IIIc high-grade serous ovarian cancer on platinum-based chemotherapy presents with confusion, muscle weakness, and constipation. Her serum calcium is 3.1 mmol/L (corrected). What is the most likely diagnosis?",
+      "options": [
+        "SIADH",
+        "Hypothyroidism",
+        "Brain metastases",
+        "Hypercalcaemia of malignancy",
+        "Adrenal insufficiency"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypercalcaemia is a common paraneoplastic syndrome in ovarian cancer, presenting with confusion, weakness, and constipation. SIADH would cause hyponatremia, not hypercalcemia, and brain metastases would more likely cause focal neurological signs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77ba99c8e23b",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with a known BRCA1 mutation presents with a rapidly enlarging pelvic mass. She has mild pelvic pain but no bloating. Ultrasound shows a complex solid-cystic adnexal mass with papillary projections. Serum CA125 is 120 U/mL. What is the most likely diagnosis?",
+      "options": [
+        "High-grade serous ovarian carcinoma",
+        "Mucinous cystadenoma",
+        "Dermoid cyst",
+        "Endometrioma",
+        "Benign ovarian cyst"
+      ],
+      "answerIndex": 0,
+      "explanation": "BRCA1 mutation strongly predisposes to high-grade serous ovarian carcinoma. The ultrasound features (complex solid-cystic mass with papillary projections) and elevated CA125 are typical of malignancy, ruling out benign cysts or dermoid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9c1f1e02fd0",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old postmenopausal woman presents to her GP with a 3-week history of abdominal bloating, early satiety, and urinary frequency. Examination is normal. What is the most appropriate initial investigation in primary care?",
+      "options": [
+        "CA19-9",
+        "Transvaginal ultrasound",
+        "CT abdomen and pelvis",
+        "CA125",
+        "Full blood count"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend measuring CA125 as the first-line test in women aged 50 or over with persistent abdominal distension or bloating. Ultrasound is indicated only if CA125 is elevated (≥35 IU/ml). FBC and CT are not initial screening tests.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "95dcb5de38ae",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old woman with suspected ovarian cancer has a CA125 of 350 IU/ml and a transvaginal ultrasound showing a complex solid-cystic mass with ascites. She is otherwise fit and well. What is the most appropriate next investigation to determine disease extent?",
+      "options": [
+        "CT abdomen and pelvis",
+        "PET-CT",
+        "MRI pelvis",
+        "Chest X-ray",
+        "Diagnostic laparoscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT of the abdomen and pelvis with contrast is the standard imaging modality for staging ovarian cancer prior to surgery, assessing peritoneal disease, lymph nodes, and metastases. Chest X-ray may be done but is not the primary staging tool.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "56c7e208eedc",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 48-year-old asymptomatic premenopausal woman undergoes transvaginal ultrasound for pelvic pain, which reveals a simple unilocular cyst <5 cm. CA125 is 20 IU/ml. What is the most likely diagnosis?",
+      "options": [
+        "Mature cystic teratoma (dermoid)",
+        "Serous ovarian carcinoma",
+        "Endometrioma",
+        "Benign functional cyst",
+        "Mucinous cystadenoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a premenopausal woman, a simple unilocular cyst <5 cm with a normal CA125 is almost always a benign functional (follicular) cyst. Dermoid and endometrioma have characteristic ultrasound features; malignant lesions are rare without suspicious features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e07e5e04ce77",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with abdominal pain and a palpable pelvic mass. Transvaginal ultrasound shows a complex solid-cystic mass with calcifications. Serum beta-hCG is markedly elevated at 1200 IU/L. What is the single most appropriate next blood test to aid in tumour typing?",
+      "options": [
+        "Serum AFP and LDH",
+        "Estradiol",
+        "Inhibin",
+        "CEA",
+        "CA125"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elevated hCG in a young woman with an ovarian mass suggests a germ cell tumour (e.g., dysgerminoma or choriocarcinoma). AFP and LDH help differentiate subtypes (e.g., yolk sac tumour elevates AFP). CA125 is less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "46c7d5b1f899",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with a known BRCA1 mutation undergoes annual screening. Her CA125 is 45 IU/ml, but transvaginal ultrasound shows normal ovaries. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Serum HE4",
+        "Repeat CA125 in 6–8 weeks",
+        "Proceed to prophylactic bilateral salpingo-oophorectomy",
+        "MRI pelvis with contrast",
+        "CT abdomen and pelvis"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidance states that if CA125 is raised but ultrasound is normal, repeat CA125 in 6–8 weeks is recommended, as levels can fluctuate. Immediate surgery or advanced imaging is not indicated without other suspicious findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4487ae67125",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman is diagnosed with FIGO stage IA, grade 1 serous ovarian cancer. She wishes to preserve fertility. What is the most appropriate management?",
+      "options": [
+        "Pelvic radiotherapy",
+        "Total abdominal hysterectomy with bilateral salpingo-oophorectomy",
+        "Fertility-sparing unilateral salpingo-oophorectomy",
+        "Active surveillance",
+        "Carboplatin/paclitaxel chemotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For stage IA grade 1 serous ovarian cancer, fertility-sparing surgery (unilateral salpingo-oophorectomy) is recommended when future fertility is desired, as the risk of contralateral recurrence is low. Total hysterectomy with BSO is too radical; chemotherapy and radiotherapy are not indicated for early-stage low-grade disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "78ebfb888729",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old woman with FIGO stage IIIC high-grade serous ovarian cancer and a germline BRCA1 mutation undergoes optimal debulking surgery. After recovery, she completes 6 cycles of carboplatin/paclitaxel with a complete response. What is the most appropriate maintenance therapy?",
+      "options": [
+        "Niraparib",
+        "Hormonal therapy with tamoxifen",
+        "Bevacizumab",
+        "Olaparib",
+        "No maintenance therapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends maintenance olaparib for patients with BRCA-mutated advanced ovarian cancer who have responded to first-line platinum-based chemotherapy. Bevacizumab is not specifically indicated for BRCA-mutated cases; niraparib is used in recurrent disease maintenance, not first-line; hormonal therapy is ineffective for high-grade serous cancer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0b688a96a54f",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with recurrent high-grade serous ovarian cancer presents 18 months after completing first-line carboplatin/paclitaxel. She has good performance status (ECOG 0). What is the most appropriate treatment?",
+      "options": [
+        "Palliative radiotherapy to pelvic mass",
+        "Hormonal therapy with letrozole",
+        "Repeat platinum-based chemotherapy (e.g., carboplatin/paclitaxel)",
+        "Non-platinum chemotherapy (e.g., gemcitabine)",
+        "Best supportive care"
+      ],
+      "answerIndex": 2,
+      "explanation": "Relapse >6 months after platinum therapy defines platinum-sensitive disease. Standard treatment is re-challenge with platinum-based doublet. Non-platinum chemotherapy is reserved for platinum-resistant disease; radiotherapy is not first-line for widespread recurrence; hormonal therapy is ineffective for high-grade serous; best supportive care is premature with good performance status.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f9cb3a93d31",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with advanced ovarian cancer presents with tense ascites causing severe dyspnoea. She is not a candidate for further chemotherapy due to frailty. What is the most appropriate management for her dyspnoea?",
+      "options": [
+        "Intraperitoneal chemotherapy",
+        "High-dose diuretics",
+        "Therapeutic paracentesis",
+        "Palliative radiotherapy to the abdomen",
+        "Peritoneovenous shunt insertion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Therapeutic paracentesis provides rapid symptomatic relief for tense malignant ascites. Diuretics are ineffective in malignant ascites; intraperitoneal chemotherapy is not indicated for symptom control; peritoneovenous shunts carry infection and clotting risks and are rarely used; radiotherapy is inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6c81f3eec76a",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old woman with FIGO stage IV high-grade serous ovarian cancer has an ECOG performance status of 3 and multiple comorbidities. She is symptomatic from her disease. What is the most appropriate management?",
+      "options": [
+        "Carboplatin/paclitaxel dual-agent chemotherapy",
+        "Palliative radiotherapy to pelvic mass",
+        "Hormonal therapy with tamoxifen",
+        "Single-agent carboplatin chemotherapy",
+        "Best supportive care alone"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with poor performance status (ECOG ≥3), platinum-based chemotherapy with dual agents is associated with significant toxicity and limited benefit. Best supportive care is recommended by NICE. Single-agent carboplatin may be considered in selected PS 2 patients, but not PS 3; radiotherapy and hormonal therapy are not standard for symptomatic advanced disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "45c03be5187c",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman presents to her GP with a 3-month history of abdominal bloating, early satiety, and urinary frequency. She has no significant past medical history. On examination, there is a palpable mass in the lower abdomen. Her CA125 is 120 U/mL (normal <35). What is the most appropriate next step?",
+      "options": [
+        "Start the patient on the oral contraceptive pill",
+        "Arrange a CT scan of the abdomen and pelvis",
+        "Perform a pregnancy test and arrange for diagnostic laparoscopy",
+        "Arrange a pelvic ultrasound scan",
+        "Refer urgently to gynaecological oncology"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend that in women with symptoms suggestive of ovarian cancer, the first investigation is CA125 and an urgent pelvic ultrasound scan. A CT scan or referral may follow if ultrasound is suspicious, but the immediate next step is to arrange the ultrasound.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2077f6f3a02f",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with stage III high-grade serous ovarian cancer, who completed platinum-based chemotherapy 6 months ago and is on maintenance olaparib, presents to the emergency department with a 2-day history of abdominal distension, vomiting, and absolute constipation. On examination, her abdomen is distended and tympanitic, with high-pitched bowel sounds. Her observations are stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an abdominal X-ray",
+        "Start intravenous fluids and nil by mouth",
+        "Insert a nasogastric tube",
+        "Arrange an urgent CT abdomen and pelvis",
+        "Request a surgical review"
+      ],
+      "answerIndex": 2,
+      "explanation": "In suspected malignant bowel obstruction, especially with vomiting and stable observations, the first step is to insert a nasogastric tube for decompression. This relieves symptoms and allows assessment of output. A CT may follow but is not the immediate next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51f782a33c07",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with known recurrent ovarian cancer and a large right pleural effusion presents to the emergency department with acute onset of severe dyspnoea, hypotension (BP 80/50 mmHg), distended neck veins, and muffled heart sounds. What is the most appropriate immediate next action?",
+      "options": [
+        "Perform an urgent bedside echocardiogram",
+        "Perform a therapeutic pleural aspiration",
+        "Request a CT pulmonary angiogram",
+        "Administer intravenous fluids and oxygen",
+        "Start intravenous dobutamine"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has signs of cardiac tamponade (Beck's triad). The most appropriate immediate next step is to confirm with bedside echocardiography, which can be done immediately and will guide urgent pericardiocentesis. Other actions may be needed but do not take priority over diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b502c6377f4",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with stage IIIC ovarian cancer is receiving adjuvant chemotherapy with carboplatin and paclitaxel. She presents to the oncology day unit with a temperature of 38.5°C and feeling unwell. Her neutrophil count is 0.3 × 10⁹/L. What is the most appropriate immediate next action?",
+      "options": [
+        "Arrange for an urgent CT scan of the chest/abdomen",
+        "Take blood cultures before starting antibiotics",
+        "Administer granulocyte-colony stimulating factor (G-CSF)",
+        "Start empirical intravenous broad-spectrum antibiotics",
+        "Discuss with the microbiology team"
+      ],
+      "answerIndex": 3,
+      "explanation": "In neutropenic sepsis, as per NICE guidelines, empirical broad-spectrum IV antibiotics should be started within 1 hour of presentation. While blood cultures should be taken, they must not delay antibiotic administration. G-CSF is not first-line in acute management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fcdb119b8779",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old asymptomatic woman with a BRCA1 mutation attends a genetics clinic. She is concerned about her risk of ovarian cancer and asks about risk-reducing options. Her mother died from ovarian cancer at age 50. She has no personal history of cancer. What is the most appropriate next step?",
+      "options": [
+        "Refer for a prophylactic total abdominal hysterectomy",
+        "Discuss the risks and benefits of risk-reducing bilateral salpingo-oophorectomy",
+        "Arrange a pelvic ultrasound scan",
+        "Start screening with CA125 every 6 months",
+        "Advise that no intervention is needed before age 40"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend that women with BRCA1 mutations should be offered risk-reducing bilateral salpingo-oophorectomy after age 35, ideally before age 40. The immediate next step is to discuss this option so she can make an informed decision. Screening with CA125/ultrasound is not recommended for BRCA carriers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ec5afdd7bd4",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with a 3-month history of abdominal bloating, early satiety, and pelvic pressure. She has no significant past medical history. On bimanual examination, which single finding is most concerning for ovarian cancer?",
+      "options": [
+        "Mild suprapubic tenderness",
+        "A fixed, irregular, non-tender pelvic mass",
+        "A smooth, mobile, cystic mass <5 cm",
+        "Cervical motion tenderness",
+        "Uterine enlargement consistent with 10-week pregnancy"
+      ],
+      "answerIndex": 1,
+      "explanation": "A fixed, irregular, non-tender pelvic mass is a classic sign of ovarian malignancy. The most tempting distractor is a smooth, mobile, cystic mass, which suggests benign pathology (e.g., functional cyst). Tenderness suggests infection or endometriosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f40c0a088b2e",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with advanced high-grade serous ovarian cancer on palliative chemotherapy presents with sudden onset severe generalised abdominal pain, vomiting, and abdominal distension. She has no bowel movement for 24 hours. An erect chest X-ray is performed. Which finding most suggests a surgical emergency that requires immediate escalation?",
+      "options": [
+        "Free air under the diaphragm",
+        "Old rib fracture",
+        "Small pleural effusion",
+        "Solitary pulmonary nodule",
+        "Cardiomegaly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Free air under the diaphragm indicates hollow viscus perforation, a life-threatening surgical emergency. Pleural effusion is common in advanced disease but not an acute surgical emergency. Cardiomegaly, solitary nodule, and rib fracture are incidental or chronic findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3e5abefa267",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old woman with ovarian cancer is undergoing adjuvant chemotherapy with carboplatin and paclitaxel. She presents to the emergency department with a temperature of 38.6°C and feels generally unwell. Full blood count shows haemoglobin 100 g/L, white cell count 1.8 x 10^9/L, and platelets 150 x 10^9/L. Which single laboratory finding defines the threshold for escalation as a medical emergency?",
+      "options": [
+        "Haemoglobin < 100 g/L",
+        "C-reactive protein > 100 mg/L",
+        "Neutrophil count < 0.5 x 10^9/L",
+        "Platelet count < 150 x 10^9/L",
+        "White cell count < 2.0 x 10^9/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Febrile neutropenia is defined as temperature >38°C and neutrophil count <0.5 x 10^9/L. This requires urgent IV antibiotics and escalation. A low white cell count (distractor) is less specific than neutropenia. Haemoglobin, platelets, and CRP do not define this emergency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dceb7c3f57aa",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with acute onset of severe right iliac fossa pain with associated nausea. She is not pregnant. Transvaginal ultrasound shows a 6 cm right ovarian cyst with internal echoes and a thickened wall. Which single ultrasound finding would most strongly indicate ovarian torsion?",
+      "options": [
+        "A cyst with hair and fat content",
+        "Dilated loops of bowel",
+        "Simple fluid within the pouch of Douglas",
+        "A sonographic 'whirlpool' sign of the vascular pedicle",
+        "Endometrial thickness of 10 mm"
+      ],
+      "answerIndex": 3,
+      "explanation": "The 'whirlpool' sign (twisted vascular pedicle) on Doppler is pathognomonic for ovarian torsion. Absence of flow is also diagnostic, but the 'whirlpool' sign directly visualises the twist. Simple free fluid is non-specific. Hair/fat suggests dermoid, a risk factor but not diagnostic of torsion. Dilated bowel suggests ileus. Endometrial thickness is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acd505e3d1d0",
+      "topic": "Ovarian Cancer",
+      "slug": "ovarian-cancer",
+      "system": "Gynaecology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with no gynaecological history has a CA125 level of 150 U/mL (normal <35) measured during investigation of weight loss. She is otherwise asymptomatic. Which single finding on transvaginal ultrasound would prompt an urgent 2-week-wait referral for suspected ovarian cancer?",
+      "options": [
+        "A simple cyst <3 cm",
+        "Normal ovaries bilaterally",
+        "A simple cyst 7 cm with thin walls",
+        "Endometrial thickness 5 mm",
+        "A complex ovarian cyst with solid areas"
+      ],
+      "answerIndex": 4,
+      "explanation": "A complex ovarian cyst with solid areas (or papillary projections) in a postmenopausal woman with raised CA125 is highly suspicious for ovarian malignancy and requires urgent referral (NICE CG122). Simple cysts, even if >5 cm, in postmenopausal women are less concerning. Normal ovaries make ovarian cancer unlikely. Endometrial thickness 5 mm is within normal limits for postmenopausal women.",
+      "difficulty": "medium"
+    }
+  ]
+}

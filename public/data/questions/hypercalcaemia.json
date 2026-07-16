@@ -1,0 +1,493 @@
+{
+  "topic": "Hypercalcaemia",
+  "slug": "hypercalcaemia",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "Electrolyte",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:44Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "1feb823c40d1",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman is found to have a corrected calcium of 2.75 mmol/L on routine bloods. She is asymptomatic. Her PTH is 9.0 pmol/L (elevated), phosphate low, and 24-hour urinary calcium is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Familial hypocalciuric hypercalcaemia",
+        "Primary hyperparathyroidism",
+        "Thiazide diuretic use",
+        "Malignancy-associated hypercalcaemia",
+        "Sarcoidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevated PTH with hypercalcaemia and low phosphate, in an asymptomatic patient, is classic for primary hyperparathyroidism. FHH typically has normal or mildly elevated PTH with low urinary calcium, but urinary calcium is normal here. Malignancy suppresses PTH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0445b3d2c179",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with a 20-pack-year smoking history presents with fatigue, bony pain, and constipation over two months. Corrected calcium is 3.10 mmol/L, PTH is <1.0 pmol/L (suppressed). What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma",
+        "Primary hyperparathyroidism",
+        "Vitamin D intoxication",
+        "Malignancy-associated hypercalcaemia",
+        "Milk-alkali syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Suppressed PTH with symptomatic hypercalcaemia in a smoker strongly suggests malignancy (e.g., squamous cell lung cancer). Myeloma can also suppress PTH, but bone pain and smoking history favour malignancy. Primary hyperparathyroidism would have elevated PTH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a6c6897f81f",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents acutely confused, with vomiting and polyuria. Corrected calcium is 3.80 mmol/L. PTH is undetectable (<0.5 pmol/L). She has no known malignancy. What is the single most likely diagnosis?",
+      "options": [
+        "Milk-alkali syndrome",
+        "Malignancy-associated hypercalcaemia",
+        "Hypercalcaemic crisis due to primary hyperparathyroidism",
+        "Thyrotoxicosis",
+        "Sarcoidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute severe hypercalcaemia with suppressed PTH is most commonly due to malignancy, often occurring as first presentation. Primary hyperparathyroidism rarely reaches such high calcium without a higher PTH. Sarcoidosis and thyrotoxicosis cause mild hypercalcaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "951dda442aef",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with recurrent calcium-containing renal stones. Corrected calcium is 2.80 mmol/L, PTH 12 pmol/L (elevated). He has had peptic ulcer disease and a family history of hypercalcaemia. What is the single most likely diagnosis?",
+      "options": [
+        "Lithium-induced hypercalcaemia",
+        "Primary hyperparathyroidism",
+        "Familial hypocalciuric hypercalcaemia",
+        "MEN1 syndrome",
+        "Sarcoidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite family history and ulcer, primary hyperparathyroidism is the most common cause. MEN1 is less common and typically has multiple endocrine tumours. Thiazides and lithium are not mentioned. FHH would have low urinary calcium, not stones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4eae107bbbe",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman on lithium therapy for bipolar disorder has a corrected calcium of 2.70 mmol/L on routine testing. PTH is 5.0 pmol/L (inappropriately normal), and 24-hour urinary calcium is low. What is the single most likely diagnosis?",
+      "options": [
+        "Lithium-induced hypercalcaemia",
+        "Familial hypocalciuric hypercalcaemia",
+        "Primary hyperparathyroidism",
+        "Sarcoidosis",
+        "Malignancy-associated hypercalcaemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lithium can cause hypercalcaemia with normal PTH and low urinary calcium, mimicking FHH. However, the clear temporal association with lithium therapy makes lithium-induced hypercalcaemia most likely. Discontinuation often resolves. Primary hyperparathyroidism would have elevated PTH.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3fda5c4885bb",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 48-year-old woman presents with fatigue and mild hypercalcaemia (corrected calcium 2.75 mmol/L). She has no other symptoms. Which is the most appropriate next investigation?",
+      "options": [
+        "24-hour urinary calcium",
+        "Serum angiotensin-converting enzyme (ACE)",
+        "Serum intact parathyroid hormone (PTH)",
+        "Serum 25-hydroxyvitamin D",
+        "Serum parathyroid hormone-related peptide (PTHrP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Primary hyperparathyroidism is the most common cause of hypercalcaemia in outpatients. PTH distinguishes it from malignancy (where PTH is suppressed). PTHrP is indicated if PTH is low and malignancy is suspected. 24h urine calcium helps in familial hypocalciuric hypercalcaemia but is not first line. Vitamin D and ACE are for secondary causes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3251c80d9df",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man on bendroflumethiazide for hypertension is found to have a corrected calcium of 2.80 mmol/L. He has mild thirst. What is the most appropriate first test to determine the aetiology?",
+      "options": [
+        "Serum intact PTH",
+        "Serum PTHrP",
+        "24-hour urine calcium",
+        "Stop thiazide and repeat calcium in 1 week",
+        "Serum 1,25-dihydroxyvitamin D"
+      ],
+      "answerIndex": 0,
+      "explanation": "A normal or elevated PTH in the setting of thiazide suggests underlying primary hyperparathyroidism. A suppressed PTH points to thiazide as the cause. Stopping thiazide may be considered but the first investigation is PTH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f173409beab",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with back pain, anaemia (Hb 100 g/L), ESR 80 mm/hr, and hypercalcaemia (corrected calcium 3.00 mmol/L). Which investigation is most likely to confirm the aetiology?",
+      "options": [
+        "Serum protein electrophoresis",
+        "Serum intact PTH",
+        "Bone scan",
+        "Serum PTHrP",
+        "Serum 1,25-dihydroxyvitamin D"
+      ],
+      "answerIndex": 0,
+      "explanation": "Multiple myeloma can present with hypercalcaemia, bone pain, and anaemia. Serum protein electrophoresis is the initial screening test to detect a monoclonal protein. PTH and PTHrP would be indicated if there is suspicion of hyperparathyroidism or solid tumour malignancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f939c669bd30",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with known pulmonary sarcoidosis has a corrected calcium of 2.90 mmol/L. Which investigation is most likely to confirm the aetiology?",
+      "options": [
+        "Serum 1,25-dihydroxyvitamin D",
+        "24-hour urine calcium",
+        "CT chest",
+        "Serum intact PTH",
+        "Serum ACE"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sarcoidosis causes extrarenal production of 1,25-dihydroxyvitamin D by activated macrophages, leading to increased calcium absorption. ACE is often elevated but not diagnostic of hypercalcaemia. PTH is suppressed in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc87e18f5fad",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman is found to have a serum calcium of 2.60 mmol/L (corrected), PTH is elevated, and 24-hour urine calcium is normal. She is asymptomatic, has normal renal function, and no history of kidney stones. DEXA scan shows T-score -1.0 at the hip and lumbar spine. What is the most appropriate first-line management?",
+      "options": [
+        "Calcitonin",
+        "Conservative monitoring with annual calcium and renal function",
+        "Parathyroidectomy",
+        "Oral bisphosphonate (alendronic acid)",
+        "Cinacalcet"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend conservative monitoring for asymptomatic primary hyperparathyroidism without target organ damage (e.g., calcium <0.25 mmol/l above upper limit of normal, no renal impairment, no osteoporosis, age >50). Parathyroidectomy is reserved for symptomatic or higher-risk patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7bbd8f56bf1",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with metastatic prostate cancer presents with malaise, constipation, and thirst. Serum calcium is 3.20 mmol/L (corrected), and he is clinically euvolemic. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous 0.9% sodium chloride followed by zoledronic acid 4 mg IV",
+        "Oral prednisolone 40 mg daily",
+        "Subcutaneous calcitonin",
+        "Subcutaneous denosumab 120 mg",
+        "Intravenous 0.9% sodium chloride alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "First-line management for moderate hypercalcaemia of malignancy is intravenous isotonic fluid resuscitation to correct volume depletion, followed by a bisphosphonate (zoledronic acid or pamidronate) to inhibit bone resorption. Calcitonin has a rapid but transient effect and is second-line; glucocorticoids are useful for haematological malignancies; denosumab is an alternative but not first-line in acute management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15c52e599ff4",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A patient with multiple myeloma and severe hypercalcaemia (corrected calcium 3.7 mmol/L) is being treated. Which of the following drugs is CONTRAINDICATED as a treatment for hypercalcaemia in this setting?",
+      "options": [
+        "Subcutaneous calcitonin",
+        "Intravenous fluids",
+        "Oral cinacalcet",
+        "Intravenous zoledronic acid",
+        "Intravenous pamidronate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cinacalcet is a calcimimetic used for secondary hyperparathyroidism in CKD and for parathyroid carcinoma; it is not indicated for malignancy-associated hypercalcaemia, as it acts on the calcium-sensing receptor in the parathyroid gland and would not address the underlying cause. Bisphosphonates, fluids, and calcitonin are appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "417ba42b83a1",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 34-year-old woman with known sarcoidosis presents with hypercalcaemia (corrected calcium 2.90 mmol/L), polyuria, and polydipsia. She is otherwise well. What is the most appropriate first-line treatment for her hypercalcaemia?",
+      "options": [
+        "Oral furosemide",
+        "Intravenous normal saline",
+        "Intravenous pamidronate",
+        "Oral prednisolone 30 mg daily",
+        "Hydroxychloroquine"
+      ],
+      "answerIndex": 3,
+      "explanation": "In sarcoidosis, hypercalcaemia is driven by extrarenal 1,25-dihydroxyvitamin D production from granulomas. Glucocorticoids (e.g., prednisolone) are first-line as they suppress granulomatous inflammation and reduce vitamin D synthesis. IV fluids may be used if dehydration, but definitive treatment is steroids.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f71b4a13159b",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with confusion and hypercalcaemia (corrected calcium 3.4 mmol/L). He has been taking high-dose over-the-counter vitamin D supplements for osteoarthritis. He has normal renal function. Which of the following is the single most appropriate first-line treatment for this episode?",
+      "options": [
+        "Intravenous fluids and prednisolone",
+        "Calcitonin",
+        "Parathyroidectomy",
+        "Cinacalcet",
+        "Denosumab"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vitamin D intoxication leads to hypercalcaemia via increased intestinal absorption. First-line management includes IV fluids for rehydration plus glucocorticoids (prednisolone) to reduce vitamin D conversion and absorption. Parathyroidectomy is not indicated; calcitonin and bisphosphonates are second-line; denosumab is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ffc8a238f4f8",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman is brought to the Emergency Department with confusion and lethargy. Observations: BP 90/50, HR 110, temperature 37.1°C. Serum calcium is 3.8 mmol/L. She appears dehydrated. What is the most appropriate next step?",
+      "options": [
+        "Arrange urgent haemodialysis",
+        "Give intravenous zoledronic acid",
+        "Administer intravenous furosemide",
+        "Start intravenous calcitonin",
+        "Start intravenous normal saline (0.9% NaCl) infusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe symptomatic hypercalcaemia, the immediate priority is volume resuscitation with IV 0.9% saline to correct dehydration and improve renal calcium excretion. Bisphosphonates, furosemide, calcitonin, and dialysis are later steps after rehydration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1dc92efc371e",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman has a routine blood test showing serum calcium 2.7 mmol/L (albumin 35 g/L, normal 35-50). She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Start oral bisphosphonate therapy",
+        "Repeat serum calcium with albumin and renal function",
+        "Check parathyroid hormone (PTH) level",
+        "Advise a low-calcium diet",
+        "Arrange parathyroid ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Before any further investigation, the abnormal calcium must be confirmed with a repeat sample correcting for albumin. A single borderline elevation can be spurious. Once confirmed, PTH and other workup can be planned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "731d88628e19",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with metastatic lung cancer presents with nausea and polyuria. His heart rate is 98 bpm, BP 115/75, skin turgor normal. Serum calcium is 3.3 mmol/L. He is passing urine well. What is the most appropriate next step?",
+      "options": [
+        "Give intravenous zoledronic acid",
+        "Start oral prednisolone",
+        "Check serum PTH-related peptide (PTHrP)",
+        "Request urgent parathyroidectomy",
+        "Start intravenous normal saline (0.9% NaCl) infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "In malignancy-associated hypercalcaemia with significant elevation and symptoms, after confirming adequate hydration (appears envolemic), IV bisphosphonate (zoledronic acid) is the mainstay to reduce bone resorption. IV fluids are already considered if dehydrated; here they are not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f666d41afd75",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman on bendroflumethiazide for hypertension has a serum calcium of 2.75 mmol/L. She is asymptomatic. Her eGFR is 60 mL/min. What is the most appropriate next step?",
+      "options": [
+        "Check serum PTH level",
+        "Stop bendroflumethiazide and recheck calcium in 1-2 weeks",
+        "Start intravenous zoledronic acid",
+        "Advise low-calcium diet",
+        "Start furosemide"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thiazide diuretics can cause mild hypercalcaemia by reducing urinary calcium excretion. The first step is to stop the thiazide and reassess; if calcium normalises, no further investigation is needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fa1c89d1040f",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known pulmonary sarcoidosis has a routine blood test showing serum calcium 2.9 mmol/L. He is asymptomatic. He is not on any treatment for sarcoidosis. What is the most appropriate next step?",
+      "options": [
+        "Start hydroxychloroquine",
+        "Start oral prednisolone",
+        "Check 1,25-dihydroxyvitamin D level",
+        "Arrange CT chest",
+        "Refer for parathyroidectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypercalcaemia in sarcoidosis is due to extrarenal 1α-hydroxylase activity producing excess 1,25-dihydroxyvitamin D. Confirming this helps differentiate it from primary hyperparathyroidism and guides treatment (steroids for symptomatic or severe cases).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "31564aa87078",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman presents with a 2-week history of constipation, confusion, and polyuria. She appears clinically dehydrated. Bloods show: corrected calcium 3.8 mmol/L, eGFR 35 ml/min/1.73m², PTH suppressed. Which single finding most clearly marks this as a medical emergency?",
+      "options": [
+        "eGFR <60 ml/min/1.73m²",
+        "Corrected calcium >3.5 mmol/L",
+        "History of constipation",
+        "Serum creatinine 200 μmol/L",
+        "Suppressed PTH"
+      ],
+      "answerIndex": 1,
+      "explanation": "A corrected calcium >3.5 mmol/L defines severe hypercalcaemia and is an immediate risk of cardiac arrhythmia, requiring urgent fluid resuscitation and bisphosphonate therapy. The other findings are significant but do not by themselves denote the same degree of immediate danger.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "87b52f119da6",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known mild hypercalcaemia (corrected calcium 2.8 mmol/L) from primary hyperparathyroidism presents with acute epigastric pain radiating to the back, vomiting, and fever. Serum amylase is 1200 U/L. Which single diagnosis must be excluded as a life-threatening complication of hypercalcaemia?",
+      "options": [
+        "Peptic ulcer disease",
+        "Diabetic ketoacidosis",
+        "Acute cholecystitis",
+        "Mesenteric ischaemia",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypercalcaemia is a well-recognised cause of acute pancreatitis, which presents classically with epigastric pain, vomiting, and high amylase. While the other diagnoses can present similarly, pancreatitis is the direct complication of hypercalcaemia and must be excluded urgently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a8ce2b3d87f6",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 48-year-old asymptomatic woman is found to have a corrected calcium of 2.75 mmol/L. PTH is elevated. Which single laboratory finding would prompt referral for consideration of parathyroidectomy according to UK guidelines?",
+      "options": [
+        "Serum phosphate 0.8 mmol/L",
+        "Vitamin D 30 nmol/L",
+        "24-hour urinary calcium >5 mmol/day",
+        "Albumin 35 g/L",
+        "eGFR 55 ml/min/1.73m²"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend referral for parathyroidectomy in primary hyperparathyroidism if eGFR <60 ml/min/1.73m², as renal impairment is an indication for surgery. The other test results are common but do not alone meet the threshold for automatic referral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7210024eba14",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with metastatic lung cancer is brought to ED with confusion and polyuria. His corrected calcium is 3.9 mmol/L. Which ECG finding is most likely and indicates life-threatening risk of arrhythmia?",
+      "options": [
+        "U waves",
+        "T wave inversion",
+        "Prolonged QTc",
+        "Short QTc",
+        "ST elevation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hypercalcaemia shortens the QTc interval due to accelerated repolarisation, increasing the risk of ventricular arrhythmias. A QTc <0.38 seconds is a red flag, whereas prolonged QTc is seen in hypocalcaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a9e2038d28c",
+      "topic": "Hypercalcaemia",
+      "slug": "hypercalcaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with primary hyperparathyroidism (corrected calcium 2.9 mmol/L) is brought to the ED by her son because she is confused and dehydrated. Which single finding indicates that this is an emergency requiring immediate treatment?",
+      "options": [
+        "PTH >100 ng/L",
+        "eGFR 60 ml/min/1.73m²",
+        "Corrected calcium 2.9 mmol/L",
+        "Previous osteoporotic fracture",
+        "Acute confusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Symptomatic hypercalcaemia, even with a calcium level in the moderate range (2.6–3.0 mmol/L), is a medical emergency because the presence of confusion and dehydration signifies risk of deterioration to coma or cardiac arrest. The absolute calcium level alone does not define emergency when symptoms are present.",
+      "difficulty": "easy"
+    }
+  ]
+}

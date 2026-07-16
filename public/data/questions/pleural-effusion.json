@@ -1,0 +1,513 @@
+{
+  "topic": "Pleural Effusion",
+  "slug": "pleural-effusion",
+  "system": "Respiratory",
+  "subSystem": "Pleural",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:18Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9b79acfb2254",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with a 5-day history of productive cough, fever, and right-sided pleuritic chest pain. He has reduced breath sounds and stony dullness at the right base. O2 sats 94% on air, RR 22, temp 38.2°C. CXR shows a right-sided pleural effusion. Pleural fluid analysis: pH 7.20, protein 45 g/L, LDH 800 U/L (serum LDH 200), glucose 2.1 mmol/L, Gram stain shows Gram-positive cocci in chains. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculous pleurisy",
+        "Pulmonary embolism with effusion",
+        "Uncomplicated parapneumonic effusion",
+        "Malignant pleural effusion",
+        "Empyema"
+      ],
+      "answerIndex": 4,
+      "explanation": "The pleural fluid shows low pH (<7.2), low glucose, high LDH, and positive Gram stain, which are diagnostic of a complicated parapneumonic effusion/empyema. Uncomplicated parapneumonic effusion would have normal pH and glucose. Tuberculous effusions typically have pH >7.3 and lymphocytosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f4f30dff7f1",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with known rheumatoid arthritis on methotrexate presents with progressive dyspnoea and dry cough for 2 weeks. She is afebrile. Examination reveals a left-sided pleural effusion. Pleural fluid: protein 40 g/L, LDH 350 U/L, glucose 5.0 mmol/L (normal), pH 7.40, WBC 2000/µL (lymphocytes 80%). What is the single most likely diagnosis?",
+      "options": [
+        "Heart failure",
+        "Rheumatoid pleurisy",
+        "Tuberculous pleurisy",
+        "Malignant pleural effusion",
+        "Empyema"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with rheumatoid arthritis, a unilateral exudative effusion with high lymphocyte count and normal glucose is characteristic of rheumatoid pleurisy. Empyema would have low glucose and pH. Tuberculous pleurisy also has lymphocytosis but often low glucose and is more common in immunocompromised; absence of fever favours rheumatoid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70e81bf7f9f0",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man is brought to the emergency department with sudden-onset severe dyspnoea and hypotension 30 minutes after a central line insertion for total parenteral nutrition. He has a history of Crohn's disease. On examination, he is tachypnoeic, trachea deviated to the right, and there is stony dullness and absent breath sounds on the left side. Chest X-ray shows a large left-sided pleural effusion with mediastinal shift to the right. What is the single most likely diagnosis?",
+      "options": [
+        "Haemothorax",
+        "Pulmonary embolism",
+        "Tension pneumothorax",
+        "Empyema",
+        "Chylothorax"
+      ],
+      "answerIndex": 0,
+      "explanation": "The timing immediately after central line insertion, hypotension, and stony dullness indicate haemothorax from vascular injury. Empyema and chylothorax are not acute. Tension pneumothorax gives hyper-resonance, not dullness. Pulmonary embolism does not cause mediastinal shift.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ef011caf1a72",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with type 2 diabetes and end-stage renal disease on continuous ambulatory peritoneal dialysis (CAPD) presents with progressive dyspnoea and a right-sided pleural effusion on chest X-ray. She has no fever or cough. Pleural fluid analysis: protein 5 g/L, LDH 50 U/L, glucose 8.0 mmol/L (plasma glucose 6.0), pH 7.45, WBC 100/µL (mesothelial cells). What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Tuberculous pleurisy",
+        "CAPD-related hydrothorax",
+        "Heart failure",
+        "Malignant pleural effusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pleural fluid is a transudate with glucose higher than plasma, which is characteristic of peritoneal dialysate leakage into the pleural space (hydrothorax). Heart failure would not show such high glucose. Malignant, TB, and empyema are exudates with different features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "22d3c33c10b0",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman with history of breast cancer (treated with tamoxifen) presents with bilateral pleural effusions found incidentally on a routine chest X-ray. She is asymptomatic, no breathlessness. She is on tamoxifen 20 mg daily. Pleural fluid analysis: protein 30 g/L, LDH 200 U/L (serum LDH 180), pH 7.42, glucose 5.5 mmol/L, cytology negative for malignant cells. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism with effusion",
+        "Tuberculous pleurisy",
+        "Tamoxifen-induced pleural effusion",
+        "Heart failure",
+        "Malignant pleural effusion from breast cancer metastases"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tamoxifen is a known cause of exudative pleural effusions, often bilateral and asymptomatic, with negative cytology. Malignant effusion from breast cancer is more often unilateral and would likely have positive cytology. Heart failure produces transudate. TB would have lymphocytosis and often systemic symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1316469770c2",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with pleuritic chest pain, fever, and cough. Chest X-ray shows a small left pleural effusion. What is the single most appropriate next investigation to determine if this is a complicated parapneumonic effusion?",
+      "options": [
+        "Blood cultures",
+        "Pleural ultrasound",
+        "Repeat chest X-ray in 48 hours",
+        "Diagnostic thoracentesis and pleural fluid analysis",
+        "CT chest with contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "Diagnostic thoracentesis with fluid analysis (pH, glucose, LDH) is the gold standard for identifying complicated parapneumonic effusion/empyema. The most tempting distractor is CT chest, but it cannot replace fluid biochemistry for diagnosing infection severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2ae289006b2b",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with heart failure presents with dyspnoea. Chest X-ray reveals a small right pleural effusion. Pleural fluid analysis shows: protein 25 g/L, LDH 150 IU/L (serum LDH 300 IU/L). Which of the following best describes the likely nature of this effusion?",
+      "options": [
+        "Transudate by Light's criteria",
+        "Indeterminate",
+        "Consistent with empyema",
+        "Exudate by Light's criteria",
+        "Exudate by protein gradient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Light's criteria: exudate if fluid protein/serum protein >0.5, fluid LDH/serum LDH >0.67, or fluid LDH >2/3 upper normal. Here protein ratio 25/70 <0.5, LDH ratio 150/300 = 0.5 <0.67, so transudate consistent with heart failure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa6ba31b7c40",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with pneumonia develops respiratory distress. Chest X-ray shows a large left pleural effusion. Which pleural fluid finding most strongly indicates an empyema requiring urgent drainage?",
+      "options": [
+        "LDH >1000 IU/L",
+        "Protein >30 g/L",
+        "Neutrophils >50%",
+        "pH <7.2",
+        "Glucose >5 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "A pleural fluid pH <7.2 is the key diagnostic criterion for complicated parapneumonic effusion/empyema, indicating need for drainage. Low pH (with high LDH and low glucose) confirms anaerobic metabolism. Distractors like high LDH support exudate but not specific for complicated infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b87a56c3b507",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man from South Asia presents with night sweats, weight loss, and a right pleural effusion. What pleural fluid test is most likely to confirm the diagnosis and guide treatment?",
+      "options": [
+        "Polymerase chain reaction (PCR) for M. tuberculosis",
+        "Cytology for malignant cells",
+        "Gram stain and culture",
+        "pH measurement",
+        "Adenosine deaminase (ADA)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pleural fluid ADA >40 U/L has high sensitivity and specificity for tuberculous pleuritis, especially in high-prevalence populations. While PCR is specific, it has lower sensitivity; culture takes weeks. ADA is the best initial diagnostic test in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "65ed5086150f",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with previous asbestos exposure has a recurrent right pleural effusion. CT chest shows pleural thickening. Which investigation is most likely to provide a definitive diagnosis?",
+      "options": [
+        "Pleural fluid cytology",
+        "Repeat chest X-ray in 3 months",
+        "Thoracoscopic pleural biopsy",
+        "CT-guided pleural biopsy",
+        "PET-CT scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thoracoscopic biopsy allows direct visualization and sampling of pleural nodules, with >90% sensitivity for malignancy. CT-guided biopsy can miss focal lesions, and pleural fluid cytology often negative in mesothelioma. PET-CT is not diagnostic alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a00d11b09094",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with a 3-day history of productive cough, fever, and right-sided pleuritic chest pain. Chest X-ray shows a small to moderate right pleural effusion. Pleural fluid analysis: pH 7.4, glucose >3.3 mmol/L, LDH <200 IU/L, no organisms on Gram stain, and culture negative. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous co-amoxiclav 1.2 g three times daily",
+        "Ultrasound-guided chest drain insertion",
+        "Therapeutic thoracentesis of 1.5 litres",
+        "Oral amoxicillin 500 mg three times daily for 7 days",
+        "Video-assisted thoracoscopic surgery (VATS) with decortication"
+      ],
+      "answerIndex": 3,
+      "explanation": "The fluid is exudative but uncomplicated parapneumonic (pH >7.2, glucose normal, no organisms). NICE guidelines recommend antibiotic monotherapy (e.g., amoxicillin) for community-acquired pneumonia with small parapneumonic effusion, as most resolve without drainage. Chest drain is reserved for complicated effusions (pH <7.2, loculation, or empyema).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb3c3b087b1d",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with a history of asbestos exposure presents with progressive breathlessness and a large right pleural effusion. CT suggests malignant pleural mesothelioma. Fluid cytology is non-diagnostic. He has good performance status (ECOG 1) and no trapped lung. What is the most appropriate definitive management for the recurrent effusion?",
+      "options": [
+        "Talc pleurodesis via chest drain",
+        "Therapeutic thoracentesis as required",
+        "Palliative chemotherapy alone",
+        "Insertion of an indwelling pleural catheter",
+        "Radiotherapy to the hemithorax"
+      ],
+      "answerIndex": 0,
+      "explanation": "For symptomatic malignant pleural effusion with good performance status and no trapped lung, talc pleurodesis (via chest drain) is first-line, often combined with thoracoscopy if needed. Indwelling pleural catheter (IPC) is reserved for trapped lung or failed pleurodesis. Thoracentesis alone provides temporary relief. Radiotherapy is not for effusion control.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fbea11df3200",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with decompensated cirrhosis presents with worsening dyspnoea. Chest X-ray shows a large right pleural effusion. Pleural fluid analysis: transudate (serum-pleural albumin gradient >11 g/L). He is already on maximal spironolactone and furosemide, but the effusion persists and is causing respiratory compromise. What is the most appropriate next-line treatment?",
+      "options": [
+        "Transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Chest drain insertion with pleurodesis",
+        "Liver transplantation assessment",
+        "Repeat thoracentesis every 2 weeks",
+        "Therapeutic thoracentesis of 1.5 litres"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is hepatic hydrothorax refractory to diuretics. First-line symptomatic management is therapeutic thoracentesis (and confirmation of transudate). TIPS may be considered for recurrent cases but is not the immediate next step. Chest drain with pleurodesis carries high risk of complications and is generally avoided. Liver transplant is definitive but not first-line for acute symptom relief.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ee63a6b883d3",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with a 2-week history of fevers, night sweats, and dry cough. Chest X-ray shows a moderate left pleural effusion. Pleural fluid analysis: lymphocytic exudate with high adenosine deaminase (ADA) of 60 U/L. HIV test is negative. What is the most appropriate definitive therapy?",
+      "options": [
+        "Standard anti-tuberculosis therapy (RIF, INH, PZA, ETH) for 6 months",
+        "Chest drain insertion with intrapleural streptokinase",
+        "Surgical decortication",
+        "Oral prednisolone 40 mg once daily for 4 weeks",
+        "Therapeutic thoracentesis and fluid culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is tuberculous pleuritis (lymphocytic exudate, high ADA). Standard anti-TB therapy (RIPZE) is definitive. Prednisolone is not routinely indicated for TB pleurisy (unlike TB pericarditis). Thoracentesis is diagnostic, not therapeutic. Drainage and fibrinolytics or surgery are for complicated effusions or empyema, not for TB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a7086d855285",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with known rheumatoid arthritis (on methotrexate) develops a unilateral moderate pleural effusion. Pleural fluid: exudate, predominantly neutrophils, glucose low (<1.6 mmol/L), pH 7.1. Cultures negative. There is no joint flare. What is the most appropriate first-line disease-modifying therapy for this pleural involvement?",
+      "options": [
+        "Switch to adalimumab (TNF inhibitor)",
+        "Perform therapeutic thoracentesis only",
+        "Pleurodesis with talc slurry",
+        "Add intrapleural corticosteroids via chest drain",
+        "Stop methotrexate and start oral prednisolone 20 mg daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is rheumatoid pleurisy (exudate with low glucose and pH, neutrophils, negative cultures). First-line disease-modifying therapy is systemic corticosteroids with adjustment of DMARDs (e.g., stopping methotrexate and starting prednisolone). Intrapleural steroids are not standard. Biologics may be considered later. Thoracentesis alone does not treat the underlying inflammation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "97a82754b8d4",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with progressive dyspnoea and dry cough over 3 weeks. He is a non-smoker with no significant past medical history. Chest X-ray shows a large left pleural effusion. He is haemodynamically stable, oxygen saturations 96% on room air. What is the most appropriate next step?",
+      "options": [
+        "CT thorax with contrast",
+        "Diagnostic pleural aspiration",
+        "Referral to respiratory medicine",
+        "Therapeutic pleural aspiration",
+        "Start empirical antibiotics"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diagnostic pleural aspiration is the first step to obtain fluid for analysis (biochemistry, microbiology, cytology) to determine the cause of the effusion. CT thorax is often performed after aspiration if needed. Therapeutic aspiration is reserved for symptomatic relief; the patient is not significantly hypoxic. Antibiotics are not indicated without suspicion of infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34c2d8866652",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with known heart failure presents with mild dyspnoea on exertion. Chest X-ray shows bilateral small pleural effusions. She is clinically stable, mild ankle oedema. What is the most appropriate next step?",
+      "options": [
+        "Increase dose of loop diuretic",
+        "Diagnostic pleural aspiration",
+        "Therapeutic pleural aspiration",
+        "Chest physiotherapy",
+        "Echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral small effusions in heart failure are typically transudative due to elevated hydrostatic pressure. The next step is to optimise diuretic therapy (increase loop diuretic) to reduce fluid overload. Diagnostic aspiration is not needed unless there is diagnostic uncertainty (e.g., fever, unilateral predominance). Echocardiogram may be useful but is not the immediate next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3734b28ce197",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with liver cirrhosis presents with acute dyspnoea and tachypnoea. He is hypoxic (SpO2 88% on room air) and has a respiratory rate of 32/min. Chest X-ray shows a massive right pleural effusion with mediastinal shift. What is the most appropriate next step?",
+      "options": [
+        "Start empirical antibiotics",
+        "CT pulmonary angiogram",
+        "Insert a large-bore chest drain",
+        "Give high-flow oxygen",
+        "Urgent therapeutic pleural aspiration"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has a tension-type effusion causing respiratory compromise. Immediate pleural drainage is needed; therapeutic aspiration is quicker and can be performed at the bedside to relieve pressure. A chest drain may be inserted later if needed. Oxygen alone is insufficient. CTPA is not indicated without suspicion of PE. Antibiotics are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d1ba76d25e4",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with community-acquired pneumonia remains febrile despite 48 hours of antibiotics. He develops pleuritic pain. Chest X-ray shows a loculated right pleural effusion. What is the most appropriate next step?",
+      "options": [
+        "Diagnostic pleural aspiration",
+        "Repeat chest X-ray",
+        "Insert a chest drain",
+        "Start broad-spectrum antibiotics",
+        "CT thorax with contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "The persisting fever and loculated effusion suggest a complicated parapneumonic effusion or empyema. Diagnostic pleural aspiration is required to confirm the diagnosis by obtaining fluid for culture, Gram stain, and biochemistry (e.g., pH, glucose). CT thorax may be helpful for planning drainage but is not the first step. Chest drain insertion follows aspiration if indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5555a4464308",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man is reviewed 2 weeks after coronary artery bypass grafting. He feels well, with no dyspnoea or fever. Chest X-ray shows a small left pleural effusion. What is the most appropriate next step?",
+      "options": [
+        "Insert a chest drain",
+        "CT thorax with contrast",
+        "Start a course of NSAIDs",
+        "Diagnostic pleural aspiration",
+        "Reassure and observe"
+      ],
+      "answerIndex": 4,
+      "explanation": "A small pleural effusion after CABG is common and often related to post-cardiac injury syndrome or residual fluid. In an asymptomatic, afebrile patient, no intervention is needed; spontaneous resolution is usual. Diagnostic aspiration or drainage is unnecessary and carries risk. NSAIDs may be considered if symptoms develop, but not as first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "697b90b95dd5",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old male smoker presents with progressive dyspnoea, weight loss, and a large right pleural effusion on chest X-ray. Which clinical finding most strongly suggests malignant pleural effusion rather than a benign cause?",
+      "options": [
+        "Finger clubbing",
+        "Hoarseness of voice",
+        "Pleural rub",
+        "Fever and night sweats",
+        "Supraclavicular lymphadenopathy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Supraclavicular lymphadenopathy is a strong indicator of metastatic malignancy, often from lung cancer. Finger clubbing may occur with lung cancer but is less specific than lymphadenopathy. Fever and night sweats suggest infection. Hoarseness may indicate recurrent laryngeal nerve palsy from mediastinal involvement, but lymphadenopathy is more directly related to pleural malignancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4c69a6b11243",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with community-acquired pneumonia develops a moderate pleural effusion. He remains febrile despite antibiotics. Thoracentesis is performed. Which pleural fluid result indicates a complicated parapneumonic effusion requiring urgent tube drainage?",
+      "options": [
+        "Pleural fluid pH 7.1",
+        "Pleural fluid white cell count 500 cells/μL",
+        "Pleural fluid LDH 150 U/L",
+        "Pleural fluid protein 30 g/L",
+        "Pleural fluid glucose 5.0 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A pleural fluid pH <7.2 is the key threshold for defining a complicated parapneumonic effusion or empyema, indicating need for urgent drainage to prevent loculation and sepsis. Other parameters (low glucose, high LDH) support the diagnosis but pH is the most critical decision-making value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b895d1ef7110",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with COPD and a left pleural effusion presents with acute severe dyspnoea. On examination, the trachea is deviated to the right. Which sign is the most important red-flag finding indicating an emergency?",
+      "options": [
+        "Absent breath sounds on the left",
+        "Tracheal deviation to the right",
+        "Pulsus paradoxus",
+        "Dull percussion on the left",
+        "Bilateral basal crackles"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal deviation away from a large pleural effusion indicates tension physiology with mediastinal shift, an emergency requiring immediate decompression. Dullness and absent breath sounds are expected but not emergent; crackles suggest left heart failure; pulsus paradoxus is more characteristic of cardiac tamponade.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "334a2d072115",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with a known malignant pleural effusion undergoes therapeutic thoracentesis of 1500 mL. One hour later, she develops cough, hypoxaemia, and frothy pink sputum. Which clinical finding is the red flag for a life-threatening complication of this procedure?",
+      "options": [
+        "Hypotension",
+        "Recurrence of the effusion",
+        "Surgical emphysema",
+        "Frothy pink sputum",
+        "Persistent dull percussion at the base"
+      ],
+      "answerIndex": 3,
+      "explanation": "Frothy pink sputum indicates pulmonary oedema, specifically re-expansion pulmonary oedema, which can be life-threatening after large-volume thoracentesis. Hypotension may occur but is less specific; surgical emphysema suggests pneumothorax; dullness and recurrence are expected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c7e4553fc1f5",
+      "topic": "Pleural Effusion",
+      "slug": "pleural-effusion",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with acute myeloid leukaemia develops a right pleural effusion after a subclavian central line insertion for chemotherapy. The aspirated fluid appears milky white. Which condition must be urgently recognised and managed?",
+      "options": [
+        "Pleural infection (empyema)",
+        "Haemothorax from vessel puncture",
+        "Transudative effusion due to heart failure",
+        "Malignant effusion from leukaemic infiltration",
+        "Chylothorax due to thoracic duct injury"
+      ],
+      "answerIndex": 4,
+      "explanation": "Milky white pleural fluid after central line insertion suggests chylothorax from thoracic duct injury, a surgical emergency requiring early intervention to prevent nutritional and immunological complications. Empyema fluid is purulent, not milky; haemothorax is bloody; malignant effusion may be serosanguinous but not milky; transudate is clear.",
+      "difficulty": "medium"
+    }
+  ]
+}

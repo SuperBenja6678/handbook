@@ -1,0 +1,513 @@
+{
+  "topic": "Colorectal Cancer",
+  "slug": "colorectal-cancer",
+  "system": "Gastroenterology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:16:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "371543ce959f",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with a 3-month history of looser stools and occasional blood mixed with stool. He has no weight loss. Abdominal examination is normal. Digital rectal examination is normal. Faecal occult blood test is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Haemorrhoids",
+        "Diverticular disease",
+        "Irritable bowel syndrome",
+        "Colorectal cancer",
+        "Inflammatory bowel disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Change in bowel habit with rectal bleeding in an older patient is classic for colorectal cancer. Diverticular disease typically presents with left-sided pain and intermittent bleeding; IBD often occurs in younger patients; IBS does not cause blood; haemorrhoids cause bright red blood with defecation, not mixed with stool.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1840f6be8770",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old postmenopausal woman is found to have iron deficiency anaemia (Hb 102 g/L, MCV 78 fL) on routine bloods. She feels tired but has no gastrointestinal symptoms. Oesophagogastroduodenoscopy (OGD) is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Angiodysplasia of the colon",
+        "Coeliac disease",
+        "Chronic NSAID use",
+        "Right-sided colon cancer",
+        "Gastric adenocarcinoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Iron deficiency anaemia without GI symptoms in a postmenopausal woman is a classic presentation of right-sided colon cancer. Coeliac disease and gastric cancer are excluded by normal OGD; angiodysplasia typically causes overt bleeding; NSAIDs cause gastritis, not isolated anaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1fa919ec90d2",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old man presents with a 2-day history of absolute constipation, abdominal distension, and vomiting. Abdomen is distended and tympanitic. Digital rectal examination shows an empty rectum. Abdominal X-ray shows dilated large bowel up to the splenic flexure with a cut-off sign. What is the single most likely diagnosis?",
+      "options": [
+        "Sigmoid volvulus",
+        "Diverticulitis",
+        "Obstructing left-sided colorectal cancer",
+        "Faecal impaction",
+        "Pseudo-obstruction (Ogilvie's syndrome)"
+      ],
+      "answerIndex": 2,
+      "explanation": "A cut-off sign at the splenic flexure indicates a mechanical obstruction, most likely from left-sided colorectal cancer. Sigmoid volvulus shows a 'coffee bean' sign; pseudo-obstruction has uniform dilatation; faecal impaction shows a loaded rectum; diverticulitis typically has pain and tenderness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8adc1a4fed72",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman with known diverticulosis presents with acute onset severe left iliac fossa pain, fever, and rebound tenderness. CT shows free air and a mass with surrounding inflammation. She has never had a colonoscopy. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated peptic ulcer",
+        "Ischaemic colitis",
+        "Perforated colonic carcinoma",
+        "Ruptured appendicitis",
+        "Perforated diverticulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an elderly patient without prior colonoscopy, a perforated mass on CT is most likely colonic carcinoma. Perforated diverticulitis would have a history of diverticulosis but CT typically shows diverticula; perforated peptic ulcer is epigastric; appendicitis is right-sided; ischaemic colitis often presents with bloody diarrhoea.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e01f813238bf",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old man with a family history of colorectal cancer (father diagnosed at age 55) presents with rectal bleeding and a feeling of incomplete evacuation. Digital rectal examination is normal. Sigmoidoscopy reveals a nodular mass at 8 cm from the anal verge. What is the single most likely diagnosis?",
+      "options": [
+        "Villous adenoma of the rectum",
+        "Anal squamous cell carcinoma",
+        "Ulcerative proctitis",
+        "Haemorrhoids",
+        "Rectal adenocarcinoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "Family history and a mass on sigmoidoscopy suggest rectal adenocarcinoma. Haemorrhoids do not form a mass; anal SCC involves the anal canal; ulcerative proctitis shows inflamed mucosa without a mass; villous adenoma is benign but less likely in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94714ab96128",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with a 2-month history of rectal bleeding and change in bowel habit towards looser stools. He has no abdominal pain or weight loss. On examination, there is no palpable mass. What is the single most appropriate first investigation to confirm the diagnosis?",
+      "options": [
+        "Flexible sigmoidoscopy",
+        "Colonoscopy",
+        "Barium enema",
+        "CT colonography",
+        "Faecal immunochemical test (FIT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Colonoscopy is the gold standard for diagnosing colorectal cancer as it allows direct visualisation and biopsy of the entire colon. Flexible sigmoidoscopy would miss right-sided lesions; CT colonography is an alternative but does not provide tissue; FIT is a screening tool, not diagnostic; barium enema is rarely used now.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2441957b484",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman is found to have iron deficiency anaemia (Hb 105 g/L, MCV 78 fL). She is asymptomatic with no rectal bleeding. Her FIT result is positive at 120 µg Hb/g faeces. What is the single most appropriate next investigation?",
+      "options": [
+        "Repeat FIT in 4 weeks",
+        "CT colonography",
+        "Capsule endoscopy",
+        "Oesophagogastroduodenoscopy (OGD)",
+        "Colonoscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "A positive FIT in the context of iron deficiency anaemia mandates lower GI investigation. Colonoscopy is the preferred test as it can visualise the entire colon and obtain biopsies. OGD is not first-line because the FIT points to a colonic source; CT colonography is an alternative but less sensitive for flat lesions; capsule endoscopy is not indicated for suspected colorectal cancer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20a77d457788",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with altered bowel habit for 3 weeks. He has no rectal bleeding or family history of colorectal cancer. A faecal immunochemical test (FIT) is performed and returns a result of 25 µg Hb/g faeces. According to NICE guidelines for symptomatic patients, what is the correct interpretation of this result?",
+      "options": [
+        "Positive – refer for CT colonography",
+        "Negative – offer screening colonoscopy",
+        "Positive – refer for colonoscopy",
+        "Negative – no further action",
+        "Equivocal – repeat FIT in 6 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guideline NG12 recommends a FIT threshold of >10 µg Hb/g faeces for referral for suspected colorectal cancer in symptomatic patients. A result of 25 µg/g is positive and warrants urgent referral for colonoscopy. The other options either misinterpret the threshold or suggest unnecessary alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1ec89daa67ea",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with a 4-week history of constipation and bloating. She has no rectal bleeding, weight loss, or tenesmus. Her father had colorectal cancer diagnosed at age 50. What is the single most appropriate investigation to confirm or exclude colorectal cancer?",
+      "options": [
+        "Flexible sigmoidoscopy",
+        "Faecal immunochemical test (FIT)",
+        "CT colonography",
+        "Colonoscopy",
+        "CT abdomen and pelvis with contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "Colonoscopy is the diagnostic test of choice in symptomatic patients with a first-degree relative under 60 with colorectal cancer, as it allows full colonic examination and biopsy. Flexible sigmoidoscopy would miss proximal lesions; CT colonography is less sensitive for small polyps; FIT is screening, not diagnostic; CT abdomen/pelvis is not sufficient for mucosal detail.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8c8f92772179",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "An 82-year-old woman with severe COPD (home oxygen) and heart failure (EF 35%) presents with rectal bleeding and weight loss. She is too frail for colonoscopy under sedation. What is the single most appropriate investigation to confirm the diagnosis of colorectal cancer?",
+      "options": [
+        "CT colonography",
+        "Barium enema",
+        "Faecal immunochemical test (FIT)",
+        "Colonoscopy with minimal sedation",
+        "Flexible sigmoidoscopy without sedation"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT colonography (virtual colonoscopy) is the preferred alternative when colonoscopy is contraindicated or unsuitable due to frailty or comorbidities. Flexible sigmoidoscopy only examines the left colon; FIT is not diagnostic; barium enema is rarely performed and less sensitive; colonoscopy with sedation carries high risk in this patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc1b9b27f4f0",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old asymptomatic man is found to have a 1.5 cm Dukes' A (T1N0M0) adenocarcinoma of the ascending colon at screening colonoscopy. He has no comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Laparoscopic anterior resection",
+        "Endoscopic mucosal resection (EMR)",
+        "Oral capecitabine chemotherapy",
+        "Watchful waiting",
+        "Right hemicolectomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a T1N0M0 colon cancer with favourable histology, endoscopic mucosal resection is curative and avoids the morbidity of surgery. Right hemicolectomy would be overtreatment for this early stage. Capecitabine is not indicated as adjuvant therapy for stage I disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "588336e86d49",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old woman presents with altered bowel habit and is found to have a T3N1M0 adenocarcinoma of the sigmoid colon. She is fit for surgery. What is the most appropriate first-line treatment?",
+      "options": [
+        "Palliative capecitabine and oxaliplatin (CAPOX)",
+        "Laparoscopic sigmoid colectomy with lymphadenectomy",
+        "Neoadjuvant chemoradiotherapy followed by surgery",
+        "Right hemicolectomy",
+        "Watchful waiting"
+      ],
+      "answerIndex": 1,
+      "explanation": "For stage III colon cancer, the standard of care is surgical resection with en bloc lymph node clearance. Neoadjuvant chemoradiotherapy is reserved for rectal cancer, not colon. Palliative chemotherapy would be inappropriate as the disease is potentially curable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8b93ee27f47",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man presents with a 3-day history of absolute constipation and abdominal distension. CT shows a stenotic tumour in the descending colon causing large bowel obstruction. There is no evidence of perforation or metastasis. What is the most appropriate first-line treatment?",
+      "options": [
+        "Palliative colonic stenting alone",
+        "Emergency right hemicolectomy",
+        "Self-expanding metallic stent (SEMS) insertion as bridge to surgery",
+        "Urgent laparotomy with transverse loop colostomy",
+        "Emergency Hartmann's procedure"
+      ],
+      "answerIndex": 2,
+      "explanation": "For left-sided colonic obstruction, SEMS is the preferred bridge to surgery, allowing decompression and elective one-stage resection. Emergency Hartmann's or colostomy often require a stoma and have higher morbidity. Palliative stenting is for metastatic disease not amenable to resection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "640890692831",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with known metastatic rectal cancer (liver and lung metastases) presents with massive fresh bleeding per rectum. Her haemoglobin is 70 g/L and she is haemodynamically stable after transfusion. What is the most appropriate first-line treatment to control the bleeding?",
+      "options": [
+        "Palliative short-course radiotherapy to the pelvic tumour",
+        "Transfusion alone and monitor",
+        "Emergency anterior resection",
+        "Endoscopic argon plasma coagulation",
+        "Urgent subtotal colectomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For palliation of bleeding from an inoperable rectal cancer, short-course radiotherapy is highly effective and recommended by NICE. Surgery carries significant risk and is not first-line. Endoscopic therapy may be used but is less available and effective for mass bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba4ff7e55510",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man underwent a curative right hemicolectomy for a T3N0M0 adenocarcinoma of the caecum (low-risk stage II). He has no high-risk features (e.g., poor differentiation, lymphovascular invasion). What is the most appropriate follow-up strategy?",
+      "options": [
+        "5 years of annual CT chest/abdomen/pelvis and colonoscopy",
+        "PET-CT scan at 6 months",
+        "3 years of CEA monitoring every 6 months and colonoscopy at 1 and 3 years",
+        "Adjuvant chemotherapy with capecitabine and oxaliplatin (CAPOX)",
+        "No follow-up required"
+      ],
+      "answerIndex": 2,
+      "explanation": "For low-risk stage II colon cancer, NICE recommends CEA every 6 months for 3 years and colonoscopy at 1 and 3 years. CT is not routinely indicated for asymptomatic low-risk patients. Adjuvant chemotherapy is not recommended for low-risk stage II.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d0e139b22ec",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents to the GP with a 2-week history of rectal bleeding and change in bowel habit. He has no significant past medical history. FIT test is positive. What is the most appropriate next step?",
+      "options": [
+        "Repeat FIT testing in 6 months",
+        "Refer for urgent colonoscopy within 2 weeks",
+        "Arrange CT colonography",
+        "Perform a flexible sigmoidoscopy",
+        "Start iron supplementation and review in 4 weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE NG12 recommends urgent colonoscopy (within 2 weeks) for patients aged 60+ with rectal bleeding and change in bowel habit, or for those with a positive FIT. Flexible sigmoidoscopy is insufficient for a complete colonic assessment. CT colonography is an alternative only if colonoscopy is contraindicated. Repeat FIT or iron alone delays diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "163ad14f4216",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with known left-sided colonic cancer awaiting elective resection presents to the ED with abdominal distension, vomiting, and absolute constipation for 2 days. She is haemodynamically stable with no peritonism. CT confirms large bowel obstruction at the rectosigmoid. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT-guided biopsy of the tumour",
+        "Administer IV antibiotics",
+        "Arrange emergency colonic stenting",
+        "Request a surgical outpatient review",
+        "Insert a nasogastric tube and start IV fluids"
+      ],
+      "answerIndex": 4,
+      "explanation": "In large bowel obstruction without peritonism, the immediate priority is resuscitation with NG decompression and IV fluids. Definitive management (e.g., stent or surgery) can follow once the patient is stable. Antibiotics are not indicated without signs of perforation. Stenting is a later decision.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "599ed4a6a66c",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old male with known metastatic colorectal cancer presents to the ED with severe abdominal pain, distension, and peritonism. BP 110/70 mmHg, HR 100 bpm. CT shows free air under the diaphragm. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer IV fluids",
+        "Request a surgical review",
+        "List the patient for emergency laparotomy",
+        "Start IV broad-spectrum antibiotics",
+        "Insert a nasogastric tube"
+      ],
+      "answerIndex": 2,
+      "explanation": "With peritonism and free air (perforation), the definitive treatment is emergency laparotomy. While resuscitation (fluids, antibiotics) is important, the single most critical immediate action is to prepare for surgery to control the source of sepsis. Delaying surgery worsens outcomes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ebe5bb195b9f",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman is 3 days post right hemicolectomy for colon cancer. She develops a fever of 38.5°C, tachycardia (HR 110 bpm), and purulent discharge from the wound. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply a pressure dressing to the wound",
+        "Take blood cultures and start IV broad-spectrum antibiotics",
+        "Remove wound staples and explore the wound",
+        "Arrange an urgent CT abdomen",
+        "Request a surgical registrar review"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected surgical site infection with signs of sepsis, the immediate priority is to obtain blood cultures and administer antibiotics within 1 hour (NICE sepsis guidelines). Wound exploration or imaging should not delay antibiotics. Simply requesting a review is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b446ae2c80c",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old asymptomatic man is referred to the colorectal clinic. His mother was diagnosed with colorectal cancer at age 50. He has no bowel symptoms and no other family history. What is the most appropriate next step?",
+      "options": [
+        "Perform a FIT test annually",
+        "Arrange CT colonography",
+        "Reassure and discharge",
+        "Refer for genetic counselling",
+        "Offer a colonoscopy at age 55"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE NG12 defines moderate risk as one first-degree relative diagnosed under 60 years. The recommended screening is a colonoscopy at age 55 (or 10 years younger than the relative's age at diagnosis). FIT is for average risk. Genetic counselling is for high-risk families (e.g., multiple affected relatives, young onset). Discharge is inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ef118bca756",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man presents with a 4-week history of constipation and tenesmus. On digital rectal examination, you feel a hard, irregular, fixed mass in the rectal ampulla. Which of the following findings is the strongest indication that this patient requires an urgent 2-week-wait referral for suspected colorectal cancer?",
+      "options": [
+        "Normal stool colour on the glove",
+        "Tenderness on rectal examination",
+        "Presence of blood on the examining finger",
+        "Hard, irregular, fixed mass",
+        "Increased anal tone"
+      ],
+      "answerIndex": 3,
+      "explanation": "A hard, irregular, fixed mass on DRE is highly suspicious for rectal carcinoma and mandates urgent referral. Blood on the finger is non-specific and can occur with benign conditions like haemorrhoids.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ad04c313adda",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with known sigmoid colon cancer presents with absolute constipation, abdominal distension, and colicky abdominal pain for 24 hours. On examination, which of the following signs should raise concern for impending perforation?",
+      "options": [
+        "Tympanic percussion over the distended abdomen",
+        "Mild rebound tenderness in the left lower quadrant",
+        "High-pitched bowel sounds",
+        "Palpable faecal masses",
+        "Generalised abdominal guarding"
+      ],
+      "answerIndex": 4,
+      "explanation": "In large bowel obstruction, generalised guarding is a sign of peritonitis due to perforation or ischaemia. High-pitched sounds are typical of obstruction but not an emergency sign of perforation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5819da947501",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with a history of rectal adenocarcinoma presents with a large amount of bright red blood per rectum. He feels dizzy on standing. On examination, heart rate supine is 96 bpm, BP supine 120/80 mmHg. Which of the following clinical findings indicates that he has significant haemodynamic compromise requiring immediate fluid resuscitation?",
+      "options": [
+        "Postural drop in systolic BP of 25 mmHg",
+        "Systolic blood pressure of 120 mmHg",
+        "Respiratory rate of 18 breaths per minute",
+        "Haemoglobin of 110 g/L",
+        "Heart rate of 96 bpm"
+      ],
+      "answerIndex": 0,
+      "explanation": "A postural drop in systolic BP >20 mmHg is a sign of significant blood loss and haemodynamic instability, even if supine vitals are normal. It warrants immediate IV fluids and urgent assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d8ba99a0e78",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known descending colon carcinoma presents with sudden onset of severe abdominal pain. On examination, he is lying still, and his abdomen is rigid with board-like consistency. There is no bowel sounds. Which of the following findings is most consistent with a perforated viscus?",
+      "options": [
+        "Localised tenderness over the mass",
+        "Distension with hyper-resonance",
+        "Rebound tenderness in the right lower quadrant",
+        "Cullen's sign (periumbilical bruising)",
+        "Board-like rigidity of the abdomen"
+      ],
+      "answerIndex": 4,
+      "explanation": "Board-like rigidity is a hallmark of peritonitis due to perforation. Localised rebound is less specific. Cullen's sign is associated with retroperitoneal bleeding, not typical of colonic perforation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0f186afa017c",
+      "topic": "Colorectal Cancer",
+      "slug": "colorectal-cancer",
+      "system": "Gastroenterology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old woman with metastatic colorectal cancer receiving FOLFOX chemotherapy presents with a temperature of 38.5°C and rigors. She looks unwell. Which of the following laboratory findings is the most important trigger for immediate administration of intravenous broad-spectrum antibiotics?",
+      "options": [
+        "Lactate 2.5 mmol/L",
+        "Neutrophil count 0.4 x10^9/L",
+        "C-reactive protein 150 mg/L",
+        "Platelet count 80 x10^9/L",
+        "White blood cell count 12 x10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients on chemotherapy, a neutrophil count <0.5 x10^9/L with fever is neutropenic sepsis, a medical emergency. Other parameters are less specific/not defining.",
+      "difficulty": "hard"
+    }
+  ]
+}

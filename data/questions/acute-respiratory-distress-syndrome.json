@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Respiratory Distress Syndrome",
+  "slug": "acute-respiratory-distress-syndrome",
+  "system": "Critical Care / ICU",
+  "subSystem": "Respiratory failure",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "380000c7101e",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with a 5-day history of productive cough and fever is admitted with septic shock. He is intubated and ventilated. Chest X-ray shows bilateral airspace opacification. Arterial blood gas on FiO2 0.8: PaO2 8.5 kPa, PaCO2 5.5 kPa. What is the single most likely diagnosis?",
+      "options": [
+        "Acute respiratory distress syndrome (ARDS)",
+        "Cardiogenic pulmonary oedema",
+        "Acute exacerbation of COPD",
+        "Pulmonary embolism",
+        "Bilateral pneumonia with effusions"
+      ],
+      "answerIndex": 0,
+      "explanation": "The acute onset of bilateral infiltrates with a PaO2/FiO2 ratio <200 in the context of sepsis without clinical evidence of left atrial hypertension is diagnostic of ARDS. Cardiogenic oedema would typically show a higher PaO2/FiO2 initially and signs of fluid overload.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8debe6d28bb",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents 3 days after emergency laparotomy for perforated duodenal ulcer with increasing dyspnoea. She is afebrile. SpO2 is 89% on 40% oxygen. Chest X-ray shows bilateral interstitial and alveolar opacities. Echocardiogram shows normal left ventricular function. What is the single most likely diagnosis?",
+      "options": [
+        "Hospital-acquired pneumonia",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Pulmonary oedema due to fluid overload",
+        "Bilateral atelectasis",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of a known risk factor (sepsis from perforated ulcer), bilateral infiltrates, and significant hypoxaemia with a normal heart makes ARDS the most likely. Atelectasis usually improves with physiotherapy and does not cause such profound hypoxaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d1240db2c76",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old man is found unconscious with empty heroin packets nearby. He is given naloxone and regains consciousness but remains tachypnoeic with SpO2 86% on 15L O2. Chest X-ray shows bilateral perihilar opacities. Arterial blood gas: pH 7.32, PaCO2 5.0, PaO2 8.5. JVP is not elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary haemorrhage",
+        "Aspiration pneumonitis",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Acute pulmonary oedema due to heroin cardiotoxicity",
+        "Community-acquired pneumonia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Heroin overdose is a known cause of ARDS (non-cardiogenic pulmonary oedema). The normal JVP and absence of other signs of fluid overload exclude cardiogenic causes. Aspiration pneumonitis is possible but the pattern is typically more focal and less acute.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "176c9683483b",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with acute myeloid leukaemia develops febrile neutropenia 10 days after chemotherapy. Over 12 hours she becomes hypoxaemic with SpO2 88% on 6L O2. Chest X-ray shows bilateral interstitial infiltrates. She has no prior lung disease. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary haemorrhage",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Invasive pulmonary aspergillosis",
+        "Pneumocystis jirovecii pneumonia (PCP)",
+        "Cytomegalovirus (CMV) pneumonitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The acute onset within hours of a precipitant (sepsis from febrile neutropenia) with bilateral infiltrates and hypoxaemia is classic for ARDS. PCP and CMV typically have a more subacute course (days to weeks). Pulmonary haemorrhage would often cause haemoptysis or anaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8731a4784b79",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man is receiving a transfusion of 2 units of packed red cells for post-operative anaemia. Two hours into the second unit, he develops fever, rigors, hypotension, and acute hypoxaemia with SpO2 85% on 15L O2. Chest X-ray shows new bilateral perihilar infiltrates. JVP is not elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Transfusion-associated circulatory overload (TACO)",
+        "Anaphylactic transfusion reaction",
+        "Acute haemolytic transfusion reaction",
+        "Transfusion-related acute lung injury (TRALI)",
+        "Bacterial contamination of transfusion product"
+      ],
+      "answerIndex": 3,
+      "explanation": "TRALI presents with acute hypoxaemia, bilateral infiltrates, and hypotension without fluid overload, classically during or within 6 hours of transfusion. TACO would show hypertension, elevated JVP, and improvement with diuretics. The other options lack the characteristic bilateral infiltrates.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b38ed51d4b82",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with community-acquired pneumonia and septic shock develops worsening respiratory distress 48 hours after admission. He is intubated and ventilated. Chest X-ray shows bilateral infiltrates. Echocardiogram shows normal left ventricular function. Arterial blood gas on FiO2 0.5 shows PaO2 9.5 kPa. Which diagnostic criterion confirms ARDS?",
+      "options": [
+        "Unilateral lung opacities, PaO2/FiO2 <300 mmHg, and evidence of left atrial enlargement on echo",
+        "Acute onset within 72 hours, unilateral opacities, pulmonary artery wedge pressure >18 mmHg, and PaO2/FiO2 <200 mmHg",
+        "Acute onset within 1 week of known insult, bilateral opacities not fully explained by effusions/lobar collapse/nodules, respiratory failure not fully explained by cardiac failure/fluid overload, and PaO2/FiO2 ≤ 39.9 kPa (300 mmHg) on PEEP ≥5 cmH2O",
+        "Bilateral pleural effusions, PaO2 <8 kPa on room air, and need for non-invasive ventilation",
+        "Bilateral interstitial markings, raised JVP, and response to diuretics"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Berlin definition of ARDS requires acute onset (within 1 week), bilateral opacities not fully explained by other causes, respiratory failure not fully explained by cardiac failure/fluid overload (excluded by normal echo), and PaO2/FiO2 ≤ 300 mmHg (≤39.9 kPa) on at least 5 cmH2O PEEP. Option 1 is the correct composite criterion; the others either have wrong timing, laterality, or include features of cardiogenic oedema.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c0f2bd690cac",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with acute pancreatitis develops hypoxaemia and tachypnoea 72 hours after admission. Chest X-ray shows bilateral diffuse alveolar infiltrates. Arterial blood gas on FiO2 0.6 shows PaO2 9.0 kPa. Echocardiogram shows normal left ventricular function. What is the next most appropriate diagnostic test to confirm ARDS and rule out other causes?",
+      "options": [
+        "Transthoracic echocardiogram",
+        "Bronchoscopy with bronchoalveolar lavage",
+        "Lung ultrasound",
+        "CT pulmonary angiogram",
+        "N-terminal pro-B-type natriuretic peptide (NT-proBNP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "ARDS is a diagnosis of exclusion. In this setting, the main differential is cardiogenic pulmonary oedema. An echocardiogram has already been done and is normal. The next step is to measure NT-proBNP to further rule out left heart failure; a low NT-proBNP (<400 pg/mL) argues against a cardiac cause. CT pulmonary angiogram is for suspected PE, not typical in this scenario. Bronchoscopy is invasive and not first-line. Lung ultrasound can help but not as definitive. NT-proBNP is a simple blood test that helps differentiate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bcda317564be",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with septic shock due to pyelonephritis is intubated and ventilated. On FiO2 0.45, his PaO2 is 8.5 kPa. PEEP is 10 cmH2O. Chest X-ray shows bilateral infiltrates. Echocardiogram normal. According to the Berlin definition, what is the severity of his ARDS?",
+      "options": [
+        "Mild ARDS",
+        "Not ARDS (PaO2/FiO2 too high)",
+        "Indeterminate due to PEEP level",
+        "Severe ARDS",
+        "Moderate ARDS"
+      ],
+      "answerIndex": 4,
+      "explanation": "PaO2/FiO2 = 8.5 / 0.45 = 18.9 kPa. Convert to mmHg: 18.9 × 7.5 = 142 mmHg. The Berlin definition: moderate ARDS is PaO2/FiO2 100–200 mmHg (13.3–26.6 kPa) on PEEP ≥5 cmH2O. This patient has moderate ARDS. Mild is 200–300 mmHg (26.7–39.9 kPa), severe is <100 mmHg (<13.3 kPa).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0a1a8b6a173b",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 34-year-old woman with multi-trauma develops acute hypoxaemic respiratory failure 48 hours after admission. Chest X-ray shows bilateral opacities. Arterial blood gas on FiO2 0.8 shows PaO2 10.0 kPa. PEEP is 5 cmH2O. Echocardiogram shows normal left ventricular function. What is the most appropriate interpretation of the PaO2/FiO2 ratio?",
+      "options": [
+        "PaO2/FiO2 = 12.5 kPa, consistent with severe ARDS",
+        "PaO2/FiO2 = 12.5 kPa, not ARDS because PaO2/FiO2 >40 kPa",
+        "PaO2/FiO2 = 8.0 kPa, consistent with severe ARDS",
+        "PaO2/FiO2 = 8.0 kPa, consistent with moderate ARDS",
+        "PaO2/FiO2 = 12.5 kPa, consistent with moderate ARDS"
+      ],
+      "answerIndex": 0,
+      "explanation": "PaO2/FiO2 = 10.0 / 0.8 = 12.5 kPa. Convert to mmHg: 12.5 × 7.5 = 93.75 mmHg, which is <100 mmHg, fulfilling the Berlin definition of severe ARDS. Option 3 incorrectly states moderate, options 2 and 5 miscalculate the ratio, and option 4 incorrectly suggests the ratio is too high.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ab28066b8d5",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old immunocompromised man (recipient of renal transplant) presents with fever, cough, and hypoxaemia. Chest X-ray shows bilateral diffuse infiltrates. Arterial blood gas on room air shows PaO2 7.5 kPa. Echocardiogram shows normal left ventricular function. What single investigation is most appropriate to establish the diagnosis of ARDS and differentiate it from other causes?",
+      "options": [
+        "CT chest with contrast",
+        "Lung ultrasound",
+        "Arterial blood gas on FiO2 0.5 to calculate PaO2/FiO2",
+        "Measurement of NT-proBNP",
+        "Bronchoscopy with bronchoalveolar lavage for microbiology"
+      ],
+      "answerIndex": 2,
+      "explanation": "The diagnosis of ARDS requires three criteria: acute onset, bilateral opacities, and PaO2/FiO2 ≤300 mmHg on PEEP ≥5 cmH2O. In this scenario, the patient is on room air; to apply the Berlin definition, a formal PaO2/FiO2 ratio on known FiO2 (preferably with PEEP) is needed. Option 4 (repeat ABG on a defined FiO2) is the first step to confirm the hypoxaemia criterion. Bronchoscopy may be needed to exclude infection, but the diagnosis of ARDS is based on clinical criteria. Options 1, 2, and 3 are subsequent steps.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "97baedb007ae",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with pneumonia develops acute hypoxaemic respiratory failure. PaO2/FiO2 ratio is 250 on 50% oxygen. Chest X-ray shows bilateral infiltrates consistent with pulmonary oedema without evidence of fluid overload. He is alert and not hypercapnic. What is the most appropriate first-line ventilatory strategy?",
+      "options": [
+        "Extracorporeal membrane oxygenation (ECMO)",
+        "Prone positioning",
+        "High-flow nasal oxygen",
+        "Low tidal volume ventilation (6 mL/kg predicted body weight)",
+        "Non-invasive ventilation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Low tidal volume ventilation (6 mL/kg predicted body weight) is the cornerstone of lung-protective ventilation and reduces mortality in all severities of ARDS. Non-invasive ventilation is often avoided in ARDS due to high failure rates, and prone positioning or ECMO are reserved for more severe disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea530edf273f",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with severe ARDS (PaO2/FiO2 75) remains hypoxaemic despite low tidal volume ventilation and a PEEP of 10 cmH2O. She is sedated and on volume-controlled ventilation. What is the single most appropriate first-line therapy for refractory hypoxaemia?",
+      "options": [
+        "Recruitment manoeuvres",
+        "Prone positioning",
+        "Inhaled nitric oxide",
+        "High PEEP (>15 cmH2O)",
+        "Neuromuscular blockade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prone positioning is recommended for severe ARDS (PaO2/FiO2 <100) and has been shown to improve oxygenation and reduce mortality when applied early. Neuromuscular blockade and high PEEP may be considered but are not first-line. Inhaled nitric oxide does not improve survival.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cf1112a4174d",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with ARDS is intubated and mechanically ventilated. He has no contraindications to lung-protective ventilation. Which of the following tidal volume settings is CONTRAINDICATED?",
+      "options": [
+        "6 mL/kg",
+        "4 mL/kg",
+        "12 mL/kg",
+        "10 mL/kg",
+        "8 mL/kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "High tidal volumes (e.g., 12 mL/kg) are associated with ventilator-induced lung injury and increased mortality in ARDS. Tidal volumes of 4–8 mL/kg predicted body weight are used; 12 mL/kg is not recommended.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e48f366ae30f",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation presents with ARDS due to H1N1 influenza. She is febrile, hypoxaemic, and requires intubation. Which drug is CONTRAINDICATED in this setting?",
+      "options": [
+        "Corticosteroids",
+        "Neuromuscular blocking agents",
+        "Prone positioning",
+        "Extracorporeal membrane oxygenation (ECMO)",
+        "Oseltamivir"
+      ],
+      "answerIndex": 0,
+      "explanation": "Corticosteroids in influenza-related ARDS are associated with increased mortality and secondary infections; they are contraindicated unless for other specific indications. Oseltamivir is indicated, and neuromuscular blockade, prone positioning, or ECMO may be considered for severe ARDS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "375d8b46027c",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old man with severe ARDS (PaO2/FiO2 70) remains profoundly hypoxaemic despite low tidal volume ventilation, prone positioning, and neuromuscular blockade for 48 hours. What is the next appropriate therapy?",
+      "options": [
+        "High-frequency oscillatory ventilation",
+        "Airway pressure release ventilation",
+        "Corticosteroids",
+        "Venovenous extracorporeal membrane oxygenation (ECMO)",
+        "Inhaled nitric oxide"
+      ],
+      "answerIndex": 3,
+      "explanation": "Venovenous ECMO is a rescue therapy for refractory hypoxaemia in severe ARDS when conventional measures fail. NICE recommends referral to an ECMO centre. High-frequency oscillatory ventilation has not shown benefit, and inhaled nitric oxide does not improve survival.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "32794e9224c2",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old previously fit man presents with bilateral community-acquired pneumonia. Despite 15 L/min oxygen via a non-rebreather mask for 2 hours, his SpO₂ remains 88% and respiratory rate is 38 breaths/min. Chest X-ray shows bilateral diffuse opacities. What is the most appropriate next step?",
+      "options": [
+        "Perform an arterial blood gas",
+        "Administer intravenous furosemide",
+        "Commence non-invasive ventilation",
+        "Start intravenous broad-spectrum antibiotics",
+        "Request a CT pulmonary angiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient likely has ARDS. An arterial blood gas is needed to quantify hypoxaemia (PaO₂/FiO₂ ratio) and guide escalation. Antibiotics are already indicated but not the immediate next step. NIV may be considered after ABG shows severity. Furosemide is for cardiogenic pulmonary oedema, not first-line here without evidence of fluid overload.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bad0166fbe95",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with severe ARDS (PaO₂/FiO₂ 150) on lung-protective ventilation (tidal volume 6 mL/kg, plateau pressure <30 cmH₂O) remains hypoxaemic with SpO₂ 88% despite FiO₂ 0.8. What is the most appropriate immediate next step?",
+      "options": [
+        "Commence prone positioning",
+        "Request urgent veno-venous ECMO",
+        "Start inhaled nitric oxide",
+        "Administer intravenous neuromuscular blocking agent",
+        "Increase tidal volume to 8 mL/kg"
+      ],
+      "answerIndex": 0,
+      "explanation": "Proning is recommended as first-line for moderate-to-severe ARDS refractory to lung-protective ventilation. It improves oxygenation and reduces mortality. Increasing tidal volume risks ventilator-induced lung injury. NMBA may be used but after proning. Inhaled vasodilators and ECMO are rescue therapies reserved for failure of proning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06f3891ce434",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with ARDS on pressure-controlled ventilation suddenly deteriorates with SpO₂ dropping from 94% to 82%, hypotension (BP 80/40 mmHg), and reduced breath sounds on the left. Capnography shows a sudden decrease in end-tidal CO₂. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a thoracic ultrasound",
+        "Insert a left-sided chest drain",
+        "Request an urgent chest X-ray",
+        "Increase the positive end-expiratory pressure",
+        "Administer intravenous fluid bolus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presentation is of a tension pneumothorax, which must be decompressed immediately. Chest drain insertion is the definitive management. Waiting for imaging delays life-saving treatment. Increasing PEEP or fluids alone will not relieve the tension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33684baf3549",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with COVID-19 pneumonia presents with acute hypoxaemic respiratory failure. She maintains SpO₂ 90% on high-flow nasal oxygen (60 L/min, FiO₂ 0.6). She is alert and able to self-prone. What is the most appropriate immediate next step?",
+      "options": [
+        "Commence non-invasive ventilation",
+        "Repeat blood cultures and inflammatory markers",
+        "Advise awake proning positioning",
+        "Start intravenous dexamethasone 6 mg once daily",
+        "Transfer to ICU for elective intubation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Awake proning is recommended early in COVID-19 ARDS to improve oxygenation and reduce need for intubation. NIV may be considered if prone positioning fails. Dexamethasone is indicated but is not the immediate action; it can be given shortly after. Intubation is reserved for worsening. Cultures are not the priority in established COVID-19.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d24260e70b8",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with ARDS secondary to pancreatitis is intubated and ventilated with FiO₂ 0.5 and PEEP 10 cmH₂O. His PaO₂ is 10 kPa and PaCO₂ 6 kPa. A fluid challenge is planned. Which single parameter is most appropriate to guide fluid responsiveness before giving the bolus?",
+      "options": [
+        "Central venous pressure measurement",
+        "Passive leg raise with cardiac output monitoring",
+        "Transthoracic echocardiography of inferior vena cava collapsibility",
+        "Lactate clearance",
+        "Pulse pressure variation"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a ventilated patient with no spontaneous breathing, pulse pressure variation (PPV) is highly reliable to predict fluid responsiveness. Passive leg raise can also be used but requires cardiac output monitoring; PPV is simpler. CVP has poor accuracy. IVC collapsibility applies to spontaneous breathing. Lactate is not a dynamic predictor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fe30bc91dffe",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with severe community-acquired pneumonia. He is on continuous positive airway pressure (CPAP) for hypoxaemia. The nurse calls you because his oxygen saturations have suddenly dropped from 92% to 85%. On examination, he is distressed, with a respiratory rate of 30 breaths/min. Which clinical finding most strongly suggests a life-threatening complication?",
+      "options": [
+        "Wheezing on auscultation",
+        "Bilateral crackles",
+        "Increased sputum production",
+        "Temperature of 38.5°C",
+        "Subcutaneous emphysema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Subcutaneous emphysema indicates air leak from the lung, most likely a pneumothorax or pneumomediastinum, which is a life-threatening complication of CPAP in ARDS. Bilateral crackles are typical of pneumonia/ARDS, not an acute emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "587bb50f9f59",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with suspected ARDS secondary to influenza is on high-flow nasal oxygen (HFNO) with FiO₂ 0.6. She is alert but has increasing dyspnoea. Her oxygen saturation is 89%. Which clinical sign indicates that she is developing respiratory muscle fatigue and impending decompensation?",
+      "options": [
+        "Accessory muscle use without chest wall movement",
+        "Thoracoabdominal paradox",
+        "Nasal flaring",
+        "Use of intercostal muscles",
+        "Tracheal tug"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thoracoabdominal paradox (paradoxical breathing) is a specific sign of diaphragmatic fatigue and indicates imminent respiratory arrest, requiring urgent escalation to non-invasive or invasive ventilation. The other options are general signs of increased work of breathing but not as specific for fatigue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d89b14299334",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with ARDS due to pancreatitis is intubated and ventilated. The nurse reports a sudden drop in blood pressure (from 120/75 to 85/50 mmHg), elevated jugular venous pressure, and absent breath sounds on the left side. Which finding confirms tension pneumothorax?",
+      "options": [
+        "Bradycardia",
+        "Decreased chest expansion on the left",
+        "Hyper-resonance on percussion over the left chest",
+        "Cyanosis",
+        "Tracheal deviation to the right"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tracheal deviation away from the side of the pneumothorax (to the right in a left-sided pneumothorax) is the most specific clinical sign of tension pneumothorax. Hyper-resonance may be present but is less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "469ce62bda85",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 62-year-old patient with ARDS is being ventilated with a lung-protective strategy (tidal volume 6 mL/kg, PEEP 12 cmH₂O). The nurse shows you the ventilatory parameters. Which value indicates that lung injury is worsening and the patient is at high risk of ventilator-induced lung injury?",
+      "options": [
+        "PaO₂/FiO₂ ratio 200",
+        "Minute ventilation 8 L/min",
+        "PEEP 12 cmH₂O",
+        "Respiratory rate 28 breaths/min",
+        "Plateau pressure 32 cmH₂O"
+      ],
+      "answerIndex": 4,
+      "explanation": "A plateau pressure >30 cmH₂O is a threshold above which the risk of ventilator-induced lung injury (volutrauma) increases significantly. The recommended goal is to keep plateau pressure ≤30. The other values are acceptable or within typical ranges.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "638d67cdfd66",
+      "topic": "Acute Respiratory Distress Syndrome",
+      "slug": "acute-respiratory-distress-syndrome",
+      "system": "Critical Care / ICU",
+      "subSystem": "Respiratory failure",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with ARDS following abdominal sepsis is on invasive ventilation. She develops sudden hypotension (85/50 mmHg) and a raised jugular venous pressure of 12 cmH₂O. Her chest is clear and there is no evidence of pneumothorax or haemorrhage. Which clinical sign most suggests a new life-threatening complication?",
+      "options": [
+        "Peripheral oedema in both legs",
+        "Crackles at both lung bases",
+        "A palpable right ventricular heave",
+        "Hepatomegaly on palpation",
+        "A loud pulmonary component of the second heart sound (P₂)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In the context of ARDS, acute cor pulmonale (right ventricular failure) due to pulmonary hypertension can cause sudden hypotension and raised JVP. A loud P₂ is a specific auscultatory sign of pulmonary hypertension. Peripheral oedema and hepatomegaly are more chronic signs.",
+      "difficulty": "medium"
+    }
+  ]
+}

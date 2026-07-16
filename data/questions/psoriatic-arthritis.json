@@ -1,0 +1,513 @@
+{
+  "topic": "Psoriatic Arthritis",
+  "slug": "psoriatic-arthritis",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Seronegative",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:38:04Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "cf16187cfba9",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old woman presents with a three-month history of pain and swelling in her right knee and the proximal interphalangeal (PIP) joint of her left index finger. She has noticed scaly red patches on her elbows and scalp, and her fingernails have small pits. There is no history of trauma. On examination, there is a palpable effusion in the right knee and tenderness over the left index PIP joint. What is the single most likely diagnosis?",
+      "options": [
+        "Rheumatoid arthritis",
+        "Reactive arthritis",
+        "Psoriatic arthritis",
+        "Osteoarthritis",
+        "Gout"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of asymmetrical oligoarthritis, skin plaques with scalp involvement, and nail pitting is classic for psoriatic arthritis. The distribution (knee and PIP) is typical, and nail pitting is a key discriminator from rheumatoid arthritis (which classically affects MCPs and wrists symmetrically) and osteoarthritis (which typically involves DIPs).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "77cba7773809",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with a history of psoriasis presents with insidious onset of low back pain and morning stiffness lasting over an hour, which improves with exercise but not rest. He also reports stiffness in his neck. On examination, Schober's test is reduced, and there is tenderness over both sacroiliac joints. What is the single most likely diagnosis?",
+      "options": [
+        "Psoriatic arthritis (axial spondylitis)",
+        "Reactive arthritis",
+        "Mechanical back pain",
+        "Enteropathic spondylitis",
+        "Ankylosing spondylitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of psoriasis along with axial symptoms (inflammatory back pain, reduced spinal mobility, sacroiliac tenderness) strongly points to axial spondylitis due to psoriatic arthritis. While ankylosing spondylitis can appear identical, the history of psoriasis makes psoriatic arthritis more likely. Reactive and enteropathic spondylitis are differentials but less likely without preceding infection or IBD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "37f9924e9776",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman presents with a three-week history of a swollen, red, and tender right index finger, which appears 'sausage-like'. She has no joint pain elsewhere, but notes a family history of psoriasis in her father. She is otherwise well and afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Reactive arthritis",
+        "Gouty arthritis",
+        "Psoriatic arthritis (dactylitis)",
+        "Sarcoidosis",
+        "Septic arthritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dactylitis ('sausage digit') is a hallmark of psoriatic arthritis and other spondyloarthropathies. The absence of fever or systemic symptoms makes septic arthritis less likely. Gout typically presents with acute, severe pain at the MTP joint or other base, not a uniform swelling of the whole digit. Positive family history of psoriasis supports psoriatic arthritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ffdd22c12c40",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with painful swelling of the distal interphalangeal (DIP) joints of both hands, particularly the index and middle fingers, which have been present for several months. He has no morning stiffness, but notes that his fingernails are thickened and pitted. There are no skin rashes. What is the single most likely diagnosis?",
+      "options": [
+        "Erosive osteoarthritis",
+        "Psoriatic arthritis",
+        "Gout (tophaceous)",
+        "Rheumatoid arthritis",
+        "Osteoarthritis (Heberden's nodes)"
+      ],
+      "answerIndex": 1,
+      "explanation": "DIP joint involvement with nail pitting is classic for psoriatic arthritis, even without overt skin psoriasis (nail psoriasis can be an isolated finding). Osteoarthritis commonly affects DIPs but typically presents with bony Heberden's nodes and without nail pitting. Rheumatoid arthritis spares DIPs. Erosive osteoarthritis can mimic psoriatic but lacks nail changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bf6d9b08a435",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man presents with bilateral heel pain and swelling at the insertion of the Achilles tendons. He denies any joint pain, back pain, or preceding trauma. On examination, there is focal tenderness and thickening at both Achilles insertions, and he has pitted nails on his toes. A small patch of erythematous scaly skin is noted on his scalp. What is the single most likely diagnosis?",
+      "options": [
+        "Achilles tendinopathy (overuse injury)",
+        "Psoriatic arthritis (enthesitis)",
+        "Ankylosing spondylitis",
+        "Gout (tophus at Achilles)",
+        "Reactive arthritis (enthesitis)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Enthesitis (inflammation at tendon insertion) is a cardinal feature of psoriatic arthritis and other spondyloarthropathies. The presence of nail pitting and scalp psoriasis confirms psoriatic arthritis over reactive arthritis (which requires a triggering infection) or isolated tendinopathy. Ankylosing spondylitis typically presents with spinal symptoms, and gout is usually acute and monoarticular.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9d618ca9cb60",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with plaque psoriasis presents with an acutely swollen, hot, and painful left knee for 2 days. He is systemically well, temperature 37.5°C. Which investigation is most important to perform urgently?",
+      "options": [
+        "Synovial fluid aspiration and culture",
+        "MRI knee",
+        "Anti-CCP antibodies",
+        "Serum uric acid",
+        "X-ray knee"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute monoarthritis, septic arthritis is a medical emergency. Synovial fluid aspiration and culture is essential to rule out infection before considering other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03cf149f2afd",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with psoriasis presents with dactylitis of the right third toe and morning stiffness in her hands. RF and anti-CCP are negative. Which imaging finding would most strongly support a diagnosis of psoriatic arthritis?",
+      "options": [
+        "Joint space narrowing",
+        "Marginal erosions",
+        "Osteophytes",
+        "Pencil-in-cup deformity",
+        "Juxta-articular osteopenia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pencil-in-cup deformity is classic for psoriatic arthritis, while marginal erosions and juxta-articular osteopenia are more typical of rheumatoid arthritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51abe1929c98",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with psoriasis and inflammatory back pain (worse at rest, improves with exercise) for 1 year. Plain X-ray of sacroiliac joints is normal. Which investigation should be considered next?",
+      "options": [
+        "Bone scan",
+        "CT sacroiliac joints",
+        "MRI sacroiliac joints",
+        "HLA-B27 testing",
+        "Ultrasound of sacroiliac joints"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends MRI of sacroiliac joints if X-ray is normal but suspicion of axial spondyloarthritis remains, as MRI is more sensitive for early sacroiliitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6189ada51062",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with a history of psoriasis (currently clear) presents with dactylitis and nail pitting. Her RF is negative. There is no family history of psoriasis. An X-ray of her hands shows a small area of juxta-articular new bone formation. How many points does she score on the CASPAR criteria for psoriatic arthritis?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "2",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "Points: previous psoriasis (1), dactylitis (1), nail dystrophy (1), negative RF (1), new bone formation (1) = 5. Current psoriasis is absent, so no point from that.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f6b9addb7f9c",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman with psoriasis presents with symmetrical polyarthritis of the hands, wrists, and knees. Which test is most useful for differentiating psoriatic arthritis from rheumatoid arthritis?",
+      "options": [
+        "Anti-CCP antibodies",
+        "ESR",
+        "Rheumatoid factor",
+        "CRP",
+        "X-ray hands"
+      ],
+      "answerIndex": 0,
+      "explanation": "Anti-CCP antibodies have higher specificity for rheumatoid arthritis than rheumatoid factor. A negative anti-CCP makes RA less likely and supports psoriatic arthritis in the presence of psoriasis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09f3f4f4bc9f",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with chronic plaque psoriasis presents with a 2-week history of a swollen, painful right index finger and tenderness over the right Achilles tendon insertion. There is no joint damage on X-ray. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intra-articular corticosteroid injection",
+        "Sulfasalazine 500 mg twice daily",
+        "Methotrexate 15 mg weekly",
+        "Oral ibuprofen 400 mg three times daily",
+        "Adalimumab 40 mg fortnightly"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends NSAIDs as first-line for mild psoriatic arthritis with oligoarthritis/enthesitis, reserving DMARDs for inadequate response or more severe disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "19ef3b61eae0",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with psoriasis has a 6-month history of symmetrical polyarthritis affecting wrists, MCPs, and knees. He has early morning stiffness lasting 1 hour. X-rays show mild erosions. What is the first-line disease-modifying antirheumatic drug (DMARD) to start?",
+      "options": [
+        "Etanercept",
+        "Methotrexate",
+        "Tofacitinib",
+        "Sulfasalazine",
+        "Leflunomide"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends methotrexate as first-line DMARD for moderate-to-severe peripheral psoriatic arthritis due to efficacy and safety profile.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9f8fa990c012",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 52-year-old man with psoriatic arthritis, previously well-controlled on methotrexate 15 mg weekly, presents with a 3-week flare of multiple swollen, tender joints and significant worsening of his psoriasis (PASI 15). Methotrexate dose was increased to 20 mg weekly 6 weeks ago with no improvement. What is the most appropriate next step?",
+      "options": [
+        "Add ciclosporin",
+        "Add etanercept",
+        "Switch to leflunomide",
+        "Add sulfasalazine",
+        "Add oral prednisolone 30 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "After failure of one DMARD, NICE recommends adding a TNF inhibitor (e.g., etanercept) as the next line of therapy for active psoriatic arthritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a05145b9c8c",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with psoriatic arthritis presents with chronic low back pain and stiffness. MRI shows bilateral sacroiliitis. She has had an inadequate response to a 4-week trial of naproxen. What is the most appropriate next treatment?",
+      "options": [
+        "Methotrexate",
+        "Secukinumab",
+        "Tofacitinib",
+        "Adalimumab",
+        "Sulfasalazine"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends a TNF inhibitor (e.g., adalimumab) as first-line biologic for axial psoriatic arthritis after NSAID failure; methotrexate is less effective for axial disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "39d20ab7092f",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with psoriatic arthritis is well-controlled on methotrexate 20 mg weekly. She is planning pregnancy. What is the most appropriate management?",
+      "options": [
+        "Switch to hydroxychloroquine",
+        "Switch to sulfasalazine",
+        "Stop all treatment",
+        "Continue methotrexate",
+        "Switch to etanercept"
+      ],
+      "answerIndex": 1,
+      "explanation": "Methotrexate is contraindicated in pregnancy. NICE advises stopping it 3 months preconception and using a safer alternative such as sulfasalazine, which has a favourable safety profile.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d2b5efa7478",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with a 3-year history of plaque psoriasis presents to her GP with new-onset pain and swelling in both wrists and the left knee for 4 weeks. She has no known joint disease. On examination, there is synovitis of both wrists and the left knee, and she has nail pitting. Her CRP is mildly elevated, and rheumatoid factor and anti-CCP are negative. What is the next most appropriate step?",
+      "options": [
+        "Request an MRI of the wrists",
+        "Start a short course of oral prednisolone",
+        "Refer to rheumatology",
+        "Start methotrexate",
+        "Start an NSAID and review in 4 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend urgent referral to rheumatology for any patient with suspected inflammatory arthritis, including psoriatic arthritis. Starting DMARDs or steroids without specialist assessment is not appropriate. MRI is not first-line, and while NSAIDs may be used symptomatically, referral is the priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "33be1e35e1db",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known psoriatic arthritis (diagnosed 2 years ago) has been managing with ibuprofen as needed. He now reports persistent pain and stiffness in his hands and feet, with early morning stiffness lasting 45 minutes. He has no joint deformities. He has active psoriasis on his elbows. His blood tests show normal renal and liver function. What is the most appropriate next step?",
+      "options": [
+        "Start sulfasalazine",
+        "Start methotrexate",
+        "Increase dose of ibuprofen",
+        "Refer for physiotherapy",
+        "Start infliximab"
+      ],
+      "answerIndex": 1,
+      "explanation": "For active psoriatic arthritis despite NSAIDs, NICE recommends starting a conventional DMARD, with methotrexate being the first choice. Sulfasalazine is an alternative but methotrexate is more commonly used first. Biologics are reserved for DMARD failure. Physiotherapy is adjunctive. Increasing NSAIDs is not sufficient for disease control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73c4ad4b2176",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 52-year-old woman with psoriatic arthritis on methotrexate 20 mg weekly (increased from 15 mg 3 weeks ago) presents to the ED with acute-onset dyspnoea, dry cough, and fever. She is hypoxic (SpO2 88% on air). Chest X-ray shows bilateral interstitial infiltrates. She has no prior lung disease. What is the most important immediate action?",
+      "options": [
+        "Request a CT pulmonary angiogram to rule out PE",
+        "Stop methotrexate immediately and admit for monitoring",
+        "Start oral prednisolone 40 mg daily",
+        "Start broad-spectrum intravenous antibiotics",
+        "Give high-flow oxygen and consider non-invasive ventilation"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation is highly suggestive of methotrexate-induced pneumonitis, a serious adverse effect. The immediate priority is to stop methotrexate and admit the patient. Oxygen is supportive but not the single most important action. Antibiotics may be considered if infection is suspected but should not delay cessation of methotrexate. CT-PA is not indicated given the clinical and radiological picture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "25cfe1c381a5",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with psoriatic arthritis on methotrexate 25 mg weekly and folic acid 5 mg weekly presents with a 3-day history of mouth ulcers, a sore throat, and easy bruising. His blood results show Hb 90 g/L, WBC 2.1 x 10^9/L, neutrophils 0.8, platelets 45 x 10^9/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start granulocyte colony-stimulating factor (G-CSF)",
+        "Stop methotrexate and check bloods urgently",
+        "Refer for urgent bone marrow biopsy",
+        "Increase folic acid to 10 mg weekly",
+        "Give a transfusion of platelets"
+      ],
+      "answerIndex": 1,
+      "explanation": "These findings indicate methotrexate-induced pancytopenia, a medical emergency. The first step is to stop methotrexate immediately and repeat FBC to confirm. Platelet transfusion and G-CSF may be needed later but are not the immediate action. Increasing folic acid is insufficient. Bone marrow biopsy is not indicated unless recovery fails.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28fd3235a8ed",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with psoriatic arthritis on methotrexate 15 mg weekly presents to her rheumatology clinic. She has no joint symptoms and her psoriasis is clear. She has just discovered she is 6 weeks pregnant. What is the most appropriate immediate next step?",
+      "options": [
+        "Start folic acid 5 mg daily",
+        "Stop methotrexate immediately and refer to obstetrics",
+        "Switch to sulfasalazine",
+        "Continue methotrexate with close monitoring",
+        "Offer a termination of pregnancy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Methotrexate is teratogenic and must be stopped as soon as pregnancy is confirmed. Immediate referral to obstetrics is essential for counselling and management. Switching to another DMARD may be considered but is not the first step. Folic acid is important but not the single most important action. Termination is not automatically indicated; management depends on shared decision-making.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4cf7619e8953",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with a history of plaque psoriasis presents with a two-day history of a hot, swollen right knee. He is unable to bear weight. He has no other joint pain. On examination, the knee is erythematous, warm, and effused. He has a temperature of 37.8°C. Which single finding is most suggestive of septic arthritis rather than an acute psoriatic flare?",
+      "options": [
+        "Synovial fluid white cell count 2,000–5,000/μL",
+        "Synovial fluid white cell count 15,000–50,000/μL",
+        "Synovial fluid white cell count >50,000/μL",
+        "Synovial fluid white cell count 5,000–15,000/μL",
+        "Synovial fluid white cell count <2,000/μL"
+      ],
+      "answerIndex": 2,
+      "explanation": "In psoriatic arthritis, synovial fluid is typically non-inflammatory (WCC <2000) or mildly inflammatory. A WCC >50,000/μL with >90% neutrophils is highly suggestive of septic arthritis, a rheumatological emergency requiring urgent aspiration and antibiotics. The mild fever in PsA can also occur, but the WCC cut-off is the key discriminator.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9f4bf966761e",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 42-year-old woman with psoriatic arthritis, treated with methotrexate 20 mg once weekly for the past 6 months, presents with a 2-week history of dry cough and progressive dyspnoea on exertion. She is afebrile. She has no chest pain or haemoptysis. Her oxygen saturations are 94% on room air. Which single investigation finding is most suggestive of methotrexate-induced pneumonitis?",
+      "options": [
+        "Lobar consolidation with air bronchograms",
+        "Cavitating lung lesion with an air-fluid level",
+        "Bilateral interstitial infiltrates with normal lung volumes",
+        "Unilateral pleural effusion on chest X-ray",
+        "Hilar lymphadenopathy with egg-shell calcification"
+      ],
+      "answerIndex": 2,
+      "explanation": "Methotrexate-induced pneumonitis typically presents with cough and breathlessness in a patient on methotrexate. The classic chest X-ray finding is bilateral interstitial infiltrates, which may progress to diffuse alveolar damage. Unilateral effusion, consolidation, cavitation, and hilar lymphadenopathy with egg-shell calcification (suggestive of silicosis or TB) are not typical. This is an emergency because continued use of methotrexate can be fatal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a02a66d521ed",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with long-standing psoriatic arthritis, including axial involvement, presents with a 3-day history of progressive low back pain, bilateral leg weakness, and difficulty passing urine. On examination, he has reduced power in both legs (4/5 proximally and distally), absent ankle jerks, and a palpable bladder. Which single clinical finding most strongly confirms the diagnosis of cauda equina syndrome?",
+      "options": [
+        "Wasting of the quadriceps muscles",
+        "Bilateral positive straight leg raise",
+        "Gluteal tenderness on palpation",
+        "Perianal loss of sensation to pinprick",
+        "Knee jerks absent bilaterally"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cauda equina syndrome is a surgical emergency. The classic finding is perianal or 'saddle' anesthesia (loss of sensation in the perianal dermatomes S2-S4) along with lower motor neuron signs in the legs and bladder dysfunction. Absent knee jerks (L3/L4) are not specific; patellar reflex is actually L4. Bilateral straight leg raise suggests nerve root irritation from disc prolapse but not pathognomonic. Quadriceps wasting is a chronic finding. Gluteal tenderness is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "65e84de48d95",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with known psoriatic arthritis, currently in remission, presents with a 1-week history of high-spiking fever (39.5°C), an evanescent rash, sore throat, and polyarthralgia. Her CRP is 200 mg/L and ferritin is 15,000 μg/L. Which single clinical feature most strongly points to a diagnosis of adult-onset Still's disease rather than a psoriatic arthritis flare?",
+      "options": [
+        "Morning stiffness lasting >30 minutes",
+        "Evanescent salmon-pink rash on the trunk and limbs",
+        "Plaque psoriasis on extensor surfaces",
+        "Swelling of the proximal interphalangeal joints",
+        "Nail pitting and onycholysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adult-onset Still's disease (AOSD) presents with high spiking fevers, evanescent salmon-pink rash, sore throat, and elevated ferritin. The rash is characteristically non-pruritic and occurs with fever. While PsA can have rash, it is typically plaque psoriasis or nail changes, not evanescent. The ferritin >10,000 is also highly suggestive of AOSD, but the question asks for a clinical feature. The rash is the key discriminator. AOSD is a mimic that can lead to macrophage activation syndrome (life-threatening), so recognizing it early is crucial.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c0dd002c85c8",
+      "topic": "Psoriatic Arthritis",
+      "slug": "psoriatic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Seronegative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old man with psoriatic arthritis presents with a painful, red left eye. Pain is deep and boring, worse at night. He reports slight blurring of vision. On examination, vision is 6/9 in the affected eye, and there is diffuse injection of the sclera with a violaceous hue. The globe is tender. Which single clinical feature most strongly suggests scleritis rather than episcleritis?",
+      "options": [
+        "Copious purulent discharge",
+        "Corneal opacity with ulceration",
+        "Violaceous or dusky hue of the sclera",
+        "Sectoral conjunctival injection without violaceous change",
+        "Fixed and dilated pupil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Scleritis is characterized by deep, boring pain, and the classic finding is a violaceous or dusky hue of the sclera, indicating deeper inflammation. Episcleritis typically presents with sectoral hyperaemia and pain is mild. Violaceous hue is specific for scleritis. Purulent discharge suggests infection, corneal opacity suggests keratitis, fixed dilated pupil suggests angle closure or third nerve palsy – not typical.",
+      "difficulty": "medium"
+    }
+  ]
+}

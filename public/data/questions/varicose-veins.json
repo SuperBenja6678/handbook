@@ -1,0 +1,493 @@
+{
+  "topic": "Varicose Veins",
+  "slug": "varicose-veins",
+  "system": "Vascular Surgery",
+  "subSystem": "Venous",
+  "acuity": "ROUTINE",
+  "generatedAt": "2026-07-16T10:34:24Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "61fcf6ba4f39",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents with aching legs and visible tortuous veins on both calves. Symptoms worsen after prolonged standing and are relieved by walking. There is no oedema, skin changes, or ulceration. She has no history of deep vein thrombosis. What is the single most likely diagnosis?",
+      "options": [
+        "Primary varicose veins",
+        "Chronic venous insufficiency",
+        "Deep vein thrombosis",
+        "Lymphoedema",
+        "Peripheral arterial disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The absence of oedema, skin changes, or history of DVT points to primary varicose veins. Chronic venous insufficiency would show lipodermatosclerosis or ulceration. DVT is acute and unilateral.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16b9865d4ee6",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with long-standing varicose veins presents with a 2-day history of a painful, red, hard cord along a varicose vein in his left calf. The area is warm to touch but there is no leg swelling or fever. What is the single most likely diagnosis?",
+      "options": [
+        "Lipodermatosclerosis",
+        "Cellulitis",
+        "Gout",
+        "Superficial thrombophlebitis",
+        "Deep vein thrombosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Superficial thrombophlebitis presents with a painful, red cord along a varicose vein without diffuse swelling. DVT causes whole-leg swelling. Cellulitis has spreading erythema and systemic signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "629c1366e411",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with new-onset, unilateral varicose veins in his left leg. He had a documented left iliofemoral DVT 3 years ago. There is mild oedema and hyperpigmentation around the ankle. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic venous insufficiency",
+        "Post-thrombotic syndrome",
+        "Primary varicose veins",
+        "Lymphoedema",
+        "Klippel-Trenaunay syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unilateral varicose veins after ipsilateral DVT is classic for post-thrombotic syndrome. Primary varicose veins are usually bilateral. Klippel-Trenaunay syndrome presents with limb hypertrophy and vascular malformations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2099c3c39e0f",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 30-year-old primigravida at 34 weeks gestation complains of new, prominent, tortuous veins on her legs and vulva. She has no leg pain or swelling. What is the single most likely diagnosis?",
+      "options": [
+        "Varicose veins",
+        "Deep vein thrombosis",
+        "Superficial thrombophlebitis",
+        "Chronic venous insufficiency",
+        "Lymphoedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "New varicose veins in pregnancy are common due to hormonal and mechanical factors. DVT would cause pain and swelling. Lymphoedema is non-pitting and not related to pregnancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1990e2eaf765",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 74-year-old woman with known varicose veins presents to the emergency department after a small vein on her ankle spontaneously burst, causing brisk bleeding. The bleeding has been controlled with pressure. She has no ulcer or trauma. What is the single most likely diagnosis?",
+      "options": [
+        "Vasculitic ulcer",
+        "Venous ulcer",
+        "Ruptured varicose vein",
+        "Pyoderma gangrenosum",
+        "Arterial ulcer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Spontaneous bleeding from a varicose vein is a known complication, often from small veins near the ankle. Venous ulcers are chronic and not typically acutely bleeding. Arterial ulcers are on pressure points and painful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "322e988298e2",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with bilateral, uncomplicated varicose veins causing heaviness after standing. She has no ulceration or skin changes. What is the most appropriate initial investigation?",
+      "options": [
+        "Hand-held Doppler ultrasound",
+        "Duplex ultrasound",
+        "Clinical examination alone",
+        "Venography",
+        "CT venography"
+      ],
+      "answerIndex": 1,
+      "explanation": "Duplex ultrasound is the gold standard first-line investigation according to NICE guidelines for symptomatic varicose veins, as it accurately maps venous anatomy and reflux. Hand-held Doppler is insufficient for full assessment, and venography/CT carry unnecessary radiation and invasiveness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "548b81ec67e0",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man has recurrent varicose veins 5 years after high ligation and stripping of the great saphenous vein. Duplex ultrasound is performed. Which finding is most suggestive of neovascularisation?",
+      "options": [
+        "Small saphenous vein incompetence",
+        "Incompetent saphenofemoral junction",
+        "Tortuous veins arising from the previous ligation site",
+        "Reflux in the great saphenous vein",
+        "Incompetent saphenopopliteal junction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neovascularisation is characterised by multiple small, tortuous veins at the site of previous ligation, indicating new vessel formation. Other options represent persistent or new reflux in normal anatomical channels, not the hallmark of neovascular recurrence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba8de3fdf253",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with known varicose veins presents with acute unilateral leg swelling and pain. Wells score for deep vein thrombosis (DVT) is 4. What is the most appropriate investigation?",
+      "options": [
+        "Proximal leg vein compression ultrasound",
+        "D-dimer",
+        "Venous duplex ultrasound of whole leg",
+        "Doppler ultrasound of iliac veins",
+        "CT venography"
+      ],
+      "answerIndex": 0,
+      "explanation": "With a high Wells score (≥2), NICE recommends a proximal leg vein compression ultrasound as the first-line investigation for suspected DVT. D-dimer would delay diagnosis, and whole leg duplex is not necessary initially.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3a1cbc4c355",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 30-year-old pregnant woman (22 weeks gestation) with worsening varicose veins complains of discomfort. Which investigation is contraindicated due to radiation exposure?",
+      "options": [
+        "Air plethysmography",
+        "Duplex ultrasound",
+        "Photoplethysmography",
+        "Hand-held Doppler",
+        "Venography"
+      ],
+      "answerIndex": 4,
+      "explanation": "Venography uses ionising radiation and is contraindicated in pregnancy. Duplex ultrasound is the safest and preferred first-line imaging modality, while hand-held Doppler and plethysmography are non-radiation adjuncts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c478d0499d98",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with bilateral aching, heavy legs and prominent varicose veins. She has no ankle swelling, skin changes, or ulceration. She is not pregnant. What is the most appropriate first-line treatment?",
+      "options": [
+        "Compression stockings",
+        "Observation and reassurance",
+        "Endothermal ablation (laser or radiofrequency)",
+        "Ultrasound-guided foam sclerotherapy",
+        "Surgical ligation and stripping"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance (CG168) recommends endothermal ablation as first-line for symptomatic primary varicose veins without complications. Foam sclerotherapy is second-line, and surgery third-line. Compression stockings are not recommended unless unsuitable for intervention or for symptom relief only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5516942a3995",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) presents with newly developed prominent varicose veins in both legs associated with mild discomfort. There are no signs of redness, swelling, or ulceration. What is the most appropriate first-line management?",
+      "options": [
+        "Surgical ligation and stripping",
+        "Aspirin 75 mg daily",
+        "Foam sclerotherapy",
+        "Compression stockings",
+        "Endothermal ablation"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy, varicose veins are common and usually resolve postpartum. NICE advises against interventional treatments during pregnancy; compression stockings are first-line for symptom relief. Surgery or ablation should be deferred until after delivery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cefe31c3a5e6",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 60-year-old man with known varicose veins presents with a warm, erythematous, tender area over a prominent varicose vein in his left calf. He has no fever, no leg swelling, and is systemically well. What treatment is contraindicated at this stage?",
+      "options": [
+        "Oral antibiotics",
+        "Compression stockings",
+        "Non-steroidal anti-inflammatory drugs (NSAIDs)",
+        "Endothermal ablation",
+        "Elevation and rest"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presentation suggests superficial thrombophlebitis. NSAIDs, elevation, and compression are appropriate. Antibiotics are not indicated unless infection is suspected. Endothermal ablation is contraindicated during active inflammation/infection as it risks spreading infection and causing complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9d9e55803d6",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 35-year-old woman attends a routine check-up. She has visible varicose veins in both legs but reports no symptoms. She is concerned about the appearance and asks for treatment. What is the most appropriate first-line management?",
+      "options": [
+        "Foam sclerotherapy",
+        "Compression stockings",
+        "Surgical stripping",
+        "Observation and reassurance",
+        "Endothermal ablation"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE does not recommend treatment for asymptomatic varicose veins. Intervention is only indicated for symptom relief or complications (bleeding, ulceration, thrombophlebitis). Reassurance and observation are appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "35fe802f1249",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with recurrent varicose veins in his right leg. He had surgical ligation and stripping 5 years ago. He now has symptoms of aching and heaviness. Duplex ultrasound shows reflux in the great saphenous vein with a diameter of 6 mm. What is the most appropriate first-line treatment?",
+      "options": [
+        "Ultrasound-guided foam sclerotherapy",
+        "Phlebectomy",
+        "Compression stockings alone",
+        "Repeat surgical ligation and stripping",
+        "Endothermal ablation (laser or radiofrequency)"
+      ],
+      "answerIndex": 0,
+      "explanation": "For recurrent varicose veins, NICE recommends foam sclerotherapy as the first-line treatment due to its efficacy and lower risk of complications compared to repeat surgery or endothermal ablation in scarred tissue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c3ebe3fc5a7c",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 42-year-old woman presents to her GP with bilateral leg heaviness and visible varicose veins. She has no skin changes, no ulceration, and no ankle swelling. Venous duplex is not immediately available. What is the most appropriate next step?",
+      "options": [
+        "Refer for endovenous laser therapy",
+        "Advise high-dose aspirin daily",
+        "Request a venous duplex ultrasound",
+        "Prescribe graduated compression stockings",
+        "Administer a course of oral antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend compression stockings as first-line for symptomatic varicose veins without complications. Referral for intervention is reserved for those with complications or severe symptoms after conservative therapy. Duplex is not needed immediately without suspicion of DVT.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5b1837651774",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known varicose veins presents to the ED with profuse bleeding from a varicosity on his lower leg. The bleeding is bright red and continuous. He is haemodynamically stable. What is the most appropriate immediate action?",
+      "options": [
+        "Administer intravenous antibiotics",
+        "Apply a tourniquet above the knee",
+        "Perform a venous duplex ultrasound",
+        "Apply direct pressure with a sterile dressing and elevate the leg",
+        "Refer for urgent sclerotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "For bleeding varicose veins, the immediate priority is haemostasis. Direct pressure and elevation are effective and recommended. Tourniquets risk compartment syndrome and venous congestion; sclerotherapy or imaging are not emergency steps.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7f075f784c57",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with varicose veins presents with a 2-day history of a painful, red, warm cord along a varicosity in her left calf. There is no pitting oedema or chest pain. Her Wells' score for DVT is low. What is the most appropriate next step?",
+      "options": [
+        "Admit for intravenous heparin",
+        "Start rivaroxaban for superficial vein thrombosis",
+        "Request a venous duplex ultrasound",
+        "Prescribe topical ibuprofen gel and compression stockings",
+        "Incision and drainage of the thrombosed vein"
+      ],
+      "answerIndex": 2,
+      "explanation": "Duplex ultrasound is the initial step to confirm superficial thrombophlebitis, assess its extent, and exclude concomitant DVT. Management depends on these findings; starting anticoagulation or topical treatment without imaging is premature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "173650689d31",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) complains of bilateral leg swelling and prominent varicose veins. She has no pain or skin changes. What is the most appropriate next step?",
+      "options": [
+        "Recommend graduated compression stockings",
+        "Prescribe rivaroxaban for DVT prophylaxis",
+        "Advise bed rest until delivery",
+        "Perform a venous duplex ultrasound",
+        "Refer for endovenous ablation"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, varicose veins are common and managed conservatively. Compression stockings alleviate symptoms. Anticoagulation is not indicated without evidence of DVT, and interventional procedures are deferred until after delivery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e429fc1b4e62",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 48-year-old man underwent endovenous laser ablation for left great saphenous vein incompetence 6 months ago. He now reports recurrence of a visible varicosity on the same leg. He is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Reassure and discharge",
+        "Refer for surgical stripping of the saphenous vein",
+        "Perform a venous duplex ultrasound",
+        "Repeat the endovenous laser ablation",
+        "Prescribe compression stockings"
+      ],
+      "answerIndex": 2,
+      "explanation": "Before any intervention for recurrent varicose veins, a duplex ultrasound is essential to map the venous anatomy and identify the source of reflux (e.g., neovascularisation, incompetent perforators). Reassurance or blind treatment is inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c02825cd5509",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with long-standing varicose veins attends ED after his leg 'spurted blood' while showering. The bleeding has slowed but is still oozing from a small site on his medial calf. Which single clinical finding would mandate immediate escalation to a vascular surgeon?",
+      "options": [
+        "Bleeding that is accompanied by severe pain",
+        "Bleeding that is associated with an ulcer",
+        "Bleeding that is pulsatile",
+        "Bleeding that is dark red",
+        "Bleeding that recurs when the leg is lowered"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pulsatile bleeding indicates an arterial component or arteriovenous fistula, which is a surgical emergency. Venous bleeding is typically dark and steady; pulsatile bleeding implies arterial involvement requiring urgent evaluation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eac4d16cebb0",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with varicose veins presents with a three-day history of a painful, red, cord-like vein on her left medial calf. She is otherwise well. Which clinical finding would require an urgent Doppler ultrasound to exclude deep vein thrombosis?",
+      "options": [
+        "Pain on passive dorsiflexion of the foot",
+        "Warmth and redness",
+        "Palpable cord extending above the knee",
+        "Swelling of the ankle",
+        "Tenderness along the cord"
+      ],
+      "answerIndex": 2,
+      "explanation": "Extension of superficial thrombophlebitis above the knee indicates potential involvement of the saphenofemoral junction, increasing risk of DVT propagation. Urgent Doppler is indicated to assess for deep venous involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38a80de6a315",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with known varicose veins presents with acute-onset pleuritic chest pain and haemoptysis. On examination, she has a swollen, tender left leg. Which single finding on leg examination is most concerning for an underlying pulmonary embolism?",
+      "options": [
+        "Dilated, tortuous visible veins",
+        "A palpable cord in the calf",
+        "Localised tenderness along a varicose vein",
+        "Unilateral pitting oedema of the entire leg",
+        "Brownish discolouration of the skin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unilateral whole-leg swelling is a classic sign of acute DVT, which can lead to pulmonary embolism. Other findings suggest chronic venous insufficiency or superficial thrombophlebitis, which are less likely to cause PE unless extensive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c10a913bdf0a",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 64-year-old man with a 30-year history of varicose veins and a chronic venous ulcer on his medial malleolus presents because the ulcer has changed in appearance over the past three months. Which single feature raises suspicion of malignant transformation?",
+      "options": [
+        "Purulent discharge",
+        "Rolled, heaped-up edges",
+        "Pain at the ulcer site",
+        "Granulation tissue at base",
+        "Surrounding eczema"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rolled, heaped-up edges are characteristic of squamous cell carcinoma (Marjolin ulcer) arising in a chronic wound. Pain and discharge suggest infection, while granulation indicates healing and eczema is typical of venous stasis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bd5e08a1570c",
+      "topic": "Varicose Veins",
+      "slug": "varicose-veins",
+      "system": "Vascular Surgery",
+      "subSystem": "Venous",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 30-year-old pregnant woman in her third trimester with pre-existing varicose veins presents with a three-day history of a painful, swollen left leg. Which single clinical sign most strongly indicates the need for an urgent venous duplex ultrasound?",
+      "options": [
+        "Visible varicosities on the thigh",
+        "Unilateral calf swelling >2 cm difference in circumference",
+        "Bilateral ankle swelling",
+        "Positive Homan's sign (pain on dorsiflexion)",
+        "Hyperpigmentation around the ankles"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, unilateral calf swelling with a >2 cm circumference difference is a strong indicator of DVT, warranting urgent Doppler. Bilateral swelling is common in pregnancy, hyperpigmentation is chronic, varicosities are benign, and Homan's sign is unreliable.",
+      "difficulty": "medium"
+    }
+  ]
+}

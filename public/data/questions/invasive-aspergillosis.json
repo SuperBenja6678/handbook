@@ -1,0 +1,513 @@
+{
+  "topic": "Invasive Aspergillosis",
+  "slug": "invasive-aspergillosis",
+  "system": "Infectious Diseases",
+  "subSystem": "Fungal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:36:41Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "309c58fc741e",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man undergoing chemotherapy for AML develops persistent fever despite broad-spectrum antibiotics. He is severely neutropenic (ANC 0.1×10^9/L). CT chest shows a halo sign around a nodule in the right upper lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculosis",
+        "Mucormycosis",
+        "Invasive pulmonary aspergillosis",
+        "Viral pneumonitis (e.g., CMV)",
+        "Bacterial pneumonia (e.g., Pseudomonas)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The halo sign (ground-glass opacity surrounding a nodule) is highly suggestive of angioinvasive aspergillosis in a neutropenic patient. Mucormycosis can also cause halo sign but is less common; bacterial pneumonia typically does not show this sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da39b85f0cbc",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with a history of treated pulmonary tuberculosis 20 years ago presents with chronic cough, haemoptysis, and weight loss over 6 months. Chest X-ray shows a rounded opacity in the left apex with an air crescent sign. What is the single most likely diagnosis?",
+      "options": [
+        "Aspergilloma (chronic pulmonary aspergillosis)",
+        "Bronchiectasis with superinfection",
+        "Reactivation of tuberculosis",
+        "Lung abscess",
+        "Lung carcinoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "The air crescent sign (cavity containing a fungal ball) is classic for aspergilloma, typically in a pre-existing cavity from TB. Reactivation TB would show infiltrates and not a discrete ball; lung cancer may cavitate but not with a mobile ball.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dbee40e01a4c",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old renal transplant recipient on tacrolimus presents with acute onset of haemoptysis and pleuritic chest pain. CT chest shows a wedge-shaped infarct with central cavitation. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Invasive pulmonary aspergillosis",
+        "Cavitating pneumonia (e.g., Staph aureus)",
+        "Septic pulmonary emboli",
+        "Granulomatosis with polyangiitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an immunocompromised patient (transplant), angioinvasive aspergillosis often presents with haemoptysis and wedge-shaped infarcts due to vascular invasion. Pulmonary embolism is less likely without DVT and with cavitation; GPA would have other systemic features and ANCA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2ab76fa01901",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with poorly controlled diabetes presents with right-sided facial pain, nasal congestion, and fever for 2 weeks. Nasal endoscopy reveals a dark, necrotic eschar on the right middle turbinate. Biopsy shows septate hyphae with acute-angle branching. What is the single most likely diagnosis?",
+      "options": [
+        "Invasive aspergillosis of the sinuses",
+        "Bacterial sinusitis",
+        "Mucormycosis",
+        "Nasal polyps",
+        "Fungal ball (non-invasive aspergilloma)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The septate hyphae with acute-angle branching (45°) is characteristic of Aspergillus; mucormycosis has broad, non-septate hyphae with right-angle branching; bacterial sinusitis would not show hyphae.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b07ac0251c10",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man admitted to ICU with severe influenza develops progressive respiratory failure despite antibiotics. He is not neutropenic. Bronchoalveolar lavage galactomannan is positive (index >1.5). What is the single most likely diagnosis?",
+      "options": [
+        "Severe influenza pneumonitis",
+        "Herpes simplex pneumonitis",
+        "Invasive pulmonary aspergillosis (post-influenza)",
+        "Legionnaires' disease",
+        "Secondary bacterial pneumonia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Galactomannan in BAL is a specific marker for invasive aspergillosis; post-influenza aspergillosis is increasingly recognised in ICU patients. Other options would not have positive galactomannan.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "85cc409f95f0",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with acute myeloid leukaemia develops persistent fever despite broad-spectrum antibiotics during chemotherapy-induced neutropenia (ANC 0.1 x10⁹/L). CT chest shows nodules with surrounding ground-glass opacity (halo sign). What is the single most appropriate investigation to confirm the diagnosis of invasive aspergillosis?",
+      "options": [
+        "Percutaneous lung biopsy",
+        "Sputum culture for Aspergillus",
+        "High-resolution CT chest",
+        "Serum galactomannan",
+        "Bronchoalveolar lavage (BAL) for galactomannan"
+      ],
+      "answerIndex": 4,
+      "explanation": "BAL galactomannan has high specificity (>90%) for invasive aspergillosis. The halo sign on CT is suggestive but not diagnostic; culture confirms, but galactomannan is faster and more sensitive than culture in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "08d665177c86",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman on long-term corticosteroids for COPD presents with cough, pleuritic chest pain, and new cavitating lung lesions on CT. Serum galactomannan index is 0.4. According to EORTC/MSG criteria, how should this result be interpreted?",
+      "options": [
+        "Equivocal, requires repeat testing",
+        "Positive (index ≥0.5)",
+        "Indeterminate due to corticosteroid use",
+        "Negative (index <0.5)",
+        "False-positive due to cross-reactivity"
+      ],
+      "answerIndex": 3,
+      "explanation": "In both neutropenic and non-neutropenic patients, the cut-off for a positive serum galactomannan is ≥0.5. An index of 0.4 is therefore negative; further investigation (e.g., BAL) is needed if clinical suspicion remains.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "68e9c022e29d",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with myelodysplastic syndrome develops headaches, confusion, and lung infiltrates. MRI brain shows ring-enhancing lesions. Invasive aspergillosis with cerebral involvement is suspected. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Serum (1→3)-β-D-glucan",
+        "CT head with contrast",
+        "Brain biopsy with histology and culture",
+        "Lumbar puncture for CSF galactomannan",
+        "EEG"
+      ],
+      "answerIndex": 3,
+      "explanation": "CSF galactomannan has >90% sensitivity and specificity for cerebral aspergillosis. Brain biopsy is definitive but more invasive; serum β-D-glucan is not specific to Aspergillus and less sensitive for CNS disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "46c0af9c36f9",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with COVID-19 pneumonia requiring intubation develops a new pulmonary infiltrate with worsening oxygenation despite antibiotics. Invasive pulmonary aspergillosis (CAPA) is suspected. What is the most appropriate diagnostic test?",
+      "options": [
+        "Procalcitonin",
+        "Endotracheal aspirate for galactomannan",
+        "Bronchoalveolar lavage (BAL) for galactomannan and culture",
+        "Serum galactomannan",
+        "CT thorax with contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "BAL galactomannan (cut-off >1.0) is the recommended test for CAPA, with higher sensitivity than serum galactomannan. Endotracheal aspirates are less validated; CT is suggestive but not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7552e4a83baf",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with relapsed acute lymphoblastic leukaemia on chemotherapy has persistent febrile neutropenia and new pulmonary nodules. Serum galactomannan is negative (index 0.3). Bronchoscopy is contraindicated due to severe thrombocytopenia. What is the single most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "Percutaneous lung biopsy with histological examination",
+        "Nasal swab for Aspergillus PCR",
+        "Sputum culture for Aspergillus",
+        "High-resolution CT chest (HRCT)",
+        "Repeat serum galactomannan in 48 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lung biopsy with histology and culture is the 'never-miss' definitive test when BAL is not possible. A negative serum GM does not exclude invasive aspergillosis, and CT is already done. Biopsy provides proof despite its invasiveness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c3bbb32b30b3",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with acute myeloid leukaemia undergoing chemotherapy develops persistent fever despite broad-spectrum antibiotics. His neutrophil count is 0.1x10^9/L. CT chest shows a nodule with surrounding ground-glass opacity (halo sign). Bronchoalveolar lavage culture grows Aspergillus fumigatus. What is the most appropriate first-line antifungal therapy?",
+      "options": [
+        "Fluconazole",
+        "Liposomal amphotericin B",
+        "Itraconazole",
+        "Caspofungin",
+        "Voriconazole"
+      ],
+      "answerIndex": 4,
+      "explanation": "Voriconazole is the first-line treatment for invasive aspergillosis in neutropenic patients. Fluconazole is ineffective against Aspergillus; itraconazole is used for prophylaxis; liposomal amphotericin B and caspofungin are alternatives or second-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "34fd9059e54b",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old woman at 14 weeks gestation is diagnosed with invasive pulmonary aspergillosis. She has no other comorbidities. Which of the following therapies is contraindicated in this patient?",
+      "options": [
+        "Posaconazole",
+        "Caspofungin",
+        "Voriconazole",
+        "Isavuconazole",
+        "Liposomal amphotericin B"
+      ],
+      "answerIndex": 2,
+      "explanation": "Voriconazole is contraindicated in pregnancy due to teratogenic effects. Liposomal amphotericin B is the preferred agent. Other azoles are also contraindicated, but voriconazole is the most well-known.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26cc9cfaa27d",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man being treated for tuberculosis with rifampicin develops invasive aspergillosis confirmed by histology. Which antifungal agent is most likely to be ineffective due to a drug interaction?",
+      "options": [
+        "Voriconazole",
+        "Isavuconazole",
+        "Posaconazole",
+        "Liposomal amphotericin B",
+        "Caspofungin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rifampicin is a potent CYP450 inducer, dramatically reducing voriconazole levels, making it ineffective. Liposomal amphotericin B and echinocandins are not significantly affected by rifampicin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0dcb5be469ba",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with acute lymphoblastic leukaemia is being treated with voriconazole for invasive aspergillosis. She develops new-onset visual disturbances including photopsia. Which of the following is the most appropriate next antifungal therapy?",
+      "options": [
+        "Switch to itraconazole",
+        "Reduce voriconazole dose",
+        "Add caspofungin",
+        "Continue voriconazole with monitoring",
+        "Switch to liposomal amphotericin B"
+      ],
+      "answerIndex": 4,
+      "explanation": "Visual disturbances are a known side effect of voriconazole. Management involves switching to an alternative class; liposomal amphotericin B is the recommended alternative. Dose reduction is not sufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ae77a8714253",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with chronic liver disease (Child-Pugh class C) is diagnosed with invasive pulmonary aspergillosis. Which of the following antifungal agents is most appropriate as first-line therapy?",
+      "options": [
+        "Posaconazole",
+        "Voriconazole",
+        "Caspofungin",
+        "Isavuconazole",
+        "Liposomal amphotericin B"
+      ],
+      "answerIndex": 4,
+      "explanation": "Voriconazole and isavuconazole are contraindicated in severe hepatic impairment (Child-Pugh C). Liposomal amphotericin B is safe and effective, making it the preferred first-line agent in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1eae133584ac",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with acute myeloid leukaemia undergoing induction chemotherapy develops fever (38.5°C) and cough on day 14. He is pancytopenic (neutrophils 0.1×10^9/L). CTPA shows a nodule with surrounding ground-glass attenuation (halo sign) in the right upper lobe. Sputum culture negative. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous liposomal amphotericin B",
+        "Perform bronchoscopy with bronchoalveolar lavage and galactomannan",
+        "Start intravenous voriconazole",
+        "Request a CT-guided biopsy",
+        "Add intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 2,
+      "explanation": "In neutropenic patients with a halo sign on CT, there is a high likelihood of invasive pulmonary aspergillosis. Guidelines recommend starting voriconazole immediately without waiting for confirmatory tests, as delay increases mortality. Bronchoscopy or biopsy would cause unacceptable delay.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bf82e652b393",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 50-year-old lung transplant recipient on voriconazole for proven invasive pulmonary aspergillosis (IPA) has persistent fever and new cavitary lesions after 2 weeks of treatment. Trough voriconazole level is 1.0 mg/L (target 1-5.5 mg/L). He is clinically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Increase the voriconazole dose",
+        "Perform CT-guided biopsy for fungal culture",
+        "Add liposomal amphotericin B",
+        "Switch to isavuconazole",
+        "Add an echinocandin (caspofungin)"
+      ],
+      "answerIndex": 0,
+      "explanation": "A subtherapeutic voriconazole level (below 1 mg/L) is associated with treatment failure. The immediate step is to increase the dose to achieve therapeutic levels. Switching or adding other agents is not first-line without evidence of resistance, and biopsy is not needed for dose adjustment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b5acff1857f",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man on immunosuppression for a heart transplant presents with headache, nausea, and a new seizure. MRI brain shows multiple ring-enhancing lesions in the frontal lobe. CSF galactomannan is elevated. He is afebrile and haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a stereotactic brain biopsy",
+        "Refer for emergency neurosurgical excision",
+        "Start intravenous voriconazole",
+        "Start intravenous liposomal amphotericin B",
+        "Add intravenous dexamethasone"
+      ],
+      "answerIndex": 2,
+      "explanation": "For cerebral aspergillosis, voriconazole is the antifungal of choice due to excellent CNS penetration. Starting therapy should not be delayed by biopsy or surgery unless there is mass effect requiring urgent decompression. Dexamethasone may be considered for oedema but is not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "288b33d3a024",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with chronic granulomatous disease (CGD) on prophylactic itraconazole presents with pleuritic chest pain, dyspnoea, and fever for 3 days. CT chest shows a large pulmonary mass with cavitation and chest wall invasion. She is tachycardic (HR 110) and hypoxic (SpO2 89% on room air). What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous voriconazole",
+        "Perform urgent CT-guided biopsy",
+        "Start intravenous caspofungin",
+        "Start high-flow nasal oxygen",
+        "Add intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Breakthrough invasive aspergillosis on azole prophylaxis requires prompt initiation of a different azole (voriconazole) as first-line therapy. Oxygen support and antibiotics may be needed but antifungal therapy is the priority. Biopsy is not immediately required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c536ea91605d",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with pulmonary aspergillosis on voriconazole for 3 weeks reports visual disturbances, photophobia, and seeing flashing lights. He is otherwise well with normal vital signs. What is the most appropriate immediate next step?",
+      "options": [
+        "Reduce the voriconazole dose empirically",
+        "Request a CT head",
+        "Check serum voriconazole trough level",
+        "Perform urgent ophthalmology review",
+        "Stop voriconazole and switch to liposomal amphotericin B"
+      ],
+      "answerIndex": 2,
+      "explanation": "Visual symptoms are a known dose-related toxicity of voriconazole. The immediate step is to check trough level to guide dose adjustment. Empiric dose reduction or switching is not appropriate without level. Ophthalmology and CT head are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "408073c8c953",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man with acute myeloid leukaemia undergoing induction chemotherapy develops a persistent fever (38.5°C) despite 4 days of intravenous piperacillin-tazobactam. He has no localising symptoms and his chest is clear on auscultation. Which single finding should raise suspicion for invasive aspergillosis?",
+      "options": [
+        "New pulmonary nodule on CT chest with a halo sign",
+        "Elevated C-reactive protein (120 mg/L)",
+        "Absolute neutrophil count 0.8 × 10⁹/L",
+        "Bilateral hilar lymphadenopathy on CT chest",
+        "Positive blood culture for Aspergillus fumigatus"
+      ],
+      "answerIndex": 0,
+      "explanation": "In neutropenic patients with persistent fever despite broad-spectrum antibiotics, the classic early sign of invasive aspergillosis is a new nodule with a halo sign on CT. Blood cultures are rarely positive; galactomannan testing is an alternative. Neutropenia is a risk factor, not a diagnostic finding. CRP is non-specific. Hilar lymphadenopathy is more typical of sarcoidosis or tuberculosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1949be8e5309",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman who underwent renal transplantation 3 months ago presents with sudden-onset pleuritic chest pain and haemoptysis. She is on tacrolimus and prednisolone. CT chest reveals a nodule with surrounding ground-glass opacity (halo sign) in the right upper lobe. Which radiological finding would most strongly indicate an imminent life-threatening complication?",
+      "options": [
+        "Calcification within the nodule",
+        "Tree-in-bud opacities distal to the nodule",
+        "Mediastinal lymphadenopathy",
+        "Pleural effusion",
+        "Air crescent sign within the nodule"
+      ],
+      "answerIndex": 4,
+      "explanation": "In invasive aspergillosis, the air crescent sign indicates necrotic lung tissue and cavitation, which precedes massive hemoptysis due to fungal angioinvasion. This is a critical red flag for life-threatening hemorrhage. Pleural effusion, lymphadenopathy, tree-in-bud, and calcification are not specific to this complication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c29194c2486f",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with chronic obstructive pulmonary disease (COPD) on long-term oral prednisolone (10 mg daily) presents with progressive dyspnoea, wheeze, and a new right middle lobe infiltrate on chest X-ray. Sputum culture grows Aspergillus fumigatus. Which single finding would most reliably differentiate invasive aspergillosis from colonisation?",
+      "options": [
+        "Elevated total serum IgE (>1000 IU/mL)",
+        "Peripheral blood eosinophilia (>0.5 × 10⁹/L)",
+        "Positive serum galactomannan (index >0.5)",
+        "Sputum fungal smear showing septate hyphae",
+        "Positive Aspergillus skin prick test"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serum galactomannan detection is highly specific for invasive disease in immunocompromised patients, especially those on corticosteroids. Elevated IgE and eosinophilia suggest allergic bronchopulmonary aspergillosis (ABPA), not invasive disease. Skin prick test and sputum smear can be positive in colonisation or ABPA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ba2dddd9e4a",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with a history of allogeneic stem cell transplant is on voriconazole prophylaxis. She develops acute-onset pleuritic chest pain and a CT chest shows a new nodule with a halo sign in the left lower lobe. Despite prophylactic voriconazole, which finding should prompt immediate escalation of antifungal therapy?",
+      "options": [
+        "Positive Aspergillus PCR on plasma",
+        "Appearance of an air crescent sign within the nodule",
+        "New hypoxemia with bilateral ground-glass opacities",
+        "Development of a new pleural effusion",
+        "Increase in nodule size from 2 cm to 3 cm over 48 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "The air crescent sign is a radiological hallmark of tissue necrosis and indicates angioinvasion with high risk of life-threatening hemoptysis. This warrants urgent intervention, such as switching antifungal class or considering surgical resection. Hypoxemia, PCR positivity, nodule growth, and effusion are concerning but not as immediately dangerous as the risk of massive hemorrhage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ef05cb9b0e86",
+      "topic": "Invasive Aspergillosis",
+      "slug": "invasive-aspergillosis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with HIV (CD4 count 50 cells/μL, not on antiretroviral therapy) presents with fever, cough, and bilateral nodular infiltrates with cavitation on chest X-ray. He is being treated empirically for pulmonary tuberculosis. Which single finding should raise immediate concern for a different diagnosis?",
+      "options": [
+        "Acid-fast bacilli on sputum smear",
+        "Erythema nodosum on the shins",
+        "Positive urinary antigen for Histoplasma capsulatum",
+        "Bilateral hilar lymphadenopathy on CT",
+        "Positive serum galactomannan (index >0.5)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a severely immunocompromised HIV patient, a positive serum galactomannan is highly suggestive of invasive aspergillosis, which can mimic tuberculosis. Histoplasma is also possible but less common in the UK. Acid-fast bacilli support TB; hilar lymphadenopathy and erythema nodosum are typical of TB or sarcoidosis, but not specific for aspergillosis.",
+      "difficulty": "medium"
+    }
+  ]
+}

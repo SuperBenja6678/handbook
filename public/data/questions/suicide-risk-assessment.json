@@ -1,0 +1,513 @@
+{
+  "topic": "Suicide Risk Assessment",
+  "slug": "suicide-risk-assessment",
+  "system": "Psychiatry",
+  "subSystem": "Risk",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:02Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "435075c0f943",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with 6 weeks of low mood, anhedonia, poor appetite, and early morning wakening. She believes she has 'rotted inside' and that she is 'dead and rotting'. She admits thoughts of ending her life because 'there is nothing left'. There is no history of mania or hypomania. What is the most likely diagnosis?",
+      "options": [
+        "Bipolar disorder, depressed phase",
+        "Major depressive disorder",
+        "Schizophrenia",
+        "Major depressive disorder with psychotic features",
+        "Schizoaffective disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of nihilistic delusions (Cotard syndrome) indicates psychotic depression, which distinguishes it from non-psychotic depression. Schizophrenia typically lacks prominent mood symptoms, and schizoaffective disorder requires psychotic symptoms outside mood episodes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4d304e78bc5",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old man with known bipolar disorder on lithium presents to ED with low mood, tearfulness, and suicidal ideation. On examination, he is agitated, speaking rapidly, and reports racing thoughts and high energy. He has not slept for 2 nights. What is the most likely diagnosis?",
+      "options": [
+        "Bipolar II disorder, current episode hypomanic",
+        "Major depressive disorder",
+        "Bipolar I disorder, current episode depressed",
+        "Bipolar I disorder, current episode mixed",
+        "Cyclothymia"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of depressive symptoms (low mood, tearfulness) and manic symptoms (agitation, racing thoughts, reduced sleep) is characteristic of a mixed episode. Bipolar depression alone would not include manic features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "016a16cd8827",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman with a history of self-harm and unstable relationships presents after cutting her arms following an argument with her partner. She feels empty and unable to cope. She has frequent suicidal thoughts but no clear plan. She has had similar presentations multiple times on a background of chronic emptiness and fear of abandonment. What is the most likely diagnosis?",
+      "options": [
+        "Histrionic personality disorder",
+        "Post-traumatic stress disorder",
+        "Borderline personality disorder",
+        "Major depressive disorder",
+        "Bipolar disorder"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pattern of chronic emptiness, unstable relationships, and recurrent self-harm triggered by interpersonal stressors is classic for borderline personality disorder. Depression is more pervasive and not solely triggered by events; PTSD requires re-experiencing of trauma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b5bd2594336d",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old man, previously independent, presents with 4 weeks of low mood, weight loss, early morning wakening, and guilt about being a burden. He has passive death wishes but no plan. There is no personal or family history of mood disorder. What is the most likely diagnosis?",
+      "options": [
+        "Bereavement reaction",
+        "Dementia",
+        "Generalized anxiety disorder",
+        "Major depressive disorder (melancholic type)",
+        "Adjustment disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "Melancholic features (anhedonia, psychomotor change, morning worsening, guilt) and significant weight loss meet criteria for major depressive disorder, not adjustment disorder or bereavement. Dementia would have cognitive decline as primary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "142010614965",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 20-year-old man is brought to hospital by police after he was found trying to jump from a bridge. He says voices told him to 'jump and die'. He has no mood symptoms but has been withdrawn and socially isolated for several months. There is no known drug use. What is the most likely diagnosis?",
+      "options": [
+        "Schizoaffective disorder",
+        "Brief psychotic disorder",
+        "Major depressive disorder with psychotic features",
+        "Drug-induced psychosis",
+        "Schizophrenia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Command hallucinations with negative symptoms (withdrawal) and absence of prominent mood symptoms point to schizophrenia. Depressive psychosis would have mood syndrome; brief psychotic disorder lasts <1 month, and drug history is negative.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6c6aa7b8eff3",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old university student presents to his GP with two weeks of low mood and anhedonia. He says he has thought about taking an overdose but has no specific plan and denies any intent. He has no previous psychiatric history. What is the single most appropriate next step to assess his suicide risk?",
+      "options": [
+        "Administer the PHQ-9 questionnaire",
+        "Conduct a clinical interview to assess suicide risk",
+        "Arrange for blood tests including thyroid function",
+        "Prescribe a selective serotonin reuptake inhibitor (SSRI)",
+        "Refer to Improving Access to Psychological Therapies (IAPT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical interview allows direct inquiry into suicidal thoughts, intent, and protective factors, and is recommended by NICE as the gold standard for suicide risk assessment. The PHQ-9 (option 0) is a screening tool for depression severity, not a comprehensive risk assessment. Referral (option 1) and prescription (option 3) are management steps, not assessment. Blood tests (option 4) are not indicated without clinical suspicion of organic cause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "287ff8e7dc74",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with a diagnosis of major depressive disorder tells her psychiatrist: 'Sometimes I wish I wouldn't wake up in the morning.' She denies any plans or means to harm herself. How should this statement be classified?",
+      "options": [
+        "Active suicidal ideation",
+        "Passive suicidal ideation",
+        "Suicidal plan",
+        "Suicidal attempt",
+        "Suicidal intent"
+      ],
+      "answerIndex": 1,
+      "explanation": "Passive suicidal ideation involves a desire to be dead without active plans to cause death. The statement reflects a wish to die (passive), not an active plan or intent. Active suicidal ideation (option 1) includes thoughts of engaging in suicidal behaviour, while intent (option 2) implies a commitment to act. Plan (option 3) involves specific methods, and attempt (option 4) is a self-harm act.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb204249a1e0",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with paranoid schizophrenia is brought to the emergency department by police after attempting to hang himself. He is now calm and denies any current suicidal thoughts. What is the single most important investigation to assess his ongoing suicide risk?",
+      "options": [
+        "Collateral history from family",
+        "Risk assessment tool (e.g., SAD PERSONS scale)",
+        "Mental state examination",
+        "CT head scan",
+        "Urine drug screen"
+      ],
+      "answerIndex": 2,
+      "explanation": "The mental state examination is essential to identify residual psychotic symptoms such as command hallucinations or delusions that may drive suicidal behaviour, even when the patient denies ideation. Risk assessment tools (option 0) are not recommended by NICE for predicting suicide. Collateral history (option 2) is helpful but secondary to the MSE. CT head (option 3) and urine toxicology (option 4) are indicated only if organic causes are suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bbd9781c8084",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with bipolar disorder who has been stable on lithium for three years presents with new-onset suicidal ideation one month after her husband's death. She admits to missing doses of lithium recently. Which blood test is most relevant in this context?",
+      "options": [
+        "Liver function tests",
+        "Thyroid function tests",
+        "Urea and electrolytes",
+        "Lithium level",
+        "Full blood count"
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking the lithium level is crucial to assess adherence and exclude subtherapeutic levels, which can contribute to mood relapse and increased suicide risk. Thyroid dysfunction (option 1) can mimic depression, but in this patient non-adherence to lithium is a more direct precipitant. The other tests (options 2-4) are not specifically indicated for this presentation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f440f7ccd858",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 17-year-old boy is brought to the emergency department after taking an impulsive overdose of ibuprofen following an argument with his girlfriend. He is medically stable and regrets the act. What is the single most appropriate assessment framework to evaluate his suicide risk?",
+      "options": [
+        "Mini-Mental State Examination (MMSE)",
+        "HEADSSS assessment",
+        "Patient Health Questionnaire-9 (PHQ-9)",
+        "SAD PERSONS scale",
+        "Columbia-Suicide Severity Rating Scale (C-SSRS)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The HEADSSS assessment (Home, Education, Activities, Drugs, Sexuality, Suicide, Safety) is a validated psychosocial framework for adolescents, covering broad risk factors. The C-SSRS (option 1) is a specific suicide risk tool but does not capture other domains. PHQ-9 (option 2) is for depression screening, MMSE (option 3) for cognition, and SAD PERSONS (option 4) is not validated in adolescents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f46bf5ef8cb3",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with a two-month history of low mood, anhedonia, reduced energy, and poor sleep. PHQ-9 score is 19. She reports occasional thoughts of suicide but no plan or intent. There is no personal or family history of bipolar disorder. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Lithium 400 mg daily",
+        "Mirtazapine 30 mg daily",
+        "Sertraline 50 mg daily",
+        "Venlafaxine 75 mg daily",
+        "Amitriptyline 75 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sertraline (an SSRI) is recommended by NICE as first-line for moderate depression. It is safer in overdose than tricyclics like amitriptyline. Venlafaxine is second-line, mirtazapine is an alternative, and lithium is used for augmentation or bipolar disorder, not first-line here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "09f4592f77c6",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man is admitted to the psychiatric ward with severe depression, psychotic features, and a score of 34 on the Hamilton Depression Rating Scale. He repeatedly expresses a desire to kill himself and has a clear plan. He refuses electroconvulsive therapy. Which class of antidepressant is contraindicated in this patient due to high risk of lethal overdose?",
+      "options": [
+        "Noradrenergic and specific serotonergic antidepressant (NaSSA)",
+        "Serotonin-noradrenaline reuptake inhibitor (SNRI)",
+        "Monoamine oxidase inhibitor (MAOI)",
+        "Tricyclic antidepressant (TCA)",
+        "Selective serotonin reuptake inhibitor (SSRI)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tricyclic antidepressants (TCAs) have a narrow therapeutic index and are highly dangerous in overdose, with cardiotoxicity and seizures. In a patient with high suicide risk, TCAs should be avoided. SSRIs, SNRIs, and mirtazapine are safer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "925bb670a2f5",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 34-year-old woman with known bipolar I disorder is currently in a depressive episode. She scores 25 on the Beck Depression Inventory and reports passive suicidal ideation. She is not on any medication. Which of the following is contraindicated as monotherapy for her depression?",
+      "options": [
+        "Quetiapine 300 mg daily",
+        "Venlafaxine 75 mg daily",
+        "Lamotrigine 25 mg daily",
+        "Olanzapine 5 mg daily",
+        "Lithium 400 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Venlafaxine as monotherapy in bipolar depression is contraindicated because antidepressants can precipitate a manic or hypomanic switch. Lithium, lamotrigine, and second-generation antipsychotics (olanzapine, quetiapine) are safer options.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a60442f5fd10",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with ischaemic heart disease (stable angina) and hypertension presents with low mood, poor appetite, and insomnia. PHQ-9 score is 14. He mentions that life is not worth living but has no plan. He is currently taking aspirin, bisoprolol, and ramipril. What is the safest antidepressant to prescribe as first-line therapy?",
+      "options": [
+        "Amitriptyline 25 mg daily",
+        "Venlafaxine 75 mg daily",
+        "Nortriptyline 25 mg daily",
+        "Citalopram 20 mg daily",
+        "Mirtazapine 15 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Citalopram is an SSRI, the first-line class for depression in older adults. It is relatively safe in cardiac patients, though ECG monitoring for QTc prolongation is advised. Amitriptyline and nortriptyline (TCAs) are cardiotoxic and should be avoided. Venlafaxine can increase blood pressure. Mirtazapine is an alternative but not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b4284cc725a",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old woman with a diagnosis of emotionally unstable personality disorder (borderline type) presents to the emergency department after cutting her forearms. She has a history of multiple self-harm episodes and chronic suicidal ideation. She is not currently in therapy. What is the most appropriate first-line psychological treatment for her condition?",
+      "options": [
+        "Cognitive behavioural therapy (CBT)",
+        "Dialectical behaviour therapy (DBT)",
+        "Acceptance and commitment therapy (ACT)",
+        "Psychodynamic psychotherapy",
+        "Interpersonal therapy (IPT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "DBT is specifically recommended by NICE for borderline personality disorder presenting with recurrent self-harm and suicidal behaviour. It is designed to reduce self-harm and improve emotional regulation. CBT, IPT, and ACT are less evidence-based for this specific indication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "225a40dbbda3",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman is brought to the emergency department after cutting her left forearm with a kitchen knife. The wound has been sutured and she is medically stable. She states she cut herself to relieve tension after an argument with her boyfriend, and denies any current suicidal thoughts or plans. She has no history of self-harm or psychiatric illness. What is the single most appropriate immediate next step?",
+      "options": [
+        "Prescribe a short course of lorazepam for anxiety",
+        "Arrange urgent liaison psychiatry assessment",
+        "Admit to the medical ward for observation",
+        "Perform a urine drug screen",
+        "Discharge home with a crisis helpline number"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines state that all individuals presenting with self-harm should receive a comprehensive psychosocial assessment by a mental health professional, regardless of expressed intent. This assessment is essential for risk stratification and appropriate management. Discharge without assessment is not appropriate as self-harm is a strong risk factor for future suicide.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1d4276397fde",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old man sees his GP with a two-month history of low mood, anhedonia, poor concentration, and insomnia. On direct questioning, he says he has occasionally thought that 'life isn't worth living' but has no specific plans or intentions to harm himself. He has no previous psychiatric history and no past self-harm. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start citalopram 20 mg once daily",
+        "Arrange urgent community mental health team (CMHT) assessment",
+        "Refer to Improving Access to Psychological Therapies (IAPT)",
+        "Offer a follow-up appointment in two weeks",
+        "Develop a safety plan with the patient"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given the presence of passive suicidal ideation but no plan or intent, a safety plan is the recommended immediate action in primary care. This collaboratively identifies warning signs, coping strategies, and support networks. Referral to IAPT is appropriate for mild-to-moderate depression but not the immediate first step after risk disclosure. Starting an antidepressant is not urgent in the absence of severe functional impairment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc4fbbf1af0a",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old man is brought to the emergency department by his flatmate after sending a text message saying 'I can't go on'. On assessment, he is tearful and admits he has been stockpiling 30 codeine tablets with the intention of taking them that night. He has no previous psychiatric history. He says he feels hopeless and agrees that he needs help. What is the single most appropriate immediate next step?",
+      "options": [
+        "Contact the Crisis Resolution and Home Treatment Team (CRHTT) for intensive home support",
+        "Arrange informal admission to a psychiatric ward",
+        "Start a selective serotonin reuptake inhibitor (SSRI)",
+        "Perform an urgent CT head",
+        "Ask him to hand over the codeine tablets"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has an immediate plan, means, and intent to end his life. Informal admission to a psychiatric ward provides a safe environment for containment, observation, and initiation of treatment. While asking him to hand over the tablets is important, admission is the priority to ensure safety. CRHTT is an alternative for lower-risk patients with supportive home environment, but given the high risk, admission is more appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "799704b62f49",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with a history of recurrent depression is taking venlafaxine 225 mg daily. She presents to the emergency department with sudden onset of severe suicidal ideation, agitation, and restlessness that began three days after an increase in dose. She is pacing the room, describes inner turmoil, and feels she 'can't sit still'. What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent psychiatric admission",
+        "Increase the venlafaxine dose",
+        "Administer intramuscular lorazepam",
+        "Perform an electrocardiogram (ECG)",
+        "Check serum sodium level"
+      ],
+      "answerIndex": 0,
+      "explanation": "The sudden onset of suicidal ideation with agitation and restlessness after a dose increase suggests an antidepressant-induced activation syndrome. The immediate priority is to ensure the patient's safety through urgent psychiatric admission. While lorazepam may be used for acute agitation, it does not address the underlying risk and should not replace admission. Reducing or stopping venlafaxine is also important but is a subsequent step after safety is secured.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "177a32c7cebd",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman, 3 weeks postpartum, is brought to the emergency department by her partner. She has been increasingly anxious, not sleeping, and today admitted to thoughts of harming herself and her baby because she feels 'unable to cope'. She has no previous psychiatric history. She is tearful, but cooperative. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start sertraline 50 mg once daily",
+        "Admit to a specialist mother and baby mental health unit",
+        "Prescribe zopiclone 7.5 mg for sleep",
+        "Arrange a social services safeguarding referral",
+        "Reassure her and schedule a review in one week"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of suicidal ideation and thoughts of harming her baby in the postpartum period constitutes a psychiatric emergency. Admission to a specialist mother and baby unit is indicated to ensure the safety of both mother and infant, and to provide expert perinatal psychiatric care. Starting medication alone is insufficient without admission, and discharging home even with support would be unsafe given the risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "487a9f823411",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with no psychiatric history presents with low mood, anhedonia, poor sleep, and appetite loss for 3 weeks. He says he feels hopeless and has thought about taking an overdose. On direct questioning, which finding would be the strongest indicator of imminent risk?",
+      "options": [
+        "He has formulated a specific plan to overdose and intends to carry it out today.",
+        "He has access to paracetamol at home.",
+        "He reports a previous attempt of self-harm with low lethality.",
+        "He has a family history of suicide.",
+        "He is unwilling to discuss his thoughts further."
+      ],
+      "answerIndex": 0,
+      "explanation": "A specific plan with clear intent to act imminently is the highest acute risk factor for suicide. Family history and access to means are additional risk factors but do not alone indicate imminent danger like a concrete plan with intent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2c74dd522d18",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with metastatic breast cancer reports feeling that life is not worth living. Her GP refers her for assessment. She has had low mood for 2 months but says she is now 'at peace' with her situation. Which feature should raise concern for imminent suicide risk?",
+      "options": [
+        "She says she doesn't want to be a burden.",
+        "She has given away her jewellery to her daughter.",
+        "She has not taken her antidepressant for a week.",
+        "She has lost 5 kg in weight.",
+        "She has been sleeping 12 hours a day."
+      ],
+      "answerIndex": 1,
+      "explanation": "Giving away possessions is a behavioural sign of preparing for death, indicating high suicide risk even if the patient appears calm. Weight loss, sleep changes, and even expressed burden are common in depression but less specific for imminent action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "be1fb792be6d",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 42-year-old man was discharged from a psychiatric ward 3 days ago after treatment for a severe depressive episode with suicidal ideation. He attends the GP for a follow-up. He looks well-groomed and says he feels much better, and that the thoughts have gone. Which finding would most suggest he still has high suicide risk?",
+      "options": [
+        "He has resumed his hobbies.",
+        "He is taking his medication as prescribed.",
+        "He is engaging with community mental health team.",
+        "He has a new job starting next week.",
+        "He made a will during his admission."
+      ],
+      "answerIndex": 4,
+      "explanation": "Making a will can signify finalising affairs, a marker of ongoing suicidal intent even when mood appears improved. The post-discharge period is high risk, and such behavioural cues can be more telling than reported improvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b00619ae431",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old homeless man is brought to the emergency department by police after being found on a bridge. He smells of alcohol and says he was going to jump but now feels fine. He has a history of alcohol dependence and depression. Which finding would most indicate high suicide risk?",
+      "options": [
+        "He has a high blood alcohol level.",
+        "He states he will 'find another way' to end his life.",
+        "He is intoxicated but oriented.",
+        "He has slurred speech.",
+        "He has no family support."
+      ],
+      "answerIndex": 1,
+      "explanation": "Expressing a determination to try a different method demonstrates persistent intent beyond the immediate crisis, indicating high ongoing risk. Intoxication alone and lack of support are risk factors but not as directly indicative of imminent danger as a stated plan to continue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb63ece40981",
+      "topic": "Suicide Risk Assessment",
+      "slug": "suicide-risk-assessment",
+      "system": "Psychiatry",
+      "subSystem": "Risk",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 20-year-old woman with borderline personality disorder presents to A&E after taking a small overdose of 6 paracetamol tablets. She says she didn't intend to die, just wanted to escape her feelings. She is medically fit. Which feature would most suggest a need for urgent psychiatric assessment due to high suicide risk?",
+      "options": [
+        "She has had multiple similar overdoses in the past.",
+        "She admits to frequent urges to self-harm.",
+        "She has a specific plan to hang herself if not kept in hospital.",
+        "She has a history of childhood sexual abuse.",
+        "She refuses to engage with the crisis team."
+      ],
+      "answerIndex": 2,
+      "explanation": "A specific plan for a highly lethal method like hanging indicates imminent risk regardless of the patient's usual self-harm pattern. This escalates the situation to a red flag requiring immediate assessment. Previous overdoses and refusal to engage are concerning but less acute.",
+      "difficulty": "hard"
+    }
+  ]
+}

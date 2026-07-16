@@ -1,0 +1,513 @@
+{
+  "topic": "Respiratory Failure — Type 1",
+  "slug": "respiratory-failure-—-type-1",
+  "system": "Respiratory",
+  "subSystem": "Respiratory failure",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:17Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "22bfb267f7f6",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents to the Emergency Department with sudden onset breathlessness and sharp right-sided chest pain. She is a non-smoker, on the combined oral contraceptive pill. On examination, she is tachypnoeic, HR 110, BP 115/75, SpO2 87% on air. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Costochondritis",
+        "Acute asthma",
+        "Pneumothorax",
+        "Pneumonia",
+        "Acute pulmonary embolism"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute pulmonary embolism is the most likely in a young woman on OCP with pleuritic pain, hypoxaemia, and normal CXR. Pneumothorax would show on CXR, pneumonia would show consolidation, asthma would have wheeze.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4197d3912f8b",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with no significant past medical history presents with a 3-day history of cough, purulent sputum, and fever. He is breathless at rest. Observations: temperature 38.5°C, HR 100, RR 24, BP 130/80, SpO2 91% on air. Chest X-ray shows a left lower lobe consolidation. Arterial blood gas: pH 7.45, PaO2 9.2 kPa, PaCO2 4.5 kPa. What is the single most likely diagnosis?",
+      "options": [
+        "Left ventricular failure",
+        "Community-acquired pneumonia",
+        "Acute bronchitis",
+        "Lung cancer",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Consolidation on CXR with fever and hypoxaemia is typical of pneumonia. ABG shows type 1 respiratory failure. Bronchitis does not cause consolidation; PE would have normal CXR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c5a6c9fba5f2",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old male collapses while playing rugby. He is carried off the pitch, unable to breathe comfortably. On examination, he is distressed, trachea deviated to the right, left chest hyper-resonant with absent breath sounds, and there is distended neck veins. SpO2 80% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Myocardial infarction",
+        "Tension pneumothorax",
+        "Massive pulmonary embolism",
+        "Haemothorax",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tension pneumothorax presents with hypotension, distended neck veins, tracheal deviation away from the affected side, and hypoxaemia. This is a life-threatening emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3599e13b828",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 54-year-old woman with a history of recent abdominal surgery for a perforated duodenal ulcer develops progressive dyspnoea and hypoxaemia 48 hours later. She is on intravenous fluids, SpO2 88% on 15L O2, CXR shows bilateral diffuse alveolar infiltrates. There is no improvement with diuretics. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Cardiogenic pulmonary oedema",
+        "Pulmonary fibrosis",
+        "Acute respiratory distress syndrome",
+        "Bilateral pneumonia"
+      ],
+      "answerIndex": 3,
+      "explanation": "ARDS is characterised by acute onset, bilateral infiltrates, severe hypoxaemia, non-cardiogenic origin, and no response to diuretics. Cardiogenic pulmonary oedema would improve with diuretics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a64658f69969",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man known to be HIV-positive (CD4 count 80 cells/µL) presents with a 2-week history of progressive dyspnoea, dry cough, and low-grade fever. He has no chest pain. SpO2 is 89% on air. Chest X-ray shows bilateral interstitial infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumocystis jirovecii pneumonia",
+        "Mycobacterium tuberculosis infection",
+        "Bacterial pneumonia",
+        "Pulmonary Kaposi sarcoma",
+        "Cytomegalovirus pneumonitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an HIV patient with low CD4 count, subacute onset of dyspnoea, dry cough, and bilateral interstitial infiltrates, PCP is the most likely. TB would be more chronic, bacterial pneumonia more acute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23a9abbc224e",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman with asthma presents with acute dyspnoea and wheeze. Her oxygen saturation is 88% on room air. An arterial blood gas is performed. Which of the following ABG findings is diagnostic of Type 1 respiratory failure?",
+      "options": [
+        "PaO₂ 9.0 kPa, PaCO₂ 5.5 kPa",
+        "PaO₂ 12.0 kPa, PaCO₂ 4.5 kPa",
+        "PaO₂ 7.5 kPa, PaCO₂ 6.5 kPa",
+        "PaO₂ 9.0 kPa, PaCO₂ 3.5 kPa",
+        "PaO₂ 7.5 kPa, PaCO₂ 4.0 kPa"
+      ],
+      "answerIndex": 4,
+      "explanation": "Type 1 respiratory failure is defined by PaO₂ < 8 kPa with normal or low PaCO₂. Option A has PaO₂ 7.5 kPa and PaCO₂ 4.0 kPa, meeting criteria. Option C shows hypercapnia (PaCO₂ > 6 kPa), indicating Type 2 respiratory failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "37f0eb16f8cf",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man on day 1 post hip replacement suddenly becomes breathless and hypoxic (SpO₂ 85% on 15L O₂). CXR is normal. ECG shows sinus tachycardia but no signs of RV strain. D-dimer is elevated. Which investigation is most appropriate to confirm the cause of his Type 1 respiratory failure?",
+      "options": [
+        "Echocardiogram",
+        "V/Q scan",
+        "Lower limb Doppler ultrasound",
+        "Repeat D-dimer in 4 hours",
+        "CT pulmonary angiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given high clinical probability for pulmonary embolism (post-operative, sudden hypoxia, elevated D-dimer), CT pulmonary angiogram is the gold standard for diagnosis. V/Q scan is an alternative if CT is contraindicated, but not first choice. D-dimer is already positive and not diagnostic; echo is not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59ab2f0e9f41",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man presents with acute onset pleuritic chest pain and dyspnoea following a football injury. Oxygen saturation is 92% on air. On examination, trachea is deviated to the right with hyper-resonance on the left. Which investigation is most appropriate to confirm the diagnosis of this cause of Type 1 respiratory failure?",
+      "options": [
+        "Arterial blood gas",
+        "Chest X-ray (erect inspiratory)",
+        "Ultrasound of chest",
+        "ECG",
+        "CT chest with contrast"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clinical features suggest tension pneumothorax. Erect inspiratory CXR is the first-line imaging to confirm pneumothorax, showing a visible pleural line and absent lung markings. CT is more sensitive but not first line. Ultrasound can be used but is operator-dependent and not standard in UK for initial confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb009f37260f",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with a history of heart failure presents with progressive dyspnoea and bibasal crackles. SpO₂ is 90% on air. CXR shows cardiomegaly and bilateral perihilar infiltrates. Which investigation is most appropriate to confirm the cause of her Type 1 respiratory failure?",
+      "options": [
+        "CT thorax",
+        "Sputum culture",
+        "NT-proBNP",
+        "Transthoracic echocardiography",
+        "Pulmonary artery catheterisation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clinical and radiological picture suggests cardiogenic pulmonary oedema. Transthoracic echocardiography is the gold standard to confirm left ventricular systolic or diastolic dysfunction as the cause. NT-proBNP is supportive but not diagnostic; pulmonary artery catheterisation is rarely used now.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "675962074ae7",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man, a non-smoker, presents with 6 months of progressive dyspnoea and a dry cough. SpO₂ is 91% on air. CXR shows bilateral reticulonodular shadowing in the lower zones. Which investigation is most appropriate to confirm the diagnosis of his likely interstitial lung disease causing Type 1 respiratory failure?",
+      "options": [
+        "High-resolution CT thorax",
+        "Bronchoalveolar lavage",
+        "Lung biopsy",
+        "ABG",
+        "Spirometry"
+      ],
+      "answerIndex": 0,
+      "explanation": "HRCT thorax is the key diagnostic imaging for interstitial lung disease, demonstrating patterns such as usual interstitial pneumonia. Spirometry shows restriction but is not diagnostic. Lung biopsy is reserved for cases where HRCT is inconclusive. ABG confirms respiratory failure but not the cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d8ff3c31888a",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with a 3-day history of cough, fever, and pleuritic chest pain. She has no comorbidities. SaO2 93% on air, respiratory rate 22, pulse 90, BP 110/70, temperature 38.5°C. CXR shows left lower lobe consolidation. CURB-65 score 0. Diagnosis: community-acquired pneumonia with type 1 respiratory failure (mild hypoxaemia). What is the most appropriate first-line antibiotic therapy?",
+      "options": [
+        "Levofloxacin 500 mg once daily",
+        "Clarithromycin 500 mg twice daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Doxycycline 200 mg loading then 100 mg daily",
+        "Amoxicillin 500 mg three times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "For low-severity community-acquired pneumonia (CURB-65 0), amoxicillin is first-line according to NICE. Doxycycline is an alternative if penicillin allergic. The other options are second-line or for higher severity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f5c797f0d66c",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old woman with known asthma presents with acute shortness of breath. She is unable to complete sentences. Respiratory rate 30, SaO2 89% on 15 L O2, heart rate 120, BP 100/70, PEFR 33% of best. She is alert and able to swallow. Diagnosis: acute severe asthma exacerbation with type 1 respiratory failure. What is the most appropriate first-line systemic corticosteroid therapy?",
+      "options": [
+        "Oral dexamethasone 8 mg once daily",
+        "Oral prednisolone 40-50 mg once daily",
+        "IV methylprednisolone 60 mg immediately",
+        "Inhaled budesonide 2 mg via nebuliser",
+        "IV hydrocortisone 200 mg immediately"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute severe asthma, if the patient can swallow, oral prednisolone 40-50 mg daily is first-line per NICE. IV hydrocortisone is reserved for those unable to swallow or severely ill. Methylprednisolone is not standard first-line; inhaled steroids are insufficient; dexamethasone is not used in acute asthma in the UK.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1adad430dbf",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with sepsis develops acute hypoxaemic respiratory failure. He is intubated and ventilated. PaO2/FiO2 ratio is 150. CXR shows bilateral infiltrates. Diagnosis: acute respiratory distress syndrome (ARDS) with type 1 respiratory failure. Which ventilation strategy is CONTRAINDICATED?",
+      "options": [
+        "Neuromuscular blockade (e.g. atracurium)",
+        "High tidal volume ventilation (12 mL/kg predicted body weight)",
+        "Prone positioning",
+        "Low tidal volume ventilation (6 mL/kg predicted body weight)",
+        "High PEEP (titrated to oxygenation)"
+      ],
+      "answerIndex": 1,
+      "explanation": "High tidal volume ventilation is contraindicated in ARDS due to risk of ventilator-induced lung injury (volutrauma). Low tidal volumes are standard. High PEEP, prone positioning, and neuromuscular blockade may be used but are not contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "29428077fd6b",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) presents with acute dyspnoea and pleuritic chest pain. SaO2 88% on air, tachycardic, hypotensive. CT pulmonary angiogram confirms bilateral pulmonary emboli. Diagnosis: massive PE with type 1 respiratory failure. Which anticoagulant is the most appropriate first-line treatment?",
+      "options": [
+        "Warfarin 5 mg once daily (with heparin overlap)",
+        "Unfractionated heparin infusion",
+        "Apixaban 10 mg twice daily for 7 days then 5 mg twice daily",
+        "Rivaroxaban 15 mg twice daily for 21 days then 20 mg once daily",
+        "Enoxaparin 1.5 mg/kg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, LMWH (e.g. enoxaparin) is first-line for PE due to safety and efficacy. Warfarin is teratogenic and contraindicated. DOACs lack safety data in pregnancy. Unfractionated heparin is second-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "903f10d34e7c",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with pneumonia and type 1 respiratory failure is on non-invasive ventilation (NIV) for hypoxaemia. He suddenly deteriorates with severe dyspnoea and hypotension. Chest examination reveals reduced breath sounds and hyperresonance on the right side. Diagnosis: tension pneumothorax complicating NIV. Which of the following is CONTRAINDICATED in the immediate management?",
+      "options": [
+        "Increasing the inspiratory positive airway pressure (IPAP) to improve oxygenation",
+        "Administration of high-flow oxygen via mask",
+        "Needle decompression in the second intercostal space, mid-clavicular line",
+        "Chest drain insertion in the fifth intercostal space, mid-axillary line",
+        "Immediate discontinuation of NIV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Increasing IPAP is contraindicated in tension pneumothorax because it increases air leak and worsens tension. Immediate decompression (needle or chest drain) and discontinuation of NIV are required. High-flow oxygen is appropriate temporarily.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0528188b2184",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with no significant past medical history presents to the emergency department with a 3-day history of cough, fever, and worsening dyspnoea. On examination, his respiratory rate is 28/min, SpO₂ 88% on room air, heart rate 110 bpm, blood pressure 130/80 mmHg, and temperature 38.5°C. Chest auscultation reveals right basal crackles. An arterial blood gas on room air shows pH 7.38, PaO₂ 7.5 kPa, PaCO₂ 4.0 kPa. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous antibiotics (e.g., co-amoxiclav)",
+        "Perform a CT pulmonary angiogram",
+        "Obtain a chest X-ray",
+        "Administer IV furosemide 40 mg",
+        "Start high-flow oxygen via a non-rebreather mask at 15 L/min"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has type 1 respiratory failure (PaO₂ < 8 kPa) due to likely pneumonia. The immediate priority is to correct hypoxaemia with high-flow oxygen. While a chest X-ray and antibiotics are important, they should follow oxygen administration. CT pulmonary angiogram is not indicated without suspicion of PE, and furosemide is for pulmonary oedema.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cc2fc80b8c9e",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with known COPD and hypertension is admitted with an infective exacerbation. She is on controlled oxygen (4 L/min via nasal cannulae) and has SpO₂ 90%. An arterial blood gas shows pH 7.35, PaO₂ 7.8 kPa, PaCO₂ 4.5 kPa. She is alert, with a respiratory rate of 24/min and no signs of exhaustion. What is the most appropriate immediate next step?",
+      "options": [
+        "Start non-invasive ventilation (CPAP)",
+        "Perform a chest X-ray",
+        "Increase oxygen flow to 6 L/min",
+        "Give IV theophylline",
+        "Start IV antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite oxygen, the patient remains hypoxaemic (PaO₂ 7.8 kPa) consistent with type 1 respiratory failure. CPAP is the next step to recruit alveoli and improve oxygenation, especially if she is not hypercapnic (PaCO₂ normal). Increasing oxygen alone is unlikely to suffice, and antibiotics are important but not immediately addressing the hypoxia. Theophylline is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd4f82b89521",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man collapses in the waiting room. He is pale and sweaty. On examination, his respiratory rate is 32/min, SpO₂ 82% on room air, heart rate 130 bpm, and blood pressure 85/50 mmHg. An arterial blood gas on air shows pH 7.30, PaO₂ 6.0 kPa, PaCO₂ 3.8 kPa. Oxygen is applied via a non-rebreather mask, and SpO₂ rises to 90%. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a CT pulmonary angiogram",
+        "Give IV fluids (500 mL crystalloid)",
+        "Give IM adrenaline 0.5 mg",
+        "Administer IV alteplase (thrombolysis)",
+        "Request an urgent echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is consistent with massive pulmonary embolism causing type 1 respiratory failure and shock. After oxygen, the immediate priority is thrombolysis (alteplase) given haemodynamic instability. CT angiogram would delay treatment; fluids can be given but are secondary; adrenaline is for anaphylaxis; echo is useful but not immediate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a967e84638ca",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with asthma presents with severe dyspnoea. He is on non-invasive ventilation (CPAP) for type 1 respiratory failure. During a reassessment, he becomes increasingly distressed, with tracheal deviation to the right and absent breath sounds on the left. SpO₂ drops from 92% to 80% on 60% oxygen. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an urgent chest X-ray",
+        "Administer IV magnesium sulphate 2 g",
+        "Increase CPAP pressure",
+        "Perform needle thoracocentesis (decompression) on the left",
+        "Start IV antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "The clinical picture is of tension pneumothorax causing acute deterioration. Immediate needle decompression is life-saving and should precede chest X-ray. Increasing CPAP may worsen the pneumothorax. Magnesium and antibiotics are not indicated for this emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bb47b9a0e537",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 34-week pregnant woman (G1P0) presents with influenza A pneumonia. She is on high-flow oxygen via a non-rebreather mask (15 L/min) with SpO₂ 91%. Arterial blood gas shows pH 7.36, PaO₂ 7.2 kPa, PaCO₂ 4.0 kPa. Her respiratory rate is 26/min, and she is non-exhausted. Fetal heart rate is 155 bpm and reactive. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an emergency caesarean section at 34 weeks",
+        "Start oral corticosteroids (e.g., dexamethasone) for fetal lung maturity",
+        "Call the intensive care team for urgent review and potential escalation",
+        "Increase oxygen to 20 L/min via a mask with a reservoir bag",
+        "Start intravenous oseltamivir 75 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Despite high-flow oxygen, the patient has persistent type 1 respiratory failure (PaO₂ < 8 kPa). The immediate priority is to escalate care for potential CPAP or mechanical ventilation, as she may deteriorate further. Oseltamivir is important but not immediate; emergency C-section is not yet indicated (fetus is well); increasing oxygen may have limited effect; steroids for fetal lung maturity are not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7991023b01fb",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman presents with acute dyspnoea and pleuritic chest pain. She is tachypnoeic, HR 110 bpm, BP 110/70 mmHg, SpO2 91% on air. CXR shows no pneumothorax. ECG shows sinus tachycardia. Which single finding would most strongly suggest a massive pulmonary embolism requiring immediate escalation?",
+      "options": [
+        "New right bundle branch block on ECG",
+        "Hypotension with systolic BP < 90 mmHg",
+        "Elevated D-dimer > 500 ng/mL",
+        "Pleural rub on auscultation",
+        "Arterial blood gas showing PaO2 8.5 kPa on air"
+      ],
+      "answerIndex": 1,
+      "explanation": "Massive PE is defined by haemodynamic instability (systolic BP < 90 mmHg). Right bundle branch block indicates right heart strain but does not alone define massive PE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ebe2c82b75b",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with COPD is admitted with community-acquired pneumonia. He is on 4 L/min O2 via nasal cannulae, SpO2 88%. Arterial blood gas on admission shows pH 7.32, PaCO2 6.8 kPa, PaO2 7.9 kPa (on FiO2 0.28). After 2 hours of appropriate antibiotics and controlled oxygen, his SpO2 remains 88% with increasing work of breathing. Which single finding would be the strongest indicator that he requires non-invasive ventilation?",
+      "options": [
+        "PaO2 falling to 7.5 kPa",
+        "Development of new atrial fibrillation",
+        "Respiratory rate > 30 breaths/min",
+        "PaCO2 rising to 8.5 kPa",
+        "Use of accessory muscles"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute hypercapnic respiratory failure, a rising PaCO2 despite optimal medical therapy is the key trigger for NIV. Accessory muscles are common but not as specific. Note: This patient has mixed Type 1/2 failure; the red flag is worsening hypercapnia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "af312fda2442",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with acute pancreatitis develops increasing dyspnoea 48 hours after admission. He is tachypnoeic, SpO2 89% on 15 L/min O2 via a non-rebreather mask. CXR shows bilateral interstitial infiltrates. Which single finding is most suggestive of severe ARDS requiring discussion for intubation?",
+      "options": [
+        "Fever > 38.5°C",
+        "White cell count > 20 × 10^9/L",
+        "Bilateral infiltrates on CXR",
+        "PaO2/FiO2 ratio < 13.3 kPa",
+        "Serum amylase > 1000 U/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe ARDS is defined by PaO2/FiO2 < 13.3 kPa (100 mmHg). Bilateral infiltrates are necessary for diagnosis but do not indicate severity. Fever and leukocytosis are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dc6dad93e294",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with no medical history presents with acute severe pleuritic chest pain and dyspnoea after lifting a heavy weight. On examination, he is distressed, HR 130 bpm, BP 90/60 mmHg, trachea deviated to the right, and left chest hyper-resonant with absent breath sounds. Which life-threatening complication does this picture most likely represent?",
+      "options": [
+        "Tension pneumothorax",
+        "Myocardial infarction",
+        "Massive pulmonary embolism",
+        "Cardiac tamponade",
+        "Acute aortic dissection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tension pneumothorax presents with hypotension, tracheal deviation away from the affected side, and hyper-resonance. This is a life-threatening emergency requiring immediate decompression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1224885f65a9",
+      "topic": "Respiratory Failure — Type 1",
+      "slug": "respiratory-failure-—-type-1",
+      "system": "Respiratory",
+      "subSystem": "Respiratory failure",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with a long bone fracture develops sudden hypoxaemia (SpO2 85% on air) and confusion 24 hours after injury. On examination, she has a petechial rash on her chest and axillae. Which of the following is the most likely cause of her Type 1 respiratory failure?",
+      "options": [
+        "Pulmonary embolism",
+        "Atelectasis",
+        "Community-acquired pneumonia",
+        "Fat embolism syndrome",
+        "Pulmonary contusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fat embolism syndrome typically presents 12–72 hours after long bone fracture with hypoxaemia, neurological changes, and petechial rash. Pulmonary embolism is less likely given timing and no other embolism source.",
+      "difficulty": "hard"
+    }
+  ]
+}

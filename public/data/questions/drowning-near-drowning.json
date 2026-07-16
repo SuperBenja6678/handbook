@@ -1,0 +1,513 @@
+{
+  "topic": "Drowning / Near-Drowning",
+  "slug": "drowning-near-drowning",
+  "system": "Emergency Medicine",
+  "subSystem": "Environmental",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:35:51Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5b46b1564d2e",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 25-year-old man is brought to the Emergency Department after being rescued from a cold lake. He was submerged for approximately 2 minutes. On arrival he is conscious, coughing, and complaining of shortness of breath. Observations: heart rate 110 bpm, BP 120/70, SpO2 94% on 15 L oxygen, temperature 35.5°C. Chest auscultation reveals bilateral crackles. A chest X-ray shows perihilar opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Near-drowning",
+        "Acute respiratory distress syndrome",
+        "Aspiration pneumonia",
+        "Acute pulmonary oedema",
+        "Hypothermia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Near-drowning is correct given the clear history of submersion and respiratory impairment. Aspiration pneumonia typically presents later with fever; acute pulmonary oedema from cardiogenic causes is less likely in a young man; hypothermia does not explain respiratory findings; ARDS is a possible complication but not the initial diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "254d0d2adec6",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old man is found unconscious at the bottom of a swimming pool. Bystanders commence CPR. On arrival of the ambulance, he is in cardiac arrest with asystole. His core temperature is 30°C. There is no response to defibrillation. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax",
+        "Drowning",
+        "Massive pulmonary embolism",
+        "Hypothermic cardiac arrest",
+        "Myocardial infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "The history of submersion and subsequent cardiac arrest makes drowning the most likely diagnosis. Hypothermic cardiac arrest is a consequence, but the underlying cause is drowning. Other causes are less likely given the context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8083e50a699f",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman was admitted after a near-drowning incident in the sea. She was initially well, with normal oxygen saturations and a clear chest X-ray. Twenty-four hours later, she develops progressive dyspnoea, cough with pink frothy sputum, and oxygen saturations of 88% on room air. Chest X-ray now shows bilateral alveolar opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiogenic pulmonary oedema",
+        "Pulmonary embolism",
+        "Acute respiratory distress syndrome",
+        "Hospital-acquired pneumonia",
+        "Secondary drowning"
+      ],
+      "answerIndex": 4,
+      "explanation": "The delayed deterioration after near-drowning is classic for secondary drowning (delayed pulmonary oedema). ARDS is a differential but secondary drowning is specific to this context. Cardiogenic causes are less likely without evidence of cardiac failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f8e4bf24db0e",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old child is found face down in a bathtub. He is lifted out immediately and is conscious but irritable. There is no cough or respiratory distress. On arrival at hospital, his GCS is 13/15, he has vomited once, and his oxygen saturation is 98% on air. Chest X-ray is clear. What is the single most likely diagnosis?",
+      "options": [
+        "Meningitis",
+        "Near-drowning",
+        "Febrile seizure",
+        "Hypoxic-ischaemic encephalopathy",
+        "Metabolic acidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite clear chest X-ray and no respiratory symptoms, the history of submersion makes near-drowning the most likely diagnosis. Hypoxic-ischaemic encephalopathy is a complication, not the primary diagnosis. Other causes of altered consciousness are less likely given the temporal relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eda713f256dd",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 4-year-old boy is brought to the Emergency Department after being pulled from a home swimming pool. He had been submerged for less than a minute. On examination, he is stridorous, with a barking cough, and oxygen saturations are 90% on air. There is no fever. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Foreign body aspiration",
+        "Epiglottitis",
+        "Croup",
+        "Dry drowning",
+        "Anaphylaxis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sudden stridor and hypoxia after submersion with normal CXR is classic for dry drowning (laryngospasm). Croup typically has prodromal fever; anaphylaxis has other systemic features; foreign body aspiration is possible but less likely given history; epiglottitis is rare now and presents with drooling and fever.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06e295fe0b7b",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old male is rescued from a swimming pool after brief submersion. He is alert, coughing, with SpO2 96% on air. Which single investigation is most appropriate to exclude significant pulmonary aspiration?",
+      "options": [
+        "Arterial blood gas",
+        "Bronchoscopy",
+        "Chest X-ray",
+        "Echocardiography",
+        "CT thorax"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chest X-ray is the first-line investigation to detect aspiration pneumonitis or pulmonary oedema after drowning. It is widely available, quick, and can guide further management. CT thorax is more sensitive but not indicated initially in a stable patient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2af3177c325",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman is pulled from the sea after several minutes of submersion. On arrival, she is confused, GCS 14, respiratory rate 28, SpO2 88% on room air. Which investigation is most useful to objectively assess the severity of her respiratory impairment?",
+      "options": [
+        "Chest X-ray",
+        "Arterial blood gas",
+        "Peak expiratory flow rate",
+        "Lung ultrasound",
+        "Ventilation–perfusion scan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arterial blood gas provides the PaO2/FiO2 ratio, which quantifies oxygenation impairment and guides decisions about respiratory support. Peak flow is effort-dependent and not validated in drowning; chest X-ray assesses structure, not function directly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00a7f4d3dc7f",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man is found face-down in a bathtub, unresponsive. In the emergency department he is intubated, core temperature 30°C, and in cardiac arrest (PEA). Which investigation is most likely to reveal a life-threatening abnormality that requires immediate correction?",
+      "options": [
+        "Arterial blood gas",
+        "CT head",
+        "Core temperature measurement",
+        "Chest X-ray",
+        "12-lead ECG"
+      ],
+      "answerIndex": 0,
+      "explanation": "Arterial blood gas can detect severe metabolic acidosis and hyperkalemia, both common after prolonged submersion and both immediately life-threatening. Core temperature is important but not as time-critical; ECG may show Osborne waves but does not diagnose a treatable cause of arrest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c77da7f5aebe",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man suffered a near-drowning in a lake 6 hours ago. He was initially well but now has progressive dyspnoea, oxygen saturation 91% on 4 L/min. Which single investigation result is most consistent with a diagnosis of secondary drowning (acute respiratory distress syndrome)?",
+      "options": [
+        "Echocardiography showing normal left ventricular function",
+        "Lung ultrasound showing multiple B-lines",
+        "CT thorax showing ground-glass opacities",
+        "Arterial blood gas showing PaO2/FiO2 < 200",
+        "Chest X-ray showing bilateral interstitial infiltrates"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Berlin definition of ARDS requires a PaO2/FiO2 ratio ≤300 with bilateral opacities not fully explained by cardiac failure. In this scenario, the ABG ratio provides an objective, quantifiable criterion that confirms severe hypoxemia. Bilateral infiltrates on CXR are supportive but less specific without the ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d47430906f85",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man is found submerged in a bath with no clear witness. He is resuscitated, now extubated and drowsy but obeying commands. Which investigation is most appropriate to screen for an underlying cardiac arrhythmia as a potential precipitant of the drowning?",
+      "options": [
+        "CT head",
+        "24-hour Holter monitor",
+        "Echocardiogram",
+        "12-lead ECG",
+        "Serum troponin"
+      ],
+      "answerIndex": 3,
+      "explanation": "A 12-lead ECG is the first-line, rapid investigation to detect arrhythmias, ischaemia, or conduction abnormalities that could cause syncope or collapse leading to drowning. Holter monitoring is more sensitive but not immediately available. Echocardiogram and troponin are secondary tests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa1087e8e2ee",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 24-year-old man is brought to the emergency department after a near-drowning in a swimming pool. He is conscious (GCS 15) with an SaO2 of 89% on room air, respiratory rate 28 breaths/min, and crackles at both bases. Chest X-ray shows bilateral interstitial oedema. What is the most appropriate first-line therapy?",
+      "options": [
+        "High-flow nasal oxygen",
+        "Intravenous antibiotics",
+        "Non-invasive ventilation (CPAP)",
+        "Endotracheal intubation and mechanical ventilation",
+        "Intravenous furosemide"
+      ],
+      "answerIndex": 2,
+      "explanation": "CPAP is the first-line therapy for pulmonary oedema due to drowning; it improves oxygenation and reduces work of breathing, often avoiding intubation. High-flow nasal oxygen may be used if CPAP is not tolerated, but CPAP is more effective for alveolar recruitment. Diuretics are not indicated as pulmonary oedema is non-cardiogenic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0d9a7ee1e50",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old woman is brought to the emergency department after being rescued from a river. She is unconscious (GCS 3), pulseless, and in cardiac arrest. Core temperature is 28°C. CPR is ongoing. Which of the following is CONTRAINDICATED in her management?",
+      "options": [
+        "Amiodarone 300 mg IV",
+        "Intravenous adrenaline 1 mg every 3-5 minutes",
+        "Defibrillation at 2 J/kg",
+        "Active internal rewarming with ECMO",
+        "Continue CPR until core temperature >30°C before further defibrillation attempts"
+      ],
+      "answerIndex": 0,
+      "explanation": "In hypothermic cardiac arrest (<30°C), drug administration is typically withheld (or spaced longer) due to impaired metabolism; amiodarone is contraindicated until rewarming. Defibrillation may be attempted once, but further shocks are limited until >30°C. Adrenaline is also often withheld or given at extended intervals.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3aac118ae4c6",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 6-year-old boy is brought to the emergency department after a near-drowning in a lake. He is awake and alert, SaO2 95% on air, with mild tachypnoea. Chest X-ray shows no focal consolidation. He is admitted for observation. Which of the following therapies is CONTRAINDICATED at this stage?",
+      "options": [
+        "Prophylactic intravenous antibiotics",
+        "Salbutamol nebulisers if wheeze develops",
+        "Oxygen via nasal cannula to target SaO2 94-98%",
+        "Observation for 24 hours",
+        "Serial chest X-rays"
+      ],
+      "answerIndex": 0,
+      "explanation": "Routine prophylactic antibiotics are not recommended after drowning; they do not prevent pneumonia and may promote antimicrobial resistance. Antibiotics should only be given if clinical signs of infection develop.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0719c62d3455",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 19-year-old woman is brought to the emergency department after a near-drowning in the sea. She is drowsy but rousable (GCS 14), with an SaO2 of 85% on high-flow oxygen. Respiratory rate is 35 breaths/min, and she has frothy sputum. She has a history of asthma. What is the most appropriate immediate therapy?",
+      "options": [
+        "Intravenous aminophylline",
+        "Endotracheal intubation and mechanical ventilation",
+        "Nebulised salbutamol and ipratropium",
+        "Intravenous magnesium sulphate",
+        "Non-invasive ventilation (BiPAP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite the asthma history, the primary pathology is pulmonary oedema from drowning; non-invasive ventilation (BiPAP/CPAP) is first-line to support oxygenation and reduce work of breathing. Bronchodilators may be added if bronchospasm is present, but NIV takes priority as it addresses the main issue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51a223248c5d",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with a history of alcohol excess is found face-down in a shallow pond. He is brought to the emergency department, unconscious (GCS 8), with an SaO2 of 92% on 15 L/min oxygen via a non-rebreather mask. He has rhonchi on auscultation. He is intubated for airway protection. Which of the following therapies is most appropriate for his management after intubation?",
+      "options": [
+        "Neuromuscular blockade",
+        "Empiric antibiotics with piperacillin-tazobactam",
+        "Intravenous corticosteroids",
+        "Therapeutic hypothermia (target 32-34°C for 24 hours)",
+        "Low tidal volume ventilation (6 mL/kg ideal body weight)"
+      ],
+      "answerIndex": 3,
+      "explanation": "In comatose survivors of drowning, targeted temperature management (therapeutic hypothermia) is recommended to improve neurological outcomes. Low tidal volume ventilation is standard for ARDS but not specific to drowning. Steroids and prophylactic antibiotics are not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d3375388ed8a",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 25-year-old man is brought to the ED after being rescued from a cold lake. He had been submerged for an estimated 2 minutes. On arrival, he is fully alert, shivering, with a core temperature of 34.0°C. Oxygen saturation is 96% on room air, respiratory rate 14, heart rate 60, blood pressure 115/70. He has no respiratory distress. What is the most appropriate immediate next step?",
+      "options": [
+        "Chest X-ray",
+        "Intravenous infusion of warmed 0.9% sodium chloride",
+        "Arterial blood gas analysis",
+        "Check capillary blood glucose",
+        "Active external rewarming with forced-air warming blanket"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has mild hypothermia (34°C) with stable vitals and no respiratory compromise. Active external rewarming is first-line for mild hypothermia to prevent further heat loss and promote passive rewarming. IV fluids may be needed if hypotensive, ABG and CXR are not indicated without respiratory symptoms, and glucose check is sensible but not the priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c324f382a2bd",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 6-year-old girl is brought to the ED after being found face-down in a swimming pool. She was submerged for approximately 3 minutes and received bystander CPR before paramedics arrived. She is now conscious but coughing, with oxygen saturation 91% on room air, respiratory rate 30, heart rate 130, and temperature 36.5°C. Chest auscultation reveals bilateral crackles. What is the most appropriate immediate next step?",
+      "options": [
+        "Obtain a CT head to rule out hypoxic brain injury",
+        "Admit to the paediatric ward for observation alone",
+        "Start non-invasive ventilation (BiPAP) with FiO2 0.5",
+        "Perform urgent bronchoscopy to clear aspirated water",
+        "Give intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 2,
+      "explanation": "The child has hypoxaemia and crackles consistent with aspiration pneumonitis. Non-invasive ventilation (BiPAP) improves oxygenation and reduces the need for intubation. CT head is not urgent without neurological signs; antibiotics are not indicated prophylactically; bronchoscopy is not first-line; observation alone is insufficient given hypoxia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b91a9c858ab",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man is brought to the ED after a drowning incident in a river. He was found in cardiac arrest, and return of spontaneous circulation (ROSC) was achieved after 20 minutes of CPR. On arrival, he is intubated and ventilated, GCS 3 (E1VtM1), pupils fixed and dilated at 5 mm, core temperature 32.0°C. Blood pressure is 90/50 mmHg, heart rate 50 bpm. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous noradrenaline to target mean arterial pressure >65 mmHg",
+        "Perform an urgent CT head to assess for intracranial pathology",
+        "Initiate targeted temperature management (therapeutic hypothermia) at 32-34°C for 24 hours",
+        "Give intravenous sodium bicarbonate 50 mmol stat",
+        "Administer intravenous thrombolysis for suspected massive pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Post-ROSC, targeted temperature management (TTM) improves neurological outcomes and is indicated regardless of initial temperature. CT head may be needed later but is not immediate while TTM should start. Thrombolysis is not indicated without evidence of PE; sodium bicarbonate is not recommended in post-arrest care; noradrenaline can be used for hypotension but TTM takes priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e217277a8b68",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man is admitted to ICU after a near-drowning event. Despite mechanical ventilation with FiO2 1.0 and PEEP 10 cmH2O, his oxygen saturation remains 85% and PaO2/FiO2 ratio is 100 mmHg. He has diffuse bilateral infiltrates on chest X-ray consistent with ARDS. He is sedated and paralysed. What is the most appropriate immediate next step?",
+      "options": [
+        "Place the patient in the prone position",
+        "Administer intravenous methylprednisolone 1 g daily",
+        "Start inhaled nitric oxide",
+        "Refer for veno-venous extracorporeal membrane oxygenation (VV-ECMO)",
+        "Switch to high-frequency oscillatory ventilation (HFOV)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prone positioning is a first-line intervention for moderate-to-severe ARDS, improving oxygenation and outcomes. Inhaled nitric oxide is a rescue therapy; ECMO is considered after failure of prone; HFOV is not routinely used; steroids are not recommended early in ARDS from drowning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6beb8f0e3942",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman with known COPD is found submerged in a bathtub. She is intubated in the ED and ventilated. On transfer to ICU, the ventilator alarms show high peak and plateau pressures, and the end-tidal CO2 is rising. She is sedated and has bilateral breath sounds but reduced on the left. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous broad-spectrum antibiotics for aspiration pneumonia",
+        "Check the endotracheal tube position by auscultation and depth mark, then perform a chest X-ray",
+        "Perform a bedside bronchoscopy to remove mucous plugs or aspirated debris",
+        "Increase the PEEP setting to recruit collapsed alveoli",
+        "Request an urgent CT thorax to evaluate for pneumothorax or effusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "High airway pressures and rising CO2 in a recently intubated patient raise suspicion of endotracheal tube malposition (e.g., mainstem intubation) or obstruction. Checking tube position is the quickest and most appropriate first step. Antibiotics, CT, bronchoscopy, or PEEP changes should follow only after tube position is confirmed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0082be3f4cf6",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 25-year-old man is rescued from a freshwater lake after a brief submersion. He is awake, coughing, and has tachypnoea (RR 28). SpO2 is 94% on 15 L/min O2. What single finding most clearly indicates a need for escalation to critical care?",
+      "options": [
+        "Chest pain on deep inspiration",
+        "Tachycardia (HR 110)",
+        "Frothy pink sputum",
+        "Low-grade pyrexia",
+        "Bilateral crackles on auscultation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Frothy pink sputum is a hallmark of non-cardiogenic pulmonary oedema due to surfactant loss, predicting rapid deterioration and the need for critical care. Crackles are also concerning but less specific for immediate escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4bf6536c3196",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 4-year-old child is brought to ED 2 hours after a near-drowning incident in a swimming pool. He is now alert, playful, with RR 24, SpO2 98% on air. Chest is clear. Which feature, if present, would indicate a significant risk of delayed deterioration?",
+      "options": [
+        "Temperature 37.2°C",
+        "Vomiting once",
+        "Parental anxiety",
+        "Capillary refill time 2 seconds",
+        "History of seizure during submersion"
+      ],
+      "answerIndex": 4,
+      "explanation": "A seizure during submersion suggests significant hypoxic-ischaemic insult, which can lead to delayed cerebral oedema or aspiration. Other features are nonspecific and do not independently predict deterioration.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "12b475c676a9",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man presents after a near-drowning in sea water 6 hours ago. He initially felt well but now has dyspnoea, cough, and confusion. HR 115, BP 90/60, RR 32, SpO2 88% on 4 L/min. Chest X-ray shows bilateral interstitial infiltrates. Which immediate life-threatening complication must be excluded?",
+      "options": [
+        "Acute kidney injury",
+        "Acute respiratory distress syndrome (ARDS)",
+        "Salt water aspiration syndrome",
+        "Hypothermic cardiac arrhythmia",
+        "Pulmonary oedema due to fluid overload"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clinical picture of worsening hypoxia, bilateral infiltrates, and shock after drowning is classic for ARDS, a rapidly progressive and life-threatening complication. Salt water aspiration syndrome is milder and fluid overload is less likely with normal cardiac history.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "63f04f18668e",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman is found floating face-down in a bathtub after a suspected alcohol binge. In the ED she is GCS 6, with shallow breathing, HR 50, BP 80/40, hypothermic (32°C). Which clinical finding would raise suspicion for a concomitant intracranial event (e.g., subarachnoid haemorrhage) as the cause of drowning?",
+      "options": [
+        "Bradycardia",
+        "Unequal or non-reactive pupils",
+        "Decerebrate posturing",
+        "Low GCS despite rewarming",
+        "Absent pupillary light reflex bilaterally"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asymmetric or non-reactive pupils suggest a structural brain injury such as subarachnoid haemorrhage, which may have precipitated the drowning. Bilateral non-reactive pupils can occur in pure hypoxic injury or hypothermia, making asymmetry the key distinguishing feature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c192f1c157ab",
+      "topic": "Drowning / Near-Drowning",
+      "slug": "drowning-near-drowning",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 5-year-old child is brought in after submersion in a garden pond for an unknown duration. He is intubated and ventilated. An arterial blood gas shows severe metabolic acidosis with pH 7.0 and lactate 8 mmol/L. Which additional finding would indicate a poor prognosis for neurological recovery?",
+      "options": [
+        "Myoclonic jerking",
+        "Hypothermia on admission",
+        "Four limb hypertonia",
+        "Normal CT head",
+        "Absent corneal reflexes at 24 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "Persistent absence of brainstem reflexes (e.g., corneal) at 24 hours post-drowning is strongly associated with severe neurological damage and poor outcome. Myoclonic jerking can occur but is less specific, while normal CT does not exclude hypoxic injury.",
+      "difficulty": "medium"
+    }
+  ]
+}

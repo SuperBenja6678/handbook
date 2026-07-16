@@ -1,0 +1,513 @@
+{
+  "topic": "Croup",
+  "slug": "croup",
+  "system": "ENT",
+  "subSystem": "Paediatric airway",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:29:40Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d42c60f864db",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 2-year-old boy presents with a 2-day history of coryza, hoarse voice, and a barking cough. His mother reports mild fever. On examination, he has mild inspiratory stridor at rest but no tachypnoea or recession. SpO2 98% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Acute epiglottitis",
+        "Laryngomalacia",
+        "Bacterial tracheitis",
+        "Croup",
+        "Foreign body aspiration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Croup typically follows a viral prodrome with a characteristic barking cough and inspiratory stridor. Acute epiglottitis presents with drooling, high fever, and severe distress but is now rare. Bacterial tracheitis has a toxic appearance and high fever. Foreign body aspiration has sudden onset without prodrome. Laryngomalacia presents from infancy with chronic stridor.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4db4dc34042a",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 3-year-old girl presents with a 2-day history of barking cough and worsening stridor. She has intercostal and subcostal recession, is agitated, and has SpO2 91% on air. Temperature is 37.8°C. There is no drooling or toxic appearance. What is the single most likely diagnosis?",
+      "options": [
+        "Foreign body aspiration",
+        "Retropharyngeal abscess",
+        "Acute epiglottitis",
+        "Croup",
+        "Bacterial tracheitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe croup is characterised by stridor at rest, recession, and hypoxia, but absence of drooling, high fever, and toxic appearance distinguishes it from epiglottitis and tracheitis. Foreign body aspiration has sudden onset. Retropharyngeal abscess presents with neck swelling, dysphagia, and high fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2bbacc971d29",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 2-year-old boy is brought to the emergency department at 2 AM with a sudden onset of barking cough and stridor. He had no prodromal coryza and is afebrile. The symptoms improve after 20 minutes in the cool night air. What is the single most likely diagnosis?",
+      "options": [
+        "Spasmodic croup",
+        "Foreign body aspiration",
+        "Croup",
+        "Laryngomalacia",
+        "Acute epiglottitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Spasmodic croup typically occurs at night, without a preceding viral illness, and resolves quickly. The absence of fever and sudden onset differentiate it from infective croup. Epiglottitis presents with high fever and drooling. Foreign body aspiration has no fever and is persistent. Laryngomalacia is chronic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26dde70822bf",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 2-year-old child was diagnosed with mild croup 3 days ago. Today he develops high fever (39.5°C), toxic appearance, and marked respiratory distress with stridor. He has copious purulent secretions. What is the single most likely diagnosis?",
+      "options": [
+        "Retropharyngeal abscess",
+        "Croup",
+        "Foreign body aspiration",
+        "Acute epiglottitis",
+        "Bacterial tracheitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Bacterial tracheitis often complicates viral croup and presents with dramatic deterioration, high fever, toxic appearance, and purulent airway secretions. Epiglottitis has drooling and is less likely with preceding croup. Foreign body aspiration has no fever. Retropharyngeal abscess typically has neck swelling and dysphagia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c008c06b6325",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 4-year-old boy presents with his fourth episode of barking cough and stridor in the past 18 months. Each episode has required oral dexamethasone. Between episodes he is well. What is the single most likely diagnosis?",
+      "options": [
+        "Croup",
+        "Laryngomalacia",
+        "Gastro-oesophageal reflux disease",
+        "Recurrent croup",
+        "Subglottic stenosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recurrent croup is defined as multiple episodes (≥2 per year) and is a clinical diagnosis. It can be associated with underlying airway lesions or GERD, but the pattern itself is recurrent croup. Subglottic stenosis usually presents with persistent or progressive stridor, not episodic. Laryngomalacia presents from infancy. GERD may be a cause but is not the diagnosis of the presenting condition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "581fcb1aaf77",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 2-year-old girl presents with a 2-day history of barking cough, hoarse voice, and mild stridor only when crying. She is afebrile, saturations 97% in air, and has no respiratory distress. Which of the following is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Full blood count",
+        "Lateral neck X-ray",
+        "Viral nasopharyngeal aspirate",
+        "Chest X-ray",
+        "No investigation required"
+      ],
+      "answerIndex": 4,
+      "explanation": "Croup is a clinical diagnosis based on the classic history of barking cough and stridor. In mild cases with no atypical features, no investigations are necessary. The most tempting distractor is lateral neck X-ray, but it is not required for diagnosis and may be normal or show steeple sign; it is reserved for cases where epiglottitis is suspected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d278af100b04",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 3-year-old boy presents with acute stridor, high fever (39.5°C), and drooling. A lateral neck X-ray shows a swollen, rounded epiglottis resembling a thumb. What is the most likely diagnosis?",
+      "options": [
+        "Foreign body aspiration",
+        "Bacterial tracheitis",
+        "Epiglottitis",
+        "Retropharyngeal abscess",
+        "Croup"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'thumb sign' on lateral neck X-ray is characteristic of epiglottitis. Croup typically shows the 'steeple sign' on AP view. The presence of drooling and high fever favours epiglottitis over croup.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c199b28daeb7",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 2-year-old with croup is admitted and treated with dexamethasone and nebulised adrenaline. Despite treatment, his stridor worsens, he develops a high fever (39°C), and has a toxic appearance. What is the single most appropriate next investigation to establish the diagnosis?",
+      "options": [
+        "Blood culture",
+        "Lateral neck X-ray",
+        "Flexible laryngoscopy",
+        "Chest X-ray",
+        "CT neck"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a child with croup unresponsive to standard therapy and with high fever, bacterial tracheitis should be suspected. Flexible laryngoscopy allows direct visualisation of the trachea to look for purulent secretions or membrane, confirming the diagnosis. The most tempting distractor is lateral neck X-ray, but it cannot reliably distinguish tracheitis from croup.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "20c7ed77e17f",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 1-year-old presents with croup. On assessment, he has stridor at rest, moderate suprasternal retractions, and oxygen saturation 93% in air. Which of the following is a feature of severe croup according to the Westley croup score?",
+      "options": [
+        "SaO2 <95%",
+        "Barking cough",
+        "Temperature >38.5°C",
+        "Stridor at rest",
+        "Respiratory rate >40"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Westley croup score includes: level of consciousness, stridor (none, with agitation, at rest), retractions, air entry, and cyanosis. Stridor at rest is a sign of severe croup. SaO2 <92% is a marker of severe disease but is not a component of the score; the most tempting distractor is SaO2 <95% which is not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15e0f5b13454",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 6-year-old boy has had five episodes of croup in the past 2 years. Between episodes, he is well. What is the single most appropriate investigation to identify an underlying anatomical cause?",
+      "options": [
+        "pH impedance monitoring for GERD",
+        "Lung function tests",
+        "CT chest",
+        "Flexible laryngoscopy",
+        "Allergy skin testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recurrent croup may be due to subglottic stenosis or other anatomical abnormalities. Flexible laryngoscopy under local anaesthetic allows visualisation of the larynx and subglottis. The most tempting distractor is pH monitoring for GERD, but GERD is less likely to cause recurrent croup without other symptoms, and anatomical causes should be excluded first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "61f4de441773",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 2-year-old presents with a barking cough for one night. Examination shows no stridor at rest, no chest wall retractions, oxygen saturations 98%, and the child is playing. Which is the single most appropriate first-line treatment?",
+      "options": [
+        "Oral dexamethasone 0.15 mg/kg",
+        "No treatment",
+        "Humidified oxygen",
+        "Amoxicillin 125 mg five times daily",
+        "Nebulised adrenaline 1:1000"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends a single dose of oral dexamethasone for all children with croup symptoms, including mild cases, to reduce severity and duration. The absence of stridor at rest does not preclude benefit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0e1d247e6f7b",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 3-year-old with a three-day history of barking cough presents with inspiratory stridor at rest and subcostal retractions. Oxygen saturations are 95%, and the child is alert. Which drug should be administered first?",
+      "options": [
+        "Intravenous dexamethasone 0.6 mg/kg",
+        "Nebulised adrenaline 1:1000",
+        "Nebulised budesonide 2 mg",
+        "Oral prednisolone 1 mg/kg",
+        "Oral dexamethasone 0.15 mg/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE advises giving oral dexamethasone to all children with croup symptoms, including those with stridor at rest. Nebulised adrenaline is considered only if stridor persists with chest retractions or severe distress, but dexamethasone remains the first-line systemic therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "44808182f27a",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 2-year-old with severe croup develops drowsiness, cyanosis, and severe inspiratory stridor despite high-flow oxygen. Capillary blood gas shows pCO₂ 8.5 kPa and pO₂ 7.0 kPa. Which is the single most appropriate immediate therapy?",
+      "options": [
+        "Nebulised adrenaline 1:1000",
+        "Repeat dexamethasone 0.3 mg/kg IV",
+        "Heliox 70:30",
+        "Intubation and ventilation",
+        "BiPAP"
+      ],
+      "answerIndex": 3,
+      "explanation": "With signs of impending respiratory failure (drowsiness, cyanosis, hypercapnia), the definitive airway management is intubation and mechanical ventilation. Nebulised adrenaline may provide temporary relief but does not secure the airway in progressive respiratory failure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5fd995bd711a",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 4-year-old has had four episodes of croup over the past 18 months, each requiring a single dose of dexamethasone. Between episodes, the child is well. The parents ask about long-term medication to prevent further attacks. Which is the most appropriate first-line management?",
+      "options": [
+        "Montelukast 4 mg at night",
+        "Nebulised budesonide 200 mcg twice daily",
+        "Tonsillectomy",
+        "Prophylactic oral prednisolone 5 mg daily",
+        "Reassurance and observation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Recurrent croup is common and usually self-limiting. There is no evidence for prophylactic pharmacological therapy. Management includes reassurance and, if episodes are severe or frequent, investigation for underlying causes such as airway anomalies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea3c3b4c919f",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 2-year-old presents with a two-day history of barking cough and low-grade fever (38°C). There is no stridor at rest, and oxygen saturations are 98%. Which therapy is CONTRAINDICATED in initial management?",
+      "options": [
+        "Nebulised adrenaline 1:1000",
+        "Oral amoxicillin 125 mg five times daily",
+        "Paracetamol 15 mg/kg",
+        "Oral dexamethasone 0.15 mg/kg",
+        "Humidified oxygen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Croup is typically viral; antibiotics are not indicated unless there is confirmed bacterial superinfection. Their use in uncomplicated croup is inappropriate and contributes to antimicrobial resistance. The other options are appropriate: dexamethasone for croup, paracetamol for fever, humidified oxygen if needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90705cbc3971",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 2-year-old presents with a barking cough, stridor at rest, mild chest recession, and oxygen saturation 96% on room air. There is no cyanosis or lethargy. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for observation",
+        "Nebulised adrenaline",
+        "Start IV fluids",
+        "Request chest X-ray",
+        "Give oral dexamethasone"
+      ],
+      "answerIndex": 4,
+      "explanation": "In moderate croup with stridor at rest, NICE recommends a single dose of oral dexamethasone. Admission is not immediately required as there are no severe features; nebulised adrenaline is reserved for severe croup with respiratory distress.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "262b7f7a156d",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 1-year-old presents with severe inspiratory stridor at rest, marked chest recession, oxygen saturation 88% on air, and is lethargic. What is the most appropriate immediate next step?",
+      "options": [
+        "IV dexamethasone",
+        "Call the anaesthetist",
+        "High-flow nasal oxygen",
+        "Nebulised adrenaline",
+        "Immediate intubation"
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe croup with impending respiratory failure, nebulised adrenaline is first-line for rapid bronchodilation and reduction of airway oedema. Steroids are also given but the immediate priority is adrenaline to relieve obstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "12cb92d33227",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 3-year-old presents with stridor, drooling, high fever, and a toxic appearance. The child prefers sitting upright and is unable to swallow secretions. What is the most appropriate immediate next step?",
+      "options": [
+        "IV antibiotics",
+        "Give oral dexamethasone",
+        "Urgent ENT review",
+        "Nebulised adrenaline",
+        "Lateral neck X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Drooling, toxic appearance, and upright posture suggest epiglottitis or bacterial tracheitis rather than typical croup. Immediate expert airway assessment by ENT is the priority over investigations or medications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92a858ecfcf6",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 5-month-old infant presents with a barking cough, inspiratory stridor only when crying, mild chest recession, and oxygen saturation 99%. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for observation",
+        "Nebulised adrenaline",
+        "Chest physiotherapy",
+        "Give oral dexamethasone",
+        "Arrange outpatient review"
+      ],
+      "answerIndex": 0,
+      "explanation": "For infants under 6 months, NICE advises considering admission due to higher risk of severe progression. Although dexamethasone may be given, admission for monitoring is the immediate safe action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "626e6da1fae0",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 2-year-old was seen in the emergency department 4 hours ago and given oral dexamethasone for moderate croup. Now the stridor has resolved, there is only a mild cough, and oxygen saturation is 98% on air. The parents ask if they can go home. What is the most appropriate next step?",
+      "options": [
+        "Refer to paediatric team",
+        "Admit for 24-hour observation",
+        "Nebulised adrenaline",
+        "Discharge with safety netting",
+        "Repeat dose of dexamethasone"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends discharge if there is no stridor at rest, normal oxygen saturation, and after steroid administration. Safety netting advice is appropriate. No further intervention is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ba9e51e838d",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 3-year-old presents with barking cough and hoarse voice. There is no stridor at rest, but mild stridor when upset. Which single finding would indicate severe croup requiring urgent senior review?",
+      "options": [
+        "Stridor at rest",
+        "Barking cough",
+        "Fever >38.5°C",
+        "Runny nose",
+        "Hoarse voice"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor at rest is a key marker of significant upper airway obstruction in croup, indicating severe disease. Mild stridor only with agitation is typical of mild croup, but rest stridor requires escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "424123f904cf",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 2-year-old with croup suddenly develops stridor, drooling, and refuses to lie flat. They appear toxic. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Bacterial tracheitis",
+        "Foreign body aspiration",
+        "Retropharyngeal abscess",
+        "Viral croup",
+        "Epiglottitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The acute onset of drooling, toxicity, and preference for sitting forward are classic for epiglottitis, a life-threatening mimic of croup that requires immediate airway assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64279316a5f7",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 18-month-old with croup is treated with oral dexamethasone. Initially improves, but 24 hours later develops high fever, toxic appearance, and worsening stridor. Which complication is most likely?",
+      "options": [
+        "Epiglottitis",
+        "Viral pneumonia",
+        "Laryngospasm",
+        "Anaphylaxis",
+        "Bacterial tracheitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Worsening after initial improvement with high fever and toxicity in croup suggests secondary bacterial tracheitis, a serious complication that often requires antibiotics and supportive care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48a47d33d082",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 6-year-old presents with stridor and croupy cough, but no fever and no response to nebulised adrenaline. Which alternative diagnosis must be considered?",
+      "options": [
+        "Allergic reaction",
+        "Bacterial tracheitis",
+        "Epiglottitis",
+        "Laryngeal papillomatosis",
+        "Foreign body aspiration"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lack of fever and poor response to adrenaline in an older child with stridor suggest mechanical obstruction, such as foreign body aspiration, which is a key mimic of croup.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "153564595fad",
+      "topic": "Croup",
+      "slug": "croup",
+      "system": "ENT",
+      "subSystem": "Paediatric airway",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 2-year-old with croup initially had loud stridor but after several hours becomes quieter and appears lethargic. Which finding suggests impending respiratory arrest?",
+      "options": [
+        "Oxygen saturation 95%",
+        "Fever of 39°C",
+        "Decreased stridor",
+        "Increased stridor",
+        "Heart rate 150 bpm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Decreased stridor in a tired child indicates worsening obstruction due to reduced air entry, a pre-terminal sign of impending respiratory failure that requires urgent airway intervention.",
+      "difficulty": "hard"
+    }
+  ]
+}

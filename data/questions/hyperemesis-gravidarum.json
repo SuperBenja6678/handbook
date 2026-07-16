@@ -1,0 +1,513 @@
+{
+  "topic": "Hyperemesis Gravidarum",
+  "slug": "hyperemesis-gravidarum",
+  "system": "Obstetrics",
+  "subSystem": "Pregnancy complication",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:36Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5211ef755d55",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old primigravida at 9 weeks gestation presents with a 1-week history of nausea and vomiting. She is vomiting 4-5 times per day and has lost 2 kg. On examination, she appears well, pulse 80 bpm, BP 110/70, abdominal exam normal. Urine dipstick shows ketones 2+. What is the single most likely diagnosis?",
+      "options": [
+        "Molar pregnancy",
+        "Hyperemesis gravidarum",
+        "Anxiety disorder",
+        "Gastroenteritis",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of first-trimester vomiting, weight loss, and ketonuria without signs of infection or abdominal pain is classic for hyperemesis gravidarum. Gastroenteritis typically presents with diarrhoea and cramping; UTI would have dysuria; anxiety is a diagnosis of exclusion; molar pregnancy often has very high hCG and ultrasound features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5eddb051f5dc",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman at 10 weeks gestation presents with intractable vomiting for 3 days, unable to tolerate any oral intake. She is tachycardic at 110 bpm, BP 90/60 mmHg, and has dry mucous membranes. Blood tests show: Na 136, K 2.8, urea 8.5, creatinine 95, ALT 60, bilirubin 18. Urine ketones 4+. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pancreatitis",
+        "Urinary tract infection",
+        "Hyperemesis gravidarum (severe)",
+        "Diabetic ketoacidosis",
+        "Acute viral hepatitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe hyperemesis presents with vomiting leading to dehydration, electrolyte imbalance (hypokalaemia), and mild transaminitis. Pancreatitis would have epigastric pain and raised amylase; DKA has hyperglycaemia; hepatitis usually has markedly elevated transaminases; UTI would have urinary symptoms and bacteriuria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fbe0a8a3acba",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 26-year-old woman at 8 weeks gestation presents with persistent vomiting, weight loss of 4 kg, palpitations, and fine tremor. She has no heat intolerance or goitre. Blood tests show TSH <0.01 mIU/L, free T4 28 pmol/L (normal 9-20), and negative thyroid peroxidase antibodies. What is the single most likely diagnosis?",
+      "options": [
+        "Panic disorder",
+        "Hyperemesis gravidarum with transient hyperthyroidism",
+        "Graves' disease",
+        "Toxic multinodular goitre",
+        "Subacute thyroiditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In early pregnancy, severe hyperemesis can cause transient hyperthyroidism due to hCG cross-reactivity with the TSH receptor. The absence of goitre and negative antibodies argues against Graves' disease, and subacute thyroiditis typically presents with painful thyroid and viral prodrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec240bb4cce1",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with type 1 diabetes, now 9 weeks pregnant, presents with vomiting for 2 days. She has taken her insulin as usual. On examination, pulse 100 bpm, BP 100/70, and no signs of dehydration. Capillary blood glucose is 5.2 mmol/L. Urine dipstick shows ketones 3+. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Urinary tract infection",
+        "Gastroenteritis",
+        "Hypoglycaemia",
+        "Hyperemesis gravidarum"
+      ],
+      "answerIndex": 4,
+      "explanation": "The normal blood glucose in the context of vomiting and ketosis points to starvation ketosis from hyperemesis rather than DKA, which requires hyperglycaemia and acidosis. Hypoglycaemia would have low glucose, not ketosis; gastroenteritis usually has diarrhoea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "338101e55ddc",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman at 10 weeks gestation presents with severe nausea and vomiting, and vaginal bleeding. On ultrasound, no fetal pole is seen, and there is a 'snowstorm' appearance in the uterine cavity. Her serum hCG is 280,000 IU/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperemesis gravidarum",
+        "Multiple pregnancy",
+        "Missed miscarriage",
+        "Hydatidiform mole (molar pregnancy)",
+        "Ectopic pregnancy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The snowstorm appearance and very high hCG are classic for a complete hydatidiform mole. Hyperemesis can occur but the ultrasound findings are diagnostic. Multiple pregnancy would show multiple gestations; ectopic would have adnexal mass and low hCG; missed miscarriage would have no fetal activity but no molar features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30dbdf85bf6e",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old primigravida at 9 weeks' gestation presents with persistent nausea and vomiting for 2 weeks, unable to keep food or fluids down. She has lost 3 kg. Urine dipstick shows 2+ ketones. Which single investigation is most appropriate to confirm the diagnosis of hyperemesis gravidarum?",
+      "options": [
+        "Liver function tests",
+        "Serum hCG",
+        "Ultrasound scan",
+        "Serum potassium",
+        "Thyroid function tests"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hyperemesis gravidarum is a diagnosis of exclusion. An ultrasound scan is essential to rule out molar pregnancy and multiple gestation, which can cause severe vomiting and mimic hyperemesis. The other tests assess severity or complications but do not confirm the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "432aa1d658cc",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 26-year-old woman with hyperemesis gravidarum at 10 weeks' gestation has the following blood results: Na 138 mmol/L, K 3.2 mmol/L, urea 6.5 mmol/L, creatinine 80 µmol/L, ALT 80 U/L, TSH 0.1 mU/L, free T4 18 pmol/L. Which finding is most likely a physiological change of early pregnancy rather than a result of hyperemesis?",
+      "options": [
+        "Normal creatinine (80 µmol/L)",
+        "Low TSH (0.1 mU/L)",
+        "Elevated urea (6.5 mmol/L)",
+        "Elevated ALT (80 U/L)",
+        "Hypokalemia (K 3.2 mmol/L)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In early pregnancy, hCG cross-reacts with the TSH receptor, causing transient suppression of TSH; this is a normal physiological finding and not indicative of hyperthyroidism. Hypokalemia, elevated urea, and elevated ALT are commonly seen in hyperemesis due to vomiting and dehydration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7dd24f3167f7",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 12 weeks' gestation presents to the emergency department with persistent vomiting, dry mucous membranes, and postural hypotension. Urine dipstick shows 4+ ketones. Which investigation should be performed next to assess the severity of her condition?",
+      "options": [
+        "Thyroid function tests",
+        "Serum urea and electrolytes",
+        "Serum calcium",
+        "Ultrasound scan",
+        "Liver function tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe hyperemesis, electrolyte disturbances—particularly hypokalemia and hyponatremia—are common and can be life-threatening. Urea and electrolytes guide intravenous fluid and potassium replacement. Liver and thyroid tests and calcium are also relevant but are not the immediate priority for assessing severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "484fabdc3135",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "According to NICE guidance, which of the following is considered a marker of severe hyperemesis gravidarum?",
+      "options": [
+        "Serum potassium <3.5 mmol/L",
+        "TSH <0.1 mU/L",
+        "ALT >2 times the upper limit of normal",
+        "Ketonuria of 2+",
+        "Weight loss >5% of pre-pregnancy weight"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE states that weight loss of more than 5% of pre-pregnancy weight is a marker of severe hyperemesis. While ketonuria and electrolyte abnormalities are common, they do not alone define severity; a low TSH may be physiological.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "20ef19f341b8",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with a history of Graves' disease is now 8 weeks' pregnant with twins and presents with severe vomiting, tachycardia, and weight loss. Which investigation is most appropriate to distinguish hyperemesis gravidarum from a thyroid emergency?",
+      "options": [
+        "Electrocardiogram",
+        "Anti-TPO antibodies",
+        "Free T4 and TSH",
+        "Ultrasound scan",
+        "Urine ketones"
+      ],
+      "answerIndex": 2,
+      "explanation": "In hyperemesis, low TSH with normal or mildly elevated free T4 is typical due to hCG cross-reactivity. In thyrotoxic crisis, free T4 is significantly elevated with suppressed TSH. Measuring free T4 and TSH differentiates the two. Urine ketones confirm starvation but do not distinguish the cause; ultrasound rules out molar pregnancy but not thyroid disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f4a6b2f852b7",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 24-year-old woman at 8 weeks' gestation presents with nausea and vomiting 3-4 times per day. She can keep down small amounts of fluid. Urine ketones are negative. What is the most appropriate first-line antiemetic?",
+      "options": [
+        "Cyclizine 50 mg orally as needed",
+        "Prochlorperazine 5 mg orally three times daily",
+        "Metoclopramide 10 mg orally three times daily",
+        "Promethazine 25 mg orally at night",
+        "Ondansetron 4 mg orally as needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend cyclizine (an antihistamine) as first-line therapy for mild hyperemesis due to its safety profile in pregnancy. Prochlorperazine is also first-line but cyclizine is more commonly used initially.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a8421c5aeab5",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old primigravida at 10 weeks' gestation presents with persistent vomiting, unable to tolerate oral fluids for 24 hours. She is clinically dehydrated with ketonuria 3+. What is the most appropriate initial treatment?",
+      "options": [
+        "Intravenous ondansetron 4 mg",
+        "Intravenous cyclizine 50 mg",
+        "Intravenous thiamine 100 mg",
+        "Intravenous metoclopramide 10 mg",
+        "Oral prochlorperazine 5 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe hyperemesis with dehydration, intravenous antiemetic therapy is required. Cyclizine IV is first-line; ondansetron and metoclopramide are reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93cbf71bc97d",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 12 weeks' gestation with hyperemesis gravidarum develops confusion, ataxia, and nystagmus. What is the most appropriate immediate treatment?",
+      "options": [
+        "Pyridoxine 50 mg orally daily",
+        "Folic acid 5 mg orally daily",
+        "Oral thiamine 100 mg daily",
+        "Intravenous thiamine (Pabrinex) 100 mg twice daily",
+        "Intravenous glucose 50 mL of 50% solution"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation is consistent with Wernicke's encephalopathy due to thiamine deficiency. High-dose IV thiamine must be given before any glucose to prevent further neurological damage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "17c198f23922",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old patient at 9 weeks' gestation with hyperemesis gravidarum is found to have a prolonged QT interval on ECG (QTc 500 ms). Which antiemetic is contraindicated?",
+      "options": [
+        "Cyclizine",
+        "Promethazine",
+        "Ondansetron",
+        "Metoclopramide",
+        "Prochlorperazine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ondansetron is associated with QT prolongation and should be avoided in patients with pre-existing long QT syndrome or electrolyte abnormalities. Cyclizine, prochlorperazine, and promethazine have minimal QT effects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e446c5afb1e",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 26-year-old woman at 7 weeks' gestation with hyperemesis gravidarum has a history of a dystonic reaction to metoclopramide. Which antiemetic is most appropriate to use?",
+      "options": [
+        "Prochlorperazine",
+        "Domperidone",
+        "Metoclopramide",
+        "Cyclizine",
+        "Ondansetron"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cyclizine is an antihistamine with no extrapyramidal side effects, making it safe in patients with prior dystonic reactions. Prochlorperazine and metoclopramide can cause EPS; ondansetron and domperidone have other considerations but cyclizine remains first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "df7bfe576b5f",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 26-year-old woman at 9 weeks gestation presents to the emergency department with a 2-day history of nausea and vomiting. She has been unable to keep down fluids for 24 hours. Observations: pulse 90 bpm, BP 100/65 mmHg, temperature 37.0°C. Mucous membranes are dry. She has not had any antenatal scans. What is the most appropriate immediate next step?",
+      "options": [
+        "Check urine ketones",
+        "Admit for intravenous fluids",
+        "Start oral cyclizine 50 mg three times daily",
+        "Prescribe oral thiamine 50 mg daily",
+        "Arrange an ultrasound scan for viability"
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking urine ketones is a key step in assessing severity of hyperemesis gravidarum. NICE guidelines recommend using ketonuria to guide the need for admission and intravenous fluids. While admission and fluids may be needed, the immediate next step is to quantify ketones to determine the appropriate level of care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "456c5a0da152",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old primigravida at 12 weeks gestation presents with persistent nausea and vomiting. She is currently taking oral cyclizine 50 mg three times daily, which has not improved her symptoms. She can keep down small amounts of fluids. Urine ketones are 1+. Observations are normal. What is the most appropriate next step?",
+      "options": [
+        "Add a proton pump inhibitor for gastritis",
+        "Switch to oral prochlorperazine 5 mg three times daily",
+        "Check thyroid function tests",
+        "Admit for intravenous fluids and antiemetics",
+        "Prescribe oral ondansetron 8 mg twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "For mild-to-moderate hyperemesis gravidarum that is not responding to one oral antiemetic, NICE recommends trying an alternative oral antiemetic before progressing to intravenous therapy. Prochlorperazine or metoclopramide are suitable options. Ondansetron is second-line due to risk of QT prolongation and would not be first choice over another conventional antiemetic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92d36f0d1bad",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman at 10 weeks gestation is brought to the emergency department with severe vomiting for 3 days. She is unable to keep anything down. Observations: pulse 110 bpm, BP 90/60 mmHg, temperature 36.8°C. Capillary refill time is 4 seconds. Urine ketones are 4+. She has lost 6% of her pre-pregnancy weight. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous normal saline with Pabrinex (thiamine)",
+        "Check serum potassium and magnesium",
+        "Arrange an urgent obstetric ultrasound",
+        "Prescribe intravenous ondansetron",
+        "Insert a nasogastric tube for feeding"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severe hyperemesis gravidarum with signs of dehydration and significant ketonuria, the immediate priority is to start intravenous fluids with thiamine (Pabrinex) to prevent Wernicke's encephalopathy, as glucose-containing fluids can precipitate it. Checking electrolytes is important but should follow after or concurrently with fluid resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ba374bd504c",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman at 11 weeks gestation with hyperemesis gravidarum develops confusion, ataxia, and horizontal nystagmus. She has been unable to tolerate oral intake for over a week and has been managed with oral antiemetics at home. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous benzodiazepines for agitation",
+        "Administer intravenous thiamine (Pabrinex)",
+        "Request an urgent MRI brain",
+        "Check serum electrolytes and correct imbalances",
+        "Transfer to the intensive care unit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The triad of confusion, ataxia, and nystagmus is classical for Wernicke's encephalopathy, a medical emergency. The immediate life-saving intervention is intravenous thiamine (Pabrinex) before any glucose administration. Investigations like MRI may confirm but should not delay treatment. ICU transfer may be needed but giving thiamine is the first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ee250dd97210",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with a history of hyperemesis gravidarum in her previous pregnancy presents at 6 weeks gestation with nausea and vomiting. She is currently taking cyclizine 50 mg three times daily and pyridoxine 10 mg twice daily, prescribed by her GP. Her symptoms are affecting her ability to work but she can keep down some fluids. Urine ketones are negative. What is the most appropriate next step?",
+      "options": [
+        "Prescribe oral metoclopramide 10 mg three times daily",
+        "Start a proton pump inhibitor",
+        "Refer to the early pregnancy assessment unit",
+        "Advise ginger supplements and dietary changes",
+        "Add oral ondansetron 4 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a woman with a history of hyperemesis gravidarum presenting with recurrence, NICE recommends early referral to specialist care (obstetric medicine or early pregnancy unit) for multidisciplinary management. While adding another antiemetic may seem logical, the most appropriate next step given the history is specialist referral to optimise treatment and prevent deterioration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39c07003f8bc",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old primigravida at 10 weeks gestation presents with severe vomiting for 3 weeks, unable to keep down any food or fluids. She has lost 5 kg. On examination, she appears dehydrated. Which of the following findings is most concerning for a life-threatening complication?",
+      "options": [
+        "Kussmaul breathing",
+        "Dry mucous membranes",
+        "Tachycardia of 110 bpm",
+        "Ketonuria on urine dip",
+        "Confusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Confusion is a red flag for Wernicke's encephalopathy or severe hyponatraemia, both life-threatening complications. Ketonuria and dry mucous membranes indicate dehydration but are not immediately life-threatening on their own.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0df6a10b81b3",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman at 14 weeks gestation with hyperemesis gravidarum is brought to the emergency department after a tonic-clonic seizure. Which of the following electrolyte abnormalities is most likely to have caused the seizure?",
+      "options": [
+        "Hypocalcaemia",
+        "Hypomagnesaemia",
+        "Hypernatraemia",
+        "Hyponatraemia",
+        "Hyperkalaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hyponatraemia is a common complication of hyperemesis due to vomiting and fluid shifts, and can cause cerebral oedema leading to seizures. Hypocalcaemia and hypomagnesaemia can also cause seizures but are less typical in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "55adea2f671e",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman with hyperemesis gravidarum at 9 weeks presents with a single episode of vomiting fresh bright red blood. Which of the following complications should be suspected?",
+      "options": [
+        "Gastritis",
+        "Oesophageal varices",
+        "Peptic ulcer disease",
+        "Gastric ulcer",
+        "Mallory-Weiss tear"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hematemesis following vigorous vomiting is classic for a Mallory-Weiss tear, a longitudinal mucosal tear at the gastro-oesophageal junction. Other causes are less likely in a young pregnant woman without risk factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4eab1df8b36d",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 26-year-old woman with hyperemesis gravidarum on oral metoclopramide presents with acute onset of involuntary neck muscle spasms and upward deviation of the eyes. Which of the following findings is most indicative of the underlying cause?",
+      "options": [
+        "Mild sedation",
+        "Diarrhoea",
+        "Dry mouth",
+        "Torticollis and oculogyric crisis",
+        "Headache"
+      ],
+      "answerIndex": 3,
+      "explanation": "Torticollis and oculogyric crisis are characteristic of an acute dystonic reaction, a known side effect of metoclopramide. This is a medical emergency requiring prompt anticholinergic treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d21d9ddfa40a",
+      "topic": "Hyperemesis Gravidarum",
+      "slug": "hyperemesis-gravidarum",
+      "system": "Obstetrics",
+      "subSystem": "Pregnancy complication",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old primigravida at 11 weeks with hyperemesis gravidarum has a heart rate of 110 bpm and fine tremor. She has no goitre or exophthalmos. Which of the following thyroid function test results is most consistent with gestational transient thyrotoxicosis rather than Graves' disease?",
+      "options": [
+        "Elevated TSH with low free T4",
+        "Normal TSH with elevated free T4",
+        "Low TSH with elevated free T4 and negative TPO antibodies",
+        "Low TSH with elevated free T4 and positive TPO antibodies",
+        "Low TSH with normal free T4"
+      ],
+      "answerIndex": 2,
+      "explanation": "In gestational transient thyrotoxicosis, hCG cross-reacts with TSH receptors, causing low TSH and high free T4, but thyroid autoantibodies (TPO) are negative, distinguishing it from Graves' disease. Option 2 would suggest autoimmunity.",
+      "difficulty": "hard"
+    }
+  ]
+}

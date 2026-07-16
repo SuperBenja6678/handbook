@@ -1,0 +1,513 @@
+{
+  "topic": "Ventricular Tachycardia — stable",
+  "slug": "ventricular-tachycardia-—-stable",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:30Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8f6c5746c265",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with a history of anterior myocardial infarction 2 years ago presents with palpitations and light-headedness. He is heart rate 170 bpm, blood pressure 100/60 mmHg, respiratory rate 18. ECG shows a regular wide QRS tachycardia with a left bundle branch block morphology, superior axis, and a QRS duration of 160 ms. There is evidence of atrioventricular dissociation (P waves seen intermittently). What is the single most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia with left bundle branch block",
+        "Supraventricular tachycardia with aberrancy",
+        "Atrial fibrillation with pre-excitation",
+        "Ventricular tachycardia",
+        "Accelerated idioventricular rhythm"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of AV dissociation (independent P waves) and a wide QRS tachycardia in a patient with structural heart disease (previous MI) is diagnostic of ventricular tachycardia. SVT with aberrancy would show fixed relationship, and atrial fibrillation is irregular.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ddbc9e5be60d",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with no known heart disease presents with intermittent palpitations. During an episode, her ECG shows a regular wide QRS tachycardia at 180 bpm, with a right bundle branch block morphology and left axis deviation. She is haemodynamically stable. What is the single most likely diagnosis?",
+      "options": [
+        "Atrioventricular nodal reentrant tachycardia with aberrancy",
+        "Idiopathic ventricular tachycardia",
+        "Wolff-Parkinson-White syndrome with antidromic tachycardia",
+        "Sinus tachycardia with bundle branch block",
+        "Atrial tachycardia with aberrancy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Idiopathic VT, often from the left ventricle, can present in young healthy individuals with RBBB morphology and left axis. AVNRT with aberrancy is less likely as it would typically show a different axis. Antidromic WPW would show pre-excitation in sinus rhythm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "802ac1ae9714",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old male with non-ischaemic cardiomyopathy (ejection fraction 35%) presents with presyncope. His ECG shows a regular wide QRS tachycardia at 150 bpm. No P waves are clearly seen. He is comfortable, blood pressure 110/70 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Sinus tachycardia with pre-existing left bundle branch block",
+        "Sustained monomorphic ventricular tachycardia",
+        "Atrial flutter with 1:1 conduction",
+        "Supraventricular tachycardia with aberrancy",
+        "Ventricular bigeminy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustained monomorphic VT is common in patients with structural heart disease, especially cardiomyopathy. SVT with aberrancy is less likely given the lack of clear P waves and the heart disease. Atrial flutter with 1:1 would have typical flutter waves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "10ab0b9340e3",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents to the emergency department with palpitations and mild dyspnoea. She has a history of well-controlled hypertension. Her ECG shows a wide QRS tachycardia at 140 bpm, regular, with a QRS morphology that is neither typical left nor right bundle branch block. There are no visible P waves. She is haemodynamically stable. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperkalaemia-induced wide QRS tachycardia",
+        "Ventricular paced rhythm (occult pacemaker)",
+        "Atrial fibrillation with pre-existing right bundle branch block",
+        "Supraventricular tachycardia with aberrancy and atypical bundle branch block",
+        "Ventricular tachycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Wide QRS tachycardia with an atypical morphology and no P waves, especially in a patient without significant electrolyte abnormalities or known pacemaker, is most likely VT. Hyperkalaemia usually presents with wider QRS and sine wave progression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e5cf9dc30747",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old male athlete experiences recurrent palpitations during exercise. During a treadmill test, a wide QRS tachycardia at 200 bpm is noted. The QRS is positive in all precordial leads (positive concordance). He remains haemodynamically stable and the tachycardia terminates spontaneously. What is the single most likely diagnosis?",
+      "options": [
+        "Ventricular tachycardia originating from the right ventricular outflow tract",
+        "Atrioventricular nodal reentrant tachycardia with aberrancy",
+        "Sinus tachycardia with pre-existing left bundle branch block",
+        "Atrial flutter with 1:1 conduction",
+        "Wolff-Parkinson-White syndrome with orthodromic tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Positive concordance (all QRS complexes positive in precordial leads) in a wide QRS tachycardia indicates VT. RVOT VT is a common idiopathic VT in young athletes. SVT with aberrancy would not show concordance. Orthodromic WPW would have a narrow QRS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d2e8bb3f5952",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with no prior cardiac history presents with palpitations and lightheadedness. ECG shows a regular broad complex tachycardia at 160 bpm, left axis deviation, and no visible P waves. He is haemodynamically stable. Which of the following ECG findings is most specific for confirming the diagnosis of ventricular tachycardia?",
+      "options": [
+        "QRS duration >160 ms",
+        "Capture beats",
+        "Right axis deviation",
+        "Left bundle branch block morphology",
+        "Absence of P waves"
+      ],
+      "answerIndex": 1,
+      "explanation": "Capture beats (or fusion beats) are pathognomonic for VT as they indicate intermittent atrial capture of the ventricles, proving ventricular origin. Left bundle branch block pattern and QRS width are supportive but not specific; absence of P waves is common but also seen in atrial fibrillation with aberrancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fbbdcbd0e25e",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with a history of ischemic cardiomyopathy is referred for palpitations. A 24-hour ECG reveals frequent runs of non-sustained ventricular tachycardia. He is asymptomatic at rest. What is the most appropriate next investigation to assess his risk?",
+      "options": [
+        "Electrophysiological study",
+        "Cardiac MRI",
+        "Transthoracic echocardiogram",
+        "Coronary angiography",
+        "Exercise tolerance test"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend transthoracic echocardiogram as the first-line test to assess left ventricular function and structural heart disease in patients with VT. This guides further risk stratification and management. Cardiac MRI is reserved for specific indications, and electrophysiological study is not first-line for non-sustained VT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc9ca756c3cf",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with no known cardiac disease presents with sudden palpitations. ECG shows a regular broad complex tachycardia at 180 bpm, no visible P waves. He is haemodynamically stable. What is the most appropriate next test to distinguish ventricular tachycardia from supraventricular tachycardia with aberrancy?",
+      "options": [
+        "Adenosine",
+        "Synchronised cardioversion",
+        "Amiodarone",
+        "Verapamil",
+        "Carotid sinus massage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Adenosine is recommended by NICE as a diagnostic agent in stable broad complex tachycardia of uncertain origin. It can terminate SVT or slow AV conduction to reveal atrial activity, aiding differentiation. Verapamil and cardioversion should be avoided in VT, and carotid sinus massage is less reliable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ddcb703631e8",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 24 weeks gestation presents with palpitations. An ECG shows monomorphic ventricular tachycardia. She is haemodynamically stable. What is the single most appropriate investigation to assess her cardiac structure and function?",
+      "options": [
+        "Electrophysiological study",
+        "Transthoracic echocardiogram",
+        "Exercise stress echocardiogram",
+        "CT coronary angiography",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transthoracic echocardiogram is the first-line imaging modality in pregnancy as it is safe and effective for assessing cardiac anatomy and function. Cardiac MRI is avoided in first trimester and used only if essential; CT coronary angiography involves radiation and contrast risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0baebc2cb48f",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with ischaemic cardiomyopathy and a dual-chamber implantable cardioverter-defibrillator (ICD) presents with episodes of palpitations. His device event recorder shows a broad complex tachycardia. What is the single most appropriate investigation to determine the mechanism of the arrhythmia?",
+      "options": [
+        "24-hour ambulatory ECG",
+        "Transthoracic echocardiogram",
+        "12-lead ECG",
+        "ICD interrogation",
+        "Chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "ICD interrogation provides stored electrograms from the device, allowing precise diagnosis of the rhythm (VT vs SVT) and assessment of therapy delivered. A 12-lead ECG may not capture the arrhythmia, and ambulatory ECG is less helpful given the device's diagnostic capabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "81acdf65b488",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with no significant past medical history presents with palpitations. ECG shows a regular broad-complex tachycardia with a left bundle branch block morphology and northwest axis, rate 180 bpm. He is haemodynamically stable (BP 120/80 mmHg). What is the most appropriate first-line drug for acute cardioversion?",
+      "options": [
+        "Intravenous adenosine 6 mg",
+        "Intravenous verapamil 5 mg",
+        "Intravenous lidocaine 100 mg",
+        "Intravenous amiodarone 300 mg",
+        "Intravenous flecainide 2 mg/kg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Amiodarone is the first-line pharmacological agent for stable monomorphic VT in the UK. Verapamil is contraindicated (may cause haemodynamic collapse). Flecainide is not indicated for acute VT conversion and can be proarrhythmic. Adenosine is for SVT. Lidocaine is second-line at best.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5c6385d601a",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with ischaemic cardiomyopathy (LVEF 35%) on bisoprolol and ramipril presents with sustained monomorphic VT at 160 bpm. He is alert, chest pain resolved, BP 105/70 mmHg. What is the most appropriate acute therapy?",
+      "options": [
+        "Intravenous amiodarone 300 mg",
+        "Urgent ICD implantation",
+        "Synchronised DC cardioversion 150 J",
+        "Increase bisoprolol dose",
+        "Intravenous lidocaine 100 mg"
+      ],
+      "answerIndex": 0,
+      "explanation": "For stable VT, pharmacological cardioversion with amiodarone is first-line. Synchronised cardioversion is reserved for haemodynamic instability. Increasing beta-blocker is not acute management. Lidocaine is not first-line. ICD is for secondary prevention but not acute episode.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "447d16124eda",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with known congenital long QT syndrome (QTc 520 ms) presents with palpitations and dizziness. ECG shows polymorphic VT (torsades de pointes) at 200 bpm. BP 100/65 mmHg. What is the most appropriate first-line treatment?",
+      "options": [
+        "Isoprenaline infusion",
+        "Intravenous amiodarone 300 mg",
+        "Synchronised DC cardioversion 100 J",
+        "Intravenous lidocaine 100 mg",
+        "Intravenous magnesium sulphate 2 g"
+      ],
+      "answerIndex": 4,
+      "explanation": "IV magnesium is the first-line treatment for torsades de pointes regardless of serum magnesium levels. Amiodarone can prolong QT and worsen the arrhythmia. Cardioversion is used if unstable. Lidocaine is not effective. Isoprenaline is for bradycardia-dependent torsades, not acute tachycardic episode.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "883a8f5f9aa2",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old with severe aortic stenosis (valve area 0.8 cm²) presents with stable monomorphic VT at 170 bpm. He has no history of coronary disease. Which antiarrhythmic drug is contraindicated in this patient?",
+      "options": [
+        "Intravenous lidocaine",
+        "Oral sotalol",
+        "Intravenous flecainide",
+        "Intravenous procainamide",
+        "Intravenous amiodarone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flecainide (class Ic) is contraindicated in patients with structural heart disease due to increased mortality (CAST trial). Amiodarone, lidocaine, procainamide, and sotalol may be used with caution, but flecainide is absolutely contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54a0897de002",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man on digoxin for atrial fibrillation presents with nausea, blurred vision, and palpitations. ECG shows a regular broad-complex tachycardia with alternating axis (bidirectional VT). He is haemodynamically stable. Which therapy is contraindicated?",
+      "options": [
+        "Intravenous phenytoin",
+        "Synchronised DC cardioversion 100 J",
+        "Intravenous lidocaine 100 mg",
+        "Intravenous amiodarone 300 mg",
+        "Digoxin-specific Fab fragments"
+      ],
+      "answerIndex": 1,
+      "explanation": "In digoxin toxicity, electrical cardioversion can precipitate intractable ventricular fibrillation. The definitive treatment is digoxin-specific Fab fragments. Amiodarone may be used but increases digoxin levels; lidocaine and phenytoin are alternatives. Cardioversion is contraindicated unless patient is unstable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0e334fb2680a",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known ischaemic heart disease presents to the emergency department with palpitations. He is haemodynamically stable (BP 110/70 mmHg, RR 18, SpO2 97%), and an ECG shows a broad-complex tachycardia at 150 bpm with a left bundle branch block morphology. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral bisoprolol 2.5 mg",
+        "Administer IV amiodarone 300 mg over 20–60 minutes",
+        "Seek urgent review by the cardiac arrest team",
+        "Give IV adenosine 6 mg",
+        "Perform synchronised electrical cardioversion at 150 J"
+      ],
+      "answerIndex": 1,
+      "explanation": "In stable monomorphic VT, IV amiodarone is first-line per UK guidelines (Resuscitation Council UK). Synchronised cardioversion is reserved if amiodarone fails or the patient becomes unstable. Adenosine is for narrow-complex tachycardias or SVT with aberrancy; this ECG is consistent with VT. Beta-blockers have a role in long-term management but are not the acute treatment. Escalation is not needed for a stable rhythm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24f356811c1e",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with dilated cardiomyopathy on amiodarone 200 mg daily presents with recurrent episodes of palpitations. She is comfortable, BP 100/70 mmHg, and telemetry shows non-sustained VT (6 beats at 130 bpm). Her latest serum potassium was 3.3 mmol/L and magnesium 0.6 mmol/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give IV magnesium 2 g over 10 minutes",
+        "Increase amiodarone to 400 mg daily",
+        "Perform synchronised cardioversion",
+        "Refer for electrophysiology study and ablation",
+        "Start oral sotalol 80 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypokalaemia and hypomagnesaemia are common triggers for VT. Correcting electrolytes (especially Mg2+) is the immediate priority before escalating antiarrhythmics. Cardioversion is not indicated for non-sustained VT. Increasing amiodarone may be considered after electrolyte correction, but first address the underlying metabolic disturbance. Sotalol is another antiarrhythmic but not first-line here. Ablation is a longer-term option.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e97b879b3d64",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with anterior STEMI underwent primary PCI 12 hours ago. He now develops monomorphic VT at 160 bpm, BP 115/75 mmHg, and is asymptomatic. What is the single most appropriate immediate next step?",
+      "options": [
+        "Observe and repeat ECG in 1 hour",
+        "Give IV amiodarone 300 mg over 20–60 minutes",
+        "Perform synchronised cardioversion with 100 J",
+        "Administer IV lignocaine 100 mg",
+        "Start IV metoprolol 5 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In stable VT post-MI, IV amiodarone is recommended as first-line medical therapy. Cardioversion is reserved if the patient becomes unstable or amiodarone fails. Lignocaine is less effective and not first-line in UK guidelines. Metoprolol may be given for secondary prevention but not as acute termination. Observation is not appropriate for ongoing VT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27379cbf8f36",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 34-year-old woman with known long QT syndrome (QTc 520 ms) presents with palpitations. ECG shows polymorphic VT (torsades de pointes) at 180 bpm. She is awake, BP 100/65 mmHg, with mild dizziness. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start IV isoprenaline infusion at 1 μg/min",
+        "Perform synchronised cardioversion at 150 J",
+        "Give IV amiodarone 300 mg over 20 minutes",
+        "Give a beta-blocker (e.g., propranolol 1 mg IV)",
+        "Administer IV magnesium sulphate 2 g over 10 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "In torsades de pointes, IV magnesium is first-line regardless of serum magnesium level, as it stabilises the myocardium. Amiodarone can worsen QT prolongation. Cardioversion is used if the patient is unstable. Isoprenaline is considered if bradycardia-induced, but not first. Beta-blockers are for long-term management, not acute termination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7caf8c4797b8",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with an implantable cardioverter-defibrillator (ICD) attends clinic for routine follow-up. He reports having received three appropriate shocks in the past month for VT. His current medications include bisoprolol 2.5 mg daily and amiodarone 200 mg daily. He has no symptoms today, BP 125/80 mmHg, and a 12-lead ECG shows sinus rhythm with frequent PVCs. Device interrogation shows no VT in the last 24 hours. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer for VT ablation",
+        "Stop amiodarone and start sotalol 80 mg twice daily",
+        "Programme the ICD to deliver anti-tachycardia pacing (ATP) for all VT episodes",
+        "Increase the dose of bisoprolol to 10 mg daily",
+        "Immediately perform synchronised cardioversion"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with an ICD and recurrent VT despite low-dose beta-blocker, the immediate step is to optimise medical therapy. Increasing bisoprolol is an evidence-based intervention to reduce VT burden. Programming ATP is a device consideration but not the immediate action in clinic. Ablation is considered after medical optimisation. Cardioversion is not indicated for a stable patient currently in sinus rhythm. Switching antiarrhythmics may be considered later if beta-blockade fails.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd6c62996754",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with previous anterior MI presents with palpitations. BP 110/70, alert, no chest pain. ECG shows broad complex tachycardia at 180 bpm. Which single finding would make this an emergency requiring immediate cardioversion?",
+      "options": [
+        "Presence of P waves",
+        "QRS width >0.16 s",
+        "Rate >200 bpm",
+        "Monomorphic QRS morphology",
+        "Complaint of chest tightness"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chest tightness indicates myocardial ischaemia, which, despite normal BP, signifies haemodynamic instability. NICE recommends immediate electrical cardioversion for unstable VT. The other options are not red flags in a stable patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a73f06a8de90",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with ischaemic cardiomyopathy and an implantable cardioverter-defibrillator (ICD) describes two device firings today. He is well, BP 125/80, saturations 98%. Which finding is a red flag requiring urgent escalation?",
+      "options": [
+        "He had a similar episode last month",
+        "He has fever and raised inflammatory markers",
+        "He takes warfarin",
+        "The QRS width on his ECG is 100 ms",
+        "The ICD is from a different manufacturer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fever with raised inflammatory markers suggests device-related infection (e.g., endocarditis), a serious complication needing immediate IV antibiotics and device extraction. The other options are not immediately dangerous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "857b21d7bb28",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known heart failure presents with VT at 150 bpm. BP 110/70, alert, no chest pain. Which single examination finding would indicate the need for immediate cardioversion?",
+      "options": [
+        "Peripheral oedema",
+        "Raised JVP",
+        "Displaced apex beat",
+        "Pan-systolic murmur",
+        "Bibasal crackles"
+      ],
+      "answerIndex": 4,
+      "explanation": "Bibasal crackles indicate pulmonary oedema from elevated left ventricular filling pressures, making the patient haemodynamically unstable despite normal BP. Immediate cardioversion is indicated per NICE guidelines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "577193db80b0",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with stable VT is started on amiodarone. After 2 weeks, she develops palpitations and lightheadedness. ECG shows sinus rhythm with a prolonged QTc of 520 ms. Which single feature marks this as a life-threatening complication?",
+      "options": [
+        "U waves",
+        "QTc >500 ms",
+        "Bradycardia of 50 bpm",
+        "T wave inversion in V4-V6",
+        "Occasional ventricular ectopics"
+      ],
+      "answerIndex": 1,
+      "explanation": "QTc >500 ms significantly increases the risk of Torsades de Pointes, a life-threatening arrhythmia. Amiodarone can cause QT prolongation; this is a red flag requiring immediate dose reduction or cessation and monitoring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aff2e09211c6",
+      "topic": "Ventricular Tachycardia — stable",
+      "slug": "ventricular-tachycardia-—-stable",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with no structural heart disease presents with palpitations and an ECG showing monomorphic VT. Her mother died suddenly at age 40. Which ECG finding is a red flag for an inherited arrhythmia syndrome?",
+      "options": [
+        "Prolonged PR interval",
+        "Left ventricular hypertrophy",
+        "ST elevation in V1-V3 with coved type",
+        "Pathological Q waves",
+        "Right axis deviation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coved ST elevation in V1-V3 (Brugada pattern) is associated with Brugada syndrome, a channelopathy causing sudden cardiac death. Family history of sudden death makes this a red flag; the patient needs urgent specialist referral and consideration of ICD.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Brain Tumours — Primary & Metastatic",
+  "slug": "brain-tumours-primary-metastatic",
+  "system": "Oncology",
+  "subSystem": "CNS",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:06Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8cacaee7156b",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with no past medical history presents with a first generalised tonic-clonic seizure. His partner reports that over the past 2 months he has become increasingly withdrawn and irritable. Neurological examination is normal. CT head shows a hypodense lesion in the left frontal lobe with no contrast enhancement. What is the single most likely diagnosis?",
+      "options": [
+        "Ischaemic stroke",
+        "Low-grade astrocytoma (diffuse astrocytoma)",
+        "Meningioma",
+        "Glioblastoma multiforme",
+        "Cerebral abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low-grade astrocytoma typically presents with seizures or personality change and appears as a non-enhancing hypodense lesion on CT. Glioblastoma would show enhancement and often more mass effect; meningioma is extra-axial; abscess has ring enhancement; stroke is acute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d2198c60191",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with known lung adenocarcinoma presents with sudden severe headache, vomiting, and left hemiparesis. He is drowsy. CT head shows a hyperdense lesion in the right parietal lobe with surrounding oedema and midline shift. What is the single most likely diagnosis?",
+      "options": [
+        "Meningioma",
+        "Subdural haematoma",
+        "Haemorrhagic brain metastasis",
+        "Primary intracerebral haemorrhage",
+        "Cerebral abscess"
+      ],
+      "answerIndex": 2,
+      "explanation": "Haemorrhagic brain metastasis is common in lung adenocarcinoma, presenting acutely with hyperdense lesion on CT. Primary ICH is less likely given the known cancer; subdural haematoma usually follows trauma; abscess has fever and ring enhancement; meningioma is slow-growing and enhancing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "57f7c0000e1b",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with a history of breast cancer 5 years ago (now in remission) presents with two weeks of progressive unsteadiness, vertigo, and nausea. Examination reveals nystagmus on left gaze. Hearing is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Benign paroxysmal positional vertigo",
+        "Acoustic neuroma (vestibular schwannoma)",
+        "Cerebellar metastasis",
+        "Vestibular neuritis",
+        "Posterior circulation stroke"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cerebellar metastasis is suggested by progressive symptoms, history of breast cancer, and central nystagmus without hearing loss. Vestibular neuritis and BPPV are acute and peripheral; acoustic neuroma would cause hearing loss; posterior circulation stroke is acute, not progressive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e3bf70d4d700",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old man with known oligodendroglioma (IDH-mutant, 1p/19q co-deleted) on surveillance presents with new-onset seizures and worsening headache over one week. MRI brain shows a new enhancing nodule within a previously non-enhancing tumour. What is the single most likely diagnosis?",
+      "options": [
+        "Radiation necrosis",
+        "Demyelinating lesion",
+        "Cerebral abscess",
+        "Tumour progression (anaplastic transformation)",
+        "Pseudoprogression from radiotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "New enhancement and symptoms in a known low-grade glioma indicate anaplastic transformation. Pseudoprogression and radiation necrosis occur after radiotherapy, not mentioned; abscess and demyelination are less likely given the known tumour.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cf556a91ecb0",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with a known non-functioning pituitary macroadenoma presents with sudden severe frontal headache, nausea, and bilateral visual loss. He is hypotensive and has low serum cortisol. CT head shows a hyperdense sellar mass with no subarachnoid blood. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine with aura",
+        "Pituitary apoplexy (haemorrhagic infarction)",
+        "Cerebral venous sinus thrombosis",
+        "Meningitis",
+        "Subarachnoid haemorrhage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pituitary apoplexy is a complication of pituitary adenoma, presenting with acute headache, visual loss, and adrenal crisis. CT shows hyperdense sella without subarachnoid blood. SAH would show diffuse blood; migraine and meningitis do not cause hypotension and visual loss; CVST has different CT signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dae712e1452a",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a 4-week history of progressive headache that is worse in the morning and associated with nausea. He has had two episodes of generalised tonic-clonic seizures in the past week. Neurological examination is normal. What is the single most appropriate next investigation to confirm the suspected diagnosis?",
+      "options": [
+        "MRI brain with intravenous gadolinium",
+        "Positron emission tomography (PET)-CT",
+        "Electroencephalogram (EEG)",
+        "Lumbar puncture",
+        "CT head without contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI with gadolinium is the gold standard for characterising brain tumours; CT is less sensitive and may miss small or posterior fossa lesions. EEG is for seizure focus, not tumour diagnosis. LP is contraindicated if mass suspected. PET-CT is for staging, not primary diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "71bee2a68541",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with a history of breast cancer treated 2 years ago presents with a one-week history of mild headache, which is worse on lying down. There are no focal neurological deficits. She is otherwise well. What is the most appropriate investigation to identify the cause of her headache?",
+      "options": [
+        "MRI brain with intravenous gadolinium",
+        "CT head without contrast",
+        "Lumbar puncture",
+        "CT head with contrast",
+        "Skull X-ray"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI with gadolinium is the most sensitive imaging modality for detecting brain metastases, especially small lesions. CT with contrast is an alternative but less sensitive. LP is for meningitis, not indicated here. Skull X-ray is obsolete.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54d75ebb862e",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with known lung cancer presents to the emergency department with acute confusion, vomiting, and right-sided weakness. His Glasgow Coma Scale is 14. Fundoscopy shows bilateral papilloedema. What is the single most appropriate immediate investigation?",
+      "options": [
+        "CT pulmonary angiogram",
+        "CT head without contrast",
+        "MRI brain with diffusion-weighted imaging",
+        "Lumbar puncture",
+        "Electroencephalogram (EEG)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an acutely unwell patient with signs of raised intracranial pressure, a non-contrast CT head is the quickest and safest first-line imaging to exclude mass effect, haemorrhage, or herniation. MRI takes longer and is not appropriate in an emergency. LP is contraindicated. EEG is for seizures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "368edc3522f6",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with metastatic melanoma presents with a two-week history of headache, neck stiffness, and diplopia. Neurological examination reveals bilateral sixth nerve palsies. MRI brain with contrast shows subtle leptomeningeal enhancement but no parenchymal metastasis. What is the most appropriate investigation to confirm the suspected diagnosis?",
+      "options": [
+        "Repeat MRI brain with contrast in 4 weeks",
+        "MR spectroscopy",
+        "Positron emission tomography (PET)-CT",
+        "CT head with contrast",
+        "Lumbar puncture for CSF cytology"
+      ],
+      "answerIndex": 4,
+      "explanation": "Leptomeningeal metastases are confirmed by positive CSF cytology or flow cytometry. MRI findings can be suggestive but are not definitive. CT is inadequate. PET-CT is for systemic staging, not for CNS involvement. MR spectroscopy is for tumour vs radiation necrosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a13cbacf1ce4",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman at 24 weeks gestation presents with new-onset focal seizures involving her left arm, followed by a generalised tonic-clonic seizure. She has no prior history of epilepsy. She reports intermittent headaches for 2 months. There is no papilloedema. What is the single most appropriate diagnostic investigation?",
+      "options": [
+        "Lumbar puncture",
+        "MRI brain without intravenous gadolinium",
+        "CT head without contrast",
+        "Electroencephalogram (EEG)",
+        "MRI brain with intravenous gadolinium"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, MRI without gadolinium is preferred to avoid ionising radiation and to minimise fetal exposure to contrast agents. CT head involves radiation, albeit with shielding, but MRI is safer. Gadolinium crosses the placenta and is avoided unless essential. EEG is for epilepsy diagnosis, not structural lesion. LP is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4cf0da77ea8a",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with headaches and seizures. MRI reveals a 4 cm enhancing lesion in the right temporal lobe with necrotic centre. She undergoes maximal safe resection. Histology confirms glioblastoma multiforme (WHO grade IV), MGMT promoter unmethylated. What is the most appropriate first-line treatment?",
+      "options": [
+        "Bevacizumab alone",
+        "Radiotherapy alone",
+        "Temozolomide alone",
+        "Radiotherapy with concomitant and adjuvant temozolomide",
+        "Surgery alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Stupp protocol (radiotherapy plus concomitant and adjuvant temozolomide) is standard first-line for GBM regardless of MGMT status. Temozolomide alone is inferior; bevacizumab is not first-line; surgery alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0a9eb7584b9e",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with known non-small cell lung cancer (EGFR wild-type) presents with a single, 2 cm brain metastasis in the left frontal lobe, not near eloquent cortex. His systemic disease is well-controlled on maintenance chemotherapy. What is the most appropriate definitive treatment for the brain metastasis?",
+      "options": [
+        "Surgical resection",
+        "Whole brain radiotherapy",
+        "Stereotactic radiosurgery",
+        "Best supportive care",
+        "Chemotherapy with temozolomide"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a solitary brain metastasis ≤3 cm, stereotactic radiosurgery (SRS) is first-line due to high local control and less neurotoxicity than WBRT. Surgery is reserved for large (>3 cm) or symptomatic lesions. Chemotherapy has limited CNS penetration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e86e1f75bbac",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old woman has an incidental finding of a 1.5 cm falcine meningioma on head CT after a fall. She is asymptomatic. What is the most appropriate management?",
+      "options": [
+        "Stereotactic radiosurgery",
+        "Radiotherapy",
+        "Immediate surgical resection",
+        "Dexamethasone",
+        "Observation with serial MRI"
+      ],
+      "answerIndex": 4,
+      "explanation": "Incidental, small, asymptomatic meningiomas in elderly patients have a low risk of progression. NICE recommends surveillance with serial imaging. Intervention is reserved for growth or symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8f14ecd59957",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with BRAF V600E mutant metastatic melanoma develops multiple symptomatic brain metastases while on pembrolizumab. He has good performance status and no contraindications. What is the most appropriate first-line therapy for his brain metastases?",
+      "options": [
+        "Whole brain radiotherapy",
+        "Dacarbazine",
+        "Best supportive care",
+        "Dabrafenib plus trametinib",
+        "Stereotactic radiosurgery"
+      ],
+      "answerIndex": 3,
+      "explanation": "For BRAF-mutant melanoma brain metastases, BRAF/MEK inhibitors (e.g., dabrafenib + trametinib) have high response rates and are preferred over radiotherapy options as first-line systemic therapy. WBRT or SRS can be used as consolidation or for symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cf8d744277d8",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old man undergoes subtotal resection of a right frontal tumour. Histology shows anaplastic oligodendroglioma (WHO grade III) with 1p/19q codeletion. He has no significant comorbidities. What is the most appropriate adjuvant treatment?",
+      "options": [
+        "Temozolomide alone",
+        "Observation alone",
+        "Radiotherapy alone",
+        "Radiotherapy followed by PCV chemotherapy",
+        "Radiotherapy followed by temozolomide"
+      ],
+      "answerIndex": 3,
+      "explanation": "For anaplastic oligodendroglioma with 1p/19q codeletion, radiotherapy plus PCV (procarbazine, lomustine, vincristine) is standard based on RTOG 9402 and EORTC 26951 trials. Observation is inadequate; temozolomide has not been directly compared but PCV is preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d05389c636c5",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the emergency department after a witnessed tonic-clonic seizure. He has no prior history of seizures. He reports a two-week history of progressive headache and nausea. On examination, there is mild papilloedema. Observations are normal. What is the most appropriate next step?",
+      "options": [
+        "Start intravenous phenytoin loading",
+        "Request an outpatient MRI head scan",
+        "Arrange an urgent CT head scan",
+        "Administer intravenous dexamethasone 10mg",
+        "Perform a lumbar puncture"
+      ],
+      "answerIndex": 2,
+      "explanation": "New-onset seizure with signs of raised ICP suggests possible brain tumour. NICE recommends urgent CT head as first-line investigation. Dexamethasone may be given after imaging, but the immediate step is to obtain imaging. Lumbar puncture is contraindicated with possible mass effect. Phenytoin is not first-line post-ictal. Outpatient MRI is too slow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6adc03477edd",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman undergoes an MRI head for investigation of chronic headaches. The scan reveals a non-enhancing, well-circumscribed lesion in the left frontal lobe, consistent with a low-grade glioma. She is asymptomatic apart from the headaches. She has no focal neurological deficits. What is the most appropriate next step?",
+      "options": [
+        "Repeat MRI in 6 months",
+        "Arrange CT-guided stereotactic biopsy",
+        "Start dexamethasone 4mg twice daily",
+        "Refer to neuro-oncology multidisciplinary team (MDT)",
+        "Start levetiracetam for seizure prophylaxis"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a suspected low-grade glioma, NICE guidelines recommend referral to a neuro-oncology MDT for discussion of further management. Steroids are not indicated without mass effect. Biopsy decisions are made by the MDT. Surveillance imaging may be decided later. Prophylactic anticonvulsants are not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34fa44e76f50",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with known glioblastoma multiforme is admitted for palliative care. He is on dexamethasone 4mg twice daily. The nurse calls you because the patient's GCS has dropped from 14 to 9 over the past hour. He has a left-sided dilated pupil and is extensor posturing on the right side. Observations: BP 180/100, HR 55, RR 10. What is the most appropriate immediate action?",
+      "options": [
+        "Perform an emergency CT head",
+        "Give intravenous mannitol 20% 200ml",
+        "Intubate and ventilate to achieve a PaCO2 of 4.0-4.5 kPa",
+        "Administer intravenous dexamethasone 10mg stat",
+        "Call the neurosurgical registrar for emergency decompression"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is acute raised ICP due to tumour oedema. IV dexamethasone (10-20mg stat) is first-line for vasogenic oedema; it works within hours. Mannitol and hyperventilation are used second-line or if steroids fail. CT may be done after initial stabilisation. Intubation may be needed but not before steroids. Neurosurgery is important but not immediate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ab0e3ae98d7e",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with metastatic lung cancer and brain metastases is on dexamethasone 8mg three times daily for peritumoural oedema. He has no history of diabetes. Routine bloods show a blood glucose of 16.8 mmol/L. He is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Prescribe metformin 500mg daily",
+        "Start a subcutaneous insulin sliding scale",
+        "Reduce the dexamethasone dose to 4mg twice daily",
+        "Refer to the diabetes team",
+        "Check HbA1c and fasting glucose"
+      ],
+      "answerIndex": 1,
+      "explanation": "High-dose steroids can cause significant hyperglycaemia. With glucose >16 mmol/L, acute management with insulin (sliding scale) is needed to prevent complications. Reducing steroids may compromise brain oedema control. Metformin is not for acute use. HbA1c can be deferred. Referral is not immediate; the doctor should start treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a2be77d0989",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with glioblastoma had completed radiotherapy and is on adjuvant temozolomide (maintenance phase). She presents to the oncology day unit with a temperature of 38.5°C and feeling generally unwell. She is on cycle 4 of 6. Observations: HR 100, BP 110/70, SpO2 97% on air. Neutrophil count 0.4 x 10^9/L. What is the most appropriate immediate action?",
+      "options": [
+        "Prescribe G-CSF (filgrastim) as outpatient",
+        "Take blood cultures and arrange chest X-ray, then discharge with observation",
+        "Give oral ciprofloxacin 500mg twice daily and continue temozolomide",
+        "Admit for intravenous broad-spectrum antibiotics and stop temozolomide",
+        "Reduce the dose of temozolomide for the next cycle"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is febrile neutropenia in a chemotherapy patient. Immediate management requires admission and IV broad-spectrum antibiotics (e.g., piperacillin-tazobactam) per local policy. Temozolomide must be withheld. Oral antibiotics or discharge are unsafe with severe neutropenia. G-CSF is not acute treatment. Cultures are part of workup but antibiotics should follow promptly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7262ed8ed2f3",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents to her GP with a 4-week history of headaches. She has no significant medical history. On examination, vital signs are normal. Which single clinical finding would most strongly suggest an intracranial tumour rather than a primary headache disorder?",
+      "options": [
+        "Bilateral throbbing quality",
+        "Family history of migraine",
+        "Photophobia",
+        "Nausea and vomiting",
+        "Papilloedema"
+      ],
+      "answerIndex": 4,
+      "explanation": "Papilloedema indicates raised intracranial pressure, a red flag for a mass lesion such as a tumour. The other features are common in migraine and not specific for tumour.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "793a47d98186",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with a known frontal lobe astrocytoma, currently stable on observation, is seen in clinic. He reports new-onset mild clumsiness in his left hand and occasional headaches. On examination, he has subtle left-sided neglect and finger-nose ataxia. Which single finding most urgently suggests disease progression requiring repeat imaging?",
+      "options": [
+        "New onset of left-sided neglect",
+        "Occasional nausea without vomiting",
+        "Mild finger-nose ataxia",
+        "Headache frequency increasing from once weekly to three times weekly",
+        "Left hand clumsiness"
+      ],
+      "answerIndex": 0,
+      "explanation": "New focal neurological signs, especially neglect, indicate tumour growth or oedema affecting the right parietal lobe. This is a red flag for progression. While headache frequency increase is concerning, the new focal sign is more specific and urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6e881f7d8c6",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with metastatic breast cancer on trastuzumab is admitted after a fall. She is drowsy but opens eyes to voice. Her blood pressure is 170/95, heart rate 50 bpm, and respirations are irregular. She has a right-sided ptosis and a fixed dilated pupil on the right. What is the most likely immediate diagnosis?",
+      "options": [
+        "Subdural haematoma",
+        "Hypertensive encephalopathy",
+        "Intratumoral haemorrhage",
+        "Seizure with post-ictal state",
+        "Uncal herniation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Cushing reflex (hypertension, bradycardia, irregular breathing) plus unilateral fixed dilated pupil (CN III palsy) indicates herniation of the temporal lobe uncus, a life-threatening emergency. Other options are possible but the combination is classic for herniation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3621e952ef9b",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with newly diagnosed medulloblastoma undergoes surgical resection. Post-operatively, he develops persistent clear fluid leaking from his nose, especially when leaning forward. Which single finding confirms the diagnosis of CSF rhinorrhoea?",
+      "options": [
+        "High glucose content in the fluid",
+        "Fluid cultures grow Streptococcus pneumoniae",
+        "Beta-2 transferrin positive in the fluid",
+        "CT scan shows pneumocephalus",
+        "Fluid has a fruity odour"
+      ],
+      "answerIndex": 2,
+      "explanation": "Beta-2 transferrin is a protein found only in CSF and perilymph. Its presence in nasal discharge confirms CSF leak, a complication of skull base surgery. High glucose is suggestive but not definitive. Pneumocephalus may be present but is not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d661c7cf018b",
+      "topic": "Brain Tumours — Primary & Metastatic",
+      "slug": "brain-tumours-primary-metastatic",
+      "system": "Oncology",
+      "subSystem": "CNS",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with a history of treated cerebellar pilocytic astrocytoma (resection 5 years ago) presents with progressive headache, vomiting, and ataxia over 1 week. MRI shows a cystic enhancing lesion in the posterior fossa with surrounding oedema and mild hydrocephalus. Which single finding is most discriminating between tumour recurrence and radiation necrosis?",
+      "options": [
+        "Oedema on FLAIR sequence",
+        "Low apparent diffusion coefficient (ADC) values",
+        "Lesion location relative to original tumour bed",
+        "Increased choline on MR spectroscopy",
+        "Presence of peripheral enhancement on T1-weighted imaging"
+      ],
+      "answerIndex": 3,
+      "explanation": "Increased choline on MR spectroscopy reflects high cellular turnover, more characteristic of active tumour recurrence, whereas radiation necrosis typically shows low choline and high lactate/lipid. The other findings can be present in both, but MRS helps differentiate.",
+      "difficulty": "hard"
+    }
+  ]
+}

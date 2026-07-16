@@ -1,0 +1,513 @@
+{
+  "topic": "Microscopic Colitis",
+  "slug": "microscopic-colitis",
+  "system": "Gastroenterology",
+  "subSystem": "Lower GI",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:17:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "f80779b15353",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents with a 6-month history of chronic, watery, non-bloody diarrhoea occurring 4-5 times per day. She has no abdominal pain, weight loss, or family history of inflammatory bowel disease. Blood tests are normal, including inflammatory markers and coeliac serology. Colonoscopy reveals a normal-appearing mucosa, but biopsies show a thickened subepithelial collagen band on histology. What is the single most likely diagnosis?",
+      "options": [
+        "Collagenous colitis",
+        "Irritable bowel syndrome (IBS-D)",
+        "Coeliac disease",
+        "Lymphocytic colitis",
+        "Crohn’s disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The thickened subepithelial collagen band is pathognomonic for collagenous colitis, a subtype of microscopic colitis. Lymphocytic colitis would show increased intraepithelial lymphocytes without a collagen band, while IBS-D, coeliac disease, and Crohn’s disease do not produce this histologic finding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4363c795d47c",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman who has been taking omeprazole for gastro-oesophageal reflux for the past year develops chronic watery diarrhoea. Colonoscopy is normal, and colonic biopsies reveal increased intraepithelial lymphocytes (>20 per 100 epithelial cells) with preserved crypt architecture. No subepithelial collagen band is seen. What is the single most likely diagnosis?",
+      "options": [
+        "Irritable bowel syndrome (IBS-D)",
+        "NSAID-induced enteropathy",
+        "Lymphocytic colitis",
+        "Bile acid malabsorption",
+        "Collagenous colitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The histology of increased intraepithelial lymphocytes without a collagen band is diagnostic of lymphocytic colitis. Proton pump inhibitors (e.g., omeprazole) are a known trigger for this subtype of microscopic colitis, distinguishing it from collagenous colitis and other causes of diarrhoea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26a8af5a9e47",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with well-controlled hypothyroidism presents with intermittent watery diarrhoea over the past 8 months. Stool cultures and ova/cyst examination are negative. Colonoscopy shows a normal mucosa, but random biopsies demonstrate a marked increase in intraepithelial lymphocytes. No collagen band is present. What is the single most likely diagnosis?",
+      "options": [
+        "Coeliac disease",
+        "Lymphocytic colitis",
+        "Irritable bowel syndrome (IBS-D)",
+        "Collagenous colitis",
+        "Bile acid malabsorption"
+      ],
+      "answerIndex": 1,
+      "explanation": "The histologic findings confirm lymphocytic colitis, a subtype of microscopic colitis commonly associated with autoimmune disorders such as hypothyroidism. Coeliac disease is a differential but is excluded by negative serology (not mentioned here, but typical); the absence of collagen band rules out collagenous colitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "05f65fb6f24b",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old man presents with a 3-week history of profuse watery diarrhoea (up to 10 episodes per day) leading to hypokalaemia and acute kidney injury. He has no fever or rectal bleeding. Flexible sigmoidoscopy shows normal mucosa; biopsies are taken. What is the single most likely diagnosis?",
+      "options": [
+        "Lymphocytic colitis",
+        "Ischaemic colitis",
+        "Collagenous colitis",
+        "Ulcerative colitis (severe flare)",
+        "Clostridioides difficile infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an elderly patient with normal endoscopic mucosa, severe watery diarrhoea and dehydration, microscopic colitis (especially collagenous) is a common cause. The absence of pseudomembranes, blood, or ischaemic changes points away from C. difficile, UC, and ischaemic colitis. Biopsy would show collagen band. Lymphocytic colitis is also possible but less classically severe; however, given typical presentation, collagenous is most likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "efdde7ca4020",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with type 2 diabetes on metformin presents with chronic watery diarrhoea. He has no weight loss or abdominal pain. Colonoscopy is normal, and random biopsies reveal a subepithelial collagen band. What is the single most likely diagnosis?",
+      "options": [
+        "Coeliac disease",
+        "Irritable bowel syndrome (IBS-D)",
+        "Metformin-induced diarrhoea",
+        "Collagenous colitis",
+        "Diabetic enteropathy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of a subepithelial collagen band on biopsy is diagnostic of collagenous colitis, a subtype of microscopic colitis. Although metformin can cause diarrhoea, it does not produce this histologic finding; the diagnosis is confirmed by biopsy, making collagenous colitis the correct answer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "184697bc2959",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman presents with a 4-month history of watery diarrhoea, occurring 5-6 times per day, without blood or nocturnal symptoms. She has lost 2 kg. Full blood count and inflammatory markers are normal. Stool cultures are negative. Colonoscopy reveals a normal-appearing mucosa. What is the most appropriate next step to confirm the diagnosis?",
+      "options": [
+        "CT colonography",
+        "Faecal calprotectin",
+        "Colonoscopic biopsies from the right and left colon",
+        "Flexible sigmoidoscopy with biopsies",
+        "Capsule endoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Microscopic colitis presents with chronic watery diarrhoea and normal macroscopic appearance at colonoscopy. Histological examination of multiple colonic biopsies is required for diagnosis. Flexible sigmoidoscopy may miss patchy disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dd0d2ff58467",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with chronic diarrhoea undergoes colonoscopy which is normal. Colonic biopsies show a thickened subepithelial collagen band measuring 15 micrometres with mild inflammation. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Ischaemic colitis",
+        "Lymphocytic colitis",
+        "Crohn's disease",
+        "Collagenous colitis",
+        "Coeliac disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "A thickened subepithelial collagen band (≥10 micrometres) is diagnostic of collagenous colitis. Lymphocytic colitis shows increased intraepithelial lymphocytes without a collagen band.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "554ae8a45c09",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman with chronic watery diarrhoea has a normal colonoscopy and biopsies show 30 intraepithelial lymphocytes per 100 epithelial cells, with no collagen band. Which of the following best describes the diagnostic threshold used?",
+      "options": [
+        "≥15 IELs per 100 epithelial cells",
+        "≥25 IELs per 100 epithelial cells",
+        "≥20 IELs per 100 epithelial cells",
+        "≥10 IELs per 100 epithelial cells",
+        "≥30 IELs per 100 epithelial cells"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lymphocytic colitis is diagnosed when intraepithelial lymphocytes exceed 20 per 100 epithelial cells. This threshold distinguishes it from normal or other inflammatory conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f3bf9b19ffca",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with known coeliac disease (well-controlled on gluten-free diet) presents with persistent watery diarrhoea. Stool cultures are negative. Colonoscopy is normal. Which is the most appropriate next investigation?",
+      "options": [
+        "Repeat duodenal biopsies",
+        "Faecal calprotectin",
+        "Colonic biopsies to assess for microscopic colitis",
+        "Coeliac serology",
+        "CT enterography"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lymphocytic colitis is associated with coeliac disease and may persist despite gluten-free diet. Colonic biopsies are needed to confirm microscopic colitis. Repeat duodenal biopsies would be considered if coeliac relapse suspected, but given normal colonoscopy, microscopic colitis should be excluded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8991c7c5c808",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman on long-term omeprazole develops chronic watery diarrhoea. Stool cultures are negative. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Faecal elastase",
+        "Stop omeprazole and monitor",
+        "CT colonography",
+        "Colonoscopy with biopsies",
+        "Hydrogen breath test"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microscopic colitis is associated with PPIs. Colonoscopy with multiple colonic biopsies is the gold standard for diagnosis. Stopping PPI is a management step, not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adfe69d87a27",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with a 3-month history of watery diarrhoea, up to 6 times daily, without blood. Stool cultures are negative. Colonoscopy with biopsies shows normal mucosa but histology reveals increased intraepithelial lymphocytes (>20 per 100 epithelial cells) and a thickened subepithelial collagen band. What is the most appropriate first-line treatment?",
+      "options": [
+        "Prednisolone 40 mg once daily",
+        "Azathioprine 2 mg/kg daily",
+        "Loperamide 2 mg as needed",
+        "Mesalazine 800 mg three times daily",
+        "Budesonide 9 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Budesonide is the evidence-based first-line treatment for microscopic colitis. Loperamide offers only symptomatic relief and does not address the underlying inflammation. Prednisolone, mesalazine, and azathioprine are not recommended as first-line therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bb3945cd384e",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man has a diagnosis of collagenous colitis confirmed on biopsy. He has 3-4 loose stools per day, no urgency, and no weight loss. What is the most appropriate first-line therapy?",
+      "options": [
+        "Loperamide 2 mg as needed",
+        "Budesonide 9 mg once daily",
+        "Oral prednisolone 30 mg once daily",
+        "Colestyramine 4 g twice daily",
+        "Sulfasalazine 1 g twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even for mild symptoms, budesonide is the first-line treatment as it targets the inflammatory component. Loperamide is purely symptomatic, while colestyramine, prednisolone, and sulfasalazine have limited or no evidence for microscopic colitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a3ed4bf5d332",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with known lymphocytic colitis presents with a 2-week history of severe watery diarrhoea (10-12 episodes daily), dehydration, and weight loss. She is normotensive. Stool cultures are negative. What is the most appropriate first-line treatment?",
+      "options": [
+        "Infliximab 5 mg/kg intravenously",
+        "Loperamide 4 mg initially",
+        "Oral prednisolone 40 mg once daily",
+        "Intravenous hydrocortisone 100 mg four times daily",
+        "Budesonide 9 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Budesonide is first-line even for severe flares due to its local action and safety profile. Systemic corticosteroids (IV or oral) are not required and have more side effects. Loperamide is adjunctive only, and infliximab is reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42927fec8f80",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with lymphocytic colitis is 20 weeks pregnant. She has persistent watery diarrhoea despite lifestyle modifications. What is the most appropriate therapy?",
+      "options": [
+        "Budesonide 9 mg once daily",
+        "Mesalazine 1 g twice daily",
+        "Bismuth subsalicylate 2 tablets three times daily",
+        "Prednisolone 20 mg once daily",
+        "Loperamide 2 mg as required"
+      ],
+      "answerIndex": 0,
+      "explanation": "Budesonide is preferred in pregnancy due to its low systemic absorption and favourable safety profile. Loperamide is not routinely recommended in pregnancy. Prednisolone is systemic and less desirable. Mesalazine is ineffective for microscopic colitis, and bismuth subsalicylate contains salicylate which is best avoided.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7117846aa8a5",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old man with lymphocytic colitis has a history of osteoporosis and hypertension. He is concerned about systemic steroid side effects. What is the most appropriate first-line treatment?",
+      "options": [
+        "Loperamide 2 mg as needed",
+        "Prednisolone 30 mg once daily",
+        "Colestyramine 4 g twice daily",
+        "Methotrexate 15 mg weekly",
+        "Budesonide 9 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Budesonide has minimal systemic absorption, making it safe in patients with osteoporosis and hypertension. Loperamide is only symptomatic. Prednisolone would exacerbate osteoporosis and hypertension. Methotrexate and colestyramine lack evidence for first-line use in microscopic colitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c91b86ea1659",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman presents with a 6-week history of watery diarrhoea, 5–6 times per day, without blood or weight loss. She is otherwise well, with normal blood tests. What is the most appropriate next step?",
+      "options": [
+        "Send stool for microscopy, culture, and Clostridium difficile toxin",
+        "Perform CT abdomen",
+        "Arrange oesophagogastroduodenoscopy",
+        "Arrange colonoscopy with biopsies",
+        "Start loperamide"
+      ],
+      "answerIndex": 0,
+      "explanation": "Before proceeding to colonoscopy for suspected microscopic colitis, it is essential to exclude infective causes, which are common and can mimic the condition. Stool culture and C. diff testing is the standard first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6849442272fe",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man recently diagnosed with collagenous colitis on colonoscopy has mild diarrhoea (3–4 loose stools per day) without dehydration or weight loss. He is otherwise fit. What is the most appropriate next step?",
+      "options": [
+        "Start loperamide",
+        "Repeat colonoscopy in 3 months",
+        "Start budesonide 9 mg daily",
+        "Refer to a dietitian",
+        "Start mesalazine"
+      ],
+      "answerIndex": 0,
+      "explanation": "In mild microscopic colitis, NICE guidance recommends initial symptomatic treatment with antidiarrhoeals such as loperamide. Budesonide is reserved for those with persistent or bothersome symptoms despite first-line therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "249fe3a6fb14",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known microscopic colitis presents with profuse watery diarrhoea (10 times daily), heart rate 110 bpm, blood pressure 90/60 mmHg, and dry mucous membranes. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral budesonide",
+        "Give intravenous normal saline",
+        "Send stool for culture and sensitivity",
+        "Start intravenous hydrocortisone",
+        "Perform flexible sigmoidoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute severe diarrhoea with signs of hypovolaemic shock, immediate fluid resuscitation is the priority. Other investigations and specific treatments should follow after haemodynamic stabilisation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e78976f083d5",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with microscopic colitis has been taking budesonide 9 mg daily for 2 months. She presents to the emergency department with confusion, hyponatraemia (Na 122 mmol/L), and hypotension (BP 85/50 mmHg). What is the most appropriate immediate next step?",
+      "options": [
+        "Perform CT head",
+        "Stop budesonide",
+        "Give intravenous normal saline",
+        "Check serum cortisol level",
+        "Give intravenous hydrocortisone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given the history of exogenous steroid use, an adrenal crisis is likely. While checking cortisol and giving fluids are important, the immediate life-saving treatment is intravenous hydrocortisone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d61af661cce0",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman with recurrent microscopic colitis has required three courses of budesonide in the past year. She is currently in remission on budesonide 9 mg daily. What is the most appropriate next step?",
+      "options": [
+        "Start azathioprine",
+        "Refer for surgical consultation",
+        "Repeat colonoscopy with biopsies",
+        "Taper budesonide over 4 weeks",
+        "Continue budesonide indefinitely"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with frequent relapses requiring multiple steroid courses, NICE recommends considering a steroid-sparing immunosuppressant such as azathioprine or methotrexate to maintain remission and reduce steroid exposure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ffafe23b6161",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with known collagenous colitis on budesonide 9 mg once daily attends the emergency department with persistent watery diarrhoea for 2 weeks despite treatment. She reports no blood in stool. Observations: heart rate 95 bpm, blood pressure 105/70 mmHg, temperature 36.8°C. Which laboratory finding is most concerning and indicates the need for immediate escalation of care?",
+      "options": [
+        "Serum potassium 2.8 mmol/L",
+        "Serum sodium 132 mmol/L",
+        "Haemoglobin 110 g/L",
+        "Serum creatinine 105 µmol/L (baseline 70)",
+        "C-reactive protein 45 mg/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hypokalaemia (K+ <3.0 mmol/L) in the context of profuse diarrhoea is a red flag for life-threatening cardiac arrhythmias and requires urgent IV replacement. Mild hyponatremia, mild AKI, mild anaemia, and mild CRP elevation are common in chronic diarrhoea but do not alone mandate immediate hospital admission.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f43698c35f27",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with lymphocytic colitis presents to the emergency department with sudden onset of severe abdominal pain and distension. He has been on budesonide 9 mg daily for 6 weeks without improvement. Abdominal X-ray shows colonic dilatation of 7 cm involving the transverse colon. Which diagnosis must be urgently excluded?",
+      "options": [
+        "Ischaemic colitis",
+        "Toxic megacolon",
+        "Colonic perforation",
+        "Small bowel obstruction",
+        "Sigmoid volvulus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Toxic megacolon is a rare but life-threatening complication of severe colitis, including microscopic colitis, characterised by colonic dilatation >6 cm with systemic toxicity. Perforation typically shows free air, not just dilatation; ischaemic colitis often presents with pain out of proportion and may have thumbprinting; volvulus and small bowel obstruction have different radiographic features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d54d51e6ba68",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman presents with a 3-month history of chronic watery diarrhoea, 6-8 times per day, without nocturnal symptoms. She has no other medical history. Colonoscopy with biopsies reveals collagenous colitis. Which finding in her history should prompt urgent investigation for an alternative diagnosis?",
+      "options": [
+        "Mild abdominal bloating",
+        "Occasional bright red blood per rectum",
+        "Use of a proton pump inhibitor",
+        "Family history of coeliac disease",
+        "Weight loss of 3 kg over 3 months"
+      ],
+      "answerIndex": 1,
+      "explanation": "Microscopic colitis typically causes non-bloody diarrhoea; the presence of rectal bleeding is a red flag for alternative diagnoses such as inflammatory bowel disease, colorectal cancer, or infection, and warrants further investigation. Weight loss can occur in microscopic colitis due to malabsorption; bloating is a common symptom; PPI use is a risk factor for microscopic colitis; family history of coeliac disease is relevant but not an emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9bdbbc61e50",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with microscopic colitis diagnosed 8 weeks ago has had no response to full-dose budesonide (9 mg once daily) after 4 weeks. He now attends clinic with profuse diarrhoea, fatigue, and muscle cramps. Which laboratory result is most indicative of a life-threatening complication requiring immediate action?",
+      "options": [
+        "Serum calcium 2.10 mmol/L (corrected)",
+        "Serum sodium 129 mmol/L",
+        "Haemoglobin 108 g/L",
+        "Serum potassium 2.6 mmol/L",
+        "Serum albumin 28 g/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hypokalaemia (K+ <3.0 mmol/L) is a critical electrolyte disturbance in profuse diarrhoea, carrying risk of cardiac arrhythmia and neuromuscular paralysis. It mandates urgent IV potassium replacement and hospital admission. Hyponatremia, hypocalcaemia, hypoalbuminaemia, and mild anaemia are less immediately life-threatening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c2cd578c68e4",
+      "topic": "Microscopic Colitis",
+      "slug": "microscopic-colitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with microscopic colitis on maintenance budesonide 6 mg once daily for 6 months presents to the emergency department with confusion, lethargy, and generalised weakness. She has had worsening diarrhoea for 1 week. Observations: heart rate 110 bpm, blood pressure 85/50 mmHg, temperature 36.2°C. Which finding is the most likely cause of her presentation?",
+      "options": [
+        "Hypovolaemic shock from diarrhoea",
+        "Severe hypokalaemia causing arrhythmia",
+        "Hypercalcaemia due to dehydration",
+        "Meningitis from immunosuppression",
+        "Adrenal crisis due to budesonide withdrawal"
+      ],
+      "answerIndex": 4,
+      "explanation": "Budesonide, although a topical corticosteroid, can cause adrenal suppression with prolonged use; abrupt cessation or intercurrent illness may precipitate an adrenal crisis, presenting with hypotension, confusion, and hyponatraemia/hyperkalaemia (though here diarrhoea may alter electrolytes). Hypovolaemic shock is possible, but the confusion and hypotension out of proportion to volume loss raise suspicion for adrenal insufficiency. Hypokalaemia and meningitis are less likely given the history.",
+      "difficulty": "hard"
+    }
+  ]
+}

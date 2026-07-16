@@ -1,0 +1,513 @@
+{
+  "topic": "Testicular Cancer",
+  "slug": "testicular-cancer",
+  "system": "Urology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:38:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7aebf0eba037",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old man presents with a 2-month history of a painless lump in his right testicle. He is otherwise well. On examination, there is a hard, irregular mass that does not transilluminate. The left testis is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Teratoma",
+        "Epididymal cyst",
+        "Varicocele",
+        "Hydrocele",
+        "Seminoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "A painless, hard, irregular testicular mass is classic for seminoma. Teratoma can also present similarly but is more common in younger men and may have cystic components. Epididymal cyst and hydrocele transilluminate; varicocele feels like a 'bag of worms' and is separate from the testis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "48eb50c82668",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents to the emergency department with a 6-hour history of severe scrotal pain and swelling. He has no urinary symptoms. His temperature is 37.8°C. Scrotal ultrasound shows a heterogeneous solid intratesticular mass with increased vascularity. What is the single most likely diagnosis?",
+      "options": [
+        "Fournier's gangrene",
+        "Testicular torsion",
+        "Inguinal hernia",
+        "Epididymo-orchitis",
+        "Testicular tumour with haemorrhage"
+      ],
+      "answerIndex": 4,
+      "explanation": "Although acute scrotal pain with fever suggests infection or torsion, the ultrasound finding of a solid intratesticular mass points to a testicular tumour, which can present acutely due to haemorrhage or infarction. Torsion typically shows absent Doppler flow; epididymo-orchitis shows enlarged epididymis and hyperaemia without a discrete mass.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6561eebcbd14",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with a history of a testicular lump that he has ignored for several months presents with recent onset of low back pain and weight loss. Examination reveals a hard, non-tender left testicular mass. Serum beta-hCG is markedly elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Non-Hodgkin lymphoma of testis",
+        "Leydig cell tumour",
+        "Mixed germ cell tumour",
+        "Tuberculous epididymo-orchitis",
+        "Metastatic seminoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of a testicular mass, back pain, and elevated hCG in a 35-year-old is classic for metastatic seminoma (or any germ cell tumour). Leydig cell tumours are rare and often benign; tuberculous epididymo-orchitis usually has systemic symptoms and lower hCG; lymphoma is more common in older men.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b54055bbec77",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man underwent left radical orchidectomy for stage I seminoma 18 months ago. He was on surveillance. He now presents with a 2-week history of a painless lump in the left supraclavicular fossa and fatigue. Serum beta-hCG is 150 IU/L (normal <5). What is the single most likely diagnosis?",
+      "options": [
+        "Second primary testicular germ cell tumour",
+        "Sarcoidosis",
+        "Tuberculous lymphadenitis",
+        "Recurrent seminoma with nodal metastasis",
+        "Teratoma with malignant transformation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The time course and hCG elevation in a patient with known seminoma strongly suggest recurrence with nodal involvement. The supraclavicular nodes are a classic site for metastatic spread from testicular cancer. Teratoma would often have AFP elevation; tuberculosis and sarcoidosis are less likely with elevated hCG.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "268d231e1dc6",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with a two-week history of a rapidly enlarging, painless right testicular mass. He reports intermittent fevers and night sweats. Scrotal ultrasound shows a hypoechoic intratesticular lesion. Serum tumour markers (AFP, β-hCG, LDH) are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Testicular lymphoma",
+        "Metastatic prostate cancer",
+        "Leydig cell tumour",
+        "Seminoma",
+        "Teratoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "In men over 60, the most common testicular malignancy is lymphoma, especially diffuse large B-cell lymphoma. The presence of B symptoms (fever, night sweats) and normal tumour markers make germ cell tumours less likely. Seminoma is rare in this age group; teratoma even rarer. Leydig cell tumours are usually benign and do not cause B symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "26d9bad3128c",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old man presents with a painless lump in his left testicle. He has no other symptoms. What is the single most appropriate first investigation to establish the diagnosis?",
+      "options": [
+        "Ultrasound of the scrotum",
+        "Incisional biopsy of the lump",
+        "Serum tumour markers (AFP, beta-hCG, LDH)",
+        "MRI of the scrotum",
+        "CT scan of the abdomen and pelvis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ultrasound is the first-line imaging modality for scrotal lumps. It can distinguish intratesticular from extratesticular lesions and suggest malignancy. CT is used for staging after diagnosis, biopsy risks tumour seeding, and tumour markers are adjunctive but not first diagnostic step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "85a68e8e8f4a",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man has a scrotal ultrasound showing a 2 cm hypoechoic, vascular intratesticular mass. What is the single most appropriate next investigation?",
+      "options": [
+        "Fine needle aspiration of the mass",
+        "Repeat scrotal ultrasound in 1 month",
+        "CT scan of the chest, abdomen, and pelvis",
+        "MRI of the scrotum",
+        "Serum tumour markers (AFP, beta-hCG, LDH)"
+      ],
+      "answerIndex": 4,
+      "explanation": "After identifying a suspicious testicular mass on ultrasound, serum tumour markers should be measured to aid diagnosis, determine the subtype of germ cell tumour, and provide a baseline for monitoring. CT is for staging after markers and biopsy are considered; repeat imaging and aspiration are not appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7c851243c32c",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with a testicular mass has serum AFP 350 IU/L and beta-hCG 2000 IU/L. What is the most likely histological subtype?",
+      "options": [
+        "Leydig cell tumour",
+        "Pure seminoma",
+        "Sertoli cell tumour",
+        "Testicular lymphoma",
+        "Non-seminomatous germ cell tumour (NSGCT)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elevated AFP is highly specific for a non-seminomatous component, such as yolk sac tumour or embryonal carcinoma. Pure seminoma never produces AFP, though it can raise beta-hCG. Leydig and Sertoli cell tumours do not elevate these markers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f7a40da33131",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man presents with sudden severe right testicular pain. He has a palpable mass. Scrotal ultrasound shows a hypoechoic lesion. Which Doppler ultrasound feature most strongly suggests a malignant tumour rather than testicular torsion?",
+      "options": [
+        "Hypoechoic appearance of the entire testis",
+        "Presence of a surrounding hydrocele",
+        "Punctate calcifications within the lesion",
+        "Absent blood flow within the lesion",
+        "Increased blood flow within the lesion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Malignant testicular tumours are typically hypervascular and show increased intralesional blood flow on Doppler. Testicular torsion presents with absent flow. Hypoechoic appearance is seen in both, and hydrocele or calcifications are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1989c2e3b0f",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "Which single tumour marker is never elevated in a patient with pure seminoma of the testis?",
+      "options": [
+        "Placental alkaline phosphatase (PLAP)",
+        "Lactate dehydrogenase (LDH)",
+        "Alpha-fetoprotein (AFP)",
+        "Beta-human chorionic gonadotropin (beta-hCG)",
+        "None of the above"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pure seminoma does not produce AFP. Elevation of AFP always indicates a non-seminomatous component (e.g., yolk sac tumour). Beta-hCG and LDH can be elevated in seminoma, and PLAP is often elevated but not as specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ee1334e75ac",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old man underwent a radical inguinal orchidectomy for a 2 cm testicular mass histologically confirmed as pure seminoma. CT staging shows no metastatic disease (stage I). Tumour markers (AFP, hCG, LDH) are normal. He has no risk factors. What is the most appropriate first-line management?",
+      "options": [
+        "BEP chemotherapy (3 cycles)",
+        "Retroperitoneal lymph node dissection (RPLND)",
+        "Adjuvant carboplatin (AUC 7)",
+        "Active surveillance",
+        "Adjuvant radiotherapy (para-aortic field)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend active surveillance as first-line for stage I seminoma when risk factors are absent. Adjuvant carboplatin or radiotherapy are alternatives for high-risk patients (e.g., rete testis invasion, tumour size >4 cm). RPLND is not indicated for seminoma, and chemotherapy is excessive for low-risk stage I.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15595c047087",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man presents with a palpable left testicular mass and elevated AFP (1200 IU/L) and hCG (200 IU/L). Radical inguinal orchidectomy confirms a mixed germ cell tumour (non-seminoma). CT shows a 3 cm retroperitoneal lymph node mass (stage IIB). He has no distant metastases and is fit for chemotherapy. What is the definitive first-line therapy?",
+      "options": [
+        "Radiotherapy to the para-aortic nodes",
+        "Active surveillance",
+        "Retroperitoneal lymph node dissection (RPLND) alone",
+        "High-dose chemotherapy with autologous stem cell transplant",
+        "BEP chemotherapy (3 cycles)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend BEP chemotherapy (bleomycin, etoposide, cisplatin) for 3 cycles as first-line treatment for stage IIB non-seminomatous germ cell tumours. RPLND alone is reserved for stage I marker-negative disease or post-chemotherapy residuals. Surveillance is only for stage I. Radiotherapy is ineffective for non-seminoma, and high-dose chemotherapy is salvage therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f224b65a3081",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 24-year-old man with a known testicular seminoma presents with acute dyspnoea, stridor, and facial swelling. CT reveals a large anterior mediastinal mass causing superior vena cava obstruction. He is stable but symptomatic. What is the most appropriate immediate first-line treatment?",
+      "options": [
+        "Urgent BEP chemotherapy",
+        "Mediastinal radiotherapy",
+        "Endovascular stenting of the SVC",
+        "Best supportive care",
+        "High-dose corticosteroids"
+      ],
+      "answerIndex": 0,
+      "explanation": "In testicular cancer, the first-line emergency treatment for SVC obstruction is urgent chemotherapy (BEP regimen), as these tumours are highly chemosensitive. Radiotherapy is slower and not first-line; stenting is for non-chemosensitive tumours; corticosteroids are palliative; best supportive care is inappropriate in a chemosensitive malignancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "885e0aaa4d8a",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man is diagnosed with stage I seminoma following radical inguinal orchidectomy. He has a history of Wilms' tumour treated with abdominal radiotherapy at age 3 and has a current eGFR of 50 mL/min/1.73 m². Which first-line management option is contraindicated?",
+      "options": [
+        "Single-dose carboplatin",
+        "Adjuvant carboplatin (AUC 7)",
+        "BEP chemotherapy (3 cycles)",
+        "Adjuvant radiotherapy (para-aortic field)",
+        "Active surveillance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adjuvant radiotherapy is contraindicated in this patient due to overlapping radiation fields from prior childhood abdominal radiotherapy, which would significantly increase the risk of long-term toxicity (e.g., bowel, kidney). Carboplatin is acceptable with dose adjustment for renal function (AUC based on GFR). Surveillance is safe; BEP is not indicated for stage I seminoma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e4bba82cb6a6",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 26-year-old man presents with a residual retroperitoneal mass of 2.5 cm on CT after completing 3 cycles of BEP chemotherapy for metastatic non-seminomatous germ cell tumour. His tumour markers (AFP, hCG, LDH) are normal. What is the most appropriate next step?",
+      "options": [
+        "Continued surveillance",
+        "Retroperitoneal lymph node dissection (RPLND)",
+        "PET-CT scan to assess viability",
+        "Radiotherapy to the residual mass",
+        "Two additional cycles of BEP chemotherapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "For non-seminoma with a residual retroperitoneal mass >1 cm after chemotherapy and normal markers, NICE recommends surgical resection (RPLND) to exclude teratoma or viable malignancy. Surveillance is only for masses <1 cm. Radiotherapy is ineffective; further chemotherapy is only for rising markers; PET-CT is not standard for post-chemotherapy assessment of non-seminoma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24aeb361c31f",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 25-year-old man presents to the GP with a 3-week history of a painless lump in his left testicle. He has no other symptoms and is otherwise well. On examination, there is a firm, non-tender mass on the left testis, which does not transilluminate. What is the single most appropriate next step in management?",
+      "options": [
+        "Measure serum alpha-fetoprotein and beta-hCG",
+        "Perform CT scan of abdomen and pelvis",
+        "Arrange scrotal ultrasound",
+        "Refer for radical orchidectomy",
+        "Reassure and review in 4 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "Scrotal ultrasound is the first-line investigation for a suspected testicular mass, as it can differentiate intratesticular from extratesticular lesions and assess for malignancy. Tumour markers are helpful but not the initial step; they are taken after ultrasound. Radical orchidectomy is treatment, not initial investigation. CT is done after diagnosis. Reassurance is inappropriate given the suspicious lump.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34d784aae4c9",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old man underwent a left radical orchidectomy for a testicular mass. Histology shows a stage I seminoma (pT1, no lymphovascular invasion). Tumour markers (AFP, β-hCG) normalised post-operatively. He is asymptomatic. What is the single most appropriate next step in management?",
+      "options": [
+        "Perform PET-CT scan to stage disease",
+        "Start surveillance with chest X-ray only",
+        "Refer for adjuvant radiotherapy to para-aortic nodes",
+        "Start adjuvant carboplatin chemotherapy",
+        "Commence surveillance with regular CT scans"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE guidelines, stage I seminoma with no risk factors (size <4 cm, no rete testis invasion) is low risk and surveillance is recommended. Adjuvant carboplatin or radiotherapy are options for high-risk stage I, but not first-line for low-risk. PET-CT is not indicated for staging stage I after orchidectomy. Chest X-ray alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a6056a1caf3b",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with metastatic testicular non-seminomatous germ cell tumour (NSGCT) on BEP chemotherapy (bleomycin, etoposide, cisplatin) presents to the Emergency Department with acute onset of severe lower back pain and bilateral leg weakness. He has lost bladder control. On examination, there is reduced sensation in the saddle area and decreased anal tone. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give a loading dose of intravenous morphine",
+        "Contact the oncology team for advice",
+        "Request a plain X-ray of the lumbar spine",
+        "Arrange an urgent MRI of the whole spine",
+        "Administer high-dose intravenous dexamethasone"
+      ],
+      "answerIndex": 3,
+      "explanation": "This presentation suggests spinal cord compression, an oncological emergency. The immediate priority is to arrange an urgent MRI of the whole spine to confirm the level of compression. While dexamethasone may be given, imaging is the first step to guide treatment. Plain X-ray is not sensitive. Pain relief and oncology contact are important but not the single most immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38d623a6fe93",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with metastatic non-seminomatous germ cell tumour (NSGCT) is receiving BEP chemotherapy. On day 8 of cycle 2, he develops a new dry cough and dyspnoea. His temperature is 37.2°C, oxygen saturation 94% on room air, and chest auscultation reveals bilateral fine crackles. What is the single most appropriate immediate next step in management?",
+      "options": [
+        "Increase oxygen and monitor for 24 hours",
+        "Start empirical intravenous antibiotics for pneumonia",
+        "Administer oral prednisolone and continue chemotherapy",
+        "Stop bleomycin and arrange high-resolution CT chest",
+        "Perform a bronchoscopy with bronchoalveolar lavage"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bleomycin-induced pneumonitis is a known complication. The immediate action is to stop bleomycin and investigate with high-resolution CT. Empirical antibiotics may be considered if infection is suspected, but the presentation pattern is more consistent with drug toxicity. Steroids might be used after diagnosis. Bronchoscopy is not first-line. Observation risks progression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09a86b1862ab",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with a history of stage I seminoma managed with surveillance (routine CT scans) attends for his 2-year follow-up. He is asymptomatic. The latest CT scan shows a solitary 2 cm enlarged para-aortic lymph node. Tumour markers (AFP, β-hCG, LDH) are within normal limits. What is the single most appropriate next step?",
+      "options": [
+        "Refer for radiotherapy to the para-aortic area",
+        "Perform an FDG-PET-CT scan",
+        "Repeat the CT scan in 3 months",
+        "Refer for open biopsy of the node",
+        "Start salvage chemotherapy with cisplatin-based regimen"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected relapsed seminoma, FDG-PET-CT is recommended to confirm active disease, as it has high sensitivity and specificity. Repeat CT may delay treatment. Biopsy is invasive and not first-line. Chemotherapy or radiotherapy are definitive treatments but require confirmation of relapse first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7512712a7b8b",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with a known testicular seminoma presents with acute onset of severe left scrotal pain and vomiting. The testis is swollen. What clinical finding most strongly indicates testicular torsion rather than haemorrhage into the tumour?",
+      "options": [
+        "High-riding testicle",
+        "Scrotal wall oedema",
+        "Negative Prehn's sign",
+        "Transverse lie",
+        "Absent cremasteric reflex"
+      ],
+      "answerIndex": 4,
+      "explanation": "An absent cremasteric reflex is the most sensitive and specific sign for testicular torsion. Haemorrhage into the tumour may cause pain but the reflex is usually preserved. Transverse lie is also suggestive but less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d47991ad172",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old man presents with a painless testicular lump and is found to have a very high beta-hCG. He complains of headache and blurred vision. What fundoscopic finding indicates raised intracranial pressure from cerebral metastases?",
+      "options": [
+        "Normal fundus",
+        "Papilloedema",
+        "Optic atrophy",
+        "Retinal haemorrhage",
+        "Macular oedema"
+      ],
+      "answerIndex": 1,
+      "explanation": "Papilloedema is a sign of raised intracranial pressure, which can be life-threatening due to cerebral metastases from choriocarcinoma. Other findings are less specific for raised ICP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd656072ad9e",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man with a history of non-seminomatous germ cell tumour presents with hoarseness, stridor, and facial swelling. Which clinical sign confirms impending superior vena cava obstruction?",
+      "options": [
+        "Pericardial rub",
+        "Distended neck veins",
+        "Pemberton's sign",
+        "Horner's syndrome",
+        "Pleural effusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Distended neck veins are a classic sign of superior vena cava obstruction, indicating obstruction of venous return from the upper body. Pemberton's sign is also specific but distended neck veins are more immediate and easily identified.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33b911393e59",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man with known testicular teratoma presents with acute severe low back pain and bilateral leg weakness. What examination finding most precisely localises the likely site of spinal cord compression?",
+      "options": [
+        "Reduced perianal sensation",
+        "Bilateral ankle clonus",
+        "Sensory level at T10",
+        "Increased deep tendon reflexes",
+        "Babinski sign bilaterally"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sensory level on the trunk, such as at T10, provides a dermatomal localisation of the compression site, guiding urgent imaging. Other signs confirm cord involvement but do not localise the level.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e2f0e058c71d",
+      "topic": "Testicular Cancer",
+      "slug": "testicular-cancer",
+      "system": "Urology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 24-year-old man presents with a testicular mass and gynaecomastia. He has no other symptoms. Which laboratory value would be most concerning for life-threatening complications?",
+      "options": [
+        "Beta-hCG 100,000 IU/L",
+        "LDH 1000 U/L",
+        "Normal tumour markers",
+        "AFP 500 ng/mL",
+        "Elevated ESR"
+      ],
+      "answerIndex": 0,
+      "explanation": "A beta-hCG >50,000 IU/L is associated with choriocarcinoma and a high risk of haemorrhagic metastases, particularly to lungs and brain. LDH elevation is non-specific and AFP is not linked to haemorrhage.",
+      "difficulty": "medium"
+    }
+  ]
+}

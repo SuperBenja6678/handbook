@@ -1,0 +1,513 @@
+{
+  "topic": "Non-Hodgkin Lymphoma",
+  "slug": "non-hodgkin-lymphoma",
+  "system": "Haematology",
+  "subSystem": "Lymphoma",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:12Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "3b709294c0c1",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with a 3-month history of painless, rubbery lymphadenopathy in the neck and axillae. He has no fever, night sweats, or weight loss. FBC is normal. Lymph node biopsy shows follicles containing centrocytes and centroblasts. What is the single most likely diagnosis?",
+      "options": [
+        "Follicular lymphoma",
+        "Mantle cell lymphoma",
+        "Reactive lymphoid hyperplasia",
+        "Chronic lymphocytic leukaemia",
+        "Hodgkin lymphoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of painless, rubbery lymphadenopathy with preserved nodal architecture and follicles containing centrocytes and centroblasts is characteristic of follicular lymphoma, the most common indolent NHL. Hodgkin lymphoma typically shows Reed-Sternberg cells; CLL usually has lymphocytosis; reactive hyperplasia lacks atypical follicles; mantle cell lymphoma has cyclin D1 positivity and more aggressive course.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f5ad69409be8",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with a 6-month history of dyspepsia and unintentional weight loss undergoes endoscopy, which reveals a shallow gastric ulcer. Biopsies show a dense lymphoid infiltrate with lymphoepithelial lesions; H. pylori testing is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Gastrointestinal stromal tumour (GIST)",
+        "H. pylori-associated gastritis",
+        "Gastric adenocarcinoma",
+        "Gastric MALT lymphoma",
+        "Diffuse large B-cell lymphoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lymphoepithelial lesions and dense lymphoid infiltrate in the setting of H. pylori infection are classic for gastric MALT lymphoma. Adenocarcinoma shows glandular dysplasia; DLBCL has large, aggressive cells; gastritis lacks clonal lymphoid proliferation; GIST is mesenchymal and CD117+.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5832829d176e",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with acute-onset paraplegia and severe back pain. MRI shows spinal cord compression from an extradural mass at T10. He also has bilateral inguinal lymphadenopathy. Biopsy of a lymph node shows sheets of large B cells. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculous spondylitis",
+        "Meningioma",
+        "Diffuse large B-cell lymphoma",
+        "Multiple myeloma",
+        "Metastatic prostate carcinoma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rapid spinal cord compression with extradural mass and large B-cell lymphadenopathy strongly suggests diffuse large B-cell lymphoma. Prostate cancer typically metastasises to bone but not as large extradural mass; myeloma shows plasma cells and M-protein; Pott's disease has vertebral involvement with paraspinal abscess; meningioma is intradural and slow-growing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "392689e63e85",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man presents with widespread lymphadenopathy, significant splenomegaly, and elevated LDH. Lymph node biopsy shows a monotonous population of small to medium-sized lymphocytes with irregular nuclei and a high mitotic rate. Immunohistochemistry is positive for cyclin D1 and CD5. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic lymphocytic leukaemia",
+        "Mantle cell lymphoma",
+        "Lymphoblastic lymphoma",
+        "Marginal zone lymphoma",
+        "Follicular lymphoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cyclin D1 positivity with CD5 co-expression is pathognomonic for mantle cell lymphoma, often presenting with advanced stage, splenomegaly, and high LDH. CLL is CD5+ but cyclin D1- and has smudge cells; follicular lymphoma is CD10+ and lacks cyclin D1; marginal zone lymphoma is CD5-; lymphoblastic lymphoma is TdT+.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "351a484e65ad",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with known HIV (CD4 count 200 cells/µL) presents with a 2-week history of a rapidly enlarging submandibular mass, fever, and night sweats. Biopsy shows a diffuse proliferation of medium-sized lymphoid cells with a 'starry-sky' pattern and numerous mitotic figures. What is the single most likely diagnosis?",
+      "options": [
+        "Burkitt lymphoma",
+        "Hodgkin lymphoma",
+        "Diffuse large B-cell lymphoma",
+        "Tuberculous lymphadenitis",
+        "Kaposi sarcoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "The starry-sky pattern with rapidly growing mass and HIV association is classic for Burkitt lymphoma. DLBCL lacks the starry-sky and is less explosive; Hodgkin lymphoma has Reed-Sternberg cells; Kaposi sarcoma is spindle cell; TB shows caseating granulomas.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41aed651e2cf",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old woman presents with a 3-week history of painless, enlarged right cervical lymph node (2x2 cm). She has no B symptoms. Blood tests: normal FBC, LDH mildly elevated. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Fine-needle aspiration cytology",
+        "Whole-body PET-CT",
+        "Serum protein electrophoresis",
+        "Core needle biopsy",
+        "Excisional lymph node biopsy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Excisional biopsy provides full architecture for histology and immunophenotyping, essential for NHL subtyping; core needle may be insufficient and FNA is inadequate for architecture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "294c4b99dd48",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man has a routine blood test showing lymphocytosis (lymphocyte count 15 x 10^9/L). Peripheral blood smear shows small lymphocytes with smudge cells. Flow cytometry reveals clonal B cells expressing CD5, CD23, and weak surface immunoglobulins. Which diagnosis does this immunophenotype most strongly support?",
+      "options": [
+        "Chronic lymphocytic leukaemia",
+        "Burkitt lymphoma",
+        "Mantle cell lymphoma",
+        "Diffuse large B-cell lymphoma",
+        "Follicular lymphoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "CD5+CD23+ weak sIg is classic for CLL; mantle cell is CD5+ but CD23- and often cyclin D1+.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0abba93fdee8",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman is found to have an enlarged axillary lymph node on mammogram. She is asymptomatic. Excisional biopsy shows follicular lymphoma, grade 1. What is the next most appropriate investigation to complete staging?",
+      "options": [
+        "CT chest/abdomen/pelvis",
+        "PET-CT scan",
+        "Ultrasound of the liver and spleen",
+        "LDH and beta-2 microglobulin levels",
+        "Bone marrow aspiration and trephine biopsy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For follicular lymphoma staging, CT scan is standard for nodal and extranodal involvement. PET-CT is not routinely recommended for indolent NHL except if transformation suspected. Bone marrow biopsy is part of staging but CT is the next step after biopsy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b8c523dd239d",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with stridor, facial swelling, and distended neck veins. CT shows a large anterior mediastinal mass compressing the superior vena cava. Biopsy is needed to guide management. What is the most appropriate diagnostic approach?",
+      "options": [
+        "CT-guided core needle biopsy of the mediastinal mass",
+        "Mediastinoscopy with biopsy",
+        "Endobronchial ultrasound-guided biopsy",
+        "Open surgical biopsy via sternotomy",
+        "Excisional lymph node biopsy of a palpable supraclavicular node"
+      ],
+      "answerIndex": 0,
+      "explanation": "In SVC obstruction, minimally invasive image-guided biopsy is preferred to avoid risks of anaesthesia; core needle often yields sufficient tissue for NHL diagnosis. The stem does not mention a palpable node, so CT-guided core is the safest and most appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "db96de4d2898",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old man with HIV (CD4 count 200 cells/µL, on antiretrovirals) presents with fever and rapidly enlarging neck lymph nodes over two weeks. Excisional biopsy shows diffuse large B-cell lymphoma (DLBCL). What is the most important investigation prior to starting therapy?",
+      "options": [
+        "Bone marrow biopsy",
+        "Echocardiogram",
+        "PET-CT scan",
+        "HIV viral load and CD4 count",
+        "Lumbar puncture with CSF cytology and flow cytometry"
+      ],
+      "answerIndex": 4,
+      "explanation": "In HIV-associated DLBCL, especially with extranodal disease or high-grade features, there is increased risk of CNS involvement. Lumbar puncture is essential to detect occult CNS disease before treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d0ef90434cbe",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with a painless, enlarged right cervical lymph node. Biopsy shows grade 1 follicular lymphoma, stage I (single node group). He is asymptomatic and has no B symptoms. Lactate dehydrogenase is normal. What is the most appropriate first-line management?",
+      "options": [
+        "Watchful waiting",
+        "Rituximab monotherapy",
+        "Involved-field radiotherapy",
+        "Bendamustine plus rituximab",
+        "R-CHOP chemotherapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "For asymptomatic, low-burden stage I follicular lymphoma, NICE recommends watchful waiting (active surveillance) given the indolent nature and lack of survival benefit with early treatment. Involved-field radiotherapy is an option for stage I but not first-line if asymptomatic and low volume; watchful waiting avoids unnecessary toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "884a74574911",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with a rapidly enlarging neck mass and right axillary lymphadenopathy. CT scan reveals bulky stage II disease. Biopsy confirms diffuse large B-cell lymphoma (DLBCL), germinal centre subtype. She has an ECOG performance status of 1. What is the most appropriate first-line treatment?",
+      "options": [
+        "R-CHOP followed by involved-field radiotherapy",
+        "Bendamustine plus rituximab (BR)",
+        "R-ICE chemotherapy",
+        "Rituximab monotherapy",
+        "R-CHOP chemotherapy"
+      ],
+      "answerIndex": 4,
+      "explanation": "R-CHOP is the standard first-line regimen for fit patients with DLBCL, including bulky disease. Radiotherapy is not added upfront unless there is a specific indication (e.g., testicular involvement). BR is used for indolent lymphomas, not DLBCL. R-ICE is a salvage regimen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1fced5ef5d5",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with acute tumour lysis syndrome (TLS) due to newly diagnosed Burkitt lymphoma. He has a known history of G6PD deficiency. Which treatment is CONTRAINDICATED in his management?",
+      "options": [
+        "Calcium gluconate",
+        "Allopurinol",
+        "R-CODOX-M/IVAC chemotherapy",
+        "Aggressive intravenous fluids",
+        "Rasburicase"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rasburicase is contraindicated in G6PD deficiency because it can precipitate haemolytic anaemia. Allopurinol and aggressive IV fluids are standard TLS prophylaxis/management. R-CODOX-M/IVAC is an appropriate chemotherapy regimen for Burkitt lymphoma once TLS is controlled.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "870fd5626c35",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with newly diagnosed diffuse large B-cell lymphoma (DLBCL) is planned for R-CHOP chemotherapy. He is HBsAg positive with normal liver enzymes and high HBV DNA level. Which prophylactic antiviral should be started?",
+      "options": [
+        "No antiviral prophylaxis is needed",
+        "Entecavir",
+        "Lamivudine",
+        "Tenofovir",
+        "Acyclovir"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE and EASL guidelines recommend entecavir or tenofovir as first-line prophylaxis for HBV reactivation in patients receiving rituximab-containing regimens. Entecavir is preferred due to lower resistance rates compared to lamivudine. Acyclovir has no activity against HBV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c8b43ea9c57",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with newly diagnosed diffuse large B-cell lymphoma (DLBCL), ECOG 2, has a history of dilated cardiomyopathy with left ventricular ejection fraction 35% on echocardiography. Which chemotherapy agent is CONTRAINDICATED as part of standard first-line treatment?",
+      "options": [
+        "Cyclophosphamide",
+        "Prednisolone",
+        "Rituximab",
+        "Vincristine",
+        "Doxorubicin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Doxorubicin (an anthracycline) is contraindicated in patients with significant cardiac impairment (LVEF <40%) due to dose-dependent cardiotoxicity. An alternative regimen without an anthracycline (e.g., R-CVP or R-GemOx) should be considered. Rituximab, cyclophosphamide, vincristine, and prednisolone are not contraindicated by low LVEF.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ca5408be9e5",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old female presents to the emergency department with a 4-week history of a painless lump in her right neck. She has no fevers, no night sweats, and no weight loss. On examination, there is a firm, non-tender, 2.5 cm lymph node in the right supraclavicular region. She is otherwise systemically well. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent excisional lymph node biopsy.",
+        "Prescribe a 7-day course of co-amoxiclav.",
+        "Arrange full blood count, lactate dehydrogenase, and erythrocyte sedimentation rate.",
+        "Arrange an ultrasound scan of the neck.",
+        "Arrange urgent referral to haematology under the 2-week wait suspected cancer pathway."
+      ],
+      "answerIndex": 4,
+      "explanation": "Unexplained lymphadenopathy >2 cm persisting for >3-4 weeks requires urgent referral to haematology for further investigation, as per NICE guidelines. Antibiotics are inappropriate without evidence of infection. Biopsy is the definitive diagnostic test but is organised by the specialist, not the ED physician.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5c94195cb587",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known grade 1 follicular lymphoma, stage IIA, currently on surveillance, attends haematology clinic for routine follow-up. He feels well, with no B symptoms. Examination reveals new, bilateral, small cervical lymph nodes (largest 1.5 cm). His last CT scan 6 months ago showed stable disease. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for involved field radiotherapy.",
+        "Start rituximab monotherapy.",
+        "Arrange a PET-CT scan.",
+        "Reassure and continue surveillance.",
+        "Repeat lymph node biopsy."
+      ],
+      "answerIndex": 3,
+      "explanation": "Asymptomatic low-grade follicular lymphoma does not require treatment; watchful waiting is standard. There is no indication for immediate therapy, biopsy, or staging scans in the absence of progression or symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "da14884ebeb4",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with recently diagnosed primary mediastinal B-cell lymphoma is brought to the emergency department acutely short of breath. On arrival, she has stridor, facial swelling, and distended neck veins. Her oxygen saturations are 88% on room air. What is the most appropriate immediate next step?",
+      "options": [
+        "Call the anaesthetic team for urgent airway assessment and possible intubation.",
+        "Request an urgent echocardiogram to assess for pericardial effusion.",
+        "Arrange an urgent CT chest.",
+        "Start high-dose dexamethasone intravenously.",
+        "Sit the patient upright and administer high-flow oxygen."
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has superior vena cava obstruction with airway compromise (stridor). The priority is securing the airway; thus, immediate anaesthetic review is needed. Steroids and oxygen are supportive but not the first step in the face of impending obstruction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ea6eb7fb6da",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with newly diagnosed Burkitt lymphoma starts cycle 1 of CODOX-M/IVAC chemotherapy. Twelve hours later, he becomes oliguric and complains of muscle cramps. Observations: BP 105/60, HR 102, temperature 36.8°C. Bony tenderness is noted. His pre-treatment urate was normal. What is the most appropriate immediate next action?",
+      "options": [
+        "Check urgent serum potassium, phosphate, urate, and calcium.",
+        "Arrange urgent haemodialysis.",
+        "Give oral allopurinol 300 mg stat.",
+        "Arrange an urgent ECG.",
+        "Start intravenous normal saline at 200 mL/hour."
+      ],
+      "answerIndex": 4,
+      "explanation": "Tumour lysis syndrome is suspected. The immediate management is aggressive intravenous fluid resuscitation to maintain renal perfusion and prevent acute kidney injury. Checking labs is important but can be done simultaneously; however, starting fluids is the most urgent therapeutic step. Allopurinol is for prevention; haemodialysis is reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ddb26ae191a2",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old man with a history of diffuse large B-cell lymphoma (stage IIE) treated with R-CHOP 14 months ago, now in complete remission, presents with a new 3 cm, firm, left axillary lymph node. He feels well, with no systemic symptoms. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for autologous stem cell transplant assessment.",
+        "Start salvage chemotherapy with R-GDP.",
+        "Arrange urgent excisional lymph node biopsy.",
+        "Arrange a whole-body PET-CT scan.",
+        "Arrange full blood count and lactate dehydrogenase."
+      ],
+      "answerIndex": 2,
+      "explanation": "Suspected relapse of DLBCL must be confirmed histologically before any treatment. Excisional biopsy of a representative node is the gold standard. Starting treatment or proceeding to transplant without a biopsy is inappropriate. PET-CT and blood tests are supportive but not diagnostic in isolation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc1f5d7e2ce2",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with a 2-month history of painless right-sided neck swelling. He also reports intermittent fever and drenching night sweats. On examination, there is a firm 3 cm lymph node in the right supraclavicular region. Routine bloods show normal FBC and U&Es. Chest X-ray reveals a wide mediastinum. Two days later, he develops acute dyspnoea, stridor, and swelling of the face and upper limbs. Which single finding most strongly indicates the need for urgent intervention?",
+      "options": [
+        "Fever (37.8°C)",
+        "Stridor",
+        "Drenching night sweats",
+        "Mediastinal widening on CXR",
+        "Firm supraclavicular lymph node"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stridor indicates acute upper airway obstruction from mediastinal mass compression of the trachea, requiring immediate treatment. This is a can't-miss red flag in superior vena cava obstruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7b279cf9441f",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with known low-grade follicular lymphoma on active surveillance presents to the emergency department with sudden onset of severe mid-thoracic back pain and bilateral leg weakness that has progressed over 24 hours. She can no longer walk. On examination, there is a sensory level at T6 and brisk knee and ankle reflexes. Which single finding most strongly suggests a complication requiring immediate decompression?",
+      "options": [
+        "New-onset inability to walk",
+        "Hyper-reflexia",
+        "Mid-thoracic back pain",
+        "Sensory level at T6",
+        "Urinary retention"
+      ],
+      "answerIndex": 0,
+      "explanation": "New-onset motor weakness is the key red flag for malignant spinal cord compression, prompting urgent MRI and decompression. While sensory level is supportive, motor deficit is most critical for functional outcome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc45195d026d",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with newly diagnosed diffuse large B-cell lymphoma and bulky abdominal disease is admitted for first cycle of R-CHOP chemotherapy. Pre-treatment bloods show: Hb 120 g/L, WCC 6.5 x 10^9/L, platelets 180 x 10^9/L, Na 140, K 4.2, urea 6.5, creatinine 95, LDH 850 U/L (normal <250), uric acid 0.52 mmol/L. He is started on allopurinol and IV fluids. On day 2 of chemotherapy, he develops nausea, muscle cramps, and ECG shows tall T waves. Which single laboratory finding would confirm the suspected emergency?",
+      "options": [
+        "Serum calcium 2.1 mmol/L",
+        "Serum LDH 1000 U/L",
+        "Serum phosphate 2.0 mmol/L",
+        "Serum potassium 6.5 mmol/L",
+        "Serum creatinine 200 μmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tall T waves and muscle cramps suggest hyperkalemia from tumour lysis syndrome, the most immediately life-threatening electrolyte abnormality. Confirmation with elevated potassium mandates urgent treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d6c4d626e3e",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with stage IV follicular lymphoma on watchful waiting over 3 years presents with a 4-week history of rapidly enlarging left groin lymph node, now 8 cm in diameter, and intermittent fevers. She has lost 5 kg unintentionally. Her usual blood tests show a stable lymphocytosis. Which single finding is most concerning for transformation to aggressive lymphoma?",
+      "options": [
+        "Elevation of serum LDH",
+        "New-onset drenching night sweats",
+        "Unintentional weight loss >10%",
+        "Persistent fever",
+        "Rapidly enlarging lymph node (doubling in size over weeks)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rapid nodal enlargement is the most specific clinical sign of transformation from follicular to diffuse large B-cell lymphoma. While B symptoms and elevated LDH are also concerning, rapid growth is the hallmark.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "089841ac83fa",
+      "topic": "Non-Hodgkin Lymphoma",
+      "slug": "non-hodgkin-lymphoma",
+      "system": "Haematology",
+      "subSystem": "Lymphoma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with HIV (CD4 count 30 cells/µL, not on antiretroviral therapy) presents with a 1-week history of progressive headache and confusion. CT head shows a brain lesion. Which radiological finding is most suggestive of primary CNS lymphoma rather than cerebral toxoplasmosis?",
+      "options": [
+        "Hydrocephalus",
+        "Ring enhancement with central necrosis",
+        "Solitary homogeneously enhancing lesion",
+        "Multiple ring-enhancing lesions",
+        "Calcification within the lesion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Primary CNS lymphoma in HIV typically appears as a solitary, homogeneously enhancing periventricular mass, whereas toxoplasmosis often presents with multiple ring-enhancing lesions. This distinction guides empiric therapy.",
+      "difficulty": "hard"
+    }
+  ]
+}

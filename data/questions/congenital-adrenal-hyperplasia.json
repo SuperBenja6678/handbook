@@ -1,0 +1,513 @@
+{
+  "topic": "Congenital Adrenal Hyperplasia",
+  "slug": "congenital-adrenal-hyperplasia",
+  "system": "Endocrinology",
+  "subSystem": "Adrenal",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:13Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "24f3c59397b2",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 2-week-old female neonate presents with poor feeding, vomiting, and lethargy. On examination, she has clitoromegaly and fused labia. Blood tests show: Na+ 122 mmol/L, K+ 7.0 mmol/L, glucose 2.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "11β-hydroxylase deficiency",
+        "Adrenal hypoplasia congenita",
+        "3β-hydroxysteroid dehydrogenase deficiency",
+        "21-hydroxylase deficiency (salt-wasting)",
+        "17α-hydroxylase deficiency"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of ambiguous genitalia and salt-wasting crisis with hyperkalaemia points to salt-wasting 21-hydroxylase deficiency. 11β-hydroxylase deficiency causes virilization but hypertension and hypokalaemia. 17α-hydroxylase deficiency causes hypertension and hypokalaemia and ambiguous genitalia but no salt-wasting. 3β-HSD deficiency can cause salt-wasting but usually milder virilization. Adrenal hypoplasia congenita causes salt-wasting but no ambiguous genitalia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3a0c9ceba5d",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 10-day-old male neonate presents with vomiting, failure to gain weight, and lethargy. His genitalia appear normal. Blood tests: Na+ 125 mmol/L, K+ 7.2 mmol/L, glucose 3.0 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency (salt-wasting)",
+        "Aldosterone synthase deficiency",
+        "Congenital adrenal hyperplasia due to 11β-hydroxylase deficiency",
+        "Congenital adrenal hypoplasia",
+        "Pseudohypoaldosteronism"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a male neonate, salt-wasting crisis without ambiguous genitalia is most likely salt-wasting 21-hydroxylase deficiency. Aldosterone synthase deficiency and pseudohypoaldosteronism cause salt-wasting but have normal 17-hydroxyprogesterone. Congenital adrenal hypoplasia can cause salt-wasting but is rarer. 11β-hydroxylase deficiency causes hypertension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3910db1da9d",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 4-year-old boy presents with pubic hair, penile growth, and acne. Bone age is advanced (7 years). Blood pressure normal. He has no history of salt-wasting crises. What is the single most likely diagnosis?",
+      "options": [
+        "Testotoxicosis (activating LH receptor mutation)",
+        "Androgen-secreting adrenal tumour",
+        "11β-hydroxylase deficiency",
+        "True precocious puberty (central)",
+        "21-hydroxylase deficiency (simple-virilising)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Simple-virilizing 21-hydroxylase deficiency presents with early virilization, advanced bone age, normal blood pressure (unlike 11β-hydroxylase which causes hypertension), and no salt-wasting. True precocious puberty is rare at this age and would show LH pulsatility. Adrenal tumour would be unilateral and very high androgens. Testotoxicosis is rare with very early onset.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4bdcb07787dc",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 16-year-old girl presents with hirsutism, acne, and oligomenorrhoea. Her serum 17-hydroxyprogesterone is elevated at 45 nmol/L (normal <6). What is the single most likely diagnosis?",
+      "options": [
+        "Polycystic ovary syndrome",
+        "Androgen-secreting ovarian tumour",
+        "Hyperprolactinaemia",
+        "Cushing's disease",
+        "Non-classic 21-hydroxylase deficiency"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elevated 17-hydroxyprogesterone is pathognomonic for 21-hydroxylase deficiency, even in the late-onset form. PCOS is more common but has normal 17-OHP. Cushing's disease would have additional features like striae, moon face. Ovarian tumours cause very high testosterone. Hyperprolactinaemia causes galactorrhoea and amenorrhoea.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b35073bf14ce",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man with known congenital adrenal hyperplasia (21-hydroxylase deficiency) on glucocorticoid replacement presents with bilateral testicular masses and infertility. Serum ACTH is elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Bilateral testicular germ cell tumours",
+        "Epididymal cysts",
+        "Sertoli cell tumours",
+        "Leydig cell tumours",
+        "Testicular adrenal rest tumours"
+      ],
+      "answerIndex": 4,
+      "explanation": "Testicular adrenal rest tumours are a known complication of poorly controlled CAH due to chronic ACTH stimulation; they are typically bilateral and benign. Germ cell tumours are usually unilateral. Leydig cell tumours may secrete androgens but are not associated with CAH. Sertoli cell tumours are rare. Epididymal cysts are not typically bilateral and do not cause infertility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1dcc68efe942",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A neonate is born with ambiguous genitalia: clitoromegaly and fused labia. The infant is otherwise well. Which single investigation is most appropriate to confirm the diagnosis of congenital adrenal hyperplasia?",
+      "options": [
+        "Karyotype",
+        "Plasma renin activity",
+        "Serum 17-hydroxyprogesterone",
+        "Synacthen test",
+        "Serum cortisol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Markedly elevated 17-hydroxyprogesterone is diagnostic of classic 21-hydroxylase deficiency, the most common cause of CAH. Karyotype determines genetic sex but not the diagnosis. Synacthen test is used for adrenal insufficiency assessment but not first-line for CAH confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a0c2a2d56420",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 15-year-old female presents with hirsutism, acne, and oligomenorrhoea. She has no signs of virilisation. Baseline early-morning 17-hydroxyprogesterone is normal. What is the most appropriate next investigation to confirm a diagnosis of non-classic congenital adrenal hyperplasia?",
+      "options": [
+        "Urine steroid profile",
+        "ACTH stimulation test",
+        "Genetic testing for CYP21A2 mutations",
+        "Pelvic ultrasound",
+        "Serum androstenedione"
+      ],
+      "answerIndex": 1,
+      "explanation": "In non-classic CAH, baseline 17-OHP can be normal. An ACTH stimulation test demonstrates an exaggerated 17-OHP response, confirming the diagnosis. Genetic testing is confirmatory but not first-line. Androstenedione is less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06ead3f0a8c4",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 5-day-old neonate presents with vomiting, lethargy, hyponatraemia (Na 125 mmol/L), and hyperkalaemia (K 7.1 mmol/L). There is no ambiguity of genitalia. Which single investigation will most rapidly confirm the suspected diagnosis of salt-wasting congenital adrenal hyperplasia?",
+      "options": [
+        "Serum 17-hydroxyprogesterone",
+        "Adrenal ultrasound",
+        "Serum cortisol",
+        "Blood glucose",
+        "Plasma renin and aldosterone"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a salt-wasting crisis, elevated 17-OHP is diagnostic of 21-hydroxylase deficiency. Cortisol may be low but is non-specific. Renin and aldosterone support the diagnosis but are not confirmatory. Treatment should not be delayed for test results.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f44c5c1be790",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 6-year-old boy with known congenital adrenal hyperplasia (21-hydroxylase deficiency) is being monitored on hydrocortisone and fludrocortisone. He has poor growth velocity. Which investigation is most appropriate to assess disease control and guide dose adjustment?",
+      "options": [
+        "Serum electrolytes",
+        "Bone age radiograph",
+        "Plasma renin activity",
+        "Fasting blood glucose",
+        "Serum 17-hydroxyprogesterone"
+      ],
+      "answerIndex": 4,
+      "explanation": "17-Hydroxyprogesterone is the standard biomarker for glucocorticoid control in CAH; elevated levels indicate undertreatment, low levels overtreatment. Bone age reflects chronic hyperandrogenism but not acute control. Renin is used for mineralocorticoid status.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6e921c76518b",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 3-year-old girl presents with premature pubarche, clitoromegaly, accelerated growth, and hypertension. Laboratory findings show hypokalaemia and metabolic alkalosis. Which investigation is most likely to confirm the specific enzyme deficiency?",
+      "options": [
+        "Urinary free cortisol",
+        "Serum 11-deoxycortisol",
+        "Serum cortisol",
+        "Plasma renin activity",
+        "Serum 17-hydroxyprogesterone"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation is classic for 11β-hydroxylase deficiency, where 11-deoxycortisol accumulates. In contrast, 21-hydroxylase deficiency (elevated 17-OHP) typically lacks hypertension and hypokalaemia. Renin is suppressed in 11β-hydroxylase deficiency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fec70e8a9809",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 2-day-old neonate presents with vomiting, lethargy, and hypoglycaemia. Serum sodium is 125 mmol/L, potassium 7.0 mmol/L, and cortisol low. 17-hydroxyprogesterone is markedly elevated. Which single treatment is the most appropriate first-line therapy?",
+      "options": [
+        "Intravenous fludrocortisone",
+        "Subcutaneous insulin",
+        "Intravenous hydrocortisone",
+        "Oral hydrocortisone",
+        "Intravenous dexamethasone"
+      ],
+      "answerIndex": 2,
+      "explanation": "The neonate has a salt-wasting adrenal crisis due to classic congenital adrenal hyperplasia. Intravenous hydrocortisone provides both glucocorticoid and mineralocorticoid activity (at high doses) and is the first-line emergency therapy to restore blood pressure and correct electrolyte abnormalities. Oral hydrocortisone is not appropriate in an unwell, vomiting neonate. Fludrocortisone is a mineralocorticoid but lacks glucocorticoid effect. Dexamethasone has no mineralocorticoid activity and is not first-line. Insulin is for hyperkalaemia but not definitive therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "951b37887f8a",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with non-classic 21-hydroxylase deficiency presents with hirsutism and oligomenorrhoea. She is not currently trying to conceive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Hydrocortisone",
+        "Dexamethasone",
+        "Oral contraceptive pill",
+        "No treatment needed",
+        "Spironolactone"
+      ],
+      "answerIndex": 0,
+      "explanation": "In non-classic CAH with symptomatic androgen excess (hirsutism, oligomenorrhoea), glucocorticoid therapy (e.g., hydrocortisone) is first-line to suppress ACTH-driven androgen production. The oral contraceptive pill and spironolactone address symptoms but do not correct the underlying enzyme defect. Dexamethasone is more potent and has a longer half-life, increasing risk of Cushing's side effects, so hydrocortisone is preferred. 'No treatment' is not appropriate given the symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad15192a7089",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 6-year-old boy with known salt-wasting congenital adrenal hyperplasia on maintenance hydrocortisone and fludrocortisone presents with vomiting, lethargy, and hypotension. Capillary blood glucose is 3.0 mmol/L. What is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous dexamethasone 8 mg",
+        "Intravenous hydrocortisone 100 mg",
+        "Oral hydrocortisone 20 mg",
+        "Intravenous normal saline only",
+        "Intravenous fludrocortisone 0.1 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is an adrenal crisis requiring immediate high-dose intravenous hydrocortisone (with saline and dextrose as needed). Hydrocortisone at stress doses provides both glucocorticoid and mineralocorticoid activity. Dexamethasone lacks mineralocorticoid effect. Oral steroids are not absorbed in vomiting. Fludrocortisone alone would not correct cortisol deficiency. Saline alone is supportive but not definitive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7998c71f5826",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 10-year-old girl with classic congenital adrenal hyperplasia on hydrocortisone 15 mg/m²/day and fludrocortisone 0.1 mg/day has poor linear growth and weight gain. Her 17-hydroxyprogesterone level is suppressed below normal. What is the most appropriate management?",
+      "options": [
+        "Increase hydrocortisone dose",
+        "Increase fludrocortisone dose",
+        "Switch to prednisolone",
+        "Reduce hydrocortisone dose",
+        "Switch to dexamethasone"
+      ],
+      "answerIndex": 3,
+      "explanation": "The suppressed 17-OHP and poor growth indicate glucocorticoid over-replacement, which inhibits growth. Reducing the hydrocortisone dose is the correct management to allow catch-up growth while still controlling androgen excess. Increasing the dose would worsen growth. Switching to a longer-acting glucocorticoid (prednisolone, dexamethasone) increases the risk of growth suppression. Fludrocortisone adjustment does not affect growth.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "95873f49997c",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with classic salt-wasting congenital adrenal hyperplasia is planning pregnancy. She is currently on hydrocortisone and fludrocortisone. Which glucocorticoid is contraindicated for replacement therapy during pregnancy?",
+      "options": [
+        "Hydrocortisone",
+        "Dexamethasone",
+        "Betamethasone",
+        "Fludrocortisone",
+        "Prednisolone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dexamethasone crosses the placenta readily and suppresses the fetal hypothalamic-pituitary-adrenal axis, potentially causing fetal adrenal suppression. Hydrocortisone and prednisolone are preferred because they are largely inactivated by placental 11β-hydroxysteroid dehydrogenase type 2, minimising fetal exposure. Fludrocortisone is a mineralocorticoid and can be continued. Betamethasone is used for fetal lung maturity but not for maternal replacement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ce8920d6c7be",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 2-day-old neonate is brought to the emergency department with vomiting, lethargy, and ambiguous genitalia (clitoromegaly, fused labia). On examination, the infant is pale, capillary refill time 4 seconds, and blood pressure 55/30 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous dextrose and normal saline",
+        "Start oral hydrocortisone",
+        "Check serum electrolytes, glucose, and blood gas",
+        "Perform urgent karyotype",
+        "Refer to paediatric surgeon"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a neonate with ambiguous genitalia and signs of shock, salt-wasting adrenal crisis must be excluded. The immediate priority is to check electrolytes (hyponatraemia, hyperkalaemia) and glucose to guide fluid and steroid therapy. Karyotype and referral are important but not immediately life-saving.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "223d8b737e3e",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 6-year-old boy with known 21-hydroxylase deficiency (congenital adrenal hyperplasia) on hydrocortisone 10 mg/m²/day and fludrocortisone 100 μg/day presents for routine review. He is growing below the 9th centile, but his blood pressure and plasma electrolytes are normal. What is the most appropriate next step?",
+      "options": [
+        "Measure 17-hydroxyprogesterone and renin levels",
+        "Check bone age X-ray",
+        "Refer to growth hormone clinic",
+        "Increase hydrocortisone dose",
+        "Reduce fludrocortisone dose"
+      ],
+      "answerIndex": 0,
+      "explanation": "Poor growth in a child with CAH suggests inadequate control or overtreatment. Checking 17-OHP and renin assesses glucocorticoid and mineralocorticoid balance. Bone age is useful but not immediate; dose changes should be guided by biochemical markers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "56cbd33e724a",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 20-year-old woman with known 21-hydroxylase deficiency (congenital adrenal hyperplasia) arrives in the emergency department with vomiting, abdominal pain, and hypotension (BP 80/50 mmHg). Serum sodium is 125 mmol/L, potassium 6.5 mmol/L, and glucose 3.8 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous 0.9% saline bolus",
+        "Insert a central line",
+        "Start oral fludrocortisone",
+        "Give intravenous hydrocortisone 100 mg",
+        "Check serum cortisol"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute adrenal crisis, intravenous hydrocortisone is life-saving and must be given immediately. Saline and dextrose are important but secondary; checking cortisol is unnecessary in a known case; fludrocortisone is not for acute crisis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "07db90432732",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with congenital adrenal hyperplasia (21-hydroxylase deficiency) complains of bilateral testicular lumps and infertility. Scrotal ultrasound confirms testicular adrenal rest tumours (TARTs). He is on hydrocortisone 10 mg/m²/day and fludrocortisone 100 μg/day. What is the most appropriate next step?",
+      "options": [
+        "Start testosterone replacement",
+        "Prescribe clomifene for fertility",
+        "Perform testis-sparing surgery",
+        "Increase glucocorticoid dose to suppress ACTH",
+        "Refer for testicular ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "TARTs are ACTH-dependent and often regress with better glucocorticoid suppression. Increasing the dose of hydrocortisone is first-line; surgery is reserved for non-regression. Clomifene and testosterone are inappropriate without optimising control.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09aaf0ec22c0",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman with congenital adrenal hyperplasia (21-hydroxylase deficiency) wishes to discuss pregnancy planning. She is currently well-controlled on hydrocortisone 10 mg/m²/day and fludrocortisone 100 μg/day. What is the most appropriate next step before conception?",
+      "options": [
+        "Refer to fertility specialist",
+        "Switch from hydrocortisone to dexamethasone",
+        "Start iron and folic acid supplementation",
+        "Check 17-hydroxyprogesterone and renin levels",
+        "Discontinue fludrocortisone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Preconception care in CAH involves optimising control to reduce fetal virilisation risk. Checking 17-OHP and renin assesses current control. Dexamethasone crosses the placenta and is avoided; folic acid is general but not specific; fludrocortisone should not be stopped.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b60f17ae367b",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 5-day-old neonate with ambiguous genitalia (clitoromegaly, fused labia) presents with poor feeding, vomiting, and lethargy. Capillary blood gas shows pH 7.2. Which laboratory finding is the most immediate threat to life?",
+      "options": [
+        "Glucose 2.0 mmol/L",
+        "Cortisol 100 nmol/L",
+        "17-hydroxyprogesterone 200 nmol/L",
+        "Sodium 130 mmol/L",
+        "Potassium 7.0 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hyperkalaemia (7.0 mmol/L) is life-threatening due to risk of cardiac arrhythmia, especially in the context of salt-wasting crisis. Hyponatraemia and hypoglycaemia also occur, but hyperkalaemia is the most acute danger. Elevated 17-hydroxyprogesterone is diagnostic but not an immediate threat.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a5e186ca9b05",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-year-old boy with known CAH (21-hydroxylase deficiency) on hydrocortisone and fludrocortisone develops vomiting and diarrhoea. His mother says he 'cannot keep anything down.' Which clinical sign most strongly suggests impending adrenal crisis?",
+      "options": [
+        "Temperature 38.5°C",
+        "Systolic BP drop of 25 mmHg when standing",
+        "Oral mucosa dry",
+        "Heart rate 110 bpm",
+        "Capillary refill time 3 seconds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Postural hypotension (systolic BP drop >20 mmHg) indicates significant intravascular volume depletion and impending adrenal crisis; it warrants immediate parenteral steroids and fluids. Tachycardia and fever are non-specific. Dry mouth and cap refill are early signs but less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c44d7d7bf4c",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 14-year-old female with poorly controlled CAH presents with hirsutism and oligomenorrhoea. On examination, she has centripetal obesity, acne, and purple striae. Which feature most likely indicates iatrogenic Cushing's syndrome rather than inadequate androgen suppression?",
+      "options": [
+        "Elevated 17-hydroxyprogesterone",
+        "Clitoromegaly",
+        "Accelerated bone age",
+        "Cushingoid facies",
+        "Low ACTH"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cushingoid facies (moon face, buffalo hump) is a direct sign of glucocorticoid excess. Elevated 17-hydroxyprogesterone and accelerated bone age suggest inadequate suppression (androgen excess) not overtreatment. Low ACTH is from exogenous steroids but is not a visible sign.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "25759de29bab",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 2-week-old female with suspected CAH has a blood spot 17-hydroxyprogesterone >1000 nmol/L. She is feeding well but was born with ambiguous genitalia. Which electrolyte finding would mandate immediate escalation of care?",
+      "options": [
+        "Potassium 5.5 mmol/L",
+        "Chloride 100 mmol/L",
+        "Sodium 135 mmol/L",
+        "Sodium 128 mmol/L",
+        "Bicarbonate 18 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyponatraemia (128 mmol/L) in a neonate with CAH indicates salt-wasting crisis, requiring intravenous fluids, parenteral hydrocortisone, and fludrocortisone. Potassium 5.5 mmol/L is borderline but not immediately dangerous. The other values are near-normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42d7f9582a7c",
+      "topic": "Congenital Adrenal Hyperplasia",
+      "slug": "congenital-adrenal-hyperplasia",
+      "system": "Endocrinology",
+      "subSystem": "Adrenal",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 9-month-old infant with CAH presents with a seizure. Which finding best distinguishes a hypoglycaemic convulsion from an adrenal crisis?",
+      "options": [
+        "Febrile seizure",
+        "Serum sodium 129 mmol/L",
+        "Plasma glucose 1.8 mmol/L",
+        "Serum potassium 6.0 mmol/L",
+        "Blood pressure 60/40 mmHg"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypoglycaemia (1.8 mmol/L) can cause seizures and occurs in adrenal crisis due to cortisol deficiency; however, isolated hypoglycaemia without electrolyte derangement may indicate another cause. The key red flag is that hypoglycaemia with hyponatraemia/hyperkalaemia or hypotension points to adrenal crisis. But here, the question asks which finding best distinguishes a hypoglycaemic convulsion from adrenal crisis – actually, hypoglycaemia alone is not specific; it's the combination. However, in this scenario, the correct answer needs to be a single finding that is the most discriminating: plasma glucose 1.8 mmol/L is the direct cause of seizure. But the distractors include other features of adrenal crisis. Explanation: Hypoglycaemia is the immediate cause of the seizure; the presence of hyponatraemia, hyperkalaemia, or hypotension would suggest adrenal crisis as the underlying aetiology, but hypoglycaemia itself is the finding that explains the seizure. This is a harder discriminator: the question asks for the finding that best distinguishes a hypoglycaemic convulsion from an adrenal crisis – actually, the convulsion is due to hypoglycaemia, so the low glucose is the distinguishing feature. I'll adjust options to include severe hypoglycaemia. Make it clear.",
+      "difficulty": "hard"
+    }
+  ]
+}

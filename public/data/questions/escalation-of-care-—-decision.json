@@ -1,0 +1,513 @@
+{
+  "topic": "Escalation of Care — Decision",
+  "slug": "escalation-of-care-—-decision",
+  "system": "Critical Care / ICU",
+  "subSystem": "Decision",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:30:00Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9bba6da000f7",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with a background of COPD presents with a 3-day history of productive cough and fever. Despite intravenous antibiotics and oxygen via Venturi mask (FiO2 0.4), his respiratory rate is 35/min, SpO2 88%, and blood gases show PaO2 8.5 kPa, PaCO2 4.2 kPa. Chest X-ray shows bilateral alveolar infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Moderate to severe ARDS",
+        "Cardiogenic pulmonary oedema",
+        "Severe community-acquired pneumonia",
+        "Pulmonary embolism",
+        "Diffuse alveolar haemorrhage"
+      ],
+      "answerIndex": 0,
+      "explanation": "The PaO2/FiO2 ratio is 8.5/0.4 = 212 mmHg (<300 for ARDS, <200 for moderate-severe). Bilateral infiltrates with no evidence of fluid overload or left atrial hypertension make ARDS more likely than cardiogenic oedema. Pneumonia is the trigger but not the acute lung injury pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e026858fae75",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with known COPD (FEV1 40% predicted) is admitted with an infective exacerbation. She is not tolerating NIV due to claustrophobia. Arterial blood gas on 28% oxygen shows: pH 7.25, PaCO2 9.8 kPa, PaO2 7.0 kPa. She is alert and able to cough. What is the single most likely diagnosis?",
+      "options": [
+        "Acute hypercapnic respiratory failure",
+        "Pulmonary embolism",
+        "Mixed respiratory failure",
+        "Acute hypoxaemic respiratory failure",
+        "Pneumothorax"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pH <7.35 with PaCO2 >6 kPa indicates acute hypercapnic respiratory failure. Hypoxaemia is secondary. The absence of chest pain or sudden deterioration makes pneumothorax and PE less likely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "331da990ffb1",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman with known asthma presents with severe breathlessness. She can only speak single words, heart rate 130/min, respiratory rate 38/min, SpO2 88% on 15 L O2, and PEFR 110 L/min (predicted 400 L/min). On auscultation, there is a silent chest. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Acute severe asthma",
+        "Moderate asthma exacerbation",
+        "Vocal cord dysfunction",
+        "Life-threatening asthma"
+      ],
+      "answerIndex": 4,
+      "explanation": "Silent chest, PEFR <33% predicted, and inability to complete sentences define life-threatening asthma. Anaphylaxis typically has skin and cardiovascular features; vocal cord dysfunction produces normal oxygen saturations and a normal PEFR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ec4fe693d0f2",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man, day 3 post laparoscopic right hemicolectomy, develops sudden-onset rigors, tachycardia (120/min), hypotension (85/55 mmHg), and abdominal pain. Lactate is 4.5 mmol/L, WCC 22 x10^9/L. Urine output <0.5 mL/kg/hr. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "Cardiogenic shock due to perioperative MI",
+        "Hypovolaemic shock due to haemorrhage",
+        "Septic shock secondary to anastomotic leak",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of fever, rigors, abdominal pain, and high lactate points to septic shock. Anastomotic leak is a classic cause. Haemorrhage would show falling haemoglobin and no fever; PE would have chest signs; perioperative MI would have ECG changes; adrenal insufficiency is rare and has hyponatraemia/hyperkalaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0a40398b54e0",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with a history of hypothyroidism (on levothyroxine 50 mcg daily, but recently non-adherent) is found at home confused and unable to mobilise. In the emergency department, she is hypothermic (temp 34.2°C), bradycardic (50/min), hypotensive (80/50 mmHg), and has dry skin. Bloods show hyponatraemia (Na 125 mmol/L) and a normal cortisol response to Synacthen. What is the single most likely diagnosis?",
+      "options": [
+        "Cerebrovascular accident",
+        "Primary hypothermia",
+        "Severe sepsis",
+        "Adrenal crisis",
+        "Myxoedema coma"
+      ],
+      "answerIndex": 4,
+      "explanation": "Myxoedema coma presents with hypothermia, bradycardia, hypotension, and altered mental status in a patient with untreated hypothyroidism. The normal Synacthen test excludes adrenal crisis. Sepsis and stroke would not typically cause such profound hypothermia or the electrolyte pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "08735e800fa7",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with COPD presents with a 3-day history of productive cough, fever, and confusion. On examination: RR 32/min, SpO2 88% on room air, heart rate 110 bpm, BP 110/70 mmHg. Chest X-ray shows right lower lobe consolidation. CURB-65 score is 4. Which single investigation is most appropriate to quantify the severity of respiratory failure and guide the decision for ICU admission?",
+      "options": [
+        "CT chest with contrast",
+        "Sputum culture and sensitivity",
+        "Arterial blood gas (ABG) for PaO2/FiO2 ratio",
+        "Echocardiogram",
+        "D-dimer level"
+      ],
+      "answerIndex": 2,
+      "explanation": "In severe CAP, the PaO2/FiO2 ratio on ABG quantifies hypoxaemia and is a key criterion for ICU admission (e.g., PaO2/FiO2 < 250 mmHg). CT chest is not needed acutely; D-dimer is for PE; sputum culture guides antibiotics but not severity; echo is not the first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f879fd532767",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with diabetes presents with hypotension (BP 80/50 mmHg), fever, and oliguria. He has a suprapubic catheter in situ and urine dip shows nitrites and leukocytes. Blood cultures are pending. Which laboratory result is most specific for tissue hypoperfusion and predicts the need for ICU escalation in septic shock?",
+      "options": [
+        "Base deficit < -4 mmol/L",
+        "Serum creatinine > 200 μmol/L",
+        "Serum lactate > 2 mmol/L",
+        "Serum procalcitonin > 2 ng/mL",
+        "White cell count > 20 × 10^9/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevated lactate (>2 mmol/L) indicates tissue hypoperfusion and is a high-risk criterion for severe sepsis requiring ICU. Procalcitonin suggests infection but not hypoperfusion; base deficit is less specific; creatinine reflects renal function; WCC is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59eea406b041",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman undergoes emergency laparotomy for perforated diverticulitis. On postoperative day 2, she is anuric despite adequate fluid resuscitation (fluid balance +2 L). Serum creatinine is 300 μmol/L (baseline 80). Which single parameter is most important in determining her need for renal replacement therapy and escalation to ICU?",
+      "options": [
+        "Serum potassium > 6.0 mmol/L",
+        "Serum bicarbonate < 15 mmol/L",
+        "Serum urea > 30 mmol/L",
+        "Urine output < 0.3 mL/kg/h for >12 hours",
+        "Central venous pressure < 4 mmHg"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to KDIGO, persistent oliguria (<0.3 mL/kg/h for >12 hours) is an absolute indication for RRT. While hyperkalaemia and acidosis are also indications, the scenario describes anuria with adequate fluid, making urine output the most direct parameter.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4e7ca2138b37",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with gallstone pancreatitis has persistent pain and fever 48 hours after admission. He is haemodynamically stable but has a Glasgow coma score of 14. Which blood test result at 48 hours is most predictive of severe pancreatitis requiring ICU admission?",
+      "options": [
+        "White cell count > 15 × 10^9/L",
+        "Serum lipase > 5 times upper limit of normal",
+        "Lactate dehydrogenase > 500 U/L",
+        "Serum amylase > 5 times upper limit of normal",
+        "C-reactive protein (CRP) > 150 mg/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute pancreatitis, CRP >150 mg/L at 48 hours is a validated marker of severe disease (Glasgow score) and predicts need for ICU. Serum amylase/lipase confirm diagnosis but not severity; WCC and LDH are less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4775790deae",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 74-year-old woman with no prior respiratory disease presents with acute dyspnoea and pleuritic chest pain for 3 hours. On examination: BP 85/60 mmHg, HR 120 bpm, RR 28/min, SpO2 90% on air, and JVP is elevated. ECG shows sinus tachycardia, S1Q3T3 pattern. Which single investigation should be performed first to confirm the diagnosis and justify immediate ICU admission?",
+      "options": [
+        "CT pulmonary angiography",
+        "Repeat ECG with right-sided leads",
+        "D-dimer assay",
+        "Ventilation-perfusion (V/Q) scan",
+        "Bedside echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "In massive PE with shock, bedside echo showing right ventricular dysfunction can confirm the diagnosis rapidly and guide thrombolysis/ICU. CTPA is gold standard but may be delayed in instability; V/Q is not for emergencies; D-dimer lacks specificity; repeat ECG is not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4d3eb8d14d0d",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with septic shock (lactate 5.2 mmol/L, BP 82/45 mmHg after 30 mL/kg crystalloids) is admitted to ICU. He has a central line in situ. What is the most appropriate first-line vasopressor?",
+      "options": [
+        "Norepinephrine",
+        "Dobutamine",
+        "Vasopressin",
+        "Dopamine",
+        "Epinephrine"
+      ],
+      "answerIndex": 0,
+      "explanation": "In septic shock, NICE and Surviving Sepsis Campaign guidelines recommend norepinephrine as first-line vasopressor due to superior efficacy and lower arrhythmogenicity compared to dopamine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c034f8d2f633",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 74-year-old woman with known COPD presents with an acute exacerbation, GCS 15, respiratory rate 28, ABG: pH 7.25, pO2 7.0 kPa, pCO2 9.5 kPa on 60% oxygen. She has failed to improve after bronchodilators and steroids. What is the most appropriate first-line ventilatory support?",
+      "options": [
+        "Non-invasive ventilation (BiPAP)",
+        "No ventilatory support yet; continue medical therapy",
+        "High-flow nasal oxygen",
+        "Continuous positive airway pressure alone",
+        "Invasive mechanical ventilation"
+      ],
+      "answerIndex": 0,
+      "explanation": "For acute hypercapnic respiratory failure in COPD exacerbation, NICE recommends non-invasive ventilation (BiPAP) as first-line, as it reduces the need for intubation and improves survival.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b6fd3d01a1a",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old woman develops sudden onset of urticaria, stridor, and hypotension (BP 75/40 mmHg) within minutes of receiving intravenous penicillin in the emergency department. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Intramuscular chlorphenamine 10 mg",
+        "Intravenous adrenaline 0.5 mg (1:10000)",
+        "Nebulised salbutamol 5 mg",
+        "Intravenous hydrocortisone 200 mg",
+        "Intramuscular adrenaline 0.5 mg (1:1000)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In anaphylaxis, immediate IM adrenaline is first-line due to rapid onset, safety, and efficacy; IV adrenaline is reserved for specialist use due to risk of arrhythmias.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0b60d6a74350",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man with life-threatening asthma (peak flow 20% predicted, unable to complete sentences, silent chest) has already received nebulised salbutamol 5 mg, ipratropium 0.5 mg, and IV hydrocortisone 200 mg. He remains distressed with SpO2 92% on 100% oxygen. What is the most appropriate first-line intravenous therapy?",
+      "options": [
+        "Ketamine 1 mg/kg",
+        "Magnesium sulphate 2 g",
+        "Salbutamol 250 μg",
+        "Adrenaline 0.5 mg",
+        "Aminophylline 250 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "For acute severe asthma not responding to initial therapy, IV magnesium sulphate is recommended as first-line; aminophylline is no longer routinely advised due to poor evidence and side effects.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3fd2b54edfb4",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with no prior illness presents with sudden dyspnoea, pleuritic chest pain, and hypotension (BP 85/50 mmHg). CT pulmonary angiography confirms a large central pulmonary embolism with right ventricular strain on echocardiogram. What is the most appropriate first-line treatment?",
+      "options": [
+        "Unfractionated heparin infusion",
+        "Inferior vena cava filter",
+        "Surgical embolectomy",
+        "Systemic thrombolysis (alteplase)",
+        "Catheter-directed thrombolysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In massive PE with obstructive shock, systemic thrombolysis is first-line according to NICE guidelines, as it rapidly reduces clot burden and improves haemodynamics; heparin alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "577d904e81b0",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man is admitted with acute pancreatitis. He has been resuscitated with 4 L of intravenous crystalloid over 6 hours. His urine output remains low at 0.3 mL/kg/hr, his creatinine has risen from 80 to 150 μmol/L, and his corrected calcium is 1.8 mmol/L. His heart rate is 105 bpm and blood pressure 95/60 mmHg. What is the most appropriate next immediate action?",
+      "options": [
+        "Administer intravenous calcium gluconate",
+        "Refer to critical care for high-dependency support",
+        "Give a further 500 mL fluid bolus",
+        "Insert a central line for CVP monitoring",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has severe pancreatitis with persistent organ dysfunction (AKI, hypoperfusion) despite adequate fluid resuscitation. Escalation to critical care is needed for monitoring and potential organ support. Central line insertion (B) may be done later, but escalation is the priority. Calcium (D) is only given for symptomatic hypocalcaemia. Further fluid (E) risks overload without evidence of ongoing losses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db86c35e5c34",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman with a history of asthma presents to the emergency department with acute severe asthma. She has received three back-to-back salbutamol nebulisers and intravenous hydrocortisone. After one hour, she is unable to complete sentences, her respiratory rate is 38/min, peak expiratory flow rate is 30% of predicted, and SpO2 is 94% on 15 L/min oxygen via non-rebreather mask. What is the most appropriate next immediate action?",
+      "options": [
+        "Repeat a salbutamol nebuliser",
+        "Obtain a chest X-ray",
+        "Escalate to critical care for urgent review",
+        "Start non-invasive ventilation",
+        "Start intravenous magnesium sulphate"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is life-threatening asthma (PEFR <33%, exhaustion despite maximal therapy). The immediate priority is to escalate to critical care for potential intubation. IV magnesium (B) is a second-line treatment but does not replace the need for escalation. NIV (C) is not recommended in acute severe asthma.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "89aa684887e5",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with known bronchiectasis is admitted with an infective exacerbation. Despite 48 hours of intravenous antibiotics, her respiratory rate is 35/min, SpO2 is 88% on 15 L/min oxygen, and she is unable to complete sentences. Her chest X-ray shows bilateral infiltrates. She has a history of mild heart failure. What is the most appropriate next immediate action?",
+      "options": [
+        "Start non-invasive ventilation",
+        "Increase oxygen to 100%",
+        "Repeat chest X-ray",
+        "Start intravenous furosemide",
+        "Request an urgent critical care review"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient is deteriorating despite optimal medical therapy and requires escalation for critical care input, as the need for respiratory support (possibly NIV) must be evaluated. Starting NIV (A) on the ward may be unsafe due to potential cardiac issues and the need for close monitoring. Repeating the X-ray (B) will not change immediate management. Furosemide (E) may be considered for heart failure but is not the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bc36c8eaed99",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 88-year-old woman with advanced dementia, bedbound, is admitted with pneumonia. She has a documented DNACPR decision. Her family insists 'everything should be done'. Her oxygen saturations are 88% on 15 L/min oxygen, respiratory rate 30/min, and she is unable to take oral medications. What is the most appropriate next immediate action?",
+      "options": [
+        "Discuss with the family about realistic treatment goals and consider ward-based NIV",
+        "Request an urgent critical care review for possible intubation",
+        "Intubate and ventilate",
+        "Administer intravenous antibiotics",
+        "Start non-invasive ventilation on the ward"
+      ],
+      "answerIndex": 0,
+      "explanation": "Given her advanced frailty and dementia, escalating to ICU (C) is likely inappropriate. The immediate step is to discuss goals of care with the family, explaining the likely outcomes, and consider non-invasive ventilation on the ward as a ceiling of treatment. Intubating (A) would contradict her DNACPR. Antibiotics (E) are already indicated but the discussion takes priority to avoid futile escalation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f211c480baa4",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with type 1 diabetes presents with diabetic ketoacidosis. He is treated with intravenous fluids and a fixed-rate insulin infusion. After 4 hours, his capillary glucose has dropped from 30 mmol/L to 14 mmol/L, but his pH remains 7.0 and his GCS has fallen from 15 to 12. What is the most appropriate next immediate action?",
+      "options": [
+        "Perform a CT head",
+        "Change to variable-rate insulin infusion",
+        "Request an urgent critical care review for suspected cerebral oedema",
+        "Give an intravenous bolus of 8.4% sodium bicarbonate",
+        "Administer 50 mL of 50% glucose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Deteriorating consciousness during DKA treatment suggests cerebral oedema, which is a life-threatening emergency requiring immediate ICU input. Switching insulin regimens (A) or giving glucose (B) are not appropriate. CT head (C) may be done but should not delay escalation. Bicarbonate (E) is not recommended in DKA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "16e540072f21",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with her first asthma exacerbation. She can speak in full sentences, oxygen saturation is 97% on air, and peak expiratory flow rate (PEFR) is 60% predicted. Which single finding would indicate a severe exacerbation requiring immediate ICU escalation?",
+      "options": [
+        "Use of accessory muscles",
+        "Inability to complete sentences",
+        "Respiratory rate 22 breaths/min",
+        "PEFR 60% predicted",
+        "Heart rate 125 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Inability to complete sentences is a marker of severe asthma per BTS/SIGN guidelines, indicating the patient cannot maintain a normal conversation due to breathlessness. This necessitates urgent escalation to critical care. Accessory muscle use and heart rate >110 are features of severe exacerbation, but inability to speak is more specific for life-threatening asthma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7808200c4cb",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with community-acquired pneumonia (CRB-65 score 1) is being monitored on the ward. Which single finding would mandate escalation to critical care?",
+      "options": [
+        "Oxygen saturation 92% on 2 L/min",
+        "Respiratory rate 32 breaths/min",
+        "Blood pressure 100/70 mmHg",
+        "New atrial fibrillation",
+        "Urine output 40 mL/hr"
+      ],
+      "answerIndex": 1,
+      "explanation": "A respiratory rate >30 breaths/min is a criterion for severe pneumonia (CURB-65 score ≥3) and indicates impending respiratory failure, warranting ICU assessment. New atrial fibrillation may be a marker of sepsis but is not an immediate threshold for escalation; mild hypoxemia on low-flow oxygen is not critical alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bf26ba87cae3",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with septic shock is on noradrenaline 0.5 mcg/kg/min and has a lactate of 4 mmol/L. Which single finding would indicate a need for further escalation (e.g., to ICU for advanced cardiovascular support)?",
+      "options": [
+        "Temperature 38.5°C",
+        "Arterial pH 7.25",
+        "Urine output 0.3 mL/kg/hr",
+        "Mean arterial pressure 60 mmHg",
+        "Central venous oxygen saturation (ScvO2) 55%"
+      ],
+      "answerIndex": 4,
+      "explanation": "ScvO2 <60% reflects ongoing tissue hypoxia and low cardiac output despite adequate MAP, indicating need for inotropes or further optimisation. A MAP of 60 on vasopressor is acceptable; urine output 0.3 mL/kg/hr is oliguric but not an immediate escalation trigger if other parameters stable. Mild acidosis and fever are expected in sepsis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0398e8246784",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with acute pancreatitis has been admitted. Which single finding would mandate immediate ICU referral?",
+      "options": [
+        "Hyperglycaemia (glucose 12 mmol/L)",
+        "Serum amylase 1200 U/L",
+        "Pseudocyst on abdominal CT",
+        "Hypocalcaemia (corrected calcium 2.0 mmol/L)",
+        "Pleural effusion on chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypocalcaemia (corrected calcium <2.0 mmol/L) is a marker of severe pancreatitis (Ranson/Glasgow criteria) and indicates high risk of organ failure, warranting ICU admission. Pseudocyst and pleural effusion are complications that may not require immediate ICU; amylase level does not correlate with severity. Hyperglycaemia is common but not an escalation threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a299fcbdf75",
+      "topic": "Escalation of Care — Decision",
+      "slug": "escalation-of-care-—-decision",
+      "system": "Critical Care / ICU",
+      "subSystem": "Decision",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old nursing home resident with dementia, post-operative day 1 after hip fracture surgery, becomes acutely confused. Which single finding would most strongly suggest a life-threatening cause requiring ICU escalation?",
+      "options": [
+        "Urinary retention (palpable bladder)",
+        "Heart rate 100 bpm",
+        "Oxygen saturation 88% on room air",
+        "Temperature 37.8°C",
+        "Blood pressure 110/70 mmHg"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypoxaemia (SpO2 <90%) in this context raises suspicion of fat embolism syndrome or pulmonary embolism, both of which are life-threatening and require immediate ICU care. Urinary retention is common post-operatively, mild pyrexia may be due to atelectasis, and vital signs are otherwise non-critical. Delirium with hypoxia mandates escalation.",
+      "difficulty": "hard"
+    }
+  ]
+}

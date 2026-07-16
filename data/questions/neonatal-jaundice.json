@@ -1,0 +1,513 @@
+{
+  "topic": "Neonatal Jaundice",
+  "slug": "neonatal-jaundice",
+  "system": "Paediatrics",
+  "subSystem": "Neonatal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:35Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "f499b7b74cb2",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A term female neonate, born vaginally at 39 weeks, birth weight 3.2 kg. On day 3, she appears jaundiced. She is feeding well, urine is pale, stools are yellow. Bilirubin: total 280 µmol/L, conjugated 20 µmol/L. Mother is O+, baby is A+. Coombs test negative. What is the single most likely diagnosis?",
+      "options": [
+        "Physiological jaundice",
+        "G6PD deficiency",
+        "Crigler-Najjar type 1",
+        "Breast milk jaundice",
+        "ABO incompatibility"
+      ],
+      "answerIndex": 0,
+      "explanation": "The bilirubin level is within the typical range for a term baby at 72 hours without risk factors, and Coombs test is negative, making physiological jaundice more likely than ABO incompatibility, which would cause early hemolysis with positive Coombs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "05bc04807887",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 3-week-old breastfed term infant presents with jaundice. He is otherwise well, gaining weight appropriately, with normal yellow stools and pale urine. Bilirubin: total 180 µmol/L, unconjugated 170 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Neonatal hepatitis",
+        "Breast milk jaundice",
+        "Urinary tract infection",
+        "Biliary atresia",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The unconjugated hyperbilirubinemia with normal stools and no dark urine rules out biliary atresia (conjugated jaundice with pale stools). Breast milk jaundice is common in breastfed infants and is a diagnosis of exclusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5009155895d4",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A term male neonate, born to a mother with known G6PD deficiency (both mother and baby are G6PD deficient), develops jaundice on day 2. Bilirubin rises rapidly to 480 µmol/L on day 3. The baby is active but slightly lethargic. Blood group O+ both; direct Coombs test negative. What is the single most likely diagnosis?",
+      "options": [
+        "G6PD deficiency",
+        "Hereditary spherocytosis",
+        "Neonatal sepsis",
+        "ABO incompatibility",
+        "Rh incompatibility"
+      ],
+      "answerIndex": 0,
+      "explanation": "The maternal history of G6PD deficiency and the absence of blood group incompatibility point to G6PD deficiency as the cause of severe hemolytic jaundice. ABO incompatibility would require different blood groups and a positive Coombs test.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "afd7d0d79229",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 4-week-old term infant is brought in with worsening jaundice. The mother reports pale stools and dark urine since week 2. Bilirubin: total 200 µmol/L, conjugated 150 µmol/L. Liver enzymes are elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Choledochal cyst",
+        "Alagille syndrome",
+        "Neonatal hepatitis",
+        "Biliary atresia",
+        "Breast milk jaundice"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pale stools and dark urine indicate obstructive jaundice with conjugated hyperbilirubinemia, typical of biliary atresia. Neonatal hepatitis may also present with conjugated jaundice but stools are not consistently pale.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a04e0cc517a0",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 10-day-old term baby is jaundiced. He is feeding well and afebrile. Urine dipstick shows nitrites and leukocytes. Bilirubin: total 200 µmol/L, unconjugated 190 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Dehydration jaundice",
+        "Physiological jaundice",
+        "Breast milk jaundice",
+        "ABO incompatibility"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of nitrites and leukocytes on urine dip indicates a urinary tract infection, an important cause of prolonged unconjugated jaundice in neonates that is often missed. Physiological jaundice would not have abnormal urinalysis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9265b924261d",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A term baby, born vaginally at 39 weeks, presents with visible jaundice at 12 hours of life. The baby is otherwise well, with no risk factors. What is the single most appropriate first investigation?",
+      "options": [
+        "Full blood count",
+        "Total serum bilirubin",
+        "Direct Coombs test",
+        "Transcutaneous bilirubin",
+        "Blood group"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends measuring total serum bilirubin (TSB) as the first test when jaundice appears within 24 hours, because transcutaneous bilirubinometry may be unreliable in this setting. The correct answer is TSB; the other options are for identifying specific causes but are not the first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e5ae07317c9a",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 2-week-old, term, breastfed baby is brought to clinic with visible jaundice. The baby is well, feeding normally, and has normal stool colour. What is the single most appropriate first investigation?",
+      "options": [
+        "Liver function tests",
+        "Split bilirubin (conjugated and unconjugated)",
+        "Full blood count",
+        "Total serum bilirubin",
+        "Transcutaneous bilirubin"
+      ],
+      "answerIndex": 1,
+      "explanation": "For prolonged jaundice (>14 days), NICE advises checking split bilirubin to differentiate between physiological (unconjugated) and pathological (conjugated) hyperbilirubinaemia. Measuring only total bilirubin would miss the conjugated fraction, which could indicate biliary atresia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34a966ac8f65",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 1-day-old term baby develops jaundice and pallor. The mother is blood group O RhD positive, and the baby is group A RhD positive. Bilirubin is 200 μmol/L (rising rapidly). What is the single most appropriate investigation to confirm the cause of haemolysis?",
+      "options": [
+        "Glucose-6-phosphate dehydrogenase level",
+        "Baby's blood group",
+        "Direct Coombs test",
+        "Indirect Coombs test",
+        "Full blood count"
+      ],
+      "answerIndex": 2,
+      "explanation": "In suspected ABO incompatibility, the direct Coombs test detects maternal anti-A/anti-B antibodies bound to the baby's red cells, confirming immune haemolysis. Indirect Coombs test screens maternal serum; baby's blood group and FBC are supportive but not confirmatory; G6PD is not indicated here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8ff29ce8222",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 3-week-old term baby has prolonged jaundice. Split bilirubin shows conjugated bilirubin 50 μmol/L (normal <5) with total bilirubin 100 μmol/L. The baby is well, but stools are pale. What is the single most appropriate next investigation to identify the cause?",
+      "options": [
+        "TORCH serology",
+        "Urine reducing substances",
+        "Liver biopsy",
+        "Abdominal ultrasound",
+        "HIDA scan"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conjugated jaundice with pale stools raises suspicion of biliary atresia. Abdominal ultrasound is the first-line imaging to assess the gallbladder and biliary tree (e.g., triangular cord sign). Liver biopsy and HIDA scan are later steps; TORCH and urine reducing substances are for other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "46acea76301f",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 5-day-old term baby with jaundice presents with lethargy, poor feeding, a high-pitched cry, and opisthotonos. What is the single most important investigation at this point?",
+      "options": [
+        "Blood culture",
+        "Cranial ultrasound",
+        "Transcutaneous bilirubin",
+        "Total serum bilirubin",
+        "Direct Coombs test"
+      ],
+      "answerIndex": 3,
+      "explanation": "The signs suggest acute bilirubin encephalopathy. An urgent total serum bilirubin level is needed to confirm the severity and guide emergency management (exchange transfusion). Transcutaneous bilirubin is unreliable at high levels; the others are not the priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c4cc3c26789e",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A term baby (40 weeks gestation, birth weight 3.5 kg) is well and breastfeeding. On day 3, the bilirubin is 260 µmol/L. There are no risk factors for jaundice. What is the most appropriate management?",
+      "options": [
+        "Phototherapy",
+        "Intravenous immunoglobulin",
+        "No treatment",
+        "Phenobarbital",
+        "Exchange transfusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The bilirubin level is below the phototherapy threshold for term babies without risk factors (at day 3, threshold is approximately 290 µmol/L per NICE guidelines). No treatment is indicated because the baby is well and the jaundice is physiological.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ee51388ce878",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A term baby (38 weeks, birth weight 3.2 kg) develops jaundice at 24 hours. Bilirubin is 340 µmol/L. Mother is blood group O, baby group A, and direct Coombs test is positive. Intensive phototherapy is started. After 6 hours, bilirubin is 400 µmol/L and the baby remains well. What is the next step in management?",
+      "options": [
+        "Continue intensive phototherapy alone",
+        "Perform exchange transfusion",
+        "Stop phototherapy and monitor",
+        "Add phenobarbital",
+        "Add intravenous immunoglobulin (IVIG)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In ABO hemolytic disease, if bilirubin continues to rise despite intensive phototherapy, IVIG is recommended to reduce the need for exchange transfusion (NICE). Exchange transfusion would be considered if bilirubin reaches the exchange threshold (e.g., >450 µmol/L) or if signs of encephalopathy appear, but here the baby is well and the rise is not above exchange level.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "61e576752da3",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A preterm baby born at 30 weeks gestation, birth weight 1.5 kg, is now 5 days old. She is clinically well and feeding. Bilirubin is 250 µmol/L. According to NICE guidelines, what is the most appropriate treatment?",
+      "options": [
+        "Phenobarbital",
+        "Phototherapy",
+        "Intravenous immunoglobulin",
+        "Exchange transfusion",
+        "No treatment required"
+      ],
+      "answerIndex": 1,
+      "explanation": "For preterm babies (30 weeks), the phototherapy threshold at day 5 is approximately 150 µmol/L (NICE), and the exchange threshold is around 250 µmol/L. Since bilirubin is already at the exchange threshold, phototherapy must be started to prevent further rise. No treatment is not appropriate, and IVIG is not indicated without hemolysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "10bcc0b39685",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A term baby (39 weeks, birth weight 3.4 kg) presents on day 12 with jaundice. The bilirubin is 330 µmol/L. He is exclusively breastfed, well, with no signs of dehydration or illness. What is the most appropriate management?",
+      "options": [
+        "Phototherapy",
+        "Intravenous immunoglobulin",
+        "Exchange transfusion",
+        "Stop breastfeeding for 24 hours",
+        "No treatment required"
+      ],
+      "answerIndex": 0,
+      "explanation": "At day 12, the phototherapy threshold for a term baby remains around 290 µmol/L (NICE). With bilirubin of 330 µmol/L, phototherapy is indicated. Exchange transfusion is reserved for much higher levels. Stopping breastfeeding is not recommended; phototherapy can be given while continuing breastfeeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f845e749cc20",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 3-week-old term baby presents with prolonged jaundice. Bilirubin is 220 µmol/L (direct 20 µmol/L). The baby is well but has poor feeding and constipation. The newborn blood spot screen shows a low T4 and elevated TSH. What is the most appropriate treatment for the jaundice?",
+      "options": [
+        "Exchange transfusion",
+        "Thyroxine replacement",
+        "No treatment required",
+        "Intravenous immunoglobulin",
+        "Phototherapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The jaundice is due to congenital hypothyroidism. The definitive treatment is thyroxine replacement, which will correct the jaundice over time. Phototherapy is not indicated because the bilirubin level is well below the phototherapy threshold, and it does not address the underlying cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f41688be0ec3",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A term baby (39 weeks, 3.0 kg) is 48 hours old. He is well, feeding vigorously, stool colour normal. On examination, there is visible jaundice to the chest. What is the single most appropriate immediate next step?",
+      "options": [
+        "Reassure mother, review in 24 hours",
+        "Check full blood count and blood group",
+        "Check total serum bilirubin (TSB)",
+        "Start intensive phototherapy",
+        "Arrange exchange transfusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Visible jaundice in a term baby <72 hours requires bilirubin measurement to guide management. Phototherapy or exchange transfusion are not indicated before knowing the level. Reassurance is inappropriate without quantification. FBC and group are part of the workup but not the first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3ba02e2218d9",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A late preterm baby (36 weeks, 2.4 kg) is 5 days old, exclusively breastfed, passing wet nappies and yellow stools. TSB is 250 µmol/L. There are no risk factors for neurotoxicity. NICE phototherapy threshold at this gestational age and postnatal age is 280 µmol/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Repeat TSB in 6 hours",
+        "Start intensive phototherapy",
+        "Consider exchange transfusion",
+        "Check conjugated bilirubin",
+        "Increase oral feeds and encourage sunlight exposure"
+      ],
+      "answerIndex": 0,
+      "explanation": "The TSB (250) is below the phototherapy threshold (280), so phototherapy is not indicated. However, the baby is preterm and at risk of rising levels; repeating TSB in 6-12 hours is appropriate. Exchange transfusion is for levels above the exchange threshold. Conjugated bilirubin is not urgently needed. Sunlight is not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b55d6435e16",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A term baby (38 weeks, 3.2 kg) presents at 5 days old with extreme jaundice. TSB is 510 µmol/L. The baby is lethargic, has a high-pitched cry, and is arching his back. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an urgent MRI brain",
+        "Check blood gas and serum electrolytes",
+        "Perform a lumbar puncture",
+        "Start intensive phototherapy and arrange emergency exchange transfusion",
+        "Give a bolus of intravenous immunoglobulin (IVIG)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The baby has signs of acute bilirubin encephalopathy (kernicterus) with TSB >500. NICE recommends immediate exchange transfusion alongside intensive phototherapy. IVIG is for isoimmune haemolysis, but exchange is the priority. LP, MRI, and gases are not the first action in this emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "12d4b43d74b6",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A term baby (40 weeks, 3.5 kg) with ABO incompatibility (mother O, baby A) develops jaundice on day 2. Despite intensive phototherapy for 12 hours, TSB continues to rise from 300 to 350 µmol/L (currently 350). The baby is otherwise well. What is the single most appropriate immediate next step?",
+      "options": [
+        "Increase the number of phototherapy lights",
+        "Stop phototherapy and reassess",
+        "Check G6PD level",
+        "Give intravenous immunoglobulin (IVIG)",
+        "Perform an exchange transfusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends IVIG for isoimmune haemolysis (e.g., ABO/Rh incompatibility) if TSB continues to rise despite intensive phototherapy or is within 8.5 µmol/L of exchange threshold. Exchange transfusion is considered if IVIG fails or TSB reaches exchange level. Increasing lights is already maximal. G6PD testing is not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6893258bbf15",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 14-day-old term baby is brought to the GP with persistent jaundice. The mother reports pale stools and dark urine. The baby was breastfed but feeding is now less vigorous. On examination, the baby is icteric but well perfused. What is the single most appropriate immediate next step?",
+      "options": [
+        "Reassure mother that breast milk jaundice can last 2-3 weeks",
+        "Refer to paediatric gastroenterology for liver biopsy",
+        "Start phototherapy",
+        "Check TSB and repeat after 1 week",
+        "Check conjugated (direct) bilirubin and urine reducing substances"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pale stools and dark urine suggest cholestatic jaundice (conjugated hyperbilirubinaemia). Immediate measurement of conjugated bilirubin and urine reducing substances is needed to identify disorders like biliary atresia. Reassurance for breast milk jaundice is dangerous here. Phototherapy is ineffective for conjugated jaundice. Liver biopsy is not the first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7e611d6d7d40",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A term infant born at 39 weeks, birth weight 3.2 kg, presents at 48 hours of age with jaundice. The bilirubin is 180 μmol/L. Which single finding would most urgently require further investigation?",
+      "options": [
+        "Cephalhaematoma",
+        "Pale stools and dark urine",
+        "Breastfeeding exclusively",
+        "Bilirubin level of 180 μmol/L",
+        "Maternal blood group O, infant blood group A"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pale stools and dark urine suggest conjugated (obstructive) jaundice, which is pathological and requires urgent investigation for biliary atresia or neonatal hepatitis. This is a red flag regardless of bilirubin level. Maternal blood group incompatibility and cephalhaematoma can cause unconjugated jaundice but are not emergency triggers at this level. Breastfeeding is not a red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f7de61c0e60",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 5-day-old term infant with known physiological jaundice has a bilirubin of 250 μmol/L. The baby is otherwise well and feeding adequately. Which clinical finding would immediately raise concern for acute bilirubin encephalopathy?",
+      "options": [
+        "Lethargy and poor feeding",
+        "Maternal history of glucose-6-phosphate dehydrogenase deficiency",
+        "Mild jaundice to the chest",
+        "High-pitched cry and arching back",
+        "Weight loss of 5% from birth weight"
+      ],
+      "answerIndex": 3,
+      "explanation": "A high-pitched cry and arching back (opisthotonus) are classic signs of acute bilirubin encephalopathy, indicating urgent need for exchange transfusion. Lethargy and poor feeding are less specific and can be seen in many neonatal conditions. Weight loss and maternal G6PD deficiency are risk factors but not immediate red flags for encephalopathy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c0f48862de0c",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A preterm infant born at 32 weeks, now day 4, develops severe jaundice with bilirubin rising rapidly to 300 μmol/L. Which finding suggests impending kernicterus?",
+      "options": [
+        "Apnoeic episodes",
+        "Low platelet count",
+        "Sustained bradycardia",
+        "Opisthotonus and fever",
+        "Jaundice extending to palms and soles"
+      ],
+      "answerIndex": 3,
+      "explanation": "Opisthotonus (arching back) and fever are signs of acute bilirubin encephalopathy, which can progress to kernicterus. Jaundice to palms and soles indicates high bilirubin but not necessarily encephalopathy. Bradycardia, apnoea, and thrombocytopenia are not specific for kernicterus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1f4052b449a",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 3-week-old breastfed infant is noted to have persistent jaundice. Which finding would most strongly suggest biliary atresia?",
+      "options": [
+        "Bilirubin mostly unconjugated",
+        "Vomiting after every feed",
+        "Pale stools and dark urine",
+        "Maternal hepatitis B carrier",
+        "Mild hepatomegaly"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acholic (pale) stools and dark urine are hallmark signs of obstructive jaundice due to biliary atresia, requiring urgent surgical referral. Unconjugated hyperbilirubinaemia is typical of physiological jaundice or breast milk jaundice, not biliary atresia. Vomiting and hepatomegaly are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a21c4e7f4c71",
+      "topic": "Neonatal Jaundice",
+      "slug": "neonatal-jaundice",
+      "system": "Paediatrics",
+      "subSystem": "Neonatal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 2-day-old male infant with known G6PD deficiency develops jaundice. Which bilirubin trend would most strongly indicate a haemolytic crisis requiring immediate escalation?",
+      "options": [
+        "Direct bilirubin of 20 μmol/L",
+        "Bilirubin rising at 12 μmol/L per hour",
+        "Bilirubin level of 280 μmol/L at 48 hours",
+        "Bilirubin stable at 200 μmol/L for 12 hours",
+        "Bilirubin rising at 6 μmol/L per hour"
+      ],
+      "answerIndex": 1,
+      "explanation": "A rise of more than 8.5 μmol/L per hour is an NICE red flag for haemolytic jaundice, indicating need for urgent phototherapy and possible exchange transfusion. 6 μmol/L/hour is below the threshold. A stable level or direct hyperbilirubinaemia are not haemolytic patterns.",
+      "difficulty": "hard"
+    }
+  ]
+}

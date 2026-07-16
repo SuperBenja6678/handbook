@@ -1,0 +1,513 @@
+{
+  "topic": "Rheumatoid Arthritis",
+  "slug": "rheumatoid-arthritis",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Inflammatory",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:38Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "961252fa0768",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old female presents with 3 months of symmetrical pain and swelling in the metacarpophalangeal joints and wrists, and stiffness lasting over an hour in the morning. She has no psoriasis or nail changes. Examination reveals synovitis of both hands. Blood tests show positive rheumatoid factor and anti-CCP antibodies. What is the single most likely diagnosis?",
+      "options": [
+        "Systemic lupus erythematosus",
+        "Psoriatic arthritis",
+        "Osteoarthritis",
+        "Gout",
+        "Rheumatoid arthritis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Symmetrical small joint involvement, prolonged morning stiffness, and positive serology are classic for rheumatoid arthritis. Psoriatic arthritis often involves DIP joints and has skin changes; osteoarthritis is asymmetrical and lacks stiffness; lupus has other systemic features; gout is monoarticular.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8707d6d8f5a2",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with known rheumatoid arthritis (treated with methotrexate 20 mg weekly) presents with increasing joint pain and swelling in both wrists and MCP joints over 2 weeks. He is systemically well, afebrile. DAS28 score is 4.2. What is the single most likely diagnosis?",
+      "options": [
+        "Pseudogout",
+        "Osteoarthritis flare",
+        "Haemochromatosis arthropathy",
+        "Rheumatoid arthritis flare",
+        "Septic arthritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with established RA on treatment, a symmetrical polyarticular flare without fever or systemic upset is typical of mild-to-moderate disease activity. Septic arthritis is usually monoarticular with fever and systemic toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18c9bf3542a5",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with long-standing seropositive rheumatoid arthritis on adalimumab presents to the emergency department with a 24-hour history of an acutely swollen, red, hot, painful right knee. She has a temperature of 38.5°C. What is the single most likely diagnosis?",
+      "options": [
+        "Gout",
+        "Rheumatoid arthritis flare",
+        "Reactive arthritis",
+        "Septic arthritis",
+        "Pseudogout"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute monoarthritis with fever in an immunosuppressed patient on a biologic is septic arthritis until proven otherwise. It requires urgent aspiration. RA flare is usually polyarticular and without fever.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ef79704f1cf3",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with a 10-year history of seropositive rheumatoid arthritis (currently on methotrexate and low-dose prednisolone) presents with progressive dyspnoea on exertion, a dry cough, and bilateral pleuritic chest pain. He has no fever, sputum, or leg swelling. Chest X-ray shows bilateral reticular opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Congestive heart failure",
+        "Community-acquired pneumonia",
+        "Pulmonary embolism",
+        "Tuberculosis",
+        "Rheumatoid arthritis-associated interstitial lung disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dry cough, pleuritic pain, and reticular opacities in a patient with long-standing RA suggest ILD, a common extra-articular manifestation. There is no fever or risk factors for PE; no signs of heart failure; TB typically has apical changes and cough with sputum.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73d97dad4e8f",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman with rheumatoid arthritis in clinical remission on tocilizumab presents with a 1-week history of severe bitemporal headache, scalp tenderness, and jaw claudication when chewing. She feels systemically unwell. CRP is 85 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Rheumatoid arthritis flare",
+        "Giant cell arteritis",
+        "Polymyalgia rheumatica",
+        "Trigeminal neuralgia",
+        "Tension-type headache"
+      ],
+      "answerIndex": 1,
+      "explanation": "New-onset severe headache, scalp tenderness, and jaw claudication are classic for giant cell arteritis, even in the context of RA. A flare of RA would not cause these specific symptoms and CRP is elevated. Polymyalgia rheumatica often co-occurs but presents with proximal muscle pain, not headache.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "04591616cd0b",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman presents with 6 weeks of pain, swelling, and stiffness in both hands and wrists, worse in the morning lasting over an hour. On examination, there is tenderness and swelling of multiple MCP and PIP joints bilaterally. Rheumatoid factor (RF) is positive. What is the most appropriate next investigation to confirm the diagnosis of rheumatoid arthritis?",
+      "options": [
+        "Synovial fluid aspiration",
+        "Erythrocyte sedimentation rate",
+        "Antinuclear antibodies",
+        "X-ray of hands",
+        "Anti-CCP antibodies"
+      ],
+      "answerIndex": 4,
+      "explanation": "Anti-CCP antibodies have high specificity for RA. In a patient with typical clinical features and positive RF, a positive anti-CCP confirms the diagnosis. ESR is non-specific, X-ray may be normal early, ANA is for SLE, and synovial fluid aspiration is not needed unless monoarthritis or suspected sepsis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27d872da6a0a",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 42-year-old woman presents with 2-month history of bilateral hand pain and stiffness. X-ray of hands shows juxta-articular osteopenia and soft tissue swelling without erosions. What is the most likely diagnosis?",
+      "options": [
+        "Chondrocalcinosis",
+        "Psoriatic arthritis",
+        "Osteoarthritis",
+        "Early rheumatoid arthritis",
+        "Normal variant"
+      ],
+      "answerIndex": 3,
+      "explanation": "Juxta-articular osteopenia is an early radiographic feature of RA, indicating active inflammation. Osteoarthritis typically shows joint space narrowing and osteophytes, psoriatic arthritis may have 'pencil-in-cup' deformities, and chondrocalcinosis shows calcification of cartilage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "373738e0a71f",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "According to the 2010 ACR/EULAR classification criteria for rheumatoid arthritis, which of the following is NOT a component of the scoring system?",
+      "options": [
+        "Symptom duration (≥6 weeks)",
+        "Serology (RF and anti-CCP)",
+        "Joint involvement",
+        "Morning stiffness",
+        "Acute phase reactants (CRP and ESR)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Morning stiffness was part of the 1987 criteria but was replaced in the 2010 ACR/EULAR criteria by symptom duration of at least 6 weeks. The other four options are correctly included.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "665b2175ecdf",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man has swelling of 8 small joints (MCPs and PIPs bilaterally) for 4 weeks. RF is low-positive. ESR and CRP are normal. According to the 2010 ACR/EULAR classification criteria, his current score is 5 (joint involvement 3, serology 2, acute phase 0, duration 0). Which additional finding would allow classification as RA?",
+      "options": [
+        "Symptom duration >6 weeks",
+        "Presence of pitting oedema",
+        "Negative anti-CCP antibodies",
+        "Added morning stiffness lasting >30 minutes",
+        "Symmetric joint involvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "A score of ≥6 is required. Adding symptom duration ≥6 weeks gives 1 point (total 6), meeting criteria. Morning stiffness is not scored, symmetric involvement is already part of the joint count, pitting oedema is not a criterion, and negative anti-CCP would not increase the score.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "528dcbe0cf06",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman presents with 3-month history of symmetrical hand pain and swelling. RF and anti-CCP antibodies are negative. ESR is 35 mm/h. X-ray of hands is normal. What is the most appropriate next investigation to support the diagnosis of rheumatoid arthritis?",
+      "options": [
+        "MRI of hands",
+        "Bone scan",
+        "Ultrasound of hands",
+        "CT of hands",
+        "Repeat anti-CCP antibodies"
+      ],
+      "answerIndex": 2,
+      "explanation": "In seronegative suspected RA with normal X-ray, ultrasound can detect synovitis with high sensitivity, providing evidence for RA. MRI is also appropriate but ultrasound is more readily available and cost-effective. Repeat serology is unlikely to change, CT is less sensitive for soft tissue, and bone scan is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a81c632a7d2",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with symmetrical small joint pain and morning stiffness for 3 months. Blood tests show raised CRP and positive RF. DAS28 score is 4.8. She has no contraindications. What is the most appropriate first-line therapy?",
+      "options": [
+        "Adalimumab",
+        "Sulfasalazine",
+        "Methotrexate",
+        "Leflunomide",
+        "Hydroxychloroquine"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends initial DMARD monotherapy with methotrexate as first-line for active RA. Other csDMARDs are alternatives but methotrexate is preferred.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2aa2bef1703f",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with established RA on methotrexate and sulfasalazine has ongoing active disease (DAS28 5.2) after 6 months of combination therapy. He has no comorbidities. What is the most appropriate next step?",
+      "options": [
+        "Add rituximab",
+        "Add a TNF inhibitor",
+        "Start oral prednisolone",
+        "Add hydroxychloroquine",
+        "Switch to leflunomide"
+      ],
+      "answerIndex": 1,
+      "explanation": "After failure of two csDMARDs, NICE recommends adding a bDMARD, with a TNF inhibitor as first-line biologic (e.g., adalimumab or etanercept).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f2164fa3adf",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with RA is planning pregnancy. She is currently taking methotrexate and ibuprofen as needed. What is the most appropriate change to her medications?",
+      "options": [
+        "Continue methotrexate but stop ibuprofen",
+        "Start rituximab",
+        "Switch to leflunomide",
+        "Continue methotrexate and ibuprofen",
+        "Stop methotrexate and start hydroxychloroquine"
+      ],
+      "answerIndex": 4,
+      "explanation": "Methotrexate is teratogenic and must be stopped before pregnancy. Hydroxychloroquine is considered safe and is a preferred DMARD in pregnancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "064e5155c02a",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with RA presents with an acute flare in his right knee, with swelling, redness, and severe pain. He has chronic kidney disease stage 3 (eGFR 45). What is the most appropriate treatment for this flare?",
+      "options": [
+        "Intra-articular corticosteroid injection",
+        "Add sulfasalazine",
+        "Oral ibuprofen",
+        "Increase methotrexate dose",
+        "Oral prednisolone"
+      ],
+      "answerIndex": 0,
+      "explanation": "For an acute monoarticular flare, intra-articular steroids are first-line. NSAIDs are contraindicated in CKD stage 3 due to nephrotoxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1a90eefcb646",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with RA develops progressive breathlessness and a dry cough. HRCT shows usual interstitial pneumonia. She is currently taking methotrexate. Which of the following medications is contraindicated in this patient?",
+      "options": [
+        "Methotrexate",
+        "Sulfasalazine",
+        "Rituximab",
+        "Leflunomide",
+        "Hydroxychloroquine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Methotrexate can cause pneumonitis and exacerbate interstitial lung disease. It should be stopped if ILD develops. Other options are generally safer alternatives.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c4a368ead324",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with a 3-month history of morning stiffness and pain in both hands and wrists. On examination, there is swelling of the MCP joints bilaterally. Blood tests show CRP 25 mg/L, ESR 45 mm/h, positive RF and anti-CCP. What is the single most appropriate immediate next action?",
+      "options": [
+        "Arrange hand X-rays",
+        "Start methotrexate 10 mg weekly",
+        "Refer to rheumatology",
+        "Prescribe NSAIDs as required",
+        "Start prednisolone 15 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient presents with features highly suggestive of new-onset rheumatoid arthritis. UK NICE guidelines recommend urgent referral to rheumatology for any persistent synovitis of unknown cause, especially with positive serology. Starting DMARDs or steroids should be guided by a specialist; NSAIDs can be used for symptom relief but referral is the priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "823266dd8580",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with seropositive RA for 10 years, on methotrexate 20 mg weekly and adalimumab, presents with acute dyspnoea, dry cough, and fever 38.5°C. Chest auscultation reveals bilateral fine crackles. Oxygen saturation is 94% on air. His methotrexate dose was increased 3 weeks ago. What is the single most appropriate immediate next action?",
+      "options": [
+        "Increase adalimumab dose",
+        "Stop methotrexate",
+        "Request urgent CT chest",
+        "Start high-dose prednisolone",
+        "Start IV antibiotics"
+      ],
+      "answerIndex": 1,
+      "explanation": "Methotrexate-induced pneumonitis is a life-threatening differential in a patient on an increased dose presenting with subacute respiratory symptoms. The immediate step is to stop methotrexate. Urgent imaging is important but should not delay stopping the drug. Antibiotics and steroids are not first-line without a confirmed aetiology.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e64535d9e04",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known RA presents to the ED with a 2-day history of a painful, red left eye with blurred vision. Ocular examination reveals diffuse scleral injection and tenderness. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start oral prednisolone 40 mg daily",
+        "Arrange orbital ultrasound",
+        "Refer urgently to ophthalmology",
+        "Prescribe topical chloramphenicol",
+        "Start IV cyclophosphamide"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is likely scleritis, a sight-threatening complication of RA requiring urgent ophthalmology assessment. Topical antibiotics are for bacterial conjunctivitis; systemic steroids or immunosuppressants should only be initiated after specialist review. Imaging is not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d63e1a2696b0",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with RA on leflunomide has just discovered she is 6 weeks pregnant. She has been on leflunomide for 2 years with good disease control. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start prednisolone 10 mg daily",
+        "Start folic acid 5 mg daily",
+        "Refer to rheumatology for drug adjustment",
+        "Stop leflunomide immediately",
+        "Continue leflunomide but monitor fetal growth"
+      ],
+      "answerIndex": 3,
+      "explanation": "Leflunomide is teratogenic and contraindicated in pregnancy; it must be stopped as soon as pregnancy is confirmed. A washout procedure (e.g., cholestyramine) is then needed, but abrupt discontinuation is the immediate step. Referral is essential but comes after stopping the drug.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "db462e993048",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with well-controlled RA on methotrexate 15 mg weekly and folic acid presents for routine review. He feels well with no joint pain or swelling. Blood tests show normal FBC, U&E, LFTs, and CRP. What is the single most appropriate immediate next action?",
+      "options": [
+        "Refer for physiotherapy",
+        "Continue current treatment",
+        "Add an anti-TNF agent",
+        "Increase methotrexate dose",
+        "Order an ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "The patient has stable disease with no clinical or biochemical activity. The appropriate management is to continue the current regimen. Escalation of therapy is not indicated. Physiotherapy may be considered later but is not an immediate priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a4787f388a82",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with a six-week history of bilateral hand and wrist pain and stiffness. She has no obvious joint swelling. She reports intermittent fevers and unintentional weight loss of 3 kg. Which single clinical feature most strongly suggests that this is not early rheumatoid arthritis but rather an alternative diagnosis such as infection or malignancy?",
+      "options": [
+        "Constitutional symptoms (fever, weight loss)",
+        "Elevated inflammatory markers",
+        "Morning stiffness lasting >30 minutes",
+        "Symmetrical joint involvement",
+        "Positive family history of RA"
+      ],
+      "answerIndex": 0,
+      "explanation": "While RA can have systemic features, prominent fever and weight loss are red flags for infection or malignancy; they should prompt urgent investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b73f7d2cccbd",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with established seropositive rheumatoid arthritis on methotrexate and sulfasalazine presents with a two-day history of a hot, swollen, and extremely painful left knee. He is unable to bear weight on it. His temperature is 38.2°C. Which of the following is the most important life-threatening condition to exclude?",
+      "options": [
+        "RA flare",
+        "Pseudogout",
+        "Haemarthrosis",
+        "Gout flare",
+        "Septic arthritis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Septic arthritis is an emergency; it can rapidly destroy the joint and cause sepsis. Clinical features such as fever, inability to bear weight, and extreme pain are typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "792a7ccb1ba9",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with a 15-year history of seropositive rheumatoid arthritis presents with new-onset neck pain and paraesthesia in her hands. On examination, she has hyperreflexia and a positive Hoffmann's sign. Which single finding on physical examination would raise immediate concern for atlantoaxial subluxation?",
+      "options": [
+        "Positive Lhermitte's sign",
+        "Kernig's sign",
+        "McMurray's test positive",
+        "Brudzinski's sign",
+        "Straight leg raise test positive"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lhermitte's sign (electric shock sensation on neck flexion) indicates cervical cord compression, which in RA can be due to atlantoaxial subluxation – a neurosurgical emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d0f8f5067043",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old man with long-standing seropositive rheumatoid arthritis presents with a palpable purpuric rash on his lower legs, and he has developed foot drop and wrist drop over the past week. His rheumatoid factor is strongly positive. Which complication of rheumatoid arthritis has he developed?",
+      "options": [
+        "Cryoglobulinaemia",
+        "Antiphospholipid syndrome",
+        "Lupus pernio",
+        "Granulomatosis with polyangiitis",
+        "Rheumatoid vasculitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of purpuric rash and mononeuritis multiplex is classic for systemic rheumatoid vasculitis, a life-threatening complication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00fc6b78b8c0",
+      "topic": "Rheumatoid Arthritis",
+      "slug": "rheumatoid-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Inflammatory",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with rheumatoid arthritis on adalimumab (a TNF inhibitor) presents with a three-week history of cough, night sweats, and weight loss. A chest X-ray shows a left upper lobe cavity. Which concomitant infection should be suspected and excluded?",
+      "options": [
+        "Pneumocystis jirovecii pneumonia",
+        "Tuberculosis",
+        "Nocardiosis",
+        "Aspergillosis",
+        "Histoplasmosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "TNF inhibitors increase the risk of reactivation of latent tuberculosis. A cavitating upper lobe lesion in a patient on anti-TNF therapy is highly suspicious for TB.",
+      "difficulty": "medium"
+    }
+  ]
+}

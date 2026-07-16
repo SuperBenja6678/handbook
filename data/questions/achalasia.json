@@ -1,0 +1,513 @@
+{
+  "topic": "Achalasia",
+  "slug": "achalasia",
+  "system": "Gastroenterology",
+  "subSystem": "Upper GI",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:17:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c950cffcfb47",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with 6-month history of progressive dysphagia to solids and liquids, regurgitation of undigested food, and occasional chest pain. He has lost 5 kg. Upper endoscopy shows a tight lower oesophageal sphincter with normal mucosa. What is the single most likely diagnosis?",
+      "options": [
+        "Diffuse oesophageal spasm",
+        "Oesophageal web",
+        "Oesophageal cancer",
+        "Achalasia",
+        "GORD"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of dysphagia to both solids and liquids, regurgitation of undigested food, and normal mucosa on endoscopy is classic for achalasia. Oesophageal cancer typically presents with progressive solid dysphagia and weight loss but liquids later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "85cb692888ab",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with central chest pain and dysphagia. The pain is non-exertional and sometimes wakes her at night. Barium swallow shows a dilated oesophagus with smooth tapering at the gastro-oesophageal junction ('bird's beak'). What is the most likely diagnosis?",
+      "options": [
+        "GORD",
+        "Diffuse oesophageal spasm",
+        "Achalasia",
+        "Angina pectoris",
+        "Nutcracker oesophagus"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'bird's beak' appearance on barium swallow is pathognomonic for achalasia, distinguishing it from spastic disorders which show corkscrew or rosary bead appearances.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a2c6c5f2852",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with a 10-year history of dysphagia and regurgitation presents with fever, cough, and purulent sputum. Chest X-ray shows right lower lobe consolidation. He has not seen a doctor for his dysphagia. What is the most likely underlying diagnosis?",
+      "options": [
+        "Stroke",
+        "Oesophageal cancer",
+        "Achalasia",
+        "GORD with aspiration",
+        "Pharyngeal pouch"
+      ],
+      "answerIndex": 2,
+      "explanation": "Long-standing untreated achalasia leads to regurgitation and aspiration, causing recurrent pneumonia. The history of dysphagia points to achalasia rather than other causes of aspiration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "be1e3ad003eb",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents with rapidly progressive dysphagia over 3 months, weight loss of 10 kg, and regurgitation. Barium swallow shows a tapered narrowing at the gastro-oesophageal junction. Manometry reveals incomplete relaxation of the lower oesophageal sphincter and absent peristalsis. Upper endoscopy appears normal but is difficult due to tight sphincter. What is the most likely diagnosis?",
+      "options": [
+        "Achalasia",
+        "Benign oesophageal stricture",
+        "Diffuse oesophageal spasm",
+        "Oesophageal cancer",
+        "Pseudoachalasia due to malignancy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rapid onset, elderly age, and weight loss raise suspicion for pseudoachalasia due to malignancy (e.g., gastric cardia cancer) which can mimic achalasia. Normal endoscopy may miss a submucosal tumour.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "68ffe705ff34",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman in her second trimester presents with dysphagia, regurgitation of food, and occasional nocturnal cough. She denies heartburn. She has had similar but milder symptoms before pregnancy. What is the most likely diagnosis?",
+      "options": [
+        "GORD of pregnancy",
+        "Achalasia",
+        "Eosinophilic oesophagitis",
+        "Hyperemesis gravidarum",
+        "Oesophageal web"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dysphagia to solids and liquids, regurgitation of undigested food, and absence of heartburn make achalasia more likely than GORD, which typically presents with heartburn and is common in pregnancy but rarely causes regurgitation of undigested food.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f2361766fd1",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with a 6-month history of progressive dysphagia to both solids and liquids. She reports regurgitation of undigested food and has lost 4 kg. She does not have heartburn. Oesophagogastroduodenoscopy (OGD) shows a dilated oesophagus with retained food but no mucosal lesions. Which investigation will confirm the diagnosis?",
+      "options": [
+        "Oesophageal biopsy",
+        "Barium swallow",
+        "CT chest",
+        "High-resolution manometry",
+        "24-hour pH monitoring"
+      ],
+      "answerIndex": 3,
+      "explanation": "High-resolution manometry is the gold standard for diagnosing achalasia, demonstrating incomplete relaxation of the lower oesophageal sphincter and absent peristalsis. Barium swallow may show a 'bird's beak' appearance but is not diagnostic; OGD has already excluded mucosal lesions; pH monitoring and CT are not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e57a33c6adc",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man presents with dysphagia and weight loss. A barium swallow shows a smooth 'bird's beak' narrowing at the gastro-oesophageal junction and a dilated oesophagus. What is the most appropriate next test to confirm achalasia?",
+      "options": [
+        "Endoscopic ultrasound",
+        "High-resolution manometry",
+        "Oesophagogastroduodenoscopy",
+        "Oesophageal pH monitoring",
+        "CT chest and abdomen"
+      ],
+      "answerIndex": 1,
+      "explanation": "High-resolution manometry provides definitive diagnosis by confirming impaired LES relaxation and absent peristalsis. Endoscopy is often performed first but may not be diagnostic; CT and EUS are used to exclude pseudoachalasia, not to confirm achalasia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68f4f4e752be",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old female undergoes high-resolution oesophageal manometry for suspected achalasia. Which of the following manometric findings is most consistent with a diagnosis of achalasia?",
+      "options": [
+        "Complete LES relaxation with absent peristalsis",
+        "Normal LES relaxation and peristalsis",
+        "Incomplete LES relaxation with absent peristalsis",
+        "Normal LES relaxation with hypercontractile peristalsis",
+        "Incomplete LES relaxation with hypertensive peristalsis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Achalasia is defined by incomplete relaxation of the lower oesophageal sphincter (elevated integrated relaxation pressure) and absent peristalsis. Option b suggests complete relaxation (not achalasia); options with peristalsis are not consistent with achalasia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb7281567ae7",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with recent onset dysphagia and weight loss. OGD shows a narrow gastro-oesophageal junction but mucosa appears normal. Manometry reveals incomplete LES relaxation and absent peristalsis. Which investigation is most important to exclude pseudoachalasia?",
+      "options": [
+        "Oesophageal pH monitoring",
+        "Endoscopic ultrasound",
+        "Barium swallow",
+        "Repeat OGD with deep biopsies",
+        "CT chest and abdomen"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pseudoachalasia due to malignancy (e.g., gastric cardia cancer) can mimic achalasia. Deep biopsies during endoscopy can detect malignant infiltration that mucosal biopsies miss. CT may show a mass but can miss early infiltration.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c5b5bbdcf2d",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A patient undergoing high-resolution manometry has an elevated integrated relaxation pressure (IRP) of 20 mmHg (normal <15 mmHg). Which additional manometric feature is required to diagnose achalasia?",
+      "options": [
+        "Hypertensive peristalsis",
+        "Simultaneous contractions",
+        "Absent peristalsis",
+        "Normal peristalsis",
+        "Retrograde contractions"
+      ],
+      "answerIndex": 2,
+      "explanation": "Achalasia requires both impaired LES relaxation (elevated IRP) and absent peristalsis. Hypertensive or simultaneous contractions are seen in other motility disorders, not achalasia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7a835f98456a",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with achalasia confirmed on manometry has a history of severe gastro-oesophageal reflux disease. Which definitive treatment is most appropriate?",
+      "options": [
+        "Nifedipine",
+        "Botulinum toxin injection",
+        "Peroral endoscopic myotomy (POEM)",
+        "Pneumatic dilation",
+        "Laparoscopic Heller myotomy with partial fundoplication"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with pre-existing GORD, a Heller myotomy with partial fundoplication prevents post-procedure reflux. Pneumatic dilation and POEM may worsen reflux, and medical therapy is not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8718bc9ecdab",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with achalasia and severe COPD (ASA grade IV) has dysphagia to liquids and regurgitation. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Botulinum toxin injection",
+        "Laparoscopic Heller myotomy",
+        "Nifedipine",
+        "Pneumatic dilation",
+        "Peroral endoscopic myotomy (POEM)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Botulinum toxin injection is the safest option for frail patients unfit for general anaesthesia, providing rapid but temporary relief. Pneumatic dilation and myotomy carry higher risks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "94ca9d7f154c",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man had two pneumatic dilations for achalasia with initial improvement but recurrent dysphagia at 6 months after the second dilation. Manometry confirms type II achalasia. He is fit for surgery. What is the next definitive step?",
+      "options": [
+        "Oral nifedipine",
+        "Repeat pneumatic dilation",
+        "Peroral endoscopic myotomy (POEM)",
+        "Laparoscopic Heller myotomy",
+        "Botulinum toxin injection"
+      ],
+      "answerIndex": 3,
+      "explanation": "After two failed pneumatic dilations, the recommended definitive therapy is a Heller myotomy or POEM. In the UK, Heller myotomy is more established for fit patients; repeat dilation is less effective.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d6f752318754",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 20 weeks gestation presents with dysphagia and regurgitation. Manometry confirms achalasia. Which treatment is most appropriate?",
+      "options": [
+        "Peroral endoscopic myotomy (POEM)",
+        "Pneumatic dilation",
+        "Botulinum toxin injection",
+        "Oral nifedipine",
+        "Laparoscopic Heller myotomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Botulinum toxin injection avoids radiation and general anaesthesia, making it the safest option during pregnancy. Pneumatic dilation involves ionising radiation; surgery carries maternal-fetal risks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9f1844615f36",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "Which of the following is contraindicated in a patient with achalasia?",
+      "options": [
+        "Peroral endoscopic myotomy (POEM)",
+        "Botulinum toxin injection",
+        "Pneumatic dilation",
+        "Laparoscopic Heller myotomy",
+        "Nissen fundoplication"
+      ],
+      "answerIndex": 4,
+      "explanation": "Nissen fundoplication alone (without myotomy) increases LOS pressure, worsening dysphagia in achalasia. It is indicated only for GORD, not achalasia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c19bad733d6",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with a 6-month history of progressive dysphagia to both solids and liquids, regurgitation of undigested food, and unintentional weight loss of 8 kg. Oesophagogastroduodenoscopy shows a dilated oesophagus with retained food and a tight lower oesophageal sphincter that opens with gentle pressure; biopsies are negative for malignancy. High-resolution manometry confirms type I achalasia. She is otherwise fit and well. What is the single most appropriate immediate next step in management?",
+      "options": [
+        "Repeat oesophagogastroduodenoscopy with biopsies",
+        "CT chest and abdomen",
+        "Laparoscopic Heller myotomy",
+        "Peroral endoscopic myotomy (POEM)",
+        "Pneumatic dilatation"
+      ],
+      "answerIndex": 4,
+      "explanation": "For first-line treatment of achalasia, both pneumatic dilatation and laparoscopic Heller myotomy are effective; however, pneumatic dilatation is less invasive and often preferred as an initial step. POEM is a newer technique but not first-line in all centres. Malignancy has been excluded, so repeat OGD and CT are not immediately necessary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eb57de4d0558",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with known achalasia is managed with pneumatic dilatations every 2 years. He now presents with mild dysphagia but no weight loss. His last dilatation was 18 months ago. Oesophagogastroduodenoscopy shows no stricture or oesophagitis. What is the single most appropriate immediate next step?",
+      "options": [
+        "High-dose proton pump inhibitor",
+        "Peroral endoscopic myotomy (POEM)",
+        "Laparoscopic Heller myotomy",
+        "Repeat pneumatic dilatation",
+        "Botulinum toxin injection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recurrence of symptoms after a successful dilatation is common. The next step is a repeat pneumatic dilatation, which is effective and safe. Botulinum toxin is reserved for those unfit for dilatation. Surgery is considered after failure of repeated dilatations. PPIs are not indicated for achalasia-related dysphagia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3165573db065",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known achalasia presents to the emergency department with acute severe retrosternal chest pain, vomiting, and dyspnoea. On examination, he is tachycardic (110 bpm), hypotensive (100/70 mmHg), and oxygen saturations are 94% on room air. Chest X-ray shows a widened mediastinum with an air-fluid level. What is the single most appropriate immediate next step?",
+      "options": [
+        "CT thorax with oral contrast",
+        "Urgent upper GI endoscopy",
+        "Insert nasogastric tube",
+        "IV broad-spectrum antibiotics",
+        "Emergency thoracotomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presentation suggests Boerhaave's syndrome (spontaneous oesophageal perforation). CT thorax with oral contrast is the gold standard for diagnosis. Endoscopy is contraindicated if perforation is suspected. Surgery requires prior confirmation. Antibiotics and NG tube may be part of management after diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f1f4d0c96f07",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with achalasia treated with pneumatic dilatation 3 years ago presents with a new cough, recurrent episodes of pneumonia, and persistent dysphagia. Chest X-ray shows consolidation in the right lower lobe. What is the single most appropriate immediate next step?",
+      "options": [
+        "Barium swallow",
+        "High-resolution oesophageal manometry",
+        "CT chest",
+        "Oesophageal dilatation",
+        "24-hour pH monitoring"
+      ],
+      "answerIndex": 2,
+      "explanation": "The new cough and recurrent pneumonia raise concern for aspiration secondary to achalasia. CT chest is the best investigation to characterise the lung consolidation and rule out other causes. Manometry and pH studies assess oesophageal function but do not address the acute pneumonia. Dilatation may be considered after stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a73645a3bc6",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with known COPD, atrial fibrillation, and diabetes mellitus presents with a 6-month history of progressive dysphagia and weight loss. Oesophagogastroduodenoscopy and manometry confirm achalasia. She is deemed high risk for surgery and pneumatic dilatation due to comorbidities and frailty. What is the single most appropriate immediate next step?",
+      "options": [
+        "Repeat oesophagogastroduodenoscopy",
+        "Peroral endoscopic myotomy (POEM)",
+        "Botulinum toxin injection",
+        "Palliative care referral",
+        "Laparoscopic Heller myotomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For elderly, unfit patients, botulinum toxin injection is a safe and effective option to relieve symptoms, although its effect is temporary. Surgery and POEM carry high anaesthetic risk. Repeat OGD is not indicated. Palliative care may be considered later but is not the immediate next step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "da6a03bdca5a",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known achalasia develops acute onset of severe retrosternal chest pain after a bout of vomiting. He is tachycardic (110 bpm) and has a low-grade fever. On examination, which single sign is most suggestive of oesophageal perforation?",
+      "options": [
+        "Reduced breath sounds at the left base",
+        "Epigastric tenderness",
+        "Subcutaneous emphysema in the neck",
+        "Haematemesis",
+        "Pleural rub"
+      ],
+      "answerIndex": 2,
+      "explanation": "Subcutaneous emphysema (palpable crepitus) is a pathognomonic sign of oesophageal perforation due to air tracking into the soft tissues. The other options are non-specific findings that may also occur but are not as definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fd0f0c1154b",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man presents with progressive dysphagia to solids and liquids over 3 months, with no regurgitation. He has lost 8 kg in weight. Barium swallow shows a smooth narrowing at the gastro-oesophageal junction. Which single feature raises the strongest suspicion of pseudoachalasia rather than primary achalasia?",
+      "options": [
+        "Presence of Raynaud's phenomenon",
+        "Long duration of symptoms (>2 years)",
+        "Age >55 years",
+        "Normal peristalsis on manometry",
+        "Male gender"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pseudoachalasia from malignancy is more common in older age (typically >55) with a short duration of symptoms and significant weight loss. Primary achalasia often occurs in younger patients and has a longer, more indolent course.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c9b728ea13f9",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with known achalasia, who has not attended follow-up, presents to the emergency department with a 2-day history of fever, productive cough, and pleuritic chest pain. She admits to frequent nocturnal regurgitation. Which of the following is the most likely life-threatening complication?",
+      "options": [
+        "Oesophageal perforation",
+        "Oesophageal candidiasis",
+        "Malignant transformation",
+        "Aspiration pneumonia",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nocturnal regurgitation in achalasia predisposes to aspiration of oesophageal contents, leading to aspiration pneumonia, which is a common and serious complication. Perforation is less likely without instrumentation or severe vomiting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4ba7463b830b",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with a 10-year history of achalasia, managed conservatively with nifedipine, now presents with worsening dysphagia and weight loss. Barium swallow shows a massively dilated oesophagus (>8 cm diameter) with a sigmoid shape. Which finding on barium swallow indicates that myotomy may no longer be effective and oesophagectomy should be considered?",
+      "options": [
+        "Absence of tertiary contractions",
+        "Hiatal hernia",
+        "Rapid passage of barium into stomach",
+        "Oesophageal diameter >6 cm",
+        "Lower oesophageal sphincter opening"
+      ],
+      "answerIndex": 3,
+      "explanation": "A markedly dilated oesophagus (>6 cm) with sigmoid configuration ('sigmoid oesophagus') suggests end-stage disease where myotomy is unlikely to relieve dysphagia, and oesophagectomy is often indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "aaf4cf0c074b",
+      "topic": "Achalasia",
+      "slug": "achalasia",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with a new diagnosis of achalasia undergoes oesophagogastroduodenoscopy (OGD) before planned pneumatic dilation. Which endoscopic finding should raise immediate concern for a diagnosis of oesophageal cancer rather than primary achalasia?",
+      "options": [
+        "Tight lower oesophageal sphincter",
+        "Oesophageal candidiasis",
+        "Irregular, ulcerating mass at the gastro-oesophageal junction",
+        "Schatzki ring",
+        "Dilated oesophagus with food residue"
+      ],
+      "answerIndex": 2,
+      "explanation": "An irregular, ulcerating mass is classic for oesophageal adenocarcinoma at the GOJ, which can cause pseudoachalasia. In primary achalasia, the mucosa usually appears normal, while food residue and a tight LOS are non-specific.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Malignant Spinal Cord Compression",
+  "slug": "malignant-spinal-cord-compression",
+  "system": "Oncologic Emergencies",
+  "subSystem": "Emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:31:44Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8bad3f1016e3",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with metastatic breast cancer presents with a 5-day history of mid-thoracic back pain and progressive weakness in both legs. On examination, she has a sensory level at T8, increased tone, hyperreflexia, and upgoing plantars. She has no fever and no sphincter disturbance. What is the single most likely diagnosis?",
+      "options": [
+        "Cauda equina syndrome",
+        "Prolapsed intervertebral disc",
+        "Malignant spinal cord compression",
+        "Spinal stenosis",
+        "Epidural abscess"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic triad of back pain, motor weakness, and a sensory level in a patient with known malignancy is highly suggestive of malignant spinal cord compression. Cauda equina syndrome typically presents with lower motor neuron signs and saddle anaesthesia. Disc prolapse usually is acute and unilateral. Spinal stenosis has a more gradual, claudicant pattern. Absence of fever makes epidural abscess unlikely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f4282901ac1d",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with metastatic prostate cancer (hormone-sensitive) reports a 3-week history of gradual-onset bilateral leg numbness and unsteady gait, which is worse when walking but relieved on sitting. He has no back pain, no bladder or bowel symptoms, and no saddle anaesthesia. Examination reveals mild weakness in both legs with normal reflexes and flexor plantars. What is the single most likely diagnosis?",
+      "options": [
+        "Peripheral neuropathy",
+        "Vitamin B12 deficiency myelopathy",
+        "Malignant spinal cord compression",
+        "Cauda equina syndrome",
+        "Spinal stenosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The symptoms of neurogenic claudication (leg symptoms on walking, relieved by sitting) with a known prostate cancer make spinal stenosis more likely than cord compression, as cord compression usually progresses without such positional relief. Peripheral neuropathy is typically symmetrical and distal, not worse with walking. Cauda equina syndrome involves saddle anaesthesia and sphincter dysfunction. B12 deficiency myelopathy can cause gait difficulty but often with sensory ataxia and Lhermitte sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8d58ca786271",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with metastatic lung cancer suddenly develops paraplegia and urinary retention over 2 hours. He had mild mid-back pain in the preceding days. On examination, there is a sensory level at T6, flaccid paralysis, and absent ankle jerks. He is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Anterior spinal artery syndrome",
+        "Transverse myelitis",
+        "Malignant spinal cord compression",
+        "Spinal cord infarction",
+        "Epidural abscess"
+      ],
+      "answerIndex": 2,
+      "explanation": "Despite the acute onset, the presence of back pain and known malignancy make acute malignant spinal cord compression (due to vertebral collapse or haemorrhage) more likely than spinal cord infarction, which is classically painless. Epidural abscess usually has fever. Transverse myelitis is typically post-infectious and not associated with malignancy. Anterior spinal artery syndrome spares posterior columns.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0d8226572998",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with multiple myeloma was treated with radiotherapy for a T10 lytic lesion 8 months ago. She now presents with a 1-week history of worsening back pain at the same site and new-onset leg weakness. She reports an electric-shock sensation down her spine when flexing her neck. MRI shows no new cord compression but T2 hyperintensity in the cord at the radiation field. What is the single most likely diagnosis?",
+      "options": [
+        "Radiation myelopathy",
+        "Epidural abscess",
+        "Cauda equina syndrome",
+        "Vertebral collapse causing cord compression",
+        "Recurrent malignant spinal cord compression"
+      ],
+      "answerIndex": 0,
+      "explanation": "The delayed onset after radiotherapy, Lhermitte sign, and MRI findings of cord signal change within the radiation field favour radiation myelopathy over recurrent compression. Absence of a compressive lesion on MRI rules out recurrent MSCC or vertebral collapse. No fever or signs of infection make an abscess unlikely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bbe4dc08e6ae",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with stage IV diffuse large B-cell lymphoma presents with acute severe mid-thoracic back pain, fever of 38.5°C, and rapidly progressive leg weakness over 48 hours. He has a sensory level at T8 and urinary retention. Blood cultures are pending. What is the single most likely diagnosis?",
+      "options": [
+        "Malignant spinal cord compression from lymphoma",
+        "Herpes zoster radiculopathy",
+        "Spinal subdural haematoma",
+        "Vertebral osteomyelitis",
+        "Epidural abscess"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fever and rapid progression in an immunocompromised patient make an epidural abscess more likely than malignant cord compression, which usually develops more slowly. Vertebral osteomyelitis typically has a more indolent course without rapid cord signs. Herpes zoster rash would be present before radiculopathy. Subdural haematoma lacks fever and is rare without trauma or coagulopathy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f51f47a62fef",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with a history of breast cancer presents with a 2-week history of mid-thoracic back pain. Over the past 24 hours, she has developed progressive weakness in both legs and a sensory level at T6. She has urinary retention. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "CT scan of the spine with contrast",
+        "Plain X-ray of the thoracic spine",
+        "Bone scan (technetium-99m)",
+        "Whole spine MRI (urgent)",
+        "Serum tumour markers"
+      ],
+      "answerIndex": 3,
+      "explanation": "Whole spine MRI is the gold standard for diagnosing malignant spinal cord compression, directly visualising the spinal cord and surrounding structures. CT and plain X-ray do not adequately assess cord compression, bone scan shows metastases but not cord involvement, and tumour markers are non-diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "12d56e9e3926",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with known prostate cancer and widespread bone metastases presents with progressive bilateral leg weakness and urinary incontinence. He has a permanent pacemaker and is unable to undergo MRI. What is the most appropriate next imaging test to confirm or exclude malignant spinal cord compression?",
+      "options": [
+        "CT scan of the whole spine without contrast",
+        "Ultrasound of the spine",
+        "CT myelogram",
+        "PET-CT with 18F-FDG",
+        "Bone scan (technetium-99m)"
+      ],
+      "answerIndex": 2,
+      "explanation": "When MRI is contraindicated, CT myelogram is the alternative gold standard. It outlines the spinal cord and nerve roots by intrathecal contrast, allowing detection of extradural compression. Plain CT, bone scan, PET-CT, and ultrasound are insufficiently sensitive for cord compression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "79b359b3e5ae",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 66-year-old man with known multiple myeloma presents with progressive paraplegia. A whole spine MRI report states: 'There is an enhancing epidural soft tissue mass at T4 causing compression of the spinal cord with loss of CSF signal around the cord.' Which of the following MRI findings is most specific for confirming the diagnosis of malignant spinal cord compression?",
+      "options": [
+        "Vertebral body collapse with retropulsion",
+        "Enhancement of the cauda equina nerve roots",
+        "Loss of CSF signal around the cord at the level of the mass",
+        "Paraspinal muscle oedema",
+        "T2 hyperintensity within the spinal cord"
+      ],
+      "answerIndex": 2,
+      "explanation": "Loss of CSF signal indicates obliteration of the subarachnoid space, the defining feature of cord compression on MRI. T2 hyperintensity may represent oedema but is not specific, and vertebral collapse, nerve root enhancement, and muscle oedema are associated but not diagnostic alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ff0afac55718",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 58-year-old woman with a history of lung cancer presents with 3 weeks of increasing back pain. She reports no leg weakness or urinary symptoms. On examination, power is normal in all limbs, but there is a sensory level to pinprick at T8. Which of the following clinical signs is the most specific indicator of malignant spinal cord compression in this setting?",
+      "options": [
+        "Loss of anal sphincter tone",
+        "Saddle anaesthesia",
+        "Bilateral leg weakness",
+        "Sensory level to pinprick",
+        "Babinski sign"
+      ],
+      "answerIndex": 3,
+      "explanation": "A sensory level is highly specific for a spinal cord lesion and localises the level of compression. Leg weakness and sphincter changes can occur in cauda equina syndrome or other conditions. Babinski sign indicates upper motor neuron lesion but is not specific for compression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9163ba2002a0",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "According to NICE guidelines, which of the following clinical features, when present with back pain, should trigger urgent whole spine MRI to exclude malignant spinal cord compression?",
+      "options": [
+        "Previous spinal surgery",
+        "Unexplained weight loss",
+        "Known history of cancer",
+        "Age over 70 years",
+        "Fever and night sweats"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance states that in patients with back pain and known cancer, there is high risk of MSCC, and MRI should be arranged urgently. Other features like age, weight loss, or fever are less specific and do not alone warrant urgent imaging for MSCC.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "74e81caad994",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with metastatic prostate cancer (Gleason 8) presents with a 2-week history of mid-back pain and unsteady gait. He can walk with a stick. MRI shows spinal cord compression at T10 from a vertebral metastasis. There is no spinal instability. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "High-dose dexamethasone and urgent surgical decompression",
+        "Intravenous bisphosphonates",
+        "Chemotherapy with docetaxel",
+        "High-dose dexamethasone alone",
+        "High-dose dexamethasone and urgent radiotherapy"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends urgent radiotherapy for MSCC in patients who are ambulatory and have a radiosensitive tumor like prostate cancer. Surgery is reserved for radioresistant tumors, spinal instability, or unknown diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f71c69cf9c4f",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with metastatic breast cancer (oestrogen receptor positive) has had back pain for 6 weeks and now notices numbness in her legs but no weakness. She is fully mobile. MRI shows cord compression at L1 from a vertebral lesion. What is the most appropriate first-line treatment?",
+      "options": [
+        "Posterior spinal decompression and fusion",
+        "Chemotherapy with capecitabine",
+        "Denosumab",
+        "High-dose dexamethasone only",
+        "Urgent radiotherapy"
+      ],
+      "answerIndex": 4,
+      "explanation": "She has a radiosensitive tumor and no significant neurological deficit, so urgent radiotherapy is the definitive treatment. Steroids are given immediately, but radiotherapy is required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bdb84cd3ab4e",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with metastatic renal cell carcinoma presents with acute onset of complete paraplegia and loss of bladder control over 12 hours. He is otherwise fit for major surgery. MRI shows a single-level compression at T8 with vertebral body collapse but no retropulsion. What is the most appropriate first-line treatment?",
+      "options": [
+        "Emergency surgical decompression and stabilisation",
+        "Best supportive care",
+        "Urgent radiotherapy (8 Gy single fraction)",
+        "Sunitinib chemotherapy",
+        "High-dose dexamethasone alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Renal cell carcinoma is radioresistant, and the patient has acute severe neurological deficit and is fit for surgery. NICE recommends surgical decompression for patients with a radioresistant tumor, especially if acute onset and good performance status.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f9ed4bb4b799",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with metastatic breast cancer has MSCC at C7 with significant vertebral body destruction and kyphotic deformity. She has mild bilateral arm weakness but is walking. MRI shows cord compression with instability. What is the most appropriate first-line definitive treatment?",
+      "options": [
+        "Anterior cervical decompression and fusion",
+        "High-dose dexamethasone and cervical collar",
+        "Chemotherapy with trastuzumab",
+        "Urgent radiotherapy (20 Gy in 5 fractions)",
+        "Percutaneous vertebroplasty"
+      ],
+      "answerIndex": 0,
+      "explanation": "Spinal instability is an indication for surgical stabilisation. Radiotherapy alone may not address instability, and surgery provides immediate decompression and stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7913f4e9c041",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man with newly diagnosed diffuse large B-cell lymphoma presents with back pain and leg paraesthesia. He has no weakness. MRI shows a paraspinal mass causing cord compression at T12. He has no other lymphoma symptoms. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intrathecal methotrexate",
+        "High-dose dexamethasone alone",
+        "Combination chemotherapy (R-CHOP) with high-dose dexamethasone",
+        "Surgical decompression",
+        "Urgent radiotherapy (30 Gy in 10 fractions)"
+      ],
+      "answerIndex": 2,
+      "explanation": "DLBCL is highly chemosensitive, and systemic chemotherapy is the first-line treatment for lymphoma causing MSCC, as it treats the systemic disease. Radiotherapy may be used for local control if chemotherapy is contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63dbf8bf487a",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known non-small cell lung cancer presents to ED with a 2-week history of mid-back pain. He has no limb weakness, no sensory loss, and is fully ambulant. Neurological examination is normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral analgesics and discharge",
+        "Start high-dose oral dexamethasone",
+        "Arrange urgent MRI of the whole spine",
+        "Request CT scan of the spine",
+        "Refer to neurosurgery for surgical decompression"
+      ],
+      "answerIndex": 2,
+      "explanation": "Per NICE guidelines, patients with cancer and new back pain suggestive of MSCC should have an MRI of the whole spine within 24 hours, even without neurological signs. Starting dexamethasone is indicated only if neurological signs are present. Analgesia is supportive but not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0fd61cac7c7",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with metastatic breast cancer presents with a 3-day history of lower back pain and mild bilateral leg weakness (Medical Research Council grade 4/5). She is still able to walk independently. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous bisphosphonates",
+        "Refer for urgent radiotherapy",
+        "Arrange urgent MRI of the whole spine",
+        "Discharge with outpatient physiotherapy",
+        "Start high-dose oral dexamethasone"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with known cancer and signs of spinal cord compression (even mild weakness), NICE recommends starting high-dose corticosteroids immediately (dexamethasone 16 mg orally or IV) while arranging urgent MRI. The priority is to reduce oedema; MRI should follow but steroids come first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "13ebd20637a8",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with metastatic prostate cancer develops sudden complete paraplegia and a sensory level at T8 over the past 2 hours. He is in significant pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Call neurosurgery immediately for decompression",
+        "Insert a urinary catheter",
+        "Stat CT scan of the spine",
+        "Give intravenous dexamethasone 16 mg stat",
+        "Arrange emergency MRI of the spine"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute severe MSCC with rapid deterioration, giving a stat dose of dexamethasone (IV) is the first action to reduce spinal cord oedema. MRI is essential but should follow steroid administration. Neurosurgical referral is considered after imaging, not before.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9da27d45a52c",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with known multiple myeloma is on a course of palliative radiotherapy for thoracic MSCC. Two days into treatment she develops worsening back pain and new leg weakness. What is the most appropriate immediate next step?",
+      "options": [
+        "Increase the dose of dexamethasone",
+        "Add oral morphine",
+        "Repeat MRI of the spine",
+        "Stop radiotherapy immediately",
+        "Refer for urgent surgical decompression"
+      ],
+      "answerIndex": 0,
+      "explanation": "Worsening symptoms during radiotherapy may indicate radiation-induced spinal cord oedema. Increasing the dose of dexamethasone (e.g., IV bolus) is the appropriate next step. Stopping radiotherapy or repeating MRI are not indicated unless there is clinical deterioration despite steroids.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4a72fa8e7f4b",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old man with metastatic renal cell carcinoma and poor performance status (KPS 30) presents with back pain and difficulty walking due to leg weakness. He has multiple comorbidities and is not fit for surgery or radical radiotherapy. What is the most appropriate immediate next step?",
+      "options": [
+        "Give oral analgesia and discharge",
+        "Refer to palliative care for symptom management",
+        "Arrange urgent MRI whole spine",
+        "Admit for observation only",
+        "Start high-dose dexamethasone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Even in patients with poor performance status, NICE recommends starting dexamethasone immediately if MSCC is suspected, to provide symptom relief and buy time for discussion of palliative radiotherapy. MRI may be considered, but steroids are the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "677702ff6bf2",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with metastatic prostate cancer presents with a 2-week history of low back pain. He reports mild numbness in his legs but no weakness. He can walk unaided. On examination, there is no motor deficit, but a sensory level is detected at T10. Bladder function is normal. Which single finding in this presentation indicates that the patient requires an urgent MRI spine for suspected malignant spinal cord compression?",
+      "options": [
+        "Normal walking ability",
+        "Normal bladder function",
+        "Sensory level at T10",
+        "Back pain",
+        "Leg numbness"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sensory level is a red flag for MSCC according to NICE guidelines, even in the absence of motor deficit or sphincter disturbance. Back pain is common but not specific. Numbness without objective sensory level does not mandate immediate imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30aada2f48d8",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with metastatic breast cancer presents with acute onset of severe lower back pain and inability to pass urine over 12 hours. She has no leg weakness but reports loss of sensation around the perineum. On examination, there is reduced perianal sensation and absent anal wink reflex. What is the most likely diagnosis?",
+      "options": [
+        "Lumbar disc prolapse",
+        "Spinal stenosis",
+        "Malignant spinal cord compression at thoracic level",
+        "Cauda equina syndrome",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute urinary retention with saddle anaesthesia and loss of anal reflex is classic for cauda equina syndrome, often due to compression from a metastasis at the cauda equina level. Thoracic cord compression would typically cause upper motor neuron signs and a sensory level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0bdd3144a3bd",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with renal cell carcinoma presents to the emergency department with sudden onset of severe back pain followed by complete loss of movement and sensation in both legs over the course of 2 hours. She is incontinent of urine. On examination, there is flaccid paralysis and areflexia. Which of the following is the most likely cause of her symptoms?",
+      "options": [
+        "Spinal cord infarction",
+        "Acute transverse myelitis",
+        "Guillain-Barré syndrome",
+        "Epidural abscess",
+        "Malignant spinal cord compression"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hyperacute onset (over minutes to hours) is characteristic of vascular ischaemia rather than compression, which typically evolves over days to weeks. MSCC, abscess, and transverse myelitis are usually more slowly progressive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "20896c36c9d5",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with multiple myeloma presents with worsening back pain and bilateral leg weakness over one week. He has been taking high-dose dexamethasone for two weeks for a flare. On examination, there is bilateral leg weakness (4/5) and a sensory level at T7. Steroid myopathy is suspected as a cause for the weakness. Which single finding best distinguishes malignant spinal cord compression from steroid myopathy?",
+      "options": [
+        "Bilateral leg weakness",
+        "Reflex changes",
+        "Back pain",
+        "Recent steroid use",
+        "Sensory level at T7"
+      ],
+      "answerIndex": 4,
+      "explanation": "A sensory level is never present in pure myopathy and indicates a spinal cord lesion. Both conditions can cause weakness and back pain, but the sensory level is a specific red flag for cord compression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1057aef5b639",
+      "topic": "Malignant Spinal Cord Compression",
+      "slug": "malignant-spinal-cord-compression",
+      "system": "Oncologic Emergencies",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 62-year-old woman with known breast cancer and spinal metastases, currently on palliative hormone therapy, presents to the hospital with a two-day history of constipation and difficulty initiating micturition. She has no back pain or leg weakness. On examination, there is decreased anal tone and absent bulbocavernosus reflex. Lower limb power is normal. Which single finding most strongly indicates the need for urgent imaging of the spine?",
+      "options": [
+        "Constipation",
+        "Difficulty with micturition",
+        "Normal leg power",
+        "Absent bulbocavernosus reflex",
+        "Decreased anal tone"
+      ],
+      "answerIndex": 3,
+      "explanation": "An absent bulbocavernosus reflex indicates loss of sacral reflex arc, which is an early sign of cauda equina compression, even before sphincter symptoms become severe. Constipation and difficulty with micturition are common and non-specific. Normal leg power does not exclude cauda equina syndrome.",
+      "difficulty": "hard"
+    }
+  ]
+}

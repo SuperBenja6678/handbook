@@ -1,0 +1,513 @@
+{
+  "topic": "Haemorrhagic Stroke",
+  "slug": "haemorrhagic-stroke",
+  "system": "Neurology",
+  "subSystem": "Stroke",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:30:30Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "95e1e3e64e25",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with a sudden onset 'worst headache of my life', neck stiffness and photophobia. She has no fever and is neurologically intact. A non-contrast CT brain is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine without aura",
+        "Benign thunderclap headache",
+        "Viral meningitis",
+        "Cerebral venous sinus thrombosis",
+        "Subarachnoid haemorrhage"
+      ],
+      "answerIndex": 4,
+      "explanation": "The classic presentation of thunderclap headache with meningism is highly suggestive of subarachnoid haemorrhage, even with a normal CT; lumbar puncture is required. Meningitis typically has fever and prodrome, while migraine is not thunderclap in onset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0628676c026d",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old man on warfarin for atrial fibrillation had a mild fall 3 weeks ago. He now presents with progressive confusion, unsteady gait and urinary incontinence over the past week. Neurological examination shows no localising signs. CT brain reveals bilateral hypodense extra-axial collections over the convexities. What is the single most likely diagnosis?",
+      "options": [
+        "Alzheimer's dementia",
+        "Acute subdural haematoma",
+        "Chronic subdural haematoma",
+        "Subarachnoid haemorrhage",
+        "Normal pressure hydrocephalus"
+      ],
+      "answerIndex": 2,
+      "explanation": "The gradual onset after mild trauma in an anticoagulated elderly patient, with hypodense collections on CT, is classic for chronic subdural haematoma. Normal pressure hydrocephalus would show ventriculomegaly without extra-axial collections.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ee7432b12809",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with hypertension collapses at work. He has right-sided hemiplegia, global aphasia, vomiting, blood pressure 230/130 mmHg, and GCS 12. CT head shows a hyperdense mass in the left basal ganglia with midline shift. What is the single most likely diagnosis?",
+      "options": [
+        "Hypertensive encephalopathy",
+        "Ischaemic stroke (MCA territory)",
+        "Intraventricular haemorrhage",
+        "Intracerebral haemorrhage (putamenal)",
+        "Subarachnoid haemorrhage"
+      ],
+      "answerIndex": 3,
+      "explanation": "The acute focal deficit with severe hypertension and hyperdensity in the putamen on CT is diagnostic of intracerebral haemorrhage. MCA infarction would be hypodense; hypertensive encephalopathy lacks focal signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "704cfdda833b",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old hypertensive man presents with sudden severe headache, vertigo, vomiting, ataxia and nystagmus. He becomes drowsy over the next hour. CT brain shows a hyperdense lesion in the left cerebellum with fourth ventricle compression and hydrocephalus. What is the single most likely diagnosis?",
+      "options": [
+        "Cerebellar haemorrhage",
+        "Cerebellar infarction",
+        "Brainstem stroke",
+        "Subarachnoid haemorrhage",
+        "Labyrinthitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The CT finding of hyperdensity in the cerebellum with acute onset and brainstem compression is classic for cerebellar haemorrhage, a neurosurgical emergency. Cerebellar infarction would appear hypodense; labyrinthitis does not cause drowsiness or CT changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb08b250e758",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with no hypertension and not on anticoagulants presents with sudden right homonymous hemianopia and mild headache. CT head shows a left occipital hyperdensity with surrounding oedema. What is the single most likely diagnosis?",
+      "options": [
+        "Lobar intracerebral haemorrhage",
+        "Subdural haematoma",
+        "Ischaemic stroke (PCA territory)",
+        "Deep (putamenal) intracerebral haemorrhage",
+        "Posterior reversible encephalopathy syndrome (PRES)"
+      ],
+      "answerIndex": 0,
+      "explanation": "A lobar location in an elderly patient without hypertension suggests cerebral amyloid angiopathy as the cause of intracerebral haemorrhage. Hypertensive bleeds are typically deep; PRES is bilateral and oedematous; ischaemic stroke is hypodense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5cb2181fb174",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with hypertension presents with sudden severe headache, vomiting, and left-sided weakness. His GCS is 14 and blood pressure is 210/120 mmHg. What is the most appropriate first investigation to diagnose the cause of his symptoms?",
+      "options": [
+        "CT head without contrast",
+        "Lumbar puncture",
+        "CT angiography of the head",
+        "Carotid duplex ultrasound",
+        "MRI brain"
+      ],
+      "answerIndex": 0,
+      "explanation": "Non-contrast CT head is the first-line investigation for suspected acute haemorrhagic stroke due to its rapid availability, speed, and high sensitivity for acute blood. CT angiography is used to identify underlying vascular lesions but is not the initial test. MRI is less accessible and slower. Lumbar puncture is contraindicated if raised intracranial pressure is suspected. Carotid duplex is for ischaemic stroke.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8aa4c818b8a0",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with no past medical history presents with a thunderclap headache that resolved spontaneously. She has no focal neurological signs and her GCS is 15. A CT head performed within 6 hours of onset is normal. What is the most appropriate next investigation to exclude subarachnoid haemorrhage?",
+      "options": [
+        "MRI brain with contrast",
+        "CT angiography",
+        "Lumbar puncture for xanthochromia",
+        "Repeat CT head in 6 hours",
+        "Digital subtraction angiography"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lumbar puncture for xanthochromia is the gold standard to exclude subarachnoid haemorrhage when CT is negative, as CT can miss a small SAH. CT angiography is indicated if LP is positive or if an aneurysm is suspected, but not as the next step after negative CT. Repeat CT has low yield. MRI is less sensitive for acute SAH. Digital subtraction angiography is invasive and reserved for further evaluation after positive screening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b981c4b1c899",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with no history of hypertension or anticoagulation presents with sudden severe headache and vomiting. CT head reveals a right temporal lobe intracerebral haemorrhage. What is the most appropriate investigation to identify the underlying aetiology?",
+      "options": [
+        "Cerebral digital subtraction angiography",
+        "CT perfusion",
+        "MR venography",
+        "CT angiography",
+        "Brain biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT angiography is the initial non-invasive test to detect underlying vascular lesions such as aneurysms or arteriovenous malformations in a young patient with lobar haemorrhage. MR venography is for suspected venous sinus thrombosis. Digital subtraction angiography is reserved if CT angio is negative and high suspicion remains. Brain biopsy is not indicated initially. CT perfusion assesses blood flow, not aetiology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ebe378fd5b2b",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with known hypertension is admitted with a right putamen haemorrhage confirmed on initial CT. After 24 hours, his GCS drops from 14 to 10. A repeat CT shows significant perihaematomal oedema and midline shift. What is the most appropriate next investigation to assess for ongoing bleeding?",
+      "options": [
+        "MRI brain with diffusion",
+        "CT perfusion",
+        "Repeat CT head without contrast",
+        "CT angiography",
+        "Cerebral angiography"
+      ],
+      "answerIndex": 2,
+      "explanation": "Repeat non-contrast CT head is the fastest and most effective way to assess for haematoma expansion in a deteriorating patient with known ICH. CT angiography may show a 'spot sign' for risk of expansion but is not necessary to confirm expansion. CT perfusion and MRI are slower and not standard for acute assessment. Cerebral angiography is invasive and not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5479cc71bb5b",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman on the combined oral contraceptive pill presents with sudden severe headache, vomiting, and photophobia. CT head is normal. Lumbar puncture shows an opening pressure of 30 cmH₂O but clear cerebrospinal fluid with no red cells or xanthochromia. What is the most appropriate next investigation to establish the diagnosis?",
+      "options": [
+        "CT angiography",
+        "Repeat lumbar puncture",
+        "Cerebral digital subtraction angiography",
+        "MRI brain with contrast",
+        "CT venogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of headache, raised ICP, OCP use, and negative SAH workup raises suspicion for cerebral venous sinus thrombosis. CT venogram is the first-line investigation to confirm this diagnosis. CT angiography looks for aneurysms. MRI brain may show oedema but venogram is diagnostic. Repeat LP is not indicated. DSA is reserved for uncertain cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b8ec5087ead9",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old woman presents with acute onset of right-sided weakness and speech difficulty. CT head shows a left basal ganglia intracerebral haemorrhage (ICH) of approximately 30 mL. Her blood pressure is 210/110 mmHg. She is not on anticoagulation. Which of the following antihypertensive agents is CONTRAINDICATED in this setting?",
+      "options": [
+        "Hydralazine 10 mg IV bolus",
+        "Sodium nitroprusside infusion titrated to target BP",
+        "Glyceryl trinitrate (GTN) infusion titrated to target BP",
+        "Labetalol 20 mg IV bolus",
+        "Sublingual nifedipine 10 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sublingual nifedipine causes rapid, unpredictable blood pressure reduction and a reflex tachycardia that may reduce cerebral perfusion and increase ischaemic injury. It is contraindicated in acute ICH. Labetalol, GTN, hydralazine, and nitroprusside are used with caution, but nifedipine is specifically avoided.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "349fa441173d",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old man on warfarin for atrial fibrillation presents with sudden severe headache and left-sided weakness. CT head reveals a right thalamic ICH of 40 mL. His INR is 3.8. Which of the following is the most appropriate first-line therapy to reverse his anticoagulation?",
+      "options": [
+        "Fresh frozen plasma (FFP) 15 mL/kg IV",
+        "Vitamin K 5 mg IV",
+        "Idarucizumab 5 g IV",
+        "Prothrombin complex concentrate (PCC) 50 units/kg IV plus vitamin K 5 mg IV",
+        "Andexanet alfa 400 mg IV bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "For warfarin-associated ICH, NICE/BNF recommend PCC (Beriplex) with intravenous vitamin K to rapidly normalise INR. FFP is slower and less effective. Andexanet is for direct factor Xa inhibitors, idarucizumab for dabigatran. Vitamin K alone works too slowly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70200a6c4391",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with a thunderclap headache, neck stiffness, and photophobia. CT head shows diffuse subarachnoid haemorrhage (SAH) with a 7 mm anterior communicating artery aneurysm on CT angiography. She is admitted for definitive management. Which of the following is the most appropriate pharmacological therapy to prevent delayed cerebral ischaemia?",
+      "options": [
+        "Intravenous nifedipine infusion",
+        "Intravenous magnesium sulphate",
+        "Oral verapamil 80 mg three times daily",
+        "Oral nimodipine 60 mg every 4 hours",
+        "Oral aspirin 75 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nimodipine, a calcium channel blocker, is the only agent shown in trials to reduce the incidence of delayed cerebral ischaemia and improve outcomes after aneurysmal SAH. Other calcium blockers, aspirin, and magnesium have no proven benefit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4bf22951bdd1",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a history of hypertension presents with sudden collapse. CT head shows a large left cerebellar ICH with mass effect and acute hydrocephalus with dilatation of the lateral and third ventricles. He is drowsy but localises to pain. Which of the following is the most appropriate initial neurosurgical intervention?",
+      "options": [
+        "Lumbar puncture",
+        "External ventricular drain (EVD) insertion",
+        "Decompressive craniectomy",
+        "Ventriculoperitoneal (VP) shunt insertion",
+        "Burr hole drainage of the haematoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute hydrocephalus from cerebellar ICH requires urgent CSF diversion. EVD is the first-line procedure to lower intracranial pressure. VP shunt is used if hydrocephalus persists after acute phase. Lumbar puncture is contraindicated due to risk of herniation. Craniectomy is considered for refractory ICP, not first-line for hydrocephalus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8cbe70a4df3",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 74-year-old woman on dabigatran 150 mg twice daily for atrial fibrillation presents with acute onset of aphasia and right-sided weakness. CT head shows a left temporal ICH of 35 mL. Her renal function is normal. Which of the following is the most appropriate reversal agent for her anticoagulation?",
+      "options": [
+        "Idarucizumab 5 g IV",
+        "Andexanet alfa 400 mg IV bolus",
+        "Prothrombin complex concentrate (PCC) 50 units/kg IV",
+        "Fresh frozen plasma (FFP) 15 mL/kg IV",
+        "Vitamin K 5 mg IV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Idarucizumab is the specific reversal agent for dabigatran (direct thrombin inhibitor). Andexanet reverses factor Xa inhibitors (e.g., rivaroxaban, apixaban). PCC and FFP are less effective and not recommended first-line. Vitamin K has no effect on dabigatran.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a3ffc088bead",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the ED with sudden severe headache, vomiting, and left-sided weakness. CT head shows a 3 cm right basal ganglia haemorrhage. His BP is 210/120 mm Hg. He is not on anticoagulants. What is the most appropriate immediate next step?",
+      "options": [
+        "Call neurosurgery for urgent haematoma evacuation",
+        "Give aspirin 300 mg orally as secondary prevention",
+        "Request urgent CT venogram to exclude sinus thrombosis",
+        "Start IV labetalol infusion to lower systolic BP below 180 mm Hg",
+        "Give IV mannitol 500 mL stat for cerebral oedema"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidance recommends rapid lowering of systolic BP below 180 mm Hg in acute ICH when SBP >200 mm Hg. IV labetalol is a suitable first-line agent. Mannitol is not indicated unless there is clinical evidence of raised ICP and herniation, and neurosurgical evacuation is not typically first-line for a deep 3 cm haematoma without significant mass effect or deterioration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32a6cb3a25d8",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with atrial fibrillation on warfarin presents with sudden onset of confusion and mild right-sided weakness. CT head shows a 2 cm left lobar haemorrhage. GCS 14. INR is 4.5. What is the most appropriate immediate next step?",
+      "options": [
+        "Give IV vitamin K 10 mg and prothrombin complex concentrate (PCC) 25 units/kg",
+        "Arrange urgent CT angiogram to rule out underlying vascular malformation",
+        "Give fresh frozen plasma (FFP) 15 mL/kg",
+        "Stop warfarin and monitor INR daily",
+        "Start IV heparin infusion for atrial fibrillation"
+      ],
+      "answerIndex": 0,
+      "explanation": "In anticoagulant-associated ICH, urgent reversal is indicated. NICE recommends IV vitamin K and PCC for warfarin reversal. FFP is slower and less effective. Simply stopping warfarin is insufficient as INR will remain elevated. Heparin is contraindicated. CT angiogram may be considered later if no clear cause, but reversal is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70af55ce5202",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man presents with sudden severe headache, dizziness, and vomiting. CT head shows a 4 cm right cerebellar haemorrhage with effacement of the fourth ventricle and hydrocephalus. GCS 12. His BP is 180/100 mm Hg. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to neurosurgery for urgent surgical decompression",
+        "Start IV labetalol infusion to lower BP below 140/90",
+        "Intubate and ventilate for airway protection",
+        "Perform CT venogram to exclude cerebellar venous thrombosis",
+        "Give IV mannitol 500 mL stat to reduce intracranial pressure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cerebellar haematomas >3 cm with hydrocephalus or brainstem compression require urgent neurosurgical evacuation (NICE). Mannitol is temporising but not definitive. BP lowering should be guided, but surgery is the priority. Intubation may be needed but evacuation is the direct treatment. CT venogram is not indicated as CT already shows haemorrhage with mass effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5f3b6486d605",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known hypertension presents with acute headache and vomiting. CT head shows a small right thalamic haemorrhage with extensive intraventricular extension and hydrocephalus. GCS 10. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer IV nimodipine 60 mg every 4 hours",
+        "Repeat CT head in 24 hours",
+        "Perform lumbar puncture to measure opening pressure",
+        "Give IV mannitol 500 mL stat",
+        "Insert an external ventricular drain (EVD)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute hydrocephalus from intraventricular haemorrhage requires urgent CSF diversion with an EVD (NICE). Mannitol may temporarily reduce ICP but does not address hydrocephalus. Repeat CT is not immediate. Lumbar puncture is contraindicated with obstructive hydrocephalus. Nimodipine is used in subarachnoid haemorrhage, not ICH.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "62f955a81f61",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with no significant past medical history presents with sudden severe headache and vomiting. CT head shows a 2 cm left temporal lobe haemorrhage. BP 130/80 mm Hg. He is not on anticoagulants. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer IV mannitol 500 mL for cerebral oedema",
+        "Give IV vitamin K 10 mg and prothrombin complex concentrate (PCC)",
+        "Start IV labetalol infusion to lower BP below 120/80",
+        "Start oral nimodipine 60 mg every 4 hours",
+        "Arrange urgent CT angiogram (CTA) to look for underlying vascular malformation"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a young patient with ICH, no hypertension, and no anticoagulation, an underlying structural cause (AVM, aneurysm) is likely. CTA is the next step to identify a vascular lesion. BP is normal so no antihypertensive needed. Reversal is not indicated without anticoagulation. Mannitol is not needed without raised ICP symptoms. Nimodipine is for SAH, not ICH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6ce5d3a9de4",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with a sudden severe headache described as 'thunderclap' that resolved after 2 hours. She is now well, and CT brain is normal. Which clinical finding on examination should raise the suspicion of an underlying aneurysm?",
+      "options": [
+        "Photophobia",
+        "Retinal haemorrhages",
+        "Neck stiffness",
+        "Unilateral ptosis with dilated pupil",
+        "Vomiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unilateral ptosis with a dilated pupil indicates a third nerve palsy, often due to a posterior communicating artery aneurysm. This is a red flag for subarachnoid haemorrhage even with a normal CT. Neck stiffness is common but less specific for an aneurysm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a97c9b5f6cfd",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man on warfarin for atrial fibrillation presents with sudden dizziness, vomiting, and unsteady gait. CT shows a large cerebellar haemorrhage. He is drowsy but rousable. Which clinical sign would indicate impending brainstem compression?",
+      "options": [
+        "Inability to sit unsupported",
+        "Nystagmus",
+        "Bilateral upgoing plantars",
+        "Hypertension and bradycardia",
+        "Ipsilateral gaze palsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypertension and bradycardia (Cushing's reflex) are a late sign of raised intracranial pressure, indicating impending brainstem herniation. This requires immediate neurosurgical referral. Ipsilateral gaze palsy may occur but is not an emergency threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a608046f6d67",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with chronic hypertension presents with sudden confusion and vomiting. CT shows a putamenal haemorrhage. His blood pressure is 240/130 mmHg. Which finding on admission is an indication for urgent blood pressure lowering according to NICE guidelines?",
+      "options": [
+        "Systolic blood pressure >200 mmHg",
+        "Midline shift >5 mm",
+        "Glasgow Coma Scale 13",
+        "Haematoma volume >30 mL",
+        "Intraventricular extension"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends rapid intravenous antihypertensives if systolic BP is >200 mmHg in ICH to reduce haematoma expansion. The other findings are poor prognostic factors but do not directly trigger immediate BP lowering.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "88ddc65f27c1",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with a known right putamenal haemorrhage, managed conservatively, drops from GCS 14 to 10 over one hour. Her right pupil is now fixed and dilated. Which life-threatening complication does this most likely represent?",
+      "options": [
+        "Hyperosmolar state",
+        "Hydrocephalus",
+        "Seizure",
+        "Cerebral oedema with transtentorial herniation",
+        "Rebleeding"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fixed, dilated pupil ipsilateral to the lesion is a classic sign of uncal herniation due to mass effect from surrounding oedema. This is a neurosurgical emergency. Rebleeding is less common at this time point and usually presents with sudden worsening, but the pupil sign is specific for herniation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3bcce2d1223b",
+      "topic": "Haemorrhagic Stroke",
+      "slug": "haemorrhagic-stroke",
+      "system": "Neurology",
+      "subSystem": "Stroke",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with no history of hypertension presents with acute left-sided weakness and visual neglect. CT shows a right temporo-parietal haemorrhage. Which clinical feature would increase suspicion of cerebral amyloid angiopathy as the underlying cause?",
+      "options": [
+        "Diabetes mellitus",
+        "Peripheral vascular disease",
+        "History of hypertension",
+        "Obesity",
+        "History of a previous lobar haemorrhage"
+      ],
+      "answerIndex": 4,
+      "explanation": "Recurrent lobar haemorrhages in normotensive elderly patients strongly suggest cerebral amyloid angiopathy. Hypertension is more typical for deep haemorrhages (basal ganglia, thalamus). Prior lobar haemorrhage is a red flag for amyloid angiopathy.",
+      "difficulty": "medium"
+    }
+  ]
+}

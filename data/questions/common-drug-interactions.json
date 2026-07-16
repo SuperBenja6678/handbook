@@ -1,0 +1,513 @@
+{
+  "topic": "Common Drug Interactions",
+  "slug": "common-drug-interactions",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Principle",
+  "acuity": "ROUTINE",
+  "generatedAt": "2026-07-16T10:28:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "831ad10653d9",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman on warfarin for atrial fibrillation is prescribed fluconazole for vaginal candidiasis. Five days later, she presents with haematuria and a large bruise on her thigh. INR is 8.5. What is the single most likely diagnosis?",
+      "options": [
+        "Vitamin K deficiency",
+        "Haemophilia A",
+        "Liver cirrhosis",
+        "Warfarin toxicity due to drug interaction",
+        "Heparin-induced thrombocytopenia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fluconazole inhibits CYP2C9, potentiating warfarin and causing excessive anticoagulation. The rapid onset after adding fluconazole distinguishes this from other causes of elevated INR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "42be7edb57bd",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 55-year-old man on simvastatin 40 mg daily for hyperlipidaemia develops severe myalgia and dark urine after a 7-day course of clarithromycin for community-acquired pneumonia. Creatine kinase is 22,000 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Polymyositis",
+        "Rhabdomyolysis due to statin toxicity",
+        "Myocardial infarction",
+        "Compartment syndrome",
+        "Deep vein thrombosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clarithromycin inhibits CYP3A4, markedly raising simvastatin levels and precipitating rhabdomyolysis. The temporal relationship and very high CK make this the likely diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb441fcc7ecd",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with rheumatoid arthritis on methotrexate 15 mg weekly presents with oral ulcers, fever, and pancytopenia. She started taking ibuprofen for joint pain three weeks ago. What is the single most likely diagnosis?",
+      "options": [
+        "Acute leukaemia",
+        "Sepsis",
+        "Aplastic anaemia",
+        "Felty syndrome",
+        "Methotrexate toxicity due to drug interaction"
+      ],
+      "answerIndex": 4,
+      "explanation": "NSAIDs reduce renal clearance of methotrexate, leading to toxicity. The combination of mucositis, fever, and pancytopenia is classic for methotrexate toxicity, unlike Felty syndrome (splenomegaly, neutropenia) or other causes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9fd774bfa488",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with heart failure on lisinopril 10 mg daily and spironolactone 25 mg daily presents with weakness and palpitations. ECG shows peaked T waves. Serum potassium is 6.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Digoxin toxicity",
+        "Addison disease",
+        "Acute renal failure",
+        "Hyperkalaemia due to drug interaction",
+        "Myocardial ischaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Combined ACE inhibitor and potassium-sparing diuretic can cause life-threatening hyperkalaemia. ECG changes and the drug combination point to this rather than other causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "961f1f5144f7",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman on sertraline 100 mg daily for depression is prescribed tramadol for back pain. Two days later, she presents with agitation, hyperthermia, and clonus. What is the single most likely diagnosis?",
+      "options": [
+        "Serotonin syndrome",
+        "Thyroid storm",
+        "Neuroleptic malignant syndrome",
+        "Meningitis",
+        "Malignant hyperthermia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tramadol has serotonergic activity; combined with an SSRI it can rapidly cause serotonin syndrome. Clonus and hyperthermia are distinguishing features compared to NMS (rigidity, bradykinesia) or malignant hyperthermia (anaesthesia trigger).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33fd127a1ac4",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man on simvastatin 40 mg daily for primary prevention is prescribed clarithromycin for community-acquired pneumonia. Three days later he develops severe myalgia and dark urine. Which investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Troponin I",
+        "Serum creatine kinase",
+        "Liver function tests",
+        "Serum creatinine and urea",
+        "Urine myoglobin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevated serum creatine kinase (CK) confirms rhabdomyolysis, a potential adverse effect of statin-macrolide interaction via CYP3A4 inhibition. Myoglobinuria supports but is less specific; LFTs and renal function assess complications but do not directly confirm the suspected adverse drug reaction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "858d74a0407f",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with rheumatoid arthritis on methotrexate 15 mg weekly and regular ibuprofen presents with oral mucositis, fatigue, and bruising. Full blood count shows pancytopenia. Which investigation is most appropriate to confirm the cause?",
+      "options": [
+        "Serum vitamin B12 level",
+        "Bone marrow aspirate",
+        "Red cell folate level",
+        "Direct Coombs test",
+        "Serum methotrexate level"
+      ],
+      "answerIndex": 4,
+      "explanation": "A markedly elevated serum methotrexate level confirms toxicity, often precipitated by NSAIDs reducing renal clearance. Folate deficiency may contribute but is not diagnostic; bone marrow aspirate would show changes but is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2507c2bad654",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with bipolar disorder on lithium maintenance therapy develops vomiting and diarrhoea due to a viral gastroenteritis. She is now tremulous and confused. Which single investigation is most likely to confirm the underlying problem?",
+      "options": [
+        "Electrocardiogram",
+        "Thyroid function tests",
+        "Serum lithium level",
+        "Serum creatinine",
+        "Serum sodium"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevated serum lithium level confirms lithium toxicity, which is precipitated by dehydration (e.g., from gastroenteritis). Hyponatraemia or renal impairment may be contributory but are not diagnostic; ECG changes are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18904d511b96",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with heart failure on digoxin and furosemide is started on amiodarone for atrial fibrillation. One week later he develops nausea, vomiting, and visual disturbances with a heart rate of 45 bpm. Which investigation is most appropriate to confirm the suspected adverse reaction?",
+      "options": [
+        "Serum digoxin level",
+        "12-lead ECG",
+        "Serum amiodarone level",
+        "Serum potassium",
+        "Serum creatinine"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of symptoms and bradycardia suggests digoxin toxicity, which is confirmed by an elevated serum digoxin level. Amiodarone increases digoxin levels by inhibiting P-glycoprotein. Hypokalaemia may predispose but is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e09b08f7b00",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman on warfarin for recurrent DVT (stable INR 2–3) is prescribed fluconazole for oral thrush. After 5 days she notices gum bleeding and bruising; INR is 5.6. Which investigation is most appropriate to confirm that the interaction is due to inhibition of warfarin metabolism?",
+      "options": [
+        "CYP2C9 genotyping",
+        "Repeat INR after stopping fluconazole",
+        "Coagulation factor assays",
+        "Liver function tests",
+        "Serum warfarin level"
+      ],
+      "answerIndex": 1,
+      "explanation": "In clinical practice, a rapid drop in INR after discontinuing the suspect interacting drug (fluconazole) confirms the cause-and-effect relationship. Serum warfarin level is rarely available; CYP2C9 genotyping identifies poor metabolisers but does not confirm the immediate interaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "880dc2bc5110",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 65-year-old woman with rheumatoid arthritis on methotrexate (15 mg weekly) presents with dysuria, frequency, and suprapubic tenderness. Urine dipstick shows nitrites and leukocytes. She has no known drug allergies. Which antibiotic should be avoided due to a potentially fatal drug interaction?",
+      "options": [
+        "Cefalexin",
+        "Doxycycline",
+        "Amoxicillin",
+        "Nitrofurantoin",
+        "Trimethoprim"
+      ],
+      "answerIndex": 4,
+      "explanation": "Trimethoprim (like co-trimoxazole) inhibits dihydrofolate reductase and reduces renal clearance of methotrexate, leading to severe bone marrow suppression and toxicity. The other antibiotics are safe alternatives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b749fedb35b1",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 68-year-old man on warfarin for atrial fibrillation (target INR 2-3) presents with a dental abscess. He has no penicillin allergy. Which antibiotic is most likely to cause a significant rise in INR?",
+      "options": [
+        "Cefalexin",
+        "Metronidazole",
+        "Clindamycin",
+        "Amoxicillin",
+        "Doxycycline"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metronidazole inhibits warfarin metabolism via cytochrome P450, potentiating its anticoagulant effect and risking bleeding. The other antibiotics have minimal or no interaction with warfarin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "44e22ad37218",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with bipolar disorder on lithium (serum level 0.6 mmol/L) is diagnosed with hypertension. She needs a diuretic. Which diuretic is most likely to precipitate lithium toxicity?",
+      "options": [
+        "Chlortalidone",
+        "Spironolactone",
+        "Bendroflumethiazide",
+        "Furosemide",
+        "Bumetanide"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thiazides (e.g., bendroflumethiazide) decrease lithium clearance by enhancing proximal tubular reabsorption, raising serum lithium. Loop diuretics like furosemide have less effect; spironolactone does not interact significantly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5169c69997a9",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 55-year-old man with hypercholesterolaemia on simvastatin 40 mg at night is diagnosed with stable angina. He is started on a calcium channel blocker. Which calcium channel blocker is the safest choice to avoid a significant statin interaction?",
+      "options": [
+        "Amlodipine",
+        "Diltiazem",
+        "Felodipine",
+        "Nifedipine",
+        "Verapamil"
+      ],
+      "answerIndex": 0,
+      "explanation": "Amlodipine (a dihydropyridine) does not inhibit CYP3A4, which metabolises simvastatin, whereas diltiazem and verapamil are strong inhibitors and significantly increase simvastatin levels, risking myopathy. Nifedipine and felodipine are also safe but amlodipine is most commonly prescribed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd2166a37e2b",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 60-year-old man with heart failure (LVEF 40%) on ramipril 10 mg daily and furosemide 40 mg daily is started on a new medication for persistent symptoms. Which of the following, if added, is most likely to cause life-threatening hyperkalaemia?",
+      "options": [
+        "Warfarin",
+        "Ivabradine",
+        "Spironolactone",
+        "Bisoprolol",
+        "Digoxin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Spironolactone is a potassium-sparing diuretic; combined with an ACE inhibitor (ramipril) it markedly increases the risk of hyperkalaemia due to aldosterone antagonism. The other drugs do not significantly elevate potassium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a0881d25dd3e",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with atrial fibrillation on warfarin (target INR 2-3) is prescribed metronidazole 400 mg three times daily for a dental infection. On day 5, she reports minor gum bleeding when brushing. Her INR is 9.0. She is haemodynamically stable. What is the most appropriate immediate next action?",
+      "options": [
+        "Administer protamine sulphate",
+        "Hold warfarin and recheck INR in 24 hours",
+        "Give oral vitamin K",
+        "Give fresh frozen plasma (FFP)",
+        "Give intravenous vitamin K"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with a supratherapeutic INR >8 but no major bleeding, BNF and NICE guidelines recommend stopping warfarin and giving oral vitamin K (1-2.5 mg). Intravenous vitamin K is reserved for major bleeding or when rapid reversal is needed, and FFP is for active major bleeding or emergency surgery. Simply holding warfarin is insufficient with INR >8.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "79b6a271dca9",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with hypertension and stage 3 chronic kidney disease (baseline creatinine 100 µmol/L) on lisinopril 10 mg daily presents with acute back pain and takes ibuprofen 400 mg three times daily for 5 days. He now has nausea and oliguria. Creatinine is 250 µmol/L, potassium 4.5 mmol/L. What is the most appropriate immediate next action?",
+      "options": [
+        "Stop ibuprofen",
+        "Give sodium bicarbonate",
+        "Stop lisinopril",
+        "Start intravenous normal saline",
+        "Arrange urgent renal ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "The acute kidney injury is likely due to NSAID-induced inhibition of renal prostaglandins in a patient on an ACE inhibitor. The immediate step is to stop the NSAID (ibuprofen) as it is the precipitant. While lisinopril may also be held, the priority is removing the NSAID. IV fluids are not first-line as the patient is not hypovolaemic; ACEi-NSAID interaction causes haemodynamic AKI, not volume depletion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d7191e4f1b3",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with rheumatoid arthritis on low-dose methotrexate (15 mg weekly) takes naproxen 500 mg twice daily for a flare. Five days later she develops painful mouth ulcers, diarrhoea, and bruising. Full blood count shows Hb 90 g/L, WBC 2.5 × 10^9/L, platelets 50 × 10^9/L. What is the most appropriate immediate next action?",
+      "options": [
+        "Stop methotrexate only",
+        "Administer intravenous immunoglobulin",
+        "Give intravenous folinic acid (calcium folinate)",
+        "Start broad-spectrum antibiotics",
+        "Start granulocyte colony-stimulating factor (G-CSF)"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is methotrexate toxicity precipitated by NSAID interaction (reduced renal clearance). Folinic acid (calcium folinate) is the specific rescue therapy and should be given promptly. Stopping methotrexate alone is insufficient. G-CSF may be used for neutropenia but is not the first step. Antibiotics are indicated if infection develops, but folinic acid is immediate priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3680196191ce",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with bipolar disorder on lithium carbonate (serum level stable at 0.8 mmol/L) develops gout treated with diclofenac 50 mg twice daily. After three days he becomes confused and ataxic. Vital signs: BP 110/70 mmHg, heart rate 100 bpm. Serum lithium is 2.6 mmol/L (therapeutic 0.4-1.0). What is the most appropriate immediate next action?",
+      "options": [
+        "Arrange emergency haemodialysis",
+        "Administer sodium polystyrene sulfonate",
+        "Start intravenous normal saline",
+        "Give intravenous furosemide",
+        "Stop lithium and repeat level in 6 hours"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lithium toxicity is exacerbated by NSAID-induced reduced renal clearance. Immediate management includes stopping lithium and correcting fluid and electrolyte imbalance. IV normal saline enhances lithium excretion and is the first step. Haemodialysis is reserved for severe toxicity (e.g., level >3.5 mmol/L or severe symptoms). Sodium polystyrene sulfonate is not effective for lithium. Furosemide may worsen volume depletion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6fe49f7627c8",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with ischaemic heart disease on simvastatin 40 mg daily and amiodarone 200 mg daily (for atrial fibrillation) presents with bilateral thigh pain and dark urine. On examination, muscle tenderness is noted. Serum creatine kinase is 12,000 U/L, creatinine 130 µmol/L (baseline 80). What is the most appropriate immediate next action?",
+      "options": [
+        "Stop simvastatin",
+        "Give sodium bicarbonate infusion",
+        "Arrange electromyography (EMG)",
+        "Check thyroid function",
+        "Start intravenous normal saline"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is statin-induced rhabdomyolysis, risk increased by amiodarone (CYP3A4 inhibitor). The immediate step is to stop the statin. IV fluids (normal saline) are important to prevent acute kidney injury but are secondary to discontinuing the causative drug. Bicarbonate is not first-line. Thyroid function is not immediately relevant. EMG is not diagnostic here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "027a4f676f26",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with rheumatoid arthritis on weekly methotrexate 15 mg presents with oral ulcers, diarrhoea, and fever (38.5°C) after self-medicating with ibuprofen for a flare. Which finding most strongly indicates life-threatening toxicity?",
+      "options": [
+        "Neutrophil count 0.5 × 10⁹/L",
+        "ALT 150 U/L",
+        "Haemoglobin 100 g/L",
+        "White cell count 2.5 × 10⁹/L",
+        "Platelet count 80 × 10⁹/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neutrophil count 0.5 × 10⁹/L indicates severe neutropenia, which in the context of fever (sepsis) requires immediate intervention. Methotrexate toxicity causes pancytopenia; neutropenia is the most immediately life-threatening finding due to infection risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b5589da36cd",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with hypertension and osteoarthritis on lisinopril and regular ibuprofen presents with malaise and dizziness. Blood pressure is 110/70 mmHg. Which laboratory finding most suggests this is a dangerous interaction?",
+      "options": [
+        "eGFR 55 mL/min/1.73m²",
+        "Potassium 5.8 mmol/L",
+        "Sodium 135 mmol/L",
+        "Urea 12 mmol/L",
+        "Creatinine 120 µmol/L (baseline 90)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Potassium 5.8 mmol/L represents hyperkalaemia, a life-threatening complication of combining an ACE inhibitor with an NSAID. The other options are less acute; hyperkalaemia can cause cardiac arrest and requires urgent treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7ccb397d1f22",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman on fluoxetine for depression takes a party drug (ecstasy) and presents with hyperthermia (39.5°C), muscle rigidity, and confusion. Which life-threatening complication must be excluded first?",
+      "options": [
+        "Thyroid storm",
+        "Malignant hyperthermia",
+        "Meningitis",
+        "Serotonin syndrome",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of SSRI (fluoxetine) and MDMA (ecstasy) can cause serotonin syndrome, characterised by hyperthermia, rigidity, and altered mental status. Neuroleptic malignant syndrome is associated with antipsychotics, not SSRIs. The presentation is classic for serotonin syndrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad61765f8307",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man with heart failure on digoxin has been prescribed amiodarone for atrial fibrillation. He presents with palpitations and dizziness. Which ECG finding most strongly indicates a life-threatening digoxin toxicity?",
+      "options": [
+        "PR prolongation >0.24 s",
+        "Ventricular tachycardia",
+        "Ventricular bigeminy",
+        "Atrial tachycardia with block",
+        "QRS widening >0.12 s"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ventricular tachycardia is a life-threatening arrhythmia that can result from digoxin toxicity, especially when drug levels rise due to interaction with amiodarone. The other options are also signs of toxicity but are less immediately dangerous.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e0693ab75099",
+      "topic": "Common Drug Interactions",
+      "slug": "common-drug-interactions",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Principle",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with bipolar disorder on lithium maintenance presents with coarse tremor, vomiting, and drowsiness after starting an ACE inhibitor for hypertension. Which serum lithium level most clearly indicates severe toxicity requiring urgent haemodialysis consideration?",
+      "options": [
+        "1.5 mmol/L",
+        "2.0 mmol/L",
+        "2.5 mmol/L",
+        "3.0 mmol/L",
+        "1.0 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A lithium level of 2.5 mmol/L is the threshold for severe toxicity where haemodialysis is often indicated, especially with neurological symptoms. Levels above 1.5 mmol/L are toxic, but 2.5 mmol/L marks a clear emergency.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "topic": "Asthma — Chronic Management",
+  "slug": "asthma-—-chronic-management",
+  "system": "Respiratory",
+  "subSystem": "Asthma",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:27:40Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "b76cc0b8ca80",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 24-year-old medical student presents with a 3-month history of intermittent wheeze, chest tightness, and nocturnal cough. She has a history of hay fever. She is a non-smoker. Chest clear on auscultation. Peak expiratory flow (PEF) diary shows variability of 25% between morning and evening readings. What is the single most likely diagnosis?",
+      "options": [
+        "Allergic bronchopulmonary aspergillosis",
+        "Gastro-oesophageal reflux disease",
+        "Asthma",
+        "Vocal cord dysfunction",
+        "Eosinophilic bronchitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of episodic symptoms, nocturnal worsening, atopic history, and peak flow variability is classic for asthma. Vocal cord dysfunction often presents with inspiratory stridor and normal peak flow variability. GORD causes cough but not typically wheeze with variability. Eosinophilic bronchitis presents with cough and sputum eosinophilia but less bronchial hyperreactivity. ABPA requires specific radiological and immunological features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c4834bc90a86",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old non-smoking teacher complains of a persistent dry cough for 10 weeks. No wheeze or shortness of breath. Normal chest X-ray. Spirometry shows FEV1/FVC 0.82, FEV1 95% predicted. Methacholine challenge test is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Asthma (cough variant)",
+        "Post-viral cough",
+        "ACE inhibitor-induced cough",
+        "Gastro-oesophageal reflux disease",
+        "Eosinophilic bronchitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cough-variant asthma presents with chronic cough as the sole symptom, normal spirometry but increased bronchial hyperreactivity on challenge testing. GORD typically associated with heartburn; post-viral cough resolves; ACE inhibitor cough is drug-related; eosinophilic bronchitis has normal bronchial hyperreactivity but sputum eosinophilia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "145d6367d89c",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 38-year-old woman with asthma since childhood reports increasing nasal congestion, loss of smell, and severe wheezing episodes that occur shortly after taking ibuprofen for headaches. She has had multiple courses of oral steroids. What is the single most likely diagnosis?",
+      "options": [
+        "Vocal cord dysfunction",
+        "Chronic rhinosinusitis with nasal polyps",
+        "Asthma with allergic rhinitis",
+        "Aspirin-exacerbated respiratory disease (AERD)",
+        "Allergic bronchopulmonary aspergillosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The triad of asthma, nasal polyps, and sensitivity to NSAIDs is characteristic of AERD. ABPA presents with eosinophilia and pulmonary infiltrates. Chronic rhinosinusitis alone does not cause NSAID sensitivity. Allergic rhinitis is not associated with NSAID reaction. Vocal cord dysfunction presents with inspiratory stridor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a8914c008146",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old man with mild asthma develops a productive cough, wheeze, and low-grade fever over 3 weeks. Chest X-ray shows bilateral upper lobe infiltrates. Blood tests reveal eosinophilia (1.5 x10^9/L) and total IgE >1000 IU/mL. What is the single most likely diagnosis?",
+      "options": [
+        "Eosinophilic pneumonia",
+        "Acute asthma exacerbation",
+        "Tuberculosis",
+        "Bronchiectasis",
+        "Allergic bronchopulmonary aspergillosis (ABPA)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of asthma, pulmonary infiltrates, eosinophilia, and markedly elevated IgE is diagnostic for ABPA. Eosinophilic pneumonia can mimic but typically lacks very high IgE. TB usually has granulomas and positive culture. Acute exacerbation would not cause new infiltrates in upper lobes. Bronchiectasis is a structural change seen on CT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "385ccc947569",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 29-year-old spray painter presents with a 6-month history of cough and wheeze that is worse on workdays and improves during weekends and holidays. He is a non-smoker. Spirometry shows FEV1/FVC 0.70 with a 15% improvement post-salbutamol. What is the single most likely diagnosis?",
+      "options": [
+        "Occupational asthma",
+        "Chronic obstructive pulmonary disease",
+        "Asthma",
+        "Eosinophilic bronchitis",
+        "Hypersensitivity pneumonitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The clear temporal relationship between symptoms and work, with improvement away from work, is classic for occupational asthma. COPD is unlikely in a non-smoker. Hypersensitivity pneumonitis presents with systemic symptoms and restrictive pattern. Eosinophilic bronchitis has normal spirometry and no work-related pattern. While all asthma is still asthma, the specific trigger (isocyanates) makes occupational asthma the most precise diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72e6084844d7",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old non-smoker presents with episodic wheeze and nocturnal cough for 6 months. Lung examination is normal. What is the most appropriate initial investigation to confirm asthma?",
+      "options": [
+        "Spirometry with reversibility testing",
+        "Peak expiratory flow variability over 2 weeks",
+        "Chest X-ray",
+        "FeNO measurement",
+        "Bronchial challenge test"
+      ],
+      "answerIndex": 0,
+      "explanation": "Spirometry with reversibility testing is the first-line diagnostic test for asthma (NICE). Demonstrating reversible airflow obstruction (FEV1/FVC <0.7 and increase in FEV1 >12% and 200mL after bronchodilator) confirms asthma. Peak flow variability is supportive but not diagnostic; FeNO is used when spirometry is normal; bronchial challenge is reserved for diagnostic uncertainty after FeNO.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d5782c1e4479",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old with cough and wheeze has normal spirometry (FEV1 100% predicted, FEV1/FVC 0.82) with no reversibility. What is the most appropriate next investigation to confirm asthma?",
+      "options": [
+        "FeNO measurement",
+        "Blood eosinophil count",
+        "CT chest",
+        "Methacholine challenge test",
+        "Peak flow diary for 2 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends FeNO measurement when spirometry is normal. FeNO >40 ppb suggests asthma; if borderline (25-40 ppb), consider bronchial challenge. Peak flow diary is an alternative but FeNO is more specific for type 2 inflammation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c524ae48f226",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old known asthmatic presents with severe breathlessness. Peak expiratory flow is 30% predicted. Which arterial blood gas result is most concerning for life-threatening asthma?",
+      "options": [
+        "pH 7.50",
+        "PaCO2 4.2 kPa",
+        "PaCO2 6.8 kPa",
+        "HCO3- 24 mmol/L",
+        "PaO2 10 kPa"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute asthma, hypercapnia (PaCO2 >6 kPa) signals life-threatening attack due to respiratory muscle fatigue. Normocapnia or hypocapnia are typical in moderate asthma, while a normal PaO2 can be maintained initially.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "80e6dc218fb3",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old baker reports cough and wheeze that worsen at work and improve on holidays. What is the most appropriate diagnostic test to confirm occupational asthma?",
+      "options": [
+        "Serial peak flow measurements at work and away",
+        "Chest X-ray",
+        "Specific IgE to wheat flour",
+        "FeNO measurement",
+        "Bronchial challenge with flour extract"
+      ],
+      "answerIndex": 0,
+      "explanation": "Serial peak expiratory flow monitoring for ≥4 weeks, comparing work and rest periods, is the recommended diagnostic test for occupational asthma (NICE). Specific IgE indicates sensitisation but not disease; bronchial challenge is rarely used outside specialist centres.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "404d9b5fd392",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old non-smoker presents with a 3-month history of intermittent wheeze and chest tightness, typically after exercise or at night once a week. Her peak flow diary shows diurnal variation >20%. Spirometry is normal. She uses salbutamol 2-3 times weekly. What is the most appropriate first-line regular preventative therapy?",
+      "options": [
+        "Inhaled short-acting beta2-agonist as required",
+        "Oral prednisolone 40 mg daily",
+        "Low-dose inhaled corticosteroid (e.g., beclometasone 200 mcg/day)",
+        "Combination inhaled corticosteroid and long-acting beta2-agonist",
+        "Oral montelukast 10 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to NICE, patients with asthma symptoms (such as nocturnal waking 1+/week or using SABA 3+/week) should be started on a regular inhaled corticosteroid. SABA alone is insufficient for symptom control. LTRA is second-line; LABA is not first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bfd4c947a785",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with asthma is on beclometasone 200 mcg twice daily. He still wakes with wheeze 2-3 times per week and uses his salbutamol reliever every day. He uses his inhaler correctly. What is the most appropriate next step in his management?",
+      "options": [
+        "Add salmeterol 50 mcg twice daily",
+        "Add montelukast 10 mg daily",
+        "Add a short course of oral prednisolone",
+        "Increase beclometasone to 400 mcg twice daily",
+        "Add theophylline MR 200 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend adding a long-acting beta2-agonist (LABA) as the preferred step 3 therapy when asthma remains uncontrolled on low-dose ICS. If no response to LABA, then consider increasing ICS to medium dose or adding LTRA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0e096596819",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old woman on regular beclometasone 200 mcg daily presents to the emergency department with a severe acute exacerbation of asthma. She is treated with oxygen, nebulised salbutamol, and oral prednisolone. After stabilisation, she is discharged. What is the most appropriate change to her maintenance therapy?",
+      "options": [
+        "Add salmeterol 50 mcg twice daily",
+        "Switch to beclometasone 400 mcg daily",
+        "Continue low-dose beclometasone only",
+        "Add theophylline MR",
+        "Add montelukast 10 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "After a severe exacerbation requiring oral steroids, NICE recommends stepping up maintenance therapy. Adding a LABA to low-dose ICS is the preferred first step-up option. An increase in ICS dose alone is less effective than adding LABA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a5c8d39ce1f9",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old patient with long-standing asthma presents with worsening cough, wheeze, and haemoptysis. CT chest shows central bronchiectasis and high-attenuation mucus. Aspergillus-specific IgE and IgG are elevated. What is the cornerstone of treatment for this condition?",
+      "options": [
+        "Oral prednisolone",
+        "High-dose inhaled corticosteroids",
+        "Itraconazole alone",
+        "Montelukast",
+        "Omalizumab"
+      ],
+      "answerIndex": 0,
+      "explanation": "Allergic bronchopulmonary aspergillosis (ABPA) is a complication of asthma. The mainstay of treatment is systemic corticosteroids to control the allergic response. Itraconazole is used as an adjunct to reduce steroid dose, not as monotherapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7462a6dec5ce",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) with asthma is currently on beclometasone 200 mcg twice daily. She reports waking with wheeze 2-3 times per week and using her salbutamol almost daily. What is the safest and most appropriate step-up therapy in pregnancy?",
+      "options": [
+        "Add salmeterol 50 mcg twice daily",
+        "Add montelukast 10 mg daily",
+        "Start oral prednisolone 10 mg daily",
+        "Increase beclometasone to 400 mcg twice daily",
+        "Add theophylline MR"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, uncontrolled asthma is dangerous for both mother and fetus. NICE and BNF recommend that the standard stepwise approach applies, and LABA is considered safe in pregnancy. LTRA and theophylline are second-line due to less evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ae9066ed23e",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents to the GP with a 3-month history of wheeze and cough, worse at night. She uses her salbutamol inhaler 3 times per week and wakes up once a week. Spirometry shows FEV1/FVC 0.68, with 15% improvement post-bronchodilator. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Start regular low-dose inhaled corticosteroid (e.g., beclometasone 200 mcg twice daily)",
+        "Start a long-acting beta agonist (e.g., salmeterol)",
+        "Continue as-needed salbutamol only",
+        "Refer for chest X-ray",
+        "Start a leukotriene receptor antagonist (e.g., montelukast)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has frequent symptoms (≥2 per week) and nocturnal symptoms, consistent with step 2 of the BTS/SIGN asthma guideline. The recommended first-line controller is a regular low-dose inhaled corticosteroid (ICS). As-needed SABA alone (step 1) is insufficient; LTRA is an alternative but not first-line. LABA should only be added after ICS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9b08e77b8cda",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with asthma is on regular low-dose inhaled corticosteroid (beclometasone 200 mcg twice daily) and as-needed salbutamol. He reports using his salbutamol on most days and waking at night 2-3 times per week despite good inhaler technique. What is the most appropriate next step?",
+      "options": [
+        "Switch to a combination inhaler with extra-fine particles",
+        "Increase the dose of inhaled corticosteroid to high dose",
+        "Add a leukotriene receptor antagonist (e.g., montelukast)",
+        "Add a long-acting beta agonist (e.g., formoterol)",
+        "Add a long-acting muscarinic antagonist (e.g., tiotropium)"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to BTS/SIGN step 3, if asthma is uncontrolled on low-dose ICS plus SABA, the preferred option is to add a regular long-acting beta agonist (LABA) as combination therapy. Increasing ICS alone is less effective; LTRA is an alternative but not first-choice. Extra-fine particles and LAMA (step 5) are not first step-up options.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2056257e3825",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with acute severe asthma (PEF 35% predicted, unable to complete sentences, RR 30, SpO2 93% on 40% oxygen) has received back-to-back salbutamol nebulisers, ipratropium bromide, and 40 mg oral prednisolone 90 minutes ago. Her PEF has only increased to 40% and she remains tachypnoeic. What is the single most appropriate immediate next action?",
+      "options": [
+        "Transfer to the intensive care unit for non-invasive ventilation",
+        "Repeat nebulised salbutamol and ipratropium immediately",
+        "Commence intravenous aminophylline infusion",
+        "Request a chest X-ray",
+        "Give intravenous magnesium sulphate 2 g over 20 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute severe asthma with poor initial response to bronchodilators and steroids, the BTS/SIGN guideline recommends intravenous magnesium sulphate as the first-choice second-line treatment. Aminophylline is less favoured due to side effects. Repeating nebulisers alone is insufficient; chest X-ray is not urgent; escalation to ICU/NIV is considered if no improvement after magnesium.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "66a2ab568619",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with well-controlled asthma on high-dose inhaled corticosteroid (budesonide 800 mcg daily) via a pressurised metered-dose inhaler presents with a 2-month history of hoarseness and throat irritation. He denies dyspnoea or wheeze. What is the most appropriate next step?",
+      "options": [
+        "Reduce the dose of inhaled corticosteroid",
+        "Refer to an ear, nose, and throat specialist",
+        "Advise use of a spacer device and ensure mouth rinsing after inhalation",
+        "Switch to a dry powder inhaler",
+        "Prescribe oral fluconazole for suspected candidiasis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hoarseness and throat irritation are common local side effects of ICS, often due to oropharyngeal deposition. The first step is to optimise inhaler technique: using a spacer (for pMDI) and rinsing the mouth after use. Dose reduction may be considered if controlled, but not initially. Candidiasis is less likely without white plaques; referral is premature; switching to DPI may help but spacer is first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0717c27fe359",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) with mild persistent asthma reports using her salbutamol inhaler 3-4 times per week and waking with cough once a week. She is not on any controller therapy. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to a respiratory physician before starting treatment",
+        "Start a long-acting beta agonist (e.g., formoterol)",
+        "Start a low-dose inhaled corticosteroid (e.g., budesonide 200 mcg twice daily)",
+        "Start a leukotriene receptor antagonist (e.g., montelukast)",
+        "Continue as-needed salbutamol only"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnant women with asthma, the principles of stepwise management are the same as in non-pregnant patients. With symptoms requiring SABA ≥2 times per week, a low-dose ICS (budesonide preferred due to safety data) should be started to achieve control. Untreated asthma poses greater risk to the fetus than medications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "306a8e3470bc",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with episodic wheeze, cough, and dyspnoea for 2 months. She has no past medical history. Which finding would raise concern for a life-threatening alternative diagnosis?",
+      "options": [
+        "Bilateral crackles",
+        "Clubbing",
+        "Sputum eosinophilia",
+        "Normal peak flow at rest",
+        "Unilateral wheeze"
+      ],
+      "answerIndex": 4,
+      "explanation": "Unilateral wheeze is not typical of asthma and may indicate bronchial obstruction (e.g., foreign body, tumour) requiring urgent investigation. Bilateral wheeze is expected in asthma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2960bf68bfb",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with well-controlled asthma on low-dose ICS uses his SABA twice daily on average. Which finding indicates increased risk of asthma-related death?",
+      "options": [
+        "Using >3 SABA canisters per year",
+        "FEV1 <60% predicted",
+        "Nocturnal symptoms once per week",
+        ">2 exacerbations per year requiring OCS",
+        "PEF variability >20%"
+      ],
+      "answerIndex": 0,
+      "explanation": "BTS/SIGN guidelines identify using >3 SABA canisters per year as a marker of excessive beta2-agonist use and increased risk of fatal asthma. The other options indicate poor control but not as strong a mortality risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "124e64c22416",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A patient with known asthma presents with severe dyspnoea, unable to speak in sentences, respiratory rate 30, use of accessory muscles, PEFR 30% of predicted. Which clinical finding would indicate life-threatening asthma?",
+      "options": [
+        "Cyanosis",
+        "PaCO2 4.5 kPa",
+        "Silent chest",
+        "SpO2 94% on air",
+        "Heart rate 110"
+      ],
+      "answerIndex": 2,
+      "explanation": "A silent chest is a sign of very poor air entry due to severe bronchoconstriction and fatigue, indicating impending respiratory arrest. It is a life-threatening feature of acute severe asthma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16a80da88263",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old asthmatic presents with acute dyspnoea, left-sided chest pain, and reduced breath sounds on the left. Which finding would confirm a tension pneumothorax?",
+      "options": [
+        "Reduced SpO2",
+        "Raised JVP",
+        "Hypotension",
+        "Hyperresonance on the left",
+        "Tracheal deviation to the right"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tracheal deviation away from the side of reduced breath sounds is a cardinal sign of tension pneumothorax, requiring immediate decompression. Other signs may be present but are less specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40e1df04b552",
+      "topic": "Asthma — Chronic Management",
+      "slug": "asthma-—-chronic-management",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old ex-smoker with wheeze and dyspnoea previously diagnosed as asthma but poorly responsive to ICS. Which finding on investigation suggests an alternative diagnosis of COPD with asthmatic features?",
+      "options": [
+        "Positive D-dimer",
+        "Post-bronchodilator FEV1/FVC <0.7",
+        "High FeNO",
+        "Normal CXR",
+        "Blood eosinophilia >300/µL"
+      ],
+      "answerIndex": 1,
+      "explanation": "A post-bronchodilator FEV1/FVC ratio <0.7 on spirometry indicates fixed airflow obstruction, diagnostic of COPD. Eosinophilia and high FeNO are more supportive of asthma.",
+      "difficulty": "medium"
+    }
+  ]
+}

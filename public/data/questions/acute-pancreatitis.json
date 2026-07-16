@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Pancreatitis",
+  "slug": "acute-pancreatitis",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Pancreatic",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:32Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2d3af0dd3d97",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with a 6-hour history of sudden onset epigastric pain that radiates to his back. He has vomited twice. He has no significant past medical history and drinks 12 units of alcohol per week. On examination, he is in distress, pulse 90 bpm, BP 130/80 mmHg, temperature 37.2°C. There is epigastric tenderness without guarding. His serum amylase is 1200 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute cholecystitis",
+        "Acute pancreatitis",
+        "Acute myocardial infarction (inferior)",
+        "Perforated peptic ulcer",
+        "Acute mesenteric ischaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of severe epigastric pain radiating to the back, vomiting, and a markedly raised amylase is classic for acute pancreatitis. Perforated peptic ulcer would usually cause peritonism and a pneumoperitoneum. Cholecystitis typically has right upper quadrant pain and a positive Murphy's sign. Inferior MI can cause epigastric pain but not such a high amylase. Mesenteric ischaemia often has pain out of proportion and a history of vascular disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ef5e32b0cb57",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents with epigastric pain and jaundice. She has a history of gallstones. She reports the pain started after a fatty meal and is now constant. She has also been feverish. On examination, pulse 100 bpm, temperature 38.5°C, scleral icterus, and tenderness in the right upper quadrant. Blood tests show: WCC 15 × 10^9/L, bilirubin 60 µmol/L, ALP 350 U/L, ALT 120 U/L, amylase 950 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatic abscess",
+        "Biliary colic",
+        "Acute cholangitis",
+        "Acute pancreatitis (gallstone-induced)",
+        "Acute cholecystitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The raised amylase (950 U/L) confirms acute pancreatitis. Gallstone pancreatitis is common and often presents with pain, jaundice, and fever. Cholangitis typically has higher fever and Charcot's triad (pain, jaundice, fever) but amylase is normal or mildly elevated. Cholecystitis usually has localised RUQ tenderness and a normal amylase. Hepatic abscess can cause fever and jaundice but not acute epigastric pain. Biliary colic is intermittent and not associated with jaundice or systemic signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fcc50a85a74e",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with a history of hypertension and smoking presents with severe epigastric pain of 4 hours duration. He is diaphoretic and distressed. On examination, pulse 110 bpm, BP 90/60 mmHg, respiratory rate 24/min, temperature 36.5°C. There is epigastric tenderness and bruising in the flanks (Grey-Turner's sign). Blood tests: amylase 800 U/L, CRP 300 mg/L, calcium 1.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Ruptured abdominal aortic aneurysm",
+        "Septic shock of unknown source",
+        "Acute mesenteric infarction",
+        "Perforated duodenal ulcer",
+        "Severe acute pancreatitis with necrosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Grey-Turner's sign (flank bruising) indicates retroperitoneal haemorrhage, typical of severe pancreatitis with necrosis. The hypotension, hypocalcaemia, and high CRP suggest severe disease. Perforated ulcer would cause peritonism and pneumoperitoneum. Ruptured AAA presents with shock and pulsatile mass. Mesenteric infarction has pain out of proportion and vomiting. Septic shock from other sources wouldn't have such high amylase or Grey-Turner's sign.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a059f88771dc",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with known dementia presents to the emergency department with confusion and lethargy. Her daughter says she has been 'not herself' for 2 days and has been unsteady on her feet. She has no abdominal pain. On examination, she is dehydrated, pulse 90 bpm, BP 110/70 mmHg, abdomen soft, non-tender. Blood tests: sodium 132 mmol/L, urea 10 mmol/L, creatinine 120 µmol/L, amylase 650 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hyponatraemia due to hypovolaemia",
+        "Stroke (acute cerebrovascular event)",
+        "Myocardial infarction (silent) in elderly",
+        "Acute pancreatitis (atypical presentation)",
+        "Delirium due to urinary tract infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "An elevated amylase in an elderly patient without abdominal pain points to atypical acute pancreatitis. Delirium from UTI wouldn't explain the raised amylase. Stroke would have focal neurological signs. Hyponatraemia could cause confusion but is mild here and could be secondary to vomiting from pancreatitis. Silent MI might occur but would have ECG changes and troponin rise, not amylase elevation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8b14febd28a0",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old man presents with a second episode of epigastric pain radiating to the back. He vomited once. He has a history of heavy alcohol use (80 units per week) and had a similar episode 6 months ago which resolved with conservative management. He denies gallstones. On examination, there is epigastric tenderness, no jaundice. Amylase is 900 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Pancreatic ductal adenocarcinoma",
+        "Acute gallstone pancreatitis",
+        "Acute flare of chronic pancreatitis",
+        "Acute pancreatitis (alcohol-induced)",
+        "Functional dyspepsia"
+      ],
+      "answerIndex": 3,
+      "explanation": "The history of heavy alcohol use and recurrent epigastric pain with raised amylase strongly suggests acute alcoholic pancreatitis. Chronic pancreatitis flare would typically have chronic features like steatorrhoea or pancreatic calcification. Previous episode was likely also alcoholic. Gallstone pancreatitis is less likely without gallbladder symptoms. Pancreatic cancer presents with painless jaundice and weight loss. Functional dyspepsia does not cause raised amylase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54c399d8c6bf",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with acute epigastric pain radiating to the back, nausea, and vomiting for 6 hours. He drinks 30 units of alcohol per week. On examination, there is epigastric tenderness. Observations: HR 95, BP 125/80, RR 18, SpO2 98%, temperature 37.0°C. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "CT abdomen with contrast",
+        "Abdominal ultrasound",
+        "Serum amylase",
+        "Urinary amylase",
+        "Serum lipase"
+      ],
+      "answerIndex": 4,
+      "explanation": "Serum lipase is more specific than amylase for acute pancreatitis, with a longer half-life, and is now the preferred test in UK guidelines. Amylase can be normal in late presentations or raised in other conditions (e.g., salivary disease).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49a739f5223d",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with gallstone pancreatitis is admitted to the ward. She has had epigastric pain for 36 hours. Observations: HR 105, BP 90/60, RR 24, SpO2 94% on air, temperature 38.2°C. Capillary glucose is 12 mmol/L. Urine output is low. Which single test best predicts severity at this time point?",
+      "options": [
+        "CRP at 48 hours",
+        "Glasgow score at 48 hours",
+        "Lipase level",
+        "MRCP",
+        "CT severity index"
+      ],
+      "answerIndex": 0,
+      "explanation": "CRP >150 mg/L at 48 hours is a validated single marker of severe pancreatitis, correlating with necrosis. The Glasgow score requires 48 hours and includes multiple variables, but CRP alone is quicker and widely used for severity stratification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d9cf3b5d9b4",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man develops persistent epigastric pain and vomiting two weeks after an episode of acute pancreatitis. An abdominal ultrasound shows a cystic lesion near the tail of the pancreas. Which is the most appropriate investigation to confirm the diagnosis of a pancreatic pseudocyst?",
+      "options": [
+        "Endoscopic ultrasound (EUS) with aspiration",
+        "Barium meal",
+        "CT abdomen with intravenous contrast",
+        "Flat plate abdominal X-ray",
+        "Magnetic resonance cholangiopancreatography (MRCP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "CT with contrast is the gold standard to confirm a pseudocyst, showing a well-defined fluid collection with a wall. MRCP is good for biliary anatomy but not first line for pseudocyst; EUS is used if intervention is planned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48aab3f7b12d",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman with known hypertriglyceridaemia presents with epigastric pain and vomiting. Her serum is noted to be lipaemic. Serum amylase is 350 U/L (normal <100). Which additional blood test is most specific to confirm the aetiology of her acute pancreatitis?",
+      "options": [
+        "Fasting glucose",
+        "Triglyceride level",
+        "Liver function tests",
+        "LDL cholesterol",
+        "HbA1c"
+      ],
+      "answerIndex": 1,
+      "explanation": "Severe hypertriglyceridaemia (>11.3 mmol/L) is a well-established cause of acute pancreatitis. The lipaemic serum and moderately raised amylase are clues; checking fasting triglycerides confirms the aetiology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1a7073398f0e",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man has an ERCP for a bile duct stone. Eight hours later he develops epigastric pain and vomiting. His amylase is 420 U/L (normal <100). Which single criterion is most appropriate to diagnose post-ERCP pancreatitis?",
+      "options": [
+        "Lipase >2 times normal with vomiting",
+        "New or worsened abdominal pain plus amylase >3 times the upper limit of normal at 24 hours",
+        "CT evidence of pancreatic oedema",
+        "Duration of hospital stay >2 days",
+        "Amylase >3 times normal at any time with nausea"
+      ],
+      "answerIndex": 1,
+      "explanation": "The consensus definition for post-ERCP pancreatitis requires new or worsened abdominal pain plus amylase (or lipase) >3 times the upper limit of normal at approximately 24 hours post-procedure. The other options lack the specific threshold and timing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "930551355d5d",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with epigastric pain radiating to the back, nausea, and vomiting. He drinks 30 units of alcohol per week. Serum lipase is 800 U/L. He is not jaundiced. CT abdomen shows no necrosis or collections. What is the most appropriate initial management?",
+      "options": [
+        "Oral pancreatic enzyme replacement therapy",
+        "Intravenous N-acetylcysteine",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Intravenous fluids, analgesia, and nil by mouth",
+        "Cholecystectomy within 48 hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is mild acute pancreatitis (no organ failure, no necrosis). The mainstay is supportive care with IV fluids, analgesia, and bowel rest. ERCP is indicated only if cholangitis or persistent obstruction. Cholecystectomy is for gallstone pancreatitis after resolution. N-acetylcysteine is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "85f0bed21024",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman presents with acute severe epigastric pain, fever, and jaundice. Serum lipase >1000 U/L, bilirubin 60 µmol/L, WBC 18×10^9/L. CT shows a single common bile duct stone with upstream dilatation. She has acute cholangitis (positive Charcot’s triad). What is the definitive treatment?",
+      "options": [
+        "Immediate laparoscopic cholecystectomy",
+        "Steroid therapy (hydrocortisone)",
+        "Percutaneous transhepatic cholangiography and drainage",
+        "Urgent endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy and stone extraction",
+        "Intravenous antibiotics and supportive care only"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute gallstone pancreatitis with cholangitis and a documented common bile duct stone, urgent ERCP is indicated (ideally within 24 hours) to relieve obstruction. Cholecystectomy is delayed until pancreatitis resolves. Antibiotics alone are insufficient. Percutaneous drainage is second line. Steroids are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06f42e29da62",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with known gallstones presents with acute pancreatitis. She is stable. After 4 weeks of conservative management, she has persistent epigastric pain and a CT shows a 6 cm pseudocyst in the pancreatic head. What is the most appropriate treatment?",
+      "options": [
+        "Percutaneous drainage catheter insertion",
+        "Endoscopic ultrasound-guided cystogastrostomy with stent placement",
+        "Continued observation for further 6 weeks",
+        "Surgical cystogastrostomy via laparotomy",
+        "Octreotide therapy to reduce secretions"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a symptomatic pseudocyst >4 cm that persists beyond 4-6 weeks, endoscopic drainage (cystogastrostomy) is the preferred first-line therapy. Percutaneous drainage risks infection and fistula. Surgical drainage is reserved after endoscopic failure. Octreotide is not recommended. Observation would be inappropriate due to symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "db93cc5a9fd6",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) presents with acute epigastric pain, nausea, and vomiting. Serum lipase 600 U/L. She has no gallstones on ultrasound and triglycerides are 10 mmol/L. She has no organ failure. What is the most appropriate management?",
+      "options": [
+        "Intravenous insulin infusion and strict fat-restricted diet",
+        "Intravenous N-acetylcysteine",
+        "Cholecystectomy after delivery",
+        "Emergency ERCP with sphincterotomy",
+        "Immediate caesarean section"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is hypertriglyceridaemia-induced pancreatitis in pregnancy. The mainstay is to lower triglycerides rapidly with insulin infusion and dietary fat restriction. ERCP is not indicated (no stone). Caesarean is not indicated. N-acetylcysteine is for paracetamol overdose. Cholecystectomy is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "062c41a2f1de",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 50-year-old man with chronic pancreatitis (alcohol-related) presents with steatorrhoea, weight loss, and abdominal pain. He has undergone alcohol cessation. Faecal elastase is <100 µg/g. What is the definitive long-term therapy?",
+      "options": [
+        "Total pancreatectomy with islet auto-transplantation",
+        "Oral morphine sulphate for pain",
+        "Endoscopic pancreatic duct stenting",
+        "Celiac plexus block",
+        "Pancreatic enzyme replacement therapy with a proton pump inhibitor"
+      ],
+      "answerIndex": 4,
+      "explanation": "For exocrine insufficiency in chronic pancreatitis (steatorrhoea, low faecal elastase), the standard is pancreatic enzyme replacement therapy (PERT). Adding a PPI improves efficacy by preventing acid degradation. Surgery is reserved for refractory pain or complications. Pain options are secondary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c729483c3f86",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with acute epigastric pain radiating to the back, nausea, and vomiting. HR 80, BP 120/80, RR 14, SpO2 98%, afebrile. Serum amylase 3× upper limit of normal. She has no history of gallstones or alcohol excess. What is the single most appropriate next step?",
+      "options": [
+        "Start intravenous antibiotics",
+        "Emergency ERCP",
+        "Urgent MRCP",
+        "Abdominal ultrasound",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "Abdominal ultrasound is the first-line imaging to identify gallstones as the most common cause of acute pancreatitis. CT is not indicated in mild disease without suspicion of complications. MRCP is reserved if choledocholithiasis is suspected. ERCP is only if cholangitis or jaundice. Antibiotics are not indicated unless infected necrosis is present.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2fcdece5f5e",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known gallstones and heavy alcohol intake presents with severe epigastric pain. He is hypotensive (BP 85/50), tachycardic (HR 120), oliguric, and confused. Capillary refill >3 s, lactate 4.5 mmol/L. What is the single most appropriate immediate next action?",
+      "options": [
+        "CT abdomen with IV contrast",
+        "Urgent ERCP",
+        "Refer to ICU for organ support",
+        "Insert nasogastric tube",
+        "Intravenous fluid resuscitation with crystalloid"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe acute pancreatitis with shock, immediate fluid resuscitation (crystalloid) is the priority. CT should be deferred until haemodynamic stability. ERCP is only indicated if cholangitis is present. NG tube is supportive but not first. ICU referral is needed but after initial resuscitation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1c13405fac5c",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with severe acute pancreatitis has been managed conservatively for 5 days. He develops a high fever (39°C), rigors, and worsening abdominal pain. WCC 18×10^9/L, CRP 350 mg/L. CT shows a large necrotic collection with gas locules. What is the single most appropriate next step?",
+      "options": [
+        "Repeat CT in 48 hours",
+        "Perform urgent ERCP",
+        "Open surgical necrosectomy",
+        "Arrange percutaneous catheter drainage",
+        "Start intravenous antibiotics (e.g., piperacillin-tazobactam)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Infected pancreatic necrosis (confirmed by gas on CT) requires immediate antibiotic therapy. Drainage is indicated if no improvement after 24-48 hours, not as first step. ERCP is for biliary pancreatitis with cholangitis. Surgery is delayed if possible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "477acc9c78c6",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman undergoes therapeutic ERCP for removal of common bile duct stones. 6 hours later she develops epigastric pain and vomiting. HR 90, BP 130/80, afebrile. Serum amylase 3.5× upper limit of normal. What is the single most appropriate next step?",
+      "options": [
+        "Intravenous fluids and analgesia",
+        "Repeat MRCP",
+        "CT abdomen with IV contrast",
+        "Start oral fluids and observe",
+        "Repeat ERCP with pancreatic stent"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-ERCP pancreatitis is a common complication; in mild cases, management is supportive with IV fluids and analgesia. CT is not indicated unless severe or complications suspected. Repeat ERCP may worsen pancreatitis. Oral fluids are deferred until pain resolves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "52687dbf65da",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) presents with acute epigastric pain radiating to the back, nausea, and vomiting. She is haemodynamically stable. Serum amylase 4× upper limit of normal. She has no history of gallstones. What is the single most appropriate next step?",
+      "options": [
+        "Intravenous fluids and analgesia only",
+        "Magnetic resonance cholangiopancreatography (MRCP)",
+        "Abdominal ultrasound",
+        "CT abdomen with IV contrast",
+        "Emergency ERCP"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, ultrasound is the first-line imaging for acute pancreatitis to avoid ionising radiation. CT is contraindicated. MRCP can be used if needed but is not first step. ERCP only if cholangitis. IV fluids and analgesia are appropriate after imaging to determine aetiology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c3b144391c82",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with epigastric pain radiating to the back, nausea, and vomiting. Serum amylase is 1200 U/L. He has no significant past medical history. Observations: HR 100 bpm, BP 130/80, RR 18, SpO2 96% on air, temperature 37.8°C. Which single finding indicates severe acute pancreatitis according to the Glasgow criteria?",
+      "options": [
+        "White cell count 14 × 10^9/L",
+        "C-reactive protein 110 mg/L",
+        "PaO2 7.5 kPa",
+        "Blood glucose 10.5 mmol/L",
+        "Serum albumin 32 g/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A PaO2 <8 kPa is one of the five Glasgow criteria for severe pancreatitis and indicates respiratory failure. The other options are not part of the acute Glasgow score (CRP >150 at 48h is a separate marker, and albumin <35 is chronic).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "664f24f5b782",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with severe acute pancreatitis (Glasgow score 4) is on day 5. He develops worsening abdominal distension, fever (39.5°C), and rising inflammatory markers. A contrast-enhanced CT scan shows pancreatic necrosis. Which finding on imaging is most indicative of infected necrosis?",
+      "options": [
+        "Multiple peripancreatic fluid collections",
+        "Left pleural effusion",
+        "Heterogeneous enhancement of the pancreas",
+        "Gas bubbles within the necrotic collection",
+        "Peripancreatic fat stranding"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gas within a necrotic collection (or 'air bubbles' on CT) is pathognomonic for infected necrosis, as it indicates gas-forming organisms. The other findings are common in sterile pancreatitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6f7761c02c0",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with diabetes and hypertension presents with severe epigastric pain radiating to the back, vomiting, and diaphoresis. Serum amylase is 350 U/L (mildly elevated). ECG shows ST elevation in leads II, III, and aVF. Which of the following is the most likely cause of his symptoms?",
+      "options": [
+        "Mesenteric ischaemia",
+        "Perforated peptic ulcer",
+        "Acute inferior ST-elevation myocardial infarction",
+        "Acute pancreatitis",
+        "Acute cholecystitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inferior ST elevation on ECG is diagnostic of acute inferior MI, which can closely mimic acute pancreatitis with epigastric pain and mild amylase elevation. The ECG finding is the key discriminator.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b38951b6ceb",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman at 28 weeks’ gestation presents with epigastric pain, nausea, and vomiting. Serum amylase is 900 U/L. Observations: HR 110 bpm, BP 85/50 mmHg, RR 22, SpO2 95% on air, temperature 37.5°C. Which single finding indicates severe acute pancreatitis with organ failure?",
+      "options": [
+        "Oxygen saturation 95%",
+        "Respiratory rate 22 bpm",
+        "Heart rate 110 bpm",
+        "Temperature 37.5°C",
+        "Systolic blood pressure 85 mmHg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Persistent systolic BP <90 mmHg despite fluid resuscitation defines circulatory failure (organ failure), which is a marker of severe pancreatitis. Tachycardia, tachypnoea, and mild hypoxaemia are common but not specific for organ failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5056addc992d",
+      "topic": "Acute Pancreatitis",
+      "slug": "acute-pancreatitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Pancreatic",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with severe acute pancreatitis (Glasgow score 3) is on day 7. He develops sudden severe left upper quadrant pain and a drop in haemoglobin from 120 g/L to 90 g/L. Emergency CT angiography is performed. Which finding on imaging confirms the suspected complication of pseudoaneurysm?",
+      "options": [
+        "Peripancreatic fat stranding",
+        "Left pleural effusion",
+        "Gas bubbles in the pancreatic bed",
+        "Splenic infarction",
+        "Contrast blush within a peripancreatic fluid collection"
+      ],
+      "answerIndex": 4,
+      "explanation": "A contrast blush (extravasation of contrast) on CT angiography indicates active bleeding from a pseudoaneurysm, a life-threatening complication of severe pancreatitis. Gas bubbles suggest infected necrosis; splenic infarction is less acute.",
+      "difficulty": "hard"
+    }
+  ]
+}

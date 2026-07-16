@@ -1,0 +1,493 @@
+{
+  "topic": "Arrhythmia — Torsades de Pointes",
+  "slug": "arrhythmia-—-torsades-de-pointes",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:46Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "e53ecb61ddec",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with atrial fibrillation on amiodarone presents with palpitations and syncope. ECG shows a tachycardia with irregularly irregular R-R intervals and QRS complexes that vary in amplitude and axis, twisting around the isoelectric line. The QT interval in a preceding sinus beat is prolonged. What is the single most likely diagnosis?",
+      "options": [
+        "Torsades de Pointes",
+        "Atrial fibrillation with rapid ventricular response",
+        "Ventricular tachycardia (monomorphic)",
+        "Ventricular fibrillation",
+        "Supraventricular tachycardia with aberrancy"
+      ],
+      "answerIndex": 0,
+      "explanation": "The twisting QRS morphology (torsade de pointes) in the setting of a prolonged QT interval is pathognomonic. Amiodarone-induced QT prolongation predisposes to this arrhythmia. Distractors lack the twisting pattern or QT prolongation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30aa3fb1d443",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man with congenital long QT syndrome type 2 reports episodes of lightheadedness and palpitations triggered by sudden loud noises. One episode caused a brief collapse. ECG in clinic shows sinus rhythm with QTc 520 ms. What is the single most likely diagnosis for the episodes?",
+      "options": [
+        "Atrial flutter with 1:1 conduction",
+        "Torsades de Pointes",
+        "First-degree AV block",
+        "Monomorphic ventricular tachycardia",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Auditory triggers are classic for LQT2 and precipitate Torsades de Pointes, which manifests as syncope. Vasovagal syncope typically has different triggers, and monomorphic VT is not characteristic of LQTS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "98a8ea9b24b0",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with heart failure on furosemide becomes unresponsive after a venflon flick. Monitor shows tachycardia of 200 bpm with varying QRS morphology. Serum potassium is 2.4 mmol/L, and prior QTc is 560 ms. What is the single most likely diagnosis?",
+      "options": [
+        "Supraventricular tachycardia with bundle branch block",
+        "Septic shock",
+        "Ventricular fibrillation",
+        "Pulseless electrical activity",
+        "Torsades de Pointes"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hypokalaemia and prolonged QTc predispose to Torsades de Pointes, which classically appears as polymorphic VT with a twisting axis. VF is chaotic and lacks the twisting pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c4a9dda7a74f",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with atrial fibrillation started on sotalol five days ago presents with bradycardia (HR 38) and palpitations. Telemetry shows sinus bradycardia followed by a run of polymorphic VT that self-terminates. What is the single most likely diagnosis?",
+      "options": [
+        "Torsades de Pointes",
+        "Non-sustained ventricular tachycardia (monomorphic)",
+        "Atrial fibrillation with slow ventricular response",
+        "Accelerated idioventricular rhythm",
+        "Sinus node dysfunction with escape rhythm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sotalol (class III) causes bradycardia and QT prolongation, setting the stage for Torsades de Pointes. The polymorphic VT with underlying bradycardia and QT prolongation is classic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da3df7aca91e",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman with anorexia nervosa (BMI 14) collapses. Serum potassium is 2.8 mmol/L. ECG shows sinus bradycardia (45 bpm) and QTc 580 ms. During monitoring, she has a brief tachycardia with a twisting QRS pattern. What is the single most likely diagnosis?",
+      "options": [
+        "Monomorphic ventricular tachycardia",
+        "Supraventricular tachycardia with aberrancy",
+        "Torsades de Pointes",
+        "Ventricular fibrillation",
+        "Artifact"
+      ],
+      "answerIndex": 2,
+      "explanation": "Malnutrition and hypokalaemia cause acquired QT prolongation, predisposing to Torsades de Pointes. The twisting QRS pattern confirms the diagnosis. Other options lack the specific morphology or context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e8af6ef3e19b",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with Crohn's disease and chronic diarrhoea presents with syncope. ECG shows polymorphic ventricular tachycardia and a QTc of 540 ms. Which electrolyte abnormality is most likely to be found on serum biochemistry?",
+      "options": [
+        "Hypomagnesaemia",
+        "Hypermagnesaemia",
+        "Hypocalcaemia",
+        "Hyperkalaemia",
+        "Hypokalaemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypokalaemia is common in Crohn's due to diarrhoeal losses and is a frequent cause of prolonged QT and TdP. While hypomagnesaemia can also occur, hypokalaemia is more directly associated with TdP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "afa4ff4ce8c8",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man is started on sotalol for atrial fibrillation. Three days later he collapses and the ECG shows Torsades de Pointes. Which investigation is most important to perform urgently to identify a reversible cause?",
+      "options": [
+        "Serum potassium",
+        "Echocardiogram",
+        "Serum magnesium",
+        "Serum sotalol level",
+        "Thyroid function tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypokalaemia frequently precipitates TdP, especially with class III antiarrhythmics like sotalol. It is the most important reversible cause to check urgently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2d203c3989b",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with a single episode of syncope while swimming. Her resting ECG shows QTc of 490 ms. According to the 2015 ESC guidelines, which QTc threshold is considered diagnostic of congenital long QT syndrome in females in the presence of unexplained syncope?",
+      "options": [
+        ">480 ms",
+        ">440 ms",
+        ">460 ms",
+        ">470 ms",
+        ">450 ms"
+      ],
+      "answerIndex": 2,
+      "explanation": "ESC guidelines state that in a patient with unexplained syncope, a QTc ≥460 ms in females is diagnostic of congenital LQTS. The threshold >480 ms is used for repeated ECGs without symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "155164e1b797",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with a history of gastric banding and chronic vomiting presents with palpitations. ECG shows Torsades de Pointes and QTc of 560 ms. Which of the following is the most likely underlying metabolic abnormality?",
+      "options": [
+        "Hypomagnesaemia",
+        "Metabolic alkalosis",
+        "Hypokalaemia",
+        "Hypernatraemia",
+        "Hypocalcaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chronic vomiting leads to hypokalaemia due to loss of potassium in vomitus. Hypokalaemia prolongs repolarisation and predisposes to TdP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4c63cb35e49b",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman on amiodarone for AF presents with a broad complex tachycardia. Her ECG shows a polymorphic ventricular tachycardia with a sinusoidal pattern and a prolonged QT interval (550 ms) on the sinus beats. Which of the following is the most specific diagnostic feature of Torsades de Pointes?",
+      "options": [
+        "P waves dissociated from QRS",
+        "QT interval >500 ms",
+        "Heart rate >200 bpm",
+        "Presence of U waves",
+        "Polymorphic appearance with twisting of QRS axis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The hallmark of TdP is a polymorphic VT with a characteristic twisting of the QRS axis around the baseline. While QT prolongation is necessary, the specific diagnostic feature is the morphologic pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7eb112ba5afc",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with palpitations and syncope. ECG shows Torsades de Pointes. She has a history of congenital long QT syndrome (LQT1). She is haemodynamically stable. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Direct current cardioversion 100 J synchronised",
+        "Oral propranolol 40 mg once daily",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Intravenous amiodarone 300 mg bolus",
+        "Intravenous lidocaine 1 mg/kg bolus"
+      ],
+      "answerIndex": 2,
+      "explanation": "Intravenous magnesium is first-line for Torsades de Pointes regardless of QT duration. Amiodarone can prolong QT and worsen TdP. DC cardioversion is reserved for haemodynamically unstable patients. Lidocaine is not effective. Propranolol is for prevention, not acute treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "441450adb8b3",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man on sotalol for atrial fibrillation develops recurrent Torsades de Pointes. ECG shows QTc 580 ms. Serum potassium is 3.0 mmol/L. Which definitive therapy is most appropriate?",
+      "options": [
+        "Intravenous potassium chloride 20 mmol over 2 hours",
+        "Intravenous isoprenaline 1 microgram/min",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Temporary transvenous pacing at 90 bpm",
+        "Intravenous amiodarone 300 mg bolus"
+      ],
+      "answerIndex": 2,
+      "explanation": "First-line treatment is IV magnesium. While correction of hypokalaemia and withdrawal of sotalol are important, the definitive acute therapy for TdP is magnesium. Amiodarone is contraindicated as it prolongs QT. Isoprenaline and pacing are second-line if bradycardic. The question asks for most appropriate definitive therapy—magnesium is immediate and specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "efa82a2b6653",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with bradycardia (heart rate 40 bpm) develops Torsades de Pointes. She is on no QT-prolonging drugs. ECG shows sinus bradycardia with QT prolongation. Which single therapy is contraindicated?",
+      "options": [
+        "Intravenous amiodarone 300 mg bolus",
+        "Intravenous isoprenaline 1 microgram/min",
+        "Oral atenolol 50 mg once daily",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Temporary transvenous pacing at 80 bpm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Amiodarone prolongs QT and increases risk of TdP; it is contraindicated. Magnesium is safe. Isoprenaline and pacing increase heart rate and shorten QT. Beta-blockers (atenolol) are not contraindicated but may worsen bradycardia; however, in the context of treatment for TdP, the question asks which therapy is contraindicated—amiodarone is clearly dangerous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3ed745298957",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with acute myocardial infarction develops Torsades de Pointes. He is hypotensive (BP 80/50) and has recurrent episodes. Which is the most appropriate definitive treatment?",
+      "options": [
+        "Synchronised DC cardioversion 150 J",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Intravenous amiodarone 300 mg bolus",
+        "Intravenous lidocaine 1 mg/kg bolus",
+        "Intravenous isoprenaline 1 microgram/min"
+      ],
+      "answerIndex": 0,
+      "explanation": "In haemodynamically unstable Torsades de Pointes, immediate DC cardioversion is first-line. Magnesium is second-line after restoring rhythm. Amiodarone and lidocaine are not indicated. Isoprenaline is for bradycardia-dependent TdP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "52065869de72",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (26 weeks gestation) with known congenital long QT syndrome presents with Torsades de Pointes. She is haemodynamically stable. Which treatment is contraindicated?",
+      "options": [
+        "Oral propranolol 40 mg twice daily",
+        "Intravenous lidocaine 1 mg/kg bolus",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Temporary transvenous pacing at 90 bpm",
+        "Intravenous amiodarone 300 mg bolus"
+      ],
+      "answerIndex": 4,
+      "explanation": "Amiodarone is contraindicated in pregnancy due to fetal toxicity (neonatal hypo- and hyperthyroidism, growth restriction). Magnesium is safe. Lidocaine and propranolol are generally safe. Pacing is safe if needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ddb670df852a",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with severe hypokalemia (K+ 2.8 mmol/L) and hypomagnesemia develops palpitations and lightheadedness. ECG shows frequent ventricular ectopics and a brief run of torsades de pointes. He is alert with BP 125/80. What is the most appropriate immediate next step?",
+      "options": [
+        "Start a beta-blocker",
+        "Perform DC cardioversion",
+        "Administer IV potassium chloride",
+        "Give IV lidocaine",
+        "Administer IV magnesium sulfate"
+      ],
+      "answerIndex": 4,
+      "explanation": "IV magnesium sulfate is first-line for Torsades regardless of serum magnesium. Correcting potassium is important but not as immediate. Lidocaine and cardioversion are second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "71653d3fd779",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known congenital long QT syndrome (LQT1) complains of palpitations during exercise. She is monitored and develops Torsades de Pointes but self-terminates after 10 seconds. She is asymptomatic. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a temporary pacing wire",
+        "Repeat ECG to measure QTc",
+        "Start IV propranolol",
+        "Administer IV magnesium sulfate",
+        "Arrange for implantable cardioverter-defibrillator (ICD)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Even self-terminating Torsades warrants IV magnesium to prevent recurrence. Beta-blockers are chronic therapy. Pacing and ICD are longer-term. ECG already done.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "272dbf30dd65",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on IV amiodarone for atrial fibrillation in ICU develops Torsades de Pointes. He becomes unconscious and pulseless. What is the most appropriate immediate next step?",
+      "options": [
+        "Immediately defibrillate with 200 J biphasic",
+        "Stop amiodarone infusion",
+        "Administer IV magnesium sulfate",
+        "Start CPR with chest compressions",
+        "Give IV adrenaline"
+      ],
+      "answerIndex": 0,
+      "explanation": "For pulseless Torsades, immediate defibrillation per ALS guidelines. Magnesium is given after defibrillation. Stopping amiodarone is important but not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90428f96e378",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with anorexia nervosa is found to have a QTc of 560 ms on routine ECG. She is asymptomatic. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for continuous ECG monitoring",
+        "Start oral beta-blocker",
+        "Advise avoidance of strenuous exercise",
+        "Check serum electrolytes",
+        "Administer IV magnesium sulfate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Prolonged QT in anorexia is often due to electrolyte disturbances. Immediate step is to check and correct electrolytes. Magnesium is not given prophylactically.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0386103e39d3",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman collapses while gardening. After successful resuscitation, her ECG shows a prolonged QT interval and a run of polymorphic ventricular tachycardia. Which single ECG feature confirms the rhythm as Torsades de Pointes?",
+      "options": [
+        "Prominent U waves >1 mm",
+        "Prolonged QRS duration >120 ms",
+        "Polymorphic VT with a long-short coupling interval initiation",
+        "R-on-T premature ventricular complexes",
+        "T wave alternans"
+      ],
+      "answerIndex": 2,
+      "explanation": "Torsades de Pointes is defined as polymorphic VT occurring in the setting of a prolonged QT interval and characteristically initiated by a long-short sequence (pause-dependent). R-on-T PVCs can trigger many VT forms but are not specific. T wave alternans is a predictor but not diagnostic. Prolonged QRS and U waves are not pathognomonic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3afa2cd70d1b",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman presents with two episodes of syncope over three months. ECG shows sinus rhythm with QTc 500 ms. Which additional finding most strongly suggests a congenital long QT syndrome rather than an acquired cause?",
+      "options": [
+        "Current use of a antihistamine",
+        "Prolonged QT interval in multiple family members",
+        "History of hypothyroidism",
+        "T wave notching",
+        "Prominent U waves in leads V2-V3"
+      ],
+      "answerIndex": 1,
+      "explanation": "A family history of prolonged QT or sudden cardiac death is the hallmark of congenital long QT syndrome. U waves, T wave notching, hypothyroidism, and QT-prolonging drugs can occur in acquired cases but family history points to inherited etiology.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4a5c9317565f",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man on amiodarone for atrial fibrillation complains of palpitations and near-syncope. ECG shows QTc 560 ms and frequent premature ventricular complexes. Which finding on telemetry most reliably indicates imminent Torsades de Pointes?",
+      "options": [
+        "T wave alternans",
+        "Sinus bradycardia at 50 bpm",
+        "R-on-T PVCs",
+        "U wave amplitude >1 mm",
+        "Bigeminy"
+      ],
+      "answerIndex": 0,
+      "explanation": "T wave alternans (beat-to-beat variation in T wave morphology) is a well-known electrocardiographic predictor of impending Torsades de Pointes. R-on-T PVCs are common triggers but less specific. Bigeminy and bradycardia are risk factors but not as acute. U waves are common in long QT but not reliable predictors.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "048cd9f33cbc",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A patient with known long QT syndrome is being monitored on the ward. The monitor suddenly shows a 30-second run of Torsades de Pointes; the patient becomes unresponsive. Which subsequent rhythm is most likely to cause cardiac arrest?",
+      "options": [
+        "Ventricular fibrillation",
+        "Pulseless electrical activity",
+        "Sinus tachycardia",
+        "Atrial fibrillation",
+        "Sinus bradycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Torsades de Pointes can degenerate into ventricular fibrillation (VF), which is a shockable arrest rhythm. Sinus brady/tachy and AF do not cause immediate arrest. PEA is a later electrical activity pattern but VF is the immediate danger.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "973a37e311ae",
+      "topic": "Arrhythmia — Torsades de Pointes",
+      "slug": "arrhythmia-—-torsades-de-pointes",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with a history of bulimia is brought to the emergency department with dizziness. Vital signs: BP 95/60, HR 38, SpO2 98%. ECG shows QTc 540 ms, sinus bradycardia, and prominent U waves. Which laboratory abnormality is the most dangerous trigger for Torsades de Pointes in this setting?",
+      "options": [
+        "Hypokalaemia (2.9 mmol/L)",
+        "Hypophosphataemia (0.6 mmol/L)",
+        "Hypomagnesaemia (0.5 mmol/L)",
+        "Hypocalcaemia (2.0 mmol/L)",
+        "Metabolic alkalosis (pH 7.52)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypomagnesaemia is a key electrolyte disturbance predisposing to Torsades de Pointes, often coexisting with hypokalaemia. Even mild hypomagnesaemia (<0.7 mmol/L) can be critical. In bulimia, both may be present, but magnesium replacement is paramount. Hypocalcaemia prolongs QT but is less directly associated with TdP. Alkalosis and hypophosphataemia are less important.",
+      "difficulty": "medium"
+    }
+  ]
+}

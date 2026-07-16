@@ -1,0 +1,513 @@
+{
+  "topic": "Influenza",
+  "slug": "influenza",
+  "system": "Infectious Diseases",
+  "subSystem": "Viral",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:36:21Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e489f78117f7",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A previously healthy 35-year-old woman presents with sudden onset of fever (38.5°C), myalgia, headache, and dry cough over the past 24 hours. It is December. She is not vaccinated. Vital signs are normal except for tachycardia. Chest is clear. What is the single most likely diagnosis?",
+      "options": [
+        "Common cold",
+        "Acute bronchitis",
+        "Influenza",
+        "COVID-19",
+        "Bacterial pneumonia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The abrupt onset of high fever, myalgia, headache, and dry cough during winter is classic for influenza. COVID-19 can present similarly but often includes loss of smell/taste; common cold is milder with coryza; acute bronchitis has prominent cough with sputum; bacterial pneumonia would have focal signs on chest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06fa0167c646",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with COPD presents with 3 days of cough, fever, and increasing breathlessness. On admission, he is drowsy, RR 35, SpO2 85% on air, temperature 39°C. Chest X-ray shows bilateral interstitial infiltrates. CRP 120. Influenza PCR is pending. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Bacterial pneumonia",
+        "Acute exacerbation of COPD",
+        "Influenza pneumonia",
+        "COVID-19 pneumonia"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of fever, bilateral interstitial infiltrates, and rapid progression during influenza season strongly suggests influenza pneumonia. Bacterial pneumonia typically shows lobar consolidation; COVID-19 is possible but less likely in this scenario; COPD exacerbation usually lacks high fever; PE does not cause fever and bilateral infiltrates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1489f586d2b",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old asthmatic woman presents with high fever, myalgia, and dry cough for 2 days. Today she feels worse with pleuritic chest pain and purulent sputum. Temperature 39.5°C, WCC 18, CRP 200. Chest X-ray shows a cavitating lesion in the right upper lobe. What is the single most likely diagnosis?",
+      "options": [
+        "Lung abscess",
+        "Post-influenza Staphylococcus aureus pneumonia",
+        "Necrotising pneumonia due to Klebsiella",
+        "Tuberculosis",
+        "Influenza pneumonia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Influenza predisposes to secondary bacterial pneumonia, often Staphylococcus aureus, presenting with rapid deterioration, high fever, and cavitation. Influenza pneumonia itself does not cause cavitation; Klebsiella typically causes currant jelly sputum; TB is subacute; lung abscess is a complication but the scenario suggests acute onset post-influenza.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1875595c409c",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with 2 days of nausea, vomiting, and watery diarrhoea. He also has a mild cough and feeling feverish. Temperature 38°C. He returned from a party where several friends had similar symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Norovirus infection",
+        "Influenza",
+        "Gastroenteritis",
+        "COVID-19",
+        "Food poisoning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Influenza can present with gastrointestinal symptoms, especially in young adults. The presence of cough and fever suggests influenza rather than pure gastroenteritis. Norovirus and food poisoning typically have no respiratory symptoms; COVID-19 often includes loss of taste/smell.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0d9b8973b0d",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman from a care home presents with confusion and reduced mobility for 1 day. She has a mild cough but no fever. Urinalysis negative. Chest is clear. She is not known to have dementia. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumonia",
+        "Urinary tract infection",
+        "Influenza",
+        "Delirium due to dehydration",
+        "Cerebrovascular event"
+      ],
+      "answerIndex": 2,
+      "explanation": "Older adults often present with confusion and minimal respiratory symptoms in influenza, and may be afebrile. UTI is a common mimic but urinalysis negative; dehydration is possible but the cough points to influenza; pneumonia would likely have fever or focal signs; stroke would have focal neurological signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "307d934d047a",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old previously healthy woman presents to her GP in December with sudden-onset fever, myalgia, sore throat and dry cough. Clinical examination is unremarkable. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Nasopharyngeal swab for RT-PCR",
+        "Rapid antigen test on throat swab",
+        "Viral culture of nasopharyngeal aspirate",
+        "Full blood count and CRP",
+        "Influenza A and B serology"
+      ],
+      "answerIndex": 0,
+      "explanation": "RT-PCR is the gold standard for diagnosing influenza due to high sensitivity and specificity. Serology is retrospective; rapid antigen test has lower sensitivity; viral culture takes days; FBC is non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8da294bbd329",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old resident of a nursing home develops fever, cough and coryza. A point-of-care rapid antigen test for influenza is negative. Clinical suspicion remains high, and you wish to confirm the diagnosis to guide infection control measures. What is the most appropriate next investigation?",
+      "options": [
+        "Measure serum procalcitonin",
+        "Send a nasopharyngeal swab for RT-PCR",
+        "Take paired serology at presentation and 2 weeks later",
+        "Repeat point-of-care test after 24 hours",
+        "Request a chest X-ray"
+      ],
+      "answerIndex": 1,
+      "explanation": "RT-PCR is more sensitive than antigen tests; a negative rapid test does not rule out influenza. PCR should be sent for confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9430006d9e55",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man is intubated and ventilated in ICU with severe community-acquired pneumonia. He has a high clinical suspicion of influenza. Which sampling method is most appropriate to confirm influenza virus infection?",
+      "options": [
+        "Blood for viral culture",
+        "Bronchoalveolar lavage for RT-PCR",
+        "Serum for influenza serology",
+        "Nasopharyngeal swab for RT-PCR",
+        "Sputum for bacterial culture"
+      ],
+      "answerIndex": 1,
+      "explanation": "In intubated patients, lower respiratory tract samples (e.g., BAL) have higher viral yield than upper airway swabs, which may be falsely negative in pneumonia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d561ab0be52d",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman presents to the neurology clinic with ascending weakness and areflexia two weeks after a flu-like illness. You suspect Guillain-Barré syndrome and want to confirm recent influenza infection. Which investigation is most appropriate?",
+      "options": [
+        "Nasal wash for rapid antigen test",
+        "CSF for influenza PCR",
+        "Throat swab for RT-PCR",
+        "Serum for influenza antibody titres (paired)",
+        "Stool for viral culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "By two weeks, viral shedding has ceased; serology showing a four-fold rise in antibody titres or a single high titre confirms recent infection. PCR is likely negative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0555cd4e1552",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 2-year-old child presents to the paediatric emergency department in January with fever, cough and copious nasal secretions. Which investigation is the most appropriate to confirm influenza?",
+      "options": [
+        "Serum for complement fixation test",
+        "Chest X-ray",
+        "Throat swab for rapid antigen test",
+        "Nasal wash for viral culture",
+        "Nasopharyngeal swab for RT-PCR"
+      ],
+      "answerIndex": 4,
+      "explanation": "RT-PCR on a nasal or nasopharyngeal swab is the preferred diagnostic test for influenza in children due to high sensitivity. Other options are less sensitive or inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4b1a79239abd",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman at 28 weeks gestation presents with a 24-hour history of fever, cough, and myalgia. A nasopharyngeal swab is positive for influenza A. She has no other medical history. Which is the most appropriate first-line antiviral treatment?",
+      "options": [
+        "Amantadine 100mg twice daily",
+        "Ribavirin 200mg twice daily",
+        "Oseltamivir 75mg twice daily for 5 days",
+        "Zanamivir 10mg inhaled twice daily for 5 days",
+        "Baloxavir marboxil 40mg single dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oseltamivir is the first-line antiviral for influenza in pregnancy. Zanamivir is an alternative if oseltamivir cannot be used. Baloxavir is not recommended in pregnancy. Amantadine has high resistance and is not used. Ribavirin is contraindicated in pregnancy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "153a437bd16c",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with COPD and heart failure is admitted to ICU with severe influenza pneumonia. He is intubated and sedated, unable to take oral medications. What is the most appropriate antiviral therapy?",
+      "options": [
+        "Oral oseltamivir via nasogastric tube",
+        "Intravenous zanamivir",
+        "Inhaled zanamivir",
+        "Peramivir intravenous",
+        "Intravenous oseltamivir"
+      ],
+      "answerIndex": 1,
+      "explanation": "Intravenous zanamivir is indicated for severe influenza when oral oseltamivir cannot be used or when the patient cannot absorb it. There is no intravenous oseltamivir formulation. Inhaled zanamivir is not appropriate for severe illness. Peramivir is not licensed in the UK.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8f0e7c9efda0",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 5-year-old child with influenza has a persistent fever above 38.5°C. Which medication should be avoided in this child?",
+      "options": [
+        "Aspirin",
+        "Ibuprofen",
+        "Oseltamivir",
+        "Salbutamol",
+        "Paracetamol"
+      ],
+      "answerIndex": 0,
+      "explanation": "Aspirin is contraindicated in children with viral illness due to the risk of Reye's syndrome. Paracetamol and ibuprofen are safe for fever. Oseltamivir is indicated for influenza treatment in children. Salbutamol is used if wheeze is present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dd7e4e2922ec",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 50-year-old asthmatic patient presents with a 36-hour history of fever, sore throat, and cough. A point-of-care test confirms influenza A. She has no other comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Zanamivir 10mg inhaled twice daily for 5 days",
+        "Supportive care only",
+        "Baloxavir marboxil 40mg single dose",
+        "Amantadine 100mg twice daily",
+        "Oseltamivir 75mg twice daily for 5 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "Asthma is a chronic respiratory disease, placing this patient in an at-risk group for influenza complications. Oseltamivir is first-line antiviral for at-risk adults presenting within 48 hours. Zanamivir is an alternative if oseltamivir cannot be used. Baloxavir is not first-line in UK guidelines for at-risk patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "188d4b890607",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with diabetes is on day 5 of influenza when he develops worsening dyspnoea, pleuritic chest pain, and purulent sputum. Chest X-ray shows right lower lobe consolidation. His oxygen saturations are 94% on room air. What is the most appropriate additional therapy?",
+      "options": [
+        "Intravenous co-amoxiclav",
+        "High-dose oseltamivir",
+        "Intravenous corticosteroids",
+        "Nebulised saline",
+        "Intravenous zanamivir"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient likely has a bacterial superinfection (community-acquired pneumonia) complicating influenza. The most appropriate additional therapy is antibiotics, such as co-amoxiclav, to cover typical respiratory pathogens. Antivirals are already being given. Corticosteroids are not routinely indicated. Nebulised saline is supportive only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "938134262e33",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old previously healthy university student presents to the GP surgery with a 24-hour history of fever, sore throat, myalgia and dry cough. He feels generally unwell. Observations are normal. It is currently January, and influenza is circulating in the community. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe oseltamivir",
+        "Perform a chest X-ray",
+        "Advise symptomatic treatment with paracetamol and rest",
+        "Take a nasopharyngeal swab for influenza PCR",
+        "Prescribe amoxicillin"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance states that antivirals are not routinely recommended for otherwise healthy individuals with uncomplicated influenza; symptomatic management is appropriate. The top distractor is taking a swab, but testing is only needed if it will alter management (e.g., in high-risk or hospitalized patients); here it would not change the advice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ba59326049e",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known COPD (GOLD 2) presents to the emergency department with a 2-day history of fever, myalgia and worsening cough. He is alert, sats 96% on room air, RR 18, HR 88, BP 130/80. Chest X-ray shows no consolidation. Influenza is confirmed on a rapid test. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe paracetamol and discharge",
+        "Start co-amoxiclav",
+        "Perform blood cultures",
+        "Start oseltamivir",
+        "Admit for intravenous fluids"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient is high-risk due to COPD and presents within 48h of symptom onset; NICE recommends neuraminidase inhibitors (oseltamivir) for such patients. The top distractor is prescribing paracetamol and discharge, but that would be inadequate because he qualifies for antiviral therapy. Antibiotics are not indicated without evidence of bacterial infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7cf9dc65166d",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman is brought to the emergency department by ambulance with severe breathlessness. She has a 3-day history of flu-like symptoms. On arrival, she is distressed, RR 32, SpO2 84% on air, HR 110, BP 100/60, temperature 38.9°C. Crackles are heard bilaterally. Chest X-ray shows bilateral interstitial infiltrates. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer high-flow oxygen via a non-rebreather mask",
+        "Perform a CT pulmonary angiogram to rule out PE",
+        "Start oral oseltamivir",
+        "Insert a urinary catheter and monitor fluid balance",
+        "Start intravenous antibiotics (co-amoxiclav + clarithromycin)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The immediate priority is to address life-threatening hypoxia; oxygen therapy should be given before any other intervention. While antibiotics and antivirals are indicated, they are not the first action in a severely hypoxic patient. The top distractor is starting antibiotics, but oxygen comes first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "67b115d06f24",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with influenza diagnosed 5 days ago reports that she initially improved but is now feeling worse with a high fever of 39.5°C and a productive cough with green sputum. On examination, she has reduced breath sounds and bronchial breathing over the left lower lobe. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral antibiotics (such as co-amoxiclav) and consider admission",
+        "Take a sputum sample for culture and sensitivity",
+        "Prescribe inhaled bronchodilators",
+        "Restart oseltamivir for a further 5 days",
+        "Perform a CT scan of the chest"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has features of secondary bacterial pneumonia, a common complication of influenza. Antibiotics should be started empirically without delay. Oseltamivir is not effective beyond 48h, and the top distractor is taking a sputum sample, but treatment must not wait.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34fa7936aa9d",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old renal transplant recipient on tacrolimus and mycophenolate presents to hospital with a 24-hour history of fever, rigors, and dry cough. He is not short of breath, sats 98%, HR 90, BP 125/80. Nasopharyngeal swab is pending. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a bronchoscopy for bronchoalveolar lavage",
+        "Start intravenous aciclovir",
+        "Increase his immunosuppression to prevent rejection",
+        "Start broad-spectrum intravenous antibiotics",
+        "Start oral oseltamivir"
+      ],
+      "answerIndex": 4,
+      "explanation": "Immunosuppressed patients are at high risk of severe influenza and NICE recommends prompt antiviral therapy within 48h, even before test results. The top distractor is starting antibiotics, but there is no evidence of bacterial infection, and starting antivirals takes priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f018561c164",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old man presents to his GP with 2 days of fever, dry cough, and myalgia. He has no significant medical history. Which single clinical finding would mandate immediate referral to hospital for senior review?",
+      "options": [
+        "Acute confusion (GCS 14)",
+        "Temperature 38.5°C",
+        "Oxygen saturation 89% on room air",
+        "Mild dehydration on examination",
+        "Bilateral wheeze on auscultation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute confusion (altered mental status) is a red flag for severe influenza, indicating possible encephalitis or other serious complication. While hypoxia (SaO2 89%) is serious, the question asks for the finding that mandates immediate referral; confusion is a more urgent escalation criterion per UK guidelines (NICE).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3635423383c",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old primigravida at 28 weeks' gestation presents to the emergency department with a 3-day history of fever, cough, and myalgia. She is otherwise well. Which finding is most concerning for severe influenza and should prompt hospital admission?",
+      "options": [
+        "Sinus tachycardia of 105 bpm",
+        "Reduced foetal movements reported",
+        "Oxygen saturation 93% on air",
+        "Fever of 38.0°C",
+        "Respiratory rate 22 breaths/min"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oxygen saturation <94% is a criterion for severe influenza in pregnancy, requiring admission for monitoring and possible antiviral therapy. While reduced foetal movements are concerning, hypoxia is a more immediate physiological threat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94a27e934515",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with confirmed influenza A develops sudden-onset, severe central chest pain radiating to his left arm. ECG shows ST depression in leads V3-V5. What life-threatening complication of influenza must be excluded first?",
+      "options": [
+        "Pericarditis",
+        "Myocarditis",
+        "Acute myocardial infarction",
+        "Pulmonary embolism",
+        "Aortic dissection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Influenza significantly increases the risk of acute myocardial infarction, and the presentation with chest pain and ECG changes makes this the most critical diagnosis to exclude. Myocarditis is also possible but less common and less immediately life-threatening in the acute setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5e0622f49fbe",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 6-year-old boy with influenza was given aspirin for fever by his parents. Two days later, he presents with persistent vomiting and confusion. Which condition must be considered as a red flag diagnosis?",
+      "options": [
+        "Bacterial meningitis",
+        "Reye’s syndrome",
+        "Intussusception",
+        "Diabetic ketoacidosis",
+        "Acute encephalitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reye’s syndrome is a rare but life-threatening complication of aspirin use in children with viral illness, characterised by vomiting and altered consciousness. Although encephalitis is also in the differential, the history of aspirin use strongly points to Reye’s.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93e6676a13fa",
+      "topic": "Influenza",
+      "slug": "influenza",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old renal transplant recipient presents with influenza-like symptoms and is started on oseltamivir. After 72 hours, she develops new pleuritic chest pain and haemoptysis. What diagnosis must be urgently considered?",
+      "options": [
+        "Pulmonary embolism",
+        "Bacterial pneumonia",
+        "Acute graft rejection",
+        "Oseltamivir allergy",
+        "Invasive pulmonary aspergillosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "In immunocompromised patients with influenza, new haemoptysis and pleuritic pain are red flags for invasive pulmonary aspergillosis, a superinfection with high mortality that requires urgent investigation and antifungal therapy. Bacterial pneumonia is more common but less specific for this presentation.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Diverticulitis",
+  "slug": "diverticulitis",
+  "system": "Gastroenterology",
+  "subSystem": "Lower GI",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T09:16:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "70ff6648efe6",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 58-year-old woman presents to the emergency department with a 24-hour history of acute left lower quadrant pain. She has a fever of 38.5°C and nausea but no vomiting. On examination, there is tenderness in the left iliac fossa with mild guarding. Bowel sounds are normal. Blood tests show white cell count 14×10^9/L and C-reactive protein 80 mg/L. She has not had a similar episode before. What is the single most likely diagnosis?",
+      "options": [
+        "Ischaemic colitis",
+        "Acute diverticulitis",
+        "Perforated diverticulitis",
+        "Renal colic",
+        "Acute appendicitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute diverticulitis typically presents with left lower quadrant pain, fever, and raised inflammatory markers. Ischaemic colitis often presents with bloody diarrhoea, which is absent. Acute appendicitis is right-sided. Perforated diverticulitis would have peritonism. Renal colic has loin-to-groin pain and haematuria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9ec683c88a6f",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with known diverticulosis presents with a 3-day history of mild left lower quadrant pain, low-grade pyrexia of 37.6°C, and no guarding. She is passing flatus and has had a normal bowel movement today. Blood tests show white cell count 10×10^9/L and C-reactive protein 15 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Uncomplicated acute diverticulitis",
+        "Constipation",
+        "Acute colitis",
+        "Irritable bowel syndrome",
+        "Diverticular haemorrhage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Uncomplicated diverticulitis often presents with mild pain, low-grade fever, and slightly elevated CRP; IBS and constipation do not cause fever or CRP rise. Acute colitis is usually associated with diarrhoea and bleeding, and diverticular haemorrhage presents with painless rectal bleeding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "111bdd8af650",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with known diverticular disease presents with a 2-day history of left lower quadrant pain that has now generalised. He has a high fever of 39°C, hypotension, and board-like rigidity. An erect chest X-ray shows free gas under the diaphragm. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated duodenal ulcer",
+        "Acute pancreatitis",
+        "Perforated appendix",
+        "Ischaemic colitis perforation",
+        "Perforated colonic diverticulum (Hinchey III)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of known diverticular disease, initial left-sided pain, peritonism, and pneumoperitoneum makes perforated diverticulitis most likely. Perforated duodenal ulcer typically presents with epigastric pain. Perforated appendix is right-sided. Pancreatitis often has epigastric pain and raised amylase. Ischaemic colitis perforation usually occurs after an ischaemic event with bloody diarrhoea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dda089f71d8",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old Chinese man presents to the emergency department with a 2-day history of right iliac fossa pain, fever of 38°C, and vomiting. He reports a similar episode 6 months ago that resolved spontaneously. On examination, he is tender at McBurney's point with no rebound. Urinalysis is normal. Blood tests show white cell count 12×10^9/L and C-reactive protein 45 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Mesenteric adenitis",
+        "Cecal diverticulitis",
+        "Terminal ileitis (Crohn's disease)",
+        "Gastroenteritis",
+        "Acute appendicitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Right-sided diverticulitis (cecal) is more common in Asian populations and can mimic appendicitis. The history of a similar previous episode favours diverticulitis over appendicitis. Mesenteric adenitis is more typical in children. Crohn's often presents with chronic symptoms and diarrhoea. Gastroenteritis would have diarrhoea and no localised tenderness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4e6809cf8d34",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman with type 2 diabetes, hypertension, and COPD (on long-term oral prednisolone) presents to the acute medical unit with confusion, poor appetite, and mild diffuse abdominal tenderness for 2 days. She is afebrile. Urine dip is negative. Blood tests show white cell count 11×10^9/L and C-reactive protein 20 mg/L. CT abdomen reveals sigmoid diverticulitis with no perforation. What is the single most likely diagnosis?",
+      "options": [
+        "Faecal impaction",
+        "Acute mesenteric ischaemia",
+        "Acute diverticulitis",
+        "Urinary tract infection",
+        "Acute coronary syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elderly patients on steroids may present with atypical diverticulitis, including confusion and minimal signs, as steroids mask inflammation. Negative urine dip and ECG (if considered) reduce likelihood of UTI and ACS. Mesenteric ischaemia is a differential but less likely given CT findings. Faecal impaction would not cause raised CRP and is often relieved by rectal examination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7d4cd357034c",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman presents with acute left lower quadrant pain and fever. There is tenderness in the left iliac fossa without peritonism. Her blood tests show elevated inflammatory markers. What is the single most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "Plain abdominal X-ray",
+        "Abdominal ultrasound",
+        "Flexible sigmoidoscopy",
+        "CT abdomen and pelvis with intravenous contrast",
+        "Barium enema"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT with IV contrast is the first-line imaging for suspected acute diverticulitis, providing high sensitivity and specificity for colonic inflammation and complications. Ultrasound is operator-dependent and less sensitive; endoscopy is contraindicated in acute inflammation; plain film cannot diagnose diverticulitis; barium enema is inferior and also contraindicated acutely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eacd52cf9381",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man with known diverticulosis presents with left-sided abdominal pain and fever. A CT scan with contrast is performed and shows colonic diverticula, thickening of the colonic wall, and increased density of the pericolic fat. There is no free air or abscess. Which finding on this CT is most specific for the diagnosis of acute diverticulitis?",
+      "options": [
+        "Small bowel dilatation",
+        "Presence of diverticula",
+        "Free intra-abdominal fluid",
+        "Colonic wall thickening",
+        "Pericolic fat stranding"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pericolic fat stranding (inflammatory fat stranding) is the hallmark CT finding of acute diverticulitis, indicating inflammation of the pericolic tissues. Colonic wall thickening can occur in other colitides; diverticula alone are common; free fluid is non-specific; small bowel dilatation is not a direct sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "097913ae4d6a",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old pregnant woman at 24 weeks' gestation presents with right lower quadrant pain, nausea, and low-grade fever. She has tenderness in the right iliac fossa. Ultrasound of the pelvis is unremarkable. Which investigation is most appropriate to diagnose right-sided diverticulitis in this patient?",
+      "options": [
+        "MRI abdomen and pelvis without contrast",
+        "Barium enema",
+        "Diagnostic laparoscopy",
+        "CT abdomen and pelvis with contrast",
+        "Repeat ultrasound with Doppler"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI is preferred in pregnancy due to lack of ionising radiation and good soft tissue resolution for detecting colonic inflammation. CT carries radiation risk; laparoscopy is invasive; barium enema contraindicated in acute setting and radiation; repeat ultrasound unlikely to show diverticulitis if initial was normal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ee55d080616d",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with a history of diverticulosis presents with severe left lower quadrant pain and fever. On examination, he has exquisite tenderness and involuntary guarding in the left iliac fossa, with rebound tenderness. His blood pressure is 90/60 mmHg. Which clinical sign is most suggestive of a contained perforation requiring urgent imaging?",
+      "options": [
+        "Palpable mass",
+        "Guarding",
+        "Fever",
+        "Tachycardia",
+        "Rebound tenderness"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rebound tenderness indicates peritoneal irritation, which in the setting of diverticulitis suggests a contained perforation or peritonitis. While guarding and fever are present, rebound is a more objective sign of peritonitis. Hypotension and tachycardia are signs of sepsis but not specific to perforation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0e9deb4ceb1",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with recurrent episodes of diverticulitis develops pneumaturia and faecaluria. She has no other urinary symptoms. Which investigation is most appropriate to confirm a suspected colovesical fistula?",
+      "options": [
+        "Plain abdominal X-ray",
+        "MRI pelvis",
+        "Cystoscopy",
+        "Colonoscopy",
+        "CT abdomen and pelvis with intravenous contrast"
+      ],
+      "answerIndex": 1,
+      "explanation": "MRI pelvis provides excellent soft tissue contrast to demonstrate the fistulous tract and is increasingly used for fistula assessment, especially when CT is equivocal. Cystoscopy may show the fistula opening but not the tract; colonoscopy cannot assess the bladder; plain X-ray is not diagnostic. While CT with contrast is also used, MRI avoids additional radiation and offers superior tract delineation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df67834a9637",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with a 2-day history of left iliac fossa pain, fever of 38.5°C, and CRP 120 mg/L. There is no guarding or rebound tenderness. She has not had previous episodes. Her observations are stable. What is the most appropriate first-line treatment?",
+      "options": [
+        "No antibiotics prescribed",
+        "Oral co-amoxiclav 500/125 mg three times a day for 5 days",
+        "Oral ciprofloxacin 500 mg twice a day",
+        "Intravenous co-amoxiclav 1.2 g three times a day",
+        "Oral metronidazole 400 mg three times a day alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines (2019) recommend oral co-amoxiclav as first-line antibiotic therapy for uncomplicated diverticulitis when antibiotics are indicated, as in this case with fever and raised CRP. Intravenous therapy is not required as there is no sepsis or peritonitis, and single-agent therapy with ciprofloxacin or metronidazole alone is not standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c418afba1ad4",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a previous diagnosis of diverticulosis presents with left iliac fossa pain, fever 38.2°C, and CRP 150 mg/L. He has a history of immediate-type penicillin allergy (anaphylaxis). Abdominal examination shows mild tenderness without peritonism. What is the most appropriate antibiotic regimen?",
+      "options": [
+        "Oral ciprofloxacin 500 mg twice a day plus metronidazole 400 mg three times a day",
+        "Intravenous vancomycin 1 g twice a day",
+        "Oral co-amoxiclav 500/125 mg three times a day for 5 days",
+        "Oral doxycycline 200 mg stat then 100 mg daily plus metronidazole 400 mg three times a day for 5 days",
+        "Intravenous ceftriaxone 2 g daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In penicillin-allergic patients with uncomplicated diverticulitis, NICE recommends oral doxycycline plus metronidazole as first-line. Co-amoxiclav is contraindicated due to the anaphylaxis history. While ciprofloxacin plus metronidazole is an alternative, doxycycline is preferred to avoid fluoroquinolone risks. Intravenous therapy is not indicated for uncomplicated disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0488a02d764c",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with known diverticulosis presents with severe generalised abdominal pain, fever 39.0°C, hypotension (90/60 mmHg), and peritonism on examination. CT shows pericolic gas and free fluid. She has a documented penicillin allergy (urticaria). What is the most appropriate intravenous antibiotic regimen?",
+      "options": [
+        "Intravenous co-amoxiclav 1.2 g three times a day",
+        "Intravenous ceftriaxone 2 g daily plus metronidazole 500 mg three times a day",
+        "Intravenous vancomycin 1 g twice a day plus gentamicin 5 mg/kg daily",
+        "Intravenous doxycycline 200 mg daily plus metronidazole 500 mg three times a day",
+        "Intravenous ciprofloxacin 400 mg twice a day plus metronidazole 500 mg three times a day"
+      ],
+      "answerIndex": 1,
+      "explanation": "In complicated diverticulitis with peritonitis and sepsis, NICE recommends intravenous co-amoxiclav as first-line, but this patient is penicillin-allergic. The recommended alternative in penicillin allergy is intravenous ceftriaxone plus metronidazole. Ciprofloxacin plus metronidazole is an alternative but not first-line, and vancomycin/gentamicin or doxycycline are not standard for this indication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "196907d4faac",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a recent diagnosis of diverticulitis is re-admitted with left iliac fossa pain, fever of 38.8°C, and CRP 250 mg/L. A CT scan reveals a 4 cm pericolic abscess in the left lower quadrant. There is no peritonitis. What is the most appropriate first-line management?",
+      "options": [
+        "Intravenous antibiotics alone",
+        "Colonoscopy with attempted endoscopic drainage",
+        "Surgical drainage via laparotomy",
+        "Intravenous antibiotics plus percutaneous drainage",
+        "Oral antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends that for diverticular abscesses larger than 3 cm, percutaneous drainage should be considered in addition to intravenous antibiotics. Intravenous antibiotics alone may be insufficient for an abscess of this size, while surgical drainage is reserved for if percutaneous drainage fails or is not possible. Oral antibiotics and endoscopic drainage are not standard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "def76f8b7747",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 48-year-old woman has had two episodes of uncomplicated diverticulitis in the past year. She has fully recovered from the most recent episode and asks how to prevent further recurrences. She has no other medical conditions. Which of the following is NOT recommended as a preventive measure?",
+      "options": [
+        "High-fibre diet",
+        "Regular exercise",
+        "Probiotic supplements",
+        "Mesalazine 500 mg three times a day",
+        "Avoidance of non-steroidal anti-inflammatory drugs (NSAIDs)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE advises against the use of mesalazine, probiotics, or rifaximin for the secondary prevention of diverticulitis due to lack of evidence. High-fibre diet, avoidance of NSAIDs, and regular exercise are associated with reduced recurrence risk and are recommended as lifestyle advice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a8c872485ed3",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents to the Emergency Department with a two-day history of left iliac fossa pain, low-grade fever (37.6°C), and nausea. Observations: HR 85, BP 125/80, RR 14, SpO2 98% on air. Abdomen is soft with localised tenderness in the left iliac fossa, no guarding or rebound. Bloods show WCC 11.2 x10^9/L, CRP 35 mg/L. What is the most appropriate next action?",
+      "options": [
+        "Arrange an urgent CT abdomen with contrast",
+        "Prescribe a 7‑day course of oral co‑amoxiclav",
+        "Start intravenous co‑amoxiclav and admit",
+        "Advise paracetamol and discharge with no antibiotics",
+        "Refer to the general surgical team"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is uncomplicated acute diverticulitis (fever <38°C, no peritonism, mild inflammatory markers). NICE recommends a course of oral antibiotics (co‑amoxiclav or metronidazole plus a quinolone) and outpatient management. Immediate CT is not needed unless complications suspected; admission is not required; antibiotics are indicated (not just analgesia).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e0b14bdb8da2",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man is brought to the Emergency Department with severe left iliac fossa pain, fever of 39.2°C, HR 115, BP 100/70, RR 22. Abdomen is rigid with generalized guarding and rebound tenderness. IV access is obtained and oxygen applied. What is the most appropriate immediate next action?",
+      "options": [
+        "Insert a urinary catheter",
+        "Refer to the general surgical team",
+        "Request a CT scan of the abdomen",
+        "Give intravenous co‑amoxiclav",
+        "Give a stat dose of intravenous fluids"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has peritonitis and sepsis; source control is key. Immediate administration of intravenous antibiotics (e.g., co‑amoxiclav) is the priority after initial resuscitation. CT may delay antibiotics; fluids are important but antibiotics are the specific treatment for the infected diverticulum; surgical review should follow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d9d97960dda0",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman presents with a five-day history of left iliac fossa pain, fever, and dysuria. CT shows a 4 cm diverticular abscess in the left iliac fossa. She has been on intravenous co‑amoxiclav for 48 hours but remains febrile and tender. Observations: HR 95, BP 115/70, temperature 38.1°C. What is the most appropriate next action?",
+      "options": [
+        "Refer for emergency Hartmann's procedure",
+        "Continue intravenous antibiotics for another 48 hours",
+        "Arrange CT‑guided percutaneous drainage of the abscess",
+        "Repeat CT scan to reassess abscess size",
+        "Change antibiotics to intravenous piperacillin‑tazobactam"
+      ],
+      "answerIndex": 2,
+      "explanation": "For diverticular abscess ≥3 cm failing medical therapy, NICE recommends percutaneous drainage. Continuing antibiotics alone is unlikely to resolve a 4 cm abscess; surgical resection is excessively aggressive as a next step; repeat CT is not needed when the indication for drainage is clear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68962b2f3548",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known diverticular disease presents with recurrent urinary tract infections and pneumaturia. He is otherwise well. A CT scan with oral contrast shows a colovesical fistula. What is the most appropriate next action?",
+      "options": [
+        "Arrange a cystoscopy to visualize the fistula",
+        "Start a course of oral antibiotics",
+        "Refer to a colorectal surgeon for elective resection",
+        "Prescribe a low‑fibre diet to reduce bowel movements",
+        "Perform a colonoscopy to exclude malignancy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Once a diverticular fistula is confirmed (by CT), the definitive management is elective surgical resection. Colonoscopy is typically not indicated immediately because the fistula is already diagnosed; antibiotics are for acute infection, not definitive; cystoscopy is not needed at this stage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d015c3526519",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman with chronic kidney disease (eGFR 30 mL/min/1.73m²) presents with mild left iliac fossa pain, low-grade fever (37.5°C), and nausea. Observations are normal. Abdomen is soft with localised tenderness. Bloods show WCC 11.0 x10^9/L, CRP 30 mg/L. What is the most appropriate next action?",
+      "options": [
+        "Admit for intravenous antibiotics",
+        "Prescribe oral co‑amoxiclav (with dose adjustment for renal function)",
+        "Prescribe oral ciprofloxacin and metronidazole",
+        "Prescribe oral metronidazole alone",
+        "Advise simple analgesia and discharge without antibiotics"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is uncomplicated diverticulitis in the context of CKD. Oral antibiotics are appropriate; co‑amoxiclav is a single agent covering Gram‑negatives and anaerobes and can be dose‑adjusted for eGFR. Ciprofloxacin + metronidazole is a combination (avoids need for dose adjustment but ciprofloxacin is cautioned in elderly); metronidazole alone is inadequate; admission is not necessary for mild disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ed12244843cd",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman presents to the emergency department with acute left iliac fossa pain and fever. On examination, she has localised tenderness but no guarding. Which single finding would most strongly suggest complicated diverticulitis requiring urgent imaging and surgical review?",
+      "options": [
+        "Raised CRP >200",
+        "Generalised peritonitis",
+        "Tachycardia 110 bpm",
+        "Positive urine dipstick",
+        "Temperature 38.2°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Generalised peritonitis indicates perforation and complicated disease requiring urgent surgical review, whereas localised tenderness and systemic inflammatory markers are common in uncomplicated diverticulitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f1ae03bec71d",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with uncomplicated diverticulitis (CRP 120, no signs of peritonitis) is started on oral ciprofloxacin and metronidazole. After 2 days, his pain is unchanged and he cannot keep down fluids. Which finding most strongly suggests that oral therapy has failed and IV antibiotics are needed?",
+      "options": [
+        "Vomiting causing dehydration",
+        "White cell count 12",
+        "Temperature 37.8°C",
+        "CRP remains 120",
+        "Persistent localised tenderness"
+      ],
+      "answerIndex": 0,
+      "explanation": "Inability to tolerate oral fluids due to vomiting indicates failure of oral therapy and need for IV antibiotics; persistent localised tenderness or stable raised inflammatory markers do not alone mandate admission.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a6886a4ccafe",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with known diverticular disease presents with acute onset of severe left-sided abdominal pain, urinary frequency, and pneumaturia. Her abdomen is distended and tender. What is the most likely life-threatening complication that must be excluded?",
+      "options": [
+        "Large bowel obstruction",
+        "Colovesical fistula",
+        "Colonic perforation",
+        "Ischaemic colitis",
+        "Diverticular abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pneumaturia is pathognomonic for colovesical fistula, a serious complication that can cause recurrent urosepsis; perforation typically presents with peritonitis, and abscess with a tender mass, making fistula the most likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d7d217d46ecd",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman on long-term prednisolone for rheumatoid arthritis presents with confusion and mild diffuse abdominal pain. Her temperature is 38.0°C, heart rate 110, and blood pressure 90/60. Abdominal examination reveals mild distension but no focal tenderness. Which finding would most strongly alert you to a serious intra-abdominal emergency?",
+      "options": [
+        "Raised CRP",
+        "Lack of focal tenderness",
+        "Confusion",
+        "Hypotension",
+        "Tachycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "In immunosuppressed patients, peritonitis signs may be absent; the lack of focal tenderness should raise suspicion for a silent perforation, unlike the other non-specific findings which could indicate sepsis from any source.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8815674be946",
+      "topic": "Diverticulitis",
+      "slug": "diverticulitis",
+      "system": "Gastroenterology",
+      "subSystem": "Lower GI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with recurrent episodes of diverticulitis (two previous episodes treated conservatively) presents with gradual onset of colicky abdominal pain and absolute constipation for 3 days. On examination, his abdomen is distended and tympanitic, with high-pitched bowel sounds. A CT scan shows a narrowed segment of sigmoid colon with no signs of perforation or abscess. Which complication of diverticulitis is most likely causing his presentation?",
+      "options": [
+        "Faecal impaction",
+        "Colonic ischaemia",
+        "Carcinoma of the colon",
+        "Sigmoid volvulus",
+        "Large bowel obstruction due to diverticular stricture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Absolute constipation with distension and a narrowed sigmoid on CT indicates large bowel obstruction due to stricture from repeated inflammation; carcinoma is a differential but the acute obstruction is the immediate serious complication.",
+      "difficulty": "medium"
+    }
+  ]
+}

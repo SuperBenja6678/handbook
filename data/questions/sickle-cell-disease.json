@@ -1,0 +1,513 @@
+{
+  "topic": "Sickle Cell Disease",
+  "slug": "sickle-cell-disease",
+  "system": "Haematology",
+  "subSystem": "Haemoglobinopathy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:58Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "de2560ffe240",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 2-year-old child with known sickle cell disease presents with bilateral swelling of the hands and feet, and cries when touched. He is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Acute osteomyelitis",
+        "Dactylitis (hand-foot syndrome)",
+        "Cellulitis",
+        "Traumatic soft tissue injury",
+        "Juvenile idiopathic arthritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The symmetrical, non-tender (though painful) swelling of hands and feet in a young child with sickle cell disease is classic for dactylitis due to vaso-occlusion in the small bones. Osteomyelitis is typically unilateral, hot, and swollen, and the child would be systemically unwell with fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9d253ec92273",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman with sickle cell disease presents with acute onset of pleuritic chest pain, dyspnoea, and fever. Oxygen saturations are 91% on air. Chest X-ray shows a new left lower lobe infiltrate. What is the single most likely diagnosis?",
+      "options": [
+        "Acute chest syndrome",
+        "Pulmonary embolism",
+        "Asthma exacerbation",
+        "Pleural effusion",
+        "Community-acquired pneumonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of chest pain, hypoxia, fever, and new infiltrate in a patient with sickle cell disease is highly suggestive of acute chest syndrome, which is often precipitated by infection or fat embolism. Pneumonia is a key differential but ACS is a distinct entity requiring aggressive management. PE is less likely without risk factors like immobility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9de8cd5b6a7c",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 3-year-old with sickle cell disease is brought to the emergency department with sudden pallor, lethargy, and a rapidly enlarging abdomen. On examination, the spleen is palpable 6 cm below the costal margin. Hb is 45 g/L (previously 80 g/L), reticulocytes are 15%. What is the single most likely diagnosis?",
+      "options": [
+        "Aplastic crisis",
+        "Acute haemolytic crisis",
+        "Acute blood loss",
+        "Malaria",
+        "Acute splenic sequestration"
+      ],
+      "answerIndex": 4,
+      "explanation": "The sudden drop in Hb with high reticulocytes and massive splenomegaly is diagnostic of acute splenic sequestration, a life-threatening emergency. Aplastic crisis would show low reticulocytes due to parvovirus B19 infection. Haemolytic crisis would have less dramatic splenomegaly and jaundice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "286e60e3bd33",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man with sickle cell disease presents with severe central abdominal pain for 6 hours, which is constant and radiates to the back. He has no fever, and his abdomen is soft with mild diffuse tenderness. White cell count is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Biliary colic",
+        "Vaso-occlusive crisis causing acute abdomen",
+        "Acute pancreatitis",
+        "Perforated peptic ulcer",
+        "Acute appendicitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In sickle cell disease, vaso-occlusive crisis can cause severe abdominal pain mimicking a surgical abdomen, but the absence of fever, localised tenderness, and raised inflammatory markers suggests a non-surgical cause. Appendicitis typically has right iliac fossa tenderness and fever. Pancreatitis would have raised amylase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "63dc3d9cac61",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with sickle cell disease, who has been on regular blood transfusions for secondary stroke prophylaxis, presents with pain and limp in her right hip for 2 weeks. She has limited internal rotation and flexion. X-ray shows mild flattening of the femoral head. What is the single most likely diagnosis?",
+      "options": [
+        "Osteoarthritis",
+        "Septic arthritis",
+        "Stress fracture of the femoral neck",
+        "Transient osteoporosis of the hip",
+        "Avascular necrosis of the femoral head"
+      ],
+      "answerIndex": 4,
+      "explanation": "Avascular necrosis is a common complication of sickle cell disease due to repeated vaso-occlusion. The presentation with limp, pain, limited range of motion, and early X-ray changes (flattening) is classic. Septic arthritis would have fever and severe pain with joint effusion. Osteoarthritis is less common at age 30 without other risk factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3afcdb25e75a",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old Afro-Caribbean man presents to the emergency department with a 2-day history of severe bilateral leg pain, fever, and jaundice. He has no significant past medical history. On examination, he has tenderness over the tibiae, scleral icterus, and a palpable spleen. Full blood count shows Hb 85 g/L, MCV 90 fL, and a high reticulocyte count. Which investigation is most appropriate to confirm the underlying diagnosis?",
+      "options": [
+        "Direct antiglobulin test",
+        "Sickle solubility test",
+        "Bone marrow aspiration",
+        "Haemoglobin electrophoresis",
+        "Blood film for sickle cells"
+      ],
+      "answerIndex": 3,
+      "explanation": "Haemoglobin electrophoresis (or HPLC) is the gold standard for confirming sickle cell disease, as it quantifies HbS and identifies other variants. The sickle solubility test is a screening tool and can be falsely negative in low HbS or in infants; blood film may show sickle cells but is not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "943a66e4e80f",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman of African origin undergoes routine antenatal screening. A sickle solubility test is positive. Haemoglobin electrophoresis shows: HbS 38%, HbA 55%, HbA2 2.8%, HbF 2%. Which of the following best describes this pattern?",
+      "options": [
+        "Sickle-β⁰ thalassaemia",
+        "Sickle cell disease (HbSS)",
+        "Normal healthy adult",
+        "Sickle cell trait (HbAS)",
+        "HbSC disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "In sickle cell trait, HbS is usually 30-45% and HbA is present (greater than HbS). HbA2 is normal (<3.5%). Absence of HbA would indicate disease; presence of HbA with HbS less than 50% is trait.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "92f7bef19b4f",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 19-year-old man with known sickle cell disease (HbSS) presents with severe pain in his right femur, fever of 38.8°C, and a white cell count of 24 × 10⁹/L. He is unable to weight-bear. Which investigation is most appropriate to distinguish vaso-occlusive crisis from osteomyelitis?",
+      "options": [
+        "Plain X-ray of the femur",
+        "Bone scan",
+        "Serum ferritin",
+        "MRI of the femur",
+        "Blood cultures"
+      ],
+      "answerIndex": 3,
+      "explanation": "MRI is the imaging modality of choice for early detection of osteomyelitis, as it shows bone marrow oedema and abscesses before X-ray changes appear. Blood cultures may be positive but are not diagnostic of osteomyelitis; X-ray changes take 10-14 days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9c1d9fe64b92",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 5-year-old boy with known sickle cell disease presents to the emergency department with acute onset of pallor, fever, and abdominal distension. His mother reports he was previously well. On examination, the spleen is palpable 4 cm below the costal margin. Full blood count shows: Hb 55 g/L, reticulocyte count 1%. Which of the following complications is most likely?",
+      "options": [
+        "Haemolytic crisis",
+        "Vaso-occlusive crisis",
+        "Acute splenic sequestration",
+        "Aplastic crisis",
+        "Megaloblastic crisis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Aplastic crisis due to parvovirus B19 infection causes temporary cessation of erythropoiesis, leading to a rapid drop in Hb with a very low reticulocyte count (reticulocytopenia). Splenic sequestration also causes a drop in Hb but with reticulocytosis; haemolytic crisis shows high reticulocytes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "384665de3817",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 2-year-old child of African origin is being investigated for failure to thrive and recurrent infections. Haemoglobin electrophoresis shows: HbS 80%, HbF 15%, HbA 0%, HbA2 1.5%. Which of the following is the most likely diagnosis?",
+      "options": [
+        "HbS with hereditary persistence of fetal haemoglobin (HPFH)",
+        "Sickle cell disease (HbSS)",
+        "Sickle cell trait (HbAS)",
+        "HbSC disease",
+        "Sickle-β⁰ thalassaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pattern of HbS (80%) with no HbA and elevated HbF (15%) is typical of homozygous sickle cell disease (HbSS) in early childhood. In sickle-β⁰ thalassaemia, HbA2 is typically elevated (>3.5%) and HbF is variable; in HbSC, both HbS and HbC are present; in HPFH, HbF is much higher (20-30%) and uniformly distributed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ba6c58fa6208",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 10-year-old child with sickle cell disease (HbSS) has experienced three painful crises requiring hospitalisation in the past year. He is otherwise well. What is the most appropriate long-term therapy to reduce further crises?",
+      "options": [
+        "Hydroxycarbamide (hydroxyurea)",
+        "Oral penicillin V prophylaxis",
+        "Exchange transfusion every 6 weeks",
+        "Regular simple blood transfusions",
+        "Folic acid 5 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends hydroxycarbamide for children with recurrent painful crises (≥3 per year) to reduce frequency. Folic acid and penicillin are standard but do not reduce crises. Transfusions are reserved for severe complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1472878e21e6",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 25-year-old man with sickle cell disease presents with acute chest pain, fever, and hypoxia (SpO2 90% on air). Chest X-ray shows bilateral lower lobe infiltrates. His haemoglobin is 5 g/dL (baseline 8). What is the most appropriate first-line treatment?",
+      "options": [
+        "Simple red cell transfusion",
+        "High-dose corticosteroids",
+        "Exchange transfusion",
+        "Hydroxycarbamide",
+        "Intravenous immunoglobulin"
+      ],
+      "answerIndex": 2,
+      "explanation": "In severe acute chest syndrome with rapid fall in Hb and hypoxia, exchange transfusion is indicated to reduce HbS percentage. Simple transfusion risks hyperviscosity. Other options are not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "67855a214eda",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 4-year-old child with sickle cell disease presents with pallor, irritability, and a tender distended abdomen. Haemoglobin is 6 g/dL (baseline 9). Ultrasound shows splenic sequestration. What is the most appropriate immediate therapy?",
+      "options": [
+        "Intravenous fluids alone",
+        "Simple red cell transfusion",
+        "Hydroxycarbamide",
+        "Emergency splenectomy",
+        "Exchange transfusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute splenic sequestration requires urgent simple transfusion to restore circulating volume. Exchange transfusion is not indicated. Splenectomy is for recurrent episodes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59cd7f0e9b41",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with sickle cell disease is 14 weeks pregnant. She has had two painful crises in the past year. Which of the following therapies is contraindicated in pregnancy?",
+      "options": [
+        "Hydroxycarbamide",
+        "Folic acid 5 mg daily",
+        "Prophylactic penicillin V",
+        "Regular blood transfusions",
+        "Low-dose aspirin 75 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hydroxycarbamide is teratogenic and contraindicated in pregnancy. Aspirin and blood transfusions may be used under specialist guidance. Folic acid and penicillin are routine.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6cc8185aa017",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 2-year-old child is newly diagnosed with sickle cell disease (HbSS). He is well with no acute issues. What is the most appropriate prophylactic medication to start?",
+      "options": [
+        "Deferasirox",
+        "Folic acid 5 mg daily",
+        "Oral penicillin V 125 mg twice daily",
+        "Regular monthly blood transfusions",
+        "Hydroxycarbamide"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends prophylactic penicillin V from diagnosis until at least 5 years to prevent pneumococcal sepsis. Folic acid is also given but for erythropoiesis support; hydroxycarbamide is not indicated as first-line prophylaxis in well children.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "66a9e895f6af",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old man with known homozygous sickle cell disease presents to the ED with severe bilateral leg and back pain for 6 hours. His temperature is 37.1°C, heart rate 100 bpm, BP 110/70, oxygen saturations 98% on air. He has not taken any analgesia. What is the most appropriate immediate next step?",
+      "options": [
+        "Give oral paracetamol and ibuprofen",
+        "Request an urgent full blood count and reticulocyte count",
+        "Arrange for exchange blood transfusion",
+        "Start intravenous fluids at 1.5 times maintenance",
+        "Administer intravenous morphine"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute vaso-occlusive crisis, severe pain requires rapid parenteral opioid analgesia (e.g., morphine) as first line. IV fluids and blood tests are important but analgesia takes priority. Oral analgesia is insufficient for severe pain. Exchange transfusion is reserved for severe complications like acute chest syndrome or stroke.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "79b760eb6fc2",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with known sickle cell disease presents with a 2-day history of fever, cough, and pleuritic right-sided chest pain. On examination, temperature 38.9°C, respiratory rate 28/min, heart rate 115 bpm, BP 100/65, oxygen saturations 88% on air. There are crackles at the right base. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a chest X-ray",
+        "Give intravenous morphine for pain",
+        "Request urgent exchange transfusion",
+        "Start intravenous co-amoxiclav",
+        "Administer high-flow oxygen via non-rebreather mask"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is likely acute chest syndrome. The immediate priority is to correct hypoxia with high-flow oxygen (ABCDE approach). Antibiotics are essential but follow oxygen. Chest X-ray confirms diagnosis but should not delay oxygen. Morphine can be given after oxygen, but oxygen is the first action. Exchange transfusion is reserved for deteriorating cases despite initial therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ef01e38b1e5",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 6-year-old boy with homozygous sickle cell disease presents with acute-onset left-sided weakness and difficulty speaking for 1 hour. He is alert, heart rate 100 bpm, BP 100/60, oxygen saturations 99% on air. What is the most appropriate immediate next step?",
+      "options": [
+        "Start an exchange blood transfusion",
+        "Perform a lumbar puncture to rule out meningitis",
+        "Administer intravenous fluids at maintenance rate",
+        "Call the stroke team and arrange an urgent CT head",
+        "Give aspirin 300 mg orally"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute neurological symptoms in a child with sickle cell disease suggest ischaemic stroke due to vaso-occlusion. Immediate neuroimaging (CT) is essential to exclude haemorrhage before considering therapies like aspirin or transfusion. Aspirin is avoided initially because of risk of haemorrhage until CT done. IV fluids are supportive but not first. Exchange transfusion is considered after imaging confirms ischaemic stroke.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "609b3c26e9d3",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 19-year-old man with known sickle cell disease presents to the ED with a painful penile erection that has persisted for 3 hours. He has had similar episodes before but none lasting this long. On examination, the penis is erect and tender. Vital signs are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to urology for emergency aspiration",
+        "Advise him to take a warm bath and urinate",
+        "Apply topical anaesthetic cream",
+        "Start exchange blood transfusion",
+        "Administer intravenous fluids and opioid analgesia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Priapism in sickle cell disease requires prompt management. First-line is non-surgical: aggressive IV fluids and opioids for pain, plus encouraging voiding and exercise. Warm baths may help but are not immediate. Urology referral is needed if priapism persists >4 hours after conservative measures. Exchange transfusion is reserved for refractory cases. Topical anaesthetic is ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d21625d816bf",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with homozygous sickle cell disease attends a pre-conception counselling clinic. She is currently stable on hydroxycarbamide and folic acid. She wishes to become pregnant. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange for a transcranial Doppler ultrasound",
+        "Start prophylactic penicillin V 250 mg twice daily",
+        "Stop hydroxycarbamide and refer to a specialist obstetric-haematology team",
+        "Continue hydroxycarbamide and increase folic acid to 5 mg daily",
+        "Recommend against pregnancy due to high risk"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hydroxycarbamide is teratogenic and must be stopped before pregnancy. The immediate action is to discontinue it and refer to a multidisciplinary team for high-risk obstetric care. Folic acid is already being taken. Penicillin prophylaxis is for children. TCD is not indicated in adults for pregnancy planning. Recommending against pregnancy is not appropriate without specialist counselling.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d9a7e2d64377",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-month-old infant of African descent presents with a 1-day history of fever and pallor. There is no prior diagnosis of sickle cell disease. On examination, the spleen is palpable 5 cm below the costal margin. Which finding most strongly suggests acute splenic sequestration?",
+      "options": [
+        "Jaundice with scleral icterus",
+        "Fever >39°C",
+        "Tachypnoea with respiratory rate 50/min",
+        "Severe pallor with pale conjunctivae",
+        "Abdominal distension with a palpable spleen reaching the umbilicus"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute splenic sequestration is a life-threatening emergency defined by rapid splenic enlargement with a fall in haemoglobin. A spleen palpable to the umbilicus indicates massive enlargement, often accompanied by circulatory compromise. Fever and pallor are non-specific; jaundice suggests haemolysis but not sequestration. Tachypnoea may indicate severe anaemia but is not specific to sequestration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4bf86d0a4046",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 12-year-old with known sickle cell disease (HbSS) attends clinic with mild jaundice and fatigue, well for the past 3 months. Observations are: heart rate 86 bpm, blood pressure 108/65 mmHg, temperature 36.8°C, oxygen saturation 96% on air. Which finding should prompt urgent admission?",
+      "options": [
+        "Oxygen saturation 92% on room air",
+        "Mild left upper quadrant tenderness",
+        "Haemoglobin 85 g/L",
+        "New headache with photophobia",
+        "Reticulocyte count 8%"
+      ],
+      "answerIndex": 0,
+      "explanation": "A drop in oxygen saturation to 92% from a baseline of 96% suggests early acute chest syndrome, the leading cause of death in sickle cell disease. A saturation of 92% is below the threshold for concern (NICE: <92% or a fall >3% warrants assessment). Headache and photophobia might indicate meningitis, but in this stable context, the new hypoxia is more urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0f26656a3a9f",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old with sickle cell disease presents to the emergency department with severe bilateral lower limb bone pain, fever of 39°C, and cough for 2 days. Which single finding most strongly suggests acute chest syndrome?",
+      "options": [
+        "Bilateral lower lobe crackles on auscultation",
+        "Oxygen saturation 88% on room air",
+        "Temperature 38.9°C",
+        "Chest X-ray showing left lower lobe consolidation",
+        "Respiratory rate 28 breaths per minute"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute chest syndrome is defined by a new pulmonary infiltrate on imaging (chest X-ray or CT) accompanied by fever and respiratory symptoms. While hypoxia (SpO2 88%) and crackles are supportive, the radiological confirmation is the diagnostic hallmark and a critical red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4dbee8617e7f",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old with sickle cell disease (HbSS) is brought to the emergency department with sudden severe headache and right-sided weakness. On examination, she is drowsy but rousable. Which finding is most indicative of a life-threatening complication?",
+      "options": [
+        "Photophobia and neck stiffness",
+        "Left-sided facial droop and arm drift",
+        "Bilateral papilloedema on fundoscopy",
+        "Glasgow Coma Scale 14/15",
+        "Blood pressure 150/90 mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In sickle cell disease, a sudden focal neurological deficit (left-sided weakness) is most likely due to ischaemic stroke, a major cause of morbidity and mortality. Photophobia and neck stiffness suggest meningitis or subarachnoid haemorrhage, but stroke is far more common in this population and requires immediate neuroimaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e09552732b69",
+      "topic": "Sickle Cell Disease",
+      "slug": "sickle-cell-disease",
+      "system": "Haematology",
+      "subSystem": "Haemoglobinopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 5-year-old with sickle cell disease (HbSS) has been on hydroxycarbamide (hydroxyurea) therapy for 6 months. Routine blood tests show the following: Hb 95 g/L, WBC 3.8 x10^9/L, neutrophils 0.8 x10^9/L, platelets 140 x10^9/L, reticulocytes 120 x10^9/L. Which finding mandates immediate discontinuation of hydroxycarbamide?",
+      "options": [
+        "Platelet count 140 x10^9/L",
+        "Haemoglobin 95 g/L",
+        "Reticulocyte count 120 x10^9/L",
+        "White blood cell count 3.8 x10^9/L",
+        "Neutrophil count 0.8 x10^9/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hydroxycarbamide causes myelosuppression; a neutrophil count <1.0 x10^9/L is a key threshold for cessation per NICE guidelines. A WBC of 3.8 might be acceptable, but neutropenia to 0.8 indicates significant bone marrow suppression. Hb 95 g/L is typical for a child on hydroxycarbamide, and a reticulocyte count of 120 is appropriate (not low).",
+      "difficulty": "hard"
+    }
+  ]
+}

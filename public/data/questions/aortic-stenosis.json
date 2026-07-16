@@ -1,0 +1,493 @@
+{
+  "topic": "Aortic Stenosis",
+  "slug": "aortic-stenosis",
+  "system": "Cardiovascular",
+  "subSystem": "Valvular",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:27:30Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "b6950e19d44b",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with exertional chest pain, syncope while gardening, and progressive dyspnoea. On examination, there is a loud ejection systolic murmur at the right upper sternal border radiating to the carotids, a delayed carotid upstroke, and a fourth heart sound. What is the single most likely diagnosis?",
+      "options": [
+        "Mitral regurgitation",
+        "Aortic regurgitation",
+        "Pulmonary stenosis",
+        "Hypertrophic cardiomyopathy",
+        "Aortic stenosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The classic triad of exertional syncope, angina, and dyspnoea with a harsh ejection systolic murmur radiating to the carotids and a slow-rising pulse is pathognomonic for aortic stenosis. Hypertrophic cardiomyopathy may also cause syncope and a murmur but typically has a different murmur location and character, and lacks the radiation pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "06e76a51262e",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman with hypertension and mild dyspnoea on exertion has a soft systolic murmur at the base. Echocardiogram shows left ventricular ejection fraction 55%, aortic valve area 0.8 cm², and mean gradient 25 mmHg. There is no syncope or chest pain. What is the single most likely diagnosis?",
+      "options": [
+        "Low-flow low-gradient severe aortic stenosis",
+        "Aortic sclerosis",
+        "Restrictive cardiomyopathy",
+        "Hypertensive heart disease",
+        "Aortic regurgitation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite a low mean gradient, the valve area <1.0 cm² indicates severe aortic stenosis. This paradoxical low-flow low-gradient severe AS occurs with preserved ejection fraction, often in elderly patients with hypertension. Aortic sclerosis would have a normal valve area and no gradient. Hypertensive heart disease does not produce a valve gradient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6957fb8083f8",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with known mild aortic stenosis presents with sudden severe dyspnoea and hypotension after developing atrial fibrillation. There is a loud systolic murmur and signs of pulmonary oedema. What is the single most likely diagnosis?",
+      "options": [
+        "Acute on chronic severe aortic stenosis",
+        "Pulmonary embolism",
+        "Acute mitral regurgitation (papillary rupture)",
+        "Cardiac tamponade",
+        "Acute aortic regurgitation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atrial fibrillation reduces preload and diastolic filling time, critically decreasing cardiac output in the setting of fixed obstruction from aortic stenosis. This acute decompensation mimics other causes of shock, but the known murmur and rapid onset with arrhythmia point to aortic stenosis. Acute mitral regurgitation would have a different murmur and not be precipitated by AF alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cd04a9ca8c34",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 30 weeks gestation presents with exertional dyspnoea and one episode of syncope while climbing stairs. She has a known bicuspid aortic valve. On examination, she has a loud ejection systolic murmur at the base radiating to the carotids. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Hypertrophic cardiomyopathy",
+        "Peripartum cardiomyopathy",
+        "Aortic stenosis",
+        "Mitral valve prolapse"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pregnancy increases cardiac output and blood volume, which can unmask severe aortic stenosis in a patient with a bicuspid valve. The exertional syncope and murmur are classic. Hypertrophic cardiomyopathy may also cause syncope but typically has a different murmur and is less likely with a known bicuspid valve. Pulmonary embolism does not cause an ejection systolic murmur radiating to the carotids.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b0a9aa1f269a",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man is found to have a mid-systolic murmur at the right upper sternal border during a routine medical. He is asymptomatic and exercises regularly. Echocardiogram shows a mean gradient of 12 mmHg, dense calcification of the aortic valve, and a valve area of 1.5 cm². What is the single most likely diagnosis?",
+      "options": [
+        "Hypertrophic cardiomyopathy",
+        "Bicuspid aortic valve without obstruction",
+        "Aortic stenosis (mild)",
+        "Aortic sclerosis",
+        "Mitral stenosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "A valve area of 1.5 cm² with a mean gradient of 12 mmHg indicates mild aortic stenosis. Aortic sclerosis would have no gradient and normal valve area. Bicuspid valve without obstruction would have no significant gradient. The calcification and gradient make mild AS more likely than sclerosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54aaf5be16e8",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman presents with a 6-month history of exertional dyspnoea and occasional dizziness. On examination, she has a loud ejection systolic murmur at the right upper sternal border radiating to the carotids, with a delayed carotid upstroke. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Transthoracic echocardiography",
+        "Exercise stress test",
+        "Electrocardiography",
+        "Cardiac MRI",
+        "Chest X-ray"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transthoracic echocardiography (TTE) with Doppler is the gold standard to confirm aortic stenosis by measuring mean gradient, aortic valve area, and flow. ECG may show LVH but is not diagnostic. Chest X-ray may show calcification but lacks specificity. Cardiac MRI is not first-line. Exercise stress test is contraindicated in symptomatic severe AS.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fe788330d05c",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with known mild aortic stenosis (peak velocity 2.5 m/s) returns with progressive breathlessness. A repeat transthoracic echocardiogram shows a peak velocity of 3.8 m/s and mean gradient 35 mmHg. He has normal LV function and no other abnormalities. What is the most appropriate next investigation to guide management?",
+      "options": [
+        "Repeat TTE in 6 months",
+        "CT calcium scoring of the aortic valve",
+        "Exercise stress echocardiography",
+        "Transoesophageal echocardiography",
+        "Cardiac catheterisation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exercise stress echocardiography can unmask symptoms and assess increase in mean gradient with exercise, helping to determine true severity when resting values are discordant. TOE is not needed for native valve assessment. Catheterisation is reserved for cases where non-invasive tests are inconclusive. CT calcium scoring can quantify calcification but exercise testing is more directly relevant to symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e4b2c48acae",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 79-year-old woman with known severe aortic stenosis presents to the emergency department with acute pulmonary oedema. She is hypotensive (90/60 mmHg) and in respiratory distress. Which investigation should be performed at the bedside to confirm the cause?",
+      "options": [
+        "CT pulmonary angiogram",
+        "Electrocardiography",
+        "Chest X-ray",
+        "Focused bedside echocardiography",
+        "High-sensitivity troponin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Focused bedside echo rapidly assesses aortic valve appearance and LV function, confirming severe AS as the cause of pulmonary oedema. ECG may show LVH but is non-specific. Chest X-ray shows pulmonary oedema but not the valvular cause. Troponin is for MI. CT pulmonary angiogram is for PE, not indicated here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "55109492aa40",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with bicuspid aortic valve and moderate aortic stenosis develops fever and a new diastolic murmur. Blood cultures grow Streptococcus viridans. What is the most appropriate investigation to confirm valvular vegetations?",
+      "options": [
+        "CT aortography",
+        "Transoesophageal echocardiography",
+        "Transthoracic echocardiography",
+        "Quantitative PCR of blood",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transoesophageal echocardiography (TOE) has superior sensitivity for detecting vegetations, especially in native valves, compared to TTE. Cardiac MRI and CT are not first-line for vegetation detection. PCR confirms organism but not vegetations.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4ac8c853b38d",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a bicuspid aortic valve is asymptomatic. A transthoracic echocardiogram shows an aortic valve area of 1.2 cm², mean gradient 35 mmHg, and peak velocity 3.9 m/s. Which additional finding would indicate severe aortic stenosis requiring surgical referral?",
+      "options": [
+        "Diastolic dysfunction grade II",
+        "LV ejection fraction of 55%",
+        "Exercise-induced symptoms on stress echocardiography",
+        "Maximal aortic wall thickness 0.6 cm",
+        "Left atrial diameter 4.0 cm"
+      ],
+      "answerIndex": 2,
+      "explanation": "In asymptomatic severe AS, the development of symptoms on exercise testing is a Class I indication for aortic valve replacement. An LVEF <50% would also be an indication, but 55% is normal. Diastolic dysfunction and left atrial enlargement are supportive but not alone sufficient for surgery. Aortic wall thickness is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7902eaea8cfa",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man with a 2-year history of hypertension is found to have an asymptomatic ejection systolic murmur. Echocardiography shows mild aortic stenosis (peak velocity 2.5 m/s, aortic valve area 1.8 cm²) with normal left ventricular function. He is otherwise well and exercises regularly. What is the most appropriate management?",
+      "options": [
+        "Watchful waiting with regular review",
+        "Surgical aortic valve replacement",
+        "Start a statin",
+        "Transcatheter aortic valve implantation",
+        "Start an ACE inhibitor"
+      ],
+      "answerIndex": 0,
+      "explanation": "UK guidelines recommend watchful waiting for asymptomatic mild-to-moderate aortic stenosis, as there is no evidence that early valve intervention improves outcomes. Medical therapy does not halt progression. Surgery or TAVI is only indicated when symptoms develop or severe stenosis is present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a3b8fe0755da",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 79-year-old woman with known severe aortic stenosis presents to the emergency department with acute pulmonary oedema and hypotension (blood pressure 85/40 mmHg). She has severe dyskinesia on echocardiography and is in cardiogenic shock. Which drug is CONTRAINDICATED in this acute setting?",
+      "options": [
+        "Intravenous dobutamine",
+        "Oral bisoprolol",
+        "Intravenous furosemide",
+        "Intravenous nitroprusside",
+        "Intravenous heparin"
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe aortic stenosis with hypotension, vasodilators such as nitroprusside are contraindicated because they reduce afterload, worsening the already critical transvalvular gradient and causing further hypotension. Dobutamine may be used as a bridge to definitive therapy; furosemide is used for pulmonary oedema; heparin and bisoprolol are not acutely contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4a09101ec463",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 85-year-old man with severe aortic stenosis (peak gradient 75 mmHg, aortic valve area 0.6 cm²) presents with progressive breathlessness (NYHA class III) and pre-syncope. He is frail with a EuroSCORE II of 8% and has chronic kidney disease (eGFR 35 mL/min). What is the most appropriate definitive treatment?",
+      "options": [
+        "Balloon aortic valvuloplasty alone",
+        "Surgical aortic valve replacement",
+        "Medical management with diuretics and nitrates",
+        "Transcatheter aortic valve implantation",
+        "Transcatheter mitral valve repair"
+      ],
+      "answerIndex": 3,
+      "explanation": "For elderly patients with symptomatic severe aortic stenosis and high surgical risk (frailty, CKD), NICE recommends transcatheter aortic valve implantation (TAVI) as first-line therapy. Balloon valvuloplasty alone is reserved as a bridge or palliation; medical management is inferior; mitral intervention is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6bb27966b33",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with a prosthetic aortic valve (mechanical) develops fever, dyspnoea, and a new perivalvular leak on echocardiography. Blood cultures grow Staphylococcus aureus. He has acute heart failure and a CT shows a perivalvular abscess. What is the most appropriate definitive management?",
+      "options": [
+        "Transcatheter valve-in-valve implantation",
+        "Urgent surgical valve replacement and debridement",
+        "Intravenous antibiotics alone",
+        "Mitral valve repair",
+        "Balloon aortic valvuloplasty"
+      ],
+      "answerIndex": 1,
+      "explanation": "In prosthetic valve infective endocarditis with perivalvular abscess and heart failure, urgent surgery is indicated for source control and valve replacement. Antibiotics alone are insufficient due to the abscess. Balloon valvuloplasty is not appropriate for prosthetic valve endocarditis; TAVI-in-valve is not first-line in acute infection; mitral intervention is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7c5ca4df442d",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 64-year-old man with severe asymptomatic aortic stenosis (aortic valve area 0.9 cm², peak velocity 4.2 m/s) and normal left ventricular function is scheduled for coronary artery bypass grafting (CABG) for three-vessel disease. He has no symptoms attributable to the valve. What is the most appropriate management of the aortic stenosis?",
+      "options": [
+        "Perform surgical aortic valve replacement during CABG",
+        "Balloon aortic valvuloplasty during the same admission",
+        "Perform transcatheter aortic valve implantation after CABG",
+        "Proceed with CABG only; defer valve intervention",
+        "No intervention; monitor the valve annually"
+      ],
+      "answerIndex": 0,
+      "explanation": "UK guidelines recommend concurrent surgical aortic valve replacement (SAVR) in patients with severe AS undergoing CABG, even if asymptomatic, because the risk of subsequent valve-related events is high and combined surgery has acceptable mortality. Isolated CABG would leave the patient at risk of later decompensation. TAVI is not indicated peri-CABG; balloon valvuloplasty is not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1dab86ba254b",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man presents with exertional chest pain and syncope. On examination, he has a harsh ejection systolic murmur at the right upper sternal border radiating to the carotids. He is haemodynamically stable. What is the single most appropriate next action?",
+      "options": [
+        "CT coronary angiogram",
+        "Carotid sinus massage",
+        "Exercise ECG",
+        "Echocardiogram",
+        "12-lead ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "The murmur and symptoms suggest severe aortic stenosis. Echocardiogram is the key investigation to confirm severity and guide management. CT coronary angiogram may be considered if coronary disease is suspected, but the priority is to assess the valve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0bd585befbf3",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with known moderate aortic stenosis (peak gradient 30 mmHg, valve area 1.2 cm²) is asymptomatic. She asks about future risk. What is the single most appropriate next action?",
+      "options": [
+        "Start a beta-blocker",
+        "Advise to avoid aerobic exercise",
+        "Repeat echocardiogram in 1 year",
+        "Refer for surgical aortic valve replacement",
+        "Start an ACE inhibitor"
+      ],
+      "answerIndex": 2,
+      "explanation": "Asymptomatic moderate aortic stenosis requires regular surveillance echocardiography. Intervention is reserved for the development of symptoms or severe stenosis. ACE inhibitors, beta-blockers, and exercise restriction are not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6d64d6bd778f",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 78-year-old man with known severe aortic stenosis presents to the Emergency Department with acute pulmonary oedema. BP 90/60 mmHg, HR 110 bpm, oxygen saturations 88% on 15 L/min O2. Examination reveals bilateral crackles and a quiet murmur. What is the single most appropriate IMMEDIATE next action?",
+      "options": [
+        "Give intravenous morphine 5mg",
+        "Prepare for urgent aortic valve replacement",
+        "Start intravenous GTN infusion",
+        "Administer intravenous furosemide 40mg",
+        "Call for urgent transthoracic echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute pulmonary oedema with hypotension, diuresis with furosemide is the first priority. Urgent echocardiogram and definitive management are important but not immediate. GTN and morphine can worsen hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad08e5488327",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with severe aortic stenosis develops acute left-sided weakness and slurred speech. BP 110/70 mmHg, irregularly irregular pulse. CT head shows no bleed, and symptom onset was 6 hours ago. What is the single most appropriate next action?",
+      "options": [
+        "Start dual antiplatelet therapy",
+        "Start intravenous thrombolysis",
+        "Prepare for transcatheter aortic valve replacement",
+        "Arrange urgent echocardiogram",
+        "Give aspirin 300mg orally"
+      ],
+      "answerIndex": 4,
+      "explanation": "With symptom onset >4.5 hours, thrombolysis is not indicated. The standard acute ischaemic stroke management is aspirin 300mg; further investigations such as echocardiogram should follow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9401ea5c2eda",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents with exertional chest pain and syncope. On auscultation, a loud ejection systolic murmur is heard at the right upper sternal border. Which clinical sign most strongly indicates severe aortic stenosis requiring urgent referral?",
+      "options": [
+        "Wide splitting of S2 on inspiration",
+        "Early systolic ejection click",
+        "Third heart sound",
+        "Loud S2",
+        "Slow-rising carotid upstroke with reduced amplitude"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe aortic stenosis, the carotid upstroke is delayed and diminished (pulsus parvus et tardus) due to obstruction. An early systolic ejection click suggests a bicuspid valve and usually milder stenosis. A loud S2 is more typical of hypertension; in severe AS, S2 is often soft or absent. Wide splitting of S2 is normal. A third heart sound may indicate LV failure but is not specific to severe AS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47571abd27ae",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with known mild aortic stenosis (peak gradient 20 mmHg) is asymptomatic. In clinic, you note a new auscultatory finding. Which finding would raise suspicion for progression to severe aortic stenosis?",
+      "options": [
+        "Loud S1",
+        "Paradoxical splitting of S2",
+        "Early systolic ejection click",
+        "Mid-systolic murmur",
+        "Fourth heart sound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Paradoxical splitting of S2 occurs when aortic valve closure is delayed beyond pulmonary closure, indicating severe obstruction. In mild AS, S2 splitting is normal. A fourth heart sound is common in LV hypertrophy but not specific for severe AS. An ejection click suggests a bicuspid valve and usually milder stenosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2624b5a89dfa",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man with severe aortic stenosis (aortic valve area 0.6 cm²) presents with sudden breathlessness and hypotension. His previously loud murmur is now barely audible. Which of the following best explains this change?",
+      "options": [
+        "Acute myocardial infarction",
+        "Acute severe aortic regurgitation",
+        "Acute atrial fibrillation",
+        "Left ventricular failure with reduced stroke volume",
+        "Pericardial effusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "In critical aortic stenosis, when left ventricular failure occurs, the stroke volume falls, resulting in a softer murmur despite severe obstruction. Atrial fibrillation would cause irregular pulse but not necessarily murmur softening. Acute aortic regurgitation would produce a diastolic murmur. MI could cause hypotension but not directly soften the murmur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "98d49f44001e",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with moderate aortic stenosis (peak gradient 40 mmHg) develops fever, a new diastolic murmur, and splinter haemorrhages. What is the most likely complication?",
+      "options": [
+        "Acute aortic regurgitation due to infective endocarditis",
+        "Prosthetic valve thrombosis",
+        "Thromboembolism from atrial fibrillation",
+        "Aortic dissection",
+        "Myocardial infarction"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of fever, new murmur (likely aortic regurgitation), and peripheral stigmata (splinter haemorrhages) strongly suggests infective endocarditis. This is a life-threatening complication requiring urgent investigation. Aortic dissection presents with severe tearing pain. Thromboembolism does not cause fever or new murmur.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "336531809126",
+      "topic": "Aortic Stenosis",
+      "slug": "aortic-stenosis",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with severe aortic stenosis (aortic valve area 0.7 cm²) reports exertional dizziness. His ECG shows which of the following findings that would indicate the need for urgent intervention?",
+      "options": [
+        "Atrial fibrillation",
+        "Complete heart block",
+        "Left bundle branch block",
+        "Left ventricular hypertrophy",
+        "First-degree AV block"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe aortic stenosis, calcific extension into the conduction system can cause heart block. Complete heart block presents with dizziness/syncope and bradycardia, requiring pacemaker insertion. LVH is common and not an emergency. First-degree AV block is not urgent. LBBB can occur but is not a red flag.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Hypertrophic Cardiomyopathy",
+  "slug": "hypertrophic-cardiomyopathy",
+  "system": "Cardiovascular",
+  "subSystem": "Cardiomyopathy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:08Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e9d70cf5ff87",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old male university athlete collapses during a football match. He regains consciousness within 30 seconds. On examination, there is a loud systolic murmur at the left sternal edge that increases with Valsalva manoeuvre. ECG shows deep T wave inversions in the lateral leads. Echocardiogram reveals asymmetrical septal hypertrophy with LV outflow tract obstruction and systolic anterior motion of the mitral valve. What is the single most likely diagnosis?",
+      "options": [
+        "Athlete's heart",
+        "Hypertrophic cardiomyopathy",
+        "Aortic stenosis",
+        "Vasovagal syncope",
+        "Arrhythmogenic right ventricular cardiomyopathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The murmur increasing with Valsalva, asymmetrical septal hypertrophy, LVOT obstruction, and SAM are pathognomonic for hypertrophic cardiomyopathy. Aortic stenosis has a murmur that decreases with Valsalva; athlete's heart shows concentric hypertrophy without obstruction; vasovagal syncope lacks echocardiographic findings; ARVC typically involves right ventricle and ECG shows epsilon waves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e96ffaca1075",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old female presents with palpitations and mild dyspnoea on exertion. She has no chest pain. ECG shows widespread deep T wave inversions in the precordial leads. Echocardiogram reveals hypertrophy of the left ventricular apex with a 'spade-like' appearance on left ventriculography. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiac amyloidosis",
+        "Coronary artery disease",
+        "Apical hypertrophic cardiomyopathy",
+        "Myocarditis",
+        "Left ventricular non-compaction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The spade-like apical hypertrophy and deep T wave inversions are classic for apical HCM (Yamaguchi syndrome). CAD would show regional wall motion abnormalities; myocarditis often has global dysfunction and elevated troponin; non-compaction has trabeculations; amyloidosis shows thickened walls with speckled appearance and low voltage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1b0772e5d5a4",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with a history of hypertension presents with progressive shortness of breath and chest tightness. He has a systolic murmur at the aortic area that radiates to the carotids. Echocardiogram shows left ventricular hypertrophy and a small LV cavity. However, there is no significant LV outflow tract gradient at rest or with provocation. The aortic valve appears normal. What is the single most likely diagnosis?",
+      "options": [
+        "Aortic stenosis",
+        "Hypertrophic cardiomyopathy (non-obstructive)",
+        "Hypertensive heart disease",
+        "Cardiac amyloidosis",
+        "Athlete's heart"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of LVH, normal aortic valve, and absence of gradient suggests non-obstructive HCM, especially given the small LV cavity. Hypertensive heart disease usually has concentric hypertrophy and larger LV cavity; amyloidosis has low voltage; athlete's heart has normal cavity size.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4fb667f807f6",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with acute-onset severe chest pain and dyspnoea after a stressful event. ECG shows ST elevation in the anterior leads and deep T wave inversions. Troponin is mildly elevated. Coronary angiogram shows normal coronary arteries. Echocardiogram reveals apical ballooning with hyperkinesis of the basal segments. What is the single most likely diagnosis?",
+      "options": [
+        "Hypertrophic cardiomyopathy with apical aneurysm",
+        "Coronary artery spasm",
+        "Takotsubo cardiomyopathy",
+        "Myocarditis",
+        "Acute myocardial infarction with spontaneous reperfusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of emotional trigger, apical ballooning (takotsubo shape), normal coronaries, and segmental wall motion abnormality that extends beyond a single coronary territory is classic for Takotsubo cardiomyopathy. HCM with apical aneurysm would have chronic hypertrophy and apicaal scar, not acute ballooning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3bb87f71b05",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with known hypertrophic cardiomyopathy experiences syncope and palpitations. ECG shows atrial fibrillation with a rapid ventricular response. He is haemodynamically stable. Echocardiogram shows a dilated left atrium and a left ventricular outflow tract gradient of 50 mmHg at rest. What is the single most likely cause of his syncope?",
+      "options": [
+        "Hypertrophic cardiomyopathy with dynamic LV outflow tract obstruction exacerbated by atrial fibrillation",
+        "Ventricular tachycardia",
+        "Vasovagal syncope",
+        "Decompensated heart failure due to diastolic dysfunction",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "In HCM, atrial fibrillation can cause loss of atrial kick and increased heart rate, worsening LVOT obstruction and leading to syncope. The presence of a rest gradient >30 mmHg is significant. Ventricular tachycardia is possible but less likely with atrial fibrillation on ECG; pulmonary embolism would have other features; vasovagal syncope is not specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3001885b5dde",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man presents with exertional dyspnoea and a systolic murmur. ECG shows left ventricular hypertrophy with deep T-wave inversion. Which single investigation is most appropriate to confirm the diagnosis of hypertrophic cardiomyopathy?",
+      "options": [
+        "Exercise stress test",
+        "Transthoracic echocardiogram",
+        "Genetic testing",
+        "24-hour Holter monitor",
+        "Cardiac MRI"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transthoracic echocardiography is the first-line diagnostic test for HCM, demonstrating left ventricular wall thickness ≥15 mm in one or more segments, with no other cause for hypertrophy. It also assesses outflow tract obstruction and diastolic function.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b60b2f84b702",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old asymptomatic woman has a first-degree relative with hypertrophic cardiomyopathy. Which investigation is most appropriate to establish the diagnosis in her?",
+      "options": [
+        "Exercise tolerance test",
+        "Genetic testing",
+        "ECG",
+        "Cardiac MRI",
+        "Transthoracic echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend echocardiographic screening for first-degree relatives every 1–2 years to detect HCM before symptoms develop. Echocardiography is the standard for confirming or excluding the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "654fd408a52f",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with known hypertrophic cardiomyopathy presents with syncope. A recent echocardiogram showed a resting left ventricular outflow tract gradient of 20 mmHg. Which investigation is most appropriate to identify the likely cause of syncope?",
+      "options": [
+        "Cardiac MRI",
+        "Tilt table test",
+        "Exercise echocardiography",
+        "24-hour ambulatory ECG",
+        "Repeat transthoracic echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "Syncope in HCM is often due to ventricular arrhythmias; therefore, 24-hour ambulatory ECG is indicated to detect non-sustained ventricular tachycardia or other arrhythmias. This is a key step in risk stratification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "22284c132080",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "According to NICE guidelines, which of the following echocardiographic findings is diagnostic of hypertrophic cardiomyopathy?",
+      "options": [
+        "Left atrial volume index >34 mL/m²",
+        "Presence of systolic anterior motion of the mitral valve",
+        "Left ventricular wall thickness ≥13 mm",
+        "Septal to posterior wall ratio >1.3",
+        "Left ventricular wall thickness ≥15 mm"
+      ],
+      "answerIndex": 4,
+      "explanation": "The diagnostic criterion for HCM is maximal left ventricular wall thickness ≥15 mm in one or more segments (or ≥13 mm in first-degree relatives) measured by echocardiography or MRI, in the absence of other causes like hypertension or aortic stenosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86546a6147c1",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old competitive rower is found to have left ventricular hypertrophy on ECG. Which investigation is most appropriate to differentiate physiological hypertrophy (athlete's heart) from hypertrophic cardiomyopathy?",
+      "options": [
+        "24-hour Holter monitor",
+        "Cardiac MRI",
+        "Exercise ECG",
+        "Transthoracic echocardiogram",
+        "Genetic testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cardiac MRI provides detailed cardiac morphology, tissue characterization, and late gadolinium enhancement patterns. It can distinguish HCM from athlete's heart by showing asymmetric hypertrophy, normal cavity size, and fibrosis, whereas athlete's heart typically has symmetric hypertrophy and normal findings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7b71c22ae305",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with exertional dyspnoea. Echocardiography shows asymmetric septal hypertrophy and a resting LVOT gradient of 50 mmHg with systolic anterior motion of the mitral valve. He has no syncope or arrhythmias. What is the most appropriate first-line pharmacotherapy?",
+      "options": [
+        "Alcohol septal ablation",
+        "Bisoprolol",
+        "Verapamil",
+        "Disopyramide",
+        "Implantable cardioverter-defibrillator"
+      ],
+      "answerIndex": 1,
+      "explanation": "Beta-blockers (e.g., bisoprolol) are first-line for symptomatic HOCM with LVOT obstruction, reducing heart rate and contractility to decrease gradient. Verapamil can be used if beta-blockers are not tolerated, but is not first-line. Disopyramide is second-line. Septal ablation and ICD are reserved for refractory or high-risk patients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "93a2d53e1757",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with known hypertrophic cardiomyopathy and mild exertional dyspnoea (NYHA II) has a resting LVOT gradient of 40 mmHg. She has a history of asthma and is not on any regular medications. What is the most appropriate first-line pharmacotherapy?",
+      "options": [
+        "Verapamil",
+        "Propranolol",
+        "Diltiazem",
+        "Disopyramide",
+        "Bisoprolol"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta-blockers are first-line but contraindicated in asthma. The alternative first-line drug is verapamil, a non-dihydropyridine calcium-channel blocker that reduces heart rate and contractility. Disopyramide is second-line. Diltiazem and propranolol are less appropriate; propranolol is a beta-blocker and diltiazem is less studied for HOCM.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7b55d0d8efc",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man with known hypertrophic cardiomyopathy presents to the emergency department with acute chest pain, breathlessness, and syncope. His blood pressure is 85/50 mmHg, heart rate 110 bpm, and JVP is elevated. Echocardiography shows severe LVOT obstruction and systolic anterior motion of the mitral valve. Which of the following therapies is contraindicated acutely?",
+      "options": [
+        "Intravenous phenylephrine",
+        "Intravenous noradrenaline",
+        "Intravenous propranolol",
+        "Sublingual glyceryl trinitrate",
+        "Intravenous fluid bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute obstructive HOCM, vasodilators like GTN worsen obstruction by reducing preload. Management includes fluids and beta-blockers (e.g., propranolol) to reduce contractility, and phenylephrine/noradrenaline if hypotension persists. GTN is contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "af83fa18ea71",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known hypertrophic cardiomyopathy presents with palpitations. ECG shows atrial fibrillation with a ventricular rate of 120 bpm. He is haemodynamically stable and has mild symptoms. Which of the following drugs is contraindicated for rate or rhythm control?",
+      "options": [
+        "Digoxin",
+        "Verapamil",
+        "Flecainide",
+        "Bisoprolol",
+        "Amiodarone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Digoxin increases contractility and can exacerbate LVOT obstruction in HOCM, so it is contraindicated. Beta-blockers (e.g., bisoprolol) or verapamil are first-line for rate control. Amiodarone and flecainide can be used for rhythm control but digoxin is best avoided.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bf0336aadc55",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old asymptomatic competitive athlete is found to have hypertrophic cardiomyopathy on routine screening. Echocardiography shows a resting LVOT gradient of 10 mmHg, but exercise provokes a gradient of 80 mmHg with systolic anterior motion. He has no family history of sudden cardiac death. What is the most appropriate first-line management?",
+      "options": [
+        "Bisoprolol",
+        "Verapamil",
+        "Advice to avoid competitive sports",
+        "Disopyramide",
+        "Alcohol septal ablation"
+      ],
+      "answerIndex": 2,
+      "explanation": "For asymptomatic HOCM, pharmacotherapy is not indicated. However, because of the provocable gradient and athletic activity, the risk of sudden death is increased during intense exercise. Current guidelines recommend avoiding competitive sports to prevent haemodynamic compromise and arrhythmias.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f4e65493e212",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old male presents to the emergency department after an exertional syncopal episode while playing football. On examination, a systolic murmur is heard at the left sternal edge that increases with Valsalva manoeuvre. ECG shows left ventricular hypertrophy with deep T wave inversions in the lateral leads. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral beta-blocker therapy",
+        "Discharge with advice to avoid competitive sport",
+        "Refer for genetic testing",
+        "Arrange urgent echocardiogram",
+        "Perform 24-hour Holter monitoring"
+      ],
+      "answerIndex": 3,
+      "explanation": "Echocardiography is first-line to confirm the diagnosis of HCM, assess LVOT gradient, and guide management. Beta-blockers may be started later once diagnosis is established. Genetic testing is not immediate. Discharge without diagnosis is unsafe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "19d624458095",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known hypertrophic cardiomyopathy presents with sudden-onset chest pain and breathlessness. Her blood pressure is 90/60 mmHg, heart rate 110 bpm, JVP elevated. There is a loud pan-systolic murmur at the apex. She is in sinus rhythm. What is the most appropriate immediate next step?",
+      "options": [
+        "Request urgent echocardiogram",
+        "Start intravenous beta-blocker",
+        "Give intravenous amiodarone",
+        "Perform synchronised cardioversion",
+        "Administer intravenous fluid bolus"
+      ],
+      "answerIndex": 4,
+      "explanation": "In HCM with hypotension due to LVOT obstruction, intravenous fluids increase preload, reduce obstruction, and improve cardiac output. Beta-blockers can worsen obstruction if preload is low. Echocardiogram is important but not immediate in an unstable patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aba719923ca0",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with hypertrophic cardiomyopathy presents with acute shortness of breath and palpitations. He has known paroxysmal atrial fibrillation and normally takes bisoprolol 5 mg daily. His heart rate is 150 bpm irregularly irregular, blood pressure 100/70 mmHg, oxygen saturations 94% on air. What is the most appropriate immediate next step?",
+      "options": [
+        "Intravenous amiodarone infusion",
+        "Refer for electrophysiological ablation",
+        "Increase bisoprolol dose orally",
+        "Start therapeutic anticoagulation",
+        "Emergency direct current cardioversion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Haemodynamically unstable atrial fibrillation (hypotension, acute HF) requires urgent synchronised DC cardioversion. Amiodarone could be considered if stable, but instability mandates cardioversion. Anticoagulation is important but not the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "89ad646086e9",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with known hypertrophic cardiomyopathy (NYHA functional class II) presents at 32 weeks gestation with a single episode of exertional syncope. She is otherwise well-controlled. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for combined cardiology and obstetric review",
+        "Perform urgent echocardiogram",
+        "Plan for urgent caesarean section",
+        "Start oral beta-blocker therapy",
+        "Advise strict bed rest"
+      ],
+      "answerIndex": 0,
+      "explanation": "Syncope in a pregnant HCM patient requires multidisciplinary assessment to guide management, including fetal monitoring. Beta-blockers may be considered but only after specialist input. Echocardiogram is useful but not the most immediate action; referral is key.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33eb530a9672",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old asymptomatic man with hypertrophic cardiomyopathy is seen in clinic. Echocardiogram shows maximum left ventricular wall thickness 18 mm, no LVOT obstruction, and normal left atrial size. He has no family history of sudden cardiac death. What is the most appropriate next step in risk stratification?",
+      "options": [
+        "Calculate the HCM Risk-SCD score",
+        "Arrange exercise stress echocardiography",
+        "Refer for genetic testing",
+        "Perform a 48-hour ambulatory ECG",
+        "Start a beta-blocker"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend using the HCM Risk-SCD score to determine if ICD implantation is indicated in asymptomatic patients with borderline LV thickness. Beta-blockers are not indicated in asymptomatic non-obstructive HCM. Stress echo and Holter may be part of assessment, but the score is the immediate next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7806e498ed15",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with hypertrophic cardiomyopathy undergoes 24-hour Holter monitoring as part of routine risk assessment. She is asymptomatic with good exercise tolerance. Which single finding on the Holter report is the strongest indicator for referral for implantable cardioverter-defibrillator (ICD) consideration?",
+      "options": [
+        "Non-sustained ventricular tachycardia (≥3 beats at ≥120 bpm)",
+        "Sinus bradycardia (minimum heart rate 38 bpm)",
+        "Supraventricular tachycardia (10 beats at 150 bpm)",
+        "Paroxysmal atrial fibrillation lasting 30 seconds",
+        "Frequent premature ventricular contractions (>500 per 24 hours)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Non-sustained ventricular tachycardia (NSVT) is a major risk factor for sudden cardiac death in HCM and, in combination with other factors, often triggers ICD discussion. Frequent PVCs, AF, bradycardia, and SVT are not established independent risk factors for SCD in HCM guidelines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6a833619f260",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with hypertrophic cardiomyopathy (septal thickness 16 mm, no prior obstruction) is planning pregnancy. She is currently NYHA class I. Which single finding on pre-conception assessment is a contraindication to pregnancy due to high maternal risk?",
+      "options": [
+        "E/e' ratio 10 on tissue Doppler",
+        "Left atrial diameter 4.0 cm",
+        "Resting LVOT gradient of 80 mmHg",
+        "Mild mitral regurgitation on echocardiogram",
+        "History of palpitations without documented arrhythmia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe LVOT obstruction (gradient >50 mmHg at rest) is a high-risk feature in pregnancy, associated with increased maternal mortality and is a relative contraindication. The other findings, while potentially relevant, do not alone contraindicate pregnancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "76279667dd1e",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with non-obstructive hypertrophic cardiomyopathy (previously normal LVEF 60%) presents with progressive dyspnoea and orthopnoea over 3 months. Echocardiogram shows LVEF 35% and left ventricular end-diastolic diameter 5.8 cm. Which single finding is the most concerning marker of progression to end-stage HCM?",
+      "options": [
+        "Development of systolic anterior motion of the mitral valve",
+        "Left ventricular dilatation (LVEDD >5.5 cm)",
+        "New moderate mitral regurgitation",
+        "Increase in left atrial volume index to 40 mL/m²",
+        "Reduced septal thickness from 18 to 15 mm"
+      ],
+      "answerIndex": 1,
+      "explanation": "LV dilatation with reduced EF indicates the 'burned-out' or end-stage phase of HCM, which carries a poor prognosis and may require advanced heart failure therapies. The other findings are not as specific for this transition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "796de180aa4b",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known hypertrophic cardiomyopathy is brought to the emergency department after a witnessed cardiac arrest at home. He is successfully defibrillated from ventricular fibrillation. Which single echocardiographic finding is most strongly associated with this event?",
+      "options": [
+        "Moderate mitral regurgitation",
+        "Resting LVOT gradient 50 mmHg",
+        "Left atrial volume index 45 mL/m²",
+        "Maximal left ventricular wall thickness 32 mm",
+        "Apical aneurysm without thrombus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe left ventricular hypertrophy (≥30 mm) is a major risk factor for sudden cardiac death in HCM. While the other findings may also be risk factors, extreme wall thickness is one of the strongest predictors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8eb759d95c05",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "slug": "hypertrophic-cardiomyopathy",
+      "system": "Cardiovascular",
+      "subSystem": "Cardiomyopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with hypertrophic cardiomyopathy (known resting LVOT gradient 30 mmHg) presents with acute dizziness and near-syncope after using a glyceryl trinitrate spray for chest discomfort. On examination, which single clinical sign would be most concerning for a dangerous increase in LVOT obstruction?",
+      "options": [
+        "A bifid carotid pulse",
+        "A displaced apex beat",
+        "A systolic murmur that increases in intensity with Valsalva manoeuvre",
+        "A fourth heart sound (S4)",
+        "A diastolic murmur at the left sternal edge"
+      ],
+      "answerIndex": 2,
+      "explanation": "A murmur that increases with Valsalva (decreased preload) indicates dynamic LVOT obstruction. In this setting, nitrate-induced preload reduction can critically worsen obstruction, leading to haemodynamic compromise. The other signs are common in HCM but do not specifically indicate acute worsening.",
+      "difficulty": "easy"
+    }
+  ]
+}

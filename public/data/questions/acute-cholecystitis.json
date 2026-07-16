@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Cholecystitis",
+  "slug": "acute-cholecystitis",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Biliary",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:27:44Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "fdc41a32b819",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with sudden onset right upper quadrant pain radiating to the right shoulder, nausea, and fever (38.5°C). On examination, she has tenderness in the right upper quadrant with a positive Murphy's sign. Her blood tests show leukocytosis (15×10⁹/L) and normal liver function tests. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated peptic ulcer",
+        "Acute pancreatitis",
+        "Ascending cholangitis",
+        "Acute cholecystitis",
+        "Biliary colic"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of fever, persistent pain, and positive Murphy's sign favours acute cholecystitis over biliary colic, which is pain without inflammation. Normal LFTs and lack of jaundice make cholangitis unlikely. Pancreatitis and perforated ulcer have distinct presentations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "df6769766e21",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man in the intensive care unit after major abdominal surgery develops fever, leukocytosis (18×10⁹/L), and mild right upper quadrant tenderness. Ultrasound shows gallbladder wall thickening (5 mm) and pericholecystic fluid, but no gallstones. What is the single most likely diagnosis?",
+      "options": [
+        "Postoperative intra-abdominal infection",
+        "Acute cholangitis",
+        "Calculous cholecystitis",
+        "Acalculous cholecystitis",
+        "Pancreatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a critically ill postoperative patient with gallbladder wall thickening and no stones, acalculous cholecystitis is the most likely diagnosis. Calculous cholecystitis is less likely without stones. Cholangitis typically presents with jaundice and dilated bile ducts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "760fdd088c90",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man presents with severe right upper quadrant pain, fever (39°C), and hypotension (90/60 mmHg). He has marked tenderness and guarding in the right upper quadrant. Murphy's sign is positive. His bilirubin is normal. Ultrasound shows a distended gallbladder with a thickened wall and gallstones. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pancreatitis",
+        "Ascending cholangitis",
+        "Acute cholecystitis with gangrene or empyema",
+        "Liver abscess",
+        "Perforated duodenal ulcer"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of severe pain, fever, hypotension, and peritonism with a positive Murphy's sign and normal bilirubin points to complicated acute cholecystitis (gangrenous or empyema). Cholangitis is less likely without jaundice or dilated ducts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "166a1ff37bc5",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with known gallstones presents with sudden severe right upper quadrant pain that later becomes diffuse. She develops peritonitis and shock. At laparotomy, the gallbladder is found to be perforated. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated gallbladder",
+        "Acute cholecystitis",
+        "Pancreatitis",
+        "Cholangitis",
+        "Gangrenous cholecystitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "While a perforated gallbladder is a complication, the underlying condition is gangrenous cholecystitis, which leads to perforation. The scenario describes the progression from acute cholecystitis to gangrene and perforation. The most precise diagnosis is gangrenous cholecystitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "142df7483798",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old diabetic woman presents with fever (38.8°C) and confusion. She has no abdominal pain but mild right upper quadrant tenderness on deep palpation. Blood tests show leukocytosis and a CT scan reveals gas in the gallbladder wall and lumen. What is the single most likely diagnosis?",
+      "options": [
+        "Ascending cholangitis",
+        "Pyelonephritis",
+        "Emphysematous cholecystitis",
+        "Acute cholecystitis",
+        "Diverticulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gas in the gallbladder wall is pathognomonic for emphysematous cholecystitis, a severe form often seen in diabetics. The lack of pain is an atypical presentation. Acute cholecystitis would show wall thickening but not gas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c666183ce0f",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with acute right upper quadrant pain and fever. Examination reveals a positive Murphy's sign. What is the most appropriate first-line investigation to confirm the diagnosis of acute cholecystitis?",
+      "options": [
+        "HIDA scan",
+        "MRCP",
+        "Ultrasound abdomen",
+        "CT abdomen",
+        "ERCP"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ultrasound is the first-line imaging for suspected acute cholecystitis due to its high sensitivity for gallstones and signs of inflammation (wall thickening, pericholecystic fluid, sonographic Murphy sign), and it is non-invasive and widely available. MRCP is reserved for suspected choledocholithiasis, not for diagnosis of cholecystitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2613a5df1772",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with known gallstones presents with right upper quadrant pain and fever. Ultrasound of the abdomen is performed. Which of the following ultrasound findings is most indicative of acute cholecystitis?",
+      "options": [
+        "Sludge in the gallbladder",
+        "Gallstones alone",
+        "Gallbladder wall thickening >4 mm",
+        "Common bile duct diameter 8 mm",
+        "Positive sonographic Murphy sign"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gallbladder wall thickening >4 mm is a key diagnostic criterion for acute cholecystitis. While a positive sonographic Murphy sign is also highly suggestive, wall thickening is more objective and specific. Gallstones alone are common but not diagnostic; CBD dilation suggests obstruction; sludge is nonspecific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "08bd9c624758",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old diabetic man presents with severe right upper quadrant pain, high fever, and hypotension. He has a tender, distended gallbladder. Acute cholecystitis is suspected, but there is concern for gangrenous cholecystitis. Which investigation is most appropriate to assess for this complication?",
+      "options": [
+        "MRCP",
+        "ERCP",
+        "HIDA scan",
+        "Ultrasound abdomen",
+        "CT abdomen with contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT with contrast is more sensitive than ultrasound for detecting complications of acute cholecystitis such as gangrene (lack of enhancement), intraluminal gas, or perforation. Ultrasound may show wall thickening but CT better delineates complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "604507250168",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) presents with right upper quadrant pain and nausea. She has a fever and mild jaundice. Examination suggests acute cholecystitis. What is the most appropriate imaging investigation to confirm the diagnosis in pregnancy?",
+      "options": [
+        "CT abdomen with contrast",
+        "Ultrasound abdomen",
+        "HIDA scan",
+        "Plain abdominal X-ray",
+        "MRI abdomen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ultrasound is first-line in pregnancy due to lack of ionizing radiation; it is safe and effective for diagnosing gallstones and cholecystitis. MRI is second-line but not first. CT and HIDA involve radiation; X-ray is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0b3a8383cf43",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman presents with vague abdominal discomfort, intermittent fever, and confusion. Abdominal examination is non-specific. Ultrasound shows gallstones but no clear signs of cholecystitis. Acute cholecystitis is still suspected. Which investigation is most sensitive for confirming the diagnosis?",
+      "options": [
+        "HIDA scan (hepatobiliary iminodiacetic acid scan)",
+        "CT abdomen with contrast",
+        "ERCP",
+        "MRCP",
+        "Repeat ultrasound in 24 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "HIDA scan has high sensitivity (>95%) for acute cholecystitis, particularly when ultrasound is equivocal; it demonstrates non-visualization of the gallbladder due to cystic duct obstruction. MRCP is for bile duct stones. CT is less sensitive for uncomplicated cholecystitis. ERCP is therapeutic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30a3f9599960",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with right upper quadrant pain, fever, and a positive Murphy's sign. Ultrasound shows a thick-walled gallbladder with gallstones and pericholecystic fluid. She is otherwise fit and well. What is the definitive management for this episode of acute cholecystitis?",
+      "options": [
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Open cholecystectomy",
+        "Laparoscopic cholecystectomy",
+        "Conservative management with oral antibiotics",
+        "Percutaneous cholecystostomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For mild acute cholecystitis in a fit patient, laparoscopic cholecystectomy is the definitive treatment; conservative management or antibiotics alone leave the gallbladder in situ and risk recurrence. Percutaneous cholecystostomy is reserved for those unfit for surgery, and ERCP is not indicated without bile duct obstruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd8d6fa5c697",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 85-year-old man with severe COPD and heart failure presents with acute cholecystitis and septic shock. He is deemed high-risk for general anaesthesia. What is the most appropriate definitive management?",
+      "options": [
+        "Open cholecystectomy",
+        "Laparoscopic cholecystectomy",
+        "Percutaneous cholecystostomy",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Intravenous antibiotics alone"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient unfit for surgery, percutaneous cholecystostomy provides gallbladder drainage as definitive therapy for acute cholecystitis; antibiotics alone are insufficient for source control, and cholecystectomy carries prohibitive anaesthetic risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa746da258ac",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man with acute cholecystitis is about to receive analgesia. Which of the following analgesics is contraindicated in this condition?",
+      "options": [
+        "Morphine",
+        "Paracetamol",
+        "Codeine",
+        "Diclofenac",
+        "Ibuprofen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Morphine can cause spasm of the sphincter of Oddi, worsening biliary pain and potentially impairing drainage; NSAIDs (e.g., diclofenac, ibuprofen) are first-line for biliary colic, and paracetamol is safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a0148ff8aa50",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 20 weeks gestation (second trimester) presents with acute cholecystitis for the second time this pregnancy. Her vital signs are stable. What is the definitive management?",
+      "options": [
+        "Laparoscopic cholecystectomy",
+        "Open cholecystectomy",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Percutaneous cholecystostomy",
+        "Conservative management with antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the second trimester, laparoscopic cholecystectomy is safe and definitive for recurrent acute cholecystitis; conservative management risks further attacks, and open surgery carries higher morbidity. Percutaneous drainage is reserved for patients unfit for anaesthesia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c07aa0206076",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old diabetic patient presents with acute cholecystitis and signs of peritonitis. CT reveals a perforated gallbladder with a localised abscess. What is the definitive management?",
+      "options": [
+        "Intravenous antibiotics and observation",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Emergency cholecystectomy",
+        "Percutaneous drainage of abscess",
+        "Laparoscopic cholecystectomy after 6 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gallbladder perforation with peritonitis requires emergency cholecystectomy (open or laparoscopic) for source control; percutaneous drainage alone is inadequate and antibiotics alone do not address the perforation. Delayed cholecystectomy risks ongoing sepsis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c97844d5bfcc",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents to the emergency department with a 24-hour history of right upper quadrant pain and nausea. She has a temperature of 37.8°C, pulse 90 bpm, BP 120/80 mmHg. On examination, she has tenderness in the right upper quadrant with a positive Murphy's sign. White cell count is 12.0 x10^9/L, CRP 45 mg/L, bilirubin 25 µmol/L, ALP 120 U/L, ALT 60 U/L. Her amylase is normal. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an MRCP",
+        "Arrange urgent abdominal ultrasound",
+        "Refer to the general surgical team",
+        "Start intravenous co-amoxiclav 1.2g three times daily",
+        "Give intravenous morphine 5mg for pain relief"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with suspected acute cholecystitis and no signs of severe sepsis, the immediate priority is to confirm the diagnosis with an abdominal ultrasound. Empirical antibiotics are not mandatory without clear infection, and ultrasound can also assess for complications. Pain relief and surgical referral are secondary to imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1605ea16c5b",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known gallstones is admitted with severe right upper quadrant pain, fever of 39.2°C, pulse 115 bpm, BP 85/50 mmHg, respiratory rate 22/min, oxygen saturations 96% on air. He has guarding in the right upper quadrant. Blood tests show WCC 18.0, CRP 200, bilirubin 35, ALP 180, ALT 90, amylase normal. Blood cultures have been taken and IV access is obtained. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to the intensive care team",
+        "Arrange emergency CT abdomen with contrast",
+        "Give intravenous 0.9% saline 500ml bolus",
+        "Start intravenous piperacillin-tazobactam 4.5g stat",
+        "Request an urgent surgical review"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient is in septic shock from acute cholecystitis. After blood cultures, the immediate priority is to administer broad-spectrum antibiotics within one hour, as per sepsis guidelines. IV fluids should also be given but the question asks for a single action; antibiotics are the most time-critical step. Other options are important but not the immediate next action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6f3fc79c8b44",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman presents with a two-day history of right upper quadrant pain, now with increasing severity and generalized abdominal tenderness. She has a fever of 38.5°C, pulse 100 bpm, BP 100/60 mmHg. On examination, she has peritonism in the right upper quadrant with rebound. White cell count 20.0, CRP 250, bilirubin 40, ALP 200, ALT 120. An abdominal ultrasound shows a distended gallbladder with thickened wall and pericholecystic fluid, but no gallstones clearly seen. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an urgent MRCP",
+        "Obtain urgent surgical review",
+        "Give intravenous fluids",
+        "Arrange emergency CT abdomen with contrast",
+        "Start intravenous co-amoxiclav"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of peritonism and ultrasound findings suspicious for gangrenous cholecystitis require urgent surgical assessment for emergency cholecystectomy or percutaneous drainage. Antibiotics and fluids should be started simultaneously, but the critical step is to involve the surgical team to decide on definitive intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19f72697bb6f",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who is 16 weeks pregnant presents with right upper quadrant pain radiating to the back, nausea, and vomiting. She has a temperature of 37.6°C, pulse 95 bpm, BP 110/70 mmHg. On examination, there is tenderness in the right upper quadrant and a positive Murphy's sign. White cell count 14.0, CRP 50, bilirubin 20, ALP 100, ALT 40. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to the obstetric team",
+        "Give intravenous fluids and antiemetics",
+        "Request an MRCP",
+        "Start intravenous co-amoxiclav 1.2g three times daily",
+        "Arrange urgent ultrasound of the abdomen"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a pregnant patient with suspected acute cholecystitis, an urgent abdominal ultrasound is the first-line imaging to confirm the diagnosis and assess foetal wellbeing. Starting antibiotics is reasonable if infection is confirmed, but the immediate priority is diagnostic confirmation. Obstetric referral is important but not the immediate next step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "274499cd73c5",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old male nursing home resident with dementia presents with three days of poor appetite, confusion, and vague abdominal discomfort. He is afebrile, pulse 88 bpm, BP 130/80 mmHg. Abdominal examination reveals mild right upper quadrant tenderness but no guarding or Murphy's sign. Blood tests show WCC 11.0, CRP 30, bilirubin 15, ALP 110, ALT 45. Amylase normal. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give intravenous fluids and observe",
+        "Request a CT abdomen with oral contrast",
+        "Arrange an urgent abdominal ultrasound",
+        "Refer to the general surgical team",
+        "Start oral ciprofloxacin and metronidazole"
+      ],
+      "answerIndex": 2,
+      "explanation": "In elderly patients, acute cholecystitis can present atypically with confusion and vague symptoms. An abdominal ultrasound is the initial investigation of choice to identify gallstones or signs of cholecystitis. Empirical antibiotics are not indicated without clear evidence of infection, and observation may delay diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e0d2ec1af238",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old female presents with acute onset right upper quadrant pain, fever (39.5°C), and vomiting. Bloods show WCC 18×10^9/L, CRP 150 mg/L, and normal bilirubin. A contrast-enhanced CT is performed. Which radiological finding is most concerning for a life-threatening complication of acute cholecystitis?",
+      "options": [
+        "Gallbladder wall thickening of 5 mm",
+        "Pericholecystic fat stranding",
+        "Common bile duct diameter of 8 mm",
+        "Gas within the gallbladder wall",
+        "Gallstones in the gallbladder neck"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gas within the gallbladder wall is pathognomonic for emphysematous cholecystitis, a severe form with high risk of perforation and necrosis, requiring urgent surgical intervention. The other findings are typical of uncomplicated acute cholecystitis or normal variants.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "22884ac2c028",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known gallstones presents with right upper quadrant pain, fever, and vomiting. He is normotensive and alert. Bloods show WCC 22×10^9/L, CRP 200 mg/L, bilirubin 30 µmol/L, ALP 150 U/L. Using the Tokyo Guidelines for acute cholecystitis severity, which laboratory finding would upgrade this patient to severe disease?",
+      "options": [
+        "C-reactive protein >150 mg/L",
+        "INR >1.5",
+        "Bilirubin >2 times normal",
+        "Alkaline phosphatase >3 times normal",
+        "White blood cell count >18×10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "An INR >1.5 indicates hepatic dysfunction, one of the organ dysfunction criteria defining severe acute cholecystitis per Tokyo Guidelines, warranting ICU level care. High WCC and CRP are markers of inflammation, not organ failure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7265c983b73f",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman presents with suspected acute cholecystitis. She reports sudden worsening of pain and now has generalized abdominal tenderness and rigidity. Her heart rate is 120 bpm and blood pressure 95/60 mmHg. Which clinical sign confirms that gallbladder perforation has likely occurred?",
+      "options": [
+        "Murphy's sign is now absent",
+        "High-pitched bowel sounds",
+        "Generalized rigidity on palpation",
+        "Right upper quadrant rebound tenderness",
+        "Palpable gallbladder mass"
+      ],
+      "answerIndex": 2,
+      "explanation": "Generalized abdominal rigidity indicates peritonitis, which in the setting of known cholecystitis suggests perforation. Localized signs (Murphy's sign, rebound) may still be present, but rigidity is the hallmark of generalized peritonitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0daa7c1f2296",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with acute cholecystitis develops rigors, jaundice, and right upper quadrant pain. Observations: HR 110 bpm, BP 95/65 mmHg, temperature 39°C, and he is confused. Which of the following findings best identifies this as severe cholangitis (Reynolds' pentad)?",
+      "options": [
+        "C-reactive protein >200 mg/L",
+        "White blood cell count >15×10^9/L",
+        "Bilirubin >100 µmol/L",
+        "Amylase >3 times normal",
+        "Hypotension with systolic BP <90 mmHg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Reynolds' pentad for severe cholangitis includes Charcot's triad plus hypotension and altered mental status. A systolic BP <90 mmHg meets the hypotension threshold, distinguishing it from mild cholangitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d85b546ad3ec",
+      "topic": "Acute Cholecystitis",
+      "slug": "acute-cholecystitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man is in the ICU for sepsis of unknown origin. He is intubated and has not tolerated oral intake for 5 days. A bedside ultrasound shows a distended gallbladder with a thickened wall (5 mm), pericholecystic fluid, but no gallstones. Which additional finding would most strongly suggest the alternative diagnosis of acute acalculous cholecystitis?",
+      "options": [
+        "Gallbladder sludge",
+        "Gallbladder wall thickening >4 mm",
+        "Pericholecystic fat stranding",
+        "Sonographic Murphy's sign",
+        "Dilated common bile duct (10 mm)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gallbladder wall thickening >4 mm in the absence of gallstones, especially in a critically ill patient with pericholecystic fluid, is a key diagnostic criterion for acute acalculous cholecystitis. Sludge is supportive but less specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

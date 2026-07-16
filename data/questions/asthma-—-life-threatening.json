@@ -1,0 +1,513 @@
+{
+  "topic": "Asthma — Life-Threatening",
+  "slug": "asthma-—-life-threatening",
+  "system": "Respiratory",
+  "subSystem": "Asthma",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:26Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2f50d2a96adf",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman with known asthma presents to the Emergency Department with sudden-onset severe breathlessness after exposure to a cat. She is unable to speak in sentences, has a respiratory rate of 35/min, heart rate 130 bpm, blood pressure 90/60 mmHg, SpO2 88% on 15L O2. On auscultation, there is a silent chest with no wheeze. What is the single most likely diagnosis?",
+      "options": [
+        "Life-threatening asthma",
+        "Panic attack",
+        "Anaphylaxis",
+        "Foreign body aspiration",
+        "Vocal cord dysfunction"
+      ],
+      "answerIndex": 0,
+      "explanation": "The silent chest in a patient with known asthma and acute onset of severe respiratory distress after an allergen trigger is characteristic of life-threatening asthma. The absence of wheeze indicates severely reduced airflow, not improvement. Anaphylaxis would typically include hypotension and urticaria, which are not present here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f7d482f28025",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man with a history of asthma on high-dose inhaled corticosteroids presents with acute onset of wheeze, stridor, and chest tightness after eating a peanut. On examination, he has urticaria, periorbital oedema, heart rate 120 bpm, blood pressure 85/50 mmHg, SpO2 94%. What is the single most likely diagnosis?",
+      "options": [
+        "Acute severe asthma",
+        "Anaphylaxis",
+        "Panic attack",
+        "Vocal cord dysfunction",
+        "Foreign body aspiration"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of stridor, urticaria, and hypotension after a known allergen suggests anaphylaxis, not asthma alone. Stridor indicates upper airway involvement, and the systemic features differentiate it from acute severe asthma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6594f21e0e2",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old man with known asthma presents with sudden-onset left-sided pleuritic chest pain and severe dyspnoea. He is unable to complete sentences, SpO2 85% on 15L O2, trachea deviated to the right, and left-sided hyperresonance with reduced breath sounds. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumothorax",
+        "Pulmonary embolism",
+        "Life-threatening asthma",
+        "Pneumonia",
+        "Myocardial infarction"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of sudden pleuritic chest pain, tracheal deviation, hyperresonance, and reduced breath sounds is classic for tension pneumothorax. This can complicate asthma and requires immediate decompression, distinguishing it from life-threatening asthma alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2dd46d216a8",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with a history of mild asthma presents to the Emergency Department with recurrent episodes of dyspnoea and noisy breathing. She describes a sensation of throat tightening and stridor that resolves when she focuses on her breathing. Observations are normal, peak flow is 90% predicted between episodes. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Acute severe asthma",
+        "Foreign body aspiration",
+        "Vocal cord dysfunction",
+        "Panic attack"
+      ],
+      "answerIndex": 3,
+      "explanation": "The stridor that resolves with distraction, normal oxygen saturations and peak flow between episodes, and lack of response to asthma therapies point to vocal cord dysfunction. It is a common mimic of severe asthma, often misdiagnosed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8f0cbab662d7",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with a history of asthma and hypertension presents with acute-onset dyspnoea, orthopnoea, and wheeze. On examination, he has crackles up to the mid-zones bilaterally, raised JVP, and peripheral oedema. SpO2 91% on room air. What is the single most likely diagnosis?",
+      "options": [
+        "Pneumonia",
+        "Acute severe asthma",
+        "Acute heart failure (cardiac asthma)",
+        "Pulmonary embolism",
+        "Chronic obstructive pulmonary disease exacerbation"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of orthopnoea, crackles, raised JVP, and peripheral oedema suggests acute heart failure with pulmonary oedema. The wheeze is due to bronchial oedema ('cardiac asthma'), making it a mimic of asthma. The patient's age and cardiovascular risk factors support this diagnosis over acute severe asthma.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63f25ebc90dc",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old non-smoker presents with episodic wheeze, chest tightness, and cough. Spirometry shows FEV1/FVC 0.70. What is the single most appropriate test to confirm the diagnosis of asthma?",
+      "options": [
+        "Methacholine challenge",
+        "Chest X-ray",
+        "Peak expiratory flow variability",
+        "Fractional exhaled nitric oxide",
+        "Bronchodilator reversibility testing"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend bronchodilator reversibility testing as the first-line confirmatory test in adults with obstructive spirometry. A rise in FEV1 ≥12% and ≥200 mL confirms asthma. Peak flow variability is supportive but not diagnostic; methacholine challenge is reserved when reversibility is negative.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "73d681f28db2",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old with acute severe asthma presents to the emergency department. Peak expiratory flow rate is 35% predicted. What is the most appropriate next investigation to assess for life-threatening features?",
+      "options": [
+        "Electrocardiogram",
+        "Full blood count",
+        "Arterial blood gas",
+        "Serum theophylline level",
+        "Chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe asthma, an arterial blood gas is essential to identify life-threatening features such as a normal or raised PaCO2 (indicating respiratory muscle fatigue) and severe hypoxia. Chest X-ray is indicated if pneumothorax or infection is suspected but not as the primary assessment for life-threatening status.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3cdfcedcae91",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old with known asthma is in the emergency department with severe breathlessness. Arterial blood gas shows pH 7.30, PaO2 8.5 kPa, PaCO2 6.2 kPa. What does this ABG indicate?",
+      "options": [
+        "Mild asthma",
+        "Life-threatening asthma",
+        "Respiratory alkalosis",
+        "Normal asthma",
+        "Moderate asthma"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute asthma, a PaCO2 >6.0 kPa (normal or raised) is a life-threatening feature because it indicates respiratory muscle fatigue and impending respiratory arrest. A normal PaCO2 in a breathless patient is an alarming sign; a raised PaCO2 confirms life-threatening severity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f2865b3b2db7",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 6-year-old child presents with recurrent wheezing episodes, especially at night and after exercise. What is the single most suggestive investigation to confirm asthma in this age group?",
+      "options": [
+        "Wheeze only with viral infections on history",
+        "Chest X-ray showing hyperinflation",
+        "Clinical history of atopy with eczema",
+        "Bronchodilator reversibility showing >12% increase in FEV1",
+        "Peak expiratory flow variability >20% over 2 weeks"
+      ],
+      "answerIndex": 3,
+      "explanation": "In children aged 5-12 years, NICE recommends spirometry with bronchodilator reversibility as the preferred objective test. An increase in FEV1 ≥12% is diagnostic. History and atopy are supportive but not confirmatory. Peak flow variability may be used but is less reliable in children.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b0fa6210b2c",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old baker develops wheeze and chest tightness that worsens during the work week and improves on weekends. What is the single most appropriate investigation to confirm occupational asthma?",
+      "options": [
+        "Serial peak expiratory flow readings at work and away from work",
+        "Methacholine challenge",
+        "Specific IgE to wheat",
+        "Skin prick tests to flour",
+        "Chest X-ray"
+      ],
+      "answerIndex": 0,
+      "explanation": "Serial peak expiratory flow monitoring (recording PEFR at least four times daily over several weeks, including periods at work and away) is the gold standard for diagnosing occupational asthma. Skin prick tests and specific IgE show sensitisation but do not confirm work-relatedness. Methacholine challenge is not specific for occupational cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "40b13a766781",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 24-year-old woman presents to A&E with sudden-onset severe breathlessness. She has known asthma but rarely uses her inhaler. On examination, she is unable to complete sentences, respiratory rate 35/min, oxygen saturation 88% on air, heart rate 130 bpm, and she has a 'silent chest'. She is given high-flow oxygen and nebulised salbutamol 5 mg with ipratropium 0.5 mg. What is the single most appropriate first-line treatment now?",
+      "options": [
+        "IV adrenaline",
+        "IV aminophylline",
+        "IV salbutamol",
+        "IV magnesium sulphate",
+        "IV hydrocortisone 100 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Systemic corticosteroids (e.g., IV hydrocortisone) are first-line in acute severe/life-threatening asthma to reduce airway inflammation. Nebulised beta-agonists are already given; IV salbutamol and IV magnesium are second-line for refractory cases, and IV aminophylline is no longer recommended routinely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "958327b5e14b",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old man with asthma uses a salbutamol inhaler as needed. Over the past month he has needed it 3-4 times per week and wakes once per week with cough. He has no other symptoms. What is the most appropriate first-line preventer therapy?",
+      "options": [
+        "Leukotriene receptor antagonist (e.g., montelukast)",
+        "Oral prednisolone",
+        "Combined inhaled corticosteroid and long-acting beta-agonist",
+        "Long-acting beta-agonist (e.g., salmeterol)",
+        "Inhaled corticosteroid (e.g., beclometasone 200-400 mcg/day)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Step 2 of the BTS/SIGN asthma guideline recommends a regular inhaled corticosteroid as first-line preventer for adults with symptoms 3-5 times/week or nocturnal awakening. LTRA is an alternative but not first-line. LABA alone is contraindicated without ICS.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ce8375e7f8cd",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with acute severe asthma (peak expiratory flow 35% predicted, unable to speak in sentences) is given high-flow oxygen, nebulised salbutamol 5 mg and ipratropium 0.5 mg, and IV hydrocortisone 100 mg. After 20 minutes there is no improvement. What is the most appropriate next therapy?",
+      "options": [
+        "IV aminophylline",
+        "Repeat nebulised salbutamol",
+        "IV magnesium sulphate 2 g",
+        "IV adrenaline",
+        "IV salbutamol"
+      ],
+      "answerIndex": 2,
+      "explanation": "BTS/SIGN guidelines recommend considering IV magnesium sulphate (1.2-2 g) for acute severe asthma not responding to initial bronchodilator therapy. IV salbutamol is an alternative but not first-line; IV aminophylline is not routinely recommended due to side effects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0fc1f1dd327",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man with life-threatening asthma is exhausted and has a silent chest. Arterial blood gas on 15 L/min oxygen: pH 7.20, pCO₂ 8.5 kPa, pO₂ 8.0 kPa. Which therapy is CONTRAINDICATED?",
+      "options": [
+        "IV hydrocortisone",
+        "Non-invasive ventilation (NIV)",
+        "IV salbutamol",
+        "Intubation and mechanical ventilation",
+        "IV magnesium sulphate"
+      ],
+      "answerIndex": 1,
+      "explanation": "NIV is contraindicated in acute severe asthma because it can worsen hyperinflation and delay definitive airway management. Intubation with mechanical ventilation is indicated in hypercapnic respiratory failure. The other options are appropriate treatments.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dec998cb2e0d",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 50-year-old man with asthma and hypertension presents with worsening wheeze and breathlessness over the past 2 weeks. He was recently started on a new antihypertensive medication. Which drug is most likely to have contributed to his deterioration?",
+      "options": [
+        "Bisoprolol",
+        "Amlodipine",
+        "Doxazosin",
+        "Hydrochlorothiazide",
+        "Ramipril"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta-blockers, including cardioselective ones like bisoprolol, are contraindicated in asthma because they can cause bronchoconstriction. ACE inhibitors (ramipril) can cause cough but less likely to worsen asthma. Calcium channel blockers and thiazides are safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b681ac3eb527",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the ED with acute shortness of breath. She has never been diagnosed with asthma. She is unable to complete sentences, respiratory rate 28, SpO2 91% on air, and PEFR 30% predicted. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer back-to-back salbutamol nebulisations",
+        "Start intravenous aminophylline infusion",
+        "Obtain an arterial blood gas",
+        "Request a chest X-ray",
+        "Give intravenous magnesium sulfate"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute severe asthma, the immediate priority is to relieve bronchospasm with high-dose inhaled beta-2 agonists (back-to-back salbutamol nebs) alongside high-flow oxygen. Intravenous bronchodilators (aminophylline, magnesium) are second-line; ABG and CXR are useful but not the first action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2ddef910612c",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old known asthmatic presents with a 2-day history of wheeze and cough. She can speak in full sentences, respiratory rate 18, SpO2 96% on air, and PEFR 70% predicted. What is the single most appropriate immediate next step?",
+      "options": [
+        "Increase her regular inhaled corticosteroid dose",
+        "Arrange a chest X-ray",
+        "Start a course of oral prednisolone",
+        "Add a long-acting beta-agonist to her inhaler",
+        "Refer her to the respiratory clinic"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a mild-to-moderate acute exacerbation (PEFR >50-75%, no severe features), NICE guidelines recommend a short course of oral prednisolone (40-50 mg for 5 days). Increasing maintenance therapy or adding LABA is for chronic management, not the acute step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eae189d411c0",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with status asthmaticus is on non-invasive ventilation. He suddenly becomes more dyspnoeic, his oxygen saturations drop to 85%, and his trachea is deviated to the right with absent breath sounds on the left. His blood pressure is 80/40 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Obtain an urgent chest X-ray",
+        "Call the anaesthetic team for intubation",
+        "Perform emergency needle decompression of the left chest",
+        "Administer intravenous magnesium sulfate",
+        "Increase the inspiratory positive airway pressure"
+      ],
+      "answerIndex": 2,
+      "explanation": "The features (sudden deterioration, tracheal deviation, absent breath sounds, hypotension) indicate a tension pneumothorax. Immediate decompression with a large-bore needle in the second intercostal space, mid-clavicular line is life-saving before any imaging or other intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "637e33277249",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation presents with acute severe asthma. She is unable to complete sentences, respiratory rate 32, SpO2 89% on air, and PEFR 35% predicted. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give intravenous magnesium sulfate",
+        "Start intravenous aminophylline infusion",
+        "Administer back-to-back salbutamol nebulisations with high-flow oxygen",
+        "Deliver an intravenous bolus of hydrocortisone",
+        "Prepare for emergency Caesarean section"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute asthma in pregnancy is managed the same as non-pregnant, with oxygen and inhaled beta-2 agonists as first-line. Intravenous therapies are second-line. Fetal delivery is not indicated for maternal asthma; maternal stabilisation is the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd3b080d94f2",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with severe asthma presents with increasing breathlessness. He is exhausted, cyanosed, and has a silent chest on auscultation. His respiratory rate is 8, and SpO2 is 80% on a non-rebreather mask. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform oral intubation and commence mechanical ventilation",
+        "Give intravenous magnesium sulfate",
+        "Start continuous salbutamol nebulisation",
+        "Administer intravenous aminophylline",
+        "Place a supraglottic airway device"
+      ],
+      "answerIndex": 0,
+      "explanation": "A silent chest with exhaustion and hypoxia indicates life-threatening asthma and impending respiratory arrest. Immediate intubation and mechanical ventilation are required to secure the airway and provide respiratory support. Other measures should not delay airway control.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "595b9ab42127",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents to the emergency department with her first asthma attack. She has audible expiratory wheeze and a dry cough. Which single clinical finding most strongly indicates a life-threatening exacerbation?",
+      "options": [
+        "Rhonchi",
+        "Silent chest on auscultation",
+        "Expiratory wheeze",
+        "Cough productive of sputum",
+        "Peripheral cyanosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "A silent chest indicates severely reduced airflow and impending respiratory arrest, whereas wheeze, cough, and rhonchi suggest preserved airflow. Cyanosis is a late and less specific sign.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d834922efb75",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known asthma, admitted for pneumonia, develops acute breathlessness. SpO₂ is 91% on 60% oxygen. Arterial blood gas shows: pH 7.42, PaCO₂ 5.8 kPa, PaO₂ 10.2 kPa. Which result is most concerning for life-threatening asthma?",
+      "options": [
+        "pH 7.42",
+        "Lactate 1.2 mmol/L",
+        "Base excess -2 mmol/L",
+        "PaO₂ 10.2 kPa",
+        "PaCO₂ 5.8 kPa"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute asthma, hyperventilation typically causes a low PaCO₂. A normal PaCO₂ (4.7–6.0 kPa) suggests the patient is tiring and at risk of respiratory failure, a red flag for life-threatening exacerbation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cad796f55b4e",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with asthma on high-dose inhaled corticosteroids/long-acting β₂-agonists presents with sudden right-sided pleuritic chest pain and dyspnoea. Respiratory rate 30/min, heart rate 110/min, BP 100/70 mmHg, trachea deviated to the left. What is the life-threatening complication?",
+      "options": [
+        "Myocardial infarction",
+        "Tension pneumothorax",
+        "Severe asthma attack",
+        "Pulmonary embolism",
+        "Pneumonia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal deviation away from the affected side, pleuritic pain, and haemodynamic instability are classic for tension pneumothorax, a life-threatening complication in asthma that requires immediate decompression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3508d2efa2a5",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman at 32 weeks' gestation with mild asthma presents with cough and wheeze. Peak expiratory flow is 65% of predicted. Which maternal finding indicates a life-threatening exacerbation requiring immediate escalation?",
+      "options": [
+        "Silent chest on auscultation",
+        "Unable to complete sentences",
+        "Peak expiratory flow 50% of predicted",
+        "Peripheral cyanosis",
+        "SpO₂ 90% on air"
+      ],
+      "answerIndex": 1,
+      "explanation": "Inability to complete sentences is a key sign of severe respiratory distress and a red flag for life-threatening asthma. PEFR <33% is more specific for life-threatening, but among the options, being unable to speak is the most immediate indicator.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8a8d87ddfd30",
+      "topic": "Asthma — Life-Threatening",
+      "slug": "asthma-—-life-threatening",
+      "system": "Respiratory",
+      "subSystem": "Asthma",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with brittle asthma and COPD overlap is brought in by ambulance with acute breathlessness. He is confused and drowsy. Which single sign is most concerning for a life-threatening episode?",
+      "options": [
+        "Expiratory wheeze",
+        "Hyperinflation of the chest",
+        "Use of accessory muscles",
+        "Pulsus paradoxus",
+        "Reduced consciousness"
+      ],
+      "answerIndex": 4,
+      "explanation": "Reduced consciousness indicates hypercapnic encephalopathy due to respiratory failure, a life-threatening feature. Wheeze, hyperinflation, accessory muscle use, and pulsus paradoxus are signs of severe asthma but do not alone indicate imminent respiratory arrest.",
+      "difficulty": "hard"
+    }
+  ]
+}

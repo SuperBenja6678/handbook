@@ -1,0 +1,513 @@
+{
+  "topic": "Chronic Lymphocytic Leukaemia",
+  "slug": "chronic-lymphocytic-leukaemia",
+  "system": "Haematology",
+  "subSystem": "Leukaemia",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9eb702a62fb7",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man is found to have lymphocytosis (18 × 10^9/L) on routine bloods. He is asymptomatic. Examination reveals small, mobile lymph nodes in the neck and axillae. Blood film shows ‘smear cells’. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic lymphocytic leukaemia",
+        "Follicular lymphoma",
+        "Mantle cell lymphoma",
+        "Infectious mononucleosis",
+        "Reactive lymphocytosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of smear cells on blood film and persistent lymphocytosis with lymphadenopathy in an elderly patient is classic for CLL. Mantle cell lymphoma typically presents with more aggressive features and t(11;14). Infectious mononucleosis usually has atypical lymphocytes and is self-limiting. Follicular lymphoma frequently has a normal lymphocyte count. Reactive lymphocytosis is transient and not associated with smear cells.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd2ce7e328ce",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman has a 6-month history of fatigue and mild axillary lymphadenopathy. Full blood count shows haemoglobin 110 g/L, lymphocytes 25 × 10^9/L, and platelets 150 × 10^9/L. She is otherwise well. What is the single most likely diagnosis?",
+      "options": [
+        "Small lymphocytic lymphoma",
+        "Follicular lymphoma",
+        "Chronic lymphocytic leukaemia",
+        "Marginal zone lymphoma",
+        "Monoclonal B-cell lymphocytosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The lymphocyte count >5 × 10^9/L with clonality and cytopenias meets criteria for CLL. MBL has <5 × 10^9/L lymphocytes without cytopenias or significant lymphadenopathy. SLL is histologically identical but has <5 × 10^9/L lymphocytes. Follicular and marginal zone lymphomas typically present with nodal disease and lower lymphocyte counts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "97ea64419317",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 78-year-old man with known CLL for 5 years presents with rapidly enlarging neck lymph nodes, drenching night sweats, weight loss, and a fever of 38.5°C for 2 weeks. His lymphocyte count has fallen from 40 to 15 × 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Richter transformation",
+        "Hodgkin lymphoma",
+        "Progressive CLL",
+        "Diffuse large B-cell lymphoma (de novo)",
+        "Infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rapid nodal enlargement, B symptoms, and rising LDH in a patient with CLL are classic for Richter transformation (usually to DLBCL). De novo DLBCL is not preceded by CLL. Hodgkin lymphoma is a less common transformation. Progressive CLL would show rising lymphocytes. Infection is unlikely without focal signs and with unilateral nodal enlargement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ce55b4b85a6b",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with jaundice and fatigue. Bilirubin is elevated, direct Coombs test is positive, and haemoglobin is 82 g/L. Full blood count shows lymphocytes 12 × 10^9/L. She has no lymphadenopathy. What is the single most likely diagnosis?",
+      "options": [
+        "Systemic lupus erythematosus",
+        "Drug-induced haemolytic anaemia",
+        "Evans syndrome",
+        "Chronic lymphocytic leukaemia",
+        "Parvovirus B19 infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Autoimmune haemolytic anaemia can be the first presentation of CLL, especially in an elderly patient with lymphocytosis. SLE typically has other systemic features. Evans syndrome includes both haemolytic anaemia and thrombocytopenia. Drug-induced haemolysis lacks lymphocytosis. Parvovirus B19 causes aplastic crisis, not haemolysis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ed1ab995293c",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with CLL maintained on ibrutinib presents with three episodes of pneumonia in the last year. Immunoglobulin levels show low IgG and IgA. His lymphocyte count is stable at 10 × 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma",
+        "Chronic lymphocytic leukaemia with hypogammaglobulinaemia",
+        "Bruton's agammaglobulinaemia",
+        "Common variable immunodeficiency",
+        "HIV infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypogammaglobulinaemia is a known complication of CLL itself, not just treatment-related. CVID is a diagnosis of exclusion and typically presents earlier. Multiple myeloma usually has monoclonal spike and lytic lesions. HIV would have risk factors and altered CD4 count. Bruton's agammaglobulinaemia presents in childhood.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "82c3c159bfaa",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents with fatigue and generalised lymphadenopathy. Full blood count shows haemoglobin 130 g/L, platelets 200 x10^9/L, white cell count 25 x10^9/L with lymphocytosis (18 x10^9/L). Blood film shows smudge cells. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Bone marrow aspirate and trephine",
+        "Lymphocyte immunophenotyping (flow cytometry)",
+        "Blood film review",
+        "Serum lactate dehydrogenase",
+        "CT scan of chest/abdomen/pelvis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lymphocyte immunophenotyping (flow cytometry) is the gold standard to confirm CLL by demonstrating a clonal B-cell population co-expressing CD5 and CD23. Blood film shows lymphocytosis but is not diagnostic; bone marrow is not required for diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a1da0d20b4e2",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman has an incidental finding of lymphocytosis (12 x10^9/L) on routine bloods. She is asymptomatic with no lymphadenopathy or hepatosplenomegaly. What is the best next test to establish a diagnosis of CLL?",
+      "options": [
+        "Peripheral blood smear",
+        "Serum protein electrophoresis",
+        "CT thorax/abdomen/pelvis",
+        "Lymphocyte immunophenotyping (flow cytometry)",
+        "Repeat full blood count in 3 months"
+      ],
+      "answerIndex": 3,
+      "explanation": "Immunophenotyping is required to confirm clonal B cells. A blood smear may suggest CLL but cannot confirm clonality. Repeat FBC does not diagnose; serum electrophoresis and CT are not first-line diagnostic tests.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c497fe5d4554",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with known stage A CLL being monitored develops rapid enlargement of a cervical lymph node, fever, night sweats, and a rising lymphocyte count. What is the most appropriate investigation to confirm suspected Richter's transformation?",
+      "options": [
+        "18F-FDG PET-CT",
+        "Bone marrow trephine biopsy",
+        "Excisional lymph node biopsy",
+        "Flow cytometry of peripheral blood",
+        "CT-guided core needle biopsy of the node"
+      ],
+      "answerIndex": 2,
+      "explanation": "Excisional lymph node biopsy provides adequate tissue for histology and immunohistochemistry to diagnose transformation to diffuse large B-cell lymphoma. Core needle biopsy may yield insufficient material; PET-CT guides biopsy but does not confirm histology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f72c2edf0baf",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man presents with lymphocytosis (20 x10^9/L) and splenomegaly. Blood film shows lymphocytes with irregular nuclei. Immunophenotyping shows CD5+ and CD23- cells. Which test best differentiates CLL from mantle cell lymphoma?",
+      "options": [
+        "Repeat flow cytometry for CD20 expression",
+        "Bone marrow trephine biopsy",
+        "CT chest/abdomen/pelvis",
+        "FISH for t(11;14) or cyclin D1 immunohistochemistry",
+        "Serum free light chains"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mantle cell lymphoma is characterised by t(11;14) and cyclin D1 overexpression, which are absent in CLL. FISH or cyclin D1 immunohistochemistry is the definitive test; CD5+/CD23- immunophenotype is suggestive but not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd515d3e7ff8",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old with known stage CLL has been monitored with regular blood counts. Over the past 4 months, her lymphocyte count has increased from 30 x10^9/L to 50 x10^9/L. She remains asymptomatic. How should this lymphocyte doubling time be interpreted?",
+      "options": [
+        "Disease progression indicating active disease",
+        "Infection-induced reactive lymphocytosis",
+        "Laboratory error due to automated counter",
+        "Transformation to high-grade lymphoma",
+        "Indolent disease with good prognosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "A lymphocyte doubling time of less than 6 months is a criterion for active disease per IWCLL guidelines, indicating disease progression even if asymptomatic. This does not confirm transformation, which requires tissue biopsy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6664ef95c004",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man is incidentally found to have a lymphocyte count of 25 × 10⁹/L on routine bloods. He is asymptomatic with no lymphadenopathy or organomegaly. FBC is otherwise normal. Flow cytometry confirms CLL. What is the most appropriate management?",
+      "options": [
+        "Ibrutinib 420 mg once daily",
+        "Chlorambucil 0.15 mg/kg daily for 28 days",
+        "Venetoclax-obinutuzumab",
+        "Fludarabine, cyclophosphamide, rituximab (FCR)",
+        "Watch and wait with 3-monthly FBC"
+      ],
+      "answerIndex": 4,
+      "explanation": "Asymptomatic early-stage CLL (Rai stage 0) does not require treatment. NICE guidelines recommend a watch-and-wait strategy with regular monitoring. Chemotherapy or targeted therapy is reserved for symptomatic or progressive disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e010d4bb6af6",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old woman with newly diagnosed CLL presents with night sweats, weight loss, and bulky lymphadenopathy. No deletion 17p or TP53 mutation is present. She is fit with good performance status. What is the most appropriate first-line treatment?",
+      "options": [
+        "Chlorambucil plus obinutuzumab",
+        "Ibrutinib monotherapy",
+        "Fludarabine, cyclophosphamide, rituximab (FCR)",
+        "Venetoclax-obinutuzumab",
+        "Bendamustine plus rituximab"
+      ],
+      "answerIndex": 2,
+      "explanation": "For fit patients with symptomatic CLL and no high-risk genomic features, FCR is the standard first-line therapy in the UK. It has shown superior progression-free survival compared with other regimens and is recommended by NICE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ccf4f0284bfa",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with CLL on venetoclax (ramp-up completed) presents acutely with oliguria, muscle cramps, and a serum potassium of 6.8 mmol/L, phosphate 2.5 mmol/L, calcium 2.0 mmol/L, and urate 0.60 mmol/L. ECG shows peaked T-waves. He has evidence of tumour lysis syndrome (TLS) despite prophylaxis. Which of the following is CONTRAINDICATED at this point?",
+      "options": [
+        "Immediate haemodialysis",
+        "Rasburicase 0.2 mg/kg IV",
+        "Continuing venetoclax at the current dose",
+        "Administration of allopurinol",
+        "Aggressive IV hydration with 0.9% saline"
+      ],
+      "answerIndex": 2,
+      "explanation": "In established TLS, venetoclax must be withheld immediately. Once TLS resolves, it can be re-started at a reduced dose. Continuing the same dose would worsen the metabolic crisis. Hydration, rasburicase, and haemodialysis are appropriate management steps.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f317d57b3beb",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with known CLL (Rai stage I, on watch-and-wait) presents with fatigue, jaundice, and a haemoglobin of 80 g/L. Direct Coombs test is strongly positive. Reticulocyte count is elevated. Bilirubin is 45 μmol/L (unconjugated). What is the most appropriate first-line therapy for her haemolysis?",
+      "options": [
+        "Prednisolone 1 mg/kg orally once daily",
+        "Rituximab 375 mg/m² weekly for 4 weeks",
+        "Splenectomy",
+        "Fludarabine, cyclophosphamide, rituximab (FCR)",
+        "Ibrutinib 420 mg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Autoimmune haemolytic anaemia (AIHA) in CLL is initially treated with corticosteroids (e.g., prednisolone). Rituximab is a second-line option. FCR or ibrutinib are not first-line for isolated AIHA, and splenectomy is reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f4b5847caaa6",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man with symptomatic CLL requiring treatment has stage 4 chronic kidney disease (eGFR 25 mL/min). He is unfit for fludarabine. No deletion 17p or TP53 mutation is found. Which drug is CONTRAINDICATED in this setting?",
+      "options": [
+        "Fludarabine",
+        "Ibrutinib",
+        "Venetoclax",
+        "Chlorambucil",
+        "Obinutuzumab"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fludarabine is contraindicated in patients with severe renal impairment (eGFR <30 mL/min) due to increased toxicity, particularly neurotoxicity and further myelosuppression. Chlorambucil, obinutuzumab, and ibrutinib are safer alternatives in this population.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8d934a392527",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man is incidentally found to have a lymphocyte count of 14.0×10⁹/L on a routine FBC. He is asymptomatic with no lymphadenopathy or hepatosplenomegaly. What is the most appropriate next step?",
+      "options": [
+        "CT scan of chest, abdomen and pelvis",
+        "Start chlorambucil",
+        "Bone marrow aspirate and trephine",
+        "Repeat FBC in 3 months",
+        "Request peripheral blood smear and immunophenotyping"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected CLL, the first step is to confirm the diagnosis with a blood film and immunophenotyping (flow cytometry). Watchful waiting with repeat FBC is considered only after diagnosis is established. Chlorambucil is not indicated in asymptomatic patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c5e366723545",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with known CLL (on watchful waiting) presents with fevers, drenching night sweats, and rapidly enlarging cervical lymph nodes over 6 weeks. What is the most appropriate immediate next step?",
+      "options": [
+        "Blood cultures and start intravenous antibiotics",
+        "Request urgent PET-CT",
+        "Perform CT scan of neck",
+        "Start ibrutinib",
+        "Bone marrow biopsy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rapidly enlarging nodes with systemic symptoms in CLL suggest Richter’s transformation (diffuse large B-cell lymphoma). PET-CT is the best initial investigation to guide biopsy for histological confirmation. Starting chemotherapy without histological diagnosis is inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "333c12e2b699",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with CLL and symptomatic anaemia (Hb 72 g/L) develops jaundice and dark urine. Direct antiglobulin test (DAT) is positive. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform bone marrow aspirate",
+        "Start chlorambucil",
+        "Transfuse two units of packed red cells",
+        "Start rituximab",
+        "Start prednisolone 1 mg/kg orally"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is autoimmune haemolytic anaemia (AIHA), a common complication of CLL. First-line treatment is high-dose corticosteroids (prednisolone). Blood transfusion may be needed but caution is required for cross-matching; steroids are the immediate disease-modifying action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "981ffde0e5fd",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with symptomatic CLL (weight loss, night sweats, bulky lymphadenopathy) and no del(17p)/TP53 mutation is deemed fit for therapy. What is the most appropriate next step?",
+      "options": [
+        "Watchful waiting",
+        "Start ibrutinib",
+        "Refer for allogeneic stem cell transplant",
+        "Start bendamustine and rituximab",
+        "Start chlorambucil"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends ibrutinib (or venetoclax+obinutuzumab) as first-line for symptomatic CLL without del(17p). Chlorambucil and bendamustine+rituximab are no longer first-line in this fit patient. Watchful waiting is not appropriate for symptomatic disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8eec80b4e323",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with CLL started on venetoclax three days ago develops nausea, muscle cramps, and oliguria. Blood results: potassium 6.2 mmol/L, phosphate 2.5 mmol/L, uric acid 0.65 mmol/L, creatinine 180 μmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for urgent haemodialysis",
+        "Give intravenous 0.9% saline",
+        "Discontinue venetoclax",
+        "Give rasburicase",
+        "Start allopurinol"
+      ],
+      "answerIndex": 2,
+      "explanation": "These features indicate tumour lysis syndrome (TLS) induced by venetoclax. The immediate first step is to stop venetoclax. Rasburicase, hydration and electrolyte management follow, but drug discontinuation is the priority. Allopurinol is too slow for acute TLS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b91c8cb8765b",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man has a routine blood test showing a lymphocyte count of 24 x 10^9/L. He feels well. Blood film shows small mature lymphocytes and smudge cells. Which single finding would prompt urgent haematology referral?",
+      "options": [
+        "Presence of smudge cells",
+        "Lymphocyte count >20 x 10^9/L",
+        "Haemoglobin 115 g/L",
+        "Platelet count 90 x 10^9/L",
+        "Age >70 years"
+      ],
+      "answerIndex": 3,
+      "explanation": "A platelet count <100 x 10^9/L indicates bone marrow failure and is a criterion for treatment in CLL. The other findings are common in CLL but do not trigger urgent referral.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5ef31a115756",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old with known stage A CLL, observed for 2 years, presents with a 2-week history of fever, night sweats, and a rapidly enlarging left cervical lymph node, now 5 cm. What is the most likely life-threatening complication?",
+      "options": [
+        "Acute cervical lymphadenitis",
+        "Richter transformation",
+        "Metastatic carcinoma",
+        "Tuberculous lymphadenitis",
+        "Lymph node infarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rapid nodal growth with B symptoms in CLL is classic for Richter transformation (aggressive lymphoma). Infection or infarction are less likely without additional features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f6a0695c384",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with CLL presents with acute dyspnoea and pallor. She is jaundiced. Investigations show: Hb 70 g/L, reticulocytes 12%, bilirubin 45 µmol/L, haptoglobin <0.1 g/L, LDH 800 U/L. Which single finding confirms the diagnosis of autoimmune haemolytic anaemia?",
+      "options": [
+        "Elevated reticulocyte count",
+        "Low haemoglobin",
+        "Low haptoglobin",
+        "High LDH",
+        "Positive direct antiglobulin test (DAT)"
+      ],
+      "answerIndex": 4,
+      "explanation": "A positive DAT is diagnostic for AIHA as it demonstrates antibody coating on red cells. The other features are supportive but not confirmatory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "71f25d0db68b",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with CLL is planned for treatment with fludarabine-based chemotherapy. Which pre-treatment finding requires urgent action to prevent a life-threatening complication?",
+      "options": [
+        "Positive CMV IgG",
+        "Low serum immunoglobulins",
+        "High lymphocyte count",
+        "Positive hepatitis B surface antigen",
+        "Elevated alanine aminotransferase"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fludarabine can reactivate hepatitis B, leading to fulminant hepatitis. A positive HBsAg necessitates antiviral prophylaxis. Elevated LFTs may have other causes; low immunoglobulins are common; CMV IgG indicates past infection; high lymphocytosis is typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8325906fcc0",
+      "topic": "Chronic Lymphocytic Leukaemia",
+      "slug": "chronic-lymphocytic-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old with CLL on ibrutinib presents with cough, haemoptysis, and pleuritic pain. CT chest reveals a cavitating lesion in the right upper lobe. Which opportunistic infection is most likely responsible?",
+      "options": [
+        "Nocardia asteroides",
+        "Invasive pulmonary aspergillosis",
+        "Pneumocystis jirovecii pneumonia",
+        "Mycobacterium tuberculosis",
+        "Cytomegalovirus pneumonitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ibrutinib increases risk of invasive aspergillosis, which often presents with cavitating lesions. TB is possible but less common; PCP causes interstitial infiltrates; CMV and Nocardia are less typical.",
+      "difficulty": "hard"
+    }
+  ]
+}

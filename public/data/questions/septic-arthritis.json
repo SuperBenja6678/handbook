@@ -1,0 +1,513 @@
+{
+  "topic": "Septic Arthritis",
+  "slug": "septic-arthritis",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Acute joint",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:34:58Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "cedbfdf1ec62",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with rheumatoid arthritis on methotrexate presents with acute onset of a hot, swollen right knee over 24 hours. She has a temperature of 38.5°C and CRP of 210 mg/L. Which is the single most likely diagnosis?",
+      "options": [
+        "Pseudogout",
+        "Rheumatoid arthritis flare",
+        "Reactive arthritis",
+        "Septic arthritis",
+        "Gout"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of fever and markedly raised CRP in an immunosuppressed patient with acute monoarthritis makes septic arthritis the most likely diagnosis. Rheumatoid arthritis flare typically presents with polyarticular involvement and is not usually febrile.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3497b92472f1",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 3-year-old boy is brought to the Emergency Department because he is refusing to bear weight on his left leg. He has no fever but appears irritable. On examination, his left hip is held in flexion, and passive rotation causes him to cry. Which is the single most likely diagnosis?",
+      "options": [
+        "Septic arthritis",
+        "Slipped upper femoral epiphysis",
+        "Transient synovitis",
+        "Osteomyelitis of the proximal femur",
+        "Perthes disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "In young children, septic arthritis of the hip can present without fever, and the pseudoparalysis (refusal to bear weight) and irritability are classic. Transient synovitis is usually less severe and often follows an upper respiratory tract infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1261469d0db",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 25-year-old woman presents with an acutely painful, swollen right wrist. She reports that over the past few days she had migratory pain in her ankles and knees. She is sexually active and has noted a few small pustules on her hands. Which is the single most likely diagnosis?",
+      "options": [
+        "Lyme disease",
+        "Gonococcal septic arthritis",
+        "Rheumatoid arthritis",
+        "Psoriatic arthritis",
+        "Reactive arthritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of migratory arthralgias, tenosynovitis, and pustules in a young sexually active patient is classic for disseminated gonococcal infection. Reactive arthritis typically follows gastrointestinal or genitourinary infection but lacks pustules.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03f29492d9da",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with a total hip arthroplasty performed 2 years ago presents with gradual-onset groin pain and difficulty walking. He has no fever, but his CRP is 50 mg/L. X-ray shows periosteal reaction and lucent zones around the prosthesis. Which is the single most likely diagnosis?",
+      "options": [
+        "Dislocation",
+        "Prosthetic joint infection",
+        "Aseptic loosening",
+        "Osteolysis",
+        "Periprosthetic fracture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Periosteal reaction is a radiographic sign of infection rather than aseptic loosening. Low-grade prosthetic joint infection can present without fever and with only mildly elevated CRP, making it the most likely diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5ff4950e9e0b",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old intravenous drug user presents with acute-onset pain and swelling over the left sternoclavicular joint. He is febrile (38.2°C) and tachycardic. Which is the single most likely diagnosis?",
+      "options": [
+        "Costochondritis",
+        "Gout",
+        "Calcific tendinitis",
+        "Septic arthritis",
+        "Pseudogout"
+      ],
+      "answerIndex": 3,
+      "explanation": "Intravenous drug use is a risk factor for haematogenous seeding of unusual joints; the sternoclavicular joint is a classic site for septic arthritis in this population. Costochondritis is non-infectious and not typically associated with fever or swelling.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "29b49944f919",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with acute onset of a hot, red, swollen left knee. He is febrile and unable to weight-bear. Which single investigation is most likely to confirm the diagnosis?",
+      "options": [
+        "Plain X-ray of the knee",
+        "Ultrasound of the knee",
+        "Synovial fluid aspiration for culture and sensitivity",
+        "Serum C-reactive protein",
+        "Blood cultures"
+      ],
+      "answerIndex": 2,
+      "explanation": "Synovial fluid culture is the gold standard for diagnosing septic arthritis. Blood cultures are positive in only ~50% of cases and may miss the diagnosis. Imaging findings are non-specific and not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "795c6cc892a1",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 78-year-old woman with a total knee replacement 4 years ago presents with increasing pain and swelling over the prosthesis for 2 days. She has a temperature of 38.5°C. Which investigation should be performed first?",
+      "options": [
+        "CT scan",
+        "MRI with contrast",
+        "Aspiration of the knee joint for microbiology",
+        "Plain X-ray of the knee",
+        "Blood cultures"
+      ],
+      "answerIndex": 2,
+      "explanation": "Aspiration of the prosthetic joint for culture is the key diagnostic test; imaging changes can be non-specific. Blood cultures should also be taken but aspiration is more direct.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0dda07c3e559",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with known gout presents with acute monoarthritis of the first metatarsophalangeal joint. Synovial fluid analysis shows a white cell count of 48,000 cells/mm3 (48 ×10^6/L), 85% neutrophils, and negatively birefringent crystals. What is the most appropriate next step?",
+      "options": [
+        "Repeat arthrocentesis",
+        "Start antibiotics",
+        "Treat for gout and observe",
+        "Send fluid for Gram stain and culture",
+        "Order MRI"
+      ],
+      "answerIndex": 3,
+      "explanation": "Despite the presence of crystals, septic arthritis cannot be excluded; synovial fluid must be sent for culture. Co-infection is possible and culture is definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3521500227c6",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old intravenous drug user presents with acute right hip pain and fever. He is unable to bear weight. On examination, the hip is irritable with limited range of motion. Which investigation should be performed urgently?",
+      "options": [
+        "MRI of the hip",
+        "CT of the hip",
+        "Plain X-ray of the hip",
+        "Blood cultures",
+        "Ultrasound-guided aspiration of the hip"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ultrasound-guided aspiration is the definitive diagnostic test; plain films may be normal early. Blood cultures should be taken but aspiration is needed to confirm the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "105838ecbeed",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with diabetes presents with a hot, swollen ankle. Attempted joint aspiration yields only a few drops of blood-stained fluid. Which investigation is most likely to identify the causative organism?",
+      "options": [
+        "Repeat aspiration with ultrasound guidance",
+        "Serum procalcitonin",
+        "Blood cultures",
+        "MRI of the ankle",
+        "Plain X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blood cultures are positive in approximately 50% of septic arthritis cases and can identify the pathogen when joint fluid is inadequate. Repeat aspiration may still be considered but blood cultures are the next best.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f39c1ce9e5b2",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 25-year-old woman presents with acute pain, swelling, and fever in the right knee. Aspiration reveals purulent fluid and Gram-positive cocci. She has no allergies. What is the most appropriate first-line empirical antibiotic for septic arthritis?",
+      "options": [
+        "Vancomycin",
+        "Ceftriaxone",
+        "Flucloxacillin",
+        "Co-amoxiclav",
+        "Clindamycin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flucloxacillin is first-line for native joint septic arthritis per NICE guidelines (BNF). Ceftriaxone is an alternative if penicillin allergic but not first choice; vancomycin is reserved for MRSA risk; clindamycin is less preferred and also an alternative; co-amoxiclav is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a1cc2ee034c7",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 80-year-old man with a total hip replacement 5 years ago presents with hip pain, fever, and raised inflammatory markers. X-ray shows loosening of prosthesis. Blood cultures are pending. What is the most appropriate empirical intravenous antibiotic for suspected late prosthetic joint infection?",
+      "options": [
+        "Ceftriaxone",
+        "Vancomycin",
+        "Clindamycin",
+        "Flucloxacillin",
+        "Teicoplanin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vancomycin is recommended for late prosthetic joint infections (>3–12 months post-op) to cover MRSA, per NICE. Flucloxacillin is for early infections; ceftriaxone and clindamycin are alternatives but not first-line; teicoplanin is an alternative but vancomycin is standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8b36030e2801",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with an acutely swollen and erythematous wrist following a cat bite 2 days ago. He has a fever. Joint aspiration yields Gram-negative coccobacilli. What is the most appropriate first-line antibiotic?",
+      "options": [
+        "Metronidazole",
+        "Flucloxacillin",
+        "Doxycycline",
+        "Co-amoxiclav",
+        "Ciprofloxacin"
+      ],
+      "answerIndex": 3,
+      "explanation": "The organism is likely Pasteurella multocida, for which co-amoxiclav is first-line. Flucloxacillin has no activity against Gram-negatives; doxycycline and ciprofloxacin are alternatives if allergic; metronidazole covers anaerobes only.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0c9d6274377d",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 3-week-old neonate presents with a swollen, immobile left hip and fever. Septic arthritis is suspected. The baby has jaundice. Which one of the following antibiotics is CONTRAINDICATED?",
+      "options": [
+        "Ceftriaxone",
+        "Cefotaxime",
+        "Gentamicin",
+        "Vancomycin",
+        "Flucloxacillin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ceftriaxone is contraindicated in neonates with hyperbilirubinaemia due to risk of kernicterus from bilirubin displacement. Flucloxacillin, cefotaxime, gentamicin, and vancomycin are safe and commonly used in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1f2f3db66443",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with a history of MRSA colonization presents with acute septic arthritis of the shoulder. He has no drug allergies. What is the most appropriate first-line empirical antibiotic?",
+      "options": [
+        "Ceftriaxone",
+        "Co-amoxiclav",
+        "Vancomycin",
+        "Clindamycin",
+        "Flucloxacillin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Given MRSA colonization, vancomycin is first-line to cover MRSA. Flucloxacillin is ineffective; clindamycin may be used if susceptible but vancomycin is preferred; ceftriaxone and co-amoxiclav do not reliably cover MRSA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e6d5e49e8c02",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents to the ED with a 2-day history of acute left knee pain, swelling, and inability to bear weight. He has a temperature of 38.5°C and his knee is hot, tender, and erythematous. There is no history of injury or joint prosthesis. Blood pressure is 135/85 mmHg, heart rate 100 bpm, oxygen saturation 98% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an X-ray of the knee",
+        "Perform aspiration of the knee joint",
+        "Check blood cultures and inflammatory markers",
+        "Start intravenous flucloxacillin",
+        "Admit for observation and analgesia"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected native joint septic arthritis, joint aspiration for Gram stain, culture, and crystal analysis is the priority to confirm the diagnosis before antibiotics (NICE CG100). Starting antibiotics first may reduce culture yield without microbiological guidance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "63b0ad0687ad",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with rheumatoid arthritis on adalimumab presents with a warm, swollen, and tender left wrist for 24 hours. She has a low-grade fever (37.8°C) and is systemically well. CRP is 80 mg/L. She has no other joint involvement and is not on corticosteroids. What is the single most appropriate immediate next step?",
+      "options": [
+        "Increase her prednisolone dose",
+        "Start oral antibiotics",
+        "Stop adalimumab",
+        "Arrange an ultrasound scan of the wrist",
+        "Perform aspiration of the wrist joint"
+      ],
+      "answerIndex": 4,
+      "explanation": "Joint aspiration is essential to differentiate septic arthritis from a flare of rheumatoid arthritis, especially in an immunosuppressed patient. Starting antibiotics blindly or adjusting immunosuppression without a definitive diagnosis is premature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ce189843c3b2",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man was diagnosed with septic arthritis of the left hip via aspirate culture (Staphylococcus aureus) 48 hours ago and started on intravenous flucloxacillin. Despite treatment, he remains febrile (38.2°C), with worsening hip pain and a rising CRP from 120 to 200 mg/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Add gentamicin to the current regimen",
+        "Change antibiotics to vancomycin",
+        "Repeat aspiration of the hip",
+        "Refer for orthopaedic surgical drainage",
+        "Request an MRI of the hip"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lack of clinical improvement after 48 hours of appropriate antibiotics in septic arthritis indicates a potential need for joint drainage (NICE CG100). For the hip, surgical drainage is the recommended approach due to difficulty with repeated aspiration. Changing antibiotics without evidence of resistance is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68622828bd69",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old intravenous drug user presents with severe lower back pain and fever (39.0°C) for 4 days. He is unable to stand or walk. He has no neurological deficits. Blood pressure is 110/70 mmHg, heart rate 110 bpm. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request an urgent MRI of the spine",
+        "Perform a CT scan of the spine",
+        "Obtain blood cultures and lumbar puncture",
+        "Start intravenous antibiotics after blood cultures",
+        "Perform an X-ray of the lumbar spine"
+      ],
+      "answerIndex": 0,
+      "explanation": "In suspected spinal infection (discitis or vertebral osteomyelitis), urgent MRI with gadolinium is the imaging modality of choice to confirm diagnosis and assess extent (NICE NG59). Starting antibiotics before MRI may delay definitive diagnosis and is reserved for unstable patients.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b86a36ce970",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with a right total knee replacement 5 years ago presents with a 1-day history of acute knee pain, swelling, and erythema. She is febrile (38.5°C) and cannot weight bear. She has no other joint symptoms. What is the single most appropriate immediate next step?",
+      "options": [
+        "Aspirate the knee joint under aseptic technique",
+        "Check inflammatory markers and blood cultures",
+        "Start intravenous vancomycin",
+        "Perform an X-ray of the knee",
+        "Obtain an ultrasound scan of the knee"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a suspected prosthetic joint infection, joint aspiration for culture and sensitivity is the critical first step in diagnosis before starting antibiotics (NICE NG63). Empiric antibiotics without microbiological confirmation can compromise future management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42403c35ba72",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old previously fit man presents to the emergency department with a 24-hour history of acute left knee pain and swelling. He has a temperature of 38.5°C. Which single clinical finding most strongly suggests septic arthritis?",
+      "options": [
+        "Inability to bear weight",
+        "Joint line tenderness",
+        "Crepitus on passive movement",
+        "Erythema over the joint",
+        "A moderate-sized joint effusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Inability to bear weight is a classic red flag for septic arthritis, often prompting urgent joint aspiration. While other findings are common, they are less specific when combined with fever.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11ef8dea91fd",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with a total knee replacement 10 years ago presents with a 2-week history of mild knee pain and intermittent low-grade fever. On examination, there is no swelling or erythema. Which single finding would be most specific for prosthetic joint infection?",
+      "options": [
+        "Knee pain when walking",
+        "C-reactive protein (CRP) of 45 mg/L",
+        "Reduced range of motion",
+        "Knee stiffness in the morning",
+        "A sinus tract over the knee joint"
+      ],
+      "answerIndex": 4,
+      "explanation": "A sinus tract communicating with the prosthesis is virtually diagnostic of prosthetic joint infection. Other findings are non-specific and can occur in mechanical loosening or other conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e101d668c0ae",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with septic arthritis of the right shoulder is admitted and started on intravenous antibiotics. On day 2, he becomes confused, heart rate is 110 bpm, respiratory rate 20/min, blood pressure 85/55 mmHg. Which single finding indicates that he has a life-threatening complication?",
+      "options": [
+        "Hypotension (systolic BP <90 mmHg)",
+        "Tachypnoea",
+        "Fever of 38.9°C",
+        "Confusion",
+        "Tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypotension (systolic BP <90 mmHg) in the context of suspected sepsis indicates septic shock, a life-threatening complication requiring immediate escalation. While confusion and tachycardia are concerning, hypotension is the specific threshold for septic shock.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "874709bfa31f",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-year-old boy presents with a high fever and has been crying and refusing to move his right leg for the past 12 hours. His mother says he is 'dragging' the leg. Which single finding is most suggestive of septic arthritis of the hip?",
+      "options": [
+        "Swelling around the hip joint",
+        "Hip joint erythema",
+        "Pseudoparalysis of the limb",
+        "Tenderness on hip palpation",
+        "Limp when walking (if willing)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pseudoparalysis (refusal to move the limb) is a classic sign of septic arthritis in children. While fever and limp are concerning, pseudoparalysis is highly indicative of joint infection and requires urgent aspiration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9bab51476c69",
+      "topic": "Septic Arthritis",
+      "slug": "septic-arthritis",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Acute joint",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with advanced rheumatoid arthritis on high-dose prednisolone and methotrexate presents with acute pain and swelling in his left wrist over 2 days. He has no fever. Which single finding most strongly suggests septic arthritis rather than a rheumatoid flare?",
+      "options": [
+        "Elevated serum rheumatoid factor",
+        "Bilateral wrist involvement",
+        "Purulent joint fluid on aspiration",
+        "Morning stiffness",
+        "Inability to move the wrist"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an immunosuppressed patient with monoarthritis, purulent joint fluid (turbid, high white cell count) is the definitive indicator of septic arthritis. Bilateral involvement or morning stiffness suggest RA flare. Inability to move is non-specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

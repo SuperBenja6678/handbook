@@ -1,0 +1,493 @@
+{
+  "topic": "Acute Coronary Syndrome — NSTEMI",
+  "slug": "acute-coronary-syndrome-—-nstemi",
+  "system": "Cardiovascular",
+  "subSystem": "ACS",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:24Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "dc3fa9eefcae",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents with a 2-day history of epigastric discomfort, nausea, and fatigue. She has no chest pain or dyspnoea. She is a non-smoker with a history of hypertension and type 2 diabetes. ECG shows T-wave inversion in leads II, III, and aVF. High-sensitivity troponin I is 85 ng/L (normal <14). What is the single most likely diagnosis?",
+      "options": [
+        "Acute pancreatitis",
+        "Pericarditis",
+        "Unstable angina",
+        "NSTEMI",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of troponin elevation with ECG changes (T-wave inversion) in a patient with cardiovascular risk factors makes NSTEMI the most likely diagnosis. Unstable angina would not have a troponin rise; pericarditis typically has diffuse ST elevation; acute pancreatitis would usually present with severe epigastric pain and vomiting; GORD would not cause ECG changes or troponin elevation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34ace8243097",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with no past medical history presents with central chest pain radiating to the left arm, lasting 30 minutes, associated with shortness of breath. ECG shows 1 mm ST depression in leads V4-V6. High-sensitivity troponin I is 120 ng/L (normal <14). What is the single most likely diagnosis?",
+      "options": [
+        "Myocarditis",
+        "NSTEMI",
+        "Pulmonary embolism",
+        "Unstable angina",
+        "STEMI"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of troponin elevation with ST depression (rather than ST elevation) is diagnostic of NSTEMI. STEMI would show ST elevation; unstable angina would have no troponin rise; myocarditis often has a preceding viral illness and diffuse ECG changes; pulmonary embolism might show troponin rise but typically with right heart strain and respiratory symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49c80405b272",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with a history of peripheral vascular disease presents with acute onset of severe central chest pain, diaphoresis, and vomiting. ECG shows 2 mm ST depression in leads V2-V4. Blood pressure is 80/50 mmHg, heart rate 120 bpm. High-sensitivity troponin I is 250 ng/L (normal <14). What is the single most likely diagnosis?",
+      "options": [
+        "STEMI",
+        "Massive pulmonary embolism",
+        "Cardiac tamponade",
+        "NSTEMI",
+        "Acute aortic dissection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Despite the haemodynamic instability, the ECG shows ST depression (not elevation) and troponin is significantly elevated, consistent with NSTEMI. Aortic dissection typically presents with tearing pain and pulse deficit; STEMI would show ST elevation; cardiac tamponade shows electrical alternans and hypotension; massive PE would have right heart strain and respiratory distress.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77af265ad1c7",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with known heart failure is admitted with dyspnoea and orthopnoea for 1 day. She has no chest pain. ECG shows Q waves in leads V1-V3 and new ST depression in V5-V6. High-sensitivity troponin I is 90 ng/L (normal <14). What is the single most likely diagnosis?",
+      "options": [
+        "Myocardial infarction with left ventricular thrombus",
+        "Acutely decompensated heart failure",
+        "Takotsubo cardiomyopathy",
+        "STEMI",
+        "NSTEMI"
+      ],
+      "answerIndex": 4,
+      "explanation": "The new ST depression and elevated troponin indicate a NSTEMI, which can present with acute heart failure. Acute decompensated heart failure alone would not cause troponin rise or new ST changes; STEMI would show ST elevation; Takotsubo often has apical ballooning and transient LV dysfunction; LV thrombus is a complication, not a primary diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "734b4fe94b79",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with poorly controlled diabetes presents with a 2-day history of 'indigestion' and fatigue. He has no chest pain. ECG shows non-specific T-wave inversion in the lateral leads. High-sensitivity troponin I is 50 ng/L (normal <14). He is a smoker with hypertension. What is the single most likely diagnosis?",
+      "options": [
+        "NSTEMI",
+        "Costochondritis",
+        "Oesophageal spasm",
+        "Hyperventilation syndrome",
+        "Unstable angina"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atypical presentations of NSTEMI are common in diabetics; the troponin elevation confirms myocardial injury. Unstable angina would have normal troponin; oesophageal spasm and costochondritis would not cause ECG changes or troponin elevation; hyperventilation may cause chest tightness but not troponin rise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a5b52b5b475e",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man presents with central chest pain that started 4 hours ago while walking. Pain is heavy, radiates to left arm, associated with nausea. ECG on arrival shows no significant abnormalities. His pain has resolved after sublingual GTN. What is the single most appropriate next investigation to confirm the diagnosis?",
+      "options": [
+        "High-sensitivity troponin I now and repeat at 3 hours",
+        "CT coronary angiography",
+        "Invasive coronary angiography",
+        "Transthoracic echocardiogram",
+        "Exercise tolerance test"
+      ],
+      "answerIndex": 0,
+      "explanation": "For suspected NSTEMI with non-diagnostic ECG, the next step is high-sensitivity troponin measurement at presentation and at 3 hours to detect myocardial injury. CT coronary angiography is reserved for patients with low-to-intermediate probability after troponin results. Other options are not indicated acutely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b9a9fc13201c",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman presents with 30 minutes of crushing retrosternal chest pain, hypotension, and bilateral basal crackles. ECG shows widespread ST depression >0.5mm in leads V1-V4. What is the single most appropriate investigation to confirm the diagnosis of NSTEMI?",
+      "options": [
+        "High-sensitivity troponin I",
+        "Chest X-ray",
+        "D-dimer",
+        "CT pulmonary angiogram",
+        "Urgent echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "In NSTEMI, the definitive diagnosis requires elevated troponin (≥99th percentile upper reference limit). Despite ECG changes and clinical signs, troponin is essential to confirm myocardial injury. Echocardiography can support but is not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70ab31859e55",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with known NSTEMI (diagnosed 2 days ago, conservatively managed) develops acute dyspnoea, hypotension, and elevated JVP. ECG shows sinus tachycardia with low voltage. What is the single most appropriate investigation to determine the cause?",
+      "options": [
+        "Chest X-ray",
+        "Repeat high-sensitivity troponin",
+        "CT pulmonary angiogram",
+        "Transthoracic echocardiogram",
+        "Pericardial fluid aspiration"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presentation suggests pericardial effusion/cardiac tamponade (low voltage, hypotension, JVP). Echocardiogram is the investigation of choice to confirm effusion and haemodynamic compromise. Troponin may be elevated but does not diagnose the complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e7cb1e5db843",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with type 2 diabetes presents with epigastric discomfort, nausea, and diaphoresis for 2 hours. ECG shows sinus rhythm with no significant ST changes. He has a previous history of hypertension and hyperlipidaemia. What is the single most appropriate investigation to rule out NSTEMI?",
+      "options": [
+        "CT coronary angiography",
+        "B-type natriuretic peptide",
+        "Upper GI endoscopy",
+        "Amylase",
+        "High-sensitivity troponin I at 0 and 3 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "Diabetic patients often have atypical presentations of ACS. High-sensitivity troponin measurement is essential to exclude acute myocardial injury. NICE recommends serial troponin in all suspected ACS. Other tests target alternative diagnoses but are not first line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9b52be1459f7",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man presents with chest pain 6 hours ago, now resolved. Initial hs-cTnI is 18 ng/L (normal <14). Repeat at 3 hours is 20 ng/L. What is the most accurate interpretation?",
+      "options": [
+        "NSTEMI is confirmed because of the rise and fall",
+        "The result is inconclusive, further testing needed",
+        "There is no evidence of myocardial injury",
+        "NSTEMI is confirmed based on the elevated level alone",
+        "This indicates unstable angina"
+      ],
+      "answerIndex": 0,
+      "explanation": "The diagnosis of NSTEMI requires a rise and/or fall of cardiac troponin with at least one value above the 99th percentile. Here, both values are elevated and show a rise, confirming myocardial injury indicative of NSTEMI. A single elevated level is not sufficient without a dynamic change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb64c895d0a8",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with central chest pain lasting 2 hours, now resolved. ECG shows no ischaemic changes. High-sensitivity troponin I is elevated at 85 ng/L (ref <34). He has no contraindications to antiplatelets. What is the most appropriate first-line antiplatelet regimen?",
+      "options": [
+        "Clopidogrel alone",
+        "Aspirin alone",
+        "Aspirin + clopidogrel",
+        "Aspirin + ticagrelor",
+        "Ticagrelor alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends dual antiplatelet therapy with aspirin and a P2Y12 inhibitor (ticagrelor or prasugrel) for NSTEMI. Ticagrelor is preferred over clopidogrel due to superior outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "99ae2c2256c8",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with NSTEMI has recurrent chest pain, dynamic ST depression on ECG, and a GRACE score of 150. What is the most appropriate revascularisation strategy?",
+      "options": [
+        "Immediate percutaneous coronary intervention (PCI) within 2 hours",
+        "Coronary artery bypass grafting (CABG)",
+        "Early PCI within 24 hours",
+        "Conservative medical management",
+        "Thrombolysis"
+      ],
+      "answerIndex": 2,
+      "explanation": "For high-risk NSTEMI (e.g., dynamic ECG changes, elevated troponin), NICE recommends early invasive coronary angiography within 24 hours. Immediate PCI is reserved for very high risk (haemodynamic instability, refractory pain). Thrombolysis is contraindicated in NSTEMI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e54ad5b89b6",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with NSTEMI develops cardiogenic shock (BP 80/50, tachycardia, cold peripheries). What is the most appropriate treatment?",
+      "options": [
+        "Intra-aortic balloon pump",
+        "Urgent percutaneous coronary intervention (PCI)",
+        "Intravenous dobutamine",
+        "Conservative management",
+        "Thrombolysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In NSTEMI complicated by cardiogenic shock, urgent revascularisation (PCI) is indicated to improve outcomes. Inotropic support may be used as a bridge, but the definitive therapy is PCI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3fa3e9b26f99",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with NSTEMI has a history of ischaemic stroke 6 months ago. She has no other contraindications. Which antiplatelet agent is contraindicated?",
+      "options": [
+        "Abciximab",
+        "Ticagrelor",
+        "Clopidogrel",
+        "Aspirin",
+        "Prasugrel"
+      ],
+      "answerIndex": 4,
+      "explanation": "Prasugrel is contraindicated in patients with prior stroke or transient ischaemic attack due to increased risk of intracranial haemorrhage. Other antiplatelets are safe in this setting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "339b8aa5f484",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 85-year-old frail man with NSTEMI has a high bleeding risk (anaemia, renal impairment). His ECG shows minimal changes, troponin mildly elevated, and he is pain-free. What is the most appropriate management?",
+      "options": [
+        "Immediate PCI",
+        "Conservative medical management",
+        "Dual antiplatelet therapy without revascularisation",
+        "Early PCI within 24 hours",
+        "Thrombolysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In elderly frail patients with high bleeding risk and low-risk features (no ongoing pain, minimal changes), a conservative strategy without routine invasive angiography is recommended to avoid procedural complications. Dual antiplatelet therapy alone still carries bleeding risk, so conservative management with single antiplatelet may be considered.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "89eefe85b998",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents with central chest pain on exertion that lasted 20 minutes. He is now pain-free. ECG shows no ST-segment elevation or depression; high-sensitivity troponin I is 35 ng/L (upper reference limit <34 ng/L). What is the most appropriate next step?",
+      "options": [
+        "Exercise ECG stress test",
+        "CT coronary angiogram",
+        "Repeat high-sensitivity troponin in 3 hours",
+        "Start dual antiplatelet therapy",
+        "Discharge home with outpatient follow-up"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidance for NSTEMI recommends repeating troponin at 3 hours for those with borderline initial results; clinical likelihood is high enough to warrant further testing. Discharge is inappropriate. CT coronary angiogram is not first-line. Exercise ECG is contraindicated in acute phase. Dual antiplatelet therapy should not be started until diagnosis is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d53382e3e50",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with hypertension presents with intermittent chest pain. Her admission high-sensitivity troponin is 120 ng/L. ECG shows T-wave inversion in leads V3-V5. GRACE score indicates moderate risk (2.5% 6-month mortality). She is already on aspirin 75 mg daily. What is the most appropriate next step?",
+      "options": [
+        "Add ticagrelor and fondaparinux, plan coronary angiography within 96 hours",
+        "Request echocardiogram before any further treatment",
+        "Add clopidogrel and start low-molecular-weight heparin",
+        "Immediate coronary angiography within 24 hours",
+        "Add beta-blocker and refer for outpatient coronary angiography"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends for moderate-risk NSTEMI: add a P2Y12 inhibitor (ticagrelor preferred) and fondaparinux, with coronary angiography within 96 hours. Immediate angiography is for high-risk. Clopidogrel is an alternative but ticagrelor is first-line. Beta-blocker is not the immediate priority. Echocardiogram is not required before invasive management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0826745f5c0f",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known NSTEMI diagnosed 2 days ago develops acute dyspnoea, oxygen saturations 88% on room air, widespread crepitations, and frothy sputum. Blood pressure 105/70 mmHg. What is the most appropriate next step?",
+      "options": [
+        "Stat echocardiogram",
+        "Call anaesthetic team for intubation",
+        "Continuous positive airway pressure (CPAP)",
+        "IV glyceryl trinitrate infusion",
+        "IV furosemide 40 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute pulmonary oedema in NSTEMI requires immediate IV diuretic (furosemide). CPAP is supportive but not the first pharmacological step. Nitrates are useful, but diuresis is primary. Echocardiogram should not delay treatment. Intubation is a later step if non-invasive fails.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "baabaa538853",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old frail woman with NSTEMI, GRACE score 1.2% (low risk), creatinine 120 µmol/L (eGFR 38 mL/min), previous GI bleed. She has mild chest pain only. What is the most appropriate next step?",
+      "options": [
+        "Coronary angiography within 72 hours",
+        "Refer to cardiology for urgent review",
+        "Fondaparinux 2.5 mg SC daily",
+        "Conservative management without angiography",
+        "Dual antiplatelet therapy with aspirin and clopidogrel"
+      ],
+      "answerIndex": 3,
+      "explanation": "In elderly frail patients with low-risk NSTEMI and high bleeding risk, conservative management (medical therapy without angiography) is preferred per NICE. Angiography carries procedural risk. Dual antiplatelet therapy increases bleeding. Fondaparinux requires prior risk assessment. Cardiology referral is not an action itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "afee64ed65b6",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man presents with central chest pain that began 4 hours ago. ECG shows no ST elevation but T-wave inversion in V2-V4. High-sensitivity troponin is elevated at 85 ng/L (upper reference limit 34 ng/L). He has already received aspirin, clopidogrel, and sublingual GTN with some relief. Which single finding would mark this as a high-risk NSTEMI requiring urgent consideration for coronary angiography?",
+      "options": [
+        "Normal chest X-ray",
+        "Systolic blood pressure 130/80 mmHg",
+        "Heart rate of 95 bpm",
+        "Pain score 2/10 at rest",
+        "Recurrent chest pain after initial relief"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE guidelines, ongoing or recurrent ischaemic chest pain despite initial medical therapy is a high-risk feature that warrants urgent angiography. Tachycardia, mild hypertension, low pain score, and normal CXR are not in themselves escalation thresholds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3eea914ad342",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with known coronary artery disease is admitted with NSTEMI. She has been stable for 48 hours on medical therapy. On morning review, she appears comfortable but you notice a new finding on examination. Which single finding is most concerning for a life-threatening mechanical complication?",
+      "options": [
+        "Ankle-brachial pressure index 1.0",
+        "Mild peripheral oedema",
+        "Fine crackles in both lung bases",
+        "New harsh holosystolic murmur at left lower sternal border",
+        "Tenderness in the right upper quadrant"
+      ],
+      "answerIndex": 3,
+      "explanation": "A new harsh holosystolic murmur, especially after an MI, suggests ventricular septal rupture or papillary muscle rupture causing acute mitral regurgitation—both mechanical complications requiring urgent surgical or percutaneous intervention. Crackles, oedema, normal ABI, and RUQ tenderness are not specific red flags for mechanical complications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "05e9511818ef",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man with NSTEMI and ongoing chest pain suddenly develops hypotension (BP 85/50 mmHg) and distended neck veins. On auscultation, heart sounds are muffled. Which single diagnosis must be excluded urgently?",
+      "options": [
+        "Pulmonary embolism",
+        "Acute aortic regurgitation",
+        "Cardiac tamponade",
+        "Right ventricular infarction",
+        "Sepsis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The triad of hypotension, raised JVP, and muffled heart sounds (Beck's triad) is classic for cardiac tamponade, which can complicate myocardial free wall rupture. This is a life-threatening emergency requiring immediate echocardiography and likely drainage. PE, AR, RV infarction, and sepsis are differentials but less specific given the presentation after NSTEMI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ecb59b5324f7",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with diabetes presents with syncope and dyspnoea, no chest pain. ECG shows ST depression in leads V4-V6. Troponin is elevated. Which single finding on examination or investigation most strongly indicates a high-risk presentation requiring immediate specialist referral?",
+      "options": [
+        "Sustained ventricular tachycardia on telemetry",
+        "Respiratory rate 18 breaths/min",
+        "Haemoglobin 135 g/L",
+        "Blood pressure 145/85 mmHg",
+        "Chest X-ray showing cardiomegaly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sustained ventricular tachycardia is a life-threatening arrhythmia complicating NSTEMI and a high-risk feature per NICE criteria. It demands immediate intervention (e.g., cardioversion) and urgent angiography. Mild hypertension, normal respiratory rate, cardiomegaly alone, and normal Hb do not meet escalation thresholds.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "97f90febcabd",
+      "topic": "Acute Coronary Syndrome — NSTEMI",
+      "slug": "acute-coronary-syndrome-—-nstemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with NSTEMI was managed conservatively 5 days ago and is now pain-free without complications. She is on dual antiplatelet therapy, a beta-blocker, and a statin. During today's ward round, she mentions feeling 'odd' and her cardiac monitor shows a new rhythm. Which single finding would most urgently warrant escalation?",
+      "options": [
+        "Occasional ventricular ectopics",
+        "Atrial fibrillation with ventricular rate of 140 bpm",
+        "Heart rate 60 bpm with sinus rhythm",
+        "First-degree heart block (PR interval 240 ms)",
+        "Sinus bradycardia at 50 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "New-onset atrial fibrillation with rapid ventricular response can cause haemodynamic instability and increases the risk of stroke and further ischaemia. It requires rate or rhythm control and consideration of anticoagulation, and is a red flag in a post-NSTEMI patient. Sinus rhythm, ectopics, first-degree block, and sinus bradycardia are not emergencies.",
+      "difficulty": "medium"
+    }
+  ]
+}

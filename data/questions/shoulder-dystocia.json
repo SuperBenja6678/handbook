@@ -1,0 +1,513 @@
+{
+  "topic": "Shoulder Dystocia",
+  "slug": "shoulder-dystocia",
+  "system": "Obstetrics",
+  "subSystem": "Labour emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:38:18Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7a7149c54693",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old primigravida at 40 weeks gestation has just delivered the fetal head. The obstetrician attempts to deliver the anterior shoulder but it remains impacted. The mother is pushing, but further gentle traction fails. What is the single most likely diagnosis?",
+      "options": [
+        "Uterine rupture",
+        "Cord prolapse",
+        "Shoulder dystocia",
+        "Cephalopelvic disproportion",
+        "Fetal macrosomia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic presentation of a delivered head with failure to deliver the shoulders after gentle traction confirms shoulder dystocia. The most tempting distractor is cephalopelvic disproportion, but that typically presents with failure of descent or arrest of labour before full dilation, not after head delivery.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bcb7d1ca39a8",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 27-year-old G2P1 at 39 weeks develops a prolonged second stage. After an episiotomy, the head delivers but retracts tightly against the perineum (turtle sign). The midwife calls for help. What is the single most likely diagnosis?",
+      "options": [
+        "Uterine atony",
+        "Shoulder dystocia",
+        "Fetal distress",
+        "Cervical dystocia",
+        "Nuchal cord"
+      ],
+      "answerIndex": 1,
+      "explanation": "Turtle sign is pathognomonic for shoulder dystocia. The most tempting distractor is nuchal cord, which can cause retraction but is usually reducible; turtle sign specifically indicates impaction of shoulders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "adbd1f16134a",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old G4P3 with gestational diabetes presents at 38 weeks. The baby is estimated at 4.5 kg. Labour progresses normally, and after a normal second stage the head delivers spontaneously. The baby appears large, and the anterior shoulder fails to deliver despite McRoberts' manoeuvre. What is the single most likely diagnosis?",
+      "options": [
+        "Cephalopelvic disproportion",
+        "Fetal macrosomia",
+        "Shoulder presentation",
+        "Obstructed labour",
+        "Shoulder dystocia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Even though fetal macrosomia is a risk factor, the clinical event of failure to deliver shoulders after head delivery defines shoulder dystocia. Macrosomia is a risk factor not a diagnosis; obstructed labour occurs before full dilation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e6a2f68608b5",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old G2P1 at 41 weeks has a prolonged second stage. The head delivers but retracts. The midwife applies fundal pressure (which is incorrect) and the shoulders deliver. The baby has a weak arm with absence of Moro reflex on that side. What is the single most likely diagnosis for the obstetric emergency that preceded the arm weakness?",
+      "options": [
+        "Primary postpartum haemorrhage",
+        "Fetal macrosomia",
+        "Shoulder dystocia",
+        "Uterine rupture",
+        "Brachial plexus injury"
+      ],
+      "answerIndex": 2,
+      "explanation": "The scenario describes an unrecognised shoulder dystocia (retraction of head) managed incorrectly with fundal pressure. Brachial plexus injury is a complication, not the primary event. The question asks for the emergency diagnosis, which is shoulder dystocia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d057967cf708",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old primigravida at 42 weeks with BMI 35. Labour is induced. After a normal first stage, the second stage lasts 3 hours. The head delivers but the chin remains tightly applied to the perineum. What is the single most likely diagnosis?",
+      "options": [
+        "Deep transverse arrest",
+        "Occipito-posterior position",
+        "Fetal macrosomia",
+        "Shoulder dystocia",
+        "Prolonged second stage"
+      ],
+      "answerIndex": 3,
+      "explanation": "The chin retraction (turtle sign) is classic for shoulder dystocia. Deep transverse arrest and occipito-posterior position affect descent but not after head delivery. Prolonged second stage is a risk factor, not the diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f40282a1fb40",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old primigravida at term has been pushing for 2 hours. The fetal head delivers and then retracts tightly against the perineum. Gentle downward traction is applied but the anterior shoulder does not deliver. What is the most specific diagnostic criterion for shoulder dystocia?",
+      "options": [
+        "Prolonged second stage >2 hours",
+        "Fetal head retraction (turtle sign)",
+        "Birth weight >4.5 kg",
+        "Inability to deliver the anterior shoulder with gentle traction",
+        "Need for suprapubic pressure"
+      ],
+      "answerIndex": 3,
+      "explanation": "The diagnostic criterion for shoulder dystocia per RCOG is failure to deliver the anterior shoulder with gentle traction. Turtle sign is highly suggestive but not definitive; the other options are risk factors, not diagnostic criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fea2dc0eefd2",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman with gestational diabetes has a prolonged second stage. After delivery of the fetal head, gentle traction is attempted but the anterior shoulder remains undelivered. Which of the following is the most appropriate next step to confirm the diagnosis?",
+      "options": [
+        "Apply fundal pressure",
+        "Perform an ultrasound to assess fetal shoulder width",
+        "Document the failure of gentle traction",
+        "Attempt McRoberts manoeuvre",
+        "Request a fetal blood sample"
+      ],
+      "answerIndex": 2,
+      "explanation": "Shoulder dystocia is diagnosed clinically when gentle traction fails; no imaging or other test is required. Documenting the failure of gentle traction confirms the diagnosis. Fundal pressure is contraindicated, and McRoberts is a treatment, not a diagnostic test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c1cd8b5150a",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 40-year-old multiparous woman at 41 weeks delivers the fetal head with difficulty. The head retracts, and the anterior shoulder is not visible. Gentle traction fails. Which single finding confirms the diagnosis of shoulder dystocia?",
+      "options": [
+        "Inability to deliver the anterior shoulder with gentle downward traction",
+        "Fetal bradycardia on CTG",
+        "Prolonged second stage of labour",
+        "Need for McRoberts manoeuvre",
+        "Fetal head retraction (turtle sign)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The diagnostic criterion is failure of gentle traction to deliver the anterior shoulder. Turtle sign is a strong indicator but can occur without true dystocia; need for McRoberts is a retrospective confirmation. Prolonged second stage and bradycardia are associated but not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb8358e632f9",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A newborn is found to have Erb's palsy after a delivery where McRoberts manoeuvre and suprapubic pressure were used. Which of the following most reliably indicates that shoulder dystocia was present?",
+      "options": [
+        "Birth weight >4.5 kg",
+        "Maternal diabetes",
+        "Prolonged second stage",
+        "Use of McRoberts manoeuvre",
+        "Presence of Erb's palsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The need for additional obstetric manoeuvres, such as McRoberts, is the best evidence that shoulder dystocia occurred. Erb's palsy can occur without dystocia; birth weight, prolonged second stage, and diabetes are risk factors but not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9a6c206ac612",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman with a BMI of 40 is in active labour. After delivery of the fetal head, gentle traction fails to deliver the shoulders. Which of the following is NOT a recognised diagnostic indicator of shoulder dystocia?",
+      "options": [
+        "Fetal head retraction (turtle sign)",
+        "Use of McRoberts manoeuvre",
+        "Inability to deliver the anterior shoulder with gentle traction",
+        "Need for suprapubic pressure",
+        "Use of fundal pressure to assist delivery"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fundal pressure is contraindicated and is not a diagnostic sign; it may cause uterine rupture. The other options are classic signs or manoeuvres that confirm the diagnosis when gentle traction fails.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "71dc0eb46acf",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old primigravida has just delivered the head of a 4.0 kg baby. The chin retracts against the perineum (turtle sign) and the shoulders remain undelivered. What is the single most appropriate first-line manoeuvre?",
+      "options": [
+        "Rubin II manoeuvre",
+        "McRoberts' manoeuvre with suprapubic pressure",
+        "Fundal pressure",
+        "Zavanelli manoeuvre",
+        "Delivery of the posterior arm"
+      ],
+      "answerIndex": 1,
+      "explanation": "McRoberts' manoeuvre with suprapubic pressure is the recommended initial step for shoulder dystocia. It reduces the angle of pelvic inclination and dislodges the impacted shoulder. Fundal pressure is contraindicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b0992e01b85a",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman experiences shoulder dystocia. McRoberts' manoeuvre and suprapubic pressure have been attempted without success. What is the most appropriate next manoeuvre?",
+      "options": [
+        "Delivery of the posterior arm",
+        "Zavanelli manoeuvre",
+        "Symphysiotomy",
+        "Rubin II manoeuvre (pressure on the posterior aspect of the anterior shoulder)",
+        "Woods' screw manoeuvre (pressure on the anterior aspect of the posterior shoulder)"
+      ],
+      "answerIndex": 3,
+      "explanation": "After initial measures fail, internal rotational manoeuvres are recommended. Rubin II is typically attempted first as it rotates the anterior shoulder to a more favourable position.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d44f277205e",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with gestational diabetes has a macrosomic fetus and experiences shoulder dystocia. McRoberts, suprapubic pressure, internal rotational manoeuvres (Rubin II and Woods screw), and attempted delivery of the posterior arm have all failed. The fetal heart rate is now less than 60 bpm. What is the single most appropriate next step?",
+      "options": [
+        "Symphysiotomy",
+        "Fundal pressure",
+        "Repeat McRoberts' manoeuvre",
+        "Zavanelli manoeuvre",
+        "Cleidotomy"
+      ],
+      "answerIndex": 3,
+      "explanation": "When all standard maneuvers fail and fetal distress is present, the Zavanelli maneuver (cephalic replacement) is the definitive step to allow emergency caesarean delivery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "88290aa8166e",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A junior doctor suggests applying fundal pressure during a shoulder dystocia to help deliver the shoulders. Which of the following best describes the role of fundal pressure?",
+      "options": [
+        "It is contraindicated as it worsens impaction and risks uterine rupture",
+        "It is useful after McRoberts' manoeuvre",
+        "It is the first-line manoeuvre",
+        "It is equivalent to suprapubic pressure",
+        "It is only used in conjunction with internal rotations"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fundal pressure is contraindicated in shoulder dystocia because it further impacts the anterior shoulder and increases the risk of uterine rupture and fetal injury.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0f82461a998c",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman has shoulder dystocia. After successful McRoberts and suprapubic pressure, the obstetrician performs a Rubin II manoeuvre, but the anterior shoulder remains impacted. What is the most appropriate next manoeuvre?",
+      "options": [
+        "Zavanelli manoeuvre",
+        "Symphysiotomy",
+        "Delivery of the posterior arm",
+        "Fundal pressure",
+        "Woods' screw manoeuvre"
+      ],
+      "answerIndex": 4,
+      "explanation": "After Rubin II, the next recommended internal rotational manoeuvre is Woods' screw, which rotates the shoulders by applying pressure on the posterior shoulder.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdb593547082",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old primigravida is in the second stage of labour. After delivery of the fetal head, it retracts against the perineum (turtle sign). The midwife calls for help. What is the most appropriate immediate next step?",
+      "options": [
+        "McRoberts manoeuvre",
+        "Delivery of posterior arm",
+        "Zavanelli manoeuvre",
+        "Fundal pressure",
+        "Suprapubic pressure"
+      ],
+      "answerIndex": 0,
+      "explanation": "The turtle sign indicates shoulder dystocia. The first-line manoeuvre is McRoberts (hyperflexion of the maternal hips), which widens the pelvic outlet. Suprapubic pressure is added if needed, but McRoberts alone is the immediate first step. Fundal pressure and Zavanelli are contraindicated or reserved for failed initial steps.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "851bf5620de9",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "Shoulder dystocia was resolved after McRoberts and suprapubic pressure. The baby is born but appears floppy and not breathing. What is the most appropriate immediate next step?",
+      "options": [
+        "Intubate the baby",
+        "Start positive pressure ventilation",
+        "Start chest compressions",
+        "Give naloxone",
+        "Dry and stimulate the baby"
+      ],
+      "answerIndex": 4,
+      "explanation": "The first step in neonatal resuscitation is drying and stimulating the baby to assess breathing and tone. If the baby remains apnoeic, positive pressure ventilation would be next. Chest compressions, intubation, and naloxone are later steps and not the immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ca9831d40c3",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with a history of shoulder dystocia in a previous pregnancy is now in labour. The head is delivered and shoulder dystocia occurs again. McRoberts and suprapubic pressure fail. What is the most appropriate next manoeuvre?",
+      "options": [
+        "Delivery of posterior arm",
+        "Woods' screw",
+        "Zavanelli manoeuvre",
+        "Symphysiotomy",
+        "Rubin's manoeuvre"
+      ],
+      "answerIndex": 0,
+      "explanation": "After failed initial manoeuvres, the next recommended step is delivery of the posterior arm to reduce the bisacromial diameter. Woods' screw and Rubin's are alternatives but delivery of the posterior arm is often the most effective. Zavanelli and symphysiotomy are last-resort measures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b0d586bfc411",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "After a difficult delivery complicated by shoulder dystocia, the placenta is delivered but the uterus feels boggy and there is heavy bleeding. What is the most appropriate immediate next step?",
+      "options": [
+        "Check for retained placental tissue",
+        "Cross-match blood",
+        "Give oxytocin bolus",
+        "Bimanual uterine compression",
+        "Start intravenous fluids"
+      ],
+      "answerIndex": 2,
+      "explanation": "Immediate management of postpartum haemorrhage is administration of oxytocin (IV or IM) to promote uterine contraction. Uterine massage and fluids are also important but oxytocin is the first pharmacologic step. Bimanual compression and exploration for retained tissue come after initial medical treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e61a5c3b326",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A midwife calls you to see a newborn who has a suspected left Erb's palsy after a shoulder dystocia delivery. The baby is otherwise well and crying. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a neurological examination",
+        "Request a shoulder X-ray",
+        "Refer to paediatric physiotherapy",
+        "Reassure the parents",
+        "Apply a sling to the arm"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first step is a thorough neurological examination to confirm the diagnosis and assess the extent of injury, which guides the urgency of referral. Physiotherapy is a subsequent step, and X-ray is not routinely needed unless fracture is suspected. Parent reassurance and sling are not immediate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8e35b6a69f69",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old primigravida at 40 weeks gestation had a prolonged second stage. After delivery of the fetal head, you note that the chin retracts against the perineum. Which single finding indicates that this is a shoulder dystocia emergency?",
+      "options": [
+        "Prolonged second stage >3 hours",
+        "Maternal exhaustion",
+        "Retraction of the fetal head against the perineum",
+        "Inability to deliver the anterior shoulder",
+        "Fetal heart rate decelerations"
+      ],
+      "answerIndex": 2,
+      "explanation": "The turtle sign (retraction of the fetal head against the perineum) is pathognomonic for shoulder dystocia. It immediately identifies a mechanical obstruction requiring urgent maneuvers to prevent fetal hypoxia. Other findings may be associated but are not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "90ce39baca03",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with gestational diabetes on insulin is in the second stage. The fetal head has been delivered, and gentle traction fails to deliver the anterior shoulder despite suprapubic pressure. Which finding would indicate the need for immediate escalation?",
+      "options": [
+        "Prolonged second stage >2 hours",
+        "Failure to deliver shoulders after 30 seconds",
+        "Failure to deliver shoulders after 60 seconds",
+        "Maternal tachycardia",
+        "Fetal bradycardia <60 bpm"
+      ],
+      "answerIndex": 4,
+      "explanation": "Persistent fetal bradycardia (<60 bpm) reflects severe fetal hypoxia and acidosis, mandating urgent senior obstetric assistance to expedite delivery. Timing alone (60 seconds) is a soft threshold, but fetal heart rate deterioration is the critical red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94ffb947359f",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "Following a shoulder dystocia delivery, a neonate has a flaccid left arm. Which finding raises the highest concern for a severe brachial plexus injury rather than transient neurapraxia?",
+      "options": [
+        "Contralateral arm movement intact",
+        "Absent Moro reflex on the left side",
+        "Arm held in adduction and internal rotation",
+        "Absent grasp reflex",
+        "Ipsilateral diaphragmatic paralysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ipsilateral diaphragmatic paralysis indicates phrenic nerve involvement (C3-5), implying a more extensive brachial plexus injury (often with nerve root avulsion). This carries a higher risk of permanent disability compared to isolated shoulder weakness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6c6ca7e37976",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman (BMI 35) is in the second stage for 3 hours. The fetal head delivers but quickly retracts; the face and chin remain visible. What clinical finding definitively confirms shoulder dystocia?",
+      "options": [
+        "Ineffective maternal pushing",
+        "Need for McRoberts' position",
+        "Fetal distress on CTG",
+        "Retraction of the fetal head against the perineum",
+        "Inability to deliver the posterior arm"
+      ],
+      "answerIndex": 3,
+      "explanation": "The turtle sign (head retraction) is the classic diagnostic sign of shoulder dystocia. Other listed items are either secondary findings or describe management steps, not the confirming clinical feature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f3216e06a38a",
+      "topic": "Shoulder Dystocia",
+      "slug": "shoulder-dystocia",
+      "system": "Obstetrics",
+      "subSystem": "Labour emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman with polyhydramnios (AFI 30 cm) is in the second stage. After delivery of the fetal head, there is sudden difficulty delivering the shoulders. Which physical sign indicates the highest risk for fetal acidosis?",
+      "options": [
+        "Inability to deliver after 30 seconds",
+        "Fetal head becoming cyanotic",
+        "Maternal perineal laceration",
+        "Retraction of the fetal head",
+        "Prolonged deceleration on CTG"
+      ],
+      "answerIndex": 4,
+      "explanation": "A prolonged deceleration on CTG directly reflects fetal hypoxaemia and metabolic acidosis, making it the most specific sign of imminent fetal compromise. Other signs are diagnostic or mechanical but do not quantify fetal acidosis risk as reliably.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "CML (Chronic Myeloid Leukaemia)",
+  "slug": "cml-chronic-myeloid-leukaemia",
+  "system": "Haematology",
+  "subSystem": "Leukaemia",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:25Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9f955a81c241",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old asymptomatic man is noted to have a white blood cell count of 85 x 10^9/L (neutrophils 70%, basophils 8%), platelets 450 x 10^9/L. The spleen is palpable 2 cm below the costal margin. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic neutrophilic leukaemia",
+        "Chronic myeloid leukaemia",
+        "Essential thrombocythaemia",
+        "Reactive leukocytosis",
+        "Polycythaemia vera"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of marked leukocytosis, basophilia, and splenomegaly is classic for CML. Reactive leukocytosis lacks basophilia and splenomegaly; chronic neutrophilic leukaemia has no basophilia; essential thrombocythaemia and polycythaemia vera do not typically cause such high WBC counts with basophilia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d878dcc29d0f",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 62-year-old man presents with fatigue, weight loss, and mild splenomegaly. Full blood count shows WBC 30 x 10^9/L with left shift (metamyelocytes, myelocytes, blasts <5%), basophils 12%, Hb 110 g/L, platelets 500 x 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic myelomonocytic leukaemia",
+        "Chronic myeloid leukaemia",
+        "Myelodysplastic syndrome",
+        "Acute myeloid leukaemia",
+        "Myelofibrosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The left shift with all stages of myeloid maturation and prominent basophilia are hallmark features of CML. Myelodysplastic syndrome typically shows dysplastic changes and no basophilia; chronic myelomonocytic leukaemia has monocytosis; AML would show >20% blasts; myelofibrosis often has tear-drop cells and a dry tap on bone marrow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b0819b57851f",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with easy bruising and heavy menstrual bleeding. Platelet count is 850 x 10^9/L, WBC 25 x 10^9/L with neutrophilia and 6% basophils. The spleen is not palpable. What is the single most likely diagnosis?",
+      "options": [
+        "Polycythaemia vera",
+        "Chronic myeloid leukaemia",
+        "Essential thrombocythaemia",
+        "Reactive thrombocytosis",
+        "Chronic myeloid leukaemia with isolated thrombocytosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of basophilia and a borderline elevated WBC count with thrombocytosis should raise suspicion for CML, even without splenomegaly. Essential thrombocythaemia typically has normal WBC count and no basophilia; reactive thrombocytosis has an underlying cause. The correct diagnosis is CML presenting with isolated thrombocytosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96c763720aa3",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man with known chronic myeloid leukaemia on imatinib for 3 years presents with acute left upper quadrant pain, fever, and a WBC of 12 x 10^9/L with 15% blasts and basophilia. Hb is 100 g/L, platelets 80 x 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Myelofibrosis",
+        "Chronic myeloid leukaemia in blast crisis",
+        "Splenic infarction",
+        "Acute myeloid leukaemia",
+        "Viral infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of blasts (>10%) in a known CML patient indicates transformation to blast crisis. Splenic infarction can cause pain but does not explain blasts; AML is not the primary diagnosis in a CML patient; myelofibrosis is a separate entity; viral infection would not cause blasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70c6e243a50f",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old primigravida at 20 weeks gestation presents with fatigue and splenomegaly. Full blood count shows WBC 60 x 10^9/L with neutrophils 65%, basophils 6%, and no blasts. Hb is 100 g/L, platelets 400 x 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Reactive leukocytosis of pregnancy",
+        "Chronic myeloid leukaemia",
+        "Preeclampsia",
+        "Acute myeloid leukaemia",
+        "Infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "Significant splenomegaly and marked leukocytosis with basophilia are not typical of pregnancy and point to CML. Reactive leukocytosis of pregnancy is usually milder and without basophilia; AML would show blasts; preeclampsia presents with hypertension and proteinuria; infection would likely have fever and left shift without basophilia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a965e2d41b3",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old asymptomatic man has a routine blood test showing WBC 28×10^9/L with neutrophils 75%, basophils 6%, and metamyelocytes 5%. No splenomegaly. What is the single best next investigation to confirm the diagnosis?",
+      "options": [
+        "Bone marrow aspiration for cytogenetics",
+        "Peripheral blood FISH for BCR-ABL",
+        "JAK2 V617F mutation analysis",
+        "Serum vitamin B12 level",
+        "LAP score"
+      ],
+      "answerIndex": 1,
+      "explanation": "Peripheral blood FISH for BCR-ABL is rapid, minimally invasive, and diagnostic for CML. Bone marrow is not required as a first test. Other options are for alternative myeloproliferative neoplasms or not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "072b6202ad38",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with fatigue and left upper quadrant discomfort. Examination shows splenomegaly 4 cm below costal margin. FBC: Hb 11.0 g/dL, WBC 45×10^9/L (neutrophils 80%, basophils 3%, blasts 2%), platelets 650×10^9/L. Which investigation confirms the diagnosis?",
+      "options": [
+        "LAP score",
+        "JAK2 V617F mutation analysis",
+        "Bone marrow trephine biopsy",
+        "Peripheral blood RT-PCR for BCR-ABL transcript",
+        "Neutrophil alkaline phosphatase (NAP) score"
+      ],
+      "answerIndex": 3,
+      "explanation": "RT-PCR detects BCR-ABL rearrangement with high sensitivity and is diagnostic for CML. Bone marrow is not necessary for initial diagnosis. LAP/NAP is low in CML but not confirmatory; JAK2 is for other MPNs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23be023e8bae",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with known CML on imatinib for 3 years has a rising BCR-ABL transcript level to 0.5% on the International Scale despite good compliance. What is the most appropriate next investigation?",
+      "options": [
+        "JAK2 mutation analysis",
+        "BCR-ABL kinase domain mutation analysis",
+        "LAP score",
+        "Bone marrow biopsy for fibrosis",
+        "Cytogenetic analysis for additional chromosomal abnormalities"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rising BCR-ABL levels suggest resistance. Mutation analysis identifies specific kinase domain mutations that guide selection of second-line TKI. Other tests are not directly relevant to resistance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b3264d5b8754",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with CML on treatment undergoes a bone marrow biopsy. The aspirate shows 15% blasts. What is the most likely phase of CML?",
+      "options": [
+        "Complete cytogenetic response",
+        "Chronic phase",
+        "Accelerated phase",
+        "Molecular remission",
+        "Blast crisis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Accelerated phase is defined by 10–19% blasts in blood or marrow. Blast crisis requires ≥20%. Chronic phase has <10% blasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83e29760e1f9",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman presents with persistent thrombocytosis (platelets 800×10^9/L), mild splenomegaly, and normal WBC and Hb. Blood film shows no basophilia. Which test is most likely to confirm the diagnosis?",
+      "options": [
+        "LAP score",
+        "JAK2 V617F mutation analysis",
+        "Peripheral blood FISH for BCR-ABL",
+        "CALR mutation analysis",
+        "Bone marrow biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "CML can present with isolated thrombocytosis. FISH for BCR-ABL is diagnostic even without typical leukocytosis. JAK2 and CALR are for ET. Bone marrow is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "870a37db1442",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man is diagnosed with chronic myeloid leukaemia in chronic phase. He is asymptomatic, with a white cell count of 80 × 10^9/L and splenomegaly of 4 cm below costal margin. He has no comorbidities. What is the most appropriate first-line treatment?",
+      "options": [
+        "Bosutinib",
+        "Hydroxycarbamide",
+        "Imatinib",
+        "Interferon-α",
+        "Allogeneic stem cell transplant"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend imatinib as first-line TKI for chronic phase CML. Hydroxycarbamide is used for cytoreduction but not definitive therapy; allogeneic transplant is reserved for advanced phases or TKI failure; interferon-α is historical; bosutinib is second-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6bf8d2aadac9",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with chronic phase CML is 12 weeks pregnant. She is previously untreated. Which of the following therapies is most appropriate for her?",
+      "options": [
+        "Imatinib",
+        "Allopurinol",
+        "Interferon-α",
+        "Dasatinib",
+        "Nilotinib"
+      ],
+      "answerIndex": 2,
+      "explanation": "TKIs (imatinib, nilotinib, dasatinib) are teratogenic and contraindicated in pregnancy. Interferon-α has a safe track record and is recommended for pregnant patients with CML. Allopurinol is only for prophylaxis of tumour lysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "84ae7a5d3caf",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old patient with chronic phase CML developed resistance to imatinib. Mutation analysis reveals T315I mutation. Which TKI is most appropriate as next-line therapy?",
+      "options": [
+        "Nilotinib",
+        "Allogeneic stem cell transplant",
+        "Dasatinib",
+        "Bosutinib",
+        "Ponatinib"
+      ],
+      "answerIndex": 4,
+      "explanation": "T315I mutation confers resistance to all currently approved TKIs except ponatinib. Ponatinib is specifically indicated for patients with T315I mutation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "de308cddf5ff",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 48-year-old man on imatinib for CML chronic phase complains of severe myalgia, arthralgia, and fatigue affecting his quality of life. His molecular response is excellent (MR4.5). What is the most appropriate management?",
+      "options": [
+        "Switch to nilotinib",
+        "Reduce imatinib dose",
+        "Start hydroxycarbamide",
+        "Refer for allogeneic transplant",
+        "Add allopurinol"
+      ],
+      "answerIndex": 0,
+      "explanation": "Intolerance to imatinib despite good molecular response is a valid indication to switch to a second-generation TKI such as nilotinib or dasatinib according to NICE guidelines. Dose reduction may compromise efficacy; adding allopurinol or hydroxycarbamide does not address intolerance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6cf9fb929ea3",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a history of peripheral arterial disease and a prior stroke is diagnosed with chronic phase CML. Which TKI is relatively contraindicated in this patient?",
+      "options": [
+        "Imatinib",
+        "Ponatinib",
+        "Nilotinib",
+        "Dasatinib",
+        "Bosutinib"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nilotinib is associated with an increased risk of arterial occlusive events (cardiovascular, cerebrovascular, peripheral) and should be avoided in patients with established cardiovascular disease. Other TKIs have lower risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5adbccee5a61",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents to his GP with fatigue and night sweats for 3 months. Examination reveals palpable splenomegaly 5 cm below costal margin. FBC shows WBC 85 × 10^9/L, Hb 120 g/L, platelets 450 × 10^9/L. Blood film shows neutrophilia with left shift and occasional blasts. LAP score is low. BCR-ABL1 transcript positive on PCR. What is the most appropriate immediate next step in management?",
+      "options": [
+        "Refer for leukapheresis",
+        "Commence hydroxyurea",
+        "Request bone marrow aspiration",
+        "Start allopurinol 300 mg daily",
+        "Start imatinib 400 mg daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Imatinib is first-line TKI for chronic phase CML. Allopurinol prevents tumour lysis but is not disease-modifying. Leukapheresis reserved for symptomatic leukostasis. Hydroxyurea reduces counts transiently. Bone marrow not needed urgently as PCR confirms diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "919d6c73fc40",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with chronic phase CML has been on imatinib 400 mg daily for 2 years and achieved complete cytogenetic response (CCyR) and major molecular response (MMR). Routine 3-monthly BCR-ABL1 transcript monitoring shows a rise from 0.1% to 0.5% (IS). She is asymptomatic with normal FBC. What is the most appropriate immediate next step?",
+      "options": [
+        "Repeat BCR-ABL1 testing in 1 month",
+        "Increase imatinib dose to 600 mg daily",
+        "Switch to dasatinib 100 mg daily",
+        "Assess compliance and repeat FBC and PCR",
+        "Refer for allogeneic stem cell transplantation"
+      ],
+      "answerIndex": 3,
+      "explanation": "A small transcript rise often reflects poor adherence. Immediate step is to check compliance; if confirmed, mutation analysis may follow. Increasing dose or switching is premature without adherence assessment. Transplant is reserved for advanced disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "94d33609e45f",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known chronic phase CML presents to the Emergency Department with acute onset of painful, persistent penile erection for 4 hours. He has not been taking his imatinib regularly. Temperature 37.5°C, pulse 100 bpm, BP 110/70. Examination reveals enlarged spleen 8 cm. FBC: WBC 450 × 10^9/L, Hb 90 g/L, platelets 80 × 10^9/L. Blood film shows 30% blasts. What is the most appropriate immediate next step?",
+      "options": [
+        "Commence hydroxyurea 2 g daily",
+        "Start imatinib 600 mg orally stat",
+        "Emergency leukapheresis",
+        "Intracavernosal phenylephrine injection",
+        "Intravenous hydration and allopurinol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Extreme leukocytosis with priapism indicates leukostasis. Leukapheresis rapidly reduces WBC. Intracavernosal injection treats symptom but not cause. Imatinib and hydroxyurea take days. Hydration and allopurinol are adjunctive only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "77fba6b4c59e",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with chronic phase CML on dasatinib 100 mg daily for 18 months presents with progressive dyspnoea and dry cough over 2 weeks. He had achieved MMR. On examination, there is reduced breath sounds at the right base. Chest X-ray shows a large right-sided pleural effusion. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral prednisolone 40 mg daily",
+        "Perform diagnostic and therapeutic thoracentesis",
+        "Refer for pleurodesis",
+        "Increase dasatinib dose to 140 mg daily",
+        "Hold dasatinib and arrange urgent echocardiogram"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dasatinib can cause pleural effusions and pulmonary hypertension. Immediate action is to hold the drug and assess for pulmonary hypertension (echo). Thoracentesis is indicated if symptomatic, but stopping drug takes priority. Increasing dose would worsen the effusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b14920ca382f",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with chronic phase CML has been on imatinib 400 mg daily for 5 years and has sustained deep molecular response (MR4.5) for the past 3 years. She now wishes to become pregnant. What is the most appropriate immediate next step in her management?",
+      "options": [
+        "Continue imatinib and monitor pregnancy closely",
+        "Stop imatinib and commence hydroxyurea",
+        "Refer to an obstetric haematology specialist for pregnancy planning",
+        "Switch to dasatinib 100 mg daily",
+        "Refer for allogeneic stem cell transplantation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Imatinib is teratogenic. With sustained deep molecular response, treatment-free remission (TFR) is possible. Immediate step is specialist counselling for pregnancy planning including planned TFR. Alternatives are also teratogenic or inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c247212cb345",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with new diagnosis of chronic myeloid leukaemia (CML) has a white blood cell (WBC) count of 240 × 10^9/L, haemoglobin 90 g/L, and platelet count 420 × 10^9/L. On examination, the spleen is palpable 8 cm below the left costal margin. Which single finding indicates the most immediate danger?",
+      "options": [
+        "WBC count > 200 × 10^9/L",
+        "Platelet count > 400 × 10^9/L",
+        "Haemoglobin < 100 g/L",
+        "Peripheral blood blasts 25%",
+        "Spleen size > 5 cm"
+      ],
+      "answerIndex": 3,
+      "explanation": "A peripheral blast count of 25% defines blast crisis (≥20%), a medical emergency requiring urgent intervention. The other findings are common in chronic phase CML and do not represent imminent life-threatening transformation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18236da0df37",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with known CML, on dasatinib for 18 months, presents with acute dyspnoea and orthopnoea. Which clinical finding on examination is most suggestive of dasatinib-induced pulmonary hypertension?",
+      "options": [
+        "Bilateral lower limb pitting oedema",
+        "Bilateral pleural effusion on examination",
+        "Loud pulmonary component of the second heart sound (P2)",
+        "Fine crackles at both lung bases",
+        "Elevated jugular venous pressure (JVP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "A loud P2 is a direct sign of pulmonary hypertension. Dasatinib is associated with PAH, and this finding should prompt urgent echocardiography. Pleural effusion is also seen with dasatinib but less specific for pulmonary hypertension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "04e8f8db828c",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with CML in chronic phase on imatinib presents with acute severe left upper quadrant pain radiating to the left shoulder and hypotension (BP 85/50 mmHg). On abdominal examination, which finding is most concerning?",
+      "options": [
+        "Murphy's sign",
+        "Guarding and rebound tenderness in the left upper quadrant",
+        "Haemosiderin deposits in the skin",
+        "Splenomegaly",
+        "Splenic rub"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guarding and rebound indicate peritonism, which in this context suggests splenic rupture—a surgical emergency. A splenic rub implies a peri-splenic haematoma but not necessarily rupture, and splenomegaly alone is chronic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f72000f70fb8",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with CML began imatinib yesterday. Today he feels nauseated, weak, and has muscle cramps. Blood results: K⁺ 6.2 mmol/L, PO₄³⁻ 2.5 mmol/L, Ca²⁺ 1.9 mmol/L, urate 0.7 mmol/L, creatinine 120 µmol/L (baseline 80). Which single abnormality poses the most immediate threat to life?",
+      "options": [
+        "Hyperkalemia (K⁺ 6.2 mmol/L)",
+        "Hyperuricaemia (urate 0.7 mmol/L)",
+        "Elevated creatinine (120 µmol/L)",
+        "Hypocalcaemia (Ca²⁺ 1.9 mmol/L)",
+        "Hyperphosphatemia (PO₄³⁻ 2.5 mmol/L)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hyperkalemia from tumour lysis syndrome can cause cardiac arrhythmia and arrest. While other abnormalities are part of tumour lysis, they are less immediately life-threatening; hypocalcaemia may cause tetany but is less dangerous than hyperkalemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d4710cb3fdd",
+      "topic": "CML (Chronic Myeloid Leukaemia)",
+      "slug": "cml-chronic-myeloid-leukaemia",
+      "system": "Haematology",
+      "subSystem": "Leukaemia",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with undiagnosed CML presents with a painful persistent erection for 6 hours. His WBC count is 350 × 10^9/L. Which finding on genital examination confirms ischaemic priapism?",
+      "options": [
+        "Normal anal sphincter tone",
+        "Absent cremasteric reflex",
+        "Tender, rigid corpora cavernosa",
+        "Flaccid glans penis",
+        "Perineal rash"
+      ],
+      "answerIndex": 2,
+      "explanation": "In ischaemic priapism, the corpora cavernosa are rigid and tender due to venous occlusion from hyperviscosity. A flaccid glans is typical of ischaemic priapism (corpus spongiosum not involved). This is a haematological emergency requiring prompt intervention.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "topic": "Severe Hyponatraemia",
+  "slug": "severe-hyponatraemia",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "Electrolyte",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:49Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "905c8effb685",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman attends the emergency department with a 2-day history of confusion and nausea. She is known to have hypertension and has been taking bendroflumethiazide 2.5 mg daily for 10 years. Observations: BP 110/70 mmHg, HR 92 bpm, temperature 36.8°C, oxygen saturations 97% on air. Clinical examination reveals dry mucous membranes and reduced skin turgor. Urine osmolality is 450 mOsm/kg, urine sodium 45 mmol/L. Serum sodium is 118 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+        "Hypervolaemic hyponatraemia due to heart failure",
+        "Primary polydipsia",
+        "Adrenal insufficiency",
+        "Hypovolaemic hyponatraemia due to thiazide diuretic"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient is hypovolaemic (dry mucous membranes, reduced skin turgor) with high urine sodium and osmolality, and she is on a thiazide diuretic. Thiazides can cause hyponatraemia via impaired urinary dilution and volume depletion, which differentiates this from SIADH (euvolaemic) or hypervolaemic causes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f34be41759d",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old male marathon runner collapses after completing a race. He is confused, vomiting, and has a Glasgow Coma Scale of 14. Observations: BP 130/80 mmHg, HR 100 bpm, temperature 37.2°C, weight 70 kg. He drank approximately 5 litres of water during the race. Serum sodium is 122 mmol/L. Urine osmolality is 200 mOsm/kg, urine sodium 25 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+        "Exercise-associated hyponatraemia due to primary polydipsia with normal ADH suppression",
+        "Adrenal insufficiency",
+        "Hypervolaemic hyponatraemia due to heart failure",
+        "Hypovolaemic hyponatraemia due to sweat loss"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a marathon runner who drank excessive water, the dilute urine (low osmolality) indicates ADH suppression, consistent with primary polydipsia. This is distinct from SIADH (inappropriately concentrated urine) or hypovolaemic hyponatraemia (low urine sodium typically <20).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c39689ed3cf4",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with known small cell lung cancer presents with confusion and lethargy over 3 days. She is not on any diuretics or antidepressants. Observations: BP 125/80 mmHg, HR 88 bpm, temperature 36.9°C. Jugular venous pressure is not elevated, and there is no peripheral oedema. Serum sodium is 120 mmol/L. Plasma osmolality is 245 mOsm/kg. Urine osmolality is 450 mOsm/kg, urine sodium 55 mmol/L. Thyroid and cortisol levels are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "Hypervolaemic hyponatraemia due to liver cirrhosis",
+        "Syndrome of inappropriate antidiuretic hormone secretion (SIADH) due to lung cancer",
+        "Hypovolaemic hyponatraemia due to vomiting",
+        "Hypothyroidism"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has euvolemic hyponatraemia with concentrated urine (high osmolality) and high urine sodium, in the setting of small cell lung cancer. Normal cortisol and thyroid exclude adrenal insufficiency and hypothyroidism. SIADH is the most likely diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a71824f4cd4d",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with confusion and a 1-week history of poor appetite. He has a history of depression and takes sertraline 100 mg daily. He denies vomiting or diarrhoea. Observations: BP 130/85 mmHg, HR 80 bpm, temperature 36.7°C. Clinical examination is unremarkable, with no signs of hypovolaemia or hypervolaemia. Serum sodium is 126 mmol/L. Urine osmolality is 320 mOsm/kg, urine sodium 50 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "Reset osmostat syndrome",
+        "Syndrome of inappropriate antidiuretic hormone secretion (SIADH) due to SSRI treatment",
+        "Hypovolaemic hyponatraemia due to occult diuretic use",
+        "Hypervolaemic hyponatraemia due to nephrotic syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient is euvolemic with concentrated urine and high urine sodium, on an SSRI known to cause SIADH. This is the most likely diagnosis. Hypovolaemic causes would show signs of volume depletion; adrenal insufficiency would have other features; reset osmostat typically has lower urine osmolality and is less common.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ab8ecc8f90cc",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with a history of heart failure and liver cirrhosis presents with confusion. He has been on furosemide 40 mg daily. Observations: BP 100/60 mmHg, HR 105 bpm, temperature 36.8°C, JVP not visible, mild pedal oedema. Serum sodium is 119 mmol/L. Urine osmolality is 400 mOsm/kg, urine sodium 30 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "Pseudohyponatraemia due to hyperlipidaemia",
+        "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+        "Hypovolaemic hyponatraemia due to diuretic therapy in a patient with cirrhosis and heart failure",
+        "Hypervolaemic hyponatraemia due to heart failure and cirrhosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has signs of hypovolaemia (low BP, tachycardia, low JVP) despite background oedema, indicating that diuretic-induced volume depletion is the dominant cause. Urine sodium >20 suggests renal response, not hypervolemic state. SIADH is euvolemic. Pseudohyponatraemia would have normal plasma osmolality.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "22b362a774c7",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman presents to the emergency department with confusion. Her serum sodium is 115 mmol/L. Which single investigation should be performed first to confirm the diagnosis of hypotonic hyponatraemia?",
+      "options": [
+        "Serum cortisol",
+        "Urine osmolality",
+        "Serum osmolality",
+        "Plasma glucose",
+        "Urine sodium"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first step is to confirm hypotonicity by measuring serum osmolality. If low (<275 mOsmol/kg), the hyponatraemia is hypotonic. Urine tests are subsequent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0391f2c19dbe",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 78-year-old man on bendroflumethiazide has a serum sodium of 120 mmol/L. Plasma osmolality is 250 mOsmol/kg, urine osmolality 300 mOsmol/kg. He is euvolaemic. Which additional investigation would best differentiate between thiazide-induced hyponatraemia and SIADH?",
+      "options": [
+        "Plasma urate",
+        "Urine sodium",
+        "Plasma renin activity",
+        "Serum cortisol",
+        "Serum TSH"
+      ],
+      "answerIndex": 0,
+      "explanation": "Plasma urate is low in SIADH due to renal urate wasting, whereas it is normal or high in thiazide-induced hyponatraemia. Urine sodium is often elevated in both, making it less discriminatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03e4a362a73f",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with small cell lung cancer is found to have hyponatraemia. Serum sodium 125 mmol/L, plasma osmolality 260 mOsmol/kg, urine osmolality 400 mOsmol/kg, urine sodium 65 mmol/L. She is clinically euvolaemic. Which test result would support a diagnosis of SIADH?",
+      "options": [
+        "Low plasma urate",
+        "Low plasma TSH",
+        "Low plasma cortisol",
+        "High plasma aldosterone",
+        "High plasma renin"
+      ],
+      "answerIndex": 0,
+      "explanation": "SIADH classically shows hyponatraemia, low plasma osmolality, high urine osmolality and sodium, and euvolemia. Low plasma urate (hypouricaemia) is a supportive finding due to urate wasting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2762bb569f75",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with chronic SIADH on fluid restriction has had a recent rise in serum sodium from 115 to 132 mmol/L over 48 hours. He now develops acute confusion, dysarthria, and spastic quadriparesis. Which investigation is most likely to confirm the cause?",
+      "options": [
+        "EEG",
+        "Carotid Doppler",
+        "Lumbar puncture",
+        "MRI brain",
+        "CT head"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presentation is classic for osmotic demyelination syndrome (central pontine myelinolysis), best detected on MRI brain showing T2 hyperintensity in the pons. CT may be normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7e3e64f2c085",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with hypopituitarism presents with nausea and confusion. Serum sodium is 120 mmol/L. She is on no diuretics. Which single test is most appropriate to determine the cause of her hyponatraemia?",
+      "options": [
+        "Plasma ACTH",
+        "Serum osmolality",
+        "Urine osmolality",
+        "8 am cortisol",
+        "Short Synacthen test"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with hypopituitarism, secondary adrenal insufficiency is a likely cause. A short Synacthen test is the standard investigation to confirm cortisol deficiency. Random cortisol may be low but not definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "887b99990bca",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 75-year-old woman on bendroflumethiazide for hypertension is found to have serum sodium 118 mmol/L. She is asymptomatic. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral tolvaptan 15 mg",
+        "Stop thiazide and start fluid restriction",
+        "Oral desmopressin 2 mcg",
+        "Intravenous hypertonic saline 3% 150 mL over 20 minutes",
+        "Intravenous normal saline 0.9% 1 litre"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asymptomatic hyponatraemia from thiazides is treated by stopping the drug and fluid restricting. Hypertonic saline is reserved for severe symptoms; desmopressin and tolvaptan are for SIADH. Normal saline may worsen hyponatraemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5c75b4804d14",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man with primary polydipsia presents with a generalised tonic-clonic seizure. Serum sodium is 112 mmol/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous normal saline 0.9% 1 litre over 2 hours",
+        "Water restriction",
+        "Oral tolvaptan 15 mg",
+        "Intravenous hypertonic saline 3% 150 mL over 20 minutes",
+        "Intravenous desmopressin 2 mcg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute severe symptomatic hyponatraemia with seizure requires immediate hypertonic saline bolus to raise sodium by 1-2 mmol/L. Normal saline is less effective; desmopressin/tolvaptan slow correction; water restriction is too slow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "15a4453b3b9e",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with chronic SIADH due to small cell lung cancer has serum sodium 110 mmol/L. She is alert but confused. Her potassium is normal. Which treatment is relatively contraindicated due to risk of rapid overcorrection?",
+      "options": [
+        "Intravenous desmopressin 2 mcg",
+        "Oral tolvaptan 15 mg",
+        "Water restriction",
+        "Intravenous normal saline 0.9%",
+        "Intravenous hypertonic saline 3%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tolvaptan can cause rapid free water diuresis leading to overcorrection and osmotic demyelination. Hypertonic saline is used cautiously with monitoring; desmopressin helps prevent overcorrection; fluid restriction is safe; normal saline may not help.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9a512220e110",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with severe hyponatraemia (Na 106 mmol/L) and reduced consciousness was treated with two 150 mL boluses of hypertonic saline 3%. After 6 hours, serum sodium is 118 mmol/L (rise of 12 mmol/L). What is the most appropriate next step to prevent osmotic demyelination?",
+      "options": [
+        "Intravenous furosemide 40 mg",
+        "Discontinue all fluids and monitor",
+        "Give another bolus of hypertonic saline",
+        "Continue hypertonic saline at a lower rate",
+        "Administer desmopressin 2 mcg subcutaneously and start 5% dextrose infusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Overcorrection >10 mmol/L in first 24 hours risks demyelination. Desmopressin plus hypotonic fluids (5% dextrose) can re-lower sodium safely. Continuing or adding hypertonic saline worsens overcorrection; furosemide does not correct overcorrection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f1f1143f3a76",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman on bendroflumethiazide for hypertension presents to ED with confusion and vomiting. She is euvolemic. Na⁺ 112 mmol/L, K⁺ 3.2 mmol/L, urine osmolality 450 mOsm/kg, urine Na⁺ 40 mmol/L. What is the single most appropriate immediate next action?",
+      "options": [
+        "Administer desmopressin 2 μg IV",
+        "Request urgent CT head",
+        "Stop bendroflumethiazide and measure urinary sodium",
+        "Give 0.9% sodium chloride 1 L IV stat",
+        "Start 3% sodium chloride 150 mL IV over 20 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has severe symptomatic hyponatraemia (seizure/confusion likely). UK guidelines (NICE) recommend immediate IV 3% sodium chloride (150 mL over 20 min) for rapid correction to prevent brain herniation. Stopping the thiazide is correct but not the immediate next action in acute severe symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "82d69bc7535e",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with small cell lung cancer presents with confusion and vomiting. He is euvolemic. Na⁺ 114 mmol/L, plasma osmolality 238 mOsm/kg, urine osmolality 520 mOsm/kg, urine Na⁺ 68 mmol/L. He has no seizures. What is the single most appropriate immediate next action?",
+      "options": [
+        "Refer for urgent radiotherapy",
+        "Give intravenous furosemide 20 mg",
+        "Administer hypertonic saline 1 mL/kg/h for 4 hours",
+        "Start oral demeclocycline 300 mg QDS",
+        "Start 3% sodium chloride 150 mL IV over 20 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite no seizures, confusion indicates severe symptoms; NICE advises hypertonic saline (3% NaCl) infusion for severe symptomatic hyponatraemia. Demeclocycline is not immediate; furosemide is for fluid overload; radiotherapy is long-term.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1063de1282e6",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with known SIADH secondary to SSRI use is admitted with nausea and headache. Na⁺ 118 mmol/L (was 125 last week). She is euvolemic and alert. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start tolvaptan 15 mg PO",
+        "Fluid restrict to 800 mL/day",
+        "Give 3% sodium chloride 100 mL IV over 10 minutes",
+        "Repeat sodium in 4 hours and review",
+        "Stop the SSRI and refer to psychiatry"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is severe hyponatraemia (Na<120) with new symptoms (headache, nausea) – considered moderately severe symptomatic. NICE recommends hypertonic saline (3% NaCl) as first-line. Fluid restriction is too slow; tolvaptan is second-line; stopping SSRI is not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd56bdf1f106",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with decompensated cirrhosis and ascites has Na⁺ 118 mmol/L. He is alert but lethargic. He is on no diuretics. What is the single most appropriate immediate next action?",
+      "options": [
+        "Fluid restrict to 1 L/day and stop diuretics",
+        "Perform therapeutic paracentesis",
+        "Give hypertonic saline at 0.5 mL/kg/h",
+        "Start intravenous albumin 20% 100 mL",
+        "Give 3% sodium chloride 150 mL IV over 20 minutes"
+      ],
+      "answerIndex": 3,
+      "explanation": "In hypervolemic hyponatraemia with cirrhosis, albumin infusion can improve effective circulating volume and raise sodium. Hypertonic saline risks volume overload; paracentesis may worsen hypotension; fluid restriction is not immediate. Albumin is the immediate step per UK guidelines.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a594e52ffb24",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 34-year-old woman with polydipsia (primary) is found to have Na⁺ 122 mmol/L. She is alert and euvolemic. Urine osmolality 120 mOsm/kg. What is the single most appropriate immediate next action?",
+      "options": [
+        "Fluid restrict to 1 L/24 hours",
+        "Perform a water deprivation test",
+        "Measure serum and urine sodium and osmolality",
+        "Give desmopressin 2 μg SC",
+        "Start 3% sodium chloride 150 mL IV over 20 minutes"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is mild-moderate hyponatraemia in primary polydipsia. The patient is asymptomatic; immediate action is fluid restriction. Hypertonic saline is for severe symptoms; desmopressin is for central diabetes insipidus; water deprivation test is not urgent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9522a3071d11",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with a history of hypertension on bendroflumethiazide 2.5 mg daily presents to the Emergency Department with a two-day history of nausea and confusion. Her relatives report she has been increasingly drowsy today. Observations: BP 130/80, pulse 72, temp 36.8°C, oxygen saturations 98% on air. Which single finding most clearly indicates that her hyponatraemia constitutes a medical emergency requiring immediate specialist referral?",
+      "options": [
+        "Serum osmolality 260 mOsm/kg",
+        "Urine sodium <20 mmol/L",
+        "Glasgow Coma Scale 14",
+        "Serum sodium 128 mmol/L",
+        "Serum sodium 117 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "A serum sodium of 117 mmol/L is severely low (<120 mmol/L) and with neurological symptoms constitutes a medical emergency requiring urgent correction, while a sodium of 128 is moderate and can be managed more conservatively. Distractors like GCS 14 only indicate mild drowsiness and may be due to other causes; the sodium level is the objective measure of severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "158540cc756c",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 54-year-old man with a history of alcohol misuse is admitted with confusion. Serum sodium is 112 mmol/L. He is started on slow correction. Twenty-four hours later his sodium is 126 mmol/L. Which finding in this patient should immediately alert you to a high risk of osmotic demyelination syndrome?",
+      "options": [
+        "A serum creatinine of 95 µmol/L",
+        "A serum potassium of 2.8 mmol/L",
+        "A history of liver cirrhosis",
+        "A rise in sodium of 14 mmol/L in 24 hours",
+        "A urine osmolality of 450 mOsm/kg"
+      ],
+      "answerIndex": 3,
+      "explanation": "A rise of more than 10 mmol/L in 24 hours significantly increases the risk of osmotic demyelination; this patient's sodium has risen by 14, so active measures to slow correction are needed. Hypokalaemia is also a risk factor but the rate of correction is the most critical modifiable factor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eba691b952e4",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman is found collapsed at a music festival. She has a Glasgow Coma Scale of 6 and is fitting. Serum sodium is 119 mmol/L. Which additional piece of information is most critical in determining that this hyponatraemia is acute (<48 hours) and thus safe to correct rapidly?",
+      "options": [
+        "She has an ileostomy",
+        "Serum potassium is 3.9 mmol/L",
+        "She has been drinking large volumes of water",
+        "Her urine osmolality is 90 mOsm/kg",
+        "Her sodium was 136 mmol/L six hours ago"
+      ],
+      "answerIndex": 4,
+      "explanation": "A documented rapid fall in serum sodium confirms acute hyponatraemia, where the brain has little time to adapt, making rapid correction safe. The drop from 136 to 119 in 6 hours is acute. Distractors like water drinking suggest a cause but do not measure chronicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "56f3d19707ea",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with type 2 diabetes and hypertension (treated with metformin and ramipril) presents with confusion and fatigue. Serum sodium 125 mmol/L, potassium 5.8 mmol/L, creatinine 100 µmol/L. She has no oedema. Which single result most strongly indicates that her hyponatraemia is due to a life-threatening endocrine emergency?",
+      "options": [
+        "Urine sodium 80 mmol/L",
+        "Serum sodium 125 mmol/L",
+        "Serum potassium 5.8 mmol/L",
+        "Random cortisol 200 nmol/L",
+        "Serum glucose 18 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hyponatraemia with hyperkalaemia is a classic clue for adrenal insufficiency, which is a medical emergency requiring immediate hydrocortisone. Distractors like urine sodium or glucose are common but not diagnostic of this critical condition; a random cortisol of 200 is not low enough to confirm adrenal crisis without stimulation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3531d943dce7",
+      "topic": "Severe Hyponatraemia",
+      "slug": "severe-hyponatraemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man known to have a nasogastric tube for poor oral intake develops significant hyponatraemia (sodium 126 mmol/L). He is asymptomatic. Which finding in this scenario would change his status from 'asymptomatic' to 'symptomatic/severe' and warrant emergency treatment?",
+      "options": [
+        "The appearance of mild ankle oedema",
+        "A urine osmolality of 500 mOsm/kg",
+        "A serum creatinine rise from 75 to 110 µmol/L",
+        "The development of a headache",
+        "A serum sodium drop to 123 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Headache is a subtle but important neurological symptom in hyponatraemia that suggests cerebral oedema; even mild symptoms warrant escalation. A sodium level of 123 is still moderate and does not define severity if the patient is truly asymptomatic; ankle oedema and creatinine rise are not specific for neurological emergency.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "topic": "SIADH (Syndrome of Inappropriate ADH)",
+  "slug": "siadh-syndrome-of-inappropriate-adh",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "Electrolyte",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:38:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 20,
+  "questions": [
+    {
+      "id": "59a493630463",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man on thiazide diuretic presents with hyponatraemia (Na 125 mmol/L). He is euvolaemic on examination. Which single investigation is most important to perform before diagnosing SIADH?",
+      "options": [
+        "Urine sodium",
+        "CT head",
+        "Serum osmolality",
+        "Serum cortisol (short Synacthen test)",
+        "Serum thyroid-stimulating hormone (TSH)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adrenal insufficiency is a critical mimic of SIADH; a short Synacthen test must exclude it. Urine sodium and osmolality support SIADH but are not the 'never-miss' exclusion test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9985580a917d",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with small cell lung cancer has Na 131 mmol/L. She is asymptomatic and euvolaemic. Which laboratory finding is essential to confirm the diagnosis of SIADH?",
+      "options": [
+        "Plasma glucose < 3.0 mmol/L",
+        "Serum osmolality < 275 mOsm/kg",
+        "Serum urate < 0.12 mmol/L",
+        "Urine osmolality > 300 mOsm/kg",
+        "Urine sodium > 20 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "A low serum osmolality (hypotonic hyponatraemia) is a prerequisite for SIADH. While urine osmolality >100 mOsm/kg and urine sodium >20 mmol/L are supportive, the essential first criterion is hypotonicity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b63957d3367a",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman on day 1 post-cholecystectomy becomes acutely confused. Na 112 mmol/L, serum osmolality 235 mOsm/kg. She is normotensive with no oedema. Which test best differentiates SIADH from hypovolaemic hyponatraemia in this setting?",
+      "options": [
+        "Urine sodium",
+        "Blood urea",
+        "Serum potassium",
+        "Chest X-ray",
+        "Urine osmolality"
+      ],
+      "answerIndex": 0,
+      "explanation": "In hypovolaemia, urine sodium is typically <20 mmol/L due to renal conservation; in SIADH it is >20 mmol/L. This distinguishes the two in a euvolaemic-appearing patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "498a925c38bb",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with SIADH secondary to pneumonia has serum osmolality 260 mOsm/kg. Which of the following urine osmolality values would be most consistent with the diagnosis?",
+      "options": [
+        "800 mOsm/kg",
+        "50 mOsm/kg",
+        "450 mOsm/kg",
+        "100 mOsm/kg",
+        "250 mOsm/kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "In SIADH, urine osmolality is inappropriately >100 mOsm/kg despite low serum osmolality. A value of 450 mOsm/kg is clearly concentrated, confirming inappropriate ADH activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1e06689364d1",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with chronic heart failure on furosemide develops Na 128 mmol/L. He has mild pedal oedema. Which single test is most helpful to confirm SIADH rather than hypervolaemic hyponatraemia due to heart failure?",
+      "options": [
+        "BNP (B-type natriuretic peptide)",
+        "Urine sodium",
+        "Urine osmolality",
+        "Serum osmolality",
+        "Echocardiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "In heart failure, effective hypovolaemia leads to low urine sodium (<20 mmol/L), whereas SIADH typically has urine sodium >20 mmol/L. This discriminates between the two causes of hypervolaemic-appearing hyponatraemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "57ed9b6029cb",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman is found to have hyponatraemia (serum sodium 128 mmol/L) during a routine blood test. She is asymptomatic, euvolemic, and has no other medical problems. Urine osmolality is 550 mOsm/kg, urine sodium is 60 mmol/L. A diagnosis of SIADH is made. What is the most appropriate first-line management?",
+      "options": [
+        "Tolvaptan 15 mg once daily",
+        "Demeclocycline 300 mg three times daily",
+        "Fluid restriction to 1000 mL/day",
+        "Hypertonic saline (3%) intravenously",
+        "Furosemide 20 mg intravenously"
+      ],
+      "answerIndex": 2,
+      "explanation": "In asymptomatic mild hyponatraemia due to SIADH, first-line treatment is fluid restriction. Demeclocycline, tolvaptan, and furosemide are second-line or adjunctive therapies; hypertonic saline is reserved for severe symptomatic hyponatraemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d8224508dac1",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with known SIADH secondary to small cell lung cancer presents with a generalised seizure. His serum sodium is 112 mmol/L. He is euvolemic. What is the most appropriate immediate therapy?",
+      "options": [
+        "Tolvaptan 15 mg once daily",
+        "Normal saline 500 mL intravenously over 1 hour",
+        "Demeclocycline 300 mg three times daily",
+        "Hypertonic saline (3%) 150 mL intravenously over 20 minutes",
+        "Fluid restriction to 500 mL/day"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe symptomatic hyponatraemia (e.g., seizures) requires urgent correction with hypertonic saline. Fluid restriction and oral drugs are too slow; normal saline is hypotonic relative to the patient's concentrated urine and may worsen hyponatraemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "06e9002ecd30",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with cirrhosis and ascites develops hyponatraemia (serum sodium 124 mmol/L) due to SIADH. He is asymptomatic and euvolemic. Which of the following treatments is CONTRAINDICATED in this patient?",
+      "options": [
+        "Tolvaptan",
+        "Fluid restriction",
+        "Urea",
+        "Demeclocycline",
+        "Salt tablets"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tolvaptan is contraindicated in patients with liver disease (including cirrhosis) due to the risk of hepatotoxicity. Fluid restriction, demeclocycline, urea, and salt tablets are not contraindicated, though caution may apply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3863cb5c26f",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with SIADH due to a recent head injury is being treated with fluid restriction. Her serum sodium rose from 120 mmol/L to 133 mmol/L over 24 hours. She is asymptomatic. What is the most appropriate management to prevent osmotic demyelination?",
+      "options": [
+        "Administer desmopressin intravenously",
+        "Stop all fluids and monitor",
+        "Increase fluid restriction",
+        "Administer hypertonic saline",
+        "Start normal saline infusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Overly rapid correction of hyponatraemia (>10 mmol/L in 24h) risks osmotic demyelination. Desmopressin can halt the correction and allow re-lowering of sodium by retaining free water. Hypertonic saline would worsen overcorrection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0785b3ee694e",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman (16 weeks gestation) presents with hyponatraemia (serum sodium 126 mmol/L) and is diagnosed with SIADH. She is asymptomatic and euvolemic. Which of the following treatments is CONTRAINDICATED in her pregnancy?",
+      "options": [
+        "Urea",
+        "Fluid restriction",
+        "Salt tablets",
+        "Demeclocycline",
+        "Hypertonic saline (if severe symptoms)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Demeclocycline is contraindicated in pregnancy due to teratogenicity (interferes with bone and tooth development). Fluid restriction, urea, hypertonic saline (if needed), and salt tablets can be used with caution.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ffd650330112",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman on citalopram for depression presents with a 2-day history of mild confusion. Examination: euvolemic, no oedema. Investigations: Na 125 mmol/L, serum osmolality 260 mOsm/kg, urine osmolality 350 mOsm/kg, urine Na 40 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start fluid restriction to 1 L/day",
+        "Stop citalopram",
+        "Give intravenous 0.9% saline",
+        "Give oral demeclocycline",
+        "Request a CT head"
+      ],
+      "answerIndex": 1,
+      "explanation": "The most likely diagnosis is SIADH secondary to citalopram (SSRI). The immediate next step is to stop the offending drug, which often resolves the hyponatraemia. Fluid restriction is also reasonable but stopping the drug addresses the cause and is a priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3fe442f745d",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known small cell lung cancer is found to have a serum Na of 130 mmol/L on routine bloods. He is asymptomatic, euvolemic, with urine osmolality 420 mOsm/kg and urine Na 60 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous hypertonic saline",
+        "Refer to oncology for chemotherapy",
+        "Start oral demeclocycline",
+        "Request an urgent CT head",
+        "Start fluid restriction to 1 L/day"
+      ],
+      "answerIndex": 4,
+      "explanation": "For asymptomatic mild hyponatraemia (Na >125) due to SIADH, the first-line management is fluid restriction. Hypertonic saline is for severe symptomatic cases. Demeclocycline is second-line. CT head is not indicated without neurological signs. Chemotherapy is not the immediate step for the electrolyte disturbance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c739e4fcda11",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman develops generalised tonic-clonic seizures 6 hours after transsphenoidal pituitary surgery. Serum Na is 115 mmol/L, serum osmolality 240 mOsm/kg, urine osmolality 600 mOsm/kg, urine Na 80 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Start fluid restriction",
+        "Give oral tolvaptan",
+        "Give intravenous furosemide",
+        "Give intravenous 3% hypertonic saline",
+        "Give intravenous 0.9% saline"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has severe symptomatic hyponatraemia with seizures, requiring emergency correction with hypertonic saline (3% sodium chloride) to raise Na by 4-6 mmol/L rapidly. 0.9% saline is ineffective and may worsen hyponatraemia. Fluid restriction is too slow, furosemide not first-line, and tolvaptan is for chronic euvolemic hyponatraemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7028265df5b7",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with SIADH secondary to pneumonia was started on hypertonic saline. After 12 hours, her serum Na has risen from 120 to 132 mmol/L. She now develops dysarthria and difficulty walking. What is the most appropriate immediate next step?",
+      "options": [
+        "Stop all IV fluids and give desmopressin",
+        "Switch to intravenous 0.9% saline",
+        "Give intravenous dexamethasone",
+        "Continue hypertonic saline at a reduced rate",
+        "Request an urgent MRI brain"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rapid rise in Na (>8 mmol/L in 24 hours) and new neurological symptoms suggest osmotic demyelination syndrome. Immediate action is to stop active correction and consider re-lowering serum Na with desmopressin. Continuing or slowing correction risks worsening demyelination. Dexamethasone and MRI are not first-line emergency interventions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "35e4b376cd52",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 85-year-old nursing home resident with dementia is found to have serum Na 126 mmol/L. She is euvolemic, on bendroflumethiazide for hypertension. Urine osmolality 400 mOsm/kg, urine Na 35 mmol/L. She is asymptomatic. What is the most appropriate immediate next step?",
+      "options": [
+        "Start fluid restriction to 1 L/day",
+        "Check serum osmolality and urine osmolality",
+        "Give intravenous 0.9% saline",
+        "Consider SIADH workup with thyroid and cortisol",
+        "Stop bendroflumethiazide"
+      ],
+      "answerIndex": 4,
+      "explanation": "Thiazide diuretics are a common cause of hyponatraemia in the elderly. The immediate next step is to stop the thiazide, which alone may correct the sodium. Fluid restriction is not first-line until the drug is stopped. Further investigations are not needed until after the drug is stopped and hyponatraemia persists.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "338500557601",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman presents with confusion and vomiting. Her serum sodium is 118 mmol/L, urine sodium 45 mmol/L, urine osmolality 420 mOsm/kg. Which single finding indicates a life-threatening emergency requiring immediate intervention?",
+      "options": [
+        "Serum osmolality <250 mOsm/kg",
+        "Urine osmolality >100 mOsm/kg",
+        "Seizures",
+        "Serum sodium 118 mmol/L",
+        "Urine sodium >20 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Seizures indicate severe cerebral oedema due to acute hyponatraemia. While serum sodium 118 is critically low, if the patient is asymptomatic and chronic, urgent intervention may not be needed. Seizures mandate immediate hypertonic saline.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b97d76881f1",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known SIADH due to small cell lung cancer is being treated with fluid restriction. His serum sodium is 122 mmol/L. He is started on hypertonic saline. After 12 hours, he develops dysarthria and ataxia. Which finding is the most concerning indicator of a life-threatening complication?",
+      "options": [
+        "Rising serum sodium by 8 mmol/L in 12 hours",
+        "Low urine osmolality",
+        "New-onset dysarthria and ataxia",
+        "Hypovolaemia",
+        "Hyperkalaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "New dysarthria and ataxia during correction of hyponatraemia suggest osmotic demyelination syndrome (central pontine myelinolysis), a life-threatening complication. A rapid rise in sodium is a risk factor, but the clinical findings are the red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "750f48ab4ab5",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 48-year-old woman on bendroflumethiazide for hypertension presents with nausea and fatigue. Serum sodium is 127 mmol/L, potassium 2.9 mmol/L, bicarbonate 30 mmol/L. Urine sodium 40 mmol/L, urine osmolality 350 mOsm/kg. Which finding is a red flag indicating a different aetiology and immediate danger?",
+      "options": [
+        "Low urine osmolality <500 mOsm/kg",
+        "High urine sodium >20 mmol/L",
+        "Metabolic acidosis",
+        "Hypouricaemia (serum uric acid 0.18 mmol/L)",
+        "Hypokalaemia (K+ 2.9 mmol/L)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hypokalaemia in a patient with hyponatraemia on thiazide suggests thiazide-induced hyponatraemia and is a red flag for cardiac arrhythmia. Hypouricaemia is more typical of SIADH than thiazide use.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "09f07da5871a",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with a recent traumatic brain injury is being managed for SIADH with fluid restriction and demeclocycline. He develops polyuria (urine output 4 L/day). Which finding indicates he has developed a life-threatening complication rather than resolution of SIADH?",
+      "options": [
+        "Serum sodium 148 mmol/L",
+        "Urine sodium <10 mmol/L",
+        "Urine osmolality 600 mOsm/kg",
+        "Serum uric acid 0.30 mmol/L",
+        "Low urine output <500 mL/day"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypernatraemia (Na >145) in the setting of polyuria suggests diabetes insipidus, a life-threatening complication of head injury. In SIADH, sodium is low or normal; hypernatraemia indicates water loss exceeding intake.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48844bdbd987",
+      "topic": "SIADH (Syndrome of Inappropriate ADH)",
+      "slug": "siadh-syndrome-of-inappropriate-adh",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman with possible SIADH has a serum sodium of 124 mmol/L, urine sodium 30 mmol/L, urine osmolality 400 mOsm/kg. Her morning cortisol is 150 nmol/L (reference >250) and ACTH is low. Serum potassium is 5.6 mmol/L. Which finding is a red flag that this may be a different, life-threatening disorder?",
+      "options": [
+        "Hyperkalaemia (K+ 5.6 mmol/L)",
+        "Low urine osmolality <100 mOsm/kg",
+        "Hypokalaemia",
+        "High urine sodium >20 mmol/L",
+        "Hypernatraemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyperkalaemia in a hyponatraemic patient is a red flag for adrenal insufficiency (Addisonian crisis), which can be fatal if missed. SIADH typically has normal or low potassium. The low cortisol and high ACTH (if measured) would confirm, but hyperkalaemia alone is the immediate warning.",
+      "difficulty": "hard"
+    }
+  ]
+}

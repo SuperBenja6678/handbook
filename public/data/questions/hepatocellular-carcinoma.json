@@ -1,0 +1,513 @@
+{
+  "topic": "Hepatocellular Carcinoma",
+  "slug": "hepatocellular-carcinoma",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:22Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "68d5e59b2303",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with known alcohol-related cirrhosis (Child-Pugh A) undergoes surveillance ultrasound which shows a 3 cm lesion in segment 7. He is asymptomatic. LFTs: ALP 150, otherwise normal. Serum AFP is 400 µg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Colorectal metastasis",
+        "Focal nodular hyperplasia",
+        "Hepatic adenoma",
+        "Cholangiocarcinoma",
+        "Hepatocellular carcinoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a cirrhotic patient, a new liver lesion with markedly raised AFP (>200 µg/L) is highly characteristic of hepatocellular carcinoma. Cholangiocarcinoma typically does not elevate AFP, and benign lesions such as adenoma or FNH are less likely in a cirrhotic liver. Colorectal metastases would usually have a known primary and lower AFP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a90482e41f0",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with Child-Pugh A cirrhosis (aetiology: hepatitis C) presents to the emergency department with confusion and diaphoresis. His wife reports episodes of odd behaviour over the past week. Random blood glucose is 2.1 mmol/L, and symptoms resolve after intravenous dextrose. He has no history of diabetes. A contrast-enhanced CT of the abdomen shows a 6 cm hypervascular liver mass with delayed washout. What is the single most likely diagnosis?",
+      "options": [
+        "Insulinoma",
+        "Hepatocellular carcinoma with paraneoplastic hypoglycaemia",
+        "Hepatic adenoma",
+        "Insulin autoimmune syndrome",
+        "Focal nodular hyperplasia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypoglycaemia in a cirrhotic patient with a typical hypervascular liver mass on CT is most likely due to a paraneoplastic effect of hepatocellular carcinoma (tumour secretion of IGF-II). Insulinoma is rare and not typically associated with cirrhosis, and other benign tumours do not cause this syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f5216780701f",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 66-year-old man with known hepatitis C cirrhosis presents with increasing abdominal distension and bilateral leg oedema over 2 months. Abdominal ultrasound shows a heterogeneous liver with a 5 cm hypoechoic mass in the left lobe and an echogenic thrombus extending into the main portal vein. Colour Doppler demonstrates arterial flow within the thrombus. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatocellular carcinoma with portal vein tumour thrombus",
+        "Lymphoma involving the liver",
+        "Metastatic pancreatic cancer",
+        "Cholangiocarcinoma with vascular invasion",
+        "Benign portal vein thrombus in cirrhosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a cirrhotic patient, a liver mass with arterialised portal vein thrombus (demonstrated by Doppler) is pathognomonic for hepatocellular carcinoma with tumour thrombus. Benign thrombus lacks arterial flow. Cholangiocarcinoma and metastatic disease are less common in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f0c9ef98a3d",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with known hereditary haemochromatosis (homozygous C282Y) presents with polyarthralgia and bronze skin pigmentation. He does not consume alcohol. Serum ferritin is 2500 µg/L. An abdominal ultrasound reveals a 2 cm hyperechoic nodule in the right lobe. CT with contrast shows arterial enhancement and venous washout. Serum AFP is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Focal nodular hyperplasia",
+        "Cholangiocarcinoma",
+        "Hepatic adenoma",
+        "Hepatocellular carcinoma",
+        "Haemangioma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hereditary haemochromatosis is a strong risk factor for hepatocellular carcinoma, even in the absence of cirrhosis. The CT features (arterial enhancement with washout) are classic for HCC. Normal AFP does not exclude HCC. Benign lesions are less likely given the haemochromatosis background.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cfb85431cec5",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman of sub-Saharan African origin presents with malaise, weight loss, and right upper quadrant discomfort for 3 months. She has no known liver disease. She is hepatitis B surface antigen positive. LFTs: ALT 80 U/L, AST 60 U/L, ALP 120 U/L, albumin 35 g/L. Abdominal ultrasound shows a heterogeneous liver with a 5 cm solid mass in segment 8. Serum AFP is 600 µg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Cholangiocarcinoma",
+        "Hepatic adenoma",
+        "Liver abscess",
+        "Hepatocellular carcinoma",
+        "Focal nodular hyperplasia"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a hepatitis B carrier from an endemic region, even without cirrhosis, a liver mass with AFP > 400 µg/L is highly suggestive of hepatocellular carcinoma. Cholangiocarcinoma typically does not produce AFP, and benign tumours do not cause such a rise. Abscess would present with fever and pain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5dac5b4595bc",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man with compensated alcohol-related cirrhosis undergoes routine 6-monthly liver ultrasound. A new 2.5 cm hypoechoic lesion is seen in the right lobe. Serum AFP is 30 ng/mL. What is the single most appropriate next investigation?",
+      "options": [
+        "CT chest/abdomen/pelvis for staging",
+        "Repeat ultrasound in 3 months",
+        "Contrast-enhanced CT of the liver",
+        "MRI liver with contrast",
+        "Percutaneous liver biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends contrast-enhanced CT or MRI for any lesion >1 cm in cirrhosis to confirm HCC (arterial enhancement + washout) and stage the disease. CT is often preferred first line because it also evaluates extrahepatic spread and vascular involvement. Repeat US is for lesions <1 cm; biopsy is reserved for atypical imaging or non-cirrhotic patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aca1bb0cff24",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with cirrhosis due to non-alcoholic steatohepatitis has an AFP level of 780 ng/mL. Ultrasound shows a 4 cm mass in the right lobe. What is the most appropriate interpretation of these findings?",
+      "options": [
+        "AFP >1000 ng/mL is needed for diagnosis",
+        "This is diagnostic of HCC in the context of cirrhosis and a mass, but contrast-enhanced imaging is still indicated for staging",
+        "AFP >200 ng/mL is diagnostic of HCC",
+        "AFP is non-specific; a liver biopsy is required for diagnosis",
+        "AFP >400 ng/mL confirms HCC; no further imaging is needed"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE states that an AFP >400 ng/mL in a patient with cirrhosis and a liver mass is sufficient to diagnose HCC. However, contrast-enhanced CT or MRI is still required for staging (tumour number, size, vascular invasion) and to guide management. Biopsy is not needed if imaging is also typical, but imaging is done for completeness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1f07b811f0fd",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old woman with primary biliary cirrhosis undergoes surveillance ultrasound. A 0.7 cm nodule is seen in segment 5. She is asymptomatic and has normal liver function. What is the most appropriate next step?",
+      "options": [
+        "Percutaneous biopsy",
+        "MRI with contrast",
+        "PET-CT",
+        "Contrast-enhanced CT",
+        "Repeat ultrasound in 3-6 months"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines for nodules <1 cm on surveillance ultrasound recommend repeat ultrasound every 3-6 months for at least 2 years. If the lesion remains stable, no further action; if it grows, then contrast-enhanced imaging is indicated. Immediate advanced imaging or biopsy is not warranted for such small nodules.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea440a5fa27a",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with known cirrhosis presents with acute onset right upper quadrant pain. Contrast-enhanced CT shows a 6 cm hypervascular liver mass and a non-enhancing filling defect in the main portal vein. What is the most likely diagnosis?",
+      "options": [
+        "Hepatic adenoma",
+        "Hepatocellular carcinoma with tumour thrombus",
+        "Benign portal vein thrombosis",
+        "Cholangiocarcinoma",
+        "Metastatic colorectal cancer"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a cirrhotic liver, a hypervascular mass associated with portal vein thrombus is highly suggestive of HCC with malignant invasion (tumour thrombus). Benign portal vein thrombosis may occur in cirrhosis but typically without an adjacent hypervascular mass. Cholangiocarcinoma is hypovascular and adenoma is rare in cirrhosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "05a8a15254b4",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old man with chronic hepatitis B (HBeAg negative, normal LFTs, FibroScan 5.5 kPa) has a 3 cm liver mass detected on ultrasound. AFP is 45 ng/mL. What is the single most appropriate next investigation?",
+      "options": [
+        "CT-guided biopsy",
+        "Repeat ultrasound in 3 months",
+        "Liver biopsy",
+        "MRI with extracellular contrast agent",
+        "Contrast-enhanced CT"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a non-cirrhotic patient with hepatitis B (high risk for HCC), the first step for a solid liver mass is contrast-enhanced imaging (CT or MRI) to characterize the lesion. Typical HCC features (arterial hyperenhancement with washout) can establish diagnosis even without cirrhosis. Biopsy is reserved for indeterminate lesions. Repeat US is inappropriate for a 3 cm mass.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "86a7485d1262",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with Child-Pugh A cirrhosis secondary to hepatitis C is found on surveillance ultrasound to have a single 3 cm HCC. There is no vascular invasion and his bilirubin is 20 μmol/L. He has mild portal hypertension but is well compensated. What is the most appropriate first-line treatment?",
+      "options": [
+        "Radiofrequency ablation",
+        "Transarterial chemoembolisation",
+        "Microwave ablation",
+        "Liver transplantation",
+        "Sorafenib"
+      ],
+      "answerIndex": 0,
+      "explanation": "For very early or early HCC (BCLC 0/A) in a well-compensated cirrhotic patient, curative-intent locoregional ablation (RFA or microwave) is first-line. Resection is an alternative but carries higher morbidity in cirrhosis. TACE is for intermediate stage, sorafenib for advanced, and transplantation reserved for decompensated or multifocal disease within Milan criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7f9fbaa0e901",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with hepatitis B cirrhosis (Child-Pugh A) has three HCC nodules (largest 4 cm) with no vascular invasion or extrahepatic spread. Her performance status is 0. What is the most appropriate first-line treatment?",
+      "options": [
+        "Radiofrequency ablation",
+        "Liver transplantation",
+        "Transarterial chemoembolisation",
+        "Surgical resection",
+        "Sorafenib"
+      ],
+      "answerIndex": 2,
+      "explanation": "Multinodular HCC without vascular invasion in a patient with preserved liver function is BCLC stage B. Transarterial chemoembolisation (TACE) is the standard first-line therapy. Sorafenib is for advanced stage, ablation for early solitary lesions, resection for solitary tumours, and transplantation reserved for decompensated cirrhosis or within Milan criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0aaf3bb4d2d",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known cirrhosis presents with sudden severe right upper quadrant pain and hypotension. CT shows a ruptured HCC with haemoperitoneum. He is haemodynamically stabilised. What is the most appropriate immediate treatment?",
+      "options": [
+        "Radioembolisation",
+        "Sorafenib",
+        "Transarterial embolisation",
+        "Emergency liver resection",
+        "Best supportive care only"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ruptured HCC with haemoperitoneum is a life-threatening emergency. Transarterial embolisation (TAE) is the first-line intervention to achieve haemostasis. Emergency resection carries high mortality, sorafenib is not acute, radioembolisation is not for bleeding, and best supportive care is inadequate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "63222fefcca8",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man with hepatitis C cirrhosis (Child-Pugh A) presents with a 6 cm HCC and segmental portal vein thrombosis. No extrahepatic metastases. Performance status 1. What is the most appropriate first-line treatment?",
+      "options": [
+        "Surgical resection",
+        "Sorafenib",
+        "Transarterial chemoembolisation",
+        "Best supportive care",
+        "Radiofrequency ablation"
+      ],
+      "answerIndex": 1,
+      "explanation": "HCC with portal vein thrombosis is BCLC stage C. First-line systemic therapy with sorafenib is recommended for Child-Pugh A patients. TACE is relatively contraindicated due to increased risk of liver failure. Resection is not feasible with PVT, ablation is for early tumours, and best supportive care is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "16045cb56a88",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old woman with decompensated alcoholic cirrhosis (Child-Pugh C, MELD 22) is found to have a solitary 2 cm HCC within Milan criteria. She has diuretic-resistant ascites. What is the most appropriate first-line treatment?",
+      "options": [
+        "Transarterial chemoembolisation",
+        "Radiofrequency ablation",
+        "Surgical resection",
+        "Liver transplantation",
+        "Sorafenib"
+      ],
+      "answerIndex": 3,
+      "explanation": "In decompensated cirrhosis (Child-Pugh C), liver transplantation is the only curative option. Resection and ablation pose prohibitive risks. TACE is contraindicated due to poor liver reserve, and sorafenib is not recommended in Child-Pugh C.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "149381b47431",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old man with known alcohol-related cirrhosis attends the hepatology clinic. A surveillance ultrasound has shown a 3 cm solitary hypervascular lesion in the right lobe of the liver. His serum AFP is 200 ng/mL. He is asymptomatic and has no signs of decompensation. What is the most appropriate next step?",
+      "options": [
+        "Repeat ultrasound in 3 months",
+        "Start sorafenib therapy",
+        "Refer to the transplant team",
+        "Arrange a multiphasic CT scan of the liver",
+        "Arrange a liver biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Multiphasic CT (or MRI) is the first-line imaging for suspected HCC in cirrhosis, as it can diagnose HCC non-invasively based on arterial hyperenhancement and delayed washout (LI-RADS criteria). Biopsy is reserved for atypical cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a276ee94a85d",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with Child-Pugh A cirrhosis and a single 4 cm HCC lesion detected on CT is being considered for curative treatment. She has no comorbidities. What is the most appropriate next step?",
+      "options": [
+        "Offer radiofrequency ablation (RFA)",
+        "Arrange a contrast-enhanced CT scan of the chest and abdomen for staging",
+        "List her for liver transplantation",
+        "Refer for transarterial chemoembolisation (TACE)",
+        "Perform a liver biopsy of the lesion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Staging with CT chest and abdomen (and bone scan if indicated) is essential before any curative treatment to exclude extrahepatic spread and assess portal vein patency. TACE and RFA are options only after staging confirms suitability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0588a878bc7",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with known cirrhosis and multifocal HCC presents to the Emergency Department with sudden onset of severe right upper quadrant pain. He is hypotensive (85/50 mmHg), tachycardic, and has a distended, tender abdomen. What is the most appropriate immediate next action?",
+      "options": [
+        "Paracentesis for diagnostic tap",
+        "Contact the on-call surgeon",
+        "Administer intravenous fluids and cross-match blood",
+        "Request an urgent CT abdomen with contrast",
+        "Perform an urgent abdominal ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation suggests spontaneous rupture of HCC with haemorrhagic shock. Immediate resuscitation with IV fluids and cross-matching blood is the priority before any diagnostic imaging. Paracentesis could worsen haemorrhage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5e13132f2268",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with cirrhosis and known multifocal HCC presents with new confusion and asterixis. He has been on diuretics for ascites. His bilirubin is 50 μmol/L and INR 1.8. What is the most appropriate next step?",
+      "options": [
+        "Perform a paracentesis to exclude SBP",
+        "Stop diuretics and administer lactulose enema",
+        "Refer for liver transplant assessment",
+        "Arrange urgent TIPS",
+        "Check serum ammonia level"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is hepatic encephalopathy precipitated by diuretics. Immediate management is to stop the precipitant (diuretics) and treat the encephalopathy with lactulose. Checking ammonia is less urgent and can be done simultaneously.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "271be12b3ee3",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with hepatitis B-related cirrhosis and a single 2 cm HCC successfully treated with radiofrequency ablation 6 months ago now attends for routine follow-up. She is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Repeat multiphasic CT scan of the liver in 3 months",
+        "Perform a biopsy of the ablation site",
+        "Refer for liver transplant assessment",
+        "Start sorafenib therapy",
+        "Check serum AFP every 2 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "After curative treatment, NICE recommends surveillance imaging (CT or MRI) every 3-6 months for early detection of recurrence. AFP alone is not sufficient. Sorafenib is indicated for advanced HCC only.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6dc5518c7352",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man with known alcohol-related cirrhosis presents to the emergency department with sudden onset of severe right upper quadrant pain and dizziness. His blood pressure is 85/50 mmHg, heart rate 110 bpm. Abdominal examination reveals generalized tenderness and guarding. Which clinical finding most strongly suggests a life-threatening complication of his hepatocellular carcinoma?",
+      "options": [
+        "Peritonism",
+        "Jaundice",
+        "Ascites",
+        "Splenomegaly",
+        "Hepatomegaly"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with known HCC and sudden hypotension, peritonism indicates likely tumor rupture with hemoperitoneum, a surgical emergency requiring immediate intervention. Hepatomegaly, splenomegaly, ascites, and jaundice are common but not acutely life-threatening in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70f9626a1e77",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with hepatitis C cirrhosis and a known 3 cm hepatocellular carcinoma awaiting transplant is admitted with a two-day history of fevers, rigors, and right upper quadrant pain. Her temperature is 38.5°C, and she has mild tenderness in the right upper quadrant. Blood tests show white cell count 15 × 10^9/L, C-reactive protein 120 mg/L, and bilirubin 35 μmol/L (previously normal). Which single finding would most raise suspicion for spontaneous bacterial peritonitis (SBP) as a complication?",
+      "options": [
+        "Positive blood cultures",
+        "New splenomegaly",
+        "Rising alpha-fetoprotein",
+        "Worsening coagulopathy",
+        "Ascites with neutrophil count >250 cells/μL"
+      ],
+      "answerIndex": 4,
+      "explanation": "The diagnostic finding for SBP in a cirrhotic patient is an ascitic fluid neutrophil count >250 cells/μL. Positive blood cultures support but are not definitive. Rising AFP suggests tumor progression, coagulopathy and splenomegaly are common in cirrhosis but not specific for SBP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ab9340f0b78e",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 48-year-old man with known hepatocellular carcinoma and portal vein thrombosis presents with haematemesis and melaena. He is tachycardic (110 bpm) and his blood pressure is 95/60 mmHg. After initial resuscitation, which finding on oesophagogastroduodenoscopy (OGD) would most indicate that the bleeding is from oesophageal varices, a direct consequence of his HCC?",
+      "options": [
+        "Mallory-Weiss tear",
+        "Active spurting from distal oesophagus",
+        "Gastric ulcer",
+        "Cameron lesion",
+        "Duodenal erosion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Active spurting from distal oesophagus is characteristic of variceal bleeding, which is a life-threatening complication of portal hypertension due to HCC and portal vein thrombosis. Other options are less directly related to his underlying condition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e426feee29ba",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with well-compensated cirrhosis and a small hepatocellular carcinoma is brought to the emergency department by her family because of confusion and lethargy over the past 24 hours. Her Glasgow Coma Scale is 13/15, and she has no focal neurological signs. She is not taking any sedatives. Which single laboratory finding is most likely to indicate a life-threatening paraneoplastic complication of her HCC?",
+      "options": [
+        "Haemoglobin 170 g/L",
+        "Serum sodium 125 mmol/L",
+        "Platelets 50 × 10^9/L",
+        "Serum calcium 3.2 mmol/L",
+        "INR 2.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "HCC can produce parathyroid hormone-related peptide causing hypercalcaemia, which presents with confusion and is life-threatening. Hyponatraemia is common in cirrhosis but not paraneoplastic. Polycythaemia (Hb 170) is a paraneoplastic feature but rarely causes acute confusion. Thrombocytopenia and raised INR are common in cirrhosis but not acute causes of confusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2658a29cd19b",
+      "topic": "Hepatocellular Carcinoma",
+      "slug": "hepatocellular-carcinoma",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with no prior history of liver disease presents with painless jaundice and pruritus. He is otherwise well. Blood tests show total bilirubin 120 μmol/L (direct 100 μmol/L), alkaline phosphatase 450 U/L, and normal transaminases. Ultrasound shows a mass in the right lobe of the liver with dilated intrahepatic bile ducts but a normal common bile duct. Which single finding would most suggest that this mass is a hepatocellular carcinoma rather than a cholangiocarcinoma?",
+      "options": [
+        "Presence of cirrhosis",
+        "Contrast-enhanced CT showing arterial hyperenhancement and washout",
+        "Raised alpha-fetoprotein",
+        "Positive hepatitis B serology",
+        "Portal vein thrombosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arterial hyperenhancement with venous washout is the classic imaging hallmark of HCC, while cholangiocarcinoma typically shows delayed enhancement. Raised AFP and hepatitis B are risk factors but not diagnostic. Cirrhosis may be absent in this scenario. Portal vein thrombosis can occur in both, but the enhancement pattern is key.",
+      "difficulty": "hard"
+    }
+  ]
+}

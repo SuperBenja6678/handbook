@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Urinary Retention",
+  "slug": "acute-urinary-retention",
+  "system": "Urology",
+  "subSystem": "Emergency",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:33Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "385c8360769d",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man presents to the emergency department with acute inability to pass urine for the past 8 hours. He has lower abdominal pain and a palpable, tender bladder. He reports nocturia ×2 and a weak urinary stream over the past year. He is afebrile, and digital rectal examination reveals a symmetrically enlarged, firm, non-tender prostate. Blood tests show normal renal function. What is the single most likely diagnosis?",
+      "options": [
+        "Bladder calculus",
+        "Acute prostatitis",
+        "Cauda equina syndrome",
+        "Urethral stricture",
+        "Acute urinary retention due to benign prostatic hyperplasia"
+      ],
+      "answerIndex": 4,
+      "explanation": "The gradual onset of lower urinary tract symptoms (nocturia, weak stream) combined with acute retention and a non-tender, enlarged prostate on DRE is classic for acute-on-chronic retention due to BPH. Acute prostatitis would present with fever and a tender prostate; cauda equina syndrome would include neurological deficits; bladder calculi and urethral strictures are less common and lack the chronic prostatic enlargement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3379c57b1f8c",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man underwent an elective total hip replacement under spinal anaesthesia 24 hours ago. He is now unable to void, with a suprapubic dullness on percussion. He has no fever or flank pain, and his catheter history is unremarkable. He takes no anticholinergic medications. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Post-operative urinary retention",
+        "Cauda equina syndrome due to spinal anaesthesia",
+        "Acute prostatitis",
+        "Bladder atony from anticholinergic medication"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-operative urinary retention is common after spinal anaesthesia, especially in older men. The absence of fever, neurologic deficits, or precipitating medications makes other causes less likely. Spinal anaesthesia can transiently impair bladder sensation and contractility, leading to retention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3ac4249f5bb",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with anuria for 12 hours and severe lower abdominal pain. On examination, there is a tense, tender suprapubic mass. Serum creatinine is 350 µmol/L (eGFR 15 mL/min/1.73m²). He has no prior history of renal disease or hypotension. Bladder ultrasound shows a large post-void residual. What is the single most likely diagnosis?",
+      "options": [
+        "Neurogenic bladder from undiagnosed diabetes",
+        "Acute tubular necrosis due to prolonged hypotension",
+        "Prostatic abscess causing obstruction",
+        "Acute urinary retention with post-renal acute kidney injury",
+        "Bilateral ureteric obstruction from ureteric stones"
+      ],
+      "answerIndex": 3,
+      "explanation": "The acute onset of anuria with a tense, tender bladder and significantly elevated creatinine points to acute urinary retention causing post-renal AKI. There is no history of hypotension to suggest ATN, bilateral stones are rare, and prostatic abscess would typically produce fever and a tender prostate. Neurogenic bladder usually develops gradually.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "799267c52744",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man complains of leaking small amounts of urine throughout the day, especially when straining, and feeling that he never fully empties his bladder. He has nocturia three times nightly and a weak stream. On examination, the bladder is not palpable but is dull to percussion. Urinalysis is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Overflow incontinence due to chronic urinary retention",
+        "Urge incontinence",
+        "Prostate cancer",
+        "Stress incontinence",
+        "Urethral diverticulum"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of a weak stream, nocturia, constant dribbling (overflow), and a high post-void residual on percussion is classic for chronic retention with overflow incontinence. Stress incontinence is triggered by physical exertion, urge incontinence by sudden urgency, and urethral diverticulum typically causes post-void dribbling without retention. Prostate cancer is often asymptomatic or presents with haematuria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90ea2b946330",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents with acute inability to pass urine for 6 hours. She has lower abdominal pain and a distended bladder. She recently started taking an anticholinergic medication (solifenacin) for overactive bladder. She has no fever, dysuria, or vaginal prolapse symptoms. Urinalysis is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Drug-induced urinary retention",
+        "Urethral stricture",
+        "Pelvic organ prolapse",
+        "Bladder tumour"
+      ],
+      "answerIndex": 1,
+      "explanation": "Anticholinergic medications such as solifenacin can impair bladder contractility and precipitate acute urinary retention, particularly in women with borderline voiding function. The absence of infection, prolapse, or obstructive history makes the other options less likely. Urethral strictures are rare in women, and bladder tumours rarely cause acute retention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3803efb29808",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with sudden inability to pass urine for 6 hours, suprapubic pain and a palpable bladder. Which single investigation is most appropriate to confirm the diagnosis of acute urinary retention?",
+      "options": [
+        "CT scan of abdomen and pelvis",
+        "Plain abdominal X-ray",
+        "Urine dipstick and culture",
+        "Ultrasound measurement of post-void residual volume",
+        "Urethral catheterisation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ultrasound measurement of post-void residual volume is non-invasive and confirms retention if residual urine exceeds the bladder capacity; it is the standard initial test before catheterisation. Urethral catheterisation is both diagnostic and therapeutic but is invasive and not the first diagnostic step in a conscious patient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "05e75d622a71",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with known prostate cancer presents with acute urinary retention. After successful catheterisation with drainage of 1200 mL, his serum creatinine is 150 µmol/L. Which investigation is most appropriate to assess for upper tract obstruction?",
+      "options": [
+        "Serum prostate-specific antigen",
+        "Renal ultrasound scan",
+        "Cystoscopy",
+        "CT urogram",
+        "Magnetic resonance imaging of the prostate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Renal ultrasound is the first-line imaging to exclude hydronephrosis in patients with acute retention, especially with renal impairment. CT urogram exposes to radiation and is reserved for specific cases; cystoscopy is for lower tract evaluation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "49c5a1ed8682",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with acute urinary retention. Rectal examination reveals a normal prostate, and PSA is within normal range. After catheterisation, a trial without catheter fails. Which investigation is most appropriate to determine the underlying cause?",
+      "options": [
+        "MRI of the prostate",
+        "Urodynamic studies",
+        "Post-void residual volume measurement",
+        "Intravenous urography",
+        "Cystoscopy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cystoscopy allows direct visualisation of the urethra and bladder neck to identify strictures, bladder neck obstruction, or foreign bodies. Urodynamics assess function but not anatomy; MRI is for suspected malignancy; post-void residual is already done.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "905d944a4cef",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man presents with acute urinary retention and a serum creatinine of 200 µmol/L. Renal ultrasound shows bilateral hydronephrosis with thin renal parenchyma. After catheterisation, 800 mL of urine drains. Which investigation is most appropriate to identify the level of obstruction?",
+      "options": [
+        "Retrograde ureteropyelography",
+        "Cystoscopy alone",
+        "CT urogram",
+        "Antegrade nephrostogram",
+        "Magnetic resonance urography"
+      ],
+      "answerIndex": 0,
+      "explanation": "Retrograde ureteropyelography is performed at the time of cystoscopy and gives detailed images of the ureters to identify the site of obstruction. CT urogram is useful but less direct; antegrade studies are usually reserved for when retrograde access fails.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d78442606b3d",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with multiple sclerosis presents with acute urinary retention. She has had no prior bladder symptoms. After catheterisation and initial management, which investigation is most appropriate to evaluate her bladder function?",
+      "options": [
+        "Urodynamic studies",
+        "MRI of the spine",
+        "Urine culture",
+        "Post-void residual by ultrasound scan",
+        "Cystoscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Urodynamic studies assess detrusor function and are indicated in neurogenic bladder to differentiate between detrusor overactivity and underactivity. Cystoscopy evaluates anatomy; spine MRI is for central nervous system lesion assessment but does not directly assess bladder function.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a34d2689c1f3",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man presents with acute urinary retention due to benign prostatic hyperplasia. This is his first episode. After catheterisation, which pharmacological treatment is most appropriate to facilitate a trial without catheter?",
+      "options": [
+        "Diazepam 5 mg three times daily",
+        "Oxybutynin 5 mg three times daily",
+        "Tamsulosin 400 micrograms once daily",
+        "No medication, immediate trial without catheter",
+        "Finasteride 5 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends offering an alpha-blocker (e.g., tamsulosin) before a trial without catheter to improve success rates. Finasteride takes weeks to work and is not first-line. Oxybutynin is anticholinergic and may worsen retention. Diazepam has no role. Immediate trial without medication has lower success.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25ee602a9b5e",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with benign prostatic hyperplasia presents with acute urinary retention after self-medicating with a cold remedy containing pseudoephedrine. He has a palpable bladder. After catheterisation, which drug is contraindicated for ongoing management?",
+      "options": [
+        "Oxybutynin",
+        "Doxazosin",
+        "Paracetamol",
+        "Tamsulosin",
+        "Ibuprofen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Oxybutynin is an anticholinergic that can precipitate or worsen urinary retention by inhibiting detrusor contraction. Ibuprofen and paracetamol are safe. Doxazosin and tamsulosin are alpha-blockers that help relieve obstruction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b48e71fb1735",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with benign prostatic hyperplasia has recurrent acute urinary retention despite optimal medical therapy with tamsulosin. He is fit for surgery. Which definitive surgical treatment is most appropriate?",
+      "options": [
+        "Urethral stent insertion",
+        "Laser prostatectomy",
+        "Transurethral resection of the prostate (TURP)",
+        "Open prostatectomy",
+        "Transurethral incision of the prostate (TUIP)"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends TURP as the standard surgical treatment for men with BPH who have failed medical therapy. TUIP is for smaller prostates, open prostatectomy is for very large prostates but more invasive, and laser options are alternatives but not first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "260d7f22733c",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old frail man with multiple comorbidities presents with recurrent acute urinary retention due to benign prostatic hyperplasia. He has failed two trials without catheter while on tamsulosin. He cannot perform intermittent self-catheterisation due to poor dexterity. What is the most appropriate long-term management?",
+      "options": [
+        "Long-term tamsulosin",
+        "Watchful waiting",
+        "Intermittent self-catheterisation",
+        "Finasteride",
+        "Indwelling urethral catheter"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given frailty, failed medical therapy, and inability to self-catheterise, an indwelling catheter is the most appropriate option. Long-term alpha-blocker or finasteride has already failed. Watchful waiting is inappropriate for recurrent retention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "044bb840d548",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with acute urinary retention two days after an uncomplicated vaginal delivery. Catheterisation yields 800 mL of urine. Neurological examination is normal. What is the most appropriate first-line management to prevent recurrence?",
+      "options": [
+        "Intermittent self-catheterisation",
+        "Tamsulosin 400 micrograms once daily",
+        "Bethanechol 10 mg three times daily",
+        "Pelvic floor exercises",
+        "Indwelling catheter"
+      ],
+      "answerIndex": 0,
+      "explanation": "Postpartum urinary retention often resolves spontaneously, but intermittent self-catheterisation is first-line to prevent recurrence while bladder function recovers. Bethanechol is rarely used due to side effects. Alpha-blockers are not indicated in women. Pelvic floor exercises do not treat retention. An indwelling catheter increases infection risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "433b0d4e7f4e",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man presents to the ED with acute urinary retention. A 16F Foley catheter is inserted and drains 800 mL of clear urine. He is otherwise well, with no haematuria or clot retention. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a digital rectal examination",
+        "Refer to urology for same-day review",
+        "Discharge home with catheter in situ",
+        "Arrange an urgent transurethral resection of the prostate",
+        "Start an alpha-blocker (e.g., tamsulosin)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidance recommends starting an alpha-blocker (e.g., tamsulosin) prior to a trial without catheter (TWOC) in acute retention. The DRE is important but can be done after starting the alpha-blocker. Discharge without a plan is inappropriate. Same-day urology referral is not needed unless complications arise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e825cbcf4ce",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents with a 6-month history of hesitancy and poor stream, now acute retention. A catheter is passed and 600 mL drained. Observations are stable. What is the single most appropriate immediate next action?",
+      "options": [
+        "Refer for urodynamic studies",
+        "Perform a digital rectal examination",
+        "Arrange a trial without catheter in 24 hours",
+        "Arrange an urgent prostate MRI",
+        "Start an alpha-blocker (e.g., tamsulosin)"
+      ],
+      "answerIndex": 1,
+      "explanation": "A DRE is essential immediately to assess prostate size, consistency, and to feel for nodules that may indicate malignancy. This guides further management. Starting an alpha-blocker and planning TWOC are subsequent steps. MRI and urodynamics are not immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5302f8023f54",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old man is brought to ED with acute retention. A 16F Foley is inserted and 1.2 L drained. Immediately after drainage, his blood pressure drops to 85/50 mmHg, heart rate 110 bpm. He appears clammy. What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent CT of the abdomen and pelvis",
+        "Remove the urinary catheter",
+        "Check urea and electrolytes urgently",
+        "Administer a 500 mL intravenous bolus of normal saline",
+        "Start a noradrenaline infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "The hypotension likely represents hypovolaemia or a vasovagal response to rapid decompression. The first step is fluid resuscitation with IV crystalloid. Vasopressors are not first-line. Removing the catheter is harmful. CT and bloods can follow after haemodynamic stabilisation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "708e2ec21d1f",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known benign prostatic hyperplasia presents with acute retention. Catheterisation yields dark urine with large clots. The catheter is draining poorly. What is the most appropriate immediate next step?",
+      "options": [
+        "Request a CT of the kidneys, ureters and bladder",
+        "Check the full blood count and INR",
+        "Perform manual irrigation of the bladder with 0.9% saline",
+        "Start intravenous antibiotics (e.g., co-amoxiclav)",
+        "Arrange an urgent flexible cystoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clot retention is a urological emergency. The priority is to clear clots to restore drainage, which is done by manual irrigation via the catheter using saline. Imaging, blood tests, and endoscopy are secondary once the acute obstruction is relieved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28c40a19b119",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman develops acute urinary retention 24 hours after elective right hip replacement. A 14F Foley catheter is inserted and drains 400 mL. She is otherwise well, with normal observations. What is the most appropriate immediate next step?",
+      "options": [
+        "Remove the catheter and monitor for spontaneous voiding",
+        "Refer to gynaecology for assessment",
+        "Arrange a trial without catheter in 24 hours",
+        "Check a post-void residual volume by ultrasound",
+        "Start tamsulosin 400 micrograms once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Post-operative retention is common after hip surgery. The standard management in a stable patient is to leave the catheter for 24-48 hours then perform a trial without catheter. Tamsulosin is not licensed for women. Gynaecology referral is unnecessary. Immediate removal risks re-retention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d7d5fd97415c",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man presents with inability to pass urine for 24 hours. He has benign prostatic hyperplasia and takes tamsulosin. On examination, his bladder is palpable two fingerbreadths above the umbilicus. Which investigation finding is most concerning for a complication requiring urgent intervention?",
+      "options": [
+        "Blood pressure 160/90 mmHg",
+        "Temperature 37.8°C",
+        "Haemoglobin 130 g/L",
+        "Serum creatinine 160 μmol/L",
+        "Urine dipstick negative for leucocytes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevated creatinine indicates acute kidney injury due to prolonged retention, which requires urgent decompression. Hypertension and low-grade fever are common in retention; normal Hb and negative dipstick are reassuring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "73ae385a6e62",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known metastatic prostate cancer presents with acute urinary retention. He also reports a 2-week history of low back pain and progressive leg weakness. Which clinical finding would most strongly suggest spinal cord compression?",
+      "options": [
+        "Suprapubic fullness",
+        "Loss of perianal sensation",
+        "Positive straight leg raise test",
+        "Bilateral ankle oedema",
+        "Knee jerk hyperreflexia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loss of perianal sensation indicates cauda equina syndrome, a neurosurgical emergency. Ankle oedema is from venous stasis, suprapubic fullness is due to retention, knee hyperreflexia suggests upper motor neuron lesion but is nonspecific, and straight leg raise test is for sciatica.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "19baaa6ac772",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with acute urinary retention after a 6-hour car journey. She has never had this before. On examination, a distended bladder is palpable. Which clinical finding on pelvic examination would most suggest an obstructive pelvic mass as the cause?",
+      "options": [
+        "A normally sized anteverted uterus",
+        "A fixed, non-tender adnexal mass",
+        "Bilateral adnexal tenderness",
+        "Cervical motion tenderness",
+        "A retroverted but mobile uterus"
+      ],
+      "answerIndex": 1,
+      "explanation": "A fixed, non-tender mass suggests a malignant or benign pelvic tumour causing extrinsic compression. A normal uterus makes obstruction less likely; tenderness suggests infection; cervical motion tenderness suggests PID; a retroverted mobile uterus is common and not obstructive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20283207fe18",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with dementia and poor oral intake is brought from a care home with acute confusion, oliguria, and a distended bladder. After catheterisation, which laboratory result is most immediately life-threatening?",
+      "options": [
+        "Serum creatinine 150 μmol/L",
+        "Serum potassium 6.0 mmol/L",
+        "Serum albumin 32 g/L",
+        "Blood urea 18 mmol/L",
+        "Serum sodium 132 mmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Severe hyperkalemia (6.0 mmol/L) can cause cardiac arrhythmias and is a key complication of acute kidney injury from retention. Mild hyponatremia, elevated urea/creatinine, and low albumin are less acutely dangerous.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "262cf82bfa9b",
+      "topic": "Acute Urinary Retention",
+      "slug": "acute-urinary-retention",
+      "system": "Urology",
+      "subSystem": "Emergency",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents with acute retention. He has been taking oxybutynin for overactive bladder for the past week. Which historical feature is most consistent with drug-induced retention rather than prostatic enlargement?",
+      "options": [
+        "A normal prostate-specific antigen (PSA) level",
+        "Previous episodes of retention managed with catheterisation",
+        "An International Prostate Symptom Score of 20",
+        "Nocturia three times per night",
+        "Onset of symptoms within days of starting oxybutynin"
+      ],
+      "answerIndex": 4,
+      "explanation": "A clear temporal relationship with initiation of anticholinergic therapy strongly suggests drug-induced retention. Previous retention episodes, high symptom score, nocturia, and normal PSA are more consistent with BPH.",
+      "difficulty": "medium"
+    }
+  ]
+}

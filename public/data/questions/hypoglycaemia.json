@@ -1,0 +1,513 @@
+{
+  "topic": "Hypoglycaemia",
+  "slug": "hypoglycaemia",
+  "system": "Endocrinology",
+  "subSystem": "Diabetes emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:30:48Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "bf4026a76ccb",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with episodes of sweating, palpitations, and confusion occurring before breakfast. She feels better after eating. She has no history of diabetes. Blood glucose during an episode was 2.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "Factitious hypoglycaemia (insulin or sulfonylurea misuse)",
+        "Non-insulinoma pancreatogenous hypoglycaemia syndrome (NIPHS)",
+        "Reactive hypoglycaemia",
+        "Insulinoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fasting hypoglycaemia with Whipple's triad in a young non-diabetic is classic for insulinoma. Factitious hypoglycaemia is possible but less likely without risk factors; NIPHS typically causes postprandial hypoglycaemia; reactive hypoglycaemia occurs postprandially; adrenal insufficiency usually has additional features such as hyperpigmentation or hyponatremia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "150c0d75ef0f",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with type 2 diabetes mellitus on gliclazide 80 mg twice daily is admitted with confusion. He had reduced oral intake for 2 days due to gastroenteritis. Capillary blood glucose is 2.1 mmol/L. What is the single most likely cause of his hypoglycaemia?",
+      "options": [
+        "DPP-4 inhibitor-induced hypoglycaemia",
+        "Insulin-induced hypoglycaemia",
+        "SGLT2 inhibitor-induced hypoglycaemia",
+        "Metformin-induced hypoglycaemia",
+        "Sulfonylurea-induced hypoglycaemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sulfonylureas (e.g., gliclazide) cause hypoglycaemia, especially with reduced intake or renal impairment. The patient is not on insulin. Metformin, DPP-4 inhibitors, and SGLT2 inhibitors rarely cause hypoglycaemia as monotherapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9c45b2a392b6",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old homeless man is brought to the emergency department unconscious. His breath smells of alcohol. Blood glucose is 1.6 mmol/L. He has no known diabetes. What is the single most likely diagnosis?",
+      "options": [
+        "Sepsis-induced hypoglycaemia",
+        "Liver failure",
+        "Alcoholic hypoglycaemia",
+        "Insulinoma",
+        "Factitious hypoglycaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alcohol inhibits gluconeogenesis, causing hypoglycaemia in malnourished individuals. Insulinoma is less acute; factitious hypoglycaemia is unlikely in this setting; liver failure and sepsis can cause hypoglycaemia but are less likely given the history of alcohol intake.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c81ede15a791",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 38-year-old woman who had Roux-en-Y gastric bypass surgery 6 months ago presents with episodes of sweating, tremor, and confusion occurring 2-3 hours after meals. Her blood glucose during an episode is 2.6 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Factitious hypoglycaemia",
+        "Insulinoma",
+        "Reactive hypoglycaemia (idiopathic)",
+        "Gastroparesis",
+        "Late dumping syndrome (postprandial hypoglycaemia)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Late dumping syndrome is common after gastric bypass, characterised by postprandial hypoglycaemia due to rapid glucose absorption and exaggerated insulin response. Insulinoma causes fasting hypoglycaemia; factitious hypoglycaemia is less likely; idiopathic reactive hypoglycaemia occurs without surgery; gastroparesis causes early satiety and bloating, not hypoglycaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eee166dd036c",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old teacher has had recurrent episodes of confusion, sweating, and palpitations for 2 years. She has been diagnosed with epilepsy and is taking levetiracetam without benefit. During a monitored episode at the GP surgery, her blood glucose is 2.3 mmol/L and symptoms resolve with glucose. A fasting test shows hypoglycaemia with high insulin and C-peptide. What is the single most likely diagnosis?",
+      "options": [
+        "Non-insulinoma pancreatogenous hypoglycaemia syndrome (NIPHS)",
+        "Panic disorder",
+        "Factitious hypoglycaemia (sulfonylurea overdose)",
+        "Epilepsy",
+        "Insulinoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of hypoglycaemia with high insulin and C-peptide indicates endogenous insulin excess, most commonly due to insulinoma. Factitious sulfonylurea use can produce a similar biochemical picture, but insulinoma is the classic cause. Epilepsy and panic disorder are ruled out by documented hypoglycaemia responsive to glucose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c535666e6a0a",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old non-diabetic woman presents with episodes of confusion, sweating, and palpitations that resolve after eating. During an episode, her capillary glucose is 2.6 mmol/L. What is the most appropriate investigation to confirm the diagnosis of hypoglycaemia in this patient?",
+      "options": [
+        "C-peptide level",
+        "Mixed meal test",
+        "72-hour fasting test",
+        "Insulin antibody screen",
+        "Oral glucose tolerance test"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 72-hour fasting test is the gold standard for diagnosing hypoglycaemia in non-diabetic patients, as it allows documentation of Whipple's triad under controlled conditions. The mixed meal test may be useful post-gastric bypass but is not first-line for initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d07aa7cca6ce",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with type 2 diabetes on sulfonylurea is brought to the Emergency Department with confusion. Capillary glucose is 2.2 mmol/L. After treatment with IV dextrose, he recovers. Which test best confirms exogenous insulin-induced hypoglycaemia as the cause?",
+      "options": [
+        "Continuous glucose monitoring",
+        "Glycated haemoglobin (HbA1c)",
+        "Urine ketones",
+        "C-peptide and insulin levels",
+        "Sulfonylurea drug screen"
+      ],
+      "answerIndex": 4,
+      "explanation": "A sulfonylurea drug screen is the most specific test to confirm exogenous sulfonylurea as the cause of hypoglycaemia. C-peptide and insulin levels would be elevated in insulinoma or sulfonylurea use but cannot distinguish between endogenous and drug-induced without a drug screen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b36141b9a552",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with type 1 diabetes reports recurrent hypoglycaemia without symptoms. Which investigation is most appropriate to diagnose hypoglycaemia unawareness?",
+      "options": [
+        "Continuous glucose monitoring (CGM) for 7 days",
+        "Clarke hypoglycaemia unawareness questionnaire",
+        "Mixed meal tolerance test",
+        "HbA1c measurement",
+        "Glucagon stimulation test"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypoglycaemia unawareness is a clinical diagnosis best established using a validated questionnaire such as the Clarke score, which assesses the patient's ability to detect hypoglycaemic events. CGM can confirm hypoglycaemic episodes but is not diagnostic of unawareness itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd7d798a2e58",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man is found collapsed at home. Paramedics record a capillary glucose of 1.8 mmol/L. He has no history of diabetes. After IV glucose, he regains consciousness. What is the single most appropriate next investigation to establish the cause of his hypoglycaemia?",
+      "options": [
+        "72-hour fasting test with glucose, insulin, and C-peptide",
+        "CT scan of pancreas",
+        "Insulin antibody assay",
+        "Random cortisol level",
+        "Liver function tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with spontaneous severe hypoglycaemia, a supervised 72-hour fast with serial measurement of glucose, insulin, C-peptide, and proinsulin is the standard to identify the underlying aetiology (e.g., insulinoma, factitious hypoglycaemia). Imaging is performed only after biochemical confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "907c433a7b6a",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman on gliclazide for type 2 diabetes reports mild hypoglycaemic episodes occurring in the afternoon. Her home capillary glucose readings are 3.0–3.5 mmol/L. Which diagnostic criterion indicates that these episodes are clinically significant hypoglycaemia?",
+      "options": [
+        "Glucose < 3.5 mmol/L regardless of symptoms",
+        "Glucose < 3.0 mmol/L",
+        "Glucose < 2.8 mmol/L with autonomic symptoms",
+        "Whipple's triad: symptoms, low glucose, relief upon glucose administration",
+        "Glucose < 4.0 mmol/L with symptoms"
+      ],
+      "answerIndex": 3,
+      "explanation": "Whipple's triad remains the diagnostic standard for hypoglycaemia: symptoms consistent with hypoglycaemia, a low plasma glucose concentration, and resolution of symptoms after glucose administration. A single glucose threshold is insufficient because many patients become symptomatic at higher levels with poor glycaemic control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53cc946d9bfd",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with type 1 diabetes on basal-bolus insulin reports feeling sweaty and shaky at 11am. She is alert and able to swallow. Capillary glucose is 3.2 mmol/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "15-20g oral glucose tablets",
+        "Subcutaneous insulin correction dose",
+        "Intramuscular glucagon 1mg",
+        "Intravenous 50ml of 50% glucose",
+        "Oral complex carbohydrate (e.g., wholemeal bread)"
+      ],
+      "answerIndex": 0,
+      "explanation": "In mild-to-moderate hypoglycaemia in a conscious patient, first-line is oral rapid-acting carbohydrate (15-20g glucose). Glucagon and IV glucose are for severe hypoglycaemia with impaired consciousness. Complex carbohydrate takes longer to act. Insulin would worsen hypoglycaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24378463e15f",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known alcohol dependency is found collapsed on the ward. He is unresponsive. Capillary glucose is 1.6 mmol/L. He has no history of diabetes. Which of the following is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous 50ml of 50% glucose",
+        "Intramuscular glucagon 1mg",
+        "Intravenous normal saline",
+        "Subcutaneous octreotide",
+        "Oral glucose gel"
+      ],
+      "answerIndex": 0,
+      "explanation": "In alcohol-induced hypoglycaemia, glucagon is ineffective because glycogen stores are depleted and gluconeogenesis is impaired; IV glucose is required. Oral gel is inappropriate as patient is unconscious. Saline does not treat hypoglycaemia. Octreotide is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3fae20310a0",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with known primary adrenal insufficiency on prednisolone 5mg daily presents with confusion and hypoglycaemia. Capillary glucose is 2.5 mmol/L. She is able to swallow. What is the most appropriate first-line treatment for her underlying disease state?",
+      "options": [
+        "Intravenous normal saline",
+        "Intramuscular glucagon",
+        "Intravenous 50% glucose",
+        "Intramuscular hydrocortisone 100mg",
+        "Oral glucose tablets"
+      ],
+      "answerIndex": 3,
+      "explanation": "In adrenal crisis, hypoglycaemia is due to cortisol deficiency; the definitive treatment is hydrocortisone replacement. While glucose is also given, the question asks for the treatment for the underlying disease state. Glucagon is ineffective in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f4ad37d71c70",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man with type 1 diabetes has recurrent severe hypoglycaemic episodes requiring assistance, despite optimised multiple daily insulin injections (MDI) and good self-monitoring. There is no evidence of renal impairment or other comorbidity. What is the most appropriate next step in management?",
+      "options": [
+        "Start a glucagon infusion",
+        "Refer for islet cell transplantation",
+        "Start continuous subcutaneous insulin infusion (CSII) therapy",
+        "Switch to a pre-mixed insulin regimen",
+        "Add a sulfonylurea"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends CSII (insulin pump) for adults with type 1 diabetes who have disabling hypoglycaemia despite optimal MDI therapy. Adding sulfonylurea is harmful; islet transplantation is considered later; glucagon infusion is not standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a74f11cb798",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with episodes of confusion, sweating, and palpitations, typically before lunch. She is not on any medications. Fasting glucose is 2.2 mmol/L with a corresponding insulin level of 120 pmol/L (elevated) and C-peptide 1000 pmol/L (elevated). MRI reveals a 1.5cm lesion in the pancreatic body. What is the most appropriate definitive treatment?",
+      "options": [
+        "Octreotide",
+        "Diazoxide",
+        "Surgical enucleation",
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a solitary, localised insulinoma, surgical resection (enucleation) is curative and first-line. Diazoxide and octreotide are medical therapies for patients unfit for surgery or with metastases. Radiotherapy and chemotherapy are not standard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3d67bdb64238",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with type 1 diabetes feels shaky and sweaty. Her capillary blood glucose is 3.0 mmol/L. She is fully conscious and able to swallow. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 50 mL of 50% dextrose intravenously",
+        "Call the medical emergency team",
+        "Check blood ketones",
+        "Give 15-20 g oral glucose (e.g., Lucozade or glucose tablets)",
+        "Give 1 mg glucagon intramuscularly"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has mild hypoglycaemia and is conscious with intact swallowing, so oral glucose is first-line. IV 50% dextrose is reserved for patients who are unconscious or unable to swallow, and IM glucagon is an alternative when IV access is not available. Checking ketones is relevant but not the immediate step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c4e121a2ac67",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with type 2 diabetes on gliclazide is found confused by his wife. His capillary glucose is 2.4 mmol/L. He can sip fluids with prompting. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check serum insulin and C-peptide levels",
+        "Call the cardiac arrest team",
+        "Give oral glucose gel (e.g., GlucoGel) into the buccal cavity",
+        "Give 50 mL of 50% dextrose intravenously",
+        "Give 1 mg glucagon intramuscularly"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient can sip fluids, so oral glucose gel is appropriate as first-line treatment. IV dextrose is indicated if oral route is not possible or if the patient is deteriorating. Glucagon is an alternative if IV access is not available. Checking insulin/C-peptide is not an emergency action; management of hypoglycaemia takes priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d4cd64fc6d08",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old with type 1 diabetes is found unconscious in bed. Capillary glucose is 1.1 mmol/L. No intravenous access is available. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give 1 mg glucagon intramuscularly",
+        "Call the anaesthetic registrar for emergency intubation",
+        "Attempt to insert an intravenous cannula and give 50% dextrose",
+        "Give oral glucose paste into the cheek",
+        "Start a 10% dextrose infusion at 100 mL/hour"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an unconscious patient with no IV access, IM glucagon is the first-line treatment. Attempting IV access may delay treatment. Oral glucose is dangerous if swallowing is impaired. Dextrose infusion is not the immediate priority. Intubation is not indicated without failed response to glucagon.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "66c7a922fe62",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with long-standing type 1 diabetes has had three episodes of severe hypoglycaemia requiring paramedic call-out in the past month. His current clinic capillary glucose is 8.1 mmol/L and he feels well. He has hypoglycaemia unawareness. What is the single most appropriate next step to reduce future episodes?",
+      "options": [
+        "Refer for structured diabetes education (e.g., DAFNE course)",
+        "Reduce the total daily insulin dose by 20% immediately",
+        "Refer for islet cell transplantation assessment",
+        "Advise to eat a snack containing carbohydrate every 2 hours",
+        "Switch from multiple daily injections to an insulin pump"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with recurrent severe hypoglycaemia and unawareness, structured education (such as DAFNE) is recommended first to improve recognition and self-management. Insulin pump therapy may be considered if education fails, but is not the immediate step. Snacking leads to weight gain and poor control. Empirically reducing insulin without review risks hyperglycaemia. Islet transplantation is reserved for extreme cases with severe unawareness despite optimal medical therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b33c73f0985",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman with type 1 diabetes (32 weeks gestation) reports feeling hypoglycaemic. Her capillary glucose is 2.9 mmol/L. She is conscious and able to swallow. What is the single most appropriate immediate next step?",
+      "options": [
+        "Call the obstetric registrar for urgent review",
+        "Give 15-20 g oral glucose quickly",
+        "Give 1 mg glucagon intramuscularly",
+        "Give 50 mL of 50% dextrose intravenously",
+        "Check urinary ketones and fetal wellbeing"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, the immediate management of hypoglycaemia is the same as in non-pregnant patients: oral glucose if conscious and able to swallow. IV dextrose is only for unconscious or swallowing-impaired patients. Checking ketones is important but not the immediate action; treating hypoglycaemia takes priority. Glucagon is reserved for severe cases without IV access. Obstetric review is needed after stabilisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ec69d07e00fb",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with type 2 diabetes on gliclazide is brought to the emergency department after a fall. He is confused and agitated. Capillary glucose is 2.4 mmol/L. Which single finding most strongly indicates this is a medical emergency requiring immediate intravenous glucose and admission?",
+      "options": [
+        "Age 72 years",
+        "Recent fall",
+        "Blood glucose 2.4 mmol/L",
+        "Confusion and agitation",
+        "Treatment with gliclazide"
+      ],
+      "answerIndex": 3,
+      "explanation": "Confusion and agitation represent neuroglycopenia, indicating severe hypoglycaemia where the patient cannot self-treat and requires parenteral therapy. While low glucose is necessary, the altered mental status is the key marker of severity and need for emergency intervention. Age and sulfonylurea use are risk factors but do not alone define the emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e6bc30210467",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents with recurrent episodes of confusion, sweating, and palpitations. During an episode, her blood glucose is 2.8 mmol/L. She also reports fatigue, nausea, and abdominal pain. Which physical sign most strongly suggests that her hypoglycaemia is due to primary adrenal insufficiency?",
+      "options": [
+        "Vitiligo",
+        "Loss of axillary hair",
+        "Buccal mucosal hyperpigmentation",
+        "Orthostatic hypotension",
+        "Hyperpigmentation of palmar creases"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hyperpigmentation, especially in sun-exposed areas or palmar creases, is a classic sign of primary adrenal insufficiency due to elevated ACTH stimulating melanocytes. This finding points to Addison's disease as a cause of hypoglycaemia, which is a life-threatening condition if missed. Orthostatic hypotension is common but less specific; buccal pigmentation is also characteristic but palmar creases hyperpigmentation is a well-recognised sign.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14587c6ea991",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman on glibenclamide for type 2 diabetes accidentally took a double dose this morning. She is now asymptomatic with a capillary glucose of 4.0 mmol/L. Which finding indicates a higher risk of recurrent, prolonged hypoglycaemia and mandates admission for observation?",
+      "options": [
+        "History of mild hypoglycaemia in the past",
+        "Age over 65 years",
+        "Concurrent metformin use",
+        "Use of glibenclamide",
+        "Initial glucose of 4.0 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Glibenclamide is a long-acting sulfonylurea with a half-life of 10-16 hours, causing prolonged risk of hypoglycaemia even after initial correction. NICE guidance recommends admission for 24-hour monitoring in such cases. Age is a risk factor but the drug class is the most specific indicator of prolonged action. Metformin does not cause hypoglycaemia alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a0603a227a9f",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known cirrhosis presents with confusion. His capillary glucose is 2.0 mmol/L. After intravenous glucose, confusion persists. Which additional finding most strongly suggests that this is acute liver failure rather than simple hypoglycaemia?",
+      "options": [
+        "Albumin 30 g/L",
+        "Prothrombin time 20 seconds (INR 2.0)",
+        "Ascites",
+        "Spider naevi",
+        "Bilirubin 50 µmol/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute liver failure is defined by coagulopathy (INR >1.5) with encephalopathy; hypoglycaemia can be a feature but alone is not diagnostic. An elevated INR in this context indicates severe hepatic synthetic dysfunction, making acute liver failure the likely cause of the encephalopathy. Ascites, spider naevi, and low albumin suggest chronic disease but not necessarily acute failure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "10434fb02b5e",
+      "topic": "Hypoglycaemia",
+      "slug": "hypoglycaemia",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with gestational diabetes on insulin reports two episodes of hypoglycaemia this week. She explains that she no longer feels early warning symptoms (sweating, palpitations) and only notices when her husband tells her she is confused. Which single finding places her at highest risk for severe hypoglycaemia in pregnancy?",
+      "options": [
+        "Hypoglycaemia unawareness",
+        "Insulin dose of 30 units per day",
+        "Excessive weight gain in pregnancy",
+        "HbA1c 42 mmol/mol",
+        "Blood glucose 3.8 mmol/L at last clinic visit"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypoglycaemia unawareness indicates loss of autonomic warning signs, leading to a high risk of severe neuroglycopenic episodes requiring assistance. In pregnancy, this poses significant risks to both mother and fetus. While low HbA1c and higher insulin doses are risk factors, unawareness is the most direct marker of danger.",
+      "difficulty": "medium"
+    }
+  ]
+}

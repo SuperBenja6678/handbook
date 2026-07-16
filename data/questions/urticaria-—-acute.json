@@ -1,0 +1,513 @@
+{
+  "topic": "Urticaria — Acute",
+  "slug": "urticaria-—-acute",
+  "system": "Dermatology",
+  "subSystem": "Allergic",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "746d0625ba0e",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 3-day history of itchy raised red wheals on her trunk and limbs. Each lesion lasts less than 24 hours and resolves without scarring. She had a mild upper respiratory tract infection a week ago. No angioedema, no systemic symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Urticarial vasculitis",
+        "Contact dermatitis",
+        "Angioedema",
+        "Acute spontaneous urticaria",
+        "Erythema multiforme"
+      ],
+      "answerIndex": 3,
+      "explanation": "Transient wheals lasting <24h with a preceding infection are classic for acute spontaneous urticaria. Urticarial vasculitis lesions last >24h and often leave bruising; erythema multiforme has target lesions; angioedema involves deeper swelling; contact dermatitis is eczematous and not fleeting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fb7bea84e2c",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 34-year-old man develops generalised urticaria, lip swelling, and wheezing within 30 minutes after eating peanuts. He has stridor and hypotension. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis",
+        "Mastocytosis",
+        "Angioedema",
+        "Acute urticaria",
+        "Hereditary angioedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of acute urticaria with respiratory distress and hypotension defines anaphylaxis. Acute urticaria alone lacks systemic compromise; hereditary angioedema typically lacks urticaria and is bradykinin-mediated; mastocytosis presents with chronic lesions, not acute trigger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "75f0c7cd23fe",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 16-year-old boy develops itchy hives on his arms and legs immediately after swimming in a cold sea. The lesions resolve within an hour of warming up. He has no other symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Cold urticaria",
+        "Aquagenic urticaria",
+        "Pressure urticaria",
+        "Cholinergic urticaria",
+        "Solar urticaria"
+      ],
+      "answerIndex": 0,
+      "explanation": "The trigger is specifically cold exposure, typical of cold urticaria. Cholinergic urticaria is induced by heat/exercise; aquagenic by water contact regardless of temperature; solar urticaria by sunlight; pressure urticaria by sustained pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1e877499abe",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman on amoxicillin for a chest infection develops generalised urticaria on day 5 of treatment. Lesions are itchy and transient. No mucosal involvement or blistering. What is the single most likely diagnosis?",
+      "options": [
+        "Stevens-Johnson syndrome",
+        "Acute urticaria due to drug allergy",
+        "Maculopapular drug reaction",
+        "Erythema multiforme",
+        "Urticarial vasculitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Urticaria is a classic IgE-mediated reaction to penicillin. Maculopapular rash is not wheals; erythema multiforme has target lesions; Stevens-Johnson involves mucosal necrosis and blistering; urticarial vasculitis lesions last >24h and often leave purpura.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1342e44f0704",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman complains of raised red lines on her skin wherever she scratches or rubs. The lines are itchy and appear within minutes, fading in about 30 minutes. She is otherwise well. What is the single most likely diagnosis?",
+      "options": [
+        "Symptomatic dermographism",
+        "Cholinergic urticaria",
+        "Allergic contact dermatitis",
+        "Acute spontaneous urticaria",
+        "Urticarial vasculitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The wheals are induced by physical stroking, characteristic of symptomatic dermographism. Cholinergic urticaria is triggered by heat/exercise; spontaneous urticaria occurs without physical trigger; contact dermatitis is eczematous and not fleeting; vasculitis lesions persist >24h.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3857243a52ea",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with generalised itchy wheals that appeared 3 hours after a mild coryzal illness. She is otherwise well with no history of allergy. What is the most appropriate investigation to confirm the diagnosis of acute urticaria?",
+      "options": [
+        "Serum tryptase",
+        "Specific IgE to viral antigens",
+        "Skin prick test to common inhalant allergens",
+        "C-reactive protein",
+        "No investigation is required"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute urticaria is a clinical diagnosis; routine investigations are not indicated unless there is suspicion of a specific trigger such as drug or food allergy. Viral infections are a common trigger and do not require testing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bb9494c16839",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 20-year-old woman develops itchy wheals on her arms within minutes of washing her hands in cold water. The wheals last about 30 minutes and resolve without scarring. Which investigation can confirm the diagnosis?",
+      "options": [
+        "Ice cube test",
+        "Dermographism test",
+        "Pressure test",
+        "Skin prick test to common allergens",
+        "Specific IgE to cold proteins"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cold urticaria is diagnosed by the ice cube test; a wheal appears after applying an ice cube to the forearm for 5 minutes. The other tests are for other physical urticarias or allergic triggers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03994a1121dd",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man presents to the emergency department with acute urticaria, wheeze, and hypotension 15 minutes after a wasp sting. His serum tryptase measured 1 hour after onset is 25 mcg/L (normal <11.4). What is the most likely diagnosis?",
+      "options": [
+        "Hereditary angioedema",
+        "Anaphylaxis",
+        "Systemic mastocytosis",
+        "Panic attack",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevated serum tryptase indicates mast cell degranulation, supporting the diagnosis of anaphylaxis in the appropriate clinical context. Tryptase is not elevated in panic attacks, vasovagal syncope, or hereditary angioedema; systemic mastocytosis would show persistently elevated baseline tryptase.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13fdfbc8949b",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man develops urticaria and perioral swelling within 30 minutes of eating strawberries on three separate occasions. He is otherwise well. What is the most appropriate diagnostic test to confirm the cause?",
+      "options": [
+        "Skin prick test to strawberry",
+        "Elimination diet",
+        "Serum tryptase",
+        "Specific IgE to strawberry",
+        "Oral challenge with strawberry"
+      ],
+      "answerIndex": 3,
+      "explanation": "Specific IgE testing is the first-line investigation for suspected IgE-mediated food allergy; it is safe and does not carry the risk of anaphylaxis from oral challenge or the lower sensitivity of skin prick tests in some settings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4cda594b5b9",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman presents with a 2-week history of daily urticaria. She has a history of hypothyroidism. Which investigation is most likely to identify an associated underlying condition?",
+      "options": [
+        "Thyroid autoantibodies (anti-TPO, anti-thyroglobulin)",
+        "Rheumatoid factor",
+        "Complement levels (C3, C4)",
+        "Serum tryptase",
+        "Anti-dsDNA"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic urticaria (lasting >6 weeks) is associated with autoimmune thyroid disease; checking thyroid autoantibodies is recommended. Anti-dsDNA is for SLE, rheumatoid factor for RA, complement for lupus or angioedema, and tryptase for mastocytosis. Although this is acute urticaria, the history of hypothyroidism raises suspicion of an autoimmune link.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "36d3b4c1f728",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with a 2-hour history of itchy, raised red wheals on her trunk and limbs. There is no swelling of the lips, tongue, or throat, and no respiratory difficulty. She is otherwise well. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral cetirizine 10 mg",
+        "Oral prednisolone 40 mg",
+        "Topical hydrocortisone 1% cream",
+        "Oral chlorphenamine 4 mg",
+        "Intramuscular adrenaline 500 mcg"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute urticaria without systemic features is managed with a non-sedating antihistamine such as cetirizine. Chlorphenamine is sedating and not first-line. Adrenaline is used only in anaphylaxis. Topical steroids are ineffective for systemic urticaria. Oral steroids are reserved for severe or refractory cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ed4ba648d30",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with generalised urticaria and swelling of his lips. His breathing is normal, and his blood pressure is 130/80 mmHg. There is no stridor or wheeze. What is the most appropriate first-line drug treatment?",
+      "options": [
+        "Oral loratadine 10 mg",
+        "Oral prednisolone 40 mg",
+        "Nebulised epinephrine 5 mL",
+        "Intravenous chlorphenamine 10 mg",
+        "Intramuscular adrenaline 500 mcg"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute urticaria with angioedema but without anaphylaxis, the first-line treatment is a non-sedating antihistamine (loratadine). Adrenaline is only indicated if there is airway compromise or hypotension. Intravenous chlorphenamine is rarely used and is sedating. Oral prednisolone is second-line for severe or persistent angioedema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e106efa5a891",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old man is stung by a bee and within minutes develops generalised urticaria, stridor, and a blood pressure of 70/40 mmHg. What is the most appropriate first-line drug?",
+      "options": [
+        "Intramuscular chlorphenamine 10 mg",
+        "Intravenous adrenaline 1 mg",
+        "Oral cetirizine 10 mg",
+        "Intramuscular adrenaline 500 mcg",
+        "Intravenous hydrocortisone 200 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anaphylaxis requires immediate intramuscular adrenaline 500 mcg (0.5 mg) into the thigh. Intravenous adrenaline is for experienced teams only and carries risk. Antihistamines and steroids are adjunctive, not first-line for anaphylaxis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8e739718358d",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old breastfeeding woman presents with acute urticaria over her arms and legs with mild pruritus. There is no angioedema or respiratory symptoms. What is the most appropriate antihistamine to prescribe?",
+      "options": [
+        "Cyproheptadine 4 mg three times daily",
+        "Diphenhydramine 50 mg at night",
+        "Chlorphenamine 4 mg four times daily",
+        "Loratadine 10 mg once daily",
+        "Promethazine 25 mg at night"
+      ],
+      "answerIndex": 3,
+      "explanation": "In breastfeeding, non-sedating antihistamines such as loratadine or cetirizine are preferred due to minimal transfer into breast milk and reduced sedation. Chlorphenamine is sedating and may affect the infant. Diphenhydramine, cyproheptadine, and promethazine are also sedating and less desirable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "12214ff4d64e",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with acute urticaria and marked lip swelling took cetirizine 10 mg two hours ago with no improvement. Her breathing is still normal, and her blood pressure is 125/75 mmHg. What is the most appropriate next step in drug treatment?",
+      "options": [
+        "Administer intramuscular adrenaline 500 mcg",
+        "Add oral chlorphenamine 4 mg",
+        "Repeat cetirizine 10 mg",
+        "Give intravenous hydrocortisone 200 mg",
+        "Prescribe oral prednisolone 40 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "For severe angioedema not responding to a non-sedating antihistamine, a short course of oral prednisolone (e.g., 40 mg daily for 3 days) is recommended. Adrenaline is only indicated if there is airway compromise or hypotension. Repeating the same antihistamine or adding a sedating one is unlikely to help. Intravenous hydrocortisone is not first-line; oral prednisolone is preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7c9a51904eee",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman presents to ED with a 2-hour history of itchy, erythematous wheals over her trunk and arms after eating peanuts. She has no lip or tongue swelling, no stridor, and oxygen saturation 99% on air. Blood pressure 118/74 mmHg, heart rate 90 bpm. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe intramuscular adrenaline 0.5 mg 1:1000",
+        "Prescribe oral prednisolone 40 mg stat",
+        "Refer to immunology for allergy testing",
+        "Apply topical calamine lotion only",
+        "Prescribe oral cetirizine 10 mg stat"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is a mild acute urticaria without systemic features. NICE guidelines recommend a non-sedating oral antihistamine as first-line. Cetirizine is appropriate. Adrenaline is reserved for anaphylaxis; steroids are not first-line and allergy testing is not immediate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "27fb8d12c366",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man presents with widespread urticarial wheals for 3 hours, associated with periorbital angioedema but no dyspnoea, stridor, or hypotension. He has had similar episodes before. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intramuscular adrenaline 0.5 mg 1:1000",
+        "Give intravenous chlorphenamine 10 mg",
+        "Refer to dermatology clinic",
+        "Apply a cold compress and observe for 4 hours",
+        "Start oral prednisolone 40 mg once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute urticaria with angioedema but no anaphylaxis, the immediate treatment is a sedating antihistamine (e.g., chlorphenamine IV/IM/PO) to control symptoms. Adrenaline is not indicated without airway or circulatory compromise. Steroids are not immediate first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f7d30aec04fc",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman collapses in the ED with acute onset of urticaria, stridor, and hypotension (BP 70/40 mmHg) after receiving intravenous contrast. What is the most appropriate immediate next step?",
+      "options": [
+        "Call the anaesthetic team for intubation",
+        "Give intravenous chlorphenamine 10 mg",
+        "Administer intramuscular adrenaline 0.5 mg 1:1000",
+        "Start intravenous fluid resuscitation",
+        "Give intravenous hydrocortisone 200 mg"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is anaphylaxis with airway and circulatory compromise. The priority is IM adrenaline (0.5 mg 1:1000) as per the UK Resuscitation Council guidelines. IV fluids and steroids are important but secondary; intubation may be needed but adrenaline is the immediate life-saving intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "79cabddcd97b",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known ACE inhibitor therapy for hypertension develops acute urticaria and marked angioedema affecting his lips and tongue, without stridor or hypotension. He is anxious but breathing comfortably. What is the most appropriate immediate next step?",
+      "options": [
+        "Discharge with oral antihistamines and advise to avoid ACE inhibitors",
+        "Administer intramuscular adrenaline 0.5 mg 1:1000",
+        "Start intravenous hydrocortisone 200 mg",
+        "Give intravenous chlorphenamine 10 mg",
+        "Stop the ACE inhibitor and prescribe an ARB"
+      ],
+      "answerIndex": 3,
+      "explanation": "In ACE inhibitor-induced angioedema without anaphylaxis, the immediate treatment is a sedating antihistamine (e.g., chlorphenamine). Adrenaline is reserved for airway compromise; stopping the ACE inhibitor is important but not the immediate next action. Steroids are not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00d79019ca37",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman at 12 weeks gestation presents with acute urticaria after taking amoxicillin for a chest infection. She has itchy wheals on her arms and legs, no mucosal involvement, and observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Advise to stop amoxicillin and monitor",
+        "Prescribe oral prednisolone 40 mg stat",
+        "Prescribe oral cetirizine 10 mg stat",
+        "Prescribe intramuscular adrenaline 0.5 mg 1:1000",
+        "Prescribe oral chlorphenamine 4 mg stat"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, chlorphenamine is the preferred antihistamine due to a long safety record. Non-sedating antihistamines (cetirizine) are second-line. Adrenaline is not indicated; stopping the offending drug is important but the immediate symptomatic treatment is an antihistamine.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b8bd25afe884",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man presents to the emergency department 20 minutes after a bee sting. He has widespread urticarial weals and swelling of his lips. He is coughing and feels 'tight' in his chest. Observations: HR 110, BP 115/75, RR 24, SpO2 97% on air. Which single clinical finding is most indicative that he is developing anaphylaxis?",
+      "options": [
+        "Tachycardia (HR 110)",
+        "Lip swelling (angioedema)",
+        "Cough",
+        "Stridor (audible on auscultation)",
+        "Urticaria on trunk and limbs"
+      ],
+      "answerIndex": 3,
+      "explanation": "Stridor indicates upper airway obstruction, a hallmark of anaphylaxis. While urticaria and lip swelling are common in allergic reactions, stridor signifies life-threatening airway compromise and confirms anaphylaxis. Cough and tachycardia are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e0df05b8340",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 34-year-old woman presents with recurrent, painful, red weals that last up to 36 hours and leave areas of dark discolouration. She also complains of joint aches and low-grade fever. Which single finding on examination is most suggestive of urticarial vasculitis rather than simple urticaria?",
+      "options": [
+        "Lesions leave hyperpigmentation after resolution",
+        "Weals are excoriated",
+        "Weals blanch with pressure",
+        "Dermographism is present",
+        "Weals are predominantly on the trunk"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyperpigmentation is characteristic of urticarial vasculitis due to leakage of red blood cells and subsequent hemosiderin deposition. Simple urticaria weals typically resolve without residual changes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f86ab58fc26d",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with a history of nut allergy develops acute urticaria and mild periorbital oedema after eating a curry. Observations show HR 115, BP 88/58 mmHg, RR 20, SpO2 98% on air, no stridor or wheeze. Which single observation most strongly indicates that this is anaphylaxis requiring immediate escalation?",
+      "options": [
+        "Oxygen saturation 98%",
+        "Systolic blood pressure 88 mmHg",
+        "Periorbital oedema",
+        "Respiratory rate 20 /min",
+        "Heart rate 115 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "The UK resus criteria define anaphylaxis as hypotension (SBP <90 mmHg or >30% drop from baseline) even without respiratory compromise. Tachycardia is supportive but not diagnostic alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "404d6234f88a",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman presents with sudden onset of painless, non-itchy swelling of her upper lip and tongue, without any urticaria. She has had similar episodes in the past, sometimes triggered by mild dental trauma. Which single historical feature most strongly suggests hereditary angioedema (HAE) rather than allergic angioedema?",
+      "options": [
+        "Associated wheeze and dyspnoea",
+        "Response to antihistamines in previous episodes",
+        "Onset within minutes of eating a specific food",
+        "History of atopic eczema",
+        "Family history of similar swelling episodes"
+      ],
+      "answerIndex": 4,
+      "explanation": "HAE is autosomal dominant, so a positive family history is a key discriminator. HAE rarely responds to antihistamines, and allergic angioedema typically occurs within minutes of allergen exposure with urticaria and sometimes wheeze.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b92d05d56c12",
+      "topic": "Urticaria — Acute",
+      "slug": "urticaria-—-acute",
+      "system": "Dermatology",
+      "subSystem": "Allergic",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 5-year-old boy presents with acute urticaria of 12 hours duration. He has a runny nose and mild cough. His mother says he has not eaten any new foods and has no known allergies. Which single clinical feature most strongly suggests that this urticaria is due to a viral infection rather than an allergic trigger?",
+      "options": [
+        "Response to a single dose of cetirizine",
+        "Age of the child",
+        "Distribution of weals on the trunk",
+        "Presence of low-grade fever (38.0°C)",
+        "Absence of angioedema"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fever is common with viral infections and helps differentiate viral-induced urticaria from allergic causes. Allergic urticaria usually has a clear trigger and often presents without fever.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Paediatric Sepsis",
+  "slug": "paediatric-sepsis",
+  "system": "Paediatrics",
+  "subSystem": "Emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:44Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "1c5d861931b6",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old presents with fever (39.5°C), tachycardia, prolonged capillary refill time, lethargy, and refusal to feed. On examination, there are non-blanching purpuric spots on the trunk and lower limbs. What is the single most likely diagnosis?",
+      "options": [
+        "Meningococcal septicaemia",
+        "Henoch-Schönlein purpura",
+        "Viral exanthem",
+        "Idiopathic thrombocytopenic purpura",
+        "Scarlet fever"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of fever, septic shock features, and a non-blanching purpuric rash is classic for meningococcal septicaemia. Henoch-Schönlein purpura typically presents with palpable purpura on the lower limbs and may have abdominal pain, but not fever and shock. ITP causes petechiae without fever. Scarlet fever has a blanching sandpaper rash. Viral exanthems are usually blanching.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1662fa724b2d",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 4-month-old infant presents with fever, irritability, a high-pitched cry, and a bulging anterior fontanelle. There is no rash. What is the single most likely diagnosis?",
+      "options": [
+        "Benign intracranial hypertension",
+        "Febrile convulsion",
+        "Urinary tract infection",
+        "Bacterial meningitis",
+        "Viral meningitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bulging fontanelle, high-pitched cry, and fever are classic signs of bacterial meningitis in infants. Viral meningitis is usually less severe and rarely causes such marked raised intracranial pressure. Benign intracranial hypertension does not cause fever. Febrile convulsion implies a seizure, which is not mentioned. UTI can cause fever but not a bulging fontanelle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dbb5e08d2884",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 8-year-old child presents with high fever, rigors, cough, and tachypnoea. On auscultation, there is bronchial breathing and dullness to percussion at the right base. What is the single most likely diagnosis?",
+      "options": [
+        "Asthma exacerbation",
+        "Pulmonary embolism",
+        "Lobar pneumonia",
+        "Atypical pneumonia",
+        "Bronchiolitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bronchial breathing and dullness to percussion are classic signs of lobar consolidation, most commonly due to bacterial pneumonia. Atypical pneumonia often has a more gradual onset and predominant dry cough. Pulmonary embolism is rare in children and would not cause bronchial breathing. Bronchiolitis occurs in infants under 1 year. Asthma exacerbation presents with wheeze and hyperinflation, not focal signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "411c55542cf5",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A term neonate on day 2 of life presents with grunting, tachypnoea, temperature instability, and lethargy. The mother had prolonged rupture of membranes (24 hours) and intrapartum fever. What is the single most likely diagnosis?",
+      "options": [
+        "Persistent pulmonary hypertension",
+        "Early-onset group B streptococcal sepsis",
+        "Transient tachypnoea of the newborn",
+        "Congenital pneumonia",
+        "Meconium aspiration syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk factors of prolonged rupture of membranes and maternal fever combined with respiratory signs and temperature instability make early-onset GBS sepsis the most likely. TTN is usually in caesarean deliveries and resolves quickly. MAS requires meconium-stained liquor. Congenital pneumonia is less common than GBS. PPHN is a consequence, not primary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e271dfb7157",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 5-year-old child presents with high fever (day 5), bilateral non-purulent conjunctival injection, erythema of the lips and oral mucosa (strawberry tongue), and cervical lymphadenopathy (2 cm). There is a polymorphous rash with petechiae on the trunk. What is the single most likely diagnosis?",
+      "options": [
+        "Meningococcal septicaemia",
+        "Toxic shock syndrome",
+        "Measles",
+        "Scarlet fever",
+        "Kawasaki disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of fever for ≥5 days plus conjunctival injection, oral changes, lymphadenopathy, and rash is diagnostic of Kawasaki disease. Petechiae can occur but are not typical; however, the other features point away from meningococcal septicaemia (which lacks conjunctival injection). Scarlet fever has a sandpaper rash and pharyngeal exudate. Toxic shock syndrome has hypotension. Measles has Koplik spots and coryza.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6e3fa9a898d7",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 2-year-old presents with fever, lethargy, and a petechial rash. There is no meningism. Heart rate 170 bpm, capillary refill 4 seconds, blood pressure 70/40 mmHg. Which single investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Throat swab",
+        "Lumbar puncture",
+        "Urine culture",
+        "Blood culture",
+        "CRP"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood culture is the gold standard to isolate Neisseria meningitidis in suspected meningococcal sepsis. Lumbar puncture may be delayed or contraindicated if the child is unstable or has signs of raised intracranial pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1b5019e9633",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 4-year-old presents with fever, cough, and tachypnoea (respiratory rate 45/min). On auscultation, there are crackles at the right base. Oxygen saturation is 96% on air. Which investigation is most appropriate to confirm the diagnosis of pneumonia?",
+      "options": [
+        "Blood culture",
+        "Chest X-ray",
+        "Procalcitonin",
+        "CRP",
+        "Sputum culture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chest X-ray is first-line imaging to confirm pneumonia in children with compatible clinical features. It can show consolidation and help differentiate from other causes of respiratory distress.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adbc5ba5cd29",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 1-year-old with fever, tachycardia, and hypotension remains hypotensive after two 20 ml/kg fluid boluses. According to NICE guidelines for sepsis in children, which of the following best defines septic shock?",
+      "options": [
+        "Lactate > 4 mmol/L",
+        "Capillary refill > 3 seconds",
+        "Systolic blood pressure < 70 mmHg",
+        "Need for vasopressors to maintain blood pressure",
+        "Oxygen saturation < 90%"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE defines septic shock in children as sepsis with cardiovascular dysfunction persisting after fluid resuscitation, requiring vasoactive drugs. Hypotension alone is a late sign; lactate and capillary refill are supportive but not specific criteria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2bbf34b778d3",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 5-year-old with fever and a rapidly enlarging, erythematous, painful limb after a minor abrasion. The skin is tense with bullae and crepitus on palpation. Which investigation is most appropriate to confirm the diagnosis of necrotising fasciitis?",
+      "options": [
+        "MRI of the limb",
+        "Ultrasound",
+        "CT with contrast",
+        "Blood culture",
+        "Surgical exploration"
+      ],
+      "answerIndex": 4,
+      "explanation": "Surgical exploration is the gold standard for diagnosing necrotising fasciitis, as it allows direct visualisation of necrotic fascia and tissue sampling for culture. Imaging can delay definitive management and is not confirmatory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "72d673841c5a",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 3-week-old neonate presents with fever (38.5°C), irritability, and poor feeding. On examination, there is a bulging fontanelle. Which investigation is most likely to identify the causative organism of the suspected infection?",
+      "options": [
+        "CRP",
+        "Blood culture",
+        "CSF culture",
+        "Urine culture",
+        "Full blood count"
+      ],
+      "answerIndex": 2,
+      "explanation": "CSF culture is the gold standard for identifying the causative organism in bacterial meningitis. Blood culture may be positive but is less sensitive for CSF infections, and lumbar puncture is indicated given the clinical signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9b9fe1f304f6",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 2-year-old child presents with a 1-day history of fever, reduced oral intake, and lethargy. On examination, heart rate 150 bpm, respiratory rate 40/min, capillary refill time 3 seconds, no focal signs. Blood tests show WBC 18 x 10^9/L, CRP 150 mg/L. The diagnosis is suspected bacterial sepsis. What is the most appropriate first-line intravenous antibiotic?",
+      "options": [
+        "IV vancomycin",
+        "IV piperacillin-tazobactam",
+        "IV ceftriaxone",
+        "IV cefotaxime",
+        "IV amoxicillin"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines for paediatric sepsis recommend IV cefotaxime as the first-line empiric antibiotic. Ceftriaxone should be avoided in neonates and is not first-line in this age group; amoxicillin is too narrow; piperacillin-tazobactam is reserved for severe or intra-abdominal infections; vancomycin is for suspected MRSA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ac6b8efdeeeb",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 4-year-old child with septic shock has received two 20 mL/kg boluses of 0.9% saline (total 40 mL/kg) over 30 minutes but remains hypotensive, tachycardic, and has poor peripheral perfusion. The diagnosis is fluid-refractory septic shock. What is the most appropriate next-step vasoactive agent?",
+      "options": [
+        "IV dopamine",
+        "IV adrenaline",
+        "IV vasopressin",
+        "IV noradrenaline",
+        "IV dobutamine"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend IV adrenaline as the first-line inotrope/vasopressor for fluid-refractory paediatric septic shock. Noradrenaline is second-line; dopamine is no longer recommended; dobutamine is for cardiogenic shock; vasopressin is reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d6b0e116af5",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 5-year-old child presents with a purpuric rash, fever, and signs of raised intracranial pressure (bradycardia, hypertension, irregular breathing). The diagnosis is meningococcal septicaemia with possible meningitis. Prior to starting antibiotics, which intervention is contraindicated?",
+      "options": [
+        "Lumbar puncture",
+        "CT head",
+        "IV dexamethasone",
+        "IV cefotaxime",
+        "IV fluids"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lumbar puncture is contraindicated in the presence of raised intracranial pressure due to risk of brain herniation. Antibiotics (e.g., cefotaxime) should be given immediately. Dexamethasone may be considered after antibiotics if meningitis is confirmed, but not before LP. CT head may be performed to assess for mass lesions, but does not delay antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f0ecb087ee81",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 10-day-old neonate (born at 39 weeks, discharged day 2) presents with fever (38.5°C), lethargy, and poor feeding. There is no focal source of infection. The diagnosis is suspected late-onset neonatal sepsis. What is the most appropriate empiric intravenous antibiotic regimen?",
+      "options": [
+        "IV vancomycin and gentamicin",
+        "IV benzylpenicillin and gentamicin",
+        "IV ampicillin and gentamicin",
+        "IV ceftriaxone",
+        "IV cefotaxime alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "For late-onset neonatal sepsis (>72 h of life), UK guidelines recommend IV vancomycin (for coagulase-negative staphylococci) plus gentamicin. Cefotaxime alone is insufficient; benzylpenicillin/ampicillin with gentamicin are for early-onset sepsis; ceftriaxone is avoided in neonates due to risk of bilirubin displacement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96fe7a579932",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 12-year-old with known asplenia due to sickle cell disease presents with acute onset fever (40°C), rigors, and hypotension. The diagnosis is overwhelming post-splenectomy infection (OPSI). What is the most important immediate treatment?",
+      "options": [
+        "IV cefotaxime",
+        "IV vancomycin",
+        "IV co-amoxiclav",
+        "IV benzylpenicillin",
+        "IV ceftriaxone"
+      ],
+      "answerIndex": 3,
+      "explanation": "OPSI is most commonly caused by encapsulated organisms, especially Streptococcus pneumoniae. IV benzylpenicillin is the recommended first-line antibiotic. Cefotaxime is an alternative but not first-line; ceftriaxone is also used but less specific; co-amoxiclav is broad-spectrum but not first-line; vancomycin is used if MRSA suspected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ecdf4ae2f0b",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 2-year-old girl presents with fever 39.2°C, tachycardia (HR 160), and a capillary refill time of 3 seconds. She is irritable but consolable. There is no rash, no focal signs. She has not had any antibiotics. What is the most appropriate immediate next step?",
+      "options": [
+        "Measure serum lactate",
+        "Start intravenous ceftriaxone",
+        "Calculate the paediatric early warning score (PEWS)",
+        "Obtain blood cultures",
+        "Administer a 20 mL/kg fluid bolus"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a child with suspected sepsis who is stable (no shock), taking blood cultures before antibiotics is recommended by NICE to maximise culture yield. The fluid bolus (A) is not indicated as cap refill is borderline but not with other shock features; starting antibiotics (D) without cultures is not ideal when cultures can be obtained quickly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a5807b92b1e2",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 5-year-old boy presents with a fever, headache, and a petechial rash that started 2 hours ago. He is drowsy but rousable. HR 160, BP 85/50, cap refill 4 seconds, mottled skin. What is the most appropriate immediate next step?",
+      "options": [
+        "Call for an anaesthetist",
+        "Measure capillary refill",
+        "Take a blood culture",
+        "Administer a 20 mL/kg fluid bolus",
+        "Give intravenous benzylpenicillin"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of fever, petechial rash and haemodynamic instability is classic for meningococcal sepsis. NICE and PHE recommend immediate IV antibiotics (benzylpenicillin or cefotaxime) even before hospital, as this is life-saving. A fluid bolus is also indicated but antibiotics take priority given the specific suspicion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b069a847bd3d",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 3-year-old with septic shock due to pneumonia has received two 20 mL/kg fluid boluses (total 40 mL/kg) over 30 minutes. His heart rate remains 170, blood pressure 70/40, cap refill 5 seconds, and he has weak peripheral pulses. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous hydrocortisone",
+        "Intubate and ventilate",
+        "Give a third fluid bolus of 20 mL/kg",
+        "Start an adrenaline infusion",
+        "Request a central venous line"
+      ],
+      "answerIndex": 3,
+      "explanation": "After 40 mL/kg of fluid, persistent shock defines fluid-refractory septic shock. NICE guidelines recommend starting inotropic support (e.g., adrenaline infusion) rather than giving further fluid boluses (A), which risk fluid overload. The most tempting distractor is A, but further fluids are not first line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f27a1b50c9db",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 6-year-old boy with acute lymphoblastic leukaemia undergoing maintenance chemotherapy presents with fever 38.8°C and a neutrophil count of 0.3 x 10^9/L. He looks well, no focal signs. What is the most appropriate immediate next step?",
+      "options": [
+        "Check C-reactive protein",
+        "Start intravenous piperacillin-tazobactam",
+        "Call the paediatric oncology team",
+        "Administer granulocyte colony-stimulating factor (G-CSF)",
+        "Take blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "In neutropenic sepsis (fever + neutrophils <0.5), NICE mandates immediate empirical IV broad-spectrum antibiotics (e.g., piperacillin-tazobactam) within one hour. While blood cultures should be obtained (A), they must not delay antibiotics. The key discriminating feature is the urgency of antibiotics over cultures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4e129bf999f3",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 4-year-old girl was admitted for sepsis secondary to a urinary tract infection. She has received 48 hours of intravenous ceftriaxone and has been afebrile for 24 hours. Her clinical condition is improving. She is tolerating oral fluids. What is the most appropriate next step?",
+      "options": [
+        "Perform a repeat urine culture",
+        "Check inflammatory markers",
+        "Continue intravenous antibiotics for a total of 7 days",
+        "Switch to oral antibiotics",
+        "Request a renal ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to NICE, for children with sepsis who have clinically improved and can tolerate oral therapy, step-down to oral antibiotics is recommended after 48 hours of IV therapy. Continuing IV (B) risks line complications and is unnecessary; the most tempting distractor is repeating urine culture (C), but it is not routinely indicated in a resolving infection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f7fadb57d581",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-year-old child presents with fever for 2 days, vomiting, and reduced oral intake. On examination: HR 150/min, RR 40/min, BP 85/50 mmHg, CRT 4 seconds, temperature 39.2°C, mottled skin. Which single finding is most indicative of life-threatening sepsis?",
+      "options": [
+        "Tachypnoea 40/min",
+        "Tachycardia 150/min",
+        "Fever 39.2°C",
+        "Capillary refill time 4 seconds",
+        "Mottled skin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Prolonged capillary refill time (>2 seconds) is a key red flag for sepsis in NICE guidelines, indicating poor peripheral perfusion. Mottling is also concerning but CRT is more specific and objective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0bae63c925e5",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 5-year-old with known asthma presents with cough and fever. Observations: HR 130/min, RR 30/min, SpO2 96% on air, CRT 2 seconds, temperature 38.5°C. Which finding suggests early sepsis requiring escalation?",
+      "options": [
+        "Temperature 38.5°C",
+        "Tachycardia 130/min",
+        "Tachypnoea 30/min",
+        "Capillary refill time 2 seconds",
+        "SpO2 96%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tachycardia out of proportion to fever is a red flag for sepsis in children. The other parameters are within normal limits for a febrile child.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4c074d46fae",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 1-year-old presents with fever and drowsiness. On examination: BP 70/40 mmHg, HR 180/min, CRT 5 seconds, cold peripheries. Which single finding indicates decompensated shock?",
+      "options": [
+        "Blood pressure 70/40 mmHg",
+        "Capillary refill time 5 seconds",
+        "Drowsiness",
+        "Heart rate 180/min",
+        "Cold peripheries"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypotension in children is a late sign of decompensated septic shock, requiring immediate fluid resuscitation and inotropic support. Tachycardia and prolonged CRT are earlier signs of compensated shock.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3bd6338e21a7",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 4-year-old with meningococcal sepsis develops a purpuric rash. Which finding most strongly predicts a fatal outcome?",
+      "options": [
+        "Platelet count <50 x10^9/L",
+        "CRP >200 mg/L",
+        "Glasgow Coma Scale <13",
+        "Number of purpuric lesions >50",
+        "White cell count <5 x10^9/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rapidly extending purpura with >50 lesions is a strong predictor of mortality in meningococcal disease, reflecting severe vasculitis and coagulopathy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1892ccecb987",
+      "topic": "Paediatric Sepsis",
+      "slug": "paediatric-sepsis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 10-day-old neonate presents with fever 38.5°C, irritability, but no other focal signs of infection. Which feature most strongly suggests serious bacterial infection?",
+      "options": [
+        "Irritability",
+        "Fever 38.5°C",
+        "CRP 20 mg/L",
+        "Poor feeding",
+        "Maternal Group B Streptococcus positive"
+      ],
+      "answerIndex": 3,
+      "explanation": "In neonates, poor feeding is a key non-specific red flag for sepsis according to NICE. Fever alone is less specific, and CRP may be normal early in serious infection.",
+      "difficulty": "easy"
+    }
+  ]
+}

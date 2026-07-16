@@ -1,0 +1,513 @@
+{
+  "topic": "Empyema",
+  "slug": "empyema",
+  "system": "Respiratory",
+  "subSystem": "Pleural",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:29:27Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e65c46b0686b",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with a 2-week history of cough productive of green sputum, fever, and right-sided pleuritic chest pain. He was treated with amoxicillin 7 days ago with no improvement. On examination, he is febrile (38.5°C), has reduced breath sounds and dullness to percussion at the right base. CRP is 210 mg/L, WCC 16.4 × 10^9/L. Chest X-ray shows a right pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Malignant pleural effusion",
+        "Lung abscess"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent fever and raised inflammatory markers despite antibiotics, along with pleural effusion and pleuritic pain, strongly suggest empyema. Lung abscess typically causes cavitation on CXR, not just effusion; pneumothorax would show hyperresonance, not dullness; PE may cause effusion but not typically with such high fever and purulent sputum; malignant effusion is usually indolent and afebrile.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b8ce95568c04",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman is admitted from a care home with a 3-day history of confusion, falls, and poor oral intake. She is afebrile (37.1°C), heart rate 98 bpm, BP 110/70, respiratory rate 22. Chest examination reveals dullness at the left base with reduced breath sounds. CRP 95 mg/L, WCC 11.2 × 10^9/L. Chest X-ray shows a left pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Heart failure",
+        "Empyema",
+        "Community-acquired pneumonia",
+        "Hypostatic pneumonia",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "This elderly patient with confusion, falls, and a pleural effusion with mildly raised inflammatory markers may have an atypical presentation of empyema without high fever. Pneumonia often presents with cough and fever, but here effusion is the main feature; PE should be considered but D-dimer or Wells score would help; heart failure usually causes bilateral effusions; hypostatic pneumonia is not a standard diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8acbf87f5c84",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man underwent an oesophagectomy for cancer 10 days ago. He now presents with fever (38.9°C), rigors, and right-sided chest pain. Examination reveals reduced breath sounds and dullness at the right base. CRP 320 mg/L, WCC 18.5 × 10^9/L. Chest X-ray shows a moderate right pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Empyema",
+        "Postoperative pneumonia",
+        "Pulmonary embolism",
+        "Anastomotic leak",
+        "Wound infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-oesophagectomy, a pleural effusion with high fever and rigors is most likely empyema, often due to contamination during surgery. Anastomotic leak would present with mediastinal air or contrast leak, not just effusion; pneumonia typically has consolidation; PE would have pleuritic pain but not such high fever; wound infection is local, not causing pleural effusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2614480aee76",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with HIV (CD4 count 120 cells/μL, not on ART) presents with a 1-week history of cough, fever, and right-sided pleuritic pain. He is febrile (38.2°C). Chest examination shows dullness and reduced breath sounds at the right base. CRP 150 mg/L, WCC 8.9 × 10^9/L. Chest X-ray reveals a right pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Bacterial pneumonia with parapneumonic effusion",
+        "Tuberculous pleural effusion",
+        "Pulmonary lymphoma",
+        "Pneumocystis jirovecii pneumonia",
+        "Empyema"
+      ],
+      "answerIndex": 4,
+      "explanation": "In an HIV patient with low CD4, acute fever and purulent sputum suggest bacterial infection; empyema is a complication of parapneumonic effusion, and the clinical picture favours a pyogenic process. TB pleural effusion is more subacute with night sweats; PCP presents with dry cough and bilateral infiltrates; lymphoma is indolent; parapneumonic effusion is likely but the presence of high fever and purulent sputum makes empyema most likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f60952f610ab",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with known squamous cell lung cancer presents with increasing dyspnoea and fever (38.0°C) for 2 days. He has a history of right pleural effusion that was previously serous. On examination, he appears unwell, with right-sided dullness and bronchial breathing above the effusion. CRP 180 mg/L, WCC 14.2 × 10^9/L. Chest X-ray shows an enlarging right pleural effusion. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Post-obstructive pneumonia",
+        "Superior vena cava obstruction",
+        "Empyema",
+        "Malignant pleural effusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with lung cancer and a pre-existing effusion, new fever and raised inflammatory markers with enlarging effusion suggest empyema (infected effusion). Malignant effusion typically does not cause high fever; post-obstructive pneumonia would show consolidation, not purely effusion; PE unlikely without other risk factors; SVCO presents with facial swelling, not effusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9ae4cac9cea0",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents with a 10-day history of cough, fever, and right-sided pleuritic chest pain. He was treated for community-acquired pneumonia 5 days ago but remains febrile. Chest X-ray shows a moderate right pleural effusion. Inflammatory markers are elevated (CRP 280 mg/L, WCC 18×10^9/L). What is the single most appropriate investigation to confirm the diagnosis of empyema?",
+      "options": [
+        "CT chest with intravenous contrast",
+        "Diagnostic thoracentesis with pleural fluid Gram stain, culture, pH, LDH, and glucose",
+        "Blood cultures",
+        "Repeat chest X-ray in 24 hours",
+        "Thoracic ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pleural fluid analysis (pH, Gram stain, culture, LDH, glucose) is the gold standard to diagnose empyema (pH <7.2, low glucose, organisms). Ultrasound guides tap but does not confirm empyema. CT is useful for loculation but not diagnostic alone. Blood cultures and repeat CXR are not definitive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ee1d53ac1410",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman with COPD is admitted with a right lower lobe pneumonia. Despite appropriate antibiotics for 5 days, she remains febrile and develops a new pleural effusion on repeat chest X-ray. Thoracic ultrasound shows a small, non-loculated effusion. Pleural fluid is aspirated and appears turbid. What is the most important pleural fluid parameter to confirm the diagnosis of empyema?",
+      "options": [
+        "Pleural fluid LDH >1000 U/L",
+        "Pleural fluid protein >30 g/L",
+        "Pleural fluid pH <7.2",
+        "Presence of organisms on Gram stain",
+        "Pleural fluid glucose <2.2 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A pleural fluid pH <7.2 is the strongest predictor of complicated parapneumonic effusion/empyema and indicates need for drainage. While low glucose and high LDH are supportive, pH is the key threshold per NICE. Gram stain may be negative even with empyema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5249d9b16d4d",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with diabetes presents with persistent fever and left-sided chest pain 2 weeks after a respiratory tract infection. Chest X-ray shows a left pleural effusion. Thoracentesis yields serous fluid. Pleural fluid analysis shows: pH 7.0, LDH 1500 U/L (serum LDH 300 U/L), glucose 1.8 mmol/L, protein 38 g/L, white cells 5000/μL with neutrophil predominance. Gram stain shows no organisms. What is the most likely diagnosis?",
+      "options": [
+        "Malignant pleural effusion",
+        "Empyema",
+        "Rheumatoid pleurisy",
+        "Transudative effusion due to heart failure",
+        "Tuberculous pleural effusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pleural fluid pH <7.2 with low glucose and high LDH (exudate) in a febrile patient with pneumonia history is diagnostic of empyema. Gram stain may be negative in early infection. Malignant and tuberculous effusions typically have pH >7.2 and lymphocytic predominance. Rheumatoid pleurisy may cause low pH but is rare and usually bilateral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d267b2815d3",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old immunocompetent woman presents with fever and dyspnoea 3 days after blunt chest trauma. Chest X-ray shows a small left pleural effusion. Ultrasound reveals a complex, septated effusion. Pleural fluid is aspirated; it is cloudy but not frankly purulent. What threshold on pleural fluid analysis would confirm the diagnosis of empyema and indicate a need for chest tube drainage?",
+      "options": [
+        "Pleural fluid protein >30 g/L",
+        "Positive Gram stain for organisms",
+        "Pleural fluid LDH >1000 U/L",
+        "Pleural fluid glucose <2.2 mmol/L",
+        "Pleural fluid pH <7.2"
+      ],
+      "answerIndex": 4,
+      "explanation": "A pleural fluid pH <7.2 is the standard cut-off for complicated parapneumonic effusion/empyema (NICE). It is more sensitive than Gram stain or glucose alone. LDH >1000 U/L and low glucose are supportive but not diagnostic thresholds for drainage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9b60c6447c8e",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man develops a fever and left pleural effusion 5 days after elective oesophagectomy. He is on broad-spectrum antibiotics. CT chest shows a loculated left pleural collection. Pleural fluid aspiration yields thick, pus-like fluid. What is the single most appropriate investigation to confirm the microbiological diagnosis of empyema in this setting?",
+      "options": [
+        "Sputum cultures",
+        "Pleural fluid pH measurement",
+        "Thoracoscopic biopsy",
+        "Blood cultures",
+        "Pleural fluid Gram stain and culture"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a postoperative patient with frank pus, pleural fluid Gram stain and culture are essential to identify the causative organism and guide targeted antibiotics. Blood cultures may be negative. Sputum is not relevant. Biopsy is unnecessary. pH is not needed as pus already indicates empyema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b6d1da1c38a1",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents with pleuritic chest pain, fever, and cough for 5 days. Chest X-ray shows a left-sided pleural effusion. Pleural tap yields foul-smelling pus with pH 6.8, glucose 2.1 mmol/L, and Gram stain shows Gram-positive cocci in chains. Which is the single most appropriate first-line definitive therapy?",
+      "options": [
+        "Intrapleural fibrinolytics",
+        "Chest drain insertion",
+        "Video-assisted thoracoscopic surgery (VATS)",
+        "Intravenous co-amoxiclav",
+        "Oral clarithromycin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Empyema requires drainage; a chest drain is the first-line definitive therapy to remove pus and allow lung re-expansion. Antibiotics alone are insufficient for established empyema.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "31a6f06e0791",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with empyema has had a 28Fr chest drain on suction for 48 hours. She remains febrile with a persistent pleural collection on ultrasound. Pleural fluid is still thick and loculated. What is the most appropriate next definitive therapy?",
+      "options": [
+        "Intrapleural alteplase and DNase",
+        "Thoracotomy",
+        "Urgent VATS",
+        "Intravenous antibiotic change",
+        "Change to a larger bore chest drain"
+      ],
+      "answerIndex": 0,
+      "explanation": "Intrapleural fibrinolytics (alteplase and DNase) improve drainage in loculated empyema when initial drainage fails, as per the MIST2 trial and NICE guidance. This is preferred before surgical intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da41793605f2",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with empyema develops a persistent air leak after chest drain insertion. CT confirms a bronchopleural fistula. Which therapy is contraindicated?",
+      "options": [
+        "Chest drain on suction",
+        "Thoracotomy with fistula repair",
+        "VATS decortication",
+        "Systemic antibiotics",
+        "Intrapleural fibrinolytics"
+      ],
+      "answerIndex": 4,
+      "explanation": "Intrapleural fibrinolytics can enlarge a bronchopleural fistula, worsening the air leak and delaying healing. Surgical repair or VATS is indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a82b4a5fac3f",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 82-year-old woman with severe COPD (FEV1 30% predicted) and frailty score 8 (CFS) presents with empyema. She is not a candidate for surgery. What is the most appropriate definitive therapy?",
+      "options": [
+        "Chest drain insertion with intrapleural fibrinolytics",
+        "Pleural aspiration alone",
+        "Long-term oral antibiotics",
+        "Palliative care only",
+        "Thoracotomy with decortication"
+      ],
+      "answerIndex": 0,
+      "explanation": "For frail patients unsuitable for surgery, definitive management involves chest drain drainage combined with intrapleural fibrinolytics to resolve the empyema. This is less invasive than surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "95cda191403d",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with empyema improves initially after chest drain and intravenous antibiotics, but repeat CT at 4 weeks shows a persistent, thick-walled pleural collection with lung entrapment. Pleural fluid culture is negative. What is the single most appropriate definitive therapy?",
+      "options": [
+        "VATS decortication",
+        "Pleural biopsy",
+        "Repeat course of intravenous antibiotics",
+        "Intrapleural fibrinolytics",
+        "Long-term oral antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent, organised empyema with lung entrapment requires surgical decortication (VATS or open) to remove the fibrinous peel and allow lung expansion. Fibrinolytics are less effective for chronic organised collections.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ccc9bcf1c8fc",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents with a 5-day history of cough, fever, and right-sided pleuritic chest pain. Chest X-ray shows a right lower zone consolidation with a moderate pleural effusion. He is haemodynamically stable with oxygen saturations 96% on air. What is the most appropriate next step?",
+      "options": [
+        "Observe for 24 hours and reassess",
+        "Insert a chest drain under ultrasound guidance",
+        "Perform diagnostic thoracentesis",
+        "Start intravenous co-amoxiclav and clarithromycin",
+        "Request a CT scan of the chest with intravenous contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a parapneumonic effusion suspicious of empyema (fever, toxicity, large effusion), diagnostic thoracentesis is indicated to confirm empyema (pH <7.2, glucose <2.2 mmol/L, positive Gram stain). Starting antibiotics without sampling may mask microbiology and delay definitive drainage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff7972adc3d4",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with known empyema (culture positive for Streptococcus milleri) has been on intravenous co-amoxiclav and has a chest drain in situ for 72 hours. She remains febrile and the drain output has decreased. Repeat chest X-ray shows a persistent loculated effusion. What is the most appropriate next step?",
+      "options": [
+        "Remove the chest drain and insert a larger-bore drain",
+        "Perform a CT scan of the chest with intravenous contrast",
+        "Refer for video-assisted thoracoscopic surgery (VATS) decortication",
+        "Switch antibiotics to piperacillin-tazobactam",
+        "Instil intrapleural fibrinolytics"
+      ],
+      "answerIndex": 4,
+      "explanation": "For non-resolving empyema with a loculated effusion despite chest drainage, BTS guidelines recommend intrapleural fibrinolytics (e.g., alteplase and DNase) before considering surgical intervention. Imaging with CT may be helpful but instilling fibrinolytics is the next immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df2daa3c72f7",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known empyema and a chest drain in situ becomes acutely hypotensive, tachycardic, and hypoxic. He has purulent discharge from the drain site. The drain is not swinging and output has ceased. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous antibiotics",
+        "Perform a pleural ultrasound to assess drain position",
+        "Start intravenous fluid resuscitation and vasopressors",
+        "Request an urgent CT chest scan",
+        "Remove the chest drain and reinsert a new one"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a septic patient with a non-functioning chest drain, the priority is to assess drain position and identify loculations. Pleural ultrasound is quick, bedside, and can guide further drainage. While resuscitation (fluids, antibiotics) is important, assessing drain function is the key immediate step for source control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aeb4bfe2f586",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with empyema on chest drain suction develops sudden-onset surgical emphysema and increased dyspnoea. The drain output becomes frothy and air leak is persistent. What is the most appropriate immediate next step?",
+      "options": [
+        "Place the chest drain on free drainage (no suction)",
+        "Start non-invasive ventilation",
+        "Refer to thoracic surgery for repair",
+        "Request a CT scan of the chest with intravenous contrast",
+        "Perform an urgent bronchoscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "The clinical picture suggests a bronchopleural fistula. Suction should be discontinued immediately to prevent worsening air leak. Further imaging or surgical referral may follow, but the immediate action is to stop suction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3c0744fa786b",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman with multiple comorbidities, including COPD and heart failure, has a loculated empyema. A chest drain was inserted but output is poor, and she is not fit for surgery. She remains febrile. What is the most appropriate next step?",
+      "options": [
+        "Continue with chest drain alone and observe",
+        "Insert a second chest drain under CT guidance",
+        "Refer for decortication surgery",
+        "Switch to a different intravenous antibiotic regimen",
+        "Administer intrapleural fibrinolytics (e.g., alteplase and DNase)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with loculated empyema who are not surgical candidates, intrapleural fibrinolytics are the recommended next step if chest drainage is inadequate. This improves drainage and avoids surgery. Switching antibiotics alone does not address the mechanical loculation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cbb2f74f5d53",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man admitted with right lower lobe pneumonia remains febrile with worsening pleuritic pain after 48 hours of IV antibiotics. Chest X-ray shows a moderate right pleural effusion. A diagnostic pleural tap is performed. Which pleural fluid finding is most indicative of the need for urgent chest drain insertion?",
+      "options": [
+        "pH 7.3",
+        "Gram stain showing Gram-positive cocci",
+        "LDH >1000 IU/L",
+        "Glucose 3.5 mmol/L",
+        "Protein 45 g/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of organisms on Gram stain (or frank pus) is a definitive indication for chest drain insertion in a parapneumonic effusion. While a pH <7.2, glucose <2.2 mmol/L, and LDH >1000 IU/L are criteria for complicated effusion, Gram stain positivity is a more immediate red flag requiring drainage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b57dbf58d7ba",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with a known empyema is managed with a chest drain and antibiotics. After 5 days, she remains pyrexial and has a persistent air leak. CT chest shows a persistent pleural collection. Which single clinical finding most strongly indicates failure of medical therapy and the need for surgical decortication?",
+      "options": [
+        "Persistent air leak >7 days",
+        "Pleural fluid pH <7.0",
+        "Pleural thickening >5 mm on CT",
+        "Serum albumin <30 g/L",
+        "Persistent leukocytosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "A persistent air leak beyond 7 days suggests a bronchopleural fistula, which is unlikely to resolve with medical therapy and often requires surgical intervention. While pH <7.0 indicates ongoing infection, a bronchopleural fistula is a more definitive indication for surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f17342969db",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with a known empyema on a chest drain suddenly develops severe dyspnoea, hypotension, and tracheal deviation away from the affected side. The affected hemithorax is hyper-resonant with absent breath sounds. Which life-threatening complication has occurred?",
+      "options": [
+        "Massive pulmonary embolism",
+        "Myocardial infarction",
+        "Pericardial effusion",
+        "Septic shock",
+        "Tension pyopneumothorax"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of tracheal deviation away from the affected side, hyper-resonance, and sudden deterioration in a patient with empyema and a chest drain (which may be blocked) is classic for tension pyopneumothorax from a bronchopleural fistula. This is a can't-miss emergency requiring immediate decompression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8a36eddbcdfd",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with rheumatoid arthritis on adalimumab presents with 3 weeks of cough, weight loss, and night sweats. Chest X-ray shows a left pleural effusion. Pleural fluid analysis reveals an exudate with predominantly lymphocytes and an adenosine deaminase (ADA) level of 52 U/L. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Tuberculous pleurisy",
+        "Fungal empyema",
+        "Bacterial empyema",
+        "Malignancy",
+        "Rheumatoid pleurisy"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient on anti-TNF therapy (adalimumab), TB reactivation is a major risk. A lymphocytic exudate with ADA >40 U/L is highly suggestive of tuberculous pleurisy. This diagnosis must be excluded before continuing immunosuppression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0beef8e4c37f",
+      "topic": "Empyema",
+      "slug": "empyema",
+      "system": "Respiratory",
+      "subSystem": "Pleural",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with empyema treated with a chest drain and antibiotics is being considered for drain removal. His temperature has been normal for 24 hours, and drain output has decreased. Which of the following findings would contraindicate drain removal at this time?",
+      "options": [
+        "Absence of air leak",
+        "Persistent fever >38°C",
+        "Drain output <50 mL/day",
+        "Chest X-ray shows lung re-expansion",
+        "Pleural fluid appearance is clear"
+      ],
+      "answerIndex": 1,
+      "explanation": "Persistent fever indicates ongoing active infection; removing the drain while the patient is still febrile risks incomplete drainage and deterioration. The other options are favorable findings that support drain removal.",
+      "difficulty": "easy"
+    }
+  ]
+}

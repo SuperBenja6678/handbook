@@ -1,0 +1,513 @@
+{
+  "topic": "MASLD / MASH",
+  "slug": "masld-mash",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Chronic liver",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:35Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b14740520370",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with a BMI of 32, hypertension, and type 2 diabetes is found to have an ALT of 90 U/L on routine bloods. He drinks less than 14 units of alcohol per week. Ultrasound shows a diffuse hyperechoic liver consistent with steatosis. Viral hepatitis serology is negative. What is the single most likely diagnosis?",
+      "options": [
+        "Metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        "Alcoholic liver disease",
+        "Autoimmune hepatitis",
+        "Hereditary haemochromatosis",
+        "Primary sclerosing cholangitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of hepatic steatosis on ultrasound with multiple metabolic risk factors (obesity, hypertension, diabetes) in the absence of significant alcohol intake or other causes makes MASLD the most likely diagnosis. Alcoholic liver disease would require a higher alcohol intake, and the other options would typically present with different serological or imaging features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "382728385f02",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 52-year-old woman with a history of simple hepatic steatosis on biopsy 3 years ago now presents with worsening fatigue. Her ALT is 110 U/L, AST 80 U/L, and FIB-4 index is 2.5. A repeat liver biopsy shows steatosis with ballooning degeneration and pericellular fibrosis. She has type 2 diabetes and a BMI of 31. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune hepatitis",
+        "Simple steatosis",
+        "Metabolic dysfunction-associated steatohepatitis (MASH)",
+        "Drug-induced steatohepatitis",
+        "Compensated NASH cirrhosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The biopsy findings of steatohepatitis (ballooning and inflammation) with fibrosis, along with metabolic risk factors, indicate progression from simple steatosis to MASH. Cirrhosis would show more advanced fibrosis with architectural distortion, and autoimmune hepatitis typically has interface hepatitis and autoantibodies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3275570595b4",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with a BMI of 34, type 2 diabetes, and hypertension presents with haematemesis and melaena. He drinks minimal alcohol. On examination he is jaundiced, has spider naevi, and shifting dullness. Oesophagogastroduodenoscopy shows oesophageal varices with active bleeding. What is the single most likely diagnosis?",
+      "options": [
+        "Decompensated hepatitis C cirrhosis",
+        "Decompensated alcoholic cirrhosis",
+        "Portal hypertension due to portal vein thrombosis",
+        "Decompensated MASLD-related cirrhosis",
+        "Acute liver failure due to paracetamol overdose"
+      ],
+      "answerIndex": 3,
+      "explanation": "The metabolic risk factors and absence of alcohol or viral hepatitis history, combined with stigmata of chronic liver disease and variceal bleeding, point to decompensation of underlying MASLD-related cirrhosis. Alcoholic cirrhosis would require significant alcohol intake, and paracetamol overdose causes acute rather than chronic liver disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "61e34d6045a5",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with polycystic ovary syndrome (PCOS) and impaired glucose tolerance is found to have an ALT of 65 U/L on routine screening. She drinks less than 7 units of alcohol per week. Ultrasound shows hepatic steatosis. What is the single most likely diagnosis?",
+      "options": [
+        "Metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        "Hepatitis C infection",
+        "Primary biliary cholangitis",
+        "Drug-induced liver injury from metformin",
+        "Autoimmune hepatitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "PCOS is a common risk factor for MASLD due to insulin resistance and metabolic syndrome. The exclusion of other causes and presence of steatosis make MASLD most likely. Autoimmune hepatitis and primary biliary cholangitis would have characteristic antibodies and cholestatic enzymes, respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b867f2042928",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old lean man with a BMI of 21 and waist circumference of 86 cm presents with mild right upper quadrant discomfort. He has a family history of type 2 diabetes. He drinks 2 units of alcohol per week. ALT is 55 U/L, GGT 78 U/L. Ultrasound shows moderate hepatic steatosis. What is the single most likely diagnosis?",
+      "options": [
+        "Alpha-1 antitrypsin deficiency",
+        "Metabolic dysfunction-associated steatotic liver disease (MASLD) – lean phenotype",
+        "Autoimmune hepatitis",
+        "Alcoholic liver disease",
+        "Cryptogenic cirrhosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lean MASLD is a recognized phenotype in individuals without general obesity but with metabolic dysfunction (e.g., insulin resistance, dyslipidaemia). The low alcohol intake excludes alcoholic liver disease, and absence of other features makes alpha-1 antitrypsin deficiency or autoimmune hepatitis less likely. Cryptogenic cirrhosis is a diagnosis of exclusion typically in advanced disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7fd83549fb0f",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old obese man has routine LFTs showing ALT 65 U/L, GGT 80 U/L, bilirubin 12 µmol/L, ALP 90 U/L. He drinks no alcohol and viral hepatitis serology is negative. What is the most appropriate next investigation to confirm the suspected diagnosis of metabolic dysfunction-associated steatotic liver disease (MASLD)?",
+      "options": [
+        "Liver biopsy",
+        "MRI abdomen with elastography",
+        "Abdominal ultrasound",
+        "CT abdomen",
+        "Transient elastography (FibroScan)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Abdominal ultrasound is the first-line imaging modality to confirm hepatic steatosis due to its wide availability, low cost, and non-invasive nature. Further fibrosis assessment is considered after steatosis is confirmed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2a76feb49a79",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old woman with type 2 diabetes and known hepatic steatosis on ultrasound undergoes risk stratification for advanced fibrosis. Her FIB-4 score is 2.1 (intermediate risk). What is the most appropriate next investigation?",
+      "options": [
+        "Repeat LFTs in 3 months",
+        "Transient elastography (FibroScan)",
+        "NAFLD fibrosis score",
+        "Liver biopsy",
+        "CT liver"
+      ],
+      "answerIndex": 1,
+      "explanation": "Per NICE guidelines, a FIB-4 score of 1.3–2.67 places the patient at intermediate risk for advanced fibrosis. The recommended next step is transient elastography (FibroScan) to further stratify risk and avoid unnecessary liver biopsies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ced1ea6af137",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with compensated NASH cirrhosis (platelets 120×10⁹/L, bilirubin 15 µmol/L, albumin 35 g/L) develops new ascites on examination. Abdominal ultrasound confirms ascites. What is the most appropriate investigation to confirm that the ascites is due to portal hypertension?",
+      "options": [
+        "MRCP",
+        "CT abdomen with contrast",
+        "Diagnostic paracentesis with serum-ascites albumin gradient (SAAG)",
+        "Hepatic venous pressure gradient measurement",
+        "Upper GI endoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "SAAG ≥11 g/L indicates portal hypertension, making it the first-line test to differentiate causes of ascites. Paracentesis is safe and diagnostic, whereas HVPG measurement is invasive and rarely needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fa5822cf005c",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with compensated NASH cirrhosis (Child-Pugh A) is attending for initial variceal screening. What is the most appropriate investigation?",
+      "options": [
+        "CT abdomen",
+        "Abdominal ultrasound with Doppler",
+        "Transient elastography (FibroScan)",
+        "Upper GI endoscopy",
+        "Video capsule endoscopy"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends upper GI endoscopy (OGD) for variceal screening in all patients with cirrhosis at diagnosis, and every 2–3 years if Child-Pugh A. It directly visualises oesophageal varices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e142c931d27a",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 48-year-old patient with MASLD undergoes transient elastography. The result shows a liver stiffness measurement of 16.5 kPa with an IQR/median of 0.15. What is the most likely fibrosis stage?",
+      "options": [
+        "F3 (bridging fibrosis)",
+        "F0–1 (no or mild fibrosis)",
+        "Invalid result",
+        "F4 (cirrhosis)",
+        "F2 (significant fibrosis)"
+      ],
+      "answerIndex": 3,
+      "explanation": "In NAFLD, a stiffness >12.5 kPa is suggestive of cirrhosis (F4). The low IQR/median (<0.3) indicates good quality. The threshold for F4 is typically above 11–13.5 kPa depending on the aetiology, but >12.5 is widely accepted for cirrhosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6eeabbaade7b",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman is found to have mildly raised ALT (56 U/L) on routine bloods. She has a BMI of 32 kg/m² and no other medical history. Liver ultrasound shows bright liver echotexture consistent with steatosis. Transient elastography shows a median stiffness of 5.4 kPa, indicating no significant fibrosis. She drinks 4 units of alcohol per week. What is the most appropriate first-line management for her condition?",
+      "options": [
+        "Start vitamin E 800 IU daily",
+        "Start metformin 500 mg twice daily",
+        "Start pioglitazone 30 mg daily",
+        "Advise lifestyle modification with weight loss and exercise",
+        "Start a statin to lower cholesterol"
+      ],
+      "answerIndex": 3,
+      "explanation": "MASLD without NASH or significant fibrosis is managed with lifestyle modification; pharmacotherapy is reserved for patients with fibrotic MASH. The most tempting distractor is vitamin E, but it is indicated only for non-diabetic patients with biopsy-proven NASH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6447ef09cedd",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with type 2 diabetes and a BMI of 34 kg/m² is found to have persistently raised ALT. A liver biopsy shows moderately active steatohepatitis (MASH) with stage 2 fibrosis (perisinusoidal). He has no history of decompensation. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Pioglitazone 30 mg daily",
+        "Ursodeoxycholic acid 15 mg/kg/day",
+        "Metformin 1 g twice daily",
+        "Vitamin E 800 IU daily",
+        "Resmetirom 80 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with T2DM and biopsy-proven MASH with fibrosis, pioglitazone is a recommended off-label option (NICE NG49). Vitamin E is not recommended in patients with diabetes due to lack of evidence and potential risk. Resmetirom is not yet approved in the UK.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "594dcb29201c",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old woman with known MASH cirrhosis (Child-Pugh B) presents with haematemesis. She undergoes emergency upper GI endoscopy, which shows oesophageal varices with active bleeding; band ligation is performed successfully. She is haemodynamically stable. What is the most appropriate first-line therapy for secondary prophylaxis of variceal haemorrhage?",
+      "options": [
+        "Propranolol alone",
+        "Transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Terlipressin infusion",
+        "Band ligation plus propranolol",
+        "Band ligation alone (repeat every 2-4 weeks)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends combination therapy with band ligation and a non-selective beta-blocker (e.g., propranolol) for secondary prophylaxis after initial control of variceal bleeding. Band ligation alone or beta-blocker alone are less effective than combination. TIPS is reserved for refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0d4912e90b4f",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 58-year-old man with decompensated MASH cirrhosis is admitted with confusion, oliguria, and worsening jaundice. His serum creatinine is 280 µmol/L (twofold rise from baseline of 100 µmol/L) and urine sodium <10 mmol/L. He is not on diuretics. Blood pressure is 90/60 mmHg. After fluid challenges with 20% albumin, his creatinine does not improve. What is the most appropriate first-line pharmacological treatment for this acute kidney injury?",
+      "options": [
+        "Noradrenaline plus albumin",
+        "Octreotide plus midodrine",
+        "Rifaximin",
+        "Furosemide 40 mg IV",
+        "Terlipressin plus albumin"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is hepatorenal syndrome (HRS-AKI). NICE recommends terlipressin in combination with albumin as first-line pharmacological treatment. Noradrenaline is an alternative but not first-line. Furosemide is contraindicated in HRS as it may worsen hypovolaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "119a67d4ad38",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman underwent liver transplantation 2 years ago for decompensated MASH cirrhosis. She now has a BMI of 33 kg/m² and is on tacrolimus monotherapy. A protocol liver biopsy shows steatosis in 40% of hepatocytes with mild inflammation but no significant fibrosis. What is the most appropriate initial management to prevent progression to recurrent MASH?",
+      "options": [
+        "Advise lifestyle modification with weight loss and dietary changes",
+        "Start vitamin E 800 IU daily",
+        "Start everolimus in place of tacrolimus",
+        "Increase the dose of tacrolimus",
+        "Start pioglitazone 15 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-transplant steatosis (recurrent MASLD) is common; first-line management is lifestyle modification to achieve weight loss, as it addresses the underlying metabolic risk factor. Changing immunosuppression to everolimus or increasing tacrolimus is not indicated solely for steatosis; vitamin E and pioglitazone lack evidence in transplant recipients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "efa17c64a924",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old overweight man (BMI 31) is found to have an incidental raised ALT of 80 U/L on routine bloods. He is asymptomatic, drinks minimal alcohol, and has no other medical history. What is the single most appropriate next step?",
+      "options": [
+        "Advise lifestyle modification (diet and exercise)",
+        "Perform abdominal ultrasound",
+        "Start vitamin E 800 IU daily",
+        "Start pioglitazone 30 mg once daily",
+        "Refer for transient elastography"
+      ],
+      "answerIndex": 0,
+      "explanation": "For first presentation of suspected metabolic dysfunction-associated steatotic liver disease (MASLD), lifestyle modification (weight loss, diet, exercise) is first-line management per NICE. Pharmacological therapy is reserved for advanced fibrosis after specialist assessment. Ultrasound may be done eventually, but lifestyle advice is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6fc24c03ee4f",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with known MASLD (diagnosed 2 years ago, FIB-4 1.8, no fibrosis on transient elastography) attends clinic. She has persistently elevated ALT (60–80 U/L), BMI 28, and is asymptomatic. What is the most appropriate next step?",
+      "options": [
+        "Start vitamin E 800 IU daily",
+        "Continue lifestyle measures and monitor annually",
+        "Refer for liver biopsy",
+        "Repeat transient elastography",
+        "Start pioglitazone 30 mg once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In patients with MASLD without evidence of fibrosis, lifestyle modification remains the cornerstone. NICE recommends monitoring annually with FIB-4; no pharmacotherapy is indicated. Repeat elastography is not needed urgently. Biopsy is reserved for diagnostic uncertainty or advanced fibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d255799163a6",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known compensated cirrhosis due to MASLD presents with confusion and asterixis. He is haemodynamically stable and able to protect his airway. What is the single most appropriate immediate action?",
+      "options": [
+        "Check for variceal bleeding (oesophagogastroduodenoscopy)",
+        "Administer lactulose enema",
+        "Start rifaximin 550 mg twice daily",
+        "Request urgent serum ammonia level",
+        "Intubate for airway protection"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute hepatic encephalopathy, the first step is to reduce ammonia with lactulose (oral or enema) to produce 2–3 soft stools per day. Rifaximin is an add-on for recurrent encephalopathy. Ammonia levels are not diagnostic and do not guide immediate management. Airway protection is not yet needed as patient is protecting airway.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d358582430c",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with known MASLD and bridging fibrosis (F3) presents with new onset ascites. She is haemodynamically stable, afebrile, and has no abdominal pain. What is the single most appropriate next step?",
+      "options": [
+        "Ultrasound abdomen",
+        "Refer for transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Paracentesis (diagnostic tap)",
+        "Start spironolactone 100 mg daily",
+        "Check serum-ascites albumin gradient (SAAG)"
+      ],
+      "answerIndex": 2,
+      "explanation": "For new ascites in cirrhosis, diagnostic paracentesis is essential to exclude spontaneous bacterial peritonitis (SBP) and assess the cause. This should be done before starting diuretics or further imaging. SAAG is calculated after paracentesis. TIPS is reserved for refractory ascites.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "62983fd5d58a",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with type 2 diabetes and obesity (BMI 34) has been diagnosed with MASLD. His FIB-4 is 2.5 (intermediate risk) and NAFLD fibrosis score is 0.6. He is concerned about progression. What is the single most appropriate next step?",
+      "options": [
+        "Refer for bariatric surgery",
+        "Start a GLP-1 agonist (e.g., semaglutide) for weight loss",
+        "Advise 10% weight loss through diet and exercise",
+        "Start vitamin E 800 IU daily",
+        "Start pioglitazone 30 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Weight loss of 10% is the most effective intervention for MASH and fibrosis regression. Pharmacological options (vitamin E, pioglitazone) are considered only after specialist assessment and for those with biopsy-proven MASH or advanced fibrosis. GLP-1 agonists are promising but not yet first-line for MASLD alone; bariatric surgery is reserved for severe obesity after lifestyle failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed76e13cb8c3",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old man is incidentally found to have raised ALT (68 U/L) and GGT (90 U/L) on routine bloods. Abdominal ultrasound shows moderate hepatic steatosis. He drinks less than 14 units per week. Which single clinical feature most strongly suggests advanced fibrosis (F3-F4) and warrants urgent hepatology referral?",
+      "options": [
+        "BMI 34 kg/m²",
+        "Mild splenomegaly on examination",
+        "Palmar erythema",
+        "Spider naevi >3 on the chest",
+        "Platelet count 180 × 10⁹/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Splenomegaly indicates portal hypertension, a hallmark of advanced fibrosis/cirrhosis. Palmar erythema and spider naevi are non-specific; a normal platelet count makes advanced fibrosis less likely; obesity is a risk factor but not a sign of fibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2758fdee052a",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with known MASLD cirrhosis and ascites presents with abdominal pain and fever (38.5°C). Paracentesis is performed. Which single finding confirms the diagnosis of spontaneous bacterial peritonitis?",
+      "options": [
+        "Serum-ascites albumin gradient (SAAG) >11 g/L",
+        "Ascitic fluid neutrophil count >250 cells/µL",
+        "Ascitic fluid total protein <15 g/L",
+        "Ascitic fluid culture positive for E. coli",
+        "Ascitic fluid amylase raised"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neutrophil count >250 cells/µL is diagnostic of spontaneous bacterial peritonitis. Low total protein is a risk factor, not diagnostic; culture can be negative; SAAG >11 indicates portal hypertension; raised amylase suggests pancreatic ascites.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9763503c4441",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with acute MASH presents with jaundice, coagulopathy (INR 2.5), and encephalopathy grade II. No prior known liver disease. Which single finding is associated with a high mortality and should prompt immediate referral to a transplant centre?",
+      "options": [
+        "Bilirubin 250 µmol/L",
+        "INR 7.0",
+        "Creatinine 120 µmol/L",
+        "Grade I encephalopathy",
+        "INR 3.2"
+      ],
+      "answerIndex": 1,
+      "explanation": "In non-acetaminophen acute liver failure, an INR >6.5 is a King's College criterion for poor prognosis and urgent transplant evaluation. The other values do not meet thresholds.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4dfabf38206c",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with known MASLD (baseline ALT 60 U/L) presents with jaundice and ALT 1200 U/L. She recently started a new medication. Which single feature most strongly suggests drug-induced liver injury rather than an acute MASH flare?",
+      "options": [
+        "Hepatomegaly on exam",
+        "ALT 1200 U/L",
+        "Bilirubin 85 µmol/L",
+        "GGT 300 U/L",
+        "Positive ANA"
+      ],
+      "answerIndex": 1,
+      "explanation": "In MASH, ALT rarely exceeds 300 U/L; an ALT >1000 strongly suggests drug-induced injury. Bilirubin rise, GGT elevation, ANA positivity, and hepatomegaly are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eab8daeb1f8c",
+      "topic": "MASLD / MASH",
+      "slug": "masld-mash",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Chronic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known MASLD cirrhosis presents with haematemesis and melaena. Which single physical finding most strongly suggests variceal bleeding rather than a peptic ulcer?",
+      "options": [
+        "Melena",
+        "History of ibuprofen use",
+        "Epigastric pain",
+        "Haemoglobin 90 g/L",
+        "Splenomegaly"
+      ],
+      "answerIndex": 4,
+      "explanation": "Splenomegaly indicates portal hypertension, making variceal bleeding likely. NSAID use and epigastric pain point to peptic ulcer; melena is non-specific; anaemia is a consequence.",
+      "difficulty": "medium"
+    }
+  ]
+}

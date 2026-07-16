@@ -1,0 +1,513 @@
+{
+  "topic": "COVID-19 — Acute Management",
+  "slug": "covid-19-acute-management",
+  "system": "Infectious Diseases",
+  "subSystem": "Viral",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:35:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "44970c831fde",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old healthcare worker presents to the emergency department with a 4-day history of dry cough, fever, and complete loss of smell. He is previously fit and well. Temperature 38.2°C, respiratory rate 18, SpO2 95% on air. Chest auscultation is clear. What is the single most likely diagnosis?",
+      "options": [
+        "Atypical pneumonia",
+        "COVID-19",
+        "Bacterial pneumonia",
+        "Pulmonary embolism",
+        "Influenza"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loss of smell is a hallmark of COVID-19 and less common in influenza or other pneumonias, making COVID-19 the most likely diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f7408a1225d",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old teacher presents to the GP with a 2-day history of diarrhoea and vomiting. She has no respiratory symptoms. Her husband had confirmed COVID-19 last week. Observations are normal except for mild tachycardia. What is the single most likely diagnosis?",
+      "options": [
+        "Inflammatory bowel disease",
+        "Bacterial gastroenteritis",
+        "Irritable bowel syndrome",
+        "Norovirus gastroenteritis",
+        "COVID-19"
+      ],
+      "answerIndex": 4,
+      "explanation": "Gastrointestinal symptoms alone can be the presenting feature of COVID-19, especially with a known contact, making it more likely than other causes of gastroenteritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4eced1255d8c",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with hypertension and type 2 diabetes presents with a 7-day history of cough and fever, now with severe breathlessness. SpO2 89% on room air, respiratory rate 32, heart rate 110. Chest X-ray shows bilateral, peripheral ground-glass opacities. CRP 180 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "COVID-19 pneumonia",
+        "Cardiogenic pulmonary oedema",
+        "Pulmonary fibrosis",
+        "Bacterial pneumonia",
+        "Acute eosinophilic pneumonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral peripheral ground-glass opacities with profound hypoxia in a patient with typical symptoms is characteristic of COVID-19 pneumonia, especially in the presence of risk factors like diabetes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3abb7446fa96",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman admitted 10 days ago with confirmed COVID-19 pneumonia, now on the ward. She develops sudden onset right-sided pleuritic chest pain, dyspnoea, and haemoptysis. SpO2 drops from 96% to 88% on 4L oxygen. D-dimer is >5000 ng/mL. What is the single most likely new diagnosis?",
+      "options": [
+        "Worsening COVID-19 pneumonia",
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Secondary bacterial pneumonia",
+        "Myocarditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sudden pleuritic pain, haemoptysis, and elevated D-dimer in a patient with COVID-19 strongly suggest pulmonary embolism, a known hypercoagulable complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c622536ff482",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman at 28 weeks gestation presents with fever, cough, and myalgia for 3 days. She is unvaccinated. Temperature 38.5°C, respiratory rate 20, SpO2 94% on air. Fetal heart rate is 160 bpm with reduced variability. What is the single most likely diagnosis?",
+      "options": [
+        "Influenza pneumonia",
+        "Bacterial pneumonia",
+        "COVID-19 pneumonia",
+        "Pulmonary embolism",
+        "Chorioamnionitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, COVID-19 typically presents with respiratory symptoms and fever; chorioamnionitis is less likely without uterine tenderness or foul discharge, and the fetal changes can be due to maternal fever.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "276539f63cd9",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old healthcare worker presents with a 2-day history of fever, dry cough, and anosmia. Vital signs are stable, oxygen saturation 98% on air. Which investigation is most appropriate to confirm the diagnosis of COVID-19?",
+      "options": [
+        "SARS-CoV-2 serology for IgG antibodies",
+        "Reverse transcription polymerase chain reaction (RT-PCR) on a nasopharyngeal swab",
+        "Point-of-care antigen test from a throat swab",
+        "Full blood count and C-reactive protein",
+        "High-resolution computed tomography (CT) of the chest"
+      ],
+      "answerIndex": 1,
+      "explanation": "RT-PCR is the gold standard for acute diagnosis of COVID-19. Antigen tests have lower sensitivity, serology is not useful early in illness, CT chest is not first-line for diagnosis, and FBC/CRP are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3a2a7a60c6b1",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old who had close contact with a confirmed COVID-19 case develops a sore throat and myalgia 3 days later. A lateral flow test (antigen) performed on day 3 is negative. What is the most appropriate next step to establish a diagnosis?",
+      "options": [
+        "Repeat a lateral flow test in 48 hours",
+        "Admit the patient for intravenous fluids and monitoring",
+        "Request a laboratory-based RT-PCR test",
+        "Reassure the patient that they do not have COVID-19",
+        "Start empirical antibiotics for bacterial pharyngitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lateral flow tests have reduced sensitivity early in infection. RT-PCR is recommended for symptomatic contacts despite a negative antigen test to confirm or rule out COVID-19.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c8cf89b58ea",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old with severe COVID-19 pneumonia, requiring high-flow nasal oxygen (FiO2 0.6), develops acute pleuritic chest pain and haemoptysis. D-dimer is markedly elevated. Which investigation is most likely to confirm the suspected complication?",
+      "options": [
+        "Lower limb venous ultrasound",
+        "Ventilation-perfusion (V/Q) lung scan",
+        "Echocardiography",
+        "CT pulmonary angiography (CTPA)",
+        "Repeat chest X-ray"
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe COVID-19, D-dimer is frequently elevated; with high clinical probability of pulmonary embolism, CTPA is the definitive investigation. V/Q scan may be used if contraindications to contrast, but CTPA is first line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1718333133d7",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old with recent COVID-19 presents with chest pain and dyspnoea. ECG shows diffuse ST elevation, and high-sensitivity troponin is elevated. Coronary angiography shows unobstructed coronary arteries. Which investigation best confirms the diagnosis of myocarditis?",
+      "options": [
+        "Viral serology for cardiotropic viruses",
+        "Repeat troponin measurement",
+        "Echocardiogram",
+        "Cardiac magnetic resonance imaging (MRI)",
+        "Endomyocardial biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cardiac MRI with Lake Louise criteria is the non-invasive diagnostic standard for myocarditis. Endomyocardial biopsy is invasive and reserved for uncertain cases; echo and troponin are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cb321e030dea",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 10-year-old presents with fever, rash, conjunctivitis, and hypotension 4 weeks after an asymptomatic SARS-CoV-2 infection. Which investigation is most specific for confirming the diagnosis of paediatric inflammatory multisystem syndrome temporally associated with SARS-CoV-2 (PIMS-TS)?",
+      "options": [
+        "Elevated C-reactive protein and ferritin",
+        "Blood culture positive for Staphylococcus aureus",
+        "Positive RT-PCR for SARS-CoV-2 on nasopharyngeal swab",
+        "Echocardiogram showing coronary artery dilatation",
+        "Detection of anti-SARS-CoV-2 antibodies"
+      ],
+      "answerIndex": 4,
+      "explanation": "PIMS-TS (MIS-C) occurs weeks after infection; serology positive for SARS-CoV-2 antibodies confirms prior infection, while PCR is often negative. Inflammatory markers are non-specific, echo shows complications, and positive blood culture would suggest alternative sepsis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51054ff44b0c",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old man with type 2 diabetes and a body mass index of 36 kg/m² presents to his GP with a 2-day history of cough, fever, and myalgia. He is unvaccinated. A lateral flow test is positive for SARS-CoV-2. His oxygen saturation is 97% on room air. He has no contraindications to oral antiviral therapy. What is the single most appropriate first-line treatment?",
+      "options": [
+        "Dexamethasone",
+        "Nirmatrelvir/ritonavir (Paxlovid)",
+        "Molnupiravir",
+        "Symptomatic management only",
+        "Remdesivir"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends nirmatrelvir/ritonavir as first-line for non-hospitalised adults with symptomatic COVID-19 who are at highest risk of progression (e.g., age ≥70, BMI ≥35, diabetes). Molnupiravir is second-line if Paxlovid is unsuitable. Remdesivir and dexamethasone are reserved for hospitalised patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f442c267b706",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old woman is admitted to hospital with COVID-19 pneumonia. She has had symptoms for 10 days. Her oxygen saturation is 92% on 2 L/min of oxygen via nasal cannulae. She has no other comorbidities. What is the most appropriate first-line pharmacological therapy?",
+      "options": [
+        "Dexamethasone",
+        "Convalescent plasma",
+        "Hydroxychloroquine",
+        "Remdesivir",
+        "Tocilizumab"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dexamethasone reduces mortality in patients requiring oxygen, regardless of symptom duration. Remdesivir is only recommended for patients with symptom onset ≤7 days and requiring supplemental oxygen. Tocilizumab is reserved for those with rapid deterioration; convalescent plasma and hydroxychloroquine are not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "75a0462330e6",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 58-year-old man is in the intensive care unit with severe COVID-19 pneumonia requiring high-flow nasal oxygen (40 L/min, FiO₂ 0.6). He has been on dexamethasone 6 mg once daily for 3 days. His CRP is 180 mg/L and is rising. His neutrophil count is 4.5×10⁹/L. What is the single most appropriate next therapy to add?",
+      "options": [
+        "Azithromycin",
+        "Baricitinib",
+        "Anakinra",
+        "Tocilizumab",
+        "Remdesivir"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends tocilizumab (or sarilumab) for patients with COVID-19 who have rapid deterioration, require high-flow oxygen or ventilation, and have CRP ≥75 mg/L, alongside systemic steroids. Baricitinib is an alternative but tocilizumab is first-line in UK guidelines. Remdesivir is not indicated beyond 7 days.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f3484c2a720b",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with severe COVID-19 pneumonia requiring high-flow oxygen has a neutrophil count of 0.8×10⁹/L. She is already on dexamethasone. Her CRP is 200 mg/L. Which of the following immunomodulatory therapies is CONTRAINDICATED in this patient?",
+      "options": [
+        "Tocilizumab",
+        "Azathioprine",
+        "Convalescent plasma",
+        "Remdesivir",
+        "Baricitinib"
+      ],
+      "answerIndex": 4,
+      "explanation": "Baricitinib is contraindicated if the absolute neutrophil count is <1.0×10⁹/L. Tocilizumab can be used with caution but is not contraindicated at this level. Remdesivir and convalescent plasma do not have this contraindication. Azathioprine is not standard therapy for COVID-19.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f8842d8cba25",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman (16 weeks gestation) with type 1 diabetes presents with mild COVID-19 symptoms (cough, low-grade fever) and a positive PCR test. She is not requiring oxygen and has no other contraindications. She is at increased risk of progression due to diabetes. Which of the following antiviral treatments is CONTRAINDICATED in pregnancy?",
+      "options": [
+        "Remdesivir",
+        "Molnupiravir",
+        "Dexamethasone",
+        "No antiviral treatment needed",
+        "Nirmatrelvir/ritonavir (Paxlovid)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Molnupiravir is contraindicated in pregnancy due to potential genotoxicity and teratogenicity in animal studies. Nirmatrelvir/ritonavir may be considered if benefit outweighs risk. Remdesivir has limited data but is not contraindicated. Dexamethasone is safe but not indicated for mild disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcb17df2f359",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents to the Emergency Department with a three-day history of dry cough, fever, and loss of taste. She has no significant past medical history. Observations: HR 80, BP 118/76, RR 14, SpO2 98% on air, temperature 37.8°C. A lateral flow test at home was positive for COVID-19. What is the single most appropriate next step?",
+      "options": [
+        "Prescribe oral dexamethasone 6mg daily for 10 days",
+        "Admit for intravenous remdesivir",
+        "Request a CT chest scan",
+        "Discharge home with self-isolation advice and safety netting",
+        "Start prophylactic enoxaparin"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to NICE guidelines, patients with mild COVID-19 and no risk factors do not require hospital admission. Steroids are only indicated for those needing oxygen therapy. Remdesivir is for hospitalized patients requiring oxygen. Anticoagulation is not recommended for outpatients. Safety netting and self-isolation are appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d215f84ecaff",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with type 2 diabetes is admitted with COVID-19 pneumonia. He has a five-day history of cough and fever. On examination: SpO2 91% on 2L oxygen via nasal cannulae, RR 22, HR 98, BP 130/80, temperature 38.5°C. Chest X-ray shows bilateral lower zone infiltrates. CRP 85 mg/L. What is the single most appropriate next step?",
+      "options": [
+        "Start intravenous dexamethasone 6mg once daily",
+        "Request a CT thorax with contrast",
+        "Start oral prednisolone 40mg daily",
+        "Start intravenous tocilizumab",
+        "Start oral doxycycline for atypical pneumonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dexamethasone is the recommended steroid for COVID-19 patients requiring oxygen, as it reduces mortality. Prednisolone is not routinely used; dexamethasone has trial evidence. Tocilizumab is reserved for patients with rapid deterioration or high inflammatory markers. Antibiotics are not indicated unless bacterial co-infection suspected. CT thorax is not routinely needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "414cb5c5cb7c",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with hypertension and ischaemic heart disease is on the ward with COVID-19 pneumonia. He is on 4L oxygen via nasal cannulae but his SpO2 drops to 86% and respiratory rate is 32. He is agitated and unable to tolerate a face mask. Blood pressure 95/60, heart rate 112. What is the single most appropriate next step?",
+      "options": [
+        "Start non-invasive ventilation (CPAP)",
+        "Obtain an urgent arterial blood gas",
+        "Administer intravenous dexamethasone 6mg",
+        "Call the intensive care team for urgent intubation",
+        "Increase oxygen to 15L via non-rebreather mask"
+      ],
+      "answerIndex": 4,
+      "explanation": "The immediate priority is to increase oxygen delivery. In a patient with severe hypoxia on 4L, the next step is to use a high-flow system such as a non-rebreather mask at 15L. If this fails, CPAP or intubation may be considered, but oxygen escalation is first. ABG can be done after. Dexamethasone is indicated but not the immediate emergency action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "95a99b6eaeda",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 52-year-old woman with no prior comorbidities is on day 9 of COVID-19 pneumonia, currently on 2L oxygen with stable saturations of 95%. She suddenly develops pleuritic right-sided chest pain and haemoptysis. D-dimer is 6000 ng/mL. What is the single most appropriate next step?",
+      "options": [
+        "Start therapeutic-dose low molecular weight heparin",
+        "Start intravenous antibiotics",
+        "Request a CT pulmonary angiogram",
+        "Increase oxygen to 4L and reassess",
+        "Perform a transthoracic echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture suggests acute pulmonary embolism. In a stable patient, the next step is to confirm the diagnosis with CT pulmonary angiogram before starting anticoagulation. Empiric anticoagulation could be considered if imaging is delayed, but historically the standard is to image first. Antibiotics are not indicated. Echocardiogram is less sensitive for PE. Oxygen increase is supportive but not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bd5c8ffe4de2",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 83-year-old woman with moderate COPD, on long-term home oxygen (1L nocte), lives in a care home. She tests positive for COVID-19. Her usual baseline SpO2 is 93% on 1L. Today she is more breathless, SpO2 87% on 2L oxygen, respiratory rate 28, pulse 100, BP 110/70, temperature 37.9°C. She is confused but has a DNACPR form in place. What is the single most appropriate next step?",
+      "options": [
+        "Increase home oxygen to 4L via concentrator",
+        "Arrange urgent hospital admission for face-to-face assessment",
+        "Start oral amoxicillin 500mg three times daily",
+        "Commence a subcutaneous syringe driver for symptom palliation",
+        "Prescribe oral dexamethasone 6mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite DNACPR, this patient has reversible acute illness from COVID-19. She requires hospital assessment for escalation of oxygen, steroids, and monitoring. Oral dexamethasone may be considered but she needs evaluation of capacity and oxygen delivery. Increasing oxygen at home is risky without monitoring. Antibiotics are not indicated without evidence of bacterial infection. Palliative care is premature if she may benefit from treatment. Hospital admission is the best immediate action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6e8fff861fd3",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old previously healthy junior doctor presents with a 2-day history of sore throat, dry cough, and fever (38.2°C). He has no significant past medical history. Which single clinical finding would indicate that he requires assessment in hospital for possible escalation of care?",
+      "options": [
+        "Normal chest X-ray",
+        "Lymphocyte count of 0.8 × 10^9/L",
+        "Temperature of 39.2°C",
+        "Oxygen saturation of 93% on room air",
+        "C-reactive protein of 45 mg/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guideline (NG191) advises that oxygen saturation <94% on room air is a threshold for considering hospital admission, as it indicates possible severe illness. Fever, raised CRP, mild lymphopenia, and a normal CXR are common in mild disease and do not by themselves necessitate admission.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c8c4b5868835",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with a background of asthma presents to the emergency department with a 3-day history of cough, fever, and worsening wheeze. Her oxygen saturation is 96% on room air. Which single feature would indicate she is having a life-threatening asthma exacerbation?",
+      "options": [
+        "Peak expiratory flow rate 60% of predicted",
+        "Silent chest on auscultation",
+        "SpO2 of 94% on room air",
+        "Inability to complete sentences",
+        "Respiratory rate of 24 breaths per minute"
+      ],
+      "answerIndex": 1,
+      "explanation": "A silent chest is a sign of severely reduced air entry and indicates a life-threatening asthma attack; other options (PEFR 60%, RR 24, inability to complete sentences, SpO2 94%) are features of severe but not immediately life-threatening exacerbation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc1ae99d8197",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known COPD (FEV1 40% predicted) is admitted with COVID-19 pneumonia. He is receiving 15 L/min oxygen via a non-rebreather mask, and his oxygen saturation is 88%. Arterial blood gas shows pH 7.42, PaO2 8.0 kPa, PaCO2 5.5 kPa, HCO3 24 mmol/L. Which single parameter indicates he should be considered for escalation to critical care for CPAP or mechanical ventilation?",
+      "options": [
+        "Oxygen saturation of 88% on 15 L",
+        "pH of 7.42",
+        "PaO2/FiO2 ratio less than 200 mmHg",
+        "Respiratory rate of 28 breaths per minute",
+        "PaCO2 of 5.5 kPa"
+      ],
+      "answerIndex": 2,
+      "explanation": "A PaO2/FiO2 ratio <200 mmHg (moderate ARDS) is a key criterion for considering CPAP or mechanical ventilation in COVID-19 pneumonia. Other parameters are not specific escalation thresholds (PaCO2 normal, pH normal, RR borderline, and oxygen saturation is already accounted for in the ratio).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a95e40b95cbb",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with severe COVID-19 (on high-flow nasal oxygen) develops acute central chest pain. His ECG shows diffuse ST elevation with PR depression, and high-sensitivity troponin is 1800 ng/L (normal <14). Which life-threatening complication must be excluded as a priority?",
+      "options": [
+        "Acute myocarditis",
+        "Pulmonary embolism",
+        "Aortic dissection",
+        "Acute myocardial infarction (Type 1)",
+        "Acute pericarditis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The most immediate threat is acute myocardial infarction, as it requires urgent revascularisation. Pericarditis, myocarditis, PE, and dissection are possible but less likely or less time-critical.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1fcfcea6aa76",
+      "topic": "COVID-19 — Acute Management",
+      "slug": "covid-19-acute-management",
+      "system": "Infectious Diseases",
+      "subSystem": "Viral",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman at 28 weeks gestation presents with mild cough, low-grade fever (37.6°C), and no dyspnoea. She has no significant past medical history. Her oxygen saturation is 94% on room air. According to UK guidelines, which single finding mandates immediate hospital admission?",
+      "options": [
+        "Respiratory rate of 18 breaths per minute",
+        "Report of reduced fetal movements",
+        "Oxygen saturation of 94% on room air",
+        "Headache of recent onset",
+        "Temperature of 37.6°C"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnant women with COVID-19, NICE recommends that oxygen saturation <95% on room air is a threshold for hospital assessment due to the risk of rapid deterioration. Mild fever, occasional headache, and normal respiratory rate are not red flags. Reduced fetal movements require obstetric review but are not specific to COVID-19 severity.",
+      "difficulty": "medium"
+    }
+  ]
+}

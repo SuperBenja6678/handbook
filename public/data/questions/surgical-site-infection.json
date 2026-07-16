@@ -1,0 +1,513 @@
+{
+  "topic": "Surgical Site Infection",
+  "slug": "surgical-site-infection",
+  "system": "General Surgery",
+  "subSystem": "Post-op",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:33:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2ca33fd0c246",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents 7 days after elective inguinal hernia repair. He reports increasing wound pain and redness. On examination, there is erythema extending 3 cm from the wound edge with seropurulent discharge. His temperature is 37.4°C, heart rate 80 bpm, and white cell count 9.0 × 10^9/L. What is the single most likely diagnosis?",
+      "options": [
+        "Wound haematoma",
+        "Wound dehiscence",
+        "Deep incisional surgical site infection",
+        "Wound seroma",
+        "Superficial incisional surgical site infection"
+      ],
+      "answerIndex": 4,
+      "explanation": "Erythema, seropurulent discharge, and localised pain within 30 days of surgery are diagnostic of superficial incisional SSI. A seroma typically produces clear fluid without erythema. Deep SSI would involve deeper structures with systemic signs, and dehiscence presents with wound gaping.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d44a9c60266e",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with diabetes undergoes open cholecystectomy. On post-operative day 5, she develops wound erythema and a small amount of purulent discharge expressed from the wound. She is afebrile and haemodynamically stable. Swab later grows Staphylococcus aureus. What is the single most likely diagnosis?",
+      "options": [
+        "Wound abscess",
+        "Stitch granuloma",
+        "Seroma",
+        "Superficial incisional surgical site infection",
+        "Cellulitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Purulent discharge with positive microbiology confirms superficial SSI. A wound abscess typically presents as a localised, fluctuant collection under intact skin, not drainage from the wound. Stitch granuloma is a sterile inflammatory reaction, not purulent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e3052a9ace0",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man undergoes emergency laparotomy for perforated diverticulitis. On post-operative day 3, he develops severe wound pain, crepitus on palpation, and foul-smelling serosanguinous discharge. His temperature is 39.2°C, heart rate 120 bpm, and blood pressure 90/60 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Necrotising fasciitis",
+        "Superficial surgical site infection",
+        "Wound dehiscence",
+        "Intra-abdominal abscess",
+        "Anastomotic leak"
+      ],
+      "answerIndex": 0,
+      "explanation": "Crepitus, severe pain out of proportion, systemic toxicity, and foul discharge indicate necrotising fasciitis, a surgical emergency requiring immediate debridement. Superficial SSI does not cause crepitus or haemodynamic instability. Wound dehiscence presents with wound opening, not crepitus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b9fcc81aec7",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents 10 days after emergency caesarean section with wound discharge and fever. On examination, there is a tender, fluctuant mass under the wound with purulent discharge from a sinus tract. Her temperature is 38.5°C, pulse 100 bpm. What is the single most likely diagnosis?",
+      "options": [
+        "Infected seroma",
+        "Superficial surgical site infection",
+        "Stitch granuloma",
+        "Wound abscess",
+        "Endometrioma"
+      ],
+      "answerIndex": 3,
+      "explanation": "A tender, fluctuant mass with purulent sinus discharge is a wound abscess (a deep incisional SSI). Superficial SSI lacks a localised mass. Infected seroma is typically non-fluctuant and has serous fluid. Stitch granuloma is a dry, reactive nodule without systemic symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33ed8c211054",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with end-stage renal disease on haemodialysis undergoes elective inguinal hernia repair with mesh. On post-operative day 10, he complains of persistent wound pain. The wound appears clean with minimal erythema and no discharge. Ultrasound shows a fluid collection deep to the fascia. Aspirate grows MRSA. What is the single most likely diagnosis?",
+      "options": [
+        "Wound seroma",
+        "Mesh-related haematoma",
+        "Suture granuloma",
+        "Deep incisional surgical site infection",
+        "Superficial surgical site infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Deep incisional SSI is confirmed by deep collection with positive microbiology and minimal superficial signs. Superficial SSI would involve the skin/subcutaneous layer. A seroma or haematoma would be sterile. Suture granuloma is a sterile, chronic inflammatory mass.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3556eb8948f6",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman returns 48 hours after elective inguinal hernia repair. She has mild erythema around the wound edge, no discharge, and is afebrile. Which of the following is the single most appropriate diagnostic step?",
+      "options": [
+        "Wound swab for microscopy, culture and sensitivities",
+        "No investigation is indicated",
+        "C-reactive protein measurement",
+        "Blood cultures",
+        "Ultrasound of the wound"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines state that in the absence of purulent discharge or systemic signs, routine wound swabbing and blood tests are not necessary; clinical assessment alone is sufficient. The most tempting distractor is wound swab (A), but it is not indicated without purulent material.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8063e4bdbad4",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man 7 days after elective laparotomy for colon cancer has purulent discharge from the wound, pyrexia of 38.5°C, and tenderness beyond the wound edge. Which investigation is most appropriate to confirm a deep surgical site infection?",
+      "options": [
+        "Ultrasound of the wound",
+        "Wound swab for microscopy, culture and sensitivities",
+        "Plain abdominal radiograph",
+        "Contrast-enhanced CT of the abdomen",
+        "Blood cultures"
+      ],
+      "answerIndex": 3,
+      "explanation": "In suspected deep SSI with systemic signs, CT with intravenous contrast is the best imaging modality to identify intra-abdominal collections. Wound swab (A) only assesses superficial flora and does not evaluate depth. Ultrasound (C) is limited by bowel gas and operator dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e5c2b246658",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man 10 days after emergency laparotomy for perforated diverticulitis has a persistently high CRP and spiking fevers despite wound care. There is no obvious wound discharge. Which investigation is most appropriate to diagnose an intra-abdominal abscess?",
+      "options": [
+        "CT abdomen with intravenous contrast",
+        "Ultrasound abdomen",
+        "Diagnostic laparoscopy",
+        "MRI abdomen",
+        "Wound swab for microscopy, culture and sensitivities"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT with intravenous contrast is the gold standard for detecting intra-abdominal abscesses. Ultrasound (C) may miss smaller collections or those obscured by bowel gas. Wound swab (A) is not useful when there is no external drainage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d5e6aafaa1e0",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old intravenous drug user with a recent history of femoral line insertion (for perioperative fluids) presents with erythema and induration over the insertion site. She is febrile (38.2°C) and tachycardic (110 bpm). Which investigation is most appropriate to diagnose a catheter-related bloodstream infection?",
+      "options": [
+        "Urine culture",
+        "Simultaneous quantitative blood cultures from the catheter and a peripheral vein",
+        "Catheter tip culture (after removal)",
+        "Wound swab of the insertion site",
+        "Peripheral blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "For diagnosing catheter-related bloodstream infection, paired quantitative blood cultures (catheter vs peripheral) with a ≥5:1 ratio is the most accurate method before catheter removal. Catheter tip culture (C) is diagnostic after removal but is not the initial diagnostic step. Peripheral blood cultures (B) alone cannot differentiate catheter-related from other sources.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d54f07dcc919",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman 4 days after breast augmentation has erythema around the incision and serous fluid discharge. A wound swab is sent and shows mixed growth of skin flora. How should this result be interpreted?",
+      "options": [
+        "Indicates contamination of the swab",
+        "Requires repeat blood cultures",
+        "Confirms surgical site infection",
+        "Requires CT imaging to evaluate depth",
+        "Indicates need for immediate broad-spectrum antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mixed growth of skin flora from a swab of serous fluid is most consistent with contamination during swabbing. A true surgical site infection typically yields a pure growth of a pathogenic organism. The most tempting distractor (A) is incorrect because mixed skin flora is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "789c3dfcf204",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old man undergoes elective inguinal hernia repair. On day 5, he has a 3 cm area of erythema around the wound, no pus, no fever. Diagnosis: mild superficial surgical site infection (cellulitis). Which oral antibiotic is most appropriate?",
+      "options": [
+        "Clindamycin 300 mg four times daily",
+        "Flucloxacillin 500 mg four times daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Cefalexin 500 mg four times daily",
+        "Metronidazole 400 mg three times daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends flucloxacillin as first-line for mild cellulitis in the absence of penicillin allergy. Co-amoxiclav is broader-spectrum and not first-line; metronidazole lacks activity against staphylococci and streptococci.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f0e00fd22e35",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man undergoes emergency laparotomy for perforated diverticulitis. On day 6, he develops a wound with purulent discharge, surrounding erythema extending 2 cm, and localised tenderness. Temperature 37.8°C. Diagnosis: deep surgical site infection with cellulitis. What is the most appropriate management?",
+      "options": [
+        "Incision and drainage plus oral metronidazole",
+        "IV co-amoxiclav alone",
+        "Incision and drainage plus oral co-amoxiclav",
+        "Incision and drainage plus IV gentamicin",
+        "Incision and drainage alone"
+      ],
+      "answerIndex": 2,
+      "explanation": "For deep SSI with surrounding cellulitis, NICE recommends incision and drainage combined with antibiotics covering gram-positive, gram-negative, and anaerobic bacteria; co-amoxiclav is appropriate first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "846fe48c54fc",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 32-year-old woman undergoes day-case knee arthroscopy. Three days later, she has erythema around a portal site, pain, and mild fever. She has a history of anaphylaxis to penicillin. Diagnosis: surgical site infection (cellulitis). Which antibiotic is most appropriate?",
+      "options": [
+        "Metronidazole",
+        "Clindamycin",
+        "Flucloxacillin",
+        "Cefalexin",
+        "Doxycycline"
+      ],
+      "answerIndex": 1,
+      "explanation": "In penicillin anaphylaxis, cephalosporins are contraindicated due to cross-reactivity. Clindamycin is first-line for cellulitis in this setting; doxycycline is an alternative but less commonly used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6201d3cae10",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old man undergoes elective open abdominal aortic aneurysm repair. On day 4, he develops hypotension, fever, and a tender wound with purulent discharge. He has been an inpatient for 3 weeks preoperatively and received co-amoxiclav prophylaxis for 3 days. Diagnosis: severe SSI with sepsis. Which is the most appropriate initial antibiotic regimen?",
+      "options": [
+        "IV ceftriaxone plus metronidazole",
+        "IV co-amoxiclav",
+        "IV gentamicin plus metronidazole",
+        "IV vancomycin alone",
+        "IV piperacillin-tazobactam"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given prolonged hospital stay and prior antibiotic use, there is risk of multi-drug resistant organisms; piperacillin-tazobactam provides broader coverage including Pseudomonas and anaerobes, as per NICE for hospital-acquired sepsis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "803d0d194b2a",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 58-year-old woman has persistent serous discharge from her midline laparotomy wound 3 weeks after hemicolectomy. A sinus tract is noted. Wound swab grows mixed skin flora. She is systemically well. Diagnosis: chronic surgical site infection with sinus tract. What is the most appropriate management?",
+      "options": [
+        "Negative pressure wound therapy",
+        "Remove any foreign body (e.g., suture material)",
+        "Incision and drainage of the sinus",
+        "Oral co-amoxiclav for 2 weeks",
+        "Topical antimicrobial dressings"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chronic SSI with sinus tract is typically due to biofilm on retained suture material. Foreign body removal is essential for cure; antibiotics alone are ineffective without source control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e2a9111042e0",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman undergoes open cholecystectomy. On postoperative day 5, she has mild wound erythema with a small amount of serous discharge. She is afebrile and has no systemic symptoms. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to the tissue viability nurse for specialist dressing",
+        "Take a wound swab for culture and sensitivity",
+        "Start oral flucloxacillin 500 mg four times daily",
+        "Apply topical mupirocin ointment",
+        "Remove all skin sutures and open the wound"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a mild SSI with serous discharge, a wound swab is recommended by NICE to guide antibiotic therapy if indicated. Starting antibiotics without culture is not first-line, as many infections are self-limiting. Removing sutures is reserved for abscess formation, and topical antibiotics are not indicated for SSI.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "476633affb95",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man undergoes elective right hemicolectomy. On day 4, he develops a high fever (39.2°C), tachycardia (110 bpm), and purulent discharge from the wound. He is normotensive. What is the most appropriate immediate next step?",
+      "options": [
+        "Obtain an urgent CT abdomen with contrast",
+        "Remove all sutures and explore the wound",
+        "Take a wound swab for culture first",
+        "Administer a fluid bolus of 500 mL Hartmann's solution",
+        "Start intravenous co-amoxiclav 1.2 g immediately"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has a septic episode likely from SSI. According to the UK sepsis guidelines, intravenous antibiotics should be started within 1 hour after taking blood cultures (which should be done simultaneously but are not listed as a single action here). Starting antibiotics immediately is the priority over wound swabs, exploration, or imaging. Fluid bolus may be needed if hypotensive, but he is normotensive, so antibiotics take precedence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "306e76355669",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man who had a laparotomy 5 days ago calls for help; his wound has burst open and loops of bowel are visible on the dressing. He is in pain but not in shock. What is the most appropriate immediate next action?",
+      "options": [
+        "Cover the bowel with sterile saline-soaked gauze",
+        "Call the surgical registrar immediately",
+        "Start intravenous broad-spectrum antibiotics",
+        "Remove the dressing and assess the wound",
+        "Gently reduce the bowel back into the abdomen"
+      ],
+      "answerIndex": 0,
+      "explanation": "The priority is to protect the exposed bowel from drying out and trauma. Covering with saline-soaked gauze is the correct first step. Calling for senior help is important but should be done after covering, and you can do both simultaneously; however, covering the bowel is the direct intervention. Reducing bowel is dangerous due to risk of compromised blood supply and should not be attempted. Removing the dressing worsens exposure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d416602bf7a7",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with poorly controlled type 2 diabetes (HbA1c 86 mmol/mol) presents on postoperative day 7 after laparoscopic appendicectomy with 2 cm of erythema around the umbilical wound, no pus, temperature 37.1°C. What is the most appropriate immediate next step?",
+      "options": [
+        "Remove the glove suture from the wound",
+        "Measure capillary blood glucose",
+        "Start oral flucloxacillin 500 mg four times daily",
+        "Take a wound swab for culture",
+        "Refer to the diabetic specialist nurse"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a diabetic patient with infection, hyperglycaemia may be present and can worsen outcomes. Checking capillary blood glucose is the immediate priority to guide management. A wound swab is indicated only if exudate, which is absent. Antibiotics may be needed but not before glucose assessment. Diabetic team referral can wait. Removing sutures is unnecessary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b9b367da2849",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman has a spreading cellulitis 4 cm from a laparoscopy wound site on day 5. She is systemically well, no purulence. What is the most appropriate immediate next step?",
+      "options": [
+        "Remove the skin sutures to allow drainage",
+        "Apply a topical antiseptic such as chlorhexidine",
+        "Take a wound swab for culture and sensitivity",
+        "Prescribe oral flucloxacillin 500 mg four times daily",
+        "Admit for intravenous antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend oral flucloxacillin for cellulitis associated with SSI when there is no purulent collection. A wound swab is only indicated if there is exudate or deep infection. Removing sutures is not needed as there is no collection. Topical antiseptics are not effective. Admission for IV antibiotics is reserved for patients with systemic signs or severe infection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8cd06603b056",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man undergoes elective right inguinal hernia repair. On day 2 post-operatively, he develops severe pain at the wound site, which is not relieved by simple analgesia. His heart rate is 110 bpm, temperature 38.8°C, and blood pressure 105/70 mmHg. The wound appears clean with mild erythema. Which single finding would most strongly raise concern for a life-threatening complication?",
+      "options": [
+        "Pain out of proportion to wound appearance",
+        "Erythema extending beyond 2 cm from wound margin",
+        "White cell count >15 ×10^9/L",
+        "Temperature >39°C",
+        "Purulent discharge from wound"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe pain disproportionate to the wound appearance is the cardinal early sign of necrotising fasciitis, a surgical emergency. While fever and leukocytosis are common, they are non-specific; erythema and discharge are typical of superficial SSI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "650063f740ea",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman undergoes emergency laparotomy for perforated diverticulitis. On post-operative day 5, she develops wound discharge and low-grade fever (38.0°C). The wound edges are separated and there is a serosanguinous discharge. Which finding on examination would indicate an immediate surgical emergency?",
+      "options": [
+        "Fluctuance on palpation",
+        "Localised wound tenderness",
+        "Visible bowel loops through the wound",
+        "Erythema around the wound",
+        "Purulent discharge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Wound dehiscence with evisceration (visible bowel) is a surgical emergency requiring immediate intervention. Peritonism and fluctuation suggest intra-abdominal collection but are not as immediately life-threatening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "34947f364b01",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with type 2 diabetes undergoes a below-knee amputation for non-healing foot ulcer. Three days later, he develops wound erythema, swelling, and a foul smell. His temperature is 38.5°C. He complains of severe pain, and the wound is exquisitely tender. Which examination finding most strongly suggests necrotising infection?",
+      "options": [
+        "Palpable crepitus",
+        "Regional lymphadenopathy",
+        "Lymphangitic streaking",
+        "Serosanguinous blistering",
+        "Localised warmth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Palpable crepitus indicates gas in tissues, a hallmark of gas-forming infection like clostridial myonecrosis. Blistering may occur but crepitus is more specific for necrotising infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a069cb118d90",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman undergoes a caesarean section. On day 3, she develops a temperature of 38.0°C and the wound appears pink with some discharge. She is started on oral flucloxacillin. Two days later, she returns with worsening pain, and the wound now has an area of dusky discolouration. Which feature is the most concerning for a rapidly progressive infection?",
+      "options": [
+        "Erythema spreading beyond 2 cm",
+        "Maternal tachycardia",
+        "Wound edge necrosis",
+        "Fever persisting >48 hours",
+        "Purulent discharge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Necrosis of wound edges is a sign of tissue death and potential necrotising fasciitis, which is a surgical emergency. While persistent fever and tachycardia are concerning, necrosis is a direct sign of tissue destruction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d375ee29fd59",
+      "topic": "Surgical Site Infection",
+      "slug": "surgical-site-infection",
+      "system": "General Surgery",
+      "subSystem": "Post-op",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man develops a surgical site infection after an open right hemicolectomy for colon cancer. He is on intravenous piperacillin-tazobactam but his condition deteriorates with worsening abdominal pain, distension, and high fever (39.5°C). Which finding on abdominal examination should prompt immediate escalation to the surgical registrar?",
+      "options": [
+        "Rigid abdomen with guarding",
+        "Localised peritonism at the wound",
+        "Tympanic percussion",
+        "Mild distension",
+        "Bruising around the wound"
+      ],
+      "answerIndex": 0,
+      "explanation": "A rigid, guarded abdomen is a sign of generalised peritonitis, likely due to an anastomotic leak or intra-abdominal collection, requiring urgent surgical assessment. Localised peritonism is less urgent; mild distension is non-specific.",
+      "difficulty": "easy"
+    }
+  ]
+}

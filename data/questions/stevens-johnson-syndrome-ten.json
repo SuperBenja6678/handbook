@@ -1,0 +1,513 @@
+{
+  "topic": "Stevens-Johnson Syndrome / TEN",
+  "slug": "stevens-johnson-syndrome-ten",
+  "system": "Dermatology",
+  "subSystem": "Skin emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5c0c594b44af",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 2-day history of fever, sore throat, and a painful rash. She started lamotrigine 6 weeks ago for epilepsy. On examination, temperature 38.5°C, widespread dusky erythematous macules with atypical target lesions are present on the trunk and face. There are multiple painful oral and genital ulcers. Nikolsky sign is negative. No blisters. What is the single most likely diagnosis?",
+      "options": [
+        "Toxic epidermal necrolysis",
+        "DRESS syndrome",
+        "Fixed drug eruption",
+        "Erythema multiforme major",
+        "Stevens-Johnson syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "Stevens-Johnson syndrome typically presents with fever, widespread target-like macules, and mucosal ulceration, often triggered by drugs like lamotrigine. TEN would show >30% skin detachment and positive Nikolsky sign, which are absent here. Erythema multiforme major has typical target lesions but less mucosal involvement and is often post-infectious.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "422c871a0e44",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old man on allopurinol for gout presents with a 24-hour history of rapidly spreading painful erythema and skin sloughing. On examination, there is >40% body surface area detachment, positive Nikolsky sign, and severe mucosal involvement including oral, ocular, and genital. He is hypotensive and febrile. What is the single most likely diagnosis?",
+      "options": [
+        "Acute generalized exanthematous pustulosis",
+        "Staphylococcal scalded skin syndrome",
+        "Bullous pemphigoid",
+        "Toxic epidermal necrolysis",
+        "Stevens-Johnson syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "The extensive detachment (>30% BSA), positive Nikolsky sign, and mucosal involvement in an elderly patient on allopurinol are classic for TEN. SSSS occurs in children or renal failure, lacks mucosal involvement, and is superficial. Bullous pemphigoid is more chronic and spares mucosa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5dfb73b15f07",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with painful oral ulcers and a few target-like lesions on her palms and feet. She has a history of recurrent cold sores. She is afebrile and otherwise well. No genital lesions. What is the single most likely diagnosis?",
+      "options": [
+        "Behçet's disease",
+        "Herpetic gingivostomatitis",
+        "Stevens-Johnson syndrome",
+        "Erythema multiforme major",
+        "Fixed drug eruption"
+      ],
+      "answerIndex": 3,
+      "explanation": "Erythema multiforme major is associated with herpes simplex virus infection, presents with typical target lesions and oral ulcers but minimal systemic symptoms. SJS is drug-related, more widespread, and includes fever. Herpetic gingivostomatitis would have vesicles and no skin lesions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a16cd13cd4aa",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man on phenytoin for epilepsy presents with fever, facial oedema, generalised lymphadenopathy, and a diffuse erythematous rash that is not blistering. He has no mucosal ulceration. Blood tests show eosinophilia (1.5 x10^9/L) and elevated liver enzymes. What is the single most likely diagnosis?",
+      "options": [
+        "Scarlet fever",
+        "Stevens-Johnson syndrome",
+        "Acute generalized exanthematous pustulosis",
+        "DRESS syndrome",
+        "Toxic epidermal necrolysis"
+      ],
+      "answerIndex": 3,
+      "explanation": "DRESS syndrome is characterised by fever, facial oedema, lymphadenopathy, eosinophilia, and organ involvement (hepatitis) after a 2-8 week latency on drugs like phenytoin. SJS/TEN have mucosal involvement and blistering, which are absent here. AGEP shows pustules.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eb257579fd09",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 7-year-old boy presents with fever, cough, and conjunctivitis. He has painful oral ulcers and a few scattered erythematous macules on his trunk and limbs. No blistering. Chest X-ray shows right lower lobe pneumonia. What is the single most likely diagnosis?",
+      "options": [
+        "Kawasaki disease",
+        "Erythema multiforme major",
+        "Stevens-Johnson syndrome",
+        "Staphylococcal scalded skin syndrome",
+        "Mycoplasma-induced rash and mucositis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Mycoplasma pneumoniae infection can cause a rash with mucositis (MIRM) that mimics SJS but has limited skin involvement and prominent mucosal lesions, often with preceding respiratory symptoms. SJS is typically drug-related and more extensive. Kawasaki disease includes conjunctivitis but not oral ulcers and has other features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "525c98ad67c7",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with a one-day history of fever, macular rash with target-like lesions on trunk, and painful oral ulcers. She has no blisters. What is the most appropriate investigation to confirm the diagnosis of Stevens-Johnson syndrome?",
+      "options": [
+        "Serum anti-desmoglein antibodies",
+        "Blood cultures",
+        "Direct immunofluorescence",
+        "Nikolsky sign",
+        "Skin punch biopsy for histology"
+      ],
+      "answerIndex": 4,
+      "explanation": "Histology shows full-thickness epidermal necrosis, which is diagnostic for SJS/TEN. Direct immunofluorescence is used for autoimmune blistering diseases like pemphigus. Nikolsky sign is a clinical examination finding, not an investigation. Blood cultures may identify infection but do not confirm SJS. Anti-desmoglein antibodies are specific for pemphigus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f5a22d48ce3e",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with widespread blistering and skin detachment is suspected of having toxic epidermal necrolysis. A skin biopsy is taken. Which histological finding would confirm the diagnosis?",
+      "options": [
+        "Dermal-epidermal separation with eosinophils",
+        "Full-thickness epidermal necrosis with subepidermal split",
+        "Subcorneal split with neutrophils",
+        "No significant necrosis",
+        "Intraepidermal acantholysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Full-thickness epidermal necrosis with subepidermal split is the hallmark of SJS/TEN. Intraepidermal acantholysis is seen in pemphigus. Subcorneal split with neutrophils suggests staphylococcal scalded skin syndrome. Dermal-epidermal separation with eosinophils is typical of bullous pemphigoid. No necrosis rules out SJS/TEN.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7f8891e33a8a",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 6-year-old child presents with fever, diffuse erythema, and large flaccid blisters that rupture easily. Nikolsky sign is positive. A skin biopsy from a fresh blister shows full-thickness epidermal necrosis with a subepidermal split. Which diagnosis is most consistent?",
+      "options": [
+        "Bullous pemphigoid",
+        "Pemphigus vulgaris",
+        "Dermatitis herpetiformis",
+        "Staphylococcal scalded skin syndrome",
+        "Stevens-Johnson syndrome/toxic epidermal necrolysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Full-thickness epidermal necrosis with subepidermal split is diagnostic of SJS/TEN. Staphylococcal scalded skin syndrome shows a subcorneal (superficial) split. Pemphigus shows acantholysis. Bullous pemphigoid shows subepidermal split with eosinophils. Dermatitis herpetiformis shows neutrophilic microabscesses at dermal papillae.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4e26b4f2dc50",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with suspected toxic epidermal necrolysis has skin detachment estimated at 15% of body surface area and mucosal involvement at two sites. According to the classification system, what is the most appropriate diagnosis?",
+      "options": [
+        "SJS/TEN overlap",
+        "Erythema multiforme major",
+        "Generalized bullous fixed drug eruption",
+        "Stevens-Johnson syndrome",
+        "Toxic epidermal necrolysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "SJS is defined as skin detachment <10% BSA, SJS/TEN overlap 10-30%, and TEN >30% BSA. With 15% detachment, this is SJS/TEN overlap. Erythema multiforme major typically has <10% BSA and typical target lesions. Bullous fixed drug eruption is localized and recurrent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9c20ce4f6c3",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with target lesions on her limbs and trunk, oral ulcers, and conjunctival injection. The target lesions are described as having a dark, purpuric center and irregular shape. Which clinical feature would most strongly suggest Stevens-Johnson syndrome rather than erythema multiforme major?",
+      "options": [
+        "Involvement of palms and soles",
+        "Atypical target lesions",
+        "History of herpes simplex infection",
+        "Presence of blistering",
+        "Fever"
+      ],
+      "answerIndex": 1,
+      "explanation": "In SJS, target lesions are typically atypical (flat, dark purpuric center, irregular border) compared to erythema multiforme where they are typical (three zones, round). Palms and soles are more commonly involved in EM. Fever is non-specific. Herpes simplex is a trigger for EM, not SJS. Blistering can occur in both but is more common in SJS/TEN.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "97674c7b36f5",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 25-year-old woman presents with a 2-day history of fever, sore throat, and a rapidly progressive rash. She started carbamazepine 10 days ago for epilepsy. On examination, she has target-like lesions on her trunk and multiple erosions on her lips and oral mucosa. There is no skin detachment. A diagnosis of Stevens-Johnson syndrome is made. Which treatment is contraindicated in this patient?",
+      "options": [
+        "Withdrawal of carbamazepine",
+        "Supportive care with IV fluids and topical emollients",
+        "Ciclosporin 5 mg/kg/day",
+        "Prednisolone 60 mg daily",
+        "Intravenous immunoglobulin 2 g/kg over 5 days"
+      ],
+      "answerIndex": 3,
+      "explanation": "Systemic corticosteroids (e.g., prednisolone) are contraindicated in SJS/TEN because they are associated with increased morbidity and mortality from infections. Withdrawal of the culprit drug and supportive care are the mainstays. IVIG and ciclosporin are sometimes used but are not first-line and not contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6230115fb2c2",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man with known HLA-B*1502 positive status presents with a pruritic rash, fever, and conjunctival injection. He has been taking lamotrigine for 4 weeks. There are target lesions and vesicles, with less than 5% body surface area of epidermal detachment. The diagnosis is Stevens-Johnson syndrome. What is the most appropriate first-line management?",
+      "options": [
+        "Cyclophosphamide 500 mg/m²",
+        "Immediate withdrawal of lamotrigine",
+        "Plasmapheresis",
+        "Prednisone 1 mg/kg daily",
+        "Intravenous immunoglobulin 1 g/kg"
+      ],
+      "answerIndex": 1,
+      "explanation": "The most important immediate step in drug-induced SJS is prompt withdrawal of the offending drug. Corticosteroids and other immunosuppressants are not recommended as first-line therapy in mild SJS; they may worsen outcomes. Supportive care follows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7cae75aa3c56",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with a history of pneumonia treated with co-amoxiclav develops widespread blistering and skin detachment involving 40% of her body surface area, with positive Nikolsky sign and extensive mucosal ulceration. She is hypotensive and oliguric. SCORTEN is 4. She is transferred to a burns unit. Which of the following is the most appropriate first-line systemic therapy to halt disease progression?",
+      "options": [
+        "Intravenous immunoglobulin 2 g/kg",
+        "Methylprednisolone 1 g IV daily for 3 days",
+        "Etanercept 50 mg subcutaneously",
+        "Ciclosporin 3 mg/kg/day orally",
+        "Dapsone 100 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "For severe TEN, guidelines recommend ciclosporin as first-line immunomodulator due to evidence of mortality benefit. High-dose corticosteroids are contraindicated. IVIG is an alternative but not first-line; etanercept and dapsone are not established therapies.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2935acbfb576",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man with toxic epidermal necrolysis (TEN) has recovered from the acute phase but now complains of eye pain, photophobia, and blurred vision. Slit-lamp examination reveals conjunctival injection, corneal epithelial defects, and symblepharon formation. What is the most appropriate intervention to prevent long-term ocular morbidity?",
+      "options": [
+        "Amniotic membrane transplantation",
+        "Surgical lysis of symblepharon",
+        "Systemic corticosteroids",
+        "Cyclosporine eye drops",
+        "Topical lubricants and antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Early amniotic membrane grafting is the intervention of choice for ocular involvement in TEN to prevent severe dry eye, scarring, and blindness. Topical therapy alone is insufficient once symblepharon develops; systemic steroids are not effective; surgery is later if needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8ff7f0eaa7df",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with chronic kidney disease (stage 4) and recent allopurinol-induced SJS/TEN is now in the recovery phase. He has residual scarring and xerosis. He asks about future gout prophylaxis. Which drug is absolutely contraindicated in this patient?",
+      "options": [
+        "Colchicine",
+        "Corticosteroids",
+        "Febuxostat",
+        "Allopurinol",
+        "Benzbromarone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Allopurinol is the most common cause of SJS/TEN, especially in patients with CKD and HLA-B*5801. Rechallenge is absolutely contraindicated. Febuxostat is a non-purine inhibitor of xanthine oxidase and is a safer alternative for gout prophylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93685c09fbd8",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman presents to the ED with a 3-day history of fever, sore throat, and a rapidly spreading, painful rash. On examination, she has diffuse target-like macules on her trunk and face, with blisters and erosions on her lips and buccal mucosa. She started lamotrigine 4 weeks ago for epilepsy. Her blood pressure is 110/70 mmHg, heart rate 105 bpm, temperature 38.6°C. What is the single most appropriate immediate next step?",
+      "options": [
+        "Obtain a full blood count and liver function tests",
+        "Take a skin biopsy for direct immunofluorescence",
+        "Start intravenous aciclovir",
+        "Apply topical corticosteroids to the rash",
+        "Stop lamotrigine immediately"
+      ],
+      "answerIndex": 4,
+      "explanation": "The most urgent action in suspected SJS/TEN is to stop the culprit drug (lamotrigine) to prevent further progression. While supportive care and investigations are important, discontinuation of the likely trigger takes priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f5fa0612093a",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man is referred to the dermatology clinic by his GP with a 4-day history of a painful rash on his trunk and palms, and mouth ulcers. He has no fever and is systemically well. On examination, there are scattered atypical target lesions and small blisters on <5% body surface area, with oral erosions but no genital or ocular involvement. He recently took ibuprofen for a headache. What is the single most appropriate immediate next step?",
+      "options": [
+        "Admit to the hospital for monitoring and supportive care",
+        "Request an urgent ophthalmology review",
+        "Obtain a skin biopsy for histology",
+        "Prescribe a tapering course of oral prednisolone",
+        "Reassure and discharge with antihistamines"
+      ],
+      "answerIndex": 0,
+      "explanation": "SJS/TEN, even when seemingly limited, requires hospital admission due to risk of rapid progression. Oral steroids are not recommended in SJS/TEN, and outpatient management is inappropriate. Biopsy can be done after admission but admission is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d855a34d43d3",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with SJS/TEN (body surface area involvement 25%) is being managed in the intensive care unit. He has widespread blisters and erosions, and is receiving fluid resuscitation and analgesia. Over the past 4 hours, his urine output has dropped to 15 mL/hour, and his serum creatinine has risen from 90 to 150 μmol/L. His blood pressure is 90/50 mmHg despite IV fluids. What is the single most appropriate immediate next step?",
+      "options": [
+        "Transfer to a burns unit for specialised care",
+        "Administer intravenous immunoglobulin (IVIG)",
+        "Start a noradrenaline infusion",
+        "Insert a central line and monitor CVP",
+        "Increase the rate of IV fluids"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient is in severe SJS/TEN with hypovolaemia and acute kidney injury. The priority is to transfer to a burns unit or specialist centre where expert wound care, fluid management, and multidisciplinary support are available. Noradrenaline may be needed en route, but the immediate step is to arrange transfer to the appropriate specialist unit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d1f629acf541",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 34-year-old woman with SJS/TEN is noted to have bilateral conjunctival injection, photophobia, and mucous discharge. She has no corneal ulceration on slit-lamp examination. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous methylprednisolone 1 g daily",
+        "Prescribe oral cyclosporine",
+        "Apply topical antibiotic ointment to the eyes",
+        "Start topical lubricants and arrange ophthalmology review within 24 hours",
+        "Request an urgent ophthalmology review today"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ocular involvement in SJS/TEN is an emergency requiring immediate ophthalmology assessment to prevent long-term complications. Topical treatment can be initiated after review, but the priority is to get an ophthalmologist to see the patient urgently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "98987615f230",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old pregnant woman (28 weeks' gestation) presents with a painful rash, fever, and oral ulcers. She has been taking co-trimoxazole for a urinary tract infection. On examination, there are target-like lesions and blisters on <10% body surface area, with buccal erosions. She is haemodynamically stable. What is the single most appropriate immediate next step?",
+      "options": [
+        "Stop co-trimoxazole and admit to hospital",
+        "Administer intravenous immunoglobulin",
+        "Reassure and discharge with oral antihistamines",
+        "Request an urgent obstetric ultrasound",
+        "Start prednisolone 40 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In any patient with suspected SJS/TEN, the first step is to stop the culprit drug and admit for monitoring. Pregnancy is a special population but does not change the initial management. Steroids and IVIG are not first-line in SJS/TEN.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "803ca564964d",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman presents to the emergency department with a 3-day history of fever, sore throat, and a rapidly spreading rash. On examination, she has widespread target-like lesions and large flaccid bullae. There is oral and conjunctival erythema. You gently rub an area of blistered skin and the epidermis separates easily, revealing moist underlying skin. What is the name of this clinical sign?",
+      "options": [
+        "Koplik spots",
+        "Tzanck sign",
+        "Hutchinson's sign",
+        "Nikolsky sign",
+        "Darier's sign"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Nikolsky sign (positive when gentle lateral pressure separates the epidermis) is a hallmark of SJS/TEN, indicating widespread epidermal necrosis. Darier's sign is associated with urticaria pigmentosa, Hutchinson's sign with herpes zoster (nasociliary involvement), Tzanck sign is a cytologic finding, and Koplik spots are oral lesions in measles.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9963c08a268e",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with recently started allopurinol presents with a blistering rash covering 15% of his body surface area, oral ulcers, and fever. He is diagnosed with Stevens-Johnson syndrome. Over the next 24 hours, the rash rapidly expands and now involves 30% BSA with confluent erythema and widespread detachment. Which single finding indicates that this patient has transitioned from SJS to toxic epidermal necrolysis?",
+      "options": [
+        "Presence of target lesions",
+        "Body surface area affected >30%",
+        "Fever >39°C",
+        "Elevated liver enzymes",
+        "Mucosal involvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "The distinction between SJS and TEN is based on skin detachment: SJS involves <10% BSA, overlap 10-30%, and TEN >30%. The rapid progression to >30% detachment confirms TEN. Target lesions are typical of erythema multiforme, fever and mucosal involvement are common to both, and elevated liver enzymes may occur but do not define the transition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b69c5e076f6e",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with toxic epidermal necrolysis (60% BSA detachment) is being managed in the intensive care unit. She suddenly develops stridor, dyspnoea, and a falling oxygen saturation. Which life-threatening complication should be suspected?",
+      "options": [
+        "Anaphylaxis to intravenous antibiotics",
+        "Sloughing of tracheobronchial mucosa",
+        "Pulmonary embolism",
+        "Sepsis secondary to skin infection",
+        "Acute pulmonary oedema due to fluid overload"
+      ],
+      "answerIndex": 1,
+      "explanation": "In TEN, the same process of epidermal necrosis can affect the respiratory epithelium, leading to tracheobronchial sloughing, which presents with stridor and respiratory failure. This is a life-threatening emergency requiring immediate airway support. Pulmonary oedema, PE, sepsis, and anaphylaxis are possible but less specific to TEN's pathophysiology.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b32845ea1d56",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with Stevens-Johnson syndrome develops redness, pain, and photophobia in both eyes. On slit-lamp examination, the conjunctiva is inflamed with adherent membranes that bleed when removed. Which finding requires immediate ophthalmology referral?",
+      "options": [
+        "Eyelid oedema",
+        "Punctate keratitis",
+        "Conjunctival injection",
+        "Increased lacrimation",
+        "Pseudomembrane formation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pseudomembrane formation (or true membranes) in SJS/TEN indicates severe ocular surface inflammation that can lead to symblepharon, scarring, and vision loss. Urgent ophthalmology intervention (e.g., debridement, amniotic membrane transplantation) is needed. Conjunctival injection, punctate keratitis, eyelid oedema, and lacrimation are non-specific and less critical.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "161b47951e47",
+      "topic": "Stevens-Johnson Syndrome / TEN",
+      "slug": "stevens-johnson-syndrome-ten",
+      "system": "Dermatology",
+      "subSystem": "Skin emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation is admitted with Stevens-Johnson syndrome triggered by co-trimoxazole. She has skin detachment involving 12% of BSA and mucosal involvement. Her vital signs are stable. Which single maternal finding is a red flag for increased fetal risk?",
+      "options": [
+        "Placental abruption on ultrasound",
+        "Maternal tachycardia >100 bpm",
+        "Skin detachment involving perineum",
+        "Positive Nikolsky sign",
+        "Maternal fever >38°C"
+      ],
+      "answerIndex": 4,
+      "explanation": "Maternal fever in SJS/TEN is associated with placental inflammation and increased risk of fetal loss or preterm delivery. While other findings indicate severity of maternal disease, fever is specifically linked to adverse fetal outcomes through cytokine-mediated effects. Positive Nikolsky sign confirms SJS/TEN, tachycardia may reflect sepsis, and perineal involvement is common but not a direct fetal red flag.",
+      "difficulty": "hard"
+    }
+  ]
+}

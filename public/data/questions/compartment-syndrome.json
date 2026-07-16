@@ -1,0 +1,513 @@
+{
+  "topic": "Compartment Syndrome",
+  "slug": "compartment-syndrome",
+  "system": "Orthopaedics & Trauma",
+  "subSystem": "Limb emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:39Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "562d7b913cbe",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 24-year-old male presents 8 hours after a closed tibial fracture sustained in a fall. He reports increasing pain despite analgesia, and the leg feels tight. On examination, the leg is swollen and tense, and passive dorsiflexion of the toes exacerbates the pain. What is the single most likely diagnosis?",
+      "options": [
+        "Deep vein thrombosis",
+        "Common peroneal nerve palsy",
+        "Popliteal artery injury",
+        "Cellulitis",
+        "Acute compartment syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pain out of proportion and pain on passive stretch of affected muscles are classic early signs of acute compartment syndrome, which is a surgical emergency. DVT typically presents with unilateral swelling and warmth but not tense swelling or severe pain on passive stretch. Cellulitis has overlying erythema and systemic signs. Common peroneal nerve palsy causes foot drop and sensory loss, not tense swelling. Popliteal artery injury would have signs of ischaemia (pulselessness, pallor, paraesthesia) rather than tense swelling.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e52f9038e265",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old female runner complains of bilateral lower leg pain that occurs during prolonged running and resolves within 30 minutes of rest. She has no symptoms at rest, and examination is normal. She has tried a new running route recently. What is the single most likely diagnosis?",
+      "options": [
+        "Popliteal artery entrapment syndrome",
+        "Tibial stress fracture",
+        "Medial tibial stress syndrome (shin splints)",
+        "Chronic exertional compartment syndrome",
+        "Peripheral neuropathy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Chronic exertional compartment syndrome presents with exercise-induced pain and tightness that resolves completely with rest, often bilaterally, in athletes. Shin splints cause pain along the tibia that may be more persistent. Stress fracture has point tenderness and may have night pain. Popliteal artery entrapment causes calf claudication but typically unilaterally with diminished pulses. Peripheral neuropathy is not exercise-related and would have sensory deficits.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a64d66f8acfe",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old man on warfarin for atrial fibrillation presents after a minor fall onto his left leg. He has a painful, swollen, and tense calf with extensive bruising. He cannot dorsiflex his ankle actively due to pain, and passive plantarflexion triggers severe pain. What is the single most likely diagnosis?",
+      "options": [
+        "Ruptured Baker's cyst",
+        "Gastrocnemius tear",
+        "Acute compartment syndrome due to haematoma",
+        "Deep vein thrombosis",
+        "Cellulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The tense swelling, ecchymosis, and exquisite pain on passive stretch in a patient on anticoagulation strongly suggest acute compartment syndrome from spontaneous or traumatic haematoma. DVT does not typically cause tense swelling or severe pain on stretch. Ruptured Baker's cyst is more posterior and may have a history of knee effusion. Gastrocnemius tear is painful but usually not tense or associated with passive stretch pain in other compartments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "482974ef3a72",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 6-year-old child presents 4 hours after a fall on an outstretched hand with a supracondylar fracture. The forearm is swollen and pale, and the child cries when the examiner passively extends the fingers. The radial pulse is weak. What is the single most likely diagnosis?",
+      "options": [
+        "Acute compartment syndrome of the forearm",
+        "Brachial artery injury",
+        "Median nerve injury",
+        "Fracture blisters",
+        "Elbow dislocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a child with supracondylar fracture, the combination of swelling, pallor, and severe pain on passive finger extension is classic for acute compartment syndrome. Brachial artery injury would cause more profound ischaemia (absent pulse, severe pallor) and not necessarily pain on passive stretch. Median nerve injury causes sensory/motor loss but not tense swelling. Fracture blisters are a later sign and not diagnostic. Elbow dislocation is typically obvious and not associated with the described fracture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e51a7077cc5",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man underwent intramedullary nailing of a tibial fracture 12 hours ago under spinal anaesthesia. He has a patient-controlled analgesia pump and reports no pain. The nursing staff note that the leg is significantly swollen and the calf feels firm. Passive dorsiflexion of the great toe is uncomfortable for the patient. What is the single most likely diagnosis?",
+      "options": [
+        "Prolonged effect of spinal anaesthesia",
+        "Acute compartment syndrome (masked by anaesthesia)",
+        "Acute arterial occlusion",
+        "Fat embolism syndrome",
+        "Deep vein thrombosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The absence of pain due to regional anaesthesia can mask the cardinal symptom of compartment syndrome, but objective signs (swelling, firmness, pain on passive stretch) remain. This is a classic pitfall. DVT develops over days, not hours. Prolonged spinal anaesthesia would cause sensory loss but not swelling. Acute arterial occlusion would cause pulselessness and pallor, not tense swelling. Fat embolism syndrome presents with respiratory and neurological symptoms, not isolated limb signs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7892baeae762",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man sustains a closed tibial shaft fracture in a football match. Six hours later, he reports severe pain in the leg that is out of proportion to the injury. The leg is tense, and passive toe movement exacerbates pain. Distal pulses are palpable. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Venous duplex ultrasound",
+        "MRI of the leg",
+        "Intracompartmental pressure measurement",
+        "Serum creatine kinase",
+        "X-ray of the tibia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture strongly suggests acute compartment syndrome. Intracompartmental pressure measurement is the gold standard for confirmation; a pressure >30 mmHg or ΔP <30 mmHg is diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0365564fff17",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with a distal radius fracture had a tight plaster cast removed due to pain. She now has mild forearm swelling and paraesthesia in the median nerve distribution. Compartment pressure is measured at 48 mmHg, and her diastolic blood pressure is 70 mmHg. What is the correct interpretation of this result?",
+      "options": [
+        "Nerve compression",
+        "Venous thrombosis",
+        "Arterial insufficiency",
+        "Acute compartment syndrome",
+        "Normal pressure"
+      ],
+      "answerIndex": 3,
+      "explanation": "ΔP (diastolic blood pressure minus compartment pressure) = 70 - 48 = 22 mmHg, which is <30 mmHg. This is diagnostic of acute compartment syndrome, even though signs may be early.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "679608d1bf52",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with a tibial plateau fracture is being monitored for suspected compartment syndrome. Initial compartment pressure was 25 mmHg (diastolic BP 75). Four hours later, pressure is 28 mmHg (diastolic BP 70), and he remains in significant pain. What is the most appropriate next diagnostic step?",
+      "options": [
+        "Order an MRI of the leg",
+        "Perform fasciotomy immediately",
+        "Check urine myoglobin",
+        "Repeat pressure measurement in 2 hours",
+        "Arrange angiography"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pressures remain below the diagnostic threshold (ΔP = 42 now) but clinical suspicion is high. Serial monitoring with repeated measurements is appropriate to detect a rising trend before irreversible damage occurs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "992151b5036a",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman on warfarin falls and develops severe leg pain and swelling. She has extensive bruising. Compartment pressure is measured at 55 mmHg, and her systolic blood pressure is 100 mmHg. What is the most appropriate interpretation of this measurement?",
+      "options": [
+        "Acute compartment syndrome",
+        "Haematoma only",
+        "Normal pressure",
+        "Deep vein thrombosis",
+        "Arterial occlusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "An absolute compartment pressure >30 mmHg is diagnostic, and here 55 mmHg is clearly elevated. ΔP is approximately 70 - 55 = 15 (assuming diastolic ~70), also <30, confirming compartment syndrome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8f8fb7da9a78",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man sustains a crush injury to his lower leg. He has tense swelling and pain on passive stretch. His initial compartment pressure reading is 20 mmHg. What is the most appropriate next diagnostic step?",
+      "options": [
+        "Perform immediate fasciotomy",
+        "Order an MRI to assess muscle viability",
+        "Repeat measurement in 30–60 minutes",
+        "Check serum creatine kinase",
+        "Apply a backslab and discharge"
+      ],
+      "answerIndex": 2,
+      "explanation": "The low initial pressure does not exclude compartment syndrome, especially in crush injuries where pressures can rise later. Serial monitoring with repeated measurements is essential to detect delayed elevation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2b57bbb8e350",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man sustains a closed tibial fracture in a road traffic accident. Six hours later, he has severe pain out of proportion, pain on passive dorsiflexion of the toes, and tense swelling. Compartment pressure is measured at 40 mmHg in the anterior compartment. What is the most appropriate definitive treatment?",
+      "options": [
+        "Fasciotomy",
+        "Observation with serial pressure measurement",
+        "Intravenous morphine",
+        "Elevation of the leg",
+        "Closed reduction and splinting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute compartment syndrome with elevated pressure >30 mmHg requires urgent fasciotomy to prevent irreversible muscle and nerve damage. Elevation, morphine, and observation are temporising but not definitive; reduction and splinting do not address the raised pressure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "504e41f35c1a",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old female runner presents with bilateral anterior shin pain that occurs after running 2 miles and resolves with rest. There is no swelling or tenderness at rest. Compartment pressure testing shows a post-exercise pressure of 35 mmHg. What is the most appropriate first-line management?",
+      "options": [
+        "Activity modification and physiotherapy",
+        "Fasciotomy",
+        "Surgical decompression of the anterior compartment",
+        "NSAIDs",
+        "Steroid injection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic exertional compartment syndrome is initially managed conservatively with activity modification, physiotherapy, and gait retraining. Surgery (fasciotomy) is reserved for cases that fail non-operative measures. NSAIDs and steroid injections are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b5654b9ad8f0",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man is brought to the emergency department after a snakebite to his lower leg. The area is swollen and tense, and passive stretch of the toes causes severe pain. Compartment pressure is 35 mmHg. He has no signs of systemic envenomation. What is the most appropriate first-line treatment?",
+      "options": [
+        "Antivenom administration",
+        "Elevation and ice pack",
+        "Immediate fasciotomy",
+        "High-dose steroids",
+        "Intravenous antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In snakebite envenomation, compartment syndrome is primarily venom-mediated; antivenom is first-line to reduce venom effects. Fasciotomy is reserved if pressure remains >30 mmHg despite antivenom, or if there is evidence of arterial compromise. Steroids and antibiotics are not indicated as first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26f58bf5c572",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old woman on warfarin for atrial fibrillation falls and sustains a distal femoral fracture. She develops severe leg pain, paraesthesia, and tense swelling. Compartment pressure is 45 mmHg. INR is 3.5. What is the most appropriate definitive management?",
+      "options": [
+        "Fasciotomy after administration of prothrombin complex concentrate (PCC) and vitamin K",
+        "Conservative management with limb elevation",
+        "Vitamin K alone and observation",
+        "Fresh frozen plasma infusion then fasciotomy in 24 hours",
+        "Fasciotomy alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Urgent fasciotomy is indicated but must be performed after rapid reversal of anticoagulation with PCC and vitamin K to minimise bleeding risk. Delaying surgery risks irreversible ischaemia; fasciotomy alone risks haemorrhagic complications. PCC is preferred over FFP for rapid reversal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3496f1de0b1f",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man sustains a 30% total body surface area full-thickness burn to his lower leg from a house fire. The leg is firm, and there is decreased sensation and pain on passive toe movement. What is the most appropriate surgical intervention?",
+      "options": [
+        "Fasciotomy",
+        "Debridement and skin grafting",
+        "Amputation",
+        "Escharotomy",
+        "Compartment pressure measurement alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "In circumferential full-thickness burns, the non-compliant eschar causes compartment syndrome. Escharotomy (incision through the eschar) releases pressure. Fasciotomy is reserved if underlying muscle compartments are also tight; pressure measurement is not definitive treatment. Debridement and grafting are later steps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fcf1e53b34fa",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 25-year-old man presents 6 hours after a closed tibial fracture. He has severe pain out of proportion, pain on passive stretch of the toes, and a tense leg. His foot is warm with palpable pulses. What is the most appropriate immediate next step?",
+      "options": [
+        "Apply a backslab",
+        "Perform emergency fasciotomy",
+        "Remove all bandages and casts and reassess",
+        "Measure compartment pressures",
+        "Elevate the leg and apply ice"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first step in suspected compartment syndrome is to remove all circumferential dressings and casts, as they may be contributing to the pressure. Reassessment after this may reveal improvement; if not, further action (e.g., pressure measurement) is warranted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f75a768bd3f8",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old is brought to ED after a high-velocity road traffic accident. He is intubated and sedated. His right leg is grossly swollen with absent sensation in the foot and no palpable pulses. The leg is tense. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform emergency four-compartment fasciotomy",
+        "Request an orthopaedic consult",
+        "Measure compartment pressures",
+        "Perform an urgent arteriogram",
+        "Apply a plaster backslab"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an unconscious patient with clear, irreversible signs of compartment syndrome (tense, pulseless, insensate), urgent fasciotomy is essential to prevent muscle necrosis. Waiting for pressure measurement or imaging delays definitive treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea68e2e7dbe0",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 5-year-old presents with a supracondylar fracture of the humerus after falling onto an outstretched hand. The forearm is swollen and the child screams on passive extension of the fingers. The radial pulse is weak but present. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform emergency fasciotomy",
+        "Reduce the fracture under sedation",
+        "Request an urgent orthopaedic review",
+        "Remove the backslab and reassess",
+        "Measure compartment pressures"
+      ],
+      "answerIndex": 4,
+      "explanation": "In children, clinical signs can be subtle. Since the pulse is present and pain is present, measuring compartment pressure can confirm the diagnosis before proceeding to fasciotomy. Removing the backslab may have already been done; the question suggests ongoing suspicion, so pressure measurement is the next logical step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "63a6a73db010",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 40-year-old with 30% body surface area burns to both legs has tense, woody leg compartments with absent pedal pulses. What is the most appropriate immediate next step?",
+      "options": [
+        "Measure compartment pressures",
+        "Surgical debridement",
+        "Intravenous fluids only",
+        "Perform escharotomy",
+        "Apply topical antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "In burn-related compartment syndrome, the constricting eschar restricts expansion. Escharotomy incises the burn eschar to relieve pressure. Fasciotomy may be needed later, but the immediate next step is escharotomy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "119e5d32e9db",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old on warfarin for atrial fibrillation falls and develops a painful, tense thigh compartment after a contusion. INR is 4.5 and the leg is tense with intact pulses. What is the most appropriate immediate next step?",
+      "options": [
+        "Elevate the leg",
+        "Measure compartment pressures",
+        "Reverse warfarin with vitamin K and prothrombin complex concentrate",
+        "Perform fasciotomy",
+        "Apply a compression bandage"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an anticoagulated patient with a tense compartment, the immediate priority is to reverse coagulopathy to limit further bleeding. This may avoid the need for fasciotomy or make surgery safer. Pressure measurement can follow but reversal is first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9f9cf5705cd0",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man sustains a closed midshaft tibial fracture in a football match. A below-knee back slab is applied in the emergency department. Six hours later, he reports severe pain that is not relieved by morphine. On examination, the toes are warm, capillary refill <2 seconds, and light touch sensation is intact. Which clinical finding is an immediate red flag for acute compartment syndrome?",
+      "options": [
+        "Loss of plantarflexion power",
+        "Eschymosis over the anterior tibia",
+        "Pain on passive dorsiflexion of the great toe",
+        "Mild swelling around the fracture site",
+        "Palpable dorsalis pedis pulse"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pain on passive stretch of the compartment (e.g., dorsiflexion of the great toe) is the earliest and most sensitive sign of acute compartment syndrome, even before sensory or motor deficits.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "33513d25365b",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman undergoes internal fixation of a tibial plateau fracture. She is kept in a non-weight-bearing cast. 18 hours postoperatively, the nursing staff note that her leg is tense, the toes are pale, and the capillary refill is 4 seconds. She has lost sensation to light touch over the first webspace. Which finding indicates that irreversible tissue damage has occurred?",
+      "options": [
+        "Tense calf on palpation",
+        "Pain on passive flexion of the toes",
+        "Loss of two-point discrimination in the sole",
+        "Absent dorsalis pedis pulse",
+        "Inability to dorsiflex the ankle"
+      ],
+      "answerIndex": 3,
+      "explanation": "Absent pulse is a late sign of compartment syndrome, indicating arterial compromise and muscle necrosis. The earlier signs (pain, paresthesia, paralysis) are present, but pulselessness marks the threshold for irreversible ischaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "607110b33514",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 5-year-old child falls onto an outstretched hand and sustains a Gartland type III supracondylar fracture of the humerus. Closed reduction and casting are performed. Four hours later, the child is crying and appears distressed. Which feature is most concerning for compartment syndrome of the forearm?",
+      "options": [
+        "Swelling of the fingers beyond the cast",
+        "The radial pulse is palpable",
+        "The child refuses to drink",
+        "Pain when the fingers are passively extended",
+        "Capillary refill in the fingers is 2 seconds"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pain on passive extension of the fingers stretches the flexor compartment of the forearm, a classic early sign of compartment syndrome. In children, verbal reports of pain are unreliable, making this objective finding critical.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9b3c560afeb1",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with atrial fibrillation presents with sudden onset of severe left calf pain and coldness. He has no history of trauma. On examination, the left leg is pale, the dorsalis pedis pulse is absent, and the calf is soft and non-tender. Passive flexion and extension of the toes causes minimal discomfort. Which finding suggests that the diagnosis is acute limb ischaemia rather than compartment syndrome?",
+      "options": [
+        "Absent pulses",
+        "Pain on passive toe movement",
+        "Loss of sensation",
+        "Soft non-tender calf",
+        "Cold limb"
+      ],
+      "answerIndex": 3,
+      "explanation": "A soft, non-tender calf is characteristic of acute arterial occlusion; compartment syndrome presents with a tense, tender, swollen compartment. Both conditions can cause pain, pallor, and pulselessness, but the absence of a tense compartment points away from compartment syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "53a6ceaf364f",
+      "topic": "Compartment Syndrome",
+      "slug": "compartment-syndrome",
+      "system": "Orthopaedics & Trauma",
+      "subSystem": "Limb emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man presents to the orthopaedic clinic with a fixed deformity of his foot. He had a tibial fracture treated with a cast 6 weeks ago and had persistent severe pain in the leg for 24 hours after cast application, with some numbness on the dorsum of the foot. The cast was split but symptoms did not resolve completely. Now, his ankle is fixed in plantarflexion, the toes are flexed, and passive joint movement is restricted. This presentation is most consistent with which condition?",
+      "options": [
+        "Ruptured Achilles tendon",
+        "Deep vein thrombosis",
+        "Peroneal nerve palsy",
+        "Acute compartment syndrome",
+        "Volkmann's ischaemic contracture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Volkmann's contracture is the late sequel of untreated compartment syndrome, resulting from ischaemic muscle necrosis and fibrosis. The history of severe pain and neurological symptoms after casting is classic, and the fixed deformity is pathognomonic.",
+      "difficulty": "medium"
+    }
+  ]
+}

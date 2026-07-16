@@ -1,0 +1,513 @@
+{
+  "topic": "Testicular Torsion",
+  "slug": "testicular-torsion",
+  "system": "Urology",
+  "subSystem": "Acute scrotum",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:41Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c4bcee44e86e",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 16-year-old boy presents with 2 hours of sudden, severe right testicular pain, nausea, and vomiting. On examination, the right testis is high-riding with a horizontal lie, and the cremasteric reflex is absent. There is no urinary frequency or dysuria. What is the single most likely diagnosis?",
+      "options": [
+        "Incarcerated inguinal hernia",
+        "Epididymo-orchitis",
+        "Testicular torsion",
+        "Testicular tumour",
+        "Torsion of appendix testis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sudden onset, horizontal lie, and absent cremasteric reflex are classic for testicular torsion. Epididymo-orchitis typically presents with gradual onset, fever, and urinary symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0f3cb561e35d",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 14-year-old boy reports three episodes of left testicular pain over the past month, each lasting 20–30 minutes and resolving spontaneously. He is asymptomatic now. Examination reveals a normal scrotum, non-tender testis, and intact cremasteric reflex. Urinalysis is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Intermittent testicular torsion",
+        "Epididymo-orchitis",
+        "Testicular tumour",
+        "Varicocele",
+        "Torsion of appendix testis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recurrent, short-lived pain in an adolescent is typical of intermittent torsion. The normal examination between episodes and lack of fever or urinary symptoms rule out infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9700c512fd10",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-day-old neonate is noted to have a painless, firm, enlarged right testis with scrotal discoloration. The testis does not transilluminate. The baby is otherwise well. What is the single most likely diagnosis?",
+      "options": [
+        "Orchitis",
+        "Inguinal hernia",
+        "Testicular tumour",
+        "Perinatal testicular torsion",
+        "Hydrocele"
+      ],
+      "answerIndex": 3,
+      "explanation": "A painless, firm testis with scrotal discoloration in a neonate is classic for perinatal torsion. Hydrocele transilluminates; hernia is reducible or associated with vomiting; tumour and orchitis are extremely rare in this age.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0f03d6957f0e",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 8-year-old boy presents with 3 hours of severe left groin pain and a tender mass in the left inguinal region. The left hemiscrotum is empty. He has nausea but no vomiting. There is no fever. What is the single most likely diagnosis?",
+      "options": [
+        "Spermatic cord torsion (descended testis)",
+        "Testicular torsion of an undescended testis",
+        "Incarcerated inguinal hernia",
+        "Torsion of appendix testis",
+        "Orchitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Empty scrotum with an acute painful inguinal mass strongly suggests torsion of an undescended testis. Incarcerated hernia often presents with vomiting and distension; torsion of a descended testis would have scrotal findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e586af5eac13",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with acute onset of left testicular pain after lifting heavy weights. The pain is severe, and he feels nauseated. On examination, the left testis is tender and high-riding with a swollen epididymis. He has no dysuria or frequency. Urinalysis is negative. What is the single most likely diagnosis?",
+      "options": [
+        "Testicular tumour",
+        "Traumatic haematoma",
+        "Testicular torsion",
+        "Torsion of appendix testis",
+        "Epididymo-orchitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Torsion can occur at any age; absence of urinary symptoms and negative urinalysis make infection unlikely. The high-riding testis and nausea are classic torsion features. Trauma is not a cause of torsion but can mimic it; however, the history of lifting is incidental.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c13c3a72f430",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 18-year-old man presents with sudden onset of severe right testicular pain and nausea. On examination, the right testis is tender, elevated, and the ipsilateral cremasteric reflex is absent. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Serum tumour markers (AFP, hCG)",
+        "Scrotal ultrasound with Doppler",
+        "Plain radiograph of the scrotum",
+        "Urine dipstick for leukocytes and nitrites",
+        "CT scan of abdomen and pelvis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Doppler ultrasound is the gold-standard imaging for testicular torsion, showing absent or reduced blood flow. CT is not indicated, urine dipstick screens for infection but does not diagnose torsion, tumour markers are for testicular cancer, and plain radiograph is not useful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8cdcf1d0d2a7",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man describes recurrent episodes of severe scrotal pain that resolve spontaneously after 30-60 minutes. He is currently pain-free. Which investigation would most likely confirm the diagnosis?",
+      "options": [
+        "Testicular scintigraphy",
+        "Scrotal ultrasound with Doppler during a pain episode",
+        "Scrotal ultrasound with Doppler when pain-free",
+        "Manual detorsion under anaesthesia",
+        "MRI scrotum with contrast"
+      ],
+      "answerIndex": 1,
+      "explanation": "Intermittent torsion can be confirmed if Doppler ultrasound during pain shows reduced or absent flow. The pain-free scan may be normal, and manual detorsion is therapeutic not diagnostic. MRI and scintigraphy are not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f33f61cce836",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 15-year-old boy presents with acute left scrotal pain. Scrotal ultrasound with Doppler shows normal testicular blood flow. Clinical examination strongly suggests testicular torsion. What is the most likely explanation for the imaging result?",
+      "options": [
+        "Torsion has spontaneously detorsed",
+        "The patient has epididymo-orchitis",
+        "The ultrasound was performed incorrectly",
+        "Testicular tumour causing pain",
+        "Torsion of the appendix testis"
+      ],
+      "answerIndex": 0,
+      "explanation": "In intermittent or early torsion, spontaneous detorsion can restore blood flow, resulting in a normal Doppler study. Epididymo-orchitis would show increased flow, not normal. Torsion of appendix testis typically lacks the severe pain and absent reflex. Ultrasound technique is usually reliable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "981f93461c30",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 9-year-old boy presents with mild right scrotal pain for 2 days. On examination, there is a tender, firm nodule at the upper pole of the testis, and a bluish discolouration is seen through the scrotal skin. Which clinical finding is pathognomonic for the diagnosis?",
+      "options": [
+        "Absent cremasteric reflex",
+        "Positive Prehn's sign",
+        "Negative urinalysis",
+        "Blue dot sign",
+        "High-riding testis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The blue dot sign, representing the torsed appendix testis seen through the skin, is pathognomonic for torsion of the appendix testis. The other options are more characteristic of testicular torsion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27ddca6f9645",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 2-day-old neonate presents with a swollen, firm left hemiscrotum that transilluminates. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Serum tumour markers (AFP, hCG)",
+        "Urgent surgical exploration",
+        "CT scan of the abdomen",
+        "Scrotal ultrasound with Doppler",
+        "Urine dipstick"
+      ],
+      "answerIndex": 3,
+      "explanation": "Scrotal ultrasound with Doppler can distinguish between hydrocele (fluid collection with normal testis) and testicular torsion (absent flow). Surgical exploration is reserved if torsion is suspected; transillumination suggests fluid. Urinalysis, tumour markers, and CT are not appropriate in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9ae90601adb5",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 16-year-old boy presents to the emergency department with a 2-hour history of severe left testicular pain and nausea. On examination, the left testis is swollen, tender, and high-riding. An urgent scrotal Doppler ultrasound demonstrates absent blood flow to the left testis. The patient is taken to theatre. The left testis appears viable after detorsion. What is the definitive surgical management?",
+      "options": [
+        "Right orchidopexy only",
+        "Left orchidopexy only",
+        "Left orchidectomy",
+        "Observation with no further surgery",
+        "Bilateral orchidopexy"
+      ],
+      "answerIndex": 4,
+      "explanation": "In testicular torsion, the anatomical defect (bell-clapper deformity) is often bilateral. Even if the affected testis is viable, bilateral orchidopexy is standard to prevent future torsion on the contralateral side. The most tempting distractor is unilateral orchidopexy, which leaves the other testis at risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ec0847271405",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old man presents with a 24-hour history of right testicular pain. He had similar pain 6 months ago which resolved spontaneously. On examination, the right testis is enlarged and non-tender. Urgent scrotal exploration reveals a frankly necrotic right testis. What is the appropriate management?",
+      "options": [
+        "Right orchidectomy and left orchidopexy",
+        "Bilateral orchidectomy",
+        "Right orchidopexy",
+        "Right orchidectomy alone",
+        "Manual detorsion and scrotal support"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a necrotic testis, orchidectomy is necessary. Contralateral orchidopexy is recommended because the bell-clapper deformity is often bilateral, protecting the remaining testis. The distractor of orchidectomy alone fails to prevent future torsion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35a3129c6134",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 14-year-old boy presents with acute left scrotal pain and vomiting. Clinical examination is consistent with testicular torsion. An attempt at manual detorsion is successful with immediate relief of pain. What is the definitive management?",
+      "options": [
+        "Schedule outpatient scrotal ultrasound in 1 week",
+        "Urgent bilateral orchidopexy",
+        "Prescribe antibiotics for 7 days",
+        "Discharge with scrotal support and analgesia",
+        "Arrange for elective orchidopexy within 6 weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Manual detorsion is a temporary measure; the underlying anatomical abnormality persists. Urgent bilateral orchidopexy is indicated to prevent recurrence. Delaying surgery risks repeat torsion and potential testicular loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4de8b803563c",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 2-day-old term neonate presents with a firm, non-tender, and discoloured left hemiscrotum noticed at birth. An ultrasound shows no blood flow to the left testis. The right testis is normal. What is the definitive management?",
+      "options": [
+        "Start broad-spectrum antibiotics",
+        "Emergency scrotal exploration with left orchidectomy and right orchidopexy",
+        "Emergency scrotal exploration with left orchidopexy only",
+        "Manual detorsion under sedation",
+        "Conservative observation with serial ultrasounds"
+      ],
+      "answerIndex": 1,
+      "explanation": "In neonatal torsion, the affected testis is almost always non-viable. Emergency exploration allows removal of the necrotic testis and fixation of the contralateral testis to prevent torsion in the only viable testis. Conservative management risks future torsion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "31655040f02b",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old man has experienced three episodes of self-limiting severe testicular pain over the past 6 months, each lasting 30 minutes. Between episodes, examination and ultrasound are normal. He is diagnosed with intermittent testicular torsion. What is the definitive treatment?",
+      "options": [
+        "Elective bilateral orchidopexy",
+        "Unilateral orchidopexy on the symptomatic side",
+        "Orchiectomy of the affected testis",
+        "Scrotal support and avoidance of physical activity",
+        "Manual detorsion as needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "Intermittent torsion is due to a bell-clapper deformity, often bilateral. Elective bilateral orchidopexy prevents further episodes and potential torsion on the contralateral side. Unilateral fixation leaves the other testis at risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "61397fbda8ad",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 16-year-old boy presents to the ED with sudden-onset right testicular pain and nausea. He awoke from sleep 2 hours ago with the pain. On examination, the right testis is swollen, tender, and lies horizontally with a high-riding position. Urinalysis is normal. What is the single most appropriate next step?",
+      "options": [
+        "Arrange urgent scrotal ultrasound with Doppler",
+        "Book elective orchidopexy",
+        "Start empirical antibiotics",
+        "Apply ice packs and prescribe analgesics",
+        "Perform manual detorsion"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presentation is classic for testicular torsion, and manual detorsion should be attempted immediately to restore blood flow while awaiting surgery. Ultrasound would delay definitive management, and antibiotics or analgesics alone are insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb2d43ececaf",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old man presents with gradual onset of right hemi-scrotal pain over 48 hours, with mild erythema and swelling. He is afebrile. The right testis is tender but not high-riding, and the cremasteric reflex is present. Urine dipstick is negative. What is the single most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral antibiotics for epididymitis",
+        "Advise scrotal support and analgesia",
+        "Perform manual detorsion",
+        "Arrange urgent scrotal ultrasound with Doppler",
+        "Organise same-day urology review"
+      ],
+      "answerIndex": 3,
+      "explanation": "Although epididymitis is more likely given the subacute onset, testicular torsion cannot be excluded. Scrotal ultrasound with Doppler is the next step to assess blood flow, ensuring no delay in diagnosing torsion. Antibiotics or analgesia alone risk missing torsion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0cb445f0838f",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 14-year-old boy presents with severe left testicular pain for 1 hour. He is nauseated and vomited once. The left testis is swollen, tender, and lies transversely. The right testis is normal. What is the single most appropriate immediate next step?",
+      "options": [
+        "Request urgent ultrasound scan",
+        "Administer intravenous morphine",
+        "Prescribe antiemetic and reassess in 30 minutes",
+        "Proceed directly to scrotal exploration",
+        "Apply ice and elevate scrotum"
+      ],
+      "answerIndex": 3,
+      "explanation": "With high suspicion of torsion (acute onset, abnormal lie, nausea), the patient should go directly to scrotal exploration to minimise ischaemia time. Ultrasound would cause unacceptable delay. Analgesia is important but not the priority before surgical intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "74f316333f10",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents with right testicular pain that started suddenly 6 hours ago. He had attempted manual detorsion in the community, but his pain persists. On examination, the right testis is still high-riding and tender. What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent scrotal ultrasound",
+        "Repeat manual detorsion with more force",
+        "Refer for emergency scrotal exploration",
+        "Start broad-spectrum antibiotics",
+        "Give analgesics and book outpatient review"
+      ],
+      "answerIndex": 2,
+      "explanation": "Failed manual detorsion indicates persistent torsion requiring surgical exploration. Further attempts are unlikely to succeed and may cause more trauma. Ultrasound or antibiotics will delay definitive management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "76d232e73fca",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with known intermittent testicular torsion has been listed for elective bilateral orchidopexy. He now presents to the ED with acute severe left testicular pain for 2 hours. On examination, the left testis is swollen and high-riding. What is the single most appropriate immediate next step?",
+      "options": [
+        "Attempt manual detorsion",
+        "Prescribe analgesia and schedule surgery for next available list",
+        "Request urology registrar review immediately",
+        "Proceed with the planned elective surgery as an inpatient",
+        "Arrange urgent ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "Even with known intermittent torsion, acute torsion is a surgical emergency. Manual detorsion should be attempted to restore blood flow as soon as possible, followed by emergency surgery. Waiting for review or imaging delays intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0b1b70fbcf2e",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 16-year-old male presents with acute left scrotal pain of 2 hours. On examination, the left testis is swollen, tender, and lies high in the scrotum. Which finding most strongly suggests testicular torsion rather than epididymitis?",
+      "options": [
+        "Bilateral testicular tenderness",
+        "Fever",
+        "Absent cremasteric reflex",
+        "Positive Prehn's sign",
+        "Urethral discharge"
+      ],
+      "answerIndex": 2,
+      "explanation": "In testicular torsion, the cremasteric reflex is typically absent, whereas it is often preserved in epididymitis. Prehn's sign (relief on elevation) suggests epididymitis, not torsion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "087f119cc628",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 14-year-old boy presents with recurrent episodes of severe right testicular pain that resolve spontaneously. Between episodes, examination is normal. Which clinical feature during an episode would alert you to intermittent torsion?",
+      "options": [
+        "Urethral discharge",
+        "Positive Prehn's sign",
+        "Erythema of the scrotum",
+        "Horizontal lie of the testis",
+        "Fever"
+      ],
+      "answerIndex": 3,
+      "explanation": "A horizontally oriented testis (bell-clapper deformity) predisposes to torsion and may be noted during examination. Other options are more consistent with infection or inflammation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96c0b30c9362",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 20-year-old man presents with scrotal pain and swelling that began 3 days ago, now with erythema. He is febrile and systemically unwell. Which finding indicates a likely complication of missed torsion?",
+      "options": [
+        "Urethral discharge",
+        "Crepitus of the scrotal wall",
+        "Bilateral hydrocele",
+        "Testicular lie normal",
+        "Positive Prehn's sign"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crepitus suggests gas-forming infection from Fournier's gangrene, a life-threatening complication of missed torsion. Other options are not indicative of this emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "31d4f8558187",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-day-old neonate has a painless, swollen, firm, and discoloured left hemiscrotum. The testis is non-tender. Which finding is most concerning for testicular torsion vs other causes?",
+      "options": [
+        "Transillumination present",
+        "Cremasteric reflex present",
+        "Transillumination absent",
+        "Urethral discharge",
+        "Prehn's sign positive"
+      ],
+      "answerIndex": 2,
+      "explanation": "In neonatal torsion, the testis is firm and non-tender, and transillumination is absent (no fluid). Transillumination would be present in a hydrocele. Other signs are not typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b4bd4fd5d2f",
+      "topic": "Testicular Torsion",
+      "slug": "testicular-torsion",
+      "system": "Urology",
+      "subSystem": "Acute scrotum",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known recurrent torsion has a temporary orchidopexy suture placed. He now presents with acute severe pain after a sport injury. Which finding suggests that the torsion has recurred despite the suture?",
+      "options": [
+        "Fever >38°C",
+        "Doppler ultrasound shows no flow",
+        "Swollen epididymis on exam",
+        "Urine dipstick positive for nitrites",
+        "Crepitus of scrotal wall"
+      ],
+      "answerIndex": 1,
+      "explanation": "Absence of Doppler flow in the testicular artery is the gold standard for diagnosing testicular torsion. History of prior torsion and acute pain after injury raises suspicion. Urine dip and fever suggest infection.",
+      "difficulty": "medium"
+    }
+  ]
+}

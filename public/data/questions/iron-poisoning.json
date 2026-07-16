@@ -1,0 +1,493 @@
+{
+  "topic": "Iron Poisoning",
+  "slug": "iron-poisoning",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:36:28Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "a408ad25d61d",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old boy presents with vomiting, diarrhoea, and haematemesis 2 hours after being found with an empty bottle of his mother's iron tablets. He is lethargic, with a metabolic acidosis on blood gas. What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock",
+        "Acute gastroenteritis",
+        "Iron poisoning",
+        "Intussusception",
+        "Salicylate poisoning"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of iron ingestion, haematemesis, and metabolic acidosis points to acute iron poisoning. Gastroenteritis typically lacks haematemesis and acidosis. Intussusception presents with colicky pain and red-currant jelly stools, not metabolic acidosis. Salicylate poisoning causes respiratory alkalosis initially, and septic shock is unlikely in this context without fever or infection source.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c334a9ad7374",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 16-year-old girl presents 2 hours after ingesting 20 ferrous sulphate tablets. She has nausea, mild epigastric pain, and one episode of loose stool. Observations are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Iron poisoning",
+        "Anxiety reaction",
+        "Paracetamol overdose",
+        "Acute gastroenteritis",
+        "Aspirin overdose"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite mild symptoms, the history of intentional iron ingestion makes iron poisoning the most likely. Paracetamol overdose is usually asymptomatic early. Anxiety reaction would not cause gastrointestinal symptoms. Gastroenteritis is less likely without exposure to infective agents. Aspirin overdose typically causes tinnitus and hyperventilation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "843711823297",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 3-year-old child ingested an unknown number of iron tablets 8 hours ago. Initially, he vomited and seemed to improve, but now presents with hypotension, metabolic acidosis, and lethargy. What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock",
+        "Salicylate poisoning",
+        "Iron poisoning",
+        "Hypovolaemic shock from other cause",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The biphasic course (initial improvement followed by shock) is classic for severe iron poisoning. Septic shock would usually have fever or infection source. Hypovolaemic shock from other causes lacks the history of iron ingestion. DKA presents with hyperglycaemia and ketones. Salicylate poisoning causes respiratory alkalosis initially, not a biphasic pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e8c5844d8215",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman presents 48 hours after an intentional overdose of iron supplements. She now has jaundice and easy bruising. Blood tests show elevated bilirubin, prolonged PT, and transaminitis. What is the single most likely diagnosis?",
+      "options": [
+        "Iron poisoning causing hepatotoxicity",
+        "Acute viral hepatitis",
+        "Drug-induced liver injury from unknown medication",
+        "Alcoholic hepatitis",
+        "Paracetamol overdose"
+      ],
+      "answerIndex": 0,
+      "explanation": "Delayed hepatotoxicity is a known complication of iron poisoning, typically occurring 2–3 days after ingestion. Paracetamol overdose causes similar liver injury but usually within 24 hours, and is less likely without history. Viral hepatitis and alcoholic hepatitis are not associated with acute overdose. Drug-induced liver injury is a less specific diagnosis when iron history is clear.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "49a888d14f2d",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents with vomiting, abdominal pain, and hyperventilation. He has no tinnitus. He admits to ingesting an unknown quantity of his girlfriend's iron tablets. What is the single most likely diagnosis?",
+      "options": [
+        "Salicylate poisoning",
+        "Iron poisoning",
+        "Methanol poisoning",
+        "Sepsis",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Iron poisoning can cause vomiting and acidosis with compensatory hyperventilation. The absence of tinnitus and the history of iron ingestion favour iron over salicylate poisoning. DKA would have hyperglycaemia and ketones. Sepsis would likely have fever and other signs. Methanol poisoning typically causes visual disturbances and a high osmolar gap.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2f3a19eff1f1",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 2-year-old boy is brought to the emergency department 30 minutes after ingesting an unknown number of ferrous sulphate tablets. He has vomited once. On examination, he is tachycardic but otherwise well. Which single investigation is most accurate in confirming iron poisoning?",
+      "options": [
+        "Serum iron level",
+        "Abdominal X-ray",
+        "Full blood count",
+        "Total iron-binding capacity",
+        "Serum ferritin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Serum iron level directly quantifies iron burden and correlates with severity. Abdominal X-ray may show tablets if recently ingested but does not confirm toxicity and may be negative if tablets dissolved. TIBC is unreliable in acute overdose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0fa5f3ebd056",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman presents 4 hours after ingesting 20 ferrous sulphate tablets. She has abdominal pain and vomiting. Serum iron level is 85 μmol/L. Which interpretation is most appropriate?",
+      "options": [
+        "Mild iron toxicity",
+        "Normal – no toxicity",
+        "Severe iron toxicity",
+        "Moderate iron toxicity",
+        "Fatal toxicity"
+      ],
+      "answerIndex": 3,
+      "explanation": "85 μmol/L falls in the moderate range (55–90 μmol/L) according to UK guidelines. Severe toxicity is defined as >90 μmol/L.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fecec076e03f",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 5-year-old girl is brought to the emergency department 1 hour after a possible iron ingestion. She is asymptomatic. Serum iron drawn on arrival is 18 μmol/L (normal 10–30). Which of the following is the most appropriate interpretation?",
+      "options": [
+        "The result indicates mild iron deficiency",
+        "The result indicates haemochromatosis",
+        "The result confirms no significant ingestion",
+        "The result is falsely low due to early timing; repeat at 4–6 hours",
+        "The result suggests iron overload"
+      ],
+      "answerIndex": 3,
+      "explanation": "Iron levels peak at 4–6 hours post-ingestion. A normal level at 1 hour can be falsely reassuring because absorption may not have occurred. Repeat serum iron at the appropriate time is needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "922e5d29c6a9",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 3-year-old boy is found with an open bottle of iron tablets. He is asymptomatic and the time of ingestion is unknown (likely within the last 2 hours). Which single investigation is most likely to confirm that iron tablets have been ingested?",
+      "options": [
+        "Full blood count",
+        "Abdominal X-ray",
+        "Total iron-binding capacity",
+        "Serum ferritin",
+        "Serum iron level"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an asymptomatic patient with unknown ingestion time, serum iron may be normal if drawn too early or too late. Abdominal X-ray can visualize radiopaque iron tablets in the gastrointestinal tract, providing evidence of ingestion regardless of timing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed6951352102",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 2-year-old child presents with vomiting, diarrhoea, and lethargy after ingesting an unknown number of ferrous sulfate tablets. Serum iron is 120 µmol/L. What is the most appropriate definitive therapy?",
+      "options": [
+        "Whole bowel irrigation",
+        "Gastric lavage",
+        "IV desferrioxamine",
+        "Oral deferiprone",
+        "IV N-acetylcysteine"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe iron poisoning (serum iron > 90 µmol/L with symptoms), IV desferrioxamine is the chelator of choice. N-acetylcysteine is for paracetamol overdose. Oral deferiprone is not first-line in acute poisoning. Gastric lavage and whole bowel irrigation are supportive but not definitive chelation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "655be7855cbc",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 20-year-old woman ingested 30 mg/kg of elemental iron 2 hours ago. She is asymptomatic. Serum iron is 60 µmol/L. What is the most appropriate management?",
+      "options": [
+        "Activated charcoal",
+        "IV desferrioxamine",
+        "Gastric lavage",
+        "Observation with repeat iron level in 6 hours",
+        "Oral deferasirox"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mild to moderate poisoning (serum iron 40-90 µmol/L, asymptomatic) typically requires only observation. Chelation is indicated if symptomatic or iron > 90 µmol/L. Gastric lavage is only if < 1 hour post-ingestion. Activated charcoal does not bind iron. Oral deferasirox is for chronic overload.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "824959a90794",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents 4 hours after ingesting a large dose of ferrous sulfate. He is hypotensive (BP 80/40 mmHg) and has a metabolic acidosis (pH 7.2). Which therapy is CONTRAINDICATED in his management?",
+      "options": [
+        "IV desferrioxamine",
+        "IV fluids",
+        "Haemodialysis",
+        "IV sodium bicarbonate",
+        "Whole bowel irrigation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sodium bicarbonate is contraindicated in iron-induced acidosis as it can worsen acidosis and cause hypokalaemia. IV desferrioxamine is the key chelation therapy. IV fluids and whole bowel irrigation are supportive. Haemodialysis is not effective for iron removal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "351f9311211c",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-week pregnant woman presents with nausea, vomiting, and drowsiness after ingesting ferrous sulfate tablets. Serum iron is 110 µmol/L. Which therapy is CONTRAINDICATED in this patient?",
+      "options": [
+        "Oral deferiprone",
+        "Oral deferasirox",
+        "Whole bowel irrigation",
+        "IV desferrioxamine",
+        "IV fluids"
+      ],
+      "answerIndex": 0,
+      "explanation": "Deferiprone is contraindicated in pregnancy due to teratogenicity. IV desferrioxamine is the chelator of choice, with benefit outweighing risk. Deferasirox is not first-line in acute poisoning but not absolutely contraindicated. Whole bowel irrigation and IV fluids are supportive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dced4858d0c8",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 40-year-old man with severe iron poisoning has received IV desferrioxamine for 24 hours. His serum iron has fallen from 150 to 80 µmol/L. He is haemodynamically stable. What is the most appropriate next step?",
+      "options": [
+        "Discontinue chelation",
+        "Continue IV desferrioxamine at same dose",
+        "Reduce IV desferrioxamine dose",
+        "Switch to oral deferasirox",
+        "Switch to oral deferiprone"
+      ],
+      "answerIndex": 1,
+      "explanation": "IV desferrioxamine should be continued until serum iron falls below 50 µmol/L or the patient is asymptomatic. Reducing the dose is not indicated yet. Switching to oral chelators is not routine in acute poisoning. Discontinuing risks rebound toxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3bc83d28fc07",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 2-year-old child is brought to the emergency department after being found with an empty bottle of ferrous sulfate tablets (each 200 mg tablet contains 65 mg elemental iron). The estimated ingestion is 80 mg/kg of elemental iron. The child is asymptomatic, with normal vital signs. What is the single most appropriate immediate next step?",
+      "options": [
+        "Order an abdominal X-ray",
+        "Perform whole bowel irrigation with polyethylene glycol",
+        "Administer intramuscular desferrioxamine",
+        "Start intravenous normal saline",
+        "Check serum iron concentration"
+      ],
+      "answerIndex": 4,
+      "explanation": "In an asymptomatic child with a significant iron overdose, the immediate priority is to measure serum iron concentration (at 4-6 hours post-ingestion) to guide the need for chelation. Whole bowel irrigation may be considered if a large number of tablets are visible on abdominal X-ray and the patient presents within 1 hour, but it is not the first step. Desferrioxamine is started only if serum iron is >500 mcg/dL or if the patient is symptomatic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b615f17f057c",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman presents 4 hours after ingesting 30 tablets of ferrous fumarate. She has vomiting, diarrhea, and epigastric pain. Observations: heart rate 115 bpm, blood pressure 110/70 mmHg, respiratory rate 20/min, oxygen saturation 98% on air. Serum iron concentration is 550 mcg/dL. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform upper gastrointestinal endoscopy",
+        "Admit for observation and repeat serum iron in 4 hours",
+        "Give activated charcoal",
+        "Start intravenous fluids at 125 mL/hour",
+        "Administer intravenous desferrioxamine"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has symptomatic iron poisoning with a serum iron >500 mcg/dL, which is an indication for chelation therapy with intravenous desferrioxamine. Activated charcoal does not bind iron. Endoscopy is not indicated for iron tablets. While IV fluids are supportive, chelation is the specific treatment needed now.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "858ebe87515d",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old man is brought to the emergency department 3 hours after ingesting a large quantity of iron tablets. He is confused, hypotensive (blood pressure 80/50 mmHg), and has metabolic acidosis on blood gas (pH 7.20, lactate 6 mmol/L). What is the single most appropriate immediate next step?",
+      "options": [
+        "Intubate and ventilate",
+        "Start a noradrenaline infusion",
+        "Give a bolus of intravenous crystalloid",
+        "Administer intravenous desferrioxamine",
+        "Call the National Poisons Information Service"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with hypotension and metabolic acidosis due to severe iron poisoning, the immediate priority is fluid resuscitation with a crystalloid bolus to restore perfusion. Desferrioxamine should be given concurrently but after initial fluid resuscitation. Intubation may be needed if the patient fails to protect the airway, but volume expansion is the first step. Calling poisons information is important but not the most immediate action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0e754ef669ae",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with a history of iron overdose is being treated with intravenous desferrioxamine. After 12 hours of infusion, she develops acute dyspnoea, hypoxia (oxygen saturation 88% on air), and diffuse crackles on chest auscultation. A chest X-ray shows bilateral interstitial infiltrates. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform a CT pulmonary angiogram",
+        "Increase the rate of desferrioxamine infusion",
+        "Stop the desferrioxamine infusion",
+        "Administer intravenous furosemide",
+        "Start intravenous broad-spectrum antibiotics"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clinical picture is consistent with desferrioxamine-induced acute lung injury (ARDS), a known adverse effect. The immediate next step is to stop the desferrioxamine infusion. Diuretics and antibiotics are not first-line; furosemide may worsen hypotension, and infection is less likely. CT pulmonary angiogram is not urgent enough to delay stopping the offending agent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fede69867262",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-week pregnant woman is brought to the emergency department after ingesting iron tablets 2 hours ago. She is vomiting and has abdominal pain. Serum iron concentration is 600 mcg/dL. Observations: heart rate 110 bpm, blood pressure 100/70 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform an emergency caesarean section",
+        "Start intravenous fluids and observe",
+        "Administer intravenous desferrioxamine",
+        "Give oral deferasirox",
+        "Obtain an obstetric ultrasound to assess fetal well-being"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a pregnant patient with symptomatic iron poisoning and a high serum iron level (600 mcg/dL), intravenous desferrioxamine is indicated to chelate excess iron and prevent maternal and fetal toxicity. Deferasirox is not used in acute overdose. Immediate caesarean is not indicated for iron poisoning alone. While fetal monitoring is important, chelation is the life-saving intervention that should not be delayed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83a5d45b204e",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-year-old child presents to the emergency department after ingesting an unknown number of iron tablets 2 hours ago. The mother reports one episode of vomiting. On examination, the child is drowsy and tachypnoeic with a respiratory rate of 40 breaths/min. Which single finding is the most concerning indicator of severe iron poisoning?",
+      "options": [
+        "Metabolic acidosis on blood gas",
+        "Vomiting",
+        "Diarrhoea",
+        "Pallor",
+        "Abdominal pain"
+      ],
+      "answerIndex": 0,
+      "explanation": "Metabolic acidosis is a red flag for systemic iron toxicity because iron inhibits oxidative phosphorylation, leading to lactic acidosis. Drowsiness and tachypnoea also suggest severe poisoning; vomiting alone is non-specific and can occur in mild cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "572090a2d152",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 18-year-old woman presents 4 hours after deliberately taking a quantity of ferrous sulphate tablets. She has vomiting and abdominal pain but observations are normal (HR 80, BP 110/70, RR 16, SpO2 98%). Which serum iron level would indicate the need for urgent chelation therapy with desferrioxamine?",
+      "options": [
+        "> 100 µmol/L",
+        "> 80 µmol/L",
+        "> 20 µmol/L",
+        "> 60 µmol/L",
+        "> 40 µmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidance recommends desferrioxamine when serum iron exceeds 60 µmol/L (or 3.5 mg/dL) within 4–6 hours of overdose. Levels below this suggest less severe toxicity, while 60 is the established threshold for escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d80000c4b9a4",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man is admitted after an overdose of iron tablets. On day 2 of admission, he develops jaundice, right upper quadrant tenderness, and a prolonged prothrombin time (PT). What life-threatening complication of iron poisoning does this picture represent?",
+      "options": [
+        "Bowel obstruction",
+        "Hepatic necrosis",
+        "Acute renal failure",
+        "Acute pancreatitis",
+        "Cardiac arrhythmia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hepatic necrosis is a well-recognised complication in the second phase of severe iron poisoning (12–48 hours), presenting with jaundice, elevated transaminases, and coagulopathy. Pancreatitis and renal failure are less typical; arrhythmias are rare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4176df8b03ad",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman who ingested a large dose of iron tablets 4 days ago now has severe abdominal distension, absent bowel sounds, and metabolic acidosis. What is the most important differential diagnosis to exclude urgently?",
+      "options": [
+        "Acute pancreatitis",
+        "Gastritis",
+        "Ileus",
+        "Bowel perforation",
+        "Liver failure"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bowel perforation is a life-threatening complication of iron poisoning due to direct mucosal necrosis, typically occurring several days after ingestion. Metabolic acidosis and absent bowel sounds should raise suspicion; ileus is less urgent and pancreatitis is less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3e7e038c50c0",
+      "topic": "Iron Poisoning",
+      "slug": "iron-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old pregnant woman at 28 weeks gestation presents 1 hour after ingesting 30 tablets of ferrous fumarate. She is currently asymptomatic with normal observations. Which single finding would indicate immediate maternal and fetal risk requiring urgent intervention?",
+      "options": [
+        "Maternal tachycardia",
+        "Serum iron > 30 µmol/L",
+        "Metabolic acidosis on blood gas",
+        "Vomiting",
+        "Abdominal pain"
+      ],
+      "answerIndex": 2,
+      "explanation": "Metabolic acidosis is the earliest objective marker of systemic toxicity in iron poisoning, irrespective of pregnancy. It indicates mitochondrial dysfunction and precedes clinical deterioration. Tachycardia and vomiting are non-specific; serum iron thresholds apply equally in pregnancy.",
+      "difficulty": "medium"
+    }
+  ]
+}

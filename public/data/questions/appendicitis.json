@@ -1,0 +1,513 @@
+{
+  "topic": "Appendicitis",
+  "slug": "appendicitis",
+  "system": "General Surgery",
+  "subSystem": "Acute abdomen",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0643587a4124",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old man presents with a 24-hour history of central abdominal pain that has migrated to the right lower quadrant. He has nausea and a low-grade fever of 37.8°C. On examination, there is tenderness and guarding at McBurney's point. Urine dipstick is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute appendicitis",
+        "Ectopic pregnancy",
+        "Mesenteric adenitis",
+        "Gastroenteritis",
+        "Renal colic"
+      ],
+      "answerIndex": 0,
+      "explanation": "The classic migratory pain from the umbilicus to the right iliac fossa with localised tenderness at McBurney's point is highly suggestive of acute appendicitis. Mesenteric adenitis typically occurs in children after a viral illness and lacks this migratory pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2226bd3f6c8e",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 2-day history of right loin pain radiating to the groin, with dysuria and fever. She has no previous history of renal stones. On examination, there is tenderness in the right loin and a positive psoas sign. Urinalysis shows 5 white cells but no nitrites. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pyelonephritis",
+        "Acute cholecystitis",
+        "Ureteric calculus",
+        "Diverticulitis",
+        "Retrocaecal appendicitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Retrocaecal appendicitis can present with right loin pain mimicking renal pathology. The positive psoas sign indicates inflammation of the retrocaecal appendix. Pyelonephritis typically causes high fever and pyuria, and ureteric calculus causes haematuria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3a55f3a546e7",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 19-year-old woman presents with peri-umbilical discomfort that has moved to the right iliac fossa over 12 hours. She has mild nausea but no vomiting. Temperature is 37.5°C. On examination, there is mild tenderness in the right lower quadrant without guarding. White cell count is normal, but C-reactive protein is mildly elevated at 15 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Ectopic pregnancy",
+        "Ovarian cyst rupture",
+        "Pelvic inflammatory disease",
+        "Acute appendicitis",
+        "Gastroenteritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Migratory pain from the periumbilical area to the right iliac fossa is classic for appendicitis, even with a normal white cell count. An elevated CRP supports inflammation. Ovarian cyst rupture typically presents with sudden sharp pain and may be associated with peritonism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1f804f05d30",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with a 2-day history of worsening abdominal pain that began in the right iliac fossa and has now become diffuse. He has a fever of 38.9°C, tachycardia of 110 bpm, and diffuse abdominal tenderness with guarding and rebound. Bowel sounds are absent. What is the single most likely diagnosis?",
+      "options": [
+        "Perforated duodenal ulcer",
+        "Diverticulitis with perforation",
+        "Mesenteric ischaemia",
+        "Ruptured appendix with peritonitis",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The initial right-sided pain that becomes diffuse with peritonism suggests an appendix that has perforated, leading to generalised peritonitis. Perforated duodenal ulcer typically presents with sudden epigastric pain and board-like rigidity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b10d2936c4bd",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old man presents with confusion and anorexia for 3 days. He is afebrile. On examination, he has vague tenderness in the right lower quadrant without guarding. White cell count is normal, but CT reveals a thickened appendix with an appendicolith. What is the single most likely diagnosis?",
+      "options": [
+        "Gastroenteritis",
+        "Faecal impaction",
+        "Diverticulitis",
+        "Acute appendicitis",
+        "Colonic malignancy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elderly patients often present atypically with confusion and anorexia rather than focal pain. CT findings of a thickened appendix and appendicolith confirm appendicitis. Colonic malignancy would typically show a mass without an appendicolith.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4de586a54d70",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 16-year-old girl presents with a 36-hour history of central abdominal pain migrating to the right iliac fossa, vomiting, and low-grade fever (37.8°C). On examination she has tenderness at McBurney's point. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Ultrasound abdomen",
+        "Abdominal X-ray",
+        "Urinalysis",
+        "Full blood count",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "In children and young people (under 18) with suspected appendicitis, NICE recommends ultrasound as first-line imaging to confirm the diagnosis, avoiding radiation. CT is reserved for atypical cases or when ultrasound is inconclusive. Blood tests and urinalysis are supportive but not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c7d7bcc75d07",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old primigravida at 12 weeks' gestation presents with 2 days of mild right iliac fossa pain, no vomiting, and a normal white cell count but raised C-reactive protein. Her observations are stable. Which investigation is most appropriate to confirm the diagnosis of appendicitis?",
+      "options": [
+        "CT abdomen with IV contrast",
+        "Serial abdominal examinations",
+        "Diagnostic laparoscopy",
+        "MRI abdomen",
+        "Ultrasound abdomen"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ultrasound is the first-line imaging in pregnancy for suspected appendicitis due to safety and availability. CT is avoided because of fetal radiation risk. MRI is used if ultrasound is inconclusive. Diagnostic laparoscopy is invasive and not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca92667a175b",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with hypertension and diabetes presents with a 3-day history of worsening right iliac fossa pain, high fever (39°C), and peritonism on examination. There is concern about perforation. Which investigation is most appropriate to confirm the diagnosis of appendicitis and assess for complications?",
+      "options": [
+        "Diagnostic laparoscopy",
+        "Ultrasound abdomen",
+        "Erect chest X-ray",
+        "Abdominal X-ray",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "In older adults with suspected complicated appendicitis, CT abdomen is the most accurate investigation to confirm the diagnosis and identify complications such as perforation, abscess, or phlegmon. Erect chest X-ray may show free air but is not diagnostic of appendicitis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0b51e848e6d8",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man presents on day 5 of right iliac fossa pain. He now has a palpable mass in the right iliac fossa. An ultrasound suggests an appendix mass. Which investigation is best to differentiate between a phlegmon and an abscess?",
+      "options": [
+        "Barium enema",
+        "CT abdomen with IV contrast",
+        "MRI abdomen",
+        "Colonoscopy",
+        "Repeat ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT abdomen is the investigation of choice to differentiate a phlegmon (inflammatory mass) from an abscess, which requires drainage. It provides detailed anatomical information. MRI is an alternative but less readily available. Colonoscopy and barium enema are not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1b09b3e87160",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 74-year-old woman with diabetes and dementia presents with 2 days of vague abdominal discomfort, confusion, and low-grade fever (37.6°C). She has no localised tenderness but some distension. Urinalysis is normal. Which investigation is most appropriate to confirm or exclude appendicitis?",
+      "options": [
+        "Diagnostic laparoscopy",
+        "Ultrasound abdomen",
+        "Abdominal X-ray",
+        "MRI abdomen",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elderly patients often present atypically with minimal signs. CT abdomen is the gold standard for diagnosis of appendicitis in this age group due to its high sensitivity and ability to exclude other pathologies. Ultrasound is less reliable due to limited views and bowel gas. Diagnostic laparoscopy is invasive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5150a39d796",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with 24 hours of central abdominal pain migrating to the right iliac fossa, with nausea and anorexia. On examination, he has localised tenderness and guarding in the right iliac fossa. Temperature 37.8°C, white cell count 14 × 10^9/L, C-reactive protein 80 mg/L. CT of the abdomen confirms uncomplicated acute appendicitis with no evidence of abscess or perforation. He is otherwise fit and well. What is the most appropriate first-line management?",
+      "options": [
+        "CT-guided percutaneous drainage",
+        "Laparoscopic appendicectomy",
+        "Conservative management with analgesia and observation",
+        "Open appendicectomy",
+        "IV antibiotics alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Laparoscopic appendicectomy is the standard first-line treatment for uncomplicated acute appendicitis in a fit patient (NICE 2020). Antibiotics alone are an alternative but not first-line in this scenario.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "79b125ea8800",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 24-year-old woman presents with a 5-day history of right iliac fossa pain and fever. She is systemically well with mild tachycardia and CRP 120 mg/L. Examination reveals a palpable, tender mass in the right iliac fossa. CT shows an appendix mass (phlegmon) with no drainable abscess. What is the most appropriate first-line management?",
+      "options": [
+        "CT-guided drainage of the mass",
+        "IV antibiotics and planned interval appendicectomy in 6–8 weeks",
+        "Open appendicectomy",
+        "IV antibiotics alone (no subsequent surgery)",
+        "Emergency laparoscopic appendicectomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "For an appendix phlegmon without abscess, conservative management with IV antibiotics followed by interval appendicectomy is recommended to avoid high morbidity from emergency surgery in the inflamed tissue. CT drainage is for abscesses only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cb4b23d68f0a",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with a 4-day history of severe abdominal pain, vomiting, and fever. He is in septic shock (BP 85/60, HR 125, lactate 4 mmol/L) despite fluid resuscitation. There is generalised abdominal tenderness with guarding. CT shows perforated appendicitis with free gas and free fluid, but no discrete abscess. What is the most appropriate definitive management?",
+      "options": [
+        "Percutaneous drainage of free fluid",
+        "Laparoscopic appendicectomy",
+        "IV antibiotics alone",
+        "Observation and repeat imaging",
+        "Emergency open appendicectomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "In septic shock from perforated appendicitis with peritonitis, emergency open appendicectomy provides definitive source control. Laparoscopy is less favoured due to haemodynamic instability and risk of increased intra-abdominal pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3a37d2148579",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with a 6-day history of right iliac fossa pain and fever. He is haemodynamically stable, with a temperature of 38.2°C. CT shows a 5 cm appendix abscess. There is no evidence of generalised peritonitis. What is the most appropriate first-line management?",
+      "options": [
+        "IV antibiotics and percutaneous drainage of the abscess",
+        "IV antibiotics alone",
+        "Emergency laparoscopic appendicectomy",
+        "Open appendicectomy",
+        "Interval appendicectomy only after 6 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a well-demarcated appendix abscess >3 cm in a stable patient, NICE recommends IV antibiotics and percutaneous drainage as first-line, with interval appendicectomy later if needed. Surgery in the acute setting carries higher morbidity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23a4beb7337e",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 29-year-old woman who is 28 weeks pregnant presents with a 12-hour history of right iliac fossa pain, nausea, and anorexia. She has localised tenderness and guarding in the right iliac fossa, temperature 37.6°C, and leukocytosis. An ultrasound suggests acute appendicitis. What is the most appropriate first-line management?",
+      "options": [
+        "Open appendicectomy",
+        "Laparoscopic appendicectomy",
+        "MRI-guided management",
+        "IV antibiotics alone",
+        "Observation and repeat ultrasound in 24 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the third trimester, open appendicectomy is the preferred surgical approach due to the gravid uterus making laparoscopic access difficult and increasing the risk of uterine injury. Appendicectomy is indicated to prevent maternal and fetal complications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90f989d1ce2f",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old man presents to the emergency department with a 12-hour history of central abdominal pain that has migrated to the right iliac fossa, associated with nausea and low-grade fever. On examination, he has tenderness and rebound at McBurney's point. His white cell count is 14 x 10^9/L. What is the single most appropriate next step?",
+      "options": [
+        "Give oral analgesia and discharge with safety netting",
+        "Start intravenous antibiotics",
+        "Arrange urgent surgical review",
+        "Arrange urgent CT abdomen",
+        "Insert a nasogastric tube"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a young male with classic history and signs of appendicitis, the next step is to involve the surgical team for assessment. Imaging (CT) is not mandatory first-line when clinical likelihood is high; antibiotics may be given perioperatively but are not the immediate next step. Discharge is unsafe without surgical evaluation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db228f3eb98d",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents with a 2-day history of right iliac fossa pain and vomiting. She is afebrile and haemodynamically stable. There is mild tenderness in the right iliac fossa without guarding. Her white cell count is normal and C-reactive protein is 10 mg/L. What is the single most appropriate next step?",
+      "options": [
+        "Arrange ultrasound abdomen",
+        "Discharge with safety netting",
+        "Arrange diagnostic laparoscopy",
+        "Arrange CT abdomen",
+        "Start intravenous co-amoxiclav"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a woman of reproductive age with suspected appendicitis, NICE recommends ultrasound as the first-line imaging modality to avoid ionising radiation. CT carries radiation risk and is reserved for equivocal cases. Discharge without imaging is not safe, and antibiotics are not indicated without a confirmed diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b8d962c82b9",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents with severe right iliac fossa pain, abdominal distension, and fever of 38.5°C. His heart rate is 110 bpm and blood pressure is 90/60 mmHg. On examination, there is generalised tenderness and guarding. White cell count is 20 x 10^9/L and C-reactive protein is 200 mg/L. What is the single most appropriate next step?",
+      "options": [
+        "Start broad-spectrum intravenous antibiotics",
+        "Arrange urgent CT abdomen with contrast",
+        "Resuscitate with intravenous fluids",
+        "Insert a nasogastric tube and urinary catheter",
+        "Arrange urgent surgical review"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient is in septic shock (hypotension, tachycardia, raised inflammatory markers). The immediate priority is fluid resuscitation to restore haemodynamics, as per sepsis guidelines. Antibiotics should follow soon but are not the first action. Surgical review and CT are important but secondary to resuscitation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "847f6731e9fb",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 24-year-old woman with known appendicitis awaiting surgery suddenly develops severe generalised abdominal pain, distension, and vomiting. She looks unwell; her pulse is 120 bpm and blood pressure is 80/50 mmHg. The abdomen is rigid. What is the single most appropriate next step?",
+      "options": [
+        "Insert a nasogastric tube",
+        "Resuscitate with intravenous fluids",
+        "Start intravenous antibiotics",
+        "Arrange urgent CT abdomen",
+        "Arrange emergency laparotomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation suggests perforated appendicitis with generalised peritonitis and shock. The immediate priority is fluid resuscitation to correct hypovolaemia and sepsis. Although emergency surgery is needed, it must follow initial resuscitation. Antibiotics and NG tube are important but not the single most urgent action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7ac3efec3bae",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman at 28 weeks gestation presents with right iliac fossa pain, nausea, and a temperature of 37.8°C. There is tenderness in the right lower quadrant. Her white cell count is 14 x 10^9/L and C-reactive protein is 32 mg/L. What is the single most appropriate next step?",
+      "options": [
+        "Arrange ultrasound abdomen",
+        "Arrange urgent MRI abdomen",
+        "Arrange CT abdomen",
+        "Arrange urgent surgical review",
+        "Start intravenous antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, ultrasound is the first-line imaging modality for suspected appendicitis due to safety for the fetus. MRI is used if ultrasound is inconclusive. CT involves ionising radiation and is avoided. Antibiotics and surgical review should follow after imaging confirms the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1ad7220c08dc",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 24-year-old man presents with 36 hours of right iliac fossa pain. On examination, which finding is most suggestive of perforated appendicitis?",
+      "options": [
+        "Obturator sign",
+        "Involuntary guarding",
+        "Localised tenderness",
+        "Psoas sign",
+        "Rovsing's sign"
+      ],
+      "answerIndex": 1,
+      "explanation": "Involuntary guarding indicates peritoneal inflammation, which in the context of appendicitis strongly suggests perforation. Localised tenderness is common but not a red flag for perforation; Rovsing's, psoas, and obturator signs are supportive but not specific for perforation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1cb9fe765593",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman at 26 weeks gestation presents with right iliac fossa pain. Which clinical sign is most concerning for perforated appendicitis in this patient?",
+      "options": [
+        "Constipation",
+        "Urinary frequency",
+        "Pyrexia >38°C",
+        "Nausea",
+        "Vomiting"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, classical signs are often altered, but pyrexia >38°C is a significant red flag indicating systemic inflammation and possible perforation. Nausea, vomiting, constipation, and urinary frequency are common but not specific for complicated appendicitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c5834ad152bd",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with a history of ischaemic heart disease presents with confusion, abdominal distension, and mild right iliac fossa tenderness. Which life-threatening mimic of appendicitis is most likely?",
+      "options": [
+        "Renal colic",
+        "Small bowel obstruction",
+        "Mesenteric ischaemia",
+        "Pancreatitis",
+        "Diverticulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In elderly patients with vascular disease, acute mesenteric ischaemia can mimic appendicitis, often presenting with confusion, abdominal distension, and pain out of proportion to tenderness. It is a surgical emergency that must be excluded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e0e7bb937704",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 10-year-old boy presents with periumbilical pain migrating to the right iliac fossa, vomiting, and low-grade fever. Which finding is most concerning for perforated appendicitis?",
+      "options": [
+        "Pain on coughing",
+        "Migratory pain",
+        "Obturator sign",
+        "Rovsing's sign",
+        "Anorexia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pain on coughing (Dunphy's sign) indicates peritoneal irritation and is a red flag for perforation. Migratory pain and anorexia are classic early features but not specific for perforation; Rovsing's and obturator signs are supportive but less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ebaa2d6f8aa6",
+      "topic": "Appendicitis",
+      "slug": "appendicitis",
+      "system": "General Surgery",
+      "subSystem": "Acute abdomen",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with acute right iliac fossa pain, dizziness, and reports her last menstrual period was 6 weeks ago. Which life-threatening mimic of appendicitis must be excluded first?",
+      "options": [
+        "Pelvic inflammatory disease",
+        "Mittelschmerz",
+        "Ovarian torsion",
+        "Irritable bowel syndrome",
+        "Ectopic pregnancy"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a woman of childbearing age with missed period and abdominal pain, ectopic pregnancy is a life-threatening emergency that must be excluded before diagnosing appendicitis. Ovarian torsion is also serious but less common; PID and Mittelschmerz are not immediately life-threatening.",
+      "difficulty": "easy"
+    }
+  ]
+}

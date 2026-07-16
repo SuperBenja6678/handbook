@@ -1,0 +1,473 @@
+{
+  "topic": "Chronic Hepatitis C",
+  "slug": "chronic-hepatitis-c",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Viral hepatitis",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 23,
+  "questions": [
+    {
+      "id": "89fec5979ece",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents for a routine health check. He reports mild fatigue but is otherwise well. He has a history of intravenous drug use 20 years ago. Examination is unremarkable. Liver function tests show ALT 85 U/L, AST 72 U/L, and bilirubin 12 μmol/L. Hepatitis C antibody is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Non-alcoholic fatty liver disease",
+        "Autoimmune hepatitis",
+        "Alcoholic hepatitis",
+        "Primary biliary cholangitis",
+        "Chronic hepatitis C"
+      ],
+      "answerIndex": 4,
+      "explanation": "The positive anti-HCV antibody in the context of risk factors (IVDU) and mildly elevated transaminases strongly supports chronic hepatitis C as the cause. The other options are less likely given the serological evidence and lack of specific features (e.g., no alcohol excess, no autoantibodies).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "46c951dec765",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man is brought to the Emergency Department with a haematemesis. He has a long history of intravenous drug use. On examination he has ascites, spider naevi, and palmar erythema. Liver function tests show bilirubin 80 μmol/L, ALT 45 U/L, AST 60 U/L, and INR 1.8. Abdominal ultrasound suggests cirrhosis. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic hepatitis C with decompensated cirrhosis",
+        "Non-alcoholic steatohepatitis cirrhosis",
+        "Alcoholic cirrhosis",
+        "Primary biliary cirrhosis",
+        "Hepatitis B virus cirrhosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of IVDU is the strongest risk factor for chronic hepatitis C. The signs of decompensated cirrhosis (ascites, variceal bleed) and laboratory abnormalities are typical of end-stage liver disease. The absence of significant alcohol history and negative HBV serology (implied) make other aetiologies less likely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c0cbafb7f134",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 40-year-old woman presents with a vasculitic rash on her legs, arthralgias, and peripheral neuropathy. She has no previous medical history. Investigations show raised ESR, low complement C4, and positive cryoglobulins. Liver function tests are normal. Hepatitis C antibody is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Primary Sjögren's syndrome",
+        "Chronic hepatitis C",
+        "Rheumatoid vasculitis",
+        "Mixed essential cryoglobulinaemia",
+        "Systemic lupus erythematosus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of cryoglobulins, low C4, and a positive anti-HCV antibody points to chronic hepatitis C as the underlying cause of the cryoglobulinaemic vasculitis. While mixed essential cryoglobulinaemia can be idiopathic, HCV is the most common identifiable cause, and the serology confirms it. SLE and other autoimmune diseases are less likely without specific autoantibodies.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "507ff93f471d",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with well-controlled HIV on tenofovir disoproxil fumarate/emtricitabine and dolutegravir complains of fatigue. His CD4 count is 500 cells/μL and viral load is undetectable. Liver function tests show ALT 120 U/L, AST 90 U/L. Hepatitis C antibody is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Non-alcoholic fatty liver disease",
+        "Chronic hepatitis C",
+        "Hepatitis B virus co-infection",
+        "Alcoholic hepatitis",
+        "Drug-induced liver injury from antiretrovirals"
+      ],
+      "answerIndex": 1,
+      "explanation": "HIV and HCV share transmission routes, so co-infection is common. Positive HCV antibody plus elevated transaminases in a patient with stable HIV on a well-tolerated regimen makes chronic hepatitis C the most likely cause. DILI is less plausible given the stable regimen and lack of other offending drugs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "162b3e6f2451",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man is found to have a positive hepatitis C antibody during a life insurance medical examination. He received a blood transfusion in 1992. He feels well and has no symptoms. Liver function tests are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic hepatitis C",
+        "Resolved hepatitis C",
+        "Acute hepatitis C",
+        "Primary biliary cholangitis",
+        "No liver disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "Patients with chronic hepatitis C often have normal LFTs despite ongoing infection, especially with mild disease. The history of transfusion before 1992 (when screening began) places him at risk. Positive antibody indicates exposure but does not differentiate active from resolved infection; however, a history of remote risk makes chronic infection more likely than acute. RNA testing would confirm viraemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ca150a9e774",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old man with a history of intravenous drug use presents with fatigue. LFTs show ALT 75 U/L. What is the most appropriate first investigation for hepatitis C?",
+      "options": [
+        "Transient elastography",
+        "HCV core antigen",
+        "Liver biopsy",
+        "HCV RNA PCR",
+        "Anti-HCV antibody"
+      ],
+      "answerIndex": 4,
+      "explanation": "Anti-HCV antibody is the recommended first-line screening test for hepatitis C. If positive, it is followed by HCV RNA PCR to confirm active infection. The other options are not appropriate as initial screening tests.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dccf40fdc5ef",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman is found to have a positive anti-HCV antibody on routine testing. She has no previous history. What is the most appropriate next test to confirm active infection?",
+      "options": [
+        "HCV genotype",
+        "HCV RNA PCR",
+        "HCV core antigen",
+        "Liver biopsy",
+        "Repeat anti-HCV antibody"
+      ],
+      "answerIndex": 1,
+      "explanation": "HCV RNA PCR is the standard test to confirm active viremia after a positive antibody screen. Core antigen is an alternative but not first-line. Repeat antibody testing is not required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f9c686add8cb",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old healthcare worker has a positive anti-HCV antibody test during occupational health screening. Subsequent HCV RNA PCR is undetectable. What does this combination most likely indicate?",
+      "options": [
+        "Acute hepatitis C infection",
+        "Chronic hepatitis C infection",
+        "False positive antibody",
+        "Reinfection",
+        "Resolved hepatitis C infection"
+      ],
+      "answerIndex": 4,
+      "explanation": "Positive anti-HCV with undetectable RNA indicates past infection that has cleared (resolved infection). False positive is possible but less likely in a healthcare worker without risk factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f5af626eec91",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with confirmed chronic hepatitis C (genotype 1) is being considered for direct-acting antiviral therapy. Which investigation is essential to guide treatment choice?",
+      "options": [
+        "HCV viral load",
+        "Fibrosis stage",
+        "Liver biopsy",
+        "HCV genotype",
+        "IL28B polymorphism"
+      ],
+      "answerIndex": 3,
+      "explanation": "HCV genotype determines the choice of direct-acting antiviral regimen. Viral load is not needed for treatment selection, and fibrosis stage guides duration but is secondary. IL28B is not used in current practice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5436fef3b5cb",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 38-year-old woman with chronic hepatitis C needs assessment of liver fibrosis. Which non-invasive test is recommended first-line by NICE?",
+      "options": [
+        "Transient elastography",
+        "Liver biopsy",
+        "FibroTest",
+        "APRI score",
+        "Ultrasound abdomen"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends transient elastography (FibroScan) as the first-line non-invasive assessment of liver fibrosis in chronic hepatitis C. APRI and FibroTest are alternatives but not first-line; biopsy is invasive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f430276c898f",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with chronic hepatitis C (genotype 1b) is treatment-naive and has no cirrhosis. His eGFR is 25 mL/min. Which is the most appropriate first-line therapy?",
+      "options": [
+        "Glecaprevir/pibrentasvir for 8 weeks",
+        "Peginterferon alfa plus ribavirin",
+        "Sofosbuvir/velpatasvir for 12 weeks",
+        "Ledipasvir/sofosbuvir for 12 weeks",
+        "Simeprevir plus sofosbuvir"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severe renal impairment (eGFR <30), sofosbuvir is contraindicated due to accumulation of its metabolite. Glecaprevir/pibrentasvir is safe and recommended as first-line for genotype 1 without cirrhosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff4dd647b81d",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with chronic hepatitis C (genotype 3) has decompensated cirrhosis (Child-Pugh B, with ascites and jaundice). What is the most appropriate first-line therapy?",
+      "options": [
+        "Sofosbuvir/velpatasvir plus ribavirin for 12 weeks",
+        "Sofosbuvir/velpatasvir for 12 weeks",
+        "Peginterferon alfa plus ribavirin",
+        "Elbasvir/grazoprevir for 12 weeks",
+        "Glecaprevir/pibrentasvir for 12 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "In decompensated cirrhosis, protease inhibitors (e.g., glecaprevir, grazoprevir) are contraindicated due to risk of hepatic decompensation. Sofosbuvir/velpatasvir with ribavirin for 12 weeks is the standard of care for genotype 3.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d6cb0998dd92",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with chronic hepatitis C (genotype 1b) and no cirrhosis is planning a pregnancy. She is treatment-naive. What is the most appropriate management?",
+      "options": [
+        "Sofosbuvir/velpatasvir for 12 weeks",
+        "Ledipasvir/sofosbuvir for 12 weeks",
+        "Defer treatment until after pregnancy",
+        "Peginterferon alfa plus ribavirin",
+        "Glecaprevir/pibrentasvir for 8 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "Direct-acting antivirals are not recommended during pregnancy due to lack of safety data. Treatment can be safely deferred until after delivery without significant risk of progression in a young patient without cirrhosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88a986d1b7dc",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents to his GP with fatigue. Blood tests show raised ALT (120 U/L) and AST (90 U/L). He has a history of intravenous drug use 10 years ago. Hepatitis C antibody test is positive. What is the most appropriate next step?",
+      "options": [
+        "Perform liver biopsy",
+        "Refer to hepatology clinic",
+        "Start pegylated interferon therapy",
+        "Repeat liver function tests in 3 months",
+        "Perform HCV RNA PCR"
+      ],
+      "answerIndex": 4,
+      "explanation": "A positive HCV antibody indicates past exposure but does not confirm active infection. HCV RNA PCR is needed to determine if there is active viraemia before considering treatment or referral.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "830a0448c4bb",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with known chronic hepatitis C (genotype 1b) and no cirrhosis is treatment-naïve. She is well-compensated with normal bilirubin and albumin. What is the most appropriate next step?",
+      "options": [
+        "Perform transient elastography (FibroScan)",
+        "Vaccinate against hepatitis A and B",
+        "Repeat HCV viral load",
+        "Refer for liver transplant assessment",
+        "Start direct-acting antiviral therapy"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends assessing liver fibrosis stage with transient elastography in all patients with chronic HCV to guide treatment urgency and need for surveillance, even if treatment is ultimately indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6b34d6231ce3",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known HCV-related cirrhosis presents to the Emergency Department with haematemesis. He is haemodynamically stable after fluid resuscitation. Oesophagogastroduodenoscopy reveals actively bleeding oesophageal varices. What is the most appropriate next step?",
+      "options": [
+        "Place a Sengstaken-Blakemore tube",
+        "Perform band ligation",
+        "Administer terlipressin",
+        "Refer for transjugular intrahepatic portosystemic shunt (TIPS)",
+        "Start octreotide infusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Endoscopic band ligation is the first-line treatment for acute variceal bleeding. Although terlipressin is often given early, the immediate next step during endoscopy is to perform band ligation for haemostasis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0d8daa644502",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 48-year-old woman with genotype 3 HCV cirrhosis (Child-Pugh B) and listed for liver transplant presents with confusion, asterixis, and ascites. She is jaundiced but haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform abdominal paracentesis",
+        "Start intravenous antibiotics",
+        "Administer lactulose",
+        "Start N-acetylcysteine infusion",
+        "Consider urgent liver transplant"
+      ],
+      "answerIndex": 2,
+      "explanation": "The confusion and asterixis indicate hepatic encephalopathy. Lactulose is the first-line treatment to reduce ammonia levels and improve encephalopathy, even in a transplant-listed patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "67a75aa9145c",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old man is newly diagnosed with chronic hepatitis C. He has chronic kidney disease stage 4 (eGFR 25 mL/min/1.73 m²). He is not on dialysis. What is the most appropriate next step?",
+      "options": [
+        "Start a direct-acting antiviral regimen without dose adjustment",
+        "Withhold antiviral treatment due to renal impairment",
+        "Start pegylated interferon and ribavirin",
+        "Check HCV genotype and viral load",
+        "Refer for combined liver-kidney transplant"
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients with advanced CKD, DAA choice depends on genotype and renal clearance. Checking genotype and viral load is essential to select an appropriate DAA regimen (e.g., glecaprevir/pibrentasvir is safe in CKD).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cfe080f60ac9",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man recently diagnosed with chronic hepatitis C (genotype 1, treatment-naïve) attends his first hepatology clinic. He reports no symptoms, but on examination, the doctor finds shifting dullness. Which single finding most strongly indicates that he has decompensated cirrhosis?",
+      "options": [
+        "Spider naevi",
+        "Ascites",
+        "Splenomegaly",
+        "Palmar erythema",
+        "ALT 65 U/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ascites is a hallmark of decompensated cirrhosis due to portal hypertension. In contrast, spider naevi, palmar erythema, and splenomegaly can occur in compensated cirrhosis; mild ALT elevation is common. Decompensation necessitates urgent evaluation and transplant referral consideration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cd841e1357f2",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old woman with chronic hepatitis C (genotype 3, FibroScan 7.5 kPa) is being assessed for antiviral therapy. She has recently developed purpura, arthralgias, and haematuria. Which single finding would be a red flag for severe cryoglobulinemic vasculitis requiring urgent immunosuppression?",
+      "options": [
+        "Serum creatinine 200 µmol/L (acute rise from 70)",
+        "Urine protein 2+",
+        "Positive cryoglobulins",
+        "Low C4 complement",
+        "Rheumatoid factor positive"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute kidney injury (rapidly rising creatinine) indicates cryoglobulinemic glomerulonephritis with potential for irreversible damage; it is an indication for high-dose steroids and cyclophosphamide/rituximab. Positive cryoglobulins and low C4 are common but not emergency thresholds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "60ce92db2e19",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 52-year-old man with known chronic hepatitis C and compensated cirrhosis (Child-Pugh A) presents with haematemesis. He is haemodynamically stable. At emergency oesophagogastroduodenoscopy, which single endoscopic finding is a can't-miss red flag for imminent variceal rebleeding and mandates immediate band ligation?",
+      "options": [
+        "Cherry red spots",
+        "Red wale marks",
+        "White nipple sign",
+        "Gastric varices",
+        "Portal hypertensive gastropathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Red wale marks (longitudinal red streaks on varices) are a high-risk stigma indicating a high risk of variceal haemorrhage; immediate banding is recommended. White nipple sign is also high-risk but red wale marks are the classic finding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0802f6b3a78",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with chronic hepatitis C and cirrhosis underwent successful DAA therapy with SVR 5 years ago. He now presents with right upper quadrant pain and weight loss. Contrast-enhanced CT of the liver is performed. Which single radiological feature is most characteristic of hepatocellular carcinoma (HCC) and raises the highest suspicion?",
+      "options": [
+        "Hypoenhancing nodule on portal venous phase",
+        "Mosaic architecture",
+        "Fatty metamorphosis",
+        "Capsular retraction",
+        "Arterial hyperenhancement with washout on delayed phase"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a cirrhotic liver, arterial hyperenhancement with delayed washout is the hallmark of HCC (LI-RADS category 5). Other features are less specific or associated with other hepatic lesions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f0d6a16f0fcf",
+      "topic": "Chronic Hepatitis C",
+      "slug": "chronic-hepatitis-c",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Viral hepatitis",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 42-year-old female healthcare worker with chronic hepatitis C (genotype 4) develops acute jaundice, dark urine, and malaise 6 weeks after completing a 12-week course of direct-acting antiviral therapy. She has no other medications. Which single laboratory finding is most concerning for severe drug-induced liver injury (DILI) and warrants urgent admission?",
+      "options": [
+        "Bilirubin 120 µmol/L",
+        "INR 2.1",
+        "ALT 1500 U/L",
+        "Antimitochondrial antibody negative",
+        "HCV RNA negative"
+      ],
+      "answerIndex": 1,
+      "explanation": "An elevated INR indicates impaired hepatic synthetic function and is a key parameter in defining acute liver failure (DILI severe). While high ALT and bilirubin are common, they do not alone dictate severity; HCV RNA negativity rules out relapse but does not indicate danger. Elevated INR is the red flag.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Schizophrenia",
+  "slug": "schizophrenia",
+  "system": "Psychiatry",
+  "subSystem": "Psychotic",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:11Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "02eadb5a9e0d",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 19-year-old male university student presents with an 8-month history of progressive social withdrawal, declining academic performance, and poor self-care. He reports that other students control his computer and that he hears voices commenting on his thoughts. He appears apathetic and lacks energy, but attributes his low mood to being harassed.",
+      "options": [
+        "Depression with psychotic features",
+        "Autism spectrum disorder",
+        "Schizophrenia",
+        "Cannabis-induced psychosis",
+        "Schizoid personality disorder"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of passivity phenomena (thought broadcasting) and auditory hallucinations, combined with insidious onset of negative symptoms, points to schizophrenia. Depression with psychotic features typically presents with mood-congruent delusions and prominent depressive symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "13482f0e8e60",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 42-year-old man is brought by his wife. He is convinced she is having an affair, despite a lack of evidence. He occasionally hears his name called when alone, which he attributes to her lovers watching him. He remains employed and manages daily activities, but the relationship is strained. No cognitive impairment.",
+      "options": [
+        "Schizophrenia (paranoid type)",
+        "Delusional disorder (jealous type)",
+        "Paranoid personality disorder",
+        "Factitious disorder",
+        "Obsessive-compulsive disorder (relationship obsessions)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of auditory hallucinations (even infrequent) along with a non-bizarre delusion meets criteria for schizophrenia. Delusional disorder requires the absence of hallucinations.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30349344409a",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 24-year-old woman is brought to the Emergency Department by police after shouting at invisible people in the street. On examination, she is dishevelled, her speech is incoherent with thought disorder, and she appears to be responding to internal stimuli. No prior psychiatric history. Collateral indicates a 2-week history of worsening agitation.",
+      "options": [
+        "Substance-induced psychotic disorder",
+        "Catatonic schizophrenia",
+        "Manic episode with psychotic features",
+        "Acute schizophrenia",
+        "Brief psychotic disorder"
+      ],
+      "answerIndex": 3,
+      "explanation": "The prominence of disorganisation, auditory hallucinations, and lack of euphoria or grandiosity suggests schizophrenia. Brief psychotic disorder requires full remission within 1 month; the prodrome often exceeds this.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f54a6defc35",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with schizophrenia on long-acting risperidone presents with rigidity, tremor, pyrexia (39°C), and fluctuating consciousness. He is diaphoretic and has labile blood pressure. His last injection was 2 weeks ago.",
+      "options": [
+        "Serotonin syndrome",
+        "Neuroleptic malignant syndrome",
+        "Parkinson's disease",
+        "Malignant hyperthermia",
+        "Acute dystonia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The classic triad of rigidity, fever, and autonomic instability following antipsychotic use is characteristic of NMS. Acute dystonia is sudden muscle spasm without fever; serotonin syndrome typically includes clonus and hyperreflexia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "37b1f135901c",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with a 6-month history of believing strangers are entering her home at night. She hears knocking and voices telling her to leave. She is orientated and scores 28/30 on the Montreal Cognitive Assessment. No prior psychiatric or neurological history.",
+      "options": [
+        "Frontotemporal dementia",
+        "Alzheimer's disease with psychosis",
+        "Very-late-onset schizophrenia-like psychosis",
+        "Delusional disorder",
+        "Depression with psychotic features"
+      ],
+      "answerIndex": 2,
+      "explanation": "Psychosis beginning after age 60 with prominent hallucinations and delusions, without cognitive or mood disturbance, is consistent with very-late-onset schizophrenia-like psychosis. Delusional disorder lacks hallucinations; dementia would show cognitive decline.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b823fd301b81",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 20-year-old man presents with auditory hallucinations and paranoid delusions for 2 weeks. He has no past psychiatric history. On examination, he is agitated but oriented. Vital signs are normal. Which investigation should be performed first to help establish the diagnosis?",
+      "options": [
+        "Lumbar puncture",
+        "EEG",
+        "MRI brain",
+        "CT head",
+        "Urine drug screen"
+      ],
+      "answerIndex": 4,
+      "explanation": "Urine drug screen is the first-line investigation to exclude substance-induced psychosis (e.g., cannabis, amphetamines), a common mimic. NICE recommends routine toxicology for first-episode psychosis. Imaging is not routinely indicated unless there are atypical features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9985a62a10ba",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 34-year-old man with known schizophrenia, stable on aripiprazole for 2 years, presents with worsening social withdrawal and apathy over 3 months. He has no positive symptoms. Which single investigation is most appropriate to exclude a medical cause for his negative symptoms?",
+      "options": [
+        "Serum prolactin",
+        "Thyroid function tests",
+        "Urine drug screen",
+        "CT head",
+        "Full blood count"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypothyroidism can present with apathy, fatigue, and social withdrawal, mimicking negative symptoms. Thyroid function tests should be performed to rule out this treatable cause. Prolactin is used to monitor side effects, not to diagnose relapse or medical mimics.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77963a5d93e9",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with schizophrenia on haloperidol presents with rigidity, fever (38.5°C), tachycardia, and confusion. Which single blood test is most useful to confirm the diagnosis?",
+      "options": [
+        "Full blood count",
+        "Liver function tests",
+        "Creatine kinase",
+        "C-reactive protein",
+        "Troponin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevated creatine kinase (CK) is a key diagnostic feature of neuroleptic malignant syndrome (NMS), along with fever, rigidity, and autonomic instability. FBC may show leukocytosis but is not diagnostic. CRP is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1756276e8a9b",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman with treatment-resistant schizophrenia on clozapine presents with a sore throat and fever of 38.2°C. She has been on clozapine for 6 weeks. Which investigation is most urgent?",
+      "options": [
+        "Throat swab",
+        "Blood cultures",
+        "Full blood count with differential",
+        "Electrocardiogram",
+        "C-reactive protein"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clozapine requires mandatory FBC monitoring due to the risk of agranulocytosis, especially in the first 18 weeks. Fever and sore throat are red flags; a FBC with differential is needed urgently to check neutrophil count. Other tests are helpful but secondary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2c03273e0595",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman presents with paranoid delusions and visual hallucinations over 2 weeks. She has no previous psychiatric history. She is mildly hypertensive but otherwise well. Which investigation is most appropriate to rule out an organic cause?",
+      "options": [
+        "CT head",
+        "Neuropsychological testing",
+        "EEG",
+        "Urine drug screen",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 0,
+      "explanation": "In older adults with first-episode psychosis, NICE recommends neuroimaging (CT or MRI) to exclude structural causes such as tumour, stroke, or normal pressure hydrocephalus. Visual hallucinations also raise suspicion for dementia with Lewy bodies. Other tests may be considered but imaging is first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "03c045adb8e5",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old man presents with a 6-month history of social withdrawal, disorganised speech, and persecutory delusions. He has never taken antipsychotic medication. His weight is 70 kg and QTc interval is 410 ms. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Clozapine 25 mg once daily",
+        "Risperidone depot 25 mg every 2 weeks",
+        "Chlorpromazine 100 mg four times daily",
+        "Haloperidol 5 mg three times daily",
+        "Olanzapine 10 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend an oral atypical antipsychotic (e.g., olanzapine, risperidone, aripiprazole) as first-line for first-episode schizophrenia. Clozapine is reserved for treatment-resistant disease. Haloperidol and chlorpromazine are first-generation antipsychotics with more extrapyramidal side effects. Depot is not first-line at initial presentation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "82fa9065a6df",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man with known schizophrenia is brought to the emergency department by police. He is extremely agitated, shouting, and trying to punch staff. He has no known allergies. Observations: HR 110, BP 140/90, temperature 37.2°C. What is the most appropriate treatment for rapid tranquillisation?",
+      "options": [
+        "Intravenous haloperidol 5 mg",
+        "Intramuscular olanzapine 10 mg",
+        "Oral risperidone 2 mg",
+        "Oral olanzapine 10 mg",
+        "Intramuscular lorazepam 4 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "For rapid tranquillisation of acute agitation in schizophrenia, NICE recommends intramuscular olanzapine or haloperidol (with or without promethazine). IM olanzapine is preferred due to lower risk of extrapyramidal side effects. Oral options are too slow. IV haloperidol carries risk of QT prolongation and arrhythmia. IM lorazepam can be used but antipsychotic is first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd77f4509435",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with schizophrenia has been treated with two different antipsychotics (risperidone and olanzapine) at adequate doses for 8 weeks each, with no significant improvement. Her symptoms remain severe with auditory hallucinations and delusions. What is the next step in pharmacological management?",
+      "options": [
+        "Clozapine 25 mg once daily",
+        "Electroconvulsive therapy",
+        "Aripiprazole 10 mg once daily",
+        "Depot flupentixol 40 mg every 2 weeks",
+        "High-dose olanzapine 30 mg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Treatment-resistant schizophrenia is defined by failure to respond to two adequate trials of different antipsychotics. NICE recommends clozapine as the next-line treatment. Aripiprazole and depot flupentixol are other options but clozapine is specifically indicated for treatment resistance. High-dose olanzapine is not recommended due to increased side effect risk without proven efficacy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7d06f982db2",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 34-year-old woman with schizophrenia is 10 weeks pregnant. She is currently not on any antipsychotic medication due to non-adherence. She has mild paranoid delusions but is not a risk to herself or others. After discussion, she agrees to take medication. What is the most appropriate antipsychotic to prescribe?",
+      "options": [
+        "Lithium 400 mg once daily",
+        "No antipsychotic treatment",
+        "Haloperidol 1.5 mg once daily",
+        "Olanzapine 10 mg once daily",
+        "Clozapine 25 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, haloperidol is often preferred due to its long history of use and relatively lower risk of congenital malformations compared to other antipsychotics. Olanzapine is associated with gestational diabetes and weight gain. Clozapine is contraindicated due to risk of agranulocytosis and lack of safety data. Lithium is associated with Ebstein's anomaly. Stopping treatment risks relapse, so treatment is indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6ab2167ed7cf",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with schizophrenia has been stable on oral risperidone 4 mg daily for 2 years. However, he frequently misses doses due to poor insight and has had two relapses in the past year. He is currently euthymic with no acute symptoms. What is the most appropriate management to improve adherence?",
+      "options": [
+        "Switch to clozapine 25 mg once daily",
+        "Add aripiprazole 5 mg daily",
+        "Switch to depot risperidone 25 mg every 2 weeks",
+        "Refer for cognitive behavioural therapy",
+        "Increase risperidone dose to 6 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For poor adherence in schizophrenia, NICE recommends considering long-acting injectable (depot) antipsychotics, such as risperidone depot. Increasing dose or adding another oral agent does not address non-adherence. CBT is ineffective for adherence. Clozapine is not indicated as the patient is not treatment-resistant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa2757d2e2d8",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 24-year-old man with first-episode psychosis was started on haloperidol 5 mg orally two hours ago. He now presents with an acute dystonic reaction: his neck is twisted to one side and his eyes are deviated upwards. He is unable to speak but is conscious. Observations are stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent CT head",
+        "Administer lorazepam 2 mg IM",
+        "Call the psychiatric crisis team",
+        "Switch to olanzapine",
+        "Administer procyclidine 5 mg IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute dystonia is an extrapyramidal side effect that can occur shortly after starting high-potency antipsychotics like haloperidol. The immediate treatment is an anticholinergic agent such as procyclidine IV/IM. Benzodiazepines are not first-line for dystonia. Switching antipsychotic or imaging are not urgent and do not address the acute dystonia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2c5e8748be3",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with treatment-resistant schizophrenia on clozapine 300 mg daily for 6 months presents to the ED with a two-day history of sore throat and fever (38.5°C). She looks well-hydrated and no focal signs on examination. What is the most appropriate immediate next step?",
+      "options": [
+        "Check full blood count urgently",
+        "Prescribe oral antibiotics",
+        "Prescribe paracetamol and discharge",
+        "Reduce clozapine dose",
+        "Refer to haematology"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clozapine can cause agranulocytosis; any fever or sore throat mandates an urgent FBC to exclude neutropenia. Antibiotics, dose reduction, or paracetamol are not appropriate without knowing the neutrophil count. Haematology referral may follow if neutropenia is confirmed, but the immediate next step is to check the FBC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90405e0c855d",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 19-year-old university student is brought to the ED by his parents. Over the past 4 weeks he has become increasingly withdrawn, stopped attending lectures, and now believes that his flatmates are plotting against him. He has started wearing a hat to block 'mind-reading rays'. He is calm, cooperative, and denies any intention to harm himself or others. Physical examination and routine bloods are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit to a general medical ward",
+        "Arrange an urgent MRI brain",
+        "Start olanzapine 10 mg daily",
+        "Refer to the early intervention in psychosis team",
+        "Discharge with outpatient follow-up in 4 weeks"
+      ],
+      "answerIndex": 3,
+      "explanation": "For first-episode psychosis without acute risk, NICE recommends referral to an early intervention in psychosis service for comprehensive assessment and treatment. Starting antipsychotics is not appropriate until full assessment by the specialist team. Admission is not required as there is no acute risk. MRI is not indicated first-line, and discharge without specialist involvement is unsafe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ef69ebaad7e",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman at 32 weeks gestation with a history of schizophrenia is brought to the maternity assessment unit by her partner. She has stopped her antipsychotic (risperidone) three weeks ago because she thought it might harm the baby. She now presents with agitation, responding to internal stimuli, and expressing paranoid delusions about her obstetrician poisoning her. She refuses to engage with staff. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer lorazepam 2 mg IM for sedation",
+        "Assess under the Mental Health Act",
+        "Refer to perinatal psychiatry clinic",
+        "Request an urgent obstetric ultrasound",
+        "Restart risperidone at previous dose"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient lacks capacity due to mental disorder with risk to herself and her fetus. Immediate assessment for detention under the Mental Health Act is necessary to allow assessment and treatment (including medication) in a mother-and-baby unit. Restarting medication cannot be enforced without legal authority. Lorazepam may be used but only after legal framework is considered. Obstetric ultrasound is not urgent; referral to perinatal psychiatry is useful but not the immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "818cffef4aee",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with chronic schizophrenia on flupentixol depot 40 mg every 2 weeks presents to the ED with fever (39.2°C), generalised rigidity, confusion, and fluctuating consciousness. His pulse is 110 bpm, BP 140/90, and oxygen saturation 96% on air. On examination, he is diaphoretic and has a fine tremor. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange a lumbar puncture",
+        "Start broad-spectrum antibiotics",
+        "Administer dantrolene 1 mg/kg IV",
+        "Check serum creatine kinase",
+        "Discontinue all antipsychotic medication"
+      ],
+      "answerIndex": 4,
+      "explanation": "Neuroleptic malignant syndrome is a medical emergency. The first step is to discontinue the offending antipsychotic. Supportive care and monitoring are critical. Checking CK confirms diagnosis but does not take priority over removing the cause. Dantrolene is used later for severe cases. Antibiotics and LP are not indicated as infection is less likely given the presentation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dae1e418f556",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man is brought to his GP by his mother. He has been isolating himself for weeks, and his speech is sparse. On examination, he appears to be in a stupor, with his limbs maintaining positions when moved (waxy flexibility). He does not speak. His temperature is 37.1°C, pulse 72. Which single finding in this scenario most raises concern for a life-threatening emergency?",
+      "options": [
+        "Mutism and waxy flexibility",
+        "Delusions of persecution",
+        "Poor self-care",
+        "Auditory hallucinations",
+        "Social withdrawal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Catatonia can progress to malignant catatonia with autonomic instability, which is life-threatening. The presence of mutism and waxy flexibility in a patient with suspected schizophrenia should prompt immediate assessment for catatonia. Auditory hallucinations and delusions are psychotic features but do not carry the same acute risk as catatonic stupor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "db427680f16c",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known schizophrenia is brought to ED by police after he was found shouting at neighbours. He is agitated and says he can hear the voice of God telling him to 'burn the house down.' Which single finding in the mental state examination indicates he requires immediate admission under the Mental Health Act for risk of serious harm?",
+      "options": [
+        "Command hallucinations to harm others",
+        "Thought insertion",
+        "Third-person auditory hallucinations",
+        "Auditory hallucinations",
+        "Persecutory delusions"
+      ],
+      "answerIndex": 0,
+      "explanation": "Command hallucinations that instruct the patient to harm others (or themselves) are a red flag for imminent dangerousness and warrant urgent assessment for detention. While any psychotic symptom can be concerning, specific commands to act violently indicate the highest risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b11c0e1f0d6f",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with schizophrenia treated with haloperidol for two years presents with confusion, fever of 38.9°C, and muscle rigidity. Her pulse is 110, BP 140/90. Which of the following laboratory findings is most characteristic of the life-threatening complication she is experiencing?",
+      "options": [
+        "Elevated creatine kinase",
+        "Leucopenia",
+        "Hypokalaemia",
+        "Thrombocytosis",
+        "Hypernatraemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neuroleptic malignant syndrome is a medical emergency characterised by fever, rigidity, autonomic instability, and elevated creatine kinase (due to muscle breakdown). Hypokalaemia and leucopenia are not typical; hypernatraemia may occur but is not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa33496e5506",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old man with chronic schizophrenia is brought to the medical assessment unit because of new-onset confusion and a single generalised tonic-clonic seizure. He is on clozapine. He lives independently and has been drinking large volumes of water recently. Which of the following serum findings is most likely to be the cause of his seizure?",
+      "options": [
+        "Hypercalcaemia",
+        "Hypoglycaemia",
+        "Hypomagnesaemia",
+        "Hyperkalaemia",
+        "Hyponatraemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Psychogenic polydipsia (excessive water drinking) can cause dilutional hyponatraemia, leading to cerebral oedema and seizures. Clozapine can also lower the seizure threshold. Hyponatraemia (typically <125 mmol/L) is the most likely acute cause. Other electrolyte disturbances are less common.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9f166fbdab6b",
+      "topic": "Schizophrenia",
+      "slug": "schizophrenia",
+      "system": "Psychiatry",
+      "subSystem": "Psychotic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 24-year-old man on clozapine for treatment-resistant schizophrenia presents with pleuritic chest pain, fever of 38.0°C, and palpitations for 2 days. He has no previous cardiac history. Which single finding is most likely to indicate the life-threating complication of his medication?",
+      "options": [
+        "Elevated troponin",
+        "Prolonged QT interval",
+        "Pericardial effusion on echo",
+        "Widespread T wave inversion",
+        "ST elevation on ECG"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clozapine can cause myocarditis, typically within the first few weeks of therapy. Fever, chest pain, and palpitations are early symptoms; an elevated troponin is a sensitive marker for myocardial inflammation. ST elevation or T wave inversion may occur but are less specific; pericardial effusion is a later sign.",
+      "difficulty": "medium"
+    }
+  ]
+}

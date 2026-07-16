@@ -1,0 +1,473 @@
+{
+  "topic": "Paediatric Anaphylaxis",
+  "slug": "paediatric-anaphylaxis",
+  "system": "Paediatrics",
+  "subSystem": "Emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:09Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 23,
+  "questions": [
+    {
+      "id": "21d7f9c246cd",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 4-year-old boy with known peanut allergy presents to the emergency department 15 minutes after accidentally eating a peanut butter sandwich. On examination, he has generalised urticaria, stridor, and audible wheeze. Heart rate 140 bpm, blood pressure 80/45 mmHg, oxygen saturation 92% on air. What is the single most likely diagnosis?",
+      "options": [
+        "Allergic bronchopulmonary aspergillosis",
+        "Acute asthma exacerbation",
+        "Croup",
+        "Laryngomalacia",
+        "Anaphylaxis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of urticaria, stridor, wheeze, and hypotension following a known allergen is classic for anaphylaxis. Acute asthma exacerbation lacks urticaria and stridor, while croup typically presents with barking cough and fever.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dff8d4465988",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 2-year-old girl is brought to the GP with a 1-hour history of profuse vomiting and diarrhoea. Her mother reports she ate scrambled egg for the first time this morning. No rash or respiratory symptoms. On examination, she is pale, tachycardic (160 bpm), and has a distended, tender abdomen. Capillary refill time is 4 seconds. What is the single most likely diagnosis?",
+      "options": [
+        "Intussusception",
+        "Acute gastroenteritis",
+        "Diabetic ketoacidosis",
+        "Anaphylaxis",
+        "Sepsis secondary to UTI"
+      ],
+      "answerIndex": 3,
+      "explanation": "Isolated gastrointestinal anaphylaxis can occur in young children, and the rapid onset after a new food allergen suggests anaphylaxis rather than gastroenteritis. Hypotension and tachycardia indicate shock, and absence of fever makes sepsis less likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ff1b8d127d8",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 6-month-old infant presents to the emergency department with sudden onset hypotonia and poor feeding. Mother gave cow's milk formula for the first time an hour ago. On examination, temperature 36.8°C, heart rate 180 bpm, respiratory rate 50, oxygen saturation 94%, blood pressure 65/40 mmHg. The infant is floppy with mottled skin and no visible rash. What is the single most likely diagnosis?",
+      "options": [
+        "Intracranial haemorrhage",
+        "Anaphylaxis",
+        "Severe sepsis",
+        "Hypoglycaemia",
+        "Myocarditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Anaphylaxis can present without urticaria in infants; hypotension, tachycardia, and hypotonia after new formula are highly suspicious. Sepsis usually has fever or hypothermia, and hypoglycaemia would not explain the hypotension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b433b20c0a9",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 7-year-old boy was stung by a wasp 1 hour ago. He developed local swelling and urticaria which resolved after chlorphenamine. He now returns with recurrence of urticaria, wheeze, and dizziness. Blood pressure 85/50 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Serum sickness",
+        "Vasovagal syncope",
+        "Local allergic reaction",
+        "Biphasic anaphylaxis",
+        "Anxiety attack"
+      ],
+      "answerIndex": 3,
+      "explanation": "Biphasic anaphylaxis occurs hours after initial symptoms, often without further allergen exposure. Serum sickness is delayed (days) and presents with fever and arthralgia. Vasovagal syncope lacks urticaria and wheeze.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "719705e9d3f3",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 14-year-old girl collapses while running cross-country 30 minutes after eating a wheaten bagel. She has generalised urticaria, stridor, and is incontinent of urine. Pulse 130 bpm, BP 70/40 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylaxis (food-dependent exercise-induced)",
+        "Hypoglycaemia",
+        "Heat stroke",
+        "Cardiac arrhythmia due to hypertrophic cardiomyopathy",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 0,
+      "explanation": "The temporal association of food ingestion and exercise with anaphylaxis features is diagnostic of FDEIA. Hypertrophic cardiomyopathy would not cause urticaria or stridor, and heat stroke presents with hyperthermia and altered mental status.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc8e3f121600",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 4-year-old boy presents to the emergency department with generalised urticaria, stridor, and hypotension 10 minutes after eating peanut butter. What is the single most appropriate test to confirm the diagnosis of anaphylaxis?",
+      "options": [
+        "Skin prick test to peanut",
+        "Serum specific IgE to peanut",
+        "Full blood count",
+        "Serum mast cell tryptase",
+        "C-reactive protein"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mast cell tryptase is released during anaphylaxis and peaks at 1-2 hours after symptom onset; NICE guidelines recommend taking a blood sample for mast cell tryptase in all suspected anaphylaxis cases. Specific IgE and skin prick tests are for identifying triggers, not acute diagnosis. FBC and CRP are non-specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "08348acdbf1f",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 6-year-old with known egg allergy develops generalised urticaria, wheeze, and persistent cough 20 minutes after eating a cake. Heart rate is 130/min, blood pressure 80/50 mmHg. Which of the following best defines this episode as anaphylaxis?",
+      "options": [
+        "Isolated urticaria",
+        "Hypotension alone",
+        "Rapid onset of skin and respiratory symptoms with hypotension",
+        "Abdominal pain",
+        "Wheeze alone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Anaphylaxis is defined by NICE as a severe, life-threatening, generalised hypersensitivity reaction; the presence of skin involvement (urticaria) plus respiratory compromise (wheeze) and hypotension fulfills the diagnostic criteria. The other options are insufficient or not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "42ff59bf10a1",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 7-year-old girl had anaphylaxis 3 hours ago. A serum mast cell tryptase level taken during emergency treatment was 25 ng/mL (normal <11.4 ng/mL). A repeat sample now shows a level of 8 ng/mL. What is the correct interpretation?",
+      "options": [
+        "Normal variation, no anaphylaxis",
+        "Indicates a laboratory error",
+        "Confirms anaphylaxis with mast cell degranulation",
+        "Suggests an alternative diagnosis",
+        "Suggests underlying mastocytosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "An elevated tryptase during the acute episode which falls to normal within 24 hours is characteristic of anaphylaxis. Persistently elevated tryptase would suggest mastocytosis. The pattern of rise and fall confirms mast cell activation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6222b73653e0",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 9-month-old infant presents with sudden onset of generalised erythema, stridor, and hypotonia after first exposure to cow's milk. You suspect anaphylaxis but also consider a severe viral infection. Which investigation is most useful in differentiating these two conditions?",
+      "options": [
+        "Lumbar puncture",
+        "Nasopharyngeal aspirate for viruses",
+        "Stool culture",
+        "Serum mast cell tryptase",
+        "Blood culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mast cell tryptase is specific for mast cell degranulation and is elevated in anaphylaxis, not in viral infections. Viral PCR and cultures would help identify an infection but do not exclude anaphylaxis. The clinical scenario is typical for anaphylaxis in an infant, and tryptase provides confirmatory evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5c7d6be7a31a",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 10-year-old with recurrent episodes of flushing, palpitations, and hypotension has a serum mast cell tryptase level of 30 ng/mL during an episode and 18 ng/mL at baseline (normal <11.4 ng/mL). Which underlying condition is most likely?",
+      "options": [
+        "Mastocytosis",
+        "Anaphylaxis",
+        "Phaeochromocytoma",
+        "Panic attack",
+        "Carcinoid syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elevated tryptase both acutely and at baseline suggests a clonal mast cell disorder such as mastocytosis. In anaphylaxis, baseline tryptase is normal. Phaeochromocytoma, carcinoid syndrome, and panic attacks do not cause tryptase elevation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b5f10c5b269f",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 8-year-old boy presents with generalised urticaria, stridor, and hypotension 10 minutes after a bee sting. Diagnosis: anaphylaxis. What is the single most appropriate first-line treatment?",
+      "options": [
+        "Oral prednisolone 40 mg",
+        "Intravenous adrenaline 0.1 mL/kg (1:10,000)",
+        "Intravenous hydrocortisone 100 mg",
+        "Intramuscular adrenaline 0.3 mg (1:1000)",
+        "Intramuscular chlorphenamine 5 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Intramuscular adrenaline is the first-line treatment for anaphylaxis in children (BNF/NICE). Intravenous adrenaline carries risk of arrhythmia and is reserved for experienced clinicians in severe shock. Antihistamines and steroids are adjunctive, not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd489ec41b7a",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 5-year-old girl with anaphylaxis to peanuts received intramuscular adrenaline (0.15 mg) 5 minutes ago. She remains hypotensive (BP 60/40 mmHg) and wheezy. What is the single most appropriate next treatment?",
+      "options": [
+        "Intravenous hydrocortisone 50 mg",
+        "Intravenous 0.9% saline 20 mL/kg",
+        "Intravenous adrenaline infusion",
+        "Nebulised salbutamol 2.5 mg",
+        "Repeat intramuscular adrenaline 0.15 mg"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to NICE and APLS guidelines, if hypotension persists after initial IM adrenaline, give an IV fluid bolus (20 mL/kg 0.9% saline) immediately. Repeat IM adrenaline can be given concurrently, but IV fluids are the critical intervention for hypotension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f47dd32720c1",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 7-year-old child is being discharged after successful treatment of anaphylaxis to cashew nut. She is now asymptomatic. What is the single most important prescription for preventing future episodes?",
+      "options": [
+        "Adrenaline auto-injector (e.g., EpiPen 0.3 mg)",
+        "Epinephrine solution for nebulisation",
+        "Prednisolone 40 mg once daily for 3 days",
+        "Salbutamol inhaler 2 puffs as required",
+        "Oral chlorphenamine 4 mg twice daily for 1 week"
+      ],
+      "answerIndex": 0,
+      "explanation": "After anaphylaxis, NICE guidelines recommend prescribing an adrenaline auto-injector for emergency self-administration in the community. Antihistamines and steroids are not first-line for anaphylaxis prevention or treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a9a24d9dbc4a",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 6-year-old girl with known peanut allergy presents to the ED 20 minutes after accidentally eating a peanut-containing biscuit. She has stridor, widespread wheeze, and is pale. Her heart rate is 140/min, BP 70/40 mmHg, SpO2 88% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Call the anaesthetic registrar",
+        "Administer intramuscular adrenaline",
+        "Start nebulised salbutamol",
+        "Administer intravenous fluids (20 mL/kg)",
+        "Administer intravenous adrenaline"
+      ],
+      "answerIndex": 1,
+      "explanation": "In anaphylaxis, intramuscular adrenaline is the first-line treatment due to rapid absorption and safety. IV adrenaline is reserved for patients in cardiac arrest or under specialist guidance due to risk of arrhythmias.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d98a7a203f60",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 10-year-old boy with anaphylaxis to a wasp sting was given intramuscular adrenaline 0.3 mg (EpiPen) 5 minutes ago. He remains distressed with stridor, wheeze, and a BP of 75/45 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Give intravenous chlorphenamine",
+        "Start an intravenous adrenaline infusion",
+        "Administer intravenous hydrocortisone",
+        "Obtain a venous blood gas",
+        "Repeat intramuscular adrenaline"
+      ],
+      "answerIndex": 4,
+      "explanation": "In anaphylaxis not responding to the first dose of IM adrenaline, the dose should be repeated after 5 minutes. IV adrenaline is not first-line and is only used in refractory cases by experienced clinicians.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d65f1e7a952",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 8-year-old girl with a history of asthma and migraine (treated with propranolol) develops acute urticaria, stridor, and hypotension after eating a kiwi fruit. She received IM adrenaline 0.3 mg 5 minutes ago with no improvement. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluids",
+        "Repeat intramuscular adrenaline",
+        "Administer intravenous glucagon",
+        "Administer intravenous methylprednisolone",
+        "Give intravenous adrenaline"
+      ],
+      "answerIndex": 2,
+      "explanation": "In patients on beta-blockers, the effects of adrenaline are blunted. Glucagon acts independently of beta-receptors and can improve cardiac output and blood pressure. Repeat IM adrenaline may still be given, but if there is no response, glucagon is the recommended next step in this population.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6aa869b65c9e",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 12-year-old boy with known nut allergy presents with anaphylaxis (urticaria, wheeze, hypotension). He responds to IM adrenaline and IV fluids. After 2 hours, he is asymptomatic with normal observations. He has a history of biphasic anaphylaxis. What is the single most appropriate immediate next step?",
+      "options": [
+        "Arrange outpatient allergy clinic follow-up",
+        "Discharge home with an adrenaline auto-injector",
+        "Prescribe a course of oral prednisolone",
+        "Start a continuous intravenous adrenaline infusion",
+        "Admit for observation for at least 6 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "Biphasic anaphylaxis can occur 4–12 hours after the initial episode. Current UK guidelines recommend observation for 6–12 hours in patients with a history of biphasic reactions or severe anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6a8299b4d6bc",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 5-year-old with known asthma presents with anaphylaxis after eating a chocolate bar. He is given IM adrenaline. After 5 minutes, his stridor has resolved and BP is 90/60, but he continues to have significant wheeze and a SpO2 of 91% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Repeat intramuscular adrenaline",
+        "Start intravenous aminophylline",
+        "Give intravenous hydrocortisone",
+        "Administer high-flow oxygen",
+        "Give inhaled salbutamol via a nebuliser"
+      ],
+      "answerIndex": 4,
+      "explanation": "After adrenaline, persistent bronchospasm can be treated with inhaled beta-agonists such as salbutamol. This is standard management for asthma exacerbation that may coexist with anaphylaxis. A second dose of adrenaline is not indicated if there is no hypotension or other features of anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acbe46e6eba1",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 4-year-old boy presents to the emergency department with urticaria and angioedema after eating peanuts 30 minutes ago. He is alert, respiratory rate 28/min, oxygen saturations 98% in air, heart rate 130/min, blood pressure 95/60 mmHg. Which single finding would indicate that this is anaphylaxis (a red flag for deterioration) rather than a mild allergic reaction?",
+      "options": [
+        "Stridor",
+        "Rhinorrhoea",
+        "Abdominal cramps",
+        "Itching palms",
+        "Periorbital oedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor indicates upper airway compromise (laryngeal oedema), which is a defining feature of anaphylaxis and mandates immediate epinephrine. The other options are common in mild allergic reactions and do not indicate life-threatening airway involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ea5ecf06b97",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 6-year-old girl with known egg allergy develops generalised urticaria, facial swelling, and vomiting after eating cake at a party. She is fearful, with a hoarse voice and mild tachypnoea (respiratory rate 32/min). Her oxygen saturation is 95% in air. Which single clinical feature most clearly crosses the threshold for immediate administration of intramuscular epinephrine?",
+      "options": [
+        "Facial swelling",
+        "Vomiting",
+        "Tachypnoea",
+        "Hoarse voice",
+        "Generalised urticaria"
+      ],
+      "answerIndex": 3,
+      "explanation": "A hoarse voice suggests laryngeal oedema and impending airway obstruction, an absolute indication for immediate epinephrine. While tachypnoea and vomiting can occur in anaphylaxis, hoarseness specifically indicates upper airway involvement, which is a red flag for life-threatening progression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8af73b56f86e",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 8-year-old boy with no known allergies is brought to the emergency department collapsed after a bee sting. He is unresponsive, hypotensive (blood pressure 60/40 mmHg), and has audible wheeze. He has received one dose of intramuscular epinephrine en route. Which single clinical finding now best indicates that he requires immediate escalation to anaphylaxis specialist care (e.g., paediatric intensive care)?",
+      "options": [
+        "Persistent hypotension despite two doses of epinephrine",
+        "Abdominal pain",
+        "Widespread urticaria",
+        "A history of asthma",
+        "Wheeze that is improving after epinephrine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent hypotension after two doses of epinephrine indicates refractory anaphylaxis, requiring intravenous fluids, further vasopressors, and intensive care. The other findings, while relevant, do not in themselves mandate escalation; a single dose response often allows observation on a ward.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dfb014d2ce70",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 2-year-old girl with no prior allergies receives amoxicillin for otitis media. Within an hour she develops widespread urticaria, lip swelling, and begins coughing. She is treated with intramuscular epinephrine and improves over 20 minutes. She is admitted for observation. Which single clinical scenario should prompt a high suspicion of a biphasic reaction (a red flag for re-escalation)?",
+      "options": [
+        "Recurrence of urticaria and wheeze 4 hours after the initial episode",
+        "A drop in blood pressure 30 minutes after epinephrine",
+        "Persistent tachycardia 2 hours after treatment",
+        "Mild drowsiness 1 hour after epinephrine",
+        "Normal oxygen saturations but persistent cough"
+      ],
+      "answerIndex": 0,
+      "explanation": "A biphasic reaction is defined by recurrence of anaphylaxis symptoms (e.g., urticaria, wheeze, hypotension) within 1–12 hours after initial resolution, often without re-exposure. Recurrence of urticaria and wheeze at 4 hours fits this pattern and warrants immediate re-treatment and escalation. The other options are either normal events or not typical of biphasic anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2340eaaabd9",
+      "topic": "Paediatric Anaphylaxis",
+      "slug": "paediatric-anaphylaxis",
+      "system": "Paediatrics",
+      "subSystem": "Emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 6-month-old infant presents with a widespread erythematous rash, lip swelling, and lethargy after first exposure to cow's milk formula. The mother states the infant is 'floppy' and not crying. Vital signs: respiratory rate 40/min, heart rate 180/min, oxygen saturation 94% in air, capillary refill time 4 seconds. Which single finding is the most important red flag in this infant that distinguishes anaphylaxis from a simple allergic reaction?",
+      "options": [
+        "Lethargy with hypotonia",
+        "Erythematous rash",
+        "Tachypnoea",
+        "Tachycardia",
+        "Lip swelling"
+      ],
+      "answerIndex": 0,
+      "explanation": "In infants, lethargy and hypotonia ('floppy baby') can be the only signs of severe anaphylaxis, representing reduced cerebral perfusion and impending shock. Unlike older children, infants may not reliably report symptoms. The other signs (tachycardia, tachypnoea, lip swelling, rash) are common in mild reactions and not always indicators of severity in this age group.",
+      "difficulty": "medium"
+    }
+  ]
+}

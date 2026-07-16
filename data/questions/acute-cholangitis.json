@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Cholangitis",
+  "slug": "acute-cholangitis",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Biliary",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:27:40Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "1d1f55fb78b7",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with a 2-day history of fever, right upper quadrant pain, and jaundice. She has no significant medical history. Observations: temperature 38.8°C, pulse 100 bpm, BP 110/70 mmHg. Abdominal examination reveals tenderness in the right upper quadrant. What is the single most likely diagnosis?",
+      "options": [
+        "Biliary colic",
+        "Acute cholangitis",
+        "Acute pancreatitis",
+        "Acute cholecystitis",
+        "Liver abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "Charcot's triad (fever, RUQ pain, jaundice) is classic for acute cholangitis. Acute cholecystitis typically presents with fever and RUQ pain but jaundice is uncommon unless there is a coexisting common bile duct stone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1e16a09f3390",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with known gallstones is admitted with fever, jaundice, and right upper quadrant pain. His observations: temperature 39.2°C, pulse 120 bpm, BP 85/50 mmHg, and he is confused. What is the single most likely diagnosis?",
+      "options": [
+        "Severe acute pancreatitis",
+        "Liver abscess rupture",
+        "Acute cholecystitis with perforation",
+        "Acute cholangitis with septic shock",
+        "Ascending cholangitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Reynolds' pentagon (Charcot's triad plus hypotension and confusion) indicates severe acute cholangitis with septic shock. Ascending cholangitis is a synonym but 'with septic shock' better captures severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2ba02c20a148",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman underwent ERCP with stent insertion for choledocholithiasis 48 hours ago. She now presents with rigors, right upper quadrant discomfort, and temperature 38.5°C. Observations otherwise stable. What is the single most likely diagnosis?",
+      "options": [
+        "Post-ERCP acute cholangitis",
+        "Stent migration",
+        "Bleeding from sphincterotomy",
+        "Duodenal perforation",
+        "Post-ERCP acute pancreatitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fever and rigors after ERCP with stent insertion suggest ascending infection causing acute cholangitis. Pancreatitis would typically present with epigastric pain radiating to the back and elevated amylase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1616c559a155",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 85-year-old nursing home resident presents with acute confusion, fever of 38.6°C, and mild jaundice. She has no abdominal pain. Urine dipstick is negative for nitrites and leukocytes. Chest X-ray is clear. What is the single most likely diagnosis?",
+      "options": [
+        "Meningitis",
+        "Community-acquired pneumonia",
+        "Hepatic encephalopathy",
+        "Acute cholangitis",
+        "Urinary tract infection with sepsis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the elderly, acute cholangitis can present atypically with confusion and fever without abdominal pain. Jaundice points to biliary obstruction and infection; other sources are less likely given normal urine and chest X-ray.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1164640e66b7",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old man from Southeast Asia presents with recurrent episodes of right upper quadrant pain, fever, and jaundice over the past year. He has no history of gallstones. CT shows dilated intrahepatic ducts with multiple stones. What is the single most likely diagnosis?",
+      "options": [
+        "Recurrent pyogenic cholangitis",
+        "Cholangiocarcinoma",
+        "Benign biliary stricture",
+        "Primary sclerosing cholangitis",
+        "Common bile duct stone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recurrent pyogenic cholangitis (Oriental cholangitis) is typical in Asian patients and presents with recurrent episodes of cholangitis, intrahepatic duct dilatation, and stones. Primary sclerosing cholangitis is more common in younger men with IBD and shows beading of ducts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18390af3e222",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman presents with a 2-day history of right upper quadrant pain, fever (38.9°C), and jaundice. On examination, she is haemodynamically stable. Blood tests show bilirubin 85 μmol/L, ALP 450 IU/L, ALT 120 IU/L, and WCC 14.5 × 10^9/L. What is the most appropriate initial investigation to confirm the diagnosis of acute cholangitis?",
+      "options": [
+        "Contrast-enhanced CT abdomen",
+        "Abdominal ultrasound",
+        "Magnetic resonance cholangiopancreatography (MRCP)",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "Abdominal ultrasound is the first-line imaging to confirm biliary obstruction (dilated bile ducts, common bile duct stones) in suspected cholangitis, as per NICE. MRCP is reserved for when ultrasound is inconclusive, ERCP is therapeutic, CT is less sensitive for stones, and blood cultures aid diagnosis but do not confirm obstruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "86993ee1bfdb",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a history of gallstones presents with intermittent right upper quadrant pain, but no fever. His bilirubin is normal, ALP 250 IU/L, ALT 95 IU/L. Abdominal ultrasound shows a mildly dilated common bile duct (8 mm) but no definite stones. What is the most appropriate next investigation to diagnose choledocholithiasis as a potential cause of cholangitis?",
+      "options": [
+        "Contrast-enhanced CT abdomen",
+        "Endoscopic ultrasound (EUS)",
+        "Magnetic resonance cholangiopancreatography (MRCP)",
+        "Repeat ultrasound in 4 weeks",
+        "Hepatobiliary iminodiacetic acid (HIDA) scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRCP is the non-invasive gold standard for diagnosing bile duct stones when ultrasound is equivocal, especially in a patient without fever (mild presentation). EUS is an alternative but more invasive; MRCP is preferred as first-line next test. CT has poor sensitivity for small stones, HIDA scan assesses function not stones, and repeat ultrasound may miss subtle stones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9891618325de",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 80-year-old man presents with septic shock, fever (39.5°C), jaundice, and confusion. He is hypotensive and requires vasopressors. Abdominal ultrasound shows dilated intrahepatic ducts and a common bile duct stone. What is the single most appropriate diagnostic imaging to guide urgent biliary drainage?",
+      "options": [
+        "Percutaneous transhepatic cholangiography (PTC)",
+        "Magnetic resonance cholangiopancreatography (MRCP)",
+        "Contrast-enhanced CT abdomen",
+        "Repeat abdominal ultrasound",
+        "Endoscopic retrograde cholangiopancreatography (ERCP)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe cholangitis with septic shock, ERCP is both diagnostic and therapeutic (sphincterotomy, stone extraction) and is the procedure of choice for urgent biliary drainage per UK guidelines. MRCP is too slow in emergencies, CT is less useful for stone clearance, PTC is reserved if ERCP fails, and repeat ultrasound adds no value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a423809d34e3",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old woman with known gallstones presents with fever, jaundice, and RUQ pain. Blood cultures grow Escherichia coli. After 48 hours of IV antibiotics, she remains febrile. What does the blood culture result most strongly suggest regarding the diagnosis?",
+      "options": [
+        "Cholecystitis with secondary bacteraemia",
+        "Pancreatitis with infected necrosis",
+        "Cholangitis with gram-negative bacteraemia",
+        "Bacteraemia from a urinary source",
+        "Liver abscess with biliary spread"
+      ],
+      "answerIndex": 2,
+      "explanation": "E. coli is a common biliary pathogen, and its isolation from blood cultures in the setting of fever, jaundice, and RUQ pain strongly supports a diagnosis of cholangitis with gram-negative sepsis. Other options (cholecystitis, liver abscess) may also yield E. coli, but the triad makes cholangitis most likely. Urinary source is less plausible without symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "58578b71a187",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "According to the Tokyo Guidelines (2018), which combination of findings is diagnostic for acute cholangitis?",
+      "options": [
+        "Jaundice, right upper quadrant pain, and dilated bile ducts on imaging",
+        "Fever, jaundice, and abnormal liver function tests",
+        "Fever, right upper quadrant pain, and elevated inflammatory markers",
+        "Fever, jaundice, and hypotension",
+        "Fever, jaundice, and right upper quadrant pain"
+      ],
+      "answerIndex": 4,
+      "explanation": "The Tokyo Guidelines diagnose acute cholangitis clinically with Charcot's triad: fever, jaundice, and right upper quadrant pain (or abdominal pain). Systemic inflammation and imaging findings support but are not required for diagnosis. Hypotension is part of Reynolds pentad (severe). Other combinations are not the formal diagnostic criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2727486c3e95",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with a 2-day history of right upper quadrant pain, fever (38.5°C), and jaundice. Observations are normal. Blood tests show bilirubin 55 μmol/L, ALP 350 U/L, ALT 120 U/L, CRP 110 mg/L, WCC 13.5 × 10^9/L. Abdominal ultrasound shows a dilated common bile duct (CBD) 10 mm with a single stone at the distal end. She has no significant comorbidities. What is the most appropriate definitive treatment?",
+      "options": [
+        "Urgent ERCP (<6 hours)",
+        "Percutaneous transhepatic biliary drainage",
+        "Intravenous antibiotics alone",
+        "Laparoscopic cholecystectomy with intraoperative cholangiogram",
+        "Endoscopic retrograde cholangiopancreatography (ERCP) within 24 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is mild (grade I) acute cholangitis per Tokyo guidelines. Definitive treatment is early biliary drainage, optimally within 24 hours, after initiating antibiotics. Urgent ERCP is reserved for severe (grade III) cholangitis with organ failure. Antibiotics alone are not definitive. Percutaneous drainage is an alternative if ERCP fails. Cholecystectomy alone does not address the CBD stone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "00843a779958",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man presents with fever, rigors, jaundice, and confusion. On examination, heart rate 110 bpm, blood pressure 85/50 mmHg, temperature 39.2°C. Bloods: bilirubin 90 μmol/L, CRP 250 mg/L, WCC 18 × 10^9/L, lactate 4.5 mmol/L. He has a history of gallstones. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous broad-spectrum antibiotics",
+        "Surgical common bile duct exploration",
+        "Percutaneous transhepatic biliary drainage",
+        "Endoscopic nasobiliary drainage",
+        "Urgent endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is severe (grade III) acute cholangitis with organ failure (hypotension, confusion). Urgent biliary drainage (within 6–12 hours) is required. ERCP with sphincterotomy is the gold standard. Antibiotics alone are insufficient. Percutaneous drainage is an alternative if ERCP is not possible. Surgical exploration and nasobiliary drainage are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e8fdc8d63462",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with atrial fibrillation on warfarin (INR 3.0) presents with acute cholangitis (fever, jaundice, RUQ pain). He has a distal CBD stone. Which treatment is contraindicated in this patient?",
+      "options": [
+        "Endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy",
+        "Intravenous antibiotics (piperacillin-tazobactam)",
+        "Percutaneous transhepatic biliary drainage",
+        "Endoscopic ultrasound-guided choledochoduodenostomy",
+        "Endoscopic retrograde cholangiopancreatography (ERCP) with stent insertion only (no sphincterotomy)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sphincterotomy carries a significant bleeding risk in anticoagulated patients with INR >2.5. ERCP with stent insertion without sphincterotomy is safer. Percutaneous drainage also carries bleeding risk but is not absolutely contraindicated; however, sphincterotomy is specifically contraindicated due to high risk of post-sphincterotomy haemorrhage. Antibiotics are indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1936bf4d2dd2",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with a history of laparoscopic cholecystectomy 6 years ago presents with her third episode of acute cholangitis in the past 8 months. MRCP shows a tight stricture of the common hepatic duct. Previous ERCP with dilatation and plastic stent insertion provided temporary relief (3–4 months). She is otherwise fit and well. What is the most appropriate definitive management?",
+      "options": [
+        "Long-term suppressive oral antibiotics",
+        "Liver transplantation",
+        "Surgical Roux-en-Y hepaticojejunostomy",
+        "Percutaneous transhepatic biliary drainage with internal-external drain",
+        "Repeat ERCP with metal stent insertion"
+      ],
+      "answerIndex": 2,
+      "explanation": "For recurrent benign biliary stricture after failed endoscopic management, surgical biliary-enteric bypass (hepaticojejunostomy) provides definitive treatment in fit patients. Metal stents are used for malignant strictures; in benign disease, they are not first line due to difficulty in removal. Percutaneous drainage is temporary. Antibiotics suppress but do not treat the stricture. Transplant is for end-stage liver disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94c34a065e86",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman at 28 weeks gestation presents with right upper quadrant pain, fever, and jaundice. Ultrasound shows a dilated CBD with a stone. Observations are stable. What is the most appropriate treatment?",
+      "options": [
+        "Medical therapy with ursodeoxycholic acid",
+        "Endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy using lead shielding",
+        "Laparoscopic cholecystectomy and common bile duct exploration",
+        "Percutaneous transhepatic biliary drainage",
+        "Conservative management with intravenous antibiotics and plan for postpartum ERCP"
+      ],
+      "answerIndex": 1,
+      "explanation": "ERCP is safe in pregnancy when performed with appropriate shielding to minimise fetal radiation exposure. It is the definitive treatment for choledocholithiasis causing cholangitis, even in pregnancy. Delaying treatment risks progression to severe cholangitis and adverse fetal outcomes. Conservative management is not appropriate. Percutaneous drainage carries higher risks. Surgery is avoided in pregnancy unless necessary. Ursodeoxycholic acid dissolves stones slowly and is not for acute cholangitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8d92691ad5b8",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with a history of gallstones presents with right upper quadrant pain, fever of 38.5°C, and jaundice. She is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Abdominal ultrasound",
+        "Laparoscopic cholecystectomy",
+        "CT abdomen",
+        "Start IV antibiotics",
+        "Urgent ERCP"
+      ],
+      "answerIndex": 3,
+      "explanation": "For mild acute cholangitis, initial management is antibiotics and supportive care; ERCP is indicated if there is no improvement or if severe. Starting IV antibiotics is the priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dd09ef7e3be9",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known gallstones is brought to ED with fever, jaundice, and hypotension (BP 80/50 mmHg). He is confused. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer a fluid bolus",
+        "Urgent ERCP",
+        "CT abdomen",
+        "Start vasopressors",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "In septic shock due to cholangitis, immediate fluid resuscitation takes priority; subsequent steps include antibiotics and biliary drainage. Administering a fluid bolus is the first action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ab600e914d05",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman is admitted with acute cholangitis. After receiving IV antibiotics and a fluid bolus, her blood pressure normalises but she remains febrile and jaundiced. What is the most appropriate next step?",
+      "options": [
+        "Urgent ERCP",
+        "MRCP",
+        "Repeat blood cultures",
+        "CT abdomen",
+        "Switch to oral antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "For severe cholangitis, biliary drainage should be performed within 24 hours after initial resuscitation; failure to improve with antibiotics is an indication for urgent ERCP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "96f5453f9d57",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with acute cholangitis is treated with IV antibiotics and fluids for 24 hours but deteriorates, developing worsening hypotension and oliguria. What is the most appropriate immediate next step?",
+      "options": [
+        "Increase antibiotic dose",
+        "Emergency ERCP",
+        "Percutaneous transhepatic drainage",
+        "CT abdomen",
+        "Transfer to ICU"
+      ],
+      "answerIndex": 1,
+      "explanation": "In refractory cholangitis with septic shock, urgent biliary drainage is indicated; ERCP is the first-line method unless contraindicated. This takes priority over other actions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3a2fc2a98e43",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old pregnant woman (28 weeks gestation) presents with right upper quadrant pain, fever and jaundice. She is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Induction of labour",
+        "Urgent ERCP",
+        "CT abdomen",
+        "IV antibiotics and fluids",
+        "Ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "Management of cholangitis in pregnancy is similar to non-pregnant patients; initial treatment is antibiotics and supportive care, with ERCP reserved for severe or refractory cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80bfc6e6ab0c",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known gallstones presents with fever, jaundice, and right upper quadrant tenderness. His temperature is 38.9°C, heart rate 110 bpm, blood pressure 95/60 mmHg. Which single finding at initial assessment indicates that this patient has severe (suppurative) acute cholangitis requiring urgent biliary decompression?",
+      "options": [
+        "Right upper quadrant tenderness",
+        "Leukocytosis",
+        "Fever",
+        "Altered mental status",
+        "Jaundice"
+      ],
+      "answerIndex": 3,
+      "explanation": "Altered mental status (part of Reynolds pentad) indicates severe cholangitis with septic shock, mandating urgent biliary drainage. Jaundice, fever, and RUQ tenderness are Charcot's triad but do not alone define severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7fc0350307aa",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with acute cholangitis is started on intravenous antibiotics and fluids. Twelve hours later, her blood pressure remains 90/55 mmHg despite 2 litres of crystalloid, and she is now confused. Which laboratory value most strongly predicts a poor outcome and should trigger immediate escalation to critical care?",
+      "options": [
+        "Lactate 5.2 mmol/L",
+        "Serum bilirubin 320 µmol/L",
+        "INR 1.8",
+        "ALP 450 U/L",
+        "Serum sodium 130 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elevated lactate >4 mmol/L indicates tissue hypoperfusion and severe sepsis, a poor prognostic marker in cholangitis. Bilirubin and ALP show obstruction but not severity; INR may rise but lactate is more discriminant for ICU need.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c273e199cb32",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man with primary sclerosing cholangitis and a biliary stent presents with fever and rigors. He is on antibiotics but remains hypotensive and requires noradrenaline. Which clinical finding specifically indicates that his cholangitis is refractory to medical therapy and requires emergency ERCP?",
+      "options": [
+        "Worsening right upper quadrant pain",
+        "Hypotension requiring vasopressors",
+        "Rising white cell count",
+        "Persistent fever",
+        "New jaundice"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension requiring vasopressors is a hallmark of severe (Grade III) cholangitis per Tokyo Guidelines, indicating failure of medical therapy and urgent need for biliary drainage. Fever, leucocytosis, or pain alone are not absolute indications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1857dc3bf905",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old nursing home resident presents with confusion, low-grade temperature of 37.5°C, and mild jaundice. She has no abdominal pain. Which combination of findings should raise the highest suspicion for acute cholangitis as a life-threatening emergency in this elderly patient?",
+      "options": [
+        "Mild jaundice without pain or fever",
+        "Hypotension and confusion",
+        "Fever and confusion",
+        "Jaundice and confusion alone",
+        "Fever, jaundice, and confusion"
+      ],
+      "answerIndex": 4,
+      "explanation": "In elderly patients, acute cholangitis can present atypically with only confusion and mild jaundice, but the presence of fever (even low-grade) plus jaundice and confusion completes Reynolds pentad and signals severe disease. Hypotension would be later.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00c6f60e2748",
+      "topic": "Acute Cholangitis",
+      "slug": "acute-cholangitis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with acute cholangitis due to a common bile duct stone is being treated with intravenous antibiotics. After 24 hours, she develops worsening abdominal pain and a temperature of 39.5°C. Which immediate finding would indicate that she has developed a complication that requires surgical or percutaneous intervention rather than continued medical therapy?",
+      "options": [
+        "Leukocytosis of 18×10⁹/L",
+        "Rebound tenderness and guarding",
+        "Tender in the right upper quadrant",
+        "Hepatomegaly",
+        "Palpable gallbladder"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rebound tenderness and guarding suggest peritonitis, possibly from gallbladder gangrene or perforation—a surgical emergency. While RUQ tenderness and palpable gallbladder are common, peritonitic signs mandate urgent imaging and likely intervention.",
+      "difficulty": "medium"
+    }
+  ]
+}

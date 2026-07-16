@@ -1,0 +1,513 @@
+{
+  "topic": "Erectile Dysfunction",
+  "slug": "erectile-dysfunction",
+  "system": "Endocrinology",
+  "subSystem": "Reproductive",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:59Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "184e8f8fd76b",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old medical student presents with lifelong inability to achieve erection and no sense of smell. He has sparse pubic hair and small testes. What is the single most likely diagnosis?",
+      "options": [
+        "Prader-Willi syndrome",
+        "Kallmann syndrome",
+        "Klinefelter syndrome",
+        "Congenital adrenal hyperplasia",
+        "Psychogenic erectile dysfunction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kallmann syndrome is characterized by hypogonadotropic hypogonadism and anosmia. Klinefelter syndrome presents with eunuchoidism and gynaecomastia but normal sense of smell. Psychogenic ED is unlikely with congenital features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "14cbf6fe74f3",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 46-year-old overweight man (BMI 34) complains of gradually worsening erectile function over 2 years. He is married, no other medical problems, no medications. Examination: normal secondary sexual characteristics, testes normal size. Blood tests: testosterone 7.0 nmol/L (ref 8–30), LH 3.0 U/L (ref 1.5–9.0), prolactin normal. What is the single most likely diagnosis?",
+      "options": [
+        "Hyperprolactinaemia",
+        "Secondary hypogonadism (obesity-related)",
+        "Psychogenic erectile dysfunction",
+        "Primary hypogonadism",
+        "Premature ejaculation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low testosterone with low/normal LH indicates hypogonadotropic hypogonadism, common in obesity due to suppression of the hypothalamic-pituitary axis. Primary hypogonadism would have elevated LH. Hyperprolactinaemia is excluded by normal prolactin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d25d81d8513f",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man presents to the emergency department with sudden severe headache, vomiting, and acute inability to achieve an erection. He has a past history of hypertension. On examination, he has bilateral visual field defects. CT head shows a pituitary mass with haemorrhage. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine",
+        "Cavernous sinus thrombosis",
+        "Subarachnoid haemorrhage",
+        "Pituitary adenoma without apoplexy",
+        "Pituitary apoplexy"
+      ],
+      "answerIndex": 4,
+      "explanation": "The sudden onset of headache, vomiting, visual field defects, and imaging showing haemorrhage into a pituitary mass is classic for pituitary apoplexy. Acute ED is due to sudden hypopituitarism. Other options do not explain the pituitary haemorrhage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ee63ee5b0f9a",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with untreated hypothyroidism (TSH 50 mU/L, fT4 5 pmol/L) presents with erectile dysfunction and galactorrhoea. What is the single most likely diagnosis?",
+      "options": [
+        "Prolactinoma",
+        "Stalk effect from non-functioning pituitary adenoma",
+        "Drug-induced hyperprolactinaemia",
+        "Hyperprolactinaemia secondary to hypothyroidism",
+        "Acromegaly"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hypothyroidism leads to elevated TRH, which stimulates prolactin release, causing hyperprolactinaemia and galactorrhoea. Prolactinoma is less likely given the severely abnormal thyroid function and no pituitary mass on imaging (not provided, but clinical context favours secondary hyperprolactinaemia).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cdfec07f691b",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known hereditary haemochromatosis (homozygous C282Y) on maintenance venesection therapy complains of erectile dysfunction and loss of libido. He has no joint pain. Testosterone is low (5.0 nmol/L) and LH is low (2.0 U/L). What is the single most likely cause of his erectile dysfunction?",
+      "options": [
+        "Diabetes-induced erectile dysfunction",
+        "Primary hypogonadism (iron deposition in testes)",
+        "Hypogonadotropic hypogonadism (iron deposition in pituitary)",
+        "Psychogenic erectile dysfunction",
+        "Cirrhosis-induced hypogonadism"
+      ],
+      "answerIndex": 2,
+      "explanation": "In haemochromatosis, iron deposition commonly affects the pituitary gland, leading to hypogonadotropic hypogonadism. Low testosterone with low LH confirms a central cause. Primary hypogonadism would show elevated LH, and cirrhosis is not indicated without evidence of liver disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38f05b84482c",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with gradual onset erectile dysfunction over 6 months. He has no significant medical history, takes no medication, and his BMI is 28. Examination reveals normal secondary sexual characteristics and testicular volume of 20 mL bilaterally. What is the most appropriate first-line investigation for an endocrine cause?",
+      "options": [
+        "Overnight penile tumescence study",
+        "Glycated haemoglobin (HbA1c)",
+        "Fasting early morning total testosterone",
+        "Random prolactin",
+        "Thyroid stimulating hormone"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guidelines recommend measuring fasting early morning total testosterone as the first step in assessing for endocrine causes of ED. Prolactin is indicated if there is low libido or gynaecomastia. HbA1c screens for diabetes but is not the first endocrine test. Thyroid disease is an uncommon cause. Overnight penile tumescence is used to distinguish organic from psychogenic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "787385355ff8",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old man with a known prolactinoma, treated with cabergoline, now complains of new-onset erectile dysfunction. He has been compliant with medication. What is the most appropriate next test to evaluate his current endocrine status?",
+      "options": [
+        "Total testosterone",
+        "Free T4 and TSH",
+        "LH and FSH",
+        "09:00 serum cortisol",
+        "Serum prolactin"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with known hyperprolactinaemia on treatment, new ED could indicate inadequate prolactin suppression. The most direct test is serum prolactin. Cortisol and thyroid tests are not first-line. Testosterone may be low secondary to prolactin, but checking prolactin first guides further management. LH/FSH may be suppressed but less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90626961cdb1",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents to the emergency department with sudden onset severe headache, visual disturbances, and complete inability to achieve an erection over the past 24 hours. He has no prior history of erectile dysfunction. Examination reveals bitemporal hemianopia. What is the most appropriate investigation?",
+      "options": [
+        "Lumbar puncture",
+        "Serum testosterone",
+        "Serum prolactin",
+        "MRI pituitary with gadolinium",
+        "Non-contrast CT head"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presentation is classic for pituitary apoplexy, an endocrine emergency. MRI with gadolinium is the gold standard for imaging the pituitary and detecting haemorrhage or infarction. CT head is less sensitive. Testosterone and prolactin may be abnormal but are not diagnostic. Lumbar puncture is contraindicated if raised intracranial pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "15da3f136a6c",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with erectile dysfunction has a fasting morning total testosterone level of 7.5 nmol/L (reference range 10–30). What is the single most appropriate next investigation to differentiate primary from secondary hypogonadism?",
+      "options": [
+        "Serum LH and FSH",
+        "Karyotype",
+        "Serum prolactin",
+        "Semen analysis",
+        "MRI pituitary"
+      ],
+      "answerIndex": 0,
+      "explanation": "Measurement of LH and FSH is the next step. Elevated LH with low testosterone indicates primary hypogonadism (testicular failure). Low or inappropriately normal LH suggests secondary hypogonadism (pituitary/hypothalamic). Prolactin is indicated if secondary hypogonadism is suspected to rule out hyperprolactinaemia. MRI is reserved for cases with very low testosterone, neurological symptoms, or panhypopituitarism. Karyotype (e.g., Klinefelter's) is for suspected primary hypogonadism with small testes, not immediately. Semen analysis assesses fertility but does not differentiate the level of the hypothalamic-pituitary-gonadal axis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7962db4339d",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 42-year-old man undergoes investigations for erectile dysfunction. His results show: serum total testosterone 8.5 nmol/L (10–30), LH 15 IU/L (2–9), and prolactin 250 mU/L (normal <400). What is the most likely diagnosis?",
+      "options": [
+        "Secondary hypogonadism",
+        "Androgen insensitivity syndrome",
+        "Normal variant",
+        "Primary hypogonadism",
+        "Hyperprolactinaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Low testosterone with elevated LH indicates primary hypogonadism due to testicular failure. Secondary hypogonadism would have low or inappropriately normal LH. Prolactin is normal, excluding hyperprolactinaemia. Androgen insensitivity typically presents with normal or high testosterone and features of undervirilisation. The values are clearly abnormal, not a normal variant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5f8717238e62",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with erectile dysfunction and low libido. He has no other medical history. Blood tests show a low testosterone (3.2 nmol/L) with low LH (1.5 IU/L) and normal prolactin. What is the most appropriate first-line treatment?",
+      "options": [
+        "Testosterone replacement",
+        "Psychosexual therapy",
+        "Vacuum device",
+        "Tadalafil",
+        "Sildenafil"
+      ],
+      "answerIndex": 0,
+      "explanation": "He has secondary hypogonadism; treating the underlying testosterone deficiency is first-line, as per NICE guidelines. PDE5 inhibitors are not first-line when hypogonadism is confirmed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dfc8e19d81f0",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with erectile dysfunction has a history of prostate cancer treated with radical radiotherapy three years ago. He is currently in remission. His testosterone level is low (4.1 nmol/L). What therapy is contraindicated?",
+      "options": [
+        "Tadalafil",
+        "Sildenafil",
+        "Alprostadil",
+        "Vacuum device",
+        "Testosterone replacement"
+      ],
+      "answerIndex": 4,
+      "explanation": "Testosterone is contraindicated in men with a history of prostate cancer due to risk of stimulating occult disease. PDE5 inhibitors and other options are safe alternatives.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6903e6b03e75",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with erectile dysfunction has chronic kidney disease stage 4 (eGFR 25 ml/min). He has no contraindications. Which therapy is contraindicated?",
+      "options": [
+        "Vacuum device",
+        "Alprostadil",
+        "Sildenafil",
+        "Tadalafil",
+        "Testosterone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tadalafil is contraindicated in severe renal impairment (CrCl <30 ml/min) due to increased drug exposure. Sildenafil and other options are safe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "382e19a14641",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with erectile dysfunction and reduced libido. He is otherwise well. Blood tests show a mildly elevated prolactin (800 mU/L) and normal testosterone. MRI shows a 3 mm pituitary microadenoma. What is the most appropriate first-line treatment?",
+      "options": [
+        "Testosterone replacement",
+        "Transsphenoidal surgery",
+        "Cabergoline",
+        "Sildenafil",
+        "Observation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hyperprolactinemia causing ED is treated with a dopamine agonist such as cabergoline, which normalises prolactin and restores gonadal function. Surgery is reserved for resistant cases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b21ca5e3e5e4",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with erectile dysfunction has a history of recurrent priapism due to sickle cell disease. Which therapy is contraindicated?",
+      "options": [
+        "Vacuum device",
+        "Testosterone",
+        "Phosphodiesterase-5 inhibitors (e.g., sildenafil)",
+        "Psychosexual therapy",
+        "Alprostadil"
+      ],
+      "answerIndex": 2,
+      "explanation": "PDE5 inhibitors are contraindicated in men with a history of priapism as they can precipitate recurrence. Alprostadil also carries risk but is less contraindicated; vacuum device is safe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a48bb9ccff54",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man presents with erectile dysfunction for 4 months. He has no other symptoms, no relevant medical history, no medications, and is a non-smoker with normal BMI. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange psychosexual counselling",
+        "Check fasting glucose",
+        "Perform nocturnal penile tumescence test",
+        "Measure serum prolactin",
+        "Prescribe tadalafil 10 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend offering a PDE5I (e.g., sildenafil or tadalafil) as first-line treatment for erectile dysfunction after discussing treatment options and checking for contraindications. In a low-risk patient with no red flags, immediate pharmacotherapy is the priority over specialised investigations or counselling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cdbd691b6ddb",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 62-year-old man with type 2 diabetes (HbA1c 58 mmol/mol) on metformin and ramipril presents with erectile dysfunction for 1 year. He does not use nitrates. He asks for treatment. What is the most appropriate immediate next step?",
+      "options": [
+        "Measure serum testosterone",
+        "Refer to cardiology",
+        "Advise weight loss",
+        "Increase metformin dose",
+        "Prescribe sildenafil 50 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "In men with diabetes and erectile dysfunction, NICE recommends a PDE5I as first-line treatment provided there are no contraindications (e.g., nitrates). The patient has no contraindication, so sildenafil is the appropriate immediate next step. Optimising glycaemic control is important but not the immediate action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ae1228d30164",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known ischaemic heart disease uses a GTN spray for angina. He presents to the emergency department distressed with sudden-onset severe erectile dysfunction. He has not taken any ED medication. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe sildenafil",
+        "Arrange urgent psychosexual counselling",
+        "Review his medication list and check for contraindications",
+        "Check for priapism",
+        "Perform penile Doppler ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "The immediate priority is to identify contraindications before prescribing. The patient is on nitrates, which are an absolute contraindication to PDE5Is. Reviewing the medication list and explaining the risk is the correct next step. Sudden onset may suggest a vascular cause, but this does not supersede safety.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fe5e01662a60",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man had a radical prostatectomy 6 months ago and now has erectile dysfunction. He has tried sildenafil 100 mg and tadalafil 10 mg without benefit. What is the most appropriate next step?",
+      "options": [
+        "Prescribe alprostadil injection",
+        "Refer for penile prosthesis",
+        "Refer for psychosexual counselling",
+        "Increase sildenafil to 100 mg (already tried)",
+        "Try a different PDE5I"
+      ],
+      "answerIndex": 0,
+      "explanation": "After failure of two PDE5Is, NICE recommends second-line therapy with an intracavernosal (e.g., alprostadil) or intraurethral agent. Referral for prosthesis is reserved for patients who fail or cannot use alprostadil.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3782e337b39e",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with well-controlled hypothyroidism on levothyroxine presents with erectile dysfunction, low libido, and fatigue. His TSH is 2.5 mU/L (normal 0.4–4.0) and free T4 is 9 pmol/L (normal 9–20). What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe sildenafil",
+        "Increase levothyroxine dose",
+        "Check prolactin",
+        "Refer to endocrinology",
+        "Measure serum testosterone"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has low libido and fatigue, which together with erectile dysfunction suggest possible hypogonadism. Despite well-controlled hypothyroidism, the low-normal free T4 does not explain the symptoms fully. NICE recommends measuring morning total testosterone in men with erectile dysfunction and low libido.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c4f58b1bcb9e",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with a painful erection that has lasted 6 hours after self-administered intracavernosal injection for erectile dysfunction. On examination, the corpus cavernosum is rigid and tender. Which diagnosis must be excluded as a matter of urgency?",
+      "options": [
+        "Penile fracture",
+        "Peyronie's disease",
+        "Cavernositis",
+        "Priapism",
+        "Prostatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "A persistent painful erection >4 hours is priapism, a urological emergency. Ischaemic priapism can lead to fibrosis and permanent erectile dysfunction if not decompressed urgently. Penile fracture typically involves trauma with detumescence and swelling, not a rigid erection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "75fe3fb9cce1",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man presents with immediate detumescence and a snapping sound during intercourse, followed by swelling and bruising of the penis. Which diagnosis must be considered?",
+      "options": [
+        "Penile fracture",
+        "Cavernositis",
+        "Priapism",
+        "Urethral stricture",
+        "Peyronie's disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of a snapping sound, sudden detumescence, and swelling/bruising is classic for penile fracture, a urological emergency requiring prompt surgical repair. Priapism involves persistent painful erection, not detumescence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0bb4b9c4aef5",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old man with a known pituitary adenoma (non-functioning) presents with sudden severe headache, nausea, and visual disturbance. He also reports erectile dysfunction for the past year. Which life-threatening complication has occurred?",
+      "options": [
+        "Subarachnoid haemorrhage",
+        "Cavernous sinus thrombosis",
+        "Meningitis",
+        "Migraine",
+        "Pituitary apoplexy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sudden headache with visual symptoms in a patient with known pituitary adenoma is classic for pituitary apoplexy, a medical emergency due to haemorrhage/infarction of the tumour. Subarachnoid haemorrhage presents with thunderclap headache but not typically with known adenoma.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c7fd3e1fd8ae",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with type 2 diabetes presents with erectile dysfunction. He has no chest pain, but an ECG is performed as part of assessment. Which finding on ECG would be most concerning for a life-threatening condition?",
+      "options": [
+        "Atrial fibrillation",
+        "ST elevation in anterior leads",
+        "Sinus bradycardia",
+        "Left ventricular hypertrophy",
+        "First-degree AV block"
+      ],
+      "answerIndex": 1,
+      "explanation": "ED is a marker for cardiovascular disease. ST elevation in anterior leads indicates acute myocardial infarction (STEMI), a life-threatening emergency requiring immediate reperfusion. Left ventricular hypertrophy is a chronic finding not acutely life-threatening.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83cf968d758f",
+      "topic": "Erectile Dysfunction",
+      "slug": "erectile-dysfunction",
+      "system": "Endocrinology",
+      "subSystem": "Reproductive",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with ischaemic heart disease on long-acting nitrates takes sildenafil for erectile dysfunction. He presents with dizziness and collapse. Which vital sign abnormality is most likely to be found?",
+      "options": [
+        "Hypotension",
+        "Tachycardia",
+        "Tachypnoea",
+        "Hypertension",
+        "Bradycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Concurrent use of PDE5 inhibitors with nitrates is contraindicated due to risk of severe hypotension, which can be life-threatening. This is a medical emergency. Tachycardia may occur as a compensatory response, but hypotension is the primary abnormality.",
+      "difficulty": "medium"
+    }
+  ]
+}

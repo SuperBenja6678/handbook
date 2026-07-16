@@ -1,0 +1,513 @@
+{
+  "topic": "Digoxin Toxicity",
+  "slug": "digoxin-toxicity",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:35:43Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "df54076ad202",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with chronic atrial fibrillation on digoxin (125 mcg once daily) presents with a 3-day history of nausea, poor appetite, and 'seeing yellow halos around lights'. She is alert and oriented. Heart rate is 56 bpm, blood pressure 130/80 mmHg. ECG shows sinus bradycardia with small U waves. Serum potassium is 4.0 mmol/L; creatinine 90 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Lithium toxicity",
+        "Digoxin toxicity",
+        "Amiodarone toxicity",
+        "Migrainous aura",
+        "Hypercalcaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Classic symptoms of digoxin toxicity include xanthopsia (yellow halos), gastrointestinal upset, and bradycardia. The normal potassium and renal function make other differentials less likely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "989c160bce36",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old man with known chronic kidney disease (eGFR 25 mL/min) and heart failure on digoxin (62.5 mcg daily) presents with vomiting, confusion, and near-collapse. Heart rate is 38 bpm, blood pressure 85/50 mmHg. ECG shows atrial fibrillation with slow ventricular response and occasional premature ventricular complexes. Lab results: potassium 6.2 mmol/L, magnesium 0.7 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Addisonian crisis",
+        "Beta-blocker overdose",
+        "Hyperkalaemic periodic paralysis",
+        "Digoxin toxicity",
+        "Acute renal failure"
+      ],
+      "answerIndex": 3,
+      "explanation": "Digoxin toxicity is exacerbated by renal impairment and hypomagnesaemia, presenting with bradyarrhythmias, GI symptoms, and hyperkalaemia. The combination is pathognomonic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "76440043260d",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 34-year-old pregnant woman (28 weeks gestation) with peripartum cardiomyopathy on digoxin (250 mcg daily) develops nausea, vomiting, and palpitations. She is tachycardic at 110 bpm, blood pressure 100/60 mmHg. ECG shows multifocal ventricular ectopics and runs of non-sustained ventricular tachycardia. Serum potassium is 3.1 mmol/L, magnesium 0.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Pulmonary embolism",
+        "Digoxin toxicity",
+        "Eclampsia",
+        "Hyperemesis gravidarum"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypokalaemia and hypomagnesaemia in pregnancy enhance digoxin toxicity. The arrhythmias (ventricular ectopics and tachycardia) are characteristic, while eclampsia would present with hypertension and proteinuria.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ae91aaea27cf",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man on digoxin (125 mcg daily) and furosemide (40 mg daily) complains of anorexia, nausea, and 'blurred vision' for one week. Heart rate is 64 bpm, blood pressure 140/85 mmHg. ECG shows first-degree atrioventricular block and occasional junctional escape beats. Serum potassium is 3.2 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Hypokalaemia alone",
+        "Peptic ulcer disease",
+        "Migraine",
+        "Labyrinthitis",
+        "Digoxin toxicity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypokalaemia potentiates digoxin toxicity. The combination of GI symptoms, visual disturbance, and ECG changes (first-degree AV block, junctional beats) confirms digoxin toxicity rather than isolated hypokalaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "28d2aaecabf3",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with atrial fibrillation on digoxin (125 mcg daily) presents to the emergency department with syncope. On arrival, she is confused and hypotensive (82/50 mmHg). ECG shows a broad complex tachycardia with alternating QRS morphology (bidirectional ventricular tachycardia). Bloods reveal potassium 5.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Digoxin toxicity",
+        "Electrolyte abnormality (hyperkalaemia)",
+        "Hypertrophic cardiomyopathy",
+        "Brugada syndrome",
+        "Long QT syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bidirectional ventricular tachycardia is pathognomonic for digoxin toxicity. Hyperkalaemia here is a consequence of Na+/K+ ATPase inhibition, not the primary cause of the arrhythmia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "31966604009a",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 78-year-old woman with atrial fibrillation on digoxin 125 mcg daily presents with nausea, vomiting, and 'yellow vision' for 2 days. Heart rate 50 bpm, irregular. Which single test would most reliably confirm the diagnosis of digoxin toxicity?",
+      "options": [
+        "Full blood count",
+        "Thyroid function tests",
+        "Serum digoxin level",
+        "Urea and electrolytes",
+        "ECG"
+      ],
+      "answerIndex": 2,
+      "explanation": "Measurement of serum digoxin concentration is the gold standard to confirm toxicity. While ECG may show effects, it is less specific. Other tests help identify predisposing factors but do not confirm toxicity itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "61a115560399",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with chronic heart failure on digoxin presents with fatigue and poor appetite. ECG shows atrial tachycardia with variable AV block. Which of the following ECG features is most specific for digoxin toxicity?",
+      "options": [
+        "ST segment 'scooping' and T wave inversion",
+        "Ventricular bigeminy",
+        "Sinus bradycardia",
+        "Atrial tachycardia with variable AV block",
+        "First-degree AV block"
+      ],
+      "answerIndex": 3,
+      "explanation": "Atrial tachycardia with variable AV block is a classic and highly specific rhythm for digoxin toxicity. Sinus bradycardia, first-degree AV block, ST changes, and ventricular bigeminy can also occur with digoxin therapy (non-toxic) but are less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b7c60507e38",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents after ingesting 20 tablets of digoxin 250 mcg (approx. 5 mg total) in a suicide attempt. He is vomiting and has a heart rate of 30 bpm. Which laboratory value is most concerning for severe digoxin toxicity?",
+      "options": [
+        "Serum glucose 2.8 mmol/L",
+        "Serum creatinine 150 µmol/L",
+        "Serum bicarbonate 20 mmol/L",
+        "Serum potassium 6.5 mmol/L",
+        "Serum digoxin concentration 3.5 ng/mL"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute massive overdose, hyperkalaemia results from profound inhibition of Na/K-ATPase and correlates with severity and need for Fab. Serum digoxin level alone does not reflect acute poisoning's immediate threat as distribution is ongoing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cd48f6331f04",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman with chronic kidney disease (eGFR 25 mL/min) on digoxin 125 mcg daily presents with confusion and bradycardia. Serum digoxin level is 1.8 ng/mL (therapeutic range 0.8–2.0 ng/mL). Which investigation will best help determine if her symptoms are due to digoxin toxicity?",
+      "options": [
+        "CT head",
+        "12-lead ECG",
+        "Repeat serum digoxin level",
+        "Serum potassium",
+        "Echocardiogram"
+      ],
+      "answerIndex": 1,
+      "explanation": "In advanced CKD, digoxin levels can be misleading due to altered protein binding and metabolite accumulation. ECG is more helpful to identify characteristic arrhythmias of toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2910e2ff3f1a",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman on digoxin and furosemide for heart failure presents with nausea. ECG shows frequent ventricular ectopics. Which single blood test is most likely to reveal a precipitating factor for digoxin toxicity?",
+      "options": [
+        "Urea",
+        "Serum potassium",
+        "Thyroid function",
+        "Serum digoxin level",
+        "Serum magnesium"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loop diuretics commonly cause hypokalaemia, which precipitates digoxin toxicity even at 'therapeutic' serum levels. Checking potassium is the single most useful test to identify this precipitant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b59671f2c9eb",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman on digoxin for atrial fibrillation presents with nausea, blurred vision, and palpitations. ECG shows bidirectional ventricular tachycardia. Potassium is 5.6 mmol/L. What is the most appropriate treatment?",
+      "options": [
+        "Intravenous calcium gluconate",
+        "Oral potassium chloride",
+        "Intravenous digoxin-specific antibody fragments (DigiFab)",
+        "Intravenous amiodarone",
+        "DC cardioversion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bidirectional ventricular tachycardia is pathognomonic for digoxin toxicity. Digoxin-specific antibody fragments (DigiFab) are the definitive antidote. Amiodarone, calcium, DC cardioversion, or potassium may be harmful or ineffective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dea61e3ec715",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man with chronic kidney disease stage 4 presents with confusion, vomiting, and a heart rate of 42 bpm. He takes digoxin 125 mcg daily. Digoxin level is 3.8 ng/mL. Potassium is 4.8 mmol/L. What is the most appropriate first-line management?",
+      "options": [
+        "Give intravenous digoxin-specific antibody fragments (DigiFab)",
+        "Haemodialysis",
+        "Administer intravenous atropine",
+        "Stop digoxin and observe",
+        "Start temporary pacing"
+      ],
+      "answerIndex": 3,
+      "explanation": "In chronic digoxin toxicity with bradycardia but no severe arrhythmias or hyperkalaemia, stopping the drug and monitoring is appropriate. DigiFab is reserved for life-threatening toxicity. Atropine or pacing may be needed if unstable, but first-line is discontinuation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "57e445c0cd96",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old woman on digoxin for heart failure is brought to the ED after taking an extra 10 tablets 2 hours ago. She is confused, heart rate 35 bpm, BP 80/40. Potassium is 6.8 mmol/L. What is the single most important treatment?",
+      "options": [
+        "Haemodialysis",
+        "Intravenous insulin and glucose",
+        "Intravenous sodium bicarbonate",
+        "Intravenous calcium gluconate",
+        "Intravenous digoxin-specific antibody fragments (DigiFab)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Life-threatening digoxin overdose with hyperkalaemia and bradycardia requires digoxin-specific antibody fragments (DigiFab) as first-line. Calcium gluconate is contraindicated in digoxin toxicity due to risk of ventricular fibrillation. Insulin/glucose is for hyperkalaemia but does not address the toxin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d452b0fbed0",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with known digoxin toxicity (level 2.5 ng/mL) and a heart rate of 48 bpm has a single episode of non-sustained ventricular tachycardia. He is haemodynamically stable. Which drug is CONTRAINDICATED in this setting?",
+      "options": [
+        "Digoxin-specific antibody fragments (DigiFab)",
+        "Atropine",
+        "Phenytoin",
+        "Beta-blockers (e.g. bisoprolol)",
+        "Lignocaine (lidocaine)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Beta-blockers can exacerbate bradycardia and heart block in digoxin toxicity and may worsen ventricular arrhythmias. Lignocaine and phenytoin are sometimes used for ventricular arrhythmias in this context; DigiFab is definitive; atropine may be used for bradycardia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f874394bd709",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with renal impairment (eGFR 25 mL/min) presents with digoxin toxicity, heart rate 40 bpm, and potassium 6.2 mmol/L. Which of the following is the most appropriate therapy?",
+      "options": [
+        "Intravenous magnesium sulphate",
+        "Intravenous digoxin-specific antibody fragments (DigiFab) with dose adjusted for renal function",
+        "Intravenous calcium gluconate",
+        "Temporary pacing alone",
+        "Intravenous sodium polystyrene sulfonate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digoxin-specific antibody fragments (DigiFab) are the definitive treatment for life-threatening toxicity, indicated here by hyperkalaemia and bradycardia. Dose does not require renal adjustment. Calcium is contraindicated. Pacing does not treat toxicity. Magnesium is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6a2f3f333df8",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old woman with permanent atrial fibrillation on digoxin 125 mcg daily presents to the ED with nausea, vomiting, and yellow-green visual disturbances. Observations: HR 48 bpm, BP 110/70, SpO2 97% on air. ECG shows atrial fibrillation with slow ventricular response. What is the most appropriate immediate next step?",
+      "options": [
+        "Start an isoprenaline infusion",
+        "Check serum digoxin concentration",
+        "Administer digoxin-specific antibody fragments (Digibind)",
+        "Arrange an urgent echocardiogram",
+        "Give atropine 0.6 mg IV"
+      ],
+      "answerIndex": 1,
+      "explanation": "In suspected digoxin toxicity, the first step is to confirm the diagnosis with a serum digoxin level; urgent Digibind is reserved for severe toxicity (life-threatening arrhythmias, high-grade AV block, hyperkalaemia). Atropine is for symptomatic bradycardia but not first line without confirmation. Isoprenaline is rarely used. Echocardiogram is not immediately indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "74ebb638ce26",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man on long-term digoxin for heart failure presents with collapse. Cardiac monitor shows a broad complex tachycardia suggestive of ventricular tachycardia. He is unconscious, with a palpable carotid pulse. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer lidocaine 100 mg IV",
+        "Give digoxin-specific antibody fragments (Digibind) 400 mg IV",
+        "Administer amiodarone 300 mg IV",
+        "Check serum digoxin and potassium levels",
+        "Perform synchronized DC cardioversion"
+      ],
+      "answerIndex": 1,
+      "explanation": "In life-threatening digoxin toxicity (e.g., ventricular tachycardia), digoxin-specific antibody fragments (Digibind) are first-line therapy. Cardioversion can precipitate refractory arrhythmias in digoxin toxicity and should be avoided if possible. Antiarrhythmics like amiodarone and lidocaine are second-line if Digibind is unavailable. Checking levels delays definitive treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5e7c50ab0889",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 85-year-old woman with chronic kidney disease stage 4 and atrial fibrillation on digoxin 125 mcg alternate days presents with confusion, fatigue, and pulse 42 bpm. ECG shows atrial fibrillation with slow ventricular response and first-degree AV block. Observations: BP 95/60, K+ 5.0. What is the most appropriate immediate next step?",
+      "options": [
+        "Start haemodialysis",
+        "Administer Digibind",
+        "Give IV atropine",
+        "Check digoxin level and U&Es",
+        "Insert a temporary pacing wire"
+      ],
+      "answerIndex": 3,
+      "explanation": "In this haemodynamically stable patient with suspected chronic toxicity, the first action is to confirm the diagnosis with digoxin level and full electrolytes; Digibind is reserved for severe toxicity (e.g., high-grade block, ventricular arrhythmias, K+ >5.5). Haemodialysis is ineffective for digoxin removal. Pacing and atropine are not needed without instability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3b293eb48808",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with heart failure on digoxin and furosemide presents with nausea and weakness. ECG shows atrial fibrillation with occasional ventricular ectopics and a serum potassium of 6.7 mmol/L (urgent lab result). He is alert, BP 100/60, HR 54. What is the most appropriate immediate next step?",
+      "options": [
+        "Start an insulin and dextrose infusion",
+        "Give salbutamol nebuliser",
+        "Administer digoxin-specific antibody fragments (Digibind)",
+        "Give intravenous calcium gluconate 10 mL of 10%",
+        "Perform an urgent ECG"
+      ],
+      "answerIndex": 2,
+      "explanation": "In digoxin toxicity, hyperkalaemia is a marker of severe poisoning and indicates high risk of life-threatening arrhythmias. Digibind is the definitive treatment and will also lower potassium. Calcium gluconate is relatively contraindicated in digoxin toxicity (risk of ventricular arrhythmias). Insulin/dextrose and salbutamol are temporizing measures but do not address the underlying toxicity. ECG is already done.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b0ed2cad3afd",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with atrial fibrillation on digoxin 125 mcg daily is started on amiodarone by her GP. Three days later she presents with nausea, loss of appetite, and a pulse of 48 bpm. ECG shows sinus bradycardia. What is the most appropriate immediate next step?",
+      "options": [
+        "Give a single dose of atropine",
+        "Stop both digoxin and amiodarone",
+        "Check digoxin level and U&Es",
+        "Start transcutaneous pacing",
+        "Administer Digibind"
+      ],
+      "answerIndex": 2,
+      "explanation": "Amiodarone increases digoxin levels, leading to toxicity. The first step is to confirm toxicity with a serum digoxin level; stopping the drugs is appropriate but not immediate without confirmation. Atropine or pacing are for symptomatic bradycardia, but she is stable. Digibind is not indicated unless severe toxicity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff78600b1dc8",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with atrial fibrillation on digoxin 125 mcg daily presents with 3 days of nausea, anorexia, and 'yellowish vision'. Observations: HR 55 bpm, BP 120/70. Which single ECG finding is most concerning for digoxin toxicity?",
+      "options": [
+        "ST segment depression",
+        "Bidirectional ventricular tachycardia",
+        "T wave inversion",
+        "Atrial fibrillation with slow ventricular response",
+        "PR interval prolongation >0.2 s"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bidirectional ventricular tachycardia is pathognomonic for digoxin toxicity and is a life-threatening arrhythmia requiring immediate treatment. Other ECG changes like PR prolongation, ST depression, and T wave inversion are less specific and do not indicate the same urgency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bed8097c5979",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with CKD stage 4 on digoxin for atrial fibrillation presents with fatigue, muscle weakness, and decreased appetite. He has no visual symptoms. Digoxin level is 2.5 ng/mL (therapeutic 0.5–2.0). Which feature mandates immediate admission?",
+      "options": [
+        "Serum potassium 3.1 mmol/L",
+        "Serum creatinine 200 µmol/L",
+        "Digoxin level >2.0 ng/mL",
+        "Serum magnesium 0.7 mmol/L",
+        "Heart rate 65 bpm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypokalaemia (K+ 3.1) potentiates digoxin toxicity and significantly increases the risk of arrhythmias. Admission is required for cardiac monitoring and electrolyte correction. An elevated digoxin level without symptoms or electrolyte disturbance may be managed as an outpatient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9d4a4e01f52",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known digoxin toxicity after accidental overdose presents with palpitations and lightheadedness. ECG shows narrow QRS tachycardia at 140 bpm with variable AV block. Which ECG pattern is most specific for digoxin-induced arrhythmia?",
+      "options": [
+        "Atrial tachycardia with 2:1 AV block",
+        "Multifocal atrial tachycardia",
+        "Sinus tachycardia with first-degree AV block",
+        "Atrial fibrillation with rapid ventricular response",
+        "Atrial flutter with 2:1 block"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atrial tachycardia with AV block is classic for digoxin toxicity. Atrial flutter with 2:1 block is more typical of structural heart disease or other causes. The other options are less specific for digoxin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e66309ff632e",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man presents 2 hours after ingesting an unknown amount of digoxin tablets. He is currently asymptomatic. Which laboratory value is a red flag for severe toxicity requiring early consideration of digoxin-specific antibody fragments?",
+      "options": [
+        "Haemoglobin 140 g/L",
+        "Serum creatinine 120 µmol/L",
+        "Serum digoxin 3.0 ng/mL",
+        "Serum potassium 5.8 mmol/L",
+        "Serum calcium 2.2 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyperkalaemia (K+ 5.8) in acute digoxin overdose indicates massive inhibition of Na/K ATPase and correlates with severe toxicity; it is an indication for Fab fragments. A digoxin level of 3.0 ng/mL is moderate but not acutely life-threatening without other features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "369f1a50cacf",
+      "topic": "Digoxin Toxicity",
+      "slug": "digoxin-toxicity",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman on digoxin and verapamil for atrial fibrillation and hypertension presents with nausea and fatigue. Heart rate is 48 bpm. Which finding most strongly suggests that bradycardia is due to digoxin toxicity rather than verapamil alone?",
+      "options": [
+        "PR interval 0.24 s",
+        "U waves",
+        "QRS duration 100 ms",
+        "Prolonged QT interval",
+        "T wave inversion in lateral leads"
+      ],
+      "answerIndex": 0,
+      "explanation": "First-degree AV block (PR prolongation) is a common early sign of digoxin toxicity, and verapamil also depresses AV conduction; however, a prolonged PR interval in this setting raises suspicion for digoxin effect. Prolonged QT is not typical; U waves suggest hypokalaemia, and QRS duration is normal.",
+      "difficulty": "easy"
+    }
+  ]
+}

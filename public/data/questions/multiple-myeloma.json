@@ -1,0 +1,513 @@
+{
+  "topic": "Multiple Myeloma",
+  "slug": "multiple-myeloma",
+  "system": "Haematology",
+  "subSystem": "Plasma cell",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:12Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "32db91a518de",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with a 2-week history of lower back pain. He reports no trauma. Examination is unremarkable. Blood tests show: Hb 105 g/L (normocytic), ESR 110 mm/hr, corrected calcium 2.4 mmol/L, creatinine 80 µmol/L. Serum protein electrophoresis reveals a monoclonal IgG kappa band of 35 g/L. Skeletal survey shows no lytic lesions. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma",
+        "Waldenström macroglobulinaemia",
+        "Monoclonal gammopathy of undetermined significance (MGUS)",
+        "AL amyloidosis",
+        "Metastatic prostate cancer"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of anaemia and back pain (even without lytic lesions) with a moderate monoclonal band indicates end-organ damage, fulfilling CRAB criteria for myeloma. MGUS would lack such organ involvement. Waldenström typically presents with IgM and hyperviscosity. AL amyloidosis often has nephrotic syndrome or cardiomyopathy. Prostate cancer metastases are osteoblastic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49aa96d507fc",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman is referred with fatigue. Routine bloods show: Hb 120 g/L, total protein 80 g/L (albumin 35 g/L), corrected calcium 2.3 mmol/L, creatinine 85 µmol/L. Serum free light chain ratio is 0.02 (kappa/lambda). No bone pain, and skeletal survey is normal. Serum protein electrophoresis and immunofixation are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic lymphocytic leukaemia",
+        "Monoclonal gammopathy of undetermined significance (MGUS)",
+        "AL amyloidosis",
+        "Multiple myeloma",
+        "Smoldering multiple myeloma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Normal electrophoresis but abnormal free light chain ratio suggests a plasma cell disorder. However, no CRAB features (no anaemia? Hb 120 is borderline; but in this vignette no clear anaemia) and no lytic lesions, making MGUS more likely than smoldering myeloma, which requires higher monoclonal protein or >10% plasma cells. Amyloidosis would typically have organ involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "71fc218fa884",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old man presents with confusion, polyuria, and constipation for 3 days. On examination, he is drowsy and dehydrated. Bloods: corrected calcium 3.2 mmol/L, creatinine 200 µmol/L, phosphate 1.1 mmol/L, PTH <0.1 pmol/L, vitamin D 40 nmol/L. Serum protein electrophoresis shows a faint monoclonal band. What is the single most likely diagnosis?",
+      "options": [
+        "Vitamin D toxicity",
+        "Hypercalcaemia of malignancy due to multiple myeloma",
+        "Sarcoidosis",
+        "Primary hyperparathyroidism",
+        "Metastatic lung cancer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low PTH excludes primary hyperparathyroidism. The presence of a monoclonal band and renal impairment in an elderly patient makes myeloma the likely cause of hypercalcaemia. Metastatic lung cancer is possible but less likely without known primary. Sarcoidosis typically has elevated vitamin D and normal PTH. Vitamin D toxicity would raise phosphate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87e83003b416",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman presents with oliguria over 1 week. She has no oedema or hypertension. Urine dipstick is negative for blood and protein. Serum creatinine is 400 µmol/L (baseline 90 µmol/L), urea 25 mmol/L, calcium 2.6 mmol/L. Serum free light chain ratio is 0.01 (kappa/lambda). Renal ultrasound is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis",
+        "Acute interstitial nephritis",
+        "Membranous nephropathy",
+        "Myeloma cast nephropathy",
+        "Diabetic nephropathy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute kidney injury with a negative urine dipstick (so no glomerular or cellular casts) and a very abnormal light chain ratio points to cast nephropathy from myeloma. ATN would typically have muddy brown casts. AIN often has white cells or eosinophiluria. Membranous and diabetic nephropathy are usually more chronic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a3e6e1db5295",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 85-year-old woman presents with recurrent chest infections over 6 months. Immunoglobulins: IgG 3.2 g/L, IgA 0.3 g/L, IgM 0.2 g/L. Serum protein electrophoresis shows no monoclonal band. Serum free light chain ratio is normal. She has mild anaemia (Hb 105 g/L) and raised ESR of 90 mm/hr. What is the single most likely diagnosis?",
+      "options": [
+        "Multiple myeloma (oligosecretory)",
+        "Chronic lymphocytic leukaemia",
+        "Waldenström macroglobulinaemia",
+        "Non-secretory myeloma",
+        "Common variable immunodeficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "Oligosecretory myeloma can present with hypogammaglobulinaemia, recurrent infections, and anaemia without a detectable monoclonal band. Non-secretory myeloma is rare and does not produce light chains. Common variable immunodeficiency typically presents younger and without anaemia/raised ESR. Waldenström has IgM. CLL often has lymphocytosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "656d7eb0a345",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with a 3-month history of persistent lower back pain and fatigue. He has normocytic anaemia (Hb 100 g/L), ESR 110 mm/h, and urea 12 mmol/L. Which single investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Urine Bence Jones protein detection",
+        "Bone marrow aspiration and trephine",
+        "Serum free light chain assay",
+        "Skeletal survey",
+        "Serum protein electrophoresis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Serum protein electrophoresis is the recommended first-line test to detect a monoclonal (M) protein in plasma cell dyscrasias. A positive result is then confirmed by immunofixation. Urine Bence Jones is less sensitive and not the initial step. Bone marrow biopsy is diagnostic but not first-line; skeletal survey assesses bone disease but does not confirm the diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8a7c0901ccf5",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman with known MGUS (M-protein 8 g/L, IgG kappa) returns for follow-up. She is asymptomatic but the M-protein has risen to 25 g/L over 2 years. What is the single most appropriate investigation to assess for progression to myeloma?",
+      "options": [
+        "Whole-body MRI",
+        "Repeat serum protein electrophoresis",
+        "Skeletal survey",
+        "Serum free light chain ratio",
+        "Bone marrow biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The involved/uninvolved free light chain ratio is a key marker of risk of progression from MGUS to myeloma. A ratio >100, along with M-protein >30 g/L, defines 'smouldering' or active myeloma. Repeat electrophoresis alone does not capture light chain escape. MRI and skeletal survey detect bone disease but do not directly quantify tumour burden.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a14553a5338",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man presents to the emergency department with confusion, polyuria, and constipation. Serum calcium is 3.2 mmol/L, creatinine 200 µmol/L, and haemoglobin 95 g/L. Urgent myeloma is suspected. Which investigation should be performed to confirm the diagnosis as quickly as possible?",
+      "options": [
+        "Bone marrow biopsy",
+        "Urine Bence Jones protein",
+        "Serum free light chain assay",
+        "Skeletal survey",
+        "Serum protein electrophoresis"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute kidney injury, serum free light chain assay is rapid (hours), highly sensitive, and detects light chain disease, which can be missed by serum electrophoresis. It is the preferred first-line test in renal impairment. Serum electrophoresis may be negative if only light chains are produced. Bone marrow biopsy is diagnostic but takes longer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "af7f9fc59458",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with known IgG kappa multiple myeloma (on lenalidomide maintenance) develops sudden severe thoracic back pain and bilateral leg weakness. MRI spine is pending. What is the most appropriate immediate investigation to confirm the cause of his symptoms?",
+      "options": [
+        "Skeletal survey",
+        "CT spine without contrast",
+        "MRI whole spine (urgent)",
+        "X-ray thoracic spine",
+        "Bone scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Spinal cord compression is a medical emergency; MRI is the gold standard to visualize cord and soft tissue. CT is inferior for cord detail; skeletal survey and X-ray miss extramedullary disease; bone scan is not sensitive for lytic lesions or cord compression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5d5654f94323",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman of Afro-Caribbean descent presents with fatigue and incidental anaemia (Hb 95 g/L, MCV 82 fL). ESR is 90 mm/h. She has no bone pain or renal impairment. Which investigation is most appropriate to differentiate multiple myeloma from other causes of a raised ESR?",
+      "options": [
+        "Serum protein electrophoresis",
+        "Vitamin B12 and folate",
+        "Haemoglobin electrophoresis",
+        "Serum ferritin",
+        "Chest X-ray"
+      ],
+      "answerIndex": 0,
+      "explanation": "A raised ESR in an older patient with anaemia should prompt a screen for myeloma. Serum protein electrophoresis detects monoclonal protein. Haemoglobin electrophoresis screens for sickle cell disease but not myeloma. Ferritin and B12/folate assess iron deficiency or megaloblastic anaemia, but do not address the raised ESR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d19b1eeb05da",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman is diagnosed with symptomatic multiple myeloma (IgG kappa, ISS stage II). She has hypertension and mild renal impairment (eGFR 45 mL/min/1.73m²). She is not considered fit for autologous stem cell transplantation. What is the most appropriate first-line treatment?",
+      "options": [
+        "Daratumumab + lenalidomide + dexamethasone (DRd)",
+        "Lenalidomide + dexamethasone (Rd)",
+        "Cyclophosphamide + bortezomib + dexamethasone (CyBorD)",
+        "Bortezomib + melphalan + prednisolone (VMP)",
+        "Bortezomib + lenalidomide + dexamethasone (VRd)"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends DRd as first-line for transplant-ineligible multiple myeloma. VRd is not currently NICE-approved for first-line. VMP is an older option but DRd is preferred due to better outcomes. Rd alone is suboptimal; CyBorD is used for relapsed/refractory disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b2cbece84186",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known multiple myeloma presents to the Emergency Department with severe hypercalcaemia (corrected calcium 3.6 mmol/L), confusion, and dehydration. His eGFR is 55 mL/min/1.73m². What is the most appropriate definitive treatment for the hypercalcaemia?",
+      "options": [
+        "Oral prednisolone 60 mg daily",
+        "Intravenous zoledronic acid 4 mg",
+        "Intravenous pamidronate 90 mg",
+        "Subcutaneous calcitonin",
+        "Intravenous normal saline alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "IV zoledronic acid is the bisphosphonate of choice for hypercalcaemia of malignancy due to shorter infusion time and superior potency. Pamidronate is an alternative but less convenient. Fluids alone are insufficient; calcitonin has limited effect; steroids are not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e3997686cd19",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with multiple myeloma (on lenalidomide maintenance) develops acute-onset severe left hip pain. CT reveals a pathological fracture of the left femoral neck. She is otherwise systemically well. What is the most appropriate local treatment for the fracture?",
+      "options": [
+        "Increase lenalidomide dose",
+        "Surgical fixation (e.g., intramedullary nail)",
+        "Radiotherapy to the hip",
+        "Total hip replacement",
+        "Increase bisphosphonate dose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Radiotherapy is the treatment of choice for painful lytic lesions causing pathological fracture. Surgery is reserved for unstable fractures or failed radiotherapy; bisphosphonates treat systemic bone disease but not acute fracture pain; lenalidomide dose increase is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc22665f08cb",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old man with newly diagnosed multiple myeloma presents with acute kidney injury (creatinine 350 µmol/L, eGFR 15 mL/min/1.73m²). Which of the following drugs is relatively CONTRAINDICATED in this patient due to renal impairment?",
+      "options": [
+        "Cyclophosphamide",
+        "Bortezomib",
+        "Lenalidomide",
+        "Daratumumab",
+        "Dexamethasone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lenalidomide is contraindicated if eGFR <30 mL/min due to risk of severe renal toxicity and requires dose reduction. Bortezomib is safe; dexamethasone and daratumumab are not renally excreted; cyclophosphamide can be used with dose adjustment but is not contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5b4f104c22c4",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with multiple myeloma underwent autologous stem cell transplantation (ASCT) 3 months ago. He has achieved a very good partial response (VGPR) and has good marrow recovery. What is the most appropriate maintenance therapy to improve progression-free survival?",
+      "options": [
+        "Thalidomide 100 mg orally nightly",
+        "Lenalidomide 10 mg orally once daily",
+        "No maintenance therapy",
+        "Dexamethasone 20 mg orally weekly",
+        "Bortezomib subcutaneously weekly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lenalidomide is the standard maintenance after ASCT in the UK, based on trials showing improved PFS and OS. Bortezomib and thalidomide are not routinely used; dexamethasone alone is inadequate; no maintenance is inferior.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e27484e12bc8",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman presents to her GP with a 3-month history of back pain and fatigue. Blood tests show Hb 105 g/L, raised total protein 85 g/L, low albumin 32 g/L, calcium 2.72 mmol/L (corrected 2.75), and creatinine 100 μmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to haematology clinic",
+        "Start oral bisphosphonate",
+        "Request MRI of the spine",
+        "Start dexamethasone",
+        "Order serum protein electrophoresis and immunofixation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of anemia, back pain, hypercalcemia (mild), and reversed albumin:globulin ratio suggests myeloma. The first diagnostic test is serum protein electrophoresis and immunofixation to confirm the presence of a monoclonal protein. Starting bisphosphonate or dexamethasone is premature without a diagnosis; MRI spine is for suspected cord compression, not present here; referral to haematology is appropriate but after confirming the paraprotein.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1bc5a87bcfc7",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with known smoldering myeloma (IgG kappa, M-protein 15 g/L at diagnosis) attends routine follow-up. He remains asymptomatic, but his M-protein has risen to 25 g/L over 6 months. Renal function, calcium, and full blood count are normal. What is the most appropriate next step?",
+      "options": [
+        "Order a skeletal survey",
+        "Start lenalidomide and dexamethasone",
+        "Refer for autologous stem cell transplant",
+        "Start zoledronic acid",
+        "Repeat blood tests in 3 months"
+      ],
+      "answerIndex": 4,
+      "explanation": "Smoldering myeloma is defined by the absence of end-organ damage. A rise in M-protein alone does not indicate active disease requiring treatment; monitoring is recommended. Starting treatment or transplant would be inappropriate. A skeletal survey is not needed now as there is no bone pain or other indication; bisphosphonates are for bone disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "767ae3892298",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with known multiple myeloma (on lenalidomide maintenance) is brought to the Emergency Department with confusion, polyuria, and constipation. Observations: HR 110 bpm, BP 95/60 mmHg, temperature 36.8°C. Bloods: calcium 3.5 mmol/L, creatinine 180 μmol/L. What is the most immediate next action?",
+      "options": [
+        "Start IV dexamethasone",
+        "Start IV normal saline 2 litres over 1 hour",
+        "Give IV calcitonin",
+        "Contact the on-call haematologist",
+        "Administer IV pamidronate"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is hypercalcaemic crisis. The immediate priority is aggressive IV fluid rehydration to correct hypovolaemia and improve renal function. Bisphosphonate (pamidronate) should follow but not before fluids; calcitonin is not first-line; dexamethasone is not for hypercalcaemia; contacting haematologist is important but not as urgent as starting fluids.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "78c51a4185bb",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with multiple myeloma (on lenalidomide) develops sudden severe lumbar back pain and bilateral leg weakness over 12 hours. He is unable to walk. On examination, there is sensory loss at T10 level and reduced anal tone. What is the most immediate next action?",
+      "options": [
+        "Give high-dose dexamethasone 16 mg IV stat",
+        "Refer for urgent radiotherapy",
+        "Refer for urgent neurosurgical decompression",
+        "Request urgent MRI spine",
+        "Start IV bisphosphonate"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presentation suggests malignant spinal cord compression. The immediate step is to give high-dose dexamethasone to reduce cord oedema. MRI is essential but can wait minutes; definitive treatment (radiotherapy/surgery) requires prior imaging; bisphosphonate is irrelevant here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5b066b245fe7",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman with multiple myeloma (treated with autologous stem cell transplant 6 months ago, currently on lenalidomide maintenance) presents with fatigue. Her Hb is 90 g/L (previously 120 g/L) and WCC and platelets are normal. She has no other symptoms. What is the most appropriate immediate next step?",
+      "options": [
+        "Check vitamin B12, folate, and ferritin levels",
+        "Stop lenalidomide",
+        "Transfuse 2 units of packed red cells",
+        "Check serum immunofixation and free light chains",
+        "Repeat bone marrow biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient on lenalidomide maintenance, new anaemia raises suspicion of biochemical relapse. Serum immunofixation and free light chains are the most direct tests to detect recurrence of monoclonal protein. Checking B12/folate/ferritin is reasonable but less specific; stopping lenalidomide is premature; transfusion is symptomatic but not diagnostic; bone marrow biopsy is more invasive and not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8a76186b0556",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents with a two-week history of lower back pain and fatigue. His blood tests show a raised ESR of 100 mm/hr and a normocytic anaemia (Hb 100 g/L). Which single finding would indicate a potential myeloma-related emergency that requires immediate referral?",
+      "options": [
+        "Serum creatinine 180 μmol/L",
+        "Beta-2 microglobulin 4 mg/L",
+        "Serum albumin 30 g/L",
+        "Urine protein 0.3 g/24h",
+        "Serum calcium 2.85 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute kidney injury (creatinine > 130 μmol/L) in suspected myeloma is a medical emergency requiring urgent nephrology and haematology input. Hypercalcaemia is also serious but a creatinine of 180 μmol/L represents established renal impairment which can be rapidly progressive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dbb508e80337",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with known IgG kappa multiple myeloma on lenalidomide maintenance presents with sudden dyspnoea, headache, and blurred vision. Her oxygen saturations are 98% on air and chest X-ray is clear. Which finding most strongly points to a life-threatening complication?",
+      "options": [
+        "D-dimer 1.2 mg/L",
+        "Lactate dehydrogenase 400 U/L",
+        "Serum protein electrophoresis shows M protein 55 g/L",
+        "Haemoglobin 90 g/L",
+        "Plasma viscosity 4.0 mPa·s"
+      ],
+      "answerIndex": 4,
+      "explanation": "A plasma viscosity > 3.5 mPa·s indicates hyperviscosity syndrome, a haematological emergency requiring urgent plasmapheresis. High M protein level alone does not confirm hyperviscosity; viscosity measurement is diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e4781080950",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man with known multiple myeloma presents to the emergency department with confusion and blurred vision. His temperature is 37.0°C. Which laboratory value most confidently confirms a medical emergency?",
+      "options": [
+        "Corrected calcium 3.1 mmol/L",
+        "Haemoglobin 80 g/L",
+        "M protein 45 g/L",
+        "Creatinine 250 μmol/L",
+        "White cell count 12 × 10^9/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Corrected calcium > 3.0 mmol/L is a critical value in myeloma, often causing neurological symptoms like confusion; it demands immediate bisphosphonate therapy and hydration. While renal impairment is also serious, hypercalcaemia is the more acute threat in this scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9abad1efb991",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "Two days after starting chemotherapy with bortezomib and cyclophosphamide for newly diagnosed multiple myeloma, a patient develops sudden severe back pain and bilateral leg weakness. Which diagnosis must be excluded as a matter of urgency?",
+      "options": [
+        "Lumbar disc herniation",
+        "Spinal cord compression from myeloma deposit",
+        "Paraspinal muscle spasm",
+        "Chemotherapy-induced peripheral neuropathy",
+        "Vertebral fracture without cord compromise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Back pain with neurological signs in a patient with myeloma is spinal cord compression until proven otherwise. Immediate MRI and dexamethasone are required to prevent permanent paralysis. Vertebral fracture is common but without motor signs does not explain bilateral weakness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df7fc2b6f8f3",
+      "topic": "Multiple Myeloma",
+      "slug": "multiple-myeloma",
+      "system": "Haematology",
+      "subSystem": "Plasma cell",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with smouldering myeloma (IgG kappa, 15% plasma cells) develops oliguric acute kidney injury three days after taking ibuprofen for arthritis. Which complication is the most likely cause?",
+      "options": [
+        "Renal vein thrombosis",
+        "Cast nephropathy (myeloma kidney)",
+        "Light chain deposition disease",
+        "Hypercalcaemic nephropathy",
+        "Acute interstitial nephritis due to NSAID"
+      ],
+      "answerIndex": 1,
+      "explanation": "In smouldering myeloma, NSAIDs can precipitate cast nephropathy by reducing renal perfusion and promoting light chain cast formation. Although interstitial nephritis is also NSAID-related, cast nephropathy is the classic cause of acute renal failure in myeloma, especially with precipitating factors.",
+      "difficulty": "hard"
+    }
+  ]
+}

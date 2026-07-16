@@ -1,0 +1,493 @@
+{
+  "topic": "Rheumatic Fever",
+  "slug": "rheumatic-fever",
+  "system": "Cardiovascular",
+  "subSystem": "Valvular",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:32:56Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "bcc7b723bd18",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 14-year-old boy presents with a 1-week history of migratory polyarthritis affecting his knees and ankles, and a fever of 38.5°C. Three weeks ago he had a sore throat. On examination, he has a new pansystolic murmur at the apex radiating to the axilla, and you notice an erythematous rash with a serpiginous border on his trunk. Anti-streptolysin O titre is elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Post-streptococcal reactive arthritis",
+        "Infective endocarditis",
+        "Systemic lupus erythematosus",
+        "Acute rheumatic fever with carditis",
+        "Juvenile idiopathic arthritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient meets the Jones criteria with two major manifestations (polyarthritis and carditis) plus evidence of recent streptococcal infection. Erythema marginatum is pathognomonic for acute rheumatic fever, distinguishing it from infective endocarditis (which usually has a valvular vegetation and positive blood cultures) and other arthritides.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4451178532b1",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 10-year-old girl presents with a 2-week history of involuntary, jerky movements of her hands and face, causing difficulty with writing and speech. Her mother reports she has been more emotional and irritable lately. There is no history of joint pain, rash, or sore throat. Throat swab is negative, but ASOT is borderline elevated. Echocardiogram shows no valvular abnormalities. What is the single most likely diagnosis?",
+      "options": [
+        "Sydenham's chorea due to acute rheumatic fever",
+        "Tourette syndrome",
+        "Systemic lupus erythematosus",
+        "Wilson disease",
+        "Tic disorder"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sydenham's chorea is a neurological manifestation of acute rheumatic fever and can occur as the sole major criterion. It often presents after a latent period, and ASOT may be borderline. The absence of other symptoms and normal echocardiogram do not exclude the diagnosis; chorea is sufficient when accompanied by evidence of recent streptococcal infection. Tourette syndrome and tic disorders typically begin at a younger age and lack the emotional lability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e131af616e3e",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with acute dyspnoea, orthopnoea, and frothy sputum 2 weeks after a sore throat. She is tachycardic and has a pansystolic murmur at the apex radiating to the axilla. Chest X-ray shows cardiomegaly and pulmonary oedema. Echocardiogram reveals severe mitral regurgitation with no vegetations. Anti-streptolysin O titre is elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Mitral valve prolapse with chordal rupture",
+        "Acute rheumatic carditis",
+        "Peripartum cardiomyopathy",
+        "Viral myocarditis",
+        "Infective endocarditis with mitral valve perforation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The acute onset of heart failure with severe mitral regurgitation in a young adult following a sore throat, elevated ASOT, and no vegetations is classic for acute rheumatic carditis. Infective endocarditis typically presents with fever and vegetations on echocardiogram. Viral myocarditis usually causes global hypokinesia rather than isolated valvular regurgitation. Mitral valve prolapse is usually chronic and not associated with acute heart failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fa0b92cc24da",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with known rheumatic heart disease (mitral stenosis) presents with fever, polyarthralgia, and a new murmur of aortic regurgitation. She had stopped her penicillin prophylaxis 2 years ago. Anti-streptolysin O titre is raised. Two sets of blood cultures are negative. What is the single most likely diagnosis?",
+      "options": [
+        "Infective endocarditis",
+        "Acute gout",
+        "Post-streptococcal glomerulonephritis",
+        "Systemic lupus erythematosus",
+        "Recurrent acute rheumatic fever"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has a history of rheumatic heart disease and develops new valvular involvement with fever and arthralgia after discontinuing prophylaxis, along with elevated ASOT. Recurrent acute rheumatic fever is likely, as it can affect previously unaffected valves. Infective endocarditis is less likely given negative blood cultures and no vegetations on echo (though not stated, the absence of positive cultures and new murmur in a different valve favours rheumatic recurrence).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e4f361a538c4",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 8-year-old boy, 4 weeks after a streptococcal pharyngitis, is noted to have painless, firm nodules on the extensor surfaces of his elbows and knees, and a fleeting, erythematous, serpiginous rash on his trunk. He has no joint pain, no fever, and no cardiac murmur on examination. Anti-streptolysin O titre is elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Infective endocarditis with Osler nodes",
+        "Acute rheumatic fever",
+        "Rheumatoid nodules due to juvenile idiopathic arthritis",
+        "Subcutaneous sarcoidosis",
+        "Systemic lupus erythematosus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The presence of subcutaneous nodules and erythema marginatum constitutes two major Jones criteria. Even without arthritis or carditis, the combination of these two pathognomonic features plus evidence of recent streptococcal infection confirms acute rheumatic fever. Rheumatoid nodules are typically associated with arthritis, and Osler nodes are painful and occur in infective endocarditis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6a1d479db912",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 12-year-old presents with polyarthritis, fever, and a new mitral regurgitation murmur. Which investigation is most appropriate to confirm the diagnosis of acute rheumatic fever?",
+      "options": [
+        "Echocardiogram",
+        "Anti-streptolysin O titre",
+        "Electrocardiogram",
+        "C-reactive protein",
+        "Throat swab for group A streptococcus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Echocardiography demonstrates valvular regurgitation, confirming carditis as a major Jones criterion. ASOT supports recent infection but does not confirm carditis; throat swab may be negative if infection has resolved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e19efce5b823",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 15-year-old presents with arthralgia and fever but no murmur. She had a sore throat three weeks ago. Which investigation is most likely to support a diagnosis of rheumatic fever?",
+      "options": [
+        "Electrocardiogram",
+        "Echocardiogram",
+        "Throat swab",
+        "Anti-streptolysin O titre",
+        "Erythrocyte sedimentation rate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevated ASOT provides evidence of recent group A streptococcal infection, necessary for diagnosis when only one major criterion is present (arthralgia is a minor criterion). Throat swab may be negative after three weeks; echo is normal without carditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef5c16be1dd6",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old with known rheumatic mitral stenosis develops fever and a new regurgitant murmur. Which investigation is most appropriate to distinguish between acute rheumatic fever recurrence and infective endocarditis?",
+      "options": [
+        "C-reactive protein",
+        "Echocardiogram",
+        "Anti-streptolysin O titre",
+        "Blood cultures",
+        "Throat swab"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood cultures are essential to diagnose infective endocarditis, which is suggested by fever and a new murmur in a patient with structural valve disease. ASOT and echocardiogram are less specific for this differentiation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "193e29aac964",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "According to the revised Jones criteria, which of the following is considered a minor criterion for rheumatic fever?",
+      "options": [
+        "Subcutaneous nodules",
+        "Carditis",
+        "Arthralgia",
+        "Erythema marginatum",
+        "Polyarthritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Arthralgia (joint pain without objective inflammation) is a minor criterion. All other options (carditis, polyarthritis, erythema marginatum, subcutaneous nodules) are major criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d0e5f653351",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 8-year-old child presents with acute rheumatic fever manifesting as migratory polyarthritis, erythema marginatum, and mild mitral regurgitation on echocardiogram. What is the most appropriate first-line treatment for the arthritis?",
+      "options": [
+        "Naproxen 10 mg/kg twice daily",
+        "Prednisolone 2 mg/kg daily",
+        "Paracetamol 15 mg/kg four times daily",
+        "Aspirin 75–100 mg/kg daily in divided doses",
+        "Ibuprofen 10 mg/kg three times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Aspirin is the traditional first-line therapy for arthritis in acute rheumatic fever. Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen or naproxen are alternatives, but aspirin remains preferred due to long-standing evidence. Prednisolone is reserved for moderate-to-severe carditis, not uncomplicated arthritis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68c3c4ddb941",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 12-year-old girl with acute rheumatic fever develops severe carditis, New York Heart Association (NYHA) class III heart failure, and cardiomegaly on chest X-ray. What is the most appropriate first-line therapy?",
+      "options": [
+        "Intravenous immunoglobulins",
+        "Oral prednisolone 2 mg/kg daily",
+        "Cyclophosphamide 500 mg/m² monthly",
+        "High-dose oral aspirin",
+        "Methotrexate 7.5 mg weekly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Corticosteroids (e.g., prednisolone) are first-line for moderate-to-severe carditis in acute rheumatic fever to reduce inflammation and improve cardiac outcome. Aspirin is not effective for severe carditis. Immunoglobulins, methotrexate, and cyclophosphamide are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "45623921c7ea",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 10-year-old boy with acute rheumatic fever presents with chorea affecting his writing and gait, causing functional impairment. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Carbamazepine 10 mg/kg daily",
+        "Diazepam 5 mg three times daily",
+        "Haloperidol 0.5 mg twice daily",
+        "Sodium valproate 10–15 mg/kg daily",
+        "Prednisolone 2 mg/kg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sodium valproate is recommended as first-line therapy for Sydenham’s chorea due to its efficacy and favourable side-effect profile. Carbamazepine is an alternative first-line; haloperidol is second-line. Diazepam and prednisolone are not standard treatments.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ac74375f275d",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 12-year-old child had an episode of acute rheumatic fever with mild carditis (resolved mitral regurgitation) 6 months ago. There is no residual valve disease. What is the most appropriate secondary prophylaxis regimen to prevent recurrence?",
+      "options": [
+        "Oral erythromycin 250 mg twice daily for 10 years",
+        "Oral penicillin V 250 mg twice daily until age 21 or for 10 years (whichever is longer)",
+        "Benzathine penicillin G 1.2 million units intramuscularly every 3 weeks for life",
+        "No prophylaxis needed",
+        "Benzathine penicillin G 2.4 million units intramuscularly monthly for 5 years"
+      ],
+      "answerIndex": 1,
+      "explanation": "For patients with previous rheumatic fever without residual valve disease, NICE recommends secondary prophylaxis with oral penicillin V (or benzathine penicillin IM) until age 21 or for 10 years (whichever is longer). Lifelong or extended duration is reserved for those with severe carditis or valve disease. Erythromycin is an alternative in penicillin allergy but not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a4203db1ed9c",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 8-year-old child with acute rheumatic fever has severe carditis and heart failure. Which of the following medications is CONTRAINDICATED in this setting?",
+      "options": [
+        "Ibuprofen 10 mg/kg three times daily",
+        "Aspirin 75 mg/kg daily",
+        "Paracetamol 15 mg/kg every 6 hours",
+        "Benzylpenicillin 50 mg/kg every 6 hours",
+        "Prednisolone 2 mg/kg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen are avoided in severe carditis because they can cause fluid retention, exacerbate heart failure, and have not been shown to improve cardiac outcomes. Aspirin is used for arthritis but not for carditis; prednisolone is the mainstay. Penicillin and paracetamol are safe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c8f0b596c699",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 12-year-old boy presents with a 2-week history of migratory polyarthritis and a temperature of 38.5°C. On examination, he has a new apical pansystolic murmur. Throat swab grows group A streptococcus. He has no signs of heart failure. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for echocardiogram",
+        "Start oral aspirin 50 mg/kg/day",
+        "Start oral prednisolone 2 mg/kg/day",
+        "Start oral penicillin V for 10 days",
+        "Start IV benzylpenicillin"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute rheumatic fever, the immediate priority is to eradicate the streptococcal infection with penicillin to prevent further immune response. Aspirin is indicated for arthritis but can be started after antibiotics. Echocardiogram is needed but not immediately before treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b415ca82a1a6",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with acute rheumatic fever presents with dyspnoea at rest, orthopnoea, and a pulse of 110 bpm. On auscultation, she has a new mitral regurgitation murmur and a pericardial rub. Chest X-ray shows cardiomegaly and pulmonary oedema. What is the most appropriate immediate next step?",
+      "options": [
+        "Start IV benzylpenicillin",
+        "Refer to cardiothoracic surgery",
+        "Perform urgent echocardiogram",
+        "Start IV furosemide 40 mg",
+        "Start oral prednisolone 60 mg once daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "In severe rheumatic carditis with heart failure, corticosteroids (prednisolone 60 mg daily) are the first-line therapy to reduce inflammation and improve symptoms. Diuretics can be considered concurrently but the key disease-modifying treatment is steroids.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e6c05e8c187c",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known rheumatic mitral stenosis presents with palpitations and dizziness. ECG shows atrial fibrillation with a ventricular rate of 140 bpm. He is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Start warfarin with heparin bridging",
+        "Perform direct current cardioversion",
+        "Refer for balloon mitral valvuloplasty",
+        "Start digoxin 0.25 mg orally",
+        "Start bisoprolol 5 mg orally"
+      ],
+      "answerIndex": 4,
+      "explanation": "For acute AF with rapid ventricular response in a stable patient, rate control with a beta-blocker (e.g., bisoprolol) is the immediate priority. Anticoagulation should follow after rate control, but not as the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35ab1778108f",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 20-year-old woman is diagnosed with acute rheumatic fever with chorea and mild carditis. She has completed a 10-day course of oral penicillin for the initial infection. She is now symptom-free after 2 weeks. What is the most appropriate immediate next step regarding secondary prophylaxis?",
+      "options": [
+        "No further action required",
+        "Prescribe a 6-month course of prednisolone",
+        "Start intramuscular benzathine penicillin G 1.2 million units every 4 weeks",
+        "Schedule a follow-up echocardiogram in 1 year",
+        "Start oral penicillin V 250 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "For secondary prophylaxis of rheumatic fever, intramuscular benzathine penicillin G every 4 weeks is the first-line regimen due to better compliance and efficacy. Oral penicillin is an alternative but not preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "991eb4f5bf01",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with a history of rheumatic fever 10 years ago, on monthly intramuscular benzathine penicillin G, presents with acute onset of fever, polyarthritis, and a new murmur. He admits to missing his last two injections. Blood cultures are negative. What is the most appropriate immediate next step?",
+      "options": [
+        "Add oral rifampicin for possible penicillin-resistant streptococcus",
+        "Start high-dose aspirin",
+        "Restart benzathine penicillin G injections",
+        "Start IV vancomycin for possible infective endocarditis",
+        "Perform urgent echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with recurrent rheumatic fever due to missed prophylaxis, the immediate next step is to restart benzathine penicillin G to provide prophylaxis and treat the underlying streptococcal infection. Anti-inflammatory therapy can be added later.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30ad69c05364",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 12-year-old boy presents with fever, migratory polyarthritis, and rash. On auscultation, what finding confirms acute rheumatic carditis requiring hospital admission?",
+      "options": [
+        "Apical middiastolic murmur (Carey Coombs murmur)",
+        "Pleural rub",
+        "Venous hum",
+        "Loud S1",
+        "Fixed splitting of S2"
+      ],
+      "answerIndex": 0,
+      "explanation": "Carey Coombs murmur is an apical middiastolic murmur due to mitral valve edema, indicating active carditis. Other options are not specific for acute rheumatic carditis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "618872231cff",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 24-year-old woman with known rheumatic heart disease (mild mitral stenosis) presents with palpitations and dyspnoea. ECG shows atrial fibrillation. Which clinical sign suggests she is developing life-threatening cardiac failure?",
+      "options": [
+        "Loud P2",
+        "Palpable apex beat",
+        "Mild ankle oedema",
+        "Raised JVP with pulsus paradoxus",
+        "Heart rate 110 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Raised JVP with pulsus paradoxus may indicate cardiac tamponade from pericarditis, a life-threatening complication of rheumatic carditis. Other findings are less specific for imminent decompensation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c80b0405265b",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 7-year-old child with acute rheumatic fever is on aspirin. He develops worsening chest pain and breathlessness. On examination, which finding is most indicative of severe pericardial involvement?",
+      "options": [
+        "Friction rub",
+        "Pulsus paradoxus",
+        "Widened pulse pressure",
+        "S3 gallop",
+        "Hepatomegaly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pulsus paradoxus indicates cardiac tamponade, a life-threatening complication of pericarditis. Friction rub is a sign of pericarditis but does not signify haemodynamic compromise.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4ab21b180788",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with chronic rheumatic mitral regurgitation presents with fatigue and exertional dyspnoea. What clinical finding suggests progression to severe valvular dysfunction?",
+      "options": [
+        "Apical pansystolic murmur",
+        "Displaced apex beat",
+        "Opening snap",
+        "Soft S1",
+        "Right ventricular heave"
+      ],
+      "answerIndex": 1,
+      "explanation": "A displaced apex beat indicates left ventricular enlargement from volume overload, a sign of severe chronic mitral regurgitation that warrants escalation. Other findings are less specific for severity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17e44e1d46dc",
+      "topic": "Rheumatic Fever",
+      "slug": "rheumatic-fever",
+      "system": "Cardiovascular",
+      "subSystem": "Valvular",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with a history of rheumatic fever in childhood is now pregnant. Which cardiovascular finding would be most concerning for acute deterioration during pregnancy?",
+      "options": [
+        "New onset atrial fibrillation",
+        "Physiological flow murmur",
+        "Mild pedal oedema",
+        "Soft systolic murmur",
+        "Palpable apex beat in left lateral position"
+      ],
+      "answerIndex": 0,
+      "explanation": "New onset atrial fibrillation in a pregnant woman with rheumatic heart disease can cause rapid ventricular response and pulmonary oedema, requiring urgent cardiology input. Other findings are common in pregnancy or low risk.",
+      "difficulty": "easy"
+    }
+  ]
+}

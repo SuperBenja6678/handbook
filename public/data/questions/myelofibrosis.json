@@ -1,0 +1,513 @@
+{
+  "topic": "Myelofibrosis",
+  "slug": "myelofibrosis",
+  "system": "Haematology",
+  "subSystem": "Myeloproliferative",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:36:55Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "4725618ccaba",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with fatigue, weight loss, and left upper quadrant discomfort. Examination reveals firm splenomegaly 8 cm below costal margin. Blood tests: Hb 100 g/L, WCC 15×10⁹/L with leucoerythroblastic film, platelet count 450×10⁹/L. Peripheral smear shows tear-drop cells. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic myeloid leukaemia",
+        "Secondary myelofibrosis (e.g., from metastatic carcinoma)",
+        "Primary myelofibrosis",
+        "Essential thrombocythaemia",
+        "Polycythaemia vera"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of splenomegaly, anaemia, leucoerythroblastosis, and teardrop cells is pathognomonic for primary myelofibrosis. CML typically shows granulocyte predominance with basophilia; ET and PV lack leucoerythroblastosis; secondary myelofibrosis is rare and often has other clues.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9bba109a14c1",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old woman complains of pruritus and fatigue. She has mild splenomegaly (2 cm). Hb 135 g/L, WCC 12×10⁹/L, platelets 600×10⁹/L. JAK2 V617F mutation positive. Peripheral smear shows occasional teardrop cells and a leucoerythroblastic picture. What is the single most likely diagnosis?",
+      "options": [
+        "Essential thrombocythaemia",
+        "Polycythaemia vera",
+        "Secondary thrombocytosis",
+        "Chronic myeloid leukaemia",
+        "Primary myelofibrosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite thrombocytosis, the presence of teardrop cells and leucoerythroblastosis points to early primary myelofibrosis rather than ET. ET would not show these blood film changes. PV would have elevated Hb/haematocrit; CML would have basophilia; secondary thrombocytosis lacks JAK2 mutation and splenomegaly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a77b868a9d9e",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with known primary myelofibrosis on ruxolitinib presents with fever (39°C), bone pain, and new petechiae. Blood film shows 30% blasts. What is the single most likely diagnosis?",
+      "options": [
+        "Myelofibrosis progression (without blast phase)",
+        "Transformation to acute myeloid leukaemia",
+        "Haemophagocytic lymphohistiocytosis",
+        "Sepsis",
+        "Drug-induced agranulocytosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blasts >20% in a patient with myelofibrosis indicates transformation to AML (blast phase). Sepsis and drug reaction do not cause such a high blast count; myelofibrosis progression without blasts would show <10%; HLH is very rare and has specific criteria like hyperferritinaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1fa9079cacf6",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with primary myelofibrosis presents with worsening abdominal distension. Examination reveals tense ascites, caput medusae, and a palpable spleen 10 cm. Liver function tests are mildly deranged with normal bilirubin. Upper endoscopy shows oesophageal varices. What is the single most likely cause of her ascites?",
+      "options": [
+        "Cirrhosis (e.g., alcoholic)",
+        "Nonalcoholic steatohepatitis",
+        "Portal hypertension due to extramedullary haematopoiesis",
+        "Portal vein thrombosis",
+        "Budd-Chiari syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "In myelofibrosis, extramedullary haematopoiesis in the liver can cause presinusoidal portal hypertension leading to ascites and varices without cirrhosis. Budd-Chiari typically presents with hepatomegaly and acute pain; portal vein thrombosis alone does not explain ascites well; NASH is less likely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7107c937f41f",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old pregnant woman (28 weeks) presents with fatigue and a sensation of fullness in her left side. Examination reveals splenomegaly 6 cm below costal margin. Blood tests: Hb 100 g/L, WCC 13×10⁹/L, platelets 500×10⁹/L. Peripheral smear shows leucoerythroblastosis and teardrop cells. What is the single most likely diagnosis?",
+      "options": [
+        "Primary myelofibrosis",
+        "Chronic myeloid leukaemia",
+        "Gestational thrombocytopenia",
+        "Essential thrombocythaemia",
+        "Gaucher's disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "Leucoerythroblastosis and teardrop cells in a patient with splenomegaly are classic for primary myelofibrosis, even in pregnancy. CML would show basophilia; ET would not have these film changes; gestational thrombocytopenia is mild and asymptomatic; Gaucher's would have Gaucher cells, not teardrop cells.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3f774c533e95",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man presents with fatigue, weight loss, and left upper quadrant discomfort. Examination reveals massive splenomegaly (15 cm below costal margin). FBC: Hb 95 g/L, WCC 12 × 10⁹/L, platelets 450 × 10⁹/L. Blood film shows tear-drop cells and a leucoerythroblastic picture. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Serum lactate dehydrogenase",
+        "Bone marrow aspirate and trephine biopsy",
+        "Abdominal ultrasound",
+        "JAK2 V617F mutation testing",
+        "CALR mutation testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bone marrow trephine biopsy is the gold standard to demonstrate increased reticulin or collagen fibrosis, which is diagnostic of myelofibrosis. JAK2 mutation testing supports the diagnosis but is not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8948aa9c6c39",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with splenomegaly, anaemia, and thrombocytosis has a negative JAK2 V617F mutation test. What is the next most appropriate test to confirm a diagnosis of primary myelofibrosis?",
+      "options": [
+        "Next-generation sequencing panel",
+        "Cytogenetic analysis",
+        "Bone marrow trephine biopsy",
+        "CALR mutation testing",
+        "MPL mutation testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "CALR mutations are present in approximately 20–25% of JAK2-negative patients with primary myelofibrosis, making it the next logical clonal marker to test.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "60ddd4ad1f79",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "According to the WHO diagnostic criteria for primary myelofibrosis, which of the following is a major criterion?",
+      "options": [
+        "Leucoerythroblastic blood picture",
+        "Presence of a JAK2, CALR, or MPL mutation",
+        "Tear-drop cells on blood film",
+        "Splenomegaly",
+        "Elevated serum lactate dehydrogenase"
+      ],
+      "answerIndex": 1,
+      "explanation": "The WHO major criteria include megakaryocytic hyperplasia with fibrosis, not meeting criteria for other MPN, and the presence of a clonal marker (JAK2/CALR/MPL mutation) or absence of reactive fibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7856b17e4e02",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman with known essential thrombocythaemia (ET) presents with progressive anaemia, splenomegaly, and constitutional symptoms. FBC: Hb 85 g/L, WCC 15 × 10⁹/L, platelets 100 × 10⁹/L. Which investigation is most likely to confirm transformation to post-ET myelofibrosis?",
+      "options": [
+        "Peripheral blood film",
+        "Repeat JAK2 mutation testing",
+        "CT abdomen",
+        "Bone marrow trephine biopsy",
+        "Serum erythropoietin level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Post-ET myelofibrosis is confirmed by bone marrow histology showing grade 2–3 reticulin/collagen fibrosis, with megakaryocytic hyperplasia and other features of MF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0b328a30a8f6",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old patient presents with splenomegaly and normocytic anaemia. Peripheral blood film shows mild leucoerythroblastic changes but no tear-drop cells. Which finding would most strongly support a diagnosis of primary myelofibrosis rather than secondary myelofibrosis?",
+      "options": [
+        "History of chronic infection",
+        "Presence of a JAK2 V617F mutation",
+        "Bilateral pedal oedema",
+        "Elevated ESR",
+        "Low serum ferritin"
+      ],
+      "answerIndex": 1,
+      "explanation": "A JAK2 mutation is a clonal marker specific to myeloproliferative neoplasms and is not found in secondary causes of marrow fibrosis, making it the best discriminator.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9382239dbec",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with primary myelofibrosis (JAK2V617F positive) presents with symptomatic splenomegaly (8 cm below costal margin), night sweats, and weight loss. His IPSS score is intermediate-2. What is the most appropriate first-line therapy?",
+      "options": [
+        "Allogeneic stem cell transplant",
+        "Ruxolitinib",
+        "Interferon-alfa",
+        "Hydroxycarbamide",
+        "Danazol"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ruxolitinib is NICE-recommended first-line therapy for symptomatic intermediate- and high-risk myelofibrosis. Hydroxycarbamide may reduce counts but does not adequately control splenomegaly or constitutional symptoms. Interferon-alfa is not first-line for this risk group. Danazol is for anaemia alone. Allogeneic transplant is reserved for selected fit patients, not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8fe609e24deb",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with primary myelofibrosis has a haemoglobin of 85 g/L and asymptomatic splenomegaly (2 cm below costal margin). Platelet count and white cell count are normal. She has not received previous transfusions or cytoreductive therapy. Serum erythropoietin level is 150 mu/mL. What is the most appropriate first-line treatment for her anaemia?",
+      "options": [
+        "Splenectomy",
+        "Ruxolitinib",
+        "Erythropoietin",
+        "Hydroxycarbamide",
+        "Danazol"
+      ],
+      "answerIndex": 4,
+      "explanation": "Danazol (androgen) is first-line for myelofibrosis-associated anaemia per NICE. Ruxolitinib can improve anaemia in some but is not first-line for isolated anaemia. Erythropoietin is ineffective when endogenous EPO >125 mu/mL. Hydroxycarbamide may worsen anaemia. Splenectomy is not indicated for anaemia alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "43f4a6f0d83d",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old patient with primary myelofibrosis has massive splenomegaly (15 cm below costal margin) and recurrent epistaxis. Platelet count is 30 × 10^9/L. He is not a candidate for allogeneic transplant. Which therapy is CONTRAINDICATED?",
+      "options": [
+        "Lenalidomide",
+        "Hydroxycarbamide",
+        "Splenectomy",
+        "Ruxolitinib",
+        "Danazol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Splenectomy is contraindicated in myelofibrosis with severe thrombocytopenia due to high risk of bleeding and perioperative morbidity. Ruxolitinib is used with caution but not absolutely contraindicated. Danazol may improve cytopenias. Hydroxycarbamide can worsen thrombocytopenia but is not contraindicated. Lenalidomide is not standard therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3676312ef825",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known primary myelofibrosis presents with acute severe left upper quadrant pain and rigors. CT reveals a splenic infarct. His spleen is 12 cm below the costal margin. Platelet count is 80 × 10^9/L. He is febrile but haemodynamically stable. What is the most appropriate first-line therapy for this acute presentation?",
+      "options": [
+        "Interferon-alfa",
+        "Ruxolitinib",
+        "High-dose opioids alone",
+        "Splenectomy",
+        "Allogeneic stem cell transplant"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ruxolitinib is first-line to rapidly reduce splenomegaly and relieve symptoms in myelofibrosis, including splenic infarction. Splenectomy is high-risk in this setting. Interferon-alfa is not for acute symptoms. Allogeneic transplant is not an acute therapy. Analgesia alone does not address the underlying splenomegaly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11f66baa7584",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old patient with primary myelofibrosis currently on ruxolitinib 20 mg twice daily for symptomatic splenomegaly develops active pulmonary tuberculosis (sputum smear-positive). Ruxolitinib has been well-tolerated for 18 months. Which of the following treatments for myelofibrosis is CONTRAINDICATED at this time?",
+      "options": [
+        "Danazol",
+        "Ruxolitinib",
+        "Hydroxycarbamide",
+        "Thalidomide",
+        "Interferon-alfa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ruxolitinib is contraindicated in active serious infections due to its immunosuppressive effects; it should be withheld until the infection is controlled. Hydroxycarbamide, danazol, and interferon-alfa are not contraindicated. Thalidomide is not first-line and also immunosuppressive but not as relevant; ruxolitinib is the established contraindication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "670a39a46f6d",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman attends the haematology clinic with a 6-month history of fatigue and early satiety. On examination, her spleen is enlarged 8 cm below the costal margin. Full blood count shows Hb 105 g/L, WBC 12 × 10^9/L, platelets 500 × 10^9/L. Blood film confirms a leucoerythroblastic picture with teardrop cells. What is the single most appropriate next step?",
+      "options": [
+        "Start ruxolitinib 5 mg twice daily",
+        "Bone marrow biopsy",
+        "Refer for splenectomy",
+        "CT abdomen",
+        "JAK2 V617F mutation analysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "JAK2 V617F mutation testing is first-line for confirming the diagnosis of myelofibrosis; bone marrow biopsy is required for grading fibrosis but not the immediate next step. CT is not diagnostic; ruxolitinib is reserved for symptomatic patients after diagnosis; splenectomy is for severe refractory symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b3b95bc56e9f",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known primary myelofibrosis (JAK2-positive) has been taking ruxolitinib 20 mg twice daily for 6 months with good symptom control. His haematological indices were stable until recently when he developed progressive anaemia (Hb 95 g/L, MCV 88 fL). He remains asymptomatic from anaemia but feels tired. The most recent neutrophil count is 1.2 × 10^9/L and platelets 150 × 10^9/L. What is the single most appropriate next step?",
+      "options": [
+        "Blood transfusion of 2 units",
+        "Increase ruxolitinib dose to 25 mg twice daily",
+        "Add lenalidomide",
+        "Start erythropoiesis-stimulating agent",
+        "Reduce ruxolitinib dose to 15 mg twice daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Anaemia is a known side-effect of ruxolitinib; dose reduction is recommended when Hb drops below 100 g/L. Increasing dose worsens anaemia; ESA and transfusion are not first-line and may be considered if dose reduction fails; lenalidomide is not standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d20763884f4f",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with known myelofibrosis presents to the Emergency Department with sudden severe left upper quadrant pain, radiating to the left shoulder, accompanied by nausea and vomiting. Her temperature is 37.8°C, heart rate 110 bpm, blood pressure 100/60 mmHg. The abdomen is tender in the left upper quadrant with guarding. What is the single most appropriate immediate action?",
+      "options": [
+        "Request an urgent abdominal ultrasound",
+        "Perform an urgent CT abdomen with intravenous contrast",
+        "Administer intravenous morphine 5 mg",
+        "Start intravenous broad-spectrum antibiotics",
+        "Arrange for emergency splenectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute splenic infarction is a likely complication; the immediate priority is analgesia for severe pain before any investigation. CT is confirmatory but not before analgesia; antibiotics are not indicated unless infection confirmed; splenectomy is reserved for complications like rupture or abscess.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92cde913eb0b",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with a 3-year history of primary myelofibrosis on ruxolitinib presents with sudden onset of fever, bruising, and bone pain. His blood film shows 20% blast cells. What is the single most appropriate next step?",
+      "options": [
+        "Start induction chemotherapy with daunorubicin and cytarabine",
+        "Refer for allogeneic stem cell transplantation",
+        "Perform a bone marrow aspirate and trephine biopsy",
+        "Increase the dose of ruxolitinib",
+        "Offer palliative care and symptom control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Suspected transformation to acute myeloid leukaemia requires confirmation with bone marrow biopsy to determine blast percentage and cytogenetics before deciding on treatment. Chemotherapy or transplant are not appropriate without confirmation; increasing ruxolitinib is ineffective; palliative care is premature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a92a3a46cf45",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with primary myelofibrosis (CALR-positive) has been on ruxolitinib 10 mg twice daily for 1 year. She has had three episodes of pneumonia over the last 6 months. She is clinically stable today. Full blood count shows Hb 110 g/L, WBC 8 × 10^9/L, neutrophils 1.0 × 10^9/L, platelets 200 × 10^9/L. What is the single most appropriate next step?",
+      "options": [
+        "Administer pneumococcal and influenza vaccines",
+        "Check immunoglobulin levels",
+        "Stop ruxolitinib",
+        "Reduce ruxolitinib dose to 5 mg twice daily",
+        "Start prophylactic oral antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recurrent infections in a patient on ruxolitinib may be due to drug-induced neutropenia; the immediate step is to reduce the dose to improve neutrophil count. Stopping is too drastic; vaccines are important but not immediate; prophylactic antibiotics may be considered later; immunoglobulin levels are not routinely indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e8766972ae6b",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known primary myelofibrosis on observation presents for routine follow-up. He reports increased fatigue but no bleeding or infections. Three months ago, his blood film showed 2% blasts. Which of the following findings would most strongly suggest transformation to acute leukaemia?",
+      "options": [
+        "New onset thrombocytopenia (platelets 100×10⁹/L)",
+        "Peripheral blood blasts of 22%",
+        "Constitutional symptoms (night sweats, weight loss)",
+        "Lactate dehydrogenase of 700 U/L",
+        "Increase in splenomegaly by 5 cm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blast phase in myelofibrosis is defined by ≥20% blasts in peripheral blood or bone marrow. A blast count of 22% is diagnostic of acute leukaemia transformation, whereas the other options are concerning but not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdbd937e6ed8",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with primary myelofibrosis on observation reports progressive fatigue. Examination reveals splenomegaly 8 cm below costal margin and mild hepatomegaly. Which symptom, if present, indicates a potentially life-threatening complication of extramedullary haematopoiesis?",
+      "options": [
+        "Generalised pruritus",
+        "Pleuritic chest pain with dyspnoea",
+        "Chronic dull left upper quadrant pain",
+        "Back pain with leg weakness and urinary retention",
+        "Intermittent frontal headache"
+      ],
+      "answerIndex": 3,
+      "explanation": "Back pain with leg weakness and urinary retention suggests spinal cord compression from extramedullary haematopoiesis, a neurological emergency. Other options are common but not immediately life-threatening.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d60feabdaa3b",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man with myelofibrosis (on ruxolitinib) presents to the Emergency Department with sudden severe left upper quadrant pain and lightheadedness. His blood pressure is 90/60 mmHg, heart rate 110 bpm. The left upper quadrant is tender with guarding and rigidity. Which diagnosis is most likely?",
+      "options": [
+        "Portal vein thrombosis",
+        "Acute pancreatitis",
+        "Splenic infarction",
+        "Perforated peptic ulcer",
+        "Splenic rupture"
+      ],
+      "answerIndex": 4,
+      "explanation": "Splenic rupture is a life-threatening complication of massive splenomegaly in myelofibrosis, presenting with acute abdominal pain and haemodynamic instability. Splenic infarction typically causes pain but not shock; the other options are less likely given the splenomegaly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4bc7150593a8",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with primary myelofibrosis on ruxolitinib 15 mg twice daily has routine blood results showing haemoglobin 88 g/L (previously 100), platelets 48×10⁹/L (previously 70), white cell count 4.5×10⁹/L, and lactate dehydrogenase 400 U/L. Which laboratory finding represents the most urgent red flag for an adverse event?",
+      "options": [
+        "Platelets 48×10⁹/L",
+        "White cell count 4.5×10⁹/L",
+        "Lactate dehydrogenase 400 U/L",
+        "Haemoglobin 88 g/L",
+        "Mean corpuscular volume 100 fL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Platelet count <50×10⁹/L is a threshold for dose reduction of ruxolitinib due to increased bleeding risk. The haemoglobin of 88 g/L is concerning but less immediately dangerous; other values are within acceptable ranges.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "da1e4f55e6ac",
+      "topic": "Myelofibrosis",
+      "slug": "myelofibrosis",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with primary myelofibrosis (JAK2 V617F-positive) is 14 weeks pregnant. She has no symptoms and her full blood count is normal. Which complication poses the greatest immediate risk to her during this pregnancy?",
+      "options": [
+        "Gestational hypertension",
+        "Venous thromboembolism",
+        "Fetal growth restriction",
+        "Placental abruption",
+        "Postpartum haemorrhage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Myelofibrosis is a chronic myeloproliferative neoplasm associated with a hypercoagulable state; pregnancy further increases thrombotic risk. Venous thromboembolism is the most life-threatening acute complication; other risks exist but are less immediate.",
+      "difficulty": "hard"
+    }
+  ]
+}

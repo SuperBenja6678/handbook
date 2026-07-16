@@ -1,0 +1,513 @@
+{
+  "topic": "Shock — overview",
+  "slug": "shock-—-overview",
+  "system": "Emergency Medicine",
+  "subSystem": "Resuscitation",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "ccdcae71f1db",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 25-year-old man collapses 10 minutes after being stung by a wasp. On examination, he has a diffuse urticarial rash, stridor, and a blood pressure of 70/40 mmHg. His heart rate is 130 bpm. What is the single most likely diagnosis?",
+      "options": [
+        "Hypovolaemic shock",
+        "Septic shock",
+        "Anaphylactic shock",
+        "Neurogenic shock",
+        "Cardiogenic shock"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sudden onset after allergen exposure, urticaria, and stridor point to anaphylaxis. Septic shock typically develops more slowly and is accompanied by fever; there is no rash in cardiogenic, hypovolaemic, or neurogenic shock.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "88e8e43866f4",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman presents with confusion and shortness of breath. She has no fever, but her respiratory rate is 24/min, heart rate 110 bpm, blood pressure 85/50 mmHg. She has a productive cough with green sputum. Chest X-ray shows right lower lobe consolidation. What is the single most likely diagnosis?",
+      "options": [
+        "Septic shock",
+        "Cardiogenic shock",
+        "Hypovolaemic shock",
+        "Pulmonary embolism",
+        "Anaphylactic shock"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of pneumonia with hypotension, tachypnoea, and confusion despite afebrile state indicates septic shock. Hypovolaemic shock would usually have a clear fluid loss history; cardiogenic shock would show signs of heart failure; pulmonary embolism would not have consolidation; anaphylaxis is unlikely without allergen exposure or rash.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0a6cac9fc80a",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with known ischaemic heart disease presents with severe central chest pain radiating to his left arm and jaw. He is diaphoretic and breathless. On examination, heart rate 110 bpm, blood pressure 85/60 mmHg, JVP elevated, and crackles in both lung bases. ECG shows ST elevation in leads V1-V4. What is the single most likely diagnosis?",
+      "options": [
+        "Obstructive shock (pulmonary embolism)",
+        "Hypovolaemic shock",
+        "Cardiogenic shock",
+        "Anaphylactic shock",
+        "Septic shock"
+      ],
+      "answerIndex": 2,
+      "explanation": "The chest pain, ECG changes, pulmonary oedema, and hypotension are classic for cardiogenic shock following acute myocardial infarction. Pulmonary embolism would show right heart strain without ST elevation; hypovolaemic shock lacks pulmonary oedema; septic and anaphylactic shocks are not consistent with the cardiac presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f09dc501c2a",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old man involved in a road traffic accident is brought to the emergency department. He has decreased breath sounds on the right side, tracheal deviation to the left, and distended neck veins. His blood pressure is 70/40 mmHg and heart rate 130 bpm. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax (obstructive shock)",
+        "Cardiogenic shock",
+        "Massive pulmonary embolism",
+        "Cardiac tamponade",
+        "Hypovolaemic shock"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tracheal deviation, absent breath sounds, and distended neck veins after trauma are pathognomonic for tension pneumothorax. Cardiac tamponade would have muffled heart sounds and pulsus paradoxus but no tracheal deviation; PE and cardiogenic shock lack these signs; hypovolaemic shock would show flat neck veins.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0afbcf7797c",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman, 30 weeks pregnant, has a heavy vaginal bleed. On arrival, she is pale, sweaty, with a heart rate of 120 bpm and blood pressure of 75/40 mmHg. Uterus is firm and non-tender. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylactic shock",
+        "Cardiogenic shock",
+        "Amniotic fluid embolism",
+        "Septic shock",
+        "Hypovolaemic shock (haemorrhage)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Heavy vaginal bleeding with hypotension and tachycardia in pregnancy indicates hypovolaemic shock from haemorrhage (likely placental abruption or previa). Amniotic fluid embolism involves sudden dyspnoea and cyanosis; septic shock would have fever; cardiogenic and anaphylactic shocks are not suggested by the bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c593fe2355a8",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with fever, confusion, and hypotension (78/42 mmHg). Heart rate 110 bpm, respiratory rate 24. Capillary refill 4 seconds. Which investigation is most helpful in confirming the diagnosis of septic shock?",
+      "options": [
+        "Lactate",
+        "Procalcitonin",
+        "Chest X-ray",
+        "Urine dipstick",
+        "Blood cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lactate >2 mmol/L is a key criterion for tissue hypoperfusion in sepsis and confirms septic shock. Blood cultures identify the pathogen but do not diagnose shock; procalcitonin is non-specific; CXR may identify a source but not shock.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f6d111638fab",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with central chest pain, pulmonary oedema on auscultation, and hypotension (85/50 mmHg). ECG shows ST elevation in anterior leads. Which investigation best confirms cardiogenic shock as the cause?",
+      "options": [
+        "Chest X-ray",
+        "Troponin",
+        "BNP",
+        "Echocardiogram",
+        "ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "Echocardiography directly assesses left ventricular function; a reduced ejection fraction confirms cardiogenic shock. ECG and troponin diagnose MI but do not quantify pump failure; CXR shows pulmonary oedema but is not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b07dd952ab4a",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman develops urticaria, wheeze, and hypotension (80/40 mmHg) 20 minutes after receiving IV penicillin. Which investigation is most useful to confirm anaphylaxis?",
+      "options": [
+        "Complement levels",
+        "Serum tryptase",
+        "Eosinophil count",
+        "IgE levels",
+        "Skin prick test"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevated mast cell tryptase is specific for anaphylaxis when measured within hours of onset. IgE levels are for allergy diagnosis, not acute confirmation; skin prick tests are contraindicated acutely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a1b14419d85c",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old man is brought to the ED after a high-speed road traffic collision. He is hypotensive (70/40 mmHg) and tachycardic (130 bpm). There is no obvious external bleeding. Which investigation is most appropriate to identify the cause of hypovolaemic shock?",
+      "options": [
+        "Pelvic X-ray",
+        "CT scan",
+        "Haemoglobin",
+        "Chest X-ray",
+        "FAST scan"
+      ],
+      "answerIndex": 4,
+      "explanation": "FAST (Focused Assessment with Sonography in Trauma) rapidly detects free intra-abdominal fluid, indicating haemorrhage. Haemoglobin may be normal initially; CT is more definitive but takes time; CXR and pelvic X-ray are targeted but less sensitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "612bee57ce4b",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old woman presents with sudden dyspnoea, pleuritic chest pain, and hypotension (80/50 mmHg). JVP is raised. She has no prior lung disease. Which investigation is most sensitive for diagnosing the underlying cause of obstructive shock?",
+      "options": [
+        "Echocardiogram",
+        "CT pulmonary angiography",
+        "D-dimer",
+        "Chest X-ray",
+        "ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "CTPA is the gold standard for diagnosing pulmonary embolism, the likely cause of obstructive shock. Echocardiogram can show right heart strain but is not diagnostic; D-dimer is non-specific; ECG and CXR are often non-diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0083461c86b6",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old woman presents with fever, hypotension (BP 80/50 mmHg), tachycardia, and lactate of 4.2 mmol/L. A diagnosis of septic shock is made. Which is the most appropriate first-line vasopressor?",
+      "options": [
+        "Adrenaline",
+        "Dopamine",
+        "Noradrenaline",
+        "Vasopressin",
+        "Dobutamine"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE and the Surviving Sepsis Campaign recommend noradrenaline as the first-line vasopressor in septic shock to target a mean arterial pressure of 65 mmHg. Adrenaline is second-line, dobutamine is used for inotropic support if cardiac output is low, vasopressin is adjunctive, and dopamine is no longer preferred due to arrhythmia risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b11c3c6bed2c",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man develops sudden urticaria, stridor, and hypotension (BP 70/40 mmHg) after an IV antibiotic. Anaphylactic shock is diagnosed. What is the single most appropriate first-line treatment?",
+      "options": [
+        "Intramuscular adrenaline 1:1000 0.5 mL",
+        "Intravenous adrenaline 1:10000 1 mg",
+        "Intravenous hydrocortisone 200 mg",
+        "Nebulised salbutamol 5 mg",
+        "Intravenous chlorphenamine 10 mg"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first-line treatment for anaphylaxis is IM adrenaline (0.5 mL of 1:1000). IV adrenaline is reserved for refractory hypotension in a monitored setting. Antihistamines and corticosteroids are supportive but not first-line. Nebulised salbutamol is for bronchospasm after adrenaline.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5490e2afff2a",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with an anterior STEMI develops cardiogenic shock with BP 85/60 mmHg, pulmonary oedema, and cool peripheries. What is the most appropriate definitive therapy for this condition?",
+      "options": [
+        "Intravenous nitrates",
+        "Intra-aortic balloon pump insertion",
+        "Urgent percutaneous coronary intervention (PCI)",
+        "Intravenous dobutamine infusion",
+        "Thrombolysis with alteplase"
+      ],
+      "answerIndex": 2,
+      "explanation": "Urgent revascularisation with PCI is the definitive treatment for cardiogenic shock due to STEMI, as it addresses the underlying cause. Thrombolysis is less effective, dobutamine and IABP are supportive, and nitrates are contraindicated (or used cautiously) due to hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ee9951d93a6",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 24-year-old man is brought to the emergency department after a road traffic accident. He has a BP of 75/40 mmHg, heart rate 130 bpm, and clinical signs of haemorrhagic shock from a pelvic fracture. Which intravenous fluid is most appropriate for first-line resuscitation?",
+      "options": [
+        "4.5% human albumin solution",
+        "O-negative packed red blood cells",
+        "0.9% sodium chloride",
+        "Gelofusine (succinylated gelatin)",
+        "Hartmann's solution (compound sodium lactate)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend balanced crystalloids such as Hartmann's for initial resuscitation in haemorrhagic shock to avoid hyperchloraemic acidosis. 0.9% saline is an alternative but less favoured. Colloids are not first-line, and blood products are reserved for ongoing haemorrhage after initial fluid bolus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "14c185de0b9f",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with inferior STEMI presents with hypotension (BP 85/50 mmHg), raised JVP, clear lungs, and bradycardia. ECG shows ST elevation in II, III, aVF, and right-sided leads confirm RV infarction. Which therapy is CONTRAINDICATED in this type of cardiogenic shock?",
+      "options": [
+        "Intravenous fluids (stat bolus)",
+        "Intravenous dobutamine",
+        "Intravenous atropine",
+        "Intravenous nitrates",
+        "Urgent PCI to the right coronary artery"
+      ],
+      "answerIndex": 3,
+      "explanation": "In RV infarction, nitrates precipitate severe hypotension by reducing preload to a preload-dependent right ventricle. Atropine treats bradycardia, PCI is definitive, dobutamine can be used for inotropic support, and IV fluids are first-line to maintain preload.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1a58c38cf530",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with known COPD presents to the Emergency Department with confusion, fever, and a cough. He appears unwell, respiratory rate 28, heart rate 110, blood pressure 85/55 mmHg, oxygen saturations 92% on air. What is the single most appropriate immediate next step?",
+      "options": [
+        "Take blood cultures",
+        "Start non-invasive ventilation",
+        "Request a chest X-ray",
+        "Administer broad-spectrum intravenous antibiotics",
+        "Give an intravenous fluid bolus of 500 mL normal saline"
+      ],
+      "answerIndex": 4,
+      "explanation": "In septic shock, the immediate priority is to address hypotension with IV fluids. While blood cultures and antibiotics are crucial, they should follow fluid resuscitation in the setting of shock. The patient's hypotension demands urgent fluid resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26f041401a63",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman develops sudden onset generalised urticaria, wheeze, and stridor after eating a meal containing peanuts. Her blood pressure is 80/50 mmHg, heart rate 110 bpm. What is the single most appropriate immediate next step?",
+      "options": [
+        "Call the anaesthetic team",
+        "Give oxygen via a non-rebreather mask",
+        "Administer intravenous chlorphenamine",
+        "Start intravenous fluids",
+        "Administer intramuscular adrenaline 0.5 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "First-line treatment for anaphylaxis is IM adrenaline. It reverses hypotension and airway obstruction. Other interventions such as fluids and oxygen are supportive and should follow adrenaline.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e7011fab5931",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with a history of hypertension presents with central chest pain radiating to the left arm for 2 hours. He is clammy, heart rate 45 bpm, blood pressure 90/60 mmHg, and has crackles up to the mid-zones. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer sublingual glyceryl trinitrate",
+        "Give 300 mg aspirin to chew",
+        "Administer intravenous furosemide",
+        "Perform a 12-lead ECG",
+        "Arrange an urgent echocardiogram"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with suspected acute coronary syndrome and cardiogenic shock, obtaining an ECG is the immediate priority to identify STEMI and guide reperfusion. Aspirin is given after ECG; GTN is contraindicated in hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e723a0165be2",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known alcohol misuse presents with melaena and haematemesis. He is pale, heart rate 120 bpm, blood pressure 85/50 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert a nasogastric tube",
+        "Give 2 units of packed red blood cells",
+        "Arrange urgent upper gastrointestinal endoscopy",
+        "Administer intravenous terlipressin",
+        "Start an intravenous infusion of normal saline"
+      ],
+      "answerIndex": 4,
+      "explanation": "In acute upper GI bleeding with haemodynamic instability, the immediate priority is fluid resuscitation with IV crystalloid. Blood transfusion may be indicated but is not the first step; endoscopy is performed after resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ef799ef96b5",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old man is brought to the Emergency Department after a road traffic accident. He is agitated, tachycardic, and hypotensive. There is distended neck veins, tracheal deviation to the right, and absent breath sounds on the left. What is the single most appropriate immediate next step?",
+      "options": [
+        "Perform a focused assessment with sonography in trauma (FAST) scan",
+        "Perform needle decompression of the left chest",
+        "Request an urgent chest X-ray",
+        "Insert a chest drain (intercostal drain) on the left",
+        "Administer intravenous fluids"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tension pneumothorax is a life-threatening emergency requiring immediate needle decompression. Chest X-ray should not delay treatment; decompression is performed before chest drain insertion or further imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c3b30fc84113",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old female presents with a 12-hour history of vomiting and diarrhoea. On examination: HR 105, BP 85/55, capillary refill 4 seconds. She is alert and orientated. You give 1L of crystalloid over 30 minutes. Repeat observations: HR 100, BP 80/50, capillary refill 3 seconds. Which single finding most clearly indicates that the patient requires escalation to vasopressors?",
+      "options": [
+        "Mean arterial pressure (MAP) 60 mmHg",
+        "Peripheral venous oxygen saturation 70%",
+        "Central venous pressure 8 cmH2O",
+        "Lactate 2.5 mmol/L",
+        "Urine output 30 mL in the last hour"
+      ],
+      "answerIndex": 0,
+      "explanation": "After adequate fluid resuscitation, a MAP <65 mmHg is a validated threshold for initiating vasopressors in shock (Surviving Sepsis Campaign). The other options: lactate 2.5 is elevated but alone does not mandate vasopressors; CVP 8 is normal; urine output 30 mL/hr (≈0.5 mL/kg/hr) is borderline but not definitive; and mixed venous saturation 70% is normal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1ddc1e892e87",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with a history of hypertension and diabetes presents with fever, dysuria, and confusion of one day. Observations: HR 115, BP 100/60, temperature 38.9°C, RR 24, oxygen saturation 96% on air. Which single finding should prompt immediate discussion with the critical care team?",
+      "options": [
+        "Temperature 38.9°C",
+        "New onset confusion",
+        "Platelet count 120 ×10^9/L",
+        "Respiratory rate 24/min",
+        "White cell count 18 ×10^9/L"
+      ],
+      "answerIndex": 1,
+      "explanation": "In sepsis, new onset confusion (altered mental status) is a red flag for organ dysfunction and meets qSOFA criteria (≥2 of: confusion, RR≥22, SBP≤100). This patient already has SBP≤100, so confusion adds the second point, indicating high mortality risk. The other options are abnormal but less specific for immediate escalation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f8b34ee53bd8",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man develops stridor, urticaria, and hypotension within minutes of a wasp sting. Two doses of intramuscular adrenaline (0.5 mg each) have been given. On arrival in ED, his systolic BP is 70 mmHg and he is still stridorous. Which clinical finding most strongly indicates the need for an intravenous adrenaline infusion?",
+      "options": [
+        "Oxygen saturation 92% on a non-rebreather mask",
+        "Systolic blood pressure 70 mmHg after two doses of IM adrenaline",
+        "Widespread urticaria and erythema",
+        "Peak expiratory flow rate 150 L/min",
+        "Heart rate 140 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "In anaphylaxis refractory to two doses of IM adrenaline, persistent hypotension (SBP <90 mmHg) is the primary indication for IV adrenaline infusion. The other options: tachycardia and hypoxia are concerning but not the direct trigger; urticaria and PEFR 150 (≈50% predicted) indicate ongoing bronchospasm but IV adrenaline is reserved for haemodynamic instability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e0ee0371d7cb",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old male with acute anterior myocardial infarction develops hypotension, tachycardia, and oliguria. An echocardiogram shows severe left ventricular impairment. He is started on a dobutamine infusion. Which single haemodynamic parameter best identifies worsening forward flow and the potential need for mechanical circulatory support?",
+      "options": [
+        "Cardiac index 1.8 L/min/m²",
+        "Pulmonary artery wedge pressure 24 mmHg",
+        "Mixed venous oxygen saturation 50%",
+        "Central venous pressure 18 mmHg",
+        "Serum lactate 4.5 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "A cardiac index below 2.0 L/min/m² in the setting of cardiogenic shock indicates severely reduced forward flow and is a criterion for considering mechanical circulatory support (e.g., IABP, ECMO) in many guidelines. Wedge pressure 24 suggests congestion but not low forward flow; CVP 18 indicates right ventricular dysfunction; mixed venous O2 <50% is a sign of global hypoxia but less specific for forward flow; lactate 4.5 reflects anaerobic metabolism but is a downstream marker.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "99c2f9c418c5",
+      "topic": "Shock — overview",
+      "slug": "shock-—-overview",
+      "system": "Emergency Medicine",
+      "subSystem": "Resuscitation",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 25-year-old primigravida at 30 weeks gestation is brought to the emergency department after a high-speed road traffic collision. She has abdominal tenderness, vomiting, and a heart rate of 125 bpm. Blood pressure is 90/60 mmHg. Which single clinical finding is most indicative of significant haemorrhagic shock in this pregnant patient?",
+      "options": [
+        "Brisk vaginal bleeding",
+        "Capillary refill 3 seconds",
+        "Fundal height 36 cm by palpation",
+        "Maternal heart rate 110 bpm",
+        "Contractions every 10 minutes"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, uterine fundal height in cm typically corresponds to weeks of gestation (±2 cm). A fundal height of 36 cm at 30 weeks suggests concealed haemorrhage (e.g., placental abruption) and is a red flag for significant blood loss. Heart rate 110 can be normal in pregnancy; contractions and vaginal bleeding may be present but are less specific; capillary refill is subjective. Tachycardia combined with disproportionate fundal height is a key danger sign.",
+      "difficulty": "medium"
+    }
+  ]
+}

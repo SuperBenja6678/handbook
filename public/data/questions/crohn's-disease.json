@@ -1,0 +1,513 @@
+{
+  "topic": "Crohn's Disease",
+  "slug": "crohn's-disease",
+  "system": "Gastroenterology",
+  "subSystem": "IBD",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:16:35Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "2071bb5001f5",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with a 3-month history of right lower quadrant pain, non-bloody diarrhoea, and unintentional weight loss of 4 kg. She has no fever. Examination reveals tenderness in the right iliac fossa. Blood tests show iron-deficiency anaemia and raised CRP. Stool cultures are negative. What is the single most likely diagnosis?",
+      "options": [
+        "Intestinal tuberculosis",
+        "Ulcerative colitis",
+        "Appendicitis",
+        "Irritable bowel syndrome",
+        "Crohn's disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of chronic right lower quadrant pain, non-bloody diarrhoea, weight loss, and iron-deficiency anaemia with raised inflammatory markers is classic for Crohn's disease, often affecting the terminal ileum. Irritable bowel syndrome would not cause weight loss or raised CRP. Ulcerative colitis typically presents with bloody diarrhoea and left-sided pain. Appendicitis is acute, not chronic. Intestinal TB is a mimic but less common in a young UK-born woman without risk factors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6f3f716fbe93",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with a painless, non-healing perianal fistula that has persisted for 6 weeks despite antibiotics. He has no diarrhoea or abdominal pain. He has a history of episodic joint pain. Examination reveals a single external opening. What is the single most likely diagnosis?",
+      "options": [
+        "Anal fissure",
+        "Perianal abscess",
+        "Hidradenitis suppurativa",
+        "Pilonidal sinus",
+        "Crohn's disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "A chronic, painless perianal fistula in a young adult with episodic joint pain (suggestive of associated arthropathy) is a typical presentation of Crohn's disease, even in the absence of gastrointestinal symptoms. Pilonidal sinus usually occurs in the sacrococcygeal region and is painful. Anal fissure is painful. Perianal abscess is acute and painful. Hidradenitis suppurativa involves multiple sinuses in the axillae/groin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b09fc1eed14e",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman with known Crohn's disease (ileocolonic) on adalimumab presents with acute onset of central abdominal pain, vomiting, and absolute constipation for 24 hours. She has abdominable distension and high-pitched bowel sounds. AXR shows dilated small bowel loops with multiple air-fluid levels. What is the single most likely diagnosis?",
+      "options": [
+        "Toxic megacolon",
+        "Small bowel obstruction due to stricture",
+        "Acute pancreatitis",
+        "Fulminant colitis",
+        "Perforated viscus"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with known Crohn's disease, acute abdominal pain, vomiting, constipation, distension, and high-pitched bowel sounds with dilated small bowel loops on AXR are classic for small bowel obstruction, most commonly due to a stricture. Toxic megacolon would show colonic dilatation (transverse colon >5.5 cm) and systemic toxicity. Perforation would present with peritonism and free air. Pancreatitis is not associated with this presentation. Fulminant colitis would involve bloody diarrhoea and colonic changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6134533b5800",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with known Crohn's disease (ileal) presents with painful, red, tender nodules on both shins. She also reports worsening diarrhoea and abdominal pain. She is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Pyoderma gangrenosum",
+        "Sweet syndrome",
+        "Erythema nodosum secondary to active Crohn's disease",
+        "Cellulitis",
+        "Deep vein thrombosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Erythema nodosum is a common extra-intestinal manifestation of Crohn's disease, presenting as painful red nodules on the shins, often correlating with disease activity. Pyoderma gangrenosum typically presents as painful ulcers with undermined edges, not nodules. Cellulitis is unilateral and associated with systemic signs. Sweet syndrome (acute febrile neutrophilic dermatosis) involves plaques, fever, and neutrophilia. DVT is unilateral with swelling, not nodules.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d873483f883a",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with a 2-week history of right lower quadrant pain and watery diarrhoea. He has lost 3 kg. He takes ibuprofen regularly for osteoarthritis. Examination reveals mild right iliac fossa tenderness. Colonoscopy shows patchy inflammation in the terminal ileum, with non-caseating granulomas on biopsy. What is the single most likely diagnosis?",
+      "options": [
+        "Ileal carcinoid tumour",
+        "Intestinal tuberculosis",
+        "Crohn's disease",
+        "NSAID enteropathy",
+        "Yersinia enterocolitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Non-caseating granulomas on biopsy are pathognomonic for Crohn's disease. Even in an elderly patient with NSAID use, the histology distinguishes Crohn's from NSAID enteropathy, which typically shows erosions but not granulomas. Ileal carcinoid may cause thickening but not granulomas. Yersinia can cause ileitis but often with fever and self-limited course, and granulomas are rare. Intestinal TB shows caseating granulomas and often pulmonary involvement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cc3b44214364",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old woman presents with a 3-month history of chronic diarrhoea, weight loss, and right lower quadrant abdominal pain. Examination reveals mild tenderness in the right iliac fossa. Blood tests show raised CRP (45 mg/L) and mild anaemia. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Colonoscopy with ileal intubation and biopsies",
+        "MR enterography",
+        "Capsule endoscopy",
+        "CT abdomen with IV contrast",
+        "Faecal calprotectin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Colonoscopy with ileal intubation and biopsies is the gold standard for diagnosing Crohn's disease, allowing direct visualization of the mucosa and histological confirmation (e.g., granulomas). Faecal calprotectin is a screening test, not diagnostic; CT and MR enterography are useful for assessing extent but not first-line for initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09c20d48254c",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with known ileal Crohn's disease (in remission on azathioprine) presents with a 2-day history of acute right lower quadrant pain, fever (38.5°C), and a tender palpable mass in the right iliac fossa. CRP is 120 mg/L. Which investigation is most appropriate to identify the underlying complication?",
+      "options": [
+        "Ultrasound of the abdomen",
+        "CT abdomen with IV contrast",
+        "Colonoscopy",
+        "MR enterography",
+        "Abdominal X-ray"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT abdomen with IV contrast is the investigation of choice for suspected intra-abdominal abscess, a common complication in Crohn's disease. It can detect abscesses, phlegmons, and bowel perforation with high sensitivity. Ultrasound may be operator-dependent, and MR enterography is less readily available in the acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f2bc02b64595",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman with chronic diarrhoea and arthralgia has a faecal calprotectin of 250 µg/g. Colonoscopy with ileal intubation is normal, including random biopsies of the terminal ileum and colon. Which next investigation is most appropriate to confirm suspected Crohn's disease?",
+      "options": [
+        "Barium follow-through",
+        "Repeat colonoscopy in 1 year",
+        "MR enterography",
+        "Capsule endoscopy",
+        "CT abdomen with IV contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "MR enterography is the preferred first-line small bowel imaging for suspected Crohn's disease when colonoscopy is negative, as it can detect transmural inflammation, strictures, and fistulae without ionizing radiation. Capsule endoscopy also visualizes the small bowel but carries a risk of retention if a stricture is present, and is typically second-line after MR enterography.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "92da613c32b6",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with irritable bowel syndrome (IBS) symptoms undergoes faecal calprotectin testing, which returns 180 µg/g (normal <100 µg/g; borderline 100-200 µg/g). He has no red-flag symptoms. Which is the most appropriate next step?",
+      "options": [
+        "CT colonography",
+        "Repeat faecal calprotectin in 6 weeks",
+        "MR enterography",
+        "Capsule endoscopy",
+        "Colonoscopy with ileal intubation and biopsies"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend that a borderline faecal calprotectin (100-200 µg/g) in patients with IBS-like symptoms warrants colonoscopy with biopsies to exclude inflammatory bowel disease, especially if there is clinical suspicion. Repeat calprotectin may delay diagnosis; MR enterography is not first-line without colonoscopic findings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0a8394ea204c",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with known stricturing ileal Crohn's disease presents with recurrent episodes of subacute small bowel obstruction. She is clinically stable. Which imaging investigation is best to differentiate an inflammatory stricture (amenable to medical therapy) from a fibrotic stricture (likely requiring surgery)?",
+      "options": [
+        "MR enterography with contrast",
+        "Capsule endoscopy",
+        "CT abdomen without contrast",
+        "Barium follow-through",
+        "Abdominal X-ray"
+      ],
+      "answerIndex": 0,
+      "explanation": "MR enterography can distinguish active inflammation (mucosal enhancement, oedema, comb sign) from fibrotic changes (wall thickening without enhancement) using T2-weighted sequences and post-contrast imaging. This differentiation guides management: anti-inflammatory therapy for inflammatory strictures versus surgery for fibrotic ones.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6b4c97739db5",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 24-year-old woman presents with diarrhoea and right iliac fossa pain for 3 weeks. Colonoscopy shows patchy inflammation in the terminal ileum with skip lesions. Biopsies confirm Crohn's disease. She has no perianal disease and her CRP is 25 mg/L. What is the most appropriate first-line induction therapy?",
+      "options": [
+        "Infliximab",
+        "Budesonide",
+        "Mesalazine",
+        "Prednisolone",
+        "Azathioprine"
+      ],
+      "answerIndex": 1,
+      "explanation": "For mild-to-moderate ileal or right colonic Crohn's disease, NICE recommends budesonide as first-line induction therapy due to its targeted release and fewer systemic side effects compared to prednisolone. Mesalazine is ineffective for Crohn's induction; prednisolone is used when budesonide fails or for more extensive disease; infliximab is reserved for severe/refractory disease; azathioprine is a maintenance therapy, not induction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6a149c690400",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man with known ileocolonic Crohn's disease presents with severe abdominal pain, fever of 38.8°C, tachycardia, and vomiting. His abdomen is distended and tender. CRP is 150 mg/L. Stool cultures are negative. What is the most appropriate first-line medical therapy?",
+      "options": [
+        "Metronidazole and ciprofloxacin",
+        "Oral prednisolone 40 mg daily",
+        "Intravenous hydrocortisone 100 mg four times daily",
+        "Infliximab 5 mg/kg IV",
+        "Methotrexate 25 mg weekly"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe Crohn's disease, intravenous corticosteroids (e.g., hydrocortisone) are the first-line treatment to rapidly control inflammation. Oral prednisolone is unreliable due to impaired absorption; infliximab is reserved for steroid-refractory cases; antibiotics are not first-line unless infection is suspected; methotrexate is a maintenance or steroid-sparing agent, not for acute severe flares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6de35f8d75bb",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with recently diagnosed Crohn's disease achieved remission with a course of oral prednisolone. She has no perianal disease, and her Montreal classification is L3 B1 (ileocolonic, non-stricturing, non-penetrating). Which is the most appropriate maintenance therapy to prevent relapse?",
+      "options": [
+        "No maintenance therapy required",
+        "Azathioprine",
+        "Infliximab",
+        "Oral mesalazine",
+        "Budesonide repeat courses"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE guidelines recommend azathioprine as first-line maintenance therapy for Crohn's disease after induction with corticosteroids, especially in patients with risk factors (e.g., young age, extensive disease). Mesalazine is ineffective for Crohn's maintenance; budesonide is not for long-term use; infliximab is used after thiopurine failure or in severe disease; 'no maintenance' is not recommended after a flare requiring steroids.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "935ee3624624",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old man with known fibrostenotic ileal Crohn's disease presents with crampy abdominal pain, distension, and vomiting. He reports having loose stools but no blood. An abdominal X-ray shows dilated small bowel loops. Which of the following medications is contraindicated in this patient?",
+      "options": [
+        "Loperamide",
+        "Infliximab",
+        "Mesalazine",
+        "Prednisolone",
+        "Azathioprine"
+      ],
+      "answerIndex": 0,
+      "explanation": "Loperamide and other antidiarrheal agents are contraindicated in fibrostenotic Crohn's disease because they can reduce intestinal motility and precipitate obstruction. The other options (mesalazine, azathioprine, infliximab, prednisolone) are not contraindicated and may be used to treat active inflammation, though caution with anti-TNF in strictures is not an absolute contraindication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "29b6bc6f6a35",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with Crohn's disease is 10 weeks pregnant and presents with a moderate flare (CRP 40, abdominal pain, diarrhoea). She is not on any maintenance therapy. She is very anxious about medication safety. Which of the following treatments is contraindicated in pregnancy?",
+      "options": [
+        "Prednisolone",
+        "Infliximab",
+        "Mesalazine",
+        "Budesonide",
+        "Methotrexate"
+      ],
+      "answerIndex": 4,
+      "explanation": "Methotrexate is teratogenic and absolutely contraindicated in pregnancy. Prednisolone, budesonide, and mesalazine are considered relatively safe; infliximab can be used with caution, typically in the second and third trimesters, though its use in early pregnancy is also sometimes considered after risk-benefit discussion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5a5afaab53e",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to ED with a 3-week history of intermittent right lower quadrant pain, loose stools (4-5 times/day), and unintentional weight loss of 4 kg. She has no past medical history. On examination, there is mild tenderness in the right iliac fossa, no masses. Observations are normal. Bloods show Hb 120 g/L, WCC 8.5, CRP 20, normal LFTs and U&Es. What is the most appropriate next step?",
+      "options": [
+        "Send a stool sample for faecal calprotectin",
+        "Start oral budesonide 9 mg once daily",
+        "Perform colonoscopy with ileoscopy and biopsies",
+        "Arrange urgent outpatient gastroenterology referral",
+        "Request MRI enterography"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend faecal calprotectin as the first-line investigation in suspected Crohn's disease to differentiate IBD from functional disorders. Colonoscopy is definitive but not the immediate next step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "baed0a9e2992",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with known ileocolonic Crohn's disease (diagnosed 2 years ago, currently on mesalazine 2 g twice daily) presents with a 2-week flare: 4-5 loose, non-bloody stools/day, mild abdominal pain, no systemic symptoms. CRP 15, Hb 130. He has no previous steroid use. What is the most appropriate next step?",
+      "options": [
+        "Refer for adalimumab initiation",
+        "Add azathioprine 2 mg/kg/day",
+        "Send stool cultures and Clostridioides difficile toxin",
+        "Add oral budesonide 9 mg once daily",
+        "Increase mesalazine to 4 g daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "For mild-to-moderate ileal or right-sided colonic disease, NICE recommends oral budesonide as first-line therapy. Azathioprine is for steroid-dependent or refractory cases; biologics after failed conventional therapy. Infection should be excluded but is less immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9820ef769d1b",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with known ileocolonic Crohn's disease presents to ED with severe diffuse abdominal pain, 8-10 bloody diarrhoeal stools/day, fever 38.5°C, and tachycardia 110 bpm. BP 100/60. Abdomen is distended with rebound tenderness. CRP 200, Hb 95, albumin 25. What is the most appropriate immediate next step?",
+      "options": [
+        "Request urgent CT abdomen with IV contrast",
+        "Start intravenous hydrocortisone 100 mg four times daily",
+        "Start intravenous metronidazole and ciprofloxacin",
+        "Contact the surgical team for urgent review",
+        "Insert a nasogastric tube for decompression"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is an acute severe flare (Truelove & Witts criteria). IV steroids are first-line treatment. CT may be needed later to assess for complications but not before starting steroids. Surgical review is important but not the immediate step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f719f6439479",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with a 10-year history of ileal Crohn's disease presents with sudden onset of severe, colicky central abdominal pain, vomiting, absolute constipation, and abdominal distension. He is afebrile, HR 95, BP 120/80. Abdomen is distended, tympanitic, with high-pitched bowel sounds. No peritonism. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous hydrocortisone 100 mg four times daily",
+        "Request an erect chest X-ray",
+        "Insert a nasogastric tube and commence intravenous fluids",
+        "Obtain an urgent surgical review",
+        "Request an urgent CT abdomen with IV contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected small bowel obstruction from a Crohn's stricture, urgent CT abdomen is the investigation of choice to confirm obstruction, identify the stricture, and guide management. Erect CXR is for perforation (not present). Surgical review is important but follows imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6e073a936bb1",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with ileocolonic Crohn's disease in remission on azathioprine 2 mg/kg/day for 18 months presents to the antenatal clinic 10 weeks pregnant. She is concerned about her medication. She has no active symptoms. What is the most appropriate next step?",
+      "options": [
+        "Refer to a specialist obstetric physician for shared care",
+        "Switch azathioprine to methotrexate",
+        "Stop azathioprine immediately",
+        "Switch to infliximab biosimilar",
+        "Continue azathioprine at the same dose"
+      ],
+      "answerIndex": 4,
+      "explanation": "Azathioprine is generally considered safe to continue during pregnancy based on large cohort studies. Stopping risks flare; methotrexate is teratogenic; infliximab is usually continued but switching is not needed in remission. Referral to obstetric medicine is reasonable but not the immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "55eff12ca32b",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with a 6-week history of diarrhoea, abdominal pain, and weight loss. She now has severe abdominal pain and fever. On examination, there is generalised abdominal tenderness. Which of the following additional findings would most strongly suggest a surgical emergency?",
+      "options": [
+        "Heart rate 110 bpm",
+        "Low albumin 28 g/L",
+        "Temperature 38.2°C",
+        "White cell count 14 × 10^9/L",
+        "Rebound tenderness"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rebound tenderness indicates peritoneal inflammation, which in a patient with suspected Crohn's suggests perforation or acute severe disease requiring urgent surgical assessment. Other options are non-specific markers of inflammation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c6f0f16bc11a",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man with known ileocolonic Crohn's, well-controlled on mesalazine for 6 months, presents with a 3-day history of worsening right iliac fossa pain and fever. On abdominal examination, there is mild tenderness. Which additional finding would most suggest an intra-abdominal abscess?",
+      "options": [
+        "Abdominal distension",
+        "Perianal skin tags",
+        "Ascites",
+        "Hepatomegaly",
+        "Tender, fixed mass"
+      ],
+      "answerIndex": 4,
+      "explanation": "A new, tender, fixed mass in the right iliac fossa in a Crohn's patient is highly suspicious for an intra-abdominal abscess, which often requires percutaneous drainage. Other options are less specific or unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "63ca59d9aae4",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with known colonic Crohn's disease presents with severe diarrhoea (10 bloody stools/day), abdominal pain, and fever. She is tachycardic. Which abdominal examination finding would most raise suspicion for toxic megacolon?",
+      "options": [
+        "Generalised tenderness",
+        "Abdominal tympany",
+        "Splenomegaly",
+        "Hepatomegaly",
+        "Rebound tenderness"
+      ],
+      "answerIndex": 1,
+      "explanation": "Abdominal tympany indicates colonic dilatation, a hallmark of toxic megacolon, which is a life-threatening complication requiring immediate surgical consultation. Tenderness may occur but is less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64cd21137bd9",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 26-year-old with known ileal Crohn's presents with colicky abdominal pain, vomiting, and absence of flatus for 24 hours. Auscultation of the abdomen is performed. Which finding would be most indicative of small bowel obstruction?",
+      "options": [
+        "Rebound tenderness",
+        "Palpable mass",
+        "Abdominal tenderness",
+        "High-pitched bowel sounds",
+        "Fever"
+      ],
+      "answerIndex": 3,
+      "explanation": "High-pitched bowel sounds are classic for mechanical small bowel obstruction, which in a Crohn's patient is often due to a stricture. Tenderness and fever may occur but are less specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "374a29371ed4",
+      "topic": "Crohn's Disease",
+      "slug": "crohn's-disease",
+      "system": "Gastroenterology",
+      "subSystem": "IBD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 29-year-old man with known perianal Crohn's disease presents with acute, severe perianal pain and fever. On perianal inspection, which finding would indicate an abscess requiring urgent drainage?",
+      "options": [
+        "Fissure-in-ano",
+        "Pilonidal sinus",
+        "Multiple skin tags",
+        "Fluctuant perianal swelling",
+        "Perianal fistula"
+      ],
+      "answerIndex": 3,
+      "explanation": "A tender, fluctuant perianal swelling is the hallmark of a perianal abscess, which requires prompt incision and drainage to prevent sepsis. Fistula, tags, and fissure are chronic findings not requiring urgent drainage.",
+      "difficulty": "hard"
+    }
+  ]
+}

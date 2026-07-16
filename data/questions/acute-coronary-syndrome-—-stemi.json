@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Coronary Syndrome — STEMI",
+  "slug": "acute-coronary-syndrome-—-stemi",
+  "system": "Cardiovascular",
+  "subSystem": "ACS",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:29:10Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "388971b541ba",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man presents with central chest pain radiating to the left arm for 2 hours. He is sweaty and nauseated. ECG shows ST elevation in leads II, III and aVF. What is the single most likely diagnosis?",
+      "options": [
+        "Acute NSTEMI",
+        "Acute inferior STEMI",
+        "Acute pericarditis",
+        "Unstable angina",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The inferior leads ST elevation with characteristic pain and risk factors is diagnostic of STEMI. Pericarditis would have diffuse concave ST elevation and PR depression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f9b62927e913",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman presents with epigastric discomfort and nausea for 4 hours. She has a history of hypertension and diabetes. On examination, she appears pale and diaphoretic. ECG shows ST depression in leads V1-V3 and tall R waves in V1-V2. What is the single most likely diagnosis?",
+      "options": [
+        "Acute posterior STEMI",
+        "Cholecystitis",
+        "Acute NSTEMI",
+        "Acute pancreatitis",
+        "Myocarditis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Posterior STEMI often presents with ST depression in anterior leads and tall R waves in V1-V2, rather than typical ST elevation. The epigastric pain is an atypical presentation. Acute NSTEMI would not show these ECG changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bd9ae01caf28",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old man presents with crushing central chest pain after using cocaine. He is tachycardic and hypertensive. ECG shows ST elevation in leads V2-V4. What is the single most likely diagnosis?",
+      "options": [
+        "Pulmonary embolism",
+        "Acute myocarditis",
+        "Acute pericarditis",
+        "Acute anterior STEMI due to cocaine-induced vasospasm",
+        "Aortic dissection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cocaine use can cause coronary vasospasm leading to ST-elevation MI. The distribution (anterior leads) and context are highly suggestive. Myocarditis typically has a viral prodrome and global dysfunction, not focal ST elevation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a88bc675d051",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 60-year-old man, 2 weeks after an anterior STEMI treated with primary PCI, presents with fever, pleuritic chest pain, and a pericardial rub. ECG shows diffuse concave ST elevation and PR depression. What is the single most likely diagnosis?",
+      "options": [
+        "Heart failure",
+        "Dressler syndrome (post-MI pericarditis)",
+        "Infective pericarditis",
+        "Pulmonary embolism",
+        "Acute reinfarction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dressler syndrome is a delayed autoimmune pericarditis after MI causing fever, pleuritic pain, and diffuse ST elevation. Reinfarction would show ST elevation in the same territory, not diffuse changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8351c787734d",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 62-year-old woman presents with acute-onset chest pain after emotional stress. ECG shows ST elevation in leads V2-V5 with mild troponin rise. Coronary angiography shows non-obstructed arteries. What is the single most likely diagnosis?",
+      "options": [
+        "Myocarditis",
+        "Acute anterior STEMI",
+        "Pericarditis",
+        "Takotsubo cardiomyopathy (stress cardiomyopathy)",
+        "Costochondritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Takotsubo cardiomyopathy mimics STEMI with chest pain, ST elevation, and troponin rise, but typical apical ballooning on imaging and normal coronaries distinguish it from true STEMI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "67b1ec0c20f4",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man presents with crushing substernal chest pain radiating to the left arm. ECG shows ST elevation of 3mm in leads V2-V4. Which of the following is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Echocardiography",
+        "Chest X-ray",
+        "Coronary angiography",
+        "High-sensitivity troponin I",
+        "Repeat ECG in 1 hour"
+      ],
+      "answerIndex": 3,
+      "explanation": "Although the ECG is diagnostic of STEMI, cardiac troponin is needed to confirm myocardial injury per the universal definition. The most tempting distractor is repeat ECG, but it is unnecessary if the initial ECG is diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "251c00918647",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with epigastric pain and nausea. ECG shows ST depression in leads V1-V3. What is the most likely diagnosis?",
+      "options": [
+        "Posterior STEMI",
+        "Pericarditis",
+        "Anterior NSTEMI",
+        "Pulmonary embolism",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "ST depression in V1-V3 is a classic mirror image of posterior STEMI; posterior leads (V7-V9) would show ST elevation. This is a common diagnostic pitfall.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3d2dded89d00",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with left bundle branch block (LBBB) presents with chest pain for 3 hours. Which ECG criterion is most indicative of acute STEMI?",
+      "options": [
+        "ST depression ≥1mm in V1-V3",
+        "T wave inversion in lateral leads",
+        "Excessive discordant ST elevation (>5mm)",
+        "New left axis deviation",
+        "ST elevation ≥1mm concordant with QRS"
+      ],
+      "answerIndex": 4,
+      "explanation": "In LBBB, Sgarbossa criteria apply; concordant ST elevation ≥1mm in leads with positive QRS is highly specific for MI. Other options are less specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "715807159e86",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 48-year-old woman presents with chest pain for 2 hours. ECG is normal. What is the next best step in diagnosis?",
+      "options": [
+        "Discharge with reassurance",
+        "Start aspirin and monitor",
+        "Perform exercise ECG",
+        "Arrange CT coronary angiography",
+        "Measure high-sensitivity troponin now"
+      ],
+      "answerIndex": 4,
+      "explanation": "High-sensitivity troponin should be measured on arrival and repeated at 3 hours to rule out MI. A normal ECG does not exclude ACS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fb5be76484f7",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with typical chest pain has an ECG showing 1.5mm ST elevation in leads V2 and V3. According to NICE criteria, which statement is correct?",
+      "options": [
+        "This meets STEMI criteria",
+        "Troponin must be elevated first",
+        "This is a normal variant",
+        "STEMI criteria require ≥2mm in women",
+        "Additional leads are needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "For women, ST elevation in V2-V3 ≥1.5mm is diagnostic of STEMI per sex-specific cutoffs. The most tempting distractor is the male cutoff of ≥2mm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4487373cbf18",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with central chest pain for 2 hours. ECG shows anterior ST-elevation MI. He has no contraindications to reperfusion. The nearest tertiary centre with primary PCI capability is 30 minutes away. What is the most appropriate first-line treatment?",
+      "options": [
+        "Coronary artery bypass grafting (CABG)",
+        "Intravenous thrombolysis with tenecteplase",
+        "Glycoprotein IIb/IIIa inhibitor infusion",
+        "Primary percutaneous coronary intervention (PCI)",
+        "Medical therapy with aspirin and clopidogrel alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Primary PCI is the first-line treatment for STEMI when it can be delivered within 120 minutes of diagnosis. This patient has timely access to PCI, which achieves better outcomes than fibrinolysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3ee3c32e020",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with inferior STEMI presents with cardiogenic shock (BP 80/50 mmHg, heart rate 110 bpm, cool peripheries). There is no contraindication to reperfusion. Which treatment is most appropriate as first-line?",
+      "options": [
+        "Emergency coronary artery bypass grafting",
+        "Primary percutaneous coronary intervention (PCI)",
+        "Intravenous thrombolysis",
+        "Intra-aortic balloon pump (IABP) insertion",
+        "Intravenous dopamine and meticulous fluid resuscitation only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary PCI remains the recommended reperfusion strategy for STEMI with cardiogenic shock, provided it can be performed promptly. IABP is not routinely advised, and thrombolysis is inferior. Revascularisation is the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d53ba66c8132",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with crushing chest pain 1 hour after intranasal cocaine use. ECG shows anterior ST-elevation MI. His heart rate is 120 bpm, blood pressure 150/90 mmHg. Which drug is CONTRAINDICATED in this setting?",
+      "options": [
+        "Morphine 5 mg intravenously",
+        "Ticagrelor 180 mg orally",
+        "Metoprolol 5 mg intravenously",
+        "Aspirin 300 mg orally",
+        "Atorvastatin 80 mg orally"
+      ],
+      "answerIndex": 2,
+      "explanation": "Beta-blockers are relatively contraindicated in cocaine-associated STEMI due to the risk of unopposed alpha-adrenergic stimulation, which can worsen coronary vasospasm and hypertension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7fb91d3652d6",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man presents with acute inferior STEMI 4 hours after onset of pain. He has a history of a spontaneous intracranial haemorrhage (ICH) 18 months ago. Which treatment is absolutely CONTRAINDICATED?",
+      "options": [
+        "Unfractionated heparin 5000 IU intravenously",
+        "Aspirin 300 mg orally",
+        "Primary percutaneous coronary intervention (PCI)",
+        "Ticagrelor 180 mg orally",
+        "Intravenous thrombolysis with tenecteplase"
+      ],
+      "answerIndex": 4,
+      "explanation": "Recent ICH (within 2 years) is an absolute contraindication to fibrinolysis due to high risk of fatal rebleeding. Primary PCI is the preferred alternative in such patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8072a33b5d8b",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 52-year-old woman presents to a district general hospital without primary PCI facilities. She has acute anterior STEMI confirmed on ECG. Symptoms began 2.5 hours ago. Transfer to a tertiary centre would take 90 minutes by ambulance. What is the most appropriate immediate treatment?",
+      "options": [
+        "Conservative medical therapy with aspirin and clopidogrel",
+        "Emergency transfer for primary PCI",
+        "Heparin infusion and transfer",
+        "Start glycoprotein IIb/IIIa inhibitor and transfer",
+        "Immediate intravenous thrombolysis with tenecteplase"
+      ],
+      "answerIndex": 4,
+      "explanation": "When the expected door-to-balloon time (including transfer) would exceed 120 minutes from diagnosis, fibrinolysis is recommended as first-line reperfusion. The patient presents within the 12-hour window and has no contraindications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "777b6803ec60",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the ED with central chest pain for 2 hours. ECG shows ST elevation in leads V1-V4. He has no contraindications to antiplatelets. What is the single most appropriate next action?",
+      "options": [
+        "Administer aspirin 300mg orally",
+        "Perform a set of cardiac troponin tests",
+        "Give oxygen via non-rebreather mask",
+        "Administer morphine 5mg IV",
+        "Arrange primary percutaneous coronary intervention"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines state that all patients with suspected STEMI should receive aspirin 300mg as soon as possible. This should not be delayed while arranging primary PCI. Oxygen is only indicated if saturations <90%. Morphine is for pain but not the first priority. Troponin is not immediately necessary for diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d76b81c26eae",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with inferior STEMI is brought to the ED. He is bradycardic at 35 bpm and hypotensive (BP 85/60). He is awake but dizzy. What is the most appropriate next action?",
+      "options": [
+        "Start an isoprenaline infusion",
+        "Administer atropine 500mcg IV",
+        "Insert a transvenous pacing wire",
+        "Give a 500mL crystalloid bolus",
+        "Call the cardiology registrar for primary PCI"
+      ],
+      "answerIndex": 1,
+      "explanation": "In haemodynamically unstable bradycardia due to STEMI, first-line treatment is IV atropine (0.5mg, up to 3mg). Pacing is reserved if atropine fails. Fluids may help hypotension but the primary issue is bradycardia. Isoprenaline is an alternative but not first line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4eb319cb233d",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman with known CKD stage 4 (eGFR 25 mL/min) presents with chest pain and ECG confirms anterior STEMI. She is scheduled for primary PCI. What is the single most important next step before the procedure?",
+      "options": [
+        "Give N-acetylcysteine intravenously",
+        "Start an intravenous infusion of 0.9% saline",
+        "Obtain an urgent renal ultrasound",
+        "Administer intravenous sodium bicarbonate 1.26%",
+        "Check her serum potassium level"
+      ],
+      "answerIndex": 1,
+      "explanation": "Current NICE guidelines recommend considering intravenous volume expansion with 0.9% sodium chloride in patients with impaired renal function undergoing PCI to reduce the risk of contrast-induced nephropathy. Sodium bicarbonate, N-acetylcysteine, and renal ultrasound are not routinely recommended. Checking potassium is important but not specific to contrast prophylaxis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8b355a31b899",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man presents with acute chest pain and dyspnoea. His ECG shows a left bundle branch block (LBBB) pattern not known to be old. He is in severe pain. What is the most appropriate next step?",
+      "options": [
+        "Perform an exercise stress echocardiogram",
+        "Repeat the ECG in 10 minutes",
+        "Arrange urgent coronary angiography for primary PCI",
+        "Give sublingual GTN spray for symptom relief",
+        "Check high-sensitivity troponin at presentation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A new or presumed new LBBB with chest pain is treated as STEMI equivalent. Urgent coronary angiography for primary PCI is the definitive treatment. While GTN can be given for pain, the immediate priority is to re-establish coronary flow. Troponin may be normal initially; ECG changes drive management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3b88cb0869b",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known type 2 diabetes presents with anterior STEMI and is successfully treated with primary PCI and a drug-eluting stent. He is now on the ward, stable. He is not on any pre-existing cardiac medications. What is the single most appropriate next step for secondary prevention?",
+      "options": [
+        "Start ramipril 2.5mg once daily",
+        "Start atorvastatin 80mg once daily",
+        "Start bisoprolol 2.5mg once daily",
+        "Arrange an echocardiogram before starting medications",
+        "Start aspirin 75mg and ticagrelor 90mg twice daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dual antiplatelet therapy (aspirin plus a P2Y12 inhibitor such as ticagrelor) is mandatory after coronary stent insertion to prevent stent thrombosis. This should be started immediately after PCI. Statins, ACE inhibitors, and beta-blockers are also indicated but the most urgent is DAPT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11b721f0c309",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents to ED with central chest pain for 2 hours. ECG shows ST elevation in leads II, III, aVF. Suddenly, he becomes hypotensive (BP 80/40) and distressed. JVP is elevated, heart sounds are muffled, and ECG shows low voltage complexes and electrical alternans. Which single finding most strongly suggests a life-threatening complication requiring immediate action?",
+      "options": [
+        "ST elevation in inferior leads",
+        "Elevated JVP",
+        "Hypotension",
+        "Low voltage and electrical alternans",
+        "Muffled heart sounds"
+      ],
+      "answerIndex": 3,
+      "explanation": "Electrical alternans plus low voltage is pathognomonic of cardiac tamponade from ventricular free wall rupture, a life-threatening complication of STEMI. While muffled heart sounds and elevated JVP support the diagnosis, the ECG finding is the most specific and should trigger immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "783cd2ef8926",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old diabetic woman presents with 'indigestion' and feeling weak. Her BP is 95/60, HR 110, sweaty. ECG shows ST depression in V2-V4 and ST elevation in aVR. Which finding indicates she is having a STEMI equivalent and requires immediate reperfusion?",
+      "options": [
+        "Diabetic status",
+        "Hypotension",
+        "ST depression in V2-V4",
+        "ST elevation in aVR",
+        "Diaphoresis"
+      ],
+      "answerIndex": 3,
+      "explanation": "ST elevation in aVR with diffuse ST depression is a high-risk pattern for left main or severe three-vessel disease, considered a STEMI equivalent requiring urgent angiography. Other findings are non-specific or supportive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "315cf8ac9ab1",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man presents with acute pleuritic chest pain, fever, and recent viral illness. ECG shows diffuse concave ST elevation in many leads with PR depression. Troponin is mildly elevated. Which finding distinguishes this from a true STEMI?",
+      "options": [
+        "Concave ST elevation",
+        "Fever",
+        "Age <40",
+        "Mild troponin rise",
+        "PR depression"
+      ],
+      "answerIndex": 4,
+      "explanation": "PR depression is a specific sign of atrial involvement in pericarditis/myopericarditis and is not seen in STEMI. While concave ST elevation can occur in both conditions, PR depression points strongly toward pericarditis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e1823b5b67f",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with inferior STEMI develops severe hypotension and oliguria 12 hours post-thrombolysis. He has clear lung fields on auscultation but JVP is 15 cm H2O. Which finding is the best indicator of RV infarction causing cardiogenic shock?",
+      "options": [
+        "Elevated JVP",
+        "Oliguria",
+        "Clear lung fields",
+        "Thrombolysis",
+        "Inferior STEMI"
+      ],
+      "answerIndex": 2,
+      "explanation": "In inferior STEMI, hypotension with clear lung fields and elevated JVP is classic for RV infarction causing cardiogenic shock. Clear lung fields (Killip class I) exclude left-sided failure, pointing to right heart failure from RV infarction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "abc59993c5c3",
+      "topic": "Acute Coronary Syndrome — STEMI",
+      "slug": "acute-coronary-syndrome-—-stemi",
+      "system": "Cardiovascular",
+      "subSystem": "ACS",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman with anterior STEMI undergoes primary PCI. 2 days later, she develops sudden dyspnoea and pulmonary oedema. On auscultation, a new loud pansystolic murmur is heard at the apex radiating to the axilla. Which finding is the most critical to recognise?",
+      "options": [
+        "Pulmonary oedema",
+        "New pansystolic murmur",
+        "Recent PCI",
+        "Dyspnoea",
+        "Anterior STEMI"
+      ],
+      "answerIndex": 1,
+      "explanation": "A new apical pansystolic murmur after STEMI is highly suggestive of acute mitral regurgitation from papillary muscle rupture, a mechanical complication requiring urgent surgical repair. Pulmonary oedema is a consequence, but the murmur is the key diagnostic clue.",
+      "difficulty": "medium"
+    }
+  ]
+}

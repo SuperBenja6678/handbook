@@ -2,7 +2,50 @@
 
 export type Acuity = 'EMERGENCY' | 'URGENT' | 'ROUTINE' | 'CHRONIC';
 export type TopicStatus = 'PENDING' | 'GENERATED' | 'REVIEWED' | 'MASTERED';
-export type EntryMode = 'WARD' | 'STUDY';
+export type EntryMode = 'WARD' | 'STUDY' | 'QUIZ';
+
+// MCQ pattern-recognition angle — see scripts/generate_questions.py
+export type QuizAngle = 'recognise' | 'diagnose' | 'treat' | 'next_step' | 'red_flag';
+export type QuizDifficulty = 'easy' | 'medium' | 'hard';
+
+export interface QuizQuestion {
+  id: string;
+  topic: string;
+  slug: string;
+  system: string;
+  subSystem?: string;
+  acuity?: Acuity;
+  angle: QuizAngle;
+  stem: string;
+  options: string[];
+  answerIndex: number;
+  explanation: string;
+  difficulty: QuizDifficulty;
+}
+
+export interface QuestionSet {
+  topic: string;
+  slug: string;
+  system: string;
+  subSystem?: string;
+  acuity?: Acuity;
+  generatedAt: string;
+  model: string;
+  grounded: boolean;
+  count: number;
+  questions: QuizQuestion[];
+}
+
+// Entry in public/data/questions-manifest.json — lets the app know which
+// topics have a quiz available without fetching every question file.
+export interface QuizManifestEntry {
+  slug: string;
+  topic: string;
+  system: string;
+  subSystem?: string;
+  acuity?: Acuity;
+  count: number;
+}
 
 export interface ClinicalEntry {
   title: string;

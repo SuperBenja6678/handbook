@@ -1,0 +1,513 @@
+{
+  "topic": "Prostatitis",
+  "slug": "prostatitis",
+  "system": "Urology",
+  "subSystem": "Infection",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:37:32Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "77ff8cfb8600",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 42-year-old man presents with a 2-day history of fever (38.9°C), chills, severe perineal pain, and painful urination. He has no previous urinary issues. On examination, his prostate is tender, enlarged, and warm on digital rectal examination. Urine dipstick shows leucocytes and nitrites. What is the single most likely diagnosis?",
+      "options": [
+        "Benign prostatic hyperplasia",
+        "Acute bacterial prostatitis",
+        "Acute cystitis",
+        "Acute epididymitis",
+        "Prostate abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, systemic symptoms, perineal pain, and a tender prostate on DRE is classic for acute bacterial prostatitis. Prostate abscess would typically present with a fluctuant mass; acute epididymitis involves testicular pain and swelling; acute cystitis lacks perineal pain and prostatic tenderness; BPH does not cause fever.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "af8833be9585",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man has had three episodes of culture-proven urinary tract infection with the same organism (E. coli) over the past year. Between episodes he reports a dull ache in the suprapubic area and perineum. Urine cultures during symptom-free periods are negative, but prostatic massage yields expressed prostatic secretions that grow E. coli. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic pelvic pain syndrome",
+        "Chronic bacterial prostatitis",
+        "Prostatic abscess",
+        "Benign prostatic hyperplasia",
+        "Recurrent cystitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recurrent UTIs with the same organism in a male, along with positive prostatic fluid culture, is diagnostic of chronic bacterial prostatitis. Chronic pelvic pain syndrome would have negative cultures. BPH and recurrent cystitis are less specific. Prostatic abscess is an acute condition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fa55fafdcda0",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 38-year-old man presents with a 9-month history of constant perineal discomfort and occasional pain in the tip of his penis. He has no dysuria or fever. Multiple urine cultures are negative. Digital rectal examination reveals a normal sized prostate with no tenderness. What is the single most likely diagnosis?",
+      "options": [
+        "Benign prostatic hyperplasia",
+        "Interstitial cystitis",
+        "Prostatic abscess",
+        "Chronic pelvic pain syndrome",
+        "Chronic bacterial prostatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Chronic pelvic pain syndrome (NIH type III) is characterized by pelvic pain for >3 months without evidence of infection. Negative cultures and normal DRE rule out chronic bacterial prostatitis. Interstitial cystitis typically involves bladder pain with filling; BPH causes obstructive symptoms; prostatic abscess is acute with fever.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f0470ef1b5b8",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with poorly controlled type 2 diabetes presents with a 5-day history of perineal pain and fever, treated with oral antibiotics for suspected prostatitis with no improvement. He now has difficulty passing urine. On DRE, the prostate is exquisitely tender with a fluctuant area. What is the single most likely diagnosis?",
+      "options": [
+        "Prostatic abscess",
+        "Epididymo-orchitis",
+        "Acute cystitis",
+        "Acute bacterial prostatitis",
+        "Perianal abscess"
+      ],
+      "answerIndex": 0,
+      "explanation": "Failure to improve with antibiotics, along with a fluctuant tender mass on DRE, indicates prostatic abscess, a complication of acute prostatitis. Acute prostatitis would typically improve with antibiotics. Perianal abscess is found on perianal exam; epididymo-orchitis spares the prostate; acute cystitis does not cause perineal pain or a fluctuant mass.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b51dbad00e51",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with sudden inability to urinate for 6 hours. He also reports feeling feverish and has a dull ache in the perineum. He has no prior history of urinary symptoms. On DRE, the prostate is moderately enlarged, firm, and very tender. Urine dipstick shows leucocytes and nitrites. What is the single most likely diagnosis?",
+      "options": [
+        "Cauda equina syndrome",
+        "Benign prostatic hyperplasia",
+        "Urinary tract infection (cystitis)",
+        "Prostatic abscess",
+        "Acute bacterial prostatitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute urinary retention with fever and a tender prostate on DRE is typical of acute bacterial prostatitis. BPH retention lacks fever and tenderness; prostatic abscess would have a fluctuant mass; cauda equina syndrome presents with neurological deficits; cystitis alone does not cause retention or a tender prostate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "85a80d3906fd",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with acute onset of fevers, perineal pain, and dysuria. On examination, he has a tender, boggy prostate. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Mid-stream urine culture",
+        "Transrectal ultrasound",
+        "Urethral swab",
+        "Blood cultures",
+        "Prostate-specific antigen level"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute bacterial prostatitis, mid-stream urine culture is the first-line investigation to identify the causative organism. PSA is non-specific and may be elevated due to inflammation. Blood cultures are indicated if sepsis suspected but urine culture remains key.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1952aadd1b77",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man has had three episodes of culture-positive Escherichia coli urinary tract infection in the past year. He is asymptomatic between episodes. Which investigation is most appropriate to localise the source of infection?",
+      "options": [
+        "Prostate-specific antigen",
+        "CT scan of pelvis",
+        "Two-glass pre- and post-massage urine test",
+        "Semen culture",
+        "Four-glass Meares-Stamey test"
+      ],
+      "answerIndex": 2,
+      "explanation": "In UK practice, the two-glass test (pre- and post-prostatic massage urine culture) is recommended for localising infection to the prostate in recurrent UTI. The four-glass test is more invasive and not routinely used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d6b5234475ea",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man presents with pelvic pain for 3 months and no urinary symptoms. Digital rectal exam is normal. Urine culture is negative. Which test is most appropriate to exclude chronic bacterial prostatitis?",
+      "options": [
+        "Cystoscopy",
+        "Repeat urine culture after prostatic massage",
+        "MRI of the prostate",
+        "Serum PSA",
+        "Uroflowmetry"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pre- and post-massage urine testing (two-glass test) is the standard to detect localised prostatic infection. A negative urine culture alone does not rule out chronic bacterial prostatitis; post-massage culture is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a0a60f3e4b41",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man has a PSA of 8 ng/mL on routine screening. He has no urinary symptoms but reports a history of prostatitis a year ago. What is the most appropriate next step?",
+      "options": [
+        "Refer for prostate biopsy",
+        "Free/total PSA ratio",
+        "Perform urine culture and microscopy",
+        "Repeat PSA in 6 weeks",
+        "Prescribe antibiotics and repeat PSA"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends checking for urinary tract infection before considering prostate biopsy. If infection is present, treat and repeat PSA afterward. Empiric antibiotics are not indicated without evidence of infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8d625304dcd3",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with acute bacterial prostatitis fails to improve after 48 hours of intravenous antibiotics. He develops worsening perineal pain and urinary retention. Which investigation is most appropriate to identify a prostatic abscess?",
+      "options": [
+        "Intravenous urogram",
+        "Cystoscopy",
+        "MRI of the prostate",
+        "CT scan of the pelvis",
+        "Transrectal ultrasound"
+      ],
+      "answerIndex": 4,
+      "explanation": "Transrectal ultrasound (TRUS) is the first-line imaging for suspected prostatic abscess as it is readily available, quick, and diagnostic. CT or MRI are alternatives but not preferred due to radiation or accessibility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "95397e9b45b6",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with dysuria, frequency, and perineal pain for 2 days. He has no fever, no urinary retention. Urine dipstick shows nitrites and leukocytes. He has no allergies. What is the most appropriate first-line antibiotic for his acute bacterial prostatitis?",
+      "options": [
+        "Co-trimoxazole 960 mg oral twice daily for 14 days",
+        "Ciprofloxacin 500 mg oral twice daily for 14 days",
+        "Nitrofurantoin 100 mg oral twice daily for 7 days",
+        "Amoxicillin 500 mg oral three times daily for 14 days",
+        "Doxycycline 100 mg oral twice daily for 14 days"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ciprofloxacin achieves high prostatic levels and is recommended by NICE for acute prostatitis. Nitrofurantoin penetrates poorly, co-trimoxazole is an alternative but not first-line, doxycycline covers atypicals but not typical gram-negatives, and amoxicillin resistance is common.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "62134d5c83c0",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man has had recurrent episodes of prostatitis over the past year. Urine culture now grows Escherichia coli. He has no acute symptoms. What is the most appropriate duration and choice of antibiotic therapy?",
+      "options": [
+        "Single dose of fosfomycin trometamol",
+        "2-week course of doxycycline",
+        "10-day course of co-trimoxazole",
+        "3-day course of nitrofurantoin",
+        "6-week course of ciprofloxacin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Chronic bacterial prostatitis requires prolonged treatment (4–6 weeks) with an antibiotic that penetrates the prostate, such as ciprofloxacin or trimethoprim/sulfamethoxazole. Short courses lead to failure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea6b886eba71",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with high fever, rigors, and perineal pain. He has acute prostatitis and is hypotensive. He has a history of anaphylaxis to penicillin. Which antibiotic is most appropriate as empirical intravenous therapy?",
+      "options": [
+        "Gentamicin IV",
+        "Metronidazole IV",
+        "Ceftriaxone IV",
+        "Co-amoxiclav IV",
+        "Ciprofloxacin IV"
+      ],
+      "answerIndex": 4,
+      "explanation": "In penicillin-allergic patients with severe sepsis, IV ciprofloxacin is suitable due to good prostatic penetration and gram-negative coverage. Ceftriaxone (cephalosporin) may cause cross-reactivity and is avoided; co-amoxiclav is contraindicated; gentamicin alone is insufficient; metronidazole lacks gram-negative coverage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b48fd32540de",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old man with acute prostatitis has chronic kidney disease (eGFR 30 mL/min). He has no drug allergies. Which antibiotic should be avoided?",
+      "options": [
+        "Doxycycline",
+        "Nitrofurantoin",
+        "Ciprofloxacin",
+        "Co-trimoxazole",
+        "Trimethoprim"
+      ],
+      "answerIndex": 1,
+      "explanation": "Nitrofurantoin is contraindicated when eGFR <45 mL/min due to lack of efficacy and risk of peripheral neuropathy. Ciprofloxacin requires dose adjustment but is not contraindicated; trimethoprim, doxycycline, and co-trimoxazole can be used with caution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f50e51e3e45",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 50-year-old man with acute prostatitis develops a tender, fluctuant mass on digital rectal examination. Transrectal ultrasound confirms a prostatic abscess measuring 2 cm. He is septic. Which of the following is the single most important next step in management?",
+      "options": [
+        "Intravenous antibiotics alone",
+        "Oral antibiotics and NSAIDs",
+        "Incision and drainage of the abscess",
+        "Alpha-blocker therapy",
+        "Transurethral resection of the prostate"
+      ],
+      "answerIndex": 2,
+      "explanation": "A prostatic abscess requires drainage in addition to antibiotics. Incision and drainage (typically transrectal or transurethral) is definitive; antibiotics alone are often inadequate. TURP is not first-line for abscess drainage; alpha-blockers and NSAIDs do not treat the abscess.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e49d38238553",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents with acute onset of perineal pain, dysuria, frequency, and temperature 38.5°C. He looks well, no urinary retention, and no signs of sepsis. Urine dipstick shows blood and leukocytes. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange a transrectal ultrasound",
+        "Insert a urethral catheter",
+        "Prescribe oral ciprofloxacin 500mg twice daily for 28 days",
+        "Perform a digital rectal examination",
+        "Refer to urology for outpatient review"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute prostatitis, a digital rectal examination is painful, unhelpful, and risks bacteraemia; thus it is not recommended. Antibiotics should be started empirically after obtaining urine culture - the immediate next step is to prescribe a 4-week course of an appropriate antibiotic such as ciprofloxacin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b57c7b3f7ed1",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with acute prostatitis reports inability to pass urine for 6 hours. He has suprapubic discomfort and a palpable bladder on examination. He is distressed but haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a urethral catheter",
+        "Perform suprapubic catheterisation",
+        "Give an alpha-blocker",
+        "Prescribe oral antibiotics",
+        "Arrange an urgent ultrasound of the bladder"
+      ],
+      "answerIndex": 0,
+      "explanation": "The immediate priority is to relieve acute urinary retention. Urethral catheterisation is first-line; suprapubic catheterisation is reserved if urethral access fails. Antibiotics and alpha-blockers are important but not the immediate next step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "65ce92b13467",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 50-year-old man presents with high fever, rigours, and perineal pain. His blood pressure is 85/50 mmHg, heart rate 115 bpm, and temperature 39.2°C. He looks unwell. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange a CT scan of the abdomen",
+        "Perform a digital rectal examination",
+        "Give oral paracetamol",
+        "Start intravenous broad-spectrum antibiotics",
+        "Insert a urethral catheter"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has sepsis from acute prostatitis. Immediate resuscitation includes IV fluids and broad-spectrum antibiotics after blood cultures; however, the single most critical next action is to start IV antibiotics promptly. DRE is contraindicated due to risk of exacerbating bacteraemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b81884b0069",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with acute prostatitis treated with oral ciprofloxacin for 3 days presents with worsening perineal pain, persistent high fever, and difficulty voiding. Digital rectal examination reveals a tender, fluctuant mass. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a suprapubic catheter",
+        "Arrange transrectal ultrasound",
+        "Perform a repeat digital rectal examination",
+        "Continue current antibiotics",
+        "Increase the dose of ciprofloxacin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Suspect a prostatic abscess given failure to improve and fluctuant mass on DRE. The immediate next step is imaging to confirm the abscess; transrectal ultrasound is the best initial modality to evaluate for an abscess and guide subsequent drainage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "695b65742810",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with type 2 diabetes presents with recurrent perineal pain and dysuria for 2 days. He is afebrile and haemodynamically stable. He has had two previous episodes of acute prostatitis treated with ciprofloxacin. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform prostate massage to obtain expressed prostatic secretions",
+        "Refer to urology for transrectal biopsy",
+        "Prescribe trimethoprim 200mg twice daily",
+        "Prescribe a repeat course of ciprofloxacin",
+        "Send midstream urine for culture and sensitivity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Given recurrent episodes and prior antibiotic exposure, there is a high risk of antimicrobial resistance. The immediate next step is to send a urine specimen for culture and sensitivity to guide targeted antibiotic therapy, rather than prescribing empirically.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1e8e54d932a2",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man presents with acute perineal pain, fever, and dysuria. On examination, temperature is 38.5°C and the prostate is tender and swollen. Which single clinical finding would indicate the need for urgent catheterisation and hospital admission?",
+      "options": [
+        "Palpable bladder after voiding",
+        "Elevated PSA above 10 ng/mL",
+        "Fever with rigors",
+        "Prostate tenderness on DRE",
+        "Perineal oedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute urinary retention (palpable bladder after voiding) is a red flag in acute prostatitis requiring catheterisation and admission; other options are common in prostatitis but do not independently mandate immediate intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d31e06402ec5",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 42-year-old man with acute bacterial prostatitis has been on intravenous antibiotics for 48 hours but remains febrile with severe perineal pain. Which clinical finding most strongly suggests the development of a prostatic abscess?",
+      "options": [
+        "Persistent dysuria",
+        "Haemospermia",
+        "Worsening frequency of urination",
+        "Fluctuance on digital rectal examination",
+        "Leucocytosis of 20×10^9/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fluctuance on DRE is the classic sign of a prostatic abscess requiring drainage; persistent fever and leucocytosis are non-specific, while the other options are common in uncomplicated prostatitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a5363ce0438d",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old HIV-positive man with a CD4 count of 100 cells/µL presents with dysuria, perineal discomfort, and mild fever. Which urine finding should raise suspicion for an opportunistic cause of prostatitis?",
+      "options": [
+        ">10 red blood cells per high-power field",
+        "Gram-positive cocci in chains",
+        "Yeast cells on microscopy",
+        "Nitrite positive",
+        "Leucocyte esterase negative"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an immunocompromised patient, yeast (e.g., Candida) prostatitis is a recognised opportunistic infection; yeast on microscopy points to this diagnosis, whereas the other findings suggest bacterial or non-specific inflammation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "afe86e8db892",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man presents with acute perineal pain, difficulty passing urine, and low back pain. Which clinical finding would raise suspicion for cauda equina syndrome rather than acute prostatitis?",
+      "options": [
+        "Tender prostate on DRE",
+        "Saddle anaesthesia",
+        "Perineal pain exacerbated by sitting",
+        "Fever of 38°C",
+        "Urinary frequency"
+      ],
+      "answerIndex": 1,
+      "explanation": "Saddle anaesthesia is a hallmark of cauda equina syndrome, a neurosurgical emergency that can mimic prostatitis; fever, prostatic tenderness, and urinary symptoms are typical of prostatitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "719d5247dab2",
+      "topic": "Prostatitis",
+      "slug": "prostatitis",
+      "system": "Urology",
+      "subSystem": "Infection",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with known benign prostatic hyperplasia presents with acute urinary retention and a temperature of 38.0°C. Which laboratory finding indicates the need for immediate bladder drainage and urology referral?",
+      "options": [
+        "PSA 12 ng/mL",
+        "Urine culture showing E. coli",
+        "CRP 80 mg/L",
+        "White blood cell count 15×10^9/L",
+        "Serum creatinine 250 µmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "An elevated serum creatinine (250 µmol/L) indicates acute kidney injury secondary to obstruction, mandating prompt catheterisation; the other findings suggest infection but do not signal impending renal failure.",
+      "difficulty": "easy"
+    }
+  ]
+}

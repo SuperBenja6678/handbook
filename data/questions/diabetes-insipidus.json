@@ -1,0 +1,513 @@
+{
+  "topic": "Diabetes Insipidus",
+  "slug": "diabetes-insipidus",
+  "system": "Endocrinology",
+  "subSystem": "Pituitary",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:36:02Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c70787130e24",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents to the emergency department two hours after a road traffic accident that caused a head injury. He is alert with GCS 15 but complains of extreme thirst and has been passing large volumes of pale urine. Observations: HR 110 bpm, BP 100/70 mmHg. Urine output is >200 mL/hour. Serum sodium 148 mmol/L, plasma osmolality 300 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "Central diabetes insipidus",
+        "SIADH",
+        "Diabetes mellitus",
+        "Nephrogenic diabetes insipidus",
+        "Primary polydipsia"
+      ],
+      "answerIndex": 0,
+      "explanation": "High serum sodium and osmolality with polyuria after head injury point to central DI. Primary polydipsia would show low or normal sodium; nephrogenic DI is less likely without a precipitant like lithium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ee10b87b837c",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with bipolar disorder on lithium therapy for five years presents with thirst and polyuria. She reports drinking 5-6 litres of water daily. Urine output is 4 L/24h. Serum sodium 140 mmol/L, plasma osmolality 285 mOsm/kg, urine osmolality 200 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "Central diabetes insipidus",
+        "Diabetes mellitus",
+        "SIADH",
+        "Nephrogenic diabetes insipidus",
+        "Primary polydipsia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lithium is a common cause of nephrogenic DI. Normal sodium and dilute urine despite high intake suggest DI rather than primary polydipsia; the lithium history points to nephrogenic origin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c06e7d35a49a",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman undergoes transsphenoidal resection of a pituitary adenoma. On the first postoperative day, she develops polyuria with urine output 300 mL/hour. She is drowsy. Serum sodium 155 mmol/L, plasma osmolality 310 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "Primary polydipsia",
+        "Central diabetes insipidus",
+        "Nephrogenic diabetes insipidus",
+        "SIADH",
+        "Cerebral salt wasting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Post-pituitary surgery with acute polyuria, hypernatraemia, and hyperosmolality is classic for central DI. SIADH and cerebral salt wasting cause hyponatraemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "af3f8a6e715b",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman at 34 weeks gestation presents with polyuria and polydipsia. She drinks approximately 6 litres of water per day. Serum sodium 142 mmol/L, urine osmolality 150 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "Nephrogenic diabetes insipidus",
+        "Diabetes mellitus",
+        "Central diabetes insipidus",
+        "Gestational diabetes insipidus",
+        "Primary polydipsia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gestational DI is caused by placental vasopressinase and typically appears in the third trimester. Primary polydipsia would usually show low-normal sodium; here sodium is normal but urine is inappropriately dilute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "77f1d293bbfb",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with known pulmonary sarcoidosis presents with polyuria and thirst. She has no history of head trauma or lithium use. Serum sodium 141 mmol/L, urine osmolality 180 mOsm/kg. What is the single most likely diagnosis?",
+      "options": [
+        "SIADH",
+        "Nephrogenic diabetes insipidus",
+        "Primary polydipsia",
+        "Central diabetes insipidus",
+        "Diabetes mellitus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sarcoidosis can cause central DI via granulomatous infiltration of the hypothalamus or pituitary. The normal sodium and dilute urine make primary polydipsia less likely; the sarcoidosis history raises suspicion for central DI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d827876a8c6e",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with polyuria (4 L/day) and polydipsia for 3 weeks. She has no nocturia. Blood tests: Na 142, glucose 5.0, eGFR >90. Random urine osmolality is 110 mOsm/kg, serum osmolality 288 mOsm/kg. Which single test will confirm the diagnosis?",
+      "options": [
+        "Desmopressin challenge",
+        "24-hour urine volume",
+        "MRI pituitary",
+        "Serum copeptin",
+        "Water deprivation test"
+      ],
+      "answerIndex": 4,
+      "explanation": "The water deprivation test is the gold standard to confirm diabetes insipidus after initial low urine osmolality. The desmopressin challenge is used to differentiate central from nephrogenic DI, not to confirm the presence of DI. Copeptin is an emerging alternative but not standard first-line. MRI is for identifying structural causes, not diagnostic. 24-hour urine volume confirms polyuria but not the diagnosis of DI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9ccc7aeea324",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man develops sudden polyuria (urine output 400 mL/hr) 12 hours after transsphenoidal surgery for a pituitary adenoma. His serum sodium is 155 mmol/L, urine osmolality 105 mOsm/kg. Which single test is most appropriate to differentiate central from nephrogenic diabetes insipidus in this acute setting?",
+      "options": [
+        "Serum ADH level",
+        "MRI pituitary",
+        "Water deprivation test",
+        "Serum osmolality",
+        "Desmopressin challenge"
+      ],
+      "answerIndex": 4,
+      "explanation": "Desmopressin challenge is the safest and fastest test in acute hypernatraemia; a rise in urine osmolality >50% confirms central DI. Water deprivation is contraindicated because of hypernatraemia. Serum ADH is not routinely available and delays diagnosis. Serum osmolality and MRI do not differentiate the subtype.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9de2b70ec0dc",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with known central diabetes insipidus on intranasal desmopressin attends follow-up. She feels well and has normal thirst. Which single investigation is most appropriate for routine monitoring?",
+      "options": [
+        "24-hour urine volume",
+        "Random urine osmolality",
+        "Serum sodium",
+        "Water deprivation test",
+        "Serum copeptin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serum sodium is the key monitoring parameter to detect iatrogenic hyponatraemia or hypernatraemia. Urine osmolality and volume are less specific. Water deprivation is unnecessary and potentially dangerous. Copeptin is not used for monitoring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "581f68c29571",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with polyuria (5 L/day) and polydipsia undergoes a water deprivation test. Baseline urine osmolality is 80 mOsm/kg, serum osmolality 285. After 8 hours of fluid restriction, urine osmolality is 90 mOsm/kg and his weight drops by 4%. Which single next step is most appropriate to complete the diagnosis?",
+      "options": [
+        "Perform a hypertonic saline infusion test",
+        "Administer desmopressin and repeat urine osmolality",
+        "Stop the test and rehydrate the patient",
+        "Measure serum ADH level",
+        "Continue fluid restriction for another 4 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "The water deprivation test shows failure to concentrate urine, so desmopressin administration is needed to differentiate central from nephrogenic DI. Stopping the test is premature. Serum ADH is not routinely available. Continuing restriction risks dehydration. Hypertonic saline is an alternative but not standard next step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e63e8304bfa4",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman at 32 weeks gestation presents with polyuria and polydipsia. She is haemodynamically stable, serum sodium 140 mmol/L, urine osmolality 85 mOsm/kg. Which single diagnostic test is most appropriate to confirm the type of diabetes insipidus?",
+      "options": [
+        "MRI pituitary",
+        "Serum copeptin",
+        "Desmopressin challenge",
+        "24-hour urine volume",
+        "Water deprivation test"
+      ],
+      "answerIndex": 2,
+      "explanation": "Desmopressin challenge is safe in pregnancy and distinguishes central (responsive) from nephrogenic (unresponsive) DI. Water deprivation is risky for mother and fetus. Copeptin levels are altered in pregnancy and not validated. MRI is not first-line. 24-hour urine volume confirms polyuria but not type.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c4a26518f616",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old man undergoes transsphenoidal resection of a pituitary adenoma. On the first postoperative day, he develops polyuria (urine output 300 mL/hour) and serum sodium 147 mmol/L. Urine osmolality is 120 mOsm/kg. He is haemodynamically stable. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral carbamazepine 200 mg twice daily",
+        "Intravenous desmopressin 2 mcg",
+        "Oral desmopressin 200 mcg",
+        "Intravenous 0.9% sodium chloride",
+        "Subcutaneous vasopressin"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute post-operative cranial DI, IV desmopressin is preferred for rapid effect. Oral desmopressin is slower and less reliable in the acute setting. Vasopressin is older and not first-line. Carbamazepine is for maintenance, not acute. IV saline alone does not treat the underlying DI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5cb8ba10579a",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with bipolar disorder on long-term lithium therapy presents with polyuria and polydipsia. Serum sodium is 148 mmol/L, urine osmolality 150 mOsm/kg. Lithium is stopped and a diagnosis of nephrogenic diabetes insipidus is confirmed. She has normal renal function. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Carbamazepine 200 mg twice daily",
+        "Amiloride 5 mg daily",
+        "Bendroflumethiazide 2.5 mg daily",
+        "Indomethacin 25 mg three times daily",
+        "Desmopressin nasal spray 10 mcg"
+      ],
+      "answerIndex": 1,
+      "explanation": "Amiloride is first-line for lithium-induced nephrogenic DI as it blocks lithium reabsorption in the collecting duct. Thiazides (bendroflumethiazide) are effective but not first-line for this aetiology. Desmopressin is ineffective in nephrogenic DI. Carbamazepine is for cranial DI. Indomethacin is a third-line option.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d6cda318fad8",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with known cranial diabetes insipidus presents to the emergency department with confusion and hypernatraemia (serum sodium 158 mmol/L). He has been unable to drink due to a gastrointestinal illness. Urine output is high. What is the most appropriate immediate pharmacological treatment?",
+      "options": [
+        "Hypertonic saline 3% 100 mL bolus",
+        "Subcutaneous vasopressin",
+        "Intravenous desmopressin 2 mcg",
+        "Intravenous 5% dextrose 1 litre",
+        "Oral desmopressin 200 mcg"
+      ],
+      "answerIndex": 2,
+      "explanation": "IV desmopressin provides rapid antidiuresis. Oral desmopressin has delayed absorption. Vasopressin is not preferred. 5% dextrose would worsen hypernatraemia if given without antidiuretic hormone. Hypertonic saline is contraindicated as it would further raise sodium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "57d7d96d01a4",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 34-year-old woman with cranial diabetes insipidus on maintenance desmopressin 200 mcg twice daily develops asymptomatic hyponatraemia (serum sodium 126 mmol/L). She is otherwise well. What is the most appropriate next step?",
+      "options": [
+        "Restrict fluid intake to 800 mL/day",
+        "Discontinue desmopressin",
+        "Start bendroflumethiazide 2.5 mg daily",
+        "Administer 3% hypertonic saline",
+        "Increase desmopressin dose to 400 mcg twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hyponatraemia in a patient on desmopressin is likely due to excessive water retention. The single most important step is to stop desmopressin. Fluid restriction alone may be insufficient if desmopressin is continued. Hypertonic saline is reserved for symptomatic severe hyponatraemia. Increasing desmopressin would worsen hyponatraemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0bd12a47d5a0",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation with known lithium-induced nephrogenic diabetes insipidus (lithium stopped) has persistent polyuria. Which of the following treatments is contraindicated?",
+      "options": [
+        "Indomethacin 25 mg three times daily",
+        "Amiloride 5 mg daily",
+        "Bendroflumethiazide 2.5 mg daily",
+        "Carbamazepine 200 mg twice daily",
+        "Desmopressin nasal spray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thiazide diuretics (e.g., bendroflumethiazide) are contraindicated in pregnancy due to risks of fetal electrolyte disturbances and thrombocytopenia. Amiloride is relatively safe. Desmopressin is safe in pregnancy. Carbamazepine is not effective in nephrogenic DI. Indomethacin is also contraindicated in third trimester but is not first-line for DI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8f40e294f6ba",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman presents to the GP with a 3-week history of polydipsia and polyuria, drinking up to 8 litres per day. She has no nocturia but feels constantly thirsty. She denies weight loss or fatigue. Random plasma glucose is 5.4 mmol/L, urine dipstick shows no glucose. What is the single most appropriate next step?",
+      "options": [
+        "Arrange a water deprivation test",
+        "Measure paired plasma and urine osmolality",
+        "Refer to an endocrinologist",
+        "Check serum sodium and potassium",
+        "Start desmopressin therapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Normal random glucose rules out diabetes mellitus. Measuring paired plasma and urine osmolality is the first step to differentiate diabetes insipidus from primary polydipsia. A water deprivation test is a later confirmatory step. Starting desmopressin without diagnosis is inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "30b2edfed3dc",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known central diabetes insipidus on desmopressin nasal spray 10 mcg twice daily presents to the ED with confusion and lethargy. He has been drinking large volumes of water because of thirst. Plasma sodium is 120 mmol/L, plasma osmolality 254 mOsm/kg, urine osmolality 450 mOsm/kg. What is the single most appropriate immediate action?",
+      "options": [
+        "Stop desmopressin",
+        "Check serum calcium and urate",
+        "Give intravenous desmopressin",
+        "Perform a CT head",
+        "Administer intravenous 3% hypertonic saline"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyponatraemia in a patient on desmopressin is due to desmopressin-induced water retention. The immediate step is to stop desmopressin and monitor. Hypertonic saline is reserved for severe symptoms like seizures or coma; confusion/lethargy are moderate and managed by drug cessation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1d3f9e579af6",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man underwent transsphenoidal resection of a pituitary adenoma 6 hours ago. Over the past hour, his urine output has been 500 mL/hour. He is drowsy but rousable. Heart rate 110 bpm, blood pressure 100/60 mmHg. He has received 2 litres of crystalloid. Serum sodium 152 mmol/L, plasma osmolality 310 mOsm/kg, urine osmolality 120 mOsm/kg. What is the single most appropriate immediate action?",
+      "options": [
+        "Start intravenous 5% dextrose at 100 mL/hour",
+        "Give intravenous desmopressin 1-2 mcg",
+        "Perform an overnight water deprivation test",
+        "Insert a urinary catheter and measure hourly urine output",
+        "Give intravenous 0.9% sodium chloride bolus"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is acute postoperative central diabetes insipidus: hypernatraemia, hyperosmolality, and low urine osmolality. Immediate treatment with desmopressin is required to prevent further hypernatraemia. 5% dextrose would worsen hyponatraemia; saline bolus is not indicated; catheter should already be in place.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "32ad8bf9eec4",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman with known cranial diabetes insipidus on desmopressin tablets is brought to the ED after a generalised tonic-clonic seizure at home. She has been drinking excessive water. Plasma sodium 114 mmol/L, plasma osmolality 240 mOsm/kg, urine osmolality 400 mOsm/kg. What is the single most appropriate immediate action?",
+      "options": [
+        "Stop desmopressin",
+        "Give intravenous 3% hypertonic saline",
+        "Administer intravenous lorazepam",
+        "Start fluid restriction",
+        "Give intravenous 0.9% sodium chloride"
+      ],
+      "answerIndex": 1,
+      "explanation": "Seizure from severe hyponatraemia is a medical emergency. Immediate correction with hypertonic saline (3%) is indicated. Stopping desmopressin and fluid restriction are important but not the first action. Lorazepam may treat the seizure but does not address the underlying hyponatraemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2cb01964d3b7",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old primigravida at 32 weeks gestation presents with polyuria and polydipsia for 2 weeks. She drinks 5-6 litres per day. No headache, visual disturbance, or hypertension. Urine dipstick: no glucose, no protein. Random plasma glucose 4.9 mmol/L. What is the single most appropriate next step?",
+      "options": [
+        "Perform a water deprivation test",
+        "Measure plasma and urine osmolality",
+        "Refer to a nephrologist",
+        "Perform a 2-hour oral glucose tolerance test",
+        "Start oral desmopressin"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, water deprivation test is contraindicated. First step is to measure paired plasma and urine osmolality to differentiate diabetes insipidus from primary polydipsia. Normal glucose excludes gestational diabetes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2a166bf3f9e6",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents to the emergency department with a 5-day history of extreme thirst and passing large volumes of urine following a minor head injury. He is confused. Bloods show: Na 152, K 4.0, urea 8.0, creatinine 100. Which additional finding is most concerning?",
+      "options": [
+        "Plasma osmolality 325 mOsm/kg",
+        "Plasma osmolality 315 mOsm/kg",
+        "Plasma osmolality 305 mOsm/kg",
+        "Plasma osmolality 335 mOsm/kg",
+        "Plasma osmolality 345 mOsm/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "A plasma osmolality >320 mOsm/kg indicates severe hyperosmolality, which can cause neurological deterioration. The value 345 is the highest and clearly above the threshold, while the others are lower or borderline.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ecfb72713a5d",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man has a transsphenoidal adenomectomy. On the first postoperative day, his urine output is 300 mL in the first hour, 250 mL in the second hour, and 280 mL in the third hour. Which of these urine output measurements is the most sensitive red flag for impending diabetes insipidus?",
+      "options": [
+        "250 mL/hour for 2 consecutive hours",
+        "250 mL/hour for 1 hour",
+        "300 mL/hour for 1 hour",
+        "300 mL/hour for 2 consecutive hours",
+        "200 mL/hour for 2 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines define a urine output >250 mL/hour for two consecutive hours as the threshold for escalating care in post-operative DI. The patient's second and third hours average >250 mL/hour.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a196a7a22c1e",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with central diabetes insipidus on desmopressin nasal spray presents with headache and vomiting. She is on a weight loss diet and has been drinking large amounts of water. Which laboratory result indicates a life-threatening complication?",
+      "options": [
+        "Serum sodium 115 mmol/L",
+        "Serum sodium 110 mmol/L",
+        "Serum sodium 100 mmol/L",
+        "Serum sodium 105 mmol/L",
+        "Serum sodium 120 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hyponatraemia (<120 mmol/L) is life-threatening due to risk of cerebral oedema. While all options are low, a serum sodium of 115 mmol/L is a common threshold for critical care involvement, and the question asks for the finding that indicates a life-threatening complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c9df092d32ad",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with bipolar disorder on long-term lithium presents with polyuria and polydipsia. She has stopped lithium because of tremor but symptoms persist. On examination, she has dry mucous membranes and reduced skin turgor. Which vital sign measurement is most concerning for hypovolaemic shock?",
+      "options": [
+        "Blood pressure 110/80 supine",
+        "Blood pressure 90/60 supine",
+        "Postural drop 30 mmHg systolic",
+        "Heart rate 95 bpm",
+        "Postural drop 15 mmHg systolic"
+      ],
+      "answerIndex": 2,
+      "explanation": "A postural systolic drop of 30 mmHg indicates significant hypovolaemia, more sensitive than isolated tachycardia or borderline hypotension. This is a red flag for impending shock in the context of polyuria from nephrogenic DI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dd5d2147016d",
+      "topic": "Diabetes Insipidus",
+      "slug": "diabetes-insipidus",
+      "system": "Endocrinology",
+      "subSystem": "Pituitary",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with known central diabetes insipidus is admitted from home. He has been unwell with vomiting and has not taken his desmopressin for 2 days. He is lethargic. Bloods: Na 165, K 3.9, urea 20, creatinine 200. Which of these findings is the most immediate life threat?",
+      "options": [
+        "Haemoglobin 100 g/L",
+        "Urea 20 mmol/L",
+        "Serum sodium 165 mmol/L",
+        "Serum potassium 3.9 mmol/L",
+        "Creatinine 200 µmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "A serum sodium of 165 mmol/L represents severe hypernatraemia, which can cause altered consciousness, seizures, and death. Uraemia and raised creatinine are concerning but less immediately life-threatening, while potassium is normal and anaemia is moderate.",
+      "difficulty": "medium"
+    }
+  ]
+}

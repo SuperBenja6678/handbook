@@ -1,0 +1,513 @@
+{
+  "topic": "Fibromyalgia",
+  "slug": "fibromyalgia",
+  "system": "Rheumatology & MSK",
+  "subSystem": "Chronic pain",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "4813b7404511",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents with a 6-month history of widespread musculoskeletal pain affecting all four limbs, her back, and neck. She reports poor sleep with frequent waking, fatigue, and difficulty concentrating. There is no joint swelling or morning stiffness >30 minutes. Examination reveals multiple tender points at specific sites including the occiput, trapezius, and medial fat pads of knees. Blood tests including FBC, ESR, CRP, thyroid function, and rheumatoid factor are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic fatigue syndrome",
+        "Hypothyroidism",
+        "Polymyalgia rheumatica",
+        "Fibromyalgia",
+        "Rheumatoid arthritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The widespread pain for >3 months, tender points, non-restorative sleep, and normal inflammatory markers are classic for fibromyalgia. Chronic fatigue syndrome lacks the prominent pain and tender points; polymyalgia rheumatica typically occurs in patients >50 years with elevated ESR/CRP; rheumatoid arthritis shows synovitis and positive autoantibodies; hypothyroidism is excluded by normal TSH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "55a8b683cccf",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old man presents with a 4-month history of diffuse myalgias and stiffness in the shoulders, hips, and back, worse in the morning but improving with activity. He has no joint swelling, and examination reveals tenderness over muscle bellies but no synovitis. He reports poor sleep and fatigue. Blood tests: ESR 12 mm/h, CRP 3 mg/L, normal creatine kinase, and negative rheumatoid factor. What is the single most likely diagnosis?",
+      "options": [
+        "Osteoarthritis",
+        "Major depressive disorder",
+        "Polymyalgia rheumatica",
+        "Ankylosing spondylitis",
+        "Fibromyalgia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Normal inflammatory markers and absence of synovitis or axial stiffness make polymyalgia rheumatica and ankylosing spondylitis unlikely. Osteoarthritis is joint-specific and not typically widespread. While depression can cause pain, the presence of tender points and non-restorative sleep strongly point to fibromyalgia, which can occur in men despite female predominance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7dadbf34390",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 26-year-old woman known to have fibromyalgia presents with acute worsening of chest wall pain over the past 2 days, described as sharp, exacerbated by movement and deep breathing. She has no fever, cough, or shortness of breath. There is tenderness over the costochondral junctions, and cardiac examination is normal. ECG shows no ischaemic changes. What is the single most likely diagnosis?",
+      "options": [
+        "Fibromyalgia flare (costochondritis)",
+        "Gastro-oesophageal reflux disease",
+        "Myocardial infarction",
+        "Herpes zoster",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a young woman with known fibromyalgia, acute costochondral pain with tenderness and no cardiac/respiratory signs is most likely a fibromyalgia flare manifesting as costochondritis. Myocardial infarction and pulmonary embolism are extremely unlikely given normal ECG, no risk factors, and absence of breathlessness. Herpes zoster would have vesicular rash; GORD is epigastric burning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59c330d499d0",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents with chronic widespread pain in the neck, shoulders, lower back, and knees for over a year. She reports morning stiffness lasting about 20 minutes, fatigue, and disturbed sleep. Examination reveals multiple tender points but no synovitis or joint deformity. Inflammatory markers (ESR, CRP) are normal. She has a history of hypothyroidism, well-controlled on levothyroxine. What is the single most likely diagnosis?",
+      "options": [
+        "Osteoarthritis",
+        "Fibromyalgia",
+        "Rheumatoid arthritis",
+        "Hypothyroidism (poorly controlled)",
+        "Polymyalgia rheumatica"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite her age, normal inflammatory markers and absence of synovitis rule out polymyalgia rheumatica and rheumatoid arthritis. Osteoarthritis would have joint-specific symptoms and tenderness, not widespread tender points. Hypothyroidism is controlled, so not the cause. Fibromyalgia can present in older adults and should be considered when red flags are absent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "553e5856be25",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man complains of widespread muscle pain, fatigue, and brain fog for 5 months. He has no joint swelling, and examination reveals tenderness at 11 of 18 tender points. He also reports frequent headaches and irritable bowel symptoms. Blood tests, including FBC, ESR, CRP, CK, and TSH, are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Systemic lupus erythematosus",
+        "Irritable bowel syndrome",
+        "Fibromyalgia",
+        "Tension-type headache",
+        "Chronic fatigue syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of multiple tender points and widespread pain fulfils fibromyalgia criteria. Chronic fatigue syndrome is a possible differential but usually lacks the specific tender points. Headaches and IBS are common comorbidities, not separate diagnoses. Systemic lupus erythematosus would have autoantibodies, organ involvement, and elevated inflammatory markers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f57399fa1e1",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman presents with widespread musculoskeletal pain for 6 months, fatigue, and non-restorative sleep. Examination reveals no synovitis or focal tenderness. What is the most appropriate initial step to confirm the diagnosis of fibromyalgia?",
+      "options": [
+        "Nerve conduction studies",
+        "Blood tests for inflammatory markers and autoantibodies",
+        "Referral for tender point count",
+        "MRI of the spine and peripheral joints",
+        "Diagnosis based on clinical criteria (NICE guidelines)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Fibromyalgia is a clinical diagnosis; NICE recommends making the diagnosis after excluding other causes, based on widespread pain for >3 months, fatigue, sleep disturbance, and other symptoms. Blood tests (option A) are used to exclude mimics but do not confirm fibromyalgia. Tender point count (option B) is outdated. MRI and nerve conduction studies are not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "56d6d6247bfd",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with chronic widespread pain also reports irritable bowel syndrome, fatigue, and cognitive fog. Which set of diagnostic criteria is most appropriate to apply in line with current UK practice?",
+      "options": [
+        "ACR 2010 preliminary criteria (WPI ≥7 and SS ≥5, or WPI 3–6 and SS ≥9)",
+        "SF-36 physical function score",
+        "Revised ACR 2016 criteria (WPI ≥7 and SS ≥5, symptoms present >3 months)",
+        "PainDETECT questionnaire",
+        "Fibromyalgia tender point count ≥11 of 18"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ACR 2016 criteria updated the 2010 criteria and require widespread pain index (WPI) ≥7 and symptom severity (SS) scale ≥5 (or WPI 4–6 and SS ≥9) with symptoms present for >3 months. Tender point count (C) is no longer recommended. The 2010 criteria (A) are similar but less specific; option B is the current standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "98cdbc284701",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with a known diagnosis of fibromyalgia presents with increasing fatigue and joint pain. Which finding would most suggest an alternative diagnosis requiring further investigation?",
+      "options": [
+        "Pain at multiple tender points",
+        "Fatigue not improved by sleep",
+        "Widespread pain index of 8",
+        "Normal inflammatory markers",
+        "Morning stiffness lasting >30 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "Morning stiffness >30 minutes is characteristic of inflammatory arthritis (e.g., rheumatoid arthritis) and should prompt further investigation. Tender points (B), normal inflammatory markers (C), fatigue (D), and a high WPI (E) are all typical of fibromyalgia and do not suggest an alternative diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ae22d520690",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with widespread body pain for 2 months, along with unintentional weight loss and night sweats. Which investigation is most important to exclude a serious underlying cause?",
+      "options": [
+        "MRI of whole spine",
+        "Tender point assessment",
+        "Antinuclear antibody and rheumatoid factor",
+        "Bone scan",
+        "Full blood count and inflammatory markers"
+      ],
+      "answerIndex": 4,
+      "explanation": "Weight loss and night sweats are red flags for malignancy or infection. A full blood count and inflammatory markers (ESR, CRP) are the most appropriate initial screening tests. MRI (A) and bone scan (D) would be considered only if focal signs or strong suspicion; ANA/RF (B) are for autoimmune conditions; tender point assessment (E) is for fibromyalgia but does not exclude serious disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "03f0936509bb",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old woman with long-standing fibromyalgia reports new onset of proximal muscle weakness and difficulty rising from a chair. Which investigation is most appropriate to differentiate from a concurrent myopathy?",
+      "options": [
+        "Muscle biopsy",
+        "Tender point examination",
+        "Electromyography (EMG)",
+        "Creatine kinase (CK)",
+        "Anti-Jo-1 antibody"
+      ],
+      "answerIndex": 3,
+      "explanation": "Proximal muscle weakness suggests polymyositis or other myopathy; the first-line test is serum creatine kinase (CK). Tender point examination (B) is for fibromyalgia and does not assess muscle strength. EMG (C) and muscle biopsy (D) are subsequent steps. Anti-Jo-1 (E) is specific for antisynthetase syndrome but not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5346d6ac24a3",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with widespread pain, fatigue, and sleep disturbance for 6 months. Examination reveals multiple tender points. Blood tests are normal. She is diagnosed with fibromyalgia and is keen to avoid medication if possible. What is the most appropriate first-line management?",
+      "options": [
+        "Graded exercise therapy",
+        "Pregabalin 75 mg bd",
+        "Amitriptyline 10 mg nocte",
+        "Cognitive behavioural therapy",
+        "Duloxetine 60 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends a tailored exercise programme as first-line non-pharmacological treatment for fibromyalgia. Cognitive behavioural therapy is also recommended but exercise is the primary initial intervention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8827b13f1a27",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 42-year-old woman with fibromyalgia has been taking amitriptyline 10 mg nocte for 8 weeks with no improvement. She developed intolerable dry mouth and constipation with duloxetine. What is the most appropriate next pharmacological option?",
+      "options": [
+        "Tramadol 50 mg prn",
+        "Acupuncture",
+        "Gabapentin 300 mg nocte",
+        "Fluoxetine 20 mg daily",
+        "Pregabalin 75 mg bd"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE advises considering pregabalin for fibromyalgia if amitriptyline and duloxetine are ineffective or not tolerated. Gabapentin is not licensed for fibromyalgia in the UK.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "865cdd1c37ad",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old woman with fibromyalgia is planning a pregnancy. She currently takes pregabalin 150 mg bd for pain. She asks which medication she should avoid. Which of the following is contraindicated in pregnancy?",
+      "options": [
+        "Paracetamol",
+        "Pregabalin",
+        "Ibuprofen",
+        "Duloxetine",
+        "Amitriptyline"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pregabalin is associated with major congenital malformations and should be avoided in pregnancy. The other options may be used with caution but are not absolutely contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "149ebbc81c78",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with fibromyalgia and moderate obstructive sleep apnoea (OSA) on CPAP therapy presents for management. He has not tried any medications. Which of the following is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Tramadol",
+        "Pregabalin",
+        "Duloxetine",
+        "Gabapentin",
+        "Amitriptyline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Amitriptyline can worsen OSA due to sedation and weight gain; duloxetine is less sedating and has a better safety profile in patients with OSA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d1454fa459cf",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with fibromyalgia has been well controlled on amitriptyline 10 mg nocte for 6 months. She has no side effects. What is the most appropriate ongoing management?",
+      "options": [
+        "Add pregabalin",
+        "Continue current dose indefinitely",
+        "Increase dose to 20 mg nocte",
+        "Refer to a pain clinic",
+        "Switch to duloxetine"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends continuing treatment if there is benefit, with regular review. There is no need to escalate or switch if well-controlled.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9f4f9747a837",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with a 6-month history of widespread pain, fatigue, and non-restorative sleep. Examination reveals tenderness at multiple points including the trapezius and gluteal regions. Her FBC, ESR, CRP, and thyroid function are normal. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to rheumatology for confirmation of diagnosis",
+        "Arrange MRI of the lumbar spine",
+        "Prescribe paracetamol 1 g four times daily",
+        "Start amitriptyline 10 mg at night",
+        "Explain the diagnosis of fibromyalgia and provide self-management advice"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend making a positive diagnosis of fibromyalgia based on symptoms and typical findings, without requiring specialist confirmation if presentations are typical. The immediate next step is to explain the diagnosis and provide advice on self-management, including exercise and sleep hygiene. Starting medication is not first-line without prior self-management advice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "98b425dec0a2",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with fibromyalgia diagnosed 6 months ago has persistent pain and fatigue despite regular exercise and sleep hygiene advice. He asks about medication. His PHQ-9 score is 6 (mild depression). What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to rheumatology for specialist management",
+        "Start ibuprofen 400 mg three times daily",
+        "Start a strong opioid such as morphine sulphate",
+        "Arrange a full set of inflammatory markers",
+        "Start amitriptyline 10 mg at night"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends considering pharmacological therapy if non-pharmacological measures are insufficient. Amitriptyline (or duloxetine or pregabalin) is first-line. Opioids and NSAIDs are not recommended. Referral is not required at this stage. Inflammatory markers are already normal at diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "57361c06457a",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with fibromyalgia presents to the Emergency Department with worsening widespread pain. She reports feeling hopeless and has thoughts of harming herself. She is tearful and withdrawn. What is the single most appropriate immediate next step?",
+      "options": [
+        "Increase her pregabalin dose from 150 mg to 300 mg daily",
+        "Arrange an MRI of the brain and spine",
+        "Prescribe a short course of diazepam for sedation",
+        "Request an urgent psychiatry opinion for suicide risk assessment",
+        "Admit her for inpatient pain management"
+      ],
+      "answerIndex": 3,
+      "explanation": "The presence of suicidal ideation is a medical emergency requiring immediate psychiatric assessment. Managing pain is secondary to safety. Opioids and benzodiazepines are not first-line and may worsen mood. Imaging is not indicated without focal neurological signs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "af18063d403b",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with fibromyalgia is 12 weeks pregnant. She reports increased pain and fatigue and asks about safe treatment options. She is currently using no medications. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer her to a pain clinic urgently",
+        "Start amitriptyline 10 mg at night",
+        "Advise paracetamol for pain and continue non-pharmacological therapies",
+        "Arrange an ultrasound of the abdomen to rule out other causes",
+        "Start duloxetine 30 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, non-pharmacological options are first-line. Paracetamol is considered safe for mild-to-moderate pain. Amitriptyline and duloxetine are generally avoided due to limited safety data. Referral to pain clinic is not immediately necessary. Imaging is not indicated without specific concerns.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0eb91fcf8074",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old man with fibromyalgia has been well-controlled on duloxetine 60 mg daily for two years. He now feels his symptoms are minimal and requests to stop the medication. What is the single most appropriate immediate next step?",
+      "options": [
+        "Increase duloxetine to 90 mg daily to consolidate improvement",
+        "Switch to amitriptyline 10 mg at night as a safer alternative",
+        "Refer to a pain clinic for withdrawal management",
+        "Advise gradual dose reduction by 30 mg every 1–2 weeks",
+        "Stop the duloxetine immediately as symptoms are minimal"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends gradual withdrawal of duloxetine to prevent discontinuation syndrome (nausea, dizziness, headache). Immediate cessation can cause withdrawal symptoms. Referral is not needed; dose tapering can be guided in primary care. Increasing dose or switching without indication is not appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8ee42880bc0e",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with widespread pain, fatigue, and unrefreshing sleep for several months. Examination reveals multiple tender points. What single feature would most strongly suggest an alternative diagnosis to fibromyalgia?",
+      "options": [
+        "Poor sleep quality",
+        "Tender points over the trapezius",
+        "Fatigue interfering with daily activities",
+        "Widespread pain in all four quadrants",
+        "Morning stiffness lasting longer than 1 hour"
+      ],
+      "answerIndex": 4,
+      "explanation": "Morning stiffness >1 hour is characteristic of inflammatory arthritis (e.g., rheumatoid arthritis) and is not typical of fibromyalgia. Tender points, fatigue, sleep disturbance, and widespread pain are core features of fibromyalgia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "48a382ea116b",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man with a known diagnosis of fibromyalgia reports a recent increase in pain and fatigue. His CRP and ESR are normal. Which new symptom should prompt urgent reconsideration of the diagnosis?",
+      "options": [
+        "Low vitamin D level",
+        "Worsening anxiety",
+        "Mild cervical lymphadenopathy",
+        "New-onset headache with visual disturbance",
+        "Abnormal thyroid function tests"
+      ],
+      "answerIndex": 3,
+      "explanation": "New-onset headache with visual disturbance raises concern for giant cell arteritis or intracranial pathology, which must be excluded urgently. Fatigue and anxiety are common in fibromyalgia, and low vitamin D or mild lymphadenopathy are less acute.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "140c5420a2de",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with fibromyalgia presents to the emergency department with acute severe widespread pain and muscle weakness. She has been taking over-the-counter ibuprofen. Which laboratory finding is most concerning for a life-threatening emergency?",
+      "options": [
+        "Positive antinuclear antibody (ANA) 1:80",
+        "C-reactive protein 15 mg/L",
+        "Serum potassium 3.4 mmol/L",
+        "Creatine kinase 4500 U/L",
+        "Serum ferritin 12 µg/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "A markedly elevated CK indicates rhabdomyolysis, which can lead to acute kidney injury and is a medical emergency. Mild hypokalaemia, low ferritin, low-titre ANA, and mild CRP elevation are less acute and can be seen in fibromyalgia or benign conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96e2f41d02f2",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with a 5-year history of fibromyalgia presents with a new-onset, unilateral, painful red eye. What specific condition must be considered as a possible mimic or complication?",
+      "options": [
+        "Migraine",
+        "Acute glaucoma",
+        "Conjunctivitis",
+        "Uveitis associated with ankylosing spondylitis",
+        "Scleritis associated with rheumatoid arthritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Acute anterior uveitis is strongly associated with HLA-B27-positive spondyloarthropathies, which can present with widespread pain and stiffness mimicking fibromyalgia. This requires urgent ophthalmology review. The other options are less specific to a systemic inflammatory condition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "50e1f87bf5f3",
+      "topic": "Fibromyalgia",
+      "slug": "fibromyalgia",
+      "system": "Rheumatology & MSK",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman with fibromyalgia reports severe fatigue and arthralgia. She also has heavy menstrual bleeding. Which single test result would most change the diagnosis away from fibromyalgia?",
+      "options": [
+        "Low ferritin (10 µg/L)",
+        "Low mean corpuscular volume (MCV 78 fL)",
+        "High thyroid-stimulating hormone (TSH 8 mU/L)",
+        "Low 25-hydroxyvitamin D (20 nmol/L)",
+        "Positive anti-cyclic citrullinated peptide (anti-CCP) antibody"
+      ],
+      "answerIndex": 4,
+      "explanation": "A positive anti-CCP is highly specific for rheumatoid arthritis, which can present with symmetrical polyarthralgia and fatigue, mimicking fibromyalgia. The other results are non-specific or related to iron deficiency or hypothyroidism, but do not redefine the primary diagnosis as anti-CCP does.",
+      "difficulty": "medium"
+    }
+  ]
+}

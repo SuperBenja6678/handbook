@@ -1,0 +1,513 @@
+{
+  "topic": "Sarcoidosis",
+  "slug": "sarcoidosis",
+  "system": "Respiratory",
+  "subSystem": "ILD",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:33:02Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "491636cab072",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old black woman presents with a 2-week history of cough, fever, and painful red nodules on her shins. She also complains of bilateral ankle pain. Chest X-ray shows bilateral hilar lymphadenopathy. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis",
+        "Fungal infection (histoplasmosis)",
+        "Lymphoma",
+        "Hypersensitivity pneumonitis",
+        "Tuberculosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of erythema nodosum, bilateral hilar lymphadenopathy, and arthralgia (Löfgren syndrome) is highly specific for sarcoidosis, particularly in young black women. Tuberculosis and lymphoma can cause hilar lymphadenopathy but typically lack the extra-thoracic features of erythema nodosum and acute arthritis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "728879dcfbcf",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old asymptomatic man undergoes a routine chest X-ray for insurance purposes. It shows bilateral hilar lymphadenopathy and multiple small nodules in both lung fields. He has no respiratory symptoms or signs. What is the single most likely diagnosis?",
+      "options": [
+        "Metastatic cancer",
+        "Lymphoma",
+        "Fungal infection (coccidioidomycosis)",
+        "Tuberculosis",
+        "Sarcoidosis (stage II)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Asymptomatic bilateral hilar lymphadenopathy with parenchymal nodules is classic stage II sarcoidosis. Tuberculosis and lymphoma usually cause symptoms; metastatic cancer often has a known primary and presents with a more random distribution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e446c0ff4a54",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with known pulmonary sarcoidosis (stage III) on long-term prednisolone 10 mg daily presents with acute onset of fever, dry cough, and severe dyspnoea. Oxygen saturation is 88% on air. Chest X-ray shows new bilateral interstitial infiltrates. Bronchoalveolar lavage is performed. What is the single most likely diagnosis?",
+      "options": [
+        "Hypersensitivity pneumonitis",
+        "Tuberculosis",
+        "Community-acquired pneumonia (bacterial)",
+        "Pneumocystis jirovecii pneumonia (PCP)",
+        "Sarcoidosis flare"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an immunocompromised patient on long-term steroids, acute bilateral interstitial infiltrates with hypoxia should raise suspicion for PCP. A sarcoidosis flare is less likely to be this acute and severe without a precipitant; bacterial pneumonia typically presents with lobar consolidation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c1f3a2dc47fb",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman with long-standing pulmonary sarcoidosis (stage IV) presents with haemoptysis. Chest X-ray shows a thick-walled cavity in the right upper lobe with an intracavitary mass. CT confirms a mycetoma. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis cavitation",
+        "Aspergilloma",
+        "Bronchogenic carcinoma",
+        "Tuberculosis",
+        "Lung abscess"
+      ],
+      "answerIndex": 1,
+      "explanation": "In fibrocavitary sarcoidosis, a mycetoma (aspergilloma) due to Aspergillus colonisation is a well-recognised complication. Lung abscess usually shows an air-fluid level and acute systemic symptoms; tuberculosis cavity is often associated with apical infiltrates and positive sputum. Sarcoidosis cavities are usually thin-walled and not typically with a fungus ball.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "39e89ff71f8b",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman with well-controlled rheumatoid arthritis on adalimumab (TNF-alpha inhibitor) presents with a 3-month history of dry cough and progressive dyspnoea. Chest X-ray shows bilateral hilar lymphadenopathy. CT demonstrates mediastinal lymphadenopathy. Transbronchial biopsy reveals non-caseating granulomas. What is the single most likely diagnosis?",
+      "options": [
+        "Lymphoma",
+        "Rheumatoid arthritis-related lung disease",
+        "Hypersensitivity pneumonitis",
+        "Drug-induced sarcoidosis (TNF inhibitor-associated)",
+        "Pulmonary tuberculosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "TNF-alpha inhibitors can induce a sarcoidosis-like reaction with identical histology and imaging. Tuberculosis must be excluded, but the presence of non-caseating granulomas and timing of drug use points to drug-induced sarcoidosis. Rheumatoid lung typically shows interstitial fibrosis or nodules, not isolated granulomatous inflammation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "47b43142b99f",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old Afro-Caribbean woman presents with a dry cough and bilateral hilar lymphadenopathy on chest X-ray. She has no skin lesions or eye symptoms. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Bronchoscopy with transbronchial lung biopsy",
+        "Serum angiotensin-converting enzyme (ACE)",
+        "Bronchoalveolar lavage (BAL) for CD4:CD8 ratio",
+        "Kveim test",
+        "CT thorax with contrast"
+      ],
+      "answerIndex": 0,
+      "explanation": "Without typical extrapulmonary features like erythema nodosum, tissue biopsy is needed to confirm sarcoidosis and exclude lymphoma or TB. Serum ACE is non-specific, BAL CD4:CD8 ratio supports but does not confirm, and Kveim test is obsolete. Transbronchial biopsy provides histological evidence of non-caseating granulomas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f24e5481bfb",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with bilateral hilar lymphadenopathy and anterior uveitis has a serum angiotensin-converting enzyme (ACE) level of 95 U/L (normal 20–70). What is the most appropriate interpretation of this result?",
+      "options": [
+        "Confirms the diagnosis of sarcoidosis",
+        "Indicates active pulmonary disease",
+        "Suggests a poor prognosis",
+        "Is non-specific and cannot confirm the diagnosis",
+        "Indicates extrapulmonary involvement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevated ACE is supportive but not diagnostic for sarcoidosis; it can occur in TB, lymphoma, and other granulomatous conditions. Diagnosis requires compatible clinical, radiological, and typically histological findings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ceba54fc509e",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman presents with bilateral hilar lymphadenopathy on chest X-ray and erythema nodosum on her shins. She has no respiratory symptoms. Which of the following is sufficient to confirm a diagnosis of sarcoidosis according to UK guidelines?",
+      "options": [
+        "CT thorax",
+        "Clinical presentation alone",
+        "Kveim test",
+        "Transbronchial lung biopsy",
+        "Serum ACE level"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the presence of typical clinical features (bilateral hilar lymphadenopathy and erythema nodosum), a diagnosis of sarcoidosis can be made without biopsy. Serum ACE, CT, and Kveim test are not required for confirmation in this classic presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a9a9aeaac108",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with interstitial lung disease undergoes bronchoscopy. Bronchoalveolar lavage (BAL) shows a lymphocyte percentage of 30% and a CD4:CD8 ratio of 4.0. What is the most appropriate interpretation of these findings?",
+      "options": [
+        "Indicates active tuberculosis",
+        "Suggests hypersensitivity pneumonitis",
+        "Rules out sarcoidosis",
+        "Is highly suggestive of sarcoidosis but not diagnostic",
+        "Confirms the diagnosis of sarcoidosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "A BAL CD4:CD8 ratio >3.5 is highly suggestive of sarcoidosis, but it is not diagnostic alone. Tissue biopsy remains the gold standard, especially to exclude other causes such as TB, lymphoma, or hypersensitivity pneumonitis, which typically have lower ratios.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a8bc16bb12a5",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with bilateral hilar lymphadenopathy and interstitial lung disease has a CT thorax showing perilymphatic nodules and upper lobe predominance. Bronchoscopy with biopsy was non-diagnostic. What is the most appropriate use of CT in this setting?",
+      "options": [
+        "Guides the location for repeat biopsy",
+        "Is unnecessary if chest X-ray is typical",
+        "Distinguishes sarcoidosis from tuberculosis",
+        "Can replace the need for tissue biopsy",
+        "Confirms the diagnosis of sarcoidosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "While CT thorax shows a characteristic pattern of sarcoidosis, it cannot replace histological confirmation. In a case where initial biopsy is non-diagnostic, the CT can identify specific areas (e.g., clustered nodules) to target for repeat biopsy to improve yield.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b71d622def49",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 34-year-old asymptomatic man is found to have bilateral hilar lymphadenopathy on a routine chest X-ray. Lung function tests are normal. He has no symptoms and no other organ involvement. What is the most appropriate management?",
+      "options": [
+        "Observation without pharmacological therapy",
+        "Inhaled budesonide 400 mcg twice daily",
+        "Methotrexate 15 mg weekly",
+        "Oral prednisolone 40 mg daily for 4 weeks then taper",
+        "Hydroxychloroquine 200 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In asymptomatic stage I pulmonary sarcoidosis, spontaneous remission is common, and treatment with corticosteroids does not alter long-term outcome. Observation alone is recommended per BTS guidelines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cf5290824961",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 42-year-old woman presents with a 2-month history of dry cough and exertional dyspnoea. Chest X-ray shows bilateral interstitial infiltrates and mediastinal lymphadenopathy (stage II). Lung function shows mild restriction. She has no contraindications to corticosteroids. What is the most appropriate first-line therapy?",
+      "options": [
+        "Oral prednisolone 0.5 mg/kg/day for 4 weeks then taper",
+        "Azathioprine 50 mg daily",
+        "Hydroxychloroquine 200 mg daily",
+        "Infliximab 5 mg/kg IV every 8 weeks",
+        "Methotrexate 15 mg weekly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Oral corticosteroids (e.g., prednisolone) are first-line for symptomatic pulmonary sarcoidosis. Methotrexate and others are reserved as steroid-sparing agents or second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d7a29ad7df1f",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known pulmonary sarcoidosis presents with acute severe dyspnoea, hypoxaemia (SpO2 88% on room air), and diffuse bilateral opacities on chest X-ray. He has no signs of infection. What is the most appropriate immediate therapy?",
+      "options": [
+        "Cyclophosphamide 15 mg/kg IV",
+        "Inhaled high-dose fluticasone",
+        "IV methylprednisolone 1 g daily for 3 days",
+        "BiPAP non-invasive ventilation alone",
+        "Oral prednisolone 60 mg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute severe pulmonary sarcoidosis, high-dose intravenous corticosteroids (e.g., methylprednisolone) are indicated to rapidly control inflammation. Oral prednisolone is too slow for this severity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "76bab706dcc6",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with pulmonary sarcoidosis presents with nausea, polyuria, and confusion. Serum corrected calcium is 3.2 mmol/L. PTH is suppressed. Management of hypercalcaemia is required. Which of the following is the most appropriate first-line treatment for the hypercalcaemia?",
+      "options": [
+        "IV normal saline alone",
+        "Cinacalcet 30 mg daily",
+        "Calcitonin 100 U IM",
+        "IV pamidronate 30 mg",
+        "Oral prednisolone 30 mg daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypercalcaemia in sarcoidosis is due to excess 1,25-dihydroxyvitamin D from granulomas. Corticosteroids reduce its production and are first-line. Bisphosphonates are second-line if corticosteroids fail or are contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5de0d9a7c4fe",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with chronic pulmonary sarcoidosis has been on prednisolone for 18 months but has developed significant weight gain, hypertension, and osteoporosis. You wish to introduce a steroid-sparing agent. Which of the following is the most appropriate first-line disease-modifying antirheumatic drug (DMARD) for pulmonary sarcoidosis?",
+      "options": [
+        "Azathioprine 50 mg daily",
+        "Hydroxychloroquine 200 mg twice daily",
+        "Infliximab 5 mg/kg IV every 8 weeks",
+        "Methotrexate 15 mg weekly",
+        "Mycophenolate mofetil 1 g twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Methotrexate is the first-line steroid-sparing agent for chronic pulmonary sarcoidosis due to its efficacy and safety profile. Azathioprine and mycophenolate are second-line; hydroxychloroquine is used primarily for cutaneous disease; infliximab is reserved for refractory disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ba644fb47fbb",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman presents with tender red nodules on her shins and a cough that has resolved. She is systemically well. Chest X-ray shows bilateral hilar lymphadenopathy. Serum ACE is elevated. What is the most appropriate next step?",
+      "options": [
+        "Arrange bronchoscopy with transbronchial biopsy",
+        "Start prednisolone 40 mg once daily",
+        "Reassure and arrange outpatient review in 6 months",
+        "Start methotrexate 7.5 mg once weekly",
+        "Request CT chest with contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is likely Löfgren's syndrome (erythema nodosum, bilateral hilar lymphadenopathy) which has a benign prognosis and often resolves spontaneously. Watchful waiting is appropriate; steroids are not indicated for asymptomatic patients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fb41a15fba4f",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known sarcoidosis (biopsy-proven) presents with progressive dyspnoea and dry cough over 4 weeks. He has no haemoptysis or fever. Chest X-ray shows bilateral interstitial infiltrates. Spirometry shows FVC 65% predicted, FEV1/FVC 0.85. Oxygen saturations are 96% on air. What is the most appropriate next step?",
+      "options": [
+        "Start prednisolone 40 mg once daily",
+        "Start methotrexate 15 mg once weekly",
+        "Refer for lung transplantation",
+        "Perform bronchoscopy with bronchoalveolar lavage",
+        "Start high-dose naproxen 500 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has symptomatic pulmonary sarcoidosis with restrictive physiology. First-line treatment is oral prednisolone 30-40 mg daily according to NICE guidelines. Methotrexate is a second-line steroid-sparing agent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "68b9bc93d6c9",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with chronic pulmonary sarcoidosis presents to the Emergency Department with acute-onset dyspnoea and hypoxia (SpO2 88% on room air). Chest X-ray shows new bilateral alveolar infiltrates. She is apyrexial and has no signs of infection. What is the most appropriate immediate next step?",
+      "options": [
+        "Request CT pulmonary angiogram to rule out pulmonary embolism",
+        "Start high-flow nasal oxygen",
+        "Commence intravenous cyclophosphamide",
+        "Administer intravenous methylprednisolone 1 g",
+        "Start oral prednisolone 40 mg once daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is an acute exacerbation of pulmonary sarcoidosis with hypoxia. Urgent high-dose intravenous methylprednisolone is indicated to reduce inflammation. Oral steroids or other immunosuppressants are not appropriate in the acute severe setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a0d40f762c6c",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 52-year-old man with a 10-year history of sarcoidosis presents with progressive breathlessness. He is a non-smoker. Chest X-ray shows upper lobe fibrosis and traction bronchiectasis. Spirometry shows severe obstruction (FEV1 40% predicted). His oxygen saturations are 91% on air. He is already on prednisolone 10 mg daily. What is the most appropriate next step?",
+      "options": [
+        "Refer for lung transplantation assessment",
+        "Increase prednisolone to 30 mg daily",
+        "Add methotrexate 15 mg once weekly",
+        "Start nintedanib 150 mg twice daily",
+        "Start long-term oxygen therapy (LTOT)"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has advanced fibrotic sarcoidosis with chronic hypoxaemia. LTOT is indicated for patients with resting PaO2 <7.3 kPa or SpO2 <92%. Further immunosuppression is unlikely to reverse fibrosis; nintedanib is not licensed for sarcoidosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1bcf48a6cf28",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 29-year-old pregnant woman (28 weeks gestation) with sarcoidosis has been on prednisolone 10 mg daily for 2 years. She is now asymptomatic and wants to stop steroids. Her examination and spirometry are normal. What is the most appropriate next step?",
+      "options": [
+        "Continue prednisolone 10 mg daily until after delivery",
+        "Refer to rheumatology for second opinion",
+        "Taper prednisolone slowly over 4–6 weeks",
+        "Stop prednisolone immediately",
+        "Switch to hydroxychloroquine 200 mg twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Abrupt cessation of chronic corticosteroids can cause adrenal insufficiency, especially in pregnancy. A slow taper is recommended. Pregnancy often improves sarcoidosis, so dose reduction is reasonable, but should be gradual.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dfd16eb15e65",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman of Afro-Caribbean ethnicity presents with a 1-week history of painful red nodules on her shins, bilateral ankle pain, and a dry cough. Chest X-ray shows bilateral hilar lymphadenopathy. She is otherwise well. Which single finding should prompt urgent cardiology referral?",
+      "options": [
+        "Bilateral hilar lymphadenopathy",
+        "Arthralgia",
+        "Intermittent palpitations",
+        "Erythema nodosum",
+        "Dry cough"
+      ],
+      "answerIndex": 2,
+      "explanation": "In acute sarcoidosis (Löfgren's syndrome), bilateral hilar lymphadenopathy, erythema nodosum, and arthralgia are typical and often self-limiting. However, cardiac involvement (manifesting as palpitations, syncope, or ECG abnormalities) is a rare but potentially fatal complication that requires urgent cardiology assessment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6df11d466a40",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 40-year-old woman with known pulmonary sarcoidosis not on treatment presents with a 2-day history of headache and unilateral facial weakness. She has no other focal neurology. Which single feature most strongly suggests neurosarcoid rather than Bell's palsy?",
+      "options": [
+        "Headache",
+        "Bilateral facial weakness",
+        "Fever",
+        "Unilateral facial weakness",
+        "Papilloedema"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unilateral facial weakness is typical of Bell's palsy, but neurosarcoidosis often causes bilateral facial nerve palsy. The presence of bilateral facial weakness in a patient with known sarcoidosis is highly suggestive of neurosarcoidosis and warrants urgent MRI brain and lumbar puncture.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34e8148415eb",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man presents with acute dyspnoea, cough, and fever. Chest X-ray shows bilateral hilar lymphadenopathy and bilateral interstitial infiltrates. Which diagnosis must be urgently excluded as a mimic of acute sarcoidosis?",
+      "options": [
+        "Diffuse alveolar haemorrhage",
+        "Hypersensitivity pneumonitis",
+        "Pulmonary embolism",
+        "Tuberculosis",
+        "Lymphoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tuberculosis can present with bilateral hilar lymphadenopathy and pulmonary infiltrates, mimicking sarcoidosis. Given its infectious nature and treatability, it is the most important to exclude, especially in acutely unwell patients. Lymphoma is also a mimic but less urgent to exclude.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7be59380c40b",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with a 10-year history of pulmonary sarcoidosis presents with progressive dyspnoea and a dry cough. High-resolution CT chest shows upper lobe-predominant reticular opacities and honeycombing. Which complication has he developed?",
+      "options": [
+        "Pulmonary hypertension",
+        "Pulmonary fibrosis",
+        "Pleural effusion",
+        "Bronchiectasis",
+        "Mycetoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "The CT findings of upper lobe reticular opacities and honeycombing are characteristic of pulmonary fibrosis, a late and serious complication of sarcoidosis that can lead to respiratory failure. Pulmonary hypertension can coexist but the imaging description is typical of fibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "38ac209d6452",
+      "topic": "Sarcoidosis",
+      "slug": "sarcoidosis",
+      "system": "Respiratory",
+      "subSystem": "ILD",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with stable pulmonary sarcoidosis is followed up in clinic. His spirometry shows FEV1 70% predicted, DLCO 65% predicted. He feels well. Which single finding would trigger immediate escalation to a specialist?",
+      "options": [
+        "Hypercalciuria",
+        "Decline in FEV1 by 5%",
+        "Development of lupus pernio",
+        "New exertional syncope",
+        "New uveitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In patients with sarcoidosis, new syncope or presyncope on exertion may indicate cardiac involvement (e.g., conduction abnormalities, arrhythmias) which is a medical emergency. While decline in PFTs, uveitis, and hypercalciuria are important, they do not require immediate same-day escalation compared to potential cardiac sarcoid.",
+      "difficulty": "hard"
+    }
+  ]
+}

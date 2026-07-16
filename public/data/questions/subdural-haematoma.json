@@ -1,0 +1,513 @@
+{
+  "topic": "Subdural Haematoma",
+  "slug": "subdural-haematoma",
+  "system": "Neurology",
+  "subSystem": "Trauma",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:07Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b85b7f602e30",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman on warfarin for atrial fibrillation presents with a one-week history of progressive confusion and headache. She had a minor fall four days ago but did not seek medical attention. On examination, she is alert but disoriented, with no focal neurological signs. GCS 15. What is the single most likely diagnosis?",
+      "options": [
+        "Subarachnoid haemorrhage",
+        "Chronic subdural haematoma",
+        "Meningitis",
+        "Extradural haematoma",
+        "Acute subdural haematoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subacute presentation over one week after minor trauma in an anticoagulated elderly patient is classic for chronic subdural haematoma. Acute SDH would present more rapidly with focal signs. Meningitis usually has fever and neck stiffness, and SAH presents with thunderclap headache.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "07df3410f13d",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man is brought to ED after a high-speed road traffic accident. GCS 12 (E3 V4 M5), with a right-sided hemiparesis. CT head shows a crescent-shaped hyperdense lesion over the left convexity crossing suture lines. What is the single most likely diagnosis?",
+      "options": [
+        "Extradural haematoma",
+        "Subdural haematoma",
+        "Subarachnoid haemorrhage",
+        "Cerebral contusion",
+        "Intracerebral haemorrhage"
+      ],
+      "answerIndex": 1,
+      "explanation": "The crescent-shaped hyperdensity crossing sutures is characteristic of acute subdural haematoma. Extradural haematomas are lens-shaped and do not cross sutures. The rapid onset after trauma with contralateral hemiparesis and drowsiness is typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ea0d6d20112",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman presents with a three-month history of unsteady gait, falls, and increasing forgetfulness. She lives alone and cannot recall any head injury. On examination, she has psychomotor slowing and a broad-based gait with difficulty turning. There are no focal motor signs. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic subdural haematoma",
+        "Normal pressure hydrocephalus",
+        "Parkinson's disease",
+        "Alzheimer's disease",
+        "Vitamin B12 deficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chronic subdural haematoma can present insidiously with gait disturbance and cognitive decline, often without clear trauma history in the elderly. Normal pressure hydrocephalus also presents with gait apraxia, incontinence, and dementia, but the absence of incontinence and the subtle headache history make SDH more likely; CT would show an extra-axial collection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5a4fbcccbf97",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old man on aspirin presents to the ED after a fall from a ladder 2 hours ago. He initially was confused but then became increasingly drowsy. On examination, GCS 11, right-sided hemiparesis, left pupil slightly dilated. CT head shows a hyperdense crescentic collection over the left hemisphere. What is the single most likely diagnosis?",
+      "options": [
+        "Subarachnoid haemorrhage",
+        "Extradural haematoma",
+        "Intracerebral haemorrhage",
+        "Cerebral contusion",
+        "Subdural haematoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The crescentic collection crossing sutures and the history of rapid neurological decline after trauma with ipsilateral pupil dilation (uncal herniation) are typical of acute subdural haematoma. Extradural haematoma is lens-shaped and often has a lucid interval.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9909b514881f",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with a ventriculoperitoneal shunt for normal pressure hydrocephalus presents with a two-week history of headache, blurred vision, and lethargy. Her family says she has been less interactive. She has not had any falls. On examination, GCS 15, no papilloedema, no focal signs. What is the single most likely diagnosis?",
+      "options": [
+        "Subdural empyema",
+        "Meningitis",
+        "Chronic subdural haematoma",
+        "Shunt malfunction",
+        "Shunt infection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Patients with VP shunts are at risk for chronic subdural haematoma due to brain sagging from CSF overdrainage, even without trauma. Shunt infection and meningitis would usually present with fever and meningism; shunt malfunction typically causes signs of hydrocephalus. Subdural empyema is an infection with fever and focal signs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "00a3b5f9864b",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "An 82-year-old woman on warfarin for atrial fibrillation presents with confusion and headache after a fall at home three days ago. She is drowsy with no focal neurological signs. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "CT head without contrast",
+        "MRI brain with contrast",
+        "CT venogram",
+        "Lumbar puncture",
+        "EEG"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT head is the first-line investigation for acute subdural haematoma; it is rapid and sensitive for acute blood. MRI would be used for chronic SDH or if CT is equivocal. Lumbar puncture is contraindicated if raised ICP is suspected. CT venogram is for venous sinus thrombosis. EEG is for seizures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2824b7d4e239",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with a gradual onset of headache, confusion, and mild left-sided weakness over two weeks. He had a fall three weeks ago. CT head shows a crescentic hypodense collection over the right convexity. What does this finding represent?",
+      "options": [
+        "Cerebral abscess",
+        "Extradural haematoma",
+        "Subarachnoid haemorrhage",
+        "Chronic subdural haematoma",
+        "Acute subdural haematoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "A crescentic hypodense collection on CT is characteristic of a chronic subdural haematoma. Acute SDH is hyperdense. Subarachnoid blood is in sulci and cisterns. Extradural haematoma is biconvex. Abscess would have surrounding oedema and ring enhancement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f956aa43d787",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 5-month-old infant is brought to the emergency department with vomiting, lethargy, and a bulging fontanelle. There is no history of trauma. Fundoscopy reveals bilateral retinal haemorrhages. Which investigation is most appropriate to confirm the diagnosis of subdural haematoma?",
+      "options": [
+        "CT head without contrast",
+        "Skeletal survey",
+        "Lumbar puncture",
+        "Ultrasound head via anterior fontanelle",
+        "MRI brain with diffusion-weighted imaging"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT head is the first-line investigation for suspected subdural haematoma in infants with suspected non-accidental injury; it is sensitive and accessible. Ultrasound can be used as a screening tool but CT is definitive. MRI is often performed later for prognosis. Skeletal survey identifies fractures but does not confirm SDH. Lumbar puncture is contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "27d0cd896de9",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with a known chronic subdural haematoma being managed conservatively develops sudden worsening of headache and new seizures. CT head shows a hyperdense area within the hypodense collection. What is the most likely interpretation?",
+      "options": [
+        "Infection of the subdural collection",
+        "Partial resolution of the haematoma",
+        "Development of a subdural empyema",
+        "Calcification of the chronic haematoma",
+        "Acute rebleeding into the chronic subdural haematoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "A hyperdense area within a hypodense chronic subdural haematoma indicates acute-on-chronic rebleeding. Infection would show rim enhancement and oedema. Calcification is very high density. Resolution would show further hypodensity. Empyema is a distinct entity with enhancing membranes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "94873257fa48",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with persistent headache and mild confusion for 10 days after a minor fall. He has no focal deficits and is haemodynamically stable. CT head shows a small isodense crescentic collection over the left hemisphere. Which investigation is most appropriate to further characterise the collection?",
+      "options": [
+        "CT angiography",
+        "MRI brain with contrast",
+        "Lumbar puncture",
+        "Repeat CT head in 24 hours",
+        "CT head with contrast"
+      ],
+      "answerIndex": 1,
+      "explanation": "An isodense subdural collection can be missed on CT; MRI with contrast is more sensitive for chronic subdural haematoma and can differentiate from other pathologies. CT with contrast may show membrane enhancement but MRI is superior. CTA is for vascular lesions. Repeat CT may show evolution but MRI is definitive. LP is contraindicated if mass effect suspected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "af34df9d4cce",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "An 80-year-old man presents with a 2-week history of headache, unsteady gait, and mild confusion. He has no focal neurological deficits. CT head reveals a 1.5 cm chronic subdural haematoma over the right frontoparietal region with 3 mm midline shift. He is not on anticoagulation. What is the most appropriate first-line treatment?",
+      "options": [
+        "Craniotomy and evacuation",
+        "Conservative management with close observation",
+        "Middle meningeal artery embolization",
+        "Burr hole drainage",
+        "Mannitol infusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has symptomatic chronic subdural haematoma with significant midline shift. Burr hole drainage is the standard first-line treatment. Conservative management is appropriate only for small asymptomatic haematomas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cdbc35a41a42",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 25-year-old man is brought to the emergency department after a road traffic collision. His GCS is 9 (E3, V2, M4) and his right pupil is sluggish. CT head shows an acute subdural haematoma over the left hemisphere with 10 mm midline shift. What is the most appropriate first-line treatment?",
+      "options": [
+        "CT monitoring for 24 hours",
+        "Burr hole drainage",
+        "Emergency craniotomy and evacuation",
+        "Intravenous mannitol",
+        "Hyperventilation to PaCO2 4 kPa"
+      ],
+      "answerIndex": 2,
+      "explanation": "For acute subdural haematoma with low GCS and significant mass effect, immediate surgical evacuation via craniotomy is required. Burr hole is insufficient for acute SDH. Mannitol and hyperventilation are temporising measures only.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eaca0eb98ade",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with a history of chronic subdural haematoma treated with burr hole drainage 3 weeks ago re-presents with worsening headache and confusion. CT shows a recurrent 2 cm chronic subdural haematoma with midline shift. She is not on anticoagulation. What is the most appropriate first-line treatment?",
+      "options": [
+        "Middle meningeal artery embolization",
+        "Conservative management with dexamethasone",
+        "Repeat burr hole drainage",
+        "Subdural-peritoneal shunt",
+        "Craniotomy and membranectomy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Recurrent chronic subdural haematoma is typically managed with repeat burr hole drainage. Craniotomy is reserved for refractory cases. Embolization remains experimental. Steroids are not recommended first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5569501bda41",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman on warfarin for atrial fibrillation presents after a fall with acute onset headache and vomiting. GCS is 13. CT head shows an acute subdural haematoma 8 mm thick with 5 mm midline shift. INR is 3.5. What is the most appropriate first-line treatment?",
+      "options": [
+        "Stop warfarin and wait for INR to normalize",
+        "Emergency burr hole drainage without reversal",
+        "Platelet transfusion",
+        "Prothrombin complex concentrate (PCC) and intravenous vitamin K",
+        "Fresh frozen plasma (FFP) and vitamin K"
+      ],
+      "answerIndex": 3,
+      "explanation": "For major haemorrhage on warfarin, prompt reversal with PCC and vitamin K is recommended (NICE). FFP is slower and less effective. Surgery may be needed but reversal should occur first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b9cb31a515bb",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 78-year-old man on clopidogrel for ischaemic stroke presents with mild headache for 1 week. Neurological examination is normal. CT head shows a 1 cm chronic subdural haematoma over the right convexity with no midline shift. GCS 15. What is the most appropriate first-line treatment?",
+      "options": [
+        "Stop clopidogrel and manage conservatively",
+        "Middle meningeal artery embolization",
+        "Burr hole drainage after stopping clopidogrel for 7 days",
+        "Urgent craniotomy with platelet transfusion",
+        "Continue clopidogrel and observe"
+      ],
+      "answerIndex": 0,
+      "explanation": "For small asymptomatic chronic subdural haematoma on antiplatelet therapy, conservative management with cessation of clopidogrel is appropriate. Surgery is not indicated due to lack of symptoms and minimal mass effect. Continuing clopidogrel may increase risk of expansion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "92d3fb3f0c91",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman on warfarin for atrial fibrillation presents after a fall. She has a mild headache, no focal neurology, GCS 15. CT head shows a small (<5 mm) acute subdural haematoma with no midline shift. What is the most appropriate next action?",
+      "options": [
+        "Admit for neurological observation",
+        "Repeat CT head in 24 hours",
+        "Discharge with head injury advice",
+        "Reverse warfarin with vitamin K and prothrombin complex concentrate",
+        "Contact neurosurgery for urgent burr hole drainage"
+      ],
+      "answerIndex": 3,
+      "explanation": "The smallest acute SDH in an anticoagulated patient carries high risk of expansion; immediate reversal of anticoagulation is the priority to prevent deterioration, outweighing observation or neurosurgical referral for a small haematoma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4f91592cdb4f",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man presents with a 3-week history of progressive headache and confusion. He has no trauma history. CT head shows a biconcave hypodense collection over the left convexity with minimal mass effect. What is the most appropriate next action?",
+      "options": [
+        "Lumbar puncture to measure opening pressure",
+        "Start dexamethasone for cerebral oedema",
+        "Conservative management with close observation",
+        "CT angiography to exclude dural fistula",
+        "Emergency burr hole drainage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chronic subdural haematoma without significant mass effect can be managed conservatively as many resolve spontaneously; surgical drainage is reserved for those with neurological deficit or significant midline shift.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ec9a1144b3f3",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man involved in a road traffic collision arrives in resus. GCS 13 (E3 V4 M6), right pupil is fixed and dilated. CT head shows a large acute left subdural haematoma with 15 mm midline shift. What is the most appropriate immediate next action?",
+      "options": [
+        "Contact neurosurgery for urgent transfer",
+        "Intubate and hyperventilate",
+        "Request CT angiography to rule out vascular injury",
+        "Administer IV mannitol 0.5 g/kg",
+        "Perform emergency burr hole at the bedside"
+      ],
+      "answerIndex": 3,
+      "explanation": "The fixed dilated pupil indicates uncal herniation; immediate administration of mannitol lowers intracranial pressure as a temporising measure while preparing for emergency surgical evacuation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df47589d6dd9",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with a known chronic subdural haematoma had burr hole drainage 5 days ago. He is now drowsier. CT head shows re-accumulation of the haematoma with 12 mm midline shift. What is the most appropriate next action?",
+      "options": [
+        "Insert a subdural-peritoneal shunt",
+        "Repeat burr hole drainage",
+        "Start oral dexamethasone",
+        "Perform a craniotomy",
+        "Repeat CT head in 48 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "Re-accumulation after burr hole drainage with significant mass effect warrants repeat drainage; craniotomy is reserved for recurrent or solid haematomas, and conservative measures are insufficient given the deterioration.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f5d6f66b919e",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known chronic subdural haematoma managed conservatively has a witnessed generalised tonic-clonic seizure lasting 2 minutes. What is the most appropriate immediate next action?",
+      "options": [
+        "Contact neurosurgery for emergency drainage",
+        "Start levetiracetam for secondary prevention",
+        "Administer intravenous lorazepam 4 mg",
+        "Request urgent CT head to assess haematoma progression",
+        "Check serum sodium to exclude hyponatraemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "An active seizure requires immediate termination with a benzodiazepine; while the seizure may be due to the SDH, treating the seizure takes precedence over further investigation or neurosurgical referral.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1ab2db404122",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man collapses at home. On arrival in ED, GCS is 10 (E3 V2 M5). His left pupil is 6 mm and unreactive; the right pupil is 2 mm and reactive. What single examination finding most strongly indicates the need for emergency neurosurgical decompression?",
+      "options": [
+        "Cushing's triad (bradycardia, hypertension, irregular breathing)",
+        "Decerebrate posturing",
+        "Bilateral extensor plantar responses",
+        "Left fixed dilated pupil",
+        "Right hemiparesis"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fixed and dilated ipsilateral pupil is the hallmark of uncal herniation from a rapidly expanding subdural haematoma and necessitates urgent decompression. Other signs such as Cushing's triad or decerebrate posturing are later features and less specific to the immediate need for surgery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bcf9b6a60c9f",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman on clopidogrel presents with progressive confusion over three weeks. She denies headache. GCS is 15. Which clinical finding would be the strongest indication for an urgent CT head to exclude chronic subdural haematoma?",
+      "options": [
+        "Normal GCS 15",
+        "Unsteady gait",
+        "Right arm drift on examination",
+        "Mild papilloedema",
+        "Morning headache"
+      ],
+      "answerIndex": 2,
+      "explanation": "A new focal neurological deficit, such as arm drift, suggests significant mass effect from a chronic subdural haematoma, even in the absence of headache or altered consciousness. Papilloedema is less common in elderly due to cerebral atrophy, and gait unsteadiness is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72c7ae237828",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with a known chronic subdural haematoma awaiting surgery experiences a generalised tonic-clonic seizure. After the seizure he remains drowsy (GCS 12) and does not improve with lorazepam. What clinical finding would indicate acute deterioration requiring immediate neurosurgical review?",
+      "options": [
+        "Pyrexia 38.2°C",
+        "Tachycardia 110 bpm",
+        "Contralateral hemiparesis",
+        "Ipsilateral dilated pupil",
+        "Bilateral upgoing plantar responses"
+      ],
+      "answerIndex": 3,
+      "explanation": "A new ipsilateral dilated pupil after a seizure suggests transtentorial herniation due to an acutely expanding subdural collection. Contralateral hemiparesis may be a postictal Todd's palsy, and bilateral upgoing plantars are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9220bed70068",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman on rivaroxaban trips and hits her head on a table. She had no loss of consciousness and GCS is 15. She vomited twice. Which single examination finding would be the most urgent indication for a CT head?",
+      "options": [
+        "Haemotympanum",
+        "Battle's sign",
+        "Pupillary asymmetry >1 mm",
+        "Positive Romberg sign",
+        "Periorbital ecchymosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pupillary asymmetry (even >1 mm) can signal early uncal herniation, especially in anticoagulated patients, and warrants immediate CT. Periorbital ecchymosis, Battle's sign, and haemotympanum indicate base of skull fracture but do not directly reflect intracranial pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f39edd14952b",
+      "topic": "Subdural Haematoma",
+      "slug": "subdural-haematoma",
+      "system": "Neurology",
+      "subSystem": "Trauma",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old man on warfarin for AF presents with acute confusion and right-sided weakness. His pulse is 50 bpm and blood pressure 200/100 mm Hg. What clinical finding most strongly suggests that his symptoms are due to a subdural haematoma rather than an ischaemic stroke?",
+      "options": [
+        "Hypertension",
+        "Pyrexia",
+        "Papilloedema",
+        "Right-sided weakness",
+        "Bradycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Bradycardia in the context of hypertension is the hallmark of Cushing's reflex, indicating raised intracranial pressure, which is more likely with a subdural haematoma. Hypertension alone can occur in stroke, but bradycardia is not typical.",
+      "difficulty": "hard"
+    }
+  ]
+}

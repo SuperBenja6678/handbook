@@ -1,0 +1,513 @@
+{
+  "topic": "Severe Hyperkalaemia",
+  "slug": "severe-hyperkalaemia",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "Electrolyte",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "c7bff8718b7f",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with type 2 diabetes, hypertension, and CKD stage 3 (eGFR 45) presents with oliguria and malaise. He takes lisinopril and metformin. ECG shows tall, peaked T waves. Potassium 7.2 mmol/L, creatinine 350 μmol/L (from baseline 120). What is the single most likely diagnosis?",
+      "options": [
+        "Acute kidney injury due to ACE inhibitor",
+        "Pseudohyperkalaemia",
+        "Adrenal insufficiency (Addisonian crisis)",
+        "Tumour lysis syndrome",
+        "Rhabdomyolysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute kidney injury is the most common cause of severe hyperkalaemia in this setting (oliguria, AKI on CKD, ACE inhibitor). The ECG changes confirm true hyperkalaemia, excluding pseudohyperkalaemia. Adrenal insufficiency is less likely without hypotension or hyponatraemia, and tumour lysis or rhabdomyolysis lack respective triggers or elevated CK/urate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dfdbc9c04949",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 38-year-old woman with type 1 diabetes and vitiligo presents with severe vomiting, hypotension (85/50 mmHg), and hyperpigmentation of skin creases. Sodium 125 mmol/L, potassium 6.7 mmol/L, glucose 6.0 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hyporeninaemic hypoaldosteronism",
+        "Secondary adrenal insufficiency",
+        "Pseudohyperkalaemia",
+        "Acute adrenal insufficiency (Addisonian crisis)"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of hyperpigmentation, hypotension, hyponatraemia, and hyperkalaemia is classic for primary adrenal insufficiency (Addisonian crisis). Secondary adrenal insufficiency causes hyponatraemia but not hyperkalaemia. Hyporeninaemic hypoaldosteronism (type 4 RTA) causes hyperkalaemia with normal sodium, not hyponatraemia. Pseudohyperkalaemia would not cause symptoms, and DKA would have hyperglycaemia and ketosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "78afe2735e60",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with newly diagnosed high-grade B-cell lymphoma develops oliguria and confusion 24 hours after starting R-CHOP chemotherapy. Potassium 6.8 mmol/L, phosphate 2.5 mmol/L (normal 0.8-1.5), urate 0.75 mmol/L (normal 0.12-0.48). What is the single most likely diagnosis?",
+      "options": [
+        "Tumour lysis syndrome",
+        "Rhabdomyolysis",
+        "Pseudohyperkalaemia",
+        "Acute kidney injury",
+        "Adrenal insufficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of hyperkalaemia, hyperphosphataemia, and hyperuricaemia shortly after chemotherapy for a high-grade lymphoma is pathognomonic for tumour lysis syndrome. While acute kidney injury can occur, the specific electrolyte abnormalities and timing point to TLS as the underlying diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "99578dde7e13",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 62-year-old man on simvastatin and gemfibrozil presents with severe myalgia, dark urine, and leg weakness. Potassium 6.5 mmol/L, creatinine 200 μmol/L, creatine kinase 45,000 U/L. What is the single most likely diagnosis?",
+      "options": [
+        "Rhabdomyolysis",
+        "Malignant hyperthermia",
+        "Hyperkalaemic periodic paralysis",
+        "Acute kidney injury",
+        "Neuroleptic malignant syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "The markedly elevated CK (>10,000) with myalgia, dark urine, and statin-fibrate combination is diagnostic of rhabdomyolysis. The hyperkalaemia is secondary. Malignant hyperthermia occurs perioperatively, neuroleptic malignant syndrome with antipsychotics, and hyperkalaemic periodic paralysis typically has normal CK and episodic weakness without muscle breakdown.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4d10f298c41",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman with essential thrombocythaemia (platelet count 1,200 x 10^9/L) is found to have potassium 6.8 mmol/L on routine bloods. She is asymptomatic, ECG normal, and repeat sample using a plasma separator tube shows potassium 4.2 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Rhabdomyolysis",
+        "Adrenal insufficiency",
+        "Chronic kidney disease",
+        "Pseudohyperkalaemia",
+        "Tumour lysis syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "The normal plasma potassium on a heparinised tube rules out true hyperkalaemia, confirming pseudohyperkalaemia due to release of potassium from platelets during clotting. The absence of symptoms, normal ECG, and association with thrombocytosis further support this.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14c5744b5ca4",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man with acute kidney injury (creatinine 400 μmol/L) is found to have a serum potassium of 6.9 mmol/L on routine bloods. He is asymptomatic with no ECG changes. What is the single most appropriate next investigation to confirm this result?",
+      "options": [
+        "Transtubular potassium gradient",
+        "Repeat serum potassium on a fresh sample",
+        "Venous blood gas for potassium",
+        "Urine potassium concentration",
+        "12-lead ECG"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an asymptomatic patient with no ECG changes, the most likely cause of an elevated potassium is pseudohyperkalaemia, often due to haemolysis during venepuncture. A repeat sample from a fresh venepuncture is the standard confirmatory test. A venous blood gas is useful for rapid results in emergencies but not as the first step for confirmation when there is no clinical urgency. ECG assesses cardiac effects but does not confirm the potassium level. Urine potassium and TTKG evaluate renal handling, not confirm serum level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd9230612646",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with chronic kidney disease (eGFR 20 mL/min) on lisinopril and spironolactone presents with diarrhoea for 3 days. She is weak and ECG shows tall, peaked T waves. Which investigation is most appropriate to rapidly confirm the diagnosis of severe hyperkalaemia?",
+      "options": [
+        "Serum potassium from a peripheral venepuncture",
+        "Urine potassium",
+        "Arterial blood gas for potassium",
+        "Venous blood gas for potassium",
+        "12-lead ECG"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an emergency with ECG changes suggestive of hyperkalaemia, the fastest way to confirm the serum potassium level is a point-of-care venous blood gas. Peripheral venepuncture takes longer due to laboratory processing. Arterial blood gas is more invasive and unnecessary. ECG is already done and shows changes but does not quantify potassium. Urine potassium is not urgent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "34dcbbaf51ca",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with no known renal disease has a routine blood test showing a serum potassium of 6.2 mmol/L. He is asymptomatic with a normal ECG. What is the most appropriate interpretation of this result?",
+      "options": [
+        "Normal potassium level",
+        "Mild hyperkalaemia",
+        "Severe hyperkalaemia",
+        "Moderate hyperkalaemia",
+        "Likely pseudohyperkalaemia"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to UK guidelines, serum potassium 6.0–6.4 mmol/L is classified as moderate hyperkalaemia. Severe hyperkalaemia is >6.5 mmol/L. Mild hyperkalaemia is 5.5–5.9 mmol/L. Pseudohyperkalaemia is possible but not the most appropriate interpretation without specific risk factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c994a92f30ef",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old woman with acute kidney injury has an initial serum potassium of 6.8 mmol/L. A repeat sample from the same arm using a fresh venepuncture shows a potassium of 4.8 mmol/L. What is the most likely explanation for the initial result?",
+      "options": [
+        "Pseudohyperkalaemia due to leukocytosis",
+        "Laboratory error",
+        "Pseudohyperkalaemia due to thrombocytosis",
+        "True hyperkalaemia due to AKI",
+        "Pseudohyperkalaemia due to haemolysis"
+      ],
+      "answerIndex": 4,
+      "explanation": "A dramatic drop to normal on repeat suggests the initial value was falsely elevated, most commonly due to haemolysis during venepuncture. Thrombocytosis and leukocytosis can cause pseudohyperkalaemia, but haemolysis is more common and the scenario does not mention haematological abnormalities. True hyperkalaemia would not normalise without treatment. Laboratory error is less likely than haemolysis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5fd1340d2bf0",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with end-stage renal disease collapses in the dialysis unit. ECG shows a sine wave pattern. Which of the following best describes the significance of this ECG finding?",
+      "options": [
+        "It indicates mild hyperkalaemia",
+        "It indicates hypokalaemia",
+        "It is a sign of moderate hyperkalaemia",
+        "It suggests pseudohyperkalaemia",
+        "It is pathognomonic for severe hyperkalaemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "A sine wave pattern (ventricular flutter) on ECG is a classic and specific finding in severe hyperkalaemia, typically with potassium >6.5–7.0 mmol/L. Tall peaked T waves occur earlier at lower levels. Other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35c28cfca3bc",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with known CKD stage 4 presents with nausea and palpitations. ECG shows tented T waves and absent P waves. His serum potassium is 7.4 mmol/L. What is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous salbutamol",
+        "Intravenous calcium gluconate",
+        "Intravenous insulin and 50% glucose",
+        "Oral calcium resonium",
+        "Haemodialysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "ECG changes (tented T waves, absent P) indicate life-threatening hyperkalaemia requiring immediate myocardial membrane stabilisation. Intravenous calcium gluconate is the first-line treatment to protect the heart, while other options act more slowly or only shift potassium without stabilising the membrane.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "16f1a507974c",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with CKD stage 3b (eGFR 35 mL/min) has a serum potassium of 6.3 mmol/L on routine bloods. She is asymptomatic and ECG shows no acute changes. Which is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous calcium gluconate",
+        "Haemodialysis",
+        "Intravenous insulin and 50% glucose",
+        "Oral calcium resonium",
+        "Intravenous salbutamol"
+      ],
+      "answerIndex": 2,
+      "explanation": "For hyperkalaemia >6.0 mmol/L without ECG changes, intravenous insulin and glucose is the first-line agent to shift potassium intracellularly. Calcium gluconate is reserved for ECG changes, and calcium resonium is a slower-acting removal option not appropriate for acute management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f09dde138015",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 72-year-old man with atrial fibrillation on digoxin presents with nausea, vomiting, and generalised weakness. His serum potassium is 6.8 mmol/L, and ECG shows ST segment depression and tented T waves. Which treatment is contraindicated?",
+      "options": [
+        "Oral calcium resonium",
+        "Intravenous salbutamol",
+        "Haemodialysis",
+        "Intravenous calcium gluconate",
+        "Intravenous insulin and 50% glucose"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the presence of digoxin toxicity, intravenous calcium can worsen digoxin-induced arrhythmias and is therefore contraindicated. Insulin and glucose, salbutamol, calcium resonium, and dialysis are safe alternatives.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ccded70ae92a",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with CKD stage 4 (eGFR 30 mL/min) on lisinopril and spironolactone has recurrent serum potassium levels of 5.6–5.9 mmol/L despite dietary advice. He is not on dialysis. What is the most appropriate first-line long-term treatment to prevent recurrence?",
+      "options": [
+        "Patiromer",
+        "Sodium bicarbonate tablets",
+        "Calcium resonium",
+        "Low potassium diet only",
+        "Furosemide"
+      ],
+      "answerIndex": 0,
+      "explanation": "Patiromer is a potassium binder recommended by NICE for chronic hyperkalaemia in CKD patients on RAAS inhibitors. Sodium bicarbonate is not first-line for hyperkalaemia prevention, furosemide may cause volume depletion, calcium resonium is less effective and poorly tolerated, and dietary advice alone has failed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1907b4c284db",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old woman with heart failure and NYHA class III symptoms on spironolactone 25 mg daily presents with acute onset of weakness and palpitations. Her serum potassium is 7.1 mmol/L and ECG shows broad QRS complexes. Which medication should be immediately withheld?",
+      "options": [
+        "Digoxin",
+        "Furosemide",
+        "Spironolactone",
+        "Lisinopril",
+        "Bisoprolol"
+      ],
+      "answerIndex": 2,
+      "explanation": "Spironolactone is a potassium-sparing diuretic and can cause or worsen hyperkalaemia. In severe hyperkalaemia, it should be stopped immediately. Furosemide, bisoprolol, digoxin, and lisinopril may need adjustment but are not directly causing the acute rise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9d6dbf3f3b58",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with acute kidney injury secondary to sepsis is found to have a potassium of 7.1 mmol/L. His ECG shows a broad QRS complex with sine wave pattern. He is conscious and has a palpable pulse. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous insulin and 50% dextrose",
+        "Administer nebulised salbutamol 5 mg",
+        "Commence haemodialysis",
+        "Perform a repeat venous blood gas to confirm potassium level",
+        "Administer intravenous calcium gluconate 10 mL of 10%"
+      ],
+      "answerIndex": 4,
+      "explanation": "The sine wave pattern indicates life-threatening hyperkalaemia requiring immediate cardiac stabilisation with intravenous calcium gluconate. Dialysis or other potassium-lowering measures should follow, but calcium is first to protect the myocardium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9e0534d9ebd2",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with stage 5 chronic kidney disease (not on dialysis) has a routine blood test revealing potassium 6.7 mmol/L. He is asymptomatic and his ECG shows no acute changes. What is the most appropriate immediate next action?",
+      "options": [
+        "Give intravenous insulin 10 units with 50 mL of 50% dextrose",
+        "Arrange urgent haemodialysis",
+        "Start oral calcium resonium 15 g four times daily",
+        "Administer intravenous calcium gluconate 10 mL of 10%",
+        "Repeat the potassium level in 6 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "For potassium >6.5 mmol/L without ECG changes, NICE recommends intravenous insulin and dextrose to shift potassium intracellularly. Calcium resonium is a binder but takes longer to act, and dialysis is not immediate first-line in a non-dialysis patient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3dcfcea1411",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with heart failure on spironolactone and lisinopril presents with potassium 6.5 mmol/L. Her ECG shows peaked T waves but no other abnormalities. She feels tired but is otherwise stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous insulin and dextrose",
+        "Give furosemide 40 mg intravenously",
+        "Perform a 12-lead ECG to confirm changes",
+        "Stop spironolactone and lisinopril",
+        "Administer intravenous calcium gluconate 10 mL of 10%"
+      ],
+      "answerIndex": 4,
+      "explanation": "Any ECG changes attributable to hyperkalaemia (including peaked T waves) warrant immediate intravenous calcium to protect the heart. Stopping medications or giving other treatments should follow after cardiac stabilisation. The ECG has already been performed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fe67f23cb095",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with diabetic ketoacidosis (pH 7.1, glucose 28 mmol/L) has a potassium of 6.8 mmol/L. His ECG is normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Give intravenous insulin and 50% dextrose",
+        "Commence haemodialysis",
+        "Prescribe oral calcium resonium 15 g",
+        "Start intravenous 0.9% sodium chloride and fixed-rate insulin infusion",
+        "Administer intravenous calcium gluconate 10 mL of 10%"
+      ],
+      "answerIndex": 3,
+      "explanation": "In DKA, hyperkalaemia is typically due to acidosis and will correct with fluid resuscitation and insulin therapy. ECG is normal so calcium is not needed. Starting the DKA protocol (fluids and insulin) is the priority; this will lower potassium.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a07280336ea7",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with chronic kidney disease (eGFR 25 mL/min) has a serum potassium reported as 6.2 mmol/L from a morning blood sample. She is asymptomatic and has never had hyperkalaemia before. She is not on any potassium-affecting medications. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a 12-lead ECG",
+        "Call the renal team for urgent dialysis",
+        "Repeat the potassium level urgently",
+        "Administer intravenous calcium gluconate 10 mL of 10%",
+        "Start oral calcium resonium 15 g three times daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first action in any hyperkalaemia is to perform a 12-lead ECG to assess for cardiac changes. Even at 6.2 mmol/L, ECG changes can occur. Treatment decisions depend on ECG findings. Repeating the potassium may be considered but does not take priority over the ECG.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e2610389567c",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with chronic kidney disease stage 4 presents to the emergency department with fatigue and palpitations. Blood tests show potassium 6.8 mmol/L. An ECG is performed. Which single ECG finding indicates that this hyperkalaemia is immediately life-threatening and requires emergency treatment?",
+      "options": [
+        "Peaked T waves",
+        "Prolonged PR interval",
+        "Prominent U waves",
+        "ST segment depression",
+        "Broad QRS complex"
+      ],
+      "answerIndex": 4,
+      "explanation": "While peaked T waves and prolonged PR interval are early signs, a broad QRS complex indicates severe hyperkalaemia with risk of cardiac arrest, making it the most dangerous ECG finding. Prominent U waves are not typical of hyperkalaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0463e3402ddc",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman with heart failure on lisinopril and spironolactone is found to have a potassium level of 6.2 mmol/L on routine bloods. She is asymptomatic with a normal ECG. According to UK escalation guidelines, which potassium threshold would mandate immediate treatment and specialist referral?",
+      "options": [
+        ">6.5 mmol/L",
+        ">7.0 mmol/L",
+        ">6.0 mmol/L",
+        ">7.5 mmol/L",
+        ">5.5 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "UK guidelines (e.g., NICE, Renal Association) define severe hyperkalaemia as >6.5 mmol/L, requiring urgent intervention. While 6.2 mmol/L needs attention, it is not immediately life-threatening if ECG normal; >6.5 is the escalation threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ecfaa2e08a4",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with a history of hypertension on amlodipine presents with a routine blood test showing potassium 7.0 mmol/L. He is completely well, with a normal ECG and no renal impairment. What finding most strongly suggests his hyperkalaemia is due to a spurious elevation (pseudohyperkalaemia)?",
+      "options": [
+        "Elevated haemoglobin",
+        "Recent blood transfusion",
+        "Lack of ECG changes",
+        "Normal renal function",
+        "Use of a tourniquet during venepuncture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pseudohyperkalaemia typically presents with a high serum potassium but a completely normal ECG and no symptoms, because the measured potassium does not reflect the true extracellular concentration. Normal renal function and lack of ECG changes are key clues.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d3af644a0959",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 58-year-old woman with chronic kidney disease stage 5 on haemodialysis collapses in the dialysis unit. Cardiac monitoring reveals a ventricular rhythm without distinct QRS complexes, with a sine wave appearance. Which life-threatening complication of hyperkalaemia is this patient most likely experiencing?",
+      "options": [
+        "Sinusoidal waveform",
+        "Pulseless electrical activity",
+        "Torsades de pointes",
+        "Asystole",
+        "Ventricular fibrillation"
+      ],
+      "answerIndex": 0,
+      "explanation": "A sinusoidal or sine wave pattern is a pre-arrest rhythm characteristic of severe hyperkalaemia, often progressing to asystole. While ventricular fibrillation and torsades can occur, the sine wave is pathognomonic for hyperkalaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "71e1cdd405ee",
+      "topic": "Severe Hyperkalaemia",
+      "slug": "severe-hyperkalaemia",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "Electrolyte",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man on digoxin and furosemide for heart failure presents with vomiting and confusion. Blood tests show potassium 6.8 mmol/L and digoxin level 3.0 ng/mL (therapeutic 0.5-2.0). Which associated diagnosis must be immediately considered and excluded given the combination of hyperkalaemia and digoxin use?",
+      "options": [
+        "Digoxin toxicity",
+        "Hyperosmolar hyperglycaemic state",
+        "Rhabdomyolysis",
+        "Acute kidney injury",
+        "Adrenal insufficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "Digoxin toxicity can both cause and be worsened by hyperkalaemia; hyperkalaemia potentiates digoxin's arrhythmic effects. Given the elevated digoxin level and typical symptoms, digoxin toxicity is the most immediate diagnosis to address.",
+      "difficulty": "hard"
+    }
+  ]
+}

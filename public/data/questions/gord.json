@@ -1,0 +1,513 @@
+{
+  "topic": "GORD",
+  "slug": "gord",
+  "system": "Gastroenterology",
+  "subSystem": "Upper GI",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:16:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "e9d561ee55d6",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents with retrosternal burning pain after meals, especially when lying down. He reports relief with over-the-counter antacids. He has no dysphagia or weight loss. What is the single most likely diagnosis?",
+      "options": [
+        "Functional dyspepsia",
+        "Biliary colic",
+        "Peptic ulcer disease",
+        "Gastro-oesophageal reflux disease",
+        "Gastritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Classic reflux symptoms (retrosternal burning, postural exacerbation, antacid relief) are characteristic of GORD. Peptic ulcer typically causes epigastric pain related to meals but less postural; functional dyspepsia lacks the clear postural and antacid relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "901e6305cc55",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with a chronic dry cough and hoarse voice for 6 months. She denies heartburn or regurgitation. She is a non-smoker and has no nasal symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Gastro-oesophageal reflux disease",
+        "Chronic obstructive pulmonary disease",
+        "Chronic bronchitis",
+        "Post-nasal drip syndrome",
+        "Asthma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Extra-oesophageal (laryngopharyngeal) reflux can present with chronic cough and hoarseness without typical heartburn. Absence of wheeze, smoking history, and nasal symptoms makes asthma, COPD, and post-nasal drip less likely.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eaf703c27105",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman at 24 weeks’ gestation presents with frequent heartburn and regurgitation, especially after large meals. She has no vomiting or weight loss. What is the single most likely diagnosis?",
+      "options": [
+        "Gallbladder disease",
+        "Gastro-oesophageal reflux disease",
+        "Hyperemesis gravidarum",
+        "Peptic ulcer disease",
+        "Gastritis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pregnancy commonly exacerbates GORD due to hormonal relaxation of the lower oesophageal sphincter and increased intra-abdominal pressure. Hyperemesis involves vomiting, not primarily heartburn; peptic ulcer is less common in pregnancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "404f8893bd16",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man presents with substernal chest pain that occurs after meals and improves with sitting upright. ECG and troponin are normal. He has no exertional symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Angina pectoris",
+        "Oesophageal spasm",
+        "Myocardial infarction",
+        "Musculoskeletal chest pain",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "Postprandial chest pain that is positional (worse supine) and normal cardiac workup suggests GORD. Oesophageal spasm can mimic but is often not postprandial; angina is exertional; MI would have abnormal biomarkers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "499ae45e8cc5",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man is noted to have significant dental enamel erosion on routine examination. He does not complain of heartburn but sometimes experiences a sour taste in his mouth. He has no history of vomiting, acid reflux, or excessive dietary citrus. What is the single most likely diagnosis?",
+      "options": [
+        "Gastro-oesophageal reflux disease",
+        "Periodontal disease",
+        "Bulimia nervosa",
+        "Excessive citrus intake",
+        "Gastric paresis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dental erosions, especially with a sour taste, are a classic sign of 'silent' GORD where typical heartburn is absent. Bulimia would involve self-induced vomiting, which the patient denies; excessive citrus and periodontal disease are less likely without other evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "339ffb4785bd",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man presents with dysphagia, weight loss of 6 kg over 3 months, and occasional heartburn. He has no haematemesis. What is the most appropriate initial investigation to establish a diagnosis?",
+      "options": [
+        "24-hour pH monitoring",
+        "CT abdomen",
+        "Oesophageal manometry",
+        "Upper GI endoscopy (OGD)",
+        "Barium swallow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Presence of alarm features (dysphagia and weight loss) mandates urgent upper GI endoscopy to exclude oesophageal malignancy. Barium swallow is less sensitive for mucosal lesions, and pH/manometry are not first-line with alarm features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a963ebda9697",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman has retrosternal burning after meals for 6 weeks, relieved by over-the-counter antacids. She has no dysphagia, weight loss, or anaemia. What is the most appropriate diagnostic test to confirm GORD?",
+      "options": [
+        "24-hour pH monitoring",
+        "Upper GI endoscopy",
+        "No investigation required",
+        "Trial of PPI for 4 weeks",
+        "Barium swallow"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend a trial of PPI (e.g., omeprazole 20 mg once daily) for 4 weeks as a diagnostic test in patients with typical symptoms and no alarm features. Endoscopy and pH monitoring are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b4b3ceaf9aa0",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 48-year-old woman with known GORD complains of persistent heartburn despite daily omeprazole 20 mg. Previous upper GI endoscopy was normal. Which investigation is most appropriate next to confirm ongoing reflux?",
+      "options": [
+        "24-hour pH monitoring while off PPI",
+        "Repeat upper GI endoscopy",
+        "24-hour pH monitoring while on PPI",
+        "Barium swallow",
+        "Oesophageal manometry"
+      ],
+      "answerIndex": 0,
+      "explanation": "When symptoms persist despite PPI and endoscopy is negative, 24-hour pH monitoring off PPI is the gold standard to confirm GORD. Monitoring on PPI assesses adequacy of acid suppression, but off therapy diagnoses pathological reflux.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2927991cd0f5",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man with a 10-year history of GORD presents for surveillance. He is asymptomatic but was previously found to have Barrett's oesophagus. Which investigation is most appropriate to assess for progression?",
+      "options": [
+        "Barium swallow",
+        "Upper GI endoscopy with biopsies",
+        "Oesophageal manometry",
+        "24-hour pH monitoring",
+        "CT chest and abdomen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Surveillance for Barrett's oesophagus requires upper GI endoscopy with quadrantic biopsies every 2 cm to detect dysplasia or carcinoma. Imaging and pH/manometry are not used for surveillance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0244e9f2fcc6",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man has recurrent episodes of retrosternal burning and regurgitation, but also reports a chronic cough. Cardiac workup (ECG, troponin) is normal. Which investigation best confirms GORD as the cause of his symptoms?",
+      "options": [
+        "Upper GI endoscopy",
+        "Barium swallow",
+        "Oesophageal manometry",
+        "Trial of PPI for 4 weeks",
+        "24-hour pH monitoring"
+      ],
+      "answerIndex": 4,
+      "explanation": "In atypical extra-oesophageal manifestations (e.g., cough), 24-hour pH monitoring is the most objective test to correlate reflux with symptoms. Endoscopy may be normal, and a trial of PPI is less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5e388cdfe381",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman presents with heartburn and regurgitation 3–4 times per week for 2 months. She has no alarm features (dysphagia, weight loss, anaemia). Endoscopy is not performed. What is the most appropriate first-line pharmacological treatment?",
+      "options": [
+        "Prokinetic (e.g., metoclopramide 10 mg three times daily)",
+        "Lifestyle modification alone",
+        "Full-dose PPI (e.g., omeprazole 20 mg once daily) for 8 weeks",
+        "H2RA (e.g., ranitidine 150 mg twice daily) for 4 weeks",
+        "Alginate (e.g., compound alginate suspension 10 mL after meals)"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE recommends a full-dose PPI for 8 weeks as first-line treatment for typical GORD symptoms without alarm features, as it provides the best symptom relief and healing. Antacids/alginate are options for infrequent symptoms, but for frequent symptoms a PPI is preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a87c9064c7b7",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man with long-standing GORD presents with progressive dysphagia to solids. Endoscopy reveals a benign oesophageal stricture. Which intervention is the most appropriate first step in management?",
+      "options": [
+        "High-dose PPI (e.g., omeprazole 40 mg twice daily)",
+        "Bougie dilation over a guidewire",
+        "Nissen fundoplication",
+        "Endoscopic dilation with a balloon dilator",
+        "Insertion of a self-expanding metal stent"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a benign oesophageal stricture causing dysphagia, immediate relief is achieved by endoscopic dilation (balloon or bougie). PPI therapy is essential to prevent recurrence but does not relieve acute obstruction. Dilation is the first step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2950227db3bd",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (16 weeks gestation) complains of heartburn after meals and nocturnal regurgitation. She has no dysphagia or weight loss. She has tried lifestyle changes (avoiding large meals, elevating head of bed) with limited relief. What is the most appropriate first-line pharmacological therapy?",
+      "options": [
+        "Oral ranitidine 150 mg twice daily",
+        "Metoclopramide 10 mg three times daily",
+        "Compound alginate suspension (e.g., Gavison) 10 mL after meals and at bedtime",
+        "Domperidone 10 mg three times daily",
+        "Oral omeprazole 20 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, first-line pharmacological therapy for GORD is an alginate/antacid (e.g., Gavison) as it is non-systemic and safe. PPIs and H2RAs are second-line if symptoms are severe, but the question asks for first-line treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3049c205d36e",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with GORD successfully completed an 8-week course of omeprazole 20 mg once daily and his symptoms have resolved. He asks about long-term management. What is the recommended next step?",
+      "options": [
+        "Discontinue all medication and monitor symptoms",
+        "Refer for laparoscopic Nissen fundoplication",
+        "Continue omeprazole 20 mg once daily indefinitely",
+        "Switch to on-demand PPI (e.g., omeprazole 20 mg as needed)",
+        "Switch to ranitidine 150 mg twice daily maintenance"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE advises stepping down to the lowest effective dose after initial 8-week PPI; on-demand PPI is effective for many patients and reduces long-term exposure. Continuous daily therapy is not necessary if symptoms are controlled.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20544c78e174",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 62-year-old woman with known GORD presents with acute-onset haematemesis and melaena. After resuscitation, upper GI endoscopy shows a bleeding oesophageal ulcer with a clean base (Forrest IIc). What is the single most appropriate definitive therapy to prevent rebleeding?",
+      "options": [
+        "High-dose IV PPI (e.g., omeprazole 80 mg bolus then 8 mg/hour for 72 hours)",
+        "Transfusion of fresh frozen plasma",
+        "Adrenaline injection therapy",
+        "Argon plasma coagulation",
+        "Oral omeprazole 40 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For a bleeding peptic ulcer with a clean base, high-dose IV PPI reduces risk of rebleeding by raising intragastric pH and stabilising clot. Endoscopic therapy is not indicated for Forrest IIc lesions (clean base). Oral PPI is insufficient for acute haemostasis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "476ebc4b2e0f",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with heartburn and regurgitation for 4 weeks. She has no alarm features (dysphagia, odynophagia, weight loss, haematemesis, iron deficiency anaemia). She has tried over-the-counter antacids with minimal relief. What is the most appropriate next step in management?",
+      "options": [
+        "Prescribe ranitidine 150 mg twice daily",
+        "Advise lifestyle modifications alone and review in 4 weeks",
+        "Start omeprazole 20 mg once daily for 4 weeks",
+        "Prescribe an alginate preparation alone",
+        "Refer for urgent upper GI endoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with typical reflux symptoms and no alarm features, NICE recommends a trial of a proton pump inhibitor (PPI) such as omeprazole 20 mg once daily for 4 weeks. Urgent endoscopy is not indicated without alarm features. Lifestyle advice is important but not sufficient as the sole next step when antacids have failed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acda6ab6a5c6",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known GORD (previously confirmed by endoscopy) has persistent heartburn despite taking omeprazole 20 mg once daily for 6 weeks. He has no alarm features. What is the most appropriate next step in management?",
+      "options": [
+        "Increase omeprazole to 40 mg once daily",
+        "Refer for 24-hour pH monitoring",
+        "Refer for upper GI endoscopy",
+        "Add ranitidine 150 mg once daily at night",
+        "Switch to lansoprazole 30 mg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients with unresponsive GORD on standard-dose PPI, NICE recommends optimising PPI therapy first, usually by increasing the dose to maximum (e.g., omeprazole 40 mg once daily or 20 mg twice daily). Switching to another PPI or adding an H2RA are second-line options after dose escalation. pH monitoring or endoscopy are not first steps without alarm features or after failed maximal therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6f529add3810",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with a history of GORD presents with progressive dysphagia and unintentional weight loss of 5 kg over 3 months. He has no vomiting. What is the most appropriate next step in management?",
+      "options": [
+        "Start omeprazole 20 mg twice daily",
+        "Repeat a trial of PPI therapy for 4 weeks",
+        "Arrange a CT scan of the chest and abdomen",
+        "Refer for urgent (2-week wait) upper GI endoscopy",
+        "Request a barium swallow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dysphagia and weight loss are alarm features requiring urgent investigation for oesophageal cancer. NICE recommends an urgent (2-week wait) endoscopy. Starting PPI or further imaging without endoscopy would delay diagnosis. A barium swallow is inferior to endoscopy for mucosal abnormality detection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "571d04eb0493",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman at 24 weeks gestation complains of frequent heartburn and acid regurgitation. She has tried lifestyle modifications (smaller meals, avoiding lying down after eating) and over-the-counter antacids, but symptoms persist and are affecting her sleep. What is the most appropriate next step in management?",
+      "options": [
+        "Prescribe omeprazole 20 mg once daily",
+        "Start an alginate preparation (e.g., Gavisson) after meals and at bedtime",
+        "Refer for upper GI endoscopy",
+        "Refer for a surgical opinion for fundoplication",
+        "Prescribe ranitidine 150 mg twice daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, first-line management for GORD is lifestyle advice and antacids/alginates. If these are insufficient, a PPI or H2RA may be considered, but the question states the patient has tried antacids (presumably simple antacids, not alginates). An alginate preparation (e.g., Gavisson) is a next step before acid suppression, as it provides a physical barrier and is safe in pregnancy. Endoscopy and surgery are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c3a7c8b57e4f",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with GORD has persistent symptoms of heartburn and regurgitation despite taking omeprazole 40 mg twice daily for 12 weeks. Endoscopy 6 months ago showed LA grade A oesophagitis. She has no alarm features. What is the most appropriate next step in management?",
+      "options": [
+        "Add baclofen 10 mg three times daily",
+        "Refer for oesophageal manometry and 24-hour pH monitoring",
+        "Continue current therapy and reassure",
+        "Refer for anti-reflux surgery",
+        "Switch to a different PPI (e.g., esomeprazole 40 mg twice daily)"
+      ],
+      "answerIndex": 1,
+      "explanation": "When symptoms persist on maximal PPI therapy (twice-daily dosing) without improvement, NICE recommends further investigation with oesophageal manometry and 24-hour pH monitoring before considering surgery or medical escalation. This helps confirm GORD, assess acid suppression, and rule out other causes. Switching PPI or adding baclofen may be considered after pH monitoring. Surgery is not first without evaluation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "57a5b24df384",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents with heartburn for 6 months, now with 3-month history of progressive dysphagia to solids and unintentional weight loss of 5 kg. Which single finding is the strongest red flag for underlying malignancy?",
+      "options": [
+        "Weight loss",
+        "Duration of symptoms >3 months",
+        "Heartburn",
+        "Age >50",
+        "Dysphagia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dysphagia is the most specific alarm feature for oesophageal cancer, triggering urgent referral per NICE guidelines. While weight loss is also concerning, dysphagia is more direct and earlier in the pathway.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "19d82e7d663e",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man with chronic GORD presents to ED with severe retrosternal chest pain and vomiting. On examination, you notice crepitus in the neck. What is the most likely life-threatening complication?",
+      "options": [
+        "Acute pancreatitis",
+        "Aspiration pneumonia",
+        "Oesophageal stricture",
+        "Oesophageal perforation",
+        "Myocardial infarction"
+      ],
+      "answerIndex": 3,
+      "explanation": "Surgical emphysema (crepitus) is pathognomonic for oesophageal perforation (Boerhaave syndrome), a surgical emergency with high mortality. Myocardial infarction is a key differential, but the clinical finding points to perforation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3dd2982bdbc2",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman on long-term ibuprofen for osteoarthritis presents with melaena and dizziness. Observations: HR 105, BP 92/60, RR 18, SpO2 97% on air. Which single finding most clearly indicates the need for immediate resuscitation and urgent endoscopy?",
+      "options": [
+        "Age >70",
+        "Use of NSAIDs",
+        "Hypotension",
+        "Tachycardia",
+        "Melaena"
+      ],
+      "answerIndex": 2,
+      "explanation": "Systolic BP <100 mmHg is a marker of haemodynamic instability in upper GI bleeding, prompting urgent resuscitation and endoscopy. Tachycardia is less specific and may be compensated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e2d6d4f2a5c7",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with GORD and a rolling hiatus hernia presents with sudden onset of choking and coughing after eating, followed by dyspnoea and fever. Chest X-ray shows consolidation in the right lower lobe. What is the single most likely life-threatening complication?",
+      "options": [
+        "Aspiration pneumonia",
+        "Gastric volvulus",
+        "Oesophageal perforation",
+        "Empyema",
+        "Lung abscess"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-prandial choking and fever with radiological consolidation indicate aspiration pneumonia, a common and serious complication in large hiatus hernia. Oesophageal perforation typically presents with severe pain and surgical emphysema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d6646affbd77",
+      "topic": "GORD",
+      "slug": "gord",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with chronic GORD presents to ED with severe central chest pain radiating to the jaw, associated with nausea and diaphoresis. He has taken antacids without relief. Which single finding would most clearly confirm that this is a cardiac emergency rather than GORD?",
+      "options": [
+        "Epigastric tenderness",
+        "Regurgitation of bitter fluid",
+        "ST segment elevation on ECG",
+        "Normal blood pressure",
+        "Heartburn"
+      ],
+      "answerIndex": 2,
+      "explanation": "ST elevation on ECG is diagnostic of STEMI, a life-threatening cardiac emergency. Partial relief with antacids can occur in cardiac pain, but ECG is definitive.",
+      "difficulty": "easy"
+    }
+  ]
+}

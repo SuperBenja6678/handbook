@@ -1,0 +1,513 @@
+{
+  "topic": "UTI — Complicated",
+  "slug": "uti-—-complicated",
+  "system": "Urology",
+  "subSystem": "UTI",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:14Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "63b010dca6b1",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man presents with fever, perineal pain, dysuria, and acute urinary retention. On digital rectal examination, the prostate is tender and boggy. What is the single most likely diagnosis?",
+      "options": [
+        "Chronic prostatitis",
+        "Acute cystitis",
+        "Prostate cancer",
+        "Benign prostatic hyperplasia",
+        "Acute bacterial prostatitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "A tender, boggy prostate on DRE is classic for acute bacterial prostatitis, which often presents with fever, perineal pain, and retention. Chronic prostatitis is non-tender; BPH is enlarged but non-tender; prostate cancer is hard and irregular; cystitis lacks perineal pain and retention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "be0bae8f4766",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman with a known 8 mm left renal stone presents with dysuria, frequency, and mild suprapubic pain. She is afebrile with no flank tenderness. Urine dipstick shows nitrite positive and leukocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Ureteric colic",
+        "Asymptomatic bacteriuria",
+        "Chronic pyelonephritis",
+        "Acute cystitis",
+        "Acute pyelonephritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lower urinary tract symptoms with no fever or flank pain point to cystitis, even in the presence of a stone. Pyelonephritis requires fever/flank pain; ureteric colic presents with severe pain without dysuria; chronic pyelonephritis has scarring; asymptomatic bacteriuria has no symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2929d740fadf",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 58-year-old woman with type 2 diabetes presents with severe left flank pain, fever, vomiting, and hypotension. An abdominal X-ray shows gas in the left renal parenchyma. What is the single most likely diagnosis?",
+      "options": [
+        "Perinephric abscess",
+        "Emphysematous pyelonephritis",
+        "Renal abscess",
+        "Acute pyelonephritis",
+        "Ureteric colic"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gas within renal parenchyma on imaging is pathognomonic for emphysematous pyelonephritis, a life-threatening complication in diabetics. A renal abscess shows a fluid collection without gas; simple pyelonephritis lacks gas; perinephric abscess is outside the kidney.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "160b2b288429",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 40-year-old woman with recurrent UTIs and a staghorn calculus presents with dull left flank pain, low-grade fever, and a palpable renal mass. CT shows a non-functioning left kidney with a staghorn calculus and inflammatory masses. What is the single most likely diagnosis?",
+      "options": [
+        "Renal tuberculosis",
+        "Renal cell carcinoma",
+        "Perinephric abscess",
+        "Xanthogranulomatous pyelonephritis",
+        "Chronic pyelonephritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Xanthogranulomatous pyelonephritis is a destructive granulomatous inflammation associated with staghorn calculi and obstruction, causing a non-functioning kidney with inflammatory masses mimicking tumour. Renal TB shows calyceal distortion and calcification; chronic pyelonephritis has cortical scarring.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "379da1c3815c",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents with recurrent UTIs and constant leakage of urine from the vagina, especially on standing. She had a hysterectomy 2 years ago. What is the single most likely diagnosis?",
+      "options": [
+        "Interstitial cystitis",
+        "Stress urinary incontinence",
+        "Urethral diverticulum",
+        "Overactive bladder",
+        "Vesicovaginal fistula"
+      ],
+      "answerIndex": 4,
+      "explanation": "Constant vaginal leakage after pelvic surgery, combined with recurrent UTIs, is classic for vesicovaginal fistula. Overactive bladder has urgency with leakage; stress incontinence leaks with cough/sneeze; interstitial cystitis has pain; urethral diverticulum causes post-void dribbling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "53cff6685d49",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with benign prostatic hyperplasia presents with fever, left loin pain, and dysuria. Urine dip is positive for nitrites and leucocytes. Which investigation is most appropriate to confirm a suspected renal abscess?",
+      "options": [
+        "Ultrasound of the kidneys",
+        "DMSA renal scan",
+        "Intravenous urogram",
+        "MRI abdomen",
+        "CT abdomen with intravenous contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "CT with contrast is the gold standard for detecting renal abscess, offering superior sensitivity over ultrasound and overcoming the limitations of MRI (time, cost) and DMSA (functional imaging). IVU is obsolete.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24effffffc7f",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with recurrent UTIs and a history of nephrolithiasis presents with dysuria. Urine culture confirms E. coli >10^5 CFU/mL. She is afebrile. What is the most appropriate investigation to evaluate for an underlying structural abnormality?",
+      "options": [
+        "CT kidneys, ureters, bladder (non-contrast)",
+        "Intravenous urogram",
+        "Cystoscopy",
+        "MRI urogram",
+        "Ultrasound of the renal tract"
+      ],
+      "answerIndex": 0,
+      "explanation": "CT KUB (non-contrast) is first-line for suspected nephrolithiasis, detecting small stones that may be missed on ultrasound. IVU and MRI are less sensitive for stones; cystoscopy is for bladder pathology.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1459f3e95af9",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old pregnant woman at 28 weeks presents with fever, rigors, and right flank pain. Urine dip is positive. What is the most appropriate investigation to assess for a renal abscess complicating pyelonephritis?",
+      "options": [
+        "Plain abdominal X-ray",
+        "DMSA renal scan",
+        "MRI abdomen without contrast",
+        "Renal ultrasound",
+        "CT abdomen without contrast"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ultrasound is safe in pregnancy (no ionising radiation) and can detect hydronephrosis or abscess cavity. MRI is reserved for equivocal cases; CT and DMSA involve radiation or are inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "47f7a905544a",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with an indwelling urinary catheter for 2 weeks post-TURP develops fever, confusion, and suprapubic pain. Urine dip shows leucocytes. What is the most appropriate test to confirm catheter-associated urinary tract infection?",
+      "options": [
+        "Blood cultures",
+        "Clean catch urine",
+        "Urine dipstick alone",
+        "Catheter specimen of urine for culture",
+        "Midstream urine specimen"
+      ],
+      "answerIndex": 3,
+      "explanation": "Catheter specimen (CSU) avoids contamination; diagnosis of CAUTI requires symptoms plus culture ≥10^3 CFU/mL. Midstream/clean catch are not feasible with catheter; dipstick is not confirmatory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa8047b6fef1",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with diabetes presents with perineal pain, fever, and crepitus over the suprapubic area. Urine dip shows blood and leucocytes. Which imaging study best confirms the suspected diagnosis of emphysematous cystitis?",
+      "options": [
+        "Cystoscopy",
+        "Plain abdominal X-ray",
+        "MRI pelvis",
+        "CT pelvis without contrast",
+        "Ultrasound of the pelvis"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT (non-contrast) is the gold standard for detecting intramural gas in emphysematous cystitis, with higher sensitivity than plain XR, and avoids invasive cystoscopy. Ultrasound may show gas artifacts but is less definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f11261caa9e3",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man presents with acute onset of fever, perineal pain, and urinary retention. Digital rectal examination reveals a tender, swollen prostate. Urine culture grows Escherichia coli. What is the most appropriate first-line oral antibiotic for this patient?",
+      "options": [
+        "Ciprofloxacin 500 mg twice daily",
+        "Trimethoprim 200 mg twice daily",
+        "Amoxicillin 500 mg three times daily",
+        "Nitrofurantoin 100 mg four times daily",
+        "Doxycycline 100 mg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ciprofloxacin achieves high prostatic tissue concentrations and is first-line for acute bacterial prostatitis. Nitrofurantoin does not penetrate prostate; amoxicillin resistance common; doxycycline used for atypical pathogens; trimethoprim is alternative but less effective than ciprofloxacin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a81c1352d3b5",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with a long-term indwelling urinary catheter develops fever, rigors, and right flank pain. Urine culture shows >10⁵ CFU/mL of Escherichia coli. CT confirms pyelonephritis. Which antibiotic is CONTRAINDICATED in this setting?",
+      "options": [
+        "Nitrofurantoin 100 mg four times daily",
+        "Piperacillin-tazobactam 4.5 g three times daily",
+        "Ciprofloxacin 500 mg twice daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Gentamicin 5 mg/kg once daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nitrofurantoin has poor renal tissue penetration and is ineffective for pyelonephritis or tissue infection; it is also not recommended in patients with eGFR <45 mL/min. The other agents are appropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b050bfbc94b4",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old man with a known staghorn calculus presents with hypotension, fever, and right flank tenderness. CT shows hydronephrosis and perinephric fat stranding. After initial fluid resuscitation and broad-spectrum antibiotics, what is the definitive management?",
+      "options": [
+        "Intravenous antibiotics alone",
+        "Open nephrectomy",
+        "Ureteric stent insertion",
+        "Percutaneous nephrostomy",
+        "Extracorporeal shockwave lithotripsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an obstructed kidney with urosepsis, urgent decompression is required. Percutaneous nephrostomy is often preferred for renal pelvic obstruction or if stent placement is difficult. Ureteric stent may be used for ureteric stones, but staghorn calculus warrants nephrostomy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3761868503f9",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with poorly controlled diabetes presents with fever, left flank pain, and nausea. CT reveals gas in the renal parenchyma, consistent with emphysematous pyelonephritis. Which antibiotic is most appropriate as first-line therapy?",
+      "options": [
+        "Vancomycin 1 g twice daily",
+        "Co-amoxiclav 1.2 g three times daily",
+        "Ciprofloxacin 400 mg twice daily",
+        "Piperacillin-tazobactam 4.5 g three times daily",
+        "Metronidazole 500 mg three times daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Emphysematous pyelonephritis is a life-threatening infection requiring broad-spectrum cover including Gram-negatives and anaerobes. Piperacillin-tazobactam is recommended; ciprofloxacin lacks anaerobic cover, metronidazole lacks Gram-negative cover, co-amoxiclav may be insufficient for resistant organisms, vancomycin targets Gram-positives only.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "441d48a3b368",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old primigravida at 28 weeks gestation presents with fever, vomiting, and right loin pain. Urine dipstick shows nitrites and leucocytes. She is diagnosed with acute pyelonephritis. Which antibiotic is CONTRAINDICATED in pregnancy?",
+      "options": [
+        "Doxycycline 100 mg once daily",
+        "Co-amoxiclav 625 mg three times daily",
+        "Gentamicin 5 mg/kg once daily",
+        "Nitrofurantoin 100 mg four times daily",
+        "Cefalexin 500 mg three times daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Doxycycline (a tetracycline) is contraindicated in pregnancy due to risk of hepatotoxicity in the mother and teeth/bone abnormalities in the fetus. Cefalexin and co-amoxiclav are safe; gentamicin may be used with caution; nitrofurantoin is avoided near term but can be used in second trimester.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fa08ebbc6f86",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 78-year-old man with an indwelling urethral catheter (inserted 2 weeks ago for acute urinary retention) develops fever (38.2°C), suprapubic discomfort, and foul-smelling urine. He is haemodynamically stable, GCS 15, and has no loin tenderness. What is the most appropriate immediate next step?",
+      "options": [
+        "Start empirical antibiotics immediately without waiting for culture",
+        "Arrange a renal tract ultrasound",
+        "Send a urine culture and start empirical antibiotics",
+        "Check serum prostate-specific antigen (PSA)",
+        "Remove the catheter and insert a new one"
+      ],
+      "answerIndex": 2,
+      "explanation": "In catheter-associated UTI with mild symptoms, NICE recommends sending a urine culture before antibiotics to guide targeted therapy, then starting empirical antibiotics. Removing the catheter is not urgent; ultrasound and PSA are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "49a8aada570d",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with recurrent UTIs and known bilateral renal staghorn calculi presents with dysuria, frequency, and suprapubic pain. She is afebrile, observations normal, and has no vomiting. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to urology for urgent lithotripsy",
+        "Start oral nitrofurantoin 100 mg modified-release twice daily",
+        "Send a midstream urine (MSU) specimen for culture and sensitivity",
+        "Check serum creatinine and electrolytes",
+        "Arrange a non-contrast CT of the kidneys, ureters, and bladder (CT KUB)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In complicated UTI with stones, obtaining a urine culture before antibiotics is critical to identify the organism and resistance pattern. Empirical antibiotics may be needed later, but the immediate step is culture. CT KUB is indicated if obstruction is suspected, but the patient is stable with no evidence of obstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "19b424e7163c",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man presents to the emergency department with a 2-day history of dysuria, frequency, and perineal pain. He is febrile (39.1°C), tachycardic (110 bpm), and hypotensive (85/50 mmHg). On examination, his prostate is tender and enlarged. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous broad-spectrum antibiotics (e.g., piperacillin/tazobactam) after taking blood cultures",
+        "Give intravenous fluids and monitor in the resuscitation room",
+        "Arrange an urgent CT abdomen with contrast",
+        "Insert a urethral catheter to relieve any urinary retention",
+        "Perform a digital rectal examination to feel prostate size"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has septic shock secondary to acute prostatitis. The priority is administration of broad-spectrum antibiotics within 1 hour, after blood cultures. Catheterisation should be avoided if possible as it can worsen bacteraemia; fluids are important but antibiotics are the immediate single action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4285a843b29",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man who underwent transurethral resection of bladder tumour (TURBT) 3 days ago develops suprapubic pain, visible haematuria with clots, and is unable to pass urine. He is in distress with a palpable bladder. Observations: HR 95, BP 130/80, afebrile. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange an urgent CT urogram",
+        "Refer to the on-call urology team for urgent cystoscopy",
+        "Check full blood count and coagulation screen",
+        "Start oral antibiotics (e.g., trimethoprim 200 mg twice daily)",
+        "Insert a three-way urethral catheter and start continuous bladder irrigation"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has clot retention post-TURBT. The immediate priority is relief of obstruction by inserting a three-way catheter and starting bladder irrigation to clear clots and prevent further clot formation. Antibiotics may be given later if infection is suspected, but they are not the immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ff988d62c29",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with a long-term suprapubic catheter due to multiple sclerosis presents with rigors, confusion, and a temperature of 38.8°C. Her blood pressure is 88/50 mmHg and heart rate 115 bpm. The catheter appears patent with cloudy urine. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous normal saline bolus and monitor response",
+        "Change the suprapubic catheter immediately",
+        "Arrange a renal tract ultrasound to assess for abscess",
+        "Take blood cultures and start intravenous broad-spectrum antibiotics (e.g., gentamicin plus amoxicillin)",
+        "Send a urine culture and await results before starting antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has sepsis likely from a catheter-associated UTI. The immediate action is to obtain blood cultures and start empirical intravenous antibiotics within 1 hour. Catheter change should be considered after antibiotics if the catheter has been in place for >7 days, but not before antibiotics. Fluids are important but the single most critical step is antibiotics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "152124d3276c",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with a 3-day history of dysuria, frequency, fever, and perineal discomfort. Digital rectal examination reveals a tender, swollen prostate. Which single finding on examination is most indicative of a prostatic abscess?",
+      "options": [
+        "Boggy prostate",
+        "Warm prostate",
+        "Enlarged prostate",
+        "Fluctuant prostate",
+        "Tender prostate"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fluctuant prostate suggests a collection of pus (abscess), which requires urgent drainage. A tender prostate alone is non-specific and can occur in acute prostatitis. Boggy or enlarged prostate may be chronic, not an abscess.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b08407ccb34d",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old primigravida at 28 weeks gestation presents with a 2-day history of dysuria and suprapubic pain. She is otherwise well with a temperature of 37.2°C. Which single clinical finding would most strongly suggest acute pyelonephritis requiring admission?",
+      "options": [
+        "Positive nitrites on urinalysis",
+        "Costovertebral angle tenderness",
+        "White blood cell count of 14 × 10^9/L",
+        "Cloudy urine",
+        "Vomiting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Costovertebral angle tenderness indicates renal involvement (pyelonephritis), which in pregnancy is a complication requiring IV antibiotics and admission. Nitrites indicate bacteriuria but not upper tract infection; vomiting and leukocytosis are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "85f3755442f4",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 58-year-old man with poorly controlled diabetes presents with severe right flank pain, fever, and nausea. CT scan shows gas within the renal parenchyma. Which single feature on imaging confirms the diagnosis of emphysematous pyelonephritis?",
+      "options": [
+        "Gas in the ureter",
+        "Gas in the renal parenchyma",
+        "Gas in the renal pelvis",
+        "Gas in the perinephric space",
+        "Gas in the bladder"
+      ],
+      "answerIndex": 1,
+      "explanation": "Emphysematous pyelonephritis is defined by gas formation within the renal parenchyma due to gas-producing organisms. Gas in the collecting system (pelvis) suggests emphysematous pyelitis, which is less severe. The parenchymal gas indicates a necrotising infection requiring urgent intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "26801563fd66",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman with a long-term indwelling urinary catheter presents with fever, rigors, and confusion. She is hypotensive (BP 85/50 mmHg) after a 500 mL crystalloid bolus. Which single finding most clearly meets the criteria for escalation to high dependency care?",
+      "options": [
+        "White cell count 18 × 10^9/L",
+        "Lactate 2.5 mmol/L",
+        "Heart rate 105 bpm",
+        "Systolic BP 85 mmHg despite fluid challenge",
+        "Temperature 38.5°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Persistent hypotension after fluid resuscitation defines septic shock requiring vasopressors and HDU/ICU admission. The other findings are abnormal but do not independently mandate escalation according to UK sepsis guidelines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e9d8898e29a3",
+      "topic": "UTI — Complicated",
+      "slug": "uti-—-complicated",
+      "system": "Urology",
+      "subSystem": "UTI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old diabetic man with a history of recurrent UTIs presents with persistent high fever and right flank pain despite 48 hours of antibiotics. Which CT finding is most indicative of a renal or perinephric abscess requiring percutaneous drainage?",
+      "options": [
+        "Thickened bladder wall",
+        "Mild hydronephrosis",
+        "Cortical hypodensity with rim enhancement",
+        "Renal calculus 5 mm",
+        "Stranding of perinephric fat"
+      ],
+      "answerIndex": 2,
+      "explanation": "A cortical hypodensity with rim enhancement is characteristic of a renal abscess, which if >3 cm and not responding to medical therapy, requires drainage. Stranding is non-specific; hydronephrosis suggests obstruction, not abscess.",
+      "difficulty": "hard"
+    }
+  ]
+}

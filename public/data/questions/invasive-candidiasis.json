@@ -1,0 +1,513 @@
+{
+  "topic": "Invasive Candidiasis",
+  "slug": "invasive-candidiasis",
+  "system": "Infectious Diseases",
+  "subSystem": "Fungal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:36:31Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b7170323aa02",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with acute myeloid leukaemia undergoing chemotherapy develops fever and neutropenia (neutrophils 0.2 × 10⁹/L). Despite 72 hours of empiric piperacillin/tazobactam and gentamicin, he remains febrile. Blood cultures are negative. What is the single most likely diagnosis?",
+      "options": [
+        "Invasive candidiasis",
+        "Drug-induced fever",
+        "Gram-negative sepsis",
+        "Aspergillosis",
+        "Cytomegalovirus infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Persistent fever in a neutropenic patient despite broad-spectrum antibiotics suggests invasive candidiasis, often hepatosplenic. Blood cultures are frequently negative. Aspergillosis typically presents with pulmonary infiltrates, Gram-negative sepsis would usually be culture-positive, CMV infection is less acute, and drug-induced fever is a diagnosis of exclusion with no other features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e737d380a424",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old woman with acute lymphoblastic leukaemia recovering from neutropenia develops persistent fever, right upper quadrant pain, and tender hepatomegaly. Blood cultures are negative. CT scan shows multiple small low-attenuation lesions in the liver and spleen. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatosplenic candidiasis",
+        "Amoebic liver abscess",
+        "Hepatic sarcoidosis",
+        "Hepatic lymphoma",
+        "Bacterial hepatic abscess"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hepatosplenic candidiasis (chronic disseminated candidiasis) typically occurs after neutrophil recovery and presents with multiple microabscesses in liver/spleen. Bacterial abscesses are usually solitary and culture-positive. Amoebic abscess is rare in non-endemic areas and often solitary. Lymphoma and sarcoidosis have other systemic features and different imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f4a568de7b2c",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old man who underwent emergency laparotomy for a perforated duodenal ulcer develops septic shock on postoperative day 5. Blood cultures from day 2 have grown yeast on routine culture. He has a central venous catheter. What is the single most likely diagnosis?",
+      "options": [
+        "Anaerobic sepsis",
+        "Gram-negative septic shock",
+        "Intra-abdominal abscess",
+        "Candidemia",
+        "Toxic shock syndrome"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood cultures growing yeast in a septic patient indicate candidemia. Gram-negative and anaerobic sepsis would show corresponding organisms on culture. Toxic shock syndrome is caused by staphylococci or streptococci, not yeast. An intra-abdominal abscess could coexist but the positive Candida culture makes candidemia the primary diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2bf6a6427974",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman with known candidemia being treated with fluconazole develops sudden painful loss of vision in her right eye. Fundoscopy reveals vitritis and fluffy white retinal lesions. What is the single most likely diagnosis?",
+      "options": [
+        "Cytomegalovirus retinitis",
+        "Candida endophthalmitis",
+        "Aspergillus endophthalmitis",
+        "Toxoplasma retinitis",
+        "Bacterial endophthalmitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Candida endophthalmitis typically presents with vitritis and white retinal infiltrates in the setting of candidemia. CMV retinitis is haemorrhagic and occurs in immunosuppressed patients. Toxoplasma retinitis is focal necrotizing. Aspergillus endophthalmitis often has anterior chamber involvement. Bacterial endophthalmitis is purulent and more painful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4e41366ec5a5",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 35-year-old intravenous drug user presents with fever, a new pansystolic murmur, and splinter haemorrhages on the fingernails. Blood cultures grow Candida albicans. What is the single most likely diagnosis?",
+      "options": [
+        "Candidemia",
+        "Candida endocarditis",
+        "Non-bacterial thrombotic endocarditis",
+        "Candidal septicaemia",
+        "Bacterial endocarditis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of fever, murmur, peripheral stigmata, and Candida in blood in an IVDU strongly suggests Candida endocarditis. Candidemia alone does not account for the murmur and embolic phenomena. Bacterial endocarditis would grow bacteria, not yeast. Non-bacterial thrombotic endocarditis lacks infection. Candidal septicaemia is a less specific term for candidemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "85b234c23a02",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man on ICU after recent abdominal surgery has a central line, total parenteral nutrition, and is on broad-spectrum antibiotics. On day 5 he develops a temperature of 38.6°C. Blood cultures drawn at the time remain negative after 48 hours. His white cell count is 15 x 10^9/L and CRP 200 mg/L. Which investigation is most likely to provide early evidence of invasive candidiasis?",
+      "options": [
+        "Urine culture for Candida",
+        "Serum β-D-glucan",
+        "Fundoscopy",
+        "CT abdomen",
+        "Repeat blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "β-D-glucan is a non-culture test that can be positive before blood cultures in invasive candidiasis, with reasonable sensitivity in ICU patients. In this setting of high-risk patient with negative blood cultures, it is the earliest marker.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "49f169e9716e",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman with acute myeloid leukaemia undergoing chemotherapy develops neutropenic fever (temperature 38.2°C) despite broad-spectrum antibiotics for 5 days. Blood cultures are negative. A serum β-D-glucan test is positive (>80 pg/mL). Which single investigation would most reliably confirm invasive candidiasis?",
+      "options": [
+        "CT chest and abdomen",
+        "Fundoscopy",
+        "Bronchoalveolar lavage culture",
+        "Repeat serum β-D-glucan",
+        "Blood cultures for fungi"
+      ],
+      "answerIndex": 0,
+      "explanation": "In neutropenic patients, chronic disseminated candidiasis often presents with negative blood cultures. CT shows characteristic 'bull's-eye' abscesses in liver/spleen, providing strong radiological evidence. While tissue biopsy is the gold standard, CT is the most reliable among the options to support a diagnosis when β-D-glucan is positive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "23475b928e16",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with type 2 diabetes and a recent urinary catheter presents with fever (38.4°C). Urine culture grows Candida albicans >10^5 CFU/mL. Which investigation is most appropriate to confirm invasive candidiasis?",
+      "options": [
+        "CT abdomen",
+        "Serum β-D-glucan",
+        "Repeat urine culture",
+        "Blood culture",
+        "Renal ultrasound"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood culture remains the gold standard for confirming candidemia and invasive candidiasis. In a febrile patient with candiduria, candidemia must be ruled out, and blood culture is the definitive test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bcfa3ca7c982",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman who injects drugs presents with fever and visual floaters. She has a holosystolic murmur. Blood cultures grow Candida albicans. Which investigation is most important to assess for ocular involvement?",
+      "options": [
+        "Fundoscopy with dilated pupils",
+        "Ocular ultrasound",
+        "Lumbar puncture",
+        "CT head",
+        "Vitreous biopsy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fundoscopy is essential in all patients with candidemia to detect endophthalmitis, a common complication. It is non-invasive and should be performed promptly; vitreous biopsy is reserved for diagnostic uncertainty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4b624747dc1f",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man on ICU for pancreatitis, with central lines, broad-spectrum antibiotics, and TPN, develops a temperature of 38.8°C. Blood cultures are drawn simultaneously from a central line and a peripheral vein; the central line culture turns positive for Candida glabrata 8 hours earlier than the peripheral culture. Which test is most appropriate to determine whether the central line is the source?",
+      "options": [
+        "Catheter tip culture after removal",
+        "Serum β-D-glucan",
+        "Differential time to positivity between central and peripheral cultures",
+        "CT abdomen",
+        "Repeat blood culture from a different peripheral site"
+      ],
+      "answerIndex": 2,
+      "explanation": "A differential time to positivity of ≥120 minutes (central positive earlier) is a validated diagnostic criterion for catheter-related bloodstream infection. This non-invasive test can establish the source without line removal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "384d477af146",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with no significant past medical history presents with fever and hypotension. Blood cultures grow Candida albicans. He has no prior azole exposure and is not neutropenic. Which is the most appropriate first-line antifungal therapy?",
+      "options": [
+        "Caspofungin 70 mg IV loading then 50 mg daily",
+        "Fluconazole 400 mg IV loading then 200 mg daily",
+        "Liposomal amphotericin B 3 mg/kg IV daily",
+        "Flucytosine 25 mg/kg IV four times daily",
+        "Voriconazole 6 mg/kg IV twice daily loading then 4 mg/kg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Current UK guidelines recommend an echinocandin (e.g., caspofungin) as first-line therapy for candidaemia in non-neutropenic adults, especially those who are haemodynamically unstable. Fluconazole is an alternative only if the patient is stable and has no prior azole exposure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c30becdd96b1",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman on the intensive care unit with septic shock is found to have intra-abdominal candidiasis on laparotomy. She has not received any antifungals recently. Which is the most appropriate first-line antifungal agent?",
+      "options": [
+        "Fluconazole 400 mg IV daily",
+        "Micafungin 100 mg IV daily",
+        "Caspofungin 70 mg IV loading then 50 mg daily",
+        "Liposomal amphotericin B 3 mg/kg IV daily",
+        "Voriconazole 4 mg/kg IV twice daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "In critically ill patients with invasive candidiasis, an echinocandin (e.g., caspofungin) is first-line due to broad coverage, safety profile, and efficacy. Fluconazole is not recommended in haemodynamically unstable patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9556df05760f",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with acute myeloid leukaemia on posaconazole prophylaxis develops febrile neutropenia. Blood cultures grow Candida glabrata. Which antifungal agent is MOST likely to be contraindicated based on her history?",
+      "options": [
+        "Anidulafungin",
+        "Liposomal amphotericin B",
+        "Caspofungin",
+        "Micafungin",
+        "Fluconazole"
+      ],
+      "answerIndex": 4,
+      "explanation": "Prior azole exposure (posaconazole) increases the risk of fluconazole resistance, especially in Candida glabrata. Fluconazole is not recommended in this setting. An echinocandin or liposomal amphotericin B is preferred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4b5196d47306",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 60-year-old man with a prosthetic aortic valve develops Candida parapsilosis endocarditis. He is haemodynamically stable. Which is the most appropriate initial antifungal regimen?",
+      "options": [
+        "Micafungin 100 mg IV daily alone",
+        "Liposomal amphotericin B 3 mg/kg IV daily alone",
+        "Voriconazole 4 mg/kg IV twice daily alone",
+        "Fluconazole 400 mg IV daily alone",
+        "Caspofungin 70 mg IV loading then 50 mg daily plus flucytosine 25 mg/kg IV four times daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "Candida endocarditis requires combination therapy. Guidelines recommend an echinocandin (or liposomal amphotericin B) plus flucytosine as first-line; fluconazole monotherapy is inadequate for initial treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4804c077911b",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with uncomplicated candidaemia due to Candida albicans has completed 5 days of intravenous caspofungin with source control and is clinically stable. She is ready for step-down to oral therapy. Which oral antifungal is most appropriate?",
+      "options": [
+        "Terbinafine 250 mg orally daily",
+        "Voriconazole 200 mg orally twice daily",
+        "Itraconazole 200 mg orally twice daily",
+        "Posaconazole 300 mg orally daily",
+        "Fluconazole 400 mg orally daily"
+      ],
+      "answerIndex": 4,
+      "explanation": "For uncomplicated candidaemia caused by a fluconazole-susceptible isolate, fluconazole is the recommended oral step-down therapy. Other azoles have broader spectra but are not first-line for step-down in this scenario.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b65386521bdf",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old man on the ICU with a central venous catheter develops a fever of 38.5°C. Blood cultures from a peripheral vein grow Candida albicans. His blood pressure is 110/70 mmHg, heart rate 90 bpm, respiratory rate 18/min. What is the most appropriate immediate next step?",
+      "options": [
+        "Consult ophthalmology for fundoscopy",
+        "Start intravenous fluconazole",
+        "Remove the central venous catheter",
+        "Repeat blood cultures from the central line",
+        "Request an echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "In candidemia, removing the central venous catheter (source control) is the immediate priority to reduce the fungal burden and improve outcomes. Starting antifungal therapy is also important but should follow catheter removal unless delayed; the question asks for the single most immediate action. The other options are subsequent steps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11c3f1e105a6",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with a recent pancreaticoduodenectomy develops a persistent fever and a CT scan shows a fluid collection in the pancreatic bed. Percutaneous drainage yields purulent fluid that grows Candida glabrata. She is not septic. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform surgical exploration of the collection",
+        "Start oral fluconazole",
+        "Start an echinocandin (e.g., caspofungin)",
+        "Obtain further imaging with MRI",
+        "Observe with no antifungal therapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Isolation of Candida from a normally sterile site (peritoneal fluid) in a symptomatic patient with an intra-abdominal collection requires antifungal therapy. Given C. glabrata's potential resistance to fluconazole, an echinocandin is first-line. Surgical source control has already been achieved with drainage; immediate next step is targeted antifungal treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b78cf37cc5df",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man in the emergency department presents with septic shock (BP 85/45 mmHg, HR 110, lactate 4 mmol/L) and a history of prolonged ICU stay for perforated diverticulitis. He has a central line in situ. Blood cultures are pending. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous caspofungin",
+        "Send blood cultures from the central line",
+        "Remove the central line",
+        "Administer intravenous fluids and noradrenaline",
+        "Obtain an urgent echocardiogram"
+      ],
+      "answerIndex": 0,
+      "explanation": "In septic shock with risk factors for candidemia (recent abdominal surgery, central line), immediate empiric antifungal therapy with an echinocandin is recommended alongside resuscitation. Removing the line is important but the immediate priority in shock is to start antimicrobials. Fluid and vasopressors are given simultaneously but the question focuses on the specific antifungal step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "df6ee9df204c",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 48-year-old woman with known candidemia on fluconazole develops sudden loss of vision in her left eye. Ophthalmoscopy reveals a white retinal lesion and vitreous haze suggestive of Candida endophthalmitis. What is the most appropriate immediate next step?",
+      "options": [
+        "Switch fluconazole to intravenous amphotericin B",
+        "Add oral flucytosine",
+        "Perform a vitreous biopsy",
+        "Refer urgently to an ophthalmologist",
+        "Increase the dose of fluconazole"
+      ],
+      "answerIndex": 3,
+      "explanation": "Candida endophthalmitis is an ocular emergency requiring specialist management. Immediate referral to ophthalmology for assessment and consideration of intravitreal antifungal therapy or vitrectomy is the correct next step. Systemic antifungal changes may be made but should be guided by the ophthalmologist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0a07d42fa777",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old neutropenic man (neutrophils 0.2 × 10⁹/L) with acute myeloid leukaemia has been on broad-spectrum antibiotics for 5 days for persistent fever. Blood cultures are negative and there is no source. He has no central line. What is the most appropriate immediate next step?",
+      "options": [
+        "Request a serum beta-D-glucan assay",
+        "Stop antibiotics and re-culture",
+        "Start empirical intravenous caspofungin",
+        "Perform a CT chest, abdomen and pelvis",
+        "Add vancomycin for resistant Gram-positive coverage"
+      ],
+      "answerIndex": 2,
+      "explanation": "In neutropenic patients with persistent fever despite broad-spectrum antibiotics, empiric antifungal therapy with an echinocandin (or liposomal amphotericin B) is recommended as per NICE guidelines. This is the immediate next step to cover possible invasive candidiasis or moulds. Imaging and biomarkers may be done but should not delay treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "57664ab20005",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with acute myeloid leukaemia is neutropenic (ANC 0.1 × 10⁹/L) and has had persistent fever (38.5°C) for 4 days despite IV piperacillin-tazobactam. Which clinical finding is a red flag for invasive candidiasis?",
+      "options": [
+        "Rising white blood cell count",
+        "New erythematous macules on the trunk",
+        "Decreased urine output",
+        "Positive serum beta-D-glucan",
+        "Erythema at the central line insertion site"
+      ],
+      "answerIndex": 1,
+      "explanation": "New erythematous macules (often on the trunk) can indicate acute disseminated candidiasis, a life-threatening emergency requiring immediate antifungal escalation. The most tempting distractor is a positive beta-D-glucan, but it is a laboratory marker, not a bedside clinical finding; the question specifically asks for a clinical finding that marks danger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0e4d56b6514d",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man in the intensive care unit on total parenteral nutrition has had Candida albicans isolated from blood cultures 5 days ago and is being treated with fluconazole. He now reports blurred vision in his right eye. Which ophthalmological finding is a red flag for Candida endophthalmitis?",
+      "options": [
+        "Vitreous haze",
+        "Anterior chamber cells",
+        "Conjunctival injection",
+        "Retinal white fluffy lesions",
+        "Papilloedema"
+      ],
+      "answerIndex": 3,
+      "explanation": "Retinal white fluffy 'cotton-ball' lesions are characteristic of Candida chorioretinitis and endophthalmitis, an ocular emergency requiring urgent ophthalmology review and systemic antifungal adjustment. The most tempting distractor is vitreous haze, which is non-specific and can occur in other forms of uveitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dfc5210b93c3",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman with candidemia (Candida parapsilosis) from a central venous catheter is being treated with caspofungin. Which clinical finding should prompt urgent echocardiography to exclude Candida endocarditis?",
+      "options": [
+        "New diastolic murmur",
+        "Persistent temperature of 38.2°C",
+        "Positive blood culture after 48 hours of treatment",
+        "New splinter haemorrhages",
+        "Elevated C-reactive protein"
+      ],
+      "answerIndex": 0,
+      "explanation": "A new diastolic murmur is a classic sign of native valve endocarditis and mandates urgent echocardiography (preferably transoesophageal) to detect vegetations. While splinter haemorrhages can occur in endocarditis, a new murmur is a more specific and immediate red flag.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ba57dd4f71b",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman on peritoneal dialysis for end-stage renal disease presents with cloudy dialysate and abdominal pain. Which immediate laboratory finding from the dialysate is a red flag for Candida peritonitis?",
+      "options": [
+        "Elevated lactate dehydrogenase",
+        "Positive culture for yeast",
+        "Gram stain showing yeast",
+        "Low glucose relative to serum",
+        "White blood cell count >100 cells/μL"
+      ],
+      "answerIndex": 2,
+      "explanation": "Seeing yeast on Gram stain of peritoneal fluid is an immediate red flag for fungal peritonitis, which requires prompt antifungal therapy and often catheter removal. The most tempting distractor is a positive culture, but culture results take 24–48 hours; Gram stain provides an urgent bedside clue.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37059ffe33cb",
+      "topic": "Invasive Candidiasis",
+      "slug": "invasive-candidiasis",
+      "system": "Infectious Diseases",
+      "subSystem": "Fungal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with poorly controlled type 2 diabetes and recent recurrent urinary tract infections on antibiotics presents with fever, flank pain, and urine culture growing Candida albicans. Which urinalysis finding is a red flag for ascending Candida pyelonephritis?",
+      "options": [
+        "Pyuria",
+        "New onset acute kidney injury",
+        "Glycosuria",
+        "Presence of yeast casts",
+        "Flank pain on examination"
+      ],
+      "answerIndex": 3,
+      "explanation": "Yeast casts in the urine indicate renal parenchymal involvement (Candida pyelonephritis), a deep-seated infection requiring prolonged antifungal therapy and often imaging. The most tempting distractor is pyuria, which is non-specific and can occur with simple candiduria or bacterial infection.",
+      "difficulty": "medium"
+    }
+  ]
+}

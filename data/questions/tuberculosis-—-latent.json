@@ -1,0 +1,513 @@
+{
+  "topic": "Tuberculosis — Latent",
+  "slug": "tuberculosis-—-latent",
+  "system": "Infectious Diseases",
+  "subSystem": "TB",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:34:09Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "557009cbbf9c",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old healthcare worker undergoes routine occupational health screening. She is asymptomatic with no past medical history. She has no BCG scar. Interferon-gamma release assay (IGRA) is positive. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Active pulmonary tuberculosis",
+        "Latent tuberculosis infection",
+        "Non-tuberculous mycobacterial infection",
+        "Sarcoidosis",
+        "Prior BCG vaccination"
+      ],
+      "answerIndex": 1,
+      "explanation": "Positive IGRA in an asymptomatic individual with a normal chest X-ray is diagnostic of latent TB infection. Active TB would present with symptoms or radiological changes. BCG does not cause IGRA positivity. Sarcoidosis and NTM do not produce a positive IGRA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "471a43d12dac",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with rheumatoid arthritis is being assessed for adalimumab therapy. He is asymptomatic and has no BCG scar. He was born in India and moved to the UK 10 years ago. Mantoux test is 16mm, and IGRA is positive. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Active pulmonary tuberculosis",
+        "Sarcoidosis",
+        "Latent tuberculosis infection",
+        "Fungal infection",
+        "Prior BCG vaccination"
+      ],
+      "answerIndex": 2,
+      "explanation": "A positive IGRA in an asymptomatic person with normal CXR, especially from a high-prevalence country, indicates latent TB. No BCG scar excludes prior vaccination. Active TB would have symptoms or CXR abnormalities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cbf35078d942",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old asymptomatic woman is identified as a household contact of a smear-positive pulmonary TB case. She has no prior BCG vaccination. TST is 18mm, and IGRA is positive. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis",
+        "Active tuberculosis",
+        "Previous tuberculosis infection (old healed)",
+        "Latent tuberculosis infection",
+        "Non-tuberculous mycobacterial infection"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a contact with a positive TST and IGRA, and normal CXR, latent TB is the diagnosis. Active TB would show symptoms or CXR changes. Old healed TB would show radiological scarring.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e747daca87e3",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man with HIV (CD4 count 500 cells/µL) on antiretroviral therapy is asymptomatic. He has no BCG scar. IGRA is positive. Chest X-ray is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Sarcoidosis",
+        "Active pulmonary tuberculosis",
+        "Immune reconstitution inflammatory syndrome (IRIS)",
+        "Latent tuberculosis infection",
+        "Pneumocystis jirovecii pneumonia"
+      ],
+      "answerIndex": 3,
+      "explanation": "An asymptomatic HIV patient with positive IGRA and normal CXR has latent TB. Active TB would cause symptoms, and IRIS occurs after starting ART, not in stable patients. PCP presents with cough and hypoxia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a1fc7d0bbd8",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old medical student who received BCG vaccination in childhood has a routine Mantoux test of 18mm. He is asymptomatic. Chest X-ray is normal. Subsequent IGRA is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Prior BCG vaccination",
+        "Non-tuberculous mycobacterial infection",
+        "Sarcoidosis",
+        "Active pulmonary tuberculosis",
+        "Latent tuberculosis infection"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite BCG, a positive IGRA confirms true TB infection, as BCG does not cause IGRA positivity. The positive Mantoux could be from either BCG or infection, but IGRA differentiates. Active TB would have symptoms or CXR changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b0ecf1df3f0c",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old healthcare worker had a needlestick injury 8 weeks ago from a patient with sputum-smear-positive pulmonary TB. She is asymptomatic and had BCG vaccination as a child. What is the most appropriate initial investigation to screen for latent TB infection?",
+      "options": [
+        "Sputum culture for mycobacteria",
+        "Chest X-ray",
+        "CT chest",
+        "Mantoux test (tuberculin skin test)",
+        "Interferon-gamma release assay (IGRA)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend IGRA as first-line screening for latent TB in healthcare workers after exposure. BCG vaccination can cause false-positive Mantoux results, making IGRA more specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4d69275b7619",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 52-year-old man with rheumatoid arthritis on adalimumab (TNF-alpha inhibitor) has a positive Quantiferon-TB Gold test. He is asymptomatic. What is the most appropriate next investigation?",
+      "options": [
+        "Bronchoalveolar lavage",
+        "Mantoux test",
+        "Chest X-ray",
+        "Repeat IGRA in 8 weeks",
+        "CT abdomen"
+      ],
+      "answerIndex": 2,
+      "explanation": "After a positive IGRA, a chest X-ray is essential to exclude active pulmonary TB before considering treatment for latent TB infection. This is standard UK practice (NICE).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f329ad78009b",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old asymptomatic woman born in Pakistan has a positive T-SPOT.TB test and a normal chest X-ray. She has no prior TB treatment and is not immunocompromised. Which of the following best describes this clinical scenario?",
+      "options": [
+        "False positive due to prior BCG",
+        "Latent TB infection",
+        "Old healed TB",
+        "Active pulmonary TB",
+        "Recent TB exposure only"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an asymptomatic individual with a positive IGRA and normal chest X-ray, the diagnosis is latent TB infection. IGRA positivity indicates sensitisation to M. tuberculosis antigens, and the absence of symptoms or radiographic changes rules out active disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1712156885fa",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 2-year-old child who had close contact with a confirmed TB case 6 weeks ago is being assessed. The child is asymptomatic and has not received BCG vaccination. What is the most appropriate first investigation for latent TB?",
+      "options": [
+        "Interferon-gamma release assay",
+        "Mantoux test (tuberculin skin test)",
+        "CT head",
+        "Gastric lavage for culture",
+        "Chest X-ray"
+      ],
+      "answerIndex": 1,
+      "explanation": "For children under 2 years old, NICE recommends tuberculin skin testing (Mantoux) as the first-line test because IGRA may be less sensitive in this age group.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b760f9d4f254",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with no prior BCG has a positive Mantoux test (15mm induration) during contact screening. A subsequent IGRA (Quantiferon-TB Gold) is negative. He is asymptomatic with a normal chest X-ray. What is the most likely cause of these discordant results?",
+      "options": [
+        "Laboratory error in the IGRA",
+        "Prior BCG vaccination",
+        "False positive Mantoux due to non-tuberculous mycobacteria",
+        "Recent TB infection in the window period",
+        "Latent TB infection with anergic IGRA"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a BCG-naïve individual, a positive Mantoux can be due to non-tuberculous mycobacteria (NTM) exposure, which is common in the environment. IGRA is specific for M. tuberculosis, so a negative IGRA suggests the Mantoux reaction is a false positive from NTM.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "562b1e21a4e1",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 25-year-old healthcare worker is found to have a positive IGRA during pre-employment screening. Chest X-ray is normal and she has no symptoms. She has no known TB contact. What is the most appropriate first-line treatment for her latent TB infection?",
+      "options": [
+        "Isoniazid 300 mg daily for 6 months",
+        "Pyrazinamide and ethambutol for 2 months",
+        "Rifampicin 600 mg daily for 4 months",
+        "BCG vaccination",
+        "Isoniazid and rifampicin for 3 months"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends 3 months of rifampicin and isoniazid as first-line for latent TB in adults aged 15–65. 6 months isoniazid is an alternative but less preferred due to adherence. Rifampicin monotherapy is a second-line option. Pyrazinamide/ethambutol are for active TB; BCG is prophylaxis not treatment of latent infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a98c0b1518b2",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old man with chronic hepatitis B (well-controlled on tenofovir) is found to have latent TB after a contact investigation. He has no active disease. Which treatment is contraindicated in this patient?",
+      "options": [
+        "Rifampicin 600 mg daily for 4 months",
+        "Isoniazid 300 mg daily for 6 months",
+        "Isoniazid and rifampicin for 3 months",
+        "No further action",
+        "BCG vaccination"
+      ],
+      "answerIndex": 1,
+      "explanation": "Isoniazid is hepatotoxic and should be avoided in patients with pre-existing liver disease. Rifampicin alone is a safer alternative. The combination also contains isoniazid, so it is also contraindicated, but isoniazid monotherapy is the most clearly hepatotoxic regimen. BCG is not treatment for latent TB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "74c74226c5f0",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man on rifampicin and isoniazid for latent TB develops jaundice and elevated liver enzymes (ALT 600 U/L). He denies other hepatotoxic drugs. Which drug should be permanently discontinued?",
+      "options": [
+        "Rifampicin",
+        "Pyrazinamide",
+        "Ethambutol",
+        "Both rifampicin and isoniazid",
+        "Isoniazid"
+      ],
+      "answerIndex": 4,
+      "explanation": "Isoniazid is the most common cause of drug-induced liver injury in latent TB treatment. Standard management is to stop isoniazid and continue rifampicin if LFTs are improving. Pyrazinamide and ethambutol are not used in latent TB.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c8bf501c400d",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) has a positive IGRA after close contact with a smear-positive TB case. Chest X-ray is normal and she is asymptomatic. Which regimen is recommended for treating her latent TB infection?",
+      "options": [
+        "Isoniazid 300 mg daily for 6 months with pyridoxine",
+        "Isoniazid and rifampicin for 3 months",
+        "Defer treatment until after delivery",
+        "BCG vaccination",
+        "Rifampicin 600 mg daily for 4 months"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, NICE recommends isoniazid with pyridoxine for 6 months as first-line for latent TB when risk of progression is high. Rifampicin is safe but less evidence. The 3-month combination is not recommended due to limited safety data. Deferral may be considered for low-risk cases, but here the risk is high.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a8238ce4bb03",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man developed isoniazid-induced hepatitis after 2 months of treatment for latent TB. After liver function normalises, he still requires treatment. Which alternative regimen is most appropriate?",
+      "options": [
+        "Pyrazinamide and ethambutol for 2 months",
+        "Rifampicin and pyrazinamide for 2 months",
+        "Rifampicin 600 mg daily for 4 months",
+        "No further treatment",
+        "BCG vaccination"
+      ],
+      "answerIndex": 2,
+      "explanation": "For patients intolerant of isoniazid, rifampicin monotherapy for 4 months is the recommended alternative in UK guidelines. Pyrazinamide-based regimens are for active TB and not recommended for latent infection. BCG is not treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3f23913e8869",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 26-year-old healthcare worker presents for occupational health screening. She is asymptomatic. Her IGRA is positive. A chest X-ray is normal. What is the immediate next step?",
+      "options": [
+        "Refer to a TB specialist clinic",
+        "Arrange liver function tests",
+        "Start rifampicin plus isoniazid",
+        "Prescribe pyridoxine supplementation",
+        "Perform a CT scan of the chest"
+      ],
+      "answerIndex": 0,
+      "explanation": "After confirming a positive IGRA and normal chest X-ray, the next step is to refer to a TB specialist for assessment and shared decision-making regarding treatment. Starting treatment without specialist input is not appropriate, and baseline investigations (e.g., LFTs) should be arranged by the specialist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ed770b52221",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old immunocompetent man, close contact of a smear-positive TB case, is asymptomatic with a normal chest X-ray and positive IGRA. After discussing risks and benefits, he opts for latent TB treatment. The doctor decides to prescribe a 3-month regimen of rifampicin and isoniazid. Before prescribing, what is the most important immediate next action?",
+      "options": [
+        "Check renal function",
+        "Prescribe pyridoxine",
+        "Check liver function tests",
+        "Arrange a full blood count",
+        "Obtain a sputum sample"
+      ],
+      "answerIndex": 2,
+      "explanation": "Baseline liver function tests are essential before starting isoniazid due to its hepatotoxicity. Pyridoxine is co-prescribed to prevent neuropathy, but LFTs take priority as a safety step. Renal function and FBC are not routinely required, and sputum is unnecessary as active TB has been excluded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c15e145383cc",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman on a 6-month course of isoniazid (without rifampicin) for latent TB presents to the emergency department with jaundice, nausea, and right upper quadrant pain. Her ALT is 800 IU/L. What is the immediate next step?",
+      "options": [
+        "Refer for urgent liver transplant assessment",
+        "Stop isoniazid immediately and monitor LFTs",
+        "Check viral hepatitis serology",
+        "Switch isoniazid to rifampicin",
+        "Administer N-acetylcysteine"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is likely isoniazid-induced hepatitis. The immediate action is to stop the offending drug. N-acetylcysteine is specific for paracetamol overdose. Serology can be sent but is not the first step. Severe hepatotoxicity may require transplant later, but drug cessation is the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f1738f29c965",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 29-year-old pregnant woman at 28 weeks’ gestation, a household contact of a smear-positive pulmonary TB case, is asymptomatic. Her IGRA is positive and chest X-ray (with abdominal shielding) is normal. What is the immediate next step?",
+      "options": [
+        "Perform amniocentesis",
+        "Start isoniazid alone with pyridoxine",
+        "Delay treatment until postpartum",
+        "Start rifampicin and isoniazid",
+        "Refer to a TB specialist for risk assessment"
+      ],
+      "answerIndex": 4,
+      "explanation": "Management of latent TB in pregnancy is complex, requiring specialist input to weigh risks of treatment versus deferral. Immediate referral is appropriate; treatment may be delayed or initiated after multidisciplinary discussion. Amniocentesis is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9fe855190323",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man on rifampicin and isoniazid for latent TB develops acute dyspnoea, stridor, hypotension, and generalised urticaria 30 minutes after taking his morning dose. What is the immediate next action?",
+      "options": [
+        "Perform a chest X-ray",
+        "Stop all anti-TB medications",
+        "Administer intramuscular adrenaline (epinephrine)",
+        "Check a full blood count with eosinophils",
+        "Prescribe oral chlorphenamine"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is anaphylaxis (likely drug-induced). The immediate priority is to give intramuscular adrenaline. Stopping the drug is important but secondary to life-saving treatment. Antihistamines are adjunctive; investigations can wait.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "491109307d82",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old healthcare worker is started on isoniazid preventive therapy for latent TB. After 6 weeks, she reports feeling generally unwell with fatigue and nausea. Her observations are normal. Which single finding would mandate immediate cessation of therapy and urgent review?",
+      "options": [
+        "Gastric upset not controlled by taking with food",
+        "Peripheral neuropathy of the feet",
+        "Mild elevation of ALT to 2x upper limit of normal",
+        "Skin rash with eosinophilia",
+        "Jaundice with ALT >5x upper limit of normal"
+      ],
+      "answerIndex": 4,
+      "explanation": "Jaundice with ALT >5x ULN indicates severe hepatotoxicity, which is a red flag requiring immediate cessation of isoniazid. Mild ALT elevation or peripheral neuropathy are less urgent; rash and gastric upset are not emergencies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d964aef122e",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old male with known pulmonary tuberculosis develops progressive dyspnoea and chest discomfort. Echocardiogram shows a moderate pericardial effusion. Which clinical sign would most strongly suggest the development of cardiac tamponade requiring urgent drainage?",
+      "options": [
+        "Hypoxaemia on pulse oximetry",
+        "Sternal tenderness",
+        "Loud pericardial rub",
+        "Pulsus paradoxus of 15 mmHg",
+        "Fever of 38.5°C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pulsus paradoxus >10 mmHg is a key sign of cardiac tamponade. Fever and pericardial rub are non-specific; hypoxaemia may occur but is not as specific; sternal tenderness is not typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "24a4de4571f0",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old immunocompetent woman presents with a 3-week history of fever, headache, and vomiting. On examination, she has neck stiffness and photophobia. Lumbar puncture shows lymphocytic pleocytosis, low glucose, and raised protein. Which single clinical finding would be most suggestive of raised intracranial pressure requiring emergent neuroimaging and neurosurgical consultation?",
+      "options": [
+        "Bilateral papilloedema",
+        "Kernig's sign",
+        "Abducens nerve palsy",
+        "Hyperreflexia",
+        "Nystagmus"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bilateral papilloedema is a direct sign of raised intracranial pressure (ICP). Abducens palsy is a false localising sign but less specific; hyperreflexia and nystagmus are not specific for ICP; Kernig's sign indicates meningism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d6d3fec9fef7",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with known pulmonary tuberculosis complains of gradual-onset back pain for 2 months. MRI shows vertebral body destruction at T10 with a paraspinal abscess. Which single symptom would be an indication for urgent surgical decompression?",
+      "options": [
+        "A 10-degree kyphosis",
+        "Urinary retention with overflow incontinence",
+        "Mild lower limb weakness (4/5)",
+        "Bilateral sciatica",
+        "Nocturnal back pain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Urinary retention with overflow incontinence indicates cauda equina syndrome, a surgical emergency. Nocturnal back pain and kyphosis are not urgent; sciatica may be radicular but not emergency; mild weakness can be monitored.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "da858676685c",
+      "topic": "Tuberculosis — Latent",
+      "slug": "tuberculosis-—-latent",
+      "system": "Infectious Diseases",
+      "subSystem": "TB",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man with HIV (CD4 count 80 cells/µL) is started on antiretroviral therapy 2 weeks ago. He had been on treatment for latent TB for 6 weeks. He now presents with fever, weight loss, and cough. Chest X-ray shows new bilateral hilar lymphadenopathy. Which single feature most strongly supports a diagnosis of immune reconstitution inflammatory syndrome (IRIS) rather than active TB treatment failure?",
+      "options": [
+        "Positive sputum culture for TB",
+        "Hypoalbuminaemia",
+        "Elevated ESR",
+        "Fever of 38.0°C",
+        "New mediastinal lymphadenopathy on chest X-ray"
+      ],
+      "answerIndex": 4,
+      "explanation": "New mediastinal lymphadenopathy after starting ART in the context of TB treatment is classic for IRIS. Fever and elevated ESR are non-specific; positive sputum culture indicates active TB; hypoalbuminaemia is not specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "Gallstones",
+  "slug": "gallstones",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Biliary",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:05Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "fe94708cfce3",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with a 2-hour history of right upper quadrant pain after eating a large, fatty meal. She is afebrile, observations normal. Abdominal exam soft with mild tenderness in RUQ. LFTs normal. Urine hCG negative. Abdominal ultrasound shows multiple gallstones, no thickened gallbladder wall, normal common bile duct. What is the single most likely diagnosis?",
+      "options": [
+        "Acute cholangitis",
+        "Acute cholecystitis",
+        "Biliary colic",
+        "Peptic ulcer disease",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The intermittent pain after a fatty meal with normal inflammatory markers and ultrasound (no wall thickening, no CBD dilation) is classic for biliary colic. Acute cholecystitis would have persistent pain, fever, and thickened gallbladder wall.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a6c60f6f8eee",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man presents with 24 hours of constant right upper quadrant pain, fever of 38.2°C, and nausea. On exam, there is guarding and a positive Murphy's sign. Bloods show WCC 14×10^9/L, CRP 120 mg/L, normal LFTs. Ultrasound shows a thickened gallbladder wall (5mm), pericholecystic fluid, and gallstones. What is the single most likely diagnosis?",
+      "options": [
+        "Hepatic abscess",
+        "Acute pancreatitis",
+        "Biliary colic",
+        "Acute cholangitis",
+        "Acute cholecystitis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of constant RUQ pain, fever, Murphy's sign, and ultrasound findings of thickened gallbladder wall indicate acute cholecystitis. Biliary colic is intermittent and afebrile; cholangitis would involve jaundice and dilated CBD; pancreatitis has epigastric pain and raised amylase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd8f61c90f6a",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman presents with rigors, right upper quadrant pain, and jaundice. She is hypotensive and tachycardic. Bloods show WCC 18×10^9/L, bilirubin 85 µmol/L, ALP 450 U/L, ALT 120 U/L. Abdominal ultrasound shows a dilated common bile duct (12mm) and multiple gallstones. What is the single most likely diagnosis?",
+      "options": [
+        "Acute cholangitis",
+        "Biliary colic",
+        "Acute cholecystitis",
+        "Liver abscess",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Charcot's triad (fever, jaundice, RUQ pain) plus dilated CBD on ultrasound is diagnostic of acute cholangitis. This is a surgical emergency. Acute cholecystitis lacks jaundice and dilated CBD; pancreatitis has epigastric pain and raised amylase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a7e197f6e8bf",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with sudden onset epigastric pain radiating to the back, nausea, and vomiting. She has a history of gallstones. On exam, epigastric tenderness with guarding. Bloods show lipase 1200 U/L, ALT 90 U/L, bilirubin 25 µmol/L. Abdominal ultrasound shows multiple gallstones, no CBD dilation. What is the single most likely diagnosis?",
+      "options": [
+        "Biliary colic",
+        "Acute cholecystitis",
+        "Acute pancreatitis (gallstone-induced)",
+        "Perforated peptic ulcer",
+        "Acute cholangitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The epigastric pain radiating to back with markedly raised lipase confirms acute pancreatitis. Gallstones are the most common cause in the UK. Cholecystitis would have RUQ pain and Murphy's sign; cholangitis would have jaundice and dilated CBD; perforated ulcer would have peritonitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "801028417b68",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman presents with jaundice and right upper quadrant pain for 1 week. She is afebrile. Bloods show bilirubin 60 µmol/L, ALP 300 U/L, ALT 80 U/L, normal WCC. Abdominal ultrasound shows a gallstone impacted in the gallbladder neck, dilated intrahepatic ducts, but a normal common bile duct diameter (6mm). What is the single most likely diagnosis?",
+      "options": [
+        "Acute cholangitis",
+        "Mirizzi syndrome",
+        "Common bile duct stone",
+        "Acute cholecystitis",
+        "Cholangiocarcinoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mirizzi syndrome occurs when a gallstone in the cystic duct or Hartmann's pouch compresses the common hepatic duct, causing jaundice with dilated intrahepatic ducts but a normal CBD. Cholangitis would have fever and dilated CBD; CBD stone would show dilated CBD; cholangiocarcinoma would more likely have a mass on imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a720ed73278a",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman presents with intermittent right upper quadrant pain triggered by fatty meals. She is afebrile, and her liver function tests are normal. What is the most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "HIDA scan",
+        "MRCP",
+        "Oesophagogastroduodenoscopy (OGD)",
+        "Abdominal ultrasound",
+        "CT scan of the abdomen"
+      ],
+      "answerIndex": 3,
+      "explanation": "Abdominal ultrasound is the first-line imaging for suspected gallstones, with high sensitivity and specificity for gallbladder stones, and is safe and non-invasive. CT and MRCP are reserved for more complex cases or when complications are suspected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f717b7dc7a25",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man presents with fever, right upper quadrant pain, and jaundice (Charcot's triad). An initial ultrasound shows gallbladder stones and a dilated common bile duct (10 mm). What is the most appropriate next investigation to confirm the presence of a common bile duct stone?",
+      "options": [
+        "Endoscopic ultrasound",
+        "HIDA scan",
+        "MRCP",
+        "ERCP",
+        "CT abdomen with contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRCP is the non-invasive gold standard for detecting common bile duct stones, avoiding the risks of ERCP. In acute cholangitis, ERCP is therapeutic but not the first diagnostic step after inconclusive ultrasound.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e5fb390dc569",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with a history of gallstones presents with colicky right upper quadrant pain, now vomiting and obstipated. Abdominal examination shows distension and tympany. Plain abdominal X-ray reveals small bowel obstruction and pneumobilia. Which imaging investigation is most likely to confirm the diagnosis of gallstone ileus?",
+      "options": [
+        "Abdominal ultrasound",
+        "ERCP",
+        "MRCP",
+        "CT abdomen",
+        "Upper GI contrast study"
+      ],
+      "answerIndex": 3,
+      "explanation": "CT abdomen demonstrates the triad of gallstone ileus: pneumobilia, small bowel obstruction, and an ectopic gallstone, often in the terminal ileum, with high sensitivity. Plain film may show it but CT is confirmatory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1a313f70c8b2",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 28 weeks gestation presents with right upper quadrant pain radiating to the back, after eating. She is anxious about radiation exposure. What is the most appropriate initial investigation?",
+      "options": [
+        "Abdominal ultrasound",
+        "MRCP",
+        "Laparoscopy",
+        "CT abdomen",
+        "Endoscopic ultrasound"
+      ],
+      "answerIndex": 0,
+      "explanation": "Abdominal ultrasound is safe in pregnancy, avoids ionising radiation, and is highly sensitive for gallbladder stones. MRCP is second-line if ultrasound is inconclusive but has no radiation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6d2adb45f935",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with known asymptomatic gallstones on ultrasound has routine liver function tests showing: bilirubin 40 µmol/L (0–21), ALP 250 U/L (30–130), ALT 80 U/L (10–40), GGT 150 U/L (0–50). Which pattern best suggests the development of a complication?",
+      "options": [
+        "Haemolysis",
+        "Gilbert's syndrome",
+        "Alcoholic liver disease",
+        "Obstructive jaundice",
+        "Acute hepatitis"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rise in bilirubin, ALP, and GGT with a relatively mild ALT elevation is characteristic of obstructive jaundice, commonly due to a common bile duct stone in a patient with gallstones. This pattern is not seen in haemolysis (normal ALP) or Gilbert's (normal liver enzymes).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "51f0eae175f6",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with recurrent right upper quadrant pain after fatty meals. Ultrasound confirms multiple gallbladder stones. She is afebrile with normal LFTs. What is the most appropriate definitive treatment?",
+      "options": [
+        "ERCP with sphincterotomy",
+        "Open cholecystectomy",
+        "Watchful waiting",
+        "Oral ursodeoxycholic acid",
+        "Laparoscopic cholecystectomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "For symptomatic gallstones (biliary colic) with a functioning gallbladder, laparoscopic cholecystectomy is the gold standard definitive treatment. Oral dissolution therapy is only for small, non-calcified stones in patients unfit for surgery, and ERCP is reserved for duct stones.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4eee738f08d9",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with acute right upper quadrant pain, fever (38.5°C), and a positive Murphy's sign. WCC is 15 ×10^9/L. Ultrasound shows a thick-walled gallbladder with stones and pericholecystic fluid. What is the most appropriate definitive management?",
+      "options": [
+        "Open cholecystectomy",
+        "Conservative management with intravenous antibiotics",
+        "ERCP",
+        "Percutaneous cholecystostomy",
+        "Laparoscopic cholecystectomy within 7 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "For acute cholecystitis, early laparoscopic cholecystectomy (within 7 days of presentation, ideally during the same admission) is recommended by NICE. Conservative management with delayed surgery is an alternative but not first-line for fit patients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0930c406993",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with severe epigastric pain radiating to the back, vomiting, and a Glasgow score of 6. CT shows necrotizing pancreatitis and gallstones in the gallbladder. She has a serum bilirubin of 50 µmol/L. What is the most appropriate next step in management?",
+      "options": [
+        "Conservative management with fluid resuscitation",
+        "Percutaneous cholecystostomy",
+        "Laparoscopic cholecystectomy",
+        "ERCP with sphincterotomy and stone extraction",
+        "Open cholecystectomy"
+      ],
+      "answerIndex": 3,
+      "explanation": "In severe gallstone pancreatitis with evidence of choledocholithiasis (elevated bilirubin), urgent ERCP (within 24-72 hours) is indicated to reduce complications. Cholecystectomy is deferred until after pancreatitis resolves.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dc19fd2090de",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man presents with jaundice, right upper quadrant pain, fever, and rigors. LFTs show obstructive pattern, and ultrasound reveals a dilated common bile duct with stones. What is the most appropriate definitive treatment?",
+      "options": [
+        "Laparoscopic cholecystectomy",
+        "Open common bile duct exploration",
+        "Intravenous antibiotics alone",
+        "Percutaneous transhepatic cholangiography (PTC)",
+        "ERCP with sphincterotomy and stone extraction"
+      ],
+      "answerIndex": 4,
+      "explanation": "For acute cholangitis secondary to choledocholithiasis, urgent biliary drainage via ERCP (with sphincterotomy and stone extraction) is the first-line treatment. Antibiotics are adjunctive but not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "310cc359db96",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 20 weeks gestation presents with two episodes of biliary colic. Ultrasound shows multiple gallbladder stones. She is otherwise well. What is the most appropriate management?",
+      "options": [
+        "ERCP with sphincterotomy",
+        "Laparoscopic cholecystectomy in the second trimester",
+        "Open cholecystectomy",
+        "Oral ursodeoxycholic acid",
+        "Conservative management with dietary advice"
+      ],
+      "answerIndex": 1,
+      "explanation": "For recurrent symptomatic gallstones in pregnancy, laparoscopic cholecystectomy in the second trimester is recommended by NICE as it reduces the risk of recurrent attacks and complications. Conservative management is not preferred for recurrent symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4cdfe71b2ebe",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents to the emergency department with a 2-hour history of severe right upper quadrant pain radiating to the right shoulder. She is nauseous but has not vomited. Observations: temperature 36.9°C, pulse 75 bpm, BP 125/80 mmHg. Abdominal examination reveals mild tenderness in the RUQ, no guarding or rebound. Murphy's sign is negative. She has had two similar episodes in the past few months. What is the most appropriate immediate next action?",
+      "options": [
+        "Prescribe oral morphine sulphate",
+        "Give diclofenac 75mg intramuscularly",
+        "Request an MRCP",
+        "Refer for elective laparoscopic cholecystectomy",
+        "Arrange an urgent abdominal ultrasound"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is classical biliary colic. The immediate priority is pain relief. NSAIDs (e.g. diclofenac) are first-line. Oral morphine may cause sphincter of Oddi spasm and is less effective. Arranging ultrasound is important but not immediate; cholecystectomy is elective; MRCP is not indicated without jaundice or ductal dilatation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c1851992ef77",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with a 2-day history of right upper quadrant pain, fever, and vomiting. On examination, temperature 38.5°C, pulse 95 bpm, BP 110/70 mmHg. There is tenderness and guarding in the RUQ, and Murphy's sign is positive. White cell count 14 x 10^9/L, CRP 120 mg/L, bilirubin 25 µmol/L, ALP 150 U/L, ALT 60 U/L. What is the most appropriate immediate next action?",
+      "options": [
+        "Start intravenous co-amoxiclav",
+        "Prescribe oral ciprofloxacin and metronidazole",
+        "Arrange an urgent CT abdomen",
+        "Request a surgical review",
+        "Perform an emergency ERCP"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is acute cholecystitis (Murphy's positive, fever, elevated inflammatory markers). NICE recommends antibiotics and early cholecystectomy. The immediate action is to start IV antibiotics (co-amoxiclav first line). ERCP is not indicated without cholangitis. CT is not needed first line. Oral antibiotics are inappropriate in an unwell patient. Surgical review is important but antibiotic therapy is more immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d461c3f4ec15",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with known gallstones presents with jaundice, fever, and right upper quadrant pain. Observations: temperature 39.1°C, pulse 100 bpm, BP 100/70 mmHg. Abdominal examination reveals tenderness in the RUQ. What is the most appropriate immediate next action?",
+      "options": [
+        "Give a 500ml bolus of 0.9% sodium chloride",
+        "Perform an abdominal ultrasound",
+        "Start intravenous broad-spectrum antibiotics",
+        "Arrange an urgent ERCP",
+        "Take blood cultures and wait for results"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is acute cholangitis (Charcot's triad). The immediate priority is to start IV broad-spectrum antibiotics and provide fluid resuscitation. Among the options, starting antibiotics is the most critical to control sepsis. ERCP is needed for definitive biliary drainage but is not the immediate first step. Ultrasound is not diagnostic for cholangitis. Blood cultures should be taken but are not the single most immediate action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d80c44b5a9f3",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 80-year-old woman with a history of cholecystectomy 10 years ago presents with vomiting, abdominal distension, and absolute constipation. She has not passed flatus for 48 hours. Plain abdominal X-ray shows dilated small bowel loops with an air-fluid level. A calcified structure is seen in the right iliac fossa. What is the most appropriate immediate next action?",
+      "options": [
+        "Insert a nasogastric tube and start IV fluids",
+        "Refer for emergency laparotomy",
+        "Arrange a CT abdomen with oral contrast",
+        "Request a small bowel follow-through",
+        "Prescribe prokinetic agents"
+      ],
+      "answerIndex": 2,
+      "explanation": "Suspected gallstone ileus based on radiographic signs (calcified stone in small bowel, small bowel obstruction). CT is the diagnostic test of choice to confirm and plan surgery. NG tube and fluids are supportive but not diagnostic. Laparotomy without imaging may be premature. Small bowel follow-through is less accurate. Prokinetics are contraindicated in obstruction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cd6b51ec69a1",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old woman who is 30 weeks pregnant presents to the surgical clinic with recurrent right upper quadrant pain. She has known gallstones on a previous ultrasound. She is afebrile, observations normal. She is anxious about the pain and its effect on the baby. What is the most appropriate immediate next action?",
+      "options": [
+        "Schedule an elective laparoscopic cholecystectomy in the second trimester",
+        "Refer for urgent endoscopic retrograde cholangiopancreatography (ERCP)",
+        "Arrange an urgent abdominal ultrasound",
+        "Prescribe a course of oral antibiotics",
+        "Reassure her and advise that surgery will be planned after delivery"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnant women with uncomplicated biliary colic, the recommended management is conservative with planned postpartum cholecystectomy. Surgery during pregnancy is reserved for complicated cases. ERCP is not indicated without evidence of ductal obstruction. Antibiotics are not needed without infection. Ultrasound is not necessary as diagnosis is known.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e58cc9a68751",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman presents to the emergency department with sudden onset severe epigastric pain radiating to the back, following a fatty meal. She has a known history of gallstones. Which single finding most strongly suggests that this is acute pancreatitis rather than biliary colic?",
+      "options": [
+        "Fever",
+        "Epigastric tenderness",
+        "Jaundice",
+        "Vomiting",
+        "Raised serum amylase"
+      ],
+      "answerIndex": 4,
+      "explanation": "Raised serum amylase (or lipase) is diagnostic of acute pancreatitis, a life-threatening condition. Biliary colic typically does not cause significant amylase elevation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ac14706a757e",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with known gallstones presents with right upper quadrant pain, fever of 38.5°C, and mild jaundice. He is haemodynamically stable. Which single clinical finding would indicate that he has developed severe cholangitis requiring urgent intervention?",
+      "options": [
+        "Dark urine",
+        "Hypotension",
+        "Rigors",
+        "Tachycardia",
+        "Confusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension is part of Reynolds' pentad (hypotension and confusion with Charcot's triad) and signifies severe cholangitis with septic shock, mandating urgent biliary drainage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "97a4a8107617",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with gallstones is diagnosed with acute pancreatitis. Her Glasgow-Imrie score is 4. Which single finding on contrast-enhanced CT would confirm severe necrotising pancreatitis?",
+      "options": [
+        "Pseudocyst",
+        "Pancreatic necrosis",
+        "Pleural effusion",
+        "Peripancreatic fluid",
+        "Ascites"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pancreatic necrosis (lack of enhancement on contrast CT) is the hallmark of severe necrotising pancreatitis, associated with high morbidity and often requiring intensive care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b8942f822747",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 75-year-old woman presents with colicky abdominal pain, vomiting, and absolute constipation. She has no history of previous surgery. Plain abdominal X-ray shows dilated small bowel loops. Which single additional finding would strongly suggest gallstone ileus?",
+      "options": [
+        "Air-fluid levels",
+        "Small bowel wall thickening",
+        "A calcified pelvic mass",
+        "Gas in the biliary tree",
+        "Faecal loading"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gas in the biliary tree (pneumobilia) without prior biliary surgery indicates a biliary-enteric fistula, classically from an impacted gallstone causing gallstone ileus.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b18df156306",
+      "topic": "Gallstones",
+      "slug": "gallstones",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Biliary",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old pregnant woman at 28 weeks gestation presents with severe right upper quadrant pain and nausea. She has a history of gallstones. On examination, she is afebrile with normal blood pressure and no proteinuria. Which single clinical sign would most strongly suggest acute cholecystitis rather than HELLP syndrome?",
+      "options": [
+        "Elevated liver enzymes",
+        "Murphy's sign",
+        "Right upper quadrant tenderness",
+        "Oedema",
+        "Hypertension"
+      ],
+      "answerIndex": 1,
+      "explanation": "Murphy's sign (inspiratory arrest on palpation of the RUQ) is highly specific for acute cholecystitis. HELLP syndrome typically presents with hypertension, proteinuria, and elevated liver enzymes, not Murphy's sign.",
+      "difficulty": "medium"
+    }
+  ]
+}

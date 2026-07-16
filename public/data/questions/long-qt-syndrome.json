@@ -1,0 +1,513 @@
+{
+  "topic": "Long QT Syndrome",
+  "slug": "long-qt-syndrome",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:36:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "ea9cea0de424",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman collapses while playing football. There is no prodrome, no chest pain, and she regains consciousness quickly. Family history: brother died suddenly aged 18. ECG shows QTc 490 ms. What is the single most likely diagnosis?",
+      "options": [
+        "Wolff-Parkinson-White syndrome",
+        "Congenital long QT syndrome",
+        "Vasovagal syncope",
+        "Hypertrophic cardiomyopathy",
+        "Brugada syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exercise-triggered syncope with family history of sudden death and prolonged QTc strongly suggests congenital long QT syndrome (LQTS). Brugada syndrome typically shows ST elevation in V1-V3, hypertrophic cardiomyopathy would likely show LVH on ECG or echo, WPW shows pre-excitation, and vasovagal syncope is not exercise-induced and has normal ECG.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a759502124b9",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 45-year-old man is admitted for community-acquired pneumonia and started on levofloxacin. Routine ECG shows QTc 480 ms. He is asymptomatic. Serum electrolytes are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Acute coronary syndrome",
+        "Hypothermia",
+        "Drug-induced long QT syndrome",
+        "Hypocalcaemia",
+        "Hypokalaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Levofloxacin is a fluoroquinolone known to prolong QT; with normal electrolytes and acute antibiotic initiation, drug-induced LQTS is most likely. Hypocalcaemia typically prolongs the ST segment, hypokalaemia causes U waves, ACS would have symptoms or ischaemic changes, and hypothermia would have other clinical features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cbd100a4e490",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman on sotalol for atrial fibrillation presents with palpitations and collapse. Monitor shows polymorphic ventricular tachycardia (torsades de pointes). Electrolytes: K+ 3.2 mmol/L, Mg2+ 0.6 mmol/L. What is the single most likely underlying diagnosis?",
+      "options": [
+        "Acquired long QT syndrome (drug-induced)",
+        "Hypomagnesaemia alone",
+        "Acute myocardial infarction",
+        "Catecholaminergic polymorphic ventricular tachycardia",
+        "Hypokalaemia alone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sotalol is a class III antiarrhythmic that prolongs QT. Torsades in the setting of sotalol with mild electrolyte abnormalities is classic for acquired LQTS. While hypokalaemia and hypomagnesaemia contribute, they rarely cause torsades without a QT-prolonging drug. ACS would show ischaemic changes; CPVT is not drug-induced.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "89d52d76eb35",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 30-year-old man is found unconscious at home and resuscitated from ventricular fibrillation. Post-arrest ECG shows QTc 510 ms. He has no known drug history, normal electrolytes, and a normal echocardiogram. What is the single most likely diagnosis?",
+      "options": [
+        "Anderson-Tawil syndrome",
+        "Congenital long QT syndrome",
+        "Acquired long QT syndrome (e.g., undiagnosed drug)",
+        "Arrhythmogenic right ventricular cardiomyopathy",
+        "Dilated cardiomyopathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "A young VF survivor with prolonged QTc in the absence of drugs or electrolyte abnormalities strongly suggests congenital LQTS. Acquired LQTS would require an offending agent; ARVC typically shows RV abnormalities; DCM shows LV dilation; Anderson-Tawil syndrome includes periodic paralysis and dysmorphism.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4afc1cf048f5",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman on citalopram 40 mg daily presents with recurrent dizziness. ECG shows QTc 500 ms. She has no syncope. Thyroid function is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Hypothyroidism",
+        "Drug-induced long QT syndrome (citalopram)",
+        "Subarachnoid haemorrhage",
+        "Sick sinus syndrome",
+        "Takotsubo cardiomyopathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Citalopram is known for dose-dependent QT prolongation, especially in the elderly. With normal thyroid function and no acute neurological symptoms, drug-induced LQTS is most likely. Hypothyroidism causes bradycardia and low voltage; SAH would have acute headache; Takotsubo typically has apical ballooning on echo; sick sinus syndrome presents with pauses or bradycardia, not isolated QT prolongation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a67d17cb3cdf",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with a single episode of syncope while swimming. Her father died suddenly aged 35. Resting ECG shows a QTc of 490 ms. Which single investigation is most appropriate to confirm the diagnosis of congenital long QT syndrome?",
+      "options": [
+        "Transthoracic echocardiogram",
+        "Genetic testing for LQTS-associated genes",
+        "Drug challenge with epinephrine",
+        "Exercise stress test",
+        "24-hour Holter monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Genetic testing confirms the diagnosis of congenital LQTS, especially with a clear family history and prolonged QTc. Exercise testing and Holter are supportive but not diagnostic; echocardiography rules out structural disease; epinephrine challenge is used in borderline cases but is not first-line for confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6745d0cb22a5",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man is brought to the emergency department after a witnessed collapse. ECG on arrival shows torsades de pointes, which self-terminates. The post-arrest ECG reveals a QTc of 520 ms. He is on no regular medications. Which investigation is the single most appropriate next step to identify the likely cause?",
+      "options": [
+        "Urine toxicology screen",
+        "Coronary angiography",
+        "Transthoracic echocardiogram",
+        "Head CT scan",
+        "Serum potassium, magnesium, and calcium levels"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acquired LQTS often results from electrolyte disturbances (hypokalemia, hypomagnesemia, hypocalcemia). Urgent measurement of K+, Mg2+, and Ca2+ is the never-miss test in torsades de pointes. Drug screen, echo, and angiography are relevant in other contexts but not the first-line cause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e03a2b886972",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 50-year-old asymptomatic woman is found to have a QTc of 480 ms on an ECG performed as part of a health screen. She has no family history of arrhythmia or sudden death. Which single investigation is the most appropriate next step?",
+      "options": [
+        "Repeat ECG in 3 months",
+        "Exercise stress test",
+        "24-hour Holter monitor",
+        "Genetic testing for LQTS",
+        "Tilt-table test"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first step in an asymptomatic patient with incidental QTc prolongation and no family history is to repeat the ECG to confirm persistence, as QT can vary. Exercise testing and Holter are second-line; genetic testing is not indicated without suggestive features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef146ce17714",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 10-year-old boy has a known family history of long QT syndrome (type 1). His resting ECG shows a QTc of 440 ms (normal). Which single investigation is most appropriate to establish whether he has the condition?",
+      "options": [
+        "Exercise stress test",
+        "Adenosine challenge",
+        "24-hour Holter monitor",
+        "Repeat ECG with higher leads",
+        "Genetic testing for the familial mutation"
+      ],
+      "answerIndex": 4,
+      "explanation": "If the family mutation is known, genetic testing is the definitive diagnostic test. Exercise testing might unmask QT prolongation in some LQTS types but is less sensitive and specific than genetic testing in this scenario. Holter and repeat ECG are less likely to be diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0710dd1b96d0",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with known long QT syndrome (type 2) on bisoprolol presents with a further syncopal episode. His resting QTc is 500 ms. Which exercise test finding would be most consistent with the diagnosis of LQTS and indicate a higher risk?",
+      "options": [
+        "Increase in QTc to 580 ms in the recovery period",
+        "Failure of the QT interval to shorten adequately during exercise",
+        "Normalisation of QTc at peak exercise",
+        "Development of T-wave alternans at 3 minutes",
+        "Shortening of QTc >50 ms at peak exercise"
+      ],
+      "answerIndex": 1,
+      "explanation": "In LQTS, the hallmark is failure of the QT interval to shorten appropriately with increasing heart rate during exercise. This is a diagnostic criterion. QT shortening >50 ms is normal; T-wave alternans and excessive QTc prolongation in recovery can be seen but are not the primary diagnostic finding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6c6f41a18bc9",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old woman is referred after a family screening. Her father died suddenly at age 30, and she is asymptomatic. ECG shows QTc 480 ms. What is the most appropriate first-line management?",
+      "options": [
+        "Refer for ICD implantation",
+        "Start sotalol 80 mg twice daily",
+        "Start propranolol 80 mg once daily",
+        "Start verapamil 80 mg three times daily",
+        "Start mexiletine 200 mg three times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Beta-blockers (e.g., propranolol or nadolol) are first-line therapy for asymptomatic LQTS to reduce cardiac events. Sotalol prolongs QT and is contraindicated; verapamil and mexiletine are not first-line; ICD is reserved for high-risk or symptomatic patients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "53be2b601391",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old man with known congenital long QT syndrome presents with palpitations and dizziness. ECG shows torsade de pointes (TdP) with a pulse. His blood pressure is 110/70 mmHg. What is the most appropriate immediate treatment?",
+      "options": [
+        "Direct current (DC) cardioversion",
+        "Intravenous propranolol 1 mg",
+        "Intravenous magnesium sulfate 2 g over 10 minutes",
+        "Intravenous lidocaine 1 mg/kg",
+        "Intravenous isoprenaline infusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "IV magnesium is first-line for TdP with a pulse. DC cardioversion is for unstable/ pulseless; lidocaine and isoprenaline are not first-line; beta-blockers can worsen bradycardia that triggers TdP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dad47d532455",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with congenital long QT syndrome (type 1) develops atrial flutter requiring antiarrhythmic therapy. Which one of the following antiarrhythmic drugs is contraindicated?",
+      "options": [
+        "Propafenone",
+        "Sotalol",
+        "Flecainide",
+        "Amiodarone",
+        "Digoxin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sotalol is a class III agent that prolongs QT and is contraindicated in LQTS. Flecainide, digoxin, and propafenone have less effect on QT; amiodarone prolongs QT but is sometimes used cautiously, but sotalol is the most clearly contraindicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc8aeb0cbbc2",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 40-year-old man with long QT syndrome (QTc 500 ms) has experienced two episodes of syncope despite being on a therapeutic dose of nadolol. What is the most appropriate next step in management?",
+      "options": [
+        "Insert an implantable cardioverter-defibrillator (ICD)",
+        "Switch to propranolol",
+        "Increase nadolol dose",
+        "Add mexiletine",
+        "Perform left cardiac sympathetic denervation"
+      ],
+      "answerIndex": 0,
+      "explanation": "An ICD is indicated for secondary prevention after syncope despite beta-blockade. Adding mexiletine or sympathectomy are second-line; increasing dose or switching beta-blocker is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7ac00b24a64",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old with known long QT syndrome type 3 (SCN5A mutation) has recurrent appropriate ICD shocks for ventricular arrhythmias. Which pharmacological agent is most likely to reduce the QT interval and prevent further shocks?",
+      "options": [
+        "Propranolol",
+        "Mexiletine",
+        "Verapamil",
+        "Amiodarone",
+        "Sotalol"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mexiletine, a sodium channel blocker, shortens QT in LQTS type 3 by blocking late sodium current. Beta-blockers are less effective in type 3; sotalol and amiodarone prolong QT; verapamil is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1109306a1ec",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the emergency department with palpitations and a single syncopal episode that occurred while running. ECG shows sinus rhythm with a QTc of 480 ms. She is not on any medications. What is the most appropriate immediate next step?",
+      "options": [
+        "Request urgent genetic testing for long QT syndrome",
+        "Measure serum potassium and magnesium",
+        "Start oral propranolol 40 mg twice daily",
+        "Advise to avoid strenuous exercise",
+        "Insert a temporary pacing wire"
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking electrolytes (K+, Mg²⁺) is the immediate priority because acquired causes (especially hypokalaemia/hypomagnesaemia) are common and reversible. Starting a beta-blocker or genetic testing would be premature without excluding an electrolyte abnormality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ad2500a3b687",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with atrial fibrillation on amiodarone collapses on the ward. The cardiac monitor shows torsades de pointes. She is unresponsive and not breathing. What is the most appropriate immediate action?",
+      "options": [
+        "Give intravenous magnesium 2 g over 10 minutes",
+        "Give intravenous amiodarone 300 mg",
+        "Start chest compressions immediately",
+        "Perform synchronised cardioversion at 70 J",
+        "Perform defibrillation at 150-200 J biphasic"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pulseless torsades de pointes (VT), immediate defibrillation is the priority per ALS guidelines. Magnesium is given after defibrillation if the rhythm persists, but defibrillation must come first.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25c084332361",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with known type 1 long QT syndrome on nadolol 80 mg daily has had two syncopal spells in the past week. ECG shows a QTc of 520 ms. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer for left cardiac sympathetic denervation",
+        "Add flecainide",
+        "Arrange urgent insertion of an implantable cardioverter-defibrillator",
+        "Check serum potassium, magnesium, and calcium",
+        "Increase nadolol to 160 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Breakthrough syncope on a beta-blocker warrants exclusion of acquired causes such as electrolyte disturbances (e.g., hypokalaemia) that can further prolong QT. Checking electrolytes is quick and reversible, whereas escalating therapy or ICD insertion should follow only after reversible factors are addressed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "920150efa7b1",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with atrial fibrillation on sotalol 80 mg twice daily presents with presyncope. ECG shows a QTc of 550 ms. He is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Stop sotalol",
+        "Give intravenous magnesium",
+        "Check serum potassium and magnesium",
+        "Increase sotalol dose to 120 mg twice daily",
+        "Arrange for permanent pacemaker insertion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sotalol is a class III antiarrhythmic known to prolong QT and cause torsades. The immediate priority is to stop the offending drug. Magnesium can be given if torsades occurs, but the patient is stable; checking electrolytes is secondary to stopping sotalol.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f19a3306653d",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 19-year-old woman with anorexia nervosa presents with weakness. ECG shows a QTc of 520 ms, and serum potassium is 2.8 mmol/L. She is haemodynamically stable. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to the eating disorder team",
+        "Monitor on telemetry only",
+        "Start oral propranolol 40 mg twice daily",
+        "Insert a temporary transvenous pacing wire",
+        "Give intravenous potassium supplementation"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypokalaemia is a common cause of acquired long QT, especially in anorexia. Correcting the electrolyte imbalance (IV potassium) is the immediate priority to reduce arrhythmia risk. Beta-blockers are not first-line for acquired QT prolongation, and pacing is reserved for refractory cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "91bce89a4e4b",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents to the Emergency Department after a syncopal episode while swimming. She has a family history of sudden cardiac death in a first-degree relative. ECG shows sinus rhythm with a QTc of 490 ms. Which single finding from the history or examination most strongly predicts imminent life-threatening arrhythmia in this patient?",
+      "options": [
+        "T-wave alternans on ECG",
+        "Female sex",
+        "Syncope during exercise",
+        "QTc interval of 490 ms",
+        "Family history of sudden cardiac death"
+      ],
+      "answerIndex": 0,
+      "explanation": "T-wave alternans (beat-to-beat variation in T-wave morphology) is a marker of electrical instability and high risk for torsade de pointes in congenital LQTS, surpassing the risk conferred by QTc >500 ms. The other options are risk factors but not immediate red flags for imminent arrhythmia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2a1897018888",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man on erythromycin for a lower respiratory tract infection develops palpitations and lightheadedness. His ECG shows a QTc of 520 ms. He has normal renal function and potassium of 4.0 mmol/L. Which feature on his ECG should prompt immediate concern for progression to torsade de pointes?",
+      "options": [
+        "Left axis deviation",
+        "Prolonged PR interval",
+        "U waves",
+        "R-on-T phenomenon",
+        "ST depression"
+      ],
+      "answerIndex": 3,
+      "explanation": "R-on-T phenomenon describes an early premature ventricular complex falling on the T wave, often initiating torsade de pointes in drug-induced LQTS. This is a direct warning sign of impending arrhythmia, whereas U waves are associated with but not immediate triggers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d4ee10ee8f79",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 34-year-old woman with a history of anorexia nervosa presents with syncope. Her serum potassium is 2.3 mmol/L, and ECG shows a QTc of 560 ms. Which laboratory finding most directly correlates with the risk of cardiac arrest in this scenario?",
+      "options": [
+        "Serum calcium 2.2 mmol/L",
+        "Serum phosphate 0.7 mmol/L",
+        "pH 7.48 on venous blood gas",
+        "Serum sodium 132 mmol/L",
+        "Serum magnesium 0.65 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hypomagnesaemia (<0.7 mmol/L) frequently accompanies hypokalaemia in anorexia and predisposes to torsade de pointes by prolonging repolarisation. Correcting potassium alone is insufficient without magnesium. The other electrolyte abnormalities are less directly arrhythmogenic in LQTS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "183fa1f0a466",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man with known long QT syndrome (Jervell and Lange-Nielsen type) and bilateral sensorineural deafness presents after a seizure-like episode at rest. Which historical or examination feature is most indicative that this episode was a cardiac syncope rather than a neurological seizure?",
+      "options": [
+        "Prolonged post-event fatigue",
+        "Urinary incontinence",
+        "Tongue biting",
+        "Post-ictal confusion",
+        "Brief loss of consciousness with spontaneous recovery"
+      ],
+      "answerIndex": 4,
+      "explanation": "Cardiac syncope in LQTS is typically abrupt and brief, with prompt recovery once a normal rhythm resumes. Post-ictal confusion, tongue biting, and incontinence strongly suggest a neurological seizure. The absence of these features and rapid return of consciousness point to a cardiac cause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a52ec59cd30d",
+      "topic": "Long QT Syndrome",
+      "slug": "long-qt-syndrome",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 16-year-old girl with genetically confirmed long QT syndrome (LQT1) has been on propranolol 80 mg twice daily for two years. She has remained asymptomatic until today, when she had a syncopal episode while running for a bus. Her resting QTc is 480 ms. Which finding most clearly indicates failure of medical therapy and need for escalation?",
+      "options": [
+        "QTc interval of 480 ms",
+        "Female sex",
+        "Syncope while adherent to beta-blocker",
+        "LQT1 genotype",
+        "Age younger than 18"
+      ],
+      "answerIndex": 2,
+      "explanation": "Syncope while on adequate beta-blocker therapy is a 'red flag' for high breakthrough risk, often prompting consideration of an implantable cardioverter-defibrillator (ICD). QTc <500 ms on beta-blocker is not itself a failure indicator; the event is the crucial sign.",
+      "difficulty": "medium"
+    }
+  ]
+}

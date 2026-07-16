@@ -1,0 +1,513 @@
+{
+  "topic": "Bronchiectasis",
+  "slug": "bronchiectasis",
+  "system": "Respiratory",
+  "subSystem": "Suppurative",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:28:37Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "a9bb81f095c4",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with a chronic cough productive of purulent sputum for 2 years. She reports two episodes of pneumonia in the past year. She has never smoked. On examination, there are coarse crackles at the right lung base. Spirometry shows mild obstruction with reversibility <12%. Chest X-ray shows tram-track opacities in the right lower zone. What is the single most likely diagnosis?",
+      "options": [
+        "Cystic fibrosis",
+        "Asthma",
+        "Bronchiectasis",
+        "Pulmonary tuberculosis",
+        "Chronic obstructive pulmonary disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chronic productive cough with recurrent infections and tram-track opacities on X-ray are classic for bronchiectasis. Absence of smoking history and poor reversibility argue against COPD or asthma; TB typically presents with apical changes and systemic symptoms; CF usually manifests earlier in life.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6f2585bee3cf",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man presents with recurrent episodes of haemoptysis over the past 6 months. He has no sputum production. He is a lifelong non-smoker. Chest X-ray shows no obvious abnormality. CT thorax reveals bilateral lower lobe bronchial wall thickening and dilatation. What is the single most likely diagnosis?",
+      "options": [
+        "Arteriovenous malformation",
+        "Lung cancer",
+        "Bronchiectasis (dry form)",
+        "Pulmonary tuberculosis",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dry bronchiectasis can present with haemoptysis and minimal sputum; CT demonstrates bronchial dilatation. TB typically has apical infiltrates; lung cancer usually presents with a mass; PE and AV malformations have distinct imaging features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f823c2bf4818",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 70-year-old man with known bronchiectasis presents with increased cough, purulent sputum, and breathlessness for 3 days. He is febrile (38.2°C). Oxygen saturation is 90% on air. Chest auscultation reveals widespread coarse crackles. What is the single most likely diagnosis?",
+      "options": [
+        "Acute exacerbation of bronchiectasis",
+        "Heart failure",
+        "Pulmonary embolism",
+        "Community-acquired pneumonia",
+        "Acute exacerbation of COPD"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with known bronchiectasis, the combination of increased purulent sputum, fever, and crackles is typical for an acute exacerbation. Pneumonia would show focal consolidation; COPD exacerbation is less likely with such purulent sputum; PE and HF do not typically present with purulent sputum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18aa9e0506b4",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman from South Asia has a history of pulmonary tuberculosis treated 20 years ago. She now presents with a chronic cough and copious purulent sputum. She has clubbing and coarse crackles over the right upper lobe. Sputum culture is negative for acid-fast bacilli. What is the single most likely diagnosis?",
+      "options": [
+        "Lung cancer",
+        "Reactivation of tuberculosis",
+        "Bronchiectasis secondary to previous TB",
+        "Chronic bronchitis",
+        "Allergic bronchopulmonary aspergillosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Post-TB bronchiectasis is a common long-term complication; clubbing and copious sputum are characteristic. Negative AFB culture makes reactivation unlikely; ABPA typically occurs with asthma; lung cancer would show a mass; chronic bronchitis is associated with smoking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "064c043a03bf",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man with a history of asthma since childhood presents with worsening cough and brownish sputum plugs. He has frequent exacerbations despite high-dose inhaled corticosteroids. CT thorax shows central bronchiectasis. Serum IgE is markedly elevated (>1000 IU/mL). What is the single most likely diagnosis?",
+      "options": [
+        "Severe asthma",
+        "Chronic eosinophilic pneumonia",
+        "Allergic bronchopulmonary aspergillosis (ABPA) causing bronchiectasis",
+        "Bronchiectasis from other cause",
+        "Cystic fibrosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Central bronchiectasis, asthma, and markedly elevated IgE are classic for ABPA. Severe asthma alone does not cause bronchiectasis; CF presents earlier with pancreatic insufficiency; eosinophilic pneumonia has different imaging and lacks central bronchiectasis; other causes less likely given the high IgE and brown plugs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d7cd329bb00b",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with a chronic cough productive of mucopurulent sputum, recurrent lower respiratory tract infections, and clubbing. Chest X-ray shows tram-track opacities. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Pulmonary function tests",
+        "High-resolution CT chest",
+        "Sputum culture and sensitivity",
+        "CT pulmonary angiogram",
+        "Bronchoscopy with bronchoalveolar lavage"
+      ],
+      "answerIndex": 1,
+      "explanation": "High-resolution CT (HRCT) is the gold standard imaging modality to confirm bronchiectasis, demonstrating features such as bronchial wall thickening, signet-ring sign, and lack of tapering. Bronchoscopy is not first-line; sputum culture and PFTs aid assessment but are not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "820ccd71627a",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with a 20-year history of recurrent chest infections and chronic sputum production has had bronchiectasis confirmed on HRCT. A radiologist measures the internal diameter of a bronchus and the adjacent pulmonary artery. What bronchoarterial ratio is diagnostic of bronchiectasis in adults?",
+      "options": [
+        "Greater than 2.5",
+        "Greater than 2.0",
+        "Greater than 0.5",
+        "Greater than 1.0",
+        "Greater than 1.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "In adults, a bronchoarterial ratio >1.0 (i.e., the bronchus is wider than the adjacent artery) is the accepted threshold for diagnosing bronchiectasis on HRCT. Ratios >1.5 are more specific but 1.0 is standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fa31893f97a8",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with known bronchiectasis presents with increased cough, purulent sputum, and dyspnoea. She is afebrile. Which investigation is most appropriate to guide antibiotic choice?",
+      "options": [
+        "Chest X-ray",
+        "Sputum culture and sensitivity",
+        "Procalcitonin level",
+        "C-reactive protein level",
+        "Blood cultures"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute exacerbation of bronchiectasis, sputum culture and sensitivity identifies the causative organism (e.g., Pseudomonas, Haemophilus) and its antibiotic resistance pattern, enabling targeted therapy. Blood cultures are less sensitive; CRP and procalcitonin are non-specific; CXR may show changes but does not guide antibiotic choice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "99e523d3b112",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with severe bronchiectasis presents with sudden onset of massive haemoptysis (approx. 300 mL in 6 hours). He is haemodynamically stable. What is the most appropriate investigation to localise the bleeding source?",
+      "options": [
+        "Echocardiography",
+        "Chest X-ray",
+        "Bronchial arteriography",
+        "CT pulmonary angiogram",
+        "Ventilation-perfusion scan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bronchial arteriography is the gold standard for localising the source of massive haemoptysis in bronchiectasis, as it can identify a bleeding bronchial artery and allow simultaneous embolisation. CTPA is primarily for pulmonary embolism; CXR is too insensitive; V/Q and echo are not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b16942c22165",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old non-smoker has had bronchiectasis diagnosed in childhood. He has chronic sinusitis and infertility. Primary ciliary dyskinesia is suspected. Which of the following is the most appropriate initial diagnostic test?",
+      "options": [
+        "Nasal nitric oxide measurement",
+        "Sweat chloride test",
+        "Bronchoscopy with ciliary biopsy",
+        "Serum immunoglobulin levels",
+        "High-resolution CT chest"
+      ],
+      "answerIndex": 0,
+      "explanation": "Low nasal nitric oxide is a sensitive screening test for primary ciliary dyskinesia; if low, confirm with electron microscopy or genetic testing. Sweat test is for CF; Ig levels for immunodeficiency; HRCT already done; ciliary biopsy is confirmatory, not initial.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06e1ec9e351f",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with idiopathic bronchiectasis confirmed on high-resolution CT reports three exacerbations of infective bronchitis in the past 12 months. She has normal lung function and no chronic Pseudomonas aeruginosa colonisation on sputum cultures. She uses regular airway clearance techniques and has completed a pulmonary rehabilitation program. What is the most appropriate first-line therapy to reduce future exacerbations?",
+      "options": [
+        "Oral theophylline (modified-release 200 mg twice daily)",
+        "Oral prednisolone (5 mg daily)",
+        "Nebulised colistin (1 million units twice daily)",
+        "Long-term azithromycin (250 mg daily)",
+        "Inhaled beclometasone (400 micrograms twice daily)"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends offering a long-term macrolide (azithromycin) to patients with bronchiectasis who have ≥3 exacerbations per year, regardless of aetiology, based on evidence of reduced exacerbation frequency. Inhaled corticosteroids, oral steroids, theophylline, and nebulised antibiotics (reserved for chronic Pseudomonas) are not first-line in this setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ed7e333797ce",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man with known bronchiectasis presents with worsening dyspnoea, wheeze, and cough productive of thick brown sputum. Total IgE is 2500 kU/L, and Aspergillus fumigatus-specific IgE is positive. Sputum culture grows Aspergillus fumigatus. What is the most appropriate first-line treatment?",
+      "options": [
+        "Prednisolone 0.5 mg/kg daily alone for 2 weeks then taper",
+        "Itraconazole 200 mg twice daily alone for 6 months",
+        "Omalizumab 375 mg subcutaneously every 2 weeks",
+        "Prednisolone 0.5 mg/kg daily for 2 weeks then taper, plus itraconazole 200 mg twice daily",
+        "Nebulised amphotericin B 5 mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Allergic bronchopulmonary aspergillosis (ABPA) complicating bronchiectasis requires dual therapy with systemic corticosteroids to control inflammation and an azole antifungal (itraconazole) to reduce fungal burden. Monotherapy with either agent alone is inferior. Nebulised amphotericin and omalizumab are reserved for refractory disease or specific contraindications.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c4ebf3404d48",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old man with bronchiectasis secondary to alpha-1 antitrypsin deficiency (PiZZ genotype, serum level <11 µmol/L) has had five exacerbations of infective bronchitis in the past year despite optimal airway clearance, pulmonary rehabilitation, and influenza/pneumococcal vaccination. He does not have chronic Pseudomonas aeruginosa. What is the most appropriate therapy to reduce exacerbation frequency?",
+      "options": [
+        "Augmentation therapy with intravenous alpha-1 antitrypsin (60 mg/kg weekly)",
+        "Elective lung transplantation",
+        "Long-term azithromycin (250 mg daily)",
+        "Nebulised tobramycin (300 mg twice daily)",
+        "Inhaled fluticasone/salmeterol combination (250/50 micrograms twice daily)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Long-term macrolide therapy (azithromycin) is indicated for exacerbation reduction in bronchiectasis irrespective of aetiology and should be considered before augmentation therapy, which is not directly proven to reduce exacerbations in bronchiectasis. Inhaled combination therapy, nebulised antibiotics for non-Pseudomonas, and transplantation are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a32670ad802f",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with bilateral bronchiectasis and chronic Pseudomonas aeruginosa colonisation has been taking long-term azithromycin 250 mg daily for 2 years. Despite this, she continues to have four exacerbations per year requiring antibiotics. Sputum cultures consistently grow Pseudomonas aeruginosa. What is the most appropriate addition to her regimen?",
+      "options": [
+        "N-acetylcysteine (600 mg twice daily) as a mucolytic",
+        "Oral ciprofloxacin (500 mg twice daily) as prophylaxis",
+        "Inhaled beclometasone (200 micrograms twice daily)",
+        "Intravenous ceftazidime (2 g every 8 hours) every 3 months",
+        "Nebulised colistin (1 million units twice daily)"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends adding a nebulised antipsedomonal antibiotic (e.g. colistin or tobramycin) in patients with chronic Pseudomonas colonisation who continue to exacerbate despite a macrolide. Chronic oral or IV antibiotic prophylaxis is not recommended; inhaled corticosteroids and mucolytics lack evidence for exacerbation reduction in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fef75560d9ab",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman at 28 weeks gestation with known non-CF bronchiectasis presents with fever, increased purulent sputum, and dyspnoea. Sputum culture is pending. She has no drug allergies. Which of the following antibiotics is CONTRAINDICATED in her current state?",
+      "options": [
+        "Clarithromycin (500 mg orally twice daily)",
+        "Cefalexin (500 mg orally four times daily)",
+        "Amoxicillin (500 mg orally three times daily)",
+        "Co-amoxiclav (625 mg orally three times daily)",
+        "Doxycycline (200 mg orally on day 1, then 100 mg orally daily)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tetracyclines (including doxycycline) are contraindicated in the second and third trimesters of pregnancy due to risk of fetal bone and tooth discolouration and potential hepatotoxicity in the mother. Amoxicillin and co-amoxiclav are safe; clarithromycin is generally avoided in the first trimester but can be used later if necessary, though it is not first-line; cefalexin is safe. Thus, doxycycline is the clearly contraindicated option.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2b13f489cc7f",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents to the respiratory clinic with a 6-month history of daily productive cough, thick sputum, and two courses of antibiotics for 'chest infections' in the last year. She is a non-smoker. Chest X-ray shows tram-track opacities in the right lower zone. What is the single most appropriate next step?",
+      "options": [
+        "Arrange high-resolution CT thorax",
+        "Refer for pulmonary rehabilitation",
+        "Start oral amoxicillin",
+        "Perform spirometry",
+        "Start inhaled corticosteroid"
+      ],
+      "answerIndex": 0,
+      "explanation": "High-resolution CT thorax is the gold standard for confirming bronchiectasis. The clinical and X-ray features are suggestive, but CT is needed for definitive diagnosis and planning management. Antibiotics are not indicated without a confirmed exacerbation, and other options are not first steps at this stage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c8c73c8bb5c5",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with known bronchiectasis (previous sputum culture grew Haemophilus influenzae) presents with a 3-day history of increased sputum volume and purulence. He is apyrexial, oxygen saturations 97% on air, breathing rate 18/min. What is the single most appropriate immediate next action?",
+      "options": [
+        "Arrange urgent chest X-ray",
+        "Admit for intravenous antibiotics",
+        "Start oral ciprofloxacin",
+        "Obtain sputum culture and start oral doxycycline",
+        "Start oral amoxicillin"
+      ],
+      "answerIndex": 3,
+      "explanation": "For a mild exacerbation without hypoxia or fever, obtain sputum culture then start empiric antibiotics guided by previous sensitivities. Doxycycline is a reasonable first-line if no Pseudomonas. Amoxicillin monotherapy may not cover H. influenzae well in some regions, and ciprofloxacin is reserved for Pseudomonas. Admission is not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fe5de35f395",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with known bronchiectasis and COPD is admitted to the emergency department with a 2-day history of increasing breathlessness, fever (39°C), and purulent sputum. On examination, she is using accessory muscles, SpO2 85% on room air, heart rate 110, blood pressure 110/70, respiratory rate 32. Chest auscultation reveals coarse crackles bilaterally. What is the single most appropriate immediate next action?",
+      "options": [
+        "Apply high-flow nasal oxygen",
+        "Start intravenous co-amoxiclav",
+        "Obtain blood cultures and start intravenous piperacillin-tazobactam",
+        "Call for anaesthetic review for non-invasive ventilation",
+        "Perform a chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is a severe exacerbation with hypoxia and sepsis. The immediate priority is to take cultures and start broad-spectrum intravenous antibiotics covering Pseudomonas (common in bronchiectasis). Piperacillin-tazobactam is appropriate. High-flow oxygen is needed but the question asks for the single most immediate action; gathering cultures before antibiotics is key. However, in practice oxygen is given simultaneously, but the question expects the 'next step' after assessment: start antibiotics. Co-amoxiclav may not cover Pseudomonas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "978a9b98211d",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known bronchiectasis presents to the emergency department with sudden-onset coughing up of approximately 300 mL of bright red blood in the last hour. He is pale, sweaty, heart rate 120, blood pressure 90/60, respiratory rate 24, SpO2 94% on room air. What is the single most appropriate immediate next action?",
+      "options": [
+        "Intubate the patient",
+        "Administer intravenous tranexamic acid",
+        "Insert a large-bore intravenous cannula and crossmatch blood",
+        "Arrange urgent bronchial artery embolisation",
+        "Perform a chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Massive haemoptysis with haemodynamic instability requires immediate resuscitation. The first step is to secure intravenous access, give fluids, and crossmatch blood. Tranexamic acid may be considered but is not first-line; bronchial artery embolisation is definitive but not immediate; intubation may be needed if airway compromise, but the patient is currently maintaining saturations; chest X-ray can be done but not the immediate priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4dcbc9fb9d29",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman with bronchiectasis (diagnosed on HRCT 2 years ago) has had four exacerbations requiring antibiotics in the past year. Sputum cultures have grown Pseudomonas aeruginosa on three occasions. She is currently well, with minimal cough and clear sputum. She uses regular airway clearance techniques. What is the single most appropriate next step in her management?",
+      "options": [
+        "Refer for surgical resection",
+        "Start inhaled colistin",
+        "Repeat high-resolution CT thorax",
+        "Arrange a routine chest X-ray",
+        "Start long-term oral azithromycin"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend considering long-term oral macrolide therapy (azithromycin) for patients with bronchiectasis who have frequent exacerbations (≥3 per year) regardless of sputum microbiology. Inhaled colistin is reserved for chronic Pseudomonas infection with frequent exacerbations despite optimised therapy and is not first-line. Surgery is rarely indicated. Routine imaging is not needed in stable disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ad7c1ad80f6c",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old woman with known bronchiectasis presents with acute onset haemoptysis. She has coughed up approximately 150 mL of blood in the last hour. Observations: HR 110, BP 100/60, RR 22, SpO2 95% on air. Which single finding is most concerning for life-threatening haemorrhage?",
+      "options": [
+        "Crackles on auscultation",
+        "Blood pressure <90 mmHg systolic",
+        "Heart rate >100 bpm",
+        "Haemoptysis volume >100 mL",
+        "Oxygen saturation 95%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Massive haemoptysis (usually defined as >100 mL in a single episode) is a life-threatening emergency in bronchiectasis due to risk of asphyxiation. Tachycardia and hypotension are non-specific signs of hypovolaemia but not as specific as the volume of blood loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cc2c3ca9f6b6",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with severe bronchiectasis presents with worsening dyspnoea, purulent sputum, and fever. On examination: RR 30, SpO2 88% on room air, HR 110, BP 130/80, temperature 38.5°C. Chest X-ray shows new right lower lobe consolidation. Which single finding most clearly indicates need for urgent critical care escalation?",
+      "options": [
+        "New consolidation on chest X-ray",
+        "Temperature 38.5°C",
+        "Respiratory rate 30 breaths/min",
+        "Oxygen saturation 88%",
+        "Heart rate 110 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "In acute exacerbation of bronchiectasis, SpO2 <90% on room air denotes hypoxaemic respiratory failure, meeting criteria for severe exacerbation and prompting ICU referral. Tachypnoea, fever, and consolidation are common but do not alone mandate escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "691ffbb8729e",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old with known bronchiectasis develops sudden onset right-sided pleuritic chest pain and severe dyspnoea. On examination, the trachea is deviated to the left, breath sounds are absent on the right, and the right chest is hyperresonant. Observations: HR 120, BP 90/60, SpO2 90% on air. Which single finding confirms the diagnosis of tension pneumothorax?",
+      "options": [
+        "Heart rate 120 bpm",
+        "Absent breath sounds on the right",
+        "Hyperresonance on the right",
+        "Blood pressure 90/60 mmHg",
+        "Tracheal deviation to the left"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tension pneumothorax is a clinical diagnosis; tracheal deviation away from the affected side is a specific sign indicating mediastinal shift due to trapped air. Hyperresonance and absent breath sounds are present in simple pneumothorax as well; hypotension can occur in tension but is not diagnostic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "87ac531add8c",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old with known bronchiectasis presents with a 3-month history of weight loss, night sweats, and cough. Sputum culture grew Pseudomonas aeruginosa. Which single finding most strongly suggests that this exacerbation may be due to active tuberculosis?",
+      "options": [
+        "Night sweats",
+        "Weight loss",
+        "Low-grade fever",
+        "Haemoptysis",
+        "Pseudomonas aeruginosa on sputum culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "Night sweats are a classic constitutional symptom of active TB. Weight loss and haemoptysis can occur in both bronchiectasis and TB; Pseudomonas growth is typical of bronchiectasis but does not exclude TB. A high index of suspicion for TB is needed in patients with these symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1e93a4bc1e7",
+      "topic": "Bronchiectasis",
+      "slug": "bronchiectasis",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old non-smoker presents with recurrent chest infections since childhood. CT chest shows cylindrical bronchiectasis in both lower lobes. Examination reveals digital clubbing. Which single investigation finding would most strongly suggest an underlying diagnosis of cystic fibrosis?",
+      "options": [
+        "Low forced expiratory volume in 1 second (FEV1)",
+        "Nasal polyps on examination",
+        "Positive sputum culture for Pseudomonas aeruginosa",
+        "Elevated sweat chloride >60 mmol/L",
+        "Low serum immunoglobulins"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a young adult with bronchiectasis and clubbing, cystic fibrosis must be excluded. Sweat chloride ≥60 mmol/L is diagnostic. Low FEV1 is non-specific; Pseudomonas is common in both CF and non-CF bronchiectasis; nasal polyps are associated but not diagnostic.",
+      "difficulty": "medium"
+    }
+  ]
+}

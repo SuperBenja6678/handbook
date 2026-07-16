@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Sinusitis",
+  "slug": "acute-sinusitis",
+  "system": "ENT",
+  "subSystem": "Sinonasal",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:34:19Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "66efc35b97d9",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman presents with a 14-day history of facial pain over the right maxilla, purulent nasal discharge, and fever (38.2°C). She has not had any previous episodes. Nasal examination shows mucosal erythema and pus in the middle meatus. What is the single most likely diagnosis?",
+      "options": [
+        "Dental abscess",
+        "Allergic rhinitis",
+        "Acute bacterial sinusitis",
+        "Acute viral sinusitis",
+        "Nasal polyps"
+      ],
+      "answerIndex": 2,
+      "explanation": "The duration >10 days with purulent discharge and fever is characteristic of acute bacterial rather than viral sinusitis. Allergic rhinitis is bilateral with clear discharge and no fever. Nasal polyps are chronic with hyposmia. Dental abscess typically involves a carious tooth without nasal discharge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f5f19d21179f",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 24-year-old man has a 7-day history of nasal congestion, clear rhinorrhoea, mild frontal headache, and no fever. He has no significant past medical history. His symptoms started after a cold. What is the single most likely diagnosis?",
+      "options": [
+        "Acute viral sinusitis",
+        "Common cold",
+        "Acute bacterial sinusitis",
+        "Migraine",
+        "Allergic rhinitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Viral sinusitis typically resolves within 10 days and presents with clear discharge, no fever, and milder symptoms. Bacterial sinusitis would be >10 days or worsening. Allergic rhinitis is chronic and seasonal. Common cold involves broader symptoms. Migraine is unilateral throbbing with nausea.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8b6f0bc8c114",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 50-year-old man with poorly controlled diabetes presents with a 10-day history of acute sinusitis symptoms that rapidly worsened over 24 hours. He now has periorbital oedema, proptosis, chemosis, and painful ophthalmoplegia of the right eye. His temperature is 39.5°C. What is the single most likely diagnosis?",
+      "options": [
+        "Cavernous sinus thrombosis",
+        "Orbital cellulitis secondary to sinusitis",
+        "Acute angle-closure glaucoma",
+        "Orbital pseudotumour",
+        "Preseptal cellulitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Proptosis, chemosis, and ophthalmoplegia with fever and sinusitis history point to orbital cellulitis. Cavernous sinus thrombosis typically has bilateral cranial nerve palsies. Preseptal cellulitis lacks proptosis/ophthalmoplegia. Pseudotumour is non-infectious. Glaucoma has eye pain and halos but no sinusitis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "06d9ccf58676",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with acute myeloid leukaemia and severe neutropenia (ANC 0.1 x10^9/L) develops right-sided facial numbness, toothache, and a black eschar on the nasal mucosa. He has a low-grade fever. What is the single most likely diagnosis?",
+      "options": [
+        "Invasive fungal sinusitis",
+        "Nasal carcinoma",
+        "Granulomatosis with polyangiitis",
+        "Herpes zoster ophthalmicus",
+        "Acute bacterial sinusitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "In severely immunocompromised patients, acute invasive fungal sinusitis presents with necrotic eschar and facial pain/numbness, unlike bacterial sinusitis. GPA has systemic features and crusting but not rapid necrosis. Nasal carcinoma is indolent. Herpes zoster has vesicular rash.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "83d843ba6194",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 29-year-old pregnant woman at 24 weeks gestation presents with a 12-day history of right maxillary facial pain, yellow-green nasal discharge, and fever of 38°C. She has tried saline nasal sprays without relief. What is the single most likely diagnosis?",
+      "options": [
+        "Nasal polyps",
+        "Acute bacterial sinusitis",
+        "Allergic rhinitis",
+        "Viral rhinosinusitis",
+        "Pregnancy rhinitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Despite pregnancy, duration >10 days with purulent discharge and fever indicates bacterial sinusitis, not pregnancy rhinitis (clear discharge, no fever). Allergic rhinitis is bilateral with sneezing. Viral sinusitis resolves by day 10. Nasal polyps are chronic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "174a42616e14",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with a 12-day history of nasal congestion, purulent nasal discharge, and facial pain. She has had no improvement. Which single feature best supports a diagnosis of acute bacterial sinusitis?",
+      "options": [
+        "Bilateral facial pain",
+        "Previous episode of sinusitis",
+        "Fever >38°C",
+        "Allergic rhinitis history",
+        "Symptoms lasting >10 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acute bacterial sinusitis is suggested by symptoms persisting >10 days or double sickening. Other features like bilateral pain, fever, or history are less specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "75db66453142",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 38-year-old man has had four episodes of acute sinusitis in the past 12 months. He is currently asymptomatic. What is the most appropriate investigation to identify potential predisposing factors?",
+      "options": [
+        "Magnetic resonance imaging (MRI) of the sinuses",
+        "CT scan of the paranasal sinuses",
+        "Sinus aspiration for culture",
+        "Plain radiography of the sinuses",
+        "Nasal endoscopy"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends CT sinuses for recurrent acute sinusitis (≥4 episodes per year) to detect anatomical abnormalities. Endoscopy is adjunctive, and plain films are outdated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b32542273cb",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with acute sinusitis develops periorbital oedema, proptosis, and reduced eye movements. He is febrile. What is the most appropriate investigation?",
+      "options": [
+        "MRI brain",
+        "Blood cultures",
+        "CT sinuses with intravenous contrast",
+        "Plain sinus X-ray",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Suspect orbital complication (e.g., subperiosteal abscess). Urgent CT sinuses with contrast is the first-line imaging to assess the orbits and sinuses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20e4a4787236",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with known chronic sinusitis presents with frontal headache and a tender, swollen forehead. CT shows frontal sinusitis and a subperiosteal abscess. What is the most appropriate next investigation to assess for intracranial involvement?",
+      "options": [
+        "Digital subtraction angiography",
+        "Electroencephalogram",
+        "MRI brain with contrast",
+        "CT venogram",
+        "Lumbar puncture"
+      ],
+      "answerIndex": 2,
+      "explanation": "MRI with contrast is superior to CT for detecting intracranial complications such as epidural abscess or subdural empyema. LP may be considered but is not first-line imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "038d18aa357f",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with poorly controlled diabetes presents with left-sided facial pain, nasal congestion, and a black necrotic lesion on the nasal mucosa. He is febrile and looks unwell. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "CT sinuses with contrast",
+        "Nasal endoscopy with biopsy",
+        "Blood glucose measurement",
+        "Culture of nasal swab",
+        "MRI sinuses"
+      ],
+      "answerIndex": 1,
+      "explanation": "Invasive fungal sinusitis (e.g., mucormycosis) is suspected. Tissue biopsy via nasal endoscopy for histopathology and culture is the gold standard for confirmation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "79f1c1fe6ac1",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 22-year-old woman presents with a 5-day history of nasal congestion, mild facial pressure, and clear rhinorrhoea. She is afebrile and systemically well. What is the most appropriate management?",
+      "options": [
+        "Oral prednisolone 40mg daily for 5 days",
+        "Amoxicillin 500mg three times daily for 7 days",
+        "Nasal saline irrigation and simple analgesia",
+        "Doxycycline 200mg on day 1 then 100mg daily for 7 days",
+        "Co-amoxiclav 625mg three times daily for 7 days"
+      ],
+      "answerIndex": 2,
+      "explanation": "This patient likely has viral sinusitis (duration <10 days, clear discharge, afebrile). NICE recommends self-care with analgesics and nasal saline; antibiotics are not indicated. The most tempting distractor would be amoxicillin, but it is reserved for bacterial infection with persistent symptoms >10 days or severe features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "59149e8ecb0f",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with a 12-day history of purulent nasal discharge, fever, and severe facial pain. Examination shows tenderness over the maxillary sinuses. He has no allergies. What is the most appropriate treatment?",
+      "options": [
+        "Amoxicillin 500mg three times daily for 7 days",
+        "Co-amoxiclav 625mg three times daily for 7 days",
+        "No antibiotic, symptomatic only",
+        "Doxycycline 200mg on day 1 then 100mg daily for 7 days",
+        "Intranasal corticosteroids"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient meets criteria for acute bacterial sinusitis (symptoms >10 days, purulent discharge, fever). First-line antibiotic per NICE is amoxicillin for 5-7 days. Co-amoxiclav is reserved for those who have not responded or with complications. Doxycycline is an alternative if penicillin-allergic. No antibiotic would be inappropriate given severe symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "71986ecc5aad",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman with a history of penicillin allergy develops acute sinusitis with purulent discharge, fever, and worsening facial pain over 7 days. She is systemically unwell. What is the most appropriate antibiotic?",
+      "options": [
+        "Amoxicillin 500mg three times daily for 7 days",
+        "Co-amoxiclav 625mg three times daily for 7 days",
+        "Cefalexin 500mg four times daily for 7 days",
+        "Intranasal corticosteroids",
+        "Doxycycline 200mg on day 1 then 100mg daily for 7 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "In penicillin allergy, NICE recommends doxycycline or clarithromycin as first-line alternative for acute bacterial sinusitis. Amoxicillin and co-amoxiclav are contraindicated. Cefalexin (a cephalosporin) has cross-reactivity risk and is not first-line. Corticosteroids are not definitive therapy for infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc46034ac4d9",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old man with acute sinusitis was prescribed amoxicillin 7 days ago. He returns with no improvement; now has worsening headache, periorbital oedema, and restricted eye movements. What is the most appropriate management?",
+      "options": [
+        "Start oral prednisolone 40mg daily",
+        "Complete a further course of amoxicillin",
+        "Switch to co-amoxiclav orally",
+        "Start IV co-amoxiclav and refer urgently to ENT",
+        "Add intranasal corticosteroids"
+      ],
+      "answerIndex": 3,
+      "explanation": "This scenario suggests orbital cellulitis secondary to acute sinusitis—an emergency. NICE recommends immediate intravenous antibiotics (e.g., co-amoxiclav) and urgent ENT referral. Oral therapy or continuation of amoxicillin is inadequate. Corticosteroids are contraindicated in the setting of active severe infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3a9f8d9c5bfb",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (20 weeks gestation) presents with acute bacterial sinusitis: purulent discharge, fever, and facial pain for 10 days. She has no drug allergies. What is the most appropriate treatment?",
+      "options": [
+        "Intranasal corticosteroids only",
+        "Co-amoxiclav 625mg three times daily for 7 days",
+        "Delayed antibiotic prescription",
+        "Amoxicillin 500mg three times daily for 7 days",
+        "Doxycycline 200mg on day 1 then 100mg daily for 7 days"
+      ],
+      "answerIndex": 3,
+      "explanation": "In pregnancy, amoxicillin is safe and first-line for bacterial sinusitis. Doxycycline is contraindicated (tetracycline affects fetal bone/teeth). Co-amoxiclav is an alternative but not first-line. Corticosteroids alone are insufficient for bacterial infection. Delayed prescription is not appropriate given the severity and clear bacterial features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0e2862d73471",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 25-year-old woman presents with a 5-day history of nasal congestion, facial pressure, and green nasal discharge. She is apyrexial and has no severe pain. What is the most appropriate immediate next step?",
+      "options": [
+        "Prescribe oral amoxicillin 500 mg three times daily for 7 days",
+        "Start intranasal corticosteroids",
+        "Request CT sinuses",
+        "Advise paracetamol and nasal saline irrigation",
+        "Refer to ENT for endoscopic sinus surgery"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend no antibiotics for mild acute sinusitis with symptoms lasting less than 10 days; symptomatic relief with analgesia and nasal saline is first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "844e397ff7cd",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old man presents with 10 days of severe facial pain, purulent nasal discharge, and fever (38.5°C). There are no signs of orbital or intracranial extension. What is the most appropriate immediate next step?",
+      "options": [
+        "Request CT sinuses",
+        "Advise ibuprofen and reassess in 48 hours",
+        "Admit for intravenous antibiotics",
+        "Refer for sinus washout",
+        "Prescribe oral amoxicillin 500 mg three times daily for 7 days"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends antibiotics for acute sinusitis when symptoms are severe or last >10 days; oral amoxicillin is first-line, with no need for admission or imaging unless complications suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0228abec70aa",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with a 1-week history of sinusitis develops periorbital erythema, swelling, and mild proptosis. She is febrile (38.8°C). What is the most appropriate immediate next step?",
+      "options": [
+        "Apply warm compresses and prescribe topical decongestants",
+        "Request CT sinuses before any treatment",
+        "Urgently refer to ENT for assessment",
+        "Prescribe oral co-amoxiclav and review in 24 hours",
+        "Start intravenous antibiotics and await CT sinuses"
+      ],
+      "answerIndex": 2,
+      "explanation": "Orbital cellulitis secondary to acute sinusitis is an emergency; immediate referral to ENT (and ophthalmology) is critical for surgical drainage and antibiotic therapy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e2c585073b6",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 50-year-old man has had 4 episodes of acute sinusitis in the past year, each requiring antibiotics. He has just completed a course for the current episode and symptoms have resolved. What is the most appropriate next step?",
+      "options": [
+        "Request CT sinuses before discharge",
+        "Advise regular nasal douching",
+        "Refer to ENT for further assessment",
+        "Start prophylactic antibiotics",
+        "No further action required"
+      ],
+      "answerIndex": 2,
+      "explanation": "Recurrent acute sinusitis (>3 episodes per year) warrants specialist ENT assessment to identify underlying causes such as anatomical obstruction or immune deficiency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b21648256ea1",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with poorly controlled diabetes and recent chemotherapy for lymphoma presents with 3 days of facial pain, fever (39°C), and left periorbital swelling. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to ENT urgently",
+        "Start intravenous antifungal therapy",
+        "Take a nasal swab for culture",
+        "Start intravenous broad-spectrum antibiotics (e.g., piperacillin-tazobactam)",
+        "Request urgent CT sinuses"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an immunocompromised patient with suspected acute sinusitis, immediate broad-spectrum intravenous antibiotics are essential due to risk of rapid progression and invasive disease; imaging and specialty input follow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8949ac479b95",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman presents with a 3-day history of fever, facial pain, and nasal congestion. On examination, there is periorbital oedema and erythema. Which finding on examination would indicate a need for urgent imaging and likely surgical intervention?",
+      "options": [
+        "Mild conjunctival injection",
+        "Proptosis",
+        "Nasal discharge that is purulent",
+        "Tenderness over the maxillary sinuses",
+        "Bilateral periorbital swelling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Periorbital oedema alone suggests preseptal cellulitis; proptosis suggests post-septal/orbital involvement requiring urgent imaging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "65650bd24b3b",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old man with poorly controlled diabetes presents with a 1-week history of worsening facial pain, headache, and fever. Anterior rhinoscopy reveals a dark, necrotic area on the middle turbinate. Which of the following diagnoses is most likely?",
+      "options": [
+        "Invasive aspergillosis",
+        "Allergic fungal sinusitis",
+        "Acute bacterial sinusitis",
+        "Mucormycosis",
+        "Nasal polyposis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In immunocompromised patients, black necrotic turbinate is classic for mucormycosis, a life-threatening emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "880e4dd83e77",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 40-year-old man presents with severe frontal headache, fever, and forehead swelling that is pitting and tender. He had a recent upper respiratory tract infection. Which complication should be suspected?",
+      "options": [
+        "Meningitis",
+        "Cavernous sinus thrombosis",
+        "Frontal sinus osteomyelitis (Pott's puffy tumour)",
+        "Frontal lobe abscess",
+        "Subdural empyema"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pitting oedema over the forehead in the setting of frontal sinusitis suggests osteomyelitis and potential intracranial extension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "050fd75c9758",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman presents with unilateral facial pain, purulent nasal discharge, and halitosis. She has no significant medical history. Which finding on examination is most concerning for a dental cause?",
+      "options": [
+        "Bilateral nasal polyps",
+        "Clear rhinorrhoea",
+        "Periorbital oedema",
+        "Hyposmia",
+        "Maxillary tooth tenderness to percussion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Unilateral symptoms with foul odour and tooth tenderness suggest odontogenic sinusitis, often requiring dental rather than medical management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d92c275a2bc",
+      "topic": "Acute Sinusitis",
+      "slug": "acute-sinusitis",
+      "system": "ENT",
+      "subSystem": "Sinonasal",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with acute sinusitis has been on amoxicillin for 10 days with no improvement. She remains febrile with significant pain. Which threshold for specialist referral is most appropriate?",
+      "options": [
+        "Persistent fever for 3 days",
+        "No improvement after 7 days of antibiotics",
+        "Development of headache after 7 days",
+        "No improvement after 14 days of antibiotics",
+        "No improvement after 3 days of antibiotics"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends referral if symptoms fail to respond to 14 days of antibiotics; 10 days is not yet a red flag.",
+      "difficulty": "easy"
+    }
+  ]
+}

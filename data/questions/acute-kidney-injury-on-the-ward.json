@@ -1,0 +1,513 @@
+{
+  "topic": "Acute Kidney Injury on the Ward",
+  "slug": "acute-kidney-injury-on-the-ward",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "AKI",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:27:38Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "ad0e7527bf2a",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with a 3-day history of vomiting and diarrhoea is found to have a creatinine of 150 µmol/L (baseline 80) and urea of 12 mmol/L. Urine output is 400 mL/day. Urinalysis shows specific gravity 1.025, no protein or blood. Blood pressure 100/60, heart rate 105 bpm. JVP is not elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Acute interstitial nephritis",
+        "Pre-renal acute kidney injury",
+        "Acute tubular necrosis",
+        "Chronic kidney disease stage 3",
+        "Post-renal acute kidney injury"
+      ],
+      "answerIndex": 1,
+      "explanation": "The history of fluid losses, high urine specific gravity (concentrated urine), and clinical signs of hypovolaemia (tachycardia, low BP) point to pre-renal AKI. The rapid rise in creatinine with oliguria but no sediment or proteinuria supports this over ATN or AIN.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c2814cf32a92",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 68-year-old woman with type 2 diabetes and hypertension develops septic shock from a urinary tract infection. On day 3 of ICU admission, her creatinine rises from 90 to 400 µmol/L despite fluid resuscitation and vasopressors. Urine output is 200 mL/day. Urinalysis shows muddy brown granular casts. Fractional excretion of sodium is 3%. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis",
+        "Pre-renal acute kidney injury",
+        "Acute interstitial nephritis",
+        "Chronic kidney disease stage 4",
+        "Post-renal acute kidney injury"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of muddy brown granular casts and high FeNa (>2%) in the setting of sepsis and ischaemia indicate established ATN. Pre-renal would have FeNa <1% and no casts. AIN typically has white cells or eosinophils, not granular casts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39ce90535da2",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with benign prostatic hyperplasia presents with acute urinary retention and a creatinine of 200 µmol/L (baseline 100). He has suprapubic tenderness and a palpable bladder. Ultrasound shows bilateral hydronephrosis and a distended bladder. What is the single most likely diagnosis?",
+      "options": [
+        "Pre-renal acute kidney injury",
+        "Acute tubular necrosis",
+        "Post-renal acute kidney injury",
+        "Chronic kidney disease stage 3",
+        "Acute interstitial nephritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of BPH, acute retention, and bilateral hydronephrosis on ultrasound confirm post-renal AKI. The other causes lack evidence of obstruction. Normal baseline creatinine suggests acute rather than chronic disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a03fd329cd44",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman started trimethoprim for a UTI 10 days ago. She now presents with fever, arthralgia, and a rash. Creatinine is 180 µmol/L (baseline 80); urine shows white cell casts and eosinophiluria. What is the single most likely diagnosis?",
+      "options": [
+        "Acute interstitial nephritis",
+        "Pre-renal acute kidney injury",
+        "Acute on chronic kidney disease",
+        "Acute tubular necrosis",
+        "Post-renal acute kidney injury"
+      ],
+      "answerIndex": 0,
+      "explanation": "The triad of fever, rash, and eosinophiluria after a drug exposure (trimethoprim is a common cause) is classic for acute interstitial nephritis. ATN lacks these extra-renal features and typically has granular casts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "45c26d3c698b",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with decompensated cirrhosis and ascites develops oliguria and a rising creatinine (from 80 to 250 µmol/L) over 48 hours. No improvement with fluid resuscitation. Urinalysis is bland. Urine sodium is <10 mmol/L. Fractional excretion of sodium is <1%. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis",
+        "Pre-renal acute kidney injury due to hypovolaemia",
+        "Post-renal acute kidney injury",
+        "Acute interstitial nephritis",
+        "Hepatorenal syndrome type 1"
+      ],
+      "answerIndex": 4,
+      "explanation": "In cirrhosis with ascites, a rise in creatinine with low urine sodium and FeNa, no response to fluid, and bland urinalysis is diagnostic of hepatorenal syndrome. It mimics pre-renal AKI but is unresponsive to volume expansion. ATN would have higher FeNa and casts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6311af5e1c7d",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with ischaemic heart disease on ramipril and furosemide develops vomiting and diarrhoea for 2 days. He is hypotensive and has oliguria. Serum creatinine 180 μmol/L (baseline 80). Which single investigation is most appropriate to differentiate pre-renal from intrinsic acute kidney injury?",
+      "options": [
+        "Renal ultrasound",
+        "BUN:creatinine ratio",
+        "Urine osmolality",
+        "Fractional excretion of sodium (FeNa)",
+        "Urine sodium level"
+      ],
+      "answerIndex": 3,
+      "explanation": "FeNa <1% suggests pre-renal azotaemia, while >2% suggests intrinsic ATN. Urine sodium is less reliable (affected by diuretics). Urine osmolality can be high in pre-renal but FeNa is more specific. Renal ultrasound rules out obstruction but does not differentiate aetiology. BUN:creatinine ratio is not definitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "603469cff418",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with known chronic kidney disease stage 3 presents with a further rise in creatinine from 130 to 200 μmol/L over 3 days. She is well-hydrated and normotensive. Urine dipstick shows 2+ blood and 1+ protein. Which investigation is most appropriate to evaluate for a structural cause?",
+      "options": [
+        "Intravenous urogram",
+        "CT KUB",
+        "Cystoscopy",
+        "MRI abdomen",
+        "Renal ultrasound"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend renal ultrasound as first-line for unexplained AKI to exclude obstruction and assess kidney size. CT KUB has higher radiation and is not first-line. Cystoscopy and IVU are invasive or obsolete. MRI is less accessible.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6add35bdd7c1",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with sepsis has developed oliguric AKI. Serum creatinine 300 μmol/L, potassium 5.9 mmol/L. Which investigation is most specific for confirming the diagnosis of acute tubular necrosis (ATN)?",
+      "options": [
+        "Urine sodium >40 mmol/L",
+        "Fractional excretion of sodium (FeNa) >2%",
+        "Urine microscopy for muddy brown granular casts",
+        "Renal ultrasound showing normal-sized kidneys",
+        "Serum creatinine increase of >50% from baseline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Muddy brown granular casts on urine microscopy are pathognomonic for ATN. FeNa >2% is suggestive but not specific (can be seen in other intrinsic causes). Renal ultrasound may show normal or enlarged kidneys but does not confirm ATN. Creatinine rise and urine sodium are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e97c3558a774",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 22-year-old man is found unconscious after prolonged immobilisation from drug overdose. He has AKI (creatinine 250 μmol/L) and his urine appears red. Which investigation is most specific to confirm the diagnosis?",
+      "options": [
+        "Urine myoglobin",
+        "Serum potassium",
+        "Urine microscopy for casts",
+        "Urine dipstick for blood",
+        "Serum creatine kinase"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elevated serum creatine kinase (CK) is the gold standard for diagnosing rhabdomyolysis. Urine myoglobin is also specific but less commonly measured and degrades quickly. Urine dipstick for blood is positive in rhabdomyolysis but also in haematuria. Serum potassium may be elevated but is not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b677b838f05d",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with AKI (creatinine 250 μmol/L) has a serum potassium of 6.8 mmol/L. He is not on potassium-sparing agents. What is the most appropriate immediate investigation?",
+      "options": [
+        "Serum calcium level",
+        "Repeat serum potassium in 2 hours",
+        "Arterial blood gas",
+        "Electrocardiogram (ECG)",
+        "Urine potassium level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Immediate ECG is essential to identify life-threatening arrhythmias (e.g. peaked T waves, widened QRS) which guide urgent management (e.g. calcium gluconate). A repeat potassium or ABG may be done but not as the immediate investigation. Urine potassium and calcium are not urgent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6d0d4baddf8b",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man develops acute kidney injury (creatinine 350 µmol/L, urea 20 mmol/L) after starting high-dose ibuprofen for back pain. Urinalysis shows haematuria and white cell casts. He is afebrile, BP 130/80. What is the most appropriate first-line treatment?",
+      "options": [
+        "Stop ibuprofen",
+        "Broad-spectrum antibiotics (e.g., co-amoxiclav)",
+        "IV methylprednisolone 500 mg",
+        "Oral prednisolone 40 mg daily",
+        "Renal replacement therapy (haemodialysis)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acute interstitial nephritis is suspected. First-line management is discontinuation of the offending drug. Steroids are considered if renal function does not improve after withdrawal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e0419a38c031",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 30-year-old bodybuilder is found collapsed in the gym. He has AKI with creatinine 400 µmol/L, potassium 5.8 mmol/L, and CK > 50,000 U/L. Urinalysis is positive for blood but no red cells on microscopy. What is the most appropriate first-line treatment?",
+      "options": [
+        "IV 15% mannitol 100 mL",
+        "Oral allopurinol 300 mg",
+        "IV 0.9% sodium chloride 1 litre stat, then 250 mL/hour",
+        "IV sodium bicarbonate 1.26% 500 mL",
+        "Haemodialysis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rhabdomyolysis-induced ATN requires aggressive fluid resuscitation to maintain urine output and prevent further tubular damage. Bicarbonate is not first-line and may cause hypocalcemia. Mannitol is not recommended.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c6ce9be4927d",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with heart failure on ramipril and spironolactone presents with oliguria and potassium 6.3 mmol/L. ECG shows peaked T waves. What is the most appropriate first-line treatment?",
+      "options": [
+        "IV calcium gluconate 10 mL of 10% over 5 min",
+        "Nebulised salbutamol 10 mg",
+        "IV sodium bicarbonate 1.26% 500 mL",
+        "Oral calcium resonium 15 g",
+        "IV insulin 10 units in 50 mL 50% glucose"
+      ],
+      "answerIndex": 0,
+      "explanation": "With ECG changes, immediate cardioprotection with IV calcium is indicated. Insulin/glucose shifts potassium but calcium acts first to stabilize myocardium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "de1f3c9bb7b0",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old man with prostate cancer presents with anuria and lower abdominal discomfort. Bladder scan shows 800 mL residual. Creatinine 500 µmol/L. What is the most appropriate first-line treatment?",
+      "options": [
+        "Start haemodialysis",
+        "Insert a urethral catheter",
+        "Give oral tamsulosin 0.4 mg",
+        "Give IV furosemide 40 mg",
+        "Perform suprapubic cystostomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute obstructive uropathy due to bladder outlet obstruction is treated by relieving obstruction with a urethral catheter. Suprapubic catheter if urethral impossible. Diuretics are contraindicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f52ae81e6c0a",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 28-year-old woman presents with haemoptysis, haematuria, and AKI (creatinine 600 µmol/L). Anti-GBM antibodies are positive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Rituximab 1 g IV",
+        "Plasma exchange",
+        "IV methylprednisolone 1 g daily for 3 days",
+        "Oral cyclophosphamide 2 mg/kg daily",
+        "Supportive care only"
+      ],
+      "answerIndex": 1,
+      "explanation": "In Goodpasture's disease with severe AKI, plasma exchange removes pathogenic antibodies and is first-line in combination with immunosuppression. It is the most specific and urgent therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4c1db6bc73a9",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with type 2 diabetes presents with confusion, vomiting, and reduced urine output. He takes metformin 1g twice daily. Observations: BP 95/60, HR 110, temperature 37.2°C. Urine dipstick shows protein 1+, blood 1+. Serum creatinine 150 µmol/L (baseline 90). What is the single most appropriate immediate next step?",
+      "options": [
+        "Send a urine osmolality and sodium sample",
+        "Perform a renal ultrasound scan",
+        "Administer oral sodium bicarbonate 1g",
+        "Stop metformin and check blood glucose",
+        "Give a 500 mL bolus of 0.9% sodium chloride intravenously"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient is hypovolaemic (vomiting, low BP, tachycardia) causing acute kidney injury (AKI stage 1). The immediate priority is volume resuscitation with IV crystalloid. Stopping metformin is important but secondary; fluids are life-saving in hypovolaemic AKI. Ultrasound and urinary indices are not urgent first steps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e78a1220eae",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with chronic heart failure (NYHA III) and hypertension is admitted with dyspnoea and leg oedema. She takes lisinopril 20 mg and furosemide 40 mg daily. Creatinine 180 µmol/L (baseline 110). BP 140/80, HR 85, JVP 6 cm, chest clear. Urine output 300 mL in last 6 hours (catheterised). What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous dopamine 2.5 µg/kg/min",
+        "Perform a renal ultrasound",
+        "Give a 500 mL fluid challenge of 0.9% sodium chloride",
+        "Hold the lisinopril and furosemide",
+        "Start intravenous furosemide 40 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patient has acute-on-chronic kidney injury likely due to pre-renal causes from overdiuresis ± ACEi effect. She is not hypovolaemic (BP well-maintained, JVP normal), so fluid challenge is not indicated and may worsen heart failure. Both lisinopril and furosemide should be held to prevent further renal impairment. Diuretic therapy may be considered after review, but the first action is to stop potential nephrotoxins.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3d11ee743761",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known chronic kidney disease stage 3b is found collapsed on the ward. He has been vomiting for 3 days. ECG shows broad QRS complexes and tall, peaked T waves. Serum potassium 7.2 mmol/L, creatinine 500 µmol/L (baseline 200). What is the single most appropriate immediate next step?",
+      "options": [
+        "Commence haemodialysis",
+        "Start an insulin and glucose infusion",
+        "Give calcium resonium 15 g orally",
+        "Give intravenous calcium gluconate 10 mL of 10% over 2 minutes",
+        "Administer 5 mg of nebulised salbutamol"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyperkalaemia with ECG changes is a medical emergency. Intravenous calcium gluconate stabilises the cardiac membrane and must be given first. Insulin/glucose, salbutamol, and dialysis lower potassium but do not protect the heart acutely. Calcium resonium is too slow for this situation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff0665ea2a5d",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with acute kidney injury (stage 3) develops pulmonary oedema despite 80 mg of intravenous furosemide. Oxygen saturations 88% on 15 L O₂, BP 170/95, HR 100. Urine output <10 mL/hr. Serum creatinine 450 µmol/L (baseline 80), potassium 5.8 mmol/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert a temporary dialysis catheter for urgent haemodialysis",
+        "Commence non-invasive ventilation (CPAP)",
+        "Repeat a 40 mg intravenous furosemide bolus",
+        "Give 250 mL of 0.9% sodium chloride over 30 minutes",
+        "Administer intravenous sodium bicarbonate 8.4% 50 mL"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is anuric AKI with refractory pulmonary oedema and hyperkalaemia, indicating urgent need for renal replacement therapy. Non-invasive ventilation is supportive but does not address the underlying cause. Further diuretics are unlikely to work in oliguria. Fluid challenge would worsen pulmonary oedema. Bicarbonate is not first-line and may cause volume overload.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e9c23d51e73b",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old man is on day 3 of intravenous gentamicin for Klebsiella pneumonia. His baseline creatinine was 90 µmol/L; today it is 150 µmol/L. Urine output remains >0.5 mL/kg/hr. He has no nephrotoxic co-drugs. Blood pressure 125/75. What is the single most appropriate immediate next step?",
+      "options": [
+        "Stop the gentamicin",
+        "Give a 1 L bolus of 0.9% sodium chloride",
+        "Switch gentamicin to ceftazidime",
+        "Perform a renal biopsy",
+        "Add oral amiloride 5 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gentamicin is a known nephrotoxic antibiotic; AKI in this setting is likely drug-induced. The immediate action is to stop gentamicin to prevent further renal injury. Switching to a safer alternative is necessary but not the first step (the drug must be stopped first). Fluid resuscitation is not indicated as the patient is euvolaemic. Amiloride would worsen hyperkalaemia. Biopsy is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "46f31a1a0394",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with no past medical history presents with vomiting and oliguria after starting ibuprofen for headaches. Her creatinine is 180 µmol/L (baseline 70). Which finding most strongly suggests a need for urgent renal replacement therapy?",
+      "options": [
+        "Serum potassium 6.5 mmol/L",
+        "Urea 15 mmol/L",
+        "Creatinine 200 µmol/L",
+        "Urine output 0.3 ml/kg/hr for 8 hours",
+        "pH 7.28"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hyperkalemia >6.5 mmol/L is a critical threshold for emergency dialysis due to risk of life-threatening arrhythmia. Severe acidosis (pH <7.2) and oliguria are also concerning, but the potassium level is the most immediately life-threatening in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ccbd54a21767",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with diabetes and hypertension develops AKI after starting an ACE inhibitor. His creatinine rises from 120 to 250 µmol/L over 48 hours. Urine output is 0.8 ml/kg/hr. Which finding indicates progression to AKI stage 3?",
+      "options": [
+        "Urine output <0.3 ml/kg/hr for 24 hours",
+        "eGFR <15 ml/min/1.73m²",
+        "Creatinine 300 µmol/L",
+        "Bicarbonate 18 mmol/L",
+        "Serum potassium 5.8 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "KDIGO stage 3 AKI is defined by a urine output <0.3 ml/kg/hr for ≥24 hours (or anuria for ≥12 hours). This finding indicates severe AKI requiring urgent referral. A creatinine rise >3× baseline or >354 µmol/L is another criterion, but 300 µmol/L does not meet the threshold here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2a43a9568f0f",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with AKI secondary to sepsis becomes acutely short of breath. On examination she has a raised JVP, fine crackles in both lung bases, and a third heart sound. Which finding most strongly suggests life-threatening pulmonary oedema requiring urgent dialysis?",
+      "options": [
+        "Raised JVP",
+        "Fine crackles in both lung bases",
+        "Chest X-ray showing perihilar shadowing",
+        "Third heart sound",
+        "Oxygen saturation 88% on room air"
+      ],
+      "answerIndex": 4,
+      "explanation": "An oxygen saturation of 88% on room air indicates severe hypoxemia, which is the most immediately life-threatening finding in acute pulmonary oedema. While all the other findings support the diagnosis, the oxygen saturation directly signals respiratory failure and the need for urgent intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7c78d489cf0a",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with longstanding hypertension presents with chest pain and AKI (creatinine 500 µmol/L). He has not passed urine for 12 hours. ECG shows diffuse ST elevation with PR depression. Which diagnosis must be excluded in this setting?",
+      "options": [
+        "Pericarditis (non-uraemic)",
+        "Acute myocardial infarction (STEMI)",
+        "Uraemic pericarditis",
+        "Pulmonary embolism",
+        "Aortic dissection"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ECG findings of diffuse ST elevation and PR depression are typical of pericarditis. In the context of AKI, uraemic pericarditis is a life-threatening complication requiring urgent dialysis. Non-uraemic pericarditis is less likely given the severe AKI. An STEMI would show regional changes with reciprocal ST depression.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f77855180611",
+      "topic": "Acute Kidney Injury on the Ward",
+      "slug": "acute-kidney-injury-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with CKD stage 4 (eGFR 25) takes ibuprofen for joint pain and develops AKI. Her creatinine rises to 400 µmol/L (baseline 200). Which finding most strongly indicates a need for immediate referral to the renal team?",
+      "options": [
+        "Urine output 0.5 ml/kg/hr",
+        "Urea 30 mmol/L",
+        "Serum potassium 5.8 mmol/L",
+        "Serum calcium 2.6 mmol/L",
+        "Serum bicarbonate 14 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "A serum bicarbonate of 14 mmol/L indicates severe metabolic acidosis (pH typically <7.2), which is a criterion for urgent nephrology referral according to NICE. Hyperkalemia >6.0 mmol/L is also a red flag, but 5.8 is below the threshold. The other options do not represent immediate danger.",
+      "difficulty": "hard"
+    }
+  ]
+}

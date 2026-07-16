@@ -1,0 +1,493 @@
+{
+  "topic": "Anaemia — Workup",
+  "slug": "anaemia-—-workup",
+  "system": "Haematology",
+  "subSystem": "Anaemia",
+  "acuity": "ROUTINE",
+  "generatedAt": "2026-07-16T10:27:45Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "7300809c95e4",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with fatigue and shortness of breath on exertion. She has heavy menstrual periods lasting 7 days. Examination is normal except for pallor. Investigations: Hb 100 g/L, MCV 72 fL, ferritin 8 µg/L, B12 and folate normal. What is the single most likely diagnosis?",
+      "options": [
+        "Iron deficiency anaemia",
+        "Vitamin B12 deficiency",
+        "Folate deficiency",
+        "Thalassaemia trait",
+        "Anaemia of chronic disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of microcytic hypochromic anaemia, low ferritin, and heavy menstrual bleeding is classic for iron deficiency anaemia. Thalassaemia trait typically has a disproportionately low MCV relative to Hb drop and normal ferritin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "33cac85e14fa",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 5-year-old boy with known hereditary spherocytosis presents with acute pallor, fever, and severe fatigue. Hb 55 g/L, reticulocytopenia (<0.5%). Peripheral blood smear shows no spherocytes. What is the single most likely diagnosis?",
+      "options": [
+        "Haemolytic crisis",
+        "Aplastic crisis due to parvovirus B19",
+        "Autoimmune haemolytic anaemia",
+        "Acute blood loss",
+        "Megaloblastic crisis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reticulocytopenia with acute anaemia in hereditary spherocytosis is typical of aplastic crisis, often triggered by parvovirus B19. Haemolytic crisis would show reticulocytosis and spherocytes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "241838bc2d40",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 35-year-old asymptomatic man of Mediterranean origin has routine blood tests showing Hb 120 g/L, MCV 68 fL. Ferritin is normal, B12 and folate normal. He has had no iron response to a previous trial of oral iron. What is the single most likely diagnosis?",
+      "options": [
+        "Lead poisoning",
+        "Iron deficiency anaemia",
+        "Beta-thalassaemia trait",
+        "Sideroblastic anaemia",
+        "Anaemia of chronic disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "Normal ferritin with microcytosis, no iron response, and ethnic background point to beta-thalassaemia trait. Iron deficiency would have low ferritin and respond to iron. Anaemia of chronic disease usually normocytic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "390346d5322a",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with known pernicious anaemia presents with unsteady gait, paraesthesiae in hands and feet, and mild confusion. She has been non-adherent to treatment for 6 months. Hb 90 g/L, MCV 110 fL. What is the single most likely diagnosis?",
+      "options": [
+        "Vitamin B12 deficiency with subacute combined degeneration",
+        "Iron deficiency anaemia",
+        "Copper deficiency",
+        "Folate deficiency",
+        "Alcoholic neuropathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Megaloblastic anaemia with neurological symptoms (sensory ataxia, paraesthesiae, confusion) in a patient with known pernicious anaemia is due to B12 deficiency causing subacute combined degeneration. Folate deficiency does not cause neurological symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb43be6f9c7a",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with stage 4 chronic kidney disease (eGFR 25 mL/min) presents with fatigue. Hb 95 g/L, MCV 92 fL, ferritin 200 µg/L, B12 and folate normal. No evidence of blood loss. What is the single most likely diagnosis?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Iron deficiency anaemia",
+        "Anaemia of chronic disease",
+        "Autoimmune haemolytic anaemia",
+        "Anaemia of chronic kidney disease"
+      ],
+      "answerIndex": 4,
+      "explanation": "Normocytic anaemia with normal ferritin and no other cause in the setting of advanced CKD is most likely due to erythropoietin deficiency. Iron deficiency would have low ferritin; ACD usually has normal/high ferritin but here CKD is the primary driver.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2fc2c4126a19",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with fatigue and pallor. She is a strict vegetarian and has heavy menstrual periods. Blood tests show Hb 90 g/L, MCV 72 fL, MCH 23 pg. What is the single most appropriate test to confirm the diagnosis?",
+      "options": [
+        "Direct Coombs test",
+        "Red cell folate",
+        "Serum B12",
+        "Serum ferritin",
+        "Haemoglobin electrophoresis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microcytic hypochromic anaemia in a young woman with menorrhagia suggests iron deficiency. Serum ferritin is the first-line test to confirm iron deficiency; low ferritin (<30 µg/L) is diagnostic. Other options are for macrocytic, haemolytic, or haemoglobinopathy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2e81c65ca89d",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with chronic kidney disease (eGFR 20 mL/min) is found to have Hb 95 g/L, MCV 80 fL. Ferritin is 250 µg/L (normal 20-300) and CRP is 12 mg/L. Which test is most useful to identify coexisting absolute iron deficiency?",
+      "options": [
+        "Total iron-binding capacity",
+        "Soluble transferrin receptor",
+        "Transferrin saturation",
+        "Serum iron",
+        "Bone marrow aspirate"
+      ],
+      "answerIndex": 2,
+      "explanation": "In CKD, ferritin is an acute phase reactant and can be falsely normal in iron deficiency. Transferrin saturation <20% indicates iron deficiency. Soluble transferrin receptor is less available; bone marrow is gold standard but invasive. Serum iron alone is unreliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e3e6aad2900",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with acute jaundice, lethargy, and dark urine. Hb 75 g/L, MCV 105 fL, reticulocyte count 12%. Blood film shows spherocytes. What is the most appropriate test to confirm the underlying diagnosis?",
+      "options": [
+        "Ham's test",
+        "Direct Coombs test",
+        "Red cell folate",
+        "Osmotic fragility",
+        "G6PD assay"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spherocytes, reticulocytosis, and jaundice suggest autoimmune haemolytic anaemia. Direct Coombs test (DAT) detects antibodies on red cells and is diagnostic. Osmotic fragility is for hereditary spherocytosis; G6PD for G6PD deficiency; Ham's for PNH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d91ba2ae146d",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 78-year-old vegetarian presents with progressive fatigue, paraesthesiae in the feet, and a smooth tongue. Hb 95 g/L, MCV 115 fL. Serum vitamin B12 is 120 pmol/L (normal >200). Which additional test is most appropriate to determine the aetiology of the B12 deficiency?",
+      "options": [
+        "Red cell folate",
+        "Schilling test",
+        "Anti-intrinsic factor antibody",
+        "Holotranscobalamin",
+        "Serum methylmalonic acid"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an elderly patient, pernicious anaemia is a likely cause of B12 deficiency. Anti-intrinsic factor antibody is highly specific for pernicious anaemia (though only 50% sensitive). Other tests confirm B12 deficiency (MMA, holotranscobalamin) but not aetiology. Red cell folate differentiates B12 vs folate deficiency; B12 is already low. Schilling test is obsolete.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "74c8a1e49919",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman at 30 weeks gestation is found to have Hb 85 g/L, MCV 65 fL. Serum ferritin is 60 µg/L (normal 20-200). She is asymptomatic. What is the single most appropriate test to investigate the cause further?",
+      "options": [
+        "Serum iron",
+        "Soluble transferrin receptor",
+        "Red cell folate",
+        "Haemoglobin electrophoresis",
+        "Coeliac serology"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microcytic anaemia with a normal ferritin in pregnancy should raise suspicion for thalassaemia trait. Haemoglobin electrophoresis can identify haemoglobin variants. Serum iron and transferrin are nonspecific. Soluble transferrin receptor is not routine. Coeliac serology may be considered later.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eab55d11f2c2",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 32-year-old woman presents with fatigue and pallor. She has heavy menstrual bleeding. Full blood count shows Hb 9 g/dL, MCV 74 fL, ferritin 8 ng/mL. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intravenous iron sucrose",
+        "Oral ferrous sulphate 200 mg three times daily",
+        "Vitamin C supplements",
+        "Folic acid 5 mg daily",
+        "Red blood cell transfusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "In iron deficiency anaemia due to menorrhagia, oral iron is first-line unless severe intolerance or non-adherence. IV iron is reserved for failure or intolerance of oral iron. Transfusion is only for severe anaemia with haemodynamic instability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5e8b8e6aa974",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 68-year-old man presents with progressive fatigue, paraesthesia in his hands and feet, and a smooth red tongue. Investigations show Hb 10.2 g/dL, MCV 112 fL, Vitamin B12 <50 pg/mL, anti-intrinsic factor antibody positive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Vitamin B complex tablets",
+        "Folic acid 5 mg daily",
+        "Intramuscular hydroxocobalamin 1000 mcg every other day for 2 weeks then every 3 months",
+        "Oral cyanocobalamin 1000 mcg daily",
+        "Oral ferrous sulphate 200 mg three times daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pernicious anaemia causes B12 deficiency due to lack of intrinsic factor, impairing oral absorption. Intramuscular hydroxocobalamin is the standard treatment. Oral B12 is ineffective. Folic acid alone would be dangerous as it can mask B12 deficiency and worsen neurological symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "35129723b000",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman at 16 weeks' gestation is found to have Hb 10.5 g/dL, MCV 108 fL, serum folate 2.0 ng/mL (low), Vitamin B12 350 pg/mL (normal). She eats a diet very low in green vegetables. What is the most appropriate first-line treatment?",
+      "options": [
+        "Red blood cell transfusion",
+        "Intramuscular hydroxocobalamin 1000 mcg",
+        "Vitamin B6 supplementation",
+        "Oral folic acid 5 mg daily",
+        "Oral ferrous sulphate 200 mg daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Isolated folate deficiency in pregnancy is treated with folic acid 5 mg daily until birth. B12 deficiency must be excluded to avoid masking neurological damage. Given normal B12, folic acid is safe and effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e4d87f1036d",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 10-year-old boy with known sickle cell disease (HbSS) presents with acute onset of pallor, abdominal distension, and a fall in Hb from baseline 8 g/dL to 5 g/dL. He has massive splenomegaly. What is the most appropriate first-line treatment?",
+      "options": [
+        "Exchange blood transfusion",
+        "Oral folic acid 5 mg daily",
+        "Simple blood transfusion",
+        "Intravenous morphine",
+        "Hydroxyurea 20 mg/kg daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acute splenic sequestration crisis is a life-threatening complication requiring immediate correction of anaemia with simple transfusion. Exchange transfusion is for acute chest syndrome or stroke. Hydroxyurea is preventive, not for acute crisis. Analgesia is supportive but transfusion is definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "930bd33440ef",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "treat",
+      "stem": "A 45-year-old woman presents with fatigue and jaundice. Hb 7.2 g/dL, reticulocytes 8%, direct Coombs test positive, bilirubin 40 μmol/L (unconjugated). She has no fever or lymphadenopathy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Cyclophosphamide 100 mg daily",
+        "Prednisolone 1 mg/kg orally daily",
+        "Rituximab 375 mg/m2 weekly",
+        "Splenectomy",
+        "Red blood cell transfusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Warm autoimmune haemolytic anaemia is first-line treated with corticosteroids (prednisolone). Rituximab is second-line in steroid-refractory or relapsed disease. Splenectomy is reserved for refractory cases. Transfusion may be needed if severe but is not first-line treatment; it can be difficult to cross-match.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b56854d187ac",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents with fatigue and heavy menstrual periods. Her haemoglobin is 102 g/L and MCV 75 fL. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start oral iron supplements",
+        "Check vitamin B12 and folate levels",
+        "Refer to gynaecology for further assessment",
+        "Check serum ferritin levels",
+        "Request a peripheral blood film"
+      ],
+      "answerIndex": 3,
+      "explanation": "The microcytic anaemia suggests iron deficiency. Checking serum ferritin confirms the diagnosis before starting iron therapy, avoiding unnecessary treatment and guiding further investigation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2ae4a44e7e01",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 68-year-old man presents with melaena, heart rate 110 bpm, blood pressure 90/60 mmHg, and haemoglobin 70 g/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Administer intravenous fluids only",
+        "Arrange urgent upper GI endoscopy",
+        "Crossmatch blood and transfuse packed red cells",
+        "Start intravenous omeprazole infusion",
+        "Call general surgical team for review"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient is haemodynamically unstable with active GI bleeding. Resuscitation with blood transfusion is the priority before any other interventions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "65e8c3d50c0c",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 75-year-old vegan presents with progressive peripheral neuropathy and fatigue. Haemoglobin 95 g/L, MCV 115 fL. What is the single most appropriate immediate next step?",
+      "options": [
+        "Refer to neurology for nerve conduction studies",
+        "Request a peripheral blood film",
+        "Start intramuscular hydroxycobalamin injections",
+        "Check serum vitamin B12 and folate levels",
+        "Start oral folic acid supplements"
+      ],
+      "answerIndex": 3,
+      "explanation": "The macrocytic anaemia with neuropathy is highly suggestive of B12 deficiency. Confirming with B12 and folate levels is essential before initiating treatment, as treating without diagnosis could mask underlying pernicious anaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4297ab7afc69",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with chronic kidney disease stage 4 has haemoglobin 90 g/L (normocytic), ferritin 200 µg/L, and transferrin saturation 25%. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start intravenous iron therapy",
+        "Start erythropoiesis-stimulating agent (ESA)",
+        "Repeat haemoglobin in 3 months",
+        "Start oral iron supplements",
+        "Check vitamin B12 and folate levels"
+      ],
+      "answerIndex": 1,
+      "explanation": "Iron stores are adequate (ferritin >100 µg/L and TSAT >20%), so iron therapy is not indicated. According to NICE guidelines, an ESA should be considered for CKD anaemia once iron deficiency is excluded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14f2dd66bd7c",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man presents with progressive fatigue and dyspnoea on exertion. His FBC shows Hb 62 g/L, MCV 76 fL, ferritin 5 µg/L. He has no overt bleeding. Which single finding most clearly indicates that this patient's anaemia requires urgent intervention?",
+      "options": [
+        "Symptomatic anaemia",
+        "Ferritin 5 µg/L",
+        "Hb 62 g/L",
+        "Age 72",
+        "MCV 76 fL"
+      ],
+      "answerIndex": 2,
+      "explanation": "A haemoglobin of 62 g/L is below the NICE transfusion threshold (<70 g/L) in symptomatic patients, indicating an immediate need for red cell transfusion. The other findings confirm iron deficiency but do not define the emergency threshold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4a6cc3174d22",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 68-year-old vegetarian presents with gradually worsening unsteadiness of gait and tingling in the feet. FBC shows Hb 98 g/L, MCV 112 fL, and B12 < 100 pg/mL. Which clinical finding most strongly suggests that this patient has a potentially irreversible complication of B12 deficiency?",
+      "options": [
+        "Low B12",
+        "Elevated homocysteine",
+        "Macrocytosis",
+        "Ataxic gait",
+        "Hypersegmented neutrophils"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ataxic gait indicates subacute combined degeneration of the spinal cord due to B12 deficiency, which can become irreversible without prompt treatment. The other options are supportive laboratory findings of B12 deficiency but do not directly indicate a neurological complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "addb9fe8cfb9",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman known to have warm autoimmune haemolytic anaemia presents with acute onset jaundice, dark urine, and severe fatigue. Her Hb has fallen from 105 g/L to 58 g/L over 24 hours. Which finding on the peripheral blood film is most characteristic of her acute haemolytic crisis?",
+      "options": [
+        "Target cells",
+        "Schistocytes",
+        "Bite cells",
+        "Nucleated red blood cells",
+        "Spherocytes"
+      ],
+      "answerIndex": 4,
+      "explanation": "Spherocytes are the hallmark of warm autoimmune haemolytic anaemia, indicating extravascular haemolysis. Schistocytes suggest microangiopathic haemolytic anaemia (e.g., TTP), while the other cells are seen in different conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eda948a4a88d",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with fever, confusion, and widespread purpura. FBC shows Hb 85 g/L, platelets 18 x 10^9/L, and WCC 8.2 x 10^9/L. Which finding on her blood film should immediately raise suspicion for a potentially fatal condition?",
+      "options": [
+        "Reticulocytosis",
+        "Schistocytes",
+        "Thrombocytopenia",
+        "Spherocytes",
+        "Leucopenia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Schistocytes with thrombocytopenia and neurological symptoms are classic for thrombotic thrombocytopenic purpura (TTP), a life-threatening condition. Spherocytes would suggest AIHA, and thrombocytopenia alone is non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5a29c9a28b2e",
+      "topic": "Anaemia — Workup",
+      "slug": "anaemia-—-workup",
+      "system": "Haematology",
+      "subSystem": "Anaemia",
+      "acuity": "ROUTINE",
+      "angle": "red_flag",
+      "stem": "A 74-year-old man with chronic kidney disease stage 4 on darbepoetin therapy has a routine Hb of 82 g/L, down from 108 g/L three months ago despite increasing the ESA dose. Which single finding from his evaluation would most urgently require investigation for a new, potentially serious cause?",
+      "options": [
+        "MCV 78 fL",
+        "Elevated CRP (45 mg/L)",
+        "Low ferritin level (28 µg/L)",
+        "Positive faecal occult blood test",
+        "Reticulocyte count 1.5%"
+      ],
+      "answerIndex": 3,
+      "explanation": "A positive faecal occult blood test raises suspicion for occult gastrointestinal bleeding, which may indicate malignancy and warrants urgent endoscopy. Low ferritin is common in ESA resistance but does not pinpoint bleeding; elevated CRP suggests inflammation but is not an emergency.",
+      "difficulty": "hard"
+    }
+  ]
+}

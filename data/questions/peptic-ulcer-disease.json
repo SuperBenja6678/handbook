@@ -1,0 +1,513 @@
+{
+  "topic": "Peptic Ulcer Disease",
+  "slug": "peptic-ulcer-disease",
+  "system": "Gastroenterology",
+  "subSystem": "Upper GI",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:17:29Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5d11f129e29f",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with a 3-month history of episodic epigastric pain that is worse when his stomach is empty and is relieved by eating. He has no nausea, vomiting, or weight loss. He denies NSAID use. Abdominal examination is unremarkable. What is the single most likely diagnosis?",
+      "options": [
+        "Gastro-oesophageal reflux disease",
+        "Functional dyspepsia",
+        "Duodenal ulcer",
+        "Gastric ulcer",
+        "Chronic gastritis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic pattern of epigastric pain relieved by food suggests a duodenal ulcer. Gastric ulcer pain is often worsened by eating. Functional dyspepsia may have similar features but lacks a structural lesion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2e89a6494309",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man presents to the emergency department with sudden severe epigastric pain of 2 hours' duration. He has a history of NSAID use for osteoarthritis. On examination, he is tachycardic and has board-like rigidity of the abdomen. Erect chest X-ray shows free gas under the diaphragm. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pancreatitis",
+        "Acute cholecystitis",
+        "Ruptured abdominal aortic aneurysm",
+        "Perforated duodenal ulcer",
+        "Acute myocardial infarction"
+      ],
+      "answerIndex": 3,
+      "explanation": "The triad of sudden severe epigastric pain, peritonism, and free gas on X-ray is diagnostic of perforated peptic ulcer. Acute pancreatitis typically presents with epigastric pain radiating to the back and does not cause free gas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0b4d0f70bd1",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with rheumatoid arthritis on regular ibuprofen presents with a 1-day history of melaena and haematemesis. She has no abdominal pain. Blood pressure is 100/60 mmHg, heart rate 110 bpm. Nasogastric aspirate is bright red. What is the single most likely diagnosis?",
+      "options": [
+        "Bleeding duodenal ulcer",
+        "Gastritis",
+        "Gastric erosion",
+        "Mallory-Weiss tear",
+        "Oesophageal varices"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an NSAID user with haematemesis and melaena, a bleeding duodenal or gastric ulcer is most likely. Duodenal ulcers are more common in this setting. Mallory-Weiss tear typically follows vomiting. Varices occur in liver disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e34c248d14f5",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman on low-dose aspirin presents with melaena and anaemia. She has no epigastric pain. Oesophagogastroduodenoscopy reveals a 2 cm ulcer in the duodenal bulb with a visible vessel. What is the single most likely diagnosis?",
+      "options": [
+        "Gastritis",
+        "Bleeding duodenal ulcer (painless)",
+        "Oesophageal varices",
+        "Angiodysplasia",
+        "Gastric ulcer"
+      ],
+      "answerIndex": 1,
+      "explanation": "The finding of a duodenal ulcer with a visible vessel explains the bleeding. In the elderly on aspirin, peptic ulcers can be painless. Angiodysplasia is more colonic. Varices are absent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fb8c82a2042c",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with a previous duodenal ulcer successfully treated with H. pylori eradication and PPI therapy presents again with epigastric pain. He has no NSAID use. Repeat endoscopy shows a new duodenal ulcer. Fasting gastrin level is markedly elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Recurrent H. pylori infection",
+        "Zollinger-Ellison syndrome",
+        "Crohn's disease",
+        "NSAID-induced ulcer (denied)",
+        "Gastric cancer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recurrent duodenal ulcer after H. pylori eradication without NSAIDs, along with elevated gastrin, suggests Zollinger-Ellison syndrome (gastrinoma). This is a classic cause of refractory peptic ulcer disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7ae5cf762e86",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with epigastric pain and nausea for 2 weeks. She has no red flag symptoms (no weight loss, no dysphagia, no anaemia). She is not on NSAIDs. What is the most appropriate initial investigation to confirm the diagnosis of peptic ulcer disease?",
+      "options": [
+        "H. pylori stool antigen",
+        "Upper gastrointestinal endoscopy",
+        "Urea breath test",
+        "Barium meal",
+        "Fasted serum gastrin"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a young patient with no alarm features, a non-invasive test for H. pylori is recommended first. The urea breath test has high sensitivity and specificity for active H. pylori infection, which is a common cause of peptic ulcers. Endoscopy is reserved for those with alarm symptoms or age >55 with persistent symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "565fc0edaf19",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with known type 2 diabetes and gastro-oesophageal reflux disease has been taking a proton pump inhibitor (omeprazole) for 6 months. He now reports persistent epigastric pain and early satiety. He has lost 3 kg unintentionally over 3 months. What is the most appropriate next investigation?",
+      "options": [
+        "CT scan of the abdomen",
+        "H. pylori serology",
+        "Urea breath test",
+        "Upper gastrointestinal endoscopy with biopsies",
+        "Gastric emptying study"
+      ],
+      "answerIndex": 3,
+      "explanation": "Persistent symptoms despite adequate PPI therapy, combined with unintentional weight loss, are alarm features. Upper gastrointestinal endoscopy is indicated to exclude peptic ulcer disease, malignancy, and to obtain biopsies for H. pylori detection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e32f8ece0d2",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents to the emergency department with haematemesis and melaena. His heart rate is 110 bpm and blood pressure is 90/60 mmHg. After initial resuscitation with intravenous fluids, what is the single most appropriate diagnostic investigation?",
+      "options": [
+        "Abdominal ultrasound",
+        "Urgent oesophagogastroduodenoscopy (OGD)",
+        "Nasogastric tube aspiration",
+        "Barium swallow",
+        "CT angiogram of the abdomen"
+      ],
+      "answerIndex": 1,
+      "explanation": "In acute upper gastrointestinal bleeding with haemodynamic instability, urgent OGD (after resuscitation) is both diagnostic and therapeutic. It is the gold standard for identifying the source of bleeding (e.g., peptic ulcer) and allows for endoscopic intervention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2fffa5ad6b00",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man on long-term ibuprofen for osteoarthritis presents with sudden severe epigastric pain and board-like abdominal rigidity. His temperature is 38.5°C. What is the most appropriate first diagnostic investigation?",
+      "options": [
+        "Abdominal ultrasound",
+        "CT scan of the abdomen with contrast",
+        "OGD",
+        "Plain abdominal radiograph (supine)",
+        "Erect chest radiograph"
+      ],
+      "answerIndex": 4,
+      "explanation": "Suspected perforated peptic ulcer: erect chest X-ray is the initial investigation of choice to look for free air under the diaphragm. It is rapid, inexpensive, and highly specific for perforation. CT abdomen is more sensitive but not first-line in the unstable patient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "423881926658",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with rheumatoid arthritis has been on naproxen for 10 years. She presents with fatigue and dyspnoea on exertion. Full blood count shows haemoglobin 90 g/L (115–165), MCV 78 fL (80–100), ferritin 12 µg/L (15–150). She has no dysphagia or weight loss. What is the most appropriate investigation to establish the cause of her anaemia?",
+      "options": [
+        "Capsule endoscopy",
+        "H. pylori stool antigen",
+        "Upper gastrointestinal endoscopy with biopsies",
+        "Colonoscopy",
+        "Faecal occult blood test"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an elderly patient on NSAIDs with iron deficiency anaemia, upper GI endoscopy is the first-line investigation to identify possible peptic ulcer disease and to biopsy for H. pylori and coeliac disease. Colonoscopy is also needed eventually, but upper GI endoscopy is prioritised due to NSAID use and the absence of lower GI symptoms.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d11aac1288ce",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents with epigastric pain. OGD reveals a duodenal ulcer. A rapid urease test is positive for H. pylori. He has no prior treatment. What is the most appropriate first-line therapy?",
+      "options": [
+        "Ranitidine 150 mg twice daily for 8 weeks",
+        "Omeprazole 20 mg once daily for 8 weeks",
+        "Antacids as required",
+        "Quadruple therapy (omeprazole 20 mg twice daily + bismuth subsalicylate + metronidazole 400 mg twice daily + tetracycline 500 mg four times daily for 14 days)",
+        "Triple therapy (omeprazole 20 mg twice daily + amoxicillin 1 g twice daily + clarithromycin 500 mg twice daily for 7 days)"
+      ],
+      "answerIndex": 4,
+      "explanation": "First-line for H. pylori-positive duodenal ulcer is 7‑day triple therapy with a PPI, amoxicillin and clarithromycin, unless there is penicillin allergy. Omeprazole monotherapy does not eradicate H. pylori; quadruple therapy is second‑line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a90a826d1cd",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old woman with rheumatoid arthritis requires daily ibuprofen for symptom control. She develops dyspepsia and OGD shows a 1 cm gastric ulcer. H. pylori test is negative. She refuses to stop NSAIDs. What is the most appropriate management?",
+      "options": [
+        "Switch from ibuprofen to celecoxib 200 mg once daily and add omeprazole",
+        "Add omeprazole 20 mg once daily and continue ibuprofen",
+        "Switch from ibuprofen to naproxen and add omeprazole",
+        "Stop NSAIDs and prescribe paracetamol alone",
+        "Add misoprostol 200 µg four times daily and continue ibuprofen"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients who require continued NSAID therapy after an ulcer, NICE recommends switching to a COX‑2 selective NSAID plus a PPI. Celecoxib is a COX‑2 inhibitor; naproxen is non‑selective and carries higher risk. Misoprostol is an alternative but not first-line due to side effects.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "852e1840c68f",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man presents with melaena and haematemesis. Urgent OGD shows a duodenal ulcer with a visible vessel (Forrest IIa) which is successfully treated with adrenaline injection and haemostatic clips. What post‑endoscopy medical management is most appropriate?",
+      "options": [
+        "High‑dose intravenous omeprazole (80 mg bolus then 8 mg/hour for 72 hours)",
+        "Sucralfate 1 g orally four times daily",
+        "Ranitidine 50 mg intravenous bolus every 8 hours",
+        "No specific medical therapy; observe",
+        "Omeprazole 20 mg orally once daily for 4 weeks"
+      ],
+      "answerIndex": 0,
+      "explanation": "After endoscopic haemostasis for high‑risk stigmata (Forrest Ia, Ib, IIa), high‑dose IV PPI for 72 hours reduces rebleeding. Oral PPI is insufficient in this acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9da3ed48430e",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 28-year-old pregnant woman (28 weeks gestation) presents with epigastric pain. OGD reveals a 5 mm gastric ulcer. H. pylori test is negative. Which of the following drugs is contraindicated in the management of her ulcer?",
+      "options": [
+        "Alginate preparations",
+        "Ranitidine",
+        "Misoprostol",
+        "Omeprazole",
+        "Sucralfate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Misoprostol is a prostaglandin analogue that can induce uterine contractions and is contraindicated in pregnancy. PPIs are generally avoided but not absolutely contraindicated; ranitidine and antacids are considered safe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b74f12b3d009",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with a history of H. pylori‑positive duodenal ulcer completed successful eradication therapy 4 weeks ago. He is asymptomatic. He also takes aspirin 75 mg daily for secondary prevention after a myocardial infarction. What is the most appropriate long‑term management?",
+      "options": [
+        "Continue aspirin alone; no additional therapy",
+        "Add omeprazole 20 mg once daily",
+        "Add ranitidine 150 mg twice daily",
+        "Repeat OGD in 6 months",
+        "Stop aspirin and start clopidogrel"
+      ],
+      "answerIndex": 1,
+      "explanation": "After H. pylori eradication, maintenance PPI is not usually needed unless the patient has ongoing risk factors. This patient requires aspirin for secondary prevention, and a PPI (omeprazole) is indicated for gastroprotection given his ulcer history. Clopidogrel is less gastrotoxic but combination with aspirin may be considered, but PPI is first line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "23335caf02af",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old woman presents with a 2-month history of intermittent epigastric pain and heartburn. She has no weight loss, no dysphagia, and no vomiting. She is not on any regular medications. Her observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Test for Helicobacter pylori using stool antigen test",
+        "Refer to gastroenterology outpatient clinic",
+        "Prescribe antacids as required",
+        "Start a proton pump inhibitor (e.g., omeprazole 20mg once daily)",
+        "Arrange an urgent upper GI endoscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines for uninvestigated dyspepsia without alarm symptoms recommend non-invasive H. pylori testing as the first step. This avoids unnecessary endoscopy and guides targeted eradication therapy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d814dfb448bc",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with osteoarthritis presents with epigastric pain for 3 weeks. She takes ibuprofen 400mg three times daily as needed. She has no weight loss, dysphagia, or vomiting. Observations are normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Stop the ibuprofen",
+        "Arrange an upper GI endoscopy",
+        "Test for Helicobacter pylori",
+        "Start a proton pump inhibitor (e.g., omeprazole 20mg once daily)",
+        "Switch ibuprofen to a COX-2 inhibitor (e.g., celecoxib)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first step in NSAID-related dyspepsia is to discontinue the offending agent if possible. This removes the direct cause and often leads to symptom resolution. Starting a PPI is appropriate if NSAID must continue, but stopping is the immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "faffac7770a3",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents to the emergency department with haematemesis (fresh blood) and melaena. He is pale and sweaty. Heart rate 115/min, BP 85/60 mmHg. He has a history of peptic ulcer. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an urgent upper GI endoscopy",
+        "Start intravenous fluid resuscitation",
+        "Administer intravenous proton pump inhibitor (e.g., pantoprazole 80mg)",
+        "Insert a nasogastric tube for gastric lavage",
+        "Cross-match for 4 units of blood"
+      ],
+      "answerIndex": 1,
+      "explanation": "In haemodynamically unstable upper GI bleeding, the first priority is resuscitation with IV fluids to restore circulating volume. Endoscopy and medical therapy follow once the patient is stabilised.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c22711d076e1",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with known peptic ulcer disease suddenly develops severe epigastric pain with board-like rigidity of the abdomen. He is tachycardic and hypotensive. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform an erect chest X-ray",
+        "Arrange an urgent CT abdomen with contrast",
+        "Administer intravenous proton pump inhibitor",
+        "Insert a nasogastric tube",
+        "Start intravenous antibiotics"
+      ],
+      "answerIndex": 0,
+      "explanation": "In suspected perforated peptic ulcer, an erect chest X-ray is the initial investigation to detect pneumoperitoneum. While IV access and antibiotics are important, the diagnostic step takes priority to guide definitive management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc2442b5f0af",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman with a history of peptic ulcer disease is started on low-dose aspirin for secondary prevention after a transient ischaemic attack. She is asymptomatic. Which is the most appropriate immediate next step?",
+      "options": [
+        "Perform an upper GI endoscopy",
+        "Test for Helicobacter pylori",
+        "Prescribe an H2 receptor antagonist (e.g., ranitidine)",
+        "Switch aspirin to clopidogrel",
+        "Prescribe a proton pump inhibitor (e.g., omeprazole 20mg once daily)"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients with a history of peptic ulcer requiring antiplatelet therapy, a proton pump inhibitor should be co-prescribed to reduce the risk of ulcer recurrence and bleeding, as per NICE guidelines.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c2d348853178",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man presents with a 3-week history of epigastric pain. He has no dysphagia, no vomiting, and no haematemesis or melaena. Observations are normal. Which single finding is a red flag requiring urgent endoscopy?",
+      "options": [
+        "Body mass index 28 kg/m²",
+        "Positive faecal immunochemical test (FIT)",
+        "Epigastric tenderness on palpation",
+        "Iron deficiency anaemia (Hb 10 g/dL, MCV 78 fL)",
+        "History of regular NSAID use"
+      ],
+      "answerIndex": 3,
+      "explanation": "Iron deficiency anaemia is an alarm feature for upper GI malignancy in patients with dyspepsia, especially over age 55, warranting urgent endoscopy per NICE. Epigastric tenderness is non-specific; FIT is used for colorectal cancer screening; NSAID use is a risk factor but not an immediate red flag; obesity is not relevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c91cbbb1498",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old with a known duodenal ulcer presents with sudden severe epigastric pain, vomiting, and a rigid abdomen. Which life-threatening complication is most likely?",
+      "options": [
+        "Bleeding ulcer",
+        "Gastric outlet obstruction",
+        "Perforated ulcer",
+        "Acute cholecystitis",
+        "Acute pancreatitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Perforated ulcer presents with sudden severe pain, peritonism, and board-like rigidity. Bleeding would show haematemesis/melaena; gastric outlet obstruction causes recurrent vomiting and succussion splash; pancreatitis pain radiates to the back; cholecystitis is right upper quadrant pain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "30c8baea619c",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old woman on naproxen for osteoarthritis presents with haematemesis and melaena. Observations: HR 110 bpm, BP 90/60 mmHg, capillary refill 4 seconds. Which single clinical finding indicates a haemodynamically significant bleed requiring immediate resuscitation?",
+      "options": [
+        "Haematemesis",
+        "Postural hypotension >20 mmHg systolic drop",
+        "Epigastric tenderness",
+        "Melaena",
+        "Tachycardia >100 bpm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Postural hypotension >20 mmHg systolic drop is a sign of hypovolaemia and indicates clinically significant blood loss, prompting urgent fluid resuscitation and endoscopy. Tachycardia is less specific; melaena and haematemesis confirm bleeding but not severity; epigastric tenderness is common in ulcer disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bdcc0de50f60",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with known alcoholic cirrhosis presents with haematemesis and melaena. He denies prior dyspepsia. On examination, which single finding most strongly suggests variceal rather than peptic ulcer bleeding?",
+      "options": [
+        "Splenomegaly",
+        "Haematochezia",
+        "Jaundice",
+        "Epigastric tenderness",
+        "Tachycardia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Splenomegaly indicates portal hypertension, a key clue for variceal bleeding in cirrhosis. Jaundice is common in cirrhosis but not specific; epigastric tenderness suggests ulcer; tachycardia and haematochezia occur in both variceal and ulcer bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7034167c5621",
+      "topic": "Peptic Ulcer Disease",
+      "slug": "peptic-ulcer-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Upper GI",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with a history of duodenal ulcer, currently on maintenance omeprazole, presents with persistent vomiting. On examination, which single finding would be most concerning for gastric outlet obstruction?",
+      "options": [
+        "Epigastric tenderness",
+        "Melaena on rectal examination",
+        "Succussion splash",
+        "Guarding",
+        "Hepatomegaly"
+      ],
+      "answerIndex": 2,
+      "explanation": "A succussion splash indicates fluid and air in the stomach, a classic sign of gastric outlet obstruction due to a stricture or mass from chronic ulcer disease. Epigastric tenderness is non-specific; guarding suggests peritonitis; hepatomegaly is unrelated; melaena indicates bleeding, not obstruction.",
+      "difficulty": "medium"
+    }
+  ]
+}

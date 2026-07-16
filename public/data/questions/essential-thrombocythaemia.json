@@ -1,0 +1,513 @@
+{
+  "topic": "Essential Thrombocythaemia",
+  "slug": "essential-thrombocythaemia",
+  "system": "Haematology",
+  "subSystem": "Myeloproliferative",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:36:12Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "440032740676",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old woman presents with an incidental finding of thrombocytosis (platelets 650 × 10⁹/L) on routine blood tests. She is asymptomatic with no history of infection, inflammation, or bleeding. Full blood count: Hb 135 g/L, WCC 8 × 10⁹/L, platelets 650 × 10⁹/L. Iron studies are normal. JAK2 V617F mutation is detected. What is the single most likely diagnosis?",
+      "options": [
+        "Essential thrombocythaemia",
+        "Polycythaemia vera",
+        "Chronic myeloid leukaemia",
+        "Primary myelofibrosis",
+        "Reactive thrombocytosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Essential thrombocythaemia is a myeloproliferative neoplasm characterised by persistent thrombocytosis without a reactive cause. The presence of JAK2 V617F mutation confirms the diagnosis. Reactive thrombocytosis would not have this mutation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6ac67e0357a0",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man presents with intermittent headaches and mild splenomegaly. Platelet count is 800 × 10⁹/L. Haemoglobin is 145 g/L, white cell count 12 × 10⁹/L. Blood film shows normal red cell morphology with no tear drops. JAK2 V617F mutation is negative, but CALR mutation is positive. What is the single most likely diagnosis?",
+      "options": [
+        "Essential thrombocythaemia",
+        "Reactive thrombocytosis",
+        "Chronic myeloid leukaemia",
+        "Polycythaemia vera",
+        "Primary myelofibrosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Essential thrombocythaemia can present with microvascular symptoms like headache and splenomegaly. Negative JAK2 mutation does not exclude ET; CALR mutation is another driver mutation. Absence of tear drop cells and normal haemoglobin argue against primary myelofibrosis and polycythaemia vera.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dd21f9c42e18",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old woman presents with acute ischaemic stroke. She has no hypertension, diabetes, or atrial fibrillation. Platelet count is 1200 × 10⁹/L. Haemoglobin and white cell count are normal. JAK2 V617F mutation is detected. What is the single most likely diagnosis?",
+      "options": [
+        "Paroxysmal nocturnal haemoglobinuria",
+        "Polycythaemia vera",
+        "Antiphospholipid syndrome",
+        "Thrombotic thrombocytopenic purpura",
+        "Essential thrombocythaemia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Essential thrombocythaemia is a myeloproliferative neoplasm that increases thrombotic risk. Marked thrombocytosis with JAK2 mutation confirms ET. TTP typically presents with microangiopathic haemolytic anaemia and thrombocytopenia, not thrombocytosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7233f16a4c7",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with known essential thrombocythaemia on hydroxycarbamide presents with intense headache, blurred vision, and transient paraesthesia in his fingers. Platelet count is 420 × 10⁹/L (previously >1000). Fundoscopy shows retinal vein tortuosity but no haemorrhage. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine with aura",
+        "Transformation to acute myeloid leukaemia",
+        "Subarachnoid haemorrhage",
+        "Microvascular ischaemic symptoms of essential thrombocythaemia",
+        "Giant cell arteritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microvascular symptoms (headache, visual changes, paraesthesiae) are common in ET even when platelet count is controlled, due to platelet dysfunction. The history of ET and lack of other features make this more likely than giant cell arteritis or migraine.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2ac4b46912ba",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old pregnant woman at 28 weeks gestation is found to have thrombocytosis (platelets 700 × 10⁹/L) on routine antenatal bloods. She is asymptomatic with no bleeding or thrombosis. Full blood count is otherwise normal. JAK2 V617F mutation is negative. What is the single most likely diagnosis?",
+      "options": [
+        "Reactive thrombocytosis of pregnancy",
+        "Essential thrombocythaemia",
+        "Immune thrombocytopenia",
+        "Haemolytic uraemic syndrome",
+        "Gestational thrombocytopenia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reactive thrombocytosis can occur in pregnancy due to iron deficiency, infection, or inflammation. The absence of JAK2 mutation and normal red cell indices favour a reactive cause. Gestational thrombocytopenia causes low platelets, not high.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a14cbcec2ffe",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old asymptomatic woman is found to have a platelet count of 650 × 10^9/L on routine blood tests. Her full blood count is otherwise normal, and she has no splenomegaly. What is the single most appropriate first investigation to confirm a diagnosis of essential thrombocythaemia?",
+      "options": [
+        "Serum ferritin",
+        "Bone marrow biopsy",
+        "BCR-ABL fusion transcript testing",
+        "CALR mutation testing",
+        "JAK2 V617F mutation testing"
+      ],
+      "answerIndex": 4,
+      "explanation": "JAK2 V617F mutation is the most common molecular abnormality in essential thrombocythaemia (approximately 50-60% of cases) and is recommended as the first-line test by NICE. CALR mutations are tested if JAK2 is negative. BCR-ABL testing is for chronic myeloid leukaemia. Bone marrow biopsy is not first-line. Ferritin is for reactive thrombocytosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f18de678c178",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with known essential thrombocythaemia (platelet count 800 × 10^9/L) presents with recurrent epistaxis and easy bruising. He is on low-dose aspirin. What is the single most appropriate investigation to assess for acquired von Willebrand disease?",
+      "options": [
+        "Prothrombin time",
+        "Platelet aggregation studies",
+        "Factor VIII assay",
+        "Bleeding time",
+        "von Willebrand factor activity (ristocetin cofactor assay)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Acquired von Willebrand disease is a common complication of essential thrombocythaemia due to platelet adsorption of high-molecular-weight von Willebrand factor multimers. The most specific test is von Willebrand factor activity (ristocetin cofactor), which is typically low. PT, bleeding time, platelet aggregation, and factor VIII may be abnormal but are not diagnostic for this specific complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1c4b14a2cad2",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man with a 10-year history of essential thrombocythaemia (JAK2 V617F positive) now presents with progressive splenomegaly, night sweats, and weight loss. His platelet count has fallen to 150 × 10^9/L. What is the single most appropriate investigation to confirm transformation to post-essential thrombocythaemia myelofibrosis?",
+      "options": [
+        "Serum lactate dehydrogenase",
+        "JAK2 V617F allele burden measurement",
+        "Bone marrow biopsy with reticulin stain",
+        "Abdominal ultrasound",
+        "Peripheral blood smear"
+      ],
+      "answerIndex": 2,
+      "explanation": "Transformation to myelofibrosis is characterized by bone marrow fibrosis, which is best demonstrated by reticulin and trichrome stains on bone marrow biopsy. JAK2 allele burden may rise but is not diagnostic. Ultrasound confirms splenomegaly but not fibrosis. LDH is non-specific. Blood smear may show leukoerythroblastosis but is not definitive for fibrosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "03ddb6fd7d37",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 34-year-old woman presents with headache and a platelet count of 750 × 10^9/L. Her haemoglobin is 16.5 g/dL and haematocrit 0.50. JAK2 V617F mutation testing is positive. She has no splenomegaly. What is the single most appropriate investigation to differentiate essential thrombocythaemia from polycythaemia vera?",
+      "options": [
+        "Oxygen saturation",
+        "Red cell mass measurement",
+        "CALR mutation testing",
+        "Serum erythropoietin level",
+        "Bone marrow biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serum erythropoietin (EPO) is typically low in polycythaemia vera and normal or high in essential thrombocythaemia. Since JAK2 V617F is present in both, EPO helps differentiate when haematocrit is borderline. CALR mutation is not useful. Bone marrow biopsy can show differences but EPO is simpler and recommended by NICE in ambiguous cases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "47310e8e3e1c",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man with a platelet count of 700 × 10^9/L has JAK2 V617F mutation testing which is negative. BCR-ABL is also negative. There is no evidence of iron deficiency or inflammation. What is the single most appropriate next investigation to confirm essential thrombocythaemia?",
+      "options": [
+        "Bone marrow biopsy",
+        "MPL mutation testing",
+        "Thrombophilia screen",
+        "CALR mutation testing",
+        "Blood film examination"
+      ],
+      "answerIndex": 3,
+      "explanation": "After negative JAK2, CALR mutations are found in about 25% of essential thrombocythaemia cases. MPL mutations are rarer (<5%) and are tested after CALR. Bone marrow biopsy may be considered if all mutations are negative, but the next step is CALR. Thrombophilia screen and blood film are not diagnostic for ET.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "703eca62e5fa",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with essential thrombocythaemia (JAK2 V617F positive) is asymptomatic. Her platelet count is 820 × 10⁹/L, and she has no history of thrombosis or cardiovascular risk factors. What is the most appropriate first-line management?",
+      "options": [
+        "Anagrelide 0.5 mg twice daily",
+        "No treatment, regular monitoring only",
+        "Interferon alfa-2a 3 million units three times weekly",
+        "Aspirin 75 mg once daily",
+        "Hydroxycarbamide 500 mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "In low-risk ET (age <60, no thrombosis, platelets <1000), NICE recommends low-dose aspirin alone as first-line therapy. Hydroxycarbamide is reserved for high-risk patients. Anagrelide and interferon are second-line or used in specific situations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ad26093f02cd",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with essential thrombocythaemia (CALR mutation positive) has a platelet count of 1150 × 10⁹/L and a history of transient ischaemic attack two months ago. Which is the most appropriate first-line cytoreductive therapy?",
+      "options": [
+        "Aspirin 75 mg once daily",
+        "Hydroxycarbamide 500 mg twice daily",
+        "Ruxolitinib 15 mg twice daily",
+        "Anagrelide 0.5 mg twice daily",
+        "Interferon alfa-2a 3 million units three times weekly"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient is high-risk (age ≥60 and prior thrombosis). NICE recommends hydroxycarbamide as first-line cytoreduction in high-risk ET. Anagrelide is second-line, interferon is used in pregnancy, and ruxolitinib is for myelofibrosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "140fe9ec8387",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with essential thrombocythaemia on no treatment presents with acute ischaemic stroke. Platelet count is 1650 × 10⁹/L. What is the most appropriate definitive therapy for her thrombocytosis?",
+      "options": [
+        "Intravenous immunoglobulin 1 g/kg",
+        "Interferon alfa-2a 3 million units three times weekly",
+        "Plateletpheresis",
+        "Hydroxycarbamide 500 mg twice daily",
+        "Anagrelide 0.5 mg twice daily"
+      ],
+      "answerIndex": 3,
+      "explanation": "Even in acute thrombosis, the first-line definitive cytoreductive therapy for ET is hydroxycarbamide. Plateletpheresis may be used as an emergency measure but is not definitive. Anagrelide and interferon are second-line; IVIG is not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9fe0b10e3b91",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with essential thrombocythaemia on long-term hydroxycarbamide develops painful leg ulcers and neutropenia (neutrophil count 0.8 × 10⁹/L). Which alternative cytoreductive agent is most appropriate?",
+      "options": [
+        "Anagrelide 0.5 mg twice daily",
+        "Aspirin 75 mg once daily",
+        "Interferon alfa-2a 3 million units three times weekly",
+        "Busulfan 4 mg once daily",
+        "Ruxolitinib 15 mg twice daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "For patients intolerant of hydroxycarbamide, NICE recommends anagrelide as second-line cytoreduction. Interferon is also an option but is less commonly used in this setting; busulfan and ruxolitinib are not standard for ET. Aspirin alone is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "296f4c6ae7cb",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 33-year-old pregnant woman (28 weeks gestation) with essential thrombocythaemia has a platelet count of 950 × 10⁹/L and a history of splanchnic vein thrombosis. Which cytoreductive agent is safest in pregnancy?",
+      "options": [
+        "Anagrelide 0.5 mg twice daily",
+        "Interferon alfa-2a 3 million units three times weekly",
+        "Hydroxycarbamide 500 mg twice daily",
+        "Warfarin 5 mg once daily",
+        "Aspirin 75 mg once daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnant women with high-risk ET, interferon alfa is the preferred cytoreductive agent as it is safe in pregnancy. Hydroxycarbamide and anagrelide are teratogenic. Aspirin is used for low-risk patients but does not reduce platelet count. Warfarin is for anticoagulation, not cytoreduction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "72df3a62e93e",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 58-year-old woman is incidentally found to have a platelet count of 650 × 10^9/L on a routine blood test. She is asymptomatic with no cardiovascular risk factors. Repeat FBC two weeks later confirms persistent thrombocytosis. Haemoglobin, white cell count, and blood film are normal. Ferritin and CRP are within normal limits. What is the most appropriate next step?",
+      "options": [
+        "Repeat FBC in 3 months",
+        "Start hydroxycarbamide",
+        "Arrange JAK2 V617F mutation analysis",
+        "Start low-dose aspirin",
+        "Refer to haematology for a bone marrow biopsy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has persistent thrombocytosis with normal ferritin and CRP, making reactive causes less likely. The most immediate next step is to test for the JAK2 V617F mutation, which is present in ~50% of essential thrombocythaemia (ET) cases. Starting aspirin is only indicated if there are cardiovascular risk factors or vasomotor symptoms. Referral for bone marrow biopsy is not first-line; diagnosis can often be made via molecular testing. Observation alone is not appropriate without further investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fb5c006a59a",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known JAK2-positive essential thrombocythaemia has a platelet count of 600 × 10^9/L. He is asymptomatic, with no history of thrombosis, and is a non-smoker with normal blood pressure. His age is <60 years. He is not on any treatment. What is the most appropriate next step?",
+      "options": [
+        "Reassure and arrange annual FBC",
+        "Start anagrelide",
+        "Start low-dose aspirin",
+        "Refer for plateletpheresis",
+        "Start hydroxycarbamide"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient is low-risk (age <60, no thrombosis history, platelets <1500). NICE guidelines recommend observation alone for low-risk asymptomatic ET, as the risk of thrombosis is low and cytoreduction is not indicated. Aspirin is only considered if there are cardiovascular risk factors. Hydroxycarbamide and anagrelide are reserved for high-risk patients. Plateletpheresis is used for extreme thrombocytosis (>1500) in acute settings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "19113f374b86",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with known essential thrombocythaemia (platelet count 900 × 10^9/L) presents to the emergency department with sudden onset of severe headache, slurred speech, and right-sided weakness. CT head shows no intracranial haemorrhage. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange plateletpheresis",
+        "Arrange urgent MRI brain",
+        "Give aspirin 300 mg orally",
+        "Start intravenous unfractionated heparin",
+        "Start hydroxycarbamide"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient has an acute ischaemic stroke. In the absence of haemorrhage, NICE guidelines recommend aspirin 300 mg orally as soon as possible. For ET patients, long-term cytoreduction (e.g. hydroxycarbamide) is appropriate but not immediate. Heparin is not indicated for acute ischaemic stroke unless there is another indication. MRI brain may be done but is not the immediate next step; aspirin should be given first. Plateletpheresis is reserved for extreme thrombocytosis with acute thrombosis, but aspirin is the priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "96ac9e3ab2f6",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman with essential thrombocythaemia on hydroxycarbamide therapy presents with severe headaches, visual disturbances, and easy bruising for one week. Full blood count shows haemoglobin 100 g/L, white cell count 3.0 × 10^9/L, and platelet count 100 × 10^9/L. What is the most appropriate next step?",
+      "options": [
+        "Stop hydroxycarbamide",
+        "Give platelet transfusion",
+        "Start prednisolone",
+        "Arrange CT head",
+        "Switch to anagrelide"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pancytopenia is likely due to hydroxycarbamide toxicity. The immediate next step is to stop the drug and monitor recovery. Platelet transfusion is only indicated if there is active bleeding or very low counts (<10) with risk; the patient has mild thrombocytopenia with easy bruising but no major haemorrhage. CT head may be considered if there is suspicion of intracranial bleed, but the symptoms (headache, visual disturbance) could be due to anaemia. Switching to another cytoreductive agent is not appropriate without first stopping the offending drug.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "39ff108f07a9",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with essential thrombocythaemia (JAK2-positive, low-risk, on low-dose aspirin) is 10 weeks pregnant. She has no history of thrombosis or bleeding. Her platelet count is 500 × 10^9/L. What is the most appropriate next step?",
+      "options": [
+        "Stop low-dose aspirin",
+        "Continue low-dose aspirin",
+        "Start low molecular weight heparin",
+        "Start hydroxycarbamide",
+        "Refer to obstetric haematology clinic"
+      ],
+      "answerIndex": 4,
+      "explanation": "Pregnancy in ET carries increased risks of thrombosis and miscarriage. NICE recommends that all pregnant women with ET are managed by a multidisciplinary team including obstetric haematology. The immediate next step is referral to a specialist clinic for shared care. Aspirin may be continued or stopped based on specialist advice, but the GP or FY should not decide alone. LMWH is not indicated without additional risk factors. Hydroxycarbamide is teratogenic and contraindicated in pregnancy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "98cdcf434c77",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old asymptomatic woman has routine bloods showing Hb 130, WCC 9, Plt 1200. She has no past medical history. What single laboratory finding in this patient would cross the threshold for urgent cytoreductive therapy?",
+      "options": [
+        "Platelet count >1000",
+        "WCC >10",
+        "Platelet count >1500",
+        "JAK2 V617F mutation",
+        "Hb >130"
+      ],
+      "answerIndex": 2,
+      "explanation": "In asymptomatic ET, cytoreductive therapy is indicated if platelet count >1500 x10^9/L (NICE). A count of 1200 does not meet this threshold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "341c35a6bba4",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with known JAK2-positive ET presents with severe headache for 1 week, worse when lying down, and blurred vision. On examination there is bilateral papilloedema. Which diagnosis is most important to exclude?",
+      "options": [
+        "Idiopathic intracranial hypertension",
+        "Migraine",
+        "Meningitis",
+        "Cerebral vein thrombosis",
+        "Subarachnoid haemorrhage"
+      ],
+      "answerIndex": 3,
+      "explanation": "ET is thrombophilic so persistent headache with papilloedema raises suspicion for CVT. IIH is a diagnosis of exclusion; CVT must be ruled out urgently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50db590442d5",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 72-year-old man with ET (platelet count 1900) on aspirin presents with sudden severe headache, vomiting, and collapse. On examination he is drowsy. What single clinical sign would most strongly suggest the diagnosis?",
+      "options": [
+        "Cranial nerve palsy",
+        "Neck stiffness",
+        "Papilloedema",
+        "Babinski sign",
+        "Kernig's sign"
+      ],
+      "answerIndex": 1,
+      "explanation": "Extreme thrombocytosis (>1500) plus antiplatelet therapy increases risk of subarachnoid haemorrhage. Neck stiffness is a classic sign of SAH, prompting urgent CT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c4de901ff5ca",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with known ET (platelet count 800) at 28 weeks gestation presents with acute dyspnoea and pleuritic chest pain. HR 110, RR 22, SpO2 94%. What single examination finding most strongly supports a diagnosis of pulmonary embolism?",
+      "options": [
+        "Positive Homan's sign",
+        "Raised JVP",
+        "Pleural rub",
+        "Wheeze",
+        "Crackles at lung bases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pregnant ET patients have high thrombotic risk. Acute dyspnoea with pleuritic pain suggests PE; raised JVP indicates right heart strain, supporting the diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d0c927bc7e20",
+      "topic": "Essential Thrombocythaemia",
+      "slug": "essential-thrombocythaemia",
+      "system": "Haematology",
+      "subSystem": "Myeloproliferative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man with ET on aspirin for 2 years is well and attending routine follow-up. What single result would most indicate disease progression warranting cytoreductive therapy?",
+      "options": [
+        "New splenomegaly",
+        "White cell count 12",
+        "Positive JAK2 mutation",
+        "Platelet count rising to 900",
+        "Development of anaemia"
+      ],
+      "answerIndex": 0,
+      "explanation": "New splenomegaly in ET may indicate transformation to myelofibrosis or PV, which changes management. A platelet count of 900 is below the threshold for cytoreduction in an asymptomatic patient.",
+      "difficulty": "medium"
+    }
+  ]
+}

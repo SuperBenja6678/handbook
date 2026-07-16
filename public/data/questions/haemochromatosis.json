@@ -1,0 +1,493 @@
+{
+  "topic": "Haemochromatosis",
+  "slug": "haemochromatosis",
+  "system": "Hepatology & Pancreaticobiliary",
+  "subSystem": "Metabolic liver",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:17Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "19cf256cc9ce",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 52-year-old man presents with fatigue, joint pains in the hands, and recent-onset type 2 diabetes. He has noted increased skin pigmentation over the past year. On examination, he has hepatomegaly and bronze discolouration of the skin. Liver function tests show mild transaminitis. Ferritin is markedly elevated with high transferrin saturation. What is the single most likely diagnosis?",
+      "options": [
+        "Hereditary haemochromatosis",
+        "Non-alcoholic fatty liver disease",
+        "Alcoholic liver disease",
+        "Secondary iron overload from multiple transfusions",
+        "Porphyria cutanea tarda"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of bronze skin pigmentation, diabetes, arthropathy, hepatomegaly, and elevated ferritin with high transferrin saturation is classic for hereditary haemochromatosis. Alcoholic liver disease can cause elevated ferritin but typically without such high saturation and with a history of alcohol excess. Porphyria cutanea tarda also presents with skin blistering and iron overload but lacks the systemic features.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0dd2176e1cfe",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 35-year-old man is incidentally found to have a serum ferritin of 1200 µg/L during a routine health check. He is asymptomatic, drinks minimal alcohol, and has no history of blood transfusions. He mentions that his father died of liver cancer in his 60s. Transferrin saturation is 72%. What is the single most likely diagnosis?",
+      "options": [
+        "Hereditary haemochromatosis",
+        "Non-alcoholic fatty liver disease",
+        "Hyperferritinaemia due to inflammation",
+        "Chronic hepatitis B infection",
+        "Alcoholic liver disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of marked hyperferritinaemia with high transferrin saturation in an asymptomatic young man with a family history of liver cancer is highly suggestive of hereditary haemochromatosis, which is often C282Y homozygous. Alcoholic liver disease and NAFLD typically show lower saturation unless advanced. Inflammation causes high ferritin but low saturation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d1175dd9a0d6",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old man presents with acute-onset breathlessness and palpitations. ECG shows low voltage and T-wave inversion. Echocardiography reveals a restrictive cardiomyopathy with reduced ejection fraction. He has a history of hypogonadism and his skin appears slate-grey. Serum ferritin is 1500 µg/L with transferrin saturation of 85%. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiac amyloidosis",
+        "Hereditary haemochromatosis",
+        "Dilated cardiomyopathy",
+        "Acute myocarditis",
+        "Sarcoid heart disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of a restrictive cardiomyopathy with hypogonadism, skin pigmentation, and severe iron overload is typical of cardiac involvement in hereditary haemochromatosis, especially juvenile onset. Amyloidosis also causes restrictive cardiomyopathy but usually without such high iron studies. Myocarditis is acute and infective.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "208f659a4686",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 58-year-old man with known cirrhosis is found to have a 3 cm liver lesion on surveillance ultrasound. AFP is elevated. He has had type 2 diabetes for 10 years and complains of worsening joint pain. On examination, he has bronze skin pigmentation and testicular atrophy. What is the single most likely underlying diagnosis for his cirrhosis?",
+      "options": [
+        "Hereditary haemochromatosis",
+        "Alcoholic liver disease",
+        "Non-alcoholic steatohepatitis",
+        "Autoimmune hepatitis",
+        "Chronic hepatitis C infection"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of bronze pigmentation, diabetes, arthropathy, and hypogonadism in a patient with cirrhosis and hepatocellular carcinoma strongly points to hereditary haemochromatosis as the underlying cause. These extrahepatic features are not typical of alcoholic liver disease, HCV, or NASH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9507fba71950",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 42-year-old woman presents with fatigue, arthralgia, and amenorrhoea for 6 months. She has lost weight but no other symptoms. On examination, she has mild hepatomegaly and her skin has a slightly greyish hue. Investigations show ferritin 950 µg/L and transferrin saturation 68%. She has no history of blood transfusions and drinks very little alcohol. What is the single most likely diagnosis?",
+      "options": [
+        "Hereditary haemochromatosis",
+        "Premature ovarian failure due to autoimmune oophoritis",
+        "Hypothyroidism",
+        "Systemic lupus erythematosus",
+        "Coeliac disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "In women, hereditary haemochromatosis often presents later due to menstrual iron loss; this patient's fatigue, arthralgia, amenorrhoea, hepatomegaly, and high ferritin with high saturation are diagnostic. Hypothyroidism, coeliac disease, and SLE can cause fatigue and arthralgia but not such marked iron studies. Amenorrhoea here is due to pituitary iron deposition causing hypogonadotrophic hypogonadism.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ae7f3f25f398",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old asymptomatic man is found to have a serum ferritin of 900 µg/L on routine bloods. LFTs and FBC are normal. What is the most appropriate next investigation?",
+      "options": [
+        "Liver ultrasound",
+        "HFE genotyping",
+        "Serum iron",
+        "Repeat ferritin in 3 months",
+        "Fasting transferrin saturation"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE guidelines recommend transferrin saturation as the first-line test for suspected haemochromatosis. A level >60% in men indicates a need for HFE genotyping.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5c6541c106f7",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with fatigue and mild arthralgia. Ferritin is 450 µg/L (normal 15–200), transferrin saturation 55%. What is the most appropriate definitive diagnostic test?",
+      "options": [
+        "Trial of venesection",
+        "HFE genotyping",
+        "Repeat ferritin and transferrin saturation",
+        "Liver biopsy with iron quantification",
+        "MRI of the liver"
+      ],
+      "answerIndex": 1,
+      "explanation": "In women, transferrin saturation >50% warrants HFE genotyping, which is the confirmatory test for hereditary haemochromatosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5f8d296e625e",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old asymptomatic woman is found to be a C282Y heterozygote on family screening. Her ferritin is 80 µg/L, transferrin saturation 25%. What is the most likely outcome for this patient?",
+      "options": [
+        "She will develop iron overload by age 50",
+        "She is a carrier and will not usually develop iron overload",
+        "She should have a liver biopsy",
+        "She is at increased risk of hepatocellular carcinoma",
+        "She needs annual phlebotomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "C282Y heterozygotes rarely develop clinically significant iron overload; penetrance is low and iron parameters are normal in this case.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "894fb6c12455",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man presents with fatigue. Ferritin is 800 µg/L, transferrin saturation 65%. HFE genotyping is negative for C282Y and H63D mutations. What is the most appropriate next test to confirm iron overload?",
+      "options": [
+        "Liver biopsy with quantitative iron measurement",
+        "Trial of venesection",
+        "Serum ferritin",
+        "MRI T2* of the liver",
+        "Transferrin saturation"
+      ],
+      "answerIndex": 0,
+      "explanation": "In HFE-negative iron overload, liver biopsy with quantitative iron measurement is the gold standard to confirm hepatic iron overload and help differentiate from secondary causes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a6959ee20d32",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman presents for screening as her father has hereditary haemochromatosis (C282Y homozygote). She is asymptomatic with normal iron indices. What is the most appropriate investigation?",
+      "options": [
+        "Serum ferritin",
+        "Clinical examination",
+        "Liver biopsy",
+        "Fasting transferrin saturation",
+        "HFE genotyping"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends offering HFE genotyping to first-degree relatives of patients with hereditary haemochromatosis, regardless of iron indices.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4d4d4447d69f",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old male is incidentally found to have serum ferritin 1200 µg/L and transferrin saturation 75%. He is asymptomatic, no organ dysfunction. Genetic testing confirms HFE C282Y homozygosity. What is the most appropriate first-line therapy?",
+      "options": [
+        "Deferoxamine infusion",
+        "Dietary iron restriction alone",
+        "Ursodeoxycholic acid",
+        "Weekly venesection",
+        "Deferasirox tablets"
+      ],
+      "answerIndex": 3,
+      "explanation": "Weekly venesection (phlebotomy) is first-line for iron removal in asymptomatic haemochromatosis. Chelation (deferoxamine, deferasirox) is reserved for those who cannot tolerate or do not respond to venesection. Dietary restriction alone is insufficient to remove excess iron.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "093ef410fac8",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with known hereditary haemochromatosis has ferritin 800 µg/L and mild hepatic fibrosis on biopsy. She reports fatigue and joint pains. What is the recommended initial venesection schedule?",
+      "options": [
+        "Daily phlebotomy",
+        "Phlebotomy every 3 months",
+        "Phlebotomy as needed based on symptoms",
+        "Monthly phlebotomy",
+        "Weekly phlebotomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "BNF guidelines recommend initial phlebotomy 1–2 times weekly until iron stores are depleted (typically ferritin <50 µg/L). Weekly is the standard starting frequency. Daily is too aggressive; monthly or less is inadequate for initial depletion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5d3ee7f47707",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man with known haemochromatosis presents with jaundice, ascites, and coagulopathy. Ferritin is 3000 µg/L. Which treatment is CONTRAINDICATED?",
+      "options": [
+        "Lactulose",
+        "Venesection",
+        "Spironolactone",
+        "Vitamin K",
+        "Fresh frozen plasma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Venesection is contraindicated in acute decompensated liver disease because it can worsen haemodynamic instability, anaemia, and coagulopathy. Management focuses on supportive care (lactulose for encephalopathy, spironolactone for ascites, vitamin K and FFP for coagulopathy).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "26e912ab6f96",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with hereditary haemochromatosis, maintained on quarterly venesection, is now 8 weeks pregnant. Her Hb is 95 g/L, ferritin 400 µg/L. What is the most appropriate management?",
+      "options": [
+        "Continue quarterly venesection",
+        "Increase venesection to monthly",
+        "Start oral iron supplements",
+        "Stop venesection",
+        "Switch to deferoxamine"
+      ],
+      "answerIndex": 3,
+      "explanation": "Venesection is avoided during pregnancy, especially with anaemia, due to risks to mother and fetus. Deferoxamine is not routinely recommended in pregnancy. Iron supplements are contraindicated in haemochromatosis. No active iron removal is needed if ferritin is only mildly elevated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "88611bc82521",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old man presents to his GP with a two-month history of fatigue and joint pain. He has no significant past medical history. Examination is unremarkable. Blood tests show elevated ferritin (800 µg/L) and transferrin saturation (70%). What is the most appropriate next step?",
+      "options": [
+        "MRI liver for iron quantification",
+        "HFE genetic testing",
+        "Start therapeutic phlebotomy",
+        "Urgent referral to hepatology",
+        "Liver biopsy"
+      ],
+      "answerIndex": 1,
+      "explanation": "HFE genetic testing is the first-line diagnostic step to confirm hereditary haemochromatosis before further investigation or treatment. Liver biopsy or MRI would be considered if genetic testing is negative but clinical suspicion remains.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c64efdfed28b",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old man with known hereditary haemochromatosis (homozygous C282Y) is reviewed in clinic. He has no evidence of cirrhosis or diabetes. His ferritin is 800 µg/L and transferrin saturation is 60%. What is the most appropriate next step?",
+      "options": [
+        "Start therapeutic phlebotomy",
+        "Start iron chelation therapy",
+        "Repeat ferritin in 6 months",
+        "Perform liver biopsy",
+        "Refer for screening for hepatocellular carcinoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Therapeutic phlebotomy is indicated in patients with ferritin >300 µg/L to reduce iron stores and prevent organ damage. Chelation is second-line for those intolerant of venesection. HCC screening is only needed if cirrhosis is present.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c3395c7066c4",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known haemochromatosis and compensated cirrhosis presents to the Emergency Department with haematemesis and melaena. He is haemodynamically stable with a heart rate of 100 bpm and blood pressure 100/60 mmHg. What is the most appropriate immediate next step?",
+      "options": [
+        "Blood transfusion",
+        "Insert Sengstaken-Blakemore tube",
+        "IV terlipressin and prophylactic antibiotics",
+        "Urgent oesophagogastroduodenoscopy (OGD)",
+        "Transjugular intrahepatic portosystemic shunt (TIPS)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In suspected variceal bleeding, immediate medical therapy with terlipressin and antibiotics reduces mortality and should precede endoscopy. OGD is performed after stabilisation. Other options are rescue therapies for refractory bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1d1216e38e56",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with known haemochromatosis presents to the Emergency Department with acute-onset dyspnoea and orthopnoea. On examination, she has bibasal crackles, raised JVP, and pitting oedema to the knees. Chest X-ray shows pulmonary oedema. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to cardiology",
+        "Start high-flow oxygen",
+        "Perform phlebotomy",
+        "Urgent echocardiogram",
+        "Start IV furosemide"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient has acute pulmonary oedema due to iron overload cardiomyopathy. IV furosemide is the priority to treat pulmonary oedema. Echocardiography, phlebotomy, and oxygen are secondary after initial diuresis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e7e33071a001",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman with hereditary haemochromatosis (C282Y homozygous) is seen in clinic. She is 12 weeks pregnant. Her ferritin is 400 µg/L and transferrin saturation is 45%. She has no evidence of organ involvement. What is the most appropriate next step regarding her haemochromatosis management?",
+      "options": [
+        "Start oral deferasirox",
+        "Stop phlebotomy and monitor ferritin",
+        "Continue regular phlebotomy every 8 weeks",
+        "Increase phlebotomy frequency",
+        "Arrange for liver MRI"
+      ],
+      "answerIndex": 1,
+      "explanation": "Phlebotomy is avoided in pregnancy unless severe iron overload. In mild elevation, stopping venesection and monitoring is appropriate. Chelation is teratogenic. MRI is not indicated without clinical suspicion of organ damage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d5f983cb6842",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old man presents to general practice with a 6-month history of fatigue and arthralgia affecting his knuckles and knees. He was diagnosed with type 2 diabetes 18 months ago. He drinks around 10 units of alcohol per week. On examination, his skin is slightly pigmented. Blood tests show: ALT 65 U/L, transferrin saturation 72%, ferritin 1350 µg/L. Which single finding in his history or examination is a red flag indicating established iron overload with organ damage?",
+      "options": [
+        "Elevated ALT",
+        "Arthralgia",
+        "Skin pigmentation",
+        "Fatigue",
+        "Type 2 diabetes"
+      ],
+      "answerIndex": 4,
+      "explanation": "New-onset diabetes in a young patient, especially with arthralgia and elevated iron indices, suggests pancreatic iron deposition and is a marker of significant iron overload. While fatigue and arthralgia are common, they are non-specific; diabetes indicates organ damage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1b0bb717ccd7",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with known hereditary haemochromatosis and compensated cirrhosis (Child-Pugh A) presents to the emergency department with sudden haematemesis and melaena. On examination, heart rate is 110 bpm, blood pressure 90/60 mmHg. There is splenomegaly and multiple spider naevi on his chest. Which complication is most likely causing his gastrointestinal bleeding?",
+      "options": [
+        "Mallory-Weiss tear",
+        "Oesophageal variceal haemorrhage",
+        "Peptic ulcer disease",
+        "Haemobilia",
+        "Gastric antral vascular ectasia"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a patient with cirrhosis and signs of portal hypertension (splenomegaly, spider naevi), haematemesis and melaena are most likely from oesophageal varices, which is a life-threatening emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "44fec65419e2",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with hereditary haemochromatosis (on regular venesection) presents with worsening dyspnoea, orthopnoea, and palpitations over the past two weeks. On examination, he has bibasilar crackles, elevated JVP, and a gallop rhythm. ECG shows sinus tachycardia with low-voltage QRS complexes. What is the most likely life-threatening complication?",
+      "options": [
+        "Pulmonary embolism",
+        "Restrictive cardiomyopathy",
+        "Dilated cardiomyopathy",
+        "Myocarditis",
+        "Cardiac tamponade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Iron deposition in the myocardium leads to restrictive cardiomyopathy, presenting with heart failure symptoms and low-voltage ECG. Other options are less likely given the history of haemochromatosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "90046b679fdc",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old woman with known hereditary haemochromatosis and established cirrhosis undergoes routine surveillance abdominal ultrasound. An incidental 3 cm mass is found in the right lobe of the liver. Alpha-fetoprotein (AFP) level is 480 ng/mL. What is the most likely diagnosis?",
+      "options": [
+        "Hepatocellular carcinoma",
+        "Hepatic adenoma",
+        "Focal nodular hyperplasia",
+        "Metastatic colorectal cancer",
+        "Haemangioma"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with cirrhosis due to haemochromatosis, a new liver mass with AFP >400 ng/mL is highly suggestive of hepatocellular carcinoma, a life-threatening complication.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d109a7f07cac",
+      "topic": "Haemochromatosis",
+      "slug": "haemochromatosis",
+      "system": "Hepatology & Pancreaticobiliary",
+      "subSystem": "Metabolic liver",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with known hereditary haemochromatosis and decompensated cirrhosis (with ascites) is brought to the emergency department by her family because she has become confused over the past day. On examination, she is disoriented to time and place, and when she holds out her arms, there is a coarse tremor that is not present at rest. Her temperature is 37.0°C, heart rate 90 bpm, blood pressure 110/70 mmHg. Which complication is most likely causing her confusion?",
+      "options": [
+        "Spontaneous bacterial peritonitis",
+        "Hepatorenal syndrome",
+        "Hypoglycaemia",
+        "Intracranial haemorrhage",
+        "Hepatic encephalopathy"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of confusion with asterixis (flapping tremor) in a patient with cirrhosis is classic for hepatic encephalopathy, a serious complication of liver failure.",
+      "difficulty": "medium"
+    }
+  ]
+}

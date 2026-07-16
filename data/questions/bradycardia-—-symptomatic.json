@@ -1,0 +1,513 @@
+{
+  "topic": "Bradycardia — symptomatic",
+  "slug": "bradycardia-—-symptomatic",
+  "system": "Cardiovascular",
+  "subSystem": "Arrhythmia",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:28:16Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "91f4d9972db7",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 72-year-old man collapses while gardening. He is conscious but dizzy. Pulse 30 bpm, BP 90/60. ECG shows no relationship between P waves and QRS complexes; QRS wide (0.14 s). What is the single most likely diagnosis?",
+      "options": [
+        "Sick sinus syndrome with prolonged pauses",
+        "Vasovagal syncope",
+        "Second-degree AV block Mobitz type II",
+        "Third-degree AV block (complete heart block)",
+        "Hyperkalemia-induced bradycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "The complete dissociation of P waves and QRS with a wide escape rhythm is diagnostic of acquired complete heart block, often due to fibrosis or ischemia. Sick sinus syndrome would show sinus pauses or bradycardia but not AV dissociation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ac448416cc74",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with hypertension on atenolol 50 mg daily reports fatigue and lightheadedness when standing. Pulse 44 bpm, regular. BP 110/70 supine, 90/60 standing. ECG: sinus bradycardia, normal intervals. What is the single most likely diagnosis?",
+      "options": [
+        "Hypothyroidism",
+        "Beta-blocker-induced symptomatic sinus bradycardia",
+        "Sick sinus syndrome",
+        "First-degree AV block",
+        "Postural hypotension due to autonomic dysfunction"
+      ],
+      "answerIndex": 1,
+      "explanation": "The temporal association with beta-blocker therapy and absence of ECG abnormalities other than sinus bradycardia makes drug-induced bradycardia most likely. Sick sinus syndrome would typically show pauses or chronotropic incompetence; hypothyroidism would have additional features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d90a98d607e6",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 58-year-old man presents with central chest pain radiating to the jaw for 2 hours. He is sweaty, HR 38 bpm, BP 80/50. ECG: ST elevation in II, III, aVF, with third-degree AV block. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pericarditis with sinus bradycardia",
+        "Anterior ST-elevation myocardial infarction with complete heart block",
+        "Vagally-mediated bradycardia",
+        "Inferior ST-elevation myocardial infarction with complete heart block",
+        "Beta-blocker overdose"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ST elevation in inferior leads with heart block is classic for inferior MI, which often involves the right coronary artery supplying the AV node. Anterior MI with heart block is less common and has a poorer prognosis; pericarditis would show diffuse concave ST elevation and PR depression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0ed84d319bf4",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 78-year-old man with atrial fibrillation on digoxin 125 mcg daily presents with nausea, vomiting, and blurred vision. Pulse 38 bpm, regular. ECG shows regular narrow QRS rhythm, no P waves. What is the single most likely diagnosis?",
+      "options": [
+        "Digoxin toxicity",
+        "Hyperkalemia",
+        "Sick sinus syndrome",
+        "Hypothyroidism",
+        "Beta-blocker overdose"
+      ],
+      "answerIndex": 0,
+      "explanation": "Digoxin toxicity commonly causes gastrointestinal and visual symptoms, and can lead to junctional bradycardia or complete heart block. The conversion from AF to a regular slow rhythm is characteristic. Sick sinus syndrome would not typically cause regular junctional rhythm without preceding sinus node dysfunction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ee7bb3e411ab",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman with Alzheimer's disease on donepezil 10 mg daily is brought in after a fall. She is confused but no head injury. Pulse 42 bpm, regular. BP 130/70. ECG: sinus bradycardia with first-degree AV block (PR 280 ms). Thyroid function and electrolytes are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Sick sinus syndrome",
+        "Donepezil-induced sinus bradycardia and first-degree AV block",
+        "Hypothyroidism",
+        "Hyperkalemia",
+        "Beta-blocker-induced bradycardia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Donepezil, a cholinesterase inhibitor, can cause symptomatic bradycardia, especially in the elderly. Normal TFT and absence of other drugs except donepezil point to this. Sick sinus syndrome would usually show pauses or chronotropic incompetence, and first-degree AV block alone is common with donepezil.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "91ad09049d67",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old woman presents with tiredness and dizziness. Her pulse is 48 bpm, regular. ECG shows sinus bradycardia. She takes no regular medications. What is the most appropriate first investigation to identify a reversible cause?",
+      "options": [
+        "Serum electrolytes",
+        "Echocardiogram",
+        "Thyroid function tests",
+        "24-hour ambulatory ECG",
+        "Sleep study"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thyroid function tests are the best first test to identify hypothyroidism, a common reversible cause of bradycardia in older women. Other options are less likely to reveal a reversible cause at this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93de4a656be9",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 58-year-old man with exertional dyspnoea and a heart rate of 42 bpm. ECG shows sinus bradycardia with first-degree AV block (PR 240ms). What is the best next test to assess for significant conduction disease?",
+      "options": [
+        "Echocardiogram",
+        "24-hour ambulatory ECG",
+        "Carotid sinus massage",
+        "Flecainide challenge",
+        "Exercise tolerance test"
+      ],
+      "answerIndex": 1,
+      "explanation": "24-hour ambulatory ECG captures heart rate response during daily activities and exercise, detecting intermittent higher-degree AV block. Exercise tolerance test may be risky if high-degree block is suspected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "99e574a4e708",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man collapses at home. On arrival, heart rate is 35 bpm, BP 70/40 mmHg. ECG shows complete heart block with a narrow QRS escape rhythm. What is the most appropriate immediate investigation to identify a potentially reversible cause?",
+      "options": [
+        "CT head",
+        "Serum troponin",
+        "Exercise ECG",
+        "Serum potassium",
+        "Carotid sinus massage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Serum troponin is essential to rule out acute myocardial infarction (e.g., inferior STEMI) as a cause of complete heart block. Narrow QRS suggests a junctional escape, often seen in inferior MI. Other options are not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "099c6d99f0cb",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 75-year-old man with a dual-chamber pacemaker for sick sinus syndrome presents with palpitations and dizziness. Pacemaker interrogation reveals multiple episodes of atrial high-rate episodes. What is the most appropriate investigation to document the underlying rhythm?",
+      "options": [
+        "Tilt-table test",
+        "24-hour Holter monitor",
+        "Coronary angiography",
+        "Echocardiogram",
+        "12-lead ECG"
+      ],
+      "answerIndex": 4,
+      "explanation": "A 12-lead ECG during symptoms can document atrial fibrillation or flutter, confirming the rhythm. Pacemaker interrogation suggests atrial arrhythmia but ECG is gold standard for diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49a1b5d7c2e7",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 35-year-old pregnant woman at 30 weeks gestation presents with syncope. Her heart rate is 45 bpm, and ECG shows complete heart block. She has no prior cardiac history. What is the most appropriate investigation to identify an underlying cause?",
+      "options": [
+        "CT pulmonary angiogram",
+        "Echocardiogram",
+        "Serum electrolytes",
+        "Chest X-ray",
+        "Thyroid function tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "Echocardiogram is indicated to assess for structural heart disease such as cardiomyopathy, congenital heart disease, or to evaluate ventricular function. CT pulmonary angiogram is not indicated without suspicion of PE. Thyroid and electrolyte tests are less likely to reveal cause in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5de43eaf6b6a",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man presents with dizziness and lightheadedness. His heart rate is 42 bpm, blood pressure 110/70 mmHg. ECG shows sinus bradycardia. He has no other symptoms. What is the most appropriate first-line treatment?",
+      "options": [
+        "Isoprenaline infusion",
+        "Permanent pacemaker insertion",
+        "Atropine 500 mcg IV",
+        "Observation alone",
+        "Transcutaneous pacing"
+      ],
+      "answerIndex": 2,
+      "explanation": "In symptomatic bradycardia without severe adverse features (shock, syncope, heart failure), IV atropine is the first-line treatment per UK ALS guidelines. Pacing is reserved if atropine fails or the patient becomes unstable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd64af29add8",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 72-year-old woman collapses in the emergency department. Her heart rate is 30 bpm, blood pressure 70/40 mmHg, and she is drowsy. ECG shows complete heart block with a wide QRS escape rhythm. What is the most appropriate first-line treatment?",
+      "options": [
+        "Transvenous pacing",
+        "Transcutaneous pacing",
+        "Atropine 500 mcg IV",
+        "Adrenaline infusion",
+        "Isoprenaline infusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "In unstable bradycardia with adverse features and a wide QRS, transcutaneous pacing is recommended as first-line because atropine is often ineffective in this setting. Temporary pacing provides immediate rate support.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "21c6b805ed44",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with recurrent syncope has a 12-lead ECG showing sinus bradycardia at 38 bpm. A 24-hour Holter monitor reveals sinus pauses of up to 6 seconds. He is diagnosed with symptomatic sick sinus syndrome. What is the most appropriate definitive treatment?",
+      "options": [
+        "Implantable loop recorder",
+        "Carotid sinus massage",
+        "Permanent pacemaker implantation",
+        "Atropine PRN",
+        "Stop any offending medications"
+      ],
+      "answerIndex": 2,
+      "explanation": "For symptomatic sick sinus syndrome with documented bradycardia and pauses, permanent pacemaker implantation is recommended by NICE guidelines. Atropine and loop recorders are not definitive therapies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6bb2002d489a",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old woman on digoxin for atrial fibrillation presents with nausea, vomiting, and a heart rate of 38 bpm. Serum digoxin level is 3.5 ng/mL. She is haemodynamically stable. Which of the following is CONTRAINDICATED in this patient?",
+      "options": [
+        "Intravenous glucagon",
+        "Administration of digoxin",
+        "Potassium supplementation",
+        "Digoxin-specific antibody fragments",
+        "Temporary pacing"
+      ],
+      "answerIndex": 1,
+      "explanation": "In digoxin toxicity, further digoxin administration is contraindicated as it will worsen toxicity. The correct management is digoxin-specific antibody fragments. Potassium may be given if low, and pacing is used if symptomatic bradycardia persists.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e54eebbb2bc7",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old homeless man is brought to the emergency department in winter with a core temperature of 30°C. He is conscious but confused. His heart rate is 35 bpm, blood pressure 90/60 mmHg. ECG shows sinus bradycardia. Which of the following treatments is CONTRAINDICATED?",
+      "options": [
+        "Isoprenaline infusion",
+        "Atropine 500 mcg IV",
+        "Transcutaneous pacing",
+        "Active external rewarming",
+        "Intravenous warm fluids"
+      ],
+      "answerIndex": 1,
+      "explanation": "In hypothermic bradycardia, atropine is relatively ineffective and may precipitate ventricular arrhythmias; it is therefore contraindicated. The first-line management is active external rewarming and core rewarming techniques.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cbfdd7d88903",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 75-year-old woman presents to the ED with dizziness. Her heart rate is 40 bpm, BP 90/60 mmHg, and ECG shows sinus bradycardia. She has no prior history of heart disease. What is the most appropriate immediate next action?",
+      "options": [
+        "Admit for observation and serial ECGs",
+        "Give intravenous atropine 500 mcg",
+        "Perform urgent echocardiogram",
+        "Check thyroid function tests",
+        "Start transcutaneous pacing"
+      ],
+      "answerIndex": 1,
+      "explanation": "In unstable symptomatic bradycardia, the first-line drug is atropine per ALS guidelines. Pacing is reserved if atropine fails. Other options are not immediate priorities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cf3db0de1d88",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 60-year-old man with hypertension on bisoprolol reports intermittent lightheadedness. HR 48 bpm, BP 110/70 mmHg, ECG shows sinus bradycardia. Examination is otherwise normal. What is the most appropriate immediate next action?",
+      "options": [
+        "Refer for permanent pacemaker",
+        "Stop bisoprolol and reassess",
+        "Start ivabradine 5 mg twice daily",
+        "Check serum electrolytes and creatinine",
+        "Arrange 24-hour Holter monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "The most likely cause is beta-blocker therapy. Stopping the culprit drug is the first step before considering other interventions. Holter can be done later if symptoms persist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "55c8dac3369b",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 80-year-old man collapses on the ward. He is unconscious, HR 30 bpm, BP 70/40 mmHg, ECG shows complete heart block. IV access is secured. What is the most appropriate immediate next action?",
+      "options": [
+        "Call cardiology for urgent review",
+        "Give intravenous atropine 500 mcg",
+        "Start transcutaneous pacing",
+        "Give intravenous adrenaline 1 mg",
+        "Arrange transvenous pacing"
+      ],
+      "answerIndex": 2,
+      "explanation": "In unstable bradycardia with hypotension and altered consciousness, immediate transcutaneous pacing is indicated. Atropine may be tried if time allows, but pacing is the definitive emergency treatment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9fa462b2e138",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman presents with recurrent syncope. ECG shows sinus bradycardia at 45 bpm and sinus pauses of 4 seconds during monitoring. She is not on any rate-slowing drugs. What is the most appropriate immediate next action?",
+      "options": [
+        "Perform tilt-table testing",
+        "Check 24-hour Holter monitor",
+        "Stop any beta-blockers (patient denies use)",
+        "Start oral theophylline 200 mg twice daily",
+        "Refer for permanent pacemaker insertion"
+      ],
+      "answerIndex": 4,
+      "explanation": "Symptomatic sinus node dysfunction with documented pauses is a class I indication for permanent pacing. Theophylline is not first-line. Further testing is unnecessary as diagnosis is clear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6ca01ca9d0be",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "An 85-year-old woman with Alzheimer's disease on donepezil presents with dizziness. HR 38 bpm, BP 100/60 mmHg, ECG shows sinus bradycardia. She is otherwise stable. What is the most appropriate immediate next action?",
+      "options": [
+        "Stop donepezil and monitor heart rate",
+        "Check serum digoxin level (not on digoxin)",
+        "Give intravenous atropine 500 mcg",
+        "Admit for cardiac monitoring",
+        "Start transcutaneous pacing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Donepezil, a cholinesterase inhibitor, can cause bradycardia. The first step is to stop the offending drug. Atropine may be used if symptomatic, but stopping the cause is immediate priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7950e7739b71",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man with known hypertension presents to the Emergency Department with dizziness and near-syncope. His heart rate is 34 bpm, blood pressure is 82/54 mmHg, and he is visibly pale. ECG shows complete heart block with a wide QRS escape rhythm. Which single feature indicates that this is a life-threatening emergency requiring immediate action?",
+      "options": [
+        "Pallor and dizziness",
+        "Wide QRS escape rhythm",
+        "Complete heart block on ECG",
+        "Systolic blood pressure < 90 mmHg",
+        "Heart rate < 40 bpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "In symptomatic bradycardia, haemodynamic instability (systolic BP < 90 mmHg) is the key trigger for immediate pacing/atropine, not just the heart rate level or ECG pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d42d9751ac28",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman presents to GP with episodes of lightheadedness over the past month. She has one episode of transient loss of consciousness. Her heart rate is consistently 44-48 bpm, and she is normotensive. ECG shows sinus bradycardia. Which feature in her history is most concerning and warrants urgent cardiology referral?",
+      "options": [
+        "Female sex",
+        "HR < 50 bpm",
+        "Dizziness on exertion",
+        "Syncopal episode",
+        "Young age"
+      ],
+      "answerIndex": 3,
+      "explanation": "Syncope is a red flag for symptomatic bradycardia (potentially Stokes-Adams attacks) and mandates urgent assessment for pacemaker; dizziness alone is less specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1902b0e48a2e",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman with atrial fibrillation on digoxin and furosemide presents with nausea and palpitations. Her heart rate is 38 bpm, irregularly irregular. ECG shows atrial fibrillation with a slow ventricular response and frequent ventricular extrasystoles occurring in a bigeminal pattern. Which finding is most indicative of a life-threatening drug toxicity?",
+      "options": [
+        "Heart rate < 40 bpm",
+        "Irregular rhythm",
+        "Slow ventricular response in AF",
+        "Nausea",
+        "Ventricular bigeminy"
+      ],
+      "answerIndex": 4,
+      "explanation": "Ventricular bigeminy in the context of bradycardia and digoxin use is classic for digoxin toxicity, which predisposes to ventricular tachycardia/fibrillation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c0645c169868",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man is admitted with acute onset central chest pain. ECG shows ST elevation in leads II, III, and aVF. His heart rate is 44 bpm, blood pressure 78/50 mmHg, and JVP is elevated at 12 cmH2O. Which finding indicates that the bradycardia is complicated by a specific high-risk condition?",
+      "options": [
+        "Hypotension",
+        "Heart rate < 50",
+        "Elevated JVP",
+        "Chest pain",
+        "ST elevation in inferior leads"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inferior STEMI with bradycardia and hypotension suggests right ventricular infarction; elevated JVP is a key sign of RV involvement, requiring specific management (fluids, avoid vasodilators).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1678d398485e",
+      "topic": "Bradycardia — symptomatic",
+      "slug": "bradycardia-—-symptomatic",
+      "system": "Cardiovascular",
+      "subSystem": "Arrhythmia",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 65-year-old patient with chronic kidney disease presents with weakness. His heart rate is 36 bpm, and the monitor shows a wide QRS complex with absence of P waves. His serum potassium is 7.0 mmol/L. Which ECG feature is the most critical to recognize as signifying an immediately life-threatening condition?",
+      "options": [
+        "Wide QRS complex",
+        "Serum potassium 7.0 mmol/L",
+        "Weakness",
+        "Heart rate < 40",
+        "Absent P waves"
+      ],
+      "answerIndex": 0,
+      "explanation": "In hyperkalaemia, ECG changes (e.g., widened QRS, loss of P wave) indicate impending arrest, and treatment (calcium gluconate) must be given urgently. The wide QRS is the immediate trigger for therapy.",
+      "difficulty": "medium"
+    }
+  ]
+}

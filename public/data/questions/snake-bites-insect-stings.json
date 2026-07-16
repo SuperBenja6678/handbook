@@ -1,0 +1,413 @@
+{
+  "topic": "Snake Bites & Insect Stings",
+  "slug": "snake-bites-insect-stings",
+  "system": "Emergency Medicine",
+  "subSystem": "Environmental",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:38:12Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 20,
+  "questions": [
+    {
+      "id": "078bc7ec52ed",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old man presents to the Emergency Department in June with a painful, swollen right foot after stepping on something in long grass in Scotland. He felt a sharp sting and saw a snake slither away. On examination, there are two puncture wounds, local erythema and oedema extending to the ankle, mild tenderness. He is systemically well, blood pressure 120/80 mmHg, heart rate 80 bpm, afebrile. No urticaria, no wheeze. What is the single most likely diagnosis?",
+      "options": [
+        "Adder envenomation",
+        "Cellulitis",
+        "Wasp sting",
+        "Anaphylaxis",
+        "Tick bite with Lyme disease"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presence of two puncture wounds, progressive swelling after a snake sighting in the UK (likely adder), with local but no systemic signs, is classic for mild adder envenomation. Wasp sting usually has a single puncture and more rapid resolution. Cellulitis lacks puncture marks and develops more slowly. Anaphylaxis would have systemic features including urticaria or airway compromise. Tick bite typically has a characteristic erythema migrans rash.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c085770b7a65",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman with no known allergies is stung by a bee while gardening. Within minutes she develops generalised urticaria, swelling of the lips and tongue, stridor, and wheeze. She is hypotensive (blood pressure 80/50 mmHg), tachycardic. What is the single most likely diagnosis?",
+      "options": [
+        "Anaphylactic reaction to bee sting",
+        "Exacerbation of asthma",
+        "Acute urticaria",
+        "Angioedema",
+        "Vasovagal syncope"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rapid onset of multi-system involvement (skin, respiratory, cardiovascular) after a sting is diagnostic of anaphylaxis. Vasovagal syncope would have bradycardia and pallor without urticaria or respiratory signs. Acute urticaria alone lacks airway compromise. Angioedema typically only involves swelling. Asthma exacerbation is unlikely to be triggered so rapidly and would lack urticaria and hypotension.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8d74dc66e9fe",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man is brought to the Emergency Department two hours after an adder bite on his lower leg. His thigh is swollen and tender, with bruising extending to the groin. He is nauseated, sweaty, blood pressure 85/55 mmHg, heart rate 110 bpm, and is mildly confused. There are no blisters or necrosis. What is the single most likely diagnosis?",
+      "options": [
+        "Cellulitis with sepsis",
+        "Deep vein thrombosis",
+        "Anaphylaxis",
+        "Compartment syndrome",
+        "Severe adder envenomation with systemic toxicity"
+      ],
+      "answerIndex": 4,
+      "explanation": "The rapid progression of local swelling, bruising, plus hypotension, tachycardia, nausea, and confusion indicates systemic envenomation from adder bite. Compartment syndrome would feature severe pain on passive stretch and tense compartments, but not hypotension. Anaphylaxis would have urticaria or airway signs. DVT presents with unilateral swelling but no puncture or systemic upset. Cellulitis evolves over days, not hours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a85ca8a22825",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old man presents to the Emergency Department ten days after a wasp sting on his forearm. He had initial local swelling that resolved, but now has fever, arthralgia, urticaria, and swelling at the sting site again. He has no respiratory symptoms. What is the single most likely diagnosis?",
+      "options": [
+        "Infection of sting site (cellulitis)",
+        "Serum sickness-like reaction to wasp venom",
+        "Gout",
+        "Acute anaphylaxis (biphasic)",
+        "Lyme disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Delayed onset of fever, arthralgia, urticaria, and recurrent lesion days after a sting is classic for serum sickness-like reaction, a type III hypersensitivity. Cellulitis would have more local warmth, pus, and gradual onset without joint symptoms. Biphasic anaphylaxis occurs within hours, not days. Lyme disease from tick, not wasp. Gout would affect a joint without sting history.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b2813b22b612",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman who is 28 weeks pregnant is stung by a bee on her arm. She presents to the Emergency Department with local swelling, redness, and pain at the sting site. She feels lightheaded and nauseated but has no urticaria, wheeze, or difficulty breathing. Pulse 90 bpm, blood pressure 100/60 mmHg, respiratory rate 16. What is the single most likely diagnosis?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Mild local reaction with vasovagal symptoms",
+        "Panic attack",
+        "Anaphylaxis",
+        "Fetal distress"
+      ],
+      "answerIndex": 1,
+      "explanation": "The absence of urticaria, airway compromise, and hypotension makes anaphylaxis unlikely. Vasovagal syncope is common in pregnancy due to pain and anxiety. Fetal distress would require uterine tenderness or abnormal fetal heart rate. Amniotic fluid embolism occurs during active labour or delivery. Panic attack is possible but vasovagal is more typical given nausea and lightheadedness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "233b312a4034",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man is brought to the Emergency Department 2 hours after an adder bite on his foot. There is mild local swelling but no systemic symptoms. What is the single most appropriate investigation to assess for envenomation?",
+      "options": [
+        "Full blood count",
+        "Clotting screen (PT, APTT, fibrinogen)",
+        "D-dimer",
+        "Urea and electrolytes",
+        "C-reactive protein"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adder venom contains procoagulants causing a consumptive coagulopathy. An early clotting screen (PT, APTT, fibrinogen) is the most sensitive test to detect envenomation even before systemic symptoms appear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fcf85be46b8a",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman is stung by a wasp and within minutes develops generalised urticaria, wheeze, and hypotension. She is stabilised with intramuscular adrenaline. Which investigation best supports the diagnosis of anaphylaxis?",
+      "options": [
+        "Specific IgE to wasp venom on admission",
+        "Serum mast cell tryptase measured 6 hours after onset",
+        "Total IgE level",
+        "Serum mast cell tryptase measured 1-2 hours after onset",
+        "Skin prick test to wasp venom immediately"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mast cell tryptase peaks 1-2 hours after anaphylaxis onset and is the key laboratory support. Immediate skin tests or IgE levels are not diagnostic acutely; tryptase later (6h) may be normal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2fbee5a20004",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 52-year-old man presents 12 hours after an adder bite. He has bruising and gingival bleeding. Laboratory results show PT 18 s (12-14), APTT 45 s (28-35), fibrinogen 1.0 g/L (1.5-4.0), and platelets 150 x 10^9/L (150-400). What is the most likely interpretation of this pattern?",
+      "options": [
+        "Heparin contamination",
+        "Disseminated intravascular coagulation (DIC)",
+        "Adder envenomation coagulopathy",
+        "Liver disease coagulopathy",
+        "Vitamin K deficiency"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adder venom causes consumption of clotting factors and fibrinogen but typically spares platelets initially. DIC would show thrombocytopenia and schistocytes; others would not have this pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fd791406c196",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with an adder bite on the forearm develops severe pain, pallor, and loss of sensation in the hand 6 hours after presentation. Which investigation would confirm the suspected complication?",
+      "options": [
+        "Doppler ultrasound of the forearm",
+        "Intracompartmental pressure measurement",
+        "X-ray of the forearm",
+        "Nerve conduction studies",
+        "Erythrocyte sedimentation rate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compartment syndrome is a recognised complication of adder bites. The diagnosis is confirmed by intracompartmental pressure measurement (typically >30 mmHg). Clinical signs are suggestive but pressure measurement is definitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "221aeef1f220",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman is stung by a bee and develops acute onset of generalised urticaria, wheeze, and a feeling of throat tightness. Her blood pressure is normal. According to UK guidelines, which clinical picture is diagnostic of anaphylaxis?",
+      "options": [
+        "Pruritus without any other symptoms",
+        "Nausea and abdominal cramps alone",
+        "Localised swelling and mild tachycardia",
+        "Generalised urticaria with either respiratory compromise or reduced blood pressure",
+        "Generalised urticaria with angioedema but no respiratory or cardiovascular involvement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anaphylaxis is defined by acute onset of illness with skin/mucosal involvement plus respiratory compromise, reduced BP, or gastrointestinal symptoms. Option B (respiratory or hypotension) meets the standard diagnostic criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8ad4d71c50c4",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man presents to the Emergency Department 2 hours after being bitten by an adder (Vipera berus) on his ankle. He has mild local swelling and slight erythema but no systemic symptoms (no vomiting, no hypotension, no respiratory distress). What is the most appropriate management?",
+      "options": [
+        "Observation for 8–12 hours",
+        "Oral antihistamines and a cold compress",
+        "Intravenous crystalloid bolus",
+        "Tetanus prophylaxis and discharge",
+        "Immediate intravenous antivenom"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mild adder bites without systemic envenomation, observation for 8–12 hours is recommended. Antivenom is reserved for systemic signs or marked local progression. Antihistamines are not first-line for adder bites.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8ce0bd061b98",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old woman attends the Emergency Department after a wasp sting. She developed generalised urticaria, wheeze, and stridor within minutes, with a blood pressure of 80/50 mmHg. What is the first-line treatment?",
+      "options": [
+        "Intramuscular adrenaline 1:10,000 (0.5 mg)",
+        "Intravenous chlorphenamine",
+        "Nebulised salbutamol",
+        "Intramuscular adrenaline 1:1000 (0.5 mg)",
+        "Intravenous hydrocortisone"
+      ],
+      "answerIndex": 3,
+      "explanation": "In anaphylaxis, intramuscular adrenaline 1:1000 is the first-line treatment. Intravenous adrenaline should only be used by experienced clinicians. Antihistamines and steroids are second-line; salbutamol addresses bronchospasm but not hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eb4f9479b5b0",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents 4 hours after an adder bite with rapidly spreading swelling above the knee, persistent vomiting, and a systolic blood pressure of 85 mmHg. Which treatment is most definitive?",
+      "options": [
+        "Tetanus immunoglobulin",
+        "Intramuscular adrenaline",
+        "Intravenous antivenom",
+        "Surgical fasciotomy of the affected limb",
+        "Intravenous normal saline bolus"
+      ],
+      "answerIndex": 2,
+      "explanation": "Systemic envenomation (vomiting, hypotension) mandates intravenous antivenom. Fluids are supportive but not definitive. Adrenaline is for anaphylaxis, not snake envenomation. Fasciotomy is rarely needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c49753a30268",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old man presents with a swollen, red, and painful area over his forearm after a horsefly bite 6 hours ago. The swelling is localised, measuring 12 × 10 cm, with no systemic symptoms or signs of infection. What is the most appropriate management?",
+      "options": [
+        "Oral prednisolone",
+        "Intramuscular adrenaline",
+        "Topical chlorphenamine",
+        "Oral antihistamine and cold compress",
+        "Oral flucloxacillin"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a large local reaction without evidence of infection or anaphylaxis. Treatment is symptomatic with oral antihistamines and cold compresses. Antibiotics are not indicated; steroids not first-line; adrenaline is for anaphylaxis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b8d1b51c1688",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-week pregnant woman presents 1 hour after an adder bite on her lower leg. There is mild local swelling only, with no systemic symptoms, and the fetus is active. What is the most appropriate management?",
+      "options": [
+        "Perform emergency caesarean section",
+        "Administer intramuscular adrenaline",
+        "Administer antivenom immediately",
+        "Discharge with antihistamines and a follow-up in 48 hours",
+        "Observe for 24 hours with continuous fetal monitoring"
+      ],
+      "answerIndex": 4,
+      "explanation": "Even mild adder bites in pregnancy warrant observation with fetal monitoring due to potential effects on the fetus. Antivenom is not indicated for mild local symptoms. Discharge is unsafe; adrenaline and caesarean are not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f6ad357fb436",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old man is brought to the ED after an adder bite to his ankle. He has two puncture marks and slight erythema but no swelling or pain. He feels anxious. Which finding would indicate systemic envenomation requiring treatment?",
+      "options": [
+        "Hypertension",
+        "Local blister formation",
+        "Headache",
+        "Nausea or vomiting",
+        "Tachycardia"
+      ],
+      "answerIndex": 3,
+      "explanation": "Vomiting is an early sign of systemic envenomation in adder bites; local signs may be minimal initially. Tachycardia is more commonly due to anxiety.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7b729237c7d4",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman is stung by a wasp on her forearm. She develops an itchy, red, swollen area 5 cm wide. She has no other symptoms. Which finding would suggest a systemic allergic reaction rather than a large local reaction?",
+      "options": [
+        "Urticaria at a site distant from the sting",
+        "Fever",
+        "Pain at the sting site",
+        "Swelling of the entire arm",
+        "Axillary lymphadenopathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Urticaria distant to the sting indicates systemic histamine release and a systemic allergic reaction, whereas large local reactions are confined to the area of the sting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4f890832f805",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 60-year-old man presents 6 hours after an adder bite to his hand. He has swelling up to his elbow and bruising. Which laboratory finding is a red flag for severe envenomation requiring antivenom?",
+      "options": [
+        "INR 1.5",
+        "Creatinine 100 μmol/L",
+        "White cell count 15 × 10^9/L",
+        "Haemoglobin 120 g/L",
+        "Sodium 138 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "An INR > 1.2 or prolonged prothrombin time is a key threshold indicating coagulopathy from envenomation, prompting consideration of antivenom. Other parameters are not specific for severe envenomation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3162bc09727b",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man is brought to the ED after being stung by a bee. On arrival, he has facial swelling and widespread urticaria. His BP is 100/60 mmHg, HR 110 bpm, SpO2 98% on air. Which single sign indicates immediate life-threatening anaphylaxis?",
+      "options": [
+        "Stridor",
+        "Metallic taste",
+        "Conjunctivitis",
+        "Abdominal cramps",
+        "Hypotonia"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stridor indicates laryngeal oedema, an immediate threat to the airway. Hypotension is present but stridor is a more acute sign of upper airway compromise, requiring urgent escalation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0ac275f2f8b2",
+      "topic": "Snake Bites & Insect Stings",
+      "slug": "snake-bites-insect-stings",
+      "system": "Emergency Medicine",
+      "subSystem": "Environmental",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) is bitten by an adder on her thigh. She has local swelling but no systemic symptoms. Which finding is a red flag for maternal-fetal risk?",
+      "options": [
+        "Maternal tachycardia",
+        "Fetal hiccups",
+        "Maternal abdominal pain",
+        "Maternal hypertension",
+        "Fetal bradycardia"
+      ],
+      "answerIndex": 4,
+      "explanation": "In pregnancy, systemic envenomation can cause placental insufficiency; fetal bradycardia is an early sign of fetal distress. Maternal tachycardia is less specific and may be due to anxiety.",
+      "difficulty": "hard"
+    }
+  ]
+}

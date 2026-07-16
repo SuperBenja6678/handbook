@@ -1,0 +1,513 @@
+{
+  "topic": "Coeliac Disease",
+  "slug": "coeliac-disease",
+  "system": "Gastroenterology",
+  "subSystem": "Malabsorption",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T09:16:40Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "bdc2e900129f",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 6-month history of intermittent bloating, diarrhoea, and fatigue. She has no weight loss or rectal bleeding. Blood tests show normal haemoglobin, normal ferritin, and low folate. Anti-tissue transglutaminase (tTG) IgA is strongly positive. What is the single most likely diagnosis?",
+      "options": [
+        "Giardiasis",
+        "Irritable bowel syndrome",
+        "Lactose intolerance",
+        "Coeliac disease",
+        "Crohn's disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "The strongly positive anti-tTG IgA is highly specific for coeliac disease. IBS does not have serological markers, and the positive tTG excludes giardiasis, lactose intolerance, and Crohn's disease (which would typically show elevated CRP or faecal calprotectin). Low folate is a clue for malabsorption.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c3c46067fbec",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man is found to have iron deficiency anaemia (Hb 105 g/L, MCV 78 fL, ferritin 8 μg/L) on routine blood tests. He reports no gastrointestinal symptoms, but mentions occasional fatigue. Upper and lower GI endoscopies are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Menorrhagia (if female, but this is male)",
+        "Colonic polyp",
+        "Vitamin B12 deficiency",
+        "Coeliac disease",
+        "Peptic ulcer disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "Iron deficiency anaemia without GI symptoms and with normal endoscopies is a classic presentation of silent coeliac disease. Peptic ulcer and colonic polyp would have been seen on endoscopy. B12 deficiency causes macrocytic anaemia, not microcytic. Menorrhagia is not applicable here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "084109b97035",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with known coeliac disease presents to the emergency department with profuse watery diarrhoea, vomiting, and severe dehydration after accidentally eating gluten-containing pasta 2 days ago. She is hypotensive (BP 80/50 mmHg) and tachycardic. Blood gas shows metabolic acidosis. What is the single most likely diagnosis?",
+      "options": [
+        "Crohn's flare",
+        "Irritable bowel syndrome flare",
+        "Acute pancreatitis",
+        "Coeliac crisis",
+        "Acute gastroenteritis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a patient with known coeliac disease, acute severe diarrhoea and metabolic acidosis after gluten exposure is characteristic of coeliac crisis, a rare but life-threatening complication. Gastroenteritis is possible but less specific given the clear trigger and known coeliac disease. IBS and Crohn's flares are less acute and do not typically cause metabolic acidosis. Pancreatitis is unlikely without abdominal pain or raised lipase.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ed8b07f264af",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with coeliac disease diagnosed 10 years ago has been compliant with a gluten-free diet but continues to have intermittent diarrhoea, abdominal pain, and weight loss. Repeat duodenal biopsies show persistent villous atrophy despite strict diet adherence. What is the single most likely diagnosis?",
+      "options": [
+        "Enteropathy-associated T-cell lymphoma",
+        "Whipple's disease",
+        "Refractory coeliac disease",
+        "Intestinal tuberculosis",
+        "Crohn's disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "Persistent villous atrophy despite strict gluten-free diet is the hallmark of refractory coeliac disease (type I or II). Enteropathy-associated T-cell lymphoma is a complication that can arise from refractory coeliac disease but would typically present with a mass or more aggressive features; this vignette does not mention a mass or systemic symptoms. Crohn's and TB would show different histology and often involve other parts of the GI tract. Whipple's disease is rare and PAS-positive macrophages on biopsy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e590cb822e70",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 34-year-old woman presents with an intensely itchy, blistering rash on her elbows and knees. She has no gastrointestinal symptoms. Skin biopsy reveals IgA deposition at the dermal papillae. What is the single most likely diagnosis?",
+      "options": [
+        "Psoriasis",
+        "Eczema",
+        "Dermatitis herpetiformis",
+        "Scabies",
+        "Bullous pemphigoid"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of itchy, blistering rash on extensor surfaces with IgA deposition on skin biopsy is pathognomonic for dermatitis herpetiformis, the cutaneous manifestation of coeliac disease. Pemphigoid shows linear IgG deposition. Eczema, scabies, and psoriasis have distinct histological features and do not show IgA deposits.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d4af9a4a72a",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman presents with a 6-month history of bloating, loose stools, and fatigue. She has no significant past medical history. She is not taking any medications. On examination, she appears well-nourished. Which single investigation is most appropriate to confirm or exclude coeliac disease as the cause of her symptoms?",
+      "options": [
+        "Serum anti-tissue transglutaminase (tTG) IgA antibodies",
+        "Duodenal biopsy with histology",
+        "Serum anti-endomysial (EMA) IgA antibodies",
+        "Serum IgG deamidated gliadin peptide (DGP) antibodies",
+        "HLA-DQ2/DQ8 genotyping"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend serum tTG IgA as the first-line test for coeliac disease. It has high sensitivity and specificity. If positive, referral for duodenal biopsy is indicated. EMA is comparable but less widely available and more expensive. HLA typing is not diagnostic. Biopsy is not the initial test.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7b1185333b71",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man is found to have a strongly positive serum tTG IgA (100 U/mL, normal <20) during investigation for iron deficiency anaemia. Total IgA is normal. He has no gastrointestinal symptoms. What is the most appropriate next step?",
+      "options": [
+        "Arrange HLA-DQ2/DQ8 genotyping",
+        "Check anti-endomysial antibodies",
+        "Perform upper GI endoscopy with duodenal biopsies",
+        "Start a gluten-free diet",
+        "Repeat tTG IgA in 6 weeks"
+      ],
+      "answerIndex": 2,
+      "explanation": "Biopsy is needed to confirm coeliac disease before lifelong dietary changes. Even without symptoms, positive serology warrants biopsy if coeliac is suspected. NICE guidelines recommend duodenal biopsy to confirm the diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e44759184051",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old woman with type 1 diabetes mellitus reports occasional diarrhoea and bloating. Serum tTG IgA is negative, but there is a strong clinical suspicion of coeliac disease. What is the most appropriate next step?",
+      "options": [
+        "Perform duodenal biopsy immediately",
+        "Repeat tTG IgA in 3 months",
+        "Measure total IgA level",
+        "Start a gluten-free diet and monitor symptoms",
+        "Check HLA-DQ2/DQ8 genotyping"
+      ],
+      "answerIndex": 2,
+      "explanation": "A negative tTG IgA can be false negative if the patient has IgA deficiency. Checking total IgA will identify deficiency; if low, then IgG-based serology should be performed before considering biopsy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cda27597870d",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 66-year-old man is referred with asymptomatic iron deficiency anaemia (haemoglobin 110 g/L, ferritin 12 μg/L). Upper and lower GI endoscopies are normal. Which single investigation should be performed to look for a possible cause?",
+      "options": [
+        "Faecal calprotectin",
+        "Serum tTG IgA antibodies",
+        "Colonoscopy repeat with biopsies",
+        "CT scan of the abdomen",
+        "Gastric biopsy for Helicobacter pylori"
+      ],
+      "answerIndex": 1,
+      "explanation": "Coeliac disease is a common cause of iron deficiency anaemia; NICE recommends coeliac serology in all patients with unexplained IDA. Other options are not indicated first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0c22564540b6",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old man with bloating and fatigue has a serum tTG IgA level of 5 U/mL (negative, cut-off >7 U/mL). His total IgA level is <0.1 g/L (low). What is the most appropriate interpretation?",
+      "options": [
+        "IgG-based coeliac serology should be performed",
+        "HLA-DQ2/DQ8 typing should be performed next",
+        "The patient does not have coeliac disease",
+        "Duodenal biopsy is not needed",
+        "The tTG IgA test is likely falsely positive"
+      ],
+      "answerIndex": 0,
+      "explanation": "In IgA deficiency, tTG IgA can be falsely low. IgG-based tests (e.g., IgG tTG or IgG DGP) are indicated. If positive, biopsy should follow. The low total IgA makes the negative tTG IgA unreliable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0acc1640f743",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman presents with iron deficiency anaemia, bloating, and diarrhoea. Duodenal biopsy shows villous atrophy and increased intraepithelial lymphocytes. Coeliac serology is positive. What is the most appropriate first-line treatment?",
+      "options": [
+        "Gluten-free diet plus oral steroids",
+        "Iron supplementation alone",
+        "Oral budesonide",
+        "Azathioprine",
+        "Lifelong gluten-free diet"
+      ],
+      "answerIndex": 4,
+      "explanation": "Gluten-free diet is the mainstay of treatment for coeliac disease. Steroids and immunosuppressants are reserved for refractory disease. Iron supplementation should be given alongside diet if deficient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3a912a089b75",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man is found to have positive coeliac serology on routine screening (he is asymptomatic). Duodenal biopsy confirms Marsh 3 changes. He asks if treatment is necessary. What is the most appropriate management?",
+      "options": [
+        "Start a gluten-free diet and repeat biopsy in 1 year",
+        "Start a gluten-free diet",
+        "Start budesonide 9 mg daily",
+        "Reassure and discharge",
+        "No treatment but annual follow-up"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even in asymptomatic patients, a gluten-free diet is recommended to prevent long-term complications (osteoporosis, lymphoma, etc.). Watchful waiting is not appropriate. Budesonide is for refractory disease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c16280f3d15a",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old woman with newly diagnosed coeliac disease is also found to have dermatitis herpetiformis. She has active blistering lesions on her elbows and knees. What is the most appropriate definitive therapy for her coeliac disease?",
+      "options": [
+        "Oral prednisolone",
+        "Topical corticosteroids",
+        "Gluten-free diet plus dapsone",
+        "Gluten-free diet",
+        "Dapsone"
+      ],
+      "answerIndex": 3,
+      "explanation": "The definitive treatment of coeliac disease is a lifelong gluten-free diet, which also improves dermatitis herpetiformis over time. Dapsone is used for rapid symptom control of the skin rash but is not a treatment for the underlying gut disease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e3030dd90031",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known coeliac disease (on gluten-free diet for 10 years) presents with persistent diarrhoea and weight loss. Duodenal biopsy shows persistent villous atrophy despite strict adherence to diet. He is diagnosed with refractory coeliac disease type I. What is the most appropriate first-line pharmacological therapy?",
+      "options": [
+        "Infliximab",
+        "Methotrexate",
+        "Azathioprine",
+        "Prednisolone",
+        "Oral budesonide"
+      ],
+      "answerIndex": 4,
+      "explanation": "For refractory coeliac disease type I, oral budesonide (a locally acting corticosteroid) is first-line. Systemic steroids (prednisolone) are an alternative but have more side effects. Immunosuppressants like azathioprine are second-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "14962feef53b",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with well-controlled coeliac disease on a gluten-free diet is pregnant (12 weeks). She has no current symptoms. She asks about any medications she should avoid. Which of the following is CONTRAINDICATED in this patient?",
+      "options": [
+        "Folic acid supplements",
+        "Budesonide",
+        "Oral iron supplements",
+        "Dapsone (she had dermatitis herpetiformis previously but it is in remission)",
+        "Vitamin D supplements"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dapsone is contraindicated in pregnancy due to risk of haemolysis and methaemoglobinaemia in the fetus. Folic acid and vitamin D are recommended in pregnancy, and iron if needed. Budesonide may be used if necessary for refractory disease but is not absolutely contraindicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17f1a7369e1b",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents with fatigue, bloating, and iron deficiency anaemia (Hb 102 g/L, ferritin 12 μg/L). She has no significant past medical history. What is the most appropriate next step?",
+      "options": [
+        "Arrange upper GI endoscopy with duodenal biopsies",
+        "Start a gluten-free diet empirically",
+        "Refer for colonoscopy to exclude IBD",
+        "Check coeliac serology (anti-tissue transglutaminase IgA)",
+        "Prescribe oral iron supplementation and review in 2 months"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines recommend coeliac serology as the first-line test in suspected coeliac disease. Endoscopy is indicated if serology is positive, not as the initial step. Empiric diet or iron alone may delay diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "837a70c311d0",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old man with known coeliac disease (diagnosed 2 years ago) attends clinic with mild intermittent diarrhoea. He admits to poor dietary adherence due to work pressures. His blood tests show normal Hb, ferritin, and B12. What is the most appropriate next step?",
+      "options": [
+        "Refer to a gastroenterology dietitian for dietary assessment",
+        "Reassure and advise continuing current diet",
+        "Arrange upper GI endoscopy with duodenal biopsies",
+        "Start loperamide for symptom control",
+        "Repeat coeliac serology"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with poor adherence and mild symptoms, the first step is a structured dietary review with a dietitian to improve compliance. Serology may be positive but repeat endoscopy is not indicated without red flags.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "176500b94861",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman with known coeliac disease presents to the emergency department with a 2-day history of severe watery diarrhoea, vomiting, and dizziness. On examination, she is tachycardic (HR 115 bpm), hypotensive (BP 85/50 mmHg), and dry mucous membranes. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer a bolus of intravenous normal saline 500 mL over 15 minutes",
+        "Arrange urgent CT abdomen with contrast",
+        "Obtain a stool culture for Campylobacter and Salmonella",
+        "Start intravenous hydrocortisone 200 mg",
+        "Start oral budesonide 9 mg daily"
+      ],
+      "answerIndex": 0,
+      "explanation": "In acute severe dehydration with hypotension, immediate fluid resuscitation with IV saline is the priority to restore circulation. Corticosteroids are not first-line in acute exacerbation; infection must be considered but resuscitation comes first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a7b0d2a5b1fe",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with longstanding coeliac disease (diagnosed 20 years ago) presents with unintentional weight loss (6 kg over 3 months), night sweats, and epigastric pain. Despite strict gluten-free diet adherence, his symptoms have progressed. He has no palpable lymphadenopathy. What is the most appropriate next step?",
+      "options": [
+        "Order a PET-CT scan",
+        "Start a trial of azathioprine for refractory disease",
+        "Arrange a CT chest, abdomen, and pelvis with contrast",
+        "Refer for small bowel capsule endoscopy",
+        "Perform a repeat upper GI endoscopy with duodenal biopsies"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of weight loss, night sweats, and abdominal pain raises suspicion for enteropathy-associated T-cell lymphoma. CT thorax/abdomen/pelvis is the recommended first-line imaging for staging. Capsule endoscopy or PET-CT may be considered later but CT is the immediate step.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e2afabed6b9a",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman (16 weeks gestation) with coeliac disease, well controlled on a strict gluten-free diet, presents for routine antenatal review. She has no symptoms. Her last coeliac serology was negative 6 months ago. What is the most appropriate next step?",
+      "options": [
+        "Check serum folate, vitamin B12, ferritin, and vitamin D levels",
+        "Refer to a dietitian for a repeat dietary assessment",
+        "Repeat coeliac serology to confirm remission",
+        "Advise to take high-dose folic acid 5 mg daily",
+        "Reassure and continue routine antenatal care without further action"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pregnancy increases demand for folate, B12, iron, and vitamin D. Even in well-controlled coeliac disease, subclinical deficiencies are common. Checking levels is warranted to optimise maternal and fetal health. Routine serology is not needed if recent negative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "088fce09b933",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with known coeliac disease presents to the emergency department with a 2-day history of profuse watery diarrhoea, vomiting, and severe abdominal cramps. On examination, she is tachycardic (115 bpm), hypotensive (85/55 mmHg), and has dry mucous membranes and reduced skin turgor. She has not responded to a gluten-free diet and has had several similar episodes. An arterial blood gas is performed. Which single finding on the ABG is most indicative of a coeliac crisis?",
+      "options": [
+        "Respiratory alkalosis",
+        "Normal blood gas",
+        "Metabolic acidosis with high anion gap",
+        "Metabolic alkalosis",
+        "Hypoxaemia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coeliac crisis is a rare but life-threatening exacerbation of coeliac disease characterized by profuse diarrhoea, dehydration, electrolyte disturbances, and metabolic acidosis. The high anion gap metabolic acidosis results from lactic acidosis due to hypovolaemia and shock. Other ABG findings are not characteristic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "137dcd5af03b",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man with poorly controlled coeliac disease presents with a 3-month history of unintentional weight loss of 12 kg, night sweats, and intermittent abdominal pain. On examination, there is a firm, non-tender mass palpable in the right lower quadrant. Which single clinical finding in this presentation should raise the strongest suspicion of a life-threatening complication?",
+      "options": [
+        "Weight loss of 12 kg",
+        "Abdominal pain",
+        "Night sweats",
+        "Palpable abdominal mass",
+        "Poorly controlled coeliac disease"
+      ],
+      "answerIndex": 3,
+      "explanation": "A palpable abdominal mass in a patient with longstanding coeliac disease is a red flag for enteropathy-associated T-cell lymphoma (EATL), a rare but serious complication. While weight loss and night sweats are concerning, the presence of a mass is the most specific finding prompting urgent investigation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d1fdf5f81127",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old woman with coeliac disease presents with a rash that is extremely itchy. On examination, there are small vesicles on erythematous bases symmetrically distributed over her elbows, knees, and buttocks. Which single characteristic of the rash is most consistent with dermatitis herpetiformis, the cutaneous manifestation of coeliac disease?",
+      "options": [
+        "Symmetrical distribution on extensor surfaces",
+        "Intense pruritus",
+        "Vesicular nature of the lesions",
+        "Location on the trunk",
+        "Erythematous base"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dermatitis herpetiformis typically presents with symmetrical, vesicular, intensely pruritic lesions on extensor surfaces (elbows, knees, buttocks). While all options are common, the characteristic distribution on extensor surfaces is the most discriminating feature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7d312a919a7a",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-year-old boy with coeliac disease is reviewed in the paediatric gastroenterology clinic. He was diagnosed 2 years ago and has been strictly adhering to a gluten-free diet, but his growth chart shows fallen weight and height centiles. He appears thin and has a distended abdomen. On examination, the liver edge is palpable 3 cm below the costal margin. Which single clinical finding most urgently requires further investigation to exclude a serious complication?",
+      "options": [
+        "Non-compliance concerns",
+        "Falling weight centile",
+        "Distended abdomen",
+        "Thin appearance",
+        "Hepatomegaly"
+      ],
+      "answerIndex": 4,
+      "explanation": "Hepatomegaly in a child with coeliac disease not responding to a gluten-free diet should raise suspicion for associated autoimmune hepatitis or, less commonly, lymphoma. While all signs are concerning, organomegaly is a specific red flag that warrants immediate workup.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a606ebc8552f",
+      "topic": "Coeliac Disease",
+      "slug": "coeliac-disease",
+      "system": "Gastroenterology",
+      "subSystem": "Malabsorption",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with longstanding, untreated coeliac disease presents with chronic bone pain, proximal muscle weakness, and easy bruising. He has noted several large bruises on his arms and legs after minimal trauma. On examination, there are purpura and ecchymoses. Which single finding in this presentation indicates a high risk of a life-threatening haemorrhagic complication?",
+      "options": [
+        "Bone pain",
+        "Proximal muscle weakness",
+        "Longstanding untreated disease",
+        "Easy bruising and purpura",
+        "Large ecchymoses"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presence of large ecchymoses (or purpura) suggests coagulopathy due to vitamin K deficiency from malabsorption. This can lead to spontaneous bleeding and is potentially life-threatening, requiring urgent vitamin K replacement and investigation of coagulation profile.",
+      "difficulty": "medium"
+    }
+  ]
+}

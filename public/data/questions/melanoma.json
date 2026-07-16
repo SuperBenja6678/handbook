@@ -1,0 +1,513 @@
+{
+  "topic": "Melanoma",
+  "slug": "melanoma",
+  "system": "Dermatology",
+  "subSystem": "Malignancy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:31:09Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "7c9d6476f197",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old woman presents with a 3-month history of a changing mole on her back. It has become darker, larger, and irregular in shape. She has Fitzpatrick skin type II. On examination, there is a 8 mm asymmetrical pigmented lesion with an irregular border and multiple shades of brown and black. There is no ulceration or bleeding. What is the single most likely diagnosis?",
+      "options": [
+        "Pigmented Bowen's disease",
+        "Basal cell carcinoma",
+        "Dysplastic naevus",
+        "Seborrhoeic keratosis",
+        "Superficial spreading melanoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "The lesion meets the ABCDE criteria (Asymmetry, Border irregularity, Colour variegation, Diameter >6mm, Evolution) and the patient's age and skin type are typical for superficial spreading melanoma, the most common subtype. Dysplastic naevus may be atypical but lacks the marked colour variation and evolution of melanoma.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3a8c2b1e934c",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 60-year-old man presents with a rapidly growing, dome-shaped, black nodule on his right lower leg that has been present for 6 weeks. He reports occasional bleeding. On examination, there is a 1.5 cm firm, ulcerated nodule with a smooth surface and a small crust. What is the single most likely diagnosis?",
+      "options": [
+        "Dermatofibroma",
+        "Pyogenic granuloma",
+        "Squamous cell carcinoma",
+        "Nodular melanoma",
+        "Basal cell carcinoma"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nodular melanoma typically presents as a rapidly growing, darkly pigmented nodule that may ulcerate. Pyogenic granuloma is more friable and bleeds easily but is usually pink/red, not black. BCC and SCC are less pigmented. Dermatofibroma is firm and slow-growing with a dimple sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "385e6994e303",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with a history of extensive sun exposure presents with a slowly enlarging, flat, brown patch on her left cheek over 2 years. It has irregular colour with dark brown and black areas. There is no palpable nodularity. What is the single most likely diagnosis?",
+      "options": [
+        "Pigmented actinic keratosis",
+        "Lentigo maligna melanoma",
+        "Lentigo maligna (in situ)",
+        "Seborrhoeic keratosis",
+        "Solar lentigo"
+      ],
+      "answerIndex": 2,
+      "explanation": "The lesion is a large, flat, pigmented macule on sun-damaged skin of an elderly patient, consistent with lentigo maligna (melanoma in situ). Lentigo maligna melanoma would have a nodular component. Solar lentigo is uniform in colour and well-defined. Seborrhoeic keratosis has a 'stuck-on' appearance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0f08a7a8b433",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man of African Caribbean descent presents with a 6-month history of a dark, irregular streak on his left thumbnail that has widened and involves the nail fold. There is no history of trauma. On examination, there is brown-black pigmentation of the nail plate and a pigmented band extending onto the proximal nail fold (Hutchinson's sign). What is the single most likely diagnosis?",
+      "options": [
+        "Naevus of the nail matrix",
+        "Acral lentiginous melanoma",
+        "Pyogenic granuloma",
+        "Subungual haematoma",
+        "Onychomycosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acral lentiginous melanoma is the most common melanoma in dark-skinned individuals and often presents on the nail with Hutchinson's sign (nail fold pigmentation). Subungual haematoma typically follows trauma and does not involve the nail fold. Onychomycosis causes discoloration but not pigment bands. A naevus is unusual in this age group.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5cdc1f90927f",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 50-year-old woman presents with a 3-month history of a non-healing, pink, scaly plaque on her lower back. It is occasionally itchy and has no pigment. On examination, there is a 1 cm erythematous, slightly raised lesion with a well-defined border and no ulceration. What is the single most likely diagnosis?",
+      "options": [
+        "Amelanotic melanoma",
+        "Eczema",
+        "Paget's disease of the breast",
+        "Basal cell carcinoma",
+        "Squamous cell carcinoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Amelanotic melanoma is a melanoma lacking pigment and can present as a pink or erythematous lesion, often missed. BCC and SCC are more common but amelanotic melanoma should be considered given the new, evolving lesion. Eczema is usually multifocal and itchy. Paget's disease typically involves the nipple.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0d90ce38a2ba",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman presents with a new pigmented lesion on her lower leg. On dermoscopy, you see an irregular pigment network and a blue-white veil. What is the most appropriate next step to confirm the diagnosis?",
+      "options": [
+        "Reassure and discharge",
+        "Perform a shave biopsy",
+        "Refer for a punch biopsy",
+        "Arrange for a sentinel lymph node biopsy",
+        "Perform an excision biopsy with 2mm margin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Excision biopsy with a 2mm margin is the gold standard for suspected melanoma; it provides a full-thickness specimen for accurate Breslow thickness assessment. Punch biopsy may miss depth, and shave biopsy is contraindicated as it can transect the lesion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d9406a0d57c8",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man has an excision biopsy of a suspicious lesion. Histology reports a Clark level IV, Breslow thickness 2.1 mm, with ulceration and mitotic rate 5/mm². According to AJCC staging, which finding on this report is an independent negative prognostic factor?",
+      "options": [
+        "Ulceration",
+        "Breslow thickness 2.1 mm",
+        "Clark level IV",
+        "Presence of regression",
+        "Mitotic rate 5/mm²"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ulceration is an independent negative prognostic factor in AJCC staging, worsening survival. Clark level is no longer used, Breslow thickness is primary but not independent, and mitotic rate is only prognostic for T1 melanomas. Regression is not a negative factor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f98d31c83768",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old patient presents with a pigmented lesion that has changed over 3 months. Using the ABCDE rule, which of the following is not part of the mnemonic for melanoma detection?",
+      "options": [
+        "Exudation",
+        "Diameter >6 mm",
+        "Asymmetry",
+        "Border irregularity",
+        "Colour variation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The ABCDE mnemonic stands for Asymmetry, Border, Colour, Diameter, and Evolution. Exudation is not a criterion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2871e3cf6909",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old pregnant woman in her third trimester presents with a rapidly growing pigmented lesion on her abdomen. Dermoscopy shows features suggestive of melanoma. What is the most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Excision biopsy under general anaesthetic",
+        "Punch biopsy",
+        "Immediate sentinel lymph node biopsy",
+        "Excision biopsy under local anaesthetic",
+        "Shave biopsy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Excision biopsy under local anaesthetic is safe in pregnancy and provides a full-thickness specimen for accurate diagnosis. General anaesthetic should be avoided, and punch or shave biopsies risk incomplete sampling. Sentinel node biopsy is for staging, not initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48dfc4226c03",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with a history of multiple atypical moles has a lesion on his back that, under dermoscopy, shows a 'starburst' pattern. Which of the following dermoscopic features is most characteristic of a Spitz neoplasm and helps differentiate it from melanoma?",
+      "options": [
+        "Atypical pigment network",
+        "Symmetrical starburst pattern",
+        "Irregular dots and globules",
+        "Blue-white veil",
+        "Polymorphous vessels"
+      ],
+      "answerIndex": 1,
+      "explanation": "A symmetrical starburst pattern is typical of Spitz nevus. Melanoma typically shows asymmetry and a disorganized pattern, making this a key differentiating feature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "913d01d5a2e6",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman presents with a 1.0 cm pigmented lesion on her lower leg. Excisional biopsy confirms a superficial spreading melanoma, Breslow thickness 0.6 mm, non-ulcerated, with no high-risk features. What is the most appropriate definitive treatment?",
+      "options": [
+        "Topical imiquimod",
+        "Wide local excision with 1 cm margin",
+        "Sentinel lymph node biopsy",
+        "Radiotherapy to the primary site",
+        "Mohs micrographic surgery"
+      ],
+      "answerIndex": 1,
+      "explanation": "For thin melanoma (<0.8 mm) without high-risk features, wide local excision with 1 cm margin is standard. Sentinel lymph node biopsy is not routinely indicated. Mohs surgery is not first-line for invasive melanoma. Imiquimod is for lentigo maligna only. Radiotherapy is not primary treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64e6de56b6e8",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 68-year-old man has a 2.5 mm thick melanoma on his back (Breslow 2.5 mm, non-ulcerated, stage IIA). Wide local excision with 2 cm margin was performed; sentinel node biopsy showed no metastasis. According to NICE guidelines, what is the most appropriate management?",
+      "options": [
+        "Adjuvant radiotherapy to the scar",
+        "Observation alone",
+        "Adjuvant ipilimumab",
+        "Adjuvant interferon alfa",
+        "Adjuvant pembrolizumab"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends adjuvant pembrolizumab or nivolumab only for stage IIB or IIC melanoma. For stage IIA, there is no recommended adjuvant therapy; observation is appropriate. Interferon is outdated, radiotherapy is not systemic adjuvant, and ipilimumab is not indicated for this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d189572a9ed2",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman with BRAF V600E mutant metastatic melanoma (stage IV) presents with multiple lung and liver metastases. She is asymptomatic with good performance status. What is the first-line systemic therapy?",
+      "options": [
+        "Ipilimumab plus nivolumab",
+        "Dabrafenib plus trametinib",
+        "Interferon alpha",
+        "Pembrolizumab",
+        "Dacarbazine"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends anti-PD1 monotherapy (pembrolizumab or nivolumab) as first-line for advanced melanoma regardless of BRAF status. Targeted therapy (dabrafenib/trametinib) is second-line. Combination ipilimumab/nivolumab is more toxic and less preferred as first-line. Dacarbazine and interferon are outdated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "76d999e1d03c",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old renal transplant recipient on tacrolimus is diagnosed with BRAF V600 mutant metastatic melanoma. He has a good performance status and no contraindications to systemic therapy. What is the most appropriate first-line therapy?",
+      "options": [
+        "Ipilimumab",
+        "Pembrolizumab",
+        "Intralesional talimogene laherparepvec",
+        "Dabrafenib plus trametinib",
+        "Radiotherapy to all metastatic deposits"
+      ],
+      "answerIndex": 3,
+      "explanation": "In transplant recipients, checkpoint inhibitors carry a high risk of allograft rejection. Targeted therapy with BRAF/MEK inhibitors (dabrafenib/trametinib) is safer and effective for BRAF mutant melanoma. Intralesional therapy and radiotherapy are not first-line for widespread disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e32f3a19446d",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old man undergoes complete lymphadenectomy for stage IIIB melanoma (BRAF wild-type) with macroscopic nodal involvement. According to NICE, what is the recommended adjuvant therapy?",
+      "options": [
+        "Adjuvant pembrolizumab",
+        "Observation alone",
+        "Adjuvant radiotherapy to the nodal basin",
+        "Adjuvant interferon",
+        "Adjuvant dabrafenib plus trametinib"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends adjuvant pembrolizumab or nivolumab for 1 year in stage III melanoma after resection, regardless of BRAF status. Dabrafenib/trametinib is only for BRAF mutant. Interferon is outdated; observation is not standard for stage III; radiotherapy does not provide systemic benefit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6833f381b9c8",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents to her GP with a new pigmented lesion on her left calf that has been present for 2 months. On examination, it is asymmetrical, has irregular borders, and is 8 mm in diameter with multiple colours. There is no lymphadenopathy. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange a CT scan of the leg.",
+        "Perform a punch biopsy in the GP surgery.",
+        "Refer to dermatology under 2-week wait.",
+        "Reassure the patient and discharge.",
+        "Prescribe topical imiquimod."
+      ],
+      "answerIndex": 2,
+      "explanation": "The lesion meets NICE criteria for urgent referral (asymmetry, irregular borders, >6mm, multiple colours). Punch biopsy is not recommended as definitive treatment is excision biopsy with margins; GP-led biopsy risks inadequate sampling or delay. CT is not indicated at this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7b55e3512b98",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old man has recently undergone wide local excision and sentinel lymph node biopsy for a 1.2 mm Breslow thickness melanoma (stage IB). The sentinel node is negative. He is now in the follow-up clinic and asks about future surveillance. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to medical oncology for adjuvant therapy.",
+        "Discharge back to GP with no follow-up.",
+        "Arrange a 3-month follow-up appointment for skin examination.",
+        "Perform an excision biopsy of the scar.",
+        "Schedule a CT scan of chest, abdomen and pelvis."
+      ],
+      "answerIndex": 2,
+      "explanation": "Per NICE guidelines for stage IA-IIA, clinical follow-up every 3-6 months for 3 years then annually for 2 years is recommended. Imaging is not indicated in asymptomatic patients, and adjuvant therapy is not offered for node-negative disease. Discharge would be premature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a12a62cf9d36",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with known metastatic melanoma (lung and liver metastases on recent staging) is admitted to the acute medical unit with a 2-day history of headache, nausea, and mild confusion. On examination, she has right-sided weakness, no papillodema, and BP 130/80. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange urgent CT head.",
+        "Start whole-brain radiotherapy.",
+        "Start intravenous dexamethasone.",
+        "Perform a lumbar puncture.",
+        "Administer IV antibiotics (ceftriaxone)."
+      ],
+      "answerIndex": 0,
+      "explanation": "Given the focal neurology and normal fundoscopy, urgent CT head is indicated to rule out brain metastases before considering steroids or radiotherapy. Lumbar puncture is contraindicated if there is a mass lesion; antibiotics are not indicated without infection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "694498c61a73",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old man presented 6 months ago with a superficial spreading melanoma (Breslow 0.8 mm) on his back, which was excised with clear margins. He now returns with a tender, red, nodular lesion at the excision scar, which has been present for 3 weeks and was not improved by a course of oral flucloxacillin prescribed by his GP. What is the most appropriate immediate next step?",
+      "options": [
+        "Reassure the patient that it is likely a keloid.",
+        "Prescribe a further course of antibiotics (co-amoxiclav).",
+        "Perform a punch biopsy of the nodular lesion.",
+        "Refer to the plastic surgery team for wide re-excision.",
+        "Arrange an urgent CT scan of the chest and abdomen."
+      ],
+      "answerIndex": 2,
+      "explanation": "In the setting of failed antibiotic therapy, biopsy is required to differentiate local recurrence from infection. Empirical further antibiotics or reassurance risk delaying diagnosis; CT is not first-line without confirmed recurrence; wide re-excision without histological confirmation is inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "80b7e97f0e8a",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) attends her GP concerned about a mole on her abdomen that has changed in size and colour over the past month. On dermatoscopy, it shows an irregular pattern. She has no other suspicious lesions. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange an urgent ultrasound of the abdominal wall.",
+        "Reassure her that hormonal changes during pregnancy can alter moles.",
+        "Schedule a follow-up appointment after delivery.",
+        "Refer to dermatology under 2-week wait.",
+        "Perform an excision biopsy under local anaesthetic in the GP surgery."
+      ],
+      "answerIndex": 3,
+      "explanation": "Pregnancy does not alter NICE guidance for suspected melanoma; an urgent referral is warranted. Excision by a GP is not recommended due to the need for appropriate margin and histology; ultrasound is not diagnostic; waiting until after delivery risks progression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0894fdbd5bfb",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with a dark, irregular mole on his back that has been present for several months. He recently noticed it bleeds when he scratches it. He has a family history of melanoma. Which single clinical feature in this mole most strongly indicates a need for urgent referral under NICE guidelines?",
+      "options": [
+        "Recent bleeding",
+        "Diameter >6 mm",
+        "Family history of melanoma",
+        "Asymmetry",
+        "Irregular border"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines state that any change in a mole, especially bleeding or ulceration, is a red flag for melanoma and warrants urgent referral. While asymmetry and irregular border are important, bleeding signifies possible invasion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f6b94d6934e0",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 60-year-old woman presents with a pigmented streak in her left thumbnail that has been present for 6 months. On examination, pigmentation extends onto the proximal nail fold. What is the most worrying clinical sign?",
+      "options": [
+        "Single-digit involvement",
+        "Positive family history of melanoma",
+        "Darkening of the streak over time",
+        "Hutchinson's sign (pigment on nail fold)",
+        "Width of the pigmented streak >3 mm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pigment extension onto the nail fold (Hutchinson's sign) is pathognomonic for subungual melanoma. It mandates urgent dermatology referral and biopsy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8cf68d11d6f",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with a history of stage III melanoma treated 2 years ago presents with a 2-week history of progressive headache and nausea. On examination, which finding is most concerning for intracranial metastasis requiring immediate imaging?",
+      "options": [
+        "Photophobia",
+        "Blurred vision",
+        "Neck stiffness",
+        "Horner's syndrome",
+        "Papilloedema"
+      ],
+      "answerIndex": 4,
+      "explanation": "In a patient with known melanoma, new headache with papilloedema indicates raised intracranial pressure, commonly due to brain metastases. This is a medical emergency demanding urgent CT or MRI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b22ea05fb354",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man has a slowly enlarging, irregularly pigmented patch on his right cheek for 5 years. He now notes a small, dark nodule has developed within the patch. What is the most concerning feature?",
+      "options": [
+        "Itching",
+        "Colour variegation",
+        "Irregular border",
+        "New nodule within the lesion",
+        "Diameter >2 cm"
+      ],
+      "answerIndex": 3,
+      "explanation": "This patch is likely lentigo maligna (melanoma in situ). The development of a nodule indicates invasive lentigo maligna melanoma, which has a worse prognosis and requires urgent excision.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8fbe00f2a070",
+      "topic": "Melanoma",
+      "slug": "melanoma",
+      "system": "Dermatology",
+      "subSystem": "Malignancy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 6-year-old girl presents with a rapidly growing, pink, dome-shaped nodule on her cheek for 3 months. It is firm, non-tender, and has a smooth surface. Which finding would most raise concern for a Spitzoid melanoma rather than a benign Spitz naevus?",
+      "options": [
+        "Sun-exposed site",
+        "Rapid growth",
+        "Diameter >1 cm",
+        "Young age",
+        "Ulceration or bleeding"
+      ],
+      "answerIndex": 4,
+      "explanation": "A benign Spitz naevus typically does not ulcerate or bleed. The presence of ulceration or bleeding in a Spitzoid lesion suggests possible Spitzoid melanoma, which is aggressive and requires urgent biopsy.",
+      "difficulty": "hard"
+    }
+  ]
+}

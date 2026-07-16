@@ -1,0 +1,513 @@
+{
+  "topic": "Type 2 Diabetes Mellitus",
+  "slug": "type-2-diabetes-mellitus",
+  "system": "Endocrinology",
+  "subSystem": "Diabetes",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:34:10Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "a516d1f8d201",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 52-year-old overweight man (BMI 32 kg/m²) presents with a 3-week history of thirst, passing urine frequently, and unintentional weight loss of 4 kg. He has no history of diabetes. Random capillary glucose is 16.2 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Maturity-onset diabetes of the young (MODY)",
+        "Type 1 diabetes mellitus",
+        "Stress hyperglycaemia",
+        "Type 2 diabetes mellitus",
+        "Diabetes insipidus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Classic osmotic symptoms with obesity and no ketosis point to T2DM. Type 1 typically has more rapid onset, ketosis, and lower BMI. MODY often has a strong family history and younger onset without obesity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "74ec229a9828",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 48-year-old man with no significant medical history presents with a 2-week history of penile itching and discharge. Examination shows balanitis. Urine dipstick shows glucose 3+ but no ketones. Random glucose 13.8 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Type 1 diabetes mellitus",
+        "Sexually transmitted infection",
+        "Candidal balanitis alone",
+        "Prostatitis",
+        "Type 2 diabetes mellitus"
+      ],
+      "answerIndex": 4,
+      "explanation": "Candidal balanitis can be the first presentation of T2DM, especially with hyperglycaemia. The underlying diagnosis is diabetes, not just infection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "721945fe703c",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with known type 2 diabetes on metformin is brought to ED by her daughter because of increasing drowsiness and confusion over 2 days. She has been drinking heavily but unable to eat. Observations: HR 110, BP 90/60, GCS 13. Capillary glucose is 'High' (>27 mmol/L). Urine dipstick: glucose 4+, ketones negative. What is the single most likely diagnosis?",
+      "options": [
+        "Lactic acidosis",
+        "Hyperosmolar hyperglycaemic state (HHS)",
+        "Hypoglycaemia",
+        "Stroke",
+        "Diabetic ketoacidosis (DKA)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elderly T2DM with severe hyperglycaemia, no ketones, and altered consciousness is classic HHS. DKA is unlikely without ketones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d0453d4b44a2",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with type 2 diabetes for 10 years presents with a painless ulcer on the plantar surface of his right foot. He has loss of sensation to monofilament. The ulcer is deep with surrounding erythema but no pus. What is the single most likely diagnosis?",
+      "options": [
+        "Venous ulcer",
+        "Arterial ulcer",
+        "Neuropathic diabetic foot ulcer",
+        "Malignant ulcer",
+        "Cellulitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neuropathic ulcer on a weight-bearing area with sensory loss is typical. Arterial ulcers are painful and on toes; venous ulcers are above the malleolus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a74d126c0166",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old slim woman (BMI 22) is found to have an HbA1c of 7.2% (55 mmol/mol) on routine screening. She has a strong family history of diabetes: her father, paternal grandfather, and two siblings all have diabetes diagnosed before age 35. She has no acanthosis nigricans. She is GAD antibody negative, and fasting C-peptide is 0.8 nmol/L (normal). What is the single most likely diagnosis?",
+      "options": [
+        "Type 2 diabetes",
+        "Gestational diabetes (now postpartum)",
+        "Type 1 diabetes (LADA)",
+        "Secondary diabetes (e.g., pancreatitis)",
+        "Maturity-onset diabetes of the young (MODY)"
+      ],
+      "answerIndex": 4,
+      "explanation": "Slim, young, strong autosomal dominant family history, negative antibodies, and preserved C-peptide suggest MODY, not T2DM or LADA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "730696571641",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 62-year-old man undergoes routine health screening. He has no symptoms of hyperglycaemia. His random plasma glucose is 9.2 mmol/L. What is the single most appropriate investigation to confirm or exclude a diagnosis of type 2 diabetes mellitus?",
+      "options": [
+        "Repeat random plasma glucose",
+        "75 g oral glucose tolerance test",
+        "Fasting plasma glucose",
+        "HbA1c",
+        "Urine dipstick for glucose"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE recommends HbA1c as first-line diagnostic test for type 2 diabetes in non-acute, asymptomatic individuals. A random glucose >11.1 is diagnostic if symptoms, but here asymptomatic, so HbA1c is required. Fasting glucose is second-line if HbA1c not possible, OGTT used if fasting glucose borderline.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37776e3dc5d0",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 58-year-old woman with known iron deficiency anaemia (Hb 95 g/L) presents with a 4-week history of polyuria, polydipsia, and unintentional weight loss. She has a family history of type 2 diabetes. Which single test is most appropriate to confirm the diagnosis of diabetes mellitus?",
+      "options": [
+        "HbA1c",
+        "Fructosamine",
+        "Random plasma glucose",
+        "Fasting plasma glucose",
+        "75 g oral glucose tolerance test"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a symptomatic patient, a random plasma glucose ≥11.1 mmol/L is diagnostic. HbA1c may be falsely low due to iron deficiency anaemia (shortened red cell lifespan), making it unreliable. Fasting glucose is also valid but requires fasting; random glucose is convenient and sufficient in this acute presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cca8eb51eded",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 32-year-old pregnant woman (BMI 38) at 26 weeks gestation is screened for gestational diabetes because of her BMI and previous history of gestational diabetes in her last pregnancy. Which test should be used to diagnose gestational diabetes?",
+      "options": [
+        "HbA1c",
+        "75 g oral glucose tolerance test",
+        "Random plasma glucose",
+        "Fasting plasma glucose",
+        "50 g glucose challenge test"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends a 75 g OGTT at 24–28 weeks for women at high risk of gestational diabetes (e.g., previous GDM, BMI >30). HbA1c is not recommended in pregnancy due to physiological changes. Random/fasting glucose alone are insufficiently sensitive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8a2f39d8e370",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old asymptomatic man has an HbA1c of 44 mmol/mol (6.2%). What is the single most appropriate next investigation?",
+      "options": [
+        "Urine albumin:creatinine ratio",
+        "75 g oral glucose tolerance test",
+        "Random plasma glucose",
+        "Repeat HbA1c in 3 months",
+        "Fasting plasma glucose"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE, an HbA1c of 42–47 mmol/mol indicates high risk of diabetes; the next step is a fasting plasma glucose. If fasting glucose is 5.5–6.9 mmol/L, then proceed to OGTT. A repeat HbA1c is not first-line; random glucose is not recommended for risk stratification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a3f4c914e299",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man of Afro-Caribbean ethnicity has suspected type 2 diabetes based on symptoms and a random glucose of 13.0 mmol/L. He has known sickle cell trait. Which investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "HbA1c",
+        "75 g oral glucose tolerance test",
+        "Fasting plasma glucose",
+        "Repeat random plasma glucose",
+        "Fructosamine"
+      ],
+      "answerIndex": 2,
+      "explanation": "HbA1c can be unreliable in individuals with haemoglobinopathies like sickle cell trait. Therefore, diagnosis should be based on blood glucose criteria: fasting plasma glucose ≥7.0 mmol/L or a 2-hour OGTT ≥11.1 mmol/L. Fasting glucose is simpler and diagnostic if elevated. Repeat random glucose is less specific; OGTT is an alternative but not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33a8bd39cd1b",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 45-year-old man is diagnosed with type 2 diabetes mellitus. His HbA1c is 57 mmol/mol, BMI 33, blood pressure 128/78, and no evidence of cardiovascular disease. Renal function is normal. He has not previously received any glucose-lowering therapy. What is the most appropriate first-line treatment?",
+      "options": [
+        "Pioglitazone 15 mg daily",
+        "Metformin 500 mg twice daily",
+        "Dapagliflozin 10 mg daily",
+        "Gliclazide 40 mg daily",
+        "Liraglutide 0.6 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metformin is first-line for T2DM in overweight patients with no contraindications, as it improves glycaemic control and may reduce cardiovascular risk. The other options are second-line or have specific indications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fea732537205",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 75-year-old woman with type 2 diabetes mellitus has an eGFR of 25 mL/min/1.73 m² due to diabetic nephropathy. She is currently on insulin glargine 30 units once daily but has frequent hypoglycaemic episodes. Her HbA1c is 58 mmol/mol. In an attempt to reduce insulin requirements, which of the following drugs is contraindicated?",
+      "options": [
+        "Sitagliptin",
+        "Metformin",
+        "Empagliflozin",
+        "Pioglitazone",
+        "Liraglutide"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metformin is contraindicated when eGFR is less than 30 mL/min due to risk of lactic acidosis. The other agents can be used with caution or are not renally excreted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "923e02d178c2",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with type 2 diabetes mellitus presents to the emergency department with nausea, vomiting, and abdominal pain. He is on metformin 1 g twice daily and dapagliflozin 10 mg daily. His capillary blood glucose is 18 mmol/L, and urine ketones are 4+. Arterial blood gas shows pH 7.2 and bicarbonate 12 mmol/L. He is diagnosed with euglycaemic diabetic ketoacidosis. Which of the following medications should be discontinued immediately?",
+      "options": [
+        "Metformin",
+        "Gliclazide",
+        "Pioglitazone",
+        "Dapagliflozin",
+        "Sitagliptin"
+      ],
+      "answerIndex": 3,
+      "explanation": "SGLT2 inhibitors (dapagliflozin) can cause euglycaemic DKA and must be stopped in this setting. Metformin is not contraindicated in DKA but may be temporarily withheld.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "061d46cdd4fd",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old man with type 2 diabetes mellitus and heart failure with reduced ejection fraction (LVEF 35%) is currently on metformin 1 g twice daily. His HbA1c is 64 mmol/mol. He is NYHA class II. What is the most appropriate add-on therapy?",
+      "options": [
+        "Pioglitazone 30 mg daily",
+        "Gliclazide 80 mg twice daily",
+        "Sitagliptin 100 mg daily",
+        "Empagliflozin 10 mg daily",
+        "Insulin glargine"
+      ],
+      "answerIndex": 3,
+      "explanation": "SGLT2 inhibitors (empagliflozin, dapagliflozin) are recommended for patients with T2DM and HFrEF as they reduce hospitalisation for heart failure and cardiovascular mortality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b78946da877b",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 55-year-old woman with type 2 diabetes mellitus and diabetic nephropathy has an eGFR of 45 mL/min/1.73 m² and albuminuria (ACR 60 mg/mmol). She is already on an ACE inhibitor and metformin. Her HbA1c is 61 mmol/mol. Which of the following glucose-lowering agents is most appropriate to add for its renoprotective effects?",
+      "options": [
+        "Pioglitazone 30 mg daily",
+        "Dapagliflozin 10 mg daily",
+        "Insulin detemir",
+        "Gliclazide 160 mg daily",
+        "Sitagliptin 100 mg daily"
+      ],
+      "answerIndex": 1,
+      "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) have been shown to slow progression of diabetic nephropathy and reduce albuminuria, independent of glycaemic control. They are preferred in patients with CKD when eGFR is ≥25 mL/min.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "12eb47507a27",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 52-year-old woman with newly diagnosed type 2 diabetes (HbA1c 62 mmol/mol) attends the diabetes clinic. She is asymptomatic. BMI 31 kg/m². You have already started metformin and advised lifestyle changes. Her eGFR is 55 mL/min/1.73m². What is the single most appropriate next step?",
+      "options": [
+        "Calculate the QRISK3 score",
+        "Order a fasting lipid profile and start a statin",
+        "Add a weekly GLP-1 receptor agonist",
+        "Stop metformin and switch to a DPP-4 inhibitor",
+        "Refer for diabetic foot screening"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient has CKD stage 3a (eGFR 45-59) which is within metformin safe limits (no need to stop). However, cardiovascular risk assessment (QRISK3) is the priority because diabetes confers high risk, and statin eligibility depends on the score. Adding another agent is not yet indicated as HbA1c is modestly elevated and metformin has not been titrated. Foot screening and lipids are important but not immediate compared to full risk assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "594d2afdfea9",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with a 10-year history of type 2 diabetes on metformin and gliclazide presents to the ED with fever, dysuria, and confusion. Temperature 38.9°C, HR 110, BP 95/60, RR 22, oxygen saturation 96% on air. Capillary glucose 18.2 mmol/L. Urine dip shows nitrites and ketones. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check venous blood gas and serum lactate",
+        "Obtain a CT abdomen/pelvis",
+        "Start intravenous co-amoxiclav",
+        "Administer 0.9% sodium chloride 500 mL over 15 minutes",
+        "Give a stat dose of intravenous insulin"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has sepsis (likely urosepsis) with hypotension and confusion. The immediate priority is fluid resuscitation (IV 0.9% sodium chloride bolus) to address hypoperfusion. Antibiotics (co-amoxiclav) are essential but should be given after or simultaneously with fluids; however, the 'single most appropriate immediate next step' is the fluid bolus. Insulin is not urgently indicated as there is no DKA (blood glucose only mildly elevated with ketones likely from sepsis). Lactate and imaging are important but secondary to fluid resuscitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bb34c7e5f262",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman with type 2 diabetes (HbA1c 75 mmol/mol on maximum metformin) is referred for insulin initiation. She is overweight and keen to avoid weight gain. She has no contraindications. What is the single most appropriate next step?",
+      "options": [
+        "Start a GLP-1 receptor agonist before basal insulin",
+        "Consider adding a sulfonylurea",
+        "Refer for structured diabetes education",
+        "Start bedtime NPH insulin 10 units",
+        "Start metformin and empagliflozin combination"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE recommends considering a GLP-1 receptor agonist as first injectable therapy in patients with type 2 diabetes who are overweight or obese and have a strong desire to avoid weight gain, especially when HbA1c is >58 mmol/mol on oral therapy. This is preferred over basal insulin as it promotes weight loss. Metformin is already maximum. Structured education is important but not the immediate pharmacological next step. Empagliflozin could be added but GLP-1 is weight neutral/loss and addresses the patient's priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fb30455a9d95",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old man with type 2 diabetes (HbA1c 58 mmol/mol on metformin and sitagliptin) is admitted for an elective total hip replacement. He has no known cardiovascular or renal disease. Pre-operative capillary glucose is 8.4 mmol/L. On the morning of surgery, he took his usual metformin and sitagliptin. What is the single most appropriate next step?",
+      "options": [
+        "Proceed with surgery with a variable-rate intravenous insulin infusion",
+        "Give a dose of rapid-acting insulin before surgery",
+        "Proceed with surgery and monitor capillary glucose 4-hourly",
+        "Cancel the operation and reschedule when HbA1c is <53",
+        "Continue with surgery but hold metformin post-operatively"
+      ],
+      "answerIndex": 2,
+      "explanation": "The patient is well-controlled (HbA1c 58), surgery is elective and minor/major? but the key is that pre-op glucose is acceptable (<10 mmol/L). NICE guidance states that for elective surgery, if HbA1c is >69 mmol/mol, consider risk; otherwise proceed. There is no need for IV insulin or cancellation. Metformin is usually stopped on the morning of surgery or after? However, the question asks for immediate next step: proceed with surgery (he is already prepped) and monitor glucose post-operatively. Metformin holds are for high-risk patients; it's often omitted on day of surgery but the immediate action is to proceed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "10f1189043b4",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman with type 2 diabetes (diagnosed 2 years ago, on metformin and dapagliflozin) presents to clinic at 20 weeks gestation. She has a BMI of 34 kg/m². HbA1c 52 mmol/mol. She is concerned about medication safety in pregnancy. Currently she is taking her usual doses. What is the single most appropriate next step?",
+      "options": [
+        "Stop dapagliflozin and start insulin",
+        "Add insulin glargine to the current regimen",
+        "Stop metformin and switch to glibenclamide",
+        "Continue both medications but monitor closely",
+        "Refer to the joint diabetes-antenatal clinic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dapagliflozin (an SGLT2 inhibitor) is contraindicated in pregnancy. It should be stopped immediately. Insulin is the preferred agent in pregnancy for glycaemic control as it is safe and effective. Metformin can be continued or may be switched to insulin as recommended. 'Refer to joint clinic' is important but not the immediate step; the medication safety issue must be addressed first. Continuing dapagliflozin is unsafe. Switching to glibenclamide is not recommended in UK. Adding insulin without stopping dapagliflozin would leave the contraindicated agent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "df227a495ad9",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 45-year-old man presents with 3-week history of polyuria, polydipsia, and 5 kg weight loss. BMI 22 kg/m². Random blood glucose 14.2 mmol/L. Which single finding would indicate a life-threatening emergency requiring immediate admission?",
+      "options": [
+        "Serum sodium 136 mmol/L",
+        "Blood pressure 130/80 mmHg",
+        "HbA1c 65 mmol/mol",
+        "Dry mucous membranes",
+        "Urine ketones 3+"
+      ],
+      "answerIndex": 4,
+      "explanation": "Large ketonuria in a new diabetic with weight loss suggests diabetic ketoacidosis (DKA), a life-threatening emergency requiring immediate IV fluids and insulin. While dehydration (dry mucous membranes) may be present, ketonuria is the specific finding that identifies DKA. HbA1c and sodium are not acute emergency thresholds.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a0a7a1d436eb",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old woman with type 2 diabetes for 8 years, on metformin and gliclazide, presents with a non-healing ulcer on her right foot for 2 weeks. She has peripheral neuropathy. On examination, the ulcer is 2 cm, clean base, no discharge. There is mild erythema around the ulcer. Which single finding on examination would indicate a need for urgent escalation and further investigation?",
+      "options": [
+        "Probing to bone",
+        "Loss of sensation to monofilament",
+        "Tendon exposure in the ulcer",
+        "Absent dorsalis pedis pulse",
+        "Mild pitting oedema"
+      ],
+      "answerIndex": 0,
+      "explanation": "Probing to bone (or 'bone visible') indicates likely underlying osteomyelitis, which requires urgent antibiotics and specialist input. Tendon exposure is serious but not as critical as bone involvement. Absent pulse indicates peripheral arterial disease but is not an acute emergency in itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "93dd4ccd7c1e",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with type 2 diabetes on insulin (twice-daily biphasic) is brought to A&E by his wife because he was found confused and drowsy at home. Fingerstick glucose is 2.4 mmol/L. He is unable to swallow. Which single finding indicates that this is a life-threatening emergency requiring immediate intravenous dextrose?",
+      "options": [
+        "Confusion resolving after oral glucose",
+        "Pulse 110 bpm and sweaty",
+        "Inability to self-treat",
+        "Blood glucose <3.0 mmol/L",
+        "Glasgow Coma Scale 13"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inability to self-treat (i.e., requiring assistance from another person) defines severe hypoglycaemia per NICE guidelines, and with inability to swallow, IV dextrose is needed. While low glucose and confusion are important, the inability to self-treat is the key criterion for severe hypoglycaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67f950b32410",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man with type 2 diabetes for 10 years, on ramipril 10 mg, attends for annual review. Blood pressure 138/82 mmHg. Urine albumin-creatinine ratio (ACR) 45 mg/mmol (previously 15). eGFR 40 mL/min/1.73m². Which single finding would warrant immediate referral to a nephrologist?",
+      "options": [
+        "ACR >30 mg/mmol",
+        "Blood pressure >130/80 mmHg",
+        "eGFR <45 mL/min/1.73m²",
+        "Serum potassium 5.2 mmol/L",
+        "eGFR <30 mL/min/1.73m²"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE, eGFR <30 mL/min/1.73m² triggers referral to nephrology. While ACR >30 indicates microalbuminuria, it does not require immediate specialist referral. eGFR <45 is also a marker but not the threshold for urgent referral.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7b4e6e4357e7",
+      "topic": "Type 2 Diabetes Mellitus",
+      "slug": "type-2-diabetes-mellitus",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 50-year-old woman with type 2 diabetes on dapagliflozin and metformin presents to the emergency department with a 2-day history of nausea, vomiting, and diffuse abdominal pain. She had been unwell with a urinary tract infection. Random blood glucose is 8.5 mmol/L. Which single finding would raise suspicion for a life-threatening complication?",
+      "options": [
+        "Lactate 1.2 mmol/L",
+        "White cell count 14 x10^9/L",
+        "Urine protein 1+",
+        "Serum bicarbonate 18 mmol/L",
+        "Blood ketones 1.5 mmol/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "In patients on SGLT2 inhibitors, euglycaemic DKA can occur with near-normal glucose levels. Elevated blood ketones (or urine ketones) is the key finding that should prompt diagnosis of DKA even without hyperglycaemia. Metabolic acidosis (low bicarbonate) is also suggestive but ketones are more specific to DKA.",
+      "difficulty": "hard"
+    }
+  ]
+}

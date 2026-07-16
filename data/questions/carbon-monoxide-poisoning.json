@@ -1,0 +1,513 @@
+{
+  "topic": "Carbon Monoxide Poisoning",
+  "slug": "carbon-monoxide-poisoning",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:28:27Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "57794025264e",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents to the emergency department in December with a two-day history of headache, nausea, and myalgia. Her husband has similar symptoms. She lives in a flat with a gas boiler. Observations: HR 90 bpm, BP 118/76 mmHg, oxygen saturation 99% on room air, temperature 37.2°C. Neurological examination is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine without aura",
+        "Viral gastroenteritis",
+        "Carbon monoxide poisoning",
+        "Seasonal influenza",
+        "Meningitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of headache, nausea, myalgia, cohabitant affected, and use of a gas heater in winter strongly suggests carbon monoxide poisoning. Oxygen saturation can be normal due to pulse oximetry inability to distinguish carboxyhaemoglobin from oxyhaemoglobin. Influenza would typically include fever and cough; migraine would not involve a partner; gastroenteritis lacks headache; meningitis is less likely without neck stiffness or fever.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "c36fbba097c3",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old smoker presents with central chest pain and dyspnoea that began 30 minutes ago. He also reports a frontal headache. He was repairing his car in a closed garage earlier today. ECG shows sinus tachycardia and non-specific ST-T changes. High-sensitivity troponin I is elevated at 45 ng/L (normal <14). What is the single most likely diagnosis?",
+      "options": [
+        "Pericarditis",
+        "Non-ST-elevation myocardial infarction due to coronary artery disease",
+        "Carbon monoxide poisoning with myocardial injury",
+        "Anxiety-induced chest pain",
+        "ST-elevation myocardial infarction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of working in a closed garage with headache before chest pain, coupled with ECG changes and troponin rise, points to carbon monoxide-induced myocardial injury rather than primary coronary occlusion. Myocardial infarction from atherosclerosis typically lacks headache and garage exposure; pericarditis would have diffuse ST elevation and PR depression; anxiety alone does not elevate troponin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13e1dc235096",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 40-year-old man is brought to the emergency department by his wife. He was found confused and disoriented two weeks after a house fire. He has no previous medical history. Observations: HR 100 bpm, BP 130/80 mmHg, oxygen saturation 98% on air, GCS 14/15 (E4V4M6). Pupils equal and reactive to light. CT head is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Delayed encephalopathy due to carbon monoxide poisoning",
+        "Acute ischaemic stroke",
+        "Post-ictal state following a seizure",
+        "Metabolic encephalopathy from hyponatraemia",
+        "Wernicke encephalopathy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Delayed neurological deterioration weeks after acute CO exposure is classic for delayed encephalopathy. Stroke would likely have focal signs; post-ictal state would have history of seizure; Wernicke requires ophthalmoplegia/ataxia/confusion and history of alcohol misuse; metabolic encephalopathy from hyponatraemia would be more acute and associated with triggering medications or fluid shifts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ed745fd12bc3",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 32-year-old pregnant woman (28 weeks gestation) presents with headache, dizziness, and nausea. She says her symptoms are worse at home. She lives with her partner who smokes indoors. Observations: HR 95 bpm, BP 110/70 mmHg, oxygen saturation 97% on air, temperature 37.0°C. Fetal monitoring shows late decelerations. What is the single most likely diagnosis?",
+      "options": [
+        "Anxiety disorder",
+        "Carbon monoxide poisoning in pregnancy",
+        "Preeclampsia",
+        "Hyperemesis gravidarum",
+        "Migraine with aura"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of headache, dizziness, nausea, worsening at home, indoor smoking exposure, and fetal distress (late decelerations) strongly suggests carbon monoxide poisoning. Preeclampsia would include hypertension and proteinuria; hyperemesis is defined by severe vomiting in first trimester; migraine with aura typically has visual symptoms; anxiety alone would not cause fetal decelerations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5cdc624aec95",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 62-year-old man is found unconscious in his garage by his son. The car engine is running. On arrival of paramedics, GCS is 6/15 (E1V2M3). Observations: HR 120 bpm, BP 90/60 mmHg, respiratory rate 28/min, oxygen saturation 95% on high-flow oxygen. Arterial blood gas on 100% oxygen: pH 7.15, PaO2 250 mmHg, PaCO2 25 mmHg, lactate 6 mmol/L. Carboxyhaemoglobin level is 30%. What is the single most likely diagnosis?",
+      "options": [
+        "Severe carbon monoxide poisoning with metabolic acidosis",
+        "Opioid overdose with respiratory depression",
+        "Hypoglycaemic coma",
+        "Hepatic encephalopathy",
+        "Meningoencephalitis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The history of car exhaust exposure, low GCS, high lactate, and PaO2 discrepancy (high FiO2 but saturations only 95%) despite carboxyhaemoglobin of 30% indicate severe CO poisoning with lactic acidosis from tissue hypoxia. Hypoglycaemia would have low glucose; opioid overdose would show respiratory depression with low PaO2 and high PaCO2; meningoencephalitis usually presents with fever and meningism; hepatic encephalopathy requires liver disease history.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fc7b31306718",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman and her partner present to the ED with headache, nausea, and dizziness after using a portable gas heater in a poorly ventilated bedroom. They have no focal neurological signs. Which investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Venous blood gas with CO-oximetry",
+        "Pulse oximetry",
+        "Arterial blood gas with CO-oximetry",
+        "CT head with contrast",
+        "Finger-prick carboxyhemoglobin meter"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend venous blood gas with CO-oximetry as the first-line confirmatory test for suspected carbon monoxide poisoning. It is less invasive than arterial sampling and provides an accurate COHb level. Pulse oximetry is unreliable, CT head is not indicated, and finger-prick devices are not standard for confirmation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "55ecd1dabbe9",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man is found unconscious in a closed garage with a car engine running. He has a GCS of 10, and his oxygen saturation by pulse oximetry reads 99%. Which investigation should be performed next to confirm the diagnosis and assess severity?",
+      "options": [
+        "Serum lactate",
+        "Venous blood gas with CO-oximetry",
+        "Arterial blood gas with CO-oximetry",
+        "Electrocardiogram",
+        "CT brain without contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "In an unconscious patient suspected of severe CO poisoning, arterial blood gas with CO-oximetry is the best immediate test because it provides both COHb level and acid-base status (e.g., metabolic acidosis), which guides severity and need for hyperbaric therapy. Venous COHb is acceptable but arterial gives additional data. CT brain is not diagnostic, ECG and lactate may support but are not confirmatory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c81db0706bda",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old man presents with headache, fatigue, and flu-like symptoms. His partner mentions the carbon monoxide alarm sounded earlier that day. Which single test will confirm the diagnosis?",
+      "options": [
+        "Pulse oximetry",
+        "Capillary blood gas",
+        "Exhaled carbon monoxide monitor",
+        "Arterial carboxyhemoglobin level",
+        "Venous carboxyhemoglobin level"
+      ],
+      "answerIndex": 4,
+      "explanation": "Venous carboxyhemoglobin level is the standard confirmatory test for CO poisoning per UK guidelines. It is non-invasive, quick, and accurate. Pulse oximetry is unreliable due to false normal readings, arterial sampling is more invasive, capillary gas is less standard, and exhaled CO is a screening tool not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef7177d66796",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 24-year-old pregnant woman at 30 weeks gestation presents with a headache and dizziness after cooking with a faulty gas stove. She is stable, and the fetus has a normal heart rate. Which investigation is most appropriate to assess maternal carbon monoxide exposure?",
+      "options": [
+        "Umbilical cord carboxyhemoglobin level",
+        "Cardiotocography",
+        "Maternal arterial carboxyhemoglobin level",
+        "Fetal heart rate monitoring",
+        "Maternal venous carboxyhemoglobin level"
+      ],
+      "answerIndex": 4,
+      "explanation": "Maternal venous carboxyhemoglobin level is the appropriate test to confirm CO exposure in pregnancy; it is safe, non-invasive, and correlates with fetal exposure. Fetal heart rate monitoring and cardiotocography may be used for fetal well-being but do not diagnose maternal CO. Arterial sampling is unnecessarily invasive, and umbilical cord sampling is done postpartum, not for initial diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7abb38edba2a",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 50-year-old man with confirmed CO poisoning (initial COHb 28%) has been on high-flow oxygen for 4 hours. You want to assess his response to treatment. Which investigation is best to determine whether his carboxyhemoglobin level has decreased adequately?",
+      "options": [
+        "End-tidal carbon monoxide measurement",
+        "Pulse oximetry",
+        "Capnography",
+        "Repeat arterial blood gas with CO-oximetry",
+        "Repeat venous carboxyhemoglobin level"
+      ],
+      "answerIndex": 4,
+      "explanation": "Repeat venous carboxyhemoglobin level directly measures the COHb concentration and is the standard method to monitor clearance. Arterial COHb is also accurate but more invasive. Pulse oximetry is unreliable, capnography measures end-tidal CO2 not CO, and end-tidal CO monitors are not routinely used in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "31011000e408",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old woman presents to the emergency department with headache, nausea, and dizziness after using a portable gas heater in a poorly ventilated room. She is alert and oriented. Oxygen saturation is 98% on room air, and carboxyhaemoglobin is 15%. She is not pregnant and has no neurological deficits. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intubation and mechanical ventilation with 100% oxygen",
+        "Intravenous N-acetylcysteine",
+        "Hyperbaric oxygen therapy",
+        "High-flow oxygen via a non-rebreather mask at 15 L/min",
+        "Oral aspirin"
+      ],
+      "answerIndex": 3,
+      "explanation": "For mild-to-moderate CO poisoning (COHb <20%, no severe features), high-flow oxygen is first-line to accelerate CO elimination. Hyperbaric oxygen is reserved for severe poisoning (loss of consciousness, neurological symptoms, metabolic acidosis, or pregnancy). The other options are not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "daaf6fadd842",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old man is found unconscious in a house fire. On arrival, GCS is 6, soot in nostrils, carboxyhaemoglobin 30%, tachycardic and acidotic. What is the most appropriate definitive treatment for his carbon monoxide poisoning?",
+      "options": [
+        "Hyperbaric oxygen therapy",
+        "Hydroxocobalamin 5 g",
+        "Normobaric oxygen via a non-rebreather mask",
+        "Endotracheal intubation and mechanical ventilation",
+        "Intravenous sodium bicarbonate"
+      ],
+      "answerIndex": 0,
+      "explanation": "This patient has severe CO poisoning (loss of consciousness, high COHb, acidosis). Hyperbaric oxygen therapy is indicated to reduce neurological sequelae. Normobaric oxygen alone is insufficient. Hydroxocobalamin is for cyanide poisoning; intubation is for airway protection but does not treat poisoning directly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "235acad875ff",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 32-year-old woman at 26 weeks gestation presents with mild headache after using a gas hob without ventilation. Alert, carboxyhaemoglobin 12%, no other symptoms. What is the most appropriate treatment?",
+      "options": [
+        "Observation alone",
+        "Hyperbaric oxygen therapy",
+        "Carbogen (95% oxygen/5% carbon dioxide)",
+        "High-flow oxygen via non-rebreather mask",
+        "Intravenous fluids"
+      ],
+      "answerIndex": 1,
+      "explanation": "In pregnancy, even mild CO poisoning can cause fetal hypoxia. NICE guidelines recommend considering hyperbaric oxygen for any raised COHb level in pregnancy. High-flow oxygen is adjunctive but HBOT is first-line for fetal protection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "241911481b22",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60-year-old man with known coronary artery disease presents with chest tightness and headache after prolonged exposure to a faulty boiler. No loss of consciousness. ECG normal. Carboxyhaemoglobin 20%. Which treatment is CONTRAINDICATED?",
+      "options": [
+        "Aspirin",
+        "Intravenous fluids",
+        "High-flow oxygen",
+        "Hyperbaric oxygen therapy",
+        "Intravenous sodium nitrite"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sodium nitrite is used for cyanide poisoning but induces methemoglobinemia, further reducing oxygen-carrying capacity and worsening CO poisoning. All other options are appropriate or not contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dac595773ef1",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 5-year-old child is found lethargic near a faulty gas heater. He is drowsy but rousable. Carboxyhaemoglobin 22%, no other injuries. What is the most appropriate first-line treatment?",
+      "options": [
+        "Intubation and 100% oxygen",
+        "High-flow oxygen via a non-rebreather mask",
+        "Intravenous methylene blue",
+        "Hyperbaric oxygen therapy",
+        "Exchange transfusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "In children with mild-to-moderate poisoning (no loss of consciousness, COHb <25%), high-flow oxygen is first-line. Hyperbaric oxygen is considered for severe poisoning (neurological impairment, COHb >25%, acidosis). Exchange transfusion and methylene blue are not standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "221d528b27cd",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the ED with a 3-hour history of headache, dizziness, and nausea. She reports using a charcoal barbecue indoors last night for warmth. Observations: HR 95, BP 110/70, RR 18, SpO2 99% on room air. What is the most appropriate immediate next step?",
+      "options": [
+        "Start empirical antibiotics for meningitis",
+        "Check arterial blood gas with CO-oximetry",
+        "Perform a CT head",
+        "Administer 100% oxygen via non-rebreather mask",
+        "Arrange urgent MRI brain"
+      ],
+      "answerIndex": 3,
+      "explanation": "High-flow oxygen is the first-line treatment for suspected CO poisoning, even with normal SpO2, as SpO2 can be falsely normal. Confirming with CO-oximetry is important but not immediate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dae973615972",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man is brought to the ED by ambulance after being found unconscious in a house fire. He has soot around the nose and mouth. Airway is patent, breathing spontaneously, SpO2 94% on air. What is the most appropriate immediate next step?",
+      "options": [
+        "Start intravenous fluids",
+        "Perform a CT head",
+        "Administer 100% oxygen via a non-rebreather mask",
+        "Intubate and ventilate",
+        "Check carboxyhemoglobin level"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-flow oxygen should be given immediately to all patients with suspected CO poisoning. While intubation may be needed later, the airway is currently patent and oxygen is the priority. COHb measurement is important but not first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83c6df139db0",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 32-year-old man is brought to the ED with confusion and gait ataxia 4 days after being treated for carbon monoxide poisoning and discharged. CT head is normal. What is the most appropriate immediate next step?",
+      "options": [
+        "Arrange hyperbaric oxygen therapy",
+        "Repeat carboxyhemoglobin measurement",
+        "Start haloperidol for agitation",
+        "Perform a lumbar puncture",
+        "Refer to psychiatry"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is delayed neuropsychiatric syndrome after CO poisoning. Hyperbaric oxygen therapy may improve outcomes and is the most appropriate next step given the normal CT head and clinical picture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "513919d0d631",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A mother and her two children are brought to the ED after using a gas stove for heating overnight. They all have headache and nausea. The mother's COHb is 18%, the children's are 15% and 20%. All have SpO2 >95% on air. What is the most appropriate immediate next step?",
+      "options": [
+        "Admit for observation only",
+        "Administer 100% oxygen to all three via non-rebreather mask",
+        "Perform a CT head on the mother",
+        "Transfer all three to a hyperbaric oxygen chamber",
+        "Check a full blood count and U&Es"
+      ],
+      "answerIndex": 1,
+      "explanation": "High-flow oxygen is indicated for all patients with CO poisoning. Hyperbaric oxygen is reserved for severe poisoning (e.g., COHb >25%, loss of consciousness, neurological signs), not present here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "841f226af850",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 28-year-old pregnant woman at 32 weeks gestation presents with headache and palpitations after using a faulty gas heater. She is alert and well-perfused. COHb level is 12%. Fetal heart rate is 150 bpm with normal variability. What is the most appropriate immediate next step?",
+      "options": [
+        "Transfer for hyperbaric oxygen therapy",
+        "Administer 100% oxygen via non-rebreather mask",
+        "Perform a CT head",
+        "Arrange emergency caesarean section",
+        "Check maternal arterial blood gas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Oxygen is the first-line treatment for CO poisoning in pregnancy. Caesarean section is not indicated without fetal distress. Hyperbaric oxygen may be considered for higher COHb levels or fetal compromise, but immediate step is oxygen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1625a8c21dd0",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old student presents to ED with headache, nausea, and fatigue after a party where a gas heater was used in a poorly ventilated room. He is alert, oriented, vital signs normal. Pulse oximetry shows 98% on room air. Which finding, if present, would most raise suspicion for a life-threatening exposure?",
+      "options": [
+        "Headache worse on standing",
+        "Bilateral winging of scapulae",
+        "Raised carboxyhemoglobin of 8%",
+        "Metabolic acidosis",
+        "Cherry-red lips"
+      ],
+      "answerIndex": 3,
+      "explanation": "Metabolic acidosis indicates severe tissue hypoxia from CO poisoning. Cherry-red lips are rare and unreliable; COHb 8% is moderate; headache worse on standing is orthostatic, not specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "5c6d090eb311",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man is rescued from a house fire. He is unconscious, GCS 6, with soot in nares. His oxygen saturation is 100% on high-flow oxygen (non-rebreather mask). Which clinical feature best indicates severe carbon monoxide poisoning?",
+      "options": [
+        "Loss of consciousness for >1 hour",
+        "Fixed dilated pupils",
+        "Metabolic acidosis with pH 7.1",
+        "Carboxyhemoglobin level 30%",
+        "Cherry-red skin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Metabolic acidosis directly reflects tissue hypoxia and is a criterion for hyperbaric referral. COHb level is unreliable if delayed; loss of consciousness is serious but metabolic acidosis is a more objective marker.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7832081067f5",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-week pregnant woman presents with headache and dizziness after using a gas oven for heating. She is conscious, normal vitals. COHb level is 12%. Which finding is most concerning for fetal compromise?",
+      "options": [
+        "Normal maternal pulse oximetry",
+        "Maternal COHb 12%",
+        "Elevated maternal lactate",
+        "Fetal heart rate decelerations",
+        "Maternal headache"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fetal heart rate decelerations indicate acute fetal hypoxia, an emergency. Maternal COHb >10% itself warrants referral, but fetal distress mandates immediate delivery consideration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "aa7374e50ea9",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 55-year-old man presents two weeks after an episode of carbon monoxide poisoning from a faulty boiler. He initially recovered but now has difficulty walking, cognitive decline, and urinary incontinence. What is the most likely diagnosis to exclude?",
+      "options": [
+        "Multiple sclerosis",
+        "Delayed neuropsychiatric syndrome",
+        "Lewy body dementia",
+        "Normal pressure hydrocephalus",
+        "Parkinson's disease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Delayed neuropsychiatric syndrome is a classic complication of CO poisoning, with extrapyramidal, cognitive, and urinary symptoms appearing days to weeks after apparent recovery.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "30c79de73c7d",
+      "topic": "Carbon Monoxide Poisoning",
+      "slug": "carbon-monoxide-poisoning",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 80-year-old woman with COPD presents with confusion and shortness of breath. Family says she uses a gas heater. Pulse oximetry shows 92%. Arterial blood gas shows pH 7.35, pO2 9 kPa, pCO2 6 kPa, base excess -2. Which finding would be most suggestive of carbon monoxide poisoning rather than an exacerbation of COPD?",
+      "options": [
+        "Normal chest X-ray",
+        "Low mixed venous oxygen saturation",
+        "Cherry-red skin",
+        "Increased anion gap metabolic acidosis",
+        "Elevated carboxyhemoglobin level"
+      ],
+      "answerIndex": 4,
+      "explanation": "Elevated COHb is the definitive diagnostic test for CO poisoning. Cherry-red is unreliable; low mixed venous O2 and normal chest X-ray are non-specific. Anion gap metabolic acidosis may be absent in mild cases.",
+      "difficulty": "medium"
+    }
+  ]
+}

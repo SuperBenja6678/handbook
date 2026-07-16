@@ -1,0 +1,513 @@
+{
+  "topic": "Oliguria on the Ward",
+  "slug": "oliguria-on-the-ward",
+  "system": "Nephrology & Electrolytes",
+  "subSystem": "AKI",
+  "acuity": "URGENT",
+  "generatedAt": "2026-07-16T10:31:50Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "b488ad611a3e",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with oliguria and facial puffiness for 3 days. She had a sore throat 2 weeks ago. BP 160/100 mmHg. Urine dipstick shows blood 3+ and protein 3+. Serum creatinine 250 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute interstitial nephritis",
+        "Prerenal acute kidney injury",
+        "Acute tubular necrosis",
+        "Urinary tract obstruction",
+        "Acute glomerulonephritis"
+      ],
+      "answerIndex": 4,
+      "explanation": "The triad of recent infection, hypertension, and nephritic picture (oliguria, haematuria, proteinuria) strongly suggests acute glomerulonephritis (post-streptococcal). Prerenal AKI typically shows bland urine; ATN has granular casts; AIN has sterile pyuria; obstruction is painless with distended bladder.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bcc0784ce527",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with type 2 diabetes and hypertension on lisinopril and bendroflumethiazide presents with gradually worsening oliguria over 2 weeks. Creatinine 150 µmol/L (baseline 100). BP 130/80 mmHg, no oedema, JVP normal. Urine dip: protein 2+, blood 1+. Renal ultrasound shows normal-sized kidneys with a small left kidney. What is the single most likely diagnosis?",
+      "options": [
+        "Membranous nephropathy",
+        "Acute kidney injury due to ACE inhibitor in renovascular disease",
+        "Prerenal acute kidney injury due to dehydration",
+        "Acute tubular necrosis due to sepsis",
+        "Acute interstitial nephritis due to drug allergy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The gradual onset, lack of volume depletion, stable BP, and discrepancy in kidney size suggest bilateral renal artery stenosis; ACE inhibitor precipitates AKI by reducing glomerular filtration pressure. ATN would have an acute precipitant; AIN would have fever/rash; membranous presents with nephrotic syndrome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9b1385b27a9c",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 75-year-old woman admitted with pneumonia develops oliguria (urine output <20 mL/hr) 48 hours after starting IV piperacillin-tazobactam. She has a fever, maculopapular rash, and eosinophilia. Serum creatinine rises from 80 to 300 µmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute tubular necrosis",
+        "Prerenal acute kidney injury",
+        "Acute interstitial nephritis",
+        "Acute glomerulonephritis",
+        "Urinary tract obstruction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The classic triad of fever, rash, and eosinophilia following antibiotic exposure with acute oliguric AKI is diagnostic of acute interstitial nephritis. ATN lacks rash and eosinophilia; prerenal would respond to fluids; glomerulonephritis would have nephritic sediment; obstruction would have anuria and distended bladder.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5734474f876c",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "A 60-year-old man with metastatic prostate cancer on long-term oral bisphosphonates presents with oliguria and confusion. Serum calcium 3.0 mmol/L, creatinine 200 µmol/L (baseline 90). He is not on any other nephrotoxins. What is the single most likely diagnosis?",
+      "options": [
+        "Bisphosphonate nephrotoxicity",
+        "Obstructive uropathy",
+        "Hypercalcaemic nephropathy",
+        "Acute interstitial nephritis",
+        "Acute tubular necrosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Severe hypercalcaemia (3.0 mmol/L) can cause vasoconstriction and volume depletion leading to prerenal AKI (hypercalcaemic nephropathy). ATN usually has a different trigger; AIN requires drug allergy features; obstruction often presents with anuria; bisphosphonate toxicity is more common with IV doses and is less likely without high cumulative dose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bba8fe8fa956",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with CKD stage 4 (eGFR 25 mL/min) is admitted for leg cellulitis and treated with IV flucloxacillin and IV fluids. Over 3 days, urine output declines to 300 mL/day, creatinine rises to 500 µmol/L. She is afebrile, BP 110/70 mmHg, no rash. Urine dip: blood 1+, protein 2+. What is the single most likely diagnosis?",
+      "options": [
+        "Acute interstitial nephritis",
+        "Acute glomerulonephritis",
+        "Prerenal acute kidney injury",
+        "Urinary tract obstruction",
+        "Acute tubular necrosis"
+      ],
+      "answerIndex": 4,
+      "explanation": "In an elderly patient with CKD and sepsis, acute tubular necrosis is the most likely cause even without profound hypotension, due to ischaemic or inflammatory injury. Prerenal would improve with fluids; AIN typically has rash/fever; glomerulonephritis would have active sediment; obstruction requires anuria and distended bladder.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "60da932fd838",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man undergoes elective hip replacement. On day 2 post-op, he has passed only 200 mL of urine in the past 12 hours despite adequate fluid resuscitation. His vital signs are stable. Serum creatinine has risen from 80 to 110 µmol/L. What is the single most appropriate investigation to determine the cause of his oliguria?",
+      "options": [
+        "Fractional excretion of sodium",
+        "Urine osmolality",
+        "Urine sodium concentration",
+        "Serum cystatin C",
+        "Renal tract ultrasound"
+      ],
+      "answerIndex": 4,
+      "explanation": "Renal ultrasound is the best non-invasive test to exclude obstructive uropathy, a reversible cause of oliguria. Urine biochemistry can be misleading post-op due to fluid shifts and aldosterone effects. NICE recommends ultrasound if the cause is unclear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f792719e1f9f",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with type 2 diabetes and hypertension presents with gradually increasing ankle swelling and reduced urine volume over a few weeks. Urinalysis shows protein 2+. eGFR is 45 mL/min/1.73m² (down from 60 last year). What is the most appropriate investigation to confirm diabetic nephropathy as the cause?",
+      "options": [
+        "24-hour urine protein",
+        "Renal tract ultrasound",
+        "Serum cystatin C",
+        "Urine microscopy for red cell casts",
+        "Urine albumin-to-creatinine ratio"
+      ],
+      "answerIndex": 4,
+      "explanation": "Urine albumin-to-creatinine ratio (ACR) is the recommended test for quantifying proteinuria in diabetic kidney disease (NICE NG28). 24-hour collection is cumbersome and unnecessary. Ultrasound excludes obstruction; red cell casts suggest glomerulonephritis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1fbeeac7f388",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man is admitted with pneumonia and sepsis. Despite intravenous fluids, urine output has been <0.5 mL/kg/hour for 6 hours. Blood pressure 90/60 mmHg. Serum creatinine 200 µmol/L (baseline 90). Which investigation best confirms acute tubular necrosis as the cause of oliguria?",
+      "options": [
+        "Fractional excretion of sodium >2%",
+        "Urine osmolality <350 mOsm/kg",
+        "Serum potassium >6.0 mmol/L",
+        "Presence of muddy brown granular casts on urine microscopy",
+        "Renal tract ultrasound showing normal kidneys"
+      ],
+      "answerIndex": 3,
+      "explanation": "Muddy brown granular casts on urine microscopy are pathognomonic for acute tubular necrosis. FeNa >2% is suggestive but not specific; urine osmolality <350 is consistent but not confirmatory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "2f767b3ab7ed",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man with cirrhosis and ascites develops oliguria. Serum creatinine 150 µmol/L. Which investigation best supports a diagnosis of hepatorenal syndrome?",
+      "options": [
+        "Fractional excretion of sodium <1%",
+        "Urine sodium <10 mmol/L",
+        "Urine osmolality >500 mOsm/kg",
+        "Renal ultrasound showing normal kidneys",
+        "Absence of proteinuria"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hepatorenal syndrome is characterized by avid sodium retention with urine sodium <10 mmol/L due to severe renal vasoconstriction, distinguishing it from acute tubular necrosis. FeNa <1% is also typical but less specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca3e58585917",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "diagnose",
+      "stem": "A 32-year-old primigravida at 34 weeks gestation is admitted with hypertension (160/100 mmHg), headache, and oliguria (<400 mL/day). Urine dipstick shows 3+ protein. What is the single most appropriate investigation to confirm pre-eclampsia as the cause?",
+      "options": [
+        "Renal ultrasound",
+        "Urine protein:creatinine ratio",
+        "Liver function tests",
+        "Serum uric acid",
+        "Platelet count"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pre-eclampsia is diagnosed by hypertension and proteinuria. Urine protein:creatinine ratio >30 mg/mmol is diagnostic (NICE). Serum uric acid is supportive but not diagnostic; other options assess complications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "42019833dc3a",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 75-year-old woman is admitted with a 3-day history of vomiting and diarrhoea. She is oliguric. Observations: BP 90/60 mmHg, HR 110 bpm, JVP not visible. Urine dipstick: negative for blood, protein, leucocytes. Creatinine 250 μmol/L (baseline 80). What is the most appropriate treatment?",
+      "options": [
+        "Blood transfusion",
+        "Oral rehydration solution",
+        "IV furosemide 40 mg",
+        "IV dopamine 5 μg/kg/min",
+        "IV 0.9% sodium chloride 500 mL bolus"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is prerenal AKI due to hypovolaemia. IV crystalloid is first-line to restore intravascular volume. Furosemide would worsen dehydration and is not indicated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3ea14dc97910",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 68-year-old man with AKI (creatinine 450 μmol/L) is found to have an oliguric state. Serum potassium is 6.8 mmol/L. ECG shows peaked T waves and loss of P waves. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oral calcium resonium 15 g",
+        "Urgent haemodialysis",
+        "IV insulin 10 units with 50 mL of 50% glucose",
+        "IV calcium gluconate 10% 10 mL",
+        "IV sodium bicarbonate 8.4% 50 mL"
+      ],
+      "answerIndex": 3,
+      "explanation": "With ECG changes, life-threatening hyperkalaemia requires immediate cardiac stabilisation with IV calcium gluconate. Insulin+glucose lowers potassium but is not as immediate; dialysis is definitive but takes time to arrange.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "928fd95d48cc",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 55-year-old man with known CKD stage 3 is admitted with oliguria and severe dyspnoea. Oxygen saturations 88% on air, BP 160/90 mmHg, HR 100 bpm, JVP elevated, bilateral crackles. Creatinine 350 μmol/L (baseline 150). What is the most appropriate treatment?",
+      "options": [
+        "Urgent haemodialysis",
+        "Oral fluid restriction",
+        "IV 0.9% sodium chloride 500 mL",
+        "IV dopamine 5 μg/kg/min",
+        "IV furosemide 80 mg"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is acute pulmonary oedema due to fluid overload in AKI. IV loop diuretic (furosemide) is first-line to reduce preload and improve oxygenation. Dialysis is reserved for diuretic-resistant cases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e29e49d1df5d",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 45-year-old woman develops oliguria 10 days after starting ibuprofen for musculoskeletal pain. Urine dipstick: blood 1+, protein 1+, leucocytes negative. Urine microscopy shows white cell casts, no eosinophils. Creatinine 300 μmol/L (baseline 70). What is the single most important treatment?",
+      "options": [
+        "Oral prednisolone 40 mg",
+        "IV methylprednisolone 500 mg",
+        "Antibiotics (e.g., co-amoxiclav)",
+        "Discontinuation of ibuprofen",
+        "IV 0.9% sodium chloride 500 mL"
+      ],
+      "answerIndex": 3,
+      "explanation": "Drug-induced acute interstitial nephritis is most likely. The cornerstone of management is removal of the offending drug. Corticosteroids are not routinely indicated and may be considered only if severe or no improvement after withdrawal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0a63da7961b5",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "treat",
+      "stem": "A 65-year-old man with hypertension and CKD stage 3 (baseline creatinine 130 μmol/L) on lisinopril 10 mg daily presents with oliguria and creatinine 280 μmol/L. Renal ultrasound shows small kidneys with bilaterally reduced renal artery flow velocities consistent with renal artery stenosis. What is the most appropriate management?",
+      "options": [
+        "IV 0.9% sodium chloride 500 mL",
+        "Add irbesartan",
+        "Double the dose of lisinopril",
+        "Stop lisinopril",
+        "Start furosemide 40 mg"
+      ],
+      "answerIndex": 3,
+      "explanation": "In bilateral renal artery stenosis, ACE inhibitors can cause a precipitous drop in GFR leading to AKI. Stopping the ACE inhibitor is essential to restore renal perfusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "261e6bc27128",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 72-year-old man is day 2 post-elective hip replacement. Over the past 6 hours his urine output has dropped from 40 mL/hr to 10 mL/hr. He is haemodynamically stable, heart rate 78 bpm, BP 132/78 mmHg, JVP not elevated. His usual medications include ramipril and bendroflumethiazide. Serum creatinine on admission was 85 µmol/L. Point-of-care lactate is 1.2 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Insert a urinary catheter",
+        "Check serum creatinine and electrolytes",
+        "Administer a 500 mL crystalloid fluid bolus",
+        "Request a renal tract ultrasound",
+        "Stop the ramipril and bendroflumethiazide"
+      ],
+      "answerIndex": 0,
+      "explanation": "The patient is normotensive with a low-normal JVP and no signs of hypovolaemia, making a fluid bolus likely unnecessary. The most important first step is to obtain an accurate measurement of urine output, which is unreliable without a catheter. Thus, catheter insertion is the priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8a577558d2a2",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 68-year-old woman with type 2 diabetes and hypertension presents with a 3-day history of vomiting and diarrhoea. She is on lisinopril, metformin, and gliclazide. Observations: HR 95 bpm, BP 100/60 mmHg, temperature 37.1°C. Urine output over the last 2 hours is 20 mL. Serum potassium is 5.9 mmol/L on point-of-care testing. ECG shows peaked T waves. What is the most appropriate immediate next step?",
+      "options": [
+        "Start salbutamol nebulisers",
+        "Commence insulin and dextrose infusion",
+        "Stop the lisinopril and metformin",
+        "Give 10 mL of 10% calcium gluconate intravenously",
+        "Administer 1 L of 0.9% sodium chloride over 1 hour"
+      ],
+      "answerIndex": 3,
+      "explanation": "The patient has hyperkalaemia with ECG changes (peaked T waves), which is a medical emergency requiring immediate myocardial membrane stabilisation. IV calcium gluconate should be given first. Fluid resuscitation and other potassium-lowering measures are important but not the initial priority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ae97191d097e",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known cirrhosis and ascites is admitted with haematemesis. After emergency endoscopy, he is transferred to the ward. Over the next 12 hours, his urine output falls to 15 mL/hr despite a central venous pressure of 8 mmHg. He remains haemodynamically stable. Serum creatinine is 150 µmol/L (baseline 90), urea 12 mmol/L, sodium 132 mmol/L. What is the most appropriate immediate next step?",
+      "options": [
+        "Give a 500 mL bolus of Hartmann's solution",
+        "Administer intravenous 20% human albumin solution",
+        "Start terlipressin infusion",
+        "Insert a urinary catheter",
+        "Stop all diuretics"
+      ],
+      "answerIndex": 1,
+      "explanation": "The scenario suggests type 1 hepatorenal syndrome (HRS) in a patient with cirrhosis and ascites. The immediate step after excluding other causes is to give intravenous albumin as plasma expansion. Terlipressin is a subsequent step if HRS is confirmed. Diuretics should be stopped but that is not the most urgent action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a899f1627a3b",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 30-year-old primigravida at 34 weeks gestation is admitted with severe pre-eclampsia. She is started on intravenous labetalol for BP 170/110 mmHg. Over the next 4 hours, her urine output drops to 8 mL/hr. She has 2+ protein on urine dipstick. Creatinine is 120 µmol/L. She is asymptomatic with no headache or visual changes. What is the most appropriate immediate next step?",
+      "options": [
+        "Check serum urate and liver function tests",
+        "Start intravenous magnesium sulphate",
+        "Plan for urgent caesarean section",
+        "Insert an indwelling urinary catheter",
+        "Increase the labetalol infusion rate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Accurate urine output measurement is essential in pre-eclampsia to monitor for oliguria. With only 2 hours of low output, a catheter is needed to confirm true oliguria before considering further interventions. Magnesium sulphate is indicated for eclampsia prevention/ treatment, but there is no evidence of severe features (no headache, visual changes, or right upper quadrant pain) at this point.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0a076fa9aa41",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman is admitted with community-acquired pneumonia. She is started on IV co-amoxiclav and clarithromycin. On day 2, she becomes hypotensive (BP 85/50 mmHg) and oliguric (urine output 10 mL/hr over 2 hours). Lactate is 4.5 mmol/L. She has a documented allergy to penicillin. What is the most appropriate immediate next step?",
+      "options": [
+        "Check serum creatinine and electrolytes",
+        "Start a noradrenaline infusion",
+        "Change antibiotics to a macrolide alone",
+        "Transfer to critical care",
+        "Administer 500 mL of crystalloid bolus over 15 minutes"
+      ],
+      "answerIndex": 4,
+      "explanation": "This is septic shock with hypotension and raised lactate. The immediate priority is fluid resuscitation with a crystalloid bolus as per the Sepsis 6. Noradrenaline may be needed if fluid refractory, but the first step is fluid. Changing antibiotics and transferring to ICU follow initial resuscitation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1b82079a8750",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with CKD stage 3 becomes oliguric (urine output <400 mL/24h) after starting ramipril and indomethacin for gout. Which clinical finding indicates an immediate need for emergency intervention?",
+      "options": [
+        "Serum creatinine rise of 30% from baseline",
+        "Urine dipstick 3+ blood",
+        "Blood pressure 150/90 mmHg",
+        "Serum potassium 6.5 mmol/L",
+        "Urine osmolality 400 mOsm/kg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hyperkalemia ≥6.5 mmol/L is life-threatening and requires immediate treatment; it is the most critical red flag. A creatinine rise of 30% indicates AKI but is not immediately dangerous. The other findings do not signify the same level of urgency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2f873bb181e",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman on the ward after cholecystectomy has been oliguric for 8 hours (20 mL/h). Her urine sodium is 65 mmol/L, and fractional excretion of sodium (FeNa) is 2.8%. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Prerenal azotemia",
+        "Hepatorenal syndrome",
+        "Postrenal obstruction",
+        "Acute tubular necrosis (ATN)"
+      ],
+      "answerIndex": 4,
+      "explanation": "A FeNa >2% and urine sodium >40 mmol/L suggest intrinsic renal damage (ATN) rather than prerenal causes. Prerenal azotemia typically has FeNa <1%. Postrenal obstruction and UTI do not fit these indices.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a59b5e11303c",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with pneumonia develops sepsis. Despite 2L of crystalloid, he remains oliguric with urine output 15 mL/h and blood pressure 85/50 mmHg. Which finding indicates that he has developed acute tubular necrosis rather than prerenal azotemia?",
+      "options": [
+        "Urine osmolality >500 mOsm/kg",
+        "Urine sodium <20 mmol/L",
+        "Response to fluid challenge with increased urine output",
+        "Fractional excretion of sodium <1%",
+        "Presence of muddy brown granular casts in urine"
+      ],
+      "answerIndex": 4,
+      "explanation": "Muddy brown granular casts are specific for acute tubular necrosis. The other options (FeNa<1%, high osmolality, low urine sodium, response to fluids) are characteristic of prerenal azotemia, not ATN.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "de352f037a1b",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with hypertension and osteoarthritis presents with oliguria, low-grade fever, and a non-blanching rash on her legs. She takes ibuprofen regularly. Urine dipstick shows blood and protein. Which of the following is the most likely complication?",
+      "options": [
+        "Acute interstitial nephritis",
+        "Pre-renal AKI",
+        "Renal papillary necrosis",
+        "Acute tubular necrosis",
+        "Glomerulonephritis"
+      ],
+      "answerIndex": 0,
+      "explanation": "NSAID-induced acute interstitial nephritis classically presents with fever, rash, sterile pyuria, and haematuria/proteinuria. Papillary necrosis is associated with NSAIDs but typically occurs in patients with additional risk factors. Glomerulonephritis would not typically have a rash from NSAIDs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d2f9fad7d2b9",
+      "topic": "Oliguria on the Ward",
+      "slug": "oliguria-on-the-ward",
+      "system": "Nephrology & Electrolytes",
+      "subSystem": "AKI",
+      "acuity": "URGENT",
+      "angle": "red_flag",
+      "stem": "A 30-year-old primigravida at 34 weeks gestation is admitted with hypertension (170/110 mmHg), proteinuria 3+, and oliguria. She reports epigastric pain and visual disturbances. Which laboratory finding is a defining feature of HELLP syndrome?",
+      "options": [
+        "Haemoglobin 110 g/L",
+        "ALT 200 U/L",
+        "Creatinine 120 μmol/L",
+        "Bilirubin 30 μmol/L",
+        "Platelet count 85 × 10^9/L"
+      ],
+      "answerIndex": 4,
+      "explanation": "HELLP syndrome is characterised by haemolysis, elevated liver enzymes, and low platelets. Thrombocytopenia (platelets <100 × 10^9/L) is a defining feature. While ALT elevation is also seen, the classic triad includes thrombocytopenia, and a low platelet count is often the first abnormality.",
+      "difficulty": "medium"
+    }
+  ]
+}

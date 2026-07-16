@@ -1,0 +1,513 @@
+{
+  "topic": "Endometriosis",
+  "slug": "endometriosis",
+  "system": "Gynaecology",
+  "subSystem": "Chronic pain",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:30:03Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8c8b3aa18c4b",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 28-year-old woman presents with a 6-month history of cyclical lower abdominal pain that worsens during menstruation, pain during intercourse, and difficulty getting pregnant. Examination reveals tenderness in the pouch of Douglas and a fixed retroverted uterus. What is the single most likely diagnosis?",
+      "options": [
+        "Pelvic inflammatory disease",
+        "Ovarian cyst",
+        "Endometriosis",
+        "Irritable bowel syndrome",
+        "Adenomyosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The cyclical nature of pain, dyspareunia, subfertility, and fixed retroverted uterus are classic for endometriosis. Adenomyosis typically presents with heavy menstrual bleeding and diffuse uterine tenderness. Pelvic inflammatory disease would usually have fever and cervical motion tenderness. Irritable bowel syndrome involves bowel habit changes, and an ovarian cyst would likely cause acute rather than cyclical pain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "083e22073ba6",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 32-year-old woman with known mild endometriosis presents to the Emergency Department with sudden severe right iliac fossa pain, nausea, and vomiting. She is tachycardic, and examination reveals a tender mass in the right adnexa with guarding. Beta-hCG is negative, and CRP is mildly raised. What is the single most likely diagnosis?",
+      "options": [
+        "Acute appendicitis",
+        "Ectopic pregnancy",
+        "Pelvic inflammatory disease",
+        "Ruptured endometrioma",
+        "Ovarian torsion"
+      ],
+      "answerIndex": 3,
+      "explanation": "The combination of known endometriosis, sudden severe pain, adnexal mass, and negative hCG is highly suggestive of a ruptured endometrioma. Ovarian torsion usually presents with constant pain and absent Doppler flow. Appendicitis typically features migrating pain and anorexia. PID would have cervical discharge and fever, and ectopic pregnancy is excluded by negative pregnancy test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0d2ddbc52390",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 38-year-old woman presents with cyclical hematuria, dysuria, and suprapubic pain occurring each month around her period. Urine dipstick shows blood but no evidence of infection. What is the single most likely diagnosis?",
+      "options": [
+        "Bladder tumour",
+        "Recurrent urinary tract infection",
+        "Interstitial cystitis",
+        "Bladder endometriosis",
+        "Nephrolithiasis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cyclical symptoms linked to menses with hematuria and negative cultures are classic for urinary tract endometriosis. Recurrent UTI would have positive cultures and not be strictly cyclical. Interstitial cystitis causes chronic pain without cyclical hematuria. Bladder tumour typically presents with painless haematuria, and nephrolithiasis causes colicky pain not related to menstruation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "94d5610ed3ec",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 16-year-old girl presents with severe dysmenorrhea since menarche that causes her to miss school monthly. It has not responded to NSAIDs or the combined oral contraceptive pill. Examination is normal, and pelvic ultrasound is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Pelvic inflammatory disease",
+        "Endometriosis",
+        "Adenomyosis",
+        "Primary dysmenorrhea",
+        "Ovarian cyst"
+      ],
+      "answerIndex": 1,
+      "explanation": "Severe dysmenorrhea unresponsive to first-line therapy in an adolescent with normal ultrasound is suggestive of endometriosis. Primary dysmenorrhea usually responds to NSAIDs or OCP. PID is rare in this age group without risk factors, and ovarian cyst or adenomyosis would likely be visible on ultrasound.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ff816226c64f",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 34-year-old woman had laparoscopic excision of endometriosis 2 years ago. She now presents with recurrence of cyclical pelvic pain and dyspareunia. She is trying to conceive. What is the single most likely diagnosis?",
+      "options": [
+        "Postoperative adhesions",
+        "Recurrent endometriosis",
+        "Irritable bowel syndrome",
+        "Pelvic congestion syndrome",
+        "Adenomyosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The recurrence of identical cyclical symptoms points strongly to recurrent endometriosis. Postoperative adhesions typically cause constant rather than cyclical pain. IBS is unrelated to menstruation, adenomyosis is less likely post-excision, and pelvic congestion syndrome produces a non-cyclical dull ache.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "23cecea31e1c",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 24-year-old woman presents to her GP with a 2-year history of cyclical dysmenorrhoea and chronic pelvic pain. She has no other symptoms. Her pelvic examination is unremarkable. What is the most appropriate first investigation to establish a diagnosis?",
+      "options": [
+        "Transvaginal pelvic ultrasound",
+        "Serum Ca125 level",
+        "Diagnostic laparoscopy",
+        "MRI pelvis",
+        "Hysteroscopy"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend transvaginal ultrasound as the first-line imaging for suspected endometriosis. MRI is reserved for equivocal cases or deep endometriosis, while laparoscopy is the gold standard but invasive and reserved for when ultrasound is inconclusive or negative with high suspicion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "12c4ca5ab04e",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman presents with deep dyspareunia and cyclical dysmenorrhoea. A transvaginal ultrasound shows a normal uterus and ovaries with no evidence of endometrioma. What is the most appropriate next step to confirm the diagnosis?",
+      "options": [
+        "MRI pelvis with contrast",
+        "Repeat transvaginal ultrasound in 6 months",
+        "Diagnostic laparoscopy",
+        "CT abdomen and pelvis",
+        "Trial of combined oral contraceptive for 3 months"
+      ],
+      "answerIndex": 2,
+      "explanation": "Laparoscopy remains the gold standard for diagnosis of endometriosis, especially when imaging is normal but clinical suspicion is high. NICE recommends laparoscopy if ultrasound is negative and symptoms persist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0f1645b01455",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old woman with known endometriosis undergoes a transvaginal ultrasound which reveals a 6 cm unilocular ovarian cyst with homogenous low-level echoes and no internal vascularity on Doppler. What is the most likely diagnosis?",
+      "options": [
+        "Endometrioma",
+        "Serous cystadenoma",
+        "Simple ovarian cyst",
+        "Dermoid cyst",
+        "Haemorrhagic cyst"
+      ],
+      "answerIndex": 0,
+      "explanation": "The characteristic sonographic appearance of an endometrioma is a unilocular cyst with ground-glass (homogenous low-level) echoes. Haemorrhagic cysts often have reticular or fishnet pattern. Dermoid cysts have mixed echogenicity with calcifications.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8cfec8239dc0",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old woman with known deeply infiltrating endometriosis presents to the emergency department with acute onset severe right lower quadrant pain, fever (38.5°C), and guarding. Her CRP is 150 mg/L. What is the most appropriate investigation to assess for a complication?",
+      "options": [
+        "Plain abdominal X-ray",
+        "MRI pelvis",
+        "CT abdomen with intravenous contrast",
+        "Diagnostic laparoscopy",
+        "Transvaginal ultrasound"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with acute abdomen and fever, CT is the best imaging to assess for complications such as abscess, perforation, or appendicitis. Transvaginal ultrasound may be limited in this acute setting due to tenderness and inability to assess the entire abdomen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ab5bb56611b",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 16-year-old secondary school student presents with severe dysmenorrhoea and chronic pelvic pain that started soon after menarche. She has never been sexually active. A transabdominal ultrasound is normal. What is the most appropriate next investigation?",
+      "options": [
+        "Trial of transdermal oestrogen patch",
+        "Serum Ca125 measurement",
+        "Transvaginal ultrasound",
+        "MRI pelvis",
+        "Diagnostic laparoscopy"
+      ],
+      "answerIndex": 3,
+      "explanation": "For adolescent patients who have not had sexual intercourse, NICE suggests MRI pelvis as an alternative to transvaginal ultrasound to avoid an invasive vaginal probe. MRI has good sensitivity for detecting endometriomas and deep endometriosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acc354451fbc",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with laparoscopically confirmed endometriosis presents with dysmenorrhoea and non-cyclic pelvic pain. She has a history of unprovoked pulmonary embolism. She does not wish to conceive. Which treatment is contraindicated?",
+      "options": [
+        "Progestogen-only pill",
+        "Laparoscopic excision of endometriosis",
+        "Mirena IUS",
+        "GnRH analogue with add-back therapy",
+        "Combined oral contraceptive pill"
+      ],
+      "answerIndex": 4,
+      "explanation": "Combined oral contraceptive pill is contraindicated due to oestrogen content and increased risk of venous thromboembolism, especially with history of unprovoked PE. Progestogen-only methods, GnRH analogue, and surgery are appropriate alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4c0bf0010878",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 38-year-old woman with histologically proven endometriosis has undergone two laparoscopic cystectomies for bilateral endometriomas. She now has recurrence of severe dysmenorrhoea and dyspareunia. She has completed her family and does not want any further pregnancies. Medical treatments including COC and Mirena IUS have been ineffective. What is the most appropriate definitive treatment?",
+      "options": [
+        "Third laparoscopic cystectomy",
+        "GnRH agonist for 6 months",
+        "Uterine artery embolisation",
+        "Danazol",
+        "Total abdominal hysterectomy with bilateral salpingo-oophorectomy"
+      ],
+      "answerIndex": 4,
+      "explanation": "With multiple recurrences after cystectomy and failed medical management, definitive surgery with hysterectomy and bilateral salpingo-oophorectomy is indicated for symptom control. Repeat cystectomy is less definitive; GnRH agonist is not long-term; danazol is rarely used; UAE is not standard for endometriosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f58b9b3f7441",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old woman with known bilateral endometriomas presents with sudden severe right iliac fossa pain, nausea, and vomiting. She is tachycardic and has rebound tenderness. Ultrasound shows a 6 cm endometrioma with free fluid. She is not pregnant. What is the most appropriate management?",
+      "options": [
+        "IV antibiotics and fluids",
+        "Urgent laparoscopic cystectomy",
+        "Drainage under ultrasound guidance",
+        "GnRH agonist therapy",
+        "Combined oral contraceptive pill"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acute abdomen with suspected ruptured endometrioma requires urgent surgical intervention. Laparoscopic cystectomy is definitive. Antibiotics alone are insufficient; GnRH and COC are not acute treatments; drainage may not address the cyst wall and risks recurrence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "837ab54a9ff2",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 32-year-old woman with endometriosis has been on a GnRH analogue (leuprorelin) for 6 months with significant improvement in pain. She wants to continue treatment long-term. What is the most appropriate management to maintain remission?",
+      "options": [
+        "Switch to combined oral contraceptive",
+        "Switch to Mirena IUS",
+        "Continue GnRH analogue indefinitely",
+        "Repeat laparoscopy",
+        "Add back HRT to continue GnRH analogue"
+      ],
+      "answerIndex": 4,
+      "explanation": "GnRH analogues should not be used beyond 6 months without add-back HRT due to bone density loss. Add-back therapy allows continuation of the effective treatment. Switching to COC or Mirena are alternatives but may not be as effective for her current symptoms; repeat laparoscopy is not needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0c03c309b5f9",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old woman with known endometriosis and adenomyosis presents with heavy menstrual bleeding and dysmenorrhoea. She has completed her family. She has already tried Mirena IUS and COC without improvement. What is the most appropriate definitive treatment?",
+      "options": [
+        "Uterine artery embolisation",
+        "Total abdominal hysterectomy with bilateral salpingo-oophorectomy",
+        "Endometrial ablation",
+        "GnRH agonist",
+        "Laparoscopic excision of endometriosis"
+      ],
+      "answerIndex": 1,
+      "explanation": "With concurrent adenomyosis and failed medical management, hysterectomy with bilateral salpingo-oophorectomy is definitive. Endometrial ablation may not treat adenomyosis or endometriosis; excision alone leaves adenomyosis; GnRH is not long-term; UAE is not standard for adenomyosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f3773c2bf99d",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old nulliparous woman presents to the emergency department with progressively worsening painful periods since menarche. She has tried ibuprofen with little relief. She is systemically well, with a normal abdominal and pelvic examination. A urine pregnancy test is negative. What is the single most appropriate next step?",
+      "options": [
+        "Prescribe strong opiates",
+        "MRI pelvis",
+        "Pelvic ultrasound",
+        "Start combined oral contraceptive pill",
+        "Refer for diagnostic laparoscopy"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidance advises offering a trial of a hormonal contraceptive (e.g., combined oral contraceptive pill) as first-line treatment for suspected endometriosis without alarm features. Ultrasound is not required initially, and laparoscopy is reserved for cases where symptoms persist despite hormonal treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1505cced83f8",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with laparoscopically diagnosed endometriosis has persistent pelvic pain despite regular use of the combined oral contraceptive pill and naproxen. She is not trying to conceive. What is the next step in her management?",
+      "options": [
+        "Start GnRH agonist therapy",
+        "Add pelvic physiotherapy",
+        "Switch to a progestogen-only pill",
+        "Refer for laparoscopic excision of endometriosis",
+        "Increase the dose of the combined oral contraceptive pill"
+      ],
+      "answerIndex": 2,
+      "explanation": "After failure of first-line hormonal contraception, NICE recommends trying a progestogen (e.g., norethisterone, medroxyprogesterone) before escalating to GnRH agonists. Surgery is considered if multiple hormonal options fail.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eadc3c5bb98c",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 29-year-old woman with known bilateral endometriomas presents with sudden severe left iliac fossa pain, nausea, and vomiting. Her pulse is 110 bpm, BP 100/60 mmHg, and she has peritonism over the left iliac fossa. Urine pregnancy test is negative. What is the single most appropriate immediate next action?",
+      "options": [
+        "Start intravenous antibiotics for suspected PID",
+        "Administer intravenous morphine",
+        "Request urgent gynaecology review",
+        "Arrange urgent pelvic ultrasound",
+        "Request CT abdomen with contrast"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presentation is concerning for ovarian torsion or ruptured endometrioma. Immediate referral to gynaecology is mandatory to expedite surgical assessment. Ultrasound can be requested by the gynaecology team, but the priority is to alert the surgical service.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "69075228ee0a",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 34-year-old woman with known deep endometriosis (rectovaginal involvement) reports new-onset constipation and cyclical rectal bleeding. She is systemically well. What is the single most appropriate next step?",
+      "options": [
+        "MRI pelvis",
+        "Start laxatives and observe",
+        "CT colonography",
+        "Flexible sigmoidoscopy",
+        "Refer for laparoscopic resection"
+      ],
+      "answerIndex": 0,
+      "explanation": "MRI is the investigation of choice to assess the extent of deep endometriosis and plan surgical resection. Sigmoidoscopy may not detect submucosal deposits, and CT colonography is not as sensitive for soft tissue involvement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "caa268770ecc",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 38-year-old woman with endometriosis has been on a GnRH agonist (leuprorelin) for 9 months without add-back therapy. She has no immediate plans for pregnancy. What is the single most appropriate next step?",
+      "options": [
+        "Switch to combined oral contraceptive pill",
+        "Continue current therapy for another 6 months",
+        "Offer add-back hormone replacement therapy",
+        "Refer for hysterectomy",
+        "Perform DXA scan to assess bone density"
+      ],
+      "answerIndex": 2,
+      "explanation": "GnRH agonists should be used with add-back HRT beyond 6 months to prevent bone mineral density loss. DXA is not routinely indicated unless additional risk factors exist. Switching to COCP is an option but does not address the current need for add-back.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2b2d9473e375",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with known bilateral endometriomas presents with sudden severe lower abdominal pain. She vomited once. Observations: pulse 95, BP 120/80, temp 37.0°C. Abdominal exam: tender in both lower quadrants. Which single finding on examination would most urgently raise concern for a surgical emergency?",
+      "options": [
+        "Positive psoas sign",
+        "Reduced bowel sounds",
+        "Rebound tenderness",
+        "Palpable adnexal mass",
+        "Cervical excitation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rebound tenderness is the clearest sign of peritoneal irritation from rupture or torsion, mandating urgent surgical review. Cervical excitation also suggests pelvic peritonitis, but rebound is more generalized and is the traditional red flag for a surgical abdomen in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ecd6d9fdd32a",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old with known endometrioma is brought to ED after collapse at home. She had acute lower abdominal pain. On arrival, she is pale and sweaty. Observations: HR 120, BP 85/55, respiratory rate 22, O2 sat 98% on air. Which vital sign finding is the most important red flag requiring immediate escalation?",
+      "options": [
+        "Tachypnoea >20",
+        "Tachycardia >100",
+        "Hypotension <90 systolic",
+        "Hypoxia (SpO2 <94%)",
+        "Pyrexia >38°C"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypotension <90 mmHg indicates haemorrhagic shock from a ruptured endometrioma, the most immediately life-threatening issue. Tachycardia is present but is less specific; hypotension is the critical threshold for decompensation and activates the major haemorrhage protocol.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a14c51b98fb7",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 34-year-old with stage IV endometriosis complains of acute right iliac fossa pain. She is 7 weeks amenorrhoeic (unreliable contraception). Observations normal. On bimanual exam, there is right adnexal tenderness. Which single finding is most critical to check immediately?",
+      "options": [
+        "Rebound tenderness on abdominal exam",
+        "Positive urine pregnancy test",
+        "Cervical motion tenderness",
+        "Presence of a palpable adnexal mass",
+        "Fever >38°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive pregnancy test in this setting must rule out ectopic pregnancy, a life-threatening mimic. Cervical motion tenderness is common in both PID and endometriosis but does not carry the same urgency; a pregnancy test is the single most critical triage step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "02e9ff41ef77",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 38-year-old with known rectovaginal endometriosis presents with 2 days of colicky lower abdominal pain, nausea, and absolute constipation. On exam, abdomen is distended and tympanic. Which single symptom or sign is the most concerning red flag for a surgical complication?",
+      "options": [
+        "Abdominal distension",
+        "Colicky pain",
+        "Nausea",
+        "Absolute constipation",
+        "Tympanic percussion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Absolute constipation (no flatus or stool) is the definitive indicator of complete bowel obstruction, requiring urgent surgical referral. Distension and tympany are supportive but not as conclusive; colicky pain and nausea are common in both partial and complete obstruction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c80b9e0e9e0e",
+      "topic": "Endometriosis",
+      "slug": "endometriosis",
+      "system": "Gynaecology",
+      "subSystem": "Chronic pain",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 26-year-old with a known 6 cm endometrioma presents with acute onset severe left iliac fossa pain and vomiting. She is unable to lie still. Observations: HR 110, BP 130/85, temp 36.8°C. On abdominal exam, she has guarding and tenderness. Which single finding on clinical examination is most suggestive of ovarian torsion?",
+      "options": [
+        "Positive Murphy's sign",
+        "Palpable, exquisitely tender adnexal mass",
+        "Cervical excitation",
+        "Rebound tenderness in left lower quadrant",
+        "Fever"
+      ],
+      "answerIndex": 1,
+      "explanation": "A palpable, exquisitely tender adnexal mass is the classic sign of ovarian torsion, especially with acute pain and vomiting. Rebound can occur with peritonitis from rupture but is less specific; cervical excitation is more typical of PID. The tender mass is the key differentiating feature.",
+      "difficulty": "hard"
+    }
+  ]
+}

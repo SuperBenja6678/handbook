@@ -1,0 +1,513 @@
+{
+  "topic": "Tension Pneumothorax",
+  "slug": "tension-pneumothorax",
+  "system": "Respiratory",
+  "subSystem": "Pneumothorax",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:33:41Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "9ec194aa3f84",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old man is brought to the ED after a stab wound to the left chest. He is distressed, cyanosed, and hypotensive (BP 80/50 mmHg). His trachea is deviated to the right, the left chest is hyper-resonant with absent breath sounds, and his neck veins are distended. What is the single most likely diagnosis?",
+      "options": [
+        "Cardiac tamponade",
+        "Myocardial infarction",
+        "Tension pneumothorax",
+        "Massive haemothorax",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tracheal deviation away from the affected side, hyper-resonance, and absent breath sounds are classic for tension pneumothorax. Cardiac tamponade would have muffled heart sounds and equal breath sounds; massive haemothorax would be dull to percussion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "aa1cbc975a34",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 65-year-old man with COPD is on BiPAP for an exacerbation. Over 10 minutes, his oxygen saturation drops from 92% to 84%, his BP falls from 130/80 to 90/60 mmHg, and the ventilator alarms show high peak pressures. On examination, the right chest is hyper-resonant with reduced air entry, and the trachea is shifted to the left. What is the single most likely diagnosis?",
+      "options": [
+        "Acute pulmonary embolism",
+        "Ventilator-associated pneumonia",
+        "ARDS",
+        "Bronchospasm",
+        "Tension pneumothorax"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sudden hypotension, hypoxia, hyper-resonance, and tracheal shift on positive pressure ventilation strongly suggest tension pneumothorax. Pneumonia and ARDS develop more gradually; bronchospasm would cause wheeze and equal breath sounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7964b2a4cb3c",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old tall, thin male presents with acute-onset pleuritic right chest pain and dyspnoea. He has no trauma. On examination, his BP is 100/70 mmHg, HR 110 bpm, trachea deviated to the left, and the right chest is hyper-resonant with absent breath sounds. What is the single most likely diagnosis?",
+      "options": [
+        "Primary spontaneous pneumothorax (simple)",
+        "Pleural effusion",
+        "Acute pericarditis",
+        "Spontaneous tension pneumothorax",
+        "Pulmonary embolism"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tracheal deviation and hypotension indicate tension physiology; a simple pneumothorax would not cause haemodynamic compromise. Pleural effusion is dull to percussion; PE and pericarditis have different exam findings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8e9f58f87bdd",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 70-year-old woman on mechanical ventilation in ICU develops sudden hypotension and desaturation. The ventilator displays high peak pressures and low tidal volumes. The left chest is tympanitic with absent breath sounds, and the trachea is shifted to the right. A chest drain is inserted and air gushes out, but her BP remains low and she becomes hypoxic again. What complication has most likely occurred?",
+      "options": [
+        "Haemothorax from drain insertion",
+        "Pulmonary embolism",
+        "Re-expansion pulmonary oedema",
+        "Bronchopleural fistula",
+        "Tension pneumothorax (recurrence)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Re-expansion pulmonary oedema occurs when a large pneumothorax is rapidly drained, especially if tension has been present. The ongoing hypotension and hypoxia after drain insertion point to this, not a recurrence (which would cause similar findings but drain would show no air).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5050fd3c78bf",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with central line insertion into the right subclavian vein suddenly complains of pleuritic chest pain, becomes dyspnoeic, and hypotensive. His trachea is deviated to the left, the right chest is hyper-resonant with absent breath sounds. What is the single most likely diagnosis?",
+      "options": [
+        "Pleural effusion",
+        "Tension pneumothorax",
+        "Pericardial tamponade",
+        "Air embolism",
+        "Haematoma at insertion site"
+      ],
+      "answerIndex": 1,
+      "explanation": "Central line insertion can cause pneumothorax; tension develops from a one-way valve. Air embolism would cause sudden collapse without hyper-resonance or tracheal deviation. Pericardial tamponade would have muffled heart sounds and JVD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b5fc8512f5c6",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 22-year-old tall, thin man presents to the emergency department with sudden-onset right-sided pleuritic chest pain and dyspnoea. On examination, he is tachycardic, trachea is deviated to the left, and there is hyperresonance and reduced breath sounds on the right. What is the single most appropriate investigation to confirm the diagnosis?",
+      "options": [
+        "Arterial blood gas",
+        "Bedside ultrasound",
+        "ECG",
+        "CT chest",
+        "Erect chest X-ray"
+      ],
+      "answerIndex": 4,
+      "explanation": "Erect chest X-ray is the standard first-line imaging to confirm pneumothorax and assess for tension (tracheal deviation, mediastinal shift). CT is more sensitive but not indicated first; ABG may show hypoxia but is not diagnostic; ECG may rule out infarction; ultrasound is useful but CXR remains the reference standard in this setting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "66d4c102acc3",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 70-year-old man on mechanical ventilation in the intensive care unit suddenly becomes hypotensive and hypoxic. His ventilator peak pressures have risen. A chest X-ray shows a hyperlucent left hemithorax with a collapsed left lung. Which radiographic feature would indicate that this pneumothorax is under tension?",
+      "options": [
+        "Subcutaneous emphysema",
+        "Depression of the left hemidiaphragm",
+        "Tracheal deviation to the right",
+        "Leftward mediastinal shift",
+        "Widened mediastinum"
+      ],
+      "answerIndex": 2,
+      "explanation": "In tension pneumothorax, positive pleural pressure pushes the mediastinum to the contralateral side, causing tracheal deviation away from the affected side (here, to the right). Diaphragm depression and mediastinal shift are also seen, but tracheal deviation is the most specific sign of tension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "700ed33294ce",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman with chronic obstructive pulmonary disease presents with acute dyspnoea. Clinical examination reveals reduced breath sounds on the left. Which single clinical sign is most specific for diagnosing tension pneumothorax rather than a simple large pneumothorax?",
+      "options": [
+        "Decreased chest wall movement",
+        "Hypotension",
+        "Tachycardia",
+        "Tracheal deviation away from the affected side",
+        "Hyperresonance on percussion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tracheal deviation away from the affected side indicates mediastinal shift, which is the hallmark of tension pneumothorax. Hyperresonance, tachycardia, hypotension, and decreased movement can occur in both simple and tension pneumothorax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8335ed6bd837",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 40-year-old asthmatic patient is brought to the emergency department with severe dyspnoea. A bedside ultrasound is performed and shows absence of lung sliding on the right with a 'lung point' sign. Which additional ultrasound finding would confirm that this patient has a tension pneumothorax rather than a simple pneumothorax?",
+      "options": [
+        "Lung point",
+        "Comet-tail artifacts",
+        "‘Stratosphere’ (barcode) sign",
+        "Mediastinal shift (cardiac displacement)",
+        "Presence of B-lines"
+      ],
+      "answerIndex": 3,
+      "explanation": "In tension pneumothorax, the mediastinum shifts to the contralateral side; this can be detected on ultrasound as cardiac displacement. Absence of lung sliding and lung point confirm pneumothorax, but mediastinal shift distinguishes tension from simple. B-lines suggest pulmonary oedema; stratosphere sign is another name for absent lung sliding; comet-tail artifacts are normal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a851f721c38b",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 32-year-old woman at 28 weeks’ gestation presents with acute left-sided pleuritic chest pain and dyspnoea. Examination suggests a left-sided tension pneumothorax. Which is the most appropriate initial investigation to confirm the diagnosis?",
+      "options": [
+        "CT chest with contrast",
+        "Arterial blood gas",
+        "Bedside ultrasound",
+        "ECG",
+        "Erect chest X-ray with abdominal shielding"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pregnancy, ultrasound is preferred to avoid ionising radiation and can rapidly diagnose pneumothorax and signs of tension (e.g., mediastinal shift). CXR with shielding is also acceptable but ultrasound avoids radiation entirely. CT and ABG are not first-line; ECG is not diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ef705e3eeab9",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 22-year-old male presents with sudden-onset pleuritic chest pain and dyspnoea. On examination, he is tachycardic, hypotensive, and has tracheal deviation to the right. Left-sided hyperresonance and absent breath sounds are noted. A chest X-ray confirms a left tension pneumothorax. What is the most appropriate first-line treatment?",
+      "options": [
+        "Chest drain insertion in the 5th intercostal space, midaxillary line",
+        "CT-guided drainage",
+        "Observation with high-flow oxygen",
+        "Needle decompression with a 14G cannula in the 2nd intercostal space, midclavicular line",
+        "Simple aspiration with a 16G cannula"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tension pneumothorax is a life-threatening emergency requiring immediate decompression. Needle decompression is the fastest and most appropriate first-line intervention. Chest drain insertion is definitive but not the immediate first step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "214eb26d565a",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 68-year-old man with COPD on long-term home oxygen presents with acute respiratory distress. He has decreased breath sounds and hyperresonance on the right, with tracheal deviation to the left. A chest X-ray confirms right tension pneumothorax. What is the most appropriate first-line therapy?",
+      "options": [
+        "Aspiration with a 16G cannula",
+        "Talc pleurodesis",
+        "Chest drain insertion with underwater seal",
+        "Needle decompression with a 14G cannula in the 2nd intercostal space, midclavicular line",
+        "High-flow oxygen via a non-rebreather mask"
+      ],
+      "answerIndex": 3,
+      "explanation": "Even in patients with COPD and oxygen dependence, tension pneumothorax requires immediate needle decompression. Oxygen alone is supportive, not definitive. Chest drain is second-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17928cd017db",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman develops sudden respiratory distress following insertion of a right internal jugular central line. Examination reveals tracheal deviation to the left and absent breath sounds on the right. A portable chest X-ray confirms a right tension pneumothorax. Which management is CONTRAINDICATED?",
+      "options": [
+        "Observation with oxygen",
+        "Administration of positive pressure ventilation",
+        "Needle decompression",
+        "Simple aspiration",
+        "Chest drain insertion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Positive pressure ventilation in the presence of a tension pneumothorax can worsen air trapping, increase intrathoracic pressure, and cause cardiovascular collapse. Decompression must be performed before ventilation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "538af2ca5a48",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 30-year-old male with multiple rib fractures from a road traffic accident develops worsening dyspnoea and hypotension. He has tracheal deviation to the right and absent breath sounds on the left. A chest X-ray shows a left tension pneumothorax. Initial needle decompression is performed but the patient remains hypotensive. What is the most appropriate definitive management?",
+      "options": [
+        "Insert a chest drain in the 5th intercostal space, midaxillary line",
+        "Repeat needle decompression",
+        "Obtain a CT scan of the chest",
+        "Initiate positive pressure ventilation",
+        "Perform finger thoracostomy"
+      ],
+      "answerIndex": 0,
+      "explanation": "After needle decompression fails to improve the patient, definitive drainage with a chest drain (or finger thoracostomy in trauma) is indicated. Chest drain insertion is the standard definitive method.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "97dfd7ec4124",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old woman at 34 weeks gestation presents with acute-onset dyspnoea, pleuritic chest pain, and hypotension. She has tracheal deviation to the right and hyperresonance on the left. A chest X-ray confirms left tension pneumothorax. What is the most appropriate first-line treatment?",
+      "options": [
+        "Emergency thoracotomy",
+        "Chest drain insertion in the 5th intercostal space, midaxillary line",
+        "Observation with fetal monitoring",
+        "Needle decompression with a 14G cannula in the 2nd intercostal space, midclavicular line",
+        "Simple aspiration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tension pneumothorax in pregnancy is managed identically to non-pregnant patients. Immediate needle decompression is the first-line, life-saving intervention. Fetal monitoring is important but not a treatment for the pneumothorax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "86c72f5cfc0a",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 25-year-old man presents to the emergency department with acute onset of severe left-sided chest pain and shortness of breath after playing rugby. On examination, he is distressed, hypotensive (BP 85/50 mmHg), and tachycardic (HR 130/min). There is tracheal deviation to the right, distended neck veins, and absent breath sounds on the left. What is the most appropriate immediate next step?",
+      "options": [
+        "CT scan of the chest",
+        "Needle decompression of the left chest",
+        "Insert a chest drain in the left 5th intercostal space, midaxillary line",
+        "Administer high-flow oxygen via a non-rebreather mask",
+        "Immediate chest X-ray"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has tension pneumothorax with life-threatening signs (hypotension, tracheal deviation, distended neck veins). Immediate needle decompression (14G cannula in 2nd intercostal space, midclavicular line) is the priority to release pressure, followed by chest drain insertion. Waiting for CXR or CT would delay life-saving treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49f1263484c8",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 30-year-old woman presents to the emergency department with a 2-hour history of sharp right-sided pleuritic chest pain. She has mild shortness of breath. Observations: RR 18/min, SpO2 97% on air, HR 90/min, BP 120/80 mmHg. Chest X-ray shows a large right pneumothorax with a visible rim >2 cm but no mediastinal shift. She has no significant past medical history. What is the most appropriate next step?",
+      "options": [
+        "Referral for surgical pleurodesis",
+        "Insert a small-bore chest drain (12F) using Seldinger technique",
+        "Needle aspiration using a 14G cannula in the 2nd intercostal space",
+        "CT thorax to assess for bullae",
+        "Conservative management with observation and supplemental oxygen"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a large primary spontaneous pneumothorax with symptoms, BTS guidelines recommend needle aspiration as first-line management. Chest drain insertion is indicated if aspiration fails or if patient is unstable. Conservative management is for small pneumothoraces.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f80e510bf41a",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old man with chronic obstructive pulmonary disease presents with worsening dyspnoea. Chest X-ray shows a right-sided pneumothorax. After initial needle decompression, a 14F chest drain is inserted via Seldinger technique. Twenty-four hours later, the drain is still bubbling on underwater seal and a repeat chest X-ray shows no re-expansion of the lung. What is the most appropriate next step?",
+      "options": [
+        "Refer for urgent thoracic surgical opinion",
+        "CT chest to assess for bronchopleural fistula or other cause",
+        "Increase the suction pressure to -20 kPa",
+        "Clamp the drain and repeat chest X-ray",
+        "Remove the drain and insert a larger bore drain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Persistent air leak with failure of lung re-expansion warrants further investigation. CT chest is indicated to identify underlying cause such as bronchopleural fistula, bulla, or empyema. Increasing suction or upsizing drain may be considered but CT to guide management is first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b690e1eeb316",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man is mechanically ventilated in the intensive care unit following a laparotomy. He suddenly becomes hypotensive (BP 70/40 mmHg) and desaturates (SpO2 80%). Ventilator pressures are high. On examination, you note distended neck veins, tracheal deviation to the right, and absent breath sounds on the left. What is the most appropriate immediate next step?",
+      "options": [
+        "Perform a focused echocardiography to rule out tamponade",
+        "Perform an urgent chest X-ray",
+        "Needle decompression of the left chest",
+        "Administer a fluid bolus of 500 mL Hartmann's solution",
+        "Insert a left chest drain under ultrasound guidance"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a ventilated patient with suspected tension pneumothorax, immediate needle decompression is life-saving. Clinical signs are sufficient; waiting for CXR or ultrasound would delay treatment. Chest drain insertion will follow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0867f3729544",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "An 18-year-old woman with known Marfan syndrome presents with sudden onset of left-sided chest pain and mild shortness of breath. Observations: HR 100/min, BP 105/70 mmHg, RR 20/min, SpO2 95% on air. Chest X-ray shows a left pneumothorax with a 3 cm rim but no mediastinal shift. She has never had a pneumothorax before. What is the most appropriate next step?",
+      "options": [
+        "Conservative management with high-flow oxygen",
+        "Insert a 12F chest drain under local anaesthetic",
+        "CT scan of the chest to assess for aortic involvement",
+        "Needle aspiration of the left pneumothorax",
+        "Refer for immediate video-assisted thoracoscopic surgery (VATS)"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a first episode of primary spontaneous pneumothorax (Marfan is a risk factor). BTS guidelines recommend needle aspiration for large pneumothorax with symptoms. CT is not indicated acutely unless aortic dissection suspected (not here). Chest drain is second-line; VATS for recurrences.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87c1ce4e1a3b",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 25-year-old man with tall thin habitus presents with acute pleuritic chest pain and dyspnoea. Chest X-ray shows a small left pneumothorax. Two hours later, he develops severe dyspnoea and his respiratory rate is 36. Which single clinical finding most strongly indicates progression to tension pneumothorax?",
+      "options": [
+        "Oxygen saturation 92% on air",
+        "Hyperresonance on percussion",
+        "Tracheal deviation to the right",
+        "Heart rate 110 bpm",
+        "Reduced breath sounds on the left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tracheal deviation away from the affected side is a specific sign of tension physiology indicating mediastinal shift. Reduced breath sounds and hyperresonance are present in simple pneumothorax as well. Tachycardia and mild hypoxia can occur but are not specific for tension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8fbce280d5c1",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with known COPD presents with sudden worsening of dyspnoea. He is using accessory muscles, and SpO2 is 88% on 4L oxygen. On examination, there is decreased air entry on the right and the trachea is central. Which single finding would most strongly suggest he has a tension pneumothorax requiring emergency decompression?",
+      "options": [
+        "Pulsus paradoxus >10 mmHg",
+        "Hypotension (systolic BP 90 mmHg)",
+        "Cyanosis",
+        "Respiratory rate 32",
+        "Subcutaneous emphysema"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypotension due to impaired venous return is a key indicator of tension physiology. In COPD, hyperinflation can mask other signs. Cyanosis and tachycardia are non-specific. Subcutaneous emphysema may occur but does not indicate tension.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f7b00c9d9b95",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old polytrauma patient arrives in resus after a road traffic accident. He is intubated and ventilated. Suddenly, the ventilator alarms showing high peak airway pressure, and his blood pressure drops from 120/80 to 70/40 mmHg. Which single examination finding would confirm the diagnosis of tension pneumothorax?",
+      "options": [
+        "Tracheal deviation to the right",
+        "Hyperresonance on left percussion",
+        "Distended neck veins",
+        "Respiratory rate 20",
+        "Absent breath sounds on the left"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tracheal deviation is highly specific for tension pneumothorax in ventilated patients. Absent breath sounds can occur with simple pneumothorax. Distended neck veins may be masked by hypovolaemia. Hyperresonance is less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32f6d19e12a6",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old woman with known asthma presents with acute severe asthma. After initial treatment, she deteriorates with increasing dyspnoea, and the physician suspects a pneumothorax. Which single feature would most clearly indicate that she has a tension rather than simple pneumothorax?",
+      "options": [
+        "Use of accessory muscles",
+        "Shifting of the trachea to the contralateral side",
+        "Oxygen saturation 90% on 15L oxygen",
+        "Heart rate 130 bpm",
+        "Inability to speak in sentences"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal shift is pathognomonic for tension pneumothorax. The other features are non-specific and can be due to the asthma exacerbation itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9c9c35a35098",
+      "topic": "Tension Pneumothorax",
+      "slug": "tension-pneumothorax",
+      "system": "Respiratory",
+      "subSystem": "Pneumothorax",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old man with a spontaneous pneumothorax is being observed on the ward. Which single finding would prompt immediate needle decompression?",
+      "options": [
+        "Chest pain score 7/10",
+        "Heart rate 115 bpm",
+        "Oxygen saturation 94% on air",
+        "Systolic blood pressure 85 mmHg",
+        "Respiratory rate 24"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hypotension (systolic BP <90 mmHg) is a key indicator of tension physiology requiring immediate decompression. Tachycardia and mild hypoxia can occur with simple pneumothorax and do not mandate emergency intervention.",
+      "difficulty": "easy"
+    }
+  ]
+}

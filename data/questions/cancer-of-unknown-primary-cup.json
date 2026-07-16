@@ -1,0 +1,513 @@
+{
+  "topic": "Cancer of Unknown Primary (CUP)",
+  "slug": "cancer-of-unknown-primary-cup",
+  "system": "Oncology",
+  "subSystem": "Syndromic",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:21Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "0e675d876883",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "68-year-old man with weight loss and right upper quadrant pain. CT shows multiple liver metastases. PET-CT shows FDG-avid liver lesions, mediastinal lymph nodes, and a left iliac bone lesion. Gastroscopy, colonoscopy, and CT chest/abdomen/pelvis reveal no primary. He is a smoker. What is the single most likely diagnosis?",
+      "options": [
+        "Metastatic colorectal cancer",
+        "Cancer of unknown primary",
+        "Lymphoma",
+        "Small cell lung cancer",
+        "Hepatocellular carcinoma"
+      ],
+      "answerIndex": 1,
+      "explanation": "The absence of a primary lesion despite thorough investigation, with multiple metastatic sites (liver, nodes, bone), makes cancer of unknown primary the most likely. Colorectal, hepatocellular, lymphoma, and small cell lung typically have identifiable primaries or characteristic patterns.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83ce392e2931",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "45-year-old woman presents with a right axillary mass. Examination: no breast lump. Mammogram and breast MRI normal. Axillary node biopsy shows adenocarcinoma positive for ER and HER2. What is the single most likely diagnosis?",
+      "options": [
+        "Metastatic melanoma",
+        "Cancer of unknown primary",
+        "Lymphoma",
+        "Occult breast cancer",
+        "Metastatic lung cancer"
+      ],
+      "answerIndex": 3,
+      "explanation": "The histology (adenocarcinoma positive for ER and HER2) is characteristic of breast origin. Occult breast cancer presenting as axillary metastasis is a well-recognised entity and should be managed as breast cancer, making it more specific than a diagnosis of CUP.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "46c3860aaad7",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "60-year-old man with progressive dysphagia, weight loss, and a left supraclavicular node (Virchow's node). Endoscopy normal. CT chest/abdomen shows no primary but multiple liver and bone metastases. Node biopsy shows poorly differentiated adenocarcinoma with signet ring cells. What is the single most likely diagnosis?",
+      "options": [
+        "Lung cancer",
+        "Lymphoma",
+        "Pancreatic cancer",
+        "Gastric cancer",
+        "Cancer of unknown primary"
+      ],
+      "answerIndex": 3,
+      "explanation": "Signet ring cells are typical of gastric adenocarcinoma, and Virchow's node is a classic sentinel node for gastric cancer. Despite normal endoscopy, the tumour may be submucosal, making gastric cancer more likely than CUP.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3293e2b8e903",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "72-year-old woman with abdominal distension and ascites. CT shows peritoneal carcinomatosis with omental cake. No ovarian mass on ultrasound or MRI. Colonoscopy normal. CA125 slightly elevated. What is the single most likely diagnosis?",
+      "options": [
+        "Ovarian cancer",
+        "Mesothelioma",
+        "Colorectal cancer",
+        "Cancer of unknown primary",
+        "Peritoneal tuberculosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the absence of a detectable primary, particularly with peritoneal carcinomatosis, the most likely diagnosis is CUP. Ovarian cancer is a strong differential but typically presents with an ovarian mass. Tuberculosis and mesothelioma have different histopathological features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ba9ab5ce35c",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "55-year-old man with back pain and pathological fracture of the femur. X-ray shows lytic lesions. Bone scan shows multiple hot spots. Biopsy of femoral lesion shows poorly differentiated carcinoma with immunohistochemistry: CK7+, CK20-, PSA-, TTF-1-, thyroglobulin-. PET-CT reveals no primary. What is the single most likely diagnosis?",
+      "options": [
+        "Prostate cancer",
+        "Renal cell carcinoma",
+        "Lung cancer",
+        "Thyroid cancer",
+        "Cancer of unknown primary"
+      ],
+      "answerIndex": 4,
+      "explanation": "The immunohistochemistry profile (CK7+, CK20-, negative for PSA, TTF-1, thyroglobulin) is non-specific but excludes common primaries like prostate, lung, thyroid, and renal. Thus, cancer of unknown primary is the most likely diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c110a0820f9b",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with a 3-month history of weight loss and fatigue. Examination reveals a firm, fixed left supraclavicular lymph node. CT of chest, abdomen, and pelvis shows no obvious primary tumour. Biopsy of the node shows adenocarcinoma. Immunohistochemistry is positive for CK7 and negative for CK20, TTF-1, and GATA3. Which of the following is the single most likely primary site?",
+      "options": [
+        "Urothelial tract",
+        "Prostate",
+        "Lung",
+        "Colon",
+        "Breast"
+      ],
+      "answerIndex": 2,
+      "explanation": "CK7+/CK20- with negative TTF-1 and GATA3 suggests lung adenocarcinoma (TTF-1 can be negative in some lung adenocarcinomas). Colon is CK7-/CK20+. Breast is GATA3+. Urothelial is CK7+/CK20+ with GATA3+. Prostate is typically CK7-/CK20- with PSA positivity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "36e255b169d0",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman presents with painful lytic bone lesions in the spine and pelvis. She has no history of malignancy. Routine blood tests show hypercalcaemia. CT thorax, abdomen, and pelvis reveals no primary tumour. A bone biopsy shows adenocarcinoma of uncertain origin. Which of the following is the most appropriate next investigation to identify the primary site?",
+      "options": [
+        "Mammography",
+        "Serum PSA",
+        "PET-CT with FDG",
+        "Tumour marker panel (CEA, CA19-9, CA125)",
+        "Upper GI endoscopy"
+      ],
+      "answerIndex": 2,
+      "explanation": "PET-CT is the most sensitive whole-body imaging technique to identify an occult primary in CUP. Serum PSA and mammography are targeted but unlikely in the absence of clinical suspicion. Endoscopy and tumour markers are less sensitive and may delay diagnosis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7ed4473c74df",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old man is found to have multiple liver metastases on ultrasound during investigation for deranged liver function tests. He feels well with no symptoms. CT thorax, abdomen, and pelvis shows no primary tumour. Core biopsy of a liver lesion shows poorly differentiated carcinoma. Immunohistochemistry is positive for CK7 and CK20, and negative for TTF-1, GATA3, and CDX2. Which of the following is the most likely primary site?",
+      "options": [
+        "Gastric",
+        "Pancreatic",
+        "Ovarian",
+        "Colorectal",
+        "Urothelial carcinoma"
+      ],
+      "answerIndex": 4,
+      "explanation": "CK7+/CK20+ is characteristic of urothelial carcinoma. Colorectal is CK7-/CK20+ (CDX2+). Gastric can be CK7+/CK20+, but often CDX2+ and more variable. Pancreatic is usually CK7+/CK20- with CA19-9. Ovarian is CK7+/CK20- with WT1/ER positivity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "34a00a970827",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man presents with progressive dysphagia and weight loss. Endoscopy shows a gastric tumour. Biopsy reveals adenocarcinoma. However, clinical examination and CT imaging suggest metastasis to the liver and peritoneum. The patient is deemed to have cancer of unknown primary (CUP) if no primary site is identified after which set of investigations?",
+      "options": [
+        "Tumour marker panel and serum protein electrophoresis",
+        "PET-CT with FDG",
+        "Complete gastrointestinal endoscopy (OGD and colonoscopy)",
+        "Examination under anaesthesia and biopsy of all suspicious lesions",
+        "CT thorax, abdomen, and pelvis with contrast"
+      ],
+      "answerIndex": 4,
+      "explanation": "According to NICE guidelines, CUP is diagnosed after a thorough initial workup including CT chest, abdomen, and pelvis with contrast to identify a primary. If this is negative, further targeted investigations may be guided by histology. The key is that a primary is not found despite adequate imaging. The other options are more specialised or not first-line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "646ca555d450",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 45-year-old woman presents with axillary lymphadenopathy. Excisional biopsy shows adenocarcinoma. Mammogram and breast ultrasound are normal. CT chest, abdomen, and pelvis shows no other abnormalities. Immunohistochemistry of the node is positive for GATA3 and ER, and negative for TTF-1 and CK20. Which of the following is the single most likely primary site?",
+      "options": [
+        "Melanoma",
+        "Breast",
+        "Ovarian",
+        "Lung",
+        "Endometrial"
+      ],
+      "answerIndex": 1,
+      "explanation": "GATA3 and ER positivity is highly suggestive of breast carcinoma. Ovarian and endometrial can be ER+ but GATA3 is less typical. Lung is TTF-1+ and CK20-. Melanoma is negative for cytokeratins and positive for S100.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "67962079982c",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old man presents with multiple liver metastases. Biopsy shows poorly differentiated adenocarcinoma, CK7+/CK20-, TTF1-, and no primary tumour is identified on CT, MRI, and PET-CT. He has ECOG performance status 1. What is the most appropriate first-line treatment?",
+      "options": [
+        "Oxaliplatin plus capecitabine",
+        "Gemcitabine plus cisplatin",
+        "Carboplatin plus paclitaxel",
+        "Best supportive care",
+        "Cisplatin plus 5-fluorouracil"
+      ],
+      "answerIndex": 2,
+      "explanation": "For patients with cancer of unknown primary (CUP) and adenocarcinoma histology, UK NICE guidelines recommend carboplatin plus paclitaxel as first-line treatment for fit patients with good performance status. The other regimens are used for specific known primaries (e.g., cisplatin+5-FU for squamous, oxaliplatin for colorectal) but are not first-line for undifferentiated CUP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2c1c7e5a2ae4",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 50-year-old woman presents with abdominal distension and pelvic pain. CT shows omental caking and ascites. Serum CA-125 is markedly elevated. Laparoscopic biopsy reveals serous adenocarcinoma. No primary ovarian or other tumour is found. She has ECOG PS 0. What is the most appropriate first-line treatment?",
+      "options": [
+        "Debulking surgery alone",
+        "Carboplatin plus paclitaxel",
+        "Cisplatin plus pemetrexed",
+        "Tamoxifen",
+        "Whole-abdomen radiotherapy"
+      ],
+      "answerIndex": 1,
+      "explanation": "This presentation suggests a Müllerian primary. Peritoneal serous adenocarcinoma in women is treated as ovarian cancer with carboplatin plus paclitaxel. Hormonal therapy (tamoxifen) is not first-line, and surgery alone is insufficient. Radiotherapy is not standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7357a9f8399f",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a 2-week history of progressive dyspnoea, facial swelling, and stridor. CT shows a large mediastinal mass compressing the superior vena cava. Biopsy of a supraclavicular node shows undifferentiated carcinoma. He is too unwell for chemotherapy. What is the most appropriate immediate treatment?",
+      "options": [
+        "Urgent chemotherapy with cisplatin plus etoposide",
+        "Urgent palliative radiotherapy to the mediastinum",
+        "Thrombolysis with alteplase",
+        "Surgical bypass of the superior vena cava",
+        "High-dose dexamethasone alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Superior vena cava obstruction (SVCO) from a chemotherapy-resistant or poor-performance patient is best managed with urgent palliative radiotherapy for rapid symptom relief. Dexamethasone may be used as an adjunct but is not definitive. Chemotherapy is contraindicated in this unfit patient. Thrombolysis is for thrombotic SVCO, and surgery is rarely indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d180fedd4e7f",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with cancer of unknown primary (adenocarcinoma) on first-line carboplatin plus paclitaxel presents with fever (38.8°C), rigors, and neutropenia (ANC 0.2 × 10⁹/L). Blood cultures are pending. What is the most appropriate initial definitive therapy?",
+      "options": [
+        "Intravenous piperacillin-tazobactam",
+        "Oral ciprofloxacin",
+        "Granulocyte colony-stimulating factor (G-CSF) alone",
+        "Intravenous vancomycin alone",
+        "Discontinue chemotherapy permanently"
+      ],
+      "answerIndex": 0,
+      "explanation": "Febrile neutropenia is an oncological emergency requiring immediate broad-spectrum antibiotics. Piperacillin-tazobactam is recommended as first-line empirical therapy by UK guidelines. G-CSF is not a substitute for antibiotics. Oral antibiotics are inappropriate in this setting, and vancomycin is reserved for specific indications. Chemotherapy should be delayed, not discontinued permanently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6d88273814f1",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old man with multiple blastic bone metastases is found to have an elevated serum PSA of 450 ng/mL. Biopsy of a rib lesion shows adenocarcinoma that is CK7-, CK20+, and strongly ER-positive. No primary prostate cancer is found on imaging. He has ECOG PS 2. What is the most appropriate first-line treatment?",
+      "options": [
+        "Best supportive care",
+        "Letrozole",
+        "Carboplatin plus paclitaxel",
+        "Abiraterone plus prednisolone",
+        "Docetaxel plus prednisolone"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of blastic bone metastases, elevated PSA, and ER-positive biopsy suggests a hormone-responsive CUP, likely arising from the breast (especially in a man). First-line treatment is with an aromatase inhibitor (letrozole). Abiraterone and docetaxel are for prostate cancer, but not appropriate here. Carboplatin+paclitaxel is for undifferentiated CUP without hormonal sensitivity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "def6b8109c92",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 70-year-old woman presents with weight loss and abdominal pain. CT shows multiple liver metastases but no obvious primary tumour. She is haemodynamically stable. What is the most appropriate next step?",
+      "options": [
+        "Arrange colonoscopy",
+        "Arrange PET-CT whole body",
+        "Request serum tumour markers (CEA, CA19-9, CA125)",
+        "Perform CT-guided biopsy of a liver lesion",
+        "Refer to oncology for palliative chemotherapy"
+      ],
+      "answerIndex": 3,
+      "explanation": "In Cancer of Unknown Primary, obtaining tissue for histology is the priority to confirm diagnosis and guide targeted therapy. PET-CT may follow but biopsy is first.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "00d6f6325abf",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old man presents with a painless enlarged left axillary lymph node. Excision biopsy shows adenocarcinoma. Examination, full blood count, renal and liver function, and CT chest/abdomen/pelvis are unremarkable. What is the most appropriate next step?",
+      "options": [
+        "Start empirical chemotherapy with carboplatin",
+        "Repeat CT in 3 months",
+        "Organise MRI breast",
+        "Arrange PET-CT scan",
+        "Check serum CA125"
+      ],
+      "answerIndex": 3,
+      "explanation": "For patients with CUP and no obvious primary after standard imaging, NICE recommends PET-CT as it can detect occult primaries in up to 30% of cases and guides further management.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "54294fc9e7f5",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man with known CUP (adenocarcinoma from liver biopsy) is brought to the emergency department with confusion. He is alert but disoriented. Serum sodium is 120 mmol/L. He is normotensive and euvolaemic. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer 3% sodium chloride infusion",
+        "Refer to critical care",
+        "Request urgent CT head",
+        "Restrict fluid intake to 1 L/day",
+        "Check serum cortisol and TSH"
+      ],
+      "answerIndex": 0,
+      "explanation": "Severe hyponatraemia (Na <125) with neurological symptoms (confusion) is an emergency requiring immediate correction with hypertonic saline to prevent osmotic demyelination. Other measures are secondary.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "60dbce2f06cc",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 60-year-old woman with CUP and known bone metastases develops sudden-onset inability to walk and severe mid-thoracic back pain. On examination, there is lower limb weakness and sensory loss below T6. What is the most appropriate immediate next step?",
+      "options": [
+        "Start bisphosphonate infusion",
+        "Commence urgent radiotherapy",
+        "Arrange urgent MRI spine",
+        "Refer for surgical decompression",
+        "Administer high-dose dexamethasone"
+      ],
+      "answerIndex": 4,
+      "explanation": "In suspected spinal cord compression, high-dose corticosteroids (e.g., dexamethasone) should be given immediately to reduce oedema and preserve neurological function. Imaging and definitive treatment follow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7a00a17f288c",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 45-year-old woman presents with abdominal distension and discomfort. CT shows peritoneal carcinomatosis and ascites but no identifiable primary. She is otherwise well and keen to start treatment. What is the most appropriate next step?",
+      "options": [
+        "Paracentesis with ascitic fluid cytology",
+        "Diagnostic laparoscopy",
+        "Start empirical carboplatin and paclitaxel",
+        "Check CA125, CA19-9 and CEA",
+        "Arrange PET-CT scan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ascites cytology can provide diagnostic cells, potentially identifying the primary (e.g., ovarian, gastric) and allowing tailored therapy. Starting treatment without tissue diagnosis is not recommended.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a631be7bf663",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known cancer of unknown primary (CUP) and bone metastases presents with confusion and polyuria. Blood tests show: corrected calcium 3.2 mmol/L, sodium 135 mmol/L, creatinine 150 µmol/L, albumin 30 g/L. Which single finding is the most urgent red flag requiring immediate treatment?",
+      "options": [
+        "Creatinine 150 µmol/L",
+        "Polyuria",
+        "Corrected calcium 3.2 mmol/L",
+        "Albumin 30 g/L",
+        "Sodium 135 mmol/L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypercalcaemia >3.0 mmol/L is a medical emergency in CUP, often due to bone metastases. It requires urgent IV fluids and bisphosphonates. The other results are less critical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "478dbdad6da7",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman with CUP (liver and bone metastases) reports a 2-week history of back pain. She has noticed numbness in her legs but no weakness. On examination, power is normal but there is a sensory level at T8. Which single finding is the most urgent red flag?",
+      "options": [
+        "Age >65",
+        "Back pain",
+        "Known bone metastases",
+        "Sensory level at T8",
+        "Numbness in legs"
+      ],
+      "answerIndex": 3,
+      "explanation": "A sensory level on examination is a specific sign of spinal cord compression, even without motor deficit, and demands urgent MRI and steroids. Back pain and numbness are non-specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "753efbe69238",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 62-year-old man with CUP (midline mediastinal mass) presents with a 1-day history of facial swelling and dyspnoea. On examination, there is plethora and engorged neck veins. Which single finding is the most urgent red flag?",
+      "options": [
+        "Plethora",
+        "Stridor",
+        "Dyspnoea",
+        "Engorged neck veins",
+        "Facial swelling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stridor indicates life-threatening upper airway obstruction due to mediastinal mass. The other signs are typical of SVC obstruction but not as immediately dangerous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "375e51431dc2",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 55-year-old woman with CUP receiving chemotherapy presents to A&E with a temperature of 38.6°C and rigors. Her neutrophil count is 0.2 x10^9/L. Which single finding is the most urgent red flag?",
+      "options": [
+        "Blood pressure 85/60 mmHg",
+        "Rigors",
+        "Positive blood cultures",
+        "Neutrophil count 0.2",
+        "Temperature 38.6°C"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypotension in febrile neutropenia defines septic shock, requiring immediate vasopressors and broad-spectrum antibiotics. Fever and neutropenia are expected; hypotension is the escalation threshold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16287dab1bf4",
+      "topic": "Cancer of Unknown Primary (CUP)",
+      "slug": "cancer-of-unknown-primary-cup",
+      "system": "Oncology",
+      "subSystem": "Syndromic",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 74-year-old man with CUP and known osteolytic bone metastases in his right femur trips over a rug and feels sudden severe pain in his right thigh. He cannot stand. On examination, the thigh appears swollen and there is a palpable step deformity. Which single finding is the most urgent red flag?",
+      "options": [
+        "Swelling",
+        "Inability to stand",
+        "Step deformity",
+        "Severe pain",
+        "Known osteolytic metastases"
+      ],
+      "answerIndex": 2,
+      "explanation": "A step deformity confirms a displaced pathological fracture requiring urgent orthopaedic fixation. Inability to bear weight is also a red flag but less specific.",
+      "difficulty": "medium"
+    }
+  ]
+}

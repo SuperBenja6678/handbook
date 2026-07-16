@@ -1,0 +1,493 @@
+{
+  "topic": "Paracetamol Overdose",
+  "slug": "paracetamol-overdose",
+  "system": "Emergency Medicine",
+  "subSystem": "Toxicology",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:32:23Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "070826be88db",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents 4 hours after ingesting 14 g of paracetamol in a single attempt. She is asymptomatic. Observations: HR 80, BP 115/75, oxygen saturation 99% on air. Serum paracetamol level is 200 mg/L (treatment line at 4 hours is 150 mg/L). LFTs and INR are normal. What is the single most likely diagnosis?",
+      "options": [
+        "Ischaemic hepatitis",
+        "Paracetamol overdose",
+        "Alcoholic hepatitis",
+        "Autoimmune hepatitis",
+        "Acute hepatitis A"
+      ],
+      "answerIndex": 1,
+      "explanation": "The history of acute paracetamol ingestion with a level above the treatment line confirms paracetamol overdose; the other options typically present with abnormal liver biochemistry and no history of overdose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1972413d70ed",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 35-year-old woman presents with nausea, vomiting, and right upper quadrant pain for 2 days. She has been taking paracetamol 1 g four times daily for a back pain for the past week. She drinks minimal alcohol. Observations: HR 90, BP 110/70, temperature 37.2°C. Abdomen: mild RUQ tenderness. LFTs: ALT 250 U/L, bilirubin 30 µmol/L, INR 1.3. Paracetamol level is 80 mg/L. What is the single most likely diagnosis?",
+      "options": [
+        "Autoimmune hepatitis",
+        "Acute hepatitis B",
+        "Paracetamol overdose",
+        "Acute cholecystitis",
+        "Alcoholic hepatitis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The history of repeated supratherapeutic paracetamol ingestion with elevated transaminases and no other cause makes paracetamol-induced hepatotoxicity most likely; cholecystitis would have fever and focal tenderness, alcoholic hepatitis requires heavy alcohol use, and viral hepatitis would have serological markers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c0341da1f7e3",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 28-year-old man is brought to the emergency department with confusion and jaundice. His friends report he has been vomiting and complaining of abdominal pain for 2 days. He has no past medical history. Observations: HR 110, BP 85/50, temperature 36.5°C. Abdomen: tender hepatomegaly. Bloods: ALT 8000 U/L, bilirubin 150 µmol/L, INR 4.5, lactate 8 mmol/L, pH 7.25. He is unable to give history. What is the single most likely diagnosis?",
+      "options": [
+        "Paracetamol overdose",
+        "Budd-Chiari syndrome",
+        "Alcoholic hepatitis",
+        "Autoimmune hepatitis",
+        "Acute hepatitis A"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of extremely elevated ALT, severe coagulopathy, and metabolic acidosis in a young adult is classic for paracetamol-induced hepatotoxicity, even without a clear history; other causes of acute liver failure (e.g., viral hepatitis) typically have less severe acidosis and lower ALT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5a1c942d610a",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 30-year-old man presents with reduced urine output and nausea for 3 days. He denies any overdose initially, but on direct questioning admits to taking a large amount of paracetamol for a headache about a week ago. Observations: HR 80, BP 130/80, temperature 37.0°C. Abdomen: mild epigastric tenderness. Bloods: ALT 300 U/L, bilirubin 40 µmol/L, INR 1.5, creatinine 450 µmol/L, urea 25 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Acute glomerulonephritis",
+        "Hydronephrosis",
+        "Urinary tract infection",
+        "Renal vein thrombosis",
+        "Paracetamol overdose"
+      ],
+      "answerIndex": 4,
+      "explanation": "The history of recent paracetamol overdose with modest transaminitis and disproportionate acute kidney injury is typical of paracetamol nephrotoxicity; other causes lack the history and liver involvement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "18d4df520756",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 45-year-old homeless man with chronic alcohol abuse presents with confusion and hypoglycaemia. He has been taking paracetamol 2 g daily for joint pain for several days. He is malnourished. Observations: HR 100, BP 100/60, temperature 35.8°C. Bloods: ALT 4000 U/L, bilirubin 100 µmol/L, INR 3.0, plasma paracetamol level is 10 mg/L (therapeutic). What is the single most likely diagnosis?",
+      "options": [
+        "Alcoholic hepatitis",
+        "Paracetamol overdose",
+        "Acute hepatitis B",
+        "Diabetic ketoacidosis",
+        "Pancreatitis"
+      ],
+      "answerIndex": 1,
+      "explanation": "In malnourished chronic alcoholics, even therapeutic doses of paracetamol can cause severe hepatotoxicity due to glutathione depletion; the very high ALT in this setting is characteristic, while alcoholic hepatitis typically has ALT <200 with AST>ALT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f68939b76f4a",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 24-year-old woman presents 4 hours after ingesting 15 g of paracetamol with suicidal intent. She has no vomiting and no abdominal pain. Serum paracetamol level is ordered. Which single investigation is most appropriate to determine the need for acetylcysteine treatment?",
+      "options": [
+        "Liver function tests",
+        "Full blood count",
+        "International normalised ratio (INR)",
+        "Serum paracetamol level plotted on the Rumack-Matthew nomogram",
+        "Random urine drug screen"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Rumack-Matthew nomogram uses the serum paracetamol level and time since ingestion to decide if acetylcysteine is indicated. This is the standard approach for acute ingestions. Options like LFTs or INR are not used for initial decision-making but may be monitored later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "858d3ebcf41a",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 45-year-old man with alcohol use disorder presents with confusion and right upper quadrant pain. He admits to taking paracetamol 'over the last few days' for headaches, but cannot recall the exact amount. Paracetamol level is 80 mg/L at 8 hours, but timing of last dose is unclear. Which investigation is most helpful to assess severity of hepatotoxicity?",
+      "options": [
+        "Prothrombin time (PT) and INR",
+        "Lactate level",
+        "Ammonia level",
+        "Arterial blood gas",
+        "Repeat paracetamol level in 4 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "PT/INR is the best measure of synthetic function in suspected paracetamol-induced liver injury. In staggered overdoses, nomogram is not reliable, and severity is assessed by coagulopathy, encephalopathy, and renal function.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "05c51b6e0cd1",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 30-year-old woman is brought to the Emergency Department 6 hours after ingesting 12 g of paracetamol. Serum level is 120 mg/L. According to UK guidelines (NICE), which treatment threshold is used?",
+      "options": [
+        "Treatment line at 150 mg/L at 4 hours",
+        "Treatment line at 150 mg/L at 8 hours",
+        "Treatment line at 100 mg/L at 8 hours",
+        "Treatment line at 200 mg/L at 4 hours",
+        "Treatment line at 100 mg/L at 4 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends using the nomogram with a treatment line of 100 mg/L at 4 hours for patients with risk factors (e.g., malnutrition, enzyme inducers) and 150 mg/L at 4 hours for non-risk. However, the question asks for the threshold; the most commonly cited is 100 mg/L (since UK adopted lower threshold). Risk factors include long-term alcohol, anti-epileptics, etc.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "61dc19e052b9",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 23-year-old medical student presents 2 hours after taking 10 g of paracetamol. She is asymptomatic. Paracetamol level is 40 mg/L. Which is the most appropriate next step?",
+      "options": [
+        "Arrange psychiatric assessment",
+        "Repeat paracetamol level at 4 hours post-ingestion",
+        "Administer activated charcoal",
+        "Start acetylcysteine immediately",
+        "Check liver function tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "At 2 hours, the level is not interpretable on the nomogram (needs at least 4 hours post-ingestion). The most appropriate action is to repeat the level at 4 hours to apply the nomogram correctly. Treatment decisions should not be made on an early level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f5b1f06ff6e5",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 34-year-old woman who is 28 weeks pregnant presents 5 hours after ingesting 20 g of paracetamol. Serum paracetamol level is 180 mg/L. Which test is most important to interpret the risk to the fetus?",
+      "options": [
+        "Maternal paracetamol level plotted on nomogram",
+        "Fetal fibronectin test",
+        "Maternal blood alcohol level",
+        "Umbilical artery Doppler",
+        "Maternal liver function tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnancy, the same nomogram is used to decide maternal treatment; acetylcysteine should be given if level is above the treatment line. Fetal outcome is related to maternal toxicity, so the paracetamol level is key. LFTs are not primary for decision-making.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "003f5aaa3d8e",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70 kg man presents 45 minutes after ingesting 15 g of paracetamol. He is asymptomatic with a GCS of 15. What is the most appropriate treatment?",
+      "options": [
+        "N-acetylcysteine",
+        "Activated charcoal",
+        "Methionine",
+        "Haemodialysis",
+        "Supportive care"
+      ],
+      "answerIndex": 1,
+      "explanation": "Activated charcoal is indicated within 1 hour of a paracetamol overdose exceeding 150 mg/kg (here 214 mg/kg), reducing absorption. N-acetylcysteine is reserved for later or when charcoal is ineffective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bdbbba13eec9",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 60 kg woman presents 6 hours after ingesting 20 g of paracetamol. Her paracetamol level is above the treatment line on the Rumack-Matthew nomogram. She has no signs of liver failure. What is the most appropriate treatment?",
+      "options": [
+        "Haemodialysis",
+        "Activated charcoal",
+        "N-acetylcysteine",
+        "Methionine",
+        "Sodium bicarbonate"
+      ],
+      "answerIndex": 2,
+      "explanation": "N-acetylcysteine is the first-line antidote for paracetamol overdose when levels are above the treatment line, effective up to 24 hours. Activated charcoal is not useful after 1 hour.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "829e725e493d",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 45-year-old woman is transferred 24 hours after a massive paracetamol overdose. She is jaundiced, has an INR of 3.5, and grade 1 hepatic encephalopathy. Which treatment is contraindicated?",
+      "options": [
+        "Fresh frozen plasma",
+        "Haemodialysis",
+        "Liver transplantation",
+        "Methionine",
+        "N-acetylcysteine"
+      ],
+      "answerIndex": 3,
+      "explanation": "Methionine is contraindicated in acute liver failure as it may worsen encephalopathy. N-acetylcysteine is still beneficial even late. Liver transplantation may be needed but is not contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "974bc33ef666",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 28-year-old primigravida at 30 weeks gestation presents 8 hours after ingesting 18 g of paracetamol. Her paracetamol level is above the treatment line. She is asymptomatic. What is the most appropriate treatment?",
+      "options": [
+        "N-acetylcysteine",
+        "Activated charcoal",
+        "Haemodialysis",
+        "Urgent delivery",
+        "Methionine"
+      ],
+      "answerIndex": 0,
+      "explanation": "N-acetylcysteine is safe and effective in pregnancy and should be given as per standard protocols. Methionine is not first-line. Delivery is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b229ae213839",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 35-year-old man presents 4 hours after ingesting 16 g of paracetamol. He has a known IgE-mediated anaphylaxis to N-acetylcysteine. His paracetamol level is above the treatment line. What is the most appropriate treatment?",
+      "options": [
+        "Methionine",
+        "Haemodialysis",
+        "Ascorbic acid",
+        "Sodium bicarbonate",
+        "Activated charcoal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Methionine is an oral alternative antidote for paracetamol overdose when NAC is contraindicated, provided it is within 10-12 hours of ingestion and the patient is not vomiting. Activated charcoal is too late after 1 hour.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1c0793af27cd",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 35-year-old man presents with nausea and RUQ pain. He admits to taking a total of 14g of paracetamol in divided doses over 18 hours, last dose 4 hours ago. Observations normal. What is the most appropriate immediate next action?",
+      "options": [
+        "Start IV N-acetylcysteine immediately",
+        "Measure serum paracetamol level now",
+        "Give activated charcoal",
+        "Perform a urine toxicology screen",
+        "Check LFTs and INR and review"
+      ],
+      "answerIndex": 0,
+      "explanation": "In staggered overdose, the nomogram is unreliable. NICE recommends starting NAC immediately if total dose > 150 mg/kg (or >12g in 24h) or if hepatotoxicity is suspected. This patient has symptoms and a large dose, so NAC should be started without delay.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "779a4bb5d480",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman is brought to ED 8 hours after ingesting 35g paracetamol. She is confused, jaundiced, and has BP 90/60 mmHg. Which of the following is the most appropriate immediate next action?",
+      "options": [
+        "Refer to liver transplant centre",
+        "Give a fluid bolus of 500 mL Hartmann's",
+        "Commence IV N-acetylcysteine",
+        "Check arterial blood gas",
+        "Arrange urgent CT head"
+      ],
+      "answerIndex": 2,
+      "explanation": "Although she is hypotensive, the specific antidote NAC is time-critical and should be started immediately. Fluids can be given concurrently, but the priority is to administer NAC as it can improve outcomes even in established hepatotoxicity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9cf8457664b6",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 22-year-old man, treated with a full course of NAC after a paracetamol overdose 5 days ago, now has worsening confusion, jaundice, and PT of 40 seconds. What is the most appropriate immediate next action?",
+      "options": [
+        "Give intravenous vitamin K",
+        "Arrange transfer to a liver transplant centre for assessment",
+        "Check serum ammonia",
+        "Perform a lumbar puncture",
+        "Continue NAC"
+      ],
+      "answerIndex": 1,
+      "explanation": "This patient has acute liver failure with encephalopathy and coagulopathy. The most critical step is early referral to a transplant centre. NAC continuation is appropriate but not the primary immediate action; ammonia and vitamin K are supportive but do not change outcome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33c9873f343d",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with known alcoholism and malnutrition presents 6 hours after ingesting 8g of paracetamol. He is asymptomatic. Weight 60 kg. What is the most appropriate immediate next action?",
+      "options": [
+        "Start IV N-acetylcysteine immediately",
+        "Measure serum paracetamol level",
+        "Discharge with advice",
+        "Check LFTs and INR",
+        "Give activated charcoal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Even though 8g (133 mg/kg) is below the standard threshold for a healthy adult, this patient has risk factors (alcoholism, malnutrition) that deplete glutathione. NICE advises considering treatment at lower doses; therefore, NAC should be started immediately without waiting for levels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "83cafa56880b",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 30-year-old male presents 72 hours after a paracetamol overdose with jaundice and confusion. Bloods: ALT 4000 IU/L, INR 3.5, creatinine 150 µmol/L, pH 7.28. Which single finding indicates he meets criteria for consideration of liver transplantation?",
+      "options": [
+        "INR >3.0",
+        "ALT >3000 IU/L",
+        "Bilirubin >100 µmol/L",
+        "pH <7.3",
+        "Creatinine >200 µmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "The King's College criteria for paracetamol-induced acute liver failure include a pH <7.3 (or INR >4.0 and encephalopathy). This patient's pH <7.3 meets the transplant threshold, whereas the other thresholds are not met or are not part of the criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "87a547201eb5",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 45-year-old woman presents with nausea after taking paracetamol 1g every 4 hours for 3 days for tooth pain. She has no other symptoms. Which laboratory finding is most concerning for hepatotoxicity in this staggered overdose?",
+      "options": [
+        "Paracetamol level 8 mg/L",
+        "INR 1.1",
+        "Creatinine 70 µmol/L",
+        "ALT 55 IU/L",
+        "Bilirubin 18 µmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a staggered overdose, NICE recommends acetylcysteine if paracetamol >10 mg/L OR ALT >50 IU/L. An ALT of 55 IU/L indicates possible hepatotoxicity and requires treatment, whereas the other values are within normal limits.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "7997f1bb2460",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 22-year-old presents 8 hours after ingesting 50g of paracetamol. He is comatose, hypotensive (BP 80/40), and has a metabolic acidosis (pH 7.15, lactate 12 mmol/L). Which complication best explains this presentation?",
+      "options": [
+        "Cerebral oedema",
+        "Acute liver failure",
+        "Severe pancreatitis",
+        "Metabolic acidosis due to mitochondrial dysfunction",
+        "Hypovolaemic shock"
+      ],
+      "answerIndex": 3,
+      "explanation": "Massive paracetamol overdose causes mitochondrial toxicity leading to early lactic acidosis, often before liver failure develops. This patient's profound lactic acidosis with coma and hypotension is characteristic of this complication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "79a1fbe47a0a",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 40-year-old with a known paracetamol overdose 4 days ago now has fluctuating confusion and irregular breathing. Which clinical sign is most suggestive of hepatic encephalopathy?",
+      "options": [
+        "Asterixis",
+        "Jaundice",
+        "Spider naevi",
+        "Fetor hepaticus",
+        "Palmar erythema"
+      ],
+      "answerIndex": 0,
+      "explanation": "Asterixis (flapping tremor) is a classic sign of hepatic encephalopathy. While jaundice and fetor hepaticus may be present, asterixis is the most specific clinical sign of encephalopathy in this context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6de367c43f70",
+      "topic": "Paracetamol Overdose",
+      "slug": "paracetamol-overdose",
+      "system": "Emergency Medicine",
+      "subSystem": "Toxicology",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 35-year-old is found unconscious with empty paracetamol blister packs and a whiskey bottle. Arterial blood gas shows pH 7.20, PCO2 30 mmHg, PO2 100 mmHg, HCO3 12 mmol/L, lactate 8 mmol/L. Which co-ingestion is most likely contributing to this metabolic acidosis?",
+      "options": [
+        "Opioid",
+        "Methanol",
+        "Tricyclic antidepressant",
+        "Antidiabetic",
+        "Benzodiazepine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Methanol poisoning causes metabolic acidosis with increased anion gap and osmolar gap, and can present with coma and visual disturbances. Ethanol co-ingestion may delay presentation, but the severe acidosis out of proportion to the paracetamol level suggests methanol.",
+      "difficulty": "medium"
+    }
+  ]
+}

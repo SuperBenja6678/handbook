@@ -1,0 +1,513 @@
+{
+  "topic": "Cystic Fibrosis — Overview",
+  "slug": "cystic-fibrosis-overview",
+  "system": "Respiratory",
+  "subSystem": "Suppurative",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:35:34Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "960cc7b6d0c1",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 6-month-old infant presents with a persistent cough, recurrent lower respiratory tract infections, and failure to thrive. On examination, the skin tastes salty when kissed. What is the single most likely diagnosis?",
+      "options": [
+        "Primary ciliary dyskinesia",
+        "Pertussis",
+        "Cystic fibrosis",
+        "Asthma",
+        "Gastro-oesophageal reflux disease"
+      ],
+      "answerIndex": 2,
+      "explanation": "The triad of recurrent respiratory infections, failure to thrive, and salty-tasting skin is classic for cystic fibrosis. The salty skin is due to elevated sweat chloride, a pathognomonic feature not seen in other options.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b70290e8c832",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 25-year-old woman with known cystic fibrosis (on dornase alfa and azithromycin maintenance) presents with a one-week history of increased cough and sputum production, but no fever. Spirometry shows a 15% decline in FEV1 from baseline. CT thorax reveals mucus plugging without new infiltrates. What is the single most likely diagnosis?",
+      "options": [
+        "Bronchiectasis unrelated to cystic fibrosis",
+        "Acute pulmonary exacerbation of cystic fibrosis",
+        "Allergic bronchopulmonary aspergillosis",
+        "Non-tuberculous mycobacterial infection",
+        "Viral upper respiratory tract infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of increased sputum, cough, and decline in FEV1 in a CF patient without fever or new infiltrates is typical of an acute pulmonary exacerbation. ABPA usually has eosinophilia and high IgE; NTM has chronic indolent infection; viral URTI is less likely to cause such a significant FEV1 drop.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "09c54486aa60",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 19-year-old man with cystic fibrosis presents with sudden onset of left-sided sharp chest pain, shortness of breath, and tracheal deviation to the right. He is tachycardic and hypotensive. What is the single most likely diagnosis?",
+      "options": [
+        "Tension pneumothorax",
+        "Pulmonary embolism",
+        "Acute exacerbation of cystic fibrosis",
+        "Simple pneumothorax",
+        "Pericarditis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tracheal deviation, hypotension, and tachycardia in a CF patient with sudden pleuritic pain point to a tension pneumothorax requiring immediate decompression. Simple pneumothorax would not cause tracheal deviation or hypotension.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "13e22201c0b7",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman with cystic fibrosis presents with worsening cough, wheeze, and fever despite intravenous antibiotics. Blood tests show eosinophilia (0.8×10⁹/L) and total IgE 2000 IU/mL. CT thorax demonstrates central bronchiectasis with mucus plugging and tree-in-bud opacities. What is the single most likely diagnosis?",
+      "options": [
+        "Non-tuberculous mycobacterial infection",
+        "Invasive pulmonary aspergillosis",
+        "Allergic bronchopulmonary aspergillosis",
+        "Tuberculosis",
+        "Acute exacerbation of cystic fibrosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of eosinophilia, markedly elevated IgE, and central bronchiectasis with mucus plugging in a CF patient is diagnostic of ABPA. Exacerbations typically lack eosinophilia and high IgE; TB and NTM have different radiographic patterns; invasive aspergillosis occurs in immunocompromised patients.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3b5874c27e45",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 45-year-old man with chronic sinusitis since childhood, nasal polyps, and azoospermia presents with a mild cough producing clear sputum. His brother had recurrent pneumonia as a child. Sweat chloride testing is borderline at 50 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Young's syndrome",
+        "Cystic fibrosis (atypical presentation)",
+        "Allergic fungal rhinosinusitis",
+        "Chronic rhinosinusitis with nasal polyps",
+        "Primary ciliary dyskinesia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The combination of chronic sinusitis, nasal polyps, obstructive azoospermia, and borderline sweat chloride suggests CFTR dysfunction. This is an atypical presentation of cystic fibrosis (often with residual CFTR function), which can be missed in adulthood. Primary ciliary dyskinesia usually presents with situs inversus or female infertility, not azoospermia; Young's syndrome is no longer a recognized entity but was historically associated with sinusitis and azoospermia; now considered part of the CF spectrum.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec406564e00a",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 2-year-old girl presents with recurrent chest infections, steatorrhoea, and failure to thrive. Her mother has no known family history of cystic fibrosis. Which single investigation is most appropriate to confirm the diagnosis?",
+      "options": [
+        "Sweat chloride test",
+        "Faecal elastase concentration",
+        "CFTR genetic analysis",
+        "Nasal potential difference measurement",
+        "Sputum culture and sensitivity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sweat chloride >60 mmol/L is diagnostic for cystic fibrosis. Genetic analysis is confirmatory but not first-line; faecal elastase diagnoses pancreatic insufficiency but not CF; nasal potential difference is a specialised test rarely used upfront; sputum culture may show pathogens but does not confirm CF.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a6fcc9722353",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 40-year-old man with mild asthma and chronic rhinosinusitis undergoes sweat chloride testing due to suspicion of cystic fibrosis. The result is 45 mmol/L. Which statement best interprets this result?",
+      "options": [
+        "Diagnostic – CF is confirmed",
+        "Borderline – further testing is required",
+        "Normal – CF is excluded",
+        "Equivocal – suggests CF carrier status",
+        "Invalid – test must be repeated"
+      ],
+      "answerIndex": 1,
+      "explanation": "A sweat chloride of 45 mmol/L is borderline (30-59 mmol/L per UK guidelines). The patient requires repeat sweat testing and/or CFTR genetic analysis to clarify the diagnosis. Values <30 mmol/L are normal; ≥60 mmol/L are diagnostic. Carrier status cannot be inferred from sweat chloride alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4fcceef9df3c",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 16-year-old with known cystic fibrosis presents with worsening cough, increased sputum volume, fever, and dyspnoea. Chest X-ray shows new infiltrates. Which single investigation is most appropriate to guide antibiotic selection?",
+      "options": [
+        "C-reactive protein level",
+        "Bronchoalveolar lavage",
+        "Aspergillus serology",
+        "Sputum culture and sensitivity",
+        "Blood culture"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sputum culture and sensitivity identifies the causative pathogen and its antibiotic susceptibilities, directly guiding targeted therapy. Blood culture is often negative in CF exacerbations; BAL is more invasive and reserved for treatment failure; Aspergillus serology is for ABPA; CRP is nonspecific and does not guide antibiotic choice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47ff276d2691",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 25-year-old woman with cystic fibrosis experiences sudden onset of severe right-sided chest pain, dyspnoea, and subcutaneous emphysema. Which investigation is most appropriate to confirm the suspected diagnosis?",
+      "options": [
+        "Thoracic ultrasound",
+        "Bronchoscopy",
+        "CT pulmonary angiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "answerIndex": 4,
+      "explanation": "The presentation suggests pneumothorax, common in CF. Chest X-ray is rapid, widely available, and sensitive for pneumothorax. CT may be more sensitive but exposes the patient to radiation and is not first-line; ultrasound can detect pneumothorax but is operator-dependent; bronchoscopy and ECG are not diagnostic for pneumothorax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2d5e785186f4",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man with infertility is found to have bilateral absence of the vas deferens. He has no respiratory symptoms. Which single investigation should be offered to diagnose cystic fibrosis?",
+      "options": [
+        "Faecal elastase",
+        "Sweat chloride test",
+        "Semen analysis",
+        "Nasal potential difference",
+        "CFTR genetic sequencing"
+      ],
+      "answerIndex": 4,
+      "explanation": "Congenital bilateral absence of the vas deferens (CBAVD) is often caused by mild CFTR mutations. Sweat chloride may be normal, so CFTR genetic sequencing is the diagnostic test of choice. Nasal potential difference is specialised and not first-line; faecal elastase and semen analysis do not confirm CF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "33891ac94a54",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 20-year-old woman is newly diagnosed with cystic fibrosis (mild lung disease, FEV1>80%). She has a chronic cough and sputum production. What is the most appropriate first-line therapy to improve mucus clearance?",
+      "options": [
+        "Oral azithromycin",
+        "Inhaled tobramycin",
+        "Nebulized dornase alfa",
+        "Ivacaftor",
+        "Nebulized hypertonic saline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dornase alfa is recommended by NICE for all patients with cystic fibrosis to reduce sputum viscosity and improve lung function. Hypertonic saline is an alternative but is generally considered second-line. Ivacaftor is only for specific mutations. Inhaled tobramycin targets Pseudomonas, not mucus clearance. Azithromycin has anti-inflammatory effects but is not first-line for mucus clearance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1d84855eb22e",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 25-year-old man with cystic fibrosis (FEV1 60%) has chronic Pseudomonas aeruginosa infection and frequent exacerbations despite maintenance therapy with dornase alfa. What is the most appropriate addition to his regimen to reduce exacerbations?",
+      "options": [
+        "Nebulized hypertonic saline",
+        "Oral ciprofloxacin",
+        "Ivacaftor",
+        "Oral azithromycin",
+        "Inhaled colistimethate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Azithromycin has anti-inflammatory and immunomodulatory properties proven to reduce exacerbations in CF patients with chronic Pseudomonas. Inhaled colistimethate is used for chronic suppression but not primarily for exacerbation reduction. Oral ciprofloxacin is for eradication of first isolation, not chronic suppression. Hypertonic saline is a mucolytic, not anti-inflammatory. Ivacaftor is mutation-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2e88e8abb803",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 22-year-old woman with cystic fibrosis presents with worsening cough, purulent sputum, and a 15% drop in FEV1. Temperature 38.5°C. What is the most appropriate initial empiric antibiotic therapy?",
+      "options": [
+        "IV tazocin",
+        "IV meropenem monotherapy",
+        "IV ceftazidime + IV tobramycin",
+        "Oral amoxicillin",
+        "IV ceftazidime monotherapy"
+      ],
+      "answerIndex": 2,
+      "explanation": "For acute pulmonary exacerbations in CF, dual antipseudomonal therapy is recommended, typically a beta-lactam (e.g., ceftazidime) plus an aminoglycoside (e.g., tobramycin) to cover Pseudomonas. Monotherapy with ceftazidime or meropenem is insufficient. Oral amoxicillin does not cover Pseudomonas. IV tazocin may be used but is not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2604d7f51ff",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old man with cystic fibrosis develops massive haemoptysis (approximately 300 mL). He is haemodynamically stable but actively bleeding. What is the most appropriate management?",
+      "options": [
+        "Bronchoscopy",
+        "Bronchial artery embolisation",
+        "Lung transplant",
+        "CT thorax",
+        "IV tranexamic acid"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bronchial artery embolisation (BAE) is the first-line treatment for massive haemoptysis in CF, as it can identify and occlude the bleeding vessel. Bronchoscopy may be used for lateralisation but is not therapeutic. CT thorax is diagnostic but not therapeutic. Tranexamic acid is not standard. Lung transplant is reserved for end-stage disease.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "8856f3b1bdb2",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old woman with cystic fibrosis (F508del homozygous) is stable on dornase alfa and azithromycin with FEV1 50%. She asks about new treatments. What is the most appropriate therapy to consider?",
+      "options": [
+        "Hypertonic saline",
+        "Lumacaftor/ivacaftor",
+        "Inhaled colistimethate",
+        "Elexacaftor/tezacaftor/ivacaftor",
+        "Tezacaftor/ivacaftor"
+      ],
+      "answerIndex": 3,
+      "explanation": "For F508del homozygotes, elexacaftor/tezacaftor/ivacaftor (triple therapy) is now the recommended CFTR modulator based on superior efficacy over lumacaftor/ivacaftor and tezacaftor/ivacaftor. Inhaled colistimethate and hypertonic saline are not new modulators and do not address the underlying defect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1b9417ed32c0",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to clinic with a 2-year history of recurrent chest infections, chronic productive cough, and clubbing. She has chronic sinusitis. She mentions that a cousin has cystic fibrosis. Examination shows crackles at lung bases and she is underweight. What is the most appropriate immediate next step?",
+      "options": [
+        "Start oral antibiotics for presumed exacerbation",
+        "Refer to respiratory physiotherapy",
+        "Arrange genetic testing for CFTR mutations",
+        "Request chest X-ray",
+        "Perform sweat chloride test"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sweat chloride test is the first-line diagnostic test for cystic fibrosis in a patient with strong clinical suspicion and family history. Genetic testing is confirmatory but not the immediate step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cb7cfc018768",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 30-year-old man with cystic fibrosis (homozygous F508del) attends his annual review. He is clinically stable with no new symptoms. His previous FEV1 was 75% predicted. What is the most important immediate assessment at this visit?",
+      "options": [
+        "Measure body mass index",
+        "Check liver function tests",
+        "Measure FEV1 with spirometry",
+        "Perform chest X-ray",
+        "Send sputum for culture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Annual spirometry is essential to monitor progression of lung disease in CF. FEV1 is the key parameter; sputum culture is also important but is not the most immediate step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7afc46ac3d60",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old man with cystic fibrosis presents to the emergency department with a 3-day history of worsening cough, purulent sputum, and shortness of breath. On examination, temperature 38.5°C, RR 28, HR 110, oxygen saturations 90% on room air. Crackles throughout both lungs. What is the most appropriate immediate next step?",
+      "options": [
+        "Obtain blood cultures",
+        "Perform chest X-ray",
+        "Refer for non-invasive ventilation",
+        "Start intravenous antibiotics (e.g., piperacillin-tazobactam)",
+        "Administer high-flow oxygen"
+      ],
+      "answerIndex": 4,
+      "explanation": "The patient is hypoxic; immediate oxygen therapy is required per the ABC approach. Antibiotics and cultures are important but should follow stabilization of oxygenation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "1a7d5dec626e",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 19-year-old man with cystic fibrosis develops sudden onset right-sided pleuritic chest pain and breathlessness while playing football. He was brought to ED by ambulance on 15 L oxygen via mask, saturations 98%. Trachea is central, breath sounds reduced on the right. What is the most appropriate immediate next step?",
+      "options": [
+        "Needle decompression",
+        "Insert chest drain",
+        "CT thorax",
+        "Perform chest X-ray",
+        "Obtain blood cultures"
+      ],
+      "answerIndex": 3,
+      "explanation": "A chest X-ray is needed to confirm pneumothorax and assess its size before any intervention. Needle decompression is only for tension pneumothorax, which is not suspected here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7386a95f7747",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 32-year-old woman with cystic fibrosis attends clinic with a 2-week history of polyuria and polydipsia. Her weight has dropped 2 kg. Random capillary glucose is 13.2 mmol/L. No ketonuria. What is the most appropriate immediate next step?",
+      "options": [
+        "Refer to dietitian for dietary advice",
+        "Start subcutaneous insulin",
+        "Check HbA1c",
+        "Arrange an oral glucose tolerance test",
+        "Start metformin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Symptomatic hyperglycaemia with random glucose >11.1 mmol/L confirms cystic fibrosis-related diabetes. Insulin should be started immediately per UK guidelines. OGTT and HbA1c may delay treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4311ecb14dac",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 18-year-old man with cystic fibrosis (FEV1 45% predicted) presents to the emergency department with sudden-onset right-sided pleuritic chest pain and shortness of breath. On examination, he is tachypnoeic with tracheal deviation to the left. Which single finding on examination is the most immediate can't-miss red flag in this patient?",
+      "options": [
+        "Hyperresonance on percussion on the right",
+        "Tracheal deviation to the left",
+        "Absent breath sounds on the right",
+        "Distended neck veins",
+        "Pulsus paradoxus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tracheal deviation to the left indicates a tension pneumothorax on the right, a life-threatening emergency requiring immediate decompression. While absent breath sounds and hyperresonance are typical of pneumothorax, tracheal deviation signals tension physiology. Distended neck veins may occur but are less specific; pulsus paradoxus is more associated with cardiac tamponade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "315dcf8a41e7",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 25-year-old woman with cystic fibrosis is admitted for an infective exacerbation. She has a chronic cough with yellow sputum and develops haemoptysis. The nursing staff note the cumulative volume over 24 hours. Which cumulative volume threshold defines massive haemoptysis and is a can't-miss red flag for urgent bronchial artery embolisation?",
+      "options": [
+        "500 mL in 24 hours",
+        "400 mL in 24 hours",
+        "200 mL in 24 hours",
+        "100 mL in 24 hours",
+        "300 mL in 24 hours"
+      ],
+      "answerIndex": 4,
+      "explanation": "Massive haemoptysis is conventionally defined as >300 mL in 24 hours (or >100 mL in a single episode). This threshold triggers urgent bronchial artery embolisation. Lower volumes may be monitored but do not constitute the same emergency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "69c4ca32c96d",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 28-year-old man with cystic fibrosis (FEV1 30% predicted) presents with a three-day history of increased cough, purulent sputum, and worsening dyspnoea. On examination, he has a raised jugular venous pressure, bilateral ankle oedema, and hepatomegaly. His oxygen saturation is 88% on air. Which single clinical finding in this patient is the most concerning red flag for acute cor pulmonale?",
+      "options": [
+        "FEV1 <35% predicted",
+        "Raised jugular venous pressure",
+        "Hepatomegaly",
+        "Bilateral ankle oedema",
+        "Oxygen saturation <90%"
+      ],
+      "answerIndex": 1,
+      "explanation": "A raised jugular venous pressure is the earliest clinical sign of right ventricular failure (cor pulmonale) due to severe pulmonary hypertension in cystic fibrosis exacerbations. Ankle oedema and hepatomegaly are later signs. Oxygen saturation <90% indicates hypoxaemia but is not specific for cor pulmonale. FEV1 is a chronic marker, not an acute red flag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "47b230908eb9",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman with cystic fibrosis attends her annual review. Her FEV1 has declined from 45% to 35% predicted over the past year, and she now requires supplemental oxygen during exercise. Which single spirometric threshold is a can't-miss red flag indicating the need for referral to a lung transplant centre?",
+      "options": [
+        "FVC <50% predicted",
+        "FEV1 <40% predicted",
+        "FEF25-75 <50% predicted",
+        "FEV1 <30% predicted",
+        "FEV1/FVC ratio <0.7"
+      ],
+      "answerIndex": 3,
+      "explanation": "An FEV1 <30% predicted is a widely accepted threshold for lung transplant referral in cystic fibrosis, as it is associated with a 2-year survival <50%. FEV1 <40% may prompt discussion but is not the definitive red flag. FVC, FEF25-75, and FEV1/FVC ratio are less predictive of transplant need.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dea1a44c9a8a",
+      "topic": "Cystic Fibrosis — Overview",
+      "slug": "cystic-fibrosis-overview",
+      "system": "Respiratory",
+      "subSystem": "Suppurative",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 15-year-old girl with cystic fibrosis (FEV1 60% predicted) presents with a one-week history of increased wheeze, cough, and sputum production not responding to her usual antibiotics. She is afebrile. Which single finding would raise suspicion for allergic bronchopulmonary aspergillosis (ABPA) rather than a simple infective exacerbation?",
+      "options": [
+        "Eosinophil count of 1.5 × 10^9/L",
+        "Aspergillus fumigatus in sputum culture",
+        "Total IgE level of 800 IU/mL",
+        "Positive skin prick test to Aspergillus",
+        "New bilateral infiltrates on chest X-ray"
+      ],
+      "answerIndex": 2,
+      "explanation": "A total IgE level >500 IU/mL (often >1000) is a key diagnostic criterion for ABPA. Sputum culture and skin prick test may be positive in colonisation alone. Eosinophilia is less sensitive, and new infiltrates can occur in infection. A raised total IgE is the most specific red flag for ABPA in this context.",
+      "difficulty": "hard"
+    }
+  ]
+}

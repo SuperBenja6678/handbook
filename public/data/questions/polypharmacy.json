@@ -1,0 +1,513 @@
+{
+  "topic": "Polypharmacy",
+  "slug": "polypharmacy",
+  "system": "Geriatrics",
+  "subSystem": "Pharmacy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:32:42Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "d7315bdea888",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 82-year-old woman with hypertension, type 2 diabetes, and osteoarthritis is brought to ED with confusion and urinary incontinence for 2 days. Her medications: amlodipine, metformin, ibuprofen, and recently started oxybutynin for overactive bladder. She is dehydrated, pulse 110 bpm, BP 110/70 mmHg drop to 90/60 on standing. MMSE cannot be performed due to agitation. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection",
+        "Delirium due to anticholinergic burden",
+        "Acute stroke",
+        "Hyperosmolar hyperglycaemic state",
+        "Hypoglycaemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Oxybutynin is strongly anticholinergic; in elderly it can trigger delirium, especially with dehydration and co-prescribed drugs. The temporal relationship and absence of focal signs/fever/hypoglycaemia support this over the other options.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6c2d619d1f3f",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 78-year-old man with Parkinson's disease, hypertension, and BPH presents after a fall at home. He takes co-careldopa, ramipril, and tamsulosin. Lying BP 145/85, standing after 1 min 100/70, with dizziness. What is the single most likely diagnosis?",
+      "options": [
+        "Drug-induced parkinsonism",
+        "Parkinson's disease progression (postural instability)",
+        "Carotid sinus hypersensitivity",
+        "Cerebellar ataxia",
+        "Orthostatic hypotension due to tamsulosin"
+      ],
+      "answerIndex": 4,
+      "explanation": "Tamsulosin (alpha-1 blocker) commonly causes orthostatic hypotension, especially combined with ramipril. The acute onset after starting tamsulosin and absence of chronic progression point to drug effect rather than PD progression.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f6e25b8d13ab",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 80-year-old woman with depression, hypertension, and atrial fibrillation presents to GP with lethargy, confusion, and a fall. Medications: sertraline 50mg, bendroflumethiazide 2.5mg, and warfarin. Bloods: Na 122 mmol/L, K 3.3, normal glucose, normal renal function, INR 2.0. What is the single most likely diagnosis?",
+      "options": [
+        "Adrenal insufficiency",
+        "SSRI-induced hyponatraemia",
+        "Warfarin overdose",
+        "Diuretic-induced hypokalaemia",
+        "Urinary tract infection"
+      ],
+      "answerIndex": 1,
+      "explanation": "SSRIs are a common cause of SIADH in the elderly, leading to hyponatraemia. The combination with a thiazide diuretic increases risk. Warfarin overdose would cause elevated INR and bleeding, not hyponatraemia. Adrenal insufficiency typically presents with hyperkalaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1f7073624fb6",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with COPD, osteoporosis, and stage 3 CKD presents with severe epigastric pain and melaena. He takes prednisolone 5mg daily, alendronic acid, and omeprazole. OGD shows a gastric ulcer. What is the single most likely aetiology of the ulcer?",
+      "options": [
+        "Gastric malignancy",
+        "Bisphosphonate-induced gastric ulcer",
+        "H. pylori infection",
+        "NSAID-induced gastric ulcer",
+        "Corticosteroid-induced gastric ulcer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Oral bisphosphonates like alendronic acid can cause oesophageal and gastric ulcers, especially with poor compliance with dosing instructions. Low-dose prednisolone has a lower risk of peptic ulcer. No NSAIDs are prescribed, making that unlikely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "4c730ae4ba9e",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "An 85-year-old woman with heart failure, atrial fibrillation, and diabetes presents with nausea, vomiting, blurred vision, and confusion. Medications: furosemide 40mg, digoxin 125mcg, warfarin, and metformin. Heart rate 45 bpm irregular. What is the single most likely diagnosis?",
+      "options": [
+        "Lactic acidosis",
+        "Digoxin toxicity",
+        "Hypoglycaemia",
+        "Warfarin overdose",
+        "Uraemia"
+      ],
+      "answerIndex": 1,
+      "explanation": "The triad of nausea/vomiting, visual disturbance (yellow-green halos), and bradycardia is classic for digoxin toxicity. Renal impairment and hypokalaemia from furosemide increase risk. Warfarin overdose causes bleeding, not these symptoms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "238cf8a48879",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 75-year-old woman with hypertension, diabetes, and osteoarthritis complains of dizziness on standing. She is on ramipril, amlodipine, metformin, gliclazide, and ibuprofen. Which single investigation is most appropriate to diagnose postural hypotension?",
+      "options": [
+        "Head-up tilt table test",
+        "Supine and standing blood pressure measurement",
+        "24-hour ambulatory blood pressure monitoring",
+        "ECG",
+        "Carotid sinus massage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Supine and standing BP is the standard diagnostic test for postural hypotension, defined as a drop in systolic BP ≥20 mmHg within 3 minutes of standing. Other options are not first-line for this initial diagnosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2152702e49e9",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man on atorvastatin, gemfibrozil, and warfarin presents with severe thigh pain and dark urine. Which single investigation is most appropriate to confirm the diagnosis of rhabdomyolysis?",
+      "options": [
+        "Urine myoglobin",
+        "Muscle biopsy",
+        "Serum myoglobin",
+        "Serum creatine kinase",
+        "Electromyography"
+      ],
+      "answerIndex": 3,
+      "explanation": "Serum creatine kinase (CK) is the gold standard for diagnosing rhabdomyolysis, typically elevated >5 times the upper limit of normal. Urine myoglobin is supportive but less sensitive, and the other options are not first-line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e24a813b2039",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "An 85-year-old woman on hydrochlorothiazide 12.5 mg, citalopram 20 mg, and omeprazole 20 mg is admitted with confusion. Na 124 mmol/L, K 3.2, Urea 6.5, Creat 80. She appears euvolaemic. Which single investigation is most useful to confirm drug-induced SIADH?",
+      "options": [
+        "Serum osmolality",
+        "Short synacthen test",
+        "Urine sodium",
+        "Urine osmolality",
+        "Thyroid function"
+      ],
+      "answerIndex": 3,
+      "explanation": "In SIADH, urine osmolality is inappropriately high (>100 mOsm/kg) despite low serum osmolality. This is the key diagnostic criterion; serum osmolality confirms hypotonicity but does not differentiate SIADH from other causes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "238b65f4b9e8",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 79-year-old man on digoxin 125 mcg, furosemide 40 mg, and spironolactone 25 mg presents with nausea, vomiting, and bradycardia (44 bpm). Which single investigation is most appropriate to confirm digoxin toxicity?",
+      "options": [
+        "ECG",
+        "Serum potassium",
+        "Serum digoxin level",
+        "Serum magnesium",
+        "Transthoracic echocardiogram"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serum digoxin level is the definitive test; levels >2.0 nmol/L are toxic. ECG may show characteristic changes (e.g., scooped ST depression) but cannot confirm toxicity alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f8d8a40a6e0a",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "An 80-year-old woman with bipolar disorder on lithium 400 mg bd and hydrochlorothiazide 12.5 mg od presents with lethargy, polydipsia, and polyuria. Serum calcium 2.92 mmol/L, phosphate 0.7 mmol/L, albumin 40 g/L. Which single investigation is most appropriate to confirm lithium-induced hyperparathyroidism?",
+      "options": [
+        "Parathyroid ultrasound",
+        "24-hour urinary calcium",
+        "Serum vitamin D",
+        "Intact PTH",
+        "Bone density scan"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lithium-induced hyperparathyroidism typically shows elevated PTH despite hypercalcemia. Measuring intact PTH confirms the diagnosis. Urinary calcium is often normal or elevated but not diagnostic; other options help exclude alternative causes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f3551542243b",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 85-year-old frail man, independent, is diagnosed with hypertension (Clinic BP 165/90). He takes no regular medications. According to NICE guidelines, what is the most appropriate first-line antihypertensive?",
+      "options": [
+        "Bisoprolol 5 mg once daily",
+        "Bendroflumethiazide 2.5 mg once daily",
+        "Amlodipine 5 mg once daily",
+        "Ramipril 2.5 mg once daily",
+        "Doxazosin 4 mg once daily"
+      ],
+      "answerIndex": 2,
+      "explanation": "NICE guideline NG136 recommends a calcium channel blocker (e.g., amlodipine) as first-line for patients aged ≥55 or of African-Caribbean family origin. Bendroflumethiazide is a thiazide diuretic but not the thiazide-like (indapamide) preferred in this age group; ACE inhibitors are first-line only for those <55.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "0d9c33f96ff6",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 78-year-old woman with type 2 diabetes, hypertension, and stable angina is admitted with hypoglycaemia (capillary glucose 2.8 mmol/L). Her medications: metformin 1g BD, glipizide 5mg OD, lisinopril 10mg OD, bisoprolol 5mg OD, and aspirin 75mg OD. Which drug is most likely responsible and should be dose-reduced?",
+      "options": [
+        "Aspirin",
+        "Metformin",
+        "Bisoprolol",
+        "Lisinopril",
+        "Glipizide"
+      ],
+      "answerIndex": 4,
+      "explanation": "Sulfonylureas (glipizide) are a common cause of hypoglycaemia in older adults due to prolonged insulin secretion. Metformin rarely causes hypoglycaemia alone; lisinopril, bisoprolol, and aspirin are not typically associated with hypoglycaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7a54decf8a2b",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 88-year-old man with heart failure, COPD, and CKD stage 3a (eGFR 45) is admitted with community-acquired pneumonia. Medications: furosemide 40mg OD, ramipril 5mg OD, tiotropium, and salbutamol PRN. Admission creatinine rises from 95 to 160 µmol/L (AKI stage 1). Which drug should be temporarily withheld?",
+      "options": [
+        "Paracetamol",
+        "Ramipril",
+        "Tiotropium",
+        "Furosemide",
+        "Salbutamol"
+      ],
+      "answerIndex": 1,
+      "explanation": "NICE recommends temporarily stopping ACE inhibitors (ramipril) and ARBs during acute illness causing AKI, as they impair renal autoregulation. Diuretics may be continued if fluid overload is present, but the primary culprit in this scenario is the ACEi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "259413f8a18e",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "An 80-year-old woman with osteoporosis (alendronate 70mg weekly) and atrial fibrillation (warfarin) presents with severe dyspepsia and acid reflux. Which medication is most likely causing her symptoms and should be considered for discontinuation?",
+      "options": [
+        "Calcium and vitamin D supplements",
+        "Alendronate",
+        "Acetaminophen (paracetamol)",
+        "Warfarin",
+        "Omeprazole"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bisphosphonates (alendronate) are known to cause oesophageal irritation, especially if not taken correctly. Warfarin, calcium/vitamin D, and occasional paracetamol are not typical causes of dyspepsia. Omeprazole would be a treatment, not a cause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "56b130458154",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 92-year-old nursing home resident with Alzheimer's dementia on donepezil 10mg OD develops recurrent falls and is found to have sinus bradycardia (HR 42 bpm) on ECG. He is otherwise stable. Which of the following is the most appropriate step?",
+      "options": [
+        "Add a beta-blocker such as bisoprolol",
+        "Start digoxin for rate control",
+        "Reduce donepezil to 5 mg daily",
+        "Stop donepezil and consider memantine",
+        "Insert a permanent pacemaker"
+      ],
+      "answerIndex": 3,
+      "explanation": "Donepezil, an acetylcholinesterase inhibitor, can cause bradycardia and increase fall risk, especially in very elderly patients. Stopping it and considering memantine (which lacks cholinergic effects) is preferred. Beta-blockers and digoxin would worsen bradycardia; pacing is excessive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1e4155552560",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 82-year-old woman presents to the emergency department after a fall. She is on 8 regular medications including ramipril, bendroflumethiazide, omeprazole, and zopiclone. Observations are stable. What is the single most appropriate next step?",
+      "options": [
+        "Refer to the falls team",
+        "Start oral vitamin D and calcium",
+        "Complete a structured medication review",
+        "Measure lying and standing blood pressure",
+        "Order a CT head"
+      ],
+      "answerIndex": 2,
+      "explanation": "Polypharmacy is a major risk factor for falls. The most important immediate step is to identify potentially inappropriate medications through a structured review (e.g., STOPP/START criteria). Other options address specific issues but are not the priority until the medication list is assessed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f9a59911a3e9",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 75-year-old man with hypertension and type 2 diabetes reports dizziness on standing. His medications include amlodipine, ramipril, and metformin. His sitting blood pressure is 142/86 mmHg. What is the most appropriate next action?",
+      "options": [
+        "Refer for a 24-hour ambulatory blood pressure monitor",
+        "Check lying and standing blood pressure",
+        "Order a random blood glucose",
+        "Stop amlodipine",
+        "Increase ramipril dose"
+      ],
+      "answerIndex": 1,
+      "explanation": "Postural hypotension is suspected; measuring lying and standing BP confirms the diagnosis before any medication changes. Stopping a drug without evidence is premature. Ambulatory monitoring is not indicated acutely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dba54797f856",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 88-year-old woman on warfarin for atrial fibrillation presents with melaena and a heart rate of 108 bpm. She also takes naproxen for osteoarthritis. Her blood pressure is 100/65 mmHg. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check a full blood count and INR",
+        "Give intravenous vitamin K",
+        "Start a proton pump inhibitor",
+        "Stop warfarin and naproxen",
+        "Urgently crossmatch 4 units of blood"
+      ],
+      "answerIndex": 0,
+      "explanation": "In an acute upper GI bleed, rapid assessment of INR and haemoglobin guides management. Vitamin K or stopping warfarin may follow but are not the first action. Resuscitation with fluids takes priority over blood products initially, but blood tests are immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8c07726165e8",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 79-year-old man with type 2 diabetes and chronic kidney disease stage 3b is admitted with hypoglycaemia. He takes gliclazide 80 mg twice daily and metformin. Capillary glucose is 3.0 mmol/L. He is asymptomatic now after 50 mL of 50% dextrose. What is the most appropriate next step?",
+      "options": [
+        "Check renal function and eGFR",
+        "Stop gliclazide completely",
+        "Refer to the diabetes specialist nurse",
+        "Start insulin therapy",
+        "Advise to omit gliclazide permanently"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hypoglycaemia in a patient on a long-acting sulfonylurea with CKD suggests drug accumulation. Renal function must be checked to decide on dose reduction or stopping. Permanently stopping without assessment may lead to hyperglycaemia. Specialist referral is not urgent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5f18ca25b0e2",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 90-year-old woman with advanced dementia in a care home has been on risperidone 1 mg daily for 6 weeks for behavioural symptoms. The staff report she has developed a new tremor and rigidity. What is the single most appropriate next step?",
+      "options": [
+        "Switch to olanzapine",
+        "Add procyclidine for extrapyramidal side effects",
+        "Request an urgent neurology opinion",
+        "Increase risperidone to control symptoms",
+        "Wear and gradually stop risperidone"
+      ],
+      "answerIndex": 4,
+      "explanation": "Extrapyramidal symptoms are likely due to risperidone. NICE recommends gradual withdrawal of antipsychotics in dementia. Adding an anticholinergic may help but is not the first step; stopping the offending agent is priority. Neurology referral is not immediately necessary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "03fff1f936e5",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 82-year-old woman with depression and migraine is brought to ED with confusion, fever (39.0°C), and twitching. She is on citalopram 20 mg daily, sumatriptan as needed, and recently started tramadol for knee pain. Observations: HR 110, BP 145/90, RR 22, SpO2 97% on air. Which of the following is the most likely life-threatening complication?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Benign drug reaction",
+        "Anticholinergic delirium",
+        "Malignant hyperthermia",
+        "Serotonin syndrome"
+      ],
+      "answerIndex": 4,
+      "explanation": "The combination of serotonergic drugs (SSRI, triptan, tramadol) with hyperthermia, clonus, and confusion points to serotonin syndrome. NMS involves muscle rigidity and bradyreflexia, not clonus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a35fb44de7e3",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 80-year-old man with chronic AF and heart failure on digoxin 125 mcg daily, amiodarone 200 mg daily, and furosemide 40 mg BD presents with nausea, vomiting, and visual disturbances. His pulse is 38 bpm irregular. Which of the following ECG findings is an urgent red flag for digoxin toxicity?",
+      "options": [
+        "First-degree AV block",
+        "Mobitz type II second-degree AV block",
+        "Atrial fibrillation with slow ventricular response",
+        "Atrial flutter with 2:1 block",
+        "Premature ventricular contractions"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mobitz type II block indicates advanced conduction disease and risk of complete heart block, requiring immediate cessation of digoxin. First-degree block is common and less urgent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "1ea3a57fde28",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 85-year-old woman with bipolar disorder on lithium 400 mg nocte, lisinopril 10 mg daily, and bendroflumethiazide 2.5 mg daily presents with vomiting, diarrhoea, and confusion. Her family notes she has been unsteady on her feet. Which single clinical finding is most suggestive of lithium neurotoxicity?",
+      "options": [
+        "Polyuria",
+        "Bradycardia",
+        "Hyporeflexia",
+        "Hypothermia",
+        "Coarse tremor and ataxia"
+      ],
+      "answerIndex": 4,
+      "explanation": "Lithium toxicity presents with coarse tremor, ataxia, and dysarthria. Polyuria is common but not a danger sign. Hyporeflexia is more typical of hypermagnesemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d29f8f279869",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 78-year-old man on multiple medications including oxybutynin for overactive bladder, amitriptyline for neuropathy, and chlorphenamine for hay fever is brought in by his daughter with acute confusion, hot flushed skin, and a temperature of 38.5°C. His pupils are dilated. Which of the following diagnoses must be urgently considered?",
+      "options": [
+        "Anticholinergic delirium",
+        "Urinary tract infection",
+        "Neuroleptic malignant syndrome",
+        "Drug-induced liver injury",
+        "Serotonin syndrome"
+      ],
+      "answerIndex": 0,
+      "explanation": "The triad of confusion, hyperthermia, and dry flushed skin with dilated pupils in a patient on multiple anticholinergics is classic for anticholinergic toxidrome, which can be life-threatening. Serotonin syndrome would have clonus, not dilated pupils.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "402377154db2",
+      "topic": "Polypharmacy",
+      "slug": "polypharmacy",
+      "system": "Geriatrics",
+      "subSystem": "Pharmacy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 76-year-old man with Parkinson's disease on co-careldopa 125 mg QDS, ropinirole 2 mg TDS, and selegiline 10 mg daily is admitted after a hip fracture. On day 3 he becomes rigid, confused, and febrile (38.8°C). Which laboratory finding is most critical for confirming the suspected diagnosis?",
+      "options": [
+        "Elevated creatine kinase >1000 U/L",
+        "Elevated white cell count",
+        "Elevated liver transaminases",
+        "Low serum sodium",
+        "Elevated C-reactive protein"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neuroleptic malignant syndrome or akinetic crisis can occur with dopaminergic withdrawal; elevated CK is hallmark. Other markers are non-specific.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "topic": "DOACs — Overview",
+  "slug": "doacs-—-overview",
+  "system": "Clinical Pharmacology",
+  "subSystem": "Drug monograph",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:29:37Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 24,
+  "questions": [
+    {
+      "id": "77c1fd619f8b",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 68-year-old man with atrial fibrillation on apixaban 5 mg twice daily presents with two weeks of easy bruising and bleeding gums following a course of clarithromycin for a chest infection. His coagulation screen shows a prolonged APTT but normal PT and platelet count. What is the single most likely diagnosis?",
+      "options": [
+        "Immune thrombocytopenia",
+        "Liver cirrhosis",
+        "Apixaban toxicity due to drug interaction with clarithromycin",
+        "Vitamin K deficiency",
+        "Haemophilia A"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clarithromycin inhibits CYP3A4 and P-gp, increasing apixaban levels. Prolonged APTT without thrombocytopenia or PT prolongation is consistent with direct factor Xa inhibitor effect, ruling out ITP (low platelets), vitamin K deficiency (prolonged PT), liver disease (global factor deficiency), and haemophilia (congenital, no drug trigger).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "20c21d0b6faa",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 72-year-old woman with atrial fibrillation on rivaroxaban 20 mg daily presents with sudden headache, vomiting, and left-sided weakness. CT head reveals a large right basal ganglia haemorrhage. Her blood pressure is 140/85 mmHg. What is the single most likely diagnosis?",
+      "options": [
+        "Hypertensive intracerebral haemorrhage",
+        "Rivaroxaban-associated intracerebral haemorrhage",
+        "Ruptured berry aneurysm",
+        "Ischaemic stroke with haemorrhagic transformation",
+        "Cerebral amyloid angiopathy"
+      ],
+      "answerIndex": 1,
+      "explanation": "While hypertension is a common cause, the BP is well-controlled and the patient is on a DOAC, making anticoagulant-associated haemorrhage most likely. Amyloid angiopathy tends to be lobar, not basal ganglia; ischaemic stroke with transformation would show infarct on imaging; aneurysmal SAH presents with subarachnoid blood, not basal ganglia bleed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3597c8fb9a2f",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 65-year-old woman with chronic kidney disease stage 4 (eGFR 22 mL/min) on dabigatran 110 mg twice daily for atrial fibrillation presents with melaena and a drop in haemoglobin from 130 to 90 g/L. Upper endoscopy shows no ulcer or lesion. What is the single most likely diagnosis?",
+      "options": [
+        "Diverticular bleeding",
+        "Oesophageal varices",
+        "Dabigatran accumulation due to renal impairment",
+        "Peptic ulcer disease",
+        "Gastric antral vascular ectasia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dabigatran is predominantly renally cleared; with eGFR <30, its half-life prolongs significantly, increasing bleeding risk. Negative endoscopy makes structural causes unlikely. Diverticular bleeding typically seen in left colon and not always identified on OGD; but in this setting, drug accumulation is the most probable given the direct relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8140c18fc9ff",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 55-year-old man with a history of pulmonary embolism on edoxaban 60 mg daily presents with haemoptysis for three days. He is a non-smoker. CT chest shows no mass or cavity, and bronchoscopy is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Tuberculosis",
+        "Bronchiectasis",
+        "Edoxaban-associated pulmonary haemorrhage",
+        "Lung cancer",
+        "Recurrent pulmonary embolism"
+      ],
+      "answerIndex": 2,
+      "explanation": "In the absence of structural abnormalities on imaging and bronchoscopy, haemoptysis in a patient on an anticoagulant is most likely due to the anticoagulant itself. Lung cancer and TB would show lesions; bronchiectasis would show bronchial wall thickening; recurrent PE would present with dyspnoea and is unlikely without imaging evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec35dee84c51",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with atrial fibrillation on apixaban 5 mg twice daily for six months presents with acute onset aphasia and right arm weakness. CT head is normal, and CT angiogram shows occlusion of the left middle cerebral artery. What is the single most likely diagnosis?",
+      "options": [
+        "Migraine with aura",
+        "Cardioembolic stroke due to anticoagulation failure",
+        "Hypoglycaemia",
+        "Transient ischaemic attack",
+        "Haemorrhagic stroke"
+      ],
+      "answerIndex": 1,
+      "explanation": "CT negative for blood and angiogram-proven occlusion confirm ischaemic stroke. Despite DOAC therapy, thromboembolism can still occur (failure rate ~1-2%/year). TIA would resolve within 24 hours; haemorrhagic stroke would show blood; hypoglycaemia gives focal signs rarely without glucose disturbance; migraine aura is atypical at this age and without headache.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "132c1d8ea9ce",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man with chronic kidney disease (eGFR 25 mL/min/1.73m²) and atrial fibrillation is being considered for a DOAC. Which investigation is most essential to guide DOAC selection and dosing?",
+      "options": [
+        "24-hour urine creatinine clearance",
+        "Creatinine clearance (Cockcroft-Gault)",
+        "eGFR (CKD-EPI)",
+        "Serum creatinine",
+        "Urea and electrolytes"
+      ],
+      "answerIndex": 1,
+      "explanation": "DOAC dosing (especially apixaban and dabigatran) is based on creatinine clearance calculated by the Cockcroft-Gault formula, which estimates kidney function more accurately for drug dosing than eGFR or serum creatinine alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "21a8543d5baa",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 72-year-old woman on rivaroxaban 20 mg once daily for atrial fibrillation presents with a suspected ischaemic stroke. Which investigation is most appropriate to determine if the patient's rivaroxaban level is therapeutic?",
+      "options": [
+        "Thrombin time (TT)",
+        "Prothrombin time (PT)",
+        "Fibrinogen level",
+        "Activated partial thromboplastin time (aPTT)",
+        "Anti-Xa assay"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rivaroxaban is a direct factor Xa inhibitor; the anti-Xa assay (calibrated for rivaroxaban) provides a reliable measure of drug concentration. PT is less reliable, aPTT is insensitive, and TT is for dabigatran.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "65e1d002f938",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man on dabigatran 150 mg twice daily develops acute upper GI bleeding. Coagulation screen: PT 13 s, aPTT 45 s (normal 30–40 s), TT >120 s (normal <20 s). Which interpretation is correct?",
+      "options": [
+        "The results are within normal limits for a patient on dabigatran",
+        "The prolonged aPTT and TT indicate dabigatran effect, and PT is not affected",
+        "The prolonged TT indicates dabigatran effect; aPTT is unreliable",
+        "The results suggest factor VIII deficiency",
+        "The results suggest vitamin K deficiency"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thrombin time (TT) is exquisitely sensitive to dabigatran and is nearly always >120 s in the presence of therapeutic concentrations. The aPTT can be prolonged but is not as sensitive or specific; PT is largely unaffected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b8e64ca5ea00",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 55-year-old woman on apixaban 5 mg twice daily for atrial fibrillation has a routine pre-operative coagulation screen: PT 12 s, aPTT 34 s, TT 18 s. Which of the following is correct?",
+      "options": [
+        "The patient is at high risk of stroke",
+        "Normal coagulation tests do not exclude therapeutic anticoagulation",
+        "The drug is not present",
+        "The patient should be switched to warfarin",
+        "The dose is subtherapeutic"
+      ],
+      "answerIndex": 1,
+      "explanation": "DOACs at therapeutic doses may not significantly prolong PT or aPTT; normal coagulation tests do not rule out the presence of a therapeutic drug effect. Specific assays (e.g., anti-Xa) are needed for quantification.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "edc930e0af52",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 60-year-old man with a history of alcohol excess and possible cirrhosis is being considered for apixaban for atrial fibrillation. Which is the single most appropriate method to assess hepatic function for apixaban use?",
+      "options": [
+        "ALP and GGT",
+        "Serum albumin",
+        "Child-Pugh score",
+        "Prothrombin time",
+        "Transient elastography (FibroScan)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Apixaban is contraindicated in severe hepatic impairment (Child-Pugh classes B and C) associated with coagulopathy. The Child-Pugh score (including bilirubin, albumin, PT, ascites, encephalopathy) is the standard tool to assess hepatic impairment for drug dosing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "d528ba8b1aef",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 72-year-old woman with atrial fibrillation has a creatinine clearance (Cockcroft-Gault) of 18 mL/min. Which one of the following anticoagulants is contraindicated?",
+      "options": [
+        "Warfarin",
+        "Edoxaban",
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran"
+      ],
+      "answerIndex": 4,
+      "explanation": "Dabigatran is predominantly renally cleared and is contraindicated when CrCl <30 mL/min for atrial fibrillation. The other DOACs can be used with dose reduction, and warfarin is an alternative.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ae57b8beb4eb",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman (16 weeks gestation) presents with a proximal DVT. She has no other comorbidities. Which anticoagulant is most appropriate?",
+      "options": [
+        "Dabigatran",
+        "Enoxaparin",
+        "Rivaroxaban",
+        "Apixaban",
+        "Edoxaban"
+      ],
+      "answerIndex": 1,
+      "explanation": "DOACs are contraindicated in pregnancy due to risk of fetal harm. Low molecular weight heparin (enoxaparin) is the standard of care for VTE in pregnancy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "95bbb26788f8",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 65-year-old man with a mechanical mitral valve and atrial fibrillation requires long-term anticoagulation. Which agent is most appropriate?",
+      "options": [
+        "Dabigatran",
+        "Rivaroxaban",
+        "Edoxaban",
+        "Apixaban",
+        "Warfarin"
+      ],
+      "answerIndex": 4,
+      "explanation": "All DOACs are contraindicated in patients with mechanical heart valves due to increased thrombotic risk (especially dabigatran, from the RE-ALIGN trial). Warfarin remains the only option.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "59cddda1b357",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 70-year-old man with atrial fibrillation and Child-Pugh B cirrhosis requires anticoagulation. Which DOAC is contraindicated?",
+      "options": [
+        "Apixaban",
+        "Edoxaban",
+        "Dabigatran",
+        "Warfarin",
+        "Rivaroxaban"
+      ],
+      "answerIndex": 4,
+      "explanation": "Rivaroxaban is contraindicated in patients with moderate (Child-Pugh B) or severe hepatic impairment due to increased bleeding risk. Other DOACs have less evidence but are used with caution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bfe7b432ec0f",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 72-year-old woman with newly diagnosed paroxysmal atrial fibrillation has a CHA2DS2-VASc score of 3. Her creatinine clearance is 45 ml/min. She has no history of bleeding. What is the most appropriate immediate next action?",
+      "options": [
+        "Refer to cardiology for rhythm control",
+        "Arrange a transthoracic echocardiogram",
+        "Check liver function tests",
+        "Prescribe apixaban 5 mg twice daily",
+        "Calculate HAS-BLED score"
+      ],
+      "answerIndex": 4,
+      "explanation": "NICE recommends assessing bleeding risk (e.g., HAS-BLED) before starting anticoagulation. Prescribing apixaban without first assessing bleeding risk is premature. The other options are not the immediate priority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ab424bbf2f98",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 68-year-old man on rivaroxaban 20 mg once daily for atrial fibrillation presents with haematemesis and melaena. His heart rate is 110 bpm and blood pressure is 90/60 mmHg. What is the most appropriate immediate next action?",
+      "options": [
+        "Stop rivaroxaban",
+        "Cross-match blood for transfusion",
+        "Administer prothrombin complex concentrate",
+        "Start intravenous fluids",
+        "Call the gastrointestinal team"
+      ],
+      "answerIndex": 3,
+      "explanation": "In an unstable GI bleed, the immediate priority is resuscitation with intravenous fluids. Stopping the drug is important but secondary. PCC is not first-line without massive transfusion or specific reversal criteria. Cross-matching and calling the team follow initial stabilization.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "053b55c3d0ae",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 55-year-old woman with atrial fibrillation on apixaban 5 mg twice daily is scheduled for elective knee replacement surgery in 2 days. Her last dose was 12 hours ago. Her renal function is unknown. What is the most appropriate immediate next action?",
+      "options": [
+        "Measure serum creatinine and estimate CrCl",
+        "Administer tranexamic acid",
+        "Stop apixaban now",
+        "Give vitamin K",
+        "Measure apixaban anti-Xa level"
+      ],
+      "answerIndex": 0,
+      "explanation": "The timing of stopping apixaban before surgery depends on renal function and bleeding risk. The immediate step is to assess renal function to decide whether to stop 24 or 48 hours preoperatively. Stopping empirically without renal assessment is less precise. Vitamin K is for warfarin reversal, not DOACs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7107332644b8",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman with a confirmed acute pulmonary embolism is started on apixaban 10 mg twice daily. On day 2, she becomes hypoxic (SpO2 88% on 15 L O2) and hypotensive (BP 85/50 mmHg). What is the most appropriate immediate next action?",
+      "options": [
+        "Escalate to intensive care",
+        "Perform a bedside echocardiogram",
+        "Repeat CT pulmonary angiogram",
+        "Switch apixaban to unfractionated heparin",
+        "Administer intravenous alteplase"
+      ],
+      "answerIndex": 4,
+      "explanation": "This patient has massive PE with haemodynamic instability, mandating immediate thrombolysis. Escalation and echocardiography can occur concurrently but do not replace the urgent need for reperfusion. Switching to heparin is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "9c46185e1794",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "An 85-year-old man with atrial fibrillation has a creatinine clearance of 15 ml/min and a HAS-BLED score of 3. He has no other contraindications. What is the most appropriate immediate next action?",
+      "options": [
+        "Prescribe dose-adjusted warfarin",
+        "Avoid all anticoagulation",
+        "Refer to a nephrologist",
+        "Prescribe edoxaban 30 mg once daily",
+        "Check international normalised ratio"
+      ],
+      "answerIndex": 0,
+      "explanation": "DOACs (including edoxaban) are contraindicated when CrCl <15 ml/min. Warfarin is the recommended anticoagulant in severe renal impairment. A nephrology referral is not immediately needed. Avoiding anticoagulation disregards the stroke risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "f1bdce64c639",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman on apixaban 5 mg BD for atrial fibrillation presents after a mechanical fall. She has a small scalp laceration and no focal neurology. GCS 15. CT head shows a 4 mm acute subdural haematoma with no midline shift. Which single finding most strongly indicates the need for urgent reversal and neurosurgical review?",
+      "options": [
+        "Acute subdural haematoma on CT",
+        "INR 1.5",
+        "History of hypercholesterolaemia",
+        "Platelet count 180 ×10⁹/L",
+        "Age 68"
+      ],
+      "answerIndex": 0,
+      "explanation": "Any intracranial haemorrhage on anticoagulation requires immediate discussion with neurosurgery and consideration of reversal. The INR is unreliable for apixaban, and age or other comorbidities do not change the urgency. The subdural haematoma itself is the red flag that crosses the escalation threshold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "f9558de200fa",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "An 82-year-old man with atrial fibrillation on dabigatran 150 mg BD presents with mild bruising. Routine bloods show creatinine 150 µmol/L (baseline 80 µmol/L), eGFR 38 mL/min. He is otherwise asymptomatic. Which finding most clearly indicates an elevated risk of major bleeding?",
+      "options": [
+        "Bruising on examination",
+        "PT 16 seconds (normal 12-15)",
+        "Creatinine of 150 µmol/L (acute kidney injury)",
+        "History of hypertension",
+        "Age >80 years"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dabigatran is predominantly renally cleared; acute kidney injury significantly increases drug levels and bleeding risk. While age is a risk factor, the acute rise in creatinine is the most specific and actionable red flag. PT and bruising are non-specific.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "331eef711f0b",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 63-year-old woman on rivaroxaban 20 mg OD for a previous pulmonary embolism is prescribed a 7-day course of clarithromycin for a respiratory infection. She presents 3 days later with haemoptysis and epistaxis. Which single finding in her medication list is the most important contributor to her bleeding?",
+      "options": [
+        "Over-the-counter paracetamol",
+        "Aspirin (not listed, but as a distractor - actually omit)",
+        "Clarithromycin",
+        "Atorvastatin 20 mg OD",
+        "Rivaroxaban 20 mg OD"
+      ],
+      "answerIndex": 2,
+      "explanation": "Clarithromycin is a strong inhibitor of CYP3A4 and P-glycoprotein, significantly increasing rivaroxaban plasma concentrations and bleeding risk. The interaction is a well-known red flag requiring immediate dose adjustment or avoidance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6fdf3f2aa5b1",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 32-year-old woman on rivaroxaban 20 mg OD for recurrent DVT presents with a positive home pregnancy test. She is asymptomatic, with no bleeding or pain. Which single finding represents an absolute contraindication to continuing this medication?",
+      "options": [
+        "Prothrombin time 14 seconds",
+        "Haemoglobin 110 g/L",
+        "Gestational age 6 weeks",
+        "Positive pregnancy test",
+        "eGFR 90 mL/min/1.73m²"
+      ],
+      "answerIndex": 3,
+      "explanation": "DOACs are contraindicated in pregnancy due to teratogenicity and lack of safety data. A positive pregnancy test is the definitive red flag, requiring immediate switch to LMWH. The other findings do not contraindicate rivaroxaban.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e05c065bcc9d",
+      "topic": "DOACs — Overview",
+      "slug": "doacs-—-overview",
+      "system": "Clinical Pharmacology",
+      "subSystem": "Drug monograph",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man on apixaban 5 mg BD for atrial fibrillation presents with acute dyspnoea and chest pain. CT pulmonary angiogram confirms a segmental pulmonary embolism. Which finding most strongly indicates treatment failure of the DOAC?",
+      "options": [
+        "D-dimer >5000 ng/mL",
+        "Anti-Xa activity 100 ng/mL (therapeutic range ~100-300)",
+        "CTPA-confirmed pulmonary embolism",
+        "INR 1.6",
+        "eGFR 70 mL/min/1.73m²"
+      ],
+      "answerIndex": 2,
+      "explanation": "The presence of a new thromboembolic event while on therapeutic anticoagulation is the defining red flag for treatment failure. Anti-Xa level is in the purported therapeutic range, excluding underdosing; other results are non-specific. This finding warrants investigation for adherence, malignancy, or switching to an alternative agent.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "topic": "von Willebrand Disease",
+  "slug": "von-willebrand-disease",
+  "system": "Haematology",
+  "subSystem": "Coagulopathy",
+  "acuity": "CHRONIC",
+  "generatedAt": "2026-07-16T10:34:29Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "5992d5e82e0a",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 22-year-old woman presents with heavy menstrual bleeding since menarche and easy bruising. She has no family history of bleeding disorders. Examination is unremarkable. Investigations: Hb 110 g/L, platelets 280×10^9/L, PT 12 sec (normal), APTT 42 sec (normal 25-35), bleeding time 8 min (normal 2-7). What is the single most likely diagnosis?",
+      "options": [
+        "von Willebrand disease",
+        "Acquired von Willebrand disease",
+        "Haemophilia B",
+        "Haemophilia A",
+        "Platelet storage pool defect"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prolonged APTT and bleeding time with normal platelet count and no family history is classic for mild-to-moderate von Willebrand disease. Haemophilia A only prolongs APTT; platelet disorders do not prolong APTT.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5b65fc134613",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 6-year-old child presents to the Emergency Department with persistent epistaxis and bleeding from a small mouth laceration. There is no prior history of surgery. Examination shows large bruises on the trunk. Investigations: Hb 90 g/L, platelets 250×10^9/L, PT 13 sec (normal), APTT 55 sec, bleeding time >15 min. What is the single most likely diagnosis?",
+      "options": [
+        "Severe haemophilia A",
+        "Severe haemophilia B",
+        "Severe von Willebrand disease (type 3)",
+        "Glanzmann's thrombasthenia",
+        "Bernard-Soulier syndrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "The combination of mucosal bleeding, prolonged APTT and bleeding time points to severe von Willebrand disease. Haemophilia A and B have normal bleeding time; Bernard-Soulier and Glanzmann have normal APTT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b790092aea9d",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 30-year-old man presents with spontaneous haemarthrosis of the left knee. He has no history of epistaxis or easy bruising. Family history: his mother had heavy periods. Investigations: Hb 140 g/L, platelets 230×10^9/L, PT 12 sec, APTT 45 sec, von Willebrand antigen 1.0 IU/mL (normal 0.5-1.5), von Willebrand activity (ristocetin cofactor) 0.95 IU/mL (normal 0.5-1.5), factor VIII activity 0.15 IU/mL (normal 0.5-1.5). What is the single most likely diagnosis?",
+      "options": [
+        "von Willebrand disease type 2N",
+        "von Willebrand disease type 2A",
+        "Haemophilia B carrier",
+        "Haemophilia A carrier",
+        "von Willebrand disease type 1"
+      ],
+      "answerIndex": 0,
+      "explanation": "Normal vWF antigen and activity but low factor VIII indicates a binding defect: type 2N (Normandy) von Willebrand disease. A haemophilia A carrier would have factor VIII around 0.5 IU/mL, not as low, and no joint bleeds in males.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3737669220a4",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 26-year-old primigravida at 39 weeks gestation undergoes emergency caesarean section for failure to progress. Within 6 hours she has heavy vaginal bleeding. She has a known history of epistaxis and easy bruising but never had bleeding challenges. Her pre-delivery platelets were normal, APTT 37 sec (normal 25-35), PT normal. What is the single most likely diagnosis?",
+      "options": [
+        "von Willebrand disease",
+        "Acquired von Willebrand disease",
+        "Placental abruption",
+        "Disseminated intravascular coagulation",
+        "Uterine atony"
+      ],
+      "answerIndex": 0,
+      "explanation": "A known history of mucocutaneous bleeding and prolonged APTT before delivery points to underlying von Willebrand disease, which although vWF rises in pregnancy, may still be insufficient. DIC and abruption would have other features; uterine atony is a clinical diagnosis not associated with pre-existing coagulopathy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "29dd2e6e7894",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "recognise",
+      "stem": "A 19-year-old man presents with prolonged bleeding after a tooth extraction. He reports easy bruising all his life but no joint bleeds. He had a previous tonsillectomy without excess bleeding. Examination: no petechiae. Investigations: Hb 130 g/L, platelets 260×10^9/L, PT 11 sec, APTT 48 sec, bleeding time 9 min, factor VIII activity 0.35 IU/mL, von Willebrand antigen 0.3 IU/mL. What is the single most likely diagnosis?",
+      "options": [
+        "von Willebrand disease",
+        "Factor XI deficiency",
+        "Lupus anticoagulant",
+        "Vitamin K deficiency",
+        "Haemophilia A"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mucosal bleeding with prolonged APTT and bleeding time, low factor VIII and vWF antigen is diagnostic of von Willebrand disease. Haemophilia A would have normal bleeding time and normal vWF antigen. Factor XI deficiency does not prolong bleeding time. Lupus anticoagulant is associated with thrombosis, not bleeding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "0f022016c93a",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 22-year-old woman presents with heavy menstrual bleeding since menarche and easy bruising. Her platelet count is 350 × 10⁹/L, PT 12 s, aPTT 42 s (prolonged), and fibrinogen 3.5 g/L. Which test is most appropriate to confirm the diagnosis of von Willebrand disease?",
+      "options": [
+        "Factor VIII activity",
+        "Bleeding time",
+        "vWF antigen level",
+        "vWF activity (ristocetin cofactor)",
+        "PFA-100 closure time"
+      ],
+      "answerIndex": 3,
+      "explanation": "vWF activity (ristocetin cofactor) is the functional test that directly measures the ability of vWF to aggregate platelets. A low result confirms von Willebrand disease. vWF antigen may be normal in type 2 (qualitative) defects, and factor VIII activity is supportive but not diagnostic. Bleeding time and PFA-100 are non-specific and not diagnostic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2bf3d507dc51",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 35-year-old man with known mild von Willebrand disease is undergoing routine pre-operative assessment for an inguinal hernia repair. His vWF antigen is 30 IU/dL and vWF activity is 20 IU/dL. Which further test best distinguishes whether he has a quantitative (type 1) or qualitative (type 2) defect?",
+      "options": [
+        "vWF multimer analysis",
+        "vWF activity/antigen ratio",
+        "Genetic testing for VWF mutation",
+        "Platelet function assay",
+        "Ristocetin-induced platelet aggregation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The vWF activity/antigen ratio is the key discriminator: a ratio <0.7 indicates a qualitative defect (type 2), while a ratio ≥0.7 suggests a quantitative deficiency (type 1). Multimer analysis is confirmatory but not the first-line test for distinguishing these types. RIPA is used for specific subtypes (e.g., type 2B).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "9e779f378681",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 30-year-old man presents with acute painful swelling of the right knee after minor trauma. There is no prior bleeding history. Coagulation screen: aPTT 56 s (prolonged), PT 13 s, platelet count 280 × 10⁹/L. A mixing study fully corrects the aPTT. Factor VIII activity is 25 IU/dL, and vWF antigen is 20 IU/dL. What is the most likely diagnosis?",
+      "options": [
+        "Type 2A von Willebrand disease",
+        "Type 1 von Willebrand disease",
+        "Acquired von Willebrand syndrome",
+        "Combined factor V and VIII deficiency",
+        "Haemophilia A (factor VIII deficiency)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The mixing study corrects, confirming a factor deficiency. Low factor VIII with low vWF antigen is classic for type 1 vWD, as vWF stabilises factor VIII. Haemophilia A would have normal vWF antigen. Type 2A typically has a disproportionately low activity relative to antigen. Acquired vWD is associated with lymphoproliferative or autoimmune disorders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "70a835649893",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "A 28-year-old primigravida with known type 1 von Willebrand disease is seen at 36 weeks gestation. Which laboratory parameter typically increases to near-normal levels in the third trimester and is most useful for assessing bleeding risk at delivery?",
+      "options": [
+        "Bleeding time",
+        "Fibrinogen level",
+        "vWF antigen level",
+        "Platelet count",
+        "Factor VIII activity"
+      ],
+      "answerIndex": 4,
+      "explanation": "Factor VIII activity rises markedly in pregnancy due to oestrogen, often normalising in type 1 vWD, and is used to guide peripartum management. vWF activity also rises but may not fully normalise; factor VIII is a simpler marker of haemostatic competence. Bleeding time and platelet count are not specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "d4a7ed40e6ec",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "diagnose",
+      "stem": "An 8-year-old boy presents with recurrent epistaxis and a family history of bleeding in his mother and maternal grandfather. His platelet count is normal, aPTT is prolonged, and PT is normal. Laboratory results show: vWF antigen 35 IU/dL, vWF activity 28 IU/dL, factor VIII activity 45 IU/dL. What is the most likely diagnosis?",
+      "options": [
+        "Carrier state for haemophilia A",
+        "Type 1 von Willebrand disease",
+        "Type 2B von Willebrand disease",
+        "Vitamin K deficiency",
+        "Haemophilia A"
+      ],
+      "answerIndex": 1,
+      "explanation": "The parallel reduction in vWF antigen, activity, and factor VIII is characteristic of a quantitative deficiency (type 1 vWD). Type 2B would have a disproportionately low activity/antigen ratio and may show thrombocytopenia. Haemophilia A would have normal vWF antigen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ea9c43e1c738",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 25-year-old female with known mild type 1 von Willebrand disease (VWF levels ~30 IU/dL) presents with menorrhagia. She is not on any contraception. What is the most appropriate first-line treatment?",
+      "options": [
+        "Tranexamic acid",
+        "Desmopressin (DDAVP)",
+        "Von Willebrand factor concentrate",
+        "Cryoprecipitate",
+        "Combined oral contraceptive pill"
+      ],
+      "answerIndex": 0,
+      "explanation": "For mild type 1 vWD with menorrhagia, NICE recommends tranexamic acid as first-line. Desmopressin is an alternative but not first-line for this indication; OCP is also an option but not first-line. VWF concentrate is reserved for severe bleeding or when others fail.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ebe66365923f",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 35-year-old with known type 1 von Willebrand disease (baseline VWF:RCo 45 IU/dL) requires a simple tooth extraction. What is the most appropriate first-line prophylactic therapy?",
+      "options": [
+        "Platelet transfusion",
+        "Tranexamic acid mouthwash alone",
+        "Desmopressin (DDAVP)",
+        "Von Willebrand factor concentrate",
+        "Cryoprecipitate"
+      ],
+      "answerIndex": 2,
+      "explanation": "For type 1 vWD with VWF >30 IU/dL undergoing minor surgery, desmopressin is first-line as it releases stored VWF. Tranexamic acid is adjunctive, not sole prophylaxis. VWF concentrate is reserved for severe disease or desmopressin non-responders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4b77d273cf67",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 40-year-old with type 3 von Willebrand disease presents with haematemesis from a bleeding peptic ulcer. Which is the most appropriate first-line haemostatic therapy?",
+      "options": [
+        "Recombinant factor VIIa",
+        "Von Willebrand factor concentrate",
+        "Desmopressin (DDAVP)",
+        "Cryoprecipitate",
+        "Platelet transfusion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Type 3 vWD has virtually absent VWF; desmopressin is ineffective. VWF concentrate (e.g. Haemate P) is first-line. Cryoprecipitate is a second-line alternative with higher infection risk. rFVIIa is not indicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33666925ea98",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 60-year-old with type 2B von Willebrand disease develops thrombocytopenia and active bleeding. Which therapy is CONTRAINDICATED?",
+      "options": [
+        "Intravenous von Willebrand factor concentrate",
+        "Platelet transfusion",
+        "Topical thrombin",
+        "Oral tranexamic acid",
+        "Intranasal desmopressin"
+      ],
+      "answerIndex": 4,
+      "explanation": "In type 2B vWD, desmopressin can worsen thrombocytopenia by releasing abnormal VWF that binds platelets, causing aggregation and clearance. VWF concentrate, tranexamic acid, and platelets are safe options.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "51d508bb6285",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "treat",
+      "stem": "A 30-year-old pregnant woman with known mild type 1 von Willebrand disease (VWF:RCo 45 IU/dL at booking) is in labour and requests vaginal delivery. What is the most appropriate intrapartum management to prevent postpartum haemorrhage?",
+      "options": [
+        "No prophylaxis needed",
+        "Prophylactic desmopressin",
+        "Tranexamic acid only",
+        "Prophylactic von Willebrand factor concentrate",
+        "Platelet transfusion"
+      ],
+      "answerIndex": 0,
+      "explanation": "In type 1 vWD, VWF levels rise during pregnancy and often normalise by term. With VWF >50 IU/dL, no prophylaxis is needed. Desmopressin is avoided due to fluid retention risk; VWF concentrate is reserved for low levels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8f7ea58bd942",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 22-year-old woman presents to the emergency department with heavy menstrual bleeding lasting 10 days. She reports easy bruising since childhood and prolonged bleeding after a tooth extraction. Her vital signs are stable, Hb 105 g/L, platelets normal, von Willebrand factor antigen 0.25 IU/mL (low), factor VIII 0.40 IU/mL. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer desmopressin (DDAVP) by intranasal spray",
+        "Refer to haematology for vWF multimer analysis",
+        "Start tranexamic acid 1 g orally three times daily",
+        "Check PFA-100 closure time",
+        "Start the combined oral contraceptive pill"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a patient with mild-to-moderate bleeding (menorrhagia) and low vWF, the first-line treatment is tranexamic acid (antifibrinolytic). Desmopressin is an option but typically reserved for more severe bleeding or planned procedures. Referral and further testing are not immediate. The combined pill may help menorrhagia but is not first-line in this acute setting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c75c0a40d2ef",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 35-year-old man with known type 1 von Willebrand disease (baseline vWF antigen 0.30 IU/mL) attends the dental clinic for extraction of a lower wisdom tooth. He has no previous bleeding complications with minor procedures but is anxious. What is the most appropriate immediate next step?",
+      "options": [
+        "Administer desmopressin (DDAVP) intranasally 1 hour before procedure",
+        "Check vWF activity and factor VIII levels",
+        "Give vWF-containing factor concentrate (e.g., Haemate P) 50 IU/kg",
+        "Start tranexamic acid mouthwash and tablets",
+        "Refer to haematology for a management plan"
+      ],
+      "answerIndex": 0,
+      "explanation": "For minor surgical procedures in patients with type 1 vWD (baseline vWF >0.10 IU/mL), desmopressin is first-line, as it stimulates endogenous vWF release. Factor concentrate is reserved for more severe cases or desmopressin non-responders. Tranexamic acid is an adjunct, not the primary immediate step. Checking levels is reasonable but not the immediate action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "6e5fc6401b16",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 50-year-old woman with known type 3 von Willebrand disease (severely deficient) presents with melaena and haematemesis. She is haemodynamically unstable (BP 85/50 mmHg, HR 120 bpm). What is the most appropriate immediate next step?",
+      "options": [
+        "Request an urgent oesophagogastroduodenoscopy (OGD)",
+        "Start tranexamic acid 1 g intravenously",
+        "Give an intravenous bolus of desmopressin (DDAVP) 0.3 μg/kg",
+        "Administer vWF-containing factor concentrate (e.g., Haemate P) 50 IU/kg intravenously",
+        "Call haematology to discuss management"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a severe (type 3) vWD patient with life-threatening bleeding, immediate haemostasis is required. vWF-containing factor concentrate is the preferred treatment because desmopressin is ineffective in type 3 (no endogenous vWF). Tranexamic acid is an adjunct, not first-line. OGD is needed but after haemostatic support. Discussion with haematology can happen concurrently.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "d3cdd97ab103",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 40-year-old woman with known type 2B von Willebrand disease undergoes elective cholecystectomy. On postoperative day 1, she develops significant bleeding from the surgical wound and has petechiae. Platelet count is 50 × 10⁹/L (preoperative 180). What is the most appropriate immediate next step?",
+      "options": [
+        "Check vWF activity and multimer analysis",
+        "Administer vWF-containing factor concentrate (e.g., Haemate P) 50 IU/kg intravenously",
+        "Give a platelet transfusion",
+        "Administer tranexamic acid 1 g intravenously",
+        "Give desmopressin (DDAVP) intravenously 0.3 μg/kg"
+      ],
+      "answerIndex": 1,
+      "explanation": "In type 2B vWD, desmopressin can worsen thrombocytopenia by releasing abnormal vWF that aggregates platelets, so it is contraindicated. vWF-containing factor concentrate provides normal vWF and corrects both haemostasis and thrombocytopenia. Platelet transfusion may be considered but is not first-line. Tranexamic acid is an adjunct only.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "77d6693c72d3",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "next_step",
+      "stem": "A 28-year-old primigravida with known mild type 1 von Willebrand disease (baseline vWF antigen 0.35 IU/mL) presents to the antenatal clinic at 39 weeks gestation for review. She is planning a vaginal delivery. She has had no excessive bleeding during pregnancy. What is the most appropriate immediate next step?",
+      "options": [
+        "Check vWF antigen and activity levels now",
+        "Arrange for caesarean section to avoid bleeding risk",
+        "Refer to a haemophilia comprehensive care centre",
+        "Administer desmopressin (DDAVP) intranasally prophylactically",
+        "Start tranexamic acid 1 g orally prophylactically"
+      ],
+      "answerIndex": 0,
+      "explanation": "In pregnant women with vWD, vWF levels often rise in the third trimester. It is essential to check levels near term to guide peripartum management (e.g., if vWF >0.50 IU/mL, no prophylaxis needed). Desmopressin or factor concentrate may be required if levels are low, but only after checking. Caesarean is not routinely indicated. Referral is important but checking levels first is more immediate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "90414dec6cd1",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 22-year-old woman presents with menorrhagia and easy bruising since menarche. She has no family history of bleeding disorders. On examination, there are no abnormalities other than scattered bruises. Which single finding would raise immediate concern for severe von Willebrand disease (type 3)?",
+      "options": [
+        "Epistaxis requiring nasal packing",
+        "Prolonged bleeding after dental extraction",
+        "Platelet count of 150 × 10⁹/L",
+        "Haemarthrosis of the knee",
+        "Normal von Willebrand factor activity"
+      ],
+      "answerIndex": 3,
+      "explanation": "Haemarthrosis (joint bleeding) is a hallmark of severe coagulation factor deficiencies (e.g., haemophilia) but can also occur in type 3 von Willebrand disease due to very low factor VIII. Its presence in a young woman with bleeding symptoms is a red flag for severe disease, whereas epistaxis, dental bleeding, and normal platelet count are typical of mild VWD and do not signal imminent danger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4ca104a6ea59",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 68-year-old man with no prior bleeding history presents with new-onset easy bruising, epistaxis, and prolonged bleeding from shaving cuts. He has a history of aortic stenosis awaiting valve replacement. Which clinical finding should raise suspicion for acquired von Willebrand syndrome rather than congenital VWD?",
+      "options": [
+        "Aortic stenosis murmur on cardiac auscultation",
+        "Haemarthrosis of the left ankle",
+        "Splenomegaly on abdominal palpation",
+        "Petechiae in a lower extremity distribution",
+        "Positive family history of bleeding disorders"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acquired von Willebrand syndrome (AVWS) is commonly associated with aortic stenosis (Heyde syndrome) and presents with mucocutaneous bleeding in older patients without family history. The presence of an aortic stenosis murmur is the key discriminative finding that points to AVWS rather than congenital VWD, where a positive family history would be expected. Splenomegaly and petechiae are not specific.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "0eb6794a109f",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 24-year-old man with known type 3 von Willebrand disease is brought to the emergency department after falling down stairs. He is drowsy (GCS 13), has a dilated right pupil, and is vomiting. Which finding on investigation is most immediately life-threatening?",
+      "options": [
+        "CT head shows a large acute subdural haematoma with midline shift",
+        "Subconjunctival haemorrhage",
+        "Skull X-ray shows a non-displaced linear fracture",
+        "CT head shows a small intraparenchymal contusion",
+        "Bilateral periorbital haematoma"
+      ],
+      "answerIndex": 0,
+      "explanation": "In a patient with severe VWD, head trauma can cause intracranial haemorrhage. The combination of drowsiness, unilateral dilated pupil (suggesting uncal herniation), and vomiting is a neurosurgical emergency. A large subdural haematoma with midline shift is the most life-threatening finding, requiring immediate intervention. Periorbital haematoma (raccoon eyes) and subconjunctival haemorrhage are external signs but not immediately critical.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4ec75060fe70",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 30-year-old primigravida with type 1 von Willebrand disease delivers a male infant vaginally with vacuum assistance. The baby appears well but has a large cephalhaematoma. On day 1, the baby develops vomiting and seizures. Which finding on cranial ultrasound is the most concerning red flag?",
+      "options": [
+        "Intraventricular haemorrhage (IVH) grade III",
+        "Normal cranial ultrasound",
+        "Small subependymal cyst",
+        "Cephalhaematoma without skull fracture",
+        "Increased periventricular echogenicity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neonates with VWD, especially type 3 (but also potentially severe type 1), are at risk of intracranial haemorrhage during delivery. Postnatal seizures and vomiting are concerning for elevated intracranial pressure. Intraventricular haemorrhage, particularly high-grade (III or IV), is a life-threatening complication that requires urgent neurosurgical and haematological input. Cephalhaematoma alone is common and not an emergency; while grade I IVH may be less critical, grade III warrants immediate escalation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dde4316dd878",
+      "topic": "von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "system": "Haematology",
+      "subSystem": "Coagulopathy",
+      "acuity": "CHRONIC",
+      "angle": "red_flag",
+      "stem": "A 35-year-old woman with type 1 von Willebrand disease has been using desmopressin (DDAVP) nasal spray as prophylaxis for her menstrual bleeding. She now presents to the GP with headache, nausea, and feeling generally unwell. Which laboratory finding would be an immediate red flag to stop DDAVP?",
+      "options": [
+        "Hyponatraemia (serum sodium 124 mmol/L)",
+        "Normocytic anaemia (haemoglobin 105 g/L)",
+        "Prolonged activated partial thromboplastin time (aPTT 42 s)",
+        "Elevated von Willebrand factor activity (250 IU/dL)",
+        "Thrombocytopenia (platelet count 80 × 10⁹/L)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Desmopressin can cause water retention and significant hyponatraemia, especially in women and with repeated use. A sodium of 124 mmol/L is dangerously low and can lead to seizures or coma. This is the most important red flag to stop DDAVP. Thrombocytopenia, elevated VWF, and mild anaemia are not directly caused by DDAVP and are less immediately dangerous; a prolonged aPTT may reflect baseline VWD but is not an acute threat.",
+      "difficulty": "easy"
+    }
+  ]
+}

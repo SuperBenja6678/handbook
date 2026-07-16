@@ -1,0 +1,513 @@
+{
+  "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+  "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+  "system": "Endocrinology",
+  "subSystem": "Diabetes emergency",
+  "acuity": "EMERGENCY",
+  "generatedAt": "2026-07-16T10:30:25Z",
+  "model": "deepseek-v4-flash",
+  "grounded": false,
+  "count": 25,
+  "questions": [
+    {
+      "id": "8bcfa1f164ef",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 72-year-old man with no known medical history presents to the emergency department with a 2-week history of polyuria, polydipsia, and weight loss. He appears dehydrated. Capillary blood glucose is 45 mmol/L, urine ketones are negative, and plasma osmolality is 335 mOsm/kg. His serum sodium is 148 mmol/L. What is the single most likely diagnosis?",
+      "options": [
+        "Urinary tract infection with delirium",
+        "Diabetic ketoacidosis",
+        "Acute ischaemic stroke",
+        "Hyperosmolar hyperglycaemic state",
+        "New-onset type 2 diabetes without crisis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Severe hyperglycaemia with hyperosmolality, absence of significant ketosis, and dehydration in an older adult is classic for HHS. DKA would have positive ketones. Stroke or UTI would not explain the degree of hyperglycaemia.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "03b4794390a8",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 58-year-old woman with type 2 diabetes on metformin is brought to the GP with worsening confusion over 2 days. Her glucose is 35 mmol/L, plasma osmolality 325 mOsm/kg, urine dipstick shows no ketones, and she is mildly dehydrated. She is afebrile. What is the single most likely diagnosis?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hyperosmolar hyperglycaemic state",
+        "Delirium due to urinary tract infection",
+        "Severe hypoglycaemia",
+        "Hypernatraemia from primary polydipsia"
+      ],
+      "answerIndex": 1,
+      "explanation": "HHS typically presents with gradual onset, severe hyperglycaemia, hyperosmolality, and minimal to no ketosis, unlike DKA. Hypoglycaemia would show low glucose. Hypernatraemia from polydipsia would not cause severe hyperglycaemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a62d0474cf96",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "An 80-year-old man with known type 2 diabetes and hypertension is found unconscious at home. Paramedics report a capillary glucose of 50 mmol/L. In the ED, plasma osmolality is 340 mOsm/kg, serum sodium 150 mmol/L, and venous pH 7.38 with bicarbonate 24 mmol/L. Urine ketones are trace. He has a fever of 38.5°C and a productive cough. What is the single most likely diagnosis?",
+      "options": [
+        "Hypernatraemia from dehydration",
+        "Diabetic ketoacidosis",
+        "Septic encephalopathy",
+        "Ischaemic stroke",
+        "Hyperosmolar hyperglycaemic state"
+      ],
+      "answerIndex": 4,
+      "explanation": "Severe hyperglycaemia with hyperosmolality and minimal ketosis in the setting of infection is typical of HHS. DKA would show metabolic acidosis with ketones. While sepsis is a trigger, the primary metabolic derangement is HHS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "3083e35acecb",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 78-year-old woman with type 2 diabetes presents with sudden-onset right-sided weakness and word-finding difficulty. Her glucose is 40 mmol/L, plasma osmolality 330 mOsm/kg, urine ketones negative. CT head is normal. What is the single most likely diagnosis?",
+      "options": [
+        "Hypoglycaemia",
+        "Diabetic ketoacidosis",
+        "Hyperosmolar hyperglycaemic state",
+        "Transient ischaemic attack",
+        "Acute ischaemic stroke"
+      ],
+      "answerIndex": 2,
+      "explanation": "HHS can present with focal neurological deficits that mimic stroke, often reversible with correction of hyperglycaemia. Stroke would not typically cause such extreme hyperglycaemia. CT head is normal, and hypoglycaemia would show low glucose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "12b2783cd591",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "recognise",
+      "stem": "A 75-year-old man with type 2 diabetes on thiazide diuretics presents with confusion and poor oral intake over several days. Glucose is 28 mmol/L, plasma osmolality 345 mOsm/kg, serum sodium 155 mmol/L, and urine ketones negative. What is the single most likely diagnosis?",
+      "options": [
+        "Steroid-induced hyperglycaemia",
+        "Hypernatraemic dehydration from diuretics alone",
+        "Osmotic diuresis from mannitol",
+        "Hyperosmolar hyperglycaemic state",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Thiazides can exacerbate hyperglycaemia and volume depletion, precipitating HHS. The key features are hyperglycaemia, hyperosmolality, and absence of ketones. Diuretic-induced hypernatraemia alone would not cause such severe hyperglycaemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "5f595439ddc6",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 72-year-old man with type 2 diabetes presents with confusion and polyuria. Plasma glucose is 45 mmol/L. Urine dipstick shows no ketones. Which single investigation is most useful to confirm hyperosmolar hyperglycaemic state?",
+      "options": [
+        "Arterial blood gas",
+        "HbA1c",
+        "Serum ketones",
+        "Serum osmolality",
+        "C-peptide"
+      ],
+      "answerIndex": 3,
+      "explanation": "HHS diagnosis requires marked hyperglycaemia with hyperosmolality and absence of significant ketosis. Serum osmolality confirms the hyperosmolar state, which is the defining feature. ABG may show no acidosis, but osmolality is diagnostic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "e801039a5a71",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 58-year-old woman with poorly controlled type 2 diabetes presents with glycosuria and mild confusion. Glucose is 32 mmol/L, serum osmolality 318 mOsm/kg. Which test most reliably differentiates HHS from diabetic ketoacidosis?",
+      "options": [
+        "pH",
+        "Plasma glucose",
+        "Serum ketones (beta-hydroxybutyrate)",
+        "Urine dipstick for ketones",
+        "Lactate"
+      ],
+      "answerIndex": 2,
+      "explanation": "HHS is characterised by minimal ketone production, while DKA has significant ketonaemia. Serum beta-hydroxybutyrate is the most reliable quantitative measure to differentiate the two.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b7a25f847f98",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 65-year-old man is found unconscious. He has type 2 diabetes. Glucose is 55 mmol/L, serum osmolality is 360 mOsm/kg, urine dipstick negative for ketones. Which diagnostic criterion is essential to confirm hyperosmolar hyperglycaemic state?",
+      "options": [
+        "Effective osmolality >320 mOsm/kg",
+        "pH <7.3",
+        "Anion gap >12 mmol/L",
+        "Bicarbonate <15 mmol/L",
+        "Ketones >3 mmol/L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Diagnostic criteria for HHS include glucose >30 mmol/L, effective osmolality >320 mOsm/kg, pH >7.3, and absence of ketones. Hyperosmolality is the hallmark, making elevated effective osmolality essential.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "c2a1b5e486e0",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "A 68-year-old man presents with polyuria and confusion. Laboratory results: plasma glucose 42 mmol/L, serum osmolality 332 mOsm/kg, pH 7.38, bicarbonate 22 mmol/L, ketones 0.2 mmol/L. Which diagnosis is most likely?",
+      "options": [
+        "Hyperosmolar hyperglycaemic state",
+        "Lactic acidosis",
+        "Uraemia",
+        "Hypoglycaemia",
+        "Diabetic ketoacidosis"
+      ],
+      "answerIndex": 0,
+      "explanation": "The combination of marked hyperglycaemia, hyperosmolality, normal pH, and minimal ketones is classic for HHS. DKA would show acidosis and ketones; other options do not fit the biochemical profile.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "355e0d51f977",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "diagnose",
+      "stem": "An 80-year-old man in a nursing home with type 2 diabetes on dapagliflozin presents with confusion and dehydration. Glucose is 26 mmol/L, serum osmolality 316 mOsm/kg. Which investigation is most important to distinguish HHS from euglycaemic DKA?",
+      "options": [
+        "Urine ketones",
+        "Arterial blood gas",
+        "Serum osmolality",
+        "Serum beta-hydroxybutyrate",
+        "Plasma glucose"
+      ],
+      "answerIndex": 3,
+      "explanation": "SGLT2 inhibitors can cause euglycaemic DKA with relatively lower glucose levels. In this scenario, glucose is only 26 mmol/L and osmolality borderline, so checking serum beta-hydroxybutyrate is crucial to rule out DKA, which would show elevated ketones.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "e90f7756e39d",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 55-year-old man with type 2 diabetes presents with polydipsia, polyuria, and confusion. Blood glucose is 42 mmol/L, plasma osmolality 322 mOsm/kg, no ketones. Which is the most appropriate first-line intravenous fluid?",
+      "options": [
+        "0.9% sodium chloride",
+        "No fluid (await insulin)",
+        "0.45% sodium chloride",
+        "Hartmann's solution",
+        "5% dextrose"
+      ],
+      "answerIndex": 0,
+      "explanation": "NICE guidelines recommend 0.9% sodium chloride as first-line fluid for volume replacement in HHS. 0.45% sodium chloride is reserved for hypernatraemia that persists after initial correction, and Hartmann's is not first line.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "f1b88fbbfa87",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 70-year-old woman with type 2 diabetes is admitted with severe dehydration, blood glucose 50 mmol/L, plasma sodium 158 mmol/L, osmolality 360 mOsm/kg. Which is the most appropriate initial fluid replacement?",
+      "options": [
+        "No fluid",
+        "0.45% sodium chloride",
+        "1.8% sodium chloride",
+        "5% dextrose",
+        "0.9% sodium chloride"
+      ],
+      "answerIndex": 4,
+      "explanation": "Despite hypernatraemia, 0.9% sodium chloride is the initial fluid of choice because the primary deficit is volume depletion. Using 0.45% saline too early risks a rapid drop in plasma sodium and cerebral oedema.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c8a3c9314dc1",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "An 80-year-old man with HHS has blood glucose 45 mmol/L, osmolality 330 mOsm/kg, and moderate ketonaemia (beta-hydroxybutyrate 1.8 mmol/L). Which insulin regimen should be started?",
+      "options": [
+        "IV insulin infusion at 0.1 units/kg/hour without bolus",
+        "IV insulin bolus 0.1 units/kg",
+        "No insulin",
+        "IV insulin infusion at 0.05 units/kg/hour without bolus",
+        "Subcutaneous rapid-acting insulin 6 units"
+      ],
+      "answerIndex": 3,
+      "explanation": "In HHS with ketonaemia, a low-dose insulin infusion (0.05 units/kg/hr) is recommended without a bolus, to avoid rapid glucose drop and hypokalaemia. Higher doses or boluses are reserved for DKA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "1a8bda34f642",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "In the management of hyperosmolar hyperglycaemic state, which of the following is CONTRAINDICATED?",
+      "options": [
+        "IV 0.9% sodium chloride",
+        "IV 5% dextrose",
+        "IV sodium bicarbonate",
+        "IV potassium replacement",
+        "IV insulin bolus"
+      ],
+      "answerIndex": 4,
+      "explanation": "An IV insulin bolus is contraindicated in HHS because it can cause a precipitous drop in plasma glucose and severe hypokalaemia. Insulin is started as a low-dose infusion without a loading dose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dc473c19247c",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "treat",
+      "stem": "A 65-year-old man with HHS has serum potassium 3.1 mmol/L on admission. Which is the most appropriate first step?",
+      "options": [
+        "Start IV insulin infusion at 0.05 units/kg/hr",
+        "Start IV 0.45% sodium chloride",
+        "Start IV 0.9% sodium chloride",
+        "Administer IV potassium replacement",
+        "Administer IV sodium bicarbonate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Potassium replacement is the first step because insulin will drive potassium intracellularly, worsening hypokalaemia. Once K+ is above 3.3 mmol/L, insulin can be safely started.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "273faf21d2c6",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 58-year-old man with no prior history of diabetes presents with a 2-week history of polyuria, polydipsia, and weight loss. Observations: BP 110/70 mmHg, HR 95 bpm, temperature 36.8°C. Bloods: glucose 38 mmol/L, osmolality 325 mOsm/kg, sodium 140 mmol/L, potassium 4.5 mmol/L, ketones negative, pH 7.38, bicarbonate 24 mmol/L. He is alert and oriented. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check urine ketones",
+        "Start IV insulin infusion at 0.1 U/kg/h",
+        "Refer to intensive care unit",
+        "Start IV normal saline 1L over 1 hour",
+        "Give 500 mL 0.45% sodium chloride"
+      ],
+      "answerIndex": 3,
+      "explanation": "In hyperosmolar hyperglycaemic state (HHS), the first priority is fluid repletion with 0.9% saline. Insulin is not started until fluids have been initiated because insulin can cause a rapid fluid shift and worsen haemodynamics. The patient is euvolemic with mild hypotension, so IV fluids are indicated. Urine ketones are already negative, and referral to ITU is not yet needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a9a3df766fe8",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 62-year-old woman with type 2 diabetes on metformin and gliclazide presents with confusion. Observations: GCS 15, BP 125/80 mmHg, HR 90 bpm. Bloods: glucose 28 mmol/L, osmolality 310 mOsm/kg, sodium 145 mmol/L, potassium 4.5 mmol/L, ketones negative, pH 7.40, bicarbonate 24 mmol/L. She is able to tolerate oral fluids. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start insulin sliding scale",
+        "Encourage oral fluids",
+        "Check capillary blood glucose",
+        "Give 1L 0.45% saline over 4 hours",
+        "Start IV 0.9% saline at 500 mL/h"
+      ],
+      "answerIndex": 1,
+      "explanation": "In mild HHS without severe hyperosmolality (osmolality <320 mOsm/kg) and the patient able to drink, oral rehydration is appropriate as per NICE guidance. IV fluids are reserved for those with significant hyperosmolality or inability to drink. Encouraging oral fluids is the least invasive and first-line step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e83db9a6cd5f",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 55-year-old man with type 2 diabetes is found collapsed at home. GCS 13 (E3V4M6), BP 90/60 mmHg, HR 110 bpm. Bloods: glucose 45 mmol/L, osmolality 350 mOsm/kg, sodium 150 mmol/L, potassium 3.8 mmol/L, ketones negative, pH 7.35, bicarbonate 22 mmol/L. What is the single most appropriate immediate next step?",
+      "options": [
+        "Insert urinary catheter",
+        "Start IV normal saline 1L stat",
+        "Give IV sodium bicarbonate",
+        "Start IV insulin at 0.05 U/kg/h",
+        "Perform CT head"
+      ],
+      "answerIndex": 1,
+      "explanation": "In severe HHS with hypotension (BP 90/60), fluid resuscitation with 0.9% saline is the immediate priority. Insulin is initiated after fluids. CT head may be considered later if GCS does not improve, but the initial drop in BP demands urgent fluid replacement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "7801e4a86f06",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 65-year-old woman is being treated for HHS with IV 0.9% saline and IV insulin. After 6 hours, her glucose has fallen from 40 to 15 mmol/L, but osmolality remains at 320 mOsm/kg. She becomes drowsy, GCS dropping from 15 to 12. No focal neurological signs. What is the single most appropriate immediate next step?",
+      "options": [
+        "Check serum osmolality urgently",
+        "Check capillary ketones",
+        "Give 100 mL of 20% mannitol",
+        "Stop insulin and start 10% dextrose",
+        "Perform CT head"
+      ],
+      "answerIndex": 0,
+      "explanation": "A falling GCS during treatment of HHS may indicate too rapid correction of osmolality, risking osmotic demyelination. Urgently checking osmolality allows calculation of the rate of correction and guides further fluid management. CT head may be considered but checking osmolality is more specific to the complication. Mannitol and stopping insulin are not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "3cc528e4ed17",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "next_step",
+      "stem": "A 70-year-old man with type 2 diabetes and CKD stage 3 (eGFR 45 mL/min/1.73m²) is admitted with HHS. His usual medications include metformin and dapagliflozin (SGLT2 inhibitor). He is euvolemic, GCS 15, BP 120/80 mmHg. Bloods: glucose 30 mmol/L, osmolality 315 mOsm/kg, sodium 140 mmol/L, potassium 4.2 mmol/L, ketones negative, pH 7.38. What is the single most appropriate immediate next step?",
+      "options": [
+        "Start IV 0.9% saline at 250 mL/h",
+        "Give 500 mL 0.45% saline",
+        "Check urinary ketones",
+        "Stop dapagliflozin",
+        "Start IV insulin infusion at 0.1 U/kg/h"
+      ],
+      "answerIndex": 3,
+      "explanation": "SGLT2 inhibitors can precipitate euglycaemic diabetic ketoacidosis and also contribute to HHS. They should be temporarily discontinued during acute illness. This patient has only mild hyperosmolality and is euvolemic; oral fluids may suffice but the key immediate action is to stop the precipitating drug.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b467f9ff6ec3",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 72-year-old woman with type 2 diabetes presents with polyuria, polydipsia, and weight loss over 2 weeks. She is alert, blood glucose 46 mmol/L, serum osmolality 340 mOsm/kg, Na 145 mmol/L, K 4.5 mmol/L, pH 7.38, bicarbonate 22 mmol/L. Which single finding indicates that this patient is at high risk of life-threatening deterioration and requires immediate escalation?",
+      "options": [
+        "Alert mental state",
+        "Na > 145 mmol/L",
+        "Absence of ketones",
+        "Serum osmolality > 330 mOsm/kg",
+        "Blood glucose > 40 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "NICE guidelines define a serum osmolality > 330 mOsm/kg as a marker of severe hypertonicity requiring urgent ICU-level care. While glucose > 40 is severe, it is osmolality that best reflects the risk of cerebral oedema and thromboembolism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fdbadb138d98",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 65-year-old man with type 2 diabetes on metformin presents with 3-day history of thirst and lethargy. He is alert and oriented. Blood glucose 32 mmol/L, serum osmolality 310 mOsm/kg, Na 148 mmol/L, K 4.0, pH 7.42. Which laboratory result is a red flag for evolving HHS rather than simple hyperglycaemia?",
+      "options": [
+        "pH 7.42",
+        "K 4.0 mmol/L",
+        "Na 148 mmol/L",
+        "Blood glucose 32 mmol/L",
+        "Serum osmolality 310 mOsm/kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hypernatraemia (Na > 145) reflects significant water loss out of proportion to solute loss, a hallmark of HHS. In the absence of hyperosmolality > 320, hypernatraemia should raise suspicion for evolving HHS and prompt more aggressive fluid replacement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "57ff9c220ac5",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 68-year-old woman is brought to ED with confusion and vomiting. Blood glucose 55 mmol/L, serum osmolality 365 mOsm/kg, Na 158, K 3.8, pH 7.36, bicarbonate 18. She has a history of type 2 diabetes. Which finding is most concerning for an imminent life-threatening complication?",
+      "options": [
+        "Bicarbonate 18 mmol/L",
+        "Na 158 mmol/L",
+        "Vomiting",
+        "Serum osmolality 365 mOsm/kg",
+        "Blood glucose 55 mmol/L"
+      ],
+      "answerIndex": 3,
+      "explanation": "A serum osmolality > 350 mOsm/kg is considered extremely high and associated with a high risk of coma and thromboembolic events. This patient's osmolality of 365 mandates immediate escalation for intensive care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "c7262f33fb89",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "A 70-year-old man with known type 2 diabetes is admitted with HHS. After 12 hours of fluid and insulin therapy, his blood glucose has fallen from 52 to 18 mmol/L, but his serum osmolality remains 340 mOsm/kg. He becomes increasingly drowsy. Which laboratory change should raise suspicion for cerebral oedema?",
+      "options": [
+        "Falling blood glucose",
+        "Worsening hyponatremia",
+        "Persistent hyperosmolality",
+        "Developing ketonuria",
+        "Rising serum potassium"
+      ],
+      "answerIndex": 1,
+      "explanation": "A rapid fall in serum sodium (worsening hyponatremia) during HHS treatment can indicate water shift into brain cells, predisposing to cerebral oedema. NICE recommends monitoring sodium and avoiding a fall of >10 mmol/L in 24 hours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "54d4cf38ff0f",
+      "topic": "Hyperosmolar Hyperglycaemic State (HHS)",
+      "slug": "hyperosmolar-hyperglycaemic-state-(hhs)",
+      "system": "Endocrinology",
+      "subSystem": "Diabetes emergency",
+      "acuity": "EMERGENCY",
+      "angle": "red_flag",
+      "stem": "An 85-year-old nursing home resident with type 2 diabetes is found to have blood glucose 28 mmol/L, serum osmolality 315 mOsm/kg, Na 140, K 4.0, pH 7.40. She is lethargic but no focal neurology. Which single finding should prompt urgent reassessment for possible HHS rather than simple hyperglycaemia?",
+      "options": [
+        "Absence of ketones",
+        "Age > 80 years",
+        "Lethargy",
+        "Blood glucose > 20 mmol/L",
+        "Serum osmolality > 310 mOsm/kg"
+      ],
+      "answerIndex": 4,
+      "explanation": "In elderly patients, even a modest hyperosmolality (> 310) with reduced consciousness can represent early HHS. The osmolality threshold for HHS is > 320, but a borderline value in a symptomatic elderly person warrants urgent assessment.",
+      "difficulty": "medium"
+    }
+  ]
+}
